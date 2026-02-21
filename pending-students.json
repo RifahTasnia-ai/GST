@@ -1,18 +1,1 @@
-[
-  {
-    "studentName": "GST 6.6",
-    "timestamp": "2026-02-21T20:27:28.252Z",
-    "status": "Pending",
-    "answers": {
-      "1": "c",
-      "2": "c",
-      "3": "b",
-      "67": "c",
-      "68": "b"
-    },
-    "currentQuestion": 69,
-    "answeredCount": 5,
-    "totalQuestions": 100,
-    "questionFile": "GST-Admission-2024-25.json"
-  }
-]
+[]
