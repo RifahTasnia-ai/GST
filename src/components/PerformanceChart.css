@@ -1,0 +1,224 @@
+/* =====================================================
+   MOBILE-FIRST PERFORMANCE CHART STYLES
+   ===================================================== */
+
+.performance-chart {
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: var(--shadow-lg);
+    animation: scaleIn 0.4s ease-out 0.3s both;
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.chart-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.chart-canvas {
+    display: block;
+    width: 140px !important;
+    height: 140px !important;
+    animation: rotateIn 0.8s ease-out 0.5s both;
+}
+
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-90deg) scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+    }
+}
+
+.chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadeIn 0.4s ease-out 1s both;
+}
+
+.chart-total {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    line-height: 1;
+}
+
+.chart-label {
+    font-size: 0.75rem;
+    color: var(--gray-600);
+    margin-top: 4px;
+}
+
+.chart-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    animation: slideUp 0.3s ease-out both;
+}
+
+.legend-item:nth-child(1) {
+    animation-delay: 0.6s;
+}
+
+.legend-item:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.legend-item:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.legend-dot.correct {
+    background: #10b981;
+}
+
+.legend-dot.wrong {
+    background: #ef4444;
+}
+
+.legend-dot.unanswered {
+    background: #9ca3af;
+}
+
+.legend-text {
+    font-size: 0.8125rem;
+    color: var(--gray-700);
+    font-weight: 500;
+}
+
+/* ===== MEDIUM MOBILE (481px+) ===== */
+@media (min-width: 481px) {
+    .performance-chart {
+        padding: 18px;
+    }
+
+    .chart-canvas {
+        width: 160px !important;
+        height: 160px !important;
+    }
+
+    .chart-total {
+        font-size: 1.625rem;
+    }
+
+    .legend-text {
+        font-size: 0.875rem;
+    }
+}
+
+/* ===== TABLET (641px+) ===== */
+@media (min-width: 641px) {
+    .performance-chart {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 20px;
+        margin-bottom: 24px;
+    }
+
+    .chart-title {
+        font-size: 1.125rem;
+        margin-bottom: 18px;
+    }
+
+    .chart-canvas {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .chart-center {
+        animation: fadeIn 0.5s ease-out 1.2s both;
+    }
+
+    .chart-total {
+        font-size: 1.75rem;
+    }
+
+    .chart-label {
+        font-size: 0.8125rem;
+    }
+
+    .chart-legend {
+        gap: 12px;
+    }
+
+    .legend-dot {
+        width: 12px;
+        height: 12px;
+    }
+
+    .legend-dot.correct {
+        background: #10b981;
+    }
+
+    .legend-dot.wrong {
+        background: #ef4444;
+    }
+
+    .legend-text {
+        font-size: 0.9375rem;
+    }
+}
+
+/* ===== DESKTOP (1025px+) ===== */
+@media (min-width: 1025px) {
+    .performance-chart {
+        padding: 24px;
+        animation: scaleIn 0.5s ease-out 0.4s both;
+        margin-bottom: 0;
+    }
+
+    .chart-title {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+
+    .chart-canvas {
+        width: 200px !important;
+        height: 200px !important;
+        animation: rotateIn 1s ease-out 0.6s both;
+    }
+
+    .chart-total {
+        font-size: 2rem;
+    }
+
+    .legend-text {
+        font-size: 0.95rem;
+    }
+}

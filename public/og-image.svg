@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.03" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="80" r="200" fill="#3b82f6" opacity="0.12"/>
+  <circle cx="150" cy="550" r="160" fill="#6366f1" opacity="0.10"/>
+  <circle cx="600" cy="315" r="400" fill="#1e40af" opacity="0.06"/>
+
+  <!-- Decorative grid dots -->
+  <g opacity="0.08" fill="white">
+    <circle cx="900" cy="150" r="3"/>
+    <circle cx="940" cy="150" r="3"/>
+    <circle cx="980" cy="150" r="3"/>
+    <circle cx="900" cy="190" r="3"/>
+    <circle cx="940" cy="190" r="3"/>
+    <circle cx="980" cy="190" r="3"/>
+    <circle cx="900" cy="230" r="3"/>
+    <circle cx="940" cy="230" r="3"/>
+    <circle cx="980" cy="230" r="3"/>
+  </g>
+
+  <!-- Logo / Badge -->
+  <rect x="80" y="70" width="120" height="120" rx="24" fill="#2563eb" opacity="0.9"/>
+  <text x="140" y="120" font-family="Arial Black, Arial" font-weight="900" font-size="32" fill="white" text-anchor="middle">GST</text>
+  <text x="140" y="155" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#93c5fd" text-anchor="middle">100</text>
+  <text x="140" y="175" font-family="Arial, sans-serif" font-weight="600" font-size="14" fill="#bfdbfe" text-anchor="middle">MCQ</text>
+
+  <!-- Main Title -->
+  <text x="230" y="120" font-family="Arial Black, Arial" font-weight="900" font-size="68" fill="white" filter="url(#glow)">GST 100MCQ</text>
+  <text x="232" y="162" font-family="Arial, sans-serif" font-weight="400" font-size="26" fill="#93c5fd">Online Practice Exam Platform</text>
+
+  <!-- Divider line -->
+  <rect x="80" y="215" width="320" height="3" rx="2" fill="#3b82f6" opacity="0.8"/>
+
+  <!-- Description -->
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    GST ভর্তি পরীক্ষার প্রস্তুতির জন্য MCQ প্র্যাকটিস প্ল্যাটফর্ম।
+  </text>
+  <text x="80" y="302" font-family="Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    Physics · Chemistry · Biology · Mathematics
+  </text>
+
+  <!-- Stats cards -->
+  <!-- Card 1 -->
+  <rect x="80" y="350" width="240" height="110" rx="16" fill="url(#card)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="200" y="390" font-family="Arial Black, Arial" font-weight="900" font-size="40" fill="#60a5fa" text-anchor="middle">100</text>
+  <text x="200" y="418" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1" text-anchor="middle">প্রশ্ন (Questions)</text>
+  <text x="200" y="442" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">+1 / -0.25 marks</text>
+
+  <!-- Card 2 -->
+  <rect x="340" y="350" width="240" height="110" rx="16" fill="url(#card)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="460" y="390" font-family="Arial Black, Arial" font-weight="900" font-size="40" fill="#34d399" text-anchor="middle">60</text>
+  <text x="460" y="418" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1" text-anchor="middle">মিনিট (Minutes)</text>
+  <text x="460" y="442" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Timed Exam</text>
+
+  <!-- Card 3 -->
+  <rect x="600" y="350" width="240" height="110" rx="16" fill="url(#card)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="720" y="390" font-family="Arial Black, Arial" font-weight="900" font-size="40" fill="#f59e0b" text-anchor="middle">4</text>
+  <text x="720" y="418" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1" text-anchor="middle">বিষয় (Subjects)</text>
+  <text x="720" y="442" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Science Group</text>
+
+  <!-- Card 4 -->
+  <rect x="860" y="350" width="260" height="110" rx="16" fill="url(#card)" stroke="#ffffff" stroke-width="1" stroke-opacity="0.15"/>
+  <text x="990" y="390" font-family="Arial Black, Arial" font-weight="900" font-size="40" fill="#a78bfa" text-anchor="middle">Free</text>
+  <text x="990" y="418" font-family="Arial, sans-serif" font-size="18" fill="#cbd5e1" text-anchor="middle">সম্পূর্ণ বিনামূল্যে</text>
+  <text x="990" y="442" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">No registration</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="570" width="1200" height="60" fill="#000000" opacity="0.35"/>
+  <circle cx="100" cy="600" r="12" fill="#3b82f6"/>
+  <text x="120" y="607" font-family="Arial, sans-serif" font-size="20" fill="#e2e8f0">100gst.vercel.app</text>
+  <text x="950" y="607" font-family="Arial, sans-serif" font-size="18" fill="#64748b">GST Admission Preparation</text>
+</svg>

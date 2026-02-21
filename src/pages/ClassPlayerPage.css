@@ -1,0 +1,389 @@
+/* ─────────────────────────────────────────────────────────────────
+   ClassPlayerPage.css — Full-page video player, Mobile-first
+   ───────────────────────────────────────────────────────────────── */
+
+.cp-page {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    background: var(--slate-50, #f8fafc);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/* ── Sticky Top Bar ───────────────────────────────────────────── */
+.cp-topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 12px;
+    height: 52px;
+    background: #0f172a;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cp-back-btn {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+.cp-back-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.cp-back-btn:active {
+    transform: scale(0.94);
+}
+
+.cp-topbar-title {
+    flex: 1;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cp-topbar-open {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    text-decoration: none;
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+.cp-topbar-open:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* ── Video Embed Area ─────────────────────────────────────────── */
+.cp-video-wrap {
+    width: 100%;
+    background: #000000;
+}
+
+.cp-video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ── THE EMBED IFRAME (Facebook or YouTube) ─────────────────────
+   This iframe is the core of the player page.
+   src is set by getEmbedSrc() in ClassPlayerPage.jsx:
+     YouTube  → https://youtube.com/embed/VIDEO_ID?autoplay=1
+     Facebook → https://facebook.com/plugins/video.php?href=...
+   ───────────────────────────────────────────────────────────── */
+.cp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.cp-embed-error {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* ── Video Info Section ───────────────────────────────────────── */
+.cp-info {
+    background: white;
+    padding: 16px 16px 20px;
+    border-bottom: 1px solid var(--slate-100, #f1f5f9);
+}
+
+.cp-info-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.cp-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.cp-badge-lesson {
+    background: var(--primary-soft, rgba(37, 99, 235, 0.1));
+    color: var(--primary, #2563eb);
+}
+
+.cp-badge-platform {
+    color: white;
+}
+
+.cp-badge-youtube {
+    background: #ef4444;
+}
+
+.cp-badge-facebook {
+    background: #1877f2;
+}
+
+.cp-video-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--slate-900, #0f172a);
+    line-height: 1.4;
+    margin: 0 0 16px;
+}
+
+/* Open on platform button */
+.cp-open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    height: 48px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.15s;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cp-open-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.cp-open-btn:active {
+    transform: scale(0.98);
+}
+
+.cp-open-youtube {
+    background: #ef4444;
+}
+
+.cp-open-facebook {
+    background: #1877f2;
+}
+
+/* ── Divider ──────────────────────────────────────────────────── */
+.cp-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 16px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--slate-500, #64748b);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.cp-divider::before,
+.cp-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--slate-200, #e2e8f0);
+}
+
+/* ── Related Videos ───────────────────────────────────────────── */
+.cp-related {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.cp-related-card {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 12px 16px;
+    background: white;
+    border-bottom: 1px solid var(--slate-100, #f1f5f9);
+    cursor: pointer;
+    transition: background 0.15s;
+    -webkit-tap-highlight-color: transparent;
+    min-height: 72px;
+}
+
+.cp-related-card:first-child {
+    border-top: 1px solid var(--slate-100);
+}
+
+.cp-related-card:not(.cp-related-current):hover {
+    background: var(--slate-50, #f8fafc);
+}
+
+.cp-related-card:not(.cp-related-current):active {
+    background: var(--slate-100);
+}
+
+/* Currently playing card gets a subtle left highlight */
+.cp-related-current {
+    cursor: default;
+    background: rgba(37, 99, 235, 0.04);
+    border-left: 3px solid var(--primary, #2563eb);
+}
+
+/* Related thumbnail */
+.cp-rel-thumb {
+    width: 96px;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cp-rel-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cp-rel-thumb-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cp-rel-thumb-icon svg {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cp-rel-now-badge {
+    position: absolute;
+    inset: 0;
+    background: rgba(37, 99, 235, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+}
+
+/* Related text */
+.cp-rel-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.cp-rel-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--slate-800, #1e293b);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0 0 5px;
+}
+
+.cp-rel-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cp-rel-platform {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.cp-rel-subject {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--slate-400, #94a3b8);
+}
+
+/* ── Not found ────────────────────────────────────────────────── */
+.cp-notfound {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+    text-align: center;
+    color: var(--slate-600);
+}
+
+.cp-notfound button {
+    padding: 10px 24px;
+    border: 1.5px solid var(--primary);
+    border-radius: 12px;
+    background: transparent;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ── Desktop ──────────────────────────────────────────────────── */
+@media (min-width: 481px) {
+    .cp-page {
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    }
+
+    .cp-video-title {
+        font-size: 20px;
+    }
+
+    .cp-rel-thumb {
+        width: 110px;
+    }
+}

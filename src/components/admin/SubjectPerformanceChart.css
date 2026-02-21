@@ -1,0 +1,156 @@
+/* Subject Performance Chart - Compact Styles */
+.subject-performance-chart {
+    margin: 16px 0;
+    padding: 16px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.chart-title {
+    font-size: 15px;
+    margin: 0 0 12px 0;
+    color: #495057;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.chart-icon {
+    font-size: 18px;
+}
+
+/* Grid Layout */
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+/* Compact Card */
+.subject-card-compact {
+    background: white;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    transition: all 0.2s ease;
+}
+
+.subject-card-compact:hover {
+    border-color: #adb5bd;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.subject-header-compact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.subject-name-compact {
+    font-size: 13px;
+    font-weight: 600;
+    color: #343a40;
+}
+
+/* Compact Badge */
+.performance-badge-compact {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+.performance-badge-compact.excellent,
+.performance-badge-compact.good {
+    background: #28a745;
+    /* Green */
+}
+
+.performance-badge-compact.average {
+    background: #ffc107;
+    /* Yellow */
+    color: #343a40;
+}
+
+.performance-badge-compact.poor {
+    background: #dc3545;
+    /* Red */
+}
+
+/* Compact Progress Bar */
+.progress-bar-container-compact {
+    width: 100%;
+    height: 6px;
+    background: #e9ecef;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progress-bar-compact {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.6s ease;
+}
+
+.progress-bar-compact.excellent,
+.progress-bar-compact.good {
+    background: #28a745;
+    /* Green */
+}
+
+.progress-bar-compact.average {
+    background: #ffc107;
+    /* Yellow */
+}
+
+.progress-bar-compact.poor {
+    background: #dc3545;
+    /* Red */
+}
+
+/* Stats Row */
+.stats-row-compact {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #6c757d;
+    padding-top: 4px;
+    border-top: 1px dashed #e9ecef;
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.stat-item.correct {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.stat-item.wrong {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+.stat-item.total {
+    color: #6c757d;
+}
+
+/* Summary */
+.performance-summary {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #dee2e6;
+    font-size: 12px;
+}
+
+.summary-value {
+    font-size: 14px;
+}

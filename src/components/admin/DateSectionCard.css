@@ -1,0 +1,87 @@
+.date-section-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+}
+
+.date-section-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary);
+}
+
+.date-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.date-section-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin: 0;
+}
+
+.date-section-count {
+  background: var(--primary);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.date-section-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.date-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.date-stat-label {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+}
+
+.date-stat-value {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.date-stat-value.pass {
+  color: var(--success);
+}
+
+.date-stat-value.fail {
+  color: var(--error);
+}
+
+.view-date-btn {
+  width: 100%;
+  padding: 10px;
+  background: var(--gray-100);
+  color: var(--gray-700);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.date-section-card:hover .view-date-btn {
+  background: var(--primary);
+  color: white;
+}
+
+

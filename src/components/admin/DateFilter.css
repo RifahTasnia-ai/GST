@@ -1,0 +1,95 @@
+.date-filter {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.date-filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.date-filter-header h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.clear-filter-btn {
+  padding: 6px 12px;
+  background: var(--gray-200);
+  color: var(--gray-700);
+  border: none;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.clear-filter-btn:hover {
+  background: var(--gray-300);
+}
+
+.date-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.date-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 2px solid var(--gray-300);
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.date-btn:hover {
+  border-color: var(--primary);
+  background: var(--gray-50);
+}
+
+.date-btn.active {
+  border-color: var(--primary);
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.date-label {
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.date-count {
+  background: var(--gray-200);
+  color: var(--gray-700);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.date-btn.active .date-count {
+  background: var(--primary);
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .date-buttons {
+    flex-direction: column;
+  }
+  
+  .date-btn {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+
