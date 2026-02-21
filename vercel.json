@@ -4,18 +4,21 @@
   "installCommand": "npm install",
   "framework": "vite",
   "outputDirectory": "dist",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     },
     {
-      "source": "/admin.html",
-      "destination": "/admin"
+      "handle": "filesystem"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/admin.html",
+      "dest": "/admin"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
     }
   ]
 }
