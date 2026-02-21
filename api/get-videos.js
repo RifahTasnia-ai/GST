@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     }
 
     // Local development - read from filesystem
-    if (!process.env.VERCEL_ENV) {
+    if (!process.env.GITHUB_TOKEN) {
         try {
             const filePath = path.join(process.cwd(), FILE_PATH);
             const content = await fs.readFile(filePath, 'utf-8');

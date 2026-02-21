@@ -24,7 +24,7 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: "Videos array required in request body" });
     }
 
-    if (!process.env.VERCEL_ENV) {
+    if (!process.env.GITHUB_TOKEN) {
         try {
             await saveLocally(videos);
             console.log(`Saved ${videos.length} videos locally`);
