@@ -1,61 +1,139 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// videoStore.js — Server-backed video storage for GST Class Videos
-// Used by: AdminPage (write) + ClassVideoPage / ClassPlayerPage (read)
-// ─────────────────────────────────────────────────────────────────────────────
+const YOUTUBE_ID_PATTERN = /^[A-Za-z0-9_-]{11}$/
+const YOUTUBE_HOSTS = new Set([
+    'youtube.com',
+    'www.youtube.com',
+    'm.youtube.com',
+    'music.youtube.com',
+    'youtu.be',
+    'www.youtu.be',
+])
 
-/** Return all saved videos (sorted by createdAt DESC) */
-export async function getVideos() {
+function parseUrl(input) {
+    if (!input || typeof input !== 'string') return null
+    const trimmed = input.trim()
+    if (!trimmed) return null
+
     try {
-        const res = await fetch('/api/get-videos')
-        if (res.ok) {
-            return await res.json()
-        }
-        return []
+        return new URL(trimmed)
     } catch {
-        return []
+        try {
+            return new URL(`https://${trimmed}`)
+        } catch {
+            return null
+        }
     }
+}
+
+function normalizeVideoId(videoId) {
+    if (!videoId || typeof videoId !== 'string') return null
+    const normalized = videoId.trim()
+    return YOUTUBE_ID_PATTERN.test(normalized) ? normalized : null
+}
+
+function getErrorMessage(data, fallback) {
+    if (data && typeof data.error === 'string') return data.error
+    if (data && typeof data.details === 'string') return `${fallback}: ${data.details}`
+    return fallback
+}
+
+/** Return all saved videos from the API */
+export async function getVideos() {
+    const res = await fetch('/api/get-videos')
+    const data = await res.json().catch(() => null)
+
+    if (!res.ok) {
+        throw new Error(getErrorMessage(data, `Failed to load videos (${res.status})`))
+    }
+
+    if (!Array.isArray(data)) {
+        throw new Error('Invalid videos response from server')
+    }
+
+    return data
 }
 
 /** Overwrite entire list */
 export async function saveVideos(videos) {
-    try {
-        await fetch('/api/save-videos', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ videos }),
-        })
-    } catch (err) {
-        console.error('Failed to save videos:', err)
+    const res = await fetch('/api/save-videos', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ videos }),
+    })
+
+    const data = await res.json().catch(() => null)
+    if (!res.ok) {
+        throw new Error(getErrorMessage(data, `Failed to save videos (${res.status})`))
     }
 }
 
-/** Add one video to the list */
+/** Add one video via server-side atomic update */
 export async function addVideo(video) {
-    const existing = await getVideos()
-    await saveVideos([...existing, video])
-}
+    const res = await fetch('/api/add-video', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ video }),
+    })
 
-/** Delete a video by id */
-export async function deleteVideo(id) {
-    const existing = await getVideos()
-    await saveVideos(existing.filter((v) => v.id !== id))
-}
-
-/** Extract YouTube video ID from any YouTube URL format */
-export function getYouTubeId(url) {
-    if (!url) return null
-    const patterns = [
-        /youtu\.be\/([^?&\s]+)/,
-        /youtube\.com\/watch\?v=([^&\s]+)/,
-        /youtube\.com\/embed\/([^?&\s]+)/,
-        /youtube\.com\/shorts\/([^?&\s]+)/,
-        /youtube\.com\/v\/([^?&\s]+)/,
-    ]
-    for (const p of patterns) {
-        const m = url.match(p)
-        if (m) return m[1]
+    const data = await res.json().catch(() => null)
+    if (!res.ok) {
+        throw new Error(getErrorMessage(data, `Failed to add video (${res.status})`))
     }
+}
+
+/** Delete one video via server-side atomic update */
+export async function deleteVideo(id) {
+    const res = await fetch('/api/delete-video', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id }),
+    })
+
+    const data = await res.json().catch(() => null)
+    if (!res.ok) {
+        throw new Error(getErrorMessage(data, `Failed to delete video (${res.status})`))
+    }
+}
+
+/** Extract a valid YouTube video ID from a YouTube URL */
+export function getYouTubeId(input) {
+    const directId = normalizeVideoId(input)
+    if (directId) return directId
+
+    const parsed = parseUrl(input)
+    if (!parsed) return null
+
+    const host = parsed.hostname.toLowerCase()
+    if (!YOUTUBE_HOSTS.has(host)) return null
+
+    if (host.endsWith('youtu.be')) {
+        const [firstPath] = parsed.pathname.split('/').filter(Boolean)
+        return normalizeVideoId(firstPath)
+    }
+
+    const path = parsed.pathname
+
+    if (path === '/watch') {
+        return normalizeVideoId(parsed.searchParams.get('v'))
+    }
+
+    if (path.startsWith('/embed/')) {
+        return normalizeVideoId(path.split('/')[2])
+    }
+
+    if (path.startsWith('/shorts/')) {
+        return normalizeVideoId(path.split('/')[2])
+    }
+
+    if (path.startsWith('/v/')) {
+        return normalizeVideoId(path.split('/')[2])
+    }
+
     return null
+}
+
+/** Canonical YouTube watch URL */
+export function getCanonicalYouTubeWatchUrl(videoId) {
+    return `https://www.youtube.com/watch?v=${videoId}`
 }
 
 /** Build HD thumbnail URL from YouTube video ID */

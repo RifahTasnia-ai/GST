@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { getVideos, addVideo, deleteVideo, getYouTubeId, getYouTubeThumbnail } from '../../utils/videoStore'
+import { getVideos, addVideo, deleteVideo, getYouTubeId, getYouTubeThumbnail, getCanonicalYouTubeWatchUrl } from '../../utils/videoStore'
 import './VideoManageModal.css'
 
 const SUBJECTS = ['Physics', 'Chemistry', 'Mathematics', 'Biology']
@@ -9,6 +9,14 @@ const EMPTY_FORM = {
     youtubeUrl: '',
     subject: 'Physics',
     lesson: '',
+}
+
+function getNextLessonNumber(videoList) {
+    const maxLesson = videoList.reduce((max, video) => {
+        const lesson = Number(video.lesson)
+        return Number.isInteger(lesson) && lesson > max ? lesson : max
+    }, 0)
+    return String(maxLesson + 1)
 }
 
 // YouTube icon
@@ -26,6 +34,7 @@ export default function VideoManageModal({ onClose }) {
     const [errors, setErrors] = useState({})
     const [videos, setVideos] = useState([])
     const [saved, setSaved] = useState(false)
+    const [saveError, setSaveError] = useState(null)
     const [loading, setLoading] = useState(true)
     const [saving, setSaving] = useState(false)
 
@@ -33,9 +42,14 @@ export default function VideoManageModal({ onClose }) {
     useEffect(() => {
         async function load() {
             setLoading(true)
-            const existing = await getVideos()
-            setVideos(existing)
-            setForm(f => ({ ...f, lesson: String(existing.length + 1) }))
+            setSaveError(null)
+            try {
+                const existing = await getVideos()
+                setVideos(existing)
+                setForm(f => ({ ...f, lesson: getNextLessonNumber(existing) }))
+            } catch (err) {
+                setSaveError(err.message || 'Failed to load videos from server')
+            }
             setLoading(false)
         }
         load()
@@ -52,9 +66,11 @@ export default function VideoManageModal({ onClose }) {
 
     const validate = () => {
         const e = {}
+        const lessonNum = Number(form.lesson)
+
         if (!form.title.trim()) e.title = 'Title is required'
         if (!youtubeId) e.youtubeUrl = 'Enter a valid YouTube URL (youtube.com/watch?v=... or youtu.be/...)'
-        if (!form.lesson || isNaN(Number(form.lesson)) || Number(form.lesson) < 1) {
+        if (!Number.isInteger(lessonNum) || lessonNum < 1) {
             e.lesson = 'Enter a valid lesson number'
         }
         setErrors(e)
@@ -65,39 +81,53 @@ export default function VideoManageModal({ onClose }) {
         if (!validate() || saving) return
 
         setSaving(true)
+        setSaveError(null)
+        const lessonNum = Number(form.lesson)
+        const canonicalVideoUrl = getCanonicalYouTubeWatchUrl(youtubeId)
         const newVideo = {
-            id: `vid_${Date.now()}`,
-            lesson: Number(form.lesson),
+            id: `vid_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+            lesson: lessonNum,
             title: form.title.trim(),
             subject: form.subject,
             platform: 'youtube',
-            videoUrl: form.youtubeUrl.trim(),
+            videoUrl: canonicalVideoUrl,
             createdAt: new Date().toISOString(),
             thumbnailUrl: thumbUrl,
         }
 
-        await addVideo(newVideo)
-        const updated = await getVideos()
-        setVideos(updated)
+        try {
+            await addVideo(newVideo)
+            const updated = await getVideos()
+            setVideos(updated)
 
-        // Reset form with next lesson number auto-filled
-        setForm({ ...EMPTY_FORM, subject: form.subject, lesson: String(updated.length + 1) })
-        setErrors({})
+            // Reset form with next lesson number auto-filled
+            setForm({ ...EMPTY_FORM, subject: form.subject, lesson: getNextLessonNumber(updated) })
+            setErrors({})
 
-        // Show success flash
-        setSaving(false)
-        setSaved(true)
-        setTimeout(() => setSaved(false), 2500)
+            // Show success flash
+            setSaved(true)
+            setTimeout(() => setSaved(false), 2500)
+        } catch (err) {
+            setSaveError(err.message || 'Failed to save video to server')
+        } finally {
+            setSaving(false)
+        }
     }
 
     const handleDelete = async (id) => {
         if (!window.confirm('Delete this video?')) return
         setLoading(true)
-        await deleteVideo(id)
-        const updated = await getVideos()
-        setVideos(updated)
-        setForm(f => ({ ...f, lesson: String(updated.length + 1) }))
-        setLoading(false)
+        setSaveError(null)
+        try {
+            await deleteVideo(id)
+            const updated = await getVideos()
+            setVideos(updated)
+            setForm(f => ({ ...f, lesson: getNextLessonNumber(updated) }))
+        } catch (err) {
+            setSaveError(err.message || 'Failed to delete video')
+        } finally {
+            setLoading(false)
+        }
     }
 
     return (
@@ -201,10 +231,15 @@ export default function VideoManageModal({ onClose }) {
                             </div>
                         </div>
 
-                        {/* Success flash */}
+                        {/* Success / Error flash */}
                         {saved && (
                             <div className="vm-success-flash">
                                 ✅ Video saved! It is now visible on the Class page.
+                            </div>
+                        )}
+                        {saveError && (
+                            <div className="vm-error-flash" style={{ padding: '12px', background: '#fef2f2', color: '#ef4444', borderRadius: '8px', border: '1px solid #fecaca', marginBottom: '16px', fontSize: '14px', lineHeight: '1.4' }}>
+                                ❌ <strong>Error:</strong> {saveError}
                             </div>
                         )}
 

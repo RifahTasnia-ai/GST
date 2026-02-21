@@ -71,13 +71,20 @@ function ClassPlayerPage() {
     const navigate = useNavigate()
     const [allVideos, setAllVideos] = useState([])
     const [loading, setLoading] = useState(true)
+    const [loadError, setLoadError] = useState(null)
 
     // Load videos from server
     useEffect(() => {
         async function load() {
             setLoading(true)
-            const vids = await getVideos()
-            setAllVideos(vids)
+            setLoadError(null)
+            try {
+                const vids = await getVideos()
+                setAllVideos(vids)
+            } catch (err) {
+                setAllVideos([])
+                setLoadError(err.message || 'Failed to load videos')
+            }
             setLoading(false)
         }
         load()
@@ -94,7 +101,16 @@ function ClassPlayerPage() {
     if (loading) {
         return (
             <div className="cp-notfound">
-                <p className="bengali">ভিডিও লোড হচ্ছে...</p>
+                <p>Loading videos...</p>
+            </div>
+        )
+    }
+
+    if (loadError) {
+        return (
+            <div className="cp-notfound">
+                <p>{loadError}</p>
+                <button onClick={() => window.location.reload()}>Retry</button>
             </div>
         )
     }
@@ -204,7 +220,7 @@ function ClassPlayerPage() {
                         <span className="bengali">সকল ক্লাস</span>
                     </div>
                     <div className="cp-related">
-                        {allVideos.sort((a, b) => a.lesson - b.lesson).map((v) => (
+                        {allVideos.slice().sort((a, b) => a.lesson - b.lesson).map((v) => (
                             <RelatedCard key={v.id} video={v} isCurrent={v.id === id} />
                         ))}
                     </div>
@@ -217,3 +233,4 @@ function ClassPlayerPage() {
 }
 
 export default ClassPlayerPage
+
