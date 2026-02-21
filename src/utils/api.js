@@ -207,7 +207,7 @@ export async function getActiveQuestionFile() {
 
   let res;
   try {
-    res = await fetch('/api/get-active-question-file', {
+    res = await fetch('/api/active-question', {
       cache: 'no-store'
     })
   } catch (fetchErr) {
@@ -241,11 +241,14 @@ export async function setActiveQuestionFile(fileName) {
   const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   let res;
   try {
-    res = await fetch('/api/set-active-question-file', {
+    res = await fetch('/api/active-question', {
       method: 'POST',
-      headers: withAdminHeaders({ 'Content-Type': 'application/json' }),
+      headers: {
+        'Content-Type': 'application/json',
+        'x-admin-key': getAdminApiKey()
+      },
       body: JSON.stringify({ fileName })
-    })
+    });
   } catch (fetchErr) {
     if (isLocalhost) {
       localStorage.setItem(LOCAL_ACTIVE_FILE_KEY, fileName)
