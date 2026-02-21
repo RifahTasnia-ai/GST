@@ -92,6 +92,7 @@ function VideoRow({ video, onWatch }) {
 function ClassVideoPage() {
     const navigate = useNavigate()
     const [loading, setLoading] = useState(true)
+    const [loadError, setLoadError] = useState(null)
     const [videos, setVideos] = useState([])
     const [activeSubject, setActiveSubject] = useState('All')
     const [searchQuery, setSearchQuery] = useState('')
@@ -101,8 +102,14 @@ function ClassVideoPage() {
     useEffect(() => {
         async function fetchAll() {
             setLoading(true)
-            const vids = await getVideos()
-            setVideos(vids)
+            setLoadError(null)
+            try {
+                const vids = await getVideos()
+                setVideos(vids)
+            } catch (err) {
+                setVideos([])
+                setLoadError(err.message || 'Failed to load videos')
+            }
             setLoading(false)
         }
         fetchAll()
@@ -197,6 +204,13 @@ function ClassVideoPage() {
             <main className="cv-list">
                 {loading ? (
                     <><SkeletonRow /><SkeletonRow /><SkeletonRow /></>
+                ) : loadError ? (
+                    <div className="cv-empty">
+                        <p>{loadError}</p>
+                        <button className="cv-chip cv-chip-active" onClick={() => window.location.reload()}>
+                            Retry
+                        </button>
+                    </div>
                 ) : filtered.length === 0 ? (
                     <div className="cv-empty">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"
