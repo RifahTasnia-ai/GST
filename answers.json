@@ -538,5 +538,9 @@
     "answeredCount": 1,
     "totalQuestions": 100,
     "questionFile": "questions.json"
+  },
+  {
+    "studentName": "API_TEST",
+    "answers": {}
   }
 ]
