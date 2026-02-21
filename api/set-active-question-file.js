@@ -20,12 +20,21 @@ async function validateQuestionFileLocally(fileName) {
 }
 
 async function validateQuestionFileRemote(fileName) {
-    const fileUrl = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/public/${encodeURIComponent(fileName)}`
-    const fileResponse = await fetch(fileUrl, { cache: 'no-store' })
-    if (!fileResponse.ok) {
-        throw new Error('Question file not found')
+    // Use GitHub Contents API with auth instead of raw.githubusercontent (more reliable)
+    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/public/${encodeURIComponent(fileName)}?ref=${BRANCH}`;
+    const headers = {
+        Accept: 'application/vnd.github+json',
+    };
+    if (TOKEN) {
+        headers.Authorization = `Bearer ${TOKEN}`;
     }
-    const questions = await fileResponse.json()
+    const fileResponse = await fetch(url, { headers, cache: 'no-store' })
+    if (!fileResponse.ok) {
+        throw new Error(`Question file not found (GitHub API status: ${fileResponse.status})`)
+    }
+    const data = await fileResponse.json();
+    const decoded = Buffer.from(data.content, 'base64').toString('utf8');
+    const questions = JSON.parse(decoded);
     if (!Array.isArray(questions)) {
         throw new Error('Invalid question file format - must be an array')
     }

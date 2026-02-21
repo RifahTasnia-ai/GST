@@ -120,8 +120,8 @@ export default async function handler(req, res) {
 
     return res.status(200).json({ success: true, serverTimestamp });
   } catch (err) {
-    console.error(err);
-    return res.status(500).json({ error: "Failed to save pending student" });
+    console.error('save-pending-student error:', err);
+    return res.status(500).json({ error: "Failed to save pending student", details: err.message });
   }
 }
 

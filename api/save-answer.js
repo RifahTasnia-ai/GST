@@ -124,8 +124,8 @@ export default async function handler(req, res) {
       wasRenamed: body.studentName !== uniqueName
     });
   } catch (err) {
-    console.error(err);
-    return res.status(500).json({ error: "Failed to save answer" });
+    console.error('save-answer error:', err);
+    return res.status(500).json({ error: "Failed to save answer", details: err.message });
   }
 }
 
