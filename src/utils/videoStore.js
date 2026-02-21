@@ -38,7 +38,7 @@ function getErrorMessage(data, fallback) {
 
 /** Return all saved videos from the API */
 export async function getVideos() {
-    const res = await fetch('/api/get-videos')
+    const res = await fetch('/api/videos')
     const data = await res.json().catch(() => null)
 
     if (!res.ok) {
@@ -68,7 +68,7 @@ export async function saveVideos(videos) {
 
 /** Add one video via server-side atomic update */
 export async function addVideo(video) {
-    const res = await fetch('/api/add-video', {
+    const res = await fetch('/api/videos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ video }),
@@ -82,8 +82,8 @@ export async function addVideo(video) {
 
 /** Delete one video via server-side atomic update */
 export async function deleteVideo(id) {
-    const res = await fetch('/api/delete-video', {
-        method: 'POST',
+    const res = await fetch('/api/videos', {
+        method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id }),
     })
