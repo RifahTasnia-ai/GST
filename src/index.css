@@ -50,10 +50,10 @@
   --slate-900: #0f172a;
 
   /* Brand Colors - Refined */
-  --primary: #2563eb;
-  --primary-dark: #1d4ed8;
-  --primary-light: #3b82f6;
-  --primary-soft: rgba(37, 99, 235, 0.08);
+  --primary: #4f46e5;
+  --primary-dark: #3730a3;
+  --primary-light: #818cf8;
+  --primary-soft: rgba(79, 70, 229, 0.08);
   /* Soft background for active states */
 
   --success: #10b981;

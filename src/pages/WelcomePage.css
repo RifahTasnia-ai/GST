@@ -27,21 +27,21 @@
 }
 
 .welcome-logo-icon {
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
     margin: 0 auto 16px;
-    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #4f46e5;
-    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.12);
+    box-shadow: 0 8px 24px rgba(79, 70, 229, 0.2);
+    overflow: hidden;
 }
 
-.welcome-logo-icon svg {
-    width: 28px;
-    height: 28px;
+.welcome-logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .welcome-page-header h1.gradient-text {
