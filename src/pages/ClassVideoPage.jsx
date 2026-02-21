@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getVideos } from '../utils/videoStore'
+import { getVideos, getYouTubeId, getYouTubeThumbnail } from '../utils/videoStore'
 import './ClassVideoPage.css'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -43,6 +43,8 @@ function YouTubeIcon({ size = 12 }) {
 // Individual Video Row Card
 function VideoRow({ video, onWatch }) {
     const colors = SUBJECT_COLORS[video.subject] || SUBJECT_COLORS.Physics
+    const ytId = getYouTubeId(video.videoUrl)
+    const thumb = video.thumbnailUrl || (ytId ? getYouTubeThumbnail(ytId) : null)
 
     return (
         <div className="cv-row" onClick={() => onWatch(video)} role="button" tabIndex={0}
@@ -51,9 +53,9 @@ function VideoRow({ video, onWatch }) {
 
             {/* Thumbnail */}
             <div className="cv-row-thumb"
-                style={{ background: !video.thumbnailUrl ? colors.bg : undefined }}>
-                {video.thumbnailUrl ? (
-                    <img src={video.thumbnailUrl} alt={video.title} />
+                style={{ background: !thumb ? colors.bg : undefined }}>
+                {thumb ? (
+                    <img src={thumb} alt={video.title} />
                 ) : (
                     <div className="cv-row-thumb-inner">
                         <svg className="cv-row-play-icon" viewBox="0 0 24 24" fill="currentColor">
@@ -82,7 +84,7 @@ function VideoRow({ video, onWatch }) {
                     <path d="M9 18l6-6-6-6" />
                 </svg>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import { getVideos, getYouTubeId, getYouTubeEmbedSrc } from '../utils/videoStore'
+import { getVideos, getYouTubeId, getYouTubeEmbedSrc, getYouTubeThumbnail } from '../utils/videoStore'
 import './ClassPlayerPage.css'
 
 // Subject accent colors
@@ -25,6 +25,8 @@ function YouTubeIcon({ size = 16 }) {
 function RelatedCard({ video, isCurrent }) {
     const navigate = useNavigate()
     const accent = SUBJECT_ACCENT[video.subject] || '#3b82f6'
+    const ytId = getYouTubeId(video.videoUrl)
+    const thumb = video.thumbnailUrl || (ytId ? getYouTubeThumbnail(ytId) : null)
 
     return (
         <div
@@ -36,9 +38,9 @@ function RelatedCard({ video, isCurrent }) {
         >
             {/* Thumbnail */}
             <div className="cp-rel-thumb"
-                style={{ background: !video.thumbnailUrl ? `linear-gradient(135deg, ${accent}33 0%, ${accent}88 100%)` : undefined }}>
-                {video.thumbnailUrl ? (
-                    <img src={video.thumbnailUrl} alt={video.title} />
+                style={{ background: !thumb ? `linear-gradient(135deg, ${accent}33 0%, ${accent}88 100%)` : undefined }}>
+                {thumb ? (
+                    <img src={thumb} alt={video.title} />
                 ) : (
                     <div className="cp-rel-thumb-icon">
                         <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
@@ -58,8 +60,8 @@ function RelatedCard({ video, isCurrent }) {
                     </span>
                     <span className="cp-rel-subject">{video.subject}</span>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
