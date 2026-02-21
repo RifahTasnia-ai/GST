@@ -538,19 +538,5 @@
     "answeredCount": 1,
     "totalQuestions": 100,
     "questionFile": "questions.json"
-  },
-  {
-    "studentName": "Maruf Test",
-    "answers": {
-      "102": "c"
-    },
-    "score": 1,
-    "totalMarks": 100,
-    "timestamp": "2026-02-21T17:56:27.272Z",
-    "attempted": 1,
-    "correct": 1,
-    "wrong": 0,
-    "pass": false,
-    "questionFile": "GST-Model-Test-07.json"
   }
 ]
