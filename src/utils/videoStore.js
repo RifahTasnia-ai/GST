@@ -52,19 +52,6 @@ export async function getVideos() {
     return data
 }
 
-/** Overwrite entire list */
-export async function saveVideos(videos) {
-    const res = await fetch('/api/save-videos', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ videos }),
-    })
-
-    const data = await res.json().catch(() => null)
-    if (!res.ok) {
-        throw new Error(getErrorMessage(data, `Failed to save videos (${res.status})`))
-    }
-}
 
 /** Add one video via server-side atomic update */
 export async function addVideo(video) {
