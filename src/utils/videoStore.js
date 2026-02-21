@@ -6,29 +6,41 @@
 const STORAGE_KEY = 'gst_course_videos'
 
 /** Return all saved videos (sorted by createdAt DESC) */
-export function getVideos() {
+export async function getVideos() {
     try {
-        const raw = localStorage.getItem(STORAGE_KEY)
-        return raw ? JSON.parse(raw) : []
+        const res = await fetch('/api/get-videos')
+        if (res.ok) {
+            return await res.json()
+        }
+        return []
     } catch {
         return []
     }
 }
 
 /** Overwrite entire list */
-export function saveVideos(videos) {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(videos))
+export async function saveVideos(videos) {
+    try {
+        await fetch('/api/save-videos', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ videos }),
+        })
+    } catch (err) {
+        console.error('Failed to save videos:', err)
+    }
 }
 
 /** Add one video to the list */
-export function addVideo(video) {
-    const existing = getVideos()
-    saveVideos([...existing, video])
+export async function addVideo(video) {
+    const existing = await getVideos()
+    await saveVideos([...existing, video])
 }
 
 /** Delete a video by id */
-export function deleteVideo(id) {
-    saveVideos(getVideos().filter((v) => v.id !== id))
+export async function deleteVideo(id) {
+    const existing = await getVideos()
+    await saveVideos(existing.filter((v) => v.id !== id))
 }
 
 /** Extract YouTube video ID from any YouTube URL format */
