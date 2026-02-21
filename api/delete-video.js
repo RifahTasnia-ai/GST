@@ -92,7 +92,7 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: "Video id is required" });
     }
 
-    if (!process.env.VERCEL_ENV) {
+    if (!process.env.GITHUB_TOKEN) {
         try {
             const existing = await readLocalVideos();
             const updated = existing.filter((video) => video.id !== id);
