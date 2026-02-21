@@ -1,9 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// videoStore.js — localStorage-based video storage for GST Class Videos
+// videoStore.js — Server-backed video storage for GST Class Videos
 // Used by: AdminPage (write) + ClassVideoPage / ClassPlayerPage (read)
 // ─────────────────────────────────────────────────────────────────────────────
-
-const STORAGE_KEY = 'gst_course_videos'
 
 /** Return all saved videos (sorted by createdAt DESC) */
 export async function getVideos() {

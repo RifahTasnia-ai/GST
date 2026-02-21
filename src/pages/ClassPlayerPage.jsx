@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { getVideos, getYouTubeId, getYouTubeEmbedSrc } from '../utils/videoStore'
 import './ClassPlayerPage.css'
@@ -69,15 +69,35 @@ function RelatedCard({ video, isCurrent }) {
 function ClassPlayerPage() {
     const { id } = useParams()
     const navigate = useNavigate()
+    const [allVideos, setAllVideos] = useState([])
+    const [loading, setLoading] = useState(true)
 
-    // Read from localStorage (same source as ClassVideoPage)
-    const allVideos = getVideos()
+    // Load videos from server
+    useEffect(() => {
+        async function load() {
+            setLoading(true)
+            const vids = await getVideos()
+            setAllVideos(vids)
+            setLoading(false)
+        }
+        load()
+    }, [])
+
     const video = allVideos.find((v) => v.id === id)
 
     // Scroll to top on video change
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' })
     }, [id])
+
+    // Show loading while fetching from server
+    if (loading) {
+        return (
+            <div className="cp-notfound">
+                <p className="bengali">ভিডিও লোড হচ্ছে...</p>
+            </div>
+        )
+    }
 
     // Video not found
     if (!video) {
