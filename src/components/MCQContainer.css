@@ -1,0 +1,54 @@
+.mcq-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.mcq-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr min(360px, 30vw);
+  gap: var(--spacing-4);
+  padding: var(--spacing-4);
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.question-section {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
+}
+
+/* Wide Desktop (> 1200px) — generous sidebar */
+@media (min-width: 1201px) {
+  .mcq-content {
+    grid-template-columns: 1fr 380px;
+  }
+}
+
+/* ≤ 768px: collapse to single column (QuestionNavigator uses its own mobile FAB/drawer) */
+@media (max-width: 768px) {
+  .mcq-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-3);
+    padding: var(--spacing-3);
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 640px) {
+  .mcq-content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-2);
+    gap: var(--spacing-2-5);
+  }
+
+  .question-section {
+    gap: var(--spacing-2);
+  }
+}

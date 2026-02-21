@@ -1,0 +1,181 @@
+/* =====================================================
+   MOBILE-FIRST ACHIEVEMENT BADGE STYLES
+   ===================================================== */
+
+.achievement-badge {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    padding: var(--spacing-2);
+    border-radius: var(--spacing-2);
+    overflow: hidden;
+    animation: scaleIn 0.4s ease-out 0.2s both;
+    margin-bottom: var(--spacing-2);
+    border: 1px solid var(--slate-200);
+}
+
+.achievement-badge::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--gradient, var(--gradient-primary));
+    opacity: 0.15;
+    z-index: 0;
+}
+
+.achievement-badge::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, transparent 60%);
+    z-index: 0;
+}
+
+.badge-glow {
+    display: none;
+    /* Hidden on mobile for performance */
+}
+
+.badge-icon {
+    position: relative;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--gradient, var(--gradient-primary));
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    animation: bounceIn 0.6s ease-out 0.4s both;
+    box-shadow: var(--shadow-md);
+    border: 2px solid white;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(-180deg);
+    }
+
+    50% {
+        transform: scale(1.1) rotate(10deg);
+    }
+
+    70% {
+        transform: scale(0.9) rotate(-5deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.badge-content {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+}
+
+.badge-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 2px;
+}
+
+.badge-subtitle {
+    font-size: 0.875rem;
+    color: var(--gray-700);
+    font-weight: 500;
+}
+
+/* Badge Type Specific Styles */
+.achievement-badge.gold {
+    --gradient: var(--gradient-gold);
+}
+
+.achievement-badge.gold .badge-icon {
+    animation: bounceIn 0.6s ease-out 0.4s both;
+}
+
+.achievement-badge.silver {
+    --gradient: var(--gradient-silver);
+}
+
+.achievement-badge.bronze {
+    --gradient: var(--gradient-bronze);
+}
+
+.achievement-badge.participation {
+    --gradient: var(--gradient-primary);
+}
+
+/* ===== MEDIUM MOBILE (481px+) ===== */
+@media (min-width: 481px) {
+    .achievement-badge {
+        padding: 18px 20px;
+        gap: 14px;
+        border-radius: 14px;
+    }
+
+    .badge-icon {
+        font-size: 2.5rem;
+    }
+
+    .badge-title {
+        font-size: 1.25rem;
+        margin-bottom: 3px;
+    }
+
+    .badge-subtitle {
+        font-size: 0.9375rem;
+    }
+}
+
+/* ===== TABLET (641px+) ===== */
+@media (min-width: 641px) {
+    .achievement-badge {
+        padding: 20px 24px;
+        gap: 16px;
+        border-radius: 16px;
+        margin-bottom: 20px;
+    }
+
+    .badge-icon {
+        font-size: 3rem;
+    }
+
+    .badge-title {
+        font-size: 1.375rem;
+        margin-bottom: 4px;
+    }
+
+    .badge-subtitle {
+        font-size: 1rem;
+    }
+
+
+
+
+}
+
+/* ===== DESKTOP (1025px+) ===== */
+@media (min-width: 1025px) {
+    .achievement-badge {
+        padding: 20px 24px;
+        margin-bottom: 24px;
+    }
+
+    .badge-icon {
+        font-size: 3.5rem;
+    }
+
+    .badge-title {
+        font-size: 1.5rem;
+    }
+}

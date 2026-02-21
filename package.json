@@ -1,0 +1,32 @@
+{
+  "name": "80-mcq-exam-system",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:vercel": "vercel dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "npm@10.0.0",
+  "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/noto-sans-bengali": "^5.2.11",
+    "html2canvas": "^1.4.1",
+    "katex": "^0.16.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-katex": "^3.1.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "sharp": "^0.34.5",
+    "vite": "^5.0.8"
+  }
+}

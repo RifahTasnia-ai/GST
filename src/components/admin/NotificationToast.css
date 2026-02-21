@@ -1,0 +1,77 @@
+.notification-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.notification-content {
+  background: white;
+  border-radius: 8px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 300px;
+  border-left: 4px solid;
+}
+
+.notification-toast.success .notification-content {
+  border-left-color: var(--success);
+}
+
+.notification-toast.error .notification-content {
+  border-left-color: var(--error);
+}
+
+.notification-message {
+  flex: 1;
+  font-weight: 600;
+  color: var(--gray-900);
+}
+
+.notification-close {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: var(--gray-500);
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.notification-close:hover {
+  background: var(--gray-100);
+}
+
+@media (max-width: 640px) {
+  .notification-toast {
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+  }
+  
+  .notification-content {
+    min-width: auto;
+  }
+}
+
+

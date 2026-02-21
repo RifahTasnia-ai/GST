@@ -1,0 +1,144 @@
+.start-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-3);
+  background: transparent;
+  /* Rely on global background */
+}
+
+.start-card {
+  background: white;
+  /* Fallback */
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-4);
+  max-width: 480px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  text-align: center;
+  animation: slideUp 0.5s ease-out;
+}
+
+/* Header Compactness */
+.start-card h1 {
+  font-size: 1.75rem;
+  /* Scales nicely */
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--slate-800);
+  margin-bottom: var(--spacing-3);
+}
+
+.exam-info {
+  background: var(--slate-50);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3);
+  margin-bottom: var(--spacing-4);
+  border: 1px solid var(--slate-200);
+}
+
+.exam-info p {
+  margin: 4px 0;
+  color: var(--slate-600);
+  font-size: var(--font-sm);
+  font-weight: 500;
+  line-height: normal;
+  /* Tighten line height */
+}
+
+.start-card form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
+  text-align: left;
+}
+
+.start-card label {
+  font-weight: 600;
+  color: var(--slate-700);
+  font-size: var(--font-sm);
+  margin-left: 2px;
+}
+
+.start-card input {
+  width: 100%;
+  padding: 10px 14px;
+  /* More compact padding */
+  border: 1px solid var(--slate-300);
+  /* Slightly refined border */
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  /* Must remain 16px for iOS */
+  transition: all 0.2s;
+  background: white;
+  color: var(--slate-900);
+}
+
+.start-card input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
+.start-card input::placeholder {
+  color: var(--slate-400);
+}
+
+.primary-btn {
+  padding: 14px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  margin-top: var(--spacing-2);
+}
+
+.primary-btn:hover {
+  background: #15803d;
+  transform: translateY(-1px);
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+}
+
+.hint {
+  text-align: center;
+  color: var(--slate-500);
+  font-size: 0.7rem;
+  /* Smaller hint */
+  margin-top: var(--spacing-2);
+}
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+  .start-screen {
+    padding: var(--spacing-2);
+    align-items: flex-start;
+    /* Move to top on mobile for keyboard space */
+    padding-top: 5vh;
+    /* Reduce top whitespace */
+  }
+
+  .start-card {
+    padding: var(--spacing-3);
+    box-shadow: var(--shadow-md);
+  }
+
+  .start-card h1 {
+    font-size: 1.5rem;
+    /* Smaller title on mobile */
+    margin-bottom: var(--spacing-2);
+  }
+}

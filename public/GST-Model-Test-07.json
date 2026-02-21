@@ -1,0 +1,1602 @@
+[
+    {
+        "id": 101,
+        "subject": "Physics",
+        "question": "একটি 5 Ω রোধে 2 A ধারা প্রবাহিত হলে রোধে বিভবপতন কত?",
+        "options": {
+            "a": "2 V",
+            "b": "5 V",
+            "c": "10 V",
+            "d": "20 V"
+        },
+        "correctAnswer": "c",
+        "explanation": "V = IR = 2×5 = 10 V।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Current Electricity: Ohm’s Law (V=IR)"
+    },
+    {
+        "id": 102,
+        "subject": "Physics",
+        "question": "একটি বস্তুর ভর 3 kg এবং বেগ 4 m/s হলে গতিশক্তি কত?",
+        "options": {
+            "a": "6 J",
+            "b": "12 J",
+            "c": "24 J",
+            "d": "48 J"
+        },
+        "correctAnswer": "c",
+        "explanation": "K = (1/2)mv^2 = 0.5×3×16 = 24 J।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Work & Energy: Kinetic Energy"
+    },
+    {
+        "id": 103,
+        "subject": "Physics",
+        "question": "একটি বস্তু 30 m উচ্চতা থেকে পড়ে। g = 10 m/s^2 হলে মাটিতে পড়তে সময় কত?",
+        "options": {
+            "a": "1 s",
+            "b": "2 s",
+            "c": "3 s",
+            "d": "6 s"
+        },
+        "correctAnswer": "c",
+        "explanation": "s = (1/2)gt^2 ⇒ 30 = 5t^2 ⇒ t^2=6 ⇒ t≈2.45 s (নিকটতম 3 s)।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Kinematics: Free Fall"
+    },
+    {
+        "id": 104,
+        "subject": "Physics",
+        "question": "একটি 4 µF ধারকে 50 V বিভব প্রয়োগ করলে সঞ্চিত শক্তি কত?",
+        "options": {
+            "a": "0.002 J",
+            "b": "0.005 J",
+            "c": "0.01 J",
+            "d": "0.5 J"
+        },
+        "correctAnswer": "b",
+        "explanation": "E = (1/2)CV^2 = 0.5×4×10^-6×2500 = 0.005 J।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Capacitance: Energy Stored"
+    },
+    {
+        "id": 105,
+        "subject": "Physics",
+        "question": "দুটি বল 3 N ও 4 N পরস্পর লম্বভাবে ক্রিয়া করলে লব্ধি বল কত?",
+        "options": {
+            "a": "1 N",
+            "b": "5 N",
+            "c": "7 N",
+            "d": "12 N"
+        },
+        "correctAnswer": "b",
+        "explanation": "R = √(3^2+4^2)=5 N।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Vectors: Resultant of Perpendicular Forces"
+    },
+    {
+        "id": 106,
+        "subject": "Physics",
+        "question": "একটি সরল দোলকের দৈর্ঘ্য 4 গুণ করলে পর্যায়কাল কী হবে?",
+        "options": {
+            "a": "অর্ধেক",
+            "b": "দ্বিগুণ",
+            "c": "চারগুণ",
+            "d": "অপরিবর্তিত"
+        },
+        "correctAnswer": "b",
+        "explanation": "T ∝ √L; L 4 গুণ ⇒ T √4=2 গুণ।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "SHM: Pendulum Period Dependence"
+    },
+    {
+        "id": 107,
+        "subject": "Physics",
+        "question": "একটি রশ্মি কাঁচ (n=1.5) থেকে বায়ুতে গেলে সমালোচন কোণ কত? (sinθc = 1/n)",
+        "options": {
+            "a": "30°",
+            "b": "42°",
+            "c": "48°",
+            "d": "60°"
+        },
+        "correctAnswer": "b",
+        "explanation": "sinθc=1/1.5=0.666… ⇒ θc≈41.8° ≈ 42°।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Optics: Critical Angle"
+    },
+    {
+        "id": 108,
+        "subject": "Physics",
+        "question": "একটি কণা চৌম্বক ক্ষেত্র B তে v বেগে লম্বভাবে চললে চৌম্বক বলের মান কত?",
+        "options": {
+            "a": "qv/B",
+            "b": "qB/v",
+            "c": "qvB",
+            "d": "q/Bv"
+        },
+        "correctAnswer": "c",
+        "explanation": "F = qvB (v ⟂ B হলে)।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Magnetism: Lorentz Force (Magnitude)"
+    },
+    {
+        "id": 109,
+        "subject": "Physics",
+        "question": "একটি আদর্শ গ্যাসে তাপমাত্রা স্থির রেখে আয়তন 2 গুণ করলে চাপ কী হবে?",
+        "options": {
+            "a": "2 গুণ হবে",
+            "b": "অর্ধেক হবে",
+            "c": "4 গুণ হবে",
+            "d": "অপরিবর্তিত থাকবে"
+        },
+        "correctAnswer": "b",
+        "explanation": "PV = ধ্রুব (T স্থির), V দ্বিগুণ ⇒ P অর্ধেক।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Thermodynamics: Boyle’s Law"
+    },
+    {
+        "id": 110,
+        "subject": "Physics",
+        "question": "একটি তরঙ্গের কম্পাঙ্ক 200 Hz এবং বেগ 400 m/s হলে তরঙ্গদৈর্ঘ্য কত?",
+        "options": {
+            "a": "0.5 m",
+            "b": "1 m",
+            "c": "2 m",
+            "d": "4 m"
+        },
+        "correctAnswer": "c",
+        "explanation": "λ = v/f = 400/200 = 2 m।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Waves: Wavelength"
+    },
+    {
+        "id": 111,
+        "subject": "Physics",
+        "question": "একটি বস্তু 20 m/s বেগে 30° কোণে নিক্ষেপ করা হলো (g=10)। আনুমানিক পরিসীমা কত?",
+        "options": {
+            "a": "20 m",
+            "b": "34.6 m",
+            "c": "40 m",
+            "d": "69.3 m"
+        },
+        "correctAnswer": "b",
+        "explanation": "R = u^2 sin2θ / g = 400×sin60°/10 = 40×0.866 ≈ 34.6 m।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Projectile Motion: Range"
+    },
+    {
+        "id": 112,
+        "subject": "Physics",
+        "question": "রোধক R এ তাপ উৎপাদনের হার (Power) কোন সূত্রে প্রকাশিত?",
+        "options": {
+            "a": "P = IR",
+            "b": "P = I/R",
+            "c": "P = I^2R",
+            "d": "P = R^2/I"
+        },
+        "correctAnswer": "c",
+        "explanation": "Joule heating: P = I^2R।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Current Electricity: Joule’s Law"
+    },
+    {
+        "id": 113,
+        "subject": "Physics",
+        "question": "নিচের চিত্রে R1 ও R2 সমান্তরাল। সমতুল্য রোধ কোনটি?",
+        "options": {
+            "a": "R1+R2",
+            "b": "R1−R2",
+            "c": "R1R2/(R1+R2)",
+            "d": "(R1+R2)/2"
+        },
+        "correctAnswer": "c",
+        "explanation": "সমান্তরালে 1/Req = 1/R1 + 1/R2 ⇒ Req = R1R2/(R1+R2)।",
+        "hasDiagram": true,
+        "svg_code": "<svg xmlns='http://www.w3.org/2000/svg' width='220' height='100'><line x1='20' y1='20' x2='200' y2='20' stroke='black'/><line x1='20' y1='80' x2='200' y2='80' stroke='black'/><line x1='20' y1='20' x2='20' y2='80' stroke='black'/><line x1='200' y1='20' x2='200' y2='80' stroke='black'/><rect x='70' y='30' width='40' height='20' fill='none' stroke='black'/><text x='78' y='45' font-size='10'>R1</text><rect x='120' y='50' width='40' height='20' fill='none' stroke='black'/><text x='128' y='65' font-size='10'>R2</text></svg>",
+        "topic": "Current Electricity: Parallel Resistance Formula"
+    },
+    {
+        "id": 114,
+        "subject": "Chemistry",
+        "question": "2 mol H2 এবং 1 mol O2 বিক্রিয়ায় (2H2 + O2 → 2H2O) সীমাবদ্ধ বিকারক কোনটি?",
+        "options": {
+            "a": "H2",
+            "b": "O2",
+            "c": "দুইটাই সমান",
+            "d": "H2O"
+        },
+        "correctAnswer": "c",
+        "explanation": "স্টইকিওমেট্রি অনুযায়ী 2 mol H2 এর জন্য 1 mol O2 দরকার—ঠিক আছে, তাই সীমাবদ্ধ নয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Stoichiometry: Limiting Reagent"
+    },
+    {
+        "id": 115,
+        "subject": "Chemistry",
+        "question": "CaO + H2O → Ca(OH)2 বিক্রিয়াটি কী ধরনের?",
+        "options": {
+            "a": "বিয়োজন",
+            "b": "যোজন/সংযোজন",
+            "c": "দ্বিস্থাপন",
+            "d": "অক্সিডেশন-রিডাকশন"
+        },
+        "correctAnswer": "b",
+        "explanation": "দুটি পদার্থ মিলিত হয়ে একটি যৌগ গঠন ⇒ যোজন বিক্রিয়া।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Reaction Type: Combination Reaction"
+    },
+    {
+        "id": 116,
+        "subject": "Chemistry",
+        "question": "কোনটি সবচেয়ে শক্তিশালী জারক (oxidizing agent) হিসেবে কাজ করতে পারে?",
+        "options": {
+            "a": "Na",
+            "b": "Cl2",
+            "c": "H2",
+            "d": "CH4"
+        },
+        "correctAnswer": "b",
+        "explanation": "Cl2 ইলেকট্রন গ্রহণ করে সহজে Cl− হয়, তাই শক্তিশালী জারক।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Redox: Oxidizing Agent"
+    },
+    {
+        "id": 117,
+        "subject": "Chemistry",
+        "question": "কোনটি ইলেক্ট্রোলাইট (জলে আয়নে বিভক্ত হয়)?",
+        "options": {
+            "a": "C6H12O6",
+            "b": "NaCl",
+            "c": "CCl4",
+            "d": "CH4"
+        },
+        "correctAnswer": "b",
+        "explanation": "NaCl → Na+ + Cl− (জলে)।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electrolytes: Ionic Dissociation"
+    },
+    {
+        "id": 118,
+        "subject": "Chemistry",
+        "question": "কোন যৌগে কার্বন sp2 হাইব্রিডাইজড?",
+        "options": {
+            "a": "CH4",
+            "b": "C2H4",
+            "c": "C2H6",
+            "d": "C2H2"
+        },
+        "correctAnswer": "b",
+        "explanation": "C2H4 (অ্যালকিন) এ C=C ⇒ sp2।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Chemical Bonding: Hybridization (sp2)"
+    },
+    {
+        "id": 119,
+        "subject": "Chemistry",
+        "question": "0.5 mol দ্রব পদার্থ 2 L দ্রবণে থাকলে মোলারিটি কত?",
+        "options": {
+            "a": "0.25 M",
+            "b": "0.5 M",
+            "c": "1.0 M",
+            "d": "2.0 M"
+        },
+        "correctAnswer": "a",
+        "explanation": "M = n/V = 0.5/2 = 0.25 M।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Solutions: Molarity"
+    },
+    {
+        "id": 120,
+        "subject": "Chemistry",
+        "question": "সমতা বিক্রিয়ায় তাপ উৎপন্ন হলে তাপমাত্রা বাড়ালে সমতা কোন দিকে সরে? (Le Chatelier)",
+        "options": {
+            "a": "অগ্রগামী দিকে",
+            "b": "প্রতিক্রিয়ক দিকে",
+            "c": "কোনও পরিবর্তন নয়",
+            "d": "চাপের উপর নির্ভর"
+        },
+        "correctAnswer": "b",
+        "explanation": "উষ্মাঘটিত বিক্রিয়ায় তাপ বাড়ালে সমতা তাপ শোষণকারী (উল্টো) দিকে সরে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Equilibrium: Le Chatelier (Temperature)"
+    },
+    {
+        "id": 121,
+        "subject": "Chemistry",
+        "question": "অ্যাসিটিক অ্যাসিড (CH3COOH) এর সমযুগ্ম ক্ষার (conjugate base) কোনটি?",
+        "options": {
+            "a": "CH3COO−",
+            "b": "CH3CO+",
+            "c": "H3O+",
+            "d": "OH−"
+        },
+        "correctAnswer": "a",
+        "explanation": "অ্যাসিড থেকে H+ অপসারণ করলে conjugate base: CH3COO−।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Acid-Base: Conjugate Pair"
+    },
+    {
+        "id": 122,
+        "subject": "Chemistry",
+        "question": "ইথিন (C2H4) এ Br2 যোগ করলে কী ধরনের বিক্রিয়া ঘটে?",
+        "options": {
+            "a": "Substitution",
+            "b": "Addition",
+            "c": "Elimination",
+            "d": "Polymerization only"
+        },
+        "correctAnswer": "b",
+        "explanation": "ডাবল বন্ডে Br2 যোগ হয় ⇒ Addition reaction।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic: Addition Reaction of Alkenes"
+    },
+    {
+        "id": 123,
+        "subject": "Chemistry",
+        "question": "কোনটি অ্যাম্ফোটেরিক অক্সাইড?",
+        "options": {
+            "a": "Na2O",
+            "b": "CO2",
+            "c": "Al2O3",
+            "d": "SO3"
+        },
+        "correctAnswer": "c",
+        "explanation": "Al2O3 অ্যাসিড ও ক্ষার—উভয়ের সাথেই বিক্রিয়া করে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Inorganic: Amphoteric Oxide"
+    },
+    {
+        "id": 124,
+        "subject": "Chemistry",
+        "question": "নিচের কোনটি ‘প্রাইমারি অ্যালকোহল’?",
+        "options": {
+            "a": "CH3OH",
+            "b": "(CH3)2CHOH",
+            "c": "(CH3)3COH",
+            "d": "C6H5OH"
+        },
+        "correctAnswer": "a",
+        "explanation": "CH3OH এ OH যুক্ত কার্বন কোনো অন্য কার্বনের সাথে যুক্ত নয় ⇒ প্রাইমারি।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic: Classification of Alcohols"
+    },
+    {
+        "id": 125,
+        "subject": "Chemistry",
+        "question": "একটি বিক্রিয়ায় Δn = 0 হলে Kp ও Kc এর সম্পর্ক কী?",
+        "options": {
+            "a": "Kp = KcRT",
+            "b": "Kp = Kc",
+            "c": "Kp = Kc/RT",
+            "d": "Kp = Kc + RT"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kp = Kc(RT)^Δn; Δn=0 ⇒ Kp=Kc।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Equilibrium: Kp-Kc (Δn=0)"
+    },
+    {
+        "id": 126,
+        "subject": "Chemistry",
+        "question": "কোনটি সঠিক: অ্যানোডে কী ঘটে?",
+        "options": {
+            "a": "Reduction",
+            "b": "Oxidation",
+            "c": "Neutralization",
+            "d": "Precipitation"
+        },
+        "correctAnswer": "b",
+        "explanation": "অ্যানোডে Oxidation ঘটে (ইলেকট্রন ত্যাগ)।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electrochemistry: Anode Process"
+    },
+    {
+        "id": 127,
+        "subject": "Math",
+        "question": "যদি a=2, b=3 হয় তবে (a+b)^2 এর মান কত?",
+        "options": {
+            "a": "25",
+            "b": "16",
+            "c": "9",
+            "d": "49"
+        },
+        "correctAnswer": "a",
+        "explanation": "(2+3)^2=25।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Algebra: Expansion (a+b)^2"
+    },
+    {
+        "id": 128,
+        "subject": "Math",
+        "question": "lim(x→0) (sin x)/x এর মান কত? (x রেডিয়ান)",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "∞",
+            "d": "-1"
+        },
+        "correctAnswer": "b",
+        "explanation": "স্ট্যান্ডার্ড লিমিট: lim(x→0) sinx/x = 1।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus: Standard Limit"
+    },
+    {
+        "id": 129,
+        "subject": "Math",
+        "question": "y = 3x^2 − 4x + 1 হলে dy/dx কত?",
+        "options": {
+            "a": "6x − 4",
+            "b": "6x + 4",
+            "c": "3x − 4",
+            "d": "6x^2 − 4"
+        },
+        "correctAnswer": "a",
+        "explanation": "dy/dx = 6x − 4।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus: Differentiation of Polynomial"
+    },
+    {
+        "id": 130,
+        "subject": "Math",
+        "question": "∫ (1/x) dx এর ফলাফল কী?",
+        "options": {
+            "a": "x + C",
+            "b": "ln|x| + C",
+            "c": "1/x + C",
+            "d": "x^2/2 + C"
+        },
+        "correctAnswer": "b",
+        "explanation": "∫(1/x)dx = ln|x| + C।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus: Logarithmic Integral"
+    },
+    {
+        "id": 131,
+        "subject": "Math",
+        "question": "একটি সেটে 5টি উপাদান থাকলে উপসেট সংখ্যা কত?",
+        "options": {
+            "a": "5",
+            "b": "10",
+            "c": "25",
+            "d": "32"
+        },
+        "correctAnswer": "d",
+        "explanation": "উপসেট সংখ্যা = 2^n = 2^5 = 32।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Set Theory: Number of Subsets"
+    },
+    {
+        "id": 132,
+        "subject": "Math",
+        "question": "একটি কয়েন 3 বার ছুঁড়লে ঠিক 2 বার হেড পাওয়ার সম্ভাবনা কত?",
+        "options": {
+            "a": "1/8",
+            "b": "3/8",
+            "c": "1/2",
+            "d": "5/8"
+        },
+        "correctAnswer": "b",
+        "explanation": "C(3,2)/2^3 = 3/8।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Probability: Binomial Distribution Basics"
+    },
+    {
+        "id": 133,
+        "subject": "Math",
+        "question": "একটি ত্রিভুজের ক্ষেত্রফল 1/2 × ভূমি × উচ্চতা। ভূমি 10 ও উচ্চতা 6 হলে ক্ষেত্রফল কত?",
+        "options": {
+            "a": "16",
+            "b": "30",
+            "c": "60",
+            "d": "20"
+        },
+        "correctAnswer": "b",
+        "explanation": "A = (1/2)×10×6=30।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Geometry: Triangle Area"
+    },
+    {
+        "id": 134,
+        "subject": "Math",
+        "question": "ভেক্টর i + j এর মান (magnitude) কত?",
+        "options": {
+            "a": "1",
+            "b": "√2",
+            "c": "2",
+            "d": "0"
+        },
+        "correctAnswer": "b",
+        "explanation": "|i+j| = √(1^2+1^2)=√2।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Vectors: Magnitude"
+    },
+    {
+        "id": 135,
+        "subject": "Math",
+        "question": "দুটি সরলরেখা পরস্পর লম্ব হলে তাদের ঢাল m1 ও m2 এর সম্পর্ক কী?",
+        "options": {
+            "a": "m1 = m2",
+            "b": "m1m2 = 1",
+            "c": "m1m2 = -1",
+            "d": "m1 + m2 = 0"
+        },
+        "correctAnswer": "c",
+        "explanation": "Perpendicular lines: m1m2 = −1।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Coordinate Geometry: Perpendicular Slopes"
+    },
+    {
+        "id": 136,
+        "subject": "Math",
+        "question": "z = 1 − i হলে z এর জটিল যুগ্ম (conjugate) কোনটি?",
+        "options": {
+            "a": "1 + i",
+            "b": "-1 + i",
+            "c": "-1 - i",
+            "d": "1 - i"
+        },
+        "correctAnswer": "a",
+        "explanation": "a−bi এর conjugate = a+bi ⇒ 1+i।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Complex Number: Conjugate"
+    },
+    {
+        "id": 137,
+        "subject": "Math",
+        "question": "2×2 ম্যাট্রিক্স [[a,b],[c,d]] এর determinant কত?",
+        "options": {
+            "a": "ad + bc",
+            "b": "ad − bc",
+            "c": "ab − cd",
+            "d": "a+d"
+        },
+        "correctAnswer": "b",
+        "explanation": "det = ad − bc।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Matrices: Determinant Formula"
+    },
+    {
+        "id": 138,
+        "subject": "Math",
+        "question": "একটি বৃত্তের পরিধি 2πr। r=7 হলে পরিধি কত?",
+        "options": {
+            "a": "7π",
+            "b": "14π",
+            "c": "21π",
+            "d": "49π"
+        },
+        "correctAnswer": "b",
+        "explanation": "C=2πr=2π×7=14π।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Geometry: Circumference of Circle"
+    },
+    {
+        "id": 139,
+        "subject": "Biology",
+        "question": "ক্লোরোপ্লাস্টের কোন অংশে আলোক বিক্রিয়া ঘটে?",
+        "options": {
+            "a": "স্ট্রোমা",
+            "b": "থাইলাকয়েড ঝিল্লি",
+            "c": "নিউক্লিয়াস",
+            "d": "রাইবোসোম"
+        },
+        "correctAnswer": "b",
+        "explanation": "আলোক বিক্রিয়া থাইলাকয়েড ঝিল্লিতে হয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Photosynthesis: Site of Light Reaction"
+    },
+    {
+        "id": 140,
+        "subject": "Biology",
+        "question": "ক্যালভিন চক্র (ডার্ক রিঅ্যাকশন) প্রধানত কী উৎপন্ন করে?",
+        "options": {
+            "a": "ATP",
+            "b": "NADPH",
+            "c": "শর্করা (কার্বোহাইড্রেট)",
+            "d": "অক্সিজেন"
+        },
+        "correctAnswer": "c",
+        "explanation": "ক্যালভিন চক্রে CO2 স্থিতিকরণ হয়ে শর্করা তৈরির পথ তৈরি হয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Photosynthesis: Calvin Cycle Outcome"
+    },
+    {
+        "id": 141,
+        "subject": "Biology",
+        "question": "রক্তে অক্সিজেনের সাথে যুক্ত হয়ে প্রধানত কোন রূপে বহন হয়?",
+        "options": {
+            "a": "প্লাজমায় দ্রবীভূত",
+            "b": "অক্সিহিমোগ্লোবিন",
+            "c": "কার্বামিনো হিমোগ্লোবিন",
+            "d": "কার্বনিক অ্যাসিড"
+        },
+        "correctAnswer": "b",
+        "explanation": "O2 প্রধানত Hb এর সাথে যুক্ত হয়ে oxyhemoglobin হিসেবে থাকে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Oxygen Transport"
+    },
+    {
+        "id": 142,
+        "subject": "Biology",
+        "question": "DNA প্রতিলিপি (Replication) এর জন্য মূল এনজাইম কোনটি?",
+        "options": {
+            "a": "RNA polymerase",
+            "b": "DNA polymerase",
+            "c": "Ligase only",
+            "d": "Pepsin"
+        },
+        "correctAnswer": "b",
+        "explanation": "DNA polymerase নতুন DNA strand তৈরি করে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Molecular Biology: DNA Replication Enzyme"
+    },
+    {
+        "id": 143,
+        "subject": "Biology",
+        "question": "মানবদেহে পিত্ত (bile) কোন অঙ্গ থেকে নিঃসৃত হয়?",
+        "options": {
+            "a": "অগ্ন্যাশয়",
+            "b": "যকৃত",
+            "c": "পিত্তথলি",
+            "d": "কিডনি"
+        },
+        "correctAnswer": "b",
+        "explanation": "পিত্ত যকৃতে তৈরি হয়, পিত্তথলিতে সঞ্চিত থাকে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Bile Secretion"
+    },
+    {
+        "id": 144,
+        "subject": "Biology",
+        "question": "একটি এনজাইমের কার্যক্ষমতা সবচেয়ে বেশি থাকে কোন অবস্থায়?",
+        "options": {
+            "a": "খুব বেশি তাপমাত্রায় সবসময়",
+            "b": "অপ্টিমাম তাপমাত্রা ও pH তে",
+            "c": "শূন্য ডিগ্রিতে",
+            "d": "খুব বেশি লবণ ঘনত্বে"
+        },
+        "correctAnswer": "b",
+        "explanation": "এনজাইমের নির্দিষ্ট optimum temperature ও pH থাকে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Biochemistry: Enzyme Optimum Conditions"
+    },
+    {
+        "id": 145,
+        "subject": "Biology",
+        "question": "মিয়োসিসের ফলে কন্যা কোষে ক্রোমোজোম সংখ্যা কী হয়?",
+        "options": {
+            "a": "দ্বিগুণ",
+            "b": "অপরিবর্তিত",
+            "c": "অর্ধেক",
+            "d": "চারগুণ"
+        },
+        "correctAnswer": "c",
+        "explanation": "Meiosis হলো reduction division ⇒ n হয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Cell Division: Meiosis (Reduction)"
+    },
+    {
+        "id": 146,
+        "subject": "Biology",
+        "question": "মানবদেহে ইমিউন প্রতিক্রিয়ায় অ্যান্টিবডি তৈরি করে কোন কোষ?",
+        "options": {
+            "a": "RBC",
+            "b": "B-লিম্ফোসাইট",
+            "c": "নিউরন",
+            "d": "প্লেটলেট"
+        },
+        "correctAnswer": "b",
+        "explanation": "B-cell প্লাজমা সেলে রূপান্তরিত হয়ে অ্যান্টিবডি উৎপন্ন করে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Immunology: Antibody Production"
+    },
+    {
+        "id": 147,
+        "subject": "Biology",
+        "question": "একটি জনসংখ্যায় Hardy-Weinberg অনুযায়ী যদি p=0.7 হয়, তবে q কত?",
+        "options": {
+            "a": "0.7",
+            "b": "0.3",
+            "c": "1.4",
+            "d": "0.49"
+        },
+        "correctAnswer": "b",
+        "explanation": "p+q=1 ⇒ q=1−0.7=0.3।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Genetics: Hardy-Weinberg (p+q=1)"
+    },
+    {
+        "id": 148,
+        "subject": "Biology",
+        "question": "ব্যাকটেরিয়ার জেনেটিক উপাদান সাধারণত কোন আকারে থাকে?",
+        "options": {
+            "a": "রৈখিক DNA, নিউক্লিয়াসে",
+            "b": "বৃত্তাকার DNA, নিউক্লিওয়েডে",
+            "c": "RNA, নিউক্লিয়াসে",
+            "d": "প্রোটিন, সাইটোপ্লাজমে"
+        },
+        "correctAnswer": "b",
+        "explanation": "প্রোক্যারিওটে বৃত্তাকার DNA নিউক্লিওয়েড অঞ্চলে থাকে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Microbiology: Bacterial Genome"
+    },
+    {
+        "id": 149,
+        "subject": "Biology",
+        "question": "উদ্ভিদের মূলের শোষণ অঞ্চলে জল শোষণের প্রধান গঠন কোনটি?",
+        "options": {
+            "a": "স্টোমাটা",
+            "b": "মূলরোম",
+            "c": "জাইলেম ভেসেল",
+            "d": "ফ্লোএম সিভ টিউব"
+        },
+        "correctAnswer": "b",
+        "explanation": "মূলরোম পৃষ্ঠতল বাড়িয়ে জল-খনিজ শোষণ বাড়ায়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Plant Physiology: Water Absorption"
+    },
+    {
+        "id": 150,
+        "subject": "Biology",
+        "question": "হৃদপিণ্ডে রক্তকে অক্সিজেনযুক্ত করে শরীরে পাঠায় কোন প্রকোষ্ঠ?",
+        "options": {
+            "a": "ডান অলিন্দ",
+            "b": "ডান নিলয়",
+            "c": "বাম অলিন্দ",
+            "d": "বাম নিলয়"
+        },
+        "correctAnswer": "d",
+        "explanation": "বাম নিলয় অক্সিজেনযুক্ত রক্তকে অ্যাওর্টা দিয়ে শরীরে পাঠায়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Heart Chambers"
+    },
+    {
+        "id": 151,
+        "subject": "Physics",
+        "question": "একটি বস্তুর উপর 15 N বল 3 m দূরত্বে সরালে কাজ কত?",
+        "options": {
+            "a": "5 J",
+            "b": "15 J",
+            "c": "45 J",
+            "d": "60 J"
+        },
+        "correctAnswer": "c",
+        "explanation": "W = F×s = 15×3 = 45 J।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Work: Work Done by Constant Force"
+    },
+    {
+        "id": 152,
+        "subject": "Physics",
+        "question": "একটি 2 Ω রোধ এবং 3 Ω রোধ সিরিজে যুক্ত করলে মোট রোধ কত?",
+        "options": {
+            "a": "1.2 Ω",
+            "b": "5 Ω",
+            "c": "6 Ω",
+            "d": "0.5 Ω"
+        },
+        "correctAnswer": "b",
+        "explanation": "সিরিজে R = R1 + R2 = 2 + 3 = 5 Ω।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Current Electricity: Series Resistance"
+    },
+    {
+        "id": 153,
+        "subject": "Physics",
+        "question": "একটি বস্তু 10 m/s বেগে চলছিল। 2 m/s^2 ত্বরণে 5 s চললে চূড়ান্ত বেগ কত?",
+        "options": {
+            "a": "15 m/s",
+            "b": "18 m/s",
+            "c": "20 m/s",
+            "d": "25 m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "v = u + at = 10 + 2×5 = 20 m/s।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Kinematics: First Equation of Motion"
+    },
+    {
+        "id": 154,
+        "subject": "Physics",
+        "question": "একটি কন্ডাক্টরে ধারা দ্বিগুণ করলে তাপ উৎপাদনের হার (P) কী হবে? (R ধ্রুব)",
+        "options": {
+            "a": "অর্ধেক হবে",
+            "b": "দ্বিগুণ হবে",
+            "c": "চারগুণ হবে",
+            "d": "অপরিবর্তিত থাকবে"
+        },
+        "correctAnswer": "c",
+        "explanation": "P = I^2R; I দ্বিগুণ ⇒ P 4 গুণ।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Current Electricity: Joule Heating (P∝I^2)"
+    },
+    {
+        "id": 155,
+        "subject": "Physics",
+        "question": "একটি লেন্সের ক্ষমতা +2 D হলে ফোকাল দৈর্ঘ্য কত?",
+        "options": {
+            "a": "0.5 m",
+            "b": "2 m",
+            "c": "0.2 m",
+            "d": "4 m"
+        },
+        "correctAnswer": "a",
+        "explanation": "P = 1/f (m) ⇒ f = 1/2 = 0.5 m।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Optics: Power of Lens"
+    },
+    {
+        "id": 156,
+        "subject": "Physics",
+        "question": "একটি তরঙ্গের বেগ 300 m/s ও তরঙ্গদৈর্ঘ্য 1.5 m হলে কম্পাঙ্ক কত?",
+        "options": {
+            "a": "150 Hz",
+            "b": "200 Hz",
+            "c": "250 Hz",
+            "d": "450 Hz"
+        },
+        "correctAnswer": "b",
+        "explanation": "f = v/λ = 300/1.5 = 200 Hz।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Waves: Frequency Calculation"
+    },
+    {
+        "id": 157,
+        "subject": "Physics",
+        "question": "একটি তড়িৎ ক্ষেত্রে একটি চার্জ q এর উপর বল কোনটি?",
+        "options": {
+            "a": "F = q/E",
+            "b": "F = qE",
+            "c": "F = E/q",
+            "d": "F = q^2E"
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric force: F = qE।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electrostatics: Force in Electric Field"
+    },
+    {
+        "id": 158,
+        "subject": "Physics",
+        "question": "একটি 12 V ব্যাটারির সাথে 6 Ω রোধ যুক্ত। ধারা কত?",
+        "options": {
+            "a": "0.5 A",
+            "b": "1 A",
+            "c": "2 A",
+            "d": "6 A"
+        },
+        "correctAnswer": "c",
+        "explanation": "I = V/R = 12/6 = 2 A।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Current Electricity: Ohm’s Law (I=V/R)"
+    },
+    {
+        "id": 159,
+        "subject": "Physics",
+        "question": "একটি বস্তু সমবেগ বৃত্তীয় গতিতে চললে বেগের মান স্থির থাকে কিন্তু কোনটি পরিবর্তিত হয়?",
+        "options": {
+            "a": "বেগের দিক",
+            "b": "ভর",
+            "c": "সময়",
+            "d": "ব্যাসার্ধ"
+        },
+        "correctAnswer": "a",
+        "explanation": "বৃত্তীয় গতিতে বেগের দিক ক্রমাগত পরিবর্তিত হয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Circular Motion: Velocity Direction Change"
+    },
+    {
+        "id": 160,
+        "subject": "Physics",
+        "question": "একটি আদর্শ গ্যাসে অভ্যন্তরীণ শক্তি প্রধানত কোনটির উপর নির্ভর করে?",
+        "options": {
+            "a": "চাপ",
+            "b": "আয়তন",
+            "c": "তাপমাত্রা",
+            "d": "কণা সংখ্যা"
+        },
+        "correctAnswer": "c",
+        "explanation": "Ideal gas internal energy U ∝ T।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Thermodynamics: Internal Energy of Ideal Gas"
+    },
+    {
+        "id": 161,
+        "subject": "Physics",
+        "question": "ফটোইলেকট্রিক প্রভাবে ‘থ্রেশহোল্ড ফ্রিকোয়েন্সি’ বলতে কী বোঝায়?",
+        "options": {
+            "a": "সর্বোচ্চ কম্পাঙ্ক",
+            "b": "সর্বনিম্ন কম্পাঙ্ক যাতে ইলেকট্রন নির্গত হয়",
+            "c": "আলোর তীব্রতা",
+            "d": "ইলেকট্রনের ভর"
+        },
+        "correctAnswer": "b",
+        "explanation": "যে সর্বনিম্ন f এ ইলেকট্রন বের হয়, সেটাই threshold frequency।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Modern Physics: Threshold Frequency"
+    },
+    {
+        "id": 162,
+        "subject": "Physics",
+        "question": "একটি ট্রান্সফরমারে Ns/Np = 5 হলে এটি কেমন ট্রান্সফরমার?",
+        "options": {
+            "a": "Step-down",
+            "b": "Step-up",
+            "c": "Rectifier",
+            "d": "Regulator"
+        },
+        "correctAnswer": "b",
+        "explanation": "Ns>Np ⇒ Vs>Vp ⇒ Step-up।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electromagnetism: Step-up Transformer"
+    },
+    {
+        "id": 163,
+        "subject": "Physics",
+        "question": "ধ্বনি তরঙ্গ কোন ধরনের তরঙ্গ?",
+        "options": {
+            "a": "Transverse",
+            "b": "Longitudinal",
+            "c": "Electromagnetic",
+            "d": "Stationary only"
+        },
+        "correctAnswer": "b",
+        "explanation": "বায়ুতে ধ্বনি চাপের অনুদৈর্ঘ্য তরঙ্গ।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Waves: Sound as Longitudinal Wave"
+    },
+    {
+        "id": 164,
+        "subject": "Chemistry",
+        "question": "নিচের কোনটি ‘অ্যালডিহাইড’?",
+        "options": {
+            "a": "CH3COCH3",
+            "b": "CH3CHO",
+            "c": "CH3COOH",
+            "d": "CH3CH2OH"
+        },
+        "correctAnswer": "b",
+        "explanation": "CH3CHO এ −CHO ফাংশনাল গ্রুপ ⇒ aldehyde।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic: Functional Group (Aldehyde)"
+    },
+    {
+        "id": 165,
+        "subject": "Chemistry",
+        "question": "Na2CO3 দ্রবণ সাধারণত কেমন প্রকৃতির?",
+        "options": {
+            "a": "অম্লীয়",
+            "b": "ক্ষারীয়",
+            "c": "নিরপেক্ষ",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "কার্বনেট আয়ন হাইড্রোলাইসিস করে OH− বাড়ায় ⇒ ক্ষারীয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Acid-Base: Salt Hydrolysis (Basic Salt)"
+    },
+    {
+        "id": 166,
+        "subject": "Chemistry",
+        "question": "একটি বাফার দ্রবণ pH পরিবর্তন কম করে কেন?",
+        "options": {
+            "a": "তাতে পানি নেই",
+            "b": "দুর্বল অ্যাসিড/ক্ষার ও তার সমযুগ্ম থাকে",
+            "c": "তাতে শুধু শক্তিশালী অ্যাসিড থাকে",
+            "d": "তাতে গ্যাস থাকে"
+        },
+        "correctAnswer": "b",
+        "explanation": "বাফার অতিরিক্ত H+ বা OH− কে শোষণ করে pH স্থিতিশীল রাখে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Acid-Base: Buffer Action"
+    },
+    {
+        "id": 167,
+        "subject": "Chemistry",
+        "question": "1 mol CaCl2 পানিতে সম্পূর্ণ আয়নিত হলে মোট আয়ন কত mol হবে?",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "3",
+            "d": "4"
+        },
+        "correctAnswer": "c",
+        "explanation": "CaCl2 → Ca2+ + 2Cl− ⇒ মোট 3 mol আয়ন।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electrolytes: Van’t Hoff Factor Concept"
+    },
+    {
+        "id": 168,
+        "subject": "Chemistry",
+        "question": "NH3 অণুর আকৃতি কী?",
+        "options": {
+            "a": "টেট্রাহেড্রাল",
+            "b": "ট্রাইগোনাল পিরামিডাল",
+            "c": "লিনিয়ার",
+            "d": "স্কোয়ার প্ল্যানার"
+        },
+        "correctAnswer": "b",
+        "explanation": "NH3 এ 3 bond pair + 1 lone pair ⇒ trigonal pyramidal।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "VSEPR: Shape of NH3"
+    },
+    {
+        "id": 169,
+        "subject": "Chemistry",
+        "question": "কোনটি অ্যারোমেটিক যৌগ?",
+        "options": {
+            "a": "C2H4",
+            "b": "C6H6",
+            "c": "C3H8",
+            "d": "C2H2"
+        },
+        "correctAnswer": "b",
+        "explanation": "বেনজিন (C6H6) অ্যারোমেটিক (Hückel 4n+2)।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic: Aromaticity (Benzene)"
+    },
+    {
+        "id": 170,
+        "subject": "Chemistry",
+        "question": "H2SO4 কে পানিতে মেশালে সাধারণত তাপ কীভাবে পরিবর্তিত হয়?",
+        "options": {
+            "a": "তাপ শোষিত হয়",
+            "b": "তাপ নির্গত হয়",
+            "c": "কোন পরিবর্তন নেই",
+            "d": "তাপমাত্রা শূন্য হয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "H2SO4 পানিতে মেশানো উষ্মাঘটিত (exothermic)।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Thermochemistry: Heat of Dilution"
+    },
+    {
+        "id": 171,
+        "subject": "Chemistry",
+        "question": "কোনটি ‘একক স্থানচ্যুতি’ (single displacement) বিক্রিয়ার উদাহরণ?",
+        "options": {
+            "a": "2H2 + O2 → 2H2O",
+            "b": "Zn + CuSO4 → ZnSO4 + Cu",
+            "c": "CaCO3 → CaO + CO2",
+            "d": "HCl + NaOH → NaCl + H2O"
+        },
+        "correctAnswer": "b",
+        "explanation": "Zn, Cu কে স্থানচ্যুত করে ⇒ single displacement।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Reaction Type: Single Displacement"
+    },
+    {
+        "id": 172,
+        "subject": "Chemistry",
+        "question": "কোনটি সবচেয়ে শক্তিশালী আন্তঃআণবিক বল নির্দেশ করে?",
+        "options": {
+            "a": "ভ্যান ডার ওয়ালস",
+            "b": "ডাইপোল-ডাইপোল",
+            "c": "হাইড্রোজেন বন্ধন",
+            "d": "লন্ডন ডিসপারশন"
+        },
+        "correctAnswer": "c",
+        "explanation": "সাধারণত H-bond শক্তিশালী আন্তঃআণবিক আকর্ষণ।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Intermolecular Forces: Hydrogen Bonding"
+    },
+    {
+        "id": 173,
+        "subject": "Chemistry",
+        "question": "একটি সমতা বিক্রিয়ায় চাপ বাড়ালে কম গ্যাস মোলের দিকে সমতা সরে কেন?",
+        "options": {
+            "a": "তাপ কমে",
+            "b": "আয়তন কমানোর জন্য",
+            "c": "দ্রবণীয়তা বাড়ে",
+            "d": "ক্যাটালিস্ট কাজ করে"
+        },
+        "correctAnswer": "b",
+        "explanation": "চাপ বাড়লে সিস্টেম আয়তন কমাতে কম গ্যাস মোলের দিকে সরে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Equilibrium: Le Chatelier (Pressure)"
+    },
+    {
+        "id": 174,
+        "subject": "Chemistry",
+        "question": "CH3COOH এর সাথে C2H5OH বিক্রিয়ায় (H+) কী তৈরি হয়?",
+        "options": {
+            "a": "ইথার",
+            "b": "এস্টার (ইথাইল অ্যাসিটেট)",
+            "c": "অ্যালডিহাইড",
+            "d": "কিটোন"
+        },
+        "correctAnswer": "b",
+        "explanation": "Esterification: অ্যাসিড + অ্যালকোহল → ester + H2O।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic: Esterification"
+    },
+    {
+        "id": 175,
+        "subject": "Chemistry",
+        "question": "কোনটি পানির অস্থায়ী কঠিনতা (temporary hardness) সৃষ্টি করে?",
+        "options": {
+            "a": "Ca(HCO3)2",
+            "b": "CaSO4",
+            "c": "NaCl",
+            "d": "KNO3"
+        },
+        "correctAnswer": "a",
+        "explanation": "বাইকার্বনেট দ্বারা temporary hardness হয়; ফুটালে দূর হয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Water Chemistry: Temporary Hardness"
+    },
+    {
+        "id": 176,
+        "subject": "Math",
+        "question": "যদি x+y=10 এবং x−y=2 হয়, তবে x কত?",
+        "options": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "10"
+        },
+        "correctAnswer": "b",
+        "explanation": "দুটি সমীকরণ যোগ: 2x=12 ⇒ x=6।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Algebra: Solving Linear Equations"
+    },
+    {
+        "id": 177,
+        "subject": "Math",
+        "question": "একটি ঘনকের প্রান্ত 3 হলে আয়তন কত?",
+        "options": {
+            "a": "9",
+            "b": "18",
+            "c": "27",
+            "d": "81"
+        },
+        "correctAnswer": "c",
+        "explanation": "Cube volume = a^3 = 3^3 = 27।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Mensuration: Volume of Cube"
+    },
+    {
+        "id": 178,
+        "subject": "Math",
+        "question": "tan 45° এর মান কত?",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "√3",
+            "d": "1/√3"
+        },
+        "correctAnswer": "b",
+        "explanation": "tan45° = 1।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Trigonometry: Standard Angles"
+    },
+    {
+        "id": 179,
+        "subject": "Math",
+        "question": "একটি ডাইস ছুঁড়লে জোড় সংখ্যা পাওয়ার সম্ভাবনা কত?",
+        "options": {
+            "a": "1/6",
+            "b": "1/3",
+            "c": "1/2",
+            "d": "2/3"
+        },
+        "correctAnswer": "c",
+        "explanation": "জোড়: 2,4,6 ⇒ 3/6 = 1/2।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Probability: Basic (Dice)"
+    },
+    {
+        "id": 180,
+        "subject": "Math",
+        "question": "সুষম ধারা 2, 5, 8, ... এর 10ম পদ কত?",
+        "options": {
+            "a": "26",
+            "b": "29",
+            "c": "32",
+            "d": "35"
+        },
+        "correctAnswer": "b",
+        "explanation": "a=2,d=3 ⇒ a10 = 2+9×3 = 29।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Sequence: Arithmetic Progression (nth term)"
+    },
+    {
+        "id": 181,
+        "subject": "Math",
+        "question": "∫ 0 থেকে 1 পর্যন্ত 2x dx এর মান কত?",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "1/2",
+            "d": "0"
+        },
+        "correctAnswer": "a",
+        "explanation": "∫0^1 2x dx = [x^2]0^1 = 1।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus: Definite Integral"
+    },
+    {
+        "id": 182,
+        "subject": "Math",
+        "question": "একটি বৃত্তের ক্ষেত্রফল πr^2। r=4 হলে ক্ষেত্রফল কত?",
+        "options": {
+            "a": "4π",
+            "b": "8π",
+            "c": "16π",
+            "d": "32π"
+        },
+        "correctAnswer": "c",
+        "explanation": "A = πr^2 = π×16 = 16π।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Geometry: Area of Circle"
+    },
+    {
+        "id": 183,
+        "subject": "Math",
+        "question": "x^2 + 1 = 0 এর বাস্তব (real) সমাধান কতটি?",
+        "options": {
+            "a": "0টি",
+            "b": "1টি",
+            "c": "2টি",
+            "d": "4টি"
+        },
+        "correctAnswer": "a",
+        "explanation": "x^2 = -1 ⇒ বাস্তবে সম্ভব নয়, তাই 0টি real root।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Algebra: Nature of Roots (Real/Imaginary)"
+    },
+    {
+        "id": 184,
+        "subject": "Math",
+        "question": "একটি রেখার সমীকরণ y = 0 নির্দেশ করে কোন অক্ষ?",
+        "options": {
+            "a": "x-অক্ষ",
+            "b": "y-অক্ষ",
+            "c": "উভয় অক্ষ",
+            "d": "কোনোটাই নয়"
+        },
+        "correctAnswer": "a",
+        "explanation": "y=0 হলো x-অক্ষ।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Coordinate Geometry: Axes Equations"
+    },
+    {
+        "id": 185,
+        "subject": "Math",
+        "question": "cos 60° এর মান কত?",
+        "options": {
+            "a": "1/2",
+            "b": "√3/2",
+            "c": "1",
+            "d": "0"
+        },
+        "correctAnswer": "a",
+        "explanation": "cos60°=1/2।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Trigonometry: Standard Angles"
+    },
+    {
+        "id": 186,
+        "subject": "Math",
+        "question": "একটি শঙ্কুর আয়তন (1/3)πr^2h। r=3, h=4 হলে আয়তন কত?",
+        "options": {
+            "a": "12π",
+            "b": "36π",
+            "c": "48π",
+            "d": "72π"
+        },
+        "correctAnswer": "a",
+        "explanation": "V=(1/3)π×9×4 = 12π।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Mensuration: Volume of Cone"
+    },
+    {
+        "id": 187,
+        "subject": "Math",
+        "question": "যদি |z| = 10 এবং z = a+bi, a=6 হলে b এর মান (ধনাত্মক) কত?",
+        "options": {
+            "a": "4",
+            "b": "6",
+            "c": "8",
+            "d": "10"
+        },
+        "correctAnswer": "c",
+        "explanation": "|z|^2=a^2+b^2 ⇒ 100=36+b^2 ⇒ b^2=64 ⇒ b=8।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Complex Number: Modulus Relation"
+    },
+    {
+        "id": 188,
+        "subject": "Math",
+        "question": "একটি সেট A তে 3টি এবং B তে 4টি উপাদান, A∩B শূন্য হলে A∪B তে মোট কতটি উপাদান?",
+        "options": {
+            "a": "7",
+            "b": "12",
+            "c": "1",
+            "d": "0"
+        },
+        "correctAnswer": "a",
+        "explanation": "Disjoint হলে |A∪B|=|A|+|B|=3+4=7।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Set Theory: Union of Disjoint Sets"
+    },
+    {
+        "id": 189,
+        "subject": "Biology",
+        "question": "মানবদেহে হজমের জন্য পেপসিন (pepsin) কোন অঙ্গে কাজ করে?",
+        "options": {
+            "a": "মুখগহ্বর",
+            "b": "পাকস্থলী",
+            "c": "ক্ষুদ্রান্ত্র",
+            "d": "বৃহদান্ত্র"
+        },
+        "correctAnswer": "b",
+        "explanation": "পেপসিন পাকস্থলীতে প্রোটিন ভাঙে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Digestion (Pepsin)"
+    },
+    {
+        "id": 190,
+        "subject": "Biology",
+        "question": "উদ্ভিদে খাদ্য পরিবহন প্রধানত কোন টিস্যু দ্বারা হয়?",
+        "options": {
+            "a": "জাইলেম",
+            "b": "ফ্লোএম",
+            "c": "কর্ক",
+            "d": "এপিডার্মিস"
+        },
+        "correctAnswer": "b",
+        "explanation": "ফ্লোএম শর্করা/খাদ্য পরিবহন করে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Plant Physiology: Phloem Transport"
+    },
+    {
+        "id": 191,
+        "subject": "Biology",
+        "question": "মানবদেহে ফুসফুসে গ্যাস বিনিময়ের জন্য প্রধান অভিযোজন কোনটি?",
+        "options": {
+            "a": "ঘন দেয়াল",
+            "b": "অ্যালভিওলাইয়ের বড় পৃষ্ঠতল ও পাতলা দেয়াল",
+            "c": "অল্প কেশিকাজাল",
+            "d": "শুষ্ক পৃষ্ঠ"
+        },
+        "correctAnswer": "b",
+        "explanation": "বড় surface area + thin wall ⇒ দ্রুত diffusion।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Alveoli Adaptation"
+    },
+    {
+        "id": 192,
+        "subject": "Biology",
+        "question": "জেনেটিক কোডে তিনটি নিউক্লিওটাইডের সমষ্টিকে কী বলে?",
+        "options": {
+            "a": "Codon",
+            "b": "Gene",
+            "c": "Chromosome",
+            "d": "Enzyme"
+        },
+        "correctAnswer": "a",
+        "explanation": "mRNA তে 3 বেসের একক = codon।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Molecular Biology: Codon"
+    },
+    {
+        "id": 193,
+        "subject": "Biology",
+        "question": "মেন্ডেলের ‘Law of Segregation’ কোন বিষয়ের সাথে সম্পর্কিত?",
+        "options": {
+            "a": "অ্যালিল পৃথক হওয়া",
+            "b": "লিংকেজ",
+            "c": "মিউটেশন",
+            "d": "জিন ট্রান্সফার"
+        },
+        "correctAnswer": "a",
+        "explanation": "গ্যামেট গঠনের সময় অ্যালিল পৃথক হয়—Segregation।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Genetics: Mendel’s Law of Segregation"
+    },
+    {
+        "id": 194,
+        "subject": "Biology",
+        "question": "মানবদেহে অ্যান্টিজেন চিনে প্রতিরোধ প্রতিক্রিয়া শুরু করতে প্রধান ভূমিকা রাখে কোনটি?",
+        "options": {
+            "a": "RBC",
+            "b": "T-লিম্ফোসাইট",
+            "c": "প্লেটলেট",
+            "d": "অস্থি"
+        },
+        "correctAnswer": "b",
+        "explanation": "Cell-mediated immunity তে T-cell গুরুত্বপূর্ণ ভূমিকা রাখে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Immunology: T-Cells"
+    },
+    {
+        "id": 195,
+        "subject": "Biology",
+        "question": "একটি উদ্ভিদ কোষে কোষপ্রাচীর (cell wall) প্রধানত কী দিয়ে গঠিত?",
+        "options": {
+            "a": "কাইটিন",
+            "b": "সেলুলোজ",
+            "c": "গ্লাইকোজেন",
+            "d": "ফসফোলিপিড"
+        },
+        "correctAnswer": "b",
+        "explanation": "উদ্ভিদ কোষপ্রাচীরের প্রধান উপাদান সেলুলোজ।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Cell Biology: Plant Cell Wall"
+    },
+    {
+        "id": 196,
+        "subject": "Biology",
+        "question": "ব্যাকটেরিয়ার অযৌন প্রজননের সাধারণ পদ্ধতি কোনটি?",
+        "options": {
+            "a": "বাডিং",
+            "b": "বাইনারি ফিশন",
+            "c": "স্পোরুলেশন (সবসময়)",
+            "d": "ফার্টিলাইজেশন"
+        },
+        "correctAnswer": "b",
+        "explanation": "ব্যাকটেরিয়া সাধারণত বাইনারি ফিশনে বিভাজিত হয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Microbiology: Binary Fission"
+    },
+    {
+        "id": 197,
+        "subject": "Biology",
+        "question": "অক্সিজেনযুক্ত রক্ত হৃদপিণ্ডে ফিরে আসে কোন শিরা দিয়ে?",
+        "options": {
+            "a": "ভেনা কাভা",
+            "b": "পালমোনারি ভেইন",
+            "c": "পালমোনারি আর্টারি",
+            "d": "হেপাটিক ভেইন"
+        },
+        "correctAnswer": "b",
+        "explanation": "পালমোনারি ভেইন ফুসফুস থেকে অক্সিজেনযুক্ত রক্ত বাম অলিন্দে আনে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Pulmonary Vein"
+    },
+    {
+        "id": 198,
+        "subject": "Biology",
+        "question": "কোনটি ভিটামিন C এর অভাবজনিত রোগ?",
+        "options": {
+            "a": "রিকেটস",
+            "b": "স্কার্ভি",
+            "c": "বেরিবেরি",
+            "d": "রাতকানা"
+        },
+        "correctAnswer": "b",
+        "explanation": "Vitamin C deficiency → Scurvy।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Nutrition: Vitamin Deficiency"
+    },
+    {
+        "id": 199,
+        "subject": "Biology",
+        "question": "রক্তচাপ নিয়ন্ত্রণে RAAS সিস্টেমে প্রধান হরমোন হিসেবে কাজ করে কোনটি?",
+        "options": {
+            "a": "ইনসুলিন",
+            "b": "অ্যালডোস্টেরন",
+            "c": "থাইরক্সিন",
+            "d": "অ্যাড্রেনালিন"
+        },
+        "correctAnswer": "b",
+        "explanation": "RAAS এ অ্যালডোস্টেরন Na+ ধরে রেখে পানি রিটেনশন বাড়ায়, BP বাড়ে।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: RAAS and Aldosterone"
+    },
+    {
+        "id": 200,
+        "subject": "Biology",
+        "question": "একটি ইকোসিস্টেমে ‘ডিকম্পোজার’ প্রধানত কী করে?",
+        "options": {
+            "a": "সূর্যশক্তি ধরে",
+            "b": "উৎপাদককে খায়",
+            "c": "মৃত জৈব পদার্থ ভেঙে পুষ্টি পুনঃচক্রায়ন করে",
+            "d": "অক্সিজেন উৎপাদন করে"
+        },
+        "correctAnswer": "c",
+        "explanation": "ডিকম্পোজার মৃত জৈব পদার্থ ভেঙে nutrients ফিরিয়ে দেয়।",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Ecology: Decomposers and Nutrient Cycling"
+    }
+]

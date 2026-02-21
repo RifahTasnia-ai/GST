@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "question": "কোনো পরিবাহীর রোধ (R) ও তাপমাত্রার (t) মধ্যে সম্পর্ক স্থাপন করে নিচের কোন লেখচিত্রটি ?",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "correctAnswer": "b",
+    "explanation": "যেহেতু $$R={R}_{0}(1+αt)$$ সুতরাং, $$y=mx+c$$ আকারের লেখ হবে।",
+    "hasDiagram": true,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "question": "কোন ধরনের তেজস্ক্রিয়তায় নিউক্লিয়াসের ভরসংখ্যা অপরিবর্তিত থাকে?",
+    "options": {
+      "a": "$$α$$ ও $$β$$ -ক্ষয়",
+      "b": "শুধুমাত্র $$β$$ -ক্ষয়",
+      "c": "শুধুমাত্র $$α$$ -ক্ষয়",
+      "d": "$$α$$ ও $$γ$$ -ক্ষয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "question": "$$x$$ মাধ্যমে তড়িৎক্ষেত্রের আপেক্ষিক ভেদনযোগ্যতা $$16$$ ও আপেক্ষিক চৌম্বক প্রবেশ্যতা $$0.25$$ হলে $$x$$ মাধ্যমে আলোর বেগ কত?",
+    "options": {
+      "a": "$$0.75×{10}^{8}m/s$$",
+      "b": "$$1.5×{10}^{8}m/s$$",
+      "c": "$$2.3×{10}^{8}m/s$$",
+      "d": "$$1.3×{10}^{8}m/s$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "আমরা জানি, $${C}_{x}=\\frac{1}{\\sqrt{{μ}_{x}{μ}_{o}{ϵ}_{x}{ϵ}_{o}}}=\\frac{1}{\\sqrt{μ{ϵ}_{o}}}×\\frac{1}{\\sqrt{{μ}_{x}{ϵ}_{x}}}$$ $$=\\frac{c}{\\sqrt{16×0.25}}=\\frac{c}{\\sqrt{16×\\frac{25}{100}}}=\\frac{c}{\\sqrt{4}}$$ $$∴{c}_{x}=\\frac{3×{10}^{8}}{2}=1.5×{10}^{8}m/s$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "question": "নির্দিষ্ট ভরের একটি আদর্শ গ্যাসের আয়তন ধ্রুব চাপে দ্বিগুণ করা হল। যদি গ্যাসের প্রাথমিক তাপমাত্রা $$10℃$$ হয় তবে চূড়ান্ত তাপমাত্রা কত?",
+    "options": {
+      "a": "$$293℃$$",
+      "b": "$$13℃$$",
+      "c": "$$299℃$$",
+      "d": "$$7.5℃$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$\\frac{{v}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}$$ $$∴{T}_{2}=\\frac{{V}_{2}×{T}_{1}}{{V}_{1}}=\\frac{2V×283}{{V}_{1}}=566K=293℃$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "question": "$$70kg$$ ভরের এক ব্যক্তি $$30kg$$ ভরের একটি বোঝা নিয়ে $$10m$$ দীর্ঘ একটি মই বেয়ে $$50 s$$ এ উপরে উঠল। যদি মইটি অনুভূমিকের সাথে $${30}^{∘}$$ কোণে থাকে তবে লোকটির ক্ষমতা কত?",
+    "options": {
+      "a": "49 W",
+      "b": "98 W",
+      "c": "110 W",
+      "d": "80 W"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$P=\\frac{W}{t}=\\frac{mgxsin θ}{t}$$ $$=\\frac{(70+30)×9.8×10×sin {30}^{∘}}{50}=98 W$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "question": "$${(11101)}_{2}={(?)}_{10}$$",
+    "options": {
+      "a": "$$28$$",
+      "b": "$$31$$",
+      "c": "$$30$$",
+      "d": "$$29$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$1+0+4+8+16=29$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "question": "$$5i^+3j^+9k^$$ ভেক্টরটির xz তলে দৈর্ঘ্য নির্ণয় কর।",
+    "options": {
+      "a": "10.5",
+      "b": "10.3",
+      "c": "11.29",
+      "d": "9.29"
+    },
+    "correctAnswer": "b",
+    "explanation": "xz তলে vector টি $$5i^+9k^$$ $$∴$$ দৈর্ঘ্য $$=\\sqrt{{5}^{2}+{9}^{2}}=\\sqrt{106}=10.3$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "question": "একটি রেফ্রিজারেটরের কার্যকৃত সহগ, $$K=2.5$$ । এটি ঠাণ্ডা প্রকোষ্ঠ হতে প্রতি চক্রে $$500 J$$ তাপ অপসারণ করলে, প্রতি চক্রে সরবরাহকৃত কাজ কত হবে?",
+    "options": {
+      "a": "500 J",
+      "b": "1250 J",
+      "c": "502.5 J",
+      "d": "200 J"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$k=\\frac{{Q}_{1}}{W}$$ $$⇒W=\\frac{{Q}_{1}}{k}=\\frac{500}{2.5}=\\frac{500}{\\frac{5}{2}}=\\frac{500×2}{5}=200J$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "question": "বর্তনীতে প্রতীক দ্বারা কি প্রকাশ করা হয়?",
+    "options": {
+      "a": "রিয়োস্টেট",
+      "b": "আবেশক",
+      "c": "ভোল্টমিটার",
+      "d": "রোধ"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": true,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "question": "$$r=4m$$ ব্যাসার্ধের একটি বৃত্তাকার পথে প্রতি মিনিটে 30টি পাক দিচ্ছে কেন্দ্রমুখী বল দ্বারা কৃতকাজ নির্ণয় কর।",
+    "options": {
+      "a": "$$35 J$$",
+      "b": "$$70 J$$",
+      "c": "$$0 J$$",
+      "d": "$$55 J$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "কেন্দ্রমুখী বল $$⊥$$ সরণ $$∴$$ কেন্দ্রমুখী বল দ্বারা কৃতকাজ শূন্য।",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "question": "A বিন্দুতে AB রেখার ও AC রেখার ঢালের অনুপাত $$\\frac{5}{7}$$ হলে, গ্যাসটির আনবিক সংকেত –",
+    "options": {
+      "a": "$$He$$",
+      "b": "$${0}_{3}$$",
+      "c": "$$C{O}_{2}$$",
+      "d": "$${N}_{2}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$\\frac{{m}_{AB}}{{m}_{AC}}=\\frac{5}{7}⇒\\frac{{m}_{AC}}{{m}_{AB}}=\\frac{7}{5}=1.4$$ $$∴γ=1.4∴$$ গ্যাসটি di-atomic/ দ্বিপারমাণবিক।",
+    "hasDiagram": true,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "question": "20 cm লম্বা ঘণ্টার কাটার মধ্যবিন্দুর রৈখিক বেগ কত?",
+    "options": {
+      "a": "$$\\frac{π}{216000}m{s}^{−1}$$",
+      "b": "$$\\frac{π}{18000}m{s}^{−1}$$",
+      "c": "$$\\frac{π}{432000}m{s}^{−1}$$",
+      "d": "$$\\frac{π}{108000}m{s}^{−1}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$v=ωr=\\frac{2π}{12×3600}×(\\frac{20}{2}×{10}^{−2})$$ $$=\\frac{π}{216000}m{s}^{−1}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "question": "চাঁদের চেয়ে পৃথিবীর ভর 81 গুণ ও ব্যাসার্ধ 16 গুণ। তাহলে পৃথিবীর মুক্তিবেগ $$11.2 km{s}^{−1}$$ হলে চাঁদের মুক্তিবেগ কত?",
+    "options": {
+      "a": "$$25.2 km{s}^{−1}$$",
+      "b": "$$2.21 km{s}^{−1}$$",
+      "c": "$$12.4 km{s}^{−1}$$",
+      "d": "$$4.97 km{s}^{−1}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$\\frac{{V}_{M}}{{V}_{e}}=\\frac{\\sqrt{\\frac{GM}{R}×2}}{\\sqrt{\\frac{2GM×81}{R×16}}}=\\sqrt{\\frac{16}{81}}=\\frac{4}{9}$$ $$∴{V}_{M}=11.2×\\frac{4}{9}=4.97 km{s}^{−1}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "question": "একটি ক্রিকেট বল $$5 m{s}^{−1}$$ বেগে দেওয়ালে ধাক্কা খেয়ে $$3 m{s}^{−1}$$ বেগে ফিরে আসলে বলের ঘাত কত হবে? $$[m=6 kg]$$",
+    "options": {
+      "a": "$$48 kg{m}^{2}{s}^{−1}$$",
+      "b": "$$58 kgm{s}^{−1}$$",
+      "c": "$$12 kgm{s}^{−1}$$",
+      "d": "$$48 kgm{s}^{−1}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "বলের ঘাত $$=∆P=m{v−u}$$ $$=6{3−(−5)}=48 kgm{s}^{−1}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "question": "একটি সরল ছন্দিত স্পন্দনে গতিশীল কণার গতির সমীকরণ $$y=5cos (\\frac{2π}{5}t+\\frac{π}{2})$$ । কণাটি দোলনকালে সর্বোচ্চ কত ত্বরণ অনুভব করবে?",
+    "options": {
+      "a": "$$\\frac{4}{5}{π}^{2}$$",
+      "b": "$$\\frac{5}{4}{π}^{2}$$",
+      "c": "$$\\frac{5}{4}π$$",
+      "d": "$$\\frac{4}{5}π$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "গতির সমীকরণ $$y=5cos (\\frac{2π}{5}t+\\frac{π}{2})$$ সমীকরণটিকে, $$y=Acos (ωt+δ)$$ এর সাথে তুলনা করলে পাই $$A=5;ω=\\frac{2π}{5}$$ $$∴$$ সর্বোচ্চ ত্বরণ, $${a}_{max }={ω}^{2}A={(\\frac{2π}{5})}^{2}×5$$ $$=\\frac{4{π}^{2}}{25}×5=\\frac{4}{5}{π}^{2}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "question": "$${​}_{7}{N}^{{14}^{∗}}→?+{​}_{0}{n}^{1}$$",
+    "options": {
+      "a": "$${​}_{7}{N}^{13}$$",
+      "b": "$${​}_{6}{C}^{12}$$",
+      "c": "$${​}_{7}{C}^{13}$$",
+      "d": "$${​}_{5}{B}^{10}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "question": "বর্তনীটির $$1Ω$$ রোধের বাল্বটি 2 মিনিট চালালে কত শক্তির অপচয় হবে?",
+    "options": {
+      "a": "28800 J",
+      "b": "480 J",
+      "c": "288 J",
+      "d": "120 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "সুতরাং, $$I=\\frac{12}{6}=2A$$ $$∴1Ω$$ রোধের জন্য শক্তির অপচয় , $$W=Pt={I}^{2}Rt$$ $$={2}^{2}×1×2×60=4×2×60=480 J$$",
+    "hasDiagram": true,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "question": "$$75 kg$$ ভরের এক ব্যক্তি $$30$$ মিনিটে $$300 m$$ উঁচুতে উঠে। তার কাজ করার হার কত? $$[g={10 ms}^{−2}]$$",
+    "options": {
+      "a": "$$300 W$$",
+      "b": "$$122.5 W$$",
+      "c": "$$245 W$$",
+      "d": "$$125 W$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$P=\\frac{W}{t}=\\frac{mgh}{t}=\\frac{75×10×300}{30×60}=125 W$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "question": "$$30kg$$ ভর বিশিষ্ট একটি বস্তুর উপর $$250N$$ বল $$5$$ সেকেন্ড ক্রিয়া করলে বস্তুটির ভর-বেগের পরিবর্তন কত হবে?",
+    "options": {
+      "a": "$$1250 kg{ms}^{−1}$$",
+      "b": "$$1250 m{s}^{−2}$$",
+      "c": "$$150 kg{ms}^{−1}$$",
+      "d": "$$7500 m{s}^{−2}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "ভরবেগের পরিবর্তন $$=$$ বলের ঘাত $$=250×5=1250 kg{ms}^{−1}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "question": "একটি গ্রহের ব্যাসার্ধ পৃথিবীর ব্যাসার্ধের দ্বিগুণ। উক্ত গ্রহের পৃষ্ঠে অভিকর্ষজ ত্বরণ পৃথিবীর অভিকর্ষজ ত্বরণের চার গুণ। উক্ত গ্রহে মুক্তিবেগ পৃথিবীর তুলনায় কত গুণ ?",
+    "options": {
+      "a": "$$\\sqrt{2}$$ গুণ",
+      "b": "$$4$$ গুণ",
+      "c": "$$\\sqrt{8}$$ গুণ",
+      "d": "$$2$$ গুণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$\\frac{{v}_{P}}{{v}_{E}}=\\frac{\\sqrt{2×4g×2r}}{\\sqrt{2gr}}$$ $$⇒{v}_{P}=\\sqrt{8} {v}_{E}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "question": "একটি ফাঁপা গোলকের মহাকর্ষ বিভব বনাম দূরত্ব এর লেখচিত্র –",
+    "options": {
+      "a": "",
+      "b": "",
+      "c": "",
+      "d": ""
+    },
+    "correctAnswer": "c",
+    "explanation": "$$V=−\\frac{GM}{R}$$ , ফাঁকা গোলকের ভিতরের বিভব পৃষ্ঠের বিভবের সমান। পৃষ্ঠা থেকে দূরত্ব বাড়লে বিভবের মান বাড়তে থাকে।",
+    "hasDiagram": true,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "question": "ভেক্টর $$A→=2i^−j^+2k^$$ এর সমান্তরাল একক ভেক্টর –",
+    "options": {
+      "a": "$$\\frac{2}{9}i^−\\frac{1}{9}j^−\\frac{2}{9}k^$$",
+      "b": "$$\\frac{2}{5}i^−\\frac{1}{5}j^+\\frac{2}{5}k^$$",
+      "c": "$$i^−j^+k^$$",
+      "d": "$$\\frac{2}{3}i^−\\frac{1}{3}j^+\\frac{2}{3}k^$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$A→=2i^−j^+2k^$$ ; $$|A→|=\\sqrt{4+1+4}=3$$ $$∴$$ একক ভেক্টর $$=\\frac{A→}{|A→|}=\\frac{2i^−j^+2 k^}{3}$$ $$=\\frac{2}{3}i^−\\frac{1}{3}j^+\\frac{2}{3}k^$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "question": "যমজ ভাইবোনের মধ্যে ভাইটি জন্মের পরপরই $$\\frac{\\sqrt{5}}{3}c$$ বেগে একটি মহাকাশযানে রওনা দেয়। বোনের 21 তম বার্থডেতে সে পৃথিবীতে পৌঁছায়। ভাইটির বর্তমান বয়স কত ?",
+    "options": {
+      "a": "20 yr",
+      "b": "19 yr",
+      "c": "14 yr",
+      "d": "22 yr"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$t=\\frac{{t}_{o}}{\\sqrt{1−\\frac{{v}^{2}}{{c}^{2}}}}$$ $$∴$$ $${t}_{0}=t\\sqrt{1−\\frac{{v}^{2}}{{c}^{2}}}$$ $$=21×\\sqrt{1−{(\\frac{\\sqrt{5}}{3})}^{2}}=21×\\sqrt{1−\\frac{5}{9}}$$ $$=21×\\frac{2}{3}=14 yr$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "question": "কোনো অপবর্তন গ্রেটিং এর ভিতর দিয়ে $$600 nm$$ তরঙ্গ দৈর্ঘ্যের আলো ফেললে তৃতীয় অবমের জন্য অপবর্তন কোণ $${30}^{∘}$$ । অপবর্তন গ্রেটিং এর গ্রেটিং ধ্রুবক কত?",
+    "options": {
+      "a": "$$4.2 μm$$",
+      "b": "$$3.6 μm$$",
+      "c": "$$2.5 μm$$",
+      "d": "$$4.8 μm$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$dsin θ=(2n+1)\\frac{λ}{2}$$ $$⇒d=(2×3+1)×\\frac{600×{10}^{−9}}{2}×\\frac{1}{sin {30}^{∘}}m$$ $$=4.2×{10}^{−6}m=4.2 μm$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "question": "সমান ভর বিশিষ্ট তিনটি খণ্ড A, B, C দড়ি দ্বারা চিত্রে প্রদর্শিত রূপে সংযুক্ত। খণ্ড $$C,F→$$ বল দ্বারা টানা হলে সম্পূর্ণ ব্যবস্থাটি ত্বরণ প্রাপ্ত হয়। ঘর্ষণ উপেক্ষা করলে খণ্ড B এর উপর মোট বল হলো-",
+    "options": {
+      "a": "$$F→/2$$",
+      "b": "0",
+      "c": "$$F→/3$$",
+      "d": "$$2F→/3$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "কার্যকর ত্বরণ , $$a→=\\frac{F→}{m+m+m}=\\frac{F→}{3m}$$ মোট বল , $$∑{F→}_{B}=ma→=2m×\\frac{F→}{3m}=\\frac{2F→}{3}$$",
+    "hasDiagram": true,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Chemistry",
+    "question": "নিচের কোনটি ভুল?",
+    "options": {
+      "a": "অরবিটাল হচ্ছে তরঙ্গ ফাংশন",
+      "b": "$$K$$ শেল সবচেয়ে ছোট",
+      "c": "$${Ψ}^{2}$$ এর মান ইলেকট্রন তরঙ্গের তীব্রতার ব্যস্তানুপাতিক",
+      "d": "$$p$$ অরবিটালসমূহ হল $${p}_{x}, {p}_{y}, {p}_{z}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Chemistry",
+    "question": "খাদ্য সংরক্ষণে অ্যান্টি মাইক্রোবিয়াল এজেন্ট হিসেবে কাজ করে কোনটি?",
+    "options": {
+      "a": "$$BHA$$",
+      "b": "$$BHT$$",
+      "c": "$${C}_{6}{H}_{5}−COONa$$",
+      "d": "ফরমালিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Chemistry",
+    "question": "†cvjvivqb hZ †ewk nq †hŠ‡Mi mg‡hvRx ˆewkó¨ ZZ e„w× cvq| d‡j Mjbvs‡KiI n«vm N‡U| G Dw³i †cÖÿvc‡U wb‡gœv³ †hŠMmg~‡ni mwVK MjbvsK µg n‡jv-",
+    "options": {
+      "a": "$$NaCl>AlC{l}_{3}>MgC{l}_{2}$$",
+      "b": "$$AlC{l}_{3}>NaCl>MgC{l}_{2}$$",
+      "c": "$$NaCl>MgC{l}_{2}>AlC{l}_{3}$$",
+      "d": "$$MgC{l}_{2}>NaCl>AlC{l}_{3}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Chemistry",
+    "question": "wb‡Pi †Kvb M¨vmwUi AvšÍtAvYweK AvKl©Y ej Kg ?",
+    "options": {
+      "a": "$${O}_{2}$$",
+      "b": "$$He$$",
+      "c": "$$Ar$$",
+      "d": "$$Ne$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "AvšÍtAvYweK AvKl©Y e‡ji µg : $$He<Ne<Ar<{O}_{2}<C{l}_{2}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Chemistry",
+    "question": "wb‡Pi †KvbwU me©vwaK mwµq avZz ?",
+    "options": {
+      "a": "K",
+      "b": "Fr",
+      "c": "Na",
+      "d": "Cs"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Chemistry",
+    "question": "$$N{H}_{4}Cl$$ †hŠ‡M KZ cÖKv‡ii eÜb Av‡Q ?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "1",
+      "d": "3"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Chemistry",
+    "question": "শুধুমাত্র কোন নাইট্রেট লবণটি পানিতে অদ্রবণীয়?",
+    "options": {
+      "a": "$$Pb{(N{O}_{3})}_{2}$$",
+      "b": "$$Ca{(N{O}_{3})}_{2}$$",
+      "c": "$$NaN{O}_{3}$$",
+      "d": "$$Cu{(N{O}_{3})}_{2}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Chemistry",
+    "question": "কোন সেটের সবগুলো অণু ও মূলকের গঠন সরলরৈখিক?",
+    "options": {
+      "a": "$$C{O}_{2}, N{O}_{2}^{−}, {N}_{3}^{−}, {C}_{2}{H}_{2}$$",
+      "b": "$$C{O}_{2}, N{O}_{2}^{+}, {N}_{2}{F}_{2}, {C}_{2}{H}_{2}$$",
+      "c": "$$C{O}_{2}, N{O}_{2}^{+}, {N}_{2}{F}_{2}, N{O}_{2}$$",
+      "d": "$$C{O}_{2}, S{O}_{2}, N{O}_{2}^{−}, {N}_{3}^{−}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$O=C=O, O=N+=O, {[N. . ..=N=N. . ..]}^{−},$$ $$H−C≡C−H$$ সবাই সরলরৈখিক",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Chemistry",
+    "question": "$$500mL 1M NaOH$$ †K c~Y© cÖkwgZ Ki‡Z $$2M$$ NbgvÎvi $${H}_{2}S{O}_{4}$$ KZ wjUvi jvM‡e ?",
+    "options": {
+      "a": "$$1 L$$",
+      "b": "$$1.25 L$$",
+      "c": "$$0.125 L$$",
+      "d": "$$4 L$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$${e}_{B}{V}_{B}{S}_{B}={e}_{A}{V}_{A}{S}_{A}$$ $$⇒{V}_{A}=\\frac{1×500×1}{2×2}mL=125 mL =0.125 L$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Chemistry",
+    "question": "আয়োডাইড $$({I}^{−})$$ আয়নের ঘনমাত্রা দ্বিগুণ করা হলে $$Pb{I}_{2}(s)$$ এর সাথে সাম্যাবস্থায় থাকা $$P{b}^{2+}$$ আয়নের ঘনমাত্রার ওপর-হ্রাস-বৃদ্ধির কীরূপ প্রভাব পড়বে?",
+    "options": {
+      "a": "4 গুণ হবে",
+      "b": "$$\\frac{1}{4}$$ হবে",
+      "c": "16 গুণ হবে",
+      "d": "$$\\frac{1}{16}$$ হবে"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$Pb{I}_{2}→P{b}^{2+}+2{I}^{−}$$ S S 2S $$∴$$ আয়োডাইড আয়নের ঘনমাত্রা দ্বিগুণ করা হলে $$P{b}^{2+}$$ ঘনমাত্রা $$\\frac{1}{{2}^{2}}$$ $$=\\frac{1}{4}$$ গুণ হবে।",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Chemistry",
+    "question": "$${H}_{3}C−C−\\begin{matrix} | \\\\ C{H}_{3} \\end{matrix}\\begin{matrix} C{H}_{3} \\\\ | \\end{matrix}HC=C{H}_{2}$$ Gi IUPAC c×wZ‡Z bvg-",
+    "options": {
+      "a": "2, 2 - WvBwg_vBj weDwUb –1",
+      "b": "3, 3 - WvBwg_vBj weDwUb – 1",
+      "c": "2, 2 - WvBwg_vBj †cw›Ub – 1",
+      "d": "3, 3 - WvBwg_vBj †cw›Ub – 1"
+    },
+    "correctAnswer": "b",
+    "explanation": "$${H}_{3}C4 −C−\\begin{matrix} | \\\\ C{H}_{3} \\end{matrix}\\begin{matrix} C{H}_{3} \\\\ |3 \\end{matrix}HC2=C1{H}_{2}$$ †hŠMwUi bvg 3, 3 – WvBwg_vBj weDwUb -1",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Chemistry",
+    "question": "$$0.018M HCOOH$$ Gi kZKiv KZfvM we‡qvwRZ n‡e ? $$({K}_{a}=1.8×{10}^{−4})$$",
+    "options": {
+      "a": "$$10%$$",
+      "b": "$$5%$$",
+      "c": "$$20%$$",
+      "d": "$$25%$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$α=\\sqrt{\\frac{{K}_{a}}{C}}=\\sqrt{\\frac{1.8×{10}^{−4}}{0.018}}={10}^{−1}=10%$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Chemistry",
+    "question": "নিচের কোনটির দ্রবণীয়তা (পানিতে) সর্বনিম্ন?",
+    "options": {
+      "a": "$$N{a}_{2}S{O}_{4}$$",
+      "b": "$$BaS{O}_{4}$$",
+      "c": "$$MgS{O}_{4}$$",
+      "d": "$$BeS{O}_{4}$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Chemistry",
+    "question": "†Kvb †Rvovq DfqB †ebwRb P‡µ mwµqKvix MÖæc ?",
+    "options": {
+      "a": "$$−C{H}_{3}, −{NH}_{2}$$",
+      "b": "$$−N{H}_{2}, −CHO$$",
+      "c": "$$−C{H}_{3}, −COOH$$",
+      "d": "$$−C{H}_{3}, −{NO}_{2}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Chemistry",
+    "question": "†mvwWqvg mvjdvB‡Ui Rvi‡Y †mvwWqvg mvj‡dU Drcv`‡b FYvZ¥K cÖfveK wnmv‡e KvR K‡i-",
+    "options": {
+      "a": "evqy",
+      "b": "A¨vj‡Kvnj",
+      "c": "wMømvwib",
+      "d": "$$Mn{O}_{2}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Chemistry",
+    "question": "$$N{a}^{+}$$ আয়ন শনাক্তকরণে কোনটি ব্যবহৃত হয়?",
+    "options": {
+      "a": "$${K}_{2}Cr{O}_{4}$$",
+      "b": "$$PbCr{O}_{4}$$",
+      "c": "$${K}_{2}{H}_{2}S{b}_{2}{O}_{7}$$",
+      "d": "$${K}_{2}S{b}_{2}{O}_{7}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$N{a}^{+}+{K}_{2}{H}_{2}S{b}_{2}{O}_{7}→N{a}_{2}{H}_{2}S{b}_{2}{O}_{7}\\text{সাদা} \\text{অধঃক্ষেপ}↓+2{K}^{+}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Chemistry",
+    "question": "wb‡Pi †KvbwU mwVK ?",
+    "options": {
+      "a": "$$F{e}^{2+}→$$ eY©nxb",
+      "b": "$$C{o}^{2+}→$$ †Mvjvcx",
+      "c": "$$C{u}^{+}→$$ bxj",
+      "d": "$$M{n}^{2+}→$$ eY©nxb"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Chemistry",
+    "question": "ms‡KvPbkxjZv ¸Yv‡¼i gvb 1 A‡cÿv †QvU n‡j †KvbwU mwVK ?",
+    "options": {
+      "a": "ev¯Íe M¨vm Av`k© M¨vm A‡cÿv Kg ms‡KvPbkxj",
+      "b": "ev¯Íe M¨vm Av`k© M¨vm A‡cÿv AwaK ms‡KvPbkxj",
+      "c": "ev¯Íe M¨vm Av`k© M¨v‡mi b¨vq AvPiY Ki‡e",
+      "d": "†KvbwUB bq"
+    },
+    "correctAnswer": "b",
+    "explanation": "ev¯Íe M¨vm Av`k© M¨vm A‡cÿv AwaK ms‡KvPbkxj|",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Chemistry",
+    "question": "†Kvb †hŠMwU A¨vjWj Nbxfeb wewµqv †`q ?",
+    "options": {
+      "a": "$$C{H}_{3}CHO$$",
+      "b": "$${C}_{6}{H}_{5}CHO$$",
+      "c": "$$C{H}_{3}CC{l}_{2}CHO$$",
+      "d": "$$C{(C{H}_{3})}_{3}CHO$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Chemistry",
+    "question": "wb‡Pi †Kvb †hŠMwU Av‡qv‡Wvdg© wewµqv †`q bv ?",
+    "options": {
+      "a": "$$C{H}_{3}OC{H}_{2}C{H}_{3}$$",
+      "b": "$$C{H}_{3}CHO$$",
+      "c": "$$C{H}_{3}COC{H}_{3}$$",
+      "d": "$$C{H}_{3}C{H}_{2}OH$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Chemistry",
+    "question": "†eªvwgb Bw_‡bi mv‡_ wewµqv K‡i| wewµqvwUi †KŠkj Kx ?",
+    "options": {
+      "a": "†K›`ªvKlx© cÖwZ¯’vcb",
+      "b": "B‡jKUªMÖvnx hyZ",
+      "c": "†K›`ªvKlx© hyZ",
+      "d": "B‡jKUªMÖvnx cÖwZ¯’vcb"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Chemistry",
+    "question": "wb‡¤œi †Kvb †gŠjØ‡qi g‡a¨ KY© m¤c©K Av‡Q ?",
+    "options": {
+      "a": "S I Cl",
+      "b": "Be I B",
+      "c": "Be I Al",
+      "d": "N I O"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Chemistry",
+    "question": "$${25}^{∘}C$$ ZvcgvÎvq $$85 m$$ `ªe †Kvb `ªve‡K †hvM K‡i `ªe‡Yi fi cvIqv †Mj $$185 m$$ | `ªeYwU m¤ú„³ n‡j H ZvcgvÎvq `ª‡ei `ªve¨Zv KZ ?",
+    "options": {
+      "a": "$$40$$",
+      "b": "$$45$$",
+      "c": "$$85$$",
+      "d": "$$80$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "`ªve¨Zv $$=\\frac{100×85}{185−85}=85$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Chemistry",
+    "question": "†Kvb †hŠMwU R¨vwgwZK mgvYyZv cÖ`k©b K‡i bv ?",
+    "options": {
+      "a": "$$C{H}_{3}−ClC=CH−Cl$$",
+      "b": "$$C{H}_{3}−HC=CH−Cl$$",
+      "c": "$$C{H}_{3}−HC=CCl−Cl$$",
+      "d": "$$C{H}_{3}−HC=CH−C{H}_{3}$$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$$C{H}_{3}3−CH2={C1}_{\\begin{matrix} ∖ \\\\ Cl \\end{matrix}}^{\\begin{matrix} Cl \\\\ / \\end{matrix}}$$ †hŠMwU‡Z 1 bs Kve©‡b `ywU g~jK GKB ( Cl) | ZvB Gi R¨vwgwZK mgvYyZv m¤¢e bq|",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Chemistry",
+    "question": "wb‡¤œi †KvbwU evdvi `ªeY bq ?",
+    "options": {
+      "a": "$$C{H}_{3}COOH+C{H}_{3}COONa$$",
+      "b": "$$N{H}_{4}OH+N{H}_{4}Cl$$",
+      "c": "$$N{a}_{2}C{O}_{3}+NaHC{O}_{3}$$",
+      "d": "$$HCl+NaCl$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 51,
+    "subject": "Higher Mathematics",
+    "question": "$${(1−i)}^{−2}−{(1+i)}^{−2}=?$$",
+    "options": {
+      "a": "$$i$$",
+      "b": "$$2i$$",
+      "c": "$$1$$",
+      "d": "$$−i$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$\\frac{1}{{(1−i)}^{2}}−\\frac{1}{{(1+i)}^{2}}=\\frac{1}{1−2i+{i}^{2}}−\\frac{1}{1+2i+{i}^{2}}$$ $$=\\frac{1}{−2i}−\\frac{1}{2i}=\\frac{−1−1}{2i}=−\\frac{1}{i}=i$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 52,
+    "subject": "Higher Mathematics",
+    "question": "$$ln (a+bi)=?$$",
+    "options": {
+      "a": "$${tan}^{−1} \\frac{b}{a}$$",
+      "b": "$${tan}^{−1} \\frac{b}{a}+c$$",
+      "c": "$$i ta{n}^{−1}\\frac{b}{a}$$",
+      "d": "None of them"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$a+bi=\\sqrt{{a}^{2}+{b}^{2}} {e}^{(2nπ+{tan}^{−1 } \\frac{b}{a})i}$$ $$⇒ln (a+bi)=\\frac{1}{2}ln ({a}^{2}+{b}^{2})+(2nπ+{tan}^{−1} \\frac{b}{a})i$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 53,
+    "subject": "Higher Mathematics",
+    "question": "$$g(x)={sin}^{−1} cos (x);f(x)=sin (sin (g (x)))$$ হলে, $${f}^{{}^{′}}(x)×{g}^{{}^{′}}(x)=?$$",
+    "options": {
+      "a": "$$sin x⋅cos (cos x)$$",
+      "b": "$$−sin xcos (cos x)$$",
+      "c": "$$xsin x$$",
+      "d": "$$\\frac{1}{2}sin 2x$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$g(x)={sin}^{−1} cos (x)$$ $$⇒{g}^{{}^{′}}(x)=\\frac{−sin x}{\\sqrt{1−{cos}^{2} x}}=−1;$$ $$f(x)=sin (sin (g (x)))=sin (sin ({sin}^{−1} cos (x)))$$ $$=sin (cos x)⇒{f}^{{}^{′}}(x)=cos (cos x)⋅(−sin x)$$ $${f}^{{}^{′}}(x)×{g}^{{}^{′}}(x)=sin x⋅cos (cos x)$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 54,
+    "subject": "Higher Mathematics",
+    "question": "$${∫}_{1}^{2}{log}_{10} xdx$$ এর মান নির্ণয় কর।",
+    "options": {
+      "a": "$${log}_{10} (\\frac{4}{e})$$",
+      "b": "$$ln (\\frac{4}{e})$$",
+      "c": "$$ln (\\frac{e}{4})$$",
+      "d": "$$\\frac{{log}_{10} (\\frac{4}{e})}{ln 10}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$∫{log}_{10} x dx$$ $$=∫{log}_{10} e×{log}_{e}^{x} dx$$ $$=∫\\frac{ln x}{ln 10} dx=\\frac{1}{ln 10} ∫lnx dx$$ $$=\\frac{1}{ln 10} [x ln x−x]+c$$ $$∴{∫}_{1}^{2}{log}_{10} xdx=\\frac{1}{ln 10}{[xln x−x]}_{1}^{2}$$ $$=\\frac{1}{ln 10}[2ln 2−2+1]=\\frac{ln 4−ln e}{ln 10}=\\frac{ln (\\frac{4}{e})}{ln 10}={log}_{10} (\\frac{4}{e})$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 55,
+    "subject": "Higher Mathematics",
+    "question": "$${x}^{2}+{y}^{2}−ax=100$$ বৃত্তের $$(0, −10)$$ বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ-",
+    "options": {
+      "a": "$$y−ax=100$$",
+      "b": "$$ax−10y=100$$",
+      "c": "$$y=−100$$",
+      "d": "$$ax+10y+100=0$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$x⋅0+y(−10)−a(x+0)=100$$ $$⇒ax+10y+100=0$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 56,
+    "subject": "Higher Mathematics",
+    "question": "[0,2] ব্যবধিতে $$x+y=1$$ এবং $$y=0$$ রেখা দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল নির্ণয় কর।",
+    "options": {
+      "a": "$$\\frac{1}{2}$$",
+      "b": "1",
+      "c": "0",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্ষেত্রফল: $${∫}_{0}^{1}(1−x)dx−{∫}_{1}^{2}(1−x)dx$$ $$={[x−\\frac{{x}^{2}}{2}]}_{0}^{1}−{[x−\\frac{{x}^{2}}{2}]}_{1}^{2}$$ $$=\\frac{1}{2}−(−\\frac{1}{2})=1$$ বর্গ একক",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 57,
+    "subject": "Higher Mathematics",
+    "question": "নিচের কোনটি $${x}^{2}−2{y}^{2}+7=0$$ বক্ররেখার $$(−1, 2)$$ বিন্দুতে অভিলম্ব হবে?",
+    "options": {
+      "a": "$$x+4y−7=0$$",
+      "b": "$$4x+y+6=0$$",
+      "c": "$$2x+4y−7=0$$",
+      "d": "$$4x−y+6=0$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$${x}^{2}−2{y}^{2}+7=0⇒2x−4y\\frac{d}{dx}=0$$ $$⇒\\frac{dy}{dx}=\\frac{x}{2y}⇒{\\frac{dy}{dx}|}_{(−1, 2)}=\\frac{−1}{2×2}=\\frac{−1}{4}$$ $$∴$$ অভিলম্বের ঢাল $$=4$$ $$(−1, 2)$$ বিন্দুগামী অভিলম্ব: $$y−2=4(x+1)$$ $$⇒4x−y+6=0$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 58,
+    "subject": "Higher Mathematics",
+    "question": "$${x}^{2}=28y$$ পরাবৃত্তে অন্তর্লিখিত একটি সমদ্বিবাহু ত্রিভুজের একটি শীর্ষ পরাবৃত্তের শীর্ষ, অপর শীর্ষদ্বয় উপকেন্দ্রিক লম্বের প্রান্ত হলে সমান বাহুদ্বয়ের দৈর্ঘ্য কত?",
+    "options": {
+      "a": "$$8\\sqrt{5}$$",
+      "b": "$$9\\sqrt{5}$$",
+      "c": "$$6\\sqrt{5}$$",
+      "d": "$$7\\sqrt{5}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$${x}^{2}=28y=4×7y∴a=7$$ $$∴4 |a|=28=2b$$ $$∴b=14$$ $$∴{c}^{2}={a}^{2}+{b}^{2}={7}^{2}+{14}^{2}∴c=7\\sqrt{5}$$ একক",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 59,
+    "subject": "Higher Mathematics",
+    "question": "কুয়ার মুখ থেকে এক খণ্ড পাথর এর তলদেশে পৌঁছাতে 3 সেকেন্ড সময় লাগলে, তলদেশ থেকে কুয়ার মুখের উচ্চতা কত মিটার?",
+    "options": {
+      "a": "44.1",
+      "b": "49.6",
+      "c": "45.4",
+      "d": "52.2"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$h=\\frac{1}{2}g{t}^{2}=\\frac{1}{2}×9.8×{3}^{2}=44.1 m$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 60,
+    "subject": "Higher Mathematics",
+    "question": "$$(0, 3)$$ উপকেন্দ্র এবং $$y+1=0$$ নিয়ামক বিশিষ্ট পরাবৃত্তের সমীকরণ কোনটি?",
+    "options": {
+      "a": "$${y}^{2}+4x+3=0$$",
+      "b": "$${y}^{2}−6y+3=0$$",
+      "c": "$${x}^{2}−6y+3=0$$",
+      "d": "$${x}^{2}−8y+8=0$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$${x}^{2}+{(y−3)}^{2}={(y+1)}^{2}$$ $$⇒{x}^{2}+{y}^{2}−6y+9={y}^{2}+2y+1$$ $$∴{x}^{2}−8y+8=0$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 61,
+    "subject": "Higher Mathematics",
+    "question": "$$z=2−2\\sqrt{2}i$$ একটি জটিল রাশি। $$((z−z―)―)$$ এর মান কোনটি?",
+    "options": {
+      "a": "$$2\\sqrt{2}$$",
+      "b": "$$−2\\sqrt{2}i$$",
+      "c": "$$−4\\sqrt{2}i$$",
+      "d": "$$4\\sqrt{2}i$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$z=2−2\\sqrt{2}i………(i)$$ $$∴z―= 2+2\\sqrt{2}i………(ii)$$ $$(i)−(ii)⇒z−z―⇒−4\\sqrt{2}i⇒(z−z――)=4\\sqrt{2}i$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 62,
+    "subject": "Higher Mathematics",
+    "question": "$$5x+3y+1=0$$ রেখার সমান্তরাল ও $$(1, 1)$$ বিন্দুগামী সরলরেখার সমীকরণ-",
+    "options": {
+      "a": "$$10x+6y−16=0$$",
+      "b": "$$3x+5y−8=0$$",
+      "c": "$$5x+3y+8=0$$",
+      "d": "$$3x−5y−8=0$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$5x+3y+k=0$$ $$∴5+3+k=0$$ $$[ ∵(1, 1)$$ বিন্দুগামী $$]$$ $$∴k=−8 ∴5x+3y−8=0$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 63,
+    "subject": "Higher Mathematics",
+    "question": "$$sin (ln (cos x))$$ এর অন্তরক সহগ কোনটি?",
+    "options": {
+      "a": "$$\\frac{sin x}{cos x}cos (ln (cos x))$$",
+      "b": "$$cot xcos (ln (cos x))$$",
+      "c": "$$tan x cos (ln (cos x))$$",
+      "d": "$$−tan xcos (ln (cos x))$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$y=sin (ln (cos x))$$ $$⇒\\frac{dy}{dx}=cos (ln (cos x))⋅\\frac{1}{cos x}⋅(−sin x)$$ $$=−tan xcos (ln (cos x))$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 64,
+    "subject": "Higher Mathematics",
+    "question": "$$sin x+cos x=1$$ সমীকরণের সাধারণ সমাধান নিচের কোনটি?",
+    "options": {
+      "a": "$${(−1)}^{n}(n−\\frac{1}{4})π$$",
+      "b": "$$(n−\\frac{1}{4})π+\\frac{{(−1)}^{n}π}{4}$$",
+      "c": "$$2nπ±\\frac{π}{4}$$",
+      "d": "$$nπ±{(−1)}^{n}\\frac{π}{4}$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$sin x+cos x=1$$ $$⇒sin x⋅cos \\frac{π}{4}+cos x⋅sin \\frac{π}{4}=\\frac{1}{\\sqrt{2}}$$ $$⇒sin (x+\\frac{π}{4})=\\frac{1}{\\sqrt{2}}=sin \\frac{π}{4}⇒x+\\frac{π}{4}=nπ+{(−1)}^{n}\\frac{π}{4}$$ $$∴x=(n−\\frac{1}{4})π+{(−1)}^{n}\\frac{π}{4};n∈Z$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 65,
+    "subject": "Higher Mathematics",
+    "question": "একটি কণিকের উপরস্থ কোন বিন্দুর পরামিতিক স্থানাঙ্ক $$(3sec θ−7,4tan θ−4)$$ । কণিকটির কেন্দ্র?",
+    "options": {
+      "a": "$$(−7, −4)$$",
+      "b": "$$(3 , 4)$$",
+      "c": "$$(7, 4)$$",
+      "d": "$$(4, 3)$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$x=3sec θ−7$$ $$⇒(x+7)=3sec θ⇒\\frac{x+7}{3}=sec θ……….(i)$$ $$\\frac{y+4}{4}=tan θ………(ii)$$ $${(i)}^{2}−{(ii)}^{2}$$ $${(\\frac{x+7}{3})}^{2}−{(\\frac{y+4}{4})}^{2}=1∴C≡(−7, −4)$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 66,
+    "subject": "Higher Mathematics",
+    "question": "$$4{x}^{2}−6x−(p+2)=0$$ সমীকরণের একটি মূল অপরটির দ্বিগুণ হলে $$p=?$$",
+    "options": {
+      "a": "3",
+      "b": "$$−3$$",
+      "c": "$$−4$$",
+      "d": "4"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধরি, মূলগুলো $$α, 2α$$ $$∴3α=\\frac{6}{4}⇒α=\\frac{1}{2}$$ $$α$$ এর মান সমীকরণে বসিয়ে পাই: $$4⋅\\frac{1}{4}−6⋅\\frac{1}{2}−(p+2)=0$$ $$⇒1−3−(p+2)=0⇒p+2=−2⇒p=−4$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 67,
+    "subject": "Higher Mathematics",
+    "question": "$$∆ABC$$ এর $$∠C={90}^{∘},sin A+sin B=\\frac{1}{\\sqrt{3}−1}, sin B−sin A=\\frac{1}{\\sqrt{3}+1}$$ হলে, $$sin (A−B)=?$$",
+    "options": {
+      "a": "$$\\frac{\\sqrt{3}}{2}$$",
+      "b": "$$\\frac{\\sqrt{5}}{2}$$",
+      "c": "$$\\frac{1}{2}$$",
+      "d": "$$− \\frac{1}{2}$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$sin (A+B)⋅sin (A−B)={sin}^{2} A−{sin}^{2} B$$ $$=(sin A+sin B)(sin A−sin B)$$ $$⇒(sin {90}^{∘})⋅sin (A−B)=\\frac{1}{\\sqrt{3}−1}×\\frac{−1}{\\sqrt{3}+1}=\\frac{−1}{3−1}$$ $$=\\frac{−1}{2} ∴sin (A−B)=−\\frac{1}{2}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 68,
+    "subject": "Higher Mathematics",
+    "question": "নিচের কোনটি বহুপদী রাশি?",
+    "options": {
+      "a": "$${x}^{6}3$$",
+      "b": "$${x}^{\\frac{4}{3}}$$",
+      "c": "$${x}^{\\frac{1}{4}}$$",
+      "d": "$${x}^{2}+\\frac{1}{{x}^{3}}$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$${x}^{6}3={x}^{2}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 69,
+    "subject": "Higher Mathematics",
+    "question": "$${x}^{2}+ax+b=0$$ সমীকরণে একটি মূল $$1−i$$ হলে $$a+b$$ এর মান কত?",
+    "options": {
+      "a": "3",
+      "b": "0",
+      "c": "4",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$1−i$$ মূলবিশিষ্ট সমীকরণ: ধরি, $$x=1−i⇒{(x−1)}^{2}={(−i)}^{2}$$ $$⇒{x}^{2}−2x+1=−1$$ $$⇒{x}^{2}−2x+2=0∴a=−2;b=2$$ $$∴a+b=0$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 70,
+    "subject": "Higher Mathematics",
+    "question": "$$[\\begin{matrix} x+4 & 3 & 3 \\\\ 3 & x+4 & 5 \\\\ 5 & 5 & x+1 \\end{matrix}]$$ ম্যাট্রিক্সের $$x$$ এর কোন মানের জন্য বিপরীত ম্যাট্রিক্স পাওয়া যাবে?",
+    "options": {
+      "a": "$$4$$",
+      "b": "$$3$$",
+      "c": "$$−11$$",
+      "d": "$$−1$$"
+    },
+    "correctAnswer": "a",
+    "explanation": "$$|\\begin{matrix} x+4 & 3 & 3 \\\\ 3 & x+4 & 5 \\\\ 5 & 5 & x+1 \\end{matrix}|=0$$ $$⇒|\\begin{matrix} x+1 & 3 & 3 \\\\ −(x+1) & x+4 & 5 \\\\ 0 & 5 & x+1 \\end{matrix}|=0[{c}_{1}^{{}^{′}}={c}_{1}−{c}_{2}]$$ $$⇒(x+1)|\\begin{matrix} 1 & 3 & 3 \\\\ −1 & x+4 & 5 \\\\ 0 & 5 & x+1 \\end{matrix}|=0$$ $$⇒(x+1)|\\begin{matrix} 1 & 3 & 3 \\\\ 0 & x+7 & 8 \\\\ 0 & 5 & x+1 \\end{matrix}|=0 [{r}_{1}^{{}^{′}}={r}_{1}+{r}_{2}]$$ $$⇒(x+1)[(x+7)(x+1)−40]=0$$ $$⇒(x+1)({x}^{2}+8x−33)=0$$ $$⇒(x+1)(x+11)(x−3)=0∴x=−1, −11, 3$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 71,
+    "subject": "Higher Mathematics",
+    "question": "$${cos}^{2} θ={sin}^{2} θ−1$$ সমীকরণের সাধারণ সমাধান নিচের কোনটি?",
+    "options": {
+      "a": "$$nπ$$",
+      "b": "$$(2n+1)\\frac{π}{2}$$",
+      "c": "$$(2nπ+1)\\frac{π}{4}$$",
+      "d": "$$(n+1)\\frac{π}{2}$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$co{s}^{2}θ−si{n}^{2}θ=−1⇒cos 2θ=−1$$ $$⇒2θ=(2n+1)π ∴θ=\\frac{(2n+1)π}{2};n∈Z$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 72,
+    "subject": "Higher Mathematics",
+    "question": "$$3x−2y+7=0$$ ও $$2x+3y+69=0$$ এর মধ্যবর্তী সূক্ষ্মকোণটির মান কত?",
+    "options": {
+      "a": "$$\\frac{π}{4}$$",
+      "b": "$$\\frac{π}{3}$$",
+      "c": "$$\\frac{π}{2}$$",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "d",
+    "explanation": "প্রদত্ত রেখা দুটি পরস্পর লম্ব। সুতরাং অন্তর্ভুক্ত কোণ $${90}^{∘}$$ বা $$\\frac{π}{2}$$ , অর্থাৎ, রেখাদ্বয়ের মধ্যবর্তী কোনো সূক্ষ্মকোণ নেই।",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 73,
+    "subject": "Higher Mathematics",
+    "question": "$$y={tan}^{−1} (\\frac{2\\sqrt{x}}{1−x })$$ হলে, $$x=9$$ এর জন্য $$\\frac{dx}{dy}$$ এর মান কত?",
+    "options": {
+      "a": "$$\\frac{1}{30}$$",
+      "b": "$$\\frac{1}{50}$$",
+      "c": "$$\\frac{1}{20}$$",
+      "d": "$$30$$"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$y={tan}^{−1} (\\frac{2\\sqrt{x}}{1−x })$$ $$={tan}^{−1} \\frac{2\\sqrt{x}}{1−{(\\sqrt{x})}^{2}}=2{tan}^{−1} \\sqrt{x}$$ $$∴\\frac{dy}{dx}=2\\frac{1}{1+x}⋅\\frac{1}{2\\sqrt{x}}=\\frac{1}{\\sqrt{x}(1+x)}$$ $$x=9$$ হলে, $$\\frac{dy}{dx}=\\frac{1}{3(9+1)}=\\frac{1}{30}∴\\frac{dx}{dy}=30$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 74,
+    "subject": "Higher Mathematics",
+    "question": "$$8{x}^{2}+7{y}^{2}−32x−14y−17=0$$ উপবৃত্তটির উৎকেন্দ্রিকতা কত?",
+    "options": {
+      "a": "$$\\frac{1}{2\\sqrt{3}}$$",
+      "b": "$$\\frac{1}{\\sqrt{7}}$$",
+      "c": "$$\\frac{1}{\\sqrt{5}}$$",
+      "d": "$$\\frac{1}{2\\sqrt{2}}$$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$$8{x}^{2}+7{y}^{2}−32x−14y−17=0$$ $$⇒8({x}^{2}−4x+4)+7({y}^{2}−2y+1)=17+32+7$$ $$⇒\\frac{{(x−2)}^{2}}{7}+\\frac{{(y−1)}^{2}}{8}=1$$ $$[{a}^{2}=7, {b}^{2}=8]$$ $$∴$$ উৎকেন্দ্রিকতা $$=\\sqrt{1−\\frac{{a}^{2}}{{b}^{2}}}=\\sqrt{1−\\frac{7}{8}}=\\frac{1}{2\\sqrt{2}}$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 75,
+    "subject": "Higher Mathematics",
+    "question": "দুটি অসদৃশ সমান্তরাল বল $$P$$ ও $$Q$$ পরস্পরের সাথে স্থান বিনিময় করলেও যদি লব্ধির দিক অপরিবর্তিত থাকে, তবে লব্ধির মান কত?",
+    "options": {
+      "a": "$$|P−Q|$$",
+      "b": "$$0$$",
+      "c": "$$P+Q$$",
+      "d": "a ও b উভয়ই"
+    },
+    "correctAnswer": "d",
+    "explanation": "$$P=Q$$ $$∴$$ লব্ধি $$=|P−Q|=0$$",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 76,
+    "subject": "Biology",
+    "question": "নিচের কোনটি স্পঞ্জি অ স্থি ?",
+    "options": {
+      "a": "করোটিকা",
+      "b": "টিবিয়া",
+      "c": "ফিবুলা",
+      "d": "আলনা"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 77,
+    "subject": "Biology",
+    "question": "নিচের কোনটি সেক্স লিংকড ডিজঅর্ডার নয়?",
+    "options": {
+      "a": "ডায়াবেটিস মেলিটাস",
+      "b": "হাইপারট্রাইকোসিস",
+      "c": "রাতকানা",
+      "d": "ফ্র্যাজাইল X-সিন্ড্রোম"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 78,
+    "subject": "Biology",
+    "question": "কোন লিভারের মাধ্যমে অল্প বল প্রয়োগে বেশি ফল পাওয়া যায়?",
+    "options": {
+      "a": "দ্বিতীয় শ্রেণির লিভার",
+      "b": "তৃতীয় শ্রেণির লিভার",
+      "c": "চতুর্থ শ্রেণির লিভার",
+      "d": "প্রথম শ্রেণির লিভার"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 79,
+    "subject": "Biology",
+    "question": "নিচের কোন ফেজ এ DNA Replication হয় ?",
+    "options": {
+      "a": "অ্যানাফেজ",
+      "b": "এম. ফেজ",
+      "c": "$${G}_{2}$$ ফেজ",
+      "d": "$$S$$ ফেজ"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 80,
+    "subject": "Biology",
+    "question": "কোন অ্যান্টিবায়োটিক রাইবোজোমে mRNA-এর চলনে বাধা সৃষ্টি করে?",
+    "options": {
+      "a": "ক্লোরোমাইসিন",
+      "b": "নিওমাইসিন",
+      "c": "স্ট্রেপ্টোমাইসিন",
+      "d": "ইরিথ্রোমাইসিন"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 81,
+    "subject": "Biology",
+    "question": "কলাবতীর কাণ্ডের অন্তর্গঠনগত বৈশিষ্ট্য হলো –",
+    "options": {
+      "a": "জাইলেম এন্ডার্ক",
+      "b": "হাইপোডার্মিস অনুপস্থিত",
+      "c": "একস্তরবিশিষ্ট পেরিসাইকল উপস্থিত",
+      "d": "বৃত্তাকার এন্ডোডার্মিস থাকে"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 82,
+    "subject": "Biology",
+    "question": "গ্যাস্ট্রিক গ্রন্থির কোন কোষ গ্যাস্ট্রিক লাইপেজ উৎপন্ন করে?",
+    "options": {
+      "a": "প্যারাইটাল কোষ",
+      "b": "চীফ কোষ",
+      "c": "আর্জেন্টাফিন কোষ",
+      "d": "মিউকাস কোষ"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 83,
+    "subject": "Biology",
+    "question": "নিচের কোনটি হোলান্ড্রিক জিনের সাথে সম্পর্কিত?",
+    "options": {
+      "a": "মানুষের কানের লোম",
+      "b": "হিমোফিলিয়া",
+      "c": "মানুষের মাথার টাক",
+      "d": "অ্যালবিনিজম"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 84,
+    "subject": "Biology",
+    "question": "কোনটির ক্ষেত্রে রিভার্স পেরিস্টালসিস লক্ষণীয় -",
+    "options": {
+      "a": "Mollusca",
+      "b": "Urochordata",
+      "c": "Vertebrata",
+      "d": "Cephalochordate"
+    },
+    "correctAnswer": "b",
+    "explanation": "Urochordata এর ক্ষেত্রে রক্ত সংবহনতন্ত্র মুক্ত ধরনের, হৃৎচক্রে রিভার্স পেরিস্ট্যালসিস দেখা যায় অর্থাৎ রক্ত প্রবাহ প্রতিবার উল্টোদিকে গতিপথ পরিবর্তন করে।",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 85,
+    "subject": "Biology",
+    "question": "কোন কোষের জীবনকাল অতি সীমিত ?",
+    "options": {
+      "a": "নিউরন",
+      "b": "রেটিনার বাইরের কোষ",
+      "c": "RBC",
+      "d": "নেফ্রন"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 86,
+    "subject": "Biology",
+    "question": "Torula নামক ইস্ট থেকে কোনটি পাওয়া যায় -",
+    "options": {
+      "a": "স্নেহ",
+      "b": "শর্করা",
+      "c": "আমিষ",
+      "d": "ভিটামিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 87,
+    "subject": "Biology",
+    "question": "নিঃশ্বাস বায়ুতে বস্তু কত % $$CO₂$$ থাকে ?",
+    "options": {
+      "a": "20.9%",
+      "b": "5.2%",
+      "c": "13.7%",
+      "d": "0.04%"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 88,
+    "subject": "Biology",
+    "question": "ক্যাপোসি সার্কোমার সাথে সংযুক্ত ভাইরাস কোনটি?",
+    "options": {
+      "a": "ইপস্টেইন বার ভাইরাস",
+      "b": "প্যাপিলোমা (ওয়ার্ট) ভাইরাস",
+      "c": "হার্পিস সিমপ্লেক্স ভাইরাস",
+      "d": "হিউম্যান টি-সেল লিউকেমিয়া ভাইরাস"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 89,
+    "subject": "Biology",
+    "question": "পাকস্থলির মসৃণ পেশি কয় স্তর বিশিষ্ট ?",
+    "options": {
+      "a": "৪",
+      "b": "৫",
+      "c": "৩",
+      "d": "৬"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 90,
+    "subject": "Biology",
+    "question": "ঘাসফড়িংয়ের ট্রা কি ও ল সম্পর্কে কোনটি সঠিক ?",
+    "options": {
+      "a": "দেহকোষে পরিসমাপ্ত",
+      "b": "বায়ুপূর্ণ থাকে",
+      "c": "হিমোসি লে অবস্থিত",
+      "d": "ইন্টিমাযুক্ত"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 91,
+    "subject": "Biology",
+    "question": "কোনটি সর্ববৃহৎ ক র্মী অ ণু ?",
+    "options": {
+      "a": "Carbohydrate",
+      "b": "Fat",
+      "c": "Protein",
+      "d": "Sugar"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 92,
+    "subject": "Biology",
+    "question": "উদ্ভিদের কোন উপাদান সবচেয়ে কম লাগে ?",
+    "options": {
+      "a": "বোরন",
+      "b": "জিঙ্ক",
+      "c": "মলিবডেনাম",
+      "d": "ফসফরাস"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 93,
+    "subject": "Biology",
+    "question": "কোনটি ইমার্জিং ভাইরাস নয় ?",
+    "options": {
+      "a": "RSV",
+      "b": "SARS",
+      "c": "Ebola",
+      "d": "HIV"
+    },
+    "correctAnswer": "a",
+    "explanation": "HIV, SARS, Nile Virus, Ebola, নভেল করোনা ভাইরাস ইত্যাদি ইমার্জিং ভাইরাস।",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 94,
+    "subject": "Biology",
+    "question": "কোন উদ্ভিদে স্প্যাডিক্স পুষ্পমঞ্জুরী দেখা যায় ?",
+    "options": {
+      "a": "ধনে",
+      "b": "কচু",
+      "c": "মুক্তাঝুরি",
+      "d": "গাজর"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 95,
+    "subject": "Biology",
+    "question": "হৃৎপিণ্ডের প্রাচীরের কোন স্তরে বিক্ষিপ্তভাবে চর্বি লেগে থাকে ?",
+    "options": {
+      "a": "পেরিকার্ডিয়াম",
+      "b": "এন্ডোকার্ডিয়াম",
+      "c": "এপিকার্ডিয়াম",
+      "d": "মায়োকার্ডিয়াম"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 96,
+    "subject": "Biology",
+    "question": "কোনটি বহুমুত্র রোগ নিরাময়ে উপকারী ?",
+    "options": {
+      "a": "জবা",
+      "b": "ভুট্টা",
+      "c": "ঢেঁড়স",
+      "d": "মেস্তা"
+    },
+    "correctAnswer": "c",
+    "explanation": "কচি ঢেঁড়সে লৌহ থাকায় নিয়মিত খেলে শারীরিক দুর্বলতা সারে। এটি বহুমূত্র রোগের ও উপকার করে থাকে।",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 97,
+    "subject": "Biology",
+    "question": "কোন পর্বের প্রাণী দ্বিস্তরী?",
+    "options": {
+      "a": "Nemertea",
+      "b": "Mesozoa",
+      "c": "Placozoa",
+      "d": "Ctenophora"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 98,
+    "subject": "Biology",
+    "question": "কো নটি আয়রন - সালফার প্রোটিন ?",
+    "options": {
+      "a": "ফিয়োফাইটিন",
+      "b": "ফেরিডক্সিন",
+      "c": "সাইটো ক্রো ম",
+      "d": "প্লা স্টো কুইনন"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 99,
+    "subject": "Biology",
+    "question": "কোনটি মটরগাছকে মেন্ডেলিয়ান পরীক্ষা য় ব্যবহারের কারণ নয় ?",
+    "options": {
+      "a": "উভ য় লিঙ্গ",
+      "b": "একবর্ষজীবী",
+      "c": "ক ম প্রকরণ",
+      "d": "স্ব - পরাগী"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 100,
+    "subject": "Biology",
+    "question": "কোনটিতে Paracytic পত্রর ন্ধ্র দেখা যায় ?",
+    "options": {
+      "a": "বেগুন",
+      "b": "ধান",
+      "c": "রঙ্গন",
+      "d": "নয়নতারা"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "svg_code": "",
+    "topic": ""
+  }
+]

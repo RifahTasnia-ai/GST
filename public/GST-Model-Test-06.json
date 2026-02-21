@@ -1,0 +1,1602 @@
+[
+    {
+        "id": 1,
+        "subject": "Physics",
+        "question": "দুটি ভেক্টর $\\vec{A} = 2\\hat{i} + \\lambda\\hat{j} + \\hat{k}$ এবং $\\vec{B} = 4\\hat{i} - 2\\hat{j} - 2\\hat{k}$ পরস্পর লম্ব হলে $\\lambda$ এর মান কত?",
+        "options": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "5"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Vector"
+    },
+    {
+        "id": 2,
+        "subject": "Physics",
+        "question": "কোনো প্রক্ষেপকের সর্বাধিক পাল্লা $R_{max}$ হলে, তার সর্বাধিক উচ্চতা $H$ কত হবে?",
+        "options": {
+            "a": "$R_{max}$",
+            "b": "$\\frac{R_{max}}{2}$",
+            "c": "$\\frac{R_{max}}{4}$",
+            "d": "$2R_{max}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Newtonian Mechanics"
+    },
+    {
+        "id": 3,
+        "subject": "Physics",
+        "question": "$M$ ভরের এবং $R$ ব্যাসার্ধের একটি নিরেট গোলকের কেন্দ্রগামী অক্ষের সাপেক্ষে জড়তার ভ্রামক কোনটি?",
+        "options": {
+            "a": "$\\frac{1}{2}MR^2$",
+            "b": "$\\frac{2}{5}MR^2$",
+            "c": "$\\frac{2}{3}MR^2$",
+            "d": "$MR^2$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Newtonian Mechanics"
+    },
+    {
+        "id": 4,
+        "subject": "Physics",
+        "question": "স্প্রিং ধ্রুবক $k$ বিশিষ্ট একটি স্প্রিংকে $x$ পরিমাণ প্রসারিত করলে স্প্রিংটিতে সঞ্চিত বিভব শক্তি কত?",
+        "options": {
+            "a": "$kx^2$",
+            "b": "$\\frac{1}{2}kx^2$",
+            "c": "$kx$",
+            "d": "$\\frac{1}{2}kx$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Work, Energy and Power"
+    },
+    {
+        "id": 5,
+        "subject": "Physics",
+        "question": "পৃথিবীর পৃষ্ঠ থেকে কোনো বস্তুর মুক্তিবেগ ($v_e$) নিচের কোনটির সমানুপাতিক?",
+        "options": {
+            "a": "$R$",
+            "b": "$\\frac{1}{R}$",
+            "c": "$\\sqrt{R}$",
+            "d": "$R^2$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Gravitation and Gravity"
+    },
+    {
+        "id": 6,
+        "subject": "Physics",
+        "question": "ইয়ং-এর গুণাঙ্কের একক কোনটি?",
+        "options": {
+            "a": "$N m^{-1}$",
+            "b": "$N m^{-2}$",
+            "c": "$N m$",
+            "d": "$N m^2$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Structural Properties of Matter"
+    },
+    {
+        "id": 7,
+        "subject": "Physics",
+        "question": "একটি সেকেন্ড দোলকের দৈর্ঘ্য চারগুণ করা হলে এর দোলনকাল কত হবে?",
+        "options": {
+            "a": "1 s",
+            "b": "2 s",
+            "c": "4 s",
+            "d": "8 s"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Periodic Motion"
+    },
+    {
+        "id": 8,
+        "subject": "Physics",
+        "question": "আদর্শ গ্যাসের অণুগুলোর মূল গড় বর্গবেগ ($C_{rms}$) পরম তাপমাত্রার ($T$) সাথে কীভাবে পরিবর্তিত হয়?",
+        "options": {
+            "a": "$C_{rms} \\propto T$",
+            "b": "$C_{rms} \\propto \\frac{1}{T}$",
+            "c": "$C_{rms} \\propto \\sqrt{T}$",
+            "d": "$C_{rms} \\propto T^2$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Ideal Gas and Kinetics of Gas"
+    },
+    {
+        "id": 9,
+        "subject": "Physics",
+        "question": "উৎস এবং গ্রাহকের তাপমাত্রা যথাক্রমে $400K$ ও $300K$ হলে কার্নো ইঞ্জিনের কর্মদক্ষতা কত?",
+        "options": {
+            "a": "25%",
+            "b": "50%",
+            "c": "75%",
+            "d": "100%"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Thermodynamics"
+    },
+    {
+        "id": 10,
+        "subject": "Physics",
+        "question": "সমোষ্ণ প্রক্রিয়ায় একটি সিস্টেমের এনট্রপির পরিবর্তন কেমন হয়?",
+        "options": {
+            "a": "শূন্য হয়",
+            "b": "বৃদ্ধি পায়",
+            "c": "হ্রাস পায়",
+            "d": "অসীম হয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Thermodynamics"
+    },
+    {
+        "id": 11,
+        "subject": "Physics",
+        "question": "$C$ মানের দুটি ধারক শ্রেণিসমবায়ে যুক্ত থাকলে তাদের তুল্য ধারকত্ব কত হবে?",
+        "options": {
+            "a": "$2C$",
+            "b": "$C$",
+            "c": "$\\frac{C}{2}$",
+            "d": "$\\frac{C}{4}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Static Electricity"
+    },
+    {
+        "id": 12,
+        "subject": "Physics",
+        "question": "প্রবাহ ঘনত্ব (Current density) এর একক কোনটি?",
+        "options": {
+            "a": "$A m$",
+            "b": "$A m^{-1}$",
+            "c": "$A m^2$",
+            "d": "$A m^{-2}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Current Electricity"
+    },
+    {
+        "id": 13,
+        "subject": "Physics",
+        "question": "$R$ ব্যাসার্ধের একটি বৃত্তাকার কুণ্ডলীর মধ্য দিয়ে $I$ তড়িৎ প্রবাহিত হলে এর কেন্দ্রে চৌম্বক ক্ষেত্রের মান কত?",
+        "options": {
+            "a": "$\\frac{\\mu_0 I}{2R}$",
+            "b": "$\\frac{\\mu_0 I}{2\\pi R}$",
+            "c": "$\\frac{\\mu_0 I}{R}$",
+            "d": "$\\frac{2\\mu_0 I}{R}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Magnetic Effect of Current"
+    },
+    {
+        "id": 14,
+        "subject": "Physics",
+        "question": "ফ্যারাডের তড়িৎ চৌম্বক আবেশের সূত্র অনুযায়ী আবিষ্ট তড়িৎচালক বল কিসের সমানুপাতিক?",
+        "options": {
+            "a": "চৌম্বক ফ্লাক্সের",
+            "b": "চৌম্বক ফ্লাক্সের পরিবর্তনের হারের",
+            "c": "চৌম্বক ক্ষেত্রের",
+            "d": "তড়িৎ প্রবাহের"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electromagnetic Induction"
+    },
+    {
+        "id": 15,
+        "subject": "Physics",
+        "question": "একটি L-C-R বর্তনীর অনুনাদ কম্পাঙ্ক (Resonance frequency) নিচের কোনটি?",
+        "options": {
+            "a": "$\\frac{1}{2\\pi \\sqrt{LC}}$",
+            "b": "$2\\pi \\sqrt{LC}$",
+            "c": "$\\frac{1}{\\sqrt{LC}}$",
+            "d": "$\\sqrt{LC}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electromagnetic Induction"
+    },
+    {
+        "id": 16,
+        "subject": "Physics",
+        "question": "ইয়ং-এর দ্বি-চিড় পরীক্ষায় ডোরা ব্যবধান (Fringe width) এর সমীকরণ কোনটি?",
+        "options": {
+            "a": "$\\frac{\\lambda d}{D}$",
+            "b": "$\\frac{\\lambda D}{2d}$",
+            "c": "$\\frac{\\lambda D}{d}$",
+            "d": "$\\frac{d D}{\\lambda}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Physical Optics"
+    },
+    {
+        "id": 17,
+        "subject": "Physics",
+        "question": "ফোটোইলেকট্রিক ইফেক্ট-এ সূচন কম্পাঙ্ক $f_0$ হলে, কার্য অপেক্ষক ($W_0$) কত?",
+        "options": {
+            "a": "$\\frac{h}{f_0}$",
+            "b": "$h f_0$",
+            "c": "$\\frac{f_0}{h}$",
+            "d": "$\\frac{hc}{f_0}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Modern Physics"
+    },
+    {
+        "id": 18,
+        "subject": "Physics",
+        "question": "ভরবেগ $p$ বিশিষ্ট একটি কণার ডি ব্রগলি তরঙ্গদৈর্ঘ্য ($\\lambda$) কত?",
+        "options": {
+            "a": "$\\lambda = \\frac{p}{h}$",
+            "b": "$\\lambda = \\frac{h}{p}$",
+            "c": "$\\lambda = hp$",
+            "d": "$\\lambda = \\frac{h}{p^2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Modern Physics"
+    },
+    {
+        "id": 19,
+        "subject": "Physics",
+        "question": "কোনো তেজস্ক্রিয় পদার্থের অর্ধায়ু $T_{1/2}$ এবং অবক্ষয় ধ্রুবক $\\lambda$ এর মধ্যে সম্পর্ক কী?",
+        "options": {
+            "a": "$T_{1/2} = \\frac{0.693}{\\lambda}$",
+            "b": "$T_{1/2} = 0.693\\lambda$",
+            "c": "$T_{1/2} = \\frac{\\lambda}{0.693}$",
+            "d": "$T_{1/2} = \\frac{1}{\\lambda}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Atomic Model and Nuclear Physics"
+    },
+    {
+        "id": 20,
+        "subject": "Physics",
+        "question": "নিচের কোনটি সার্বজনীন (Universal) লজিক গেট?",
+        "options": {
+            "a": "AND",
+            "b": "OR",
+            "c": "NOT",
+            "d": "NAND"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Semiconductor and Electronics"
+    },
+    {
+        "id": 21,
+        "subject": "Physics",
+        "question": "ট্রানজিস্টরের কারেন্ট গেইন $\\beta$ এবং কারেন্ট অ্যামপ্লিফিকেশন ফ্যাক্টর $\\alpha$ এর সম্পর্ক কোনটি?",
+        "options": {
+            "a": "$\\beta = \\frac{\\alpha}{1+\\alpha}$",
+            "b": "$\\beta = \\frac{\\alpha}{1-\\alpha}$",
+            "c": "$\\beta = \\frac{1-\\alpha}{\\alpha}$",
+            "d": "$\\beta = \\alpha(1-\\alpha)$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Semiconductor and Electronics"
+    },
+    {
+        "id": 22,
+        "subject": "Physics",
+        "question": "$r$ ব্যাসার্ধের বৃত্তাকার পথে $v$ সমদ্রুতিতে চলমান বস্তুর কেন্দ্রমুখী ত্বরণ কত?",
+        "options": {
+            "a": "$\\frac{v}{r}$",
+            "b": "$\\frac{v^2}{r}$",
+            "c": "$vr^2$",
+            "d": "$\\frac{r}{v^2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Newtonian Mechanics"
+    },
+    {
+        "id": 23,
+        "subject": "Physics",
+        "question": "মহাকর্ষীয় ধ্রুবক $G$ এর মাত্রা কোনটি?",
+        "options": {
+            "a": "$M L^2 T^{-2}$",
+            "b": "$M^{-1} L^3 T^{-2}$",
+            "c": "$M L T^{-1}$",
+            "d": "$M^{-1} L^2 T^{-2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Gravitation and Gravity"
+    },
+    {
+        "id": 24,
+        "subject": "Physics",
+        "question": "সরল ছন্দিত স্পন্দনে স্পন্দনরত বস্তুর ত্বরণ $a$ এবং সরণ $x$ এর সম্পর্ক কী?",
+        "options": {
+            "a": "$a \\propto x$",
+            "b": "$a \\propto -x$",
+            "c": "$a \\propto x^2$",
+            "d": "$a \\propto -x^2$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Periodic Motion"
+    },
+    {
+        "id": 25,
+        "subject": "Physics",
+        "question": "পৃষ্ঠটানের (Surface tension) একক নিচের কোনটি?",
+        "options": {
+            "a": "$N m$",
+            "b": "$N m^{-1}$",
+            "c": "$J m$",
+            "d": "$N m^{-2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Structural Properties of Matter"
+    },
+    {
+        "id": 26,
+        "subject": "Chemistry",
+        "question": "কোনো পরমাণুর দুটি ইলেকট্রনের চারটি কোয়ান্টাম সংখ্যার মান কখনোই একই হতে পারে না—এটি কার নীতি?",
+        "options": {
+            "a": "আউফবাউ",
+            "b": "হুন্ড",
+            "c": "পাউলি",
+            "d": "হাইজেনবার্গ"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Qualitative Chemistry"
+    },
+    {
+        "id": 27,
+        "subject": "Chemistry",
+        "question": "যেসব পরমাণুর নিউট্রন সংখ্যা সমান কিন্তু প্রোটন সংখ্যা ভিন্ন, তাদেরকে কী বলে?",
+        "options": {
+            "a": "আইসোটোপ",
+            "b": "আইসোবার",
+            "c": "আইসোটোন",
+            "d": "আইসোমার"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Qualitative Chemistry"
+    },
+    {
+        "id": 28,
+        "subject": "Chemistry",
+        "question": "$Al(OH)_3$ এর দ্রাব্যতা $s$ হলে, এর দ্রাব্যতা গুণফল ($K_{sp}$) কত?",
+        "options": {
+            "a": "$s^2$",
+            "b": "$4s^3$",
+            "c": "$27s^4$",
+            "d": "$108s^5$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Qualitative Chemistry"
+    },
+    {
+        "id": 29,
+        "subject": "Chemistry",
+        "question": "VSEPR তত্ত্ব অনুযায়ী $NH_3$ অণুর আকৃতি কেমন?",
+        "options": {
+            "a": "সরলরৈখিক",
+            "b": "ত্রিকোণাকার সমতলীয়",
+            "c": "চতুষ্তলকীয়",
+            "d": "ত্রিকোণাকার পিরামিডীয়"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Periodic Properties and Chemical Bonds"
+    },
+    {
+        "id": 30,
+        "subject": "Chemistry",
+        "question": "মিথেন ($CH_4$) অণুতে কার্বন পরমাণুর কোন সংকরায়ণ ঘটে?",
+        "options": {
+            "a": "$sp$",
+            "b": "$sp^2$",
+            "c": "$sp^3$",
+            "d": "$sp^3d$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Periodic Properties and Chemical Bonds"
+    },
+    {
+        "id": 31,
+        "subject": "Chemistry",
+        "question": "$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$ বিক্রিয়ার জন্য $K_p$ ও $K_c$ এর সম্পর্ক কোনটি?",
+        "options": {
+            "a": "$K_p = K_c(RT)$",
+            "b": "$K_p = K_c(RT)^2$",
+            "c": "$K_p = K_c(RT)^{-2}$",
+            "d": "$K_p = K_c$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Chemical Changes"
+    },
+    {
+        "id": 32,
+        "subject": "Chemistry",
+        "question": "$0.01M$ $HCl$ দ্রবণের pH কত?",
+        "options": {
+            "a": "1",
+            "b": "2",
+            "c": "12",
+            "d": "14"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Chemical Changes"
+    },
+    {
+        "id": 33,
+        "subject": "Chemistry",
+        "question": "অম্লীয় বাফার দ্রবণ তৈরিতে নিচের কোন মিশ্রণটি ব্যবহার করা হয়?",
+        "options": {
+            "a": "$CH_3COOH$ + $CH_3COONa$",
+            "b": "$HCl$ + $NaCl$",
+            "c": "$NH_4OH$ + $NH_4Cl$",
+            "d": "$NaOH$ + $CH_3COONa$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Chemical Changes"
+    },
+    {
+        "id": 34,
+        "subject": "Chemistry",
+        "question": "$K_2Cr_2O_7$ যৌগে $Cr$-এর জারণ সংখ্যা কত?",
+        "options": {
+            "a": "+4",
+            "b": "+5",
+            "c": "+6",
+            "d": "+7"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Quantitative Chemistry"
+    },
+    {
+        "id": 35,
+        "subject": "Chemistry",
+        "question": "ফ্যারাডের তড়িৎ বিশ্লেষণ সূত্র অনুযায়ী সঞ্চিত পদার্থের ভর ($W$) নিচের কোন সমীকরণ দ্বারা প্রকাশ করা যায়?",
+        "options": {
+            "a": "$W = \\frac{Z}{It}$",
+            "b": "$W = ZIt$",
+            "c": "$W = \\frac{It}{Z}$",
+            "d": "$W = ZI^2t$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Electrochemistry"
+    },
+    {
+        "id": 36,
+        "subject": "Chemistry",
+        "question": "নিচের কোনটি কিটোন (Ketone) এর কার্যকরী মূলক?",
+        "options": {
+            "a": "$-CHO$",
+            "b": "$-OH$",
+            "c": "$-CO-$",
+            "d": "$-COOH$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 37,
+        "subject": "Chemistry",
+        "question": "প্রোপিন এর সাথে $HBr$ এর বিক্রিয়ায় মার্কোনিকভ নিয়ম অনুযায়ী প্রধান উৎপাদ কোনটি?",
+        "options": {
+            "a": "1-ব্রোমোপ্রোপেন",
+            "b": "2-ব্রোমোপ্রোপেন",
+            "c": "1,2-ডাইব্রোমোপ্রোপেন",
+            "d": "প্রোপেন"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 38,
+        "subject": "Chemistry",
+        "question": "$S_N1$ বিক্রিয়া কয় ধাপে সম্পন্ন হয়?",
+        "options": {
+            "a": "১ ধাপে",
+            "b": "২ ধাপে",
+            "c": "৩ ধাপে",
+            "d": "৪ ধাপে"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 39,
+        "subject": "Chemistry",
+        "question": "নিচের কোনটি টলেন বিকারক (Tollen's reagent) এর সাথে বিক্রিয়া করে সিলভার দর্পণ তৈরি করে?",
+        "options": {
+            "a": "অ্যালকোহল",
+            "b": "অ্যালডিহাইড",
+            "c": "কিটোন",
+            "d": "ইথার"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 40,
+        "subject": "Chemistry",
+        "question": "বেনজিন বলয়ে কয়টি সঞ্চারণশীল $\\pi$ (পাই) ইলেকট্রন থাকে?",
+        "options": {
+            "a": "2",
+            "b": "4",
+            "c": "6",
+            "d": "8"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 41,
+        "subject": "Chemistry",
+        "question": "স্থির তাপমাত্রায় নির্দিষ্ট ভরের গ্যাসের আয়তন ও চাপের সম্পর্ক কোনটি? (বয়েলের সূত্র)",
+        "options": {
+            "a": "$V \\propto P$",
+            "b": "$V \\propto \\frac{1}{P}$",
+            "c": "$V \\propto T$",
+            "d": "$P \\propto T$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Environmental Chemistry"
+    },
+    {
+        "id": 42,
+        "subject": "Chemistry",
+        "question": "আদর্শ গ্যাস সমীকরণ কোনটি?",
+        "options": {
+            "a": "$PV = \frac{n}{RT}$",
+            "b": "$PV = nRT$",
+            "c": "$P = nVRT$",
+            "d": "$V = nPRT$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Environmental Chemistry"
+    },
+    {
+        "id": 43,
+        "subject": "Chemistry",
+        "question": "তীব্র অম্ল ও তীব্র ক্ষারের প্রসমন তাপের মান প্রায় কত?",
+        "options": {
+            "a": "$-57.34 kJ/mol$",
+            "b": "$+57.34 kJ/mol$",
+            "c": "$-393.5 kJ/mol$",
+            "d": "$-286 kJ/mol$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Chemical Changes"
+    },
+    {
+        "id": 44,
+        "subject": "Chemistry",
+        "question": "নিচের কোনটি প্রাইমারি স্ট্যান্ডার্ড পদার্থ?",
+        "options": {
+            "a": "$HCl$",
+            "b": "$NaOH$",
+            "c": "$K_2Cr_2O_7$",
+            "d": "$H_2SO_4$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Quantitative Chemistry"
+    },
+    {
+        "id": 45,
+        "subject": "Chemistry",
+        "question": "নিচের কোন আয়নে সন্নিবেশ সমযোজী বন্ধন রয়েছে?",
+        "options": {
+            "a": "$Na^+$",
+            "b": "$Cl^-$",
+            "c": "$NH_4^+$",
+            "d": "$O^{2-}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Periodic Properties and Chemical Bonds"
+    },
+    {
+        "id": 46,
+        "subject": "Chemistry",
+        "question": "হ্যালোজেনগুলোর মধ্যে কোনটির তড়িৎ ঋণাত্মকতা (Electronegativity) সবচেয়ে বেশি?",
+        "options": {
+            "a": "$F$",
+            "b": "$Cl$",
+            "c": "$Br$",
+            "d": "$I$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Periodic Properties and Chemical Bonds"
+    },
+    {
+        "id": 47,
+        "subject": "Chemistry",
+        "question": "ক্যাটেনেশন (Catenation) ধর্ম সবচেয়ে বেশি দেখা যায় কোন মৌলে?",
+        "options": {
+            "a": "সিলিকন",
+            "b": "নাইট্রোজেন",
+            "c": "কার্বন",
+            "d": "অক্সিজেন"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 48,
+        "subject": "Chemistry",
+        "question": "নিচের কোনটি ইলেকট্রোফাইল (Electrophile)?",
+        "options": {
+            "a": "$NH_3$",
+            "b": "$H_2O$",
+            "c": "$AlCl_3$",
+            "d": "$OH^-$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 49,
+        "subject": "Chemistry",
+        "question": "গ্রিগনার্ড বিকারকের সাধারণ সংকেত কোনটি?",
+        "options": {
+            "a": "$R-X$",
+            "b": "$R-Mg-X$",
+            "c": "$R-OH$",
+            "d": "$R-O-R$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Organic Chemistry"
+    },
+    {
+        "id": 50,
+        "subject": "Chemistry",
+        "question": "পানির অস্থায়ী খরতার জন্য দায়ী কোনটি?",
+        "options": {
+            "a": "ক্যালসিয়াম ও ম্যাগনেসিয়ামের সালফেট",
+            "b": "ক্যালসিয়াম ও ম্যাগনেসিয়ামের ক্লোরাইড",
+            "c": "ক্যালসিয়াম ও ম্যাগনেসিয়ামের বাইকার্বোনেট",
+            "d": "সোডিয়ামের কার্বোনেট"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Environmental Chemistry"
+    },
+    {
+        "id": 51,
+        "subject": "Math",
+        "question": "একটি $3 \\times 3$ অভেদক (Identity) ম্যাট্রিক্সের নির্ণায়কের মান কত?",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "9"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Matrices and Determinants"
+    },
+    {
+        "id": 52,
+        "subject": "Math",
+        "question": "কোনো ব্যতিক্রমী (Singular) ম্যাট্রিক্স $A$ এর ক্ষেত্রে কোনটি সত্য?",
+        "options": {
+            "a": "$|A| = 1$",
+            "b": "$|A| \\ne 0$",
+            "c": "$|A| = 0$",
+            "d": "$A^{-1}$ নির্ণয়যোগ্য"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Matrices and Determinants"
+    },
+    {
+        "id": 53,
+        "subject": "Math",
+        "question": "$y = 2x + 3$ এবং $y = 2x - 5$ রেখাদ্বয়ের মধ্যবর্তী লম্ব দূরত্ব কত?",
+        "options": {
+            "a": "$\\frac{8}{\\sqrt{5}}$",
+            "b": "$\\frac{2}{\\sqrt{5}}$",
+            "c": "$8$",
+            "d": "$\\frac{5}{\\sqrt{2}}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Straight Lines"
+    },
+    {
+        "id": 54,
+        "subject": "Math",
+        "question": "$x^2 + y^2 - 4x - 6y - 3 = 0$ বৃত্তের কেন্দ্রের স্থানাঙ্ক কত?",
+        "options": {
+            "a": "(-2, -3)",
+            "b": "(2, 3)",
+            "c": "(4, 6)",
+            "d": "(-4, -6)"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Circles"
+    },
+    {
+        "id": 55,
+        "subject": "Math",
+        "question": "$y = mx + c$ সরলরেখাটি $x^2 + y^2 = a^2$ বৃত্তের স্পর্শক হওয়ার শর্ত কী?",
+        "options": {
+            "a": "$c = a \\sqrt{1 - m^2}$",
+            "b": "$c^2 = a^2(1 + m^2)$",
+            "c": "$c^2 = a^2(1 - m^2)$",
+            "d": "$c = a(1 + m^2)$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Circles"
+    },
+    {
+        "id": 56,
+        "subject": "Math",
+        "question": "$\\lim_{x \\to 0} \\frac{\\sin 3x}{x}$ এর মান কত?",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "3",
+            "d": "1/3"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus (Differentiation)"
+    },
+    {
+        "id": 57,
+        "subject": "Math",
+        "question": "$\\frac{d}{dx} (e^{2x})$ এর মান কত?",
+        "options": {
+            "a": "$e^{2x}$",
+            "b": "$2e^{2x}$",
+            "c": "$\\frac{1}{2} e^{2x}$",
+            "d": "$2xe^{2x}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus (Differentiation)"
+    },
+    {
+        "id": 58,
+        "subject": "Math",
+        "question": "$\\int \\sin x \\, dx$ এর মান কোনটি?",
+        "options": {
+            "a": "$\\cos x + c$",
+            "b": "$-\\cos x + c$",
+            "c": "$\\sin x + c$",
+            "d": "$-\\sin x + c$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus (Integration)"
+    },
+    {
+        "id": 59,
+        "subject": "Math",
+        "question": "$x^2 + y^2 = a^2$ বৃত্ত দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত?",
+        "options": {
+            "a": "$\\pi a$",
+            "b": "$\\pi a^2$",
+            "c": "$2\\pi a$",
+            "d": "$\\frac{\\pi a^2}{2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus (Integration)"
+    },
+    {
+        "id": 60,
+        "subject": "Math",
+        "question": "$y^2 = 4ax$ পরাবৃত্তের শীর্ষবিন্দুর স্থানাঙ্ক কত?",
+        "options": {
+            "a": "(a, 0)",
+            "b": "(-a, 0)",
+            "c": "(0, a)",
+            "d": "(0, 0)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Conics"
+    },
+    {
+        "id": 61,
+        "subject": "Math",
+        "question": "উপবৃত্তের (Ellipse) উৎকেন্দ্রিকতা ($e$) এর পরিসর কোনটি?",
+        "options": {
+            "a": "$e = 1$",
+            "b": "$e > 1$",
+            "c": "$0 < e < 1$",
+            "d": "$e = 0$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Conics"
+    },
+    {
+        "id": 62,
+        "subject": "Math",
+        "question": "$3 + 4i$ জটিল সংখ্যার মডুলাস (Modulus) কত?",
+        "options": {
+            "a": "3",
+            "b": "4",
+            "c": "5",
+            "d": "25"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Complex Numbers"
+    },
+    {
+        "id": 63,
+        "subject": "Math",
+        "question": "১ এর কাল্পনিক ঘনমূল $\\omega$ হলে, $1 + \\omega + \\omega^2$ এর মান কত?",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "-1",
+            "d": "$\\omega$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Complex Numbers"
+    },
+    {
+        "id": 64,
+        "subject": "Math",
+        "question": "$ax^2 + bx + c = 0$ সমীকরণের মূলদ্বয় $\\alpha, \\beta$ হলে $\\alpha + \\beta$ এর মান কত?",
+        "options": {
+            "a": "$\\frac{c}{a}$",
+            "b": "$-\\frac{c}{a}$",
+            "c": "$\\frac{b}{a}$",
+            "d": "$-\\frac{b}{a}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Polynomials and Polynomial Equations"
+    },
+    {
+        "id": 65,
+        "subject": "Math",
+        "question": "$\\tan^{-1}(1) + \\tan^{-1}(2) + \\tan^{-1}(3)$ এর মান কত?",
+        "options": {
+            "a": "$\\frac{\\pi}{2}$",
+            "b": "$\\pi$",
+            "c": "$\\frac{3\\pi}{2}$",
+            "d": "0"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Inverse Trigonometric Functions"
+    },
+    {
+        "id": 66,
+        "subject": "Math",
+        "question": "পরস্পর সমকোণে ক্রিয়ারত $P$ ও $Q$ বলের লব্ধির মান কত?",
+        "options": {
+            "a": "$P+Q$",
+            "b": "$P-Q$",
+            "c": "$\\sqrt{P^2+Q^2}$",
+            "d": "$P^2+Q^2$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Statics"
+    },
+    {
+        "id": 67,
+        "subject": "Math",
+        "question": "$u$ আদিবেগে এবং অনুভূমিকের সাথে $\\alpha$ কোণে নিক্ষিপ্ত বস্তুর সর্বাধিক উচ্চতা কত?",
+        "options": {
+            "a": "$\\frac{u^2 \\sin^2 \\alpha}{2g}$",
+            "b": "$\\frac{u^2 \\sin 2\\alpha}{g}$",
+            "c": "$\\frac{u^2 \\sin \\alpha}{g}$",
+            "d": "$\\frac{u \\sin \\alpha}{2g}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Dynamics"
+    },
+    {
+        "id": 68,
+        "subject": "Math",
+        "question": "যদি $A$ ম্যাট্রিক্সের মাত্রা $2 \\times 3$ এবং $B$ ম্যাট্রিক্সের মাত্রা $3 \\times 4$ হয়, তবে $AB$ ম্যাট্রিক্সের মাত্রা কত?",
+        "options": {
+            "a": "$2 \\times 4$",
+            "b": "$3 \\times 3$",
+            "c": "$4 \\times 2$",
+            "d": "$2 \\times 3$"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Matrices and Determinants"
+    },
+    {
+        "id": 69,
+        "subject": "Math",
+        "question": "$ax + by + c = 0$ রেখার ঢাল কত?",
+        "options": {
+            "a": "$\\frac{a}{b}$",
+            "b": "$-\\frac{a}{b}$",
+            "c": "$\\frac{b}{a}$",
+            "d": "$-\\frac{b}{a}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Straight Lines"
+    },
+    {
+        "id": 70,
+        "subject": "Math",
+        "question": "$\\int \\frac{1}{1+x^2} \\, dx$ এর মান কোনটি?",
+        "options": {
+            "a": "$\\sin^{-1} x + c$",
+            "b": "$\\cos^{-1} x + c$",
+            "c": "$\\tan^{-1} x + c$",
+            "d": "$\\ln|1+x^2| + c$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus (Integration)"
+    },
+    {
+        "id": 71,
+        "subject": "Math",
+        "question": "কোনো ফাংশন $y = f(x)$ এর লঘিমান বা গুরুমান থাকার প্রাথমিক শর্ত কী?",
+        "options": {
+            "a": "$f''(x) = 0$",
+            "b": "$f'(x) = 0$",
+            "c": "$f'(x) > 0$",
+            "d": "$f'(x) < 0$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Calculus (Differentiation)"
+    },
+    {
+        "id": 72,
+        "subject": "Math",
+        "question": "অধিবৃত্তের (Hyperbola) উৎকেন্দ্রিকতা ($e$) এর মান কেমন হয়?",
+        "options": {
+            "a": "$e = 1$",
+            "b": "$e < 1$",
+            "c": "$e > 1$",
+            "d": "$e = 0$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Conics"
+    },
+    {
+        "id": 73,
+        "subject": "Math",
+        "question": "$1 + i$ জটিল সংখ্যার আর্গুমেন্ট (Argument) কত?",
+        "options": {
+            "a": "$\\frac{\\pi}{6}$",
+            "b": "$\\frac{\\pi}{4}$",
+            "c": "$\\frac{\\pi}{3}$",
+            "d": "$\\frac{\\pi}{2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Complex Numbers"
+    },
+    {
+        "id": 74,
+        "subject": "Math",
+        "question": "${}^nC_r$ এর সমতুল্য মান কোনটি?",
+        "options": {
+            "a": "${}^nP_r$",
+            "b": "${}^nC_{n-r}$",
+            "c": "${}^nP_{n-r}$",
+            "d": "${}^{n-1}C_r$"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Permutation and Combination"
+    },
+    {
+        "id": 75,
+        "subject": "Math",
+        "question": "দুটি ভেক্টর $\\vec{A}$ এবং $\\vec{B}$ পরস্পর লম্ব হওয়ার শর্ত কী?",
+        "options": {
+            "a": "$\\vec{A} \\times \\vec{B} = 0$",
+            "b": "$\\vec{A} \\cdot \\vec{B} = 1$",
+            "c": "$\\vec{A} \\cdot \\vec{B} = 0$",
+            "d": "$\\vec{A} \\times \\vec{B} = 1$"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Vector"
+    },
+    {
+        "id": 76,
+        "subject": "Biology",
+        "question": "কোষের ‘পাওয়ার হাউস’ (Power House) বলা হয় কোন অঙ্গাণুকে?",
+        "options": {
+            "a": "রাইবোজোম",
+            "b": "লাইসোজোম",
+            "c": "মাইটোকন্ড্রিয়া",
+            "d": "গলগি বডি"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Cell and its Structure"
+    },
+    {
+        "id": 77,
+        "subject": "Biology",
+        "question": "কোষঝিল্লির গ্রহণযোগ্য 'ফ্লুইড মোজাইক মডেল' (Fluid Mosaic Model) কে প্রস্তাব করেন?",
+        "options": {
+            "a": "রবার্ট হুক",
+            "b": "সিঙ্গার ও নিকলসন",
+            "c": "ওয়াটসন ও ক্রিক",
+            "d": "শ্লেডেন ও সোয়ান"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Cell and its Structure"
+    },
+    {
+        "id": 78,
+        "subject": "Biology",
+        "question": "মিয়োসিস কোষ বিভাজনের কোন উপপর্যায়ে ক্রসিং ওভার (Crossing over) ঘটে?",
+        "options": {
+            "a": "লেপ্টোটিন",
+            "b": "জাইগোটিন",
+            "c": "প্যাকাইটিন",
+            "d": "ডিপ্লোটিন"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Cell Division"
+    },
+    {
+        "id": 79,
+        "subject": "Biology",
+        "question": "প্রোটিন সংশ্লেষণের ক্ষেত্রে 'স্টার্ট কোডন' (Start Codon) কোনটি?",
+        "options": {
+            "a": "UAA",
+            "b": "UAG",
+            "c": "UGA",
+            "d": "AUG"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Cell and its Structure"
+    },
+    {
+        "id": 80,
+        "subject": "Biology",
+        "question": "ক্যালভিন চক্রের (C3 cycle) প্রথম স্থায়ী পদার্থ কোনটি?",
+        "options": {
+            "a": "অক্সালো অ্যাসিটিক এসিড",
+            "b": "ম্যালিক এসিড",
+            "c": "৩-ফসফোগ্লিসারিক এসিড (3-PGA)",
+            "d": "রাইবুলোজ ১,৫-বিসফসফেট"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Plant Physiology"
+    },
+    {
+        "id": 81,
+        "subject": "Biology",
+        "question": "নিচের কোনটি C4 উদ্ভিদের উদাহরণ?",
+        "options": {
+            "a": "ধান",
+            "b": "গম",
+            "c": "ভুট্টা",
+            "d": "আলু"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Plant Physiology"
+    },
+    {
+        "id": 82,
+        "subject": "Biology",
+        "question": "গ্লাইকোলাইসিস প্রক্রিয়ায় নিট কত অণু ATP উৎপন্ন হয়?",
+        "options": {
+            "a": "২ অণু",
+            "b": "৪ অণু",
+            "c": "৮ অণু",
+            "d": "৩৮ অণু"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Plant Physiology"
+    },
+    {
+        "id": 83,
+        "subject": "Biology",
+        "question": "জেনেটিক ইঞ্জিনিয়ারিংয়ে বাহক হিসেবে সর্বাধিক ব্যবহৃত 'প্লাজমিড' (Plasmid) কোথায় পাওয়া যায়?",
+        "options": {
+            "a": "ভাইরাসে",
+            "b": "ব্যাকটেরিয়ায়",
+            "c": "ছত্রাকে",
+            "d": "শৈবালে"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Biotechnology"
+    },
+    {
+        "id": 84,
+        "subject": "Biology",
+        "question": "DNA অণুর নির্দিষ্ট স্থান কাটার জন্য ব্যবহৃত এনজাইমের নাম কী?",
+        "options": {
+            "a": "লাইগেজ",
+            "b": "পলিমারেজ",
+            "c": "রেস্ট্রিকশন এনজাইম",
+            "d": "হেলিক্যাজ"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Biotechnology"
+    },
+    {
+        "id": 85,
+        "subject": "Biology",
+        "question": "বংশগতিবিদ্যার জনক (Father of Genetics) কাকে বলা হয়?",
+        "options": {
+            "a": "চার্লস ডারউইন",
+            "b": "গ্রেগর জোহান মেন্ডেল",
+            "c": "লুই পাস্তুর",
+            "d": "হুগো দ্য ভ্রিস"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Genetics and Evolution"
+    },
+    {
+        "id": 86,
+        "subject": "Biology",
+        "question": "মেন্ডেলের দ্বিতীয় সূত্র বা স্বাধীনভাবে সঞ্চারণ সূত্রের ফিনোটাইপিক অনুপাত কত?",
+        "options": {
+            "a": "৩ : ১",
+            "b": "১ : ২ : ১",
+            "c": "৯ : ৩ : ৩ : ১",
+            "d": "১৩ : ৩"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Genetics and Evolution"
+    },
+    {
+        "id": 87,
+        "subject": "Biology",
+        "question": "কোন ব্লাড গ্রুপকে 'সার্বজনীন দাতা' (Universal Donor) বলা হয়?",
+        "options": {
+            "a": "A",
+            "b": "B",
+            "c": "AB",
+            "d": "O"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Blood and Circulation"
+    },
+    {
+        "id": 88,
+        "subject": "Biology",
+        "question": "একজন পূর্ণবয়স্ক মানুষের কঙ্কালতন্ত্রে মোট অস্থির সংখ্যা কত?",
+        "options": {
+            "a": "২০৬টি",
+            "b": "২১০টি",
+            "c": "৩০০টি",
+            "d": "৩১২টি"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Locomotion and Movement"
+    },
+    {
+        "id": 89,
+        "subject": "Biology",
+        "question": "মানবদেহের সবচেয়ে দীর্ঘ ও ভারী অস্থি কোনটি?",
+        "options": {
+            "a": "হিউমেরাস",
+            "b": "রেডিয়াস",
+            "c": "ফিমার",
+            "d": "টিবিয়া"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Locomotion and Movement"
+    },
+    {
+        "id": 90,
+        "subject": "Biology",
+        "question": "মানুষের লালারসে শর্করা পরিপাককারী কোন এনজাইম থাকে?",
+        "options": {
+            "a": "পেপসিন",
+            "b": "টায়ালিন",
+            "c": "ট্রিপসিন",
+            "d": "লাইপেজ"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Digestion and Absorption"
+    },
+    {
+        "id": 91,
+        "subject": "Biology",
+        "question": "পিত্তরস (Bile) কোথায় উৎপন্ন হয়?",
+        "options": {
+            "a": "পিত্তাশয়ে",
+            "b": "অগ্ন্যাশয়ে",
+            "c": "যকৃতে (Liver)",
+            "d": "পাকস্থলীতে"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Digestion and Absorption"
+    },
+    {
+        "id": 92,
+        "subject": "Biology",
+        "question": "হৃৎপিণ্ডের 'পেসমেকার' (Pacemaker) বলা হয় কোনটিকে?",
+        "options": {
+            "a": "AV node",
+            "b": "SA node",
+            "c": "Purkinje fibers",
+            "d": "Bundle of His"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Blood and Circulation"
+    },
+    {
+        "id": 93,
+        "subject": "Biology",
+        "question": "একজন সুস্থ মানুষের স্বাভাবিক রক্তচাপ (Blood Pressure) কত?",
+        "options": {
+            "a": "80/120 mmHg",
+            "b": "120/80 mmHg",
+            "c": "140/90 mmHg",
+            "d": "90/60 mmHg"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Blood and Circulation"
+    },
+    {
+        "id": 94,
+        "subject": "Biology",
+        "question": "বৃক্কের (Kidney) গঠন ও কাজের একক কোনটি?",
+        "options": {
+            "a": "নিউরন",
+            "b": "অ্যালভিওলাস",
+            "c": "নেফ্রন",
+            "d": "গ্লোমেরুলাস"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Excretion"
+    },
+    {
+        "id": 95,
+        "subject": "Biology",
+        "question": "মানবদেহে ইউরিয়া তৈরি হয় কোথায়? (অরনিথিন চক্র)",
+        "options": {
+            "a": "বৃক্কে",
+            "b": "যকৃতে",
+            "c": "প্লীহায়",
+            "d": "অগ্ন্যাশয়ে"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Excretion"
+    },
+    {
+        "id": 96,
+        "subject": "Biology",
+        "question": "মানবদেহের 'প্রভু গ্রন্থি' (Master Gland) কোনটি?",
+        "options": {
+            "a": "থাইরয়েড",
+            "b": "অ্যাড্রেনাল",
+            "c": "পিটুইটারি",
+            "d": "পিনিয়াল"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Coordination"
+    },
+    {
+        "id": 97,
+        "subject": "Biology",
+        "question": "জরুরি বা সংকটকালীন হরমোন (Emergency hormone) কোনটি?",
+        "options": {
+            "a": "ইনসুলিন",
+            "b": "থাইরক্সিন",
+            "c": "অ্যাড্রেনালিন",
+            "d": "ইস্ট্রোজেন"
+        },
+        "correctAnswer": "c",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Coordination"
+    },
+    {
+        "id": 98,
+        "subject": "Biology",
+        "question": "মানুষের মস্তিষ্কের সবচেয়ে বড় অংশ কোনটি?",
+        "options": {
+            "a": "সেরেব্রাম",
+            "b": "সেরেবেলাম",
+            "c": "মেডুলা অবলংগাটা",
+            "d": "পনস"
+        },
+        "correctAnswer": "a",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Coordination"
+    },
+    {
+        "id": 99,
+        "subject": "Biology",
+        "question": "মানুষের করোটিক স্নায়ু (Cranial Nerves) কত জোড়া?",
+        "options": {
+            "a": "১০ জোড়া",
+            "b": "১২ জোড়া",
+            "c": "৩১ জোড়া",
+            "d": "৩৩ জোড়া"
+        },
+        "correctAnswer": "b",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Human Physiology: Coordination"
+    },
+    {
+        "id": 100,
+        "subject": "Biology",
+        "question": "দ্বি-নিষেক (Double Fertilization) কোন উদ্ভিদের অনন্য বৈশিষ্ট্য?",
+        "options": {
+            "a": "শৈবাল",
+            "b": "মস",
+            "c": "ফার্ন",
+            "d": "আবৃতবীজী (Angiosperm)"
+        },
+        "correctAnswer": "d",
+        "explanation": "No need",
+        "hasDiagram": false,
+        "svg_code": "",
+        "topic": "Plant Reproduction"
+    }
+]

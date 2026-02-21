@@ -1,0 +1,317 @@
+.question-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--slate-100);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.question-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-2);
+  padding-bottom: var(--spacing-1-5);
+  border-bottom: 1px solid var(--slate-100);
+}
+
+.question-badge {
+  background: var(--primary-soft);
+  color: var(--primary);
+  padding: 4px 10px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.review-badge {
+  background: var(--warning-soft);
+  color: var(--warning);
+  padding: 4px 8px;
+  border-radius: var(--radius-md);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--slate-800);
+  margin-bottom: var(--spacing-3);
+  font-weight: 500;
+}
+
+.question-diagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--spacing-2) 0;
+  padding: var(--spacing-2);
+  background: var(--slate-50);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--slate-200);
+}
+
+.question-diagram svg {
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1-5);
+  margin-bottom: var(--spacing-3);
+}
+
+/* ─── Option Card ─── */
+.option-card {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-2);
+  padding: 12px;
+  border: 1px solid var(--slate-200);
+  border-radius: var(--radius-md);
+  background: white;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  width: 100%;
+  font-size: var(--font-base);
+  position: relative;
+  min-height: 48px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(37, 99, 235, 0.12);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.option-card:hover {
+  border-color: var(--slate-400);
+  background: var(--slate-50);
+}
+
+/* Explicit active/press state for touch */
+.option-card:active {
+  background: var(--slate-100);
+  transform: scale(0.985);
+  transition-duration: 0.05s;
+}
+
+.option-card.selected {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+.option-card.selected:active {
+  background: rgba(37, 99, 235, 0.15);
+}
+
+.option-label {
+  font-weight: 600;
+  color: var(--slate-500);
+  min-width: 24px;
+  margin-top: 1px;
+}
+
+.option-card.selected .option-label {
+  color: var(--primary);
+}
+
+.option-text {
+  flex: 1;
+  color: var(--slate-700);
+  line-height: 1.4;
+}
+
+.option-card.selected .option-text {
+  color: var(--primary-dark);
+  font-weight: 500;
+}
+
+.check-icon {
+  color: var(--success);
+  font-size: var(--font-lg);
+  font-weight: 700;
+  margin-left: auto;
+}
+
+/* ─── Actions / Nav ─── */
+.question-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--spacing-2);
+  border-top: 1px solid var(--slate-100);
+  gap: var(--spacing-2);
+}
+
+.nav-buttons {
+  display: flex;
+  gap: var(--spacing-2);
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.action-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 44px;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.08);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.action-btn.secondary {
+  background: white;
+  color: var(--slate-600);
+  border: 1px solid var(--slate-200);
+}
+
+.action-btn.secondary:hover:not(:disabled) {
+  background: var(--slate-50);
+  border-color: var(--slate-300);
+  color: var(--slate-800);
+}
+
+.action-btn.secondary:active:not(:disabled) {
+  background: var(--slate-100);
+  transform: scale(0.97);
+}
+
+/* ─── Exit Button ─── */
+.action-btn.exit-btn {
+  background: white;
+  color: #dc2626;
+  border: 1.5px solid #fca5a5;
+  font-weight: 700;
+}
+
+.action-btn.exit-btn:hover {
+  background: #fef2f2;
+  border-color: #dc2626;
+  color: #b91c1c;
+}
+
+.action-btn.exit-btn:active {
+  background: #fee2e2;
+  transform: scale(0.97);
+}
+
+.action-btn.primary {
+  background: var(--primary);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+.action-btn.primary:hover:not(:disabled) {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+.action-btn.primary:active:not(:disabled) {
+  transform: scale(0.97);
+  background: var(--primary-dark);
+}
+
+.submit-btn {
+  background: var(--success);
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: var(--success-dark);
+}
+
+.submit-btn:active:not(:disabled) {
+  background: var(--success-dark);
+  transform: scale(0.97);
+}
+
+/* ─── Mobile Optimizations ─── */
+@media (max-width: 640px) {
+  .question-card {
+    padding: var(--spacing-2-5);
+    border-radius: var(--radius-lg);
+    box-shadow: none;
+    border: 1px solid var(--slate-200);
+  }
+
+  .question-header {
+    margin-bottom: var(--spacing-2);
+  }
+
+  .question-text {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-2);
+    line-height: 1.4;
+  }
+
+  .options-grid {
+    gap: var(--spacing-1-5);
+  }
+
+  .option-card {
+    padding: 10px 12px;
+    border-radius: var(--radius-md);
+    min-height: 48px;
+  }
+
+  /* Remove hover effects on touch devices — rely on :active */
+  .option-card:hover {
+    border-color: var(--slate-200);
+    background: white;
+  }
+
+  .option-card.selected:hover {
+    border-color: var(--primary);
+    background: var(--primary-soft);
+  }
+
+  .question-actions {
+    flex-direction: row;
+    padding-top: var(--spacing-2);
+  }
+
+  .nav-buttons {
+    flex: 2;
+  }
+
+  .action-btn.secondary {
+    flex: 0 0 auto;
+    padding: 0 12px;
+  }
+
+  .action-btn {
+    font-size: 0.95rem;
+    padding: 0 16px;
+    height: 44px;
+    min-height: 44px;
+  }
+
+  /* Remove hover transform on touch */
+  .action-btn.primary:hover:not(:disabled) {
+    transform: none;
+  }
+}
