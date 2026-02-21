@@ -97,13 +97,15 @@ function ClassVideoPage() {
     const [searchQuery, setSearchQuery] = useState('')
     const [searchOpen, setSearchOpen] = useState(false)
 
-    // Load from localStorage
+    // Load from server
     useEffect(() => {
-        const t = setTimeout(() => {
-            setVideos(getVideos())
+        async function fetchAll() {
+            setLoading(true)
+            const vids = await getVideos()
+            setVideos(vids)
             setLoading(false)
-        }, 700)
-        return () => clearTimeout(t)
+        }
+        fetchAll()
     }, [])
 
     const handleWatch = (video) => navigate(`/class/player/${video.id}`)

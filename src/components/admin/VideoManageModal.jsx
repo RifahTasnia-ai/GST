@@ -26,13 +26,19 @@ export default function VideoManageModal({ onClose }) {
     const [errors, setErrors] = useState({})
     const [videos, setVideos] = useState([])
     const [saved, setSaved] = useState(false)
+    const [loading, setLoading] = useState(true)
+    const [saving, setSaving] = useState(false)
 
     // Load saved videos on mount
     useEffect(() => {
-        setVideos(getVideos())
-        // Auto-set next lesson number
-        const existing = getVideos()
-        setForm(f => ({ ...f, lesson: String(existing.length + 1) }))
+        async function load() {
+            setLoading(true)
+            const existing = await getVideos()
+            setVideos(existing)
+            setForm(f => ({ ...f, lesson: String(existing.length + 1) }))
+            setLoading(false)
+        }
+        load()
     }, [])
 
     // Detect YouTube ID from URL for live preview
@@ -55,9 +61,10 @@ export default function VideoManageModal({ onClose }) {
         return Object.keys(e).length === 0
     }
 
-    const handleSave = () => {
-        if (!validate()) return
+    const handleSave = async () => {
+        if (!validate() || saving) return
 
+        setSaving(true)
         const newVideo = {
             id: `vid_${Date.now()}`,
             lesson: Number(form.lesson),
@@ -69,8 +76,8 @@ export default function VideoManageModal({ onClose }) {
             thumbnailUrl: thumbUrl,
         }
 
-        addVideo(newVideo)
-        const updated = getVideos()
+        await addVideo(newVideo)
+        const updated = await getVideos()
         setVideos(updated)
 
         // Reset form with next lesson number auto-filled
@@ -78,16 +85,19 @@ export default function VideoManageModal({ onClose }) {
         setErrors({})
 
         // Show success flash
+        setSaving(false)
         setSaved(true)
         setTimeout(() => setSaved(false), 2500)
     }
 
-    const handleDelete = (id) => {
+    const handleDelete = async (id) => {
         if (!window.confirm('Delete this video?')) return
-        deleteVideo(id)
-        const updated = getVideos()
+        setLoading(true)
+        await deleteVideo(id)
+        const updated = await getVideos()
         setVideos(updated)
         setForm(f => ({ ...f, lesson: String(updated.length + 1) }))
+        setLoading(false)
     }
 
     return (
@@ -202,15 +212,21 @@ export default function VideoManageModal({ onClose }) {
                         <button
                             className="vm-save-btn"
                             onClick={handleSave}
-                            disabled={!form.title || !form.youtubeUrl}
+                            disabled={!form.title || !form.youtubeUrl || saving}
                         >
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
-                                width="18" height="18">
-                                <path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z" />
-                                <polyline points="17 21 17 13 7 13 7 21" />
-                                <polyline points="7 3 7 8 15 8" />
-                            </svg>
-                            Save Video
+                            {saving ? (
+                                <span>Saving to Server...</span>
+                            ) : (
+                                <>
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"
+                                        width="18" height="18">
+                                        <path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z" />
+                                        <polyline points="17 21 17 13 7 13 7 21" />
+                                        <polyline points="7 3 7 8 15 8" />
+                                    </svg>
+                                    Save Video
+                                </>
+                            )}
                         </button>
                     </div>
 
@@ -221,7 +237,11 @@ export default function VideoManageModal({ onClose }) {
                             <span className="vm-list-count">{videos.length} video{videos.length !== 1 ? 's' : ''}</span>
                         </div>
 
-                        {videos.length === 0 ? (
+                        {loading ? (
+                            <div className="vm-empty-list" style={{ color: '#64748b' }}>
+                                Loading videos from server...
+                            </div>
+                        ) : videos.length === 0 ? (
                             <div className="vm-empty-list">
                                 No videos yet. Add your first video above!
                             </div>
