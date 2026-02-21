@@ -2,10 +2,8 @@ import { Buffer } from "buffer";
 import fs from "fs/promises";
 import path from "path";
 
-const OWNER = process.env.GITHUB_OWNER;
-const REPO = process.env.GITHUB_REPO;
-const BRANCH = process.env.GITHUB_BRANCH || "main";
 const TOKEN = process.env.GITHUB_TOKEN;
+const GIST_ID = "2ace187471b6aede8e81bac3c01067d2";
 const FILE_PATH = "videos.json";
 
 export default async function handler(req, res) {
@@ -28,39 +26,36 @@ export default async function handler(req, res) {
         }
     }
 
-    if (!OWNER || !REPO) {
+    if (!TOKEN) {
         return res.status(500).json({
-            error: 'Missing GitHub configuration',
-            required: ['GITHUB_OWNER', 'GITHUB_REPO']
-        })
+            error: "Missing GitHub configuration",
+            required: ["GITHUB_TOKEN"]
+        });
     }
 
-    // On Vercel - use GitHub Contents API (no caching, always fresh!)
     try {
-        const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
-        const headers = {
-            Accept: 'application/vnd.github+json',
-        };
-        if (TOKEN) {
-            headers.Authorization = `Bearer ${TOKEN}`;
-        }
-
-        const response = await fetch(url, { headers, cache: 'no-store' });
+        const url = `https://api.github.com/gists/${GIST_ID}`;
+        const response = await fetch(url, {
+            headers: {
+                Authorization: `Bearer ${TOKEN}`,
+                Accept: 'application/vnd.github+json'
+            }
+        });
 
         if (!response.ok) {
             if (response.status === 404) {
                 return res.status(200).json([]);
             }
-            throw new Error(`GitHub API error: ${response.status}`);
+            throw new Error(`GitHub Gist fetch failed: ${response.status}`);
         }
 
         const data = await response.json();
-        const decoded = Buffer.from(data.content, 'base64').toString('utf8');
-        const videos = JSON.parse(decoded || '[]');
+        const fileContent = data.files['videos.json']?.content || '[]';
+        const videos = JSON.parse(fileContent);
 
         return res.status(200).json(videos);
     } catch (err) {
-        console.error('Error fetching videos:', err);
-        return res.status(500).json({ error: 'Failed to fetch videos' });
+        console.error('get-videos error:', err);
+        return res.status(500).json({ error: "Failed to load videos", details: err.message });
     }
 }

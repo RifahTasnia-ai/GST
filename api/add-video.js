@@ -2,11 +2,8 @@ import { Buffer } from "buffer";
 import fs from "fs/promises";
 import path from "path";
 
-const OWNER = process.env.GITHUB_OWNER;
-const REPO = process.env.GITHUB_REPO;
-const BRANCH = process.env.GITHUB_BRANCH || "main";
 const TOKEN = process.env.GITHUB_TOKEN;
-const FILE_PATH = "videos.json";
+const GIST_ID = "2ace187471b6aede8e81bac3c01067d2";
 const MAX_RETRIES = 3;
 
 function parseVideos(content) {
@@ -30,56 +27,32 @@ async function writeLocalVideos(videos) {
     await fs.writeFile(filePath, JSON.stringify(videos, null, 2));
 }
 
-async function fetchVideosAndSha() {
-    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}?ref=${BRANCH}`;
-    const res = await fetch(url, {
-        headers: {
-            Authorization: `Bearer ${TOKEN}`,
-            Accept: "application/vnd.github+json",
-        },
-    });
-
-    if (!res.ok) {
-        if (res.status === 404) {
-            return { videos: [], sha: undefined };
-        }
-        throw new Error(`GitHub fetch failed: ${res.status}`);
-    }
-
-    const data = await res.json();
-    const decoded = Buffer.from(data.content, "base64").toString("utf8");
-    return { videos: parseVideos(decoded), sha: data.sha };
-}
-
-async function updateRemoteVideos(videos, sha) {
-    const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
+async function updateGistVideos(videos) {
+    const url = `https://api.github.com/gists/${GIST_ID}`;
     const body = {
-        message: "chore: add video",
-        content: Buffer.from(JSON.stringify(videos, null, 2)).toString("base64"),
-        branch: BRANCH,
+        files: {
+            "videos.json": {
+                content: JSON.stringify(videos, null, 2)
+            }
+        }
     };
-    if (sha) body.sha = sha;
 
     const res = await fetch(url, {
-        method: "PUT",
+        method: "PATCH",
         headers: {
             Authorization: `Bearer ${TOKEN}`,
-            Accept: "application/vnd.github+json",
+            Accept: "application/vnd.github+json"
         },
-        body: JSON.stringify(body),
+        body: JSON.stringify(body)
     });
 
     if (!res.ok) {
         const text = await res.text();
-        const err = new Error(`GitHub update failed: ${res.status} ${text}`);
+        const err = new Error(`GitHub Gist update failed: ${res.status} ${text}`);
         err.status = res.status;
         err.details = text;
         throw err;
     }
-}
-
-function isShaConflict(err) {
-    return err?.status === 409 || err?.status === 422 || /sha/i.test(err?.details || err?.message || "");
 }
 
 export default async function handler(req, res) {
@@ -127,24 +100,24 @@ export default async function handler(req, res) {
     }
 
     try {
-        for (let attempt = 0; attempt < MAX_RETRIES; attempt += 1) {
-            try {
-                const { videos, sha } = await fetchVideosAndSha();
-                if (videos.some((item) => item.id === video.id)) {
-                    return res.status(409).json({ error: "Video with this id already exists" });
-                }
+        // Fetch current gist content to append
+        const gistRes = await fetch(`https://api.github.com/gists/${GIST_ID}`, {
+            headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" }
+        });
 
-                await updateRemoteVideos([...videos, video], sha);
-                return res.status(200).json({ success: true });
-            } catch (err) {
-                if (isShaConflict(err) && attempt < MAX_RETRIES - 1) {
-                    continue;
-                }
-                throw err;
-            }
+        let videos = [];
+        if (gistRes.ok) {
+            const data = await gistRes.json();
+            videos = parseVideos(data.files["videos.json"]?.content);
         }
 
-        return res.status(500).json({ error: "Failed to add video after retries" });
+        if (videos.some((item) => item.id === video.id)) {
+            return res.status(409).json({ error: "Video with this id already exists" });
+        }
+
+        videos.push(video);
+        await updateGistVideos(videos);
+        return res.status(200).json({ success: true });
     } catch (err) {
         console.error("add-video error:", err);
         return res.status(500).json({ error: "Failed to add video", details: err.message });
