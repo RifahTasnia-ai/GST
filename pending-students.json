@@ -18,6 +18,10 @@
     "status": "Pending",
     "answers": {
       "1": "b",
+      "21": "a",
+      "22": "b",
+      "24": "c",
+      "25": "a",
       "27": "c",
       "28": "b",
       "29": "b",
@@ -81,8 +85,8 @@
       "99": "d",
       "100": "b"
     },
-    "currentQuestion": 25,
-    "answeredCount": 63,
+    "currentQuestion": 20,
+    "answeredCount": 67,
     "totalQuestions": 100,
     "questionFile": "physics-1.json"
   }
