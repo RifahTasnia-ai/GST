@@ -21,11 +21,13 @@
       "27": "c",
       "28": "b",
       "29": "b",
+      "33": "c",
       "34": "c",
       "35": "c",
       "36": "c",
       "37": "a",
       "38": "d",
+      "39": "d",
       "40": "a",
       "41": "c",
       "42": "d",
@@ -79,8 +81,8 @@
       "99": "d",
       "100": "b"
     },
-    "currentQuestion": 39,
-    "answeredCount": 61,
+    "currentQuestion": 25,
+    "answeredCount": 63,
     "totalQuestions": 100,
     "questionFile": "physics-1.json"
   }
