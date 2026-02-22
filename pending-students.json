@@ -8,12 +8,17 @@
       "27": "c",
       "28": "b",
       "29": "b",
+      "34": "c",
+      "35": "c",
+      "36": "c",
+      "37": "a",
+      "38": "d",
       "76": "c",
       "77": "b",
       "78": "d"
     },
-    "currentQuestion": 30,
-    "answeredCount": 7,
+    "currentQuestion": 2,
+    "answeredCount": 12,
     "totalQuestions": 100,
     "questionFile": "physics-1.json"
   }
