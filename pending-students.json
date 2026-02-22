@@ -15,10 +15,19 @@
       "38": "d",
       "76": "c",
       "77": "b",
-      "78": "d"
+      "78": "d",
+      "90": "c",
+      "91": "b",
+      "92": "b",
+      "93": "d",
+      "96": "a",
+      "97": "b",
+      "98": "c",
+      "99": "d",
+      "100": "b"
     },
-    "currentQuestion": 2,
-    "answeredCount": 12,
+    "currentQuestion": 89,
+    "answeredCount": 21,
     "totalQuestions": 100,
     "questionFile": "physics-1.json"
   }
