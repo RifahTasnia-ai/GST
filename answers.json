@@ -607,23 +607,5 @@
     "wrong": 40,
     "pass": false,
     "questionFile": "GST-Admission-2024-25.json"
-  },
-  {
-    "studentName": "GST 6.6_1",
-    "answers": {
-      "1": "c",
-      "2": "c",
-      "3": "b",
-      "67": "c",
-      "68": "b"
-    },
-    "score": 0,
-    "totalMarks": 100,
-    "timestamp": "2026-02-21T20:27:28.335Z",
-    "attempted": 5,
-    "correct": 1,
-    "wrong": 4,
-    "pass": false,
-    "questionFile": "GST-Admission-2024-25.json"
   }
 ]
