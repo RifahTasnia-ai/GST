@@ -6,12 +6,14 @@
     "answers": {
       "1": "b",
       "27": "c",
+      "28": "b",
+      "29": "b",
       "76": "c",
       "77": "b",
       "78": "d"
     },
-    "currentQuestion": 28,
-    "answeredCount": 5,
+    "currentQuestion": 30,
+    "answeredCount": 7,
     "totalQuestions": 100,
     "questionFile": "physics-1.json"
   }
