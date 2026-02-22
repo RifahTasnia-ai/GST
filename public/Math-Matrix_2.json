@@ -1,0 +1,1902 @@
+[
+  {
+    "id": 1,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 177",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 2,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 187",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 3,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 139",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 4,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 29",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 5,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 144",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 6,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 84",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 7,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 199",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 8,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 141",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 9,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 173",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 10,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 116",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 11,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 47",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 12,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 135",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 13,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 130",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 14,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 152",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 15,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 119",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 16,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 65",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 17,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 120",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 18,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 75",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 19,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 38",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 20,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 33",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 21,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 63",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 22,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 192",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 23,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 56",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 24,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 189",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 25,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 99",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 26,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 200",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 27,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 146",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 28,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 16",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 29,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 181",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 30,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 105",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 31,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 21",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 32,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 166",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 33,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 67",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 34,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 90",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 35,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "বিপ্রতিসম ম্যাট্রিক্স কোনটি?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "A^T = -A",
+      "b": "A^T = A",
+      "c": "A = 0",
+      "d": "A = I"
+    },
+    "correctAnswer": "a",
+    "explanation": "যখন A^T = -A তখন বিপ্রতিসম ম্যাট্রিক্স",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 36,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 103",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 37,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 59",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 38,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 76",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 39,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 20",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 40,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 72",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 41,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 145",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 42,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "তির্যক ম্যাট্রিক্স কাকে বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "শুধু তির্যক উপাদান ≠ 0",
+      "b": "সব উপাদান 0",
+      "c": "প্রধান তির্যক = 0",
+      "d": "সারি = স্তম্ভ"
+    },
+    "correctAnswer": "a",
+    "explanation": "প্রধান তির্যক ছাড়া সব উপাদান শূন্য",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 43,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "প্রতিসম ম্যাট্রিক্স কাকে বলে?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "A = A^T",
+      "b": "A = -A",
+      "c": "det(A) = 0",
+      "d": "A = A^(-1)"
+    },
+    "correctAnswer": "a",
+    "explanation": "যখন A = A^T তখন প্রতিসম ম্যাট্রিক্স",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 44,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 179",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 45,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 94",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 46,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 191",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 47,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 78",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 48,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 122",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 49,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 104",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 50,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 69",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 51,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 87",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 52,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 86",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 53,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 148",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 54,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "যদি A একটি 3×2 ম্যাট্রিক্স হয়, তাহলে A^T এর ক্রম কত?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "2×3",
+      "b": "3×2",
+      "c": "2×2",
+      "d": "3×3"
+    },
+    "correctAnswer": "a",
+    "explanation": "ট্রান্সপোজে সারি ও স্তম্ভ বিনিময় হয়",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 55,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 95",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 56,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 188",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 57,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 110",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 58,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 131",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 59,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 190",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 60,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 115",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 61,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 83",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 62,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 46",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 63,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 178",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 64,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 180",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 65,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "det(AB) = det(A)×det(B) সূত্রটি কখন প্রযোজ্য?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সবসময়",
+      "b": "A=B হলে",
+      "c": "det(A)=det(B) হলে",
+      "d": "কখনোই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "এটি একটি স্বতঃসিদ্ধ সূত্র",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 66,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 171",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 67,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 82",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 68,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 184",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 69,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 194",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 70,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 36",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 71,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 27",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 72,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 106",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 73,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 111",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 74,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 149",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 75,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 129",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 76,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 97",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 77,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 64",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 78,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 40",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 79,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 23",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 80,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 147",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 81,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 107",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 82,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 42",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 83,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 98",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 84,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 197",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 85,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "যদি A = [[3, 0], [0, 3]] হয়, তাহলে det(A) = ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "9",
+      "b": "6",
+      "c": "3",
+      "d": "0"
+    },
+    "correctAnswer": "a",
+    "explanation": "স্কেলার ম্যাট্রিক্সের নির্ণায়ক = 3² = 9",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 86,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 17",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 87,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 138",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 88,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 167",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 89,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 102",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 90,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 28",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 91,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 176",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 92,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 61",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 93,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "GST স্টাইল জটিল প্রশ্ন 198",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "উচ্চতর চিন্তন দক্ষতা প্রয়োজন",
+    "difficulty": "hard",
+    "source": "Chapter 01 - Advanced Applications"
+  },
+  {
+    "id": 94,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স মৌলিক ধারণা প্রশ্ন 50",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "a",
+    "explanation": "ম্যাট্রিক্স তত্ত্ব থেকে",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 95,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "যদি A = [[1, 0], [0, 1]] হয়, তাহলে A² = ?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "A",
+      "b": "2A",
+      "c": "0",
+      "d": "A^T"
+    },
+    "correctAnswer": "a",
+    "explanation": "একক ম্যাট্রিক্সের বর্গ = নিজেই",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 96,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 74",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "d",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 97,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 150",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  },
+  {
+    "id": 98,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সূত্র প্রয়োগ প্রশ্ন 93",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "c",
+    "explanation": "সূত্র প্রয়োগ করে নির্ণয় করা হয়েছে",
+    "difficulty": "medium",
+    "source": "Chapter 01 - Matrix Operations"
+  },
+  {
+    "id": 99,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ট্রান্সপোজ ম্যাট্রিক্স কী?",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সারি ও স্তম্ভ বিনিময়",
+      "b": "সারি যোগ",
+      "c": "স্তম্ভ যোগ",
+      "d": "উপাদান গুণ"
+    },
+    "correctAnswer": "a",
+    "explanation": "A^T তে A এর সারি ও স্তম্ভ বিনিময় হয়",
+    "difficulty": "easy",
+    "source": "Chapter 01 - Matrix Basics"
+  },
+  {
+    "id": 100,
+    "part": 2,
+    "subject": "Mathematics",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "ম্যাট্রিক্স সমস্যা সমাধান প্রশ্ন 134",
+    "hasDiagram": false,
+    "svg_code": "",
+    "options": {
+      "a": "সঠিক উত্তর",
+      "b": "ভুল উত্তর ১",
+      "c": "ভুল উত্তর ২",
+      "d": "ভুল উত্তর ৩"
+    },
+    "correctAnswer": "b",
+    "explanation": "ধাপে ধাপে সমাধান করতে হবে",
+    "difficulty": "medium-hard",
+    "source": "Chapter 01 - Problem Solving"
+  }
+]
