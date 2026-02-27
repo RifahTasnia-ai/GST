@@ -258,7 +258,8 @@
             <div class="step">
                 <div class="step-num">1</div>
                 <div>Make sure your <strong>dev server</strong> is running: <code>npm run dev</code> or
-                    <code>vercel dev</code></div>
+                    <code>vercel dev</code>
+                </div>
             </div>
             <div class="step">
                 <div class="step-num">2</div>
@@ -275,7 +276,8 @@
             <div class="step">
                 <div class="step-num">5</div>
                 <div>Fill in the filename and click <strong>Scrape &amp; Save</strong> — it saves directly to
-                    <code>public/</code> on your PC!</div>
+                    <code>public/</code> on your PC!
+                </div>
             </div>
         </div>
 
@@ -331,16 +333,21 @@
         // ── Build tiny loader bookmarklet ─────────────────────────────────────────
         // Detects the server port and injects the full scraper script from public/
         const loaderCode = `(function(){
-var ports=[3000,51007,5173,4173];
-var idx=0;
-function tryLoad(){
-  if(idx>=ports.length){alert('Porikkhok Scraper: Could not reach local dev server.\\nMake sure it is running!');return;}
-  var s=document.createElement('script');
-  s.src='http://localhost:'+ports[idx]+'/porikkhok-scraper-inject.js?t='+Date.now();
-  s.onerror=function(){idx++;tryLoad();};
-  document.head.appendChild(s);
-}
-tryLoad();
+var s=document.createElement('script');
+s.src='https://gst-rouge.vercel.app/porikkhok-scraper-inject.js?t='+Date.now();
+s.onerror=function(){
+  var ports=[3000,3001,51007,5173,4173];
+  var idx=0;
+  function tryLocal(){
+    if(idx>=ports.length){alert('Porikkhok Scraper: Could not load scraper script.');return;}
+    var s2=document.createElement('script');
+    s2.src='http://localhost:'+ports[idx]+'/porikkhok-scraper-inject.js?t='+Date.now();
+    s2.onerror=function(){idx++;tryLocal();};
+    document.head.appendChild(s2);
+  }
+  tryLocal();
+};
+document.head.appendChild(s);
 })();`;
 
         const bmHref = 'javascript:' + encodeURIComponent(loaderCode);
@@ -352,7 +359,7 @@ tryLoad();
             const statusEl = document.getElementById('serverStatus');
             const textEl = document.getElementById('serverStatusText');
 
-            for (const port of [3000, 51007, 5173, 4173]) {
+            for (const port of [3000, 3001, 51007, 5173, 4173]) {
                 try {
                     const r = await fetch(`http://localhost:${port}/api/save-questions`, {
                         method: 'OPTIONS',
