@@ -581,10 +581,12 @@
 
         let saved = false;
         try {
+            // 60s timeout — if server hangs on image downloads, don't freeze the browser
             const r = await fetch(apiEndpoint, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ filename, questions: jsonOut, imagesToDownload: dlTasks }),
+                signal: AbortSignal.timeout(60000)
             });
             const result = await r.json();
             if (result.success) {
@@ -622,24 +624,31 @@
             log(`[OK] Downloaded ${filename}.json`, '#4ade80');
 
             if (hasImages) {
-                log('[DOWN] Downloading images in browser (fallback)...', '#a78bfa');
+                log('[DOWN] Downloading images in browser (fallback — images may fail due to CORS)...', '#a78bfa');
                 const BATCH_SIZE = 4;
+                // Per-image hard timeout: 5s — never let one blocked image stall the queue
+                const withTimeout = (promise, ms) =>
+                    Promise.race([
+                        promise,
+                        new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), ms))
+                    ]);
+
                 for (let i = 0; i < dlTasks.length; i += BATCH_SIZE) {
                     const batch = dlTasks.slice(i, i + BATCH_SIZE);
                     await Promise.all(batch.map(async (task) => {
                         try {
-                            const b64 = await imgToBase64(task.url);
+                            const b64 = await withTimeout(imgToBase64(task.url), 5000);
                             const a2 = document.createElement('a');
                             a2.href = b64;
                             a2.download = task.fname;
                             a2.click();
                             await new Promise(r => setTimeout(r, 250));
                         } catch (e) {
-                            log(`[WARN] Fallback image download failed for ${task.fname}`, '#fbbf24');
+                            log(`[SKIP] ${task.fname} — ${e.message}`, '#64748b');
                         }
                     }));
                 }
-                log('[OK] Images downloaded - move to public/images/', '#4ade80');
+                log('[OK] Images done — move any downloaded files to public/images/', '#4ade80');
             }
             markDone('fallbackBrowserMs', fallbackStart);
         }

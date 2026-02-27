@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "question": "নিচের কোনটি খাদ্য গিলে ফেলার সময় স্বরযন্ত্র (Larynx) এর ছিদ্র বন্ধ করে ?",
+    "options": {
+      "a": "আলজিহ্বা",
+      "b": "কোমল তালু",
+      "c": "উপজিহ্বা",
+      "d": "কোয়ানি"
+    },
+    "correctAnswer": null,
+    "explanation": "খাদ্য গিলে ফেলার সময় স্বরযন্ত্রের (Larynx) ছিদ্র উপজিহ্বা (Epiglottis) বন্ধ করে। এটি খাদ্যকে শ্বাসনালীতে প্রবেশ করতে বাধা দেয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "question": "নিচের কোন তথ্যটি সঠিক নয়?",
+    "options": {
+      "a": "মানুষের শ্বসনতন্ত্র তিনটি অঞ্চলে বিভক্ত",
+      "b": "ভেস্টিবিউলের প্রাচীরে অনেক লােম থাকে",
+      "c": "ট্রাকিয়ায় একটি ছােট এপিগ্লটিস থাকে",
+      "d": "অলফ্যাক্টরি কোষ ঘ্রাণ উদ্দীপনা গ্রহণ করে"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "question": "মানুষের স্বরযন্ত্রের সবচেয়ে বড় তরুণাস্থি কোনটি?",
+    "options": {
+      "a": "ক্রাইনয়েড",
+      "b": "স্টেপিস",
+      "c": "অ্যারিটিনয়েড",
+      "d": "থাইরয়েড"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "question": "মানুষের শ্বসনতন্ত্রের কোন অংশে O2 ও CO2 এর বিনিময় ঘটে?",
+    "options": {
+      "a": "ব্রংকাসে",
+      "b": "ট্রাকিয়ায়",
+      "c": "ব্রংকিওলে",
+      "d": "অ্যালভিওলাসে"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "question": "ডায়াফ্রামের ক্ষেত্রে কোনটি প্রযোজ্য?",
+    "options": {
+      "a": "শ্বসনে এর কোনো ভূমিকা নেই",
+      "b": "বক্ষ ও উদর গহ্বরকে পৃথক রাখে",
+      "c": "ফ্রেনিক ধমনি রক্ত সংগ্রহ করে",
+      "d": "সকল মেরুদণ্ডী প্রাণীতে পাওয়া যায়"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "question": "অ্যালভিওলাস কোথায় পাওয়া যায়?",
+    "options": {
+      "a": "হৃৎপিণ্ড",
+      "b": "ফুসফুস",
+      "c": "পাকস্থলী",
+      "d": "বৃক্ক"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "question": "কোন অঙ্গের শিরায় সবচেয়ে বেশি অক্সিজেন থাকে?",
+    "options": {
+      "a": "মস্তিষ্ক",
+      "b": "হৃৎপিন্ড",
+      "c": "বৃক্ক",
+      "d": "ফুসফুস"
+    },
+    "correctAnswer": null,
+    "explanation": "ফুসফুসের শিরায় সবচেয়ে বেশি অক্সিজেন থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "question": "নাসাগলবিলের পরের অংশের নাম –",
+    "options": {
+      "a": "স্বরযন্ত্র",
+      "b": "পশ্চাৎ নাসারন্ধ্র",
+      "c": "ট্রাকিয়া",
+      "d": "নাসা-গহ্বর"
+    },
+    "correctAnswer": null,
+    "explanation": "নাসাগলবিলের পরের অংশ স্বরযন্ত্র। স্বরযন্ত্রে স্বররজ্জু (Vocal Cord) থাকে, এটি কম্পিত হয়ে শব্দ সৃষ্টি করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "question": "Adam’s apple কোন তরুণাস্থি দিয়ে গঠিত?",
+    "options": {
+      "a": "থাইরয়েড",
+      "b": "চুনময়",
+      "c": "করনয়েড",
+      "d": "হোয়াইট ফাইব্রাস"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "question": "মানুষের শ্বসন তন্ত্রের স্বরযন্ত্রে কয়টি ভোকাল কর্ড থাকে?",
+    "options": {
+      "a": "৬ টি",
+      "b": "৫ টি",
+      "c": "৪ টি",
+      "d": "৩ টি"
+    },
+    "correctAnswer": null,
+    "explanation": "মানুষের শ্বসনতন্ত্রের স্বরযন্ত্রে ৬টি ভোকাল কর্ড থাকে।স্বরযন্ত্র বা ল্যারিংক্স হলো নাসাগলবিলের নিচের অংশের সামনের দিকের অংশ, যা ৯টি তরুণাস্থি টুকরা দ্বারা গঠিত। এর অভ্যন্তরভাগে মিউকাস আবরণী এবং ৬টি স্বররজ্জু বা ভোকাল কর্ড থাকে। এই পেশিগুলোর সংকোচন-প্রসারণ স্বররজ্জুর টান বা শ্লথন নিয়ন্ত্রণ করে, যা শব্দ উৎপাদনে সাহায্য করে। 😊",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "question": "মানুষের নি:শ্বাসে দৈনিক কি পরিমাণ পানি দেহ থেকে বাষ্পাকারে বের হয়?",
+    "options": {
+      "a": "২০০-৩০০ মিলি",
+      "b": "৩০০-৪০০মিলি",
+      "c": "৫০০-৬০০মিলি",
+      "d": "৪০০-৬০০মিলি"
+    },
+    "correctAnswer": null,
+    "explanation": "মানুষের নি:শ্বাসে দৈনিক প্রায় ৪০০-৬০০ মিলি পানি দেহ থেকে বাষ্পাকারে বের হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "question": "ডান ফুসফুসে কয়টি লােবিউল থাকে?",
+    "options": {
+      "a": "3",
+      "b": "8",
+      "c": "10",
+      "d": "2"
+    },
+    "correctAnswer": null,
+    "explanation": "ডান ফুসফুসে ১০টি লোবিউল থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "question": "উদ্দীপকের 'A' চিহ্নিত অংশটির আবরণের নাম কী?",
+    "options": {
+      "a": "পেরিকার্ডিয়াম",
+      "b": "ট্রাবেকুলা",
+      "c": "প্লুরা",
+      "d": "ডায়াফ্রাম"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q13_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "question": "শ্বসন প্রক্রিয়া সম্পাদিত হয়-",
+    "options": {
+      "a": "বৃক্কে",
+      "b": "ফুসফুসে",
+      "c": "দেহে",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "question": "পূর্ণ বয়স্ক একজন সুস্থ মানুষের দুটি ফুসফুসের ওজন কত?",
+    "options": {
+      "a": "প্রায় ২.৯ পাউন্ড",
+      "b": "প্রায় ১.৯ পাউন্ড",
+      "c": "প্রায় ০.৯ পাউন্ড",
+      "d": "প্রায় ২.০ পাউন্ড"
+    },
+    "correctAnswer": null,
+    "explanation": "পূর্ণ বয়স্ক একজন সুস্থ মানুষের দুটি ফুসফুসের ওজন প্রায় ২.৯ পাউন্ড হয়।মানবদেহের বাম ফুসফুসের ওজন প্রায় ৫৬৫ গ্রাম এবং ডান ফুসফুসের ওজন প্রায় ৬২৫ গ্রাম। এই দুটি ফুসফুসের মোট ওজন একত্রে প্রায় ২.৯ পাউন্ড।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "question": "ফুসফুসে বায়ু প্রবেশের সঠিক গতিপথ কোনটি?",
+    "options": {
+      "a": "ল্যারিংক্স→ব্রঙ্কাই→ট্রাকিয়া →অ্যালভিওলি",
+      "b": "ট্রাকিয়া→ল্যারিংক্স→ব্রঙ্কাই→ অ্যালভিওলি",
+      "c": "ট্রাকিয়া→ব্রঙ্কাই→ল্যারিংক্স→অ্যালভিওলি",
+      "d": "ল্যারিংক্স→ট্রাকিয়া→ব্রঙ্কাই→অ্যালভিওলি"
+    },
+    "correctAnswer": null,
+    "explanation": "ফুসফুসে বায়ু প্রবেশের সঠিক গতিপথটি হলো: ল্যারিংক্স→ট্রাকিয়া→ব্রঙ্কাই→অ্যালভিওলি।প্রথমে বায়ু ল্যারিংক্স (স্বরযন্ত্র) দিয়ে প্রবেশ করে, তারপর ট্রাকিয়া (শ্বাসনালী) হয়ে ব্রঙ্কাই (ক্লোমনালী)-তে যায়। সবশেষে, এটি ক্ষুদ্র ব্রঙ্কিওল হয়ে ফুসফুসের ক্ষুদ্র বায়ুকোষ অ্যালভিওলি-তে পৌঁছায়, যেখানে গ্যাস বিনিময় হয়। 🌬️",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "question": "খাদ্যদ্রব্য গলাধকরনের সময় স্বরযন্ত্রের মুখ বন্ধ করে দেয় কে?",
+    "options": {
+      "a": "Vulva",
+      "b": "Epiglottis",
+      "c": "Adams Apple",
+      "d": "Vocal Card"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "question": "ফুসফুসের ক্ষেত্রে নিচের কোনটি সঠিক?",
+    "options": {
+      "a": "ডান ফুসফুসটি তিনটি খন্ডে এবং বাম ফুসফুসটি দুটি খন্ডে বিভক্ত",
+      "b": "ডান ফুসফুসটি চারটি খন্ডে এবং বাম ফুসফুসটি তিনটি খন্ডে বিভক্ত",
+      "c": "ডান ফুসফুসটি দুইটি খন্ডে এবং বাম ফুসফুসটি তিনটি খন্ডে বিভক্ত",
+      "d": "কোনোটিই ঠিক নয়"
+    },
+    "correctAnswer": null,
+    "explanation": "ডান ফুসফুসটি তিনটি খন্ডে এবং বাম ফুসফুসটি দুটি খন্ডে বিভক্ত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "question": "ফুসফুসের গঠন কাযের একক কোনটি?",
+    "options": {
+      "a": "ট্রাকিয়া",
+      "b": "ব্রঙ্কাস",
+      "c": "অ্যালভিওলাস",
+      "d": "ব্রঙ্কিওল"
+    },
+    "correctAnswer": null,
+    "explanation": "অ্যালভিওলাস হলো ফুসফুসের গঠনগত ও কাজের একক।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "question": "গলবিলে উম্মুক্ত হয় না কোনটি?",
+    "options": {
+      "a": "শ্বাসনালী",
+      "b": "অন্ননালী",
+      "c": "ইউস্টেশিয়ান নালি",
+      "d": "উইর্সাং নালি"
+    },
+    "correctAnswer": null,
+    "explanation": "উইর্সাং নালি গলবিলে উন্মুক্ত হয় না। শ্বাসনালী, অন্ননালী এবং ইউস্টেশিয়ান নালি গলবিলে উন্মুক্ত হয়। উইর্সাং নালি অগ্ন্যাশয় থেকে নিঃসৃত রস বহন করে এবং ডিওডেনামে (duodenum) উন্মুক্ত হয়, গলবিলে নয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "question": "কোন পর্দা দ্বারা ফুসফুস উদর গহবর থেকে আলাদা থাকে?",
+    "options": {
+      "a": "পেরিকার্ডিয়াম",
+      "b": "গ্লিসন ক্যাপসুল",
+      "c": "প্লিউরা",
+      "d": "ডায়াফ্রাম"
+    },
+    "correctAnswer": null,
+    "explanation": "ডায়াফ্রাম (Diaphragm) দ্বারা ফুসফুস উদর গহ্বর থেকে আলাদা থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "question": "শ্বসনবৃক্ষের কোন অংশ গ্যাস বিনিময়ে অংশগ্রহণ করে?",
+    "options": {
+      "a": "সেকেন্ডারি ব্রঙ্কাস",
+      "b": "টারসিয়ারি ব্রঙ্কাস",
+      "c": "টার্মিনাল ব্রঙ্কাস",
+      "d": "অ্যালভিওলার নালি"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "question": "কোথায় সেরাস ফ্লুইড পাওয়া যায়?",
+    "options": {
+      "a": "ফুসফুস",
+      "b": "ব্রঙ্কাস",
+      "c": "ট্রাকিয়া",
+      "d": "অ্যালভিওলাস"
+    },
+    "correctAnswer": null,
+    "explanation": "ফুসফুসে সেরাস ফ্লুইড পাওয়া যায়। ফুসফুস দুটি দ্বি-স্তরবিশিষ্ট প্লিউরা নামক পর্দা দ্বারা আবৃত থাকে। এই দুই স্তরের মাঝে সেরাস ফ্লুইড বা প্লিউরাল ফ্লুইড নামক তরল পদার্থ থাকে, যা ফুসফুসকে ঘর্ষণজনিত আঘাত থেকে রক্ষা করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "question": "সারফেকট্যান্ট কোনটিতে পাওয়া যায়?",
+    "options": {
+      "a": "ব্রঙ্কিওল",
+      "b": "অ্যালভিওলাসে",
+      "c": "ট্রাকিয়ায়",
+      "d": "ব্রঙ্কাসে"
+    },
+    "correctAnswer": null,
+    "explanation": "অ্যালভিওলাসে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "question": "উদ্দীপকে 'A' চিহ্নিত অংশটির নাম কি?",
+    "options": {
+      "a": "প্লাজমা",
+      "b": "ট্রাকিয়া",
+      "c": "ট্রাভিওলাস",
+      "d": "ফুসফুস"
+    },
+    "correctAnswer": null,
+    "explanation": "উদ্দীপকে 'A' চিহ্নিত অংশটি হলো ট্রাকিয়া",
+    "hasDiagram": true,
+    "questionImage": "/images/q25_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Biology",
+    "question": "ট্রাকিয়া কী দিয়ে গঠিত?",
+    "options": {
+      "a": "অস্থি",
+      "b": "তরুণাস্থি",
+      "c": "শিরা",
+      "d": "ধমনি"
+    },
+    "correctAnswer": null,
+    "explanation": "ট্রাকিয়া তরুণাস্থি দিয়ে গঠিত। এর প্রাচীর C আকৃতির ১৫-২০ টি হায়ালিন তরুণাস্থি নির্মিত ট্রাকিয়াল রিং বা বলয় নিয়ে গঠিত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Biology",
+    "question": "নিচের কোন প্রবাহ চিত্রটি সঠিক?",
+    "options": {
+      "a": "ট্রাকিয়া⇨ ব্রঙ্কাই⇨ব্রঙ্কিওল⇨ অ্যালভিওলাস",
+      "b": "ব্রঙ্কাই⇨ট্রাকিয়া⇨ব্রঙ্কিওল⇨ অ্যালভিওলাস",
+      "c": "ট্রাকিয়া⇨ব্রঙ্কিওল⇨ব্রঙ্কাই⇨অ্যালভিলার থলি⇨ অ্যালভিওলাস",
+      "d": "ট্রাকিয়া⇨অ্যালভিওলার থলি⇨ব্রঙ্কাই⇨ব্রঙ্কিওল⇨অ্যালভিওলার নালি⇨অ্যালভিওলাস"
+    },
+    "correctAnswer": null,
+    "explanation": "শ্বসনতন্ত্রে বায়ুর প্রবাহের সঠিক চিত্রটি হলো:ট্রাকিয়া → ব্রঙ্কাই → ব্রঙ্কিওল → অ্যালভিওলাসএই অনুক্রমটি ফুসফুসের মধ্য দিয়ে বায়ুর যাত্রাপথকে সঠিকভাবে নির্দেশ করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Biology",
+    "question": "শ্বসনে বক্ষগহ্বরের আয়তন পরিবর্তন সহায়ক ফ্রেনিক স্নায়ুর অবস্থান কোথায়?",
+    "options": {
+      "a": "ব্রঙ্কাস",
+      "b": "ফুসফুস",
+      "c": "ট্রাকিয়া",
+      "d": "ডায়াফ্রাম"
+    },
+    "correctAnswer": null,
+    "explanation": "ফ্রেনিক স্নায়ু ডায়াফ্রামে অবস্থিত। এটি শ্বসনে বক্ষগহ্বরের আয়তন পরিবর্তনে সহায়তা করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Biology",
+    "question": "বাম ফুসফুস কয়টি সেগমেন্টে বিভক্ত?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "8",
+      "d": "10"
+    },
+    "correctAnswer": null,
+    "explanation": "বাম ফুসফুস ৮টি সেগমেন্টে বিভক্ত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Biology",
+    "question": "ফুসফুসের আবরণীর দুটি স্তরের মাঝে কী থাকে?",
+    "options": {
+      "a": "অ্যালভিওলাস",
+      "b": "ব্রঙ্কিওল",
+      "c": "অন্তঃপ্লুরা গহ্বর",
+      "d": "বায়ুকুঠুরি"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Biology",
+    "question": "স্বরযন্ত্রের সর্বাপেক্ষা বড় তরুণাস্থির নাম কি?",
+    "options": {
+      "a": "এরিটিনয়েড",
+      "b": "ক্রিকয়েড",
+      "c": "থাইরয়েড",
+      "d": "এপিগ্লটিস"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Biology",
+    "question": "নিচের কোনটি মানবদেহের শ্বসনতন্ত্রের বায়ু পরিবহন অঞ্চল নয়?",
+    "options": {
+      "a": "শ্বাসনালী",
+      "b": "ব্রঙ্কাস",
+      "c": "প্রান্তীয় ব্রাঙ্কিওল",
+      "d": "অ্যালভিওলার নালী"
+    },
+    "correctAnswer": null,
+    "explanation": "মানবদেহের শ্বসনতন্ত্রের বায়ু পরিবহন অঞ্চল নয় অ্যালভিওলার নালী।শ্বাসনালী, ব্রঙ্কাস এবং প্রান্তীয় ব্রঙ্কিওল হলো বায়ু পরিবহন অঞ্চলের অংশ। অ্যালভিওলার নালী হলো শ্বসন অঞ্চলের অংশ, যেখানে গ্যাস বিনিময় ঘটে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Biology",
+    "question": "স্বরযন্ত্রের ভোকাল কর্ড কতটি?",
+    "options": {
+      "a": "৪টি",
+      "b": "৫টি",
+      "c": "৬টি",
+      "d": "৮টি"
+    },
+    "correctAnswer": null,
+    "explanation": "স্বরযন্ত্রের ভোকাল কর্ড ৬টি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Biology",
+    "question": "ফুসফুসের প্রাচীরের কোষ থেকে কি নিঃসৃত হয়?",
+    "options": {
+      "a": "সেরাস ফ্লুইড",
+      "b": "সারফেকটেন্ট",
+      "c": "পেরিকার্ডিয়াল তরল",
+      "d": "ভিট্রিয়াস ফ্লুইড"
+    },
+    "correctAnswer": null,
+    "explanation": "ফুসফুসের প্রাচীরের কোষ থেকে সেরাস ফ্লুইড নিঃসৃত হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Biology",
+    "question": "চিত্রে A অংশটি ফুসফুসের কোন অংশের ব্যাখ্যা প্রদান করে?",
+    "options": {
+      "a": "ব্রঙ্কাস",
+      "b": "ব্রাঙ্কিয়াল বৃক্ষ",
+      "c": "ট্রাকিয়া",
+      "d": "অ্যালভিওলাই"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q35_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Biology",
+    "question": "বাম ফুসফুসে কতটি লোব থাকে?",
+    "options": {
+      "a": "২  টি",
+      "b": "৪ টি",
+      "c": "৬ টি",
+      "d": "৮ টি"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Biology",
+    "question": "উদ্দীপকের 'P' চিহ্নিত অংশের নাম কি?",
+    "options": {
+      "a": "ট্রাকিয়া",
+      "b": "ব্রঙ্কাস",
+      "c": "ব্রঙ্কিওল",
+      "d": "অ্যালভিওলার নালি"
+    },
+    "correctAnswer": null,
+    "explanation": "P চিহ্নিত অংশটি হলো অ্যালভিওলার নালি।",
+    "hasDiagram": true,
+    "questionImage": "/images/q37_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Biology",
+    "question": "উদ্দীপকের A চিহ্নিত স্থানে বিদ্যমান তরলের নাম কী?",
+    "options": {
+      "a": "প্লাজমা ফ্লুইড",
+      "b": "পেরিকার্ডিয়াল ফ্লুইড",
+      "c": "সেরিব্রোস্পাইনাল ফ্লুইড",
+      "d": "সেরাস ফ্লুইড"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q38_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Biology",
+    "question": "প্লুরা নামক দু স্তরবিশিষ্ট এক ধরনের পর্দা দ্বারা ঢাকা থাকে কোনটি?",
+    "options": {
+      "a": "অ্যালভিওলাস",
+      "b": "স্বরযন্ত্র",
+      "c": "ট্রাকিয়া",
+      "d": "ফুসফুস"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Biology",
+    "question": "নিচের কোনটি ফুসফুসের কাজ নয়?",
+    "options": {
+      "a": "প্রােটিন সংশ্লেষ করা",
+      "b": "দেহের তাপমাত্রা নিয়ন্ত্রণ করা",
+      "c": "নরঅ্যাড্রেনালিনকে সক্রিয় করা",
+      "d": "ইমিউনােগ্লোবিন ক্ষরণ করা"
+    },
+    "correctAnswer": null,
+    "explanation": "ফুসফুস নরঅ্যাড্রেনালিনকে সক্রিয় করে না, বরং নিষ্ক্রিয় করে থাকে। তাই \"নরঅ্যাড্রেনালিনকে সক্রিয় করা\" ফুসফুসের কাজ নয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Biology",
+    "question": "নিচের কোনটি শ্বসনতন্ত্রের অংশ নয়?",
+    "options": {
+      "a": "অ্যালভিওলাস",
+      "b": "অ্যাট্রিয়াম",
+      "c": "ট্রাকিয়া",
+      "d": "ব্রংকিওল"
+    },
+    "correctAnswer": null,
+    "explanation": "অ্যাট্রিয়াম",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Biology",
+    "question": "নিচের কোনটিতে স্বর সৃষ্টিকারী ভোকাল কর্ড সংযুক্ত থাকে?",
+    "options": {
+      "a": "ভেস্টিবিউল",
+      "b": "স্বরযন্ত্র",
+      "c": "শ্বাসনালি",
+      "d": "বায়ুনালী"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Biology",
+    "question": "শ্বসনতন্ত্রের কোন অংশে এপিগ্লটিস অবস্থিত?",
+    "options": {
+      "a": "শ্বাসনালি",
+      "b": "স্বরযন্ত্র",
+      "c": "গলবিল",
+      "d": "ভেস্টিবিউল"
+    },
+    "correctAnswer": null,
+    "explanation": "এপিগ্লটিস স্বরযন্ত্রে অবস্থিত। এটি খাদ্য গ্রহণকালে স্বরযন্ত্রের মুখ বন্ধ করে দেয় যাতে খাদ্য শ্বাসনালীতে প্রবেশ করতে না পারে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Biology",
+    "question": "স্বরতন্ত্রের অবস্থান হচ্ছে-",
+    "options": {
+      "a": "গলবিল",
+      "b": "ট্রাকিয়া বা শ্বাসনালী",
+      "c": "নাসা গহ্বর",
+      "d": "ল্যাংরিক্স"
+    },
+    "correctAnswer": null,
+    "explanation": "স্বরতন্ত্রের অবস্থান হলো ল্যাংরিক্স (Larynx)।ল্যাংরিক্স হলো নাসাগলবিলের নিচের অংশের ঠিক সামনের দিকের একটি অঙ্গ। এটি থাইরয়েড, ক্রাইকয়েড এবং অ্যারিটিনয়েড নামক কয়েকটি তরুণাস্থি টুকরা দ্বারা গঠিত। এর অভ্যন্তরভাগে স্বররজ্জু (vocal cord) থাকে, যা পেশির সংকোচন-প্রসারণের মাধ্যমে শব্দ উৎপাদনে সহায়তা করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Biology",
+    "question": "ব্রঙ্কাস যে অংশে ফুসফুসে প্রবেশ করে তাকে কি বলে?",
+    "options": {
+      "a": "ট্রাকিয়া",
+      "b": "হাইলাম",
+      "c": "সেগমেন্ট",
+      "d": "কোয়ানা"
+    },
+    "correctAnswer": null,
+    "explanation": "হাইলাম (Hilum) হলো সেই অংশ যেখানে ব্রঙ্কাস ফুসফুসে প্রবেশ করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Biology",
+    "question": "মানবদেহে ডান ফুসফুসে কয়টি সেগমেন্ট থাকে?",
+    "options": {
+      "a": "10",
+      "b": "8",
+      "c": "6",
+      "d": "7"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Biology",
+    "question": "O2 এবং CO2 এর বিনিময় ঘটে নিম্নের কোন অংশে?",
+    "options": {
+      "a": "অ্যালভিওলাস",
+      "b": "নেফ্রন",
+      "c": "নিউরন",
+      "d": "ভিলাই"
+    },
+    "correctAnswer": null,
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Biology",
+    "question": "ল্যারিংক্স গহ্বরে ভোকাল কর্ডের সংখ্যা কয়টি?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "correctAnswer": null,
+    "explanation": "ল্যারিংক্স গহ্বরে ভোকাল কর্ডের সংখ্যা হলো ৬টি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Biology",
+    "question": "খাদ্যনালী ও শ্বাসনালীর অভিন্ন অংশ কোনটি?",
+    "options": {
+      "a": "নাসিকা",
+      "b": "স্বরযন্ত্র",
+      "c": "নাসিকাগলবিল",
+      "d": "ট্রাকিয়া"
+    },
+    "correctAnswer": null,
+    "explanation": "খাদ্যনালী ও শ্বাসনালীর অভিন্ন অংশ হলো নাসিকাগলবিল। এই অংশ দিয়েই খাদ্য এবং বাতাস উভয়ই প্রবেশ করে। অন্যদিকে, স্বরযন্ত্র ও ট্রাকিয়া শুধুমাত্র শ্বাসনালীর অংশ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Biology",
+    "question": "পূর্ণ বয়স্ক একজন সুস্থ মানুষের দুটি ফুসফুসে কি পরিমাণ অ্যালভিওলাই থাকে?",
+    "options": {
+      "a": "প্রায় ২০০ মিলিয়ন",
+      "b": "প্রায় ৩০০ মিলিয়ন",
+      "c": "প্রায় ৪৮০ মিলিয়ন",
+      "d": "প্রায় ৭০০ মিলিয়ন"
+    },
+    "correctAnswer": null,
+    "explanation": "পূর্ণ বয়স্ক একজন সুস্থ মানুষের দুটি ফুসফুসে প্রায় ৪৮০ মিলিয়ন অ্যালভিওলাই থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]
