@@ -773,20 +773,6 @@
     "questionFile": "রক্ত-সঞ্চালন .json"
   },
   {
-    "studentName": "dfad_3",
-    "answers": {
-      "50": "d"
-    },
-    "score": 0,
-    "totalMarks": 50,
-    "timestamp": "2026-02-27T14:29:19.520Z",
-    "attempted": 1,
-    "correct": 0,
-    "wrong": 1,
-    "pass": false,
-    "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
-  },
-  {
     "studentName": "Gst11..",
     "answers": {},
     "score": 0,
