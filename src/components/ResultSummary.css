@@ -546,6 +546,28 @@
   font-weight: 500;
 }
 
+/* ===== QUESTION IMAGES & DIAGRAMS ===== */
+.rs-q-diagram,
+.rs-q-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+  padding: 10px;
+  background: var(--slate-50);
+  border-radius: 8px;
+  border: 1px solid var(--slate-200);
+  overflow: hidden;
+}
+
+.rs-q-diagram svg,
+.rs-q-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+}
+
 /* ===== OPTIONS ===== */
 .rs-options {
   display: flex;

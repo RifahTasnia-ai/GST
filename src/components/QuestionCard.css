@@ -63,6 +63,123 @@
   max-height: 250px;
 }
 
+/* ─── Image Support ─── */
+.question-diagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--spacing-2) 0;
+  position: relative;
+  width: 100%;
+  background: var(--slate-50);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--slate-200);
+  overflow: hidden;
+  min-height: 100px;
+}
+
+.question-content-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  /* Cap height on desktop to prevent huge scroll */
+  object-fit: contain;
+  cursor: zoom-in;
+  transition: opacity 0.3s ease;
+  display: block;
+}
+
+.question-content-image.hidden {
+  opacity: 0;
+  position: absolute;
+}
+
+/* Skeleton loader for slow images */
+.question-diagram-skeleton {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, var(--slate-100) 25%, var(--slate-200) 50%, var(--slate-100) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  color: var(--slate-500);
+  font-size: 0.9rem;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.question-diagram-error {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--error);
+  font-size: 0.9rem;
+  background: var(--error-soft);
+}
+
+/* Fullscreen Image Zoom Overlay */
+.image-zoom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.95);
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  cursor: zoom-out;
+  padding: 20px;
+  animation: fadeIn 0.15s ease-out;
+}
+
+.zoomed-image {
+  max-width: 95vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.close-zoom-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100000;
+  transition: all 0.2s ease;
+}
+
+.close-zoom-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
 .options-grid {
   display: flex;
   flex-direction: column;
@@ -308,6 +425,12 @@
     padding: 0 16px;
     height: 44px;
     min-height: 44px;
+  }
+
+  /* Image specific mobile adjustments */
+  .question-content-image {
+    max-height: 200px;
+    /* Cap image sizes smaller on mobile to keep options visible */
   }
 
   /* Remove hover transform on touch */
