@@ -554,6 +554,16 @@ function SubmissionsTable({
                         <div className="adm-explanation">
                           <div className="adm-explanation-header bengali">💡 ব্যাখ্যা</div>
                           <div className="adm-explanation-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(q.explanation) }} />
+                          {q.explanationImage && (
+                            <div className="adm-explanation-image">
+                              <img
+                                src={q.explanationImage}
+                                alt={`Explanation diagram for question ${q.id}`}
+                                style={{ maxWidth: '100%', borderRadius: '8px', marginTop: '8px' }}
+                                loading="lazy"
+                              />
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>

@@ -59,6 +59,7 @@ function ExamPage() {
         hasDiagram: q.hasDiagram || false,
         svg_code: q.svg_code || null,
         image: q.image || null,
+        explanationImage: q.explanationImage || null,
         subject: q.subject || ''
       }))
 
