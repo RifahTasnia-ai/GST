@@ -40,7 +40,8 @@ function QuestionCard({
         <div className="question-diagram" dangerouslySetInnerHTML={{ __html: question.svg_code }} />
       )}
 
-      {question.image && (
+      {/* questionImage: question stem image only. Never renders explanationImage here. */}
+      {question.questionImage && (
         <div className="question-diagram-container">
           {imageLoading && (
             <div className="question-diagram-skeleton">
@@ -53,7 +54,7 @@ function QuestionCard({
             </div>
           ) : (
             <img
-              src={question.image}
+              src={question.questionImage}
               alt={`Diagram for question ${questionNumber}`}
               className={`question-content-image ${imageLoading ? 'hidden' : ''}`}
               onLoad={() => setImageLoading(false)}
@@ -78,7 +79,7 @@ function QuestionCard({
                 ✕
               </button>
               <img
-                src={question.image}
+                src={question.questionImage}
                 alt={`Zoomed diagram for question ${questionNumber}`}
                 className="zoomed-image"
                 onClick={(e) => e.stopPropagation()}

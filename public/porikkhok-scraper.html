@@ -331,23 +331,21 @@
 
     <script>
         // ── Build tiny loader bookmarklet ─────────────────────────────────────────
-        // Detects the server port and injects the full scraper script from public/
+        // Detects local dev-server ports and injects the full scraper script from localhost.
         const loaderCode = `(function(){
-var s=document.createElement('script');
-s.src='https://gst-rouge.vercel.app/porikkhok-scraper-inject.js?t='+Date.now();
-s.onerror=function(){
-  var ports=[3000,3001,51007,5173,4173];
-  var idx=0;
-  function tryLocal(){
-    if(idx>=ports.length){alert('Porikkhok Scraper: Could not load scraper script.');return;}
-    var s2=document.createElement('script');
-    s2.src='http://localhost:'+ports[idx]+'/porikkhok-scraper-inject.js?t='+Date.now();
-    s2.onerror=function(){idx++;tryLocal();};
-    document.head.appendChild(s2);
+var ports=[3000,3001,51007,5173,4173];
+var idx=0;
+function tryLocal(){
+  if(idx>=ports.length){
+    alert('Porikkhok Scraper: Could not load local scraper script. Start your local dev server first.');
+    return;
   }
-  tryLocal();
-};
-document.head.appendChild(s);
+  var s=document.createElement('script');
+  s.src='http://localhost:'+ports[idx]+'/porikkhok-scraper-inject.js?t='+Date.now();
+  s.onerror=function(){idx++;tryLocal();};
+  document.head.appendChild(s);
+}
+tryLocal();
 })();`;
 
         const bmHref = 'javascript:' + encodeURIComponent(loaderCode);
@@ -358,13 +356,6 @@ document.head.appendChild(s);
         async function checkServer() {
             const statusEl = document.getElementById('serverStatus');
             const textEl = document.getElementById('serverStatusText');
-
-            // If running on Vercel (not localhost), show cloud mode
-            if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-                statusEl.className = 'server-status status-ok';
-                textEl.textContent = '☁️ Cloud mode — bookmarklet will load from Vercel. Files download via browser.';
-                return;
-            }
 
             for (const port of [3000, 3001, 51007, 5173, 4173]) {
                 try {
@@ -381,7 +372,7 @@ document.head.appendChild(s);
             }
 
             statusEl.className = 'server-status status-warn';
-            textEl.textContent = '⚠ Dev server not detected. Run: npm run dev  or  vercel dev';
+            textEl.textContent = '⚠ Local dev server not detected. Run: npm run dev:vercel (or npm run dev).';
         }
 
         checkServer();

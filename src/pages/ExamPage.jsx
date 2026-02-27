@@ -3,16 +3,22 @@ import MCQContainer from '../components/MCQContainer'
 import StartScreen from '../components/StartScreen'
 import ErrorBoundary from '../components/ErrorBoundary'
 import { getActiveQuestionFile } from '../utils/api'
+import { getExamConfig } from '../utils/examConfig'
 
 function ExamPage() {
   const [studentName, setStudentName] = useState(() => {
-    // Check localStorage for saved session
+    // Check localStorage for saved session — check all known key prefixes
     const savedName = localStorage.getItem('exam_session_student')
-    const savedSession = savedName ? localStorage.getItem(`mcq_state_v100_${savedName}`) : null
-    return savedSession ? savedName : ''
+    if (!savedName) return ''
+    // Check v100 and v50 keys (questions haven't loaded yet so we don't know the count)
+    const hasSession =
+      localStorage.getItem(`mcq_state_v100_${savedName}`) ||
+      localStorage.getItem(`mcq_state_v50_${savedName}`)
+    return hasSession ? savedName : ''
   })
   const [questions, setQuestions] = useState([])
   const [questionFile, setQuestionFile] = useState('questions.json')
+  const [examConfig, setExamConfig] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
 
@@ -58,8 +64,10 @@ function ExamPage() {
         explanation: q.explanation || `সঠিক উত্তর: ${q.correctAnswer}. ${q.question}`,
         hasDiagram: q.hasDiagram || false,
         svg_code: q.svg_code || null,
-        image: q.image || null,
-        explanationImage: q.explanationImage || null,
+        // Strict separation: questionImage never falls back to explanationImage and vice-versa.
+        // Legacy `image` field is promoted to `questionImage` for unmigrated JSON files.
+        questionImage: q.questionImage ?? q.image ?? null,
+        explanationImage: q.explanationImage ?? null,
         subject: q.subject || ''
       }))
 
@@ -68,6 +76,7 @@ function ExamPage() {
       }
 
       setQuestions(transformed)
+      setExamConfig(getExamConfig(transformed.length))
       setLoading(false)
     } catch (err) {
       console.error('Error loading questions:', err)
@@ -115,12 +124,12 @@ function ExamPage() {
     return <StartScreen onStart={(name) => {
       localStorage.setItem('exam_session_student', name)
       setStudentName(name)
-    }} />
+    }} examConfig={examConfig} />
   }
 
   return (
     <ErrorBoundary>
-      <MCQContainer questions={questions} studentName={studentName} questionFile={questionFile} />
+      <MCQContainer questions={questions} studentName={studentName} questionFile={questionFile} examConfig={examConfig} />
     </ErrorBoundary>
   )
 }

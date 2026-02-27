@@ -86,15 +86,26 @@
     };
 
     async function runScrape(filename, subject) {
+        const runStartedAt = Date.now();
+        const stageDurations = {};
+        const markStart = () => performance.now();
+        const markDone = (name, start) => {
+            stageDurations[name] = Math.round(performance.now() - start);
+        };
+
         // ── Scroll full page to load lazy content ────────────────────────────
+        const scrollStart = markStart();
         log('[WAIT] Scrolling to load all questions...');
         const totalHeight = document.body.scrollHeight;
-        for (let y = 0; y < totalHeight; y += 400) {
+        // Slower scroll (300px step, 80ms delay) so lazy images and accordions render
+        for (let y = 0; y < totalHeight; y += 300) {
             window.scrollTo(0, y);
-            await new Promise(r => setTimeout(r, 60));
+            await new Promise(r => setTimeout(r, 80));
         }
         window.scrollTo(0, 0);
-        await new Promise(r => setTimeout(r, 800));
+        // Wait longer so all lazy content finishes rendering
+        await new Promise(r => setTimeout(r, 1500));
+        markDone('scrollMs', scrollStart);
 
         // ── NEW APPROACH: Find all question blocks by number pattern ─────────
         // Porikkhok DOM structure:
@@ -110,6 +121,7 @@
         //     </div>
         //   </div>
 
+        const domStart = markStart();
         log('[FIND] Scanning page for questions...');
 
         // Strategy: Find all elements that contain a question number pattern like "1." "2." etc.
@@ -170,14 +182,15 @@
                     child.className.includes('green') || child.className.includes('explanation')) continue;
 
                 const text = (child.innerText || '').trim();
-                // Look for text that starts with a number (question number)
-                if (/^\d+\s*[\.\।]/.test(text) && text.length > 5) {
+                // Look for text that starts with a number (Arabic or Bengali) or any Bengali text
+                const startsWithNum = /^\d+\s*[\.\।]/.test(text) || /^[\u09E6-\u09EF]+\s*[\.\।]/.test(text);
+                if (startsWithNum && text.length > 5) {
                     // This is the question text block
                     // Remove the question number prefix, score, and "Admission Ventures" tag
                     qText = text
-                        .replace(/^(\d+)\s*[\.\।]\s*/, '')       // remove "1. "
-                        .replace(/-?\d+\.?\d*\/\d+\.?\d*/, '')    // remove "-0.5/1"
-                        .replace(/[A-Za-z\s]*Ventures/gi, '')     // remove "Admission Ventures"
+                        .replace(/^[\d\u09E6-\u09EF]+\s*[\.\।]\s*/, '') // remove "1. " or "১. "
+                        .replace(/-?\d+\.?\d*\/\d+\.?\d*/, '')           // remove "-0.5/1"
+                        .replace(/[A-Za-z\s]*Ventures/gi, '')             // remove "Admission Ventures"
                         .replace(/[A-Za-z\s]*admission/gi, '')
                         .replaceAll('𝓐𝓭𝓶𝓲𝓼𝓼𝓲𝓸𝓷 𝓥𝓮𝓷𝓽𝓾𝓻𝓮𝓼', '')
                         .replace(/\s+/g, ' ')
@@ -230,7 +243,8 @@
                     if (t.startsWith(letter)) {
                         const key = keyMap[letter];
                         // Option text: remove the Bengali letter prefix
-                        options[key] = t.replace(new RegExp(`^${letter}[\\s\\u0964\\.\\)]*`), '').trim();
+                        // Strip Bengali letter prefix: ক) ক। ক. ক- ক– ক— formats
+                        options[key] = t.replace(new RegExp(`^${letter}[\\s\\u0964\\.\\)\\-\\u2013\\u2014]*`), '').trim();
 
                         // Detect correct answer from green styling
                         const bg = window.getComputedStyle(btn).backgroundColor;
@@ -314,6 +328,7 @@
         }
 
         log(`[FIND] Extracted ${rawQuestions.length} questions from DOM`, '#4ade80');
+        markDone('domExtractMs', domStart);
 
         // Count questions with text
         const withText = rawQuestions.filter(q => q.question.length > 3).length;
@@ -321,6 +336,7 @@
         log(`[FIND] ${withText} questions have text, ${withExpl} have explanations`, '#818cf8');
 
         // ── Fetch API for reliable correct answers ───────────────────────────
+        const apiStart = markStart();
         log('[NET] Fetching API for answers...');
         let apiQuestions = [];
         try {
@@ -375,6 +391,7 @@
         } catch (e) {
             log(`[WARN] API failed: ${e.message}`, '#fbbf24');
         }
+        markDone('apiFetchMs', apiStart);
 
         const ansMap = { A: 'a', B: 'b', C: 'c', D: 'd' };
 
@@ -384,6 +401,47 @@
         if (totalQImgs > 0) log(`[IMG] ${totalQImgs} question images found`, '#4ade80');
         if (totalExplImgs > 0) log(`[IMG] ${totalExplImgs} explanation images found`, '#4ade80');
         if (totalQImgs === 0 && totalExplImgs === 0) log('[IMG] This exam has NO images', '#64748b');
+
+        const prepareImagesStart = markStart();
+        const dlTasks = [];
+        const urlToFname = new Map();
+        const safeImageExt = (rawUrl) => {
+            const clean = rawUrl.split('?')[0].split('#')[0];
+            const ext = (clean.split('.').pop() || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+            if (['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg'].includes(ext)) return ext;
+            return 'png';
+        };
+
+        for (let i = 0; i < rawQuestions.length; i++) {
+            const q = rawQuestions[i];
+            const questionUrls = Array.from(new Set((q.imageUrls || []).map(u => (u || '').trim()).filter(Boolean)));
+            const explanationUrls = Array.from(new Set((q.explanationImageUrls || []).map(u => (u || '').trim()).filter(Boolean)));
+
+            let qImgIndex = 1;
+            for (const url of questionUrls) {
+                let fname = urlToFname.get(url);
+                if (!fname) {
+                    fname = `q${i + 1}_img${qImgIndex}.${safeImageExt(url)}`;
+                    urlToFname.set(url, fname);
+                    dlTasks.push({ i, url, fname, type: 'question' });
+                }
+                if (!q.localImage) q.localImage = `/images/${fname}`;
+                qImgIndex += 1;
+            }
+
+            let explImgIndex = 1;
+            for (const url of explanationUrls) {
+                let fname = urlToFname.get(url);
+                if (!fname) {
+                    fname = `q${i + 1}_expl${explImgIndex}.${safeImageExt(url)}`;
+                    urlToFname.set(url, fname);
+                    dlTasks.push({ i, url, fname, type: 'explanation' });
+                }
+                if (!q.localExplImage) q.localExplImage = `/images/${fname}`;
+                explImgIndex += 1;
+            }
+        }
+        markDone('prepareImagesMs', prepareImagesStart);
 
         // ???? Download images as base64 ????????????????????????????????????????????????????????????????????????????????????????
         // Helper: fetch image via <img>+<canvas> (works when server sends CORS headers)
@@ -459,25 +517,22 @@
             throw new Error('All download strategies failed (CORS blocked)');
         }
 
-        const images = {};
-        let hasImages = dlTasks.length > 0;
-
-        // Do not download images client-side. The server API will handle them for maximum speed.
-        if (hasImages) {
-            log(`[IMG] Found ${dlTasks.length} images. Server will download them...`, '#94a3b8');
-            for (const task of dlTasks) {
-                if (task.type === 'question') {
-                    task.q.localImage = `/images/${task.fname}`;
-                } else {
-                    task.q.localExplImage = `/images/${task.fname}`;
-                }
-            }
-        }
+        const hasImages = dlTasks.length > 0;
+        if (hasImages) log(`[IMG] ${dlTasks.length} unique images queued for server download`, '#94a3b8');
 
         // ── Build final JSON ────────────────────────────────────────────────
         const jsonOut = rawQuestions.map((q, i) => {
             const apiQ = apiQuestions[i]?.q || {};
-            const correct = apiQ.answer ? (ansMap[apiQ.answer] || apiQ.answer.toLowerCase()) : q.correctAnswer;
+
+            // Robust answer normalization:
+            // API sends "A","B","C","D" (uppercase) or rarely "a","b"... lowercase.
+            // ansMap handles uppercase; also accept already-lowercase a/b/c/d directly.
+            const rawAns = (apiQ.answer || '').toString().trim();
+            const correct =
+                ansMap[rawAns.toUpperCase()]           // "A" → "a"
+                || (rawAns.match(/^[a-d]$/) ? rawAns : null)  // already lowercase
+                || q.correctAnswer                     // DOM color fallback
+                || null;
 
             // Ultimate Fallback: If DOM question was empty or missed, use API's text
             let finalQText = q.question;
@@ -486,20 +541,23 @@
                     .replace(/\[IMAGE:.*?\]/g, '')
                     .replace(/[A-Za-z\s]*Ventures/gi, '')
                     .replace(/[A-Za-z\s]*admission/gi, '')
-                    .replaceAll('𝓐𝓭𝓶𝓲𝓼𝓼𝓲𝓸𝓷 𝓥𝓮𝓷𝓽𝓾𝓻𝓮𝓼', '') // brutally remove the exact unicode math characters
-                    .replace(/<[^>]*>?/gm, '') // Strip HTML tags to mimic DOM text
+                    .replaceAll('𝓐𝓭𝓶𝓲𝓼𝓼𝓲𝓸𝓷 𝓥𝓮𝓷𝓽𝓾𝓻𝓮𝓼', '')
+                    .replace(/<[^>]*>?/gm, '') // Strip HTML tags
                     .trim();
             }
+
+            // hasDiagram = true if ANY question image exists (local OR original URL)
+            const hasQImg = !!(q.localImage || (q.imageUrls && q.imageUrls.length > 0));
 
             return {
                 id: i + 1,
                 subject,
                 question: finalQText,
                 options: q.options,
-                correctAnswer: correct || q.correctAnswer || null,
+                correctAnswer: correct,
                 explanation: q.explanation || '',
-                hasDiagram: !!q.localImage,
-                image: q.localImage || null,
+                hasDiagram: hasQImg,
+                questionImage: q.localImage || null,
                 explanationImage: q.localExplImage || null,
                 svg_code: '',
                 topic: '',
@@ -519,6 +577,7 @@
         log('[SAVE] Saving to local server (server will download images)...');
         const port = await findLocalPort();
         const apiEndpoint = `http://localhost:${port}/api/save-questions`;
+        const saveStart = markStart();
 
         let saved = false;
         try {
@@ -533,6 +592,15 @@
                 if (result.imagesSaved?.length) {
                     log(`[OK] ${result.imagesSaved.length} images saved to public/images/`, '#4ade80');
                 }
+                if (typeof result.requestedCount === 'number') {
+                    log(`[IMG] Requested ${result.requestedCount}, saved ${result.downloadedCount ?? result.imagesSaved?.length ?? 0}, failed ${result.failedCount ?? 0}`, '#818cf8');
+                }
+                if ((result.failedCount || 0) > 0) {
+                    log(`[WARN] ${result.failedCount} images failed on server. Check API logs for URLs.`, '#fbbf24');
+                }
+                if (result.timings?.totalMs != null) {
+                    log(`[TIME] Server total ${result.timings.totalMs}ms (download ${result.timings.serverDownloadMs ?? 0}ms)`, '#64748b');
+                }
                 saved = true;
             } else {
                 throw new Error(result.error || 'Unknown error');
@@ -540,9 +608,11 @@
         } catch (e) {
             log(`[WARN] Server save failed: ${e.message}`, '#fbbf24');
         }
+        markDone('saveRequestMs', saveStart);
 
         // ── Fallback: download file directly ───────────────────────────────
         if (!saved) {
+            const fallbackStart = markStart();
             log('[DOWN] Falling back to browser download...', '#fbbf24');
             const blob = new Blob([JSON.stringify(jsonOut, null, 2)], { type: 'application/json' });
             const a = document.createElement('a');
@@ -571,8 +641,14 @@
                 }
                 log('[OK] Images downloaded - move to public/images/', '#4ade80');
             }
+            markDone('fallbackBrowserMs', fallbackStart);
         }
 
+        const totalMs = Date.now() - runStartedAt;
+        log(
+            `[TIME] total ${totalMs}ms | scroll ${stageDurations.scrollMs || 0}ms | dom ${stageDurations.domExtractMs || 0}ms | api ${stageDurations.apiFetchMs || 0}ms | map ${stageDurations.prepareImagesMs || 0}ms | save ${stageDurations.saveRequestMs || 0}ms`,
+            '#64748b'
+        );
         log('[DONE] All done!', '#818cf8');
     }
 })();

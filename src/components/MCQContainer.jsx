@@ -15,13 +15,15 @@ const STATUS = {
   SUBMITTED: 'SUBMITTED'
 }
 
-const DURATION_SECONDS = 60 * 60 // 60 minutes
-const MARK_PER_QUESTION = 1.0 // Each correct answer = 1 mark
-const NEGATIVE_MARKING = 0.25
-const PASS_MARK = 60.0 // 100 * 1.0 * 0.60
 const SAVE_THROTTLE_MS = 5000 // Throttle localStorage writes to every 5 seconds
 
-function MCQContainer({ questions, studentName, questionFile = 'questions.json' }) {
+function MCQContainer({ questions, studentName, questionFile = 'questions.json', examConfig }) {
+  // Derive all settings from examConfig (auto-set by ExamPage based on questions.length)
+  const DURATION_SECONDS = examConfig?.durationSeconds ?? 60 * 60
+  const MARK_PER_QUESTION = examConfig?.markPerQuestion ?? 1.0
+  const NEGATIVE_MARKING = examConfig?.negativeMarking ?? 0.25
+  const PASS_MARK = examConfig?.passMark ?? 60.0
+  const STORAGE_KEY = examConfig?.storageKey ?? 'mcq_state_v100'
   // ALL HOOKS MUST BE CALLED BEFORE ANY CONDITIONAL RETURNS
   const [status, setStatus] = useState(STATUS.RUNNING)
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
@@ -169,7 +171,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json' 
 
       if (progress.status === 'success') {
         // Clean up only on confirmed success
-        localStorage.removeItem(`mcq_state_v100_${studentName}`)
+        localStorage.removeItem(`${STORAGE_KEY}_${studentName}`)
         localStorage.removeItem('exam_session_student')
       }
     }).catch(err => {
@@ -193,13 +195,13 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json' 
     }
 
     if (now - lastSaveRef.current >= SAVE_THROTTLE_MS) {
-      localStorage.setItem(`mcq_state_v100_${studentName}`, JSON.stringify(state))
+      localStorage.setItem(`${STORAGE_KEY}_${studentName}`, JSON.stringify(state))
       lastSaveRef.current = now
     } else {
       // Schedule a trailing save
       clearTimeout(saveTimerRef.current)
       saveTimerRef.current = setTimeout(() => {
-        localStorage.setItem(`mcq_state_v100_${studentName}`, JSON.stringify(state))
+        localStorage.setItem(`${STORAGE_KEY}_${studentName}`, JSON.stringify(state))
         lastSaveRef.current = Date.now()
       }, SAVE_THROTTLE_MS)
     }
@@ -213,7 +215,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json' 
   useEffect(() => {
     if (!questions || questions.length === 0) return
 
-    const saved = localStorage.getItem(`mcq_state_v100_${studentName}`)
+    const saved = localStorage.getItem(`${STORAGE_KEY}_${studentName}`)
     if (saved) {
       try {
         const data = JSON.parse(saved)
@@ -428,6 +430,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json' 
         onRestart={() => window.location.reload()}
         questionFile={questionFile}
         submissionStatus={submissionStatus}
+        passMark={PASS_MARK}
       />
     )
   }

@@ -12,9 +12,10 @@
     "correctAnswer": "d",
     "explanation": "𝑣\n2\n𝑟\n𝑔\n=\n(\n𝑚\n𝑠\n−\n1\n)\n2\n𝑚\n×\n𝑚\n𝑠\n−\n2\n=\n𝑚\n2\n𝑠\n−\n2\n𝑚\n2\n𝑠\n−\n2\n=\n1\nrg\nv\n2\n\t​\n\n=\nm×ms\n−2\n(ms\n−1\n)\n2\n\t​\n\n=\nm\n2\ns\n−2\nm\n2\ns\n−2\n\t​\n\n=1",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 2,
@@ -29,9 +30,10 @@
     "correctAnswer": "b",
     "explanation": "A nano is defined as 10^-9",
     "hasDiagram": true,
-    "image": "/images/q2_img1.jpg",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q2_img1.jpg",
+    "explanationImage": null
   },
   {
     "id": 3,
@@ -46,9 +48,10 @@
     "correctAnswer": "b",
     "explanation": "চাপ \n(\n𝑃\n)\n=\n𝑀\n𝐿\n𝑇\n−\n2\n𝐿\n2\n=\n[\n𝑀\n𝐿\n−\n1\n𝑇\n−\n2\n]\n(P)=\nL\n2\nMLT\n−2\n\t​\n\n=[ML\n−1\nT\n−2\n]\n\nবেগ \n(\n𝑉\n)\n=\n[\n𝐿\n𝑇\n−\n1\n]\n(V)=[LT\n−1\n]\n\n সময় \n(\n𝑡\n)\n=\n[\n𝑇\n]\n(t)=[T]\n\n\n\n\n\nধরা যাক, বলের মাত্রা \n𝐹\n=\n[\n𝑃\n𝑎\n𝑉\n𝑏\n𝑇\n𝑐\n]\nF=[P\na\nV\nb\nT\nc\n] | এখন, প্রচলিত মাত্রার সাথে তুলনা করে \n𝑎\n,\n𝑏\n,\n𝑐\na,b,c এর মান\n\nবের করতে হবে।\n\n𝑀\n𝐿\n𝑇\n−\n2\n=\n(\n𝑀\n𝐿\n−\n1\n𝑇\n−\n2\n)\n𝑎\n(\n𝐿\n𝑇\n−\n1\n)\n𝑏\n(\n𝑇\n)\n𝑐\nMLT\n−2\n=(ML\n−1\nT\n−2\n)\na\n(LT\n−1\n)\nb\n(T)\nc\n\n𝑀\n𝐿\n𝑇\n−\n2\n=\n𝑀\n𝑎\n𝐿\n−\n𝑎\n+\n𝑏\n𝑇\n−\n2\n𝑎\n−\n𝑏\n+\n𝑐\nMLT\n−2\n=M\na\nL\n−a+b\nT\n−2a−b+c\n\n\n\n\n\nএখন উভয় পক্ষের মাত্রা তুলনা করে পাই:\n\n \n𝑀\nM এর জন্য: \n𝑎\n=\n1\na=1\n\n \n𝐿\nL এর জন্য: \n−\n𝑎\n+\n𝑏\n=\n1\n  \n⟹\n  \n−\n1\n+\n𝑏\n=\n1\n  \n⟹\n  \n𝑏\n=\n2\n−a+b=1⟹−1+b=1⟹b=2\n\n \n𝑇\nT এর জন্য:\n\n−\n2\n𝑎\n−\n𝑏\n+\n𝑐\n=\n−\n2\n  \n⟹\n  \n−\n2\n(\n1\n)\n−\n2\n+\n𝑐\n=\n−\n2\n  \n⟹\n  \n−\n4\n+\n𝑐\n=\n−\n2\n  \n⟹\n  \n𝑐\n=\n2\n−2a−b+c=−2⟹−2(1)−2+c=−2⟹−4+c=−2⟹c=2\n\n\n\n\n\nসুতরাং, বলের মাত্রা হলো \n𝑃\n𝑉\n2\n𝑡\n2\nPV\n2\nt\n2\n।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 4,
@@ -63,9 +66,10 @@
     "correctAnswer": "d",
     "explanation": "সঠিক উত্তর হচ্ছে -  জেমস সি ম্যাক্সওয়েল",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 5,
@@ -80,9 +84,10 @@
     "correctAnswer": "a",
     "explanation": "বলের ঘাত,\n\n=\n𝐹\n×\n𝑡\n\n\n=\n𝑚\n𝑎\n𝑡\n\n\n=\n𝑘\n𝑔\n𝑚\n𝑠\n−\n2\n𝑠\n=\n𝑘\n𝑔\n𝑚\n𝑠\n−\n1\n=F×t\n=mat\n=kgms\n−2\ns=kgms\n−1\n\t​\n\n\nরৈখিক ভরবেগ, \n\n=\n𝑃\n\n\n=\n𝑚\n𝑣\n\n\n=\n𝑘\n𝑔\n𝑚\n𝑠\n−\n1\n=P\n=mv\n=kgms\n−1\n\t​",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 6,
@@ -97,9 +102,10 @@
     "correctAnswer": "d",
     "explanation": "ভূমিকম্প পরিমাপক যন্ত্রের নাম সিসমোগ্রাফ আর ভূমিকম্পের মাত্রা নির্ণায়ক যন্ত্রের নাম রিখটারস্কেল।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 7,
@@ -114,9 +120,10 @@
     "correctAnswer": "b",
     "explanation": "<p>বল ও শক্তির মাত্রা যথাক্রমে:</p><p>বলের মাত্রা (Dimension of Force) = MLT⁻²</p><p>শক্তির মাত্রা (Dimension of Energy) = ML²T⁻²</p><p>সুতরাং, সঠিক উত্তর হলো: MLT⁻² ও ML²T⁻²।</p>",
     "hasDiagram": true,
-    "image": "/images/q7_img1.jpeg",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q7_img1.jpeg",
+    "explanationImage": null
   },
   {
     "id": 8,
@@ -131,9 +138,10 @@
     "correctAnswer": "c",
     "explanation": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন লিওনার্দো দ্যা ভিঞ্চি।\n\n\nসুতরাং সঠিক উত্তর: লিওনার্দো দ্যা ভিঞ্চি (অপশন সি)",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 9,
@@ -148,9 +156,10 @@
     "correctAnswer": "c",
     "explanation": "<p>পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন <b>লিওনার্দো দ্য ভিঞ্চি</b>।</p>",
     "hasDiagram": true,
-    "image": "/images/q9_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q9_img1.png",
+    "explanationImage": null
   },
   {
     "id": 10,
@@ -165,9 +174,10 @@
     "correctAnswer": "b",
     "explanation": "AU-কে বর্তমানে সংজ্ঞায়িত করা হয় ঠিক ১৪৯ ৫৯৭ ৮৭০ ৭০০ মিটার (প্রায় ১৫০ মিলিয়ন কিলোমিটার বা ৯৩ মিলিয়ন মাইল) হিসেবে।",
     "hasDiagram": true,
-    "image": "/images/q10_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q10_img1.png",
+    "explanationImage": null
   },
   {
     "id": 11,
@@ -182,9 +192,10 @@
     "correctAnswer": "d",
     "explanation": "Is-27, কোনো যন্ত্রের সাহায্যে ন্যূনতম যতটুকু পরিমাপ করা সম্ভব তাকে ঐ যন্ত্রের লঘিষ্ঠ গণন বলে। মিটার স্কেলের লঘিষ্ঠ গণন 0.1 cm.",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 12,
@@ -199,9 +210,10 @@
     "correctAnswer": "b",
     "explanation": "* \n1\nP\nC\n=\n3.086\n×\n10\n16\n \nm\n1PC=3.086×10\n16\n m\n\n* \n1\nl\ny\n=\n9.46\n×\n10\n15\n \nm\n1ly=9.46×10\n15\n m\n\n* \n1\nM\nm\n=\n10\n6\n \nm\n⋅\n1\n𝐴\n˚\n=\n10\n−\n10\n \nm\n1Mm=10\n6\n m⋅1\nA\n˚\n=10\n−10\n m",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 13,
@@ -216,9 +228,10 @@
     "correctAnswer": "c",
     "explanation": "নিলস হেনরিক ডেভিড বোর একজন ডেনিশ পদার্থবিদ ছিলেন যিনি পারমাণবিক গঠন এবং কোয়ান্টাম তত্ত্ব বোঝার জন্য মৌলিক অবদান রেখেছিলেন, যার জন্য তিনি 1922 সালে পদার্থবিজ্ঞানে নোবেল পুরস্কার পেয়েছিলেন।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 14,
@@ -233,9 +246,10 @@
     "correctAnswer": "a",
     "explanation": "স্ফেরোমিটারের বৃত্তাকার স্কেলের দাগ সংখ্যা = 25/0.5 = 50",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 15,
@@ -250,9 +264,10 @@
     "correctAnswer": "c",
     "explanation": "মৌলিক একক হলো সেইসব একক যা অন্য কোনো এককের উপর নির্ভরশীল নয়। আন্তর্জাতিক\n\nএকক পদ্ধতি (SI) অনুযায়ী, সময়, ভর এবং তাপমাত্রা হলো মৌলিক রাশি এবং এদের এককগুলো\n\nমৌলিক একক। অন্যদিকে, ভরবেগ হলো একটি লব্ধ রাশি যা ভর এবং বেগের গুণফল থেকে\n\nপাওয়া যায়। ভরবেগ \n(\n𝑝\n)\n(p) এর সূত্র হলো \n𝑝\n=\n𝑚\n𝑣\np=mv, যেখানে \n𝑚\nm হলো ভর এবং \n𝑣\nv হলো বেগ। বেগ\n\nনিজেই একটি লব্ধ রাশি (দূরত্ব/সময়), তাই ভরবেগ কোনো মৌলিক একক নয়।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 16,
@@ -267,9 +282,10 @@
     "correctAnswer": "d",
     "explanation": "পরীক্ষা-নিরীক্ষার দ্বারা প্রমাণিত অনুকল্পকে তত্ত্ব বলে।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 17,
@@ -284,9 +300,10 @@
     "correctAnswer": "b",
     "explanation": "1 Gauss= 10-4 Tesla",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 18,
@@ -301,9 +318,10 @@
     "correctAnswer": "d",
     "explanation": "বলের ভ্রামকের মাত্রা= \n[\nM\nL\n2\n \nT\n−\n2\n]\n[ML\n2\n T\n−2\n]\n\nকেননা, টর্ক= Fr\n\nতাই একক=Kgms^-2.m=Kgm²s^-2\n\nআর তাই, মাত্রা= \n[\nM\nL\n2\n \nT\n−\n2\n]\n[ML\n2\n T\n−2\n]",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 19,
@@ -318,9 +336,10 @@
     "correctAnswer": "c",
     "explanation": "ওয়াট (Watt) হলো শক্তির একক, যা শক্তির পরিমাণ এবং সময়ের সাথে সম্পর্কিত।  এক ওয়াট সমতুল্য:\n\n1. **১ ওয়াট = ১ জুল/সেকেন্ড** (Joule per second)\n\n2. **১ ওয়াট = ১ ভোল্ট × ১ অ্যাম্পিয়ার** (Volt × Ampere)\n\nঅর্থাৎ, এক ওয়াট শক্তি হলো প্রতি সেকেন্ডে ১ জুল শক্তি ব্যবহারের পরিমাণ বা ১ ভোল্টে ১ অ্যাম্পিয়ার প্রবাহিত হলে যে শক্তি উৎপন্ন হয় তা।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 20,
@@ -335,9 +354,10 @@
     "correctAnswer": "c",
     "explanation": "1\nG\nH\nz\n=\n10\n9\n\n\n1\nM\nH\nZ\n=\n10\n6\n\n\n∴\n10\n9\n10\n6\n=\n10\n3\n1GHz=10\n9\n1MHZ=10\n6\n∴\n10\n6\n10\n9\n\t​\n\n=10\n3\n\t​",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 21,
@@ -352,9 +372,10 @@
     "correctAnswer": "b",
     "explanation": "<p>একটি আদর্শ বা যুক্তিপূর্ণ আচরণ ভিত্তি যার সাপেক্ষে অন্যান্য বিষয় তুলনা, বিচার বিশ্লেষণ ও পরিমাপ করা হয় তাকে <b>নীতি</b> বলে।</p><br><p>নীতি হলো এমন একটি মানদণ্ড যা নির্দিষ্ট নৈতিক বা যুক্তিপূর্ণ আচরণের ভিত্তি তৈরি করে, যার উপর ভিত্তি করে অন্যান্য বিষয় বিচার ও পরিমাপ করা হয়। 😊</p>",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 22,
@@ -369,9 +390,10 @@
     "correctAnswer": "c",
     "explanation": "বিজ্ঞানী কেকুল এর অবদান হচ্ছে-তিনি বেনজিনের কাঠামো তত্ত্ব প্রদান করেন।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 23,
@@ -386,9 +408,10 @@
     "correctAnswer": "c",
     "explanation": "এককগুলির মধ্যে \"ডেকামিটার\" (গ) সবচেয়ে কম ব্যবহৃত এবং অনেকে এই এককটি দৈনন্দিন জীবনে ব্যবহার করেন না। তবে একক হিসেবে এটি বিদ্যমান। \n\nযদি প্রশ্নে এমন কিছু বোঝানো হয় যা দৈনন্দিন জীবনে ব্যবহার হয় না, তবে ডেকামিটারকে ধরা যেতে পারে। অন্যথায়, টন, কিলোমিটার, এবং মাইক্রন সবগুলোই প্রচলিত ব্যবহারিক একক।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 24,
@@ -403,9 +426,10 @@
     "correctAnswer": "c",
     "explanation": "উত্তরঃহিগস-বোসন কণা ‘ঈশ্বর কণা’ নামে পরিচিত।\n\nবোসন কণা, মেসন কণা এবং লেপটন কণা সবই মৌলিক কণা। কিন্তু হিগস-বোসন কণা একটি বিশেষ ধরনের বোসন কণা। এটি মহাবিশ্বের সকল অন্যান্য মৌলিক কণার ভর প্রদান করে বলে মনে করা হয়। তাই, এটিকে ‘ঈশ্বর কণা’ বলা হয়।\n\nহিগস-বোসন কণা আবিষ্কারের ফলে পদার্থবিজ্ঞানের স্ট্যান্ডার্ড মডেলকে আরও সমৃদ্ধ করা হয়েছে। এটি মহাবিশ্বের উৎপত্তি এবং বিবর্তন সম্পর্কে আমাদের বোঝার ক্ষেত্রে একটি গুরুত্বপূর্ণ অবদান রেখেছে।\n\nসুতরাং, উত্তর হল হিগস-বোসন কণা।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 25,
@@ -420,9 +444,10 @@
     "correctAnswer": "d",
     "explanation": "সূর্যকেন্দ্রিক সৌরজগতের ধারণা দেন কোপারনিকাস।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 26,
@@ -437,9 +462,10 @@
     "correctAnswer": "a",
     "explanation": "যে সকল প্রাকৃতিক সত্য সরাসরি স্পষ্টভাবে প্রমাণ করা যায় এবং ওই সত্যের সাহায্যে অনেক প্রাকৃতিক ঘটনাকে প্রমাণ করা যায়, তাকে নীতি বলে।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 27,
@@ -454,9 +480,10 @@
     "correctAnswer": "b",
     "explanation": "আলোক বর্ষ (ইংরেজি: Light year) একটি দৈর্ঘ্য পরিমাপের একক, যা দিয়ে জ্যোতির্বিদ্যা সম্পর্কিত দূরত্ব মাপা হয়। এক আলোক বর্ষ সমান ৯৪৬ হাজার কোটি কিলোমিটার। ইন্টারন্যাশনাল অ্যাস্ট্রোনমিক্যাল ইউনিয়নের সংজ্ঞা অনুসারে এক আলোক বর্ষ হল এক জুলীয় বছরে (৩৬৫.২৫ দিন) শূন্য মাধ্যমে আলো যত দূরত্ব অতিক্রম করে সেই দূরত্ব",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 28,
@@ -471,9 +498,10 @@
     "correctAnswer": "b",
     "explanation": "𝑎\n=\n1.3\n×\n10\n−\n3\n\n\n আয়তন \n,\n𝑉\n=\n𝑎\n3\n=\n2.197\n×\n10\n−\n9\n \nm\n3\na=1.3×10\n−3\n আয়তন ,V=a\n3\n=2.197×10\n−9\n m\n3\n\t​",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 29,
@@ -488,9 +516,10 @@
     "correctAnswer": "b",
     "explanation": "C.G.S পদ্ধতিতে, \n1\n \nJ\n=\n10\n7\ne\nr\ng\n1 J=10\n7\nerg\n\nS.I পদ্ধতিতে,\n\n𝐾\n\t\n=\n1.38\n×\n10\n−\n23\n \nJ\n\n\n\t\n=\n1.38\n×\n10\n−\n16\ne\nr\ng\nK\n\t​\n\n=1.38×10\n−23\n J\n=1.38×10\n−16\nerg\n\t​\n\n\n∴\n1.38\n×\n10\n−\n16\n1.38\n×\n10\n−\n23\n=\n10\n7\n∴\n1.38×10\n−23\n1.38×10\n−16\n\t​\n\n=10\n7",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 30,
@@ -505,9 +534,10 @@
     "correctAnswer": "a",
     "explanation": "বিদ্যুৎ চুম্বকীয় একক হচ্ছে \n3\n×\n10\n10\n3×10\n10\n e.s.u. এখানে e.s.u হচ্ছে electro static units.",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 31,
@@ -522,9 +552,10 @@
     "correctAnswer": "c",
     "explanation": "জুল এবং আর্গ উভয়ই শক্তির একক \n\nআমরা জানি,\n\n1 জুল = 10\n7\n7\n আর্গ\n\n∴\n∴10 জুল = (10\n7\n×\n7\n× 10) = 10\n8\n8\n আর্গ",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 32,
@@ -539,9 +570,10 @@
     "correctAnswer": "b",
     "explanation": "<p>বিনা প্রমাণে কোনো কিছু মেনে নেওয়াকে <b>স্বীকার্য</b> বলে।</p><p>গাণিতিক মডেল বা সূত্র প্রতিষ্ঠার জন্য কিছু পূর্বশর্ত প্রমাণ ছাড়াই মেনে নেওয়া হয়, এই পূর্বশর্তগুলিকেই স্বীকার্য বলা হয়।</p>",
     "hasDiagram": true,
-    "image": "/images/q32_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q32_img1.png",
+    "explanationImage": null
   },
   {
     "id": 33,
@@ -556,9 +588,10 @@
     "correctAnswer": "b",
     "explanation": "Is-28; নিউটনের এই বইটি 1687 সালে প্রকাশিত হয়।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 34,
@@ -573,9 +606,10 @@
     "correctAnswer": "c",
     "explanation": "রজার বেকন (Roger Bacon, 1214-1292)-ই ছিলেন \"পর্যবেক্ষণ ও পরীক্ষার মাধ্যমেই পদার্থবিজ্ঞানের সব সত্য যাচাই করা যায়\" এই মতবাদের প্রবক্তা।\n\nতিনি ছিলেন একজন ইংরেজ দার্শনিক, ধর্মতত্ত্ববিদ এবং বিজ্ঞানী। তাকে আধুনিক বৈজ্ঞানিক পদ্ধতির জনকদের একজন হিসেবে বিবেচনা করা হয়।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 35,
@@ -590,9 +624,10 @@
     "correctAnswer": "b",
     "explanation": "কাজ ও শক্তির মাত্রা : \n[\nM\nL\n2\n \nT\n−\n2\n]\n[ML\n2\n T\n−2\n]ক্ষমতার মাত্রা : \n[\nM\nL\n2\n \nT\n−\n3\n]\n[ML\n2\n T\n−3\n]",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 36,
@@ -607,9 +642,10 @@
     "correctAnswer": "d",
     "explanation": "অপশনগুলোর মধ্যে শুধু ঘনত্বকে প্রকাশ করতেই কেবল মান এর দরকার হয়, দিক এর দরকার হয়না। তাই ঘনত্ব স্কেলার রাশি।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 37,
@@ -624,9 +660,10 @@
     "correctAnswer": "d",
     "explanation": "1 কিউসেক = 1 কিউবিক ফুট = 1 ফুট = 30.48 সে.মি \n\n∴\n∴ 1 কিউসেক = 30,48 × 30.48 X30.48 = 28316.8 \n𝑐\n𝑚\n3\ncm\n3\n = \n28316.85\n1000\n1000\n28316.85\n\t​\n\n=  28.317 লিটার",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 38,
@@ -641,9 +678,10 @@
     "correctAnswer": "d",
     "explanation": "এসআই পদ্ধতিতে দীপন তীব্রতার একক হলো ক্যান্ডেলা (Candela)। এটি আলোর তীব্রতা পরিমাপের একক।",
     "hasDiagram": true,
-    "image": "/images/q38_img1.jpg",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q38_img1.jpg",
+    "explanationImage": null
   },
   {
     "id": 39,
@@ -658,9 +696,10 @@
     "correctAnswer": "a",
     "explanation": "ত্রুটি \n=\n3.14159265\n−\n3.14159\n3.14159265\n×\n100\n%\n=\n8.435\n×\n10\n−\n5\n%\n=\n3.14159265\n3.14159265−3.14159\n\t​\n\n×100%=8.435×10\n−5\n%\n\t​",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 40,
@@ -675,9 +714,10 @@
     "correctAnswer": "b",
     "explanation": "লেভেল ত্রুটি (level error) : কতকগুলো পরীক্ষণের ক্ষেত্রে যন্ত্রকে ভালোভাবে লেভেলিং করে না নিলে সঠিক পাঠ পাওয়া যায় না। যেমন নিক্তি, বিক্ষেপ চৌম্বকমান যন্ত্র, ট্যানজেন্ট গ্যালভানোমিটার ইত্যাদি। লেভেলিং স্ক্রু এবং স্পিরিট লেভেলের সাহায্যে লেভেলিং করে নিতে হয়। এই সকল যন্ত্রে লেভেল ত্রুটি দেখা যায়।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 41,
@@ -692,9 +732,10 @@
     "correctAnswer": "a",
     "explanation": "মহাকর্ষীয় ধ্রুবকের মাত্রা হল: \\( \\mathrm{M}^{-1} \\mathrm{~L}^{3} \\mathrm{~T}^{-2} \\)",
     "hasDiagram": true,
-    "image": "/images/q41_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q41_img1.png",
+    "explanationImage": null
   },
   {
     "id": 42,
@@ -709,9 +750,10 @@
     "correctAnswer": "c",
     "explanation": "আমরা জানি যে, শতকরা ত্রুটি = \n∣\nপ্রকৃত মান \n−\nপরিমাপকৃত মান\n∣\nপ্রকৃত মান\n×\n100\n%\nপ্রকৃত মান\n∣প্রকৃত মান −পরিমাপকৃত মান∣\n\t​\n\n×100% \n\n=\n10.4\n−\n10\n10.4\n×\n100\n%\n=\n3.85\n%\n=\n10.4\n10.4−10\n\t​\n\n×100%=3.85%",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 43,
@@ -726,9 +768,10 @@
     "correctAnswer": "c",
     "explanation": "𝐸\n=\nℎ\n𝑐\n𝜆\n\n\n⇒\nℎ\n=\n𝐸\n𝜆\n𝑐\n\n\n∴\nℎ\n এর একক \n=\nJ\n𝑚\n \nm\ns\n−\n2\n=\n𝐽\n𝑆\nE=\nλ\nhc\n\t​\n\n⇒h=\nc\nEλ\n\t​\n\n∴h এর একক =\n ms\n−2\nJm\n\t​\n\n=JS\n\t​\n\n\nকৌণিক ভরবেগ,\n\n=\n𝑚\n𝑣\n𝑟\n\n\n=\n𝑘\n𝑔\n𝑚\n𝑠\n−\n1\n𝑚\n\n\n=\n𝑘\n𝑔\n𝑚\n2\n𝑠\n−\n1\n\n\n=\n𝑘\n𝑔\n𝑚\n2\n𝑠\n−\n2\n×\n𝑠\n\n\n=\n𝐽\n𝑠\n=mvr\n=kgms\n−1\nm\n=kgm\n2\ns\n−1\n=kgm\n2\ns\n−2\n×s\n=Js\n\t​",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 44,
@@ -743,9 +786,10 @@
     "correctAnswer": "d",
     "explanation": "<p>প্রদত্ত রাশিগুলোর মাত্রা বিশ্লেষণ করে আমরা পাই:</p><br><p>১. <b>চাপ, ইয়ং এর গুণাঙ্ক, পীড়ন:</b></p><br><ul><li>চাপ = বল/ক্ষেত্রফল = [MLT⁻²]/[L²] = [ML⁻¹T⁻²]</li><li>পীড়ন = বল/ক্ষেত্রফল = [MLT⁻²]/[L²] = [ML⁻¹T⁻²]</li><li>ইয়ং এর গুণাঙ্ক = পীড়ন/বিকৃতি। যেহেতু বিকৃতির কোনো মাত্রা নেই, ইয়ং এর গুণাঙ্কের মাত্রা পীড়নের মাত্রার সমান। অর্থাৎ, [ML⁻¹T⁻²]</li></ul><p>সুতরাং, এই রাশিগুলোর মাত্রা একই।</p><br><p>২. <b>তড়িচ্চালক শক্তি, বিভব পার্থক্য, তড়িৎ বিভব:</b></p><br><ul><li>তড়িচ্চালক শক্তি = কাজ/আধান = [ML²T⁻²]/[IT] = [ML²T⁻³I⁻¹]</li><li>বিভব পার্থক্য = কাজ/আধান = [ML²T⁻²]/[IT] = [ML²T⁻³I⁻¹]</li><li>তড়িৎ বিভব = কাজ/আধান = [ML²T⁻²]/[IT] = [ML²T⁻³I⁻¹]</li></ul><p>সুতরাং, এই রাশিগুলোর মাত্রা একই।</p><br><p>৩. <b>তাপ, কাজ, শক্তি:</b></p><br><ul><li>তাপ = শক্তি, যার মাত্রা = [ML²T⁻²]</li><li>কাজ = বল × সরণ = [MLT⁻²] × [L] = [ML²T⁻²]</li><li>শক্তি = [ML²T⁻²]</li></ul><p>সুতরাং, এই রাশিগুলোর মাত্রা একই।</p><br><p>৪. <b>দ্বিপোল ভ্রামক, তড়িৎ ফ্লাক্স, তড়িৎক্ষেত্র:</b></p><br><ul><li>দ্বিপোল ভ্রামক = আধান × দূরত্ব = [IT] × [L] = [LIT]</li><li>তড়িৎক্ষেত্র = বল/আধান = [MLT⁻²]/[IT] = [MLT⁻³I⁻¹]</li><li>তড়িৎ ফ্লাক্স = তড়িৎক্ষেত্র × ক্ষেত্রফল = [MLT⁻³I⁻¹] × [L²] = [ML³T⁻³I⁻¹]</li></ul><p>দেখা যাচ্ছে যে, দ্বিপোল ভ্রামক, তড়িৎ ফ্লাক্স এবং তড়িৎক্ষেত্র - এই রাশিগুলোর মাত্রা ভিন্ন।</p><br><p>অতএব, <b>দ্বিপোল ভ্রামক, তড়িৎ ফ্লাক্স, তড়িৎক্ষেত্র</b> রাশিগুলোর মাত্রা এক নয়।</p>",
     "hasDiagram": true,
-    "image": "/images/q44_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q44_img1.png",
+    "explanationImage": null
   },
   {
     "id": 45,
@@ -760,9 +804,10 @@
     "correctAnswer": "d",
     "explanation": "1 পারসেক \n(\n𝑝\n𝑐\n)\n=\n3.26\n(pc)=3.26 আলোকবর্ষ\n=\n3.083\n×\n10\n13\n=3.083×10\n13\n কিলোমিটার = \n3.083\n×\n10\n16\n3.083×10\n16\n মিটার",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 46,
@@ -777,9 +822,10 @@
     "correctAnswer": "c",
     "explanation": "কোনো গোলীয় তলের বক্রতার ব্যাসার্ধ নির্ণয়ের সুত্রঃ \n𝑅\n=\n𝑑\n2\n6\nℎ\n+\nℎ\n2\nR=\n6h\nd\n2\n\t​\n\n+\n2\nh\n\t​",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 47,
@@ -794,9 +840,10 @@
     "correctAnswer": "d",
     "explanation": "নভো কোন একক নয়।",
     "hasDiagram": true,
-    "image": "/images/q47_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q47_img1.png",
+    "explanationImage": null
   },
   {
     "id": 48,
@@ -811,9 +858,10 @@
     "correctAnswer": "d",
     "explanation": "SI একক: কিলোগ্রাম, কেলভিন, মিটার",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 49,
@@ -828,9 +876,10 @@
     "correctAnswer": "b",
     "explanation": "<html><p>মহাকর্ষীয় ধ্রুবকের (Gravitational Constant) মাত্রা হলো \\((\\text{M}^{-1} \\text{L}^{3} \\text{T}^{-2})\\)।</p><p>আশা করি তুমি বুঝতে পেরেছ! 😊</p></html>",
     "hasDiagram": true,
-    "image": "/images/q49_img1.png",
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": "/images/q49_img1.png",
+    "explanationImage": null
   },
   {
     "id": 50,
@@ -845,8 +894,9 @@
     "correctAnswer": "c",
     "explanation": "ম্যাক্স প্ল্যাঙ্ক (Max Planck, 1858–1947) : বিজ্ঞানী প্ল্যাঙ্ক ছিলেন জার্মানির প্রখ্যাত পদার্থবিদ। 1900 খ্রিস্টাব্দে তিনি তেজকণাবাদ (Quantum theory) আবিষ্কার করেন। এই আবিষ্কারের মাধ্যমে পদার্থবিজ্ঞানে বিপ্লব সূচিত হয়।",
     "hasDiagram": false,
-    "image": null,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   }
 ]

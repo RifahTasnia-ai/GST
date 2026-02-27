@@ -13,7 +13,9 @@
     "explanation": "যেহেতু $$R={R}_{0}(1+αt)$$ সুতরাং, $$y=mx+c$$ আকারের লেখ হবে।",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 3,
@@ -45,7 +49,9 @@
     "explanation": "আমরা জানি, $${C}_{x}=\\frac{1}{\\sqrt{{μ}_{x}{μ}_{o}{ϵ}_{x}{ϵ}_{o}}}=\\frac{1}{\\sqrt{μ{ϵ}_{o}}}×\\frac{1}{\\sqrt{{μ}_{x}{ϵ}_{x}}}$$ $$=\\frac{c}{\\sqrt{16×0.25}}=\\frac{c}{\\sqrt{16×\\frac{25}{100}}}=\\frac{c}{\\sqrt{4}}$$ $$∴{c}_{x}=\\frac{3×{10}^{8}}{2}=1.5×{10}^{8}m/s$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 4,
@@ -61,7 +67,9 @@
     "explanation": "$$\\frac{{v}_{1}}{{T}_{1}}=\\frac{{V}_{2}}{{T}_{2}}$$ $$∴{T}_{2}=\\frac{{V}_{2}×{T}_{1}}{{V}_{1}}=\\frac{2V×283}{{V}_{1}}=566K=293℃$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 5,
@@ -77,7 +85,9 @@
     "explanation": "$$P=\\frac{W}{t}=\\frac{mgxsin θ}{t}$$ $$=\\frac{(70+30)×9.8×10×sin {30}^{∘}}{50}=98 W$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 6,
@@ -93,7 +103,9 @@
     "explanation": "$$1+0+4+8+16=29$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 7,
@@ -109,7 +121,9 @@
     "explanation": "xz তলে vector টি $$5i^+9k^$$ $$∴$$ দৈর্ঘ্য $$=\\sqrt{{5}^{2}+{9}^{2}}=\\sqrt{106}=10.3$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 8,
@@ -125,7 +139,9 @@
     "explanation": "$$k=\\frac{{Q}_{1}}{W}$$ $$⇒W=\\frac{{Q}_{1}}{k}=\\frac{500}{2.5}=\\frac{500}{\\frac{5}{2}}=\\frac{500×2}{5}=200J$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 9,
@@ -141,7 +157,9 @@
     "explanation": "",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 10,
@@ -157,7 +175,9 @@
     "explanation": "কেন্দ্রমুখী বল $$⊥$$ সরণ $$∴$$ কেন্দ্রমুখী বল দ্বারা কৃতকাজ শূন্য।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 11,
@@ -173,7 +193,9 @@
     "explanation": "$$\\frac{{m}_{AB}}{{m}_{AC}}=\\frac{5}{7}⇒\\frac{{m}_{AC}}{{m}_{AB}}=\\frac{7}{5}=1.4$$ $$∴γ=1.4∴$$ গ্যাসটি di-atomic/ দ্বিপারমাণবিক।",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 12,
@@ -189,7 +211,9 @@
     "explanation": "$$v=ωr=\\frac{2π}{12×3600}×(\\frac{20}{2}×{10}^{−2})$$ $$=\\frac{π}{216000}m{s}^{−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 13,
@@ -205,7 +229,9 @@
     "explanation": "$$\\frac{{V}_{M}}{{V}_{e}}=\\frac{\\sqrt{\\frac{GM}{R}×2}}{\\sqrt{\\frac{2GM×81}{R×16}}}=\\sqrt{\\frac{16}{81}}=\\frac{4}{9}$$ $$∴{V}_{M}=11.2×\\frac{4}{9}=4.97 km{s}^{−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 14,
@@ -221,7 +247,9 @@
     "explanation": "বলের ঘাত $$=∆P=m{v−u}$$ $$=6{3−(−5)}=48 kgm{s}^{−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 15,
@@ -237,7 +265,9 @@
     "explanation": "গতির সমীকরণ $$y=5cos (\\frac{2π}{5}t+\\frac{π}{2})$$ সমীকরণটিকে, $$y=Acos (ωt+δ)$$ এর সাথে তুলনা করলে পাই $$A=5;ω=\\frac{2π}{5}$$ $$∴$$ সর্বোচ্চ ত্বরণ, $${a}_{max }={ω}^{2}A={(\\frac{2π}{5})}^{2}×5$$ $$=\\frac{4{π}^{2}}{25}×5=\\frac{4}{5}{π}^{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 16,
@@ -253,7 +283,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 17,
@@ -269,7 +301,9 @@
     "explanation": "সুতরাং, $$I=\\frac{12}{6}=2A$$ $$∴1Ω$$ রোধের জন্য শক্তির অপচয় , $$W=Pt={I}^{2}Rt$$ $$={2}^{2}×1×2×60=4×2×60=480 J$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 18,
@@ -285,7 +319,9 @@
     "explanation": "$$P=\\frac{W}{t}=\\frac{mgh}{t}=\\frac{75×10×300}{30×60}=125 W$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 19,
@@ -301,7 +337,9 @@
     "explanation": "ভরবেগের পরিবর্তন $$=$$ বলের ঘাত $$=250×5=1250 kg{ms}^{−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 20,
@@ -317,7 +355,9 @@
     "explanation": "$$\\frac{{v}_{P}}{{v}_{E}}=\\frac{\\sqrt{2×4g×2r}}{\\sqrt{2gr}}$$ $$⇒{v}_{P}=\\sqrt{8} {v}_{E}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 21,
@@ -333,7 +373,9 @@
     "explanation": "$$V=−\\frac{GM}{R}$$ , ফাঁকা গোলকের ভিতরের বিভব পৃষ্ঠের বিভবের সমান। পৃষ্ঠা থেকে দূরত্ব বাড়লে বিভবের মান বাড়তে থাকে।",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 22,
@@ -349,7 +391,9 @@
     "explanation": "$$A→=2i^−j^+2k^$$ ; $$|A→|=\\sqrt{4+1+4}=3$$ $$∴$$ একক ভেক্টর $$=\\frac{A→}{|A→|}=\\frac{2i^−j^+2 k^}{3}$$ $$=\\frac{2}{3}i^−\\frac{1}{3}j^+\\frac{2}{3}k^$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 23,
@@ -365,7 +409,9 @@
     "explanation": "$$t=\\frac{{t}_{o}}{\\sqrt{1−\\frac{{v}^{2}}{{c}^{2}}}}$$ $$∴$$ $${t}_{0}=t\\sqrt{1−\\frac{{v}^{2}}{{c}^{2}}}$$ $$=21×\\sqrt{1−{(\\frac{\\sqrt{5}}{3})}^{2}}=21×\\sqrt{1−\\frac{5}{9}}$$ $$=21×\\frac{2}{3}=14 yr$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 24,
@@ -381,7 +427,9 @@
     "explanation": "$$dsin θ=(2n+1)\\frac{λ}{2}$$ $$⇒d=(2×3+1)×\\frac{600×{10}^{−9}}{2}×\\frac{1}{sin {30}^{∘}}m$$ $$=4.2×{10}^{−6}m=4.2 μm$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 25,
@@ -397,7 +445,9 @@
     "explanation": "কার্যকর ত্বরণ , $$a→=\\frac{F→}{m+m+m}=\\frac{F→}{3m}$$ মোট বল , $$∑{F→}_{B}=ma→=2m×\\frac{F→}{3m}=\\frac{2F→}{3}$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 26,
@@ -413,7 +463,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 27,
@@ -429,7 +481,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 28,
@@ -445,7 +499,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 29,
@@ -461,7 +517,9 @@
     "explanation": "AvšÍtAvYweK AvKl©Y e‡ji µg : $$He<Ne<Ar<{O}_{2}<C{l}_{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 30,
@@ -477,7 +535,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 31,
@@ -493,7 +553,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 32,
@@ -509,7 +571,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 33,
@@ -525,7 +589,9 @@
     "explanation": "$$O=C=O, O=N+=O, {[N. . ..=N=N. . ..]}^{−},$$ $$H−C≡C−H$$ সবাই সরলরৈখিক",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 34,
@@ -541,7 +607,9 @@
     "explanation": "$${e}_{B}{V}_{B}{S}_{B}={e}_{A}{V}_{A}{S}_{A}$$ $$⇒{V}_{A}=\\frac{1×500×1}{2×2}mL=125 mL =0.125 L$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 35,
@@ -557,7 +625,9 @@
     "explanation": "$$Pb{I}_{2}→P{b}^{2+}+2{I}^{−}$$ S S 2S $$∴$$ আয়োডাইড আয়নের ঘনমাত্রা দ্বিগুণ করা হলে $$P{b}^{2+}$$ ঘনমাত্রা $$\\frac{1}{{2}^{2}}$$ $$=\\frac{1}{4}$$ গুণ হবে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 36,
@@ -573,7 +643,9 @@
     "explanation": "$${H}_{3}C4 −C−\\begin{matrix} | \\\\ C{H}_{3} \\end{matrix}\\begin{matrix} C{H}_{3} \\\\ |3 \\end{matrix}HC2=C1{H}_{2}$$ †hŠMwUi bvg 3, 3 – WvBwg_vBj weDwUb -1",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 37,
@@ -589,7 +661,9 @@
     "explanation": "$$α=\\sqrt{\\frac{{K}_{a}}{C}}=\\sqrt{\\frac{1.8×{10}^{−4}}{0.018}}={10}^{−1}=10%$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 38,
@@ -605,7 +679,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 39,
@@ -621,7 +697,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 40,
@@ -637,7 +715,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 41,
@@ -653,7 +733,9 @@
     "explanation": "$$N{a}^{+}+{K}_{2}{H}_{2}S{b}_{2}{O}_{7}→N{a}_{2}{H}_{2}S{b}_{2}{O}_{7}\\text{সাদা} \\text{অধঃক্ষেপ}↓+2{K}^{+}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 42,
@@ -669,7 +751,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 43,
@@ -685,7 +769,9 @@
     "explanation": "ev¯Íe M¨vm Av`k© M¨vm A‡cÿv AwaK ms‡KvPbkxj|",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 44,
@@ -701,7 +787,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 45,
@@ -717,7 +805,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 46,
@@ -733,7 +823,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 47,
@@ -749,7 +841,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 48,
@@ -765,7 +859,9 @@
     "explanation": "`ªve¨Zv $$=\\frac{100×85}{185−85}=85$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 49,
@@ -781,7 +877,9 @@
     "explanation": "$$C{H}_{3}3−CH2={C1}_{\\begin{matrix} ∖ \\\\ Cl \\end{matrix}}^{\\begin{matrix} Cl \\\\ / \\end{matrix}}$$ †hŠMwU‡Z 1 bs Kve©‡b `ywU g~jK GKB ( Cl) | ZvB Gi R¨vwgwZK mgvYyZv m¤¢e bq|",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 50,
@@ -797,7 +895,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 51,
@@ -813,7 +913,9 @@
     "explanation": "$$\\frac{1}{{(1−i)}^{2}}−\\frac{1}{{(1+i)}^{2}}=\\frac{1}{1−2i+{i}^{2}}−\\frac{1}{1+2i+{i}^{2}}$$ $$=\\frac{1}{−2i}−\\frac{1}{2i}=\\frac{−1−1}{2i}=−\\frac{1}{i}=i$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 52,
@@ -829,7 +931,9 @@
     "explanation": "$$a+bi=\\sqrt{{a}^{2}+{b}^{2}} {e}^{(2nπ+{tan}^{−1 } \\frac{b}{a})i}$$ $$⇒ln (a+bi)=\\frac{1}{2}ln ({a}^{2}+{b}^{2})+(2nπ+{tan}^{−1} \\frac{b}{a})i$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 53,
@@ -845,7 +949,9 @@
     "explanation": "$$g(x)={sin}^{−1} cos (x)$$ $$⇒{g}^{{}^{′}}(x)=\\frac{−sin x}{\\sqrt{1−{cos}^{2} x}}=−1;$$ $$f(x)=sin (sin (g (x)))=sin (sin ({sin}^{−1} cos (x)))$$ $$=sin (cos x)⇒{f}^{{}^{′}}(x)=cos (cos x)⋅(−sin x)$$ $${f}^{{}^{′}}(x)×{g}^{{}^{′}}(x)=sin x⋅cos (cos x)$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 54,
@@ -861,7 +967,9 @@
     "explanation": "$$∫{log}_{10} x dx$$ $$=∫{log}_{10} e×{log}_{e}^{x} dx$$ $$=∫\\frac{ln x}{ln 10} dx=\\frac{1}{ln 10} ∫lnx dx$$ $$=\\frac{1}{ln 10} [x ln x−x]+c$$ $$∴{∫}_{1}^{2}{log}_{10} xdx=\\frac{1}{ln 10}{[xln x−x]}_{1}^{2}$$ $$=\\frac{1}{ln 10}[2ln 2−2+1]=\\frac{ln 4−ln e}{ln 10}=\\frac{ln (\\frac{4}{e})}{ln 10}={log}_{10} (\\frac{4}{e})$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 55,
@@ -877,7 +985,9 @@
     "explanation": "$$x⋅0+y(−10)−a(x+0)=100$$ $$⇒ax+10y+100=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 56,
@@ -893,7 +1003,9 @@
     "explanation": "ক্ষেত্রফল: $${∫}_{0}^{1}(1−x)dx−{∫}_{1}^{2}(1−x)dx$$ $$={[x−\\frac{{x}^{2}}{2}]}_{0}^{1}−{[x−\\frac{{x}^{2}}{2}]}_{1}^{2}$$ $$=\\frac{1}{2}−(−\\frac{1}{2})=1$$ বর্গ একক",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 57,
@@ -909,7 +1021,9 @@
     "explanation": "$${x}^{2}−2{y}^{2}+7=0⇒2x−4y\\frac{d}{dx}=0$$ $$⇒\\frac{dy}{dx}=\\frac{x}{2y}⇒{\\frac{dy}{dx}|}_{(−1, 2)}=\\frac{−1}{2×2}=\\frac{−1}{4}$$ $$∴$$ অভিলম্বের ঢাল $$=4$$ $$(−1, 2)$$ বিন্দুগামী অভিলম্ব: $$y−2=4(x+1)$$ $$⇒4x−y+6=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 58,
@@ -925,7 +1039,9 @@
     "explanation": "$${x}^{2}=28y=4×7y∴a=7$$ $$∴4 |a|=28=2b$$ $$∴b=14$$ $$∴{c}^{2}={a}^{2}+{b}^{2}={7}^{2}+{14}^{2}∴c=7\\sqrt{5}$$ একক",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 59,
@@ -941,7 +1057,9 @@
     "explanation": "$$h=\\frac{1}{2}g{t}^{2}=\\frac{1}{2}×9.8×{3}^{2}=44.1 m$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 60,
@@ -957,7 +1075,9 @@
     "explanation": "$${x}^{2}+{(y−3)}^{2}={(y+1)}^{2}$$ $$⇒{x}^{2}+{y}^{2}−6y+9={y}^{2}+2y+1$$ $$∴{x}^{2}−8y+8=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 61,
@@ -973,7 +1093,9 @@
     "explanation": "$$z=2−2\\sqrt{2}i………(i)$$ $$∴z―= 2+2\\sqrt{2}i………(ii)$$ $$(i)−(ii)⇒z−z―⇒−4\\sqrt{2}i⇒(z−z――)=4\\sqrt{2}i$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 62,
@@ -989,7 +1111,9 @@
     "explanation": "$$5x+3y+k=0$$ $$∴5+3+k=0$$ $$[ ∵(1, 1)$$ বিন্দুগামী $$]$$ $$∴k=−8 ∴5x+3y−8=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 63,
@@ -1005,7 +1129,9 @@
     "explanation": "$$y=sin (ln (cos x))$$ $$⇒\\frac{dy}{dx}=cos (ln (cos x))⋅\\frac{1}{cos x}⋅(−sin x)$$ $$=−tan xcos (ln (cos x))$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 64,
@@ -1021,7 +1147,9 @@
     "explanation": "$$sin x+cos x=1$$ $$⇒sin x⋅cos \\frac{π}{4}+cos x⋅sin \\frac{π}{4}=\\frac{1}{\\sqrt{2}}$$ $$⇒sin (x+\\frac{π}{4})=\\frac{1}{\\sqrt{2}}=sin \\frac{π}{4}⇒x+\\frac{π}{4}=nπ+{(−1)}^{n}\\frac{π}{4}$$ $$∴x=(n−\\frac{1}{4})π+{(−1)}^{n}\\frac{π}{4};n∈Z$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 65,
@@ -1037,7 +1165,9 @@
     "explanation": "$$x=3sec θ−7$$ $$⇒(x+7)=3sec θ⇒\\frac{x+7}{3}=sec θ……….(i)$$ $$\\frac{y+4}{4}=tan θ………(ii)$$ $${(i)}^{2}−{(ii)}^{2}$$ $${(\\frac{x+7}{3})}^{2}−{(\\frac{y+4}{4})}^{2}=1∴C≡(−7, −4)$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 66,
@@ -1053,7 +1183,9 @@
     "explanation": "ধরি, মূলগুলো $$α, 2α$$ $$∴3α=\\frac{6}{4}⇒α=\\frac{1}{2}$$ $$α$$ এর মান সমীকরণে বসিয়ে পাই: $$4⋅\\frac{1}{4}−6⋅\\frac{1}{2}−(p+2)=0$$ $$⇒1−3−(p+2)=0⇒p+2=−2⇒p=−4$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 67,
@@ -1069,7 +1201,9 @@
     "explanation": "$$sin (A+B)⋅sin (A−B)={sin}^{2} A−{sin}^{2} B$$ $$=(sin A+sin B)(sin A−sin B)$$ $$⇒(sin {90}^{∘})⋅sin (A−B)=\\frac{1}{\\sqrt{3}−1}×\\frac{−1}{\\sqrt{3}+1}=\\frac{−1}{3−1}$$ $$=\\frac{−1}{2} ∴sin (A−B)=−\\frac{1}{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 68,
@@ -1085,7 +1219,9 @@
     "explanation": "$${x}^{6}3={x}^{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 69,
@@ -1101,7 +1237,9 @@
     "explanation": "$$1−i$$ মূলবিশিষ্ট সমীকরণ: ধরি, $$x=1−i⇒{(x−1)}^{2}={(−i)}^{2}$$ $$⇒{x}^{2}−2x+1=−1$$ $$⇒{x}^{2}−2x+2=0∴a=−2;b=2$$ $$∴a+b=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 70,
@@ -1117,7 +1255,9 @@
     "explanation": "$$|\\begin{matrix} x+4 & 3 & 3 \\\\ 3 & x+4 & 5 \\\\ 5 & 5 & x+1 \\end{matrix}|=0$$ $$⇒|\\begin{matrix} x+1 & 3 & 3 \\\\ −(x+1) & x+4 & 5 \\\\ 0 & 5 & x+1 \\end{matrix}|=0[{c}_{1}^{{}^{′}}={c}_{1}−{c}_{2}]$$ $$⇒(x+1)|\\begin{matrix} 1 & 3 & 3 \\\\ −1 & x+4 & 5 \\\\ 0 & 5 & x+1 \\end{matrix}|=0$$ $$⇒(x+1)|\\begin{matrix} 1 & 3 & 3 \\\\ 0 & x+7 & 8 \\\\ 0 & 5 & x+1 \\end{matrix}|=0 [{r}_{1}^{{}^{′}}={r}_{1}+{r}_{2}]$$ $$⇒(x+1)[(x+7)(x+1)−40]=0$$ $$⇒(x+1)({x}^{2}+8x−33)=0$$ $$⇒(x+1)(x+11)(x−3)=0∴x=−1, −11, 3$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 71,
@@ -1133,7 +1273,9 @@
     "explanation": "$$co{s}^{2}θ−si{n}^{2}θ=−1⇒cos 2θ=−1$$ $$⇒2θ=(2n+1)π ∴θ=\\frac{(2n+1)π}{2};n∈Z$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 72,
@@ -1149,7 +1291,9 @@
     "explanation": "প্রদত্ত রেখা দুটি পরস্পর লম্ব। সুতরাং অন্তর্ভুক্ত কোণ $${90}^{∘}$$ বা $$\\frac{π}{2}$$ , অর্থাৎ, রেখাদ্বয়ের মধ্যবর্তী কোনো সূক্ষ্মকোণ নেই।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 73,
@@ -1165,7 +1309,9 @@
     "explanation": "$$y={tan}^{−1} (\\frac{2\\sqrt{x}}{1−x })$$ $$={tan}^{−1} \\frac{2\\sqrt{x}}{1−{(\\sqrt{x})}^{2}}=2{tan}^{−1} \\sqrt{x}$$ $$∴\\frac{dy}{dx}=2\\frac{1}{1+x}⋅\\frac{1}{2\\sqrt{x}}=\\frac{1}{\\sqrt{x}(1+x)}$$ $$x=9$$ হলে, $$\\frac{dy}{dx}=\\frac{1}{3(9+1)}=\\frac{1}{30}∴\\frac{dx}{dy}=30$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 74,
@@ -1181,7 +1327,9 @@
     "explanation": "$$8{x}^{2}+7{y}^{2}−32x−14y−17=0$$ $$⇒8({x}^{2}−4x+4)+7({y}^{2}−2y+1)=17+32+7$$ $$⇒\\frac{{(x−2)}^{2}}{7}+\\frac{{(y−1)}^{2}}{8}=1$$ $$[{a}^{2}=7, {b}^{2}=8]$$ $$∴$$ উৎকেন্দ্রিকতা $$=\\sqrt{1−\\frac{{a}^{2}}{{b}^{2}}}=\\sqrt{1−\\frac{7}{8}}=\\frac{1}{2\\sqrt{2}}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 75,
@@ -1197,7 +1345,9 @@
     "explanation": "$$P=Q$$ $$∴$$ লব্ধি $$=|P−Q|=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 76,
@@ -1213,7 +1363,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 77,
@@ -1229,7 +1381,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 78,
@@ -1245,7 +1399,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 79,
@@ -1261,7 +1417,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 80,
@@ -1277,7 +1435,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 81,
@@ -1293,7 +1453,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 82,
@@ -1309,7 +1471,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 83,
@@ -1325,7 +1489,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 84,
@@ -1341,7 +1507,9 @@
     "explanation": "Urochordata এর ক্ষেত্রে রক্ত সংবহনতন্ত্র মুক্ত ধরনের, হৃৎচক্রে রিভার্স পেরিস্ট্যালসিস দেখা যায় অর্থাৎ রক্ত প্রবাহ প্রতিবার উল্টোদিকে গতিপথ পরিবর্তন করে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 85,
@@ -1357,7 +1525,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 86,
@@ -1373,7 +1543,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 87,
@@ -1389,7 +1561,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 88,
@@ -1405,7 +1579,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 89,
@@ -1421,7 +1597,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 90,
@@ -1437,7 +1615,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 91,
@@ -1453,7 +1633,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 92,
@@ -1469,7 +1651,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 93,
@@ -1485,7 +1669,9 @@
     "explanation": "HIV, SARS, Nile Virus, Ebola, নভেল করোনা ভাইরাস ইত্যাদি ইমার্জিং ভাইরাস।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 94,
@@ -1501,7 +1687,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 95,
@@ -1517,7 +1705,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 96,
@@ -1533,7 +1723,9 @@
     "explanation": "কচি ঢেঁড়সে লৌহ থাকায় নিয়মিত খেলে শারীরিক দুর্বলতা সারে। এটি বহুমূত্র রোগের ও উপকার করে থাকে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 97,
@@ -1549,7 +1741,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 98,
@@ -1565,7 +1759,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 99,
@@ -1581,7 +1777,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 100,
@@ -1597,6 +1795,8 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   }
 ]

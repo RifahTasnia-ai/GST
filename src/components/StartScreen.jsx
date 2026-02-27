@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './StartScreen.css'
 
-function StartScreen({ onStart }) {
+function StartScreen({ onStart, examConfig }) {
   const [name, setName] = useState('')
 
   function handleSubmit(e) {
@@ -14,10 +14,10 @@ function StartScreen({ onStart }) {
   return (
     <div className="start-screen">
       <div className="start-card">
-        <h1 className="bengali">GST 100MCQ</h1>
+        <h1 className="bengali">{examConfig?.title || 'GST MCQ Exam'}</h1>
         <div className="exam-info">
-          <p className="bengali">সময়: ৬০ মিনিট | মোট নম্বর: ১০০.০ | প্রশ্ন: ১০০</p>
-          <p className="bengali">সঠিক: +১ | ভুল: -০.২৫ | পাস মার্ক: ৬০.০</p>
+          <p className="bengali">{examConfig?.displayText || 'প্রশ্ন লোড হচ্ছে...'}</p>
+          <p className="bengali">{examConfig?.markingText || ''}</p>
         </div>
         <form onSubmit={handleSubmit}>
           <label htmlFor="student-name" className="bengali">নাম / আইডি</label>
