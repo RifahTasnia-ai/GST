@@ -15,7 +15,7 @@
                 const r = await fetch(`http://localhost:${port}/api/save-questions`, {
                     method: 'OPTIONS', signal: AbortSignal.timeout(800)
                 });
-                if (r.status < 500) return port;
+                if (r.status === 204 || r.ok) return port;
             } catch { }
         }
         return 3000;
@@ -403,13 +403,15 @@
             } catch (e2) { /* try next */ }
 
             // Strategy 3: Try adding a CORS proxy
+            const encodedUrl = encodeURIComponent(url);
             const proxies = [
-                `https://corsproxy.io/?${encodeURIComponent(url)}`,
-                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                `https://api.allorigins.win/raw?url=${encodedUrl}`,
+                `https://api.codetabs.com/v1/proxy?quest=${encodedUrl}`,
+                `https://corsproxy.io/?${encodedUrl}`,
             ];
             for (const proxyUrl of proxies) {
                 try {
-                    const r = await fetch(proxyUrl, { signal: AbortSignal.timeout(8000) });
+                    const r = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
                     if (!r.ok) continue;
                     const blob = await r.blob();
                     const b64 = await new Promise((resolve, reject) => {

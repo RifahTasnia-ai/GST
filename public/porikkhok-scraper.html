@@ -257,7 +257,7 @@
             <h3>⚡ HOW IT WORKS</h3>
             <div class="step">
                 <div class="step-num">1</div>
-                <div>Make sure your <strong>dev server</strong> is running: <code>npm run dev</code> or
+                <div>Make sure your <strong>dev server</strong> is running: <code>npm run dev:vercel</code> or
                     <code>vercel dev</code>
                 </div>
             </div>
@@ -372,7 +372,7 @@ document.head.appendChild(s);
                         method: 'OPTIONS',
                         signal: AbortSignal.timeout(1200)
                     });
-                    if (r.status < 500) {
+                    if (r.status === 204 || r.ok) {
                         statusEl.className = 'server-status status-ok';
                         textEl.textContent = `✅ Dev server running at localhost:${port} — ready to auto-save!`;
                         return;
