@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "question": "জিনোটাইপ দ্বারা নিয়ন্ত্রিত বাহ্যিক লক্ষণকে বলা হয়?",
+    "options": {
+      "a": "এক্সো টাইপ",
+      "b": "ফিনোটাইপ",
+      "c": "এপিটাইপ",
+      "d": "লিনোটাইপ"
+    },
+    "correctAnswer": "b",
+    "explanation": "ফিনোটাইপ",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "question": "মটর উদ্ভিদে প্রবল বৈশিষ্টের উদাহরণ কোনটি?",
+    "options": {
+      "a": "সবুজ বীজ",
+      "b": "হলুদ ফল",
+      "c": "সাদা ফুল",
+      "d": "রঙিন ফুল"
+    },
+    "correctAnswer": "d",
+    "explanation": "মটর উদ্ভিদে প্রবল বৈশিষ্ট্যের একটি উদাহরণ হলো রঙিন ফুল।মটর গাছের কিছু প্রধান প্রবল বৈশিষ্ট্য হলো:গোলাকার বীজহলুদ বীজরঙিন ফুলস্ফীত ফলসবুজ ফলকাক্ষিক পুষ্পলম্বা কান্ড",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "question": "বিপরীত জোড়া বৈশিষ্ট্যের মনোহাইব্রিড ক্রসে ২য় বংশধরে প্রকট ও প্রচ্ছন্ন বৈশিষ্ট্যের অনুপাত-",
+    "options": {
+      "a": "১ঃ৩",
+      "b": "২ঃ৪",
+      "c": "৩ঃ১",
+      "d": "১ঃ৪"
+    },
+    "correctAnswer": "c",
+    "explanation": "মনোহাইব্রিড ক্রসে ২য় বংশধরে প্রকট ও প্রচ্ছন্ন বৈশিষ্ট্যের অনুপাত হলো ৩:১।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "question": "Biogenic Law এর প্রবক্তা কে?",
+    "options": {
+      "a": "Dr. Wilfred G. Bigelow",
+      "b": "Sir Francis Galton",
+      "c": "Edward Janner",
+      "d": "Earnest Hackel"
+    },
+    "correctAnswer": "d",
+    "explanation": "বায়োজেনিক ল (Biogenic Law) এর প্রবক্তা হলেন আর্নেস্ট হেকেল (Earnest Hackel)। তিনি \"ontogeny recapitulates phylogeny\" ধারণাটি প্রস্তাব করেন, যা বায়োজেনিক আইন নামে পরিচিত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "question": "বিশুদ্ধ খাটো লোম বিশিষ্ট গিনিপিগ × বিশুদ্ধ লম্বা লোম বিশিষ্ট গিনিপিগ ↓ খাটো লোমবিশিষ্ট গিনিপিগ (F₁) ↓ খাটো ও লম্বা লোমবিশিষ্ট গিনিপিগ (F2) উদ্দীপকে উল্লিখিত জিন-তাত্ত্বিক ক্রসে F2 জনুর জিনোটাইপ অনুপাত কত?",
+    "options": {
+      "a": "৩ : ১",
+      "b": "২ : ১",
+      "c": "১ : ২ : ১",
+      "d": "১ : ১"
+    },
+    "correctAnswer": "c",
+    "explanation": "জিনোটাইপিক অনুপাত ১:২:১\n\nফিনোটাইপিক অনুপাত ৩:১",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q5_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "question": "হােমােলােগ্যাস ক্রোমােসােমের একটি লােকাসে জিনের একত্রে থাকাকে কী বলে?",
+    "options": {
+      "a": "জিনােম",
+      "b": "অ্যালিলোমর্ফ",
+      "c": "ফিনােটাইপ",
+      "d": "জিনােটাইপ"
+    },
+    "correctAnswer": "b",
+    "explanation": "অ্যালিল বা অ্যালিলোমর্ফ-সমসংস্থ ক্রোমোজোম জোড়ের নির্দিষ্ট লোকাসে অবস্থানকারী নির্দিষ্ট জিন-জোড়ার একটি অপরটির অ্যালিল। অ্যালিল একই রকম (TT) আবার বিপরীত ধর্মীও হতে পারে (Tt)। বিপরীত হলে একটিকে প্রকট (T) অন্যটিকে প্রছন্ন (1) অ্যালিল বলে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "question": "দুটি কালো গিনিপিগের মধ্যে ক্রস ঘটানোর ফলে সাদা ও কালো উভয় ধরনের অপত্য জন্ম নিল। উদ্দীপকে উল্লিখিত গিনিপিগের পিতামাতার জিনোটাইপ কি ধরনের?",
+    "options": {
+      "a": "Bb, Bb",
+      "b": "BB,Bb",
+      "c": "Bb, bb",
+      "d": "BB, bb"
+    },
+    "correctAnswer": "a",
+    "explanation": "এক্ষেত্রে পিতামাতার জিনোটাইপ হবে হেটারোজাইগাস ধরনের।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q7_expl.jpg",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "question": "অসম্পূর্ণ প্রকটতা হলে মনোহাইব্রিড ক্রসের 2 F 2 ​ জনুতে ফিনোটাইপের অনুপাত হয়-",
+    "options": {
+      "a": "3\n:\n1\n3:1",
+      "b": "9\n:\n3\n:\n3\n:\n1\n9:3:3:1",
+      "c": "12\n:\n3\n:\n1\n12:3:1",
+      "d": "1\n:\n2\n:\n1\n1:2:1"
+    },
+    "correctAnswer": "d",
+    "explanation": "অসম্পূর্ণ প্রকটতা হলে মনোহাইব্রিড ক্রসের F2 জনুতে ফিনোটাইপের অনুপাত হয় 1:2:1।কারণ, অসম্পূর্ণ প্রকটতার ক্ষেত্রে প্রভাবশালী অ্যালিল সম্পূর্ণরূপে প্রচ্ছন্ন অ্যালিলকে প্রভাবিত করতে পারে না, ফলে হেটারোজাইগাস অবস্থায় একটি মধ্যবর্তী ফিনোটাইপ দেখা যায়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "question": "ক্রোমোসোমে জিন অবস্থানের স্থানকে কী বলে?",
+    "options": {
+      "a": "Locus",
+      "b": "Genome",
+      "c": "Allele",
+      "d": "Chromomere"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "question": "সম প্রকটতার ক্রিয়ায় F2 জনুর ফিনোটাইপিক অনুপাত কত?",
+    "options": {
+      "a": "১ঃ২ঃ১",
+      "b": "২ঃ১",
+      "c": "১ঃ১",
+      "d": "৩ঃ১"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমপ্রকটতার ক্রিয়ায় F2 জনুর ফিনোটাইপিক অনুপাত হল ১:২:১।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "question": "ক্রোমোজোমে জিনের নির্দিষ্ট স্থানের নাম কি?",
+    "options": {
+      "a": "Locus",
+      "b": "Allele",
+      "c": "Factor",
+      "d": "Phenotype"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "question": "বংশগতিবিদ্যার জনক কে?",
+    "options": {
+      "a": "অ্যাডাম স্মিথ",
+      "b": "নিউটন",
+      "c": "মেন্ডেল",
+      "d": "ডারউইন"
+    },
+    "correctAnswer": "c",
+    "explanation": "মেন্ডেলকে বংশগতিবিদ্যা বা জিনতত্ত্বের জনক (Father of Genetics) বলে অভিহিত করা হয়।\n\nডারউইন প্রাকৃতিক নির্বাচন এর মতবাদ দিয়েছেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "question": "হোমোজাইগাস রিসেসিভ কোনটি?",
+    "options": {
+      "a": "tT",
+      "b": "Tt",
+      "c": "TT",
+      "d": "tt"
+    },
+    "correctAnswer": "d",
+    "explanation": "হোমোজাইগাস রিসেসিভ হলো tt।কোনো জীবের একটি নির্দিষ্ট বৈশিষ্ট্য নিয়ন্ত্রণকারী অ্যালিল দুইটি সমপ্রকৃতির হলে তাকে হোমোজাইগাস বলে। আর যে বৈশিষ্ট্য অপ্রকাশিত থাকে তাকে রিসেসিভ বা প্রচ্ছন্ন বৈশিষ্ট্য বলে। এক্ষেত্রে, tt হলো হোমোজাইগাস রিসেসিভ। অন্যদিকে, tT এবং Tt হলো হেটারোজাইগাস (বিষমপ্রকৃতির অ্যালিল), এবং TT হলো হোমোজাইগাস ডমিনেন্ট (প্রকট)।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "question": "মেন্ডেল উদ্ভিদের বংশগতির উপর তাঁর পরীক্ষা-নিরীক্ষার ফলাফল প্রথম কখন প্রকাশ করেন ?",
+    "options": {
+      "a": "১৯০০ সাল",
+      "b": "১৯০৩ সাল",
+      "c": "১৮৮৫ সাল",
+      "d": "১৮৬৬ সাল"
+    },
+    "correctAnswer": "d",
+    "explanation": "মেন্ডেল উদ্ভিদের বংশগতির উপর তাঁর পরীক্ষা-নিরীক্ষার ফলাফল প্রথম ১৮৬৬ সালে প্রকাশ করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "question": "তিনটি জিন একই হোমোলোগাস ক্রোমোসোমে অবস্থান করলে জিনত্রয়কে বলে-",
+    "options": {
+      "a": "Epistatic genes",
+      "b": "Alleles",
+      "c": "Linked genes",
+      "d": "Multiple alleles"
+    },
+    "correctAnswer": "d",
+    "explanation": "যদি তিনটি জিন একই হোমোলোগাস ক্রোমোজোমে অবস্থান করে, তাহলে জিনত্রয়কে Linked genes (লিঙ্কড জিন) বলে।কারণ:লিঙ্কড জিন (Linked genes) হলো সেইসব জিন যা একই ক্রোমোজোমের উপর অবস্থিত থাকে এবং সাধারণত বংশানুক্রমিকভাবে একসাথে প্রবাহিত হয়। যখন দুটি বা তার বেশি জিন একই ক্রোমোজোমে থাকে, তখন তাদের লিঙ্কেজ (linkage) প্রদর্শন করার সম্ভাবনা থাকে, যার অর্থ তারা একসাথে উত্তরাধিকারসূত্রে প্রাপ্ত হয়।অন্যান্য বিকল্পগুলি হলো:অ্যালিল (Alleles): একটি জিনের বিভিন্ন রূপ যা হোমোলোগাস ক্রোমোজোমের একই লোকাসে (জিনের নির্দিষ্ট স্থান) অবস্থিত থাকে।মাল্টিপল অ্যালিল (Multiple alleles): যখন একটি নির্দিষ্ট জিনের জন্য পপুলেশনে দুইটির বেশি অ্যালিল বিদ্যমান থাকে, তখন তাকে মাল্টিপল অ্যালিল বলে। এই অ্যালিলগুলো একই লোকাসে অবস্থিত থাকে, কিন্তু এখানে প্রশ্নটি একাধিক জিন একই ক্রোমোজোমে থাকা নিয়ে।এপিস্ট্যাটিক জিন (Epistatic genes): একটি জিন যখন অন্য একটি জিনের ফেনোটাইপিক প্রকাশকে দমন বা পরিবর্তন করে, তখন তাকে এপিস্ট্যাটিক জিন বলে।আশা করি তুমি বুঝতে পেরেছ!",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "question": "মেন্ডেলের ১ম সূত্র কে কি বল?",
+    "options": {
+      "a": "ক্রোমোজোম তত্ত্ব",
+      "b": "পৃথকীকরণের সূত্র",
+      "c": "পেনজেনেসিস তত্ত্ব",
+      "d": "স্বাধীন সঞ্চারণের সূত্র"
+    },
+    "correctAnswer": "b",
+    "explanation": "মেন্ডেলের প্রথম সূত্রকে পৃথকীকরণের সূত্র বলা হয়। এই সূত্র অনুযায়ী, সংকর জীবে বিপরীত বৈশিষ্ট্য ধারণকারী জিনগুলো একে অপরের সাথে মিশে না গিয়ে আলাদা থাকে এবং জননকোষ তৈরির সময় সেগুলো পরস্পর থেকে পৃথক হয়ে যায়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "question": "মেন্ডেলের দ্বিতীয় সূত্র অনুসারে F2 জনুতে হোমোজাইগাস জিনোটাইপের সংখ্যা হলো-",
+    "options": {
+      "a": "৫",
+      "b": "৪",
+      "c": "৩",
+      "d": "২"
+    },
+    "correctAnswer": "b",
+    "explanation": "৪টি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q17_expl.jpg",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "question": "মেন্ডেলের প্রথম সূত্রটি কী নামে পরিচিত?",
+    "options": {
+      "a": "প্রকট ও প্রচ্ছন্নতার সূত্র",
+      "b": "স্বাধীন বিন্যাস সূত্র",
+      "c": "পৃথকীকরণ সূত্র",
+      "d": "অসম্পূর্ণ প্রকটতার সূত্র"
+    },
+    "correctAnswer": "c",
+    "explanation": "মেন্ডেলের প্রথম সূত্রটি পৃথকীকরণ সূত্র নামে পরিচিত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "question": "প্রাণীতে একজোড়া বিপরীত বৈশিষ্ট্যের উপর দৃষ্টি রেখে যে ক্রস করানো হয়, তাকে বলে-",
+    "options": {
+      "a": "Back cross",
+      "b": "Dihybrid cross",
+      "c": "Test cross",
+      "d": "Monohybrid cross"
+    },
+    "correctAnswer": "d",
+    "explanation": "জীবের একজোড়া বিপরীত বৈশিষ্ট্যের উপর দৃষ্টি রেখে যে ক্রস করানো হয় তাকে একসংকর ক্রস বা মনোহাইব্রিড ক্রস বলে।\n\nজীবের দুজোড়া বিপরীত বৈশিষ্ট্যের উপর দৃষ্টি রেখে যে ক্রস করানো হয় তাকে দ্বিসংকর ক্রস বা ডাইহাইব্রিড ক্রস বলে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "question": "মনােহাইব্রিড ক্রসে ২য় বংশধরে প্রকট ও প্রচ্ছন্ন বৈশিষ্ট্যের অনুপাত-",
+    "options": {
+      "a": "1 : 3",
+      "b": "1 : 2 : 3",
+      "c": "3 : 1",
+      "d": "1 : 1 : 2"
+    },
+    "correctAnswer": "c",
+    "explanation": "মেন্ডেলের ১ম সূত্রকে পৃথকীকরণ সূত্র বা মনোহাইব্রিড ক্রস সূত্রও বলে। এ সূত্রমতে, মনোহাইব্রিড ক্রসে ২য় বংশধরে ‘প্রকট : প্রচ্ছন্ন’ হবে 3 : 1।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "question": "\"Genetics\" শব্দটির প্রচলন করেন কে ?",
+    "options": {
+      "a": "কার্ল করেন্স",
+      "b": "প্যানেট",
+      "c": "উইলিয়াম বেটসন",
+      "d": "মেন্ডেল"
+    },
+    "correctAnswer": "c",
+    "explanation": "জীববিজ্ঞানের যে শাখায় জিনের গঠন, কাজ, বংশপরম্পরায় সঞ্চারণের ধরণ ও ফলাফল সম্বন্ধে বিস্তারিত আলোচনা করা হয় তাকে বংশগতিবিদ্যা বা জিনতত্ত্ব বা জেনেটিক্স (Genetics) বলে। উইলিয়াম বেটসন (William Bateson 1861-1926) ১৯০৫ খ্রিস্টাব্দে সর্বপ্রথম Genetics শব্দ প্রচলন করেন। Genetics শব্দটি গ্রিক শব্দের মূল রূপ 'gen শব্দ থেকে উদ্ভূত যার প্রকৃত অর্থ হলো পরিণতি স্বরূপ ঘটা (to become) অথবা কোনো কিছুতে উদ্ভূত হওয়া (to grow into).",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "question": "মেন্ডেলের প্রথম সূত্র কি নিয়ে বলে?",
+    "options": {
+      "a": "এককীকরণ সূত্র",
+      "b": "স্বাধীনভাবে সঞ্চালনের সূত্র",
+      "c": "ডাইহাইব্রিড সূত্র",
+      "d": "মনোহাইব্রিড সূত্র"
+    },
+    "correctAnswer": "d",
+    "explanation": "১. প্রথম সূত্র : সংকর জীবে বিপরীত বৈশিষ্টের ফ্যাক্টরগুলো (জিনগুলো) মিশ্রিত বা পরিবর্তিত না হয়ে পাশাপাশি অবস্থান করে এবং জননকোষ (গ্যামেট) সৃষ্টির সময় পরস্পর থেকে পৃথক হয়ে ভিন্ন ভিন্ন জননকোষে প্রবেশ করে । এ সূত্রকে মনোহাইব্রিড ক্রস সূত্র (Law of Monohybrid Cross) বা জননকোষ বিশুদ্ধতার সূত্র (Law of Purity of Gametes) বা পৃথকীকরণ সূত্র (Law of Segregation)-ও বলা হয় ।\n\n২. দ্বিতীয় সূত্র : দুই বা ততোধিক জোড়া বিপরীত বৈশিষ্ট্যসম্পন্ন জীবের মধ্যে ক্রস ঘটালে প্রথম সংকর পুরুষে (F1) কেবলমাত্র প্রকট বৈশিষ্ট্যগুলোই প্রকাশিত হবে, কিন্তু জননকোষ (গ্যামেট) উৎপাদনকালে বৈশিষ্ট্যগুলো জোড়া ভেঙ্গে পরস্পর থেকে স্বতন্ত্র বা স্বাধীনভাবে বিন্যস্ত হয়ে ভিন্ন ভিন্ন জননকোষে প্রবেশ করবে ।\n\nএ সূত্রকে স্বাধীনভাবে মিলনের বা বণ্টনের সূত্র (Law of Independent Assortment)-ও বলা হয় ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "question": "জীবের বংশগতির মৌলিক ও কার্যিক একক কোনটি?",
+    "options": {
+      "a": "অ্যালিল",
+      "b": "জিন",
+      "c": "প্রোটিন",
+      "d": "DNA"
+    },
+    "correctAnswer": "b",
+    "explanation": "জীবের বংশগতির মৌলিক ও কার্যিক একক হলো জিন। যা বংশ থেকে বংশান্তরে স্থানান্তরিত হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "question": "কোনো জীবের লক্ষণ নিয়ন্ত্রণকারী জিন যুগলের গঠনকে কী বলে?",
+    "options": {
+      "a": "Genotype",
+      "b": "Factor",
+      "c": "Phenotype",
+      "d": "Allele"
+    },
+    "correctAnswer": "a",
+    "explanation": "কোনো জীবের লক্ষণ নিয়ন্ত্রণকারী জিন যুগলের গঠনকে জিনোটাইপ (Genotype) বলা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "question": "এক জোড়া ক্রোমোসোম একসাথে অবস্থান করলে তাকে কি বলে?",
+    "options": {
+      "a": "হোমোলোগাস",
+      "b": "অ্যালিল",
+      "c": "হেটারোজাইগাস",
+      "d": "হোমোজাইগাস"
+    },
+    "correctAnswer": "a",
+    "explanation": "এক জোড়া ক্রোমোসোম একসাথে অবস্থান করলে তাকে হোমোলোগাস ক্রোমোসোম বলে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Biology",
+    "question": "মিউটেশন বলতে কি বোঝায় ?",
+    "options": {
+      "a": "সংকরায়ন",
+      "b": "প্রাকৃতিক নির্বাচন",
+      "c": "পুনবির্ন্যাস",
+      "d": "বংশগতির আকষ্মিক ও স্থায়ী পরিবর্তন"
+    },
+    "correctAnswer": "d",
+    "explanation": "মিউটেশন (Mutation) বলতে বোঝায় বংশগতির আকস্মিক ও স্থায়ী পরিবর্তন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Biology",
+    "question": "গ্রেগর জোহান মৃত্যুবরণ করেন কত সালে?",
+    "options": {
+      "a": "১৮৬০",
+      "b": "১৮৭৩",
+      "c": "১৮৮০",
+      "d": "১৮৮৪"
+    },
+    "correctAnswer": "d",
+    "explanation": "গ্রেগর জোহান মেন্ডেল ১৮৮৪ সালে মৃত্যুবরণ করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Biology",
+    "question": "সমপ্রকটতার অনুপাত কোনটি?",
+    "options": {
+      "a": "৯ঃ৭",
+      "b": "২ঃ১",
+      "c": "১৩ঃ৩",
+      "d": "১ঃ২ঃ১"
+    },
+    "correctAnswer": "d",
+    "explanation": "১:২:১",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Biology",
+    "question": "মেন্ডেলের মনোহাইব্রিড ক্রসের ফিনোটাইপিক অনুপাত কত?",
+    "options": {
+      "a": "৩ : ১",
+      "b": "১ : ২ : ১",
+      "c": "২ : ১",
+      "d": "৯ : ৩ : ৩ :১"
+    },
+    "correctAnswer": "a",
+    "explanation": "ফিনোটাইপিক অনুপাত\n\n\t\n\nক্রস\n\n\n\n\n১ঃ১\n\n\t\n\nটেষ্ট ক্রস\n\n\n\n\n৩ : ১\n\n\t\n\n১ম সূত্র/মনোহাইব্রিড\n\n\n\n\n৯ঃ ৩ঃ ৩ঃ ১\n\n\t\n\n২য় সূত্র/ডাইহাইব্রিড\n\n\n\n\n২ঃ১\n\n\t\n\nমারণ জীন/লিথাল জিন\n\n\n\n\n৯ঃ৭\n\n\t\n\nপরিপূরক জীন/দৈত্য প্রচ্ছন্ন এপিস্ট্যাসিস\n\n\n\n\n১ঃ২ঃ১\n\n\t\n\nঅসম্পূর্ণ প্রকটতা\n\n\n\n\n১ঃ২ঃ১\n\n\t\n\nসমপ্রকটতা\n\n.",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Biology",
+    "question": "জীবের বাহ্যিক লক্ষণকে নিম্নের কোনটি বলা হয়?",
+    "options": {
+      "a": "প্রচ্ছন্ন বৈশিষ্ট্য",
+      "b": "প্রকট বৈশিষ্ট্য",
+      "c": "ফিনোটাইপ",
+      "d": "জিনোটাইপ"
+    },
+    "correctAnswer": "c",
+    "explanation": "ফিনোটাইপ (Phenotype) : জিনোটাইপ দ্বারা নিয়ন্ত্রিত জীবের বাহ্যিক লক্ষণকে ফিনোটাইপ বলে । এটি\n\nজীবের আকার, আকৃতি, বর্ণ প্রভৃতি প্রকাশ করে । সদৃশ ফিনোটাইপধারী দুটি জীবের জিনোটাইপ একই রকম বা ভিন্ন হতে পারে । যেমন—বিশুদ্ধ লক্ষণযুক্ত লম্বা ও খাটো মটর গাছের মধ্যে পরাগসংযোগ ঘটালে F1 জনুতে সবগুলো উদ্ভিদই লম্বা আকৃতির হয় যদিও এদের মধ্যে দুধরনের ফ্যাক্টরই (Tt) থাকে । এখানে ফিনোটাইপ হলো লম্বা ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Biology",
+    "question": "জীবের প্রকাশ লক্ষণকে বলা হয়-",
+    "options": {
+      "a": "ফিনোটাইপ",
+      "b": "জিনোটাইপ",
+      "c": "এক্সিবিশনিজম",
+      "d": "অ্যালিল"
+    },
+    "correctAnswer": "a",
+    "explanation": "জীবের প্রকাশ লক্ষণকে ফিনোটাইপ বলা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Biology",
+    "question": "মনোহাইব্রিড ক্রসের জিনোটাইপিক অনুপাত হলো-",
+    "options": {
+      "a": "৩ : ১",
+      "b": "১ : ২ : ১",
+      "c": "১ : ১",
+      "d": "৯ : ৩ : ৩ : ১"
+    },
+    "correctAnswer": "b",
+    "explanation": "মনোহাইব্রিড ক্রসের জিনোটাইপিক অনুপাত হলো ১:২:১।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Biology",
+    "question": "মেন্ডেলের প্রথম সূত্রের ক্ষেত্রে F₂ জনুর ফুলের জিনোটাইপিক অনুপাত কী হবে?",
+    "options": {
+      "a": "৩ঃ১",
+      "b": "১ঃ১",
+      "c": "১ঃ২ঃ১",
+      "d": "২ঃ১"
+    },
+    "correctAnswer": "c",
+    "explanation": "মেন্ডেলের প্রথম সূত্রের ফিনোটাইপিক অনুপাত ➞ 3 : 1\nএবং জিনোটাইপিক অনুপাত ➞ 1 : 2 : 1\nমেন্ডেলের দ্বিতীয় সূত্রের ফিনোটাইপিক অনুপাত ➞ 9 : 3 : 3 : 1\n\nমেন্ডেলের প্রথম সূত্রের ব্যতিক্রম :\n• অসম্পূর্ণ প্রকটতার ফলাফল ➞ 1 : 2 : 1\n• সমপ্রকটতার ফলাফল ➞ 1 : 2 : 1\n• মারণ জিন বা লিথাল জিন অনুপাত ➞ 2 : 1\n\nমেন্ডেলের দ্বিতীয় সূত্রের ব্যতিক্রম :\n• পরিপূরক জিন এর ফিনোটাইপিক অনুপাত ➞ 9 : 7\n• প্রকট এপিস্ট্যাসিস এর অনুপাত ➞ 13 : 3\n• দ্বৈত প্রচ্ছন্ন এপিস্ট্যাসিস এর অনুপাত ➞ 9 : 7",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Biology",
+    "question": "নিচের কোনটি সমপ্রকটতার ফিনোটাইপিক অনুপাত?",
+    "options": {
+      "a": "৯ঃ৭",
+      "b": "৩ঃ১",
+      "c": "২ঃ১",
+      "d": "১ঃ২ঃ১"
+    },
+    "correctAnswer": "d",
+    "explanation": "মনে করো, একটি গাছের ফুলের রং লাল (RR) , সাদা (WW) অথবা লাল- সাদা মিশ্র (RW) হতে পারে। এখানে:\nRR: লাল ফুল ( একটি ফিনোটাইপ)\nWW: সাদা ফুল ( আরেকটি ফিনোটাইপ)\nRW: লাল- সাদা মিশ্র ফুল ( তৃতীয় ফিনোটাইপ)\n\nযদি আমরা দুটি RW ফুলের মধ্যে ক্রস করাই, তাহলে আমরা ফিনোটাইপিক অনুপাত পাবো:\n1 টি লাল ফুল (RR)\n2 টি লাল- সাদা মিশ্র ফুল (RW)\n1 টি সাদা ফুল (WW)\n\nফেনোটাইপিক অনুপাত\n\n\t\n\nক্রস\n\n\n\n\n১ঃ১\n\n\t\n\nটেষ্ট ক্রস\n\n\n\n\n৩ : ১\n\n\t\n\n১ম সূত্র/মনোহাইব্রিড\n\n\n\n\n৯ঃ ৩ঃ ৩ঃ ১\n\n\t\n\n২য় সূত্র/ডাইহাইব্রিড\n\n\n\n\n২ঃ১\n\n\t\n\nমারণ জীন/লিথাল জীন\n\n\n\n\n১৩:৩\n\n\t\n\nসংবাধক জীন\n\n\n\n\n৯ঃ৭\n\n\t\n\nপরিপূরক জীন/দৈত্য প্রচ্ছন্ন এপিস্ট্যাসিস\n\n\n\n\n১ঃ ৩ঃ ৩\n\n\t\n\nএপিস্ট্যাসিস/প্রকট এপিস্ট্যাসিস\n\n\n\n\n১ঃ২ঃ১\n\n\t\n\nঅসম্পূর্ণ প্রকটতা\n\n\n\n\n১ঃ২ঃ১\n\n\t\n\nসমপ্রকটতা",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Biology",
+    "question": "টেস্ট ক্রসের ফিনোটাইপিক অনুপাত কত?",
+    "options": {
+      "a": "2:1",
+      "b": "1:1",
+      "c": "3:1",
+      "d": "1:2:1"
+    },
+    "correctAnswer": "b",
+    "explanation": "টেস্ট ক্রসের ফিনোটাইপিক অনুপাত হলো ১:১।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Biology",
+    "question": "একটি বিশুদ্ধ কালো গিনিপিগ (BB) ♂ এবং একটি বিশুদ্ধ সাদা গিনিপিগের (bb) ♀ মধ্যে ক্রস করলে F1 জনুতে সকল সন্তান কালো হয় এবং F2 জনুতে ৩ টি কালো ও ১টি সাদা সন্তান জন্ম নেয়। উদ্দীপক অনুযায়ী কোন সংকরায়নকে টেস্টক্রস বলা হয়?",
+    "options": {
+      "a": "BB × Bb",
+      "b": "Bb × Bb",
+      "c": "BB × BB",
+      "d": "bb x Bb"
+    },
+    "correctAnswer": "d",
+    "explanation": "টেস্টক্রস হলো যখন একটি জীবের জিনোটাইপ নির্ধারণের জন্য সেটিকে বিশুদ্ধ প্রচ্ছন্ন বৈশিষ্ট্যের (homozygous recessive) জীবের সাথে সংকরায়ন করানো হয়। উদ্দীপক অনুযায়ী, F1 জনুর জিনোটাইপ হলো Bb। একে মাতৃবংশের প্রচ্ছন্ন bb এর সাথে ক্রস ঘটালে (bb x Bb) এটিকে টেস্টক্রস বলা হবে।সুতরাং, সঠিক বিকল্পটি হলো bb x Bb।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q36_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Biology",
+    "question": "মেন্ডেল মটরশুঁটির কত জোড়া বিপরীত বৈশিষ্ট্য নিয়ে গবেষণা করছিলেন?",
+    "options": {
+      "a": "সাত",
+      "b": "পাঁচ",
+      "c": "দুই",
+      "d": "নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "মেন্ডেল মটরশুঁটির সাত জোড়া বিপরীত বৈশিষ্ট্য নিয়ে গবেষণা করেছিলেন। 🎯",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Biology",
+    "question": "মেন্ডেলের ২য় সূত্রের স্বাভাবিক অনুপাত কত?",
+    "options": {
+      "a": "৯:৭",
+      "b": "৯:৩:৩:১",
+      "c": "১৩:৩",
+      "d": "১:৪:৬:৪:১"
+    },
+    "correctAnswer": "b",
+    "explanation": "মেন্ডেলের ২য় সূত্রের স্বাভাবিক অনুপাত হলো ৯:৩:৩:১।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Biology",
+    "question": "স্বাধীনভাবে মিলনের সূত্রের ফিনোটাইপিক অনুপাত কত?",
+    "options": {
+      "a": "1:02:01",
+      "b": "2:1",
+      "c": "9:7",
+      "d": "9:3:3:1"
+    },
+    "correctAnswer": "d",
+    "explanation": "• মেন্ডেলের দ্বিতীয় সূত্রটিকে স্বাধীনভাবে মিলনের সূত্র/স্বাধীনভাবে সঞ্চরণের সূত্র বলা হয়। যার ফিনোটাইপিক অনুপাত ৯:৩:৩:১\n\n• মেন্ডেলের ১ম সূত্রটিকে মনোহাইব্রিট ক্রস বলা হয়। যার ফিনোটাইপিক অনুপাত ৩:১",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Biology",
+    "question": "বংশগতির ক্রোমোজম তত্ত্ব প্রদান করে কোন বিজ্ঞানী?",
+    "options": {
+      "a": "ডব্লিউ বেটসন",
+      "b": "দ্যা ভ্রিস",
+      "c": "সাটন ও বোভারি",
+      "d": "কার্ল করেন্স"
+    },
+    "correctAnswer": "c",
+    "explanation": "বংশগতির ক্রোমোজোম তত্ত্ব বিজ্ঞানী সাটন ও বোভারি প্রদান করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Biology",
+    "question": "রিফাত ঢাকা বোটানিক্যাল গার্ডেনে একটি সাদা ফুল এবং একটি কালো ফুল নিয়ে ক্রস ঘটালো। F2 বংশের তিনটি সাদা এবং একটি ফুল উৎপন্ন হল। উপরিউক্ত ক্রসে কয়টি হেটারোজাইগাস প্রকৃতির জিনোটাইপ উৎপন্ন হবে?",
+    "options": {
+      "a": "২টি",
+      "b": "১টি",
+      "c": "৩টি",
+      "d": "৪টি"
+    },
+    "correctAnswer": "a",
+    "explanation": "এই ক্রসে F2 প্রজন্মে 3টি সাদা এবং 1টি কালো ফুল উৎপন্ন হয়েছে, যা একটি মনোহাইব্রিড ক্রসের 3:1 ফিনোটাইপিক অনুপাত নির্দেশ করে। যখন F1 প্রজন্ম হেটারোজাইগাস (যেমন Aa) হয় এবং তাদের মধ্যে ক্রস ঘটানো হয় (Aa x Aa), তখন F2 প্রজন্মের জিনোটাইপিক অনুপাত হয় 1:2:1 (যেমন AA : Aa : aa)।এখানে, হেটারোজাইগাস প্রকৃতির জিনোটাইপ হল Aa। এই অনুপাত অনুযায়ী, মোট 4টি সম্ভাব্য জিনোটাইপের মধ্যে 2টি হবে হেটারোজাইগাস।সুতরাং, উপরিউক্ত ক্রসে 2টি হেটারোজাইগাস প্রকৃতির জিনোটাইপ উৎপন্ন হবে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Biology",
+    "question": "মেন্ডেলের মৃত্যুর কত বছর পরে মেন্ডেলের কাজের যথার্থতা প্রমাণিত হয়েছে?",
+    "options": {
+      "a": "২০ বছর",
+      "b": "১৫ বছর",
+      "c": "১০ বছর",
+      "d": "১৬ বছর"
+    },
+    "correctAnswer": "d",
+    "explanation": "১৮৮৪ সালের ৬ই জানুয়ারি, তাঁর সূত্রগুলো প্রতিষ্ঠা লাভের অনেক আগেই, মেন্ডেল মৃত্যুবরণ করেন। তাঁর \n\nমৃত্যুর ১৬ বছর পর অর্থাৎ ১৯০০ খ্রিস্টাব্দে তিন ভিন্ন দেশের তিন বিজ্ঞানী পৃথকভাবে কিন্তু একই  সময়ে মেন্ডেলের গবেষণার ফলাফল পুনরাবিষ্কার করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Biology",
+    "question": "মেন্ডেলের ১ম সূত্রের জিনোটাইপের অনুপাত হচ্ছে-",
+    "options": {
+      "a": "3\n:\n1\n3:1",
+      "b": "2\n:\n2\n2:2",
+      "c": "2\n:\n1\n:\n1\n2:1:1",
+      "d": "1\n:\n2\n:\n1\n1:2:1"
+    },
+    "correctAnswer": "d",
+    "explanation": "মেন্ডেলের প্রথম সূত্রের ফিনোটাইপিক অনুপাত ➞ 3 : 1\nএবং জিনোটাইপিক অনুপাত ➞ 1 : 2 : 1\nমেন্ডেলের দ্বিতীয় সূত্রের ফিনোটাইপিক অনুপাত ➞ 9 : 3 : 3 : 1\n\nমেন্ডেলের প্রথম সূত্রের ব্যতিক্রম :\n• অসম্পূর্ণ প্রকটতার ফলাফল ➞ 1 : 2 : 1\n• সমপ্রকটতার ফলাফল ➞ 1 : 2 : 1\n• মারণ জিন বা লিথাল জিন অনুপাত ➞ 2 : 1\n\nমেন্ডেলের দ্বিতীয় সূত্রের ব্যতিক্রম :\n• পরিপূরক জিন এর ফিনোটাইপিক অনুপাত ➞ 9 : 7\n• প্রকট এপিস্ট্যাসিস এর অনুপাত ➞ 13 : 3\n• দ্বৈত প্রচ্ছন্ন এপিস্ট্যাসিস এর অনুপাত ➞ 9 : 7",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Biology",
+    "question": "মেন্ডেলের প্রথম সূত্রের অনুপাত কত?",
+    "options": {
+      "a": "২ : ১",
+      "b": "৩ : ১",
+      "c": "১ : ১",
+      "d": "৩ : ২"
+    },
+    "correctAnswer": "b",
+    "explanation": "মেন্ডেলের প্রথম সূত্রের ফিনোটাইপিক অনুপাত হলো 3:1।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Biology",
+    "question": "ম্যান্ডেলিয় দ্বিসংকর ক্রসে দ্বিতীয় জনুতে ফিনোটাইপের অনুপাত-",
+    "options": {
+      "a": "3:1",
+      "b": "1:2:1",
+      "c": "9:3:4",
+      "d": "9:3:3:1"
+    },
+    "correctAnswer": "d",
+    "explanation": "মেন্ডেলের প্রথম সূত্রের ফিনোটাইপিক অনুপাত ➞ 3 : 1 এবং জিনোটাইপিক অনুপাত ➞ 1 : 2 : 1\n\nমেন্ডেলের প্রথম সূত্রের ব্যতিক্রম :\n\n• অসম্পূর্ণ প্রকটতার ফলাফল ➞ 1 : 2 : 1\n\n• সমপ্রকটতার ফলাফল ➞ 1 : 2 : 1\n\n• মারণ জিন বা লিথাল জিন অনুপাত ➞ 2 : 1\n\nমেন্ডেলের দ্বিতীয় সূত্রের ফিনোটাইপিক অনুপাত ➞ 9 : 3 : 3 : 1\n\nমেন্ডেলের দ্বিতীয় সূত্রের ব্যতিক্রম :\n\n• পরিপূরক জিন এর ফিনোটাইপিক অনুপাত ➞ 9 : 7\n\n• প্রকট এপিস্ট্যাসিস এর অনুপাত ➞ 13 : 3\n\n• দ্বৈত প্রচ্ছন্ন এপিস্ট্যাসিস এর অনুপাত ➞ 9 : 7",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Biology",
+    "question": "জীবের কোন প্রজাতির একসেট হ্যাপলয়েড ক্রোমাজমে বিদ্যমান জিনের সমষ্টিকে বলে-",
+    "options": {
+      "a": "অ্যালিল",
+      "b": "জিনোম",
+      "c": "ক্যারিওটাইপ",
+      "d": "আলোজোম"
+    },
+    "correctAnswer": "b",
+    "explanation": "জীবের কোনো প্রজাতির এক সেট হ্যাপলয়েড ক্রোমোজোমে বিদ্যমান জিনের সমষ্টিকে জিনোম বলা হয়। এটি জীবের সম্পূর্ণ ডিএনএ-এর সমষ্টি, যা জীবের বৃদ্ধি, প্রজনন এবং পরিবেশের সাথে খাপ খাওয়ার মতো যাবতীয় কার্যক্রম নিয়ন্ত্রণ করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Biology",
+    "question": "মেন্ডেল কত প্রকার মটরশুঁটি নিয়ে কাজ করেছেন?",
+    "options": {
+      "a": "২৮",
+      "b": "৩০",
+      "c": "৩২",
+      "d": "৩৪"
+    },
+    "correctAnswer": "d",
+    "explanation": "মেন্ডেল ৩৪ প্রকার মটরশুঁটি নিয়ে কাজ করেছেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Biology",
+    "question": "AaBb জিনোটাইপধারী জীব থেকে কয় ধরনের গ্যামেট তৈরি হতে পারে?",
+    "options": {
+      "a": "১",
+      "b": "২",
+      "c": "৩",
+      "d": "৪"
+    },
+    "correctAnswer": "d",
+    "explanation": "AaBb জিনোটাইপধারী জীব থেকে ৪ ধরনের গ্যামেট তৈরি হতে পারে।এগুলো হলো: AB, Ab, aB, এবং ab। এটি স্বাধীনভাবে বিচরণের (independent assortment) নীতির কারণে ঘটে থাকে।",
+    "hasDiagram": true,
+    "questionImage": "/images/q48_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Biology",
+    "question": "নিচের কোন জিনোটাইপ থেকে মটরশুঁটির কুঞ্চিত ও হলুদ বর্ণের বীজ পাওয়া যায়?",
+    "options": {
+      "a": "RrYy",
+      "b": "Rryy",
+      "c": "RrYY",
+      "d": "rrYy"
+    },
+    "correctAnswer": "d",
+    "explanation": "rrYy",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q49_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Biology",
+    "question": "কোনো জীবে প্রকাশিত বাহ্যিক বৈশিষ্ট্যকে জিনতত্ত্বের ভাষায় কি বলে?",
+    "options": {
+      "a": "জিনোটাইপ",
+      "b": "ফিনোটাইপ",
+      "c": "প্রকট বৈশিষ্ট্য",
+      "d": "প্রচ্ছন্ন বৈশিষ্ট্য"
+    },
+    "correctAnswer": "b",
+    "explanation": "জিনোটাইপ দ্বারা নিয়ন্ত্রিত জীবের বাহ্যিক লক্ষণকে ফিনোটাইপ বলে। এটি জীবের আকার, আকৃতি, বর্ণ প্রভৃতি প্রকাশ করে। সদৃশ ফিনোটাইপধারী দুটি জীবের জিনোটাইপ একই রকম বা ভিন্ন হতে পারে। যেমন-বিশুদ্ধ লক্ষণযুক্ত লম্বা ও খাটো মটর গাছের মধ্যে পরাগসংযোগ ঘটালে F₁ জনুতে সবগুলো উদ্ভিদই লম্বা আকৃতির হয় যদিও এদের মধ্যে দুধরনের ফ্যাক্টরই (Tt) থাকে। এখানে ফিনোটাইপ হলো লম্বা।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]

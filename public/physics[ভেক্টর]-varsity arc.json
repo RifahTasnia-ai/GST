@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "question": "নিচের কোনটি সংযোজন সূত্র?",
+    "options": {
+      "a": "𝑃\n⃗\n+\n𝑄\n⃗\n=\n𝑄\n⃗\n+\n𝑃\n⃗\nP\n+\nQ\n\t​\n\n=\nQ\n\t​\n\n+\nP",
+      "b": "(\n𝑃\n⃗\n+\n𝑄\n⃗\n)\n+\n𝑅\n⃗\n=\n𝑃\n⃗\n+\n(\n𝑄\n⃗\n+\n𝑅\n⃗\n)\n(\nP\n+\nQ\n\t​\n\n)+\nR\n=\nP\n+(\nQ\n\t​\n\n+\nR\n)",
+      "c": "𝑚\n(\n𝑃\n⃗\n+\n𝑄\n⃗\n)\n=\n𝑚\n𝑃\n⃗\n+\n𝑚\n𝑄\n⃗\nm(\nP\n+\nQ\n\t​\n\n)=m\nP\n+m\nQ\n\t​",
+      "d": "(\n𝑃\n⃗\n×\n𝑄\n⃗\n)\n+\n𝑅\n⃗\n=\n𝑃\n⃗\n+\n(\n𝑄\n⃗\n×\n𝑅\n⃗\n)\n(\nP\n×\nQ\n\t​\n\n)+\nR\n=\nP\n+(\nQ\n\t​\n\n×\nR\n)"
+    },
+    "correctAnswer": "b",
+    "explanation": "সংযোজন সূত্রঃ\n(\n𝑃\n⃗\n+\n𝑄\n⃗\n)\n+\n𝑅\n⃗\n=\n𝑃\n⃗\n+\n(\n𝑄\n⃗\n+\n𝑅\n⃗\n)\n(\nP\n+\nQ\n\t​\n\n)+\nR\n=\nP\n+(\nQ\n\t​\n\n+\nR\n)\n\n। A. বিনিময় সূত্র, C. বন্টন সূত্র",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "question": "5 ℎ − 1 5 kmh −1 বেগে ধাবমান একটি নৌকার 3 k m h − 1 3 kmh −1 বেগে প্রবাহমান একটি 4 km প্রশস্থ নদী সর্বনিম্ন পথে পার হতে কত সময় লাগবে?",
+    "options": {
+      "a": "120 seconds",
+      "b": "3600 seconds",
+      "c": "1 second",
+      "d": "60 seconds"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q2_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "question": "5km/h বেগে প্রবাহমান 4km প্রশস্ত একটি নদী সোজাসুজি পার হতে 3600s লাগলে লদ্ধি বেগ কত?",
+    "options": {
+      "a": "4km/h",
+      "b": "3000m/h",
+      "c": "3km/s",
+      "d": "400m/s"
+    },
+    "correctAnswer": "a",
+    "explanation": "প্রশ্নে দেওয়া আছে নদীর প্রস্থ 4 km এবং এটি পার হতে সময় লাগে 3600 s। এখানে নদীর প্রবাহের জন্য তার সোজাসুজি বেগটি 5 km/h। আমাদের লদ্ধি বেগ নির্ণয় করতে হবে।\n\nপ্রথমে লক্ষ্য করব, নদীর প্রস্থ সোজাসুজি পার হতে সময় লাগে 3600 s, যা ঘণ্টায় রূপান্তর করলে হবে:\n\n3600 s = 1 hour\n\nএখন, নদীর প্রস্থ 4 km, এবং সময় লাগছে 1 ঘণ্টা, সেজন্য সোজাসুজি বেগ হবে:\n\n𝑣\n=\nসোজাসুজি অতিক্রান্ত দূরত্ব বা নদীর প্রস্থ\nসময়\n=\n4\n km\n1\n hour\n=\n4\n km/h\nv=\nসময়\nসোজাসুজি অতিক্রান্ত দূরত্ব বা নদীর প্রস্থ\n\t​\n\n=\n1 hour\n4 km\n\t​\n\n=4 km/h\n\nঅতএব, লদ্ধি বেগ = 4 km/h।\n\nসঠিক উত্তর: Option A",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "question": "একটি নৌকার বেগ 4 ℎ − 1 4 kmh −1 এবং স্রোতের বেগ 2 ℎ − 1 2 kmh −1 হলে নদীর ঠিক অপর পাড়ে নৌকা পৌঁছালে লব্ধি বেগ কত?",
+    "options": {
+      "a": "3\n \n𝑘\n𝑚\nℎ\n−\n1\n3 kmh\n−1",
+      "b": "3\n2\n \n𝑘\n𝑚\nℎ\n−\n1\n3\n2\n\t​\n\n kmh\n−1",
+      "c": "20\n \n𝑘\n𝑚\nℎ\n−\n1\n20\n\t​\n\n kmh\n−1",
+      "d": "2\n3\n \n𝑘\n𝑚\nℎ\n−\n1\n2\n3\n\t​\n\n kmh\n−1"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q4_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "question": "লম্বভাবে পড়ন্ত বৃষ্টিতে কত বেগে গাড়ি চালালে গাড়ির সামনের কাঁচ ভিজবে?",
+    "options": {
+      "a": "যেকোনো বেগ",
+      "b": "𝑣\n≥\nv≥ বৃষ্টির বেগ",
+      "c": "𝑣\n≤\nv≤ বৃষ্টির বেগ",
+      "d": "𝑣\n≤\n0\n \n𝑚\n𝑠\n−\n1\nv≤0 ms\n−1"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q5_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "question": "⃗ , ⃗ A , B ও ⃗ C তিনটি ভেক্টর রাশি হলে এবং ⃗ = ⃗ × ⃗ C = A × B হলে ⃗ C এর দিক হবে-",
+    "options": {
+      "a": "𝐴\n⃗\nA\n বরাবর",
+      "b": "𝐴\n⃗\nA\n ও \n𝐵\n⃗\nB\n এর সমতলের লম্ব বরাবর",
+      "c": "𝐵\n⃗\nB\n বরাবর",
+      "d": "𝐴\n⃗\nA\n ও \n𝐵\n⃗\nB\n এর সমতল বরাবর"
+    },
+    "correctAnswer": "b",
+    "explanation": "𝐵\n⃗\n=\n𝐶\n⃗\n×\n \n𝐴\n⃗\nB\n=\nC\n× \nA\nহলে\n𝐵\n⃗\nB\nএর দিক হবে\n𝐶\n→\nC\nও\n𝐴\n→\nA\nএর সমতলের লম্ব বরাবর\n\n\n\n\n𝐴\n⃗\n=\n𝐵\n⃗\n×\n \n𝐶\n⃗\nA\n=\nB\n× \nC\nহলে\n𝐴\n⃗\nA\nএর দিক হবে\n𝐵\n→\nB\nও\n𝐶\n→\nC\nএর সমতলের লম্ব বরাবর",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "question": "⃗ = ( − 3 ^ + 4 ^ − 5 ^ ) F =(−3 i ^ +4 j ^ ​ −5 k ^ )N ও ⃗ = ( 4 ^ + 16 ^ + 6 ^ ) r =(4 i ^ +16 j ^ ​ +6 k ^ )m হলে কৃতকাজ কত?",
+    "options": {
+      "a": "24 J",
+      "b": "25 J",
+      "c": "22 J",
+      "d": "12 J"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝑊\n\t\n=\n𝐹\n⃗\n⋅\n𝑟\n⃗\n\n\n\t\n=\n−\n12\n+\n64\n−\n30\n\n\n\t\n=\n22\n \nJ\nW\n\t​\n\n=\nF\n⋅\nr\n=−12+64−30\n=22 J\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "question": "‾ × ‾ = i × k =কোনটি?",
+    "options": {
+      "a": "𝑗\n‾\nj\n\t​",
+      "b": "𝑖\n‾\ni",
+      "c": "−\n𝑘\n‾\n−\nk",
+      "d": "−\n𝑗\n‾\n−\nj\n\t​"
+    },
+    "correctAnswer": "d",
+    "explanation": "Clockwise গুণ করলে ধনাত্মক মান এবং Anticlockwise গুণ করলে ঋণাত্মক মান পাওয়া যাবে। \n\n𝑖\n^\n×\n𝑗\n^\n=\n𝑘\n^\ni\n^\n×\nj\n^\n\t​\n\n=\nk\n^\n\n𝑗\n^\n×\n𝑘\n^\n=\n𝑖\n^\nj\n^\n\t​\n\n×\nk\n^\n=\ni\n^\n\n𝑘\n^\n×\n𝑖\n^\n=\n𝑗\n^\nk\n^\n×\ni\n^\n=\nj\n^\n\t​\n\n\n𝑖\n^\n×\n𝑘\n^\n=\n−\n𝑗\n^\ni\n^\n×\nk\n^\n=\n−j\n^\n\t​\n\n\n𝑘\n^\n×\n𝑗\n^\n=\n−\n𝑖\n^\nk\n^\n×\nj\n^\n\t​\n\n=\n−i\n^\n\t​\n\n\n𝑗\n^\n×\n𝑖\n^\n=\n−\n𝑘\n^\nj\n^\n\t​\n\n×\ni\n^\n=\n−k\n^\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q8_expl.jpg",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "question": "'p' এর মান কত হলে 2 ^ + ^ + ^ 2 i ^ +p j ^ ​ + k ^ ও 4 ^ − 2 ^ − 2 ^ 4 i ^ −2 j ^ ​ −2 k ^ ভেক্টরদ্বয় পরস্পর লম্ব হবে?",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "3",
+      "d": "1"
+    },
+    "correctAnswer": "a",
+    "explanation": "(\n2\n𝑖\n^\n+\n𝑝\n𝑗\n^\n+\n𝑘\n^\n)\n⋅\n(\n4\n𝑖\n^\n−\n2\n𝑗\n^\n−\n2\n𝑘\n^\n)\n=\n0\n(2\ni\n^\n+p\nj\n^\n\t​\n\n+\nk\n^\n)⋅(4\ni\n^\n−2\nj\n^\n\t​\n\n−2\nk\n^\n)=0\n\n\n\n\n⇒\n8\n−\n2\n𝑝\n−\n2\n=\n0\n⇒8−2p−2=0\n\n\n\n\n∴\n𝑝\n=\n3\n∴p=3",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "question": "একটি নদীতে স্রোতের বেগ 5 kmh-1 এবং একটি নৌকার বেগ 10kmh-1। স্রোতের সাথে কত ডিগ্রী কোণ করে নৌকা চালালে নৌকাটি অপর পারে ঠিক সোজাসুজি পৌঁছাবে?",
+    "options": {
+      "a": "150",
+      "b": "120",
+      "c": "100",
+      "d": "130"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q10_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "question": "এক ব্যাক্তি 3 ms-1 বেগে দৌড়াচ্ছে। বৃষ্টি লম্বালম্বি ভাবে 3 ms-1 বেগে পড়ছে। বৃষ্টি থেকে বাচতে হলে ঐ ব্যক্তিকে নিম্নের কত ডিগ্রি কোনে ছাতা ধরতে হবে?",
+    "options": {
+      "a": "60",
+      "b": "30",
+      "c": "40",
+      "d": "45"
+    },
+    "correctAnswer": "d",
+    "explanation": "tan\n⁡\n𝜃\n=\n মানুষের বেগ \n বৃষ্টির বেগ \n⇒\ntan\n⁡\n𝜃\n=\n3\n3\ntanθ=\n বৃষ্টির বেগ \n মানুষের বেগ \n\t​\n\n⇒tanθ=\n3\n3\n\t​\n\n বা, \n𝜃\n=\n45\n∘\nθ=45\n∘",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "question": "⃗ = 3 ^ + 2 ^ − 2 ^ A =3 i ^ +2 j ^ ​ −2 k ^ এবং ⃗ = − ^ + ^ − 4 ^ B =− i ^ + j ^ ​ −4 k ^ হলে ⃗ ও ⃗ A ও B এর লব্ধি ভেক্টরের সমান্তরাল একক ভেক্টর কত?",
+    "options": {
+      "a": "3\n𝑖\n^\n+\n2\n𝑗\n^\n−\n2\n𝑘\n^\n17\n17\n\t​\n\n3\ni\n^\n+2\nj\n^\n\t​\n\n−2\nk\n^\n\t​",
+      "b": "−\n𝑖\n^\n+\n𝑗\n^\n−\n4\n𝑘\n^\n18\n18\n\t​\n\n−\ni\n^\n+\nj\n^\n\t​\n\n−4\nk\n^\n\t​",
+      "c": "4\n𝑖\n^\n+\n𝑗\n^\n+\n2\n𝑘\n^\n21\n21\n\t​\n\n4\ni\n^\n+\nj\n^\n\t​\n\n+2\nk\n^\n\t​",
+      "d": "2\n𝑖\n^\n+\n3\n𝑗\n^\n−\n6\n𝑘\n^\n7\n7\n2\ni\n^\n+3\nj\n^\n\t​\n\n−6\nk\n^\n\t​"
+    },
+    "correctAnswer": "d",
+    "explanation": "A\n→\nA\n ও \nB\n→\nB\n এর লব্ধি সমান্তরাল একক ভেক্টর \n=\nA\n→\n+\nB\n→\n∣\nA\n→\n+\nB\n→\n∣\n=\n∣\nA\n+\nB\n∣\nA\n+\nB\n\t​\n\n\n∴\n সমান্তরাল একক ভেষ্টর \n\t\n=\n(\n3\n−\n1\n)\n𝑖\n^\n+\n(\n2\n+\n1\n)\n𝑗\n^\n+\n(\n−\n2\n−\n4\n)\n𝑘\n^\n2\n2\n+\n3\n2\n+\n(\n−\n6\n)\n2\n\n\n\t\n=\n1\n7\n(\n2\n𝑖\n^\n+\n3\n𝑗\n^\n−\n6\n𝑘\n^\n)\n∴ সমান্তরাল একক ভেষ্টর \n\t​\n\n=\n2\n2\n+3\n2\n+(−6)\n2\n\t​\n\n(3−1)\ni\n^\n+(2+1)\nj\n^\n\t​\n\n+(−2−4)\nk\n^\n\t​\n\n=\n7\n1\n\t​\n\n(2\ni\n^\n+3\nj\n^\n\t​\n\n−6\nk\n^\n)\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "question": "একই বিন্দুতে ক্রিয়ারত 2 একক এবং 3 একক মানের দুটি বলের লব্ধির মান 4 একক।বল দুটির অন্তর্ভুক্ত কোণের মান কত?",
+    "options": {
+      "a": "cos-1(1/4)",
+      "b": "cos-1(1/2)",
+      "c": "cos-1(1/3)",
+      "d": "cos(1/3)"
+    },
+    "correctAnswer": "a",
+    "explanation": "R\n2\n=\nP\n2\n+\nQ\n2\n+\n2\nP\nQ\ncos\n⁡\n𝛼\n∴\n𝛼\n=\ncos\n⁡\n−\n1\n1\n4\nR\n2\n=P\n2\n+Q\n2\n+2PQcosα∴α=cos\n−1\n4\n1\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "question": "কোনটি ভেক্টর রাশি?",
+    "options": {
+      "a": "তড়িৎ প্রাবল্য",
+      "b": "বল",
+      "c": "ত্বরণ",
+      "d": "সবগুলোই"
+    },
+    "correctAnswer": "d",
+    "explanation": "তড়িৎ প্রাবল্য, বল, ত্বরণ একপ্রকার ভেক্টর বা দিক রাশি।\n\nএছাড়াও কিছু ভেক্টর রাশির উদাহরণ হলো: তল ক্ষেত্রফল ভেক্টর, কেন্দ্রমুখী ত্বরণত্বরণ, কেন্দ্রমুখী ভরবেগ ইত্যাদি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "question": "দুটি ভেক্টর রাশির যোগফল & বিয়োগফল সমান হলে তাদের মধ্যবর্তী কোন-",
+    "options": {
+      "a": "90°",
+      "b": "60°",
+      "c": "45°",
+      "d": "None"
+    },
+    "correctAnswer": "a",
+    "explanation": "শর্ত অনুযায়ী:\n\n\n\n\n𝐴\n+\n𝐵\n=\n𝐴\n−\n𝐵\nA+B=A−B\n\n\n\n\n\nভেক্টরের মান অনুযায়ী প্রকাশ করলে:\n\n\n\n\n∣\n𝐴\n+\n𝐵\n∣\n=\n∣\n𝐴\n−\n𝐵\n∣\n∣A+B∣=∣A−B∣\n\n\n\n\n\nভেক্টর যোগফলের মান:\n\n\n\n\n∣\n𝐴\n+\n𝐵\n∣\n=\n𝐴\n2\n+\n𝐵\n2\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n∣A+B∣=\nA\n2\n+B\n2\n+2ABcosθ\n\t​\n\n\n\n\n\n\nভেক্টর বিয়োগফলের মান:\n\n\n\n\n∣\n𝐴\n−\n𝐵\n∣\n=\n𝐴\n2\n+\n𝐵\n2\n−\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n∣A−B∣=\nA\n2\n+B\n2\n−2ABcosθ\n\t​\n\n\n\n\n\n\nশর্ত অনুযায়ী,\n\n\n\n\n𝐴\n2\n+\n𝐵\n2\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n=\n𝐴\n2\n+\n𝐵\n2\n−\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\nA\n2\n+B\n2\n+2ABcosθ\n\t​\n\n=\nA\n2\n+B\n2\n−2ABcosθ\n\t​\n\n\n\n\n\n\n\n\n\n𝐴\n2\n+\n𝐵\n2\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n=\n𝐴\n2\n+\n𝐵\n2\n−\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n\n\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n=\n0\n\n\n4\n𝐴\n𝐵\ncos\n⁡\n𝜃\n=\n0\n\n\ncos\n⁡\n𝜃\n=\n0\n\n\n𝜃\n=\n90\n∘\nA\n2\n+B\n2\n+2ABcosθ=A\n2\n+B\n2\n−2ABcosθ\n2ABcosθ+2ABcosθ=0\n4ABcosθ=0\ncosθ=0\nθ=90\n∘\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "question": "⃗ = ^ + 5 ^ + ^ , ⃗ = 2 ^ + ^ + ^ A = i ^ +5 j ^ ​ + k ^ , B =2 i ^ + j ^ ​ + k ^ এবং ⃗ = 2 ^ + 3 ^ + 9 ^ P =2 i ^ +3 j ^ ​ +9 k ^ । ⃗ = ⃗ + ⃗ Q ​ = A + B হলে ⃗ P ও ⃗ Q ​ ভেক্টরদ্বয়ের মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "cos\n⁡\n−\n1\n42\n94\ncos\n−1\n94\n\t​\n\n42\n\t​",
+      "b": "sin\n⁡\n−\n1\n58\n94\nsin\n−1\n94\n58\n\t​\n\n\t​",
+      "c": "sin\n⁡\n−\n1\n42\n94\nsin\n−1\n94\n\t​\n\n42\n\t​",
+      "d": "cos\n⁡\n−\n1\n58\n94\ncos\n−1\n94\n58\n\t​\n\n\t​"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q16_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "question": "a-এর মান কত হলে ı ^ − 2 ȷ ^ + ^ এবং 2 ı ^ − ȷ ^ − 4 ^ a ı ^ −2 ȷ ^ ​ + k ^ এবং 2a ı ^ −a ȷ ^ ​ −4 k ^ পরস্পর লম্ব হবে?",
+    "options": {
+      "a": "1,2",
+      "b": "i,-2",
+      "c": "2,-1",
+      "d": "2,1"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q17_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "question": "2 ˉ − 3 ˉ + 6 ˉ 2 i ˉ −3 j ˉ ​ +6 k ˉ ভেক্টরটি Y অক্ষের সাথে যে কোণ উৎপন্ন করে তা কত?",
+    "options": {
+      "a": "(\n𝑐\n𝑜\n𝑠\n)\n−\n1\n(\n3\n49\n)\n(cos)\n−1\n(\n49\n3\n\t​\n\n)",
+      "b": "(\n𝑐\n𝑜\n𝑠\n)\n−\n1\n(\n−\n3\n49\n)\n(cos)\n−1\n(−\n49\n3\n\t​\n\n)",
+      "c": "(\n𝑐\n𝑜\n𝑠\n)\n−\n1\n(\n−\n3\n7\n)\n(cos)\n−1\n(−\n7\n3\n\t​\n\n)",
+      "d": "(\n𝑐\n𝑜\n𝑠\n)\n−\n1\n(\n2\n7\n)\n(cos)\n−1\n(\n7\n2\n\t​\n\n)"
+    },
+    "correctAnswer": "c",
+    "explanation": "যেকোনো ভেক্টরের সাথে Y অক্ষের কোণ নির্ণয়ের জন্য আমরা নিচের সূত্রটি ব্যবহার করি:\n\ncos\n⁡\n𝜃\n=\nভেক্টরের Y-উপাংশ\nভেক্টরের মান\ncosθ=\nভেক্টরের মান\nভেক্টরের Y-উপাংশ\n\t​\n\n\nপ্রদত্ত ভেক্টর হল \n2\n𝑖\nˉ\n−\n3\n𝑗\nˉ\n+\n6\n𝑘\nˉ\n2\ni\nˉ\n−3\nj\nˉ\n\t​\n\n+6\nk\nˉ\n\nএখানে, ভেক্টরের Y-উপাংশ হল \n−\n3\n−3।\n\nএখন, ভেক্টরের মান (অর্থাৎ, দৈর্ঘ্য) নির্ণয় করি:\n\n2\n2\n+\n(\n−\n3\n)\n2\n+\n6\n2\n=\n4\n+\n9\n+\n36\n=\n49\n=\n7\n2\n2\n+(−3)\n2\n+6\n2\n\t​\n\n=\n4+9+36\n\t​\n\n=\n49\n\t​\n\n=7\n\nতাহলে,\n\ncos\n⁡\n𝜃\n=\n−\n3\n7\ncosθ=\n7\n−3\n\t​\n\n\nঅতএব, Y অক্ষের সাথে গঠিত কোণ হলঃ\n\n𝜃\n=\ncos\n⁡\n−\n1\n(\n−\n3\n7\n)\nθ=cos\n−1\n(−\n7\n3\n\t​\n\n)\n\nসঠিক উত্তরটি হল অপশন (C): \ncos\n⁡\n−\n1\n(\n−\n3\n7\n)\ncos\n−1\n(−\n7\n3\n\t​\n\n)",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "question": "'p' এর মান কত হলে 2 ^ + ^ + ^ 2 i ^ +p j ^ ​ + k ^ 3 4 ^ − 2 ^ − 2 ^ 4 i ^ −2 j ^ ​ −2 k ^ ভেক্টরদ্বয় পরস্পর লম্ব হবে?",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "3",
+      "d": "1"
+    },
+    "correctAnswer": "a",
+    "explanation": "ভেষ্টরদ্বয় পরস্পর লম্ব বলে,\n\n(\n2\ni\n^\n+\np\nj\n^\n+\nk\n^\n)\n⋅\n(\n4\ni\n^\n−\n2\nj\n^\n−\n2\nk\n^\n)\n=\n0\n⇒\n8\n−\n2\nP\n−\n2\n=\n0\n⇒\nP\n=\n3\n(2\ni\n^\n+p\nj\n^\n\t​\n\n+\nk\n^\n)⋅(4\ni\n^\n−2\nj\n^\n\t​\n\n−2\nk\n^\n)=0⇒8−2P−2=0⇒P=3",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "question": "→ = 4 → − 3 → + 2 → a =4 i −3 j ​ +2 k ও → = 2 → − 3 → + 4 → b =2 i −3 j ​ +4 k ভেক্টর দুইুট যে সামান্তরিকের সন্নিহিত বাহু তার ক্ষেত্রফল হবে-",
+    "options": {
+      "a": "3\n3\n𝑠\n𝑞\n \n𝑢\n𝑛\n𝑖\n𝑡\n𝑠\n3\n3\n\t​\n\nsq units",
+      "b": "6\n3\n𝑠\n𝑞\n \n𝑢\n𝑛\n𝑖\n𝑡\n𝑠\n6\n3\n\t​\n\nsq units",
+      "c": "6\n6\n𝑠\n𝑞\n \n𝑢\n𝑛\n𝑖\n𝑡\n𝑠\n6\n6\n\t​\n\nsq units",
+      "d": "3\n6\n𝑠\n𝑞\n \n𝑢\n𝑛\n𝑖\n𝑡\n𝑠\n3\n6\n\t​\n\nsq units"
+    },
+    "correctAnswer": "c",
+    "explanation": "(c); \n𝑎\n→\n×\n𝑏\n→\n=\n∣\n𝑖\n→\n\t\n𝑗\n→\n\t\n𝑘\n→\n\n\n4\n\t\n−\n3\n\t\n2\n\n\n2\n\t\n−\n3\n\t\n4\n∣\n=\n−\n6\n𝑖\n→\n−\n12\n𝑗\n→\n−\n6\n𝑘\n→\na\n×\nb\n=\n\t​\n\ni\n4\n2\n\t​\n\nj\n\t​\n\n−3\n−3\n\t​\n\nk\n2\n4\n\t​\n\n\t​\n\n=−6\ni\n−12\nj\n\t​\n\n−6\nk\n\n\n\n\nএখন,  \n∣\n𝑎\n→\n×\n𝑏\n→\n∣\n=\n6\n2\n+\n12\n2\n+\n6\n2\n=\n6\n6\n\t​\n\na\n×\nb\n\t​\n\n\t​\n\n=\n6\n2\n+12\n2\n+6\n2\n\t​\n\n=6\n6\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "question": "Ā,B̄ এবং C̄ ভেক্টর তিনটি একই তলে হওয়ার শর্ত কোনটি?",
+    "options": {
+      "a": "𝐴\n⃗\n.\n(\n𝐵\n⃗\n×\n𝐶\n⃗\n)\n=\n0\nA\n.(\nB\n×\nC\n)=0",
+      "b": "𝐴\n⃗\n.\n𝐵\n⃗\n.\n𝐶\n⃗\n=\n0\nA\n.\nB\n.\nC\n=0",
+      "c": "𝐴\n⃗\n×\n𝐵\n⃗\n×\n𝐶\n⃗\n=\n0\nA\n×\nB\n×\nC\n=0",
+      "d": "𝐴\n⃗\n.\n(\n𝐵\n⃗\n.\n𝐶\n⃗\n)\n=\n0\nA\n.(\nB\n.\nC\n)=0"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝐴\n⃗\n.\n(\n𝐵\n⃗\n×\n𝐶\n⃗\n)\n=\n0\nA\n.(\nB\n×\nC\n)=0 হলে ভেক্টরত্রয় একই তলে অবস্থিত এবং এদের দ্বারা গঠিত ঘনবস্তুর আয়তন শূন্য।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "question": "কোনটি ভেক্টর রাশির বিয়োজনের সূত্র নয়?",
+    "options": {
+      "a": "সাধারণ",
+      "b": "সমান্তরাল",
+      "c": "সামন্তরিক",
+      "d": "উপাংশ"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমান্তরাল সূত্র ভেক্টর রাশির বিয়োজনের সূত্র না হওয়ার পরিপ্রেক্ষিতে উল্লেখযোগ্য যে, ভেক্টর রাশির বিয়োজনের জন্য তিনটি সূত্র রয়েছে। এগুলো হলো- সাধারণ নিয়ম, সামান্তরিক সূত্র এবং উপাংশ সূত্র।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "question": "নদীতে স্রোতের বেগ 6 − 1 6ms −1 । 80 80m প্রশস্ত নদীটি সর্বনিম্ন দূরত্বে পার হতে 10 10s সময় লাগে। নৌকার বেগ কত?",
+    "options": {
+      "a": "14\n𝑚\n𝑠\n−\n1\n14ms\n−1",
+      "b": "8\n𝑚\n𝑠\n−\n1\n8ms\n−1",
+      "c": "10\n𝑚\n𝑠\n−\n1\n10ms\n−1",
+      "d": "12\n𝑚\n𝑠\n−\n1\n12ms\n−1"
+    },
+    "correctAnswer": "b",
+    "explanation": "সর্বনিম্ন দূরত্বে, নৌকা সোজা প্রস্থ বরাবর যাতায়ত করে। \n\n𝑡\n=\n𝑑\n𝑉\n𝑠\n𝑖\n𝑛\n90\n0\n\n\n⇒\n𝑉\n=\n𝑑\n𝑡\n\n\n⇒\n𝑉\n=\n80\n10\n⇒\n8\nt=\nVsin90\n0\nd\n\t​\n\n⇒V=\nt\nd\n\t​\n\n⇒V=\n10\n80\n\t​\n\n⇒8\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "question": "উদ্দীপকের আলোকে কোনটি সঠিক?",
+    "options": {
+      "a": "𝐿\n→\n+\n𝑁\n→\n−\n𝑀\n→\n=\n0\nL\n+\nN\n−\nM\n=0",
+      "b": "𝐿\n→\n+\n𝑀\n→\n+\n𝑁\n→\n=\n0\nL\n+\nM\n+\nN\n=0",
+      "c": "𝐿\n→\n+\n𝑀\n→\n−\n𝑁\n→\n=\n0\nL\n+\nM\n−\nN\n=0",
+      "d": "𝑀\n→\n+\n𝑁\n→\n−\n𝐿\n→\n=\n0\nM\n+\nN\n−\nL\n=0"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q24_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "question": "যদি → = ^ − ^ + ^ P = i ^ − j ^ ​ + k ^ এবং → = ^ + ^ − ^ Q ​ = i ^ + j ^ ​ − k ^ একটি সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে, তাহলে উপযুক্ত এককে সামান্তরিকের ক্ষেত্রফল নির্ণয় কর।",
+    "options": {
+      "a": "2\n2\n2\n2\n\t​",
+      "b": "2\n2",
+      "c": "1\n1",
+      "d": "2\n2\n\t​"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝑃\n→\n×\n𝑄\n→\n=\n∣\n𝑖\n^\n\t\n𝑗\n^\n\t\n𝑘\n^\n\n\n1\n\t\n−\n1\n\t\n1\n\n\n1\n\t\n1\n\t\n−\n1\n∣\n=\n𝑖\n^\n×\n0\n−\n𝑗\n^\n(\n−\n2\n)\n+\n𝑘\n^\n(\n2\n)\n=\n2\n𝑗\n^\n+\n2\n𝑘\n^\nP\n×\nQ\n\t​\n\n=\n\t​\n\ni\n^\n1\n1\n\t​\n\nj\n^\n\t​\n\n−1\n1\n\t​\n\nk\n^\n1\n−1\n\t​\n\n\t​\n\n=\ni\n^\n×0−\nj\n^\n\t​\n\n(−2)+\nk\n^\n(2)=2\nj\n^\n\t​\n\n+2\nk\n^\n\nসামান্তরিকের ক্ষেত্রফল\n=\n∣\n𝑃\n→\n×\n𝑄\n→\n∣\n=\n2\n2\n+\n2\n2\n=\n8\n=\n2\n2\n=∣\nP\n×\nQ\n\t​\n\n∣=\n2\n2\n+2\n2\n\t​\n\n=\n8\n\t​\n\n=2\n2\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Physics",
+    "question": "জ্যামিতিক পদ্ধতিতে ভেক্টর রাশির যোগ কয়টি পদ্ধতিতে করা যায়?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "2"
+    },
+    "correctAnswer": "c",
+    "explanation": "জ্যামিতিক পদ্ধতিতে ভেক্টর রাশির যোগ ৫টি পদ্ধতিতে করা যায়। যথা : সাধারণ, ত্রিভুজ, বহুভুজ, সামান্তরিক ও উপাংশ সূত্র",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Physics",
+    "question": "যদি → = ⃗ QP ​ = A হয়, তবে → = ? PQ ​ =?",
+    "options": {
+      "a": "𝐴\n⃗\nA",
+      "b": "∣\n𝐴\n⃗\n∣\n∣\nA\n∣",
+      "c": "−\n𝐴\n⃗\n−\nA",
+      "d": "None of these"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝑄\n𝑃\n→\nQP\n\t​\n\n ও \n𝑃\n𝑄\n→\nPQ\n\t​\n\n পরস্পর বিপরীতমুখী। সুতরাং একটি \n𝐴\n⃗\nA\n হলে অপরটি হবে \n−\n𝐴\n⃗\n−\nA",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Physics",
+    "question": "XY সমতলে 6 ^ + 8 ^ − 5 ^ 6 i ^ +8 j ^ ​ −5 k ^ ভেক্টরটির দৈর্ঘ্য কত একক?",
+    "options": {
+      "a": "6",
+      "b": "10",
+      "c": "8",
+      "d": "5\n5\n5\n5\n\t​"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q28_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Physics",
+    "question": "( + ) (P+Q) হল X-অক্ষ বরাবর একটি একক ভেক্টর। যদি = ^ − ^ + ^ P= i ^ − j ^ ​ + k ^ , তাহলে ভেক্টর Q এর মান কত?",
+    "options": {
+      "a": "𝑖\n^\n+\n𝑗\n^\n−\n𝑘\n^\ni\n^\n+\nj\n^\n\t​\n\n−\nk\n^",
+      "b": "𝑗\n^\n−\n𝑘\n^\nj\n^\n\t​\n\n−\nk\n^",
+      "c": "𝑖\n^\n+\n𝑗\n^\n+\n𝑘\n^\ni\n^\n+\nj\n^\n\t​\n\n+\nk\n^",
+      "d": "𝑗\n^\n+\n𝑘\n^\nj\n^\n\t​\n\n+\nk\n^"
+    },
+    "correctAnswer": "b",
+    "explanation": "ব্যাখ্যা :\n\nদেওয়া আছে,\n\n𝑃\n=\n𝑖\n^\n−\n𝑗\n^\n+\n𝑘\n^\nP=\ni\n^\n−\nj\n^\n\t​\n\n+\nk\n^\n \n\n𝑃\n+\n𝑄\n\t\n=\n𝑖\n^\n\n\n𝑄\n\t\n=\n𝑖\n^\n−\n𝑖\n^\n+\n𝑗\n^\n−\n𝑘\n^\n=\n𝑗\n^\n−\n𝑘\n^\nP+Q\nQ\n\t​\n\n=\ni\n^\n=\ni\n^\n−\ni\n^\n+\nj\n^\n\t​\n\n−\nk\n^\n=\nj\n^\n\t​\n\n−\nk\n^\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Physics",
+    "question": "60 k m h − 1 60kmh −1 বেগের একটি উপাংশ 30 k m h − 1 30kmh −1 । অন্য উপাংশ কত?",
+    "options": {
+      "a": "30\n \nk\nm\n \nh\n−\n1\n30 km h\n−1",
+      "b": "30\n3\n \nk\nm\n \nh\n−\n1\n30\n3\n\t​\n\n km h\n−1",
+      "c": "30\n2\n \nk\nm\n \nh\n−\n1\n30\n2\n\t​\n\n km h\n−1",
+      "d": "zero"
+    },
+    "correctAnswer": "b",
+    "explanation": "60\n2\n\t\n=\n30\n2\n+\n𝑣\n2\n\n\n𝑣\n2\n\t\n=\n90\n×\n30\n\n\n𝑣\n\t\n=\n30\n3\nk\nm\nh\n−\n1\n60\n2\nv\n2\nv\n\t​\n\n=30\n2\n+v\n2\n=90×30\n=30\n3\n\t​\n\nkmh\n−1\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q30_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Physics",
+    "question": "যদি 1 A 1 ​ এবং 2 A 2 ​ দুটি অসমরইখিক একক ভেক্টর হয় এবং ∣ 1 + 2 ∣ = 3 ∣A 1 ​ +A 2 ​ ∣= 3 ​ হয়, ( 1 − 2 ) ⋅ ( 2 1 + 2 ) (A 1 ​ −A 2 ​ )⋅(2A 1 ​ +A 2 ​ ) এর মান কত?",
+    "options": {
+      "a": "4\n/\n5\n4/5",
+      "b": "1\n/\n2\n1/2",
+      "c": "3\n/\n2\n3/2",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান:\n\nএখানে, \n𝐴\n1\n=\n𝐴\n2\n=\n1\nA\n1\n\t​\n\n=A\n2\n\t​\n\n=1\n\n𝐴\n1\n2\n+\n𝐴\n2\n2\n+\n2\n𝐴\n1\n𝐴\n2\ncos\n⁡\n𝜃\n=\n(\n3\n)\n2\n=\n3\nA\n1\n2\n\t​\n\n+A\n2\n2\n\t​\n\n+2A\n1\n\t​\n\nA\n2\n\t​\n\ncosθ=(\n3\n\t​\n\n)\n2\n=3\n\nor \n1\n+\n1\n+\n2\n×\n1\n×\n1\n×\ncos\n⁡\n𝜃\n=\n3\n1+1+2×1×1×cosθ=3\n\ncos\n⁡\n𝜃\n=\n1\n2\ncosθ=\n2\n1\n\t​\n\n\nএখন, \n(\n𝐴\n1\n−\n𝐴\n2\n)\n⋅\n(\n2\n𝐴\n1\n+\n𝐴\n2\n)\n=\n2\n𝐴\n1\n2\n−\n𝐴\n2\n2\n−\n𝐴\n1\n𝐴\n2\ncos\n⁡\n𝜃\n(A\n1\n\t​\n\n−A\n2\n\t​\n\n)⋅(2A\n1\n\t​\n\n+A\n2\n\t​\n\n)=2A\n1\n2\n\t​\n\n−A\n2\n2\n\t​\n\n−A\n1\n\t​\n\nA\n2\n\t​\n\ncosθ\n\n=\n2\n×\n1\n2\n−\n1\n2\n−\n1\n×\n1\n×\n1\n2\n=\n1\n2\n=2×1\n2\n−1\n2\n−1×1×\n2\n1\n\t​\n\n=\n2\n1\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Physics",
+    "question": "ভেক্টর 1 A 1 ​ এবং 2 A 2 ​ প্রতিটি মান A একে অপরের প্রতি এমনভাবে ঝুঁকে থাকে যে তাদের ফলাফল 3 3 ​ A এর সমান হয়। তাহলে 1 A 1 ​ এবং − 2 −A 2 ​ এর লব্ধি কত?",
+    "options": {
+      "a": "2\n𝐴\n2A",
+      "b": "3\n𝐴\n3\n\t​\n\nA",
+      "c": "2\n𝐴\n2\n\t​\n\nA",
+      "d": "𝐴\nA"
+    },
+    "correctAnswer": "d",
+    "explanation": "ব্যাখ্যা\nব্যাখ্যা:\n\nধরি \n𝜃\nθ হবে\n𝐴\n1\nA\n1\n\t​\n\n এবং\n𝐴\n2\nA\n2\n\t​\n\n এর মধ্যে কোণ ,\n\n𝐴\n1\n2\n+\n𝐴\n2\n2\n+\n2\n𝐴\n1\n𝐴\n2\ncos\n⁡\n𝜃\n=\n𝑅\n2\n\n\n𝐴\n2\n+\n𝐴\n2\n+\n2\n𝐴\n𝐴\ncos\n⁡\n𝜃\n=\n3\n𝐴\n2\n\n\ncos\n⁡\n𝜃\n=\n1\n2\n=\ncos\n⁡\n60\n∘\n\n\n𝜃\n=\n60\n∘\nA\n1\n2\n\t​\n\n+A\n2\n2\n\t​\n\n+2A\n1\n\t​\n\nA\n2\n\t​\n\ncosθ=R\n2\nA\n2\n+A\n2\n+2AAcosθ=3A\n2\ncosθ=\n2\n1\n\t​\n\n=cos60\n∘\nθ=60\n∘\n\t​\n\n\nএদের মধ্যবর্তী কোণ  \n𝐴\n1\nA\n1\n\t​\n\n and \n−\n𝐴\n2\n−A\n2\n\t​\n\n is \n(\n180\n∘\n−\n60\n∘\n)\n=\n120\n∘\n(180\n∘\n−60\n∘\n)=120\n∘\n\n∴\n∴এদের লব্ধি\n𝐴\n1\nA\n1\n\t​\n\n and \n−\n𝐴\n2\n−A\n2\n\t​\n\n is\n\n𝑅\n′\n\t\n=\n[\n𝐴\n1\n2\n+\n𝐴\n2\n2\n+\n2\n𝐴\n1\n𝐴\n2\ncos\n⁡\n(\n180\n∘\n−\n60\n∘\n)\n]\n1\n/\n2\n\n\n\t\n=\n[\n𝐴\n2\n+\n𝐴\n2\n+\n2\n𝐴\n𝐴\ncos\n⁡\n120\n∘\n]\n1\n/\n2\n=\n𝐴\nR\n′\n\t​\n\n=[A\n1\n2\n\t​\n\n+A\n2\n2\n\t​\n\n+2A\n1\n\t​\n\nA\n2\n\t​\n\ncos(180\n∘\n−60\n∘\n)]\n1/2\n=[A\n2\n+A\n2\n+2AAcos120\n∘\n]\n1/2\n=A\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Physics",
+    "question": "এরকোনমানেরজন্য , = 2 ^ + ^ + 2 ^ aএরকোনমানেরজন্য,A=2 i ^ +a j ^ ​ + 2k ^ ভেকটরটি = 4 ^ − 2 ^ − ^ B=4 i ^ −2 j ^ ​ − k ^ এর লম্বক হবে?",
+    "options": {
+      "a": "4",
+      "b": "zero",
+      "c": "3",
+      "d": "1"
+    },
+    "correctAnswer": "c",
+    "explanation": "ব্যাখ্যা\nব্যাখ্যা:\n\nযদি \n\n𝐴\n⊥\n𝐵\nA⊥B, তাহলে \n𝐴\n⋅\n𝐵\n=\n𝐴\n𝐵\ncos\n⁡\n90\n∘\n=\n0\nA⋅B=ABcos90\n∘\n=0\n\n(\n2\n𝑖\n^\n+\n𝑎\n𝑗\n^\n+\n𝑘\n^\n)\n⋅\n(\n4\n𝑖\n^\n−\n2\n𝑗\n^\n−\n2\n𝑘\n^\n)\n=\n0\n\n\n or \n8\n−\n2\n𝑎\n−\n2\n=\n0\n or \n𝑎\n=\n3\n(2\ni\n^\n+a\nj\n^\n\t​\n\n+\nk\n^\n)⋅(4\ni\n^\n−2\nj\n^\n\t​\n\n−2\nk\n^\n)=0\n or 8−2a−2=0 or a=3\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Physics",
+    "question": "sÇ¸ÊØÊx´¥¼Çº¨§Ê´ÌÖË¦§ÌÂÇµ¦¿ÛÏÐ×Á£Ìé¤¥Õºx³ª°°¤y§È",
+    "options": {
+      "a": "cos\n⁡\n−\n1\n4\n25\ncos\n−1\n25\n4\n\t​",
+      "b": "cos\n⁡\n−\n1\n2\n25\ncos\n−1\n25\n2\n\t​",
+      "c": "cos\n⁡\n−\n1\n−\n4\n21\ncos\n−1\n21\n−4\n\t​",
+      "d": "cos\n⁡\n−\n1\n−\n2\n21\ncos\n−1\n21\n−2\n\t​"
+    },
+    "correctAnswer": "c",
+    "explanation": "মধ্যবর্তী কোন, \n𝜃\n=\ncos\n⁡\n−\n1\n𝐴\n⃗\n⋅\n𝐵\n⃗\n∣\n𝐴\n⃗\n∣\n∣\n𝐵\n⃗\n∣\nθ=cos\n−1\n∣\nA\n∣∣\nB\n∣\nA\n⋅\nB\n\t​\n\n\n=\ncos\n⁡\n−\n1\n(\n𝑖\n^\n−\n2\n𝑗\n^\n−\n2\n𝑘\n^\n)\n⋅\n(\n6\n𝑖\n^\n+\n3\n𝑗\n^\n+\n2\n𝑘\n^\n)\n(\n1\n)\n2\n+\n(\n−\n2\n)\n2\n+\n(\n−\n2\n)\n2\n(\n6\n)\n2\n+\n(\n3\n)\n2\n+\n(\n2\n)\n2\n\n\n=\ncos\n⁡\n−\n1\n(\n6\n−\n6\n−\n4\n3\n×\n7\n)\n=\ncos\n⁡\n−\n1\n(\n−\n4\n21\n)\n=cos\n−1\n(1)\n2\n+(−2)\n2\n+(−2)\n2\n\t​\n\n(6)\n2\n+(3)\n2\n+(2)\n2\n\t​\n\n(\ni\n^\n−2\nj\n^\n\t​\n\n−2\nk\n^\n)⋅(6\ni\n^\n+3\nj\n^\n\t​\n\n+2\nk\n^\n)\n\t​\n\n=cos\n−1\n(\n3×7\n6−6−4\n\t​\n\n)=cos\n−1\n(\n21\n−4\n\t​\n\n)\n\t​",
+    "hasDiagram": true,
+    "questionImage": "/images/q34_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Physics",
+    "question": "যদি, = 2 ^ + 3 ^ + 4 ^ A=2 i ^ +3 j ^ ​ +4 k ^ এবং = 4 ^ + 3 ^ + 2 ^ B=4 i ^ +3 j ^ ​ +2 k ^ , তাহলে A এবং B এর মাঝের কোণ কত?",
+    "options": {
+      "a": "sin\n⁡\n−\n1\n(\n25\n29\n)\nsin\n−1\n(\n29\n25\n\t​\n\n)",
+      "b": "sin\n⁡\n−\n1\n(\n29\n25\n)\nsin\n−1\n(\n25\n29\n\t​\n\n)",
+      "c": "cos\n⁡\n−\n1\n(\n25\n29\n)\ncos\n−1\n(\n29\n25\n\t​\n\n)",
+      "d": "cos\n⁡\n−\n1\n(\n29\n25\n)\ncos\n−1\n(\n25\n29\n\t​\n\n)"
+    },
+    "correctAnswer": "c",
+    "explanation": "ব্যাখ্যা\nব্যাখ্যা:\n\nসুতরাং\n,\n𝐴\n⋅\n𝐵\n=\n𝐴\n𝐵\ncos\n⁡\n𝜃\nসুতরাং,A⋅B=ABcosθ\n\n⇒\ncos\n⁡\n𝜃\n=\n𝐴\n⋅\n𝐵\n𝐴\n𝐵\n\t\n=\n(\n2\n𝑖\n^\n+\n3\n𝑗\n^\n+\n4\n𝑘\n^\n)\n⋅\n(\n4\n𝑖\n^\n+\n3\n𝑗\n^\n+\n2\n𝑘\n^\n)\n4\n+\n9\n+\n16\n⋅\n16\n+\n9\n+\n4\n\n\n\t\n=\n8\n+\n9\n+\n8\n29\n=\n25\n29\n\n\n⇒\n𝜃\n\t\n=\ncos\n⁡\n−\n1\n(\n25\n29\n)\n⇒cosθ=\nAB\nA⋅B\n\t​\n\n⇒θ\n\t​\n\n=\n4+9+16\n\t​\n\n⋅\n16+9+4\n\t​\n\n(2\ni\n^\n+3\nj\n^\n\t​\n\n+4\nk\n^\n)⋅(4\ni\n^\n+3\nj\n^\n\t​\n\n+2\nk\n^\n)\n\t​\n\n=\n29\n8+9+8\n\t​\n\n=\n29\n25\n\t​\n\n=cos\n−1\n(\n29\n25\n\t​\n\n)\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Physics",
+    "question": "দেওয়া হয়েছে, = × C=A×B, A এর সাথে C কত কোণ তৈরি করে?",
+    "options": {
+      "a": "0\n∘\n0\n∘",
+      "b": "45\n∘\n45\n∘",
+      "c": "90\n∘\n90\n∘",
+      "d": "180\n∘\n180\n∘"
+    },
+    "correctAnswer": "c",
+    "explanation": "সমাধান:\n\nদুটি ভেক্টরের ক্রস গুন দ্বারা প্রদত্ত ভেক্টরের দিকটি দুটি ভেক্টর সমতলের লম্বক হবে, i.e. \n𝐴\n×\n𝐵\n=\n(\n𝐴\n𝐵\nsin\n⁡\n𝜃\n)\n=\n𝐶\nA×B=(ABsinθ)=C. অতএব,  \n𝐴\nA ও\n\n𝐶\nC দিয়ে 90° কোন তৈরি করা হয় ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Physics",
+    "question": "α এর মান কত হলে ^ − 2 ^ + ^ α i ^ −2 j ^ ​ + k ^ এবং 2 ^ − ^ − 4 ^ 2α i ^ −α j ^ ​ −4 k ^ পরস্পর লম্ব হবে?",
+    "options": {
+      "a": "2 and 1",
+      "b": "2 and -1",
+      "c": "2 and 1",
+      "d": "2 and -1"
+    },
+    "correctAnswer": "a",
+    "explanation": "দুটি ভেক্টর এর পরস্পর লম্ব হলে এদের ডট গুনফল \n\n(\n𝛼\n𝑖\n^\n−\n2\n𝑗\n^\n+\n𝑘\n^\nα\ni\n^\n−2\nj\n^\n\t​\n\n+\nk\n^\n) . (\n2\n𝛼\n𝑖\n^\n−\n𝛼\n𝑗\n^\n−\n4\n𝑘\n^\n2α\ni\n^\n−α\nj\n^\n\t​\n\n−4\nk\n^\n) = 0\n\n2\n𝛼\n2\n+\n2\n𝛼\n−\n4\n2α\n2\n+2α−4 = 0\n\n𝛼\n=\n−\n2\n,\n1\nα=−2,1",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Physics",
+    "question": "দুইটি দিক রাশির প্রত্যেকটির মান যদি এদের লদ্ধি রাশির মানের সমান হয় তবে রাশি দুইটির মধ্যবর্তী কোণের মান কত ?",
+    "options": {
+      "a": "45\n°\n45°",
+      "b": "60\n°\n60°",
+      "c": "90\n°\n90°",
+      "d": "120\n°\n120°"
+    },
+    "correctAnswer": "d",
+    "explanation": "প্রশ্নমতে,লব্ধি x হলে,\n\n\n\n\n𝑥\n2\n \n=\n \n𝑥\n2\n \n+\n𝑥\n2\n \n+\n2\n𝑥\n2\ncos\n⁡\n𝜃\n \nx\n2\n = x\n2\n +x\n2\n +2x\n2\ncosθ \n\n\n\n\n⇒\n \n𝜃\n=\n120\n°\n⇒ θ=120°",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Physics",
+    "question": "→ = ^ + 2 ^ − 3 ^ a = i ^ +2 j ^ ​ −3 k ^ এবং → = 3 ^ − ^ + 2 ^ b =3 i ^ − j ^ ​ +2 k ^ হলে, নিম্নের কোনটি সত্য?",
+    "options": {
+      "a": "𝑎\n→\n.\n𝑏\n→\n=\n0\na\n.\nb\n=0",
+      "b": "(\n𝑎\n→\n+\n𝑏\n→\n)\n.\n(\n𝑎\n→\n−\n𝑏\n→\n)\n=\n0\n(\na\n+\nb\n).(\na\n−\nb\n)=0",
+      "c": "উভয় সত্য",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "(\n𝑎\n→\n+\n𝑏\n→\n)\n=\n4\n𝑖\n^\n+\n𝑖\n^\n−\n𝑘\n^\n(\na\n+\nb\n)=4\ni\n^\n+\ni\n^\n−\nk\n^\n\n\n\n\n(\n𝑎\n→\n−\n𝑏\n→\n)\n=\n−\n2\n𝑖\n^\n+\n3\n𝑖\n^\n−\n5\n𝑘\n^\n(\na\n−\nb\n)=−2\ni\n^\n+3\ni\n^\n−5\nk\n^\n\n\n\n\n∴\n(\n𝑎\n→\n+\n𝑏\n→\n)\n.\n(\n𝑎\n→\n−\n𝑏\n→\n)\n=\n−\n8\n+\n3\n+\n5\n=\n0\n∴(\na\n+\nb\n).(\na\n−\nb\n)=−8+3+5=0",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Physics",
+    "question": "a এর মান কত হলে ⃗ = 2 ^ − 5 ^ + 3 ^ A =2 i ^ −5 j ^ ​ +3 k ^ ও ⃗ = 2 ^ + ^ + 3 ^ B =2 i ^ +a j ^ ​ +3 k ^ ভেক্টরদ্বয় সমান্তরাল হবে?",
+    "options": {
+      "a": "5",
+      "b": "5",
+      "c": "4",
+      "d": "4"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝑎\n1\n𝑖\n^\n+\n𝑏\n1\n𝑗\n^\n+\n𝑐\n1\n𝑘\n^\n=\n0\na\n1\n\t​\n\ni\n^\n+b\n1\n\t​\n\nj\n^\n\t​\n\n+c\n1\n\t​\n\nk\n^\n=0 এবং \n𝑎\n2\n𝑖\n^\n+\n𝑏\n2\n𝑗\n^\n+\n𝑐\n2\n=\n^\n0\na\n2\n\t​\n\ni\n^\n+b\n2\n\t​\n\nj\n^\n\t​\n\n+c\n2\n\t​\n\n=\n^\n0  ভেক্টরদ্বয় সসমান্তরাল হবে যদি, \n𝑎\n1\n𝑎\n2\n=\n𝑏\n1\n𝑏\n2\n=\n𝑐\n1\n𝑐\n2\n∴\n2\n2\n=\n−\n5\n𝑎\n  \n⟹\n  \n𝑎\n=\n−\n5\na\n2\n\t​\n\na\n1\n\t​\n\n\t​\n\n=\nb\n2\n\t​\n\nb\n1\n\t​\n\n\t​\n\n=\nc\n2\n\t​\n\nc\n1\n\t​\n\n\t​\n\n∴\n2\n2\n\t​\n\n=\na\n−5\n\t​\n\n⟹a=−5",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Physics",
+    "question": "ভেক্টর → = ^ + ^ u = i ^ + j ^ ​ ও → = ^ + ^ v = j ^ ​ + k ^ এর অন্তর্ভুক্ত কোণ-",
+    "options": {
+      "a": "cos\n⁡\n−\n1\n1\n3\ncos\n−1\n3\n\t​\n\n1\n\t​",
+      "b": "cos\n⁡\n−\n1\n1\n3\ncos\n−1\n3\n1\n\t​",
+      "c": "cos\n⁡\n−\n1\n1\n2\ncos\n−1\n2\n1\n\t​",
+      "d": "cos\n⁡\n−\n1\n1\n2\ncos\n−1\n2\n\t​\n\n1\n\t​"
+    },
+    "correctAnswer": "c",
+    "explanation": "দেয়া আছে,\n\n𝑢\n⃗\n=\n𝑖\n^\n+\n𝑗\n^\n\n\n𝑣\n⃗\n=\n𝑗\n^\n+\n𝑘\n^\n\n\n𝑢\n⃗\n⋅\n𝑣\n⃗\n=\n∣\n𝑢\n⃗\n∣\n⋅\n∣\n𝑣\n⃗\n∣\n⋅\ncos\n⁡\n𝜃\n\n\n⇒\n(\n𝑖\n^\n+\n𝑗\n^\n)\n(\n𝑗\n^\n+\n𝑘\n^\n)\n=\n1\n2\n+\n1\n2\n⋅\n1\n2\n+\n1\n2\n⋅\ncos\n⁡\n𝜃\n\n\n⇒\n0\n⋅\n+\n1\n+\n0\n=\n2\n⋅\n2\n⋅\ncos\n⁡\n𝜃\n\n\n⇒\ncos\n⁡\n𝜃\n=\n1\n2\n\n\n⇒\n𝜃\n=\n60\n∘\n\n\n⇒\n𝜃\n=\ncos\n⁡\n−\n1\n(\n1\n2\n)\n.\nu\n=\ni\n^\n+\nj\n^\n\t​\n\nv\n=\nj\n^\n\t​\n\n+\nk\n^\nu\n⋅\nv\n=∣\nu\n∣⋅∣\nv\n∣⋅cosθ\n⇒(\ni\n^\n+\nj\n^\n\t​\n\n)(\nj\n^\n\t​\n\n+\nk\n^\n)=\n1\n2\n+1\n2\n\t​\n\n⋅\n1\n2\n+1\n2\n\t​\n\n⋅cosθ\n⇒0⋅+1+0=\n2\n\t​\n\n⋅\n2\n\t​\n\n⋅cosθ\n⇒cosθ=\n2\n1\n\t​\n\n⇒θ=60\n∘\n⇒θ=cos\n−1\n(\n2\n1\n\t​\n\n).\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Physics",
+    "question": "নিচের কোনটি ভেক্টর রাশি?",
+    "options": {
+      "a": "কাজ",
+      "b": "বিভব",
+      "c": "ধারকত্ব",
+      "d": "প্রাবল্য"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Physics",
+    "question": "দুটি বল 1 F 1 ​ এবং 2 F 2 ​ একে অপরের লম্ব ভাবে কাজ করছে, তাহলে তাদের লব্ধি কত?",
+    "options": {
+      "a": "𝐹\n1\n+\n𝐹\n2\nF\n1\n\t​\n\n+F\n2\n\t​",
+      "b": "𝐹\n1\n2\n+\n𝐹\n2\n2\nF\n1\n\t​\n\n2\n+F\n2\n\t​\n\n2\n\t​",
+      "c": "𝐹\n1\n2\n−\n𝐹\n2\n2\nF\n1\n2\n\t​\n\n−F\n2\n\t​\n\n2\n\t​",
+      "d": "𝐹\n1\n+\n𝐹\n2\n2\n2\nF\n1\n\t​\n\n+F\n2\n\t​\n\n\t​"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান::\n\n দুটি ভেক্টরের লব্ধি হবে ,\n\n𝑅\n=\n𝐴\n2\n+\n𝐵\n2\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝜃\n\n\n∴\n𝐹\n2\n=\n𝐹\n1\n2\n+\n𝐹\n2\n2\n+\n2\n𝐹\n1\n𝐹\n2\ncos\n⁡\n90\n∘\nR=\nA\n2\n+B\n2\n+2ABcosθ\n\t​\n\n∴F\n2\n=F\n1\n2\n\t​\n\n+F\n2\n2\n\t​\n\n+2F\n1\n\t​\n\nF\n2\n\t​\n\ncos90\n∘\n\t​\n\n দেওয়া আছে,\n\n \n𝜃\n=\n90\n∘\nθ=90\n∘\n\nসুতরাং,\n\n𝐹\n2\n=\n𝐹\n1\n2\n+\n𝐹\n2\n2\n⇒\n𝐹\n=\n𝐹\n1\n2\n+\n𝐹\n2\n2\nF\n2\n=F\n1\n2\n\t​\n\n+F\n2\n2\n\t​\n\n⇒F=\nF\n1\n2\n\t​\n\n+F\n2\n2\n\t​\n\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Physics",
+    "question": "যদি → + → = → A + B = R এবং = = A=B=Rহয়, তবে A ও B এর মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "0",
+      "b": "2π/3",
+      "c": "π/3",
+      "d": "π"
+    },
+    "correctAnswer": "b",
+    "explanation": "𝑅\n2\n=\n𝐴\n2\n+\n𝐵\n2\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝛼\nR\n2\n=A\n2\n+B\n2\n+2ABcosα\n\n\n\n\n⇒\n𝑅\n2\n=\n𝑅\n2\n+\n𝑅\n2\n+\n2\n𝑅\n.\n𝑅\ncos\n⁡\n𝛼\n⇒R\n2\n=R\n2\n+R\n2\n+2R.Rcosα\n\n\n\n\n⇒\ncos\n⁡\n𝛼\n=\n−\n1\n2\n⇒cosα=−\n2\n1\n\t​\n\n\n\n\n\n∴\n𝛼\n=\n2\n𝜋\n3\n∴α=\n3\n2π\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Physics",
+    "question": "দুটি সমমানের ভেক্টর একটি বিন্দুতে ক্রিয়াশীল। এদের লব্ধির মান যেকোনো একটি ভেক্টরের মানের সমান। ভেক্টর দুটির মধ্যবর্তী কোণের মান কত?",
+    "options": {
+      "a": "0\n°\n0°",
+      "b": "90\n°\n90°",
+      "c": "120\n°\n120°",
+      "d": "180\n°\n180°"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝑃\n=\n𝑃\n2\n+\n𝑃\n2\n+\n2.\n𝑃\n.\n𝑃\n \n𝑐\n𝑜\n𝑠\n𝛼\n \n⇒\n𝑐\n𝑜\n𝑠\n𝛼\n \n=\n−\n1\n2\n∴\n𝛼\n=\n120\n°\nP=\nP\n2\n+P\n2\n+2.P.P cosα\n\t​\n\n ⇒cosα =\n2\n−1\n\t​\n\n∴α=120°",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Physics",
+    "question": "নিচের কোনটি ভেক্টরের বিনিময় সূত্র?",
+    "options": {
+      "a": "𝐴\n⃗\n+\n𝐵\n⃗\n=\n𝐵\n⃗\n+\n𝐴\n⃗\nA\n+\nB\n=\nB\n+\nA",
+      "b": "(\n𝐴\n⃗\n+\n𝐵\n⃗\n)\n+\n𝐶\n⃗\n=\n𝐴\n⃗\n+\n(\n𝐵\n⃗\n+\n𝐶\n⃗\n)\n(\nA\n+\nB\n)+\nC\n=\nA\n+(\nB\n+\nC\n)",
+      "c": "𝑚\n(\n𝐴\n⃗\n+\n𝐵\n⃗\n)\n=\n𝑚\n𝐴\n⃗\n+\n𝑚\n𝐵\n⃗\nm(\nA\n+\nB\n)=m\nA\n+m\nB",
+      "d": "𝐴\n⃗\n+\n𝐵\n⃗\n=\n𝐴\n⃗\n𝐵\n⃗\nA\n+\nB\n=\nA\nB"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝐴\n⃗\n+\n𝐵\n⃗\n=\n𝐵\n⃗\n+\n𝐴\n⃗\nA\n+\nB\n=\nB\n+\nA\n \n\n\n\n\n এটিই ভেক্টরের বিনিময় সূত্র।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Physics",
+    "question": "কোনটি দিক রাশির বৈশিষ্ট্য নয়?",
+    "options": {
+      "a": "একই জাতীয় দুটি রাশির মান P ও Q হলে, এদের যোগফল R=P+Q",
+      "b": "দিক রাশির দিক ও মান উভয়ই বর্তমান",
+      "c": "সাধারণ গানিতিক নিয়মে দুইটি দিক রাশির যোগ-বিয়োগ করা যায় না",
+      "d": "দিক রাশি উহার মান অথবা দিক, অথবা মান ও দিক উভয়ের পরিবর্তনে পরিবর্তিত হয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "দিক রাশির যোগফল নির্ণয় করতে রাশিগুলোর মান ও এদের মধ্যবর্তী কোণ দরকার হয়। \n\n𝑅\n⃗\n=\n𝑃\n⃗\n+\n𝑄\n⃗\n\n\n⇒\n𝑅\n=\n𝑃\n2\n+\n𝑄\n2\n+\n2\n𝑃\n𝑄\ncos\n⁡\n𝜃\nR\n=\nP\n+\nQ\n\t​\n\n⇒R=\nP\n2\n+Q\n2\n+2PQcosθ\n\t​\n\n\t​\n\n\n𝑅\n=\n𝑃\n+\n𝑄\nR=P+Q শুধুমাত্র তখনই হওয়া সম্ভব, যখন \n𝑃\nP ও \n𝑄\nQ এর মধ্যবর্তী কোণ \n0\n°\n0° হবে। অন্য সকল ক্ষেত্রে \n𝑅\n<\n𝑃\n+\n𝑄\nR<P+Q \n\nতাই, একই জাতীয় দুটি রাশির মান \n𝑃\nP ও \n𝑄\nQ হলে, এদের যোগফল R=P+Q ; দিক রাশির বৈশিষ্ট্য নয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Physics",
+    "question": "ভেক্টর যোজনের অন্তর্ভূক্ত নয় কোনটি?",
+    "options": {
+      "a": "সাধারণ সূত্র",
+      "b": "ত্রিভূজ সূত্র",
+      "c": "সমান্তরাল সূত্র",
+      "d": "সামান্তরিক সূত্র"
+    },
+    "correctAnswer": "c",
+    "explanation": "ভেক্টর যোজনের পাঁচটি সূত্র- ১. সাধারণ সূত্র ২. ত্রিভূজ সূত্র ৩. বহুভূজ সূত্র ৪. সামান্তরিক সূত্র ৫. উপাংশ সূত্র",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Physics",
+    "question": "যদি → + → = → A + B = R এবং = = A=B=Rহয়, তবে A ও B এর মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "0",
+      "b": "2π/3",
+      "c": "π/3",
+      "d": "π"
+    },
+    "correctAnswer": "b",
+    "explanation": "𝑅\n2\n=\n𝐴\n2\n+\n𝐵\n2\n+\n2\n𝐴\n𝐵\ncos\n⁡\n𝛼\nR\n2\n=A\n2\n+B\n2\n+2ABcosα\n\n\n\n\n⇒\n𝑅\n2\n=\n𝑅\n2\n+\n𝑅\n2\n+\n2\n𝑅\n.\n𝑅\ncos\n⁡\n𝛼\n⇒R\n2\n=R\n2\n+R\n2\n+2R.Rcosα\n\n\n\n\n⇒\ncos\n⁡\n𝛼\n=\n−\n1\n2\n⇒cosα=−\n2\n1\n\t​\n\n\n\n\n\n∴\n𝛼\n=\n2\n𝜋\n3\n∴α=\n3\n2π\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Physics",
+    "question": "বিপরীতমুখী দুইটি বাসের বেগ যথাক্রমে 25m/s ও 10 m/s হলে, তাদের মধ্যকার আপেক্ষিক বেগের মান কত?",
+    "options": {
+      "a": "25m/s",
+      "b": "10 m/s",
+      "c": "15 m/s",
+      "d": "35 m/s"
+    },
+    "correctAnswer": "d",
+    "explanation": "বিপরীতমুখী দুইটি বাসের আপেক্ষিক বেগ বের করতে হলে তাদের বেগের মানগুলো যোগ করতে হয়।ধরি, প্রথম বাসের বেগ (\n\n\nv\n1\n\n\n) = 25 m/sদ্বিতীয় বাসের বেগ (\n\n\nv\n2\n\n\n) = 10 m/sযেহেতু বাস দুটি বিপরীত দিকে চলছে, তাদের আপেক্ষিক বেগ হবে: আপেক্ষিক বেগ (\n\n\nV\n\nআপেক্ষিক\n\n\n\n) =\n\n\nv\n1\n\n\n- (\n\n-\n\nv\n2\n\n\n)=\n\n\nv\n1\n\n\n+\n\n\nv\n2\n\n\n= 25 m/s + 10 m/s= 35 m/sসুতরাং, তাদের মধ্যকার আপেক্ষিক বেগের মান 35 m/s।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]
