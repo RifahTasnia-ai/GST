@@ -787,30 +787,6 @@
     "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
   },
   {
-    "studentName": "Tt",
-    "answers": {
-      "2": "d",
-      "3": "b",
-      "4": "b",
-      "5": "c",
-      "6": "b",
-      "7": "b",
-      "8": "c",
-      "9": "a",
-      "11": "b",
-      "12": "c",
-      "13": "b"
-    },
-    "score": 0,
-    "totalMarks": 50,
-    "timestamp": "2026-02-27T16:17:03.990Z",
-    "attempted": 11,
-    "correct": 0,
-    "wrong": 11,
-    "pass": false,
-    "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
-  },
-  {
     "studentName": "Gst11..",
     "answers": {},
     "score": 0,
