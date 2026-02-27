@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porikkhok Exam Scraper</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #0f0f1a;
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #1a1a2e;
+            border: 1px solid #2d2d4e;
+            border-radius: 16px;
+            padding: 36px;
+            max-width: 680px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            color: #64748b;
+            font-size: 0.88rem;
+            margin-bottom: 28px;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #2d2d4e;
+            margin: 24px 0;
+        }
+
+        /* Steps */
+        .steps-box {
+            background: #0f0f1a;
+            border: 1px solid #1e3a5f;
+            border-radius: 10px;
+            padding: 18px 20px;
+            margin-bottom: 20px;
+        }
+
+        .steps-box h3 {
+            font-size: 0.88rem;
+            color: #818cf8;
+            margin-bottom: 10px;
+            letter-spacing: .04em;
+        }
+
+        .step {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            font-size: 0.86rem;
+            line-height: 1.6;
+            color: #94a3b8;
+        }
+
+        .step-num {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+
+        .step code {
+            background: #1a1a2e;
+            padding: 1px 6px;
+            border-radius: 4px;
+            color: #c084fc;
+            font-family: monospace;
+            font-size: 0.82rem;
+        }
+
+        .step strong {
+            color: #e2e8f0;
+        }
+
+        /* Bookmarklet drag area */
+        .bm-drag-area {
+            background: linear-gradient(135deg, #1e1b4b, #312e81);
+            border: 2px dashed #4f46e5;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            margin: 16px 0;
+        }
+
+        .bm-drag-area p {
+            font-size: 0.8rem;
+            color: #94a3b8;
+            margin-bottom: 12px;
+        }
+
+        .bm-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #818cf8, #c084fc);
+            color: white !important;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            cursor: grab;
+            transition: opacity 0.2s;
+        }
+
+        .bm-link:hover {
+            opacity: 0.9;
+        }
+
+        .note {
+            background: #1e293b;
+            border-left: 3px solid #fbbf24;
+            padding: 10px 14px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.82rem;
+            color: #94a3b8;
+            margin-top: 12px;
+        }
+
+        .note strong {
+            color: #fbbf24;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .badge-green {
+            background: #14532d;
+            color: #4ade80;
+        }
+
+        .badge-purple {
+            background: #2e1065;
+            color: #c084fc;
+        }
+
+        /* Bookmarklet code preview */
+        .code-box {
+            background: #0a0a15;
+            border: 1px solid #1e293b;
+            border-radius: 8px;
+            padding: 12px 14px;
+            font-family: monospace;
+            font-size: 0.75rem;
+            color: #64748b;
+            word-break: break-all;
+            margin-top: 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .server-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            margin-bottom: 16px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .status-ok {
+            background: #14532d;
+            color: #4ade80;
+        }
+
+        .status-ok .status-dot {
+            background: #4ade80;
+            animation: pulse 2s infinite;
+        }
+
+        .status-warn {
+            background: #1c1917;
+            color: #fbbf24;
+        }
+
+        .status-warn .status-dot {
+            background: #fbbf24;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1
+            }
+
+            50% {
+                opacity: .3
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>🎓 Porikkhok Scraper</h1>
+        <p class="subtitle">Extract MCQ exam data from porikkhok.com → save directly to your <code>public/</code> folder
+        </p>
+
+        <!-- Server status -->
+        <div id="serverStatus" class="server-status status-warn">
+            <span class="status-dot"></span>
+            <span id="serverStatusText">Checking dev server…</span>
+        </div>
+
+        <!-- How it works -->
+        <div class="steps-box">
+            <h3>⚡ HOW IT WORKS</h3>
+            <div class="step">
+                <div class="step-num">1</div>
+                <div>Make sure your <strong>dev server</strong> is running: <code>npm run dev</code> or
+                    <code>vercel dev</code></div>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <div><strong>Drag the button below</strong> to your Chrome bookmarks bar</div>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <div>Go to any exam page: <code>porikkhok.com/exam/…?teacher=true</code></div>
+            </div>
+            <div class="step">
+                <div class="step-num">4</div>
+                <div>Click the <strong>PorikkhokScraper</strong> bookmark — a panel appears on the page</div>
+            </div>
+            <div class="step">
+                <div class="step-num">5</div>
+                <div>Fill in the filename and click <strong>Scrape &amp; Save</strong> — it saves directly to
+                    <code>public/</code> on your PC!</div>
+            </div>
+        </div>
+
+        <!-- Drag bookmarklet -->
+        <div class="bm-drag-area">
+            <p>👇 Drag this button to your <strong>Chrome bookmarks bar</strong> (View → Bookmarks bar, or Ctrl+Shift+B)
+            </p>
+            <a id="bookmarkletBtn" href="#" class="bm-link" title="Drag me to bookmarks bar">
+                📥 PorikkhokScraper
+            </a>
+        </div>
+
+        <div class="note">
+            <strong>Why bookmarklet?</strong> It runs directly inside the porikkhok.com page — full DOM access, no CORS,
+            no Chrome Extension needed.
+            The scraped data is sent back to your local server and saved to <code>public/YourFilename.json</code>
+            automatically.
+            Images are saved to <code>public/images/</code>.
+        </div>
+
+        <hr class="divider">
+
+        <!-- What you get -->
+        <div class="steps-box">
+            <h3>📦 OUTPUT FORMAT</h3>
+            <div class="step">
+                <div class="step-num">✓</div>
+                <div><strong>Correct answers</strong> from the official API (plain text, always accurate)</div>
+            </div>
+            <div class="step">
+                <div class="step-num">✓</div>
+                <div><strong>Question text</strong> scraped from the rendered DOM (decoded Bengali)</div>
+            </div>
+            <div class="step">
+                <div class="step-num">✓</div>
+                <div><strong>AI explanations</strong> from the API (plain Bengali text)</div>
+            </div>
+            <div class="step">
+                <div class="step-num">✓</div>
+                <div><strong>Images</strong> downloaded from assets.chorcha.net → saved to <code>public/images/</code>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-num">✓</div>
+                <div>JSON format matches your existing <code>public/GST-*.json</code> files exactly</div>
+            </div>
+        </div>
+
+        <div class="code-box" id="bmCodePreview">Building bookmarklet…</div>
+    </div>
+
+    <script>
+        // ── Build tiny loader bookmarklet ─────────────────────────────────────────
+        // Detects the server port and injects the full scraper script from public/
+        const loaderCode = `(function(){
+var ports=[3000,51007,5173,4173];
+var idx=0;
+function tryLoad(){
+  if(idx>=ports.length){alert('Porikkhok Scraper: Could not reach local dev server.\\nMake sure it is running!');return;}
+  var s=document.createElement('script');
+  s.src='http://localhost:'+ports[idx]+'/porikkhok-scraper-inject.js?t='+Date.now();
+  s.onerror=function(){idx++;tryLoad();};
+  document.head.appendChild(s);
+}
+tryLoad();
+})();`;
+
+        const bmHref = 'javascript:' + encodeURIComponent(loaderCode);
+        document.getElementById('bookmarkletBtn').href = bmHref;
+        document.getElementById('bmCodePreview').textContent = 'javascript:' + loaderCode.replace(/\s+/g, ' ');
+
+        // ── Check if dev server is running ────────────────────────────────────────
+        async function checkServer() {
+            const statusEl = document.getElementById('serverStatus');
+            const textEl = document.getElementById('serverStatusText');
+
+            for (const port of [3000, 51007, 5173, 4173]) {
+                try {
+                    const r = await fetch(`http://localhost:${port}/api/save-questions`, {
+                        method: 'OPTIONS',
+                        signal: AbortSignal.timeout(1200)
+                    });
+                    if (r.status < 500) {
+                        statusEl.className = 'server-status status-ok';
+                        textEl.textContent = `✅ Dev server running at localhost:${port} — ready to save!`;
+                        return;
+                    }
+                } catch { }
+            }
+
+            statusEl.className = 'server-status status-warn';
+            textEl.textContent = '⚠ Dev server not detected. Run: npm run dev  or  vercel dev';
+        }
+
+        checkServer();
+    </script>
+</body>
+
+</html>
