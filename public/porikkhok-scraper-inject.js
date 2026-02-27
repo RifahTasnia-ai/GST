@@ -353,28 +353,97 @@
             log('[IMG] This exam has NO images', '#64748b');
         }
 
-        // ── Download images as base64 ───────────────────────────────────────
+        // ???? Download images as base64 ????????????????????????????????????????????????????????????????????????????????????????
+        // Helper: fetch image via <img>+<canvas> (works when server sends CORS headers)
+        async function imgToBase64viaCanvas(url) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.onload = () => {
+                    try {
+                        const canvas = document.createElement('canvas');
+                        canvas.width = img.naturalWidth || img.width;
+                        canvas.height = img.naturalHeight || img.height;
+                        const ctx = canvas.getContext('2d');
+                        ctx.drawImage(img, 0, 0);
+                        resolve(canvas.toDataURL('image/png'));
+                    } catch (e) { reject(e); }
+                };
+                img.onerror = () => reject(new Error('Image load failed'));
+                img.src = url + (url.includes('?') ? '&' : '?') + '_cb=' + Date.now();
+            });
+        }
+
+        // Helper: fetch image via fetch() API
+        async function imgToBase64viaFetch(url) {
+            const r = await fetch(url, { mode: 'cors', signal: AbortSignal.timeout(10000) });
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            const blob = await r.blob();
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = () => reject(new Error('FileReader failed'));
+                reader.readAsDataURL(blob);
+            });
+        }
+
+        // Helper: fetch via no-cors (gets opaque response - can't read pixels but can use as src)
+        // Last resort: just keep the remote URL so we don't lose the image reference
+        async function imgToBase64(url) {
+            // Strategy 1: canvas approach (fast, works if CORS header present)
+            try {
+                const b64 = await imgToBase64viaCanvas(url);
+                if (b64 && b64.length > 100) return b64;
+            } catch (e1) { /* try next */ }
+
+            // Strategy 2: fetch with cors mode
+            try {
+                const b64 = await imgToBase64viaFetch(url);
+                if (b64 && b64.length > 100) return b64;
+            } catch (e2) { /* try next */ }
+
+            // Strategy 3: Try adding a CORS proxy
+            const proxies = [
+                `https://corsproxy.io/?${encodeURIComponent(url)}`,
+                `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+            ];
+            for (const proxyUrl of proxies) {
+                try {
+                    const r = await fetch(proxyUrl, { signal: AbortSignal.timeout(8000) });
+                    if (!r.ok) continue;
+                    const blob = await r.blob();
+                    const b64 = await new Promise((resolve, reject) => {
+                        const reader = new FileReader();
+                        reader.onload = () => resolve(reader.result);
+                        reader.onerror = () => reject(new Error('FileReader failed'));
+                        reader.readAsDataURL(blob);
+                    });
+                    if (b64 && b64.length > 100) return b64;
+                } catch (e3) { /* try next proxy */ }
+            }
+
+            throw new Error('All download strategies failed (CORS blocked)');
+        }
+
         const images = {};
         let hasImages = false;
         for (let i = 0; i < rawQuestions.length; i++) {
             const q = rawQuestions[i];
             for (let j = 0; j < q.imageUrls.length; j++) {
+                const url = q.imageUrls[j];
+                const ext = (url.split('.').pop() || 'png').split('?')[0].toLowerCase().replace(/[^a-z]/g, '') || 'png';
+                const fname = `q${i + 1}_img${j + 1}.${ext}`;
+                log(`[IMG] Downloading Q${i + 1} image...`, '#94a3b8');
                 try {
-                    const r = await fetch(q.imageUrls[j]);
-                    const blob = await r.blob();
-                    const b64 = await new Promise(res => {
-                        const reader = new FileReader();
-                        reader.onload = () => res(reader.result);
-                        reader.readAsDataURL(blob);
-                    });
-                    const ext = (q.imageUrls[j].split('.').pop() || 'png').split('?')[0].toLowerCase();
-                    const fname = `q${i + 1}_img${j + 1}.${ext}`;
+                    const b64 = await imgToBase64(url);
                     images[fname] = b64;
                     q.localImage = `/images/${fname}`;
                     hasImages = true;
                     log(`[IMG] Downloaded: ${fname}`, '#a78bfa');
                 } catch (e) {
-                    log(`[WARN] Q${i + 1} image failed: ${e.message}`, '#fbbf24');
+                    // Keep the remote URL as fallback so the question still references an image
+                    q.localImage = url;
+                    log(`[WARN] Q${i + 1} image CORS blocked - storing remote URL as fallback: ${e.message}`, '#fbbf24');
                 }
             }
         }
