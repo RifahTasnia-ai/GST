@@ -159,27 +159,31 @@ function QuestionNavigatorInner({
   }, [])
 
   /* ── Pagination Tabs ── */
-  const SUBJECT_LABELS = ['Physics', 'Chemistry', 'Math', 'Biology'];
+  // Dynamically detect subject from the first question of each 25-question group
+  const groupLabels = useMemo(() => {
+    return Array.from({ length: groupsCount }, (_, i) => {
+      const start = i * GROUP_SIZE;
+      const end = Math.min(start + GROUP_SIZE, totalQuestions);
+      const sampleQuestion = questions[start];
+      const subjectName = sampleQuestion?.subject || '';
+      // If subject field exists, use it; otherwise fall back to range numbers
+      return subjectName || `${start + 1}-${end}`;
+    });
+  }, [questions, groupsCount, totalQuestions, GROUP_SIZE]);
 
   const renderTabs = () => {
     if (groupsCount <= 1) return null;
     return (
       <div className="qn-tabs">
-        {Array.from({ length: groupsCount }, (_, i) => {
-          const start = i * GROUP_SIZE + 1;
-          const end = Math.min((i + 1) * GROUP_SIZE, totalQuestions);
-          const tabLabel = SUBJECT_LABELS[i] || `${start}-${end}`;
-
-          return (
-            <button
-              key={i}
-              className={`qn-tab ${viewedGroupIndex === i ? 'active' : ''}`}
-              onClick={() => setViewedGroupIndex(i)}
-            >
-              {tabLabel}
-            </button>
-          )
-        })}
+        {groupLabels.map((tabLabel, i) => (
+          <button
+            key={i}
+            className={`qn-tab ${viewedGroupIndex === i ? 'active' : ''}`}
+            onClick={() => setViewedGroupIndex(i)}
+          >
+            {tabLabel}
+          </button>
+        ))}
       </div>
     )
   }

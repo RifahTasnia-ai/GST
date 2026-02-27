@@ -12,6 +12,13 @@ function WelcomePage() {
         }
     }
 
+    /* Shared chevron SVG — small right arrow like iOS */
+    const Chevron = () => (
+        <svg className="option-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="9 18 15 12 9 6" />
+        </svg>
+    )
+
     return (
         <div className="welcome-page-container">
             <div className="welcome-page-content">
@@ -21,10 +28,11 @@ function WelcomePage() {
                     </div>
                     <h1 className="bengali gradient-text">স্বাগতম!</h1>
                     <p className="bengali subtitle">GST প্রস্তুতি শুরু করতে আপনার পছন্দ নির্বাচন করুন</p>
+                    <p className="bengali welcome-tagline">আপনার সাফল্যের যাত্রা শুরু হোক</p>
                 </div>
 
                 <div className="welcome-options-grid">
-                    {/* Option 1: MCQs */}
+                    {/* MCQ */}
                     <button className="welcome-option-card mcq-card" onClick={() => navigateToSection('/mcq')}>
                         <div className="option-icon-wrapper">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -32,11 +40,14 @@ function WelcomePage() {
                                 <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
                             </svg>
                         </div>
-                        <h2 className="bengali">এমসিকিউ</h2>
-                        <span className="bengali option-desc">পরীক্ষা দিন</span>
+                        <div className="option-card-text">
+                            <h2 className="bengali">এমসিকিউ</h2>
+                            <span className="bengali option-desc">পরীক্ষা দিন</span>
+                        </div>
+                        <Chevron />
                     </button>
 
-                    {/* Option 2: Class */}
+                    {/* Class */}
                     <button className="welcome-option-card class-card" onClick={() => navigateToSection('/class')}>
                         <div className="option-icon-wrapper">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -46,11 +57,14 @@ function WelcomePage() {
                                 <path d="M12 17v4" />
                             </svg>
                         </div>
-                        <h2 className="bengali">ক্লাস</h2>
-                        <span className="bengali option-desc">ভিডিও দেখুন</span>
+                        <div className="option-card-text">
+                            <h2 className="bengali">ক্লাস</h2>
+                            <span className="bengali option-desc">ভিডিও দেখুন</span>
+                        </div>
+                        <Chevron />
                     </button>
 
-                    {/* Option 3: Notes */}
+                    {/* Notes */}
                     <button className="welcome-option-card notes-card" onClick={() => setShowNotesPopup(true)}>
                         <div className="option-icon-wrapper">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -58,8 +72,11 @@ function WelcomePage() {
                                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                             </svg>
                         </div>
-                        <h2 className="bengali">নোটস</h2>
-                        <span className="bengali option-desc">পড়াশোনা করুন</span>
+                        <div className="option-card-text">
+                            <h2 className="bengali">নোটস</h2>
+                            <span className="bengali option-desc">পড়াশোনা করুন</span>
+                        </div>
+                        <Chevron />
                     </button>
                 </div>
 
