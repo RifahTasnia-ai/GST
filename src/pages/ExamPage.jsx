@@ -58,6 +58,7 @@ function ExamPage() {
         explanation: q.explanation || `সঠিক উত্তর: ${q.correctAnswer}. ${q.question}`,
         hasDiagram: q.hasDiagram || false,
         svg_code: q.svg_code || null,
+        image: q.image || null,
         subject: q.subject || ''
       }))
 
