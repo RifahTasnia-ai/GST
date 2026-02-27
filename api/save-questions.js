@@ -150,91 +150,62 @@ export default async function handler(req, res) {
             };
         });
 
-        // Save JSON
+        // ── Save JSON first ───────────────────────────────────────────────────
         const saveJsonStart = Date.now();
         await fs.writeFile(jsonPath, JSON.stringify(normalizedQuestions, null, 2), "utf-8");
         console.log(`[save-questions] Saved ${normalizedQuestions.length} questions → public/${safe}.json`);
         timings.saveJsonMs = Date.now() - saveJsonStart;
 
-        // Save base64 images if provided (legacy fallback)
-        const imagesDir = path.join(publicDir, "images");
-        const savedImages = [];
-        const savedImageSet = new Set();
-        const pushSaved = (fname) => {
-            if (!savedImageSet.has(fname)) {
-                savedImageSet.add(fname);
-                savedImages.push(fname);
-            }
-        };
-        let legacySavedCount = 0;
-
-        if (images && typeof images === "object") {
-            const legacyStart = Date.now();
-            await fs.mkdir(imagesDir, { recursive: true });
-            for (const [fname, dataUrl] of Object.entries(images)) {
-                try {
-                    const match = dataUrl.match(/^data:([^;]+);base64,(.+)$/);
-                    if (match) {
-                        const buf = Buffer.from(match[2], "base64");
-                        const safeFname = sanitizeFilename(fname, "image.png");
-                        await fs.writeFile(path.join(imagesDir, safeFname), buf);
-                        pushSaved(safeFname);
-                        legacySavedCount += 1;
-                    }
-                } catch (e) {
-                    console.warn(`[save-questions] Failed to save image ${fname}:`, e.message);
-                }
-            }
-            timings.legacyDecodeMs = Date.now() - legacyStart;
-        }
-
-        // Download images directly on the server (super fast, no CORS issues)
+        // ── Respond immediately so the browser is NEVER frozen ───────────
+        // Image downloads continue in the background after the response is sent.
         const normalizedTasks = normalizeDownloadTasks(req.body?.imagesToDownload);
-        const failedImages = [];
-        let downloadedCount = 0;
-
-        if (normalizedTasks.length > 0) {
-            const downloadStart = Date.now();
-            await fs.mkdir(imagesDir, { recursive: true });
-            console.log(`[save-questions] Server-side downloading ${normalizedTasks.length} unique images...`);
-
-            for (let i = 0; i < normalizedTasks.length; i += DOWNLOAD_CONCURRENCY) {
-                const batch = normalizedTasks.slice(i, i + DOWNLOAD_CONCURRENCY);
-                await Promise.all(batch.map(async (task) => {
-                    const result = await downloadImageTask(task, imagesDir);
-                    if (result.ok) {
-                        pushSaved(result.fname);
-                        downloadedCount += 1;
-                        return;
-                    }
-                    failedImages.push({
-                        url: result.url,
-                        fname: result.fname,
-                        error: result.error,
-                    });
-                    console.warn(`[save-questions] Failed to download image ${task.url}:`, result.error);
-                }));
-            }
-            timings.serverDownloadMs = Date.now() - downloadStart;
-        }
-
         timings.totalMs = Date.now() - startedAt;
 
-        return res.status(200).json({
+        res.status(200).json({
             success: true,
             file: `public/${safe}.json`,
             questionCount: normalizedQuestions.length,
-            imagesSaved: savedImages,
-            requestedCount: normalizedTasks.length,
-            downloadedCount,
-            savedCount: savedImages.length,
-            failedCount: failedImages.length,
-            failedImages,
-            legacyImageCount: legacySavedCount,
+            imageCount: normalizedTasks.length,
+            message: normalizedTasks.length > 0
+                ? `JSON saved. Downloading ${normalizedTasks.length} images in background…`
+                : 'JSON saved. No images to download.',
             timings,
         });
+
+        // ── Download images asynchronously AFTER response is sent ──────
+        // Errors here are logged to server console only (client already got success).
+        if (normalizedTasks.length === 0) return;
+
+        const imagesDir = path.join(publicDir, "images");
+        await fs.mkdir(imagesDir, { recursive: true });
+        console.log(`[save-questions] Background: downloading ${normalizedTasks.length} images…`);
+
+        let downloadedCount = 0;
+        let failedCount = 0;
+        const dlStart = Date.now();
+
+        for (let i = 0; i < normalizedTasks.length; i += DOWNLOAD_CONCURRENCY) {
+            const batch = normalizedTasks.slice(i, i + DOWNLOAD_CONCURRENCY);
+            await Promise.all(batch.map(async (task) => {
+                const result = await downloadImageTask(task, imagesDir);
+                if (result.ok) {
+                    downloadedCount++;
+                } else {
+                    failedCount++;
+                    console.warn(`[save-questions] Failed: ${task.url}`, result.error);
+                }
+            }));
+        }
+
+        console.log(
+            `[save-questions] Images done: ${downloadedCount} ok, ${failedCount} failed | ${Date.now() - dlStart}ms`
+        );
+
     } catch (err) {
         console.error("[save-questions]", err);
-        return res.status(500).json({ error: err.message });
+        // Only send error if response hasn't been sent yet
+        if (!res.writableEnded) {
+            return res.status(500).json({ error: err.message });
+        }
     }
 }
