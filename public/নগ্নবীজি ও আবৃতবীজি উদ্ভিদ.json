@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "question": "উভয় উদ্দীপকের ক্ষেত্রে নিচের কোনটি সঠিক?",
+    "options": {
+      "a": "বীজ উৎপন্ন করে",
+      "b": "দ্বি-নিষেক ঘটে",
+      "c": "এন্ডোস্পার্ম ট্রিপ্লয়েড",
+      "d": "আর্কিগোনিয়াম উপস্থিত"
+    },
+    "correctAnswer": "a",
+    "explanation": "চিত্র-C ও চিত্র-D যথাক্রমে আবৃতবীজী ও নগ্নবীজী উদ্ভিদ।উভয় উদ্ভিদেই বীজ সৃষ্টি হয়।কিন্তু আবৃতবীজী উদ্ভিদে দ্বিনিষেক ঘটে,এন্ডোস্পার্ম ট্রিপ্লয়েড এবং আর্কিগোনিয়াম থাকে না,অন্যদিকে নগ্নবীজী উদ্ভিদে দ্বিনিষেক ঘটে না ,,এন্ডোস্পার্ম হ্যাপ্লয়েড এবং আর্কিগোনিয়াম উপস্থিত ।",
+    "hasDiagram": true,
+    "questionImage": "/images/q1_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "question": "প্রাথমিক মেসোজয়িক যুগের চিরসবুজ উদ্ভিদ, যাকে জীবন্ত জীবাশ্ম বলা হয়। এই উদ্ভিদটির প্রধান দেহ কোন ধরনের?",
+    "options": {
+      "a": "মাইক্রোফাইট",
+      "b": "স্পোরোফাইট",
+      "c": "গ্যামেটোফাইট",
+      "d": "থ্যালোফাইট"
+    },
+    "correctAnswer": "b",
+    "explanation": "Cycas উদ্ভিদের শনাক্তকারী বৈশিষ্ট্য:\n\nCycas উদ্ভিদ স্পোরোফাইট। দেহ মূল, কাণ্ড ও পাতায় বিভক্ত",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "question": "নিচের কোনটি জীবন্ত জীবাশ্ম?",
+    "options": {
+      "a": "Ginko biloba",
+      "b": "G. oblongum",
+      "c": "G. latifolium",
+      "d": "Aurucaria"
+    },
+    "correctAnswer": "a",
+    "explanation": "Ginkgo biloba হলো একটি জীবন্ত জীবাশ্ম। এটি বর্তমানে টিকে থাকা একমাত্র Ginkgo প্রজাতি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "question": "'Q' চিহ্নিত অংশটিকে বিলা হয়—",
+    "options": {
+      "a": "পিনিউল",
+      "b": "সোরাস",
+      "c": "র‍্যাকিস",
+      "d": "অ্যাপোফাইসিস"
+    },
+    "correctAnswer": "a",
+    "explanation": "সোরাস",
+    "hasDiagram": true,
+    "questionImage": "/images/q4_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "question": "নগ্নবীজী উদ্ভিদে কিসের মাধ্যমে পরাগায়ন ঘটে?",
+    "options": {
+      "a": "প্রাণী",
+      "b": "পতঙ্গ",
+      "c": "বাতাস",
+      "d": "পানি"
+    },
+    "correctAnswer": "c",
+    "explanation": "নগ্নবীজী উদ্ভিদের বৈশিষ্ট্য\n\n১.গর্ভাশয় নেই তাই এদের কোনো ফল সৃষ্টি হয় না।\n\n২.ফল সৃষ্টি হয় না বলে বীজ (নিষিক্ত ডিম্বক) নগ্ন অবস্থায় থাকে।\n\n৩.নগ্নবীজী উদ্ভিদে দ্বিনিষেক ঘটে না (ব্যতিক্রম Ephedra), তাই শাঁস (endosperm) হ্যাপ্লয়েড এবং নিষেকের পূর্বে সৃষ্টি হয় ।\n\n৪.জাইলেম টিস্যুতে সত্যিকার ভেসেল কোষ থাকে না (ব্যতিক্রম Gnetum) এবং ফ্লোয়েম টিস্যুতে সঙ্গীকোষ থাকে না ।\n\n৫.সকলেই বায়ু পরাগী।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "question": "Cycas এর ডিম্বাণু তৈরির সঠিক ধারাক্রম কোনটি?",
+    "options": {
+      "a": "ডিম্বক → স্ত্রীরেণু মাতৃকোষ → স্ত্রীরেণু → ডিম্বাণু",
+      "b": "ডিম্বক → আর্কিগোনিয়াম → স্ত্রীরেণু → ডিম্বাণু",
+      "c": "ডিম্বক → স্ত্রীরেণু মাতৃকোষ → স্ত্রীরেণু → আর্কিগোনিয়াম → ডিম্বাণু",
+      "d": "আর্কিগোনিয়াম → ডিম্বক → স্ত্রীরেণু → ডিম্বাণু"
+    },
+    "correctAnswer": "c",
+    "explanation": "অপরদিকে স্ত্রী Cycas উদ্ভিদের মাথায় স্ত্রীরেণুপত্র (megasporophyll) তৈরি হয়। প্রতিটি মেগাস্পোরোফিল ১৫-২০\n\n\n\n\nসে.মি. লম্বা । স্ত্রীরেণুপত্র ঢিলাভাবে সজ্জিত থাকে, কোনো কমপ্যাক্ট স্ট্রোবিলাস গঠন করে না। স্ত্রীরেণুপত্রের কিনারে ডিম্বক\n\n\n\n\n(ovule) সৃষ্টি হয়। ডিম্বকগুলোর সংখ্যা ২–৪ জোড়া এবং লাল বর্ণের ডিম্বক থাকে। উপরের অংশে পিনিউল (ক্ষুদ্রাকৃতির\n\n\n\n\nপিনা বা পত্রক) থাকে । দুই কিনারে ডিম্বকসহ প্রতিটি স্ত্রীরেণুপত্রকে ফণা তোলা সাপের মাথার মতো দেখায় (যা অনেক সময়\n\n\n\n\nবাজারে সর্পমণি নামে বিক্রি করতে দেখা যায়)। ডিম্বকের ভেতরে স্ত্রীরেণু মাতৃকোষ সৃষ্টি হয়। স্ত্রীরেণু মাতৃকোষ মায়োসিস,\n\n\n\n\nবিভাজনের মাধ্যমে হ্যাপ্লয়েড স্ত্রীরেণু (megaspore) তৈরি করে। স্ত্রীরেণু থেকে আর্কিগোনিয়াম সৃষ্টি হয়। আর্কিগোনিয়ামের\n\n\n\n\nভেতরে সৃষ্টি হয় ডিম্বাণু । আর্কিগোনিয়াম সৃষ্টি Cycas-এর একটি আদি বৈশিষ্ট্য।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "question": "Cycas এর প্রতিটি পাতা -",
+    "options": {
+      "a": "অপক্ষল যৌগিক",
+      "b": "পক্ষল যৌগিক",
+      "c": "দ্বিপক্ষল যৌগিক",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "সাইকাস (Cycas) এর প্রতিটি পাতা পক্ষল যৌগিক হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "question": "Cycas উদ্ভিদের শুক্রাণু কিরূপ?",
+    "options": {
+      "a": "দ্বি-ফ্ল্যাজেলাযুক্ত",
+      "b": "ফ্ল্যাজেলাবিহীন",
+      "c": "এক ফ্ল্যাজেলাযুক্ত",
+      "d": "বহু-ফ্ল্যাজেলাযুক্ত"
+    },
+    "correctAnswer": "d",
+    "explanation": "Cycas উদ্ভিদের শুক্রাণু বহু-ফ্ল্যাজেলাযুক্ত (multi-flagellated) হয়। এটি উদ্ভিদকুলের মধ্যে সর্ববৃহৎ, লাটিমের মতো সচল এবং বহু ফ্ল্যাজেলাবিশিষ্ট হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "question": "নগ্নবীজী উদ্ভিদের কোনটি অনুপস্থিত?",
+    "options": {
+      "a": "ফল",
+      "b": "পাতা",
+      "c": "বীজ",
+      "d": "মূল"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "question": "সাইকাসের পুং স্ট্রোবিলাসের দৈর্ঘ্য কত?",
+    "options": {
+      "a": "প্রায় ৫০ সেমি",
+      "b": "প্রায় ৭০ সেমি",
+      "c": "প্রায় ১০০ সেমি",
+      "d": "প্রায় ১৫০ সেমি"
+    },
+    "correctAnswer": "a",
+    "explanation": "Cycas এর পুংরেণুপত্রকে মাইক্রোস্পোরোফিল বলে।প্রতিটি মাইক্রোস্পোরোফিল দৈর্ঘ্যে ৩-৫ সেমি এবং প্রস্থে ১২-২৩ মিমি।এদের পুংরেণুপত্রগুলো একত্রে গুচ্ছাকারে সজ্জিত হয়ে মোচাকৃতির পুং স্ট্রোবিলাস গঠন করে।এটি দৈর্ঘ্যে প্রায় ৫০ সেমি হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "question": "Agrostology কি সম্পর্কিত বিদ্যা?",
+    "options": {
+      "a": "ভূ-প্রকৃতি",
+      "b": "কৃষি",
+      "c": "কীটপতঙ্গ",
+      "d": "ঘাস"
+    },
+    "correctAnswer": "d",
+    "explanation": "Agrostology হলো ঘাস সম্পর্কিত বিদ্যা।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "question": "নিচের কোন একবীজপত্রী উদ্ভিদে গৌণবৃদ্ধি ঘটে ?",
+    "options": {
+      "a": "Dracaena",
+      "b": "Maize",
+      "c": "Oryza sativa",
+      "d": "Orchid"
+    },
+    "correctAnswer": "a",
+    "explanation": "নিচের একবীজপত্রী উদ্ভিদগুলোর মধ্যে Dracaena উদ্ভিদে গৌণবৃদ্ধি ঘটে।সাধারণত দ্বিবীজপত্রী উদ্ভিদে গৌণবৃদ্ধি দেখা যায়, তবে কিছু ব্যতিক্রমী একবীজপত্রী উদ্ভিদ, যেমন Dracaena এবং Yucca-তেও গৌণবৃদ্ধি ঘটে থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "question": "কোন যুগে সাইকাস উদ্ভিদের ব্যাপক বিস্তৃতি ঘটেছিলো?",
+    "options": {
+      "a": "জুরাসিক",
+      "b": "মেসোজোয়িক",
+      "c": "সিনোজোয়িক",
+      "d": "টারসিয়ারি"
+    },
+    "correctAnswer": "b",
+    "explanation": "সাইকাস উদ্ভিদের ব্যাপক বিস্তৃতি ঘটেছিলো মেসোজোয়িক যুগে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "question": "Cycas এর শুক্রাণুর আকৃতি কিরূপ?",
+    "options": {
+      "a": "বেলনাকার",
+      "b": "মোচাকৃতির",
+      "c": "লাটিমাকৃতির",
+      "d": "পেয়ালাকৃতির"
+    },
+    "correctAnswer": "c",
+    "explanation": "Cycas এর শুক্রাণুর আকৃতি লাটিমাকৃতির।উদ্ভিদকুলের মধ্যে Cycas এর শুক্রাণু সর্ববৃহৎ, সচল এবং এদের অনেক ফ্লাজেলা থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "question": "Cycas উদ্ভিদটির প্রধান দেহটি কোন ধরনের?",
+    "options": {
+      "a": "হ্যাপ্লয়েড",
+      "b": "ডিপ্লয়েড",
+      "c": "ট্রিপ্লয়েড",
+      "d": "পলিপ্লয়েড"
+    },
+    "correctAnswer": "b",
+    "explanation": "Cycas উদ্ভিদের প্রধান দেহ ডিপ্লয়েড (২n) প্রকৃতির। এটি একটি স্পোরোফাইট উদ্ভিদ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "question": "Cycas উদ্ভিদ প্রাকৃতিকভাবে জন্মে-",
+    "options": {
+      "a": "দিনাজপুরে",
+      "b": "পটুয়াখালীর কুয়াকাটায়",
+      "c": "চট্টগ্রামের বারিয়াডালা বনে",
+      "d": "শ্রীমঙ্গল বনে"
+    },
+    "correctAnswer": "c",
+    "explanation": "চট্টগ্রামের বারিয়াডালা বনে সাইকাস উদ্ভিদ প্রাকৃতিকভাবে জন্মায়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "question": "জীবন্ত উদ্ভিদের মধ্যে সবচেয়ে প্রাচীন কোনটি?",
+    "options": {
+      "a": "কার্পাস",
+      "b": "ইউক্যালিপ্টাস",
+      "c": "আকাশমণি",
+      "d": "ব্রিসল কোন পাইন"
+    },
+    "correctAnswer": "d",
+    "explanation": "সবচেয়ে প্রাচীন জীবন্ত উদ্ভিদ হলো ব্রিসল কোন পাইন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "question": "কোন প্রজাতির সাইকাস চট্টগ্রামের পাহাড়ি এলাকায় দেখা যায়?",
+    "options": {
+      "a": "Cycas indica",
+      "b": "Cycas pectinata",
+      "c": "Cycas rrvoluta",
+      "d": "Cycas circinalis"
+    },
+    "correctAnswer": "b",
+    "explanation": "চট্টগ্রামের পাহাড়ি এলাকায় যে সাইকাস প্রজাতি দেখা যায়, তা হলো Cycas pectinata।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "question": "অর্থনৈতিক গুরুত্বে Cycas এর সাথে অসামঞ্জস্য হল-",
+    "options": {
+      "a": "সবজি হিসেবে",
+      "b": "সর্পমণি",
+      "c": "সার হিসেবে",
+      "d": "ঘর সাজাতে"
+    },
+    "correctAnswer": "c",
+    "explanation": "অর্থনৈতিক গুরুত্বে Cycas-এর সাথে অসামঞ্জস্য হলো- সার হিসেবে।কারণ, Cycas-এর কচি পাতা সবজি হিসেবে, পাতা ঘর সাজানোর কাজে এবং এর স্ত্রী রেণুপত্র (সর্পমণি) হিসেবে ব্যবহৃত হয়। কিন্তু সার হিসেবে এর কোনো অর্থনৈতিক গুরুত্ব নেই।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "question": "পৃথিবীর সবচেয়ে প্রাচীন বীজ যুক্ত উদ্ভিদ কোনটি?",
+    "options": {
+      "a": "Pinu longava",
+      "b": "Cycas indica",
+      "c": "Ginko biloba",
+      "d": "Cycas pectinata"
+    },
+    "correctAnswer": "c",
+    "explanation": "পৃথিবীর সবচেয়ে প্রাচীন বীজযুক্ত উদ্ভিদ হলো Ginkgo biloba। একে \"জীবন্ত জীবাশ্ম\"ও বলা হয়, কারণ এটি লক্ষ লক্ষ বছর ধরে প্রায় অপরিবর্তিত রয়েছে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "question": "Living fossil বলা হয় -",
+    "options": {
+      "a": "Cycas",
+      "b": "Gnetum",
+      "c": "Selaginella",
+      "d": "Pteris"
+    },
+    "correctAnswer": "a",
+    "explanation": "Cycas-কে জীবন্ত জীবাশ্ম বলার কারণ নিম্নরূপ :\n\nCycas উদ্ভিদ Cycadales বর্গের অন্তর্গত। প্রাথমিক মেসোজোয়িক যুগে Cycadales বর্গের অনেক উদ্ভিদ পৃথিবীব্যাপী বিস্তৃত ছিল। এদের অনেকেই এখন বিলুপ্ত। এদেরকে পাওয়া যায় জীবাশ্ম (fossil) হিসেবে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "question": "চিত্রের B চিহ্নিত অংশটি হল—",
+    "options": {
+      "a": "পিনিউল",
+      "b": "অ্যাপোফাইসিস",
+      "c": "সোরাস",
+      "d": "ডিম্বক"
+    },
+    "correctAnswer": "c",
+    "explanation": "চিত্রে B চিহ্নিত অংশটি হলো সোরাস। ফার্ন জাতীয় উদ্ভিদের পাতায় স্পোরাঞ্জিয়াম (রেণুস্থলী) গুচ্ছাকারে থাকে, এই গুচ্ছকে সোরাস বলে। তুমি দেখতে পাচ্ছো, B দিয়ে সেই গুচ্ছকেই চিহ্নিত করা হয়েছে।",
+    "hasDiagram": true,
+    "questionImage": "/images/q22_img.png",
+    "explanationImage": "/images/q22_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "question": "উক্ত মূলটি কোন উদ্ভিদের?",
+    "options": {
+      "a": "সুন্দরী",
+      "b": "সাইকাস",
+      "c": "বট",
+      "d": "কেওড়া"
+    },
+    "correctAnswer": "b",
+    "explanation": "চিত্রে প্রদর্শিত মূলটি একটি শ্বাসমূল। এই ধরনের মূল সাধারণত লবণাক্ত ও কর্দমাক্ত মাটিতে জন্মানো উদ্ভিদে দেখা যায়, যা তাদের শ্বাস-প্রশ্বাসে সাহায্য করে। প্রদত্ত বিকল্পগুলির মধ্যে, কেওড়া গাছে এই ধরনের শ্বাসমূল দেখা যায়।সুতরাং, মূলটি কেওড়া উদ্ভিদের।",
+    "hasDiagram": true,
+    "questionImage": "/images/q23_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "question": "Cycas এর স্ট্রোবিলাস গঠিত হয় কিসের দ্বারা?",
+    "options": {
+      "a": "শল্কপত্র",
+      "b": "পুংরেণুপত্র",
+      "c": "পর্ণপত্র",
+      "d": "স্ত্রীরেণুপত্র"
+    },
+    "correctAnswer": "b",
+    "explanation": "পুংরেণুপত্রগুলো একত্রিত হয়ে স্ট্রোবিলাস গঠন করে কিন্তু স্ত্রীরেণুপত্র সত্যিকার স্ট্রোবিলাস গঠন করে না।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "question": "সাইকাসের পুংরেণুপত্রের সরু বর্ধিত মাথাকে বলে -",
+    "options": {
+      "a": "অ্যাপোফাইসিস",
+      "b": "সোরাস",
+      "c": "ডিম্বক",
+      "d": "পর্ণপত্র"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q25_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Biology",
+    "question": "Cycas এর পুংরেণুপত্রের সরু বর্ধিত মাথাকে কি বলা হয়?",
+    "options": {
+      "a": "পুংরেণু",
+      "b": "অ্যাপোফাইসিস",
+      "c": "পুংস্ট্রোবিলাস",
+      "d": "স্পোরাঞ্জিয়া"
+    },
+    "correctAnswer": "b",
+    "explanation": "Cycas এর পুংরেণুপত্রের সরু বর্ধিত মাথাকে অ্যাপোফাইসিস বলা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Biology",
+    "question": "নিচের কোন উদ্ভিদের ফুল হয় কিন্তু ফল হয় না?",
+    "options": {
+      "a": "Ulothrix sp.",
+      "b": "Riccia sp",
+      "c": "Pteris sp.",
+      "d": "Cycas sp."
+    },
+    "correctAnswer": "d",
+    "explanation": "\"Cycas উদ্ভিদের শনাক্তকারী বৈশিষ্ট্য\n\n১। Eycas উদ্ভিদ স্পোরোফাইট। দেহ মূল, কাণ্ড ও পাতায় বিভক্ত ।\n\n২। উদ্ভিদ খাড়া পাম জাতীয় ।\n\n৩। পাতা বৃহৎ, পক্ষল যৌগিক, কাণ্ডের মাথার দিকে সর্পিলাকারে সজ্জিত।\n\n৪। কচি পাতার ভার্নেশন সারসিনেট (কুণ্ডলিত)।\n\n৫। পাতায় ট্রান্সফিউশন টিস্যু বিদ্যমান।\n\n৬। গৌণ অস্থানিক কোরালয়েড মূল বিদ্যমান ।\n\n৭। গর্ভাশয় না থাকায় এদের ফল সৃষ্টি হয় না, বীজ নগ্ন অবস্থায় থাকে ।\n\nপুংরেণুপত্রগুলো একত্রিত হয়ে স্ট্রোবিলাস গঠন করে কিন্তু স্ত্রীরেণুপত্র সত্যিকার স্ট্রোবিলাস গঠন করে না।\n\n৯। হেটারোস্পোরিক অর্থাৎ যৌন জননে মেগা ও মাইক্রোস্পোর সৃষ্টি হয়।\n\n১০। বাতাসের মাধ্যমে পরাগায়ন ঘটে।\n\n১১। Cycas-এর শুক্রাণু উদ্ভিদকূলে সর্ববৃহৎ, লাটিমের মতো, সচল ও বহু ফ্ল্যাজেলাবিশিষ্ট ।\n\n,",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q27_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Biology",
+    "question": "রশিদ একটি কলেজের একাদশ শ্রেণির ছাত্র। ক্লাস শেষে একদিন সে লক্ষ করল তাদের অধ্যক্ষের কক্ষের পিছন দিকে একটি ছােট খেজুর গাছের মতাে গাছ আছে। সে তার শিক্ষকের কাছে গাছটি সম্পর্কে জানতে চাইলে তিনি একে Cycas বলে জানাল। গ্রীষ্ম ও উপগ্ৰীষ্ম অঞ্চলে উদ্ভিদটির কতগুলাে প্রজাতি পাওয়া যায়?",
+    "options": {
+      "a": "১০টি",
+      "b": "২০টি",
+      "c": "৩০টি",
+      "d": "৪০টি"
+    },
+    "correctAnswer": "b",
+    "explanation": "সাইকাসের পরিচিতি (Introduction of Cycas)\n\n\n\n\nCycas একটি বহুবর্ষজীবী স্থলজ নগ্নবীজী উদ্ভিদ। এর ২০টি প্রজাতি গ্রীষ্ম ও উপগ্রীষ্ম অঞ্চলে জন্মে। বিভিন্ন প্রজাতি\n\n\n\n\nবাংলাদেশ, ভারত, বার্মা, চীন, জাপান, অস্ট্রেলিয়াতে প্রচুর জন্মে থাকে। বাংলাদেশের পূর্বাঞ্চলীয় পাহাড়ে (চট্টগ্রামের\n\n\n\n\nবাড়িয়াডালা) প্রাকৃতিকভাবে শুধুমাত্র C. pectinata জন্মে। এক সময়ে বাংলাদেশে এ প্রাচীন উদ্ভিদটির প্রাচুর্য থাকলেও\n\n\n\n\nমানুষের অনৈতিক নিধনের ফলে বর্তমানে প্রায় বিলুপ্তির পথে। তবে সমতলের বাগানগুলোতে শোভাবর্ধনের জন্য দুটি\n\n\n\n\nপ্রজাতি C. revoluta ও C. circinalis ব্যাপকভাবে রোপণ করা হয়। প্রায় ৩০ কোটি বছর পূর্বে পৃথিবীতে Cycas\n\n\n\n\nজাতীয় উদ্ভিদের আবির্ভাব ঘটেছিলো। এদের নিকট সম্পর্কীয় বহু প্রজাতি বিলুপ্ত হয়ে গেছে। তাই Cycas-কে জীবন্ত\n\n\n\n\nজীবাশ্ম বলা হয় ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Biology",
+    "question": "বাংলাদেশে নগ্নবীজী কয়টি প্রজাতি আছে?",
+    "options": {
+      "a": "248",
+      "b": "4000",
+      "c": "275",
+      "d": "5"
+    },
+    "correctAnswer": "d",
+    "explanation": "বাংলাদেশে প্রায় ৪০০০ প্রজাতির আবৃতবীজী উদ্ভিদ থাকলেও মাত্র পাঁচ প্রজাতির নগ্নবীজী উদ্ভিদ প্রাকৃতিকভাবে জন্মে থাকে। প্রজাতিগুলো হলো Cycas pectinata যা চট্টগ্রামের বাড়িয়াডালা পাহাড়ি এলাকায় পাওয়া যায়; Podocarpus neriifolius, বাংলাদেশে এটি বাঁশপাতা নামে পরিচিত এবং চট্টগ্রাম, কক্সবাজার ও সিলেট বনাঞ্চলে এখনো পাওয়া যায় এবং Gnetum নামক একটি কাষ্ঠল লতানো উদ্ভিদ যা সিলেট, চট্টগ্রাম, পার্বত্য চট্টগ্রাম ও কক্সবাজার জেলার বিভিন্ন বনে পাওয়া যায়। বাংলাদেশে Gnetum (নিটাম) এর ২/৩টি প্রজাতি আছে বলে ধারণা করা হয়। প্রজাতিগুলো হলো Gretamm montenum, G. oblongum এবং G. latifolium। সবগুলো প্রজাতি বিলুপ্তির আশঙ্কায় আছে। এদেরকে রক্ষা করার জন্য সবাইকে এগিয়ে আসতে হবে। লাগানো অবস্থায় বাগানে Cycas revoluta, Thuja, Aurucaria, Pinus ইত্যাদি নগ্নবীজী উদ্ভিদ দেখা যায়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Biology",
+    "question": "উদ্দীপক সংশ্লিষ্ট উদ্ভিদ কান্ডের ভাস্কুলার বান্ডলের প্রকৃতি হবে-",
+    "options": {
+      "a": "কেন্দ্রিক",
+      "b": "সমপার্শ্বীয় বদ্ধ",
+      "c": "সমপার্শ্বীয় মুক্ত",
+      "d": "সমপার্শ্বীয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "উদ্দীপক সংশ্লিষ্ট উদ্ভিদ কান্ডের ভাস্কুলার বান্ডলটি হবে বদ্ধ সমপার্শ্বীয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Biology",
+    "question": "প্রাথমিক মেসােজোয়িক যুগের চিরসবুজ উদ্ভিদ, যাকে জীবন্ত জীবাশ্ম বলা হয়। উদ্ভিদটি নিচের কোনটি?",
+    "options": {
+      "a": "Pinus",
+      "b": "Cycas",
+      "c": "Riccia",
+      "d": "Pteris"
+    },
+    "correctAnswer": "b",
+    "explanation": "Cycas-কে জীবন্ত জীবাশ্ম বলার কারণ নিম্নরূপ :\n\n\n\n\nCycas উদ্ভিদ Cycadales বর্গের অন্তর্গত। প্রাথমিক মেসোজোয়িক যুগে Cycadales বর্গের অনেক উদ্ভিদ পৃথিবীব্যাপী\n\n\n\n\nবিস্তৃত ছিল। এদের অনেকেই এখন বিলুপ্ত। এদেরকে পাওয়া যায় জীবাশ্ম (fossil) হিসেবে। এ বর্গের Cycas সহ ৯টি\n\n\n\n\nগণের প্রায় ১০০টি প্রজাতি এখনো পৃথিবীর বুকে টিকে আছে। এদের অনেক বৈশিষ্ট্য সেই আদি কালের বিলুপ্ত জীবাশ্ম\n\n\n\n\nসাইকাড্স-এর বৈশিষ্ট্যের অনুরূপ এবং আদি প্রকৃতির। এজন্যই Cycas সহ বর্তমানকালের সকল সাইকাসকে\n\n\n\n\n(Cycadales বর্গের সদস্যদেরকে সাধারণভাবে Cycads বলা হয়) জীবন্ত জীবাশ্ম (Living fossil) বলা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Biology",
+    "question": "সাইকাসের মূলদেহ কোন ধরনের?",
+    "options": {
+      "a": "গ্যামেটাফাইটিক",
+      "b": "স্পোরোফাইটিক",
+      "c": "থ্যালোফাইটিক",
+      "d": "ব্রায়োফাইটিক"
+    },
+    "correctAnswer": "b",
+    "explanation": "সাইকাসের মূলদেহ স্পোরোফাইটিক ধরনের।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Biology",
+    "question": "মাইক্রোস্পোর ও মেগাস্পোর উৎপন্ন করে -",
+    "options": {
+      "a": "Riccia",
+      "b": "Marchantia",
+      "c": "Cycas",
+      "d": "Moss"
+    },
+    "correctAnswer": "c",
+    "explanation": "১। উদ্ভিদ বহুবর্ষজীবী, চিরসবুজ, স্পোরোফাইট অসমরেণুপ্রসূ (heterosporous) অর্থাৎ মাইক্রোস্পোর ও মেগাস্পোর\n\n(পুং ও স্ত্রী স্পোর) তৈরি করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Biology",
+    "question": "উদ্দীপকের \"P\" চিহ্নিত অংশটি কী ?-",
+    "options": {
+      "a": "সোরাস",
+      "b": "স্পোর",
+      "c": "বীজ",
+      "d": "ডিম্বক"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q34_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Biology",
+    "question": "Cycas এর শুক্রাণুর ক্ষেত্রে নিচের কোনটি সঠিক নয়?",
+    "options": {
+      "a": "লাটিমের মত দেখতে",
+      "b": "বহুফ্ল্যাজেলা বিশিষ্ট",
+      "c": "উদ্ভিদকূলের মধ্যে সর্ববৃহৎ",
+      "d": "এক ফ্ল্যাজেলা বিশিষ্ট"
+    },
+    "correctAnswer": "d",
+    "explanation": "Cycas এর শুক্রাণুর ক্ষেত্রে \"এক ফ্ল্যাজেলা বিশিষ্ট\" (এক ফ্ল্যাজেলা যুক্ত) এই বক্তব্যটি সঠিক নয়। কারণ Cycas এর শুক্রাণু হলো বহু ফ্ল্যাজেলা বিশিষ্ট।Cycas এর শুক্রাণু সম্পর্কে সঠিক তথ্যগুলো হলো:লাটিমের মতো দেখতে।বহু ফ্ল্যাজেলা বিশিষ্ট।উদ্ভিদকুলের মধ্যে সর্ববৃহৎ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Biology",
+    "question": "Cycas এর ক্ষেত্রে সঠিক নয় কোনটি?",
+    "options": {
+      "a": "স্পোরোফাইট",
+      "b": "পাতায় ট্রান্সফিউশান টিস্যু বিদ্যমান",
+      "c": "পুংস্ট্রোবিলাস তৈরি হয়",
+      "d": "শুক্রাণু নিশ্চল ও ফ্লাজেলাবিহীন"
+    },
+    "correctAnswer": "d",
+    "explanation": "Cycas - এর শুক্রাণু উদ্ভিদকূলের সর্ববৃহৎ, লাটিমের মতো, সচল ও বহু ফ্লাজোলাবিশিষ্ট",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Biology",
+    "question": "কাশি নিরাময়ে ব্যবহৃত উদ্ভিদ কোনটি?",
+    "options": {
+      "a": "Adhatoda vasica",
+      "b": "Cynodon dactylon",
+      "c": "Ruellia tuberosa",
+      "d": "Eclipta prostrata"
+    },
+    "correctAnswer": "a",
+    "explanation": "কাশি নিরাময়ে ব্যবহৃত উদ্ভিদটি হলো Adhatoda vasica।এই উদ্ভিদটি সাধারণত বাসক নামে পরিচিত এবং এর পাতায় 'ভাসিসিন' নামক একটি উপাদান থাকে, যা কাশির ওষুধ তৈরিতে ব্যবহৃত হয়। এটি শ্বাসনালী পরিষ্কার করে এবং কফ বের করতে সাহায্য করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Biology",
+    "question": "কোন মাসে সাইকাসের গোড়া থেকে চারা সৃষ্টি হয়?",
+    "options": {
+      "a": "মার্চ-এপ্রিল",
+      "b": "মে-জুন",
+      "c": "জুলাই-আগষ্ট",
+      "d": "নভেম্বর-ডিসেম্বর"
+    },
+    "correctAnswer": "a",
+    "explanation": "সাইকাসের গোড়া থেকে চারা সৃষ্টি হয় মার্চ-এপ্রিল মাসে। এই সময়ে সাইকাসের অযৌন জনন প্রক্রিয়ার মাধ্যমে চারা উৎপন্ন হয়, যা নতুন গাছ তৈরিতে ব্যবহার করা যায়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Biology",
+    "question": "উদ্ভিদকুলের মধ্যে সর্ববৃহৎ শুক্রাণু কোন উদ্ভিদে?",
+    "options": {
+      "a": "Pinus",
+      "b": "Sequoia",
+      "c": "Cycas",
+      "d": "Gentum"
+    },
+    "correctAnswer": "c",
+    "explanation": "\"Cycas উদ্ভিদের শনাক্তকারী বৈশিষ্ট্য\n\n১। Eycas উদ্ভিদ স্পোরোফাইট। দেহ মূল, কাণ্ড ও পাতায় বিভক্ত ।\n\n২। উদ্ভিদ খাড়া পাম জাতীয় ।\n\n৩। পাতা বৃহৎ, পক্ষল যৌগিক, কাণ্ডের মাথার দিকে সর্পিলাকারে সজ্জিত।\n\n৪। কচি পাতার ভার্নেশন সারসিনেট (কুণ্ডলিত)।\n\n৫। পাতায় ট্রান্সফিউশন টিস্যু বিদ্যমান।\n\n৬। গৌণ অস্থানিক কোরালয়েড মূল বিদ্যমান ।\n\n৭। গর্ভাশয় না থাকায় এদের ফল সৃষ্টি হয় না, বীজ নগ্ন অবস্থায় থাকে ।\n\nপুংরেণুপত্রগুলো একত্রিত হয়ে স্ট্রোবিলাস গঠন করে কিন্তু স্ত্রীরেণুপত্র সত্যিকার স্ট্রোবিলাস গঠন করে না।\n\n৯। হেটারোস্পোরিক অর্থাৎ যৌন জননে মেগা ও মাইক্রোস্পোর সৃষ্টি হয়।\n\n১০। বাতাসের মাধ্যমে পরাগায়ন ঘটে।\n\n১১। Cycas-এর শুক্রাণু উদ্ভিদকূলে সর্ববৃহৎ, লাটিমের মতো, সচল ও বহু ফ্ল্যাজেলাবিশিষ্ট ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q27_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Biology",
+    "question": "সাইকাসের এন্ডোস্পার্ম হলো—",
+    "options": {
+      "a": "হ্যাপ্লয়েড",
+      "b": "ডিপ্লয়েড",
+      "c": "ট্রিপ্লয়েড",
+      "d": "পলিপ্লয়েড"
+    },
+    "correctAnswer": "a",
+    "explanation": "সাইকাসের এন্ডোস্পার্ম হ্যাপ্লয়েড হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Biology",
+    "question": "সাইকাসের ডিম্বাণু সৃষ্টি হয় কোন অংশ থেকে?",
+    "options": {
+      "a": "স্ট্যামিনেট",
+      "b": "ডিম্বক",
+      "c": "আর্কিগোনিয়াম",
+      "d": "এন্থ্যারেডিউয়াম"
+    },
+    "correctAnswer": "c",
+    "explanation": "আর্কিগোনিয়াম",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Biology",
+    "question": "দ্বিনিষেক ঘটে না কোনটিতে?",
+    "options": {
+      "a": "ইফ্রেডা",
+      "b": "সাইকাস",
+      "c": "ধান",
+      "d": "বাদাম"
+    },
+    "correctAnswer": "b",
+    "explanation": "দ্বিনিষেক ঘটে না সাইকাসে।সাইকাস একটি নগ্নবীজী উদ্ভিদ। নগ্নবীজী উদ্ভিদে সাধারণত দ্বিনিষেক ঘটে না।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Biology",
+    "question": "পাম গাছের ও ফার্নের পাতা মিলসম্পন্ন এমন একটি উদ্ভিদ জীববিজ্ঞানে তোমরা পড়েছ। তারা পরিবেশের সাথে খাপ খাইয়ে টিকে আছে। উদ্দীপকের উদ্ভিদটি হলো -",
+    "options": {
+      "a": "Cycas",
+      "b": "Riccia",
+      "c": "Ephedra",
+      "d": "Pteris"
+    },
+    "correctAnswer": "a",
+    "explanation": "শঙ্কপত্রগুলো যৌগপত্রের মুকুলকে আবৃত করে রাখে। পাম উদ্ভিদ এবং ফার্ন-এর\n\nপাতার সাথে সাইকাসের পাতা কিছুটা মিলসম্পন্ন বলে অনেক সময় Cycas কে\n\nপামফার্ন বলা হয়। যৌগপত্রের প্রতিটি পত্রকখণ্ড গাঢ় সবুজ বর্ণের, মসৃণ, চর্মবৎ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Biology",
+    "question": "চিত্রটি যে উদ্ভিদের অংশ তার ক্ষেত্রে নিচের কোনটি সঠিক?",
+    "options": {
+      "a": "এন্ডোস্পার্ম",
+      "b": "উদ্ভিদ সহবাসী",
+      "c": "ফল হয়",
+      "d": "কোরালয়েড মূল দেখা যায়"
+    },
+    "correctAnswer": "d",
+    "explanation": "\"Cycas উদ্ভিদের শনাক্তকারী বৈশিষ্ট্য\n\n১। Eycas উদ্ভিদ স্পোরোফাইট। দেহ মূল, কাণ্ড ও পাতায় বিভক্ত ।\n\n২। উদ্ভিদ খাড়া পাম জাতীয় ।\n\n৩। পাতা বৃহৎ, পক্ষল যৌগিক, কাণ্ডের মাথার দিকে সর্পিলাকারে সজ্জিত।\n\n৪। কচি পাতার ভার্নেশন সারসিনেট (কুণ্ডলিত)।\n\n৫। পাতায় ট্রান্সফিউশন টিস্যু বিদ্যমান।\n\n৬। গৌণ অস্থানিক কোরালয়েড মূল বিদ্যমান ।\n\n৭। গর্ভাশয় না থাকায় এদের ফল সৃষ্টি হয় না, বীজ নগ্ন অবস্থায় থাকে ।\n\nপুংরেণুপত্রগুলো একত্রিত হয়ে স্ট্রোবিলাস গঠন করে কিন্তু স্ত্রীরেণুপত্র সত্যিকার স্ট্রোবিলাস গঠন করে না।\n\n৯। হেটারোস্পোরিক অর্থাৎ যৌন জননে মেগা ও মাইক্রোস্পোর সৃষ্টি হয়।\n\n১০। বাতাসের মাধ্যমে পরাগায়ন ঘটে।\n\n১১। Cycas-এর শুক্রাণু উদ্ভিদকূলে সর্ববৃহৎ, লাটিমের মতো, সচল ও বহু ফ্ল্যাজেলাবিশিষ্ট ।",
+    "hasDiagram": true,
+    "questionImage": "/images/q44_img.png",
+    "explanationImage": "/images/q44_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Biology",
+    "question": "সোরাস তৈরি হয় কোন পদ্ধতিতে?",
+    "options": {
+      "a": "যৌন",
+      "b": "অযৌন",
+      "c": "অঙ্গজ",
+      "d": "কৃত্রিম"
+    },
+    "correctAnswer": "a",
+    "explanation": "Cycas-এ পুং উদ্ভিদ এবং স্ত্রী উদ্ভিদ পৃথক। পুং Cycas উদ্ভিদের শীর্ষে অসংখ্য পুংরেণুপত্র। (microsporophyll) সৃষ্টি হয় যা একত্রিত হয়ে একটি মোচাকৃতির পুংস্ট্রোবিলাস তৈরি করে। পুংরেণুপত্রের সরু বর্ধিত\n\nমাথাকে অ্যাপোফাইসিস বলে। পুংরেণুপত্রের পৃষ্ঠদেশে বহু স্পোরাঞ্জিয়া (একবচনে স্পোরাঞ্জিয়াম) তৈরি হয়। ২-৫টি। স্পোরাঞ্জিয়া একত্রে অবস্থান করে, যাকে সোরাস (বহুবচনে সোরাই) বলে। স্পোরাঞ্জিয়ামের ভেতরে স্পোর মাতৃকোষ সৃষ্টি হয়। প্রতিটি স্পোর মাতৃকোষ মায়োসিস প্রক্রিয়ায় বিভাজিত হয়ে হ্যাপ্লয়েড পুংরেণু (microspore) তৈরি করে। পুংরেণু হতে পরে শুক্রাণু তৈরি হয়",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Biology",
+    "question": "নিচের কোন বৃক্ষটি gymnosperms?",
+    "options": {
+      "a": "Sequoia gigantea",
+      "b": "Zera mays",
+      "c": "Solanum melongena",
+      "d": "Nymphaea nouchali"
+    },
+    "correctAnswer": "a",
+    "explanation": "Sequoia gigantea একটি নগ্নবীজী উদ্ভিদ। নগ্নবীজী উদ্ভিদ হলো এমন উদ্ভিদ যাদের বীজ ফলে আবৃত থাকে না।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Biology",
+    "question": "পৃথিবীর সবচেয়ে বয়স্ক উদ্ভিদ কোনটা?",
+    "options": {
+      "a": "কোস্ট রেডউড",
+      "b": "সেকুয়া",
+      "c": "ব্রিসল কোন পাইন",
+      "d": "ইউক্যালিপটাস"
+    },
+    "correctAnswer": "c",
+    "explanation": "বিশ্বের সবচেয়ে প্রাচীন বৃক্ষ হলো আমেরিকার নাভাডা ও ক্যালিফোর্নিয়ায় বিদ্যমান ব্রিসল কোন পাইন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Biology",
+    "question": "এককোষী সর্বাপেক্ষা বড় উদ্ভিদ হল-",
+    "options": {
+      "a": "Mycoplasma",
+      "b": "Bochmeria",
+      "c": "Acetabularia",
+      "d": "Penicillin"
+    },
+    "correctAnswer": "c",
+    "explanation": "এককোষী সর্বাপেক্ষা বড় উদ্ভিদ হলো Acetabularia নামক শৈবাল। এটি প্রায় ৫-১০ সেমি লম্বা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Biology",
+    "question": "কোন উদ্ভিদটি বিলুপ্তির আশংকা রয়েছে?",
+    "options": {
+      "a": "Gnetum oblongum",
+      "b": "Cycas revoluta",
+      "c": "Podocarpus neriifolius",
+      "d": "Mangifera indica"
+    },
+    "correctAnswer": "a",
+    "explanation": "Gnetum oblongum উদ্ভিদটির বিলুপ্তির আশঙ্কা রয়েছে। Gnetum গণের কয়েকটি প্রজাতি যেমন Gnetum montenum, Gnetum oblongum এবং Gnetum latifolium বাংলাদেশে বিলুপ্তির আশঙ্কায় রয়েছে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Biology",
+    "question": "নগ্নবীজী উদ্ভিদে কোনটি উপস্থিত?",
+    "options": {
+      "a": "গর্ভমুণ্ড",
+      "b": "গর্ভদণ্ড",
+      "c": "ডিম্বক",
+      "d": "গর্ভাশয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "নগ্নবীজী উদ্ভিদের বৈশিষ্ট্য:\n\n১. মেগাস্পোরোফিল-এ (স্ত্রীরেণুপত্র) ডিম্বক উৎপন্ন হলেও কোনো গর্ভাশয় তৈরি হয় না অর্থাৎ এদের গর্ভাশয়, গর্ভদণ্ড ও গর্ভমুণ্ড নেই ।\n\n২.পরাগায়নকালে পরাগরেণু সরাসরি ডিম্বক রন্ধ্রে পতিত হয়।\n\n৩.ডিম্বক মেগাস্পোরোফিলের কিনারে নগ্ন অবস্থায় থাকে।\n\n৪.গর্ভাশয় নেই তাই এদের কোনো ফল সৃষ্টি হয় না।\n\n৫.ফল সৃষ্টি হয় না বলে বীজ (নিষিক্ত ডিম্বক) নগ্ন অবস্থায় থাকে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]

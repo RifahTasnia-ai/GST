@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "question": "এক্সপ্লান্ট নির্বাচন - মিডিয়াম টিস্যু স্থাপন → A → ছোট চারার সৃষ্টি নিচের কোনটি A চিহ্নিত ধাপ?",
+    "options": {
+      "a": "মূল সৃষ্টি",
+      "b": "জীবাণু মুক্তকরণ",
+      "c": "ক্যালাস সৃষ্টি",
+      "d": "টবে চারা লাগানো"
+    },
+    "correctAnswer": "c",
+    "explanation": "টিস্যু কালচার পদ্ধতিতে এক্সপ্লান্ট নির্বাচন এবং মিডিয়ামে টিস্যু স্থাপনের পরের ধাপটি হলো ক্যালাস সৃষ্টি। তাই A চিহ্নিত ধাপটি হলো ক্যালাস সৃষ্টি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": "/images/q1_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "question": "পাখি ছাড়া 'দোয়েল' নিম্নের কোন জাতের শস্যকে বোঝায়?",
+    "options": {
+      "a": "ধান",
+      "b": "আলু",
+      "c": "ভুট্টা",
+      "d": "গম"
+    },
+    "correctAnswer": "d",
+    "explanation": "পাখি ছাড়া ‘দোয়েল’ বলতে গম শস্যকে বোঝায়। এটি গমের একটি উন্নত জাত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "question": "কোন বিজ্ঞানী মতপ্রকাশ করেন যে প্রতিটি সজীব উদ্ভিদ কোষের সম্পূর্ণ উদ্ভিদে পরিণত হওয়ার ক্ষমতা আছে?",
+    "options": {
+      "a": "White",
+      "b": "Haberlandt",
+      "c": "Morgan",
+      "d": "Nobercourt"
+    },
+    "correctAnswer": "c",
+    "explanation": "আমেরিকান বিজ্ঞানী মর্গান মতপ্রকাশ করেন যে, প্রতিটি সজীব উদ্ভিদ কোষের সম্পূর্ণ উদ্ভিদে পরিণত হওয়ার ক্ষমতা আছে। তিনি এই ক্ষমতাকে টটিপোটেন্সি (totipotency) নামে অভিহিত করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "question": "উপরের চিত্রে A -চিহ্নিত অংশটি হলো—",
+    "options": {
+      "a": "এক্সপ্লান্ট",
+      "b": "ক্যালাস",
+      "c": "মূল",
+      "d": "কাণ্ড"
+    },
+    "correctAnswer": "b",
+    "explanation": "টিস্যু কালচার এর সময় আবাদে স্থাপিত টিস্যু বারবার বিভাজনের মাধ্যমে যে অবয়বহীন টিস্যুমন্ডে পরিণত হয় তাই ক্যালাস।",
+    "hasDiagram": true,
+    "questionImage": "/images/q4_img.png",
+    "explanationImage": "/images/q4_expl.png",
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "question": "প্লান্ট টিস‍্যু কালচারে ব‍্যবহৃত ব‍্যাসাল মিডিয়ামের pH কত?",
+    "options": {
+      "a": "4.5-5.2",
+      "b": "5.5-5.8",
+      "c": "6.0-6.5",
+      "d": "7.0-7.5"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্লান্ট টিস্যু কালচারে ব্যবহৃত ব্যাসাল মিডিয়ামের pH হলো 5.5-5.8।এটি উদ্ভিদের কোষের বৃদ্ধি ও বিকাশের জন্য উপযুক্ত একটি pH মাত্রা।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "question": "টিস্যু কালচার পদ্ধতির ধাপ কোনটি?",
+    "options": {
+      "a": "এক্সপ্লান্ট নির্বাচন",
+      "b": "বাহক নির্বাচন",
+      "c": "পোষক নির্বাচন",
+      "d": "টারগেট DNA নির্বাচন"
+    },
+    "correctAnswer": "a",
+    "explanation": "টিস্যু কালচার পদ্ধতির একটি ধাপ হলো এক্সপ্লান্ট নির্বাচন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "question": "কোন পদ্ধতিতে অ্যান্ড্রোজেনিক হ্যাপ্লয়েড উদ্ভিদের চারা উৎপাদন করা হয়?",
+    "options": {
+      "a": "মাইক্রোপ্রোপাগেশন",
+      "b": "এমব্রায়ো কালচার",
+      "c": "অ্যান্থার কালচার",
+      "d": "মেরিস্টেম কালচার"
+    },
+    "correctAnswer": "c",
+    "explanation": "অ্যান্থার কালচার (Anther Culture) পদ্ধতিতে অ্যান্ড্রোজেনিক হ্যাপ্লয়েড উদ্ভিদের চারা উৎপাদন করা হয়। এই পদ্ধতিতে, পরাগধানী থেকে টিস্যু কালচারের মাধ্যমে হ্যাপ্লয়েড উদ্ভিদ তৈরি করা হয়। পরাগরেণু হ্যাপ্লয়েড কোষ হওয়ায়, এর থেকে উৎপন্ন উদ্ভিদও হ্যাপ্লয়েড হয়। পুষ্টিকর মাধ্যম ও ফাইটোহরমোনের সাহায্যে এই প্রক্রিয়া সম্পন্ন হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "question": "পরাগধানী আবাদের মাধ্যমে যে উদ্ভিদ তৈরি হবে, সেটি-",
+    "options": {
+      "a": "পলিপ্লয়েড",
+      "b": "ট্রিপ্লয়েড",
+      "c": "ডিপ্লয়েড",
+      "d": "হ্যাপ্লয়েড"
+    },
+    "correctAnswer": "d",
+    "explanation": "পরাগধানী আবাদের মাধ্যমে যে উদ্ভিদ তৈরি হবে, সেটি হ্যাপ্লয়েড। পরাগরেণু ও পরাগধানী কালচারের মাধ্যমে অ্যান্ড্রোজেনিক হ্যাপ্লয়েড উদ্ভিদ উৎপাদন করা সম্ভব।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "question": "Agar কী?",
+    "options": {
+      "a": "কালচার মিডিয়ায় ব্যবহৃত কার্বোহাইড্রেট",
+      "b": "কালচার মিডিয়ায় ব্যবহৃত লিপিড",
+      "c": "কালচার মিডিয়ায় ব্যবহৃত প্রোটিন",
+      "d": "কালচার মিডিয়াম ব্যবহৃত সল্ট"
+    },
+    "correctAnswer": "a",
+    "explanation": "অ্যাগার হলো এক প্রকার জেলির মতো পদার্থ যা কিছু প্রজাতির লাল শৈবালের কোষ প্রাচীর থেকে পাওয়া যায়। এটি টিস্যু কালচারের সময় আবাদ মাধ্যমকে (কালচার মিডিয়াম) ঘন করতে ব্যবহৃত হয় এবং এটি একটি কার্বোহাইড্রেট।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "question": "উপরের চিত্রে 'A' ধাপে কী সৃষ্টি হবে?",
+    "options": {
+      "a": "মূল",
+      "b": "নতুন পত্র",
+      "c": "এক্সপ্লান্ট",
+      "d": "ক্যালাস"
+    },
+    "correctAnswer": "d",
+    "explanation": "ক্যালাস",
+    "hasDiagram": true,
+    "questionImage": "/images/q10_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "question": "কোন বিজ্ঞানী সর্বপ্রথম Biotechnology শব্দটি ব্যবহার করেন?",
+    "options": {
+      "a": "Janet Parker",
+      "b": "Karl Ereky",
+      "c": "Edward Jenner",
+      "d": "John Clinch"
+    },
+    "correctAnswer": "b",
+    "explanation": "হাঙ্গেরীয় কৃষি প্রকৌশলী Karl Ereky ১৯১৯ সালে সর্ব প্রথম শূকরের গণ প্রজননের উদ্দেশ্যে Biotechnology (জীবপ্রযুক্তি) শব্দটি ব্যবহার করেন।বায়োটেকনোলজি জীববিজ্ঞানের একটি আধুনিক ও প্রয়োগমুখী শাখা।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "question": "অটোক্লেভ যন্ত্র কত তাপমাত্রায় জীবাণুমুক্ত করা হয়?",
+    "options": {
+      "a": "115oC",
+      "b": "120oC",
+      "c": "121oC",
+      "d": "212oC"
+    },
+    "correctAnswer": "c",
+    "explanation": "অটোক্লেভ যন্ত্রে ১২১°C তাপমাত্রায় জীবাণুমুক্ত করা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "question": "কোন দেশে 'পিটা' জাতের ধান পাওয়া যায়?",
+    "options": {
+      "a": "জাপান",
+      "b": "ইন্দোনেশিয়া",
+      "c": "সোমালিয়া",
+      "d": "ভিয়েতনাম"
+    },
+    "correctAnswer": "b",
+    "explanation": "পিটা জাতের ধান ইন্দোনেশিয়ায় পাওয়া যায়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "question": "পরাগধানী কালচারের মাধ্যমে সৃষ্ট গুয়ান-18 কোন ধরনের ফসল?",
+    "options": {
+      "a": "গম",
+      "b": "ধান",
+      "c": "ভুট্টা",
+      "d": "বার্লি"
+    },
+    "correctAnswer": "b",
+    "explanation": "পুষ্পের পরাগধানী থেকে টিস্যু কালচার পদ্ধতিতে হ্যাপ্লয়েড উদ্ভিদ সৃষ্টির প্রক্রিয়াকে পরাগধানী কালচার বা অ্যান্থার কালচার বলে। এ পদ্ধতির মাধ্যমে অ্যান্ড্রোজেনিক হ্যাপ্লয়েড উদ্ভিদের চারা উৎপাদন করা হয় এবং জেনেটিক গবেষণার জন্য হোমোজাইগাস ব্রিডিং লাইন সৃষ্টি করা হয়। চীন দেশে এ পদ্ধতিতে গুয়ান-18 জাতের ধান ও জিনঘুয়া-1 জাতের গম উৎপাদন করা হয়েছে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "question": "টিস্যুকালচার প্রক্রিয়ায় হ্যাপ্লয়েড উদ্ভিদ তৈরির মাধ্যমকে বলা হয়-",
+    "options": {
+      "a": "ক্যালাস কালচার",
+      "b": "মেরিস্টেম কালচার",
+      "c": "শুট টিপ কালচার",
+      "d": "এ্যান্থার কালচার"
+    },
+    "correctAnswer": "d",
+    "explanation": "অ্যান্থার কালচার",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "question": "কোন প্রযুক্তিতে মাতৃগুণাবলি অক্ষুন্ন রেখে কাঙ্ক্ষিত উদ্ভিদের দ্রুত সংখ্যা বৃদ্ধি করা হয়?",
+    "options": {
+      "a": "অ্যান্থার কালচার",
+      "b": "এমব্রায়ো কালচার",
+      "c": "মেরিস্টেম কালচার",
+      "d": "মাইক্রোপ্রোপাগেশন"
+    },
+    "correctAnswer": "d",
+    "explanation": "মাইক্রোপ্রোপাগেশন। এই প্রযুক্তিতে মাতৃ উদ্ভিদের গুণাগুণ অক্ষুন্ন রেখে অল্প সময়ে অধিক সংখ্যক চারাগাছ উৎপাদন করা হয়। এটি ক্লোনিং প্রযুক্তি নামেও পরিচিত কারণ উদ্ভিদের ক্ষুদ্রাংশ থেকে পূর্ণাঙ্গ উদ্ভিদ তৈরি হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "question": "সোমাটিক এমব্রায়োজেনেসিস পদ্ধতিতে সর্বপ্রথম কোন উদ্ভিদ উৎপাদন করা হয়?",
+    "options": {
+      "a": "গাজর",
+      "b": "পেঁপে",
+      "c": "বেল",
+      "d": "বেগুন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সোমাটিক এমব্রায়োজেনেসিস পদ্ধতিতে সর্বপ্রথম গাজর উৎপাদন করা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "question": "টিস্যু কালচার প্রযুক্তির জনক কে?",
+    "options": {
+      "a": "মেন্ডেল",
+      "b": "হাচিনসন",
+      "c": "ল্যামার্ক",
+      "d": "হ্যাবারল্যান্ড"
+    },
+    "correctAnswer": "d",
+    "explanation": "• টিস্যু কালচার প্রযুক্তির জনক- হ্যাবারল্যান্ড। কেননা, জার্মান এই উদ্ভিদবিজ্ঞানীই সর্বপ্রথম টিস্যু কালচার প্রযুক্তির ব্যবহার করে অণুচারা তৈরিতে সক্ষম হন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "question": "সর্বপ্রথম মেরিস্টেম টিস্যু কালচার করেন কোন বিজ্ঞানী?",
+    "options": {
+      "a": "Morel and Martin",
+      "b": "Karl Erekh",
+      "c": "Edward Jenner",
+      "d": "Jack Williamson"
+    },
+    "correctAnswer": "a",
+    "explanation": "সর্বপ্রথম মেরিস্টেম টিস্যু কালচার করেন মোরেল ও মারটিন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "question": "পুষ্টি মাধ্যমে স্থানান্তরের পূর্বে কোনটিকে সারফেস স্টেরিলাইজ করে নিতে হয়?",
+    "options": {
+      "a": "ক্যালাস",
+      "b": "মেরিস্টেম",
+      "c": "এক্সপ্লান্ট",
+      "d": "টনোপ্লাস্ট"
+    },
+    "correctAnswer": "c",
+    "explanation": "পুষ্টি মাধ্যমে স্থানান্তরের পূর্বে এক্সপ্লান্টকে সারফেস স্টেরিলাইজ করে নিতে হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "question": "চিকিৎসা ক্ষেত্রে বায়োটেকনোলজির প্রয়োগ কোনটির মাধ্যমে করা হয়?",
+    "options": {
+      "a": "ব্লু বায়োটেকনোলজি",
+      "b": "গ্রিন বায়োটেকনোলজি",
+      "c": "রেড ও হোয়াইট বায়োটেকনোলজি",
+      "d": "ইয়েলো বায়োটেকনোলজি"
+    },
+    "correctAnswer": "c",
+    "explanation": "*গ্রিন বায়োটেকনোলজি কৃষিক্ষেত্রে প্রয়োগ করা হয়।\n\n*ব্লু বায়োটেকনোলজি জলীয় ও সামুদ্রিক ক্ষেত্রে প্রয়োগ করা হয়।\n\n*রেড ও হোয়াইট বায়োটেকনোলজি চিকিৎসা ক্ষেত্রে প্রয়োগ করা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "question": "টিস্যু কালচার পদ্ধতিতে উৎপন্ন ভ্রূণকে বলা হয়-",
+    "options": {
+      "a": "Zygotic embryo",
+      "b": "Somatic embryogenesis",
+      "c": "Microspore",
+      "d": "Callus"
+    },
+    "correctAnswer": "b",
+    "explanation": "টিস্যু কালচার পদ্ধতিতে উৎপন্ন ভ্রূণকে **সোম্যাটিক এমব্রায়োজেনেসিস (Somatic embryogenesis)** বলা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "question": "সজীব উদ্ভিদ কোষের পূর্নাঙ্গ উদ্ভিদে পরিণত হওয়ার অন্তর্নিহিত ক্ষমতাকে কী বলে?",
+    "options": {
+      "a": "টটিপোটেন্সি",
+      "b": "এক্সপ্লান্ট",
+      "c": "এমব্রায়োজেনেসিস",
+      "d": "ট্রান্সফরমেশন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সজীব উদ্ভিদ কোষের পূর্ণাঙ্গ উদ্ভিদে পরিণত হওয়ার অন্তর্নিহিত ক্ষমতাকে টটিপোটেন্সি বলে।আমেরিকান জীববিজ্ঞানী মর্গান ১৯০১ সালে সর্বপ্রথম এই মত প্রকাশ করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "question": "মেরিস্টেম কালচারের উদ্দেশ্য হলো-",
+    "options": {
+      "a": "বিলুপ্তপ্রায় উদ্ভিদ সংরক্ষণ",
+      "b": "রোগমুক্ত চারা উৎপাদন",
+      "c": "হ্যাপ্লয়েড উদ্ভিদ উৎপাদন",
+      "d": "উন্নতজাত উদ্ভাবন"
+    },
+    "correctAnswer": "b",
+    "explanation": "উদ্ভিদের শীর্ষমুকুলের অগ্রভাগের টিস্যুকে মেরিস্টেম বলে। মেরিস্টেম কালচারের মাধ্যমে উৎপাদিত চারাগাছ সাধারণত রোগ্মুক্ত হয়ে থাকে কারণ মেরিস্টেম টিস্যুতে কোনো রোগ জীবাণু থাকেনা।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "question": "নিম্নের কোন জোড়াটি সঠিক কৃষিজ পণ্যের নাম-",
+    "options": {
+      "a": "বাউকুল : বড় আকারের কুল/বড়ই",
+      "b": "কারফ্যু : উন্নত জাতের বাদাম",
+      "c": "ক্যাপসিকাম : ঝালযুক্ত সবজি",
+      "d": "বিনা : উন্নত জাতের ধান"
+    },
+    "correctAnswer": "d",
+    "explanation": "বাউকুল- উচ্চ ফলনশীল বড়ই\n\nকারফ্যু- উন্নত জাতের কফি\n\nক্যাপসিকাম- মিষ্টি সবজি\n\n\"বিনা\" হল একটি উন্নত জাতের ধানের পরিচিতি, যা বাঙালি ভাষায় \"বিনা\" বা \"বিনাতি\" নামে পরিচিত।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Biology",
+    "question": "পীড়ন সহনশীল উদ্ভিদ সৃষ্টি করা হয় নিচের কোন পদ্ধতিতে?",
+    "options": {
+      "a": "ইন ভিট্রো সিলেকশন",
+      "b": "এমব্রায়ো কালচার",
+      "c": "অ্যান্থার কালচার",
+      "d": "মেরিস্টেম কালচার"
+    },
+    "correctAnswer": "a",
+    "explanation": "পীড়ন সহনশীল উদ্ভিদ সৃষ্টি করা হয় ইন ভিট্রো সিলেকশন পদ্ধতির মাধ্যমে। এটি মূলত টিস্যু কালচারের একটি প্রক্রিয়া।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Biology",
+    "question": "অতি ক্ষুদ্র টিস্যু থেকে বহু চারা উৎপাদনের পদ্ধতিকে বলে-",
+    "options": {
+      "a": "ক্লোনাল প্রোপাগেশন",
+      "b": "মাইক্রোপ্রোপাগেশন",
+      "c": "ক্যালাস কালচার",
+      "d": "সোমাটিক এম্ব্রিওজেনেসিস"
+    },
+    "correctAnswer": "b",
+    "explanation": "অতি ক্ষুদ্র টিস্যু থেকে বহু চারা উৎপাদনের পদ্ধতিকে মাইক্রোপ্রোপাগেশন বলে।টিস্যু কালচার পদ্ধতিতে উদ্ভিদের খুব ছোট অংশ ব্যবহার করে দ্রুত অনেক চারা তৈরি করা যায়, তাই একে মাইক্রোপ্রোপাগেশনও বলা হয়। 🌳",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Biology",
+    "question": "টিস্যু কালচারের কোন প্রযুক্তিতে বীজের সুপ্তাবস্থা দূর করা হয়?",
+    "options": {
+      "a": "অ্যান্থার কালচার",
+      "b": "এমব্রায়ো কালচার",
+      "c": "মেরিস্টেম কালচার",
+      "d": "মাইক্রোপ্রোপাগেশন"
+    },
+    "correctAnswer": "b",
+    "explanation": "এমব্রায়ো কালচার",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Biology",
+    "question": "টিস্যুকে কালচার প্রযুক্তির প্রাথমিক উদ্দেশ্য হলো—",
+    "options": {
+      "a": "বেশি টিস্যু উৎপাদন",
+      "b": "উন্নতমানের বীজ উৎপাদন",
+      "c": "নতুন জাতের টিস্যু সৃষ্টি",
+      "d": "বিভাজনক্ষম অঙ্গ থেকে নতুন চারা উৎপাদন"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Biology",
+    "question": "অ্যান্টিবায়োটিক প্রতিরোধ ক্ষমতা সম্পন্ন জিন কোনটি?",
+    "options": {
+      "a": "F-প্লাজমিড",
+      "b": "F'-প্লাজমিড",
+      "c": "কোল প্লাজমিড",
+      "d": "R-প্লাজমিড"
+    },
+    "correctAnswer": "d",
+    "explanation": "R-প্লাজমিড",
+    "hasDiagram": true,
+    "questionImage": "/images/q30_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Biology",
+    "question": "রহিম বেগুনগাছের শীর্ষমুকুল এনে কৃত্রিম আবাদ মাধ্যমে আবাদ করলেন। কিছুদিন পর সেখানে অসংখ্য চারা সৃষ্টি হলো। কৃত্রিম প্রজনন অপেক্ষা উদ্দীপক পদ্ধতি ভালো,কারন এটি-",
+    "options": {
+      "a": "নতুন প্রজাতি সৃষ্টি করে",
+      "b": "নতুন প্রকরণ তৈরি করে",
+      "c": "রোগমুক্ত চারা উৎপন্ন করে",
+      "d": "জিনের পরিবর্তন ঘটায়"
+    },
+    "correctAnswer": "c",
+    "explanation": "রোগমুক্ত চারা উৎপন্ন করে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Biology",
+    "question": "বায়োটেকনোলজি শব্দটি প্রথম ব্যবহার করেন কে?",
+    "options": {
+      "a": "জোহান মেন্ডেল",
+      "b": "কার্ল এরেকি",
+      "c": "লুই পাস্তুর",
+      "d": "লিনিয়াস"
+    },
+    "correctAnswer": "b",
+    "explanation": "বায়োটেকনোলজি জীববিজ্ঞানের আধুনিক ও প্রয়োগমুখী শাখা।কার্ল এরেকি সর্বপ্রথম বায়োটেকনোলজি শব্দটি ব্যবহার করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Biology",
+    "question": "হ্যাপ্লয়েড উদ্ভিদে কী প্রয়োগের মাধ্যমে ডিপ্লয়েড হোমোজাইগাস উদ্ভিদ উৎপাদন করা সম্ভব?",
+    "options": {
+      "a": "ইথিলিন",
+      "b": "অক্সিন",
+      "c": "কুইনাইন",
+      "d": "কলচিসিন"
+    },
+    "correctAnswer": "d",
+    "explanation": "কলচিসিন। হ্যাপ্লয়েড উদ্ভিদে কলচিসিন প্রয়োগের মাধ্যমে ক্রোমোজোম সংখ্যা দ্বিগুণ করা হয়, যার ফলে ডিপ্লয়েড হোমোজাইগাস উদ্ভিদ উৎপাদন করা সম্ভব।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Biology",
+    "question": "টমেটো ও আলু গাছের প্রোটোপ্লাস্ট ফিউশন করে কোন নতুন গাছ তৈরি করা হয়েছে?",
+    "options": {
+      "a": "মামাটো",
+      "b": "পোমাটো",
+      "c": "আমাটো",
+      "d": "পটোমাটো"
+    },
+    "correctAnswer": "b",
+    "explanation": "প্রোটোপ্লাস্ট মিলনের মাধ্যমে সাইটোপ্লাজমের বিশেষ গুণ স্থানান্তরিত হয়ে থাকে। এক্ষেত্রে ক্লোরোপ্লাস্ট ও মাইটোকন্ড্রিয়ার প্রয়োজনীয় বৈশিষ্ট্য স্থানান্তর ঘটিয়ে নতুন জাতের উদ্ভিদ উৎপাদন সম্ভব হয়েছে। এভাবে আলু ও টমেটোর প্রোটোপ্লাস্ট ফিউশন করে সৃষ্ট উদ্ভিদ পোমাটো।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Biology",
+    "question": "নিচের কোন পদ্ধতির সাহায্যে সংক্রমিত উদ্ভিদ থেকে রোগমুক্ত চারা উৎপাদন করা যায়?",
+    "options": {
+      "a": "রিকম্বিনেট DNA প্রযুক্তি",
+      "b": "জিন ক্লোনিং",
+      "c": "জিনোম সিকুয়েন্সিং",
+      "d": "টিস্যু কালচার"
+    },
+    "correctAnswer": "d",
+    "explanation": "টিস্যু কালচার পদ্ধতির সাহায্যে সংক্রমিত উদ্ভিদ থেকে রোগমুক্ত চারা উৎপাদন করা যায়। কারণ এই পদ্ধতিতে রোগমুক্ত গাছের অংশ (এক্সপ্লান্ট) ব্যবহার করা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Biology",
+    "question": "ক্যালাস মিডিয়ামে pH কত রাখা হয়?",
+    "options": {
+      "a": "৫.৪–৫.৭",
+      "b": "৫.৫–৫.৮",
+      "c": "৫.৬–৫.৯",
+      "d": "৫.৭–৬.১"
+    },
+    "correctAnswer": "b",
+    "explanation": "টিস্যু কালচার কাজের জন্য প্রাথমিকভাবে একটি কালচার মিডিয়াম তৈরি করা আবশ্যক। উদ্ভিদের পুষ্টি ও বৃদ্ধির জন্য যে সমস্ত রাসায়নিক উপাদান প্রয়োজন হয় তার সমন্বয়ে এ মিডিয়াম প্রস্তুত করা হয়। বিভিন্ন ধরনের মুখ্য ও গৌণ উপাদান (macro and micro elements), ভিটামিন, সুকরোজ (২-৪%), ফাইটোহরমোন প্রভৃতি এ মিডিয়ামে থাকা প্রয়োজন। মাধ্যমকে ঘন করতে জমাট বাঁধার উপাদান, যেমন- অ্যাগার,সঠিক মাত্রায় মেশাতে হয়। মৌলিক উপাদান সমৃদ্ধ আবাদ মাধ্যমকে ব্যাসাল মিডিয়াম বলে। মিডিয়ামের pH ৫.৫-৫.৮ এর মধ্যে রাখা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Biology",
+    "question": "কোন উদ্ভিদ উৎপাদনের জন্য পরাগধানী আবাদ ব্যবহৃত হয়?",
+    "options": {
+      "a": "homozygous dominant plant",
+      "b": "double haploid plant",
+      "c": "heterozygous plant",
+      "d": "disease free plant"
+    },
+    "correctAnswer": "b",
+    "explanation": "Double haploid plant উৎপাদনের জন্য পরাগধানী আবাদ ব্যবহৃত হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Biology",
+    "question": "উদ্দীপকের A ধাপ কোনটি?",
+    "options": {
+      "a": "ক্যালাস সৃষ্টি",
+      "b": "জীবাণুমুক্তকরণ",
+      "c": "মিডিয়ামে এক্সপ্লান্ট স্থাপন",
+      "d": "মূল সৃষ্টি"
+    },
+    "correctAnswer": "b",
+    "explanation": "উদ্দীপকের A ধাপটি হলো জীবাণুমুক্তকরণ।টিস্যু কালচারের ধাপগুলি হলো:এক্সপ্লান্ট নির্বাচনআবাদ মাধ্যম তৈরিজীবাণুমুক্তকরণমিডিয়ামে এক্সপ্লান্ট স্থাপনক্যালাস সৃষ্টিমূল ও কাণ্ড সৃষ্টিচারা টবে স্থানান্তরএখানে, \"আবাদ মাধ্যম তৈরি\" এর পর এবং চারা সৃষ্টির বিভিন্ন ধাপের আগে \"A\" চিহ্নিত ধাপটি রয়েছে। তাই, এটি জীবাণুমুক্তকরণ প্রক্রিয়াকে নির্দেশ করে, যা মিডিয়ামে এক্সপ্লান্ট স্থাপনের আগে অপরিহার্য।",
+    "hasDiagram": true,
+    "questionImage": "/images/q38_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Biology",
+    "question": "টিস্যু কালচার পদ্ধতিতে মেরিস্টেম কালচার করে উৎপাদিত চারার বৈশিষ্ট্য হলো-",
+    "options": {
+      "a": "রোগ প্রতিরোধ করা",
+      "b": "রোগ মুক্ত থাকা",
+      "c": "রোগাক্রান্ত হওয়া",
+      "d": "রোগ দমন করা"
+    },
+    "correctAnswer": "b",
+    "explanation": "টিস্যু কালচার পদ্ধতিতে মেরিস্টেম কালচার করে উৎপাদিত চারার প্রধান বৈশিষ্ট্য হলো এটি রোগমুক্ত থাকা। কারণ উদ্ভিদের শীর্ষমুকুলের অগ্রভাগের মেরিস্টেম টিস্যুতে কোনো রোগজীবাণু থাকে না।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Biology",
+    "question": "টিস্যু কালচার প্রযুক্তির কালচার মিডিয়ামের pH মান কত?",
+    "options": {
+      "a": "7.5–8.5",
+      "b": "5.5–5.8",
+      "c": "3.5–4.8",
+      "d": "6.5–7.5"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Biology",
+    "question": "লাল জীবপ্রযুক্তি শব্দটি ব্যবহার করা হয় জীবপ্রযুক্তির কোন ক্ষেত্রে?",
+    "options": {
+      "a": "শিল্পক্ষেত্রে",
+      "b": "চিকিৎসাক্ষেত্রে",
+      "c": "খাদ্য ও পুষ্টি ক্ষেত্রে",
+      "d": "কৃষিক্ষেত্রে"
+    },
+    "correctAnswer": "b",
+    "explanation": "চিকিৎসাক্ষেত্রে",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Biology",
+    "question": "দুটো উদ্ভিদের সাইটোপ্লাজমের মিলনে সৃষ্ট উদ্ভিদকে কি বলা হয়?",
+    "options": {
+      "a": "হাইব্রিড",
+      "b": "মাইক্রোপ্রোপাগেশন",
+      "c": "সাইব্রিড",
+      "d": "সোমাটিক হাইব্রিড"
+    },
+    "correctAnswer": "c",
+    "explanation": "দুটি উদ্ভিদের সাইটোপ্লাজমের মিলনে সৃষ্ট উদ্ভিদকে সাইব্রিড বলা হয়। 🌿",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Biology",
+    "question": "কোনটি থেকে অসংখ্য মুকুল সৃষ্টি হয়?",
+    "options": {
+      "a": "কালচার মিডিয়াম",
+      "b": "ক্যালাস",
+      "c": "এক্সপ্লান্ট",
+      "d": "ব্যাসাল মিডিয়াম"
+    },
+    "correctAnswer": "b",
+    "explanation": "কেলাস থেকে অসংখ্য মুকুল সৃষ্টি হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Biology",
+    "question": "একটি সজীব কোষ থেকে পূর্ণাঙ্গ উদ্ভিদে পরিণত হবার অন্তঃর্নিহিত ক্ষমতাকে বলে-",
+    "options": {
+      "a": "টিস্যু কালচার",
+      "b": "টটিপটেন্সি",
+      "c": "বায়োপটেন্সি",
+      "d": "ম্যাক্রোপ্রোপাগেশন"
+    },
+    "correctAnswer": "b",
+    "explanation": "উদ্ভিদের প্রতিটি সজীব কোষের একটি পূর্ণাঙ্গ উদ্ভিদে পরিণত হওয়ার অন্তর্নিহিত ক্ষমতাকে টটিপটেন্সি বলে।বিজ্ঞানী মর্গান টটিপটেন্সি আবিষ্কার করেন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Biology",
+    "question": "অটোক্লেভ যন্ত্রে জীবাণুমুক্তকরণের ক্ষেত্রে কোনটি সঠিক নয় ?",
+    "options": {
+      "a": "১২১ ডিগ্রি সে. তাপমাত্রা",
+      "b": "১৫ পাউন্ড চাপ",
+      "c": "২০ মিনিট সময়",
+      "d": "১০-২০% আপেক্ষিক আর্দ্রতা"
+    },
+    "correctAnswer": "d",
+    "explanation": "অটোক্লেভ যন্ত্রে জীবাণুমুক্ত করতে ১২১ ডিগ্রি সে. তাপমাত্রা, ১৫ পাউন্ড চাপ, সময় ২০ মিনিট,আদ্রতা ৭০-৭৫%।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Biology",
+    "question": "রিপ্রোডাকটিভ ক্লোনিং পদ্ধতিতে তৈরি প্রথম ভেড়াটির নাম কী?",
+    "options": {
+      "a": "কলি",
+      "b": "ডলি",
+      "c": "মিলি",
+      "d": "শিলা"
+    },
+    "correctAnswer": "b",
+    "explanation": "দাতা কোষের DNA-এর মাধ্যমে তার হুবহু প্রতিচ্ছবি সম্পন্ন নতুন প্রজন্ম সৃষ্টি করার কৌশল হলো রিপ্রোডাকটিভ ক্লোনিং । ডলি নামক ভেড়ার সৃষ্টি এই পদ্ধতিতে করা হয়েছে। একটি ভেড়ার স্তন গ্রন্থি থেকে কোষ নিয়ে (একটি দাতা কোষ বা দাতা ভেড়া) তাকে আবাদ মাধ্যমে সংখ্যা বৃদ্ধি করা হয়। পরে একটি ভেড়ার ডিম্বাণু কোষ (গ্রহীতা কোষ) নিয়ে তা থেকে নিউক্লিয়াস সরিয়ে তদস্থলে দাতা কোষের নিউক্লিয়াস প্রবেশ করানো হয়।ডিম্বাণুটি দাতা কোষের নিউক্লিয়াস নিয়ে বিভাজিত হয়ে ভ্রূণ সৃষ্টির পর্যায়ে পৌঁছায়।  এ ভ্রূণ তৃতীয় একটি ভেড়ার জরায়ুতে স্থাপন করা হয়। তৃতীয় ভেড়াটি নির্দিষ্ট সময় পর দাতা ভেড়ার চেহারা সম্পন্ন একটি বাচ্চার জন্ম দেয়। এর নাম দেয়া হয়েছিল ডলি।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Biology",
+    "question": "উদ্ভিদ টিস্যু কালচারের প্রবর্তক কে?",
+    "options": {
+      "a": "হুকার",
+      "b": "হেভারল্যান্ডট",
+      "c": "বেন্ডা",
+      "d": "ডারউইন"
+    },
+    "correctAnswer": "b",
+    "explanation": "জার্মান উদ্ভিদ বিজ্ঞানী Gottlieb Haberlandt(১৯০২)-কে টিস্যু কালচারের জনক বলা হয়।টিস্যু কালচার কে ইন-ভিট্রো কালচারও বলা হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Biology",
+    "question": "নিচের কোনটির মাধ্যমে রোগমুক্ত উদ্ভিদ পাওয়া যায়?",
+    "options": {
+      "a": "মেরিস্টেম কালচার",
+      "b": "কাণ্ড টিস্যু কালচার",
+      "c": "পরাগধানী কালচার",
+      "d": "কক্ষমুকুল কালচার"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Biology",
+    "question": "কৃত্রিম বীজে অঙ্কুরোদগমের সুবিধার জন্য কী দিয়ে জেল তৈরি করা হয়?",
+    "options": {
+      "a": "জেলাটিন",
+      "b": "অ্যাগার",
+      "c": "Na/Ca অ্যালজিনেট",
+      "d": "মিউসিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "Na/Ca অ্যালজিনেট",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Biology",
+    "question": "Tissue Culture এ Tissue সংগ্রহ করা হয় না -",
+    "options": {
+      "a": "শীর্ষ মুকুল থেকে",
+      "b": "কক্ষ মুকুল থেকে",
+      "c": "শীর্ষমূল থেকে",
+      "d": "কচি পাতা থেকে"
+    },
+    "correctAnswer": "c",
+    "explanation": "টিস্যু কালচারের জন্য শীর্ষমূল থেকে টিস্যু সংগ্রহ করা হয় না।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]
