@@ -861,38 +861,5 @@
     "wrong": 49,
     "pass": false,
     "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
-  },
-  {
-    "studentName": "Sadik",
-    "answers": {
-      "1": "a",
-      "2": "a",
-      "3": "d",
-      "4": "d",
-      "5": "d",
-      "6": "b",
-      "7": "d",
-      "8": "a",
-      "9": "c",
-      "10": "a",
-      "11": "b",
-      "12": "c",
-      "13": "c",
-      "14": "b",
-      "16": "b",
-      "17": "b",
-      "18": "a",
-      "19": "c",
-      "20": "c",
-      "21": "c"
-    },
-    "score": 0,
-    "totalMarks": 50,
-    "timestamp": "2026-02-27T15:04:43.329Z",
-    "attempted": 20,
-    "correct": 0,
-    "wrong": 20,
-    "pass": false,
-    "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
   }
 ]
