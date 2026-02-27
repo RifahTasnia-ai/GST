@@ -13,7 +13,9 @@
       "d": "$$\\left( \\vec{P} \\times \\vec{Q} \\right ) + \\vec{R} = \\vec{P} + \\left( \\vec{Q} \\times \\vec{R} \\right )$$"
     },
     "correctAnswer": "b",
-    "explanation": "সংযোজন সূত্রঃ$$\\left(\\vec{P}+\\vec{Q}\\right)+\\vec{R}=\\vec{P}+\\left(\\vec{Q}+\\vec{R}\\right)$$ । A. বিনিময় সূত্র, C. বন্টন সূত্র"
+    "explanation": "সংযোজন সূত্রঃ$$\\left(\\vec{P}+\\vec{Q}\\right)+\\vec{R}=\\vec{P}+\\left(\\vec{Q}+\\vec{R}\\right)$$ । A. বিনিময় সূত্র, C. বন্টন সূত্র",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@
       "d": "60 seconds"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 3,
@@ -45,7 +49,9 @@
       "d": "400m/s"
     },
     "correctAnswer": "a",
-    "explanation": "প্রশ্নে দেওয়া আছে নদীর প্রস্থ 4 km এবং এটি পার হতে সময় লাগে 3600 s। এখানে নদীর প্রবাহের জন্য তার সোজাসুজি বেগটি 5 km/h। আমাদের লদ্ধি বেগ নির্ণয় করতে হবে। প্রথমে লক্ষ্য করব, নদীর প্রস্থ সোজাসুজি পার হতে সময় লাগে 3600 s, যা ঘণ্টায় রূপান্তর করলে হবে: 3600 s = 1 hour এখন, নদীর প্রস্থ 4 km, এবং সময় লাগছে 1 ঘণ্টা, সেজন্য সোজাসুজি বেগ হবে: $$v = \\frac{\\text{সোজাসুজি অতিক্রান্ত দূরত্ব বা নদীর প্রস্থ}}{\\text{সময়}} = \\frac{4 \\text{ km}}{1 \\text{ hour}} = 4 \\text{ km/h}$$ অতএব, লদ্ধি বেগ = 4 km/h। সঠিক উত্তর: Option A"
+    "explanation": "প্রশ্নে দেওয়া আছে নদীর প্রস্থ 4 km এবং এটি পার হতে সময় লাগে 3600 s। এখানে নদীর প্রবাহের জন্য তার সোজাসুজি বেগটি 5 km/h। আমাদের লদ্ধি বেগ নির্ণয় করতে হবে। প্রথমে লক্ষ্য করব, নদীর প্রস্থ সোজাসুজি পার হতে সময় লাগে 3600 s, যা ঘণ্টায় রূপান্তর করলে হবে: 3600 s = 1 hour এখন, নদীর প্রস্থ 4 km, এবং সময় লাগছে 1 ঘণ্টা, সেজন্য সোজাসুজি বেগ হবে: $$v = \\frac{\\text{সোজাসুজি অতিক্রান্ত দূরত্ব বা নদীর প্রস্থ}}{\\text{সময়}} = \\frac{4 \\text{ km}}{1 \\text{ hour}} = 4 \\text{ km/h}$$ অতএব, লদ্ধি বেগ = 4 km/h। সঠিক উত্তর: Option A",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 4,
@@ -61,7 +67,9 @@
       "d": "$$2\\sqrt{3}\\ kmh^{-1}$$"
     },
     "correctAnswer": "d",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 5,
@@ -77,7 +85,9 @@
       "d": "$$v\\le0\\ ms^{-1}$$"
     },
     "correctAnswer": "a",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 6,
@@ -93,7 +103,9 @@
       "d": "$$\\vec{A}$$ ও $$\\vec{B}$$ এর সমতল বরাবর"
     },
     "correctAnswer": "b",
-    "explanation": "$$\\vec{B}=\\vec{C}\\times\\ \\vec{A}$$ হলে $$\\vec{B}$$ এর দিক হবে $$\\overrightarrow{C}$$ ও $$\\overrightarrow{A}$$ এর সমতলের লম্ব বরাবর $$\\vec{A}=\\vec{B}\\times\\ \\vec{C}$$ হলে $$\\vec{A}$$ এর দিক হবে $$\\overrightarrow{B}$$ ও $$\\overrightarrow{C}$$ এর সমতলের লম্ব বরাবর"
+    "explanation": "$$\\vec{B}=\\vec{C}\\times\\ \\vec{A}$$ হলে $$\\vec{B}$$ এর দিক হবে $$\\overrightarrow{C}$$ ও $$\\overrightarrow{A}$$ এর সমতলের লম্ব বরাবর $$\\vec{A}=\\vec{B}\\times\\ \\vec{C}$$ হলে $$\\vec{A}$$ এর দিক হবে $$\\overrightarrow{B}$$ ও $$\\overrightarrow{C}$$ এর সমতলের লম্ব বরাবর",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 7,
@@ -109,7 +121,9 @@
       "d": "12 J"
     },
     "correctAnswer": "c",
-    "explanation": "$$\\begin{aligned} W & =\\vec{F} \\cdot \\vec{r} \\\\ & =-12+64-30 \\\\ & =22 \\mathrm{~J}\\end{aligned}$$"
+    "explanation": "$$\\begin{aligned} W & =\\vec{F} \\cdot \\vec{r} \\\\ & =-12+64-30 \\\\ & =22 \\mathrm{~J}\\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 8,
@@ -125,7 +139,9 @@
       "d": "$$-\\overline{j}$$"
     },
     "correctAnswer": "d",
-    "explanation": "Clockwise গুণ করলে ধনাত্মক মান এবং Anticlockwise গুণ করলে ঋণাত্মক মান পাওয়া যাবে। $$\\hat{i}×\\hat{j}=\\hat{k}$$ $$\\hat{j}×\\hat{k}=\\hat{i}$$ $$\\hat{k}×\\hat{i}=\\hat{j}$$ $$\\hat{i}×\\hat{k}=\\hat{-j}$$ $$\\hat{k}×\\hat{j}=\\hat{-i}$$ $$\\hat{j}×\\hat{i}=\\hat{-k}$$"
+    "explanation": "Clockwise গুণ করলে ধনাত্মক মান এবং Anticlockwise গুণ করলে ঋণাত্মক মান পাওয়া যাবে। $$\\hat{i}×\\hat{j}=\\hat{k}$$ $$\\hat{j}×\\hat{k}=\\hat{i}$$ $$\\hat{k}×\\hat{i}=\\hat{j}$$ $$\\hat{i}×\\hat{k}=\\hat{-j}$$ $$\\hat{k}×\\hat{j}=\\hat{-i}$$ $$\\hat{j}×\\hat{i}=\\hat{-k}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 9,
@@ -141,7 +157,9 @@
       "d": "1"
     },
     "correctAnswer": "a",
-    "explanation": "$$(2\\hat{i}+p\\hat{j}+\\hat{k})\\cdot(4\\hat{i}-2\\hat{j}-2\\hat{k})=0$$ $$\\Rightarrow8-2p-2=0$$ $$\\therefore p=3$$"
+    "explanation": "$$(2\\hat{i}+p\\hat{j}+\\hat{k})\\cdot(4\\hat{i}-2\\hat{j}-2\\hat{k})=0$$ $$\\Rightarrow8-2p-2=0$$ $$\\therefore p=3$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 10,
@@ -157,7 +175,9 @@
       "d": "130"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 11,
@@ -173,7 +193,9 @@
       "d": "45"
     },
     "correctAnswer": "d",
-    "explanation": "$$\\tan \\theta=\\frac{\\text { মানুষের বেগ }}{\\text { বৃষ্টির বেগ }} \\Rightarrow \\tan \\theta=\\frac{3}{3}$$ বা, $$\\theta=45^{\\circ}$$"
+    "explanation": "$$\\tan \\theta=\\frac{\\text { মানুষের বেগ }}{\\text { বৃষ্টির বেগ }} \\Rightarrow \\tan \\theta=\\frac{3}{3}$$ বা, $$\\theta=45^{\\circ}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 12,
@@ -189,7 +211,9 @@
       "d": "$$\\frac{2 \\hat{i} + 3 \\hat{j} - 6 \\hat{k}}{7}$$"
     },
     "correctAnswer": "d",
-    "explanation": "$$\\overrightarrow{\\mathrm{A}}$$ ও $$\\overrightarrow{\\mathrm{B}}$$ এর লব্ধি সমান্তরাল একক ভেক্টর $$=\\frac{\\overrightarrow{\\mathrm{A}}+\\overrightarrow{\\mathrm{B}}}{|\\overrightarrow{\\mathrm{A}}+\\overrightarrow{\\mathrm{B}}|}$$ $$\\begin{aligned} \\therefore \\text { সমান্তরাল একক ভেষ্টর } & =\\frac{(3-1) \\hat{i}+(2+1) \\hat{j}+(-2-4) \\hat{k}}{\\sqrt{2^{2}+3^{2}+(-6)^{2}}} \\\\ & =\\frac{1}{7}(2 \\hat{i}+3 \\hat{j}-6 \\hat{k}) \\end{aligned}$$"
+    "explanation": "$$\\overrightarrow{\\mathrm{A}}$$ ও $$\\overrightarrow{\\mathrm{B}}$$ এর লব্ধি সমান্তরাল একক ভেক্টর $$=\\frac{\\overrightarrow{\\mathrm{A}}+\\overrightarrow{\\mathrm{B}}}{|\\overrightarrow{\\mathrm{A}}+\\overrightarrow{\\mathrm{B}}|}$$ $$\\begin{aligned} \\therefore \\text { সমান্তরাল একক ভেষ্টর } & =\\frac{(3-1) \\hat{i}+(2+1) \\hat{j}+(-2-4) \\hat{k}}{\\sqrt{2^{2}+3^{2}+(-6)^{2}}} \\\\ & =\\frac{1}{7}(2 \\hat{i}+3 \\hat{j}-6 \\hat{k}) \\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 13,
@@ -205,7 +229,9 @@
       "d": "cos(1/3)"
     },
     "correctAnswer": "a",
-    "explanation": "$$\\mathrm{R}^{2}=\\mathrm{P}^{2}+\\mathrm{Q}^{2}+2 \\mathrm{PQ} \\cos \\alpha \\quad \\therefore \\alpha=\\cos ^{-1} \\frac{1}{4}$$"
+    "explanation": "$$\\mathrm{R}^{2}=\\mathrm{P}^{2}+\\mathrm{Q}^{2}+2 \\mathrm{PQ} \\cos \\alpha \\quad \\therefore \\alpha=\\cos ^{-1} \\frac{1}{4}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 14,
@@ -221,7 +247,9 @@
       "d": "সবগুলোই"
     },
     "correctAnswer": "d",
-    "explanation": "তড়িৎ প্রাবল্য, বল, ত্বরণ একপ্রকার ভেক্টর বা দিক রাশি। এছাড়াও কিছু ভেক্টর রাশির উদাহরণ হলো: তল ক্ষেত্রফল ভেক্টর, কেন্দ্রমুখী ত্বরণত্বরণ, কেন্দ্রমুখী ভরবেগ ইত্যাদি।"
+    "explanation": "তড়িৎ প্রাবল্য, বল, ত্বরণ একপ্রকার ভেক্টর বা দিক রাশি। এছাড়াও কিছু ভেক্টর রাশির উদাহরণ হলো: তল ক্ষেত্রফল ভেক্টর, কেন্দ্রমুখী ত্বরণত্বরণ, কেন্দ্রমুখী ভরবেগ ইত্যাদি।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 15,
@@ -237,7 +265,9 @@
       "d": "None"
     },
     "correctAnswer": "a",
-    "explanation": "শর্ত অনুযায়ী: $$\\mathbf{A}+\\mathbf{B}=\\mathbf{A}-\\mathbf{B}$$ ভেক্টরের মান অনুযায়ী প্রকাশ করলে: $$|\\mathbf{A}+\\mathbf{B}|=|\\mathbf{A}-\\mathbf{B}|$$ ভেক্টর যোগফলের মান: $$|\\mathbf{A}+\\mathbf{B}|=\\sqrt{A^{2}+B^{2}+2 A B \\cos \\theta}$$ ভেক্টর বিয়োগফলের মান: $$|\\mathbf{A}-\\mathbf{B}|=\\sqrt{A^{2}+B^{2}-2 A B \\cos \\theta}$$ শর্ত অনুযায়ী, $$\\sqrt{A^{2}+B^{2}+2 A B \\cos \\theta}=\\sqrt{A^{2}+B^{2}-2 A B \\cos \\theta}$$ $$\\begin{array}{c} A^{2}+B^{2}+2 A B \\cos \\theta=A^{2}+B^{2}-2 A B \\cos \\theta \\\\ 2 A B \\cos \\theta+2 A B \\cos \\theta=0 \\\\ 4 A B \\cos \\theta=0 \\\\ \\cos \\theta=0 \\\\ \\theta=90^{\\circ} \\end{array}$$"
+    "explanation": "শর্ত অনুযায়ী: $$\\mathbf{A}+\\mathbf{B}=\\mathbf{A}-\\mathbf{B}$$ ভেক্টরের মান অনুযায়ী প্রকাশ করলে: $$|\\mathbf{A}+\\mathbf{B}|=|\\mathbf{A}-\\mathbf{B}|$$ ভেক্টর যোগফলের মান: $$|\\mathbf{A}+\\mathbf{B}|=\\sqrt{A^{2}+B^{2}+2 A B \\cos \\theta}$$ ভেক্টর বিয়োগফলের মান: $$|\\mathbf{A}-\\mathbf{B}|=\\sqrt{A^{2}+B^{2}-2 A B \\cos \\theta}$$ শর্ত অনুযায়ী, $$\\sqrt{A^{2}+B^{2}+2 A B \\cos \\theta}=\\sqrt{A^{2}+B^{2}-2 A B \\cos \\theta}$$ $$\\begin{array}{c} A^{2}+B^{2}+2 A B \\cos \\theta=A^{2}+B^{2}-2 A B \\cos \\theta \\\\ 2 A B \\cos \\theta+2 A B \\cos \\theta=0 \\\\ 4 A B \\cos \\theta=0 \\\\ \\cos \\theta=0 \\\\ \\theta=90^{\\circ} \\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 16,
@@ -253,7 +283,9 @@
       "d": "$$\\cos^{-1}{\\sqrt{\\frac{58}{94}}}$$"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 17,
@@ -269,7 +301,9 @@
       "d": "-2,1"
     },
     "correctAnswer": "d",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 18,
@@ -285,7 +319,9 @@
       "d": "$$\\left(cos\\right)^{- 1} \\left(\\right. \\frac{2}{7} \\left.\\right)$$"
     },
     "correctAnswer": "c",
-    "explanation": "যেকোনো ভেক্টরের সাথে Y অক্ষের কোণ নির্ণয়ের জন্য আমরা নিচের সূত্রটি ব্যবহার করি: $$\\cos \\theta = \\frac{\\text{ভেক্টরের Y-উপাংশ}}{\\text{ভেক্টরের মান}}$$ প্রদত্ত ভেক্টর হল $$2 \\bar{i} - 3 \\bar{j} + 6 \\bar{k}$$ এখানে, ভেক্টরের Y-উপাংশ হল $$-3$$। এখন, ভেক্টরের মান (অর্থাৎ, দৈর্ঘ্য) নির্ণয় করি: $$\\sqrt{2^2 + (-3)^2 + 6^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$$ তাহলে, $$\\cos \\theta = \\frac{-3}{7}$$ অতএব, Y অক্ষের সাথে গঠিত কোণ হলঃ $$\\theta = \\cos^{-1}\\left(-\\frac{3}{7}\\right)$$ সঠিক উত্তরটি হল অপশন (C): $$\\cos^{-1}\\left(-\\frac{3}{7}\\right)$$"
+    "explanation": "যেকোনো ভেক্টরের সাথে Y অক্ষের কোণ নির্ণয়ের জন্য আমরা নিচের সূত্রটি ব্যবহার করি: $$\\cos \\theta = \\frac{\\text{ভেক্টরের Y-উপাংশ}}{\\text{ভেক্টরের মান}}$$ প্রদত্ত ভেক্টর হল $$2 \\bar{i} - 3 \\bar{j} + 6 \\bar{k}$$ এখানে, ভেক্টরের Y-উপাংশ হল $$-3$$। এখন, ভেক্টরের মান (অর্থাৎ, দৈর্ঘ্য) নির্ণয় করি: $$\\sqrt{2^2 + (-3)^2 + 6^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$$ তাহলে, $$\\cos \\theta = \\frac{-3}{7}$$ অতএব, Y অক্ষের সাথে গঠিত কোণ হলঃ $$\\theta = \\cos^{-1}\\left(-\\frac{3}{7}\\right)$$ সঠিক উত্তরটি হল অপশন (C): $$\\cos^{-1}\\left(-\\frac{3}{7}\\right)$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 19,
@@ -301,7 +337,9 @@
       "d": "1"
     },
     "correctAnswer": "a",
-    "explanation": "ভেষ্টরদ্বয় পরস্পর লম্ব বলে, $$(2 \\hat{\\mathrm{i}}+\\mathrm{p} \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}) \\cdot(4 \\hat{\\mathrm{i}}-2 \\hat{\\mathrm{j}}-2 \\hat{\\mathrm{k}})=0 \\Rightarrow 8-2 \\mathrm{P}-2=0 \\Rightarrow \\mathrm{P}=3$$"
+    "explanation": "ভেষ্টরদ্বয় পরস্পর লম্ব বলে, $$(2 \\hat{\\mathrm{i}}+\\mathrm{p} \\hat{\\mathrm{j}}+\\hat{\\mathrm{k}}) \\cdot(4 \\hat{\\mathrm{i}}-2 \\hat{\\mathrm{j}}-2 \\hat{\\mathrm{k}})=0 \\Rightarrow 8-2 \\mathrm{P}-2=0 \\Rightarrow \\mathrm{P}=3$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 20,
@@ -317,7 +355,9 @@
       "d": "$$3\\sqrt{6}sq\\ units$$"
     },
     "correctAnswer": "c",
-    "explanation": "(c); $$\\overrightarrow{a}\\times\\overrightarrow{b}=\\begin{vmatrix}\\overrightarrow{i}&\\overrightarrow{j}&\\overrightarrow{k}\\\\4&-3&2\\\\2&-3&4\\end{vmatrix}=-6\\overrightarrow{i}-12\\overrightarrow{j}-6\\overrightarrow{k}$$ এখন, $$\\begin{vmatrix}\\overrightarrow{a}\\times\\overrightarrow{b}\\end{vmatrix}=\\sqrt{6^2+12^2+6^2}=6\\sqrt{6}$$"
+    "explanation": "(c); $$\\overrightarrow{a}\\times\\overrightarrow{b}=\\begin{vmatrix}\\overrightarrow{i}&\\overrightarrow{j}&\\overrightarrow{k}\\\\4&-3&2\\\\2&-3&4\\end{vmatrix}=-6\\overrightarrow{i}-12\\overrightarrow{j}-6\\overrightarrow{k}$$ এখন, $$\\begin{vmatrix}\\overrightarrow{a}\\times\\overrightarrow{b}\\end{vmatrix}=\\sqrt{6^2+12^2+6^2}=6\\sqrt{6}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 21,
@@ -333,7 +373,9 @@
       "d": "$$\\vec{A} . \\left ( \\vec{B} . \\vec{C} \\right )=0$$"
     },
     "correctAnswer": "a",
-    "explanation": "$$\\vec{A} . \\left ( \\vec{B} \\times \\vec{C} \\right )=0$$ হলে ভেক্টরত্রয় একই তলে অবস্থিত এবং এদের দ্বারা গঠিত ঘনবস্তুর আয়তন শূন্য।"
+    "explanation": "$$\\vec{A} . \\left ( \\vec{B} \\times \\vec{C} \\right )=0$$ হলে ভেক্টরত্রয় একই তলে অবস্থিত এবং এদের দ্বারা গঠিত ঘনবস্তুর আয়তন শূন্য।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 22,
@@ -349,7 +391,9 @@
       "d": "উপাংশ"
     },
     "correctAnswer": "b",
-    "explanation": "সমান্তরাল সূত্র ভেক্টর রাশির বিয়োজনের সূত্র না হওয়ার পরিপ্রেক্ষিতে উল্লেখযোগ্য যে, ভেক্টর রাশির বিয়োজনের জন্য তিনটি সূত্র রয়েছে। এগুলো হলো- সাধারণ নিয়ম, সামান্তরিক সূত্র এবং উপাংশ সূত্র।"
+    "explanation": "সমান্তরাল সূত্র ভেক্টর রাশির বিয়োজনের সূত্র না হওয়ার পরিপ্রেক্ষিতে উল্লেখযোগ্য যে, ভেক্টর রাশির বিয়োজনের জন্য তিনটি সূত্র রয়েছে। এগুলো হলো- সাধারণ নিয়ম, সামান্তরিক সূত্র এবং উপাংশ সূত্র।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 23,
@@ -365,7 +409,9 @@
       "d": "$$12ms^{-1}$$"
     },
     "correctAnswer": "b",
-    "explanation": "সর্বনিম্ন দূরত্বে, নৌকা সোজা প্রস্থ বরাবর যাতায়ত করে। $$\\begin{array}{l}t=\\frac{d}{V sin 90^0} \\\\ \\Rightarrow V=\\frac{d}{t} \\\\ \\Rightarrow V=\\frac{80}{10} \\Rightarrow 8\\end{array}$$"
+    "explanation": "সর্বনিম্ন দূরত্বে, নৌকা সোজা প্রস্থ বরাবর যাতায়ত করে। $$\\begin{array}{l}t=\\frac{d}{V sin 90^0} \\\\ \\Rightarrow V=\\frac{d}{t} \\\\ \\Rightarrow V=\\frac{80}{10} \\Rightarrow 8\\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 24,
@@ -381,7 +427,9 @@
       "d": "$$\\overrightarrow{M}+\\overrightarrow{N}-\\overrightarrow{L}=0$$"
     },
     "correctAnswer": "c",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 25,
@@ -397,7 +445,9 @@
       "d": "$$\\sqrt{2}$$"
     },
     "correctAnswer": "a",
-    "explanation": "$$\\overrightarrow{P}\\times\\overrightarrow{Q}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&-1&1\\\\1&1&-1\\end{vmatrix}=\\hat{i}\\times0-\\hat{j}\\left(-2\\right)+\\hat{k}\\left(2\\right)=2\\hat{j}+2\\hat{k}$$ সামান্তরিকের ক্ষেত্রফল$$=|\\overrightarrow{P}\\times\\overrightarrow{Q}|=\\sqrt{2^2+2^2}=\\sqrt{8}=2\\sqrt{2}$$"
+    "explanation": "$$\\overrightarrow{P}\\times\\overrightarrow{Q}=\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&-1&1\\\\1&1&-1\\end{vmatrix}=\\hat{i}\\times0-\\hat{j}\\left(-2\\right)+\\hat{k}\\left(2\\right)=2\\hat{j}+2\\hat{k}$$ সামান্তরিকের ক্ষেত্রফল$$=|\\overrightarrow{P}\\times\\overrightarrow{Q}|=\\sqrt{2^2+2^2}=\\sqrt{8}=2\\sqrt{2}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 26,
@@ -413,7 +463,9 @@
       "d": "2"
     },
     "correctAnswer": "c",
-    "explanation": "জ্যামিতিক পদ্ধতিতে ভেক্টর রাশির যোগ ৫টি পদ্ধতিতে করা যায়। যথা : সাধারণ, ত্রিভুজ, বহুভুজ, সামান্তরিক ও উপাংশ সূত্র"
+    "explanation": "জ্যামিতিক পদ্ধতিতে ভেক্টর রাশির যোগ ৫টি পদ্ধতিতে করা যায়। যথা : সাধারণ, ত্রিভুজ, বহুভুজ, সামান্তরিক ও উপাংশ সূত্র",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 27,
@@ -429,7 +481,9 @@
       "d": "None of these"
     },
     "correctAnswer": "c",
-    "explanation": "$$\\overrightarrow{QP}$$ ও $$\\overrightarrow{PQ}$$ পরস্পর বিপরীতমুখী। সুতরাং একটি $$\\vec{A}$$ হলে অপরটি হবে $$-\\vec{A}$$"
+    "explanation": "$$\\overrightarrow{QP}$$ ও $$\\overrightarrow{PQ}$$ পরস্পর বিপরীতমুখী। সুতরাং একটি $$\\vec{A}$$ হলে অপরটি হবে $$-\\vec{A}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 28,
@@ -445,7 +499,9 @@
       "d": "$$5 \\sqrt{5}$$"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 29,
@@ -461,7 +517,9 @@
       "d": "$$\\hat{\\mathbf{j}}+\\hat{\\mathbf{k}}$$"
     },
     "correctAnswer": "b",
-    "explanation": "ব্যাখ্যা : দেওয়া আছে, $$\\mathbf{P}=\\hat{\\mathbf{i}}-\\hat{\\mathbf{j}}+\\hat{\\mathbf{k}}$$ $$\\begin{aligned} \\mathbf{P}+\\mathbf{Q} & =\\hat{\\mathbf{i}} \\\\ \\mathbf{Q} & =\\hat{\\mathbf{i}}-\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}-\\hat{\\mathbf{k}}=\\hat{\\mathbf{j}}-\\hat{\\mathbf{k}} \\end{aligned}$$"
+    "explanation": "ব্যাখ্যা : দেওয়া আছে, $$\\mathbf{P}=\\hat{\\mathbf{i}}-\\hat{\\mathbf{j}}+\\hat{\\mathbf{k}}$$ $$\\begin{aligned} \\mathbf{P}+\\mathbf{Q} & =\\hat{\\mathbf{i}} \\\\ \\mathbf{Q} & =\\hat{\\mathbf{i}}-\\hat{\\mathbf{i}}+\\hat{\\mathbf{j}}-\\hat{\\mathbf{k}}=\\hat{\\mathbf{j}}-\\hat{\\mathbf{k}} \\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 30,
@@ -477,7 +535,9 @@
       "d": "zero"
     },
     "correctAnswer": "b",
-    "explanation": "$$\\begin{aligned} 60^{2} & =30^{2}+v^{2} \\\\ v^{2} & =90 \\times 30 \\\\ v & =30 \\sqrt{3} \\mathrm{kmh}^{-1} \\end{aligned}$$"
+    "explanation": "$$\\begin{aligned} 60^{2} & =30^{2}+v^{2} \\\\ v^{2} & =90 \\times 30 \\\\ v & =30 \\sqrt{3} \\mathrm{kmh}^{-1} \\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 31,
@@ -493,7 +553,9 @@
       "d": "2"
     },
     "correctAnswer": "b",
-    "explanation": "সমাধান: এখানে, $$A_{1}=A_{2}=1$$ $$A_{1}^{2}+A_{2}^{2}+2 A_{1} A_{2} \\cos \\theta=(\\sqrt{3})^{2}=3$$ or $$1+1+2 \\times 1 \\times 1 \\times \\cos \\theta=3$$ $$\\cos \\theta=\\frac{1}{2}$$ এখন, $$\\left(\\mathbf{A}_{1}-\\mathbf{A}_{2}\\right) \\cdot\\left(2 \\mathbf{A}_{1}+\\mathbf{A}_{2}\\right)=2 A_{1}^{2}-A_{2}^{2}-A_{1} A_{2} \\cos \\theta$$ $$=2 \\times 1^{2}-1^{2}-1 \\times 1 \\times \\frac{1}{2}=\\frac{1}{2}$$"
+    "explanation": "সমাধান: এখানে, $$A_{1}=A_{2}=1$$ $$A_{1}^{2}+A_{2}^{2}+2 A_{1} A_{2} \\cos \\theta=(\\sqrt{3})^{2}=3$$ or $$1+1+2 \\times 1 \\times 1 \\times \\cos \\theta=3$$ $$\\cos \\theta=\\frac{1}{2}$$ এখন, $$\\left(\\mathbf{A}_{1}-\\mathbf{A}_{2}\\right) \\cdot\\left(2 \\mathbf{A}_{1}+\\mathbf{A}_{2}\\right)=2 A_{1}^{2}-A_{2}^{2}-A_{1} A_{2} \\cos \\theta$$ $$=2 \\times 1^{2}-1^{2}-1 \\times 1 \\times \\frac{1}{2}=\\frac{1}{2}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 32,
@@ -509,7 +571,9 @@
       "d": "$$A$$"
     },
     "correctAnswer": "d",
-    "explanation": "$$ব্যাখ্যা$$: ধরি $$\\theta$$ হবে$$\\mathbf{A}_{1}$$ এবং$$\\mathbf{A}_{2}$$ এর মধ্যে কোণ , $$\\begin{array}{c} A_{1}^{2}+A_{2}^{2}+2 A_{1} A_{2} \\cos \\theta=R^{2} \\\\ A^{2}+A^{2}+2 A A \\cos \\theta=3 A^{2} \\\\ \\cos \\theta=\\frac{1}{2}=\\cos 60^{\\circ} \\\\ \\theta=60^{\\circ} \\end{array}$$ এদের মধ্যবর্তী কোণ $$\\mathbf{A}_{1}$$ and $$-\\mathbf{A}_{2}$$ is $$\\left(180^{\\circ}-60^{\\circ}\\right)=120^{\\circ}$$ $$\\therefore$$এদের লব্ধি$$\\mathbf{A}_{1}$$ and $$-\\mathbf{A}_{2}$$ is $$\\begin{aligned} R^{\\prime} & =\\left[A_{1}^{2}+A_{2}^{2}+2 A_{1} A_{2} \\cos \\left(180^{\\circ}-60^{\\circ}\\right)\\right]^{1 / 2} \\\\ & =\\left[A^{2}+A^{2}+2 A A \\cos 120^{\\circ}\\right]^{1 / 2}=A \\end{aligned}$$"
+    "explanation": "$$ব্যাখ্যা$$: ধরি $$\\theta$$ হবে$$\\mathbf{A}_{1}$$ এবং$$\\mathbf{A}_{2}$$ এর মধ্যে কোণ , $$\\begin{array}{c} A_{1}^{2}+A_{2}^{2}+2 A_{1} A_{2} \\cos \\theta=R^{2} \\\\ A^{2}+A^{2}+2 A A \\cos \\theta=3 A^{2} \\\\ \\cos \\theta=\\frac{1}{2}=\\cos 60^{\\circ} \\\\ \\theta=60^{\\circ} \\end{array}$$ এদের মধ্যবর্তী কোণ $$\\mathbf{A}_{1}$$ and $$-\\mathbf{A}_{2}$$ is $$\\left(180^{\\circ}-60^{\\circ}\\right)=120^{\\circ}$$ $$\\therefore$$এদের লব্ধি$$\\mathbf{A}_{1}$$ and $$-\\mathbf{A}_{2}$$ is $$\\begin{aligned} R^{\\prime} & =\\left[A_{1}^{2}+A_{2}^{2}+2 A_{1} A_{2} \\cos \\left(180^{\\circ}-60^{\\circ}\\right)\\right]^{1 / 2} \\\\ & =\\left[A^{2}+A^{2}+2 A A \\cos 120^{\\circ}\\right]^{1 / 2}=A \\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 33,
@@ -525,7 +589,9 @@
       "d": "1"
     },
     "correctAnswer": "c",
-    "explanation": "$$ব্যাখ্যা$$: যদি $$\\mathbf{A} \\perp \\mathbf{B}$$, তাহলে $$\\mathbf{A} \\cdot \\mathbf{B}=A B \\cos 90^{\\circ}=0$$ $$\\begin{array}{l} (2 \\hat{\\mathbf{i}}+a \\hat{\\mathbf{j}}+\\hat{\\mathbf{k}}) \\cdot(4 \\hat{\\mathbf{i}}-2 \\hat{\\mathbf{j}}-2 \\hat{\\mathbf{k}})=0 \\\\ \\text { or } \\quad 8-2 a-2=0 \\text { or } a=3 \\end{array}$$"
+    "explanation": "$$ব্যাখ্যা$$: যদি $$\\mathbf{A} \\perp \\mathbf{B}$$, তাহলে $$\\mathbf{A} \\cdot \\mathbf{B}=A B \\cos 90^{\\circ}=0$$ $$\\begin{array}{l} (2 \\hat{\\mathbf{i}}+a \\hat{\\mathbf{j}}+\\hat{\\mathbf{k}}) \\cdot(4 \\hat{\\mathbf{i}}-2 \\hat{\\mathbf{j}}-2 \\hat{\\mathbf{k}})=0 \\\\ \\text { or } \\quad 8-2 a-2=0 \\text { or } a=3 \\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 34,
@@ -541,7 +607,9 @@
       "d": "$$\\cos^{-1} \\frac{-2}{21}$$"
     },
     "correctAnswer": "c",
-    "explanation": "মধ্যবর্তী কোন, $$\\theta=\\cos ^{-1} \\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}||\\vec{B}|}$$ $$\\begin{array}{l} =\\cos ^{-1} \\frac{(\\hat{i}-2 \\hat{j}-2 \\hat{k}) \\cdot(6 \\hat{i}+3 \\hat{j}+2 \\hat{k})}{\\sqrt{(1)^{2}+(-2)^{2}+(-2)^{2}} \\sqrt{(6)^{2}+(3)^{2}+(2)^{2}}} \\\\ =\\cos ^{-1}\\left(\\frac{6-6-4}{3 \\times 7}\\right)=\\cos ^{-1}\\left(\\frac{-4}{21}\\right) \\end{array}$$"
+    "explanation": "মধ্যবর্তী কোন, $$\\theta=\\cos ^{-1} \\frac{\\vec{A} \\cdot \\vec{B}}{|\\vec{A}||\\vec{B}|}$$ $$\\begin{array}{l} =\\cos ^{-1} \\frac{(\\hat{i}-2 \\hat{j}-2 \\hat{k}) \\cdot(6 \\hat{i}+3 \\hat{j}+2 \\hat{k})}{\\sqrt{(1)^{2}+(-2)^{2}+(-2)^{2}} \\sqrt{(6)^{2}+(3)^{2}+(2)^{2}}} \\\\ =\\cos ^{-1}\\left(\\frac{6-6-4}{3 \\times 7}\\right)=\\cos ^{-1}\\left(\\frac{-4}{21}\\right) \\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 35,
@@ -557,7 +625,9 @@
       "d": "$$\\cos ^{-1}\\left(\\frac{29}{25}\\right)$$"
     },
     "correctAnswer": "c",
-    "explanation": "$$ব্যাখ্যা$$: $$\\mathrm{সুতরাং}, \\mathbf{A} \\cdot \\mathbf{B}=A B \\cos \\theta$$ $$\\begin{aligned} \\Rightarrow \\quad \\cos \\theta=\\frac{\\mathbf{A} \\cdot \\mathbf{B}}{A B} & =\\frac{(2 \\hat{\\mathbf{i}}+3 \\hat{\\mathbf{j}}+4 \\hat{\\mathbf{k}}) \\cdot(4 \\hat{\\mathbf{i}}+3 \\hat{\\mathbf{j}}+2 \\hat{\\mathbf{k}})}{\\sqrt{4+9+16} \\cdot \\sqrt{16+9+4}} \\\\ & =\\frac{8+9+8}{29}=\\frac{25}{29} \\\\ \\Rightarrow \\quad \\theta & =\\cos ^{-1}\\left(\\frac{25}{29}\\right) \\end{aligned}$$"
+    "explanation": "$$ব্যাখ্যা$$: $$\\mathrm{সুতরাং}, \\mathbf{A} \\cdot \\mathbf{B}=A B \\cos \\theta$$ $$\\begin{aligned} \\Rightarrow \\quad \\cos \\theta=\\frac{\\mathbf{A} \\cdot \\mathbf{B}}{A B} & =\\frac{(2 \\hat{\\mathbf{i}}+3 \\hat{\\mathbf{j}}+4 \\hat{\\mathbf{k}}) \\cdot(4 \\hat{\\mathbf{i}}+3 \\hat{\\mathbf{j}}+2 \\hat{\\mathbf{k}})}{\\sqrt{4+9+16} \\cdot \\sqrt{16+9+4}} \\\\ & =\\frac{8+9+8}{29}=\\frac{25}{29} \\\\ \\Rightarrow \\quad \\theta & =\\cos ^{-1}\\left(\\frac{25}{29}\\right) \\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 36,
@@ -573,7 +643,9 @@
       "d": "$$180^{\\circ}$$"
     },
     "correctAnswer": "c",
-    "explanation": "সমাধান: দুটি ভেক্টরের ক্রস গুন দ্বারা প্রদত্ত ভেক্টরের দিকটি দুটি ভেক্টর সমতলের লম্বক হবে, i.e. $$\\mathbf{A} \\times \\mathbf{B}=(A B \\sin \\theta)=\\mathbf{C}$$. অতএব, $$\\mathbf{A}$$ ও $$\\mathbf{C}$$ দিয়ে 90° কোন তৈরি করা হয় ।"
+    "explanation": "সমাধান: দুটি ভেক্টরের ক্রস গুন দ্বারা প্রদত্ত ভেক্টরের দিকটি দুটি ভেক্টর সমতলের লম্বক হবে, i.e. $$\\mathbf{A} \\times \\mathbf{B}=(A B \\sin \\theta)=\\mathbf{C}$$. অতএব, $$\\mathbf{A}$$ ও $$\\mathbf{C}$$ দিয়ে 90° কোন তৈরি করা হয় ।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 37,
@@ -589,7 +661,9 @@
       "d": "-2 and -1"
     },
     "correctAnswer": "a",
-    "explanation": "দুটি ভেক্টর এর পরস্পর লম্ব হলে এদের ডট গুনফল ($$\\alpha \\hat{i} - 2 \\hat{j} + \\hat{k}$$) . ($$2 \\alpha \\hat{i} - \\alpha \\hat{j} - 4 \\hat{k}$$) = 0 $$2\\alpha^2+2\\alpha-4$$ = 0 $$\\alpha = -2,1$$"
+    "explanation": "দুটি ভেক্টর এর পরস্পর লম্ব হলে এদের ডট গুনফল ($$\\alpha \\hat{i} - 2 \\hat{j} + \\hat{k}$$) . ($$2 \\alpha \\hat{i} - \\alpha \\hat{j} - 4 \\hat{k}$$) = 0 $$2\\alpha^2+2\\alpha-4$$ = 0 $$\\alpha = -2,1$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 38,
@@ -605,7 +679,9 @@
       "d": "$$120\\degree$$"
     },
     "correctAnswer": "d",
-    "explanation": "প্রশ্নমতে,লব্ধি x হলে, $$x^2\\ =\\ x^2\\ +x^2\\ +2x^2\\cos\\theta\\$$ $$\\Rightarrow\\ \\theta=120\\degree$$"
+    "explanation": "প্রশ্নমতে,লব্ধি x হলে, $$x^2\\ =\\ x^2\\ +x^2\\ +2x^2\\cos\\theta\\$$ $$\\Rightarrow\\ \\theta=120\\degree$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 39,
@@ -621,7 +697,9 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "$$\\left(\\overrightarrow{a}+\\overrightarrow{b}\\right)=4\\hat{i}+\\hat{i}-\\hat{k}$$ $$\\left(\\overrightarrow{a}-\\overrightarrow{b}\\right)=-2\\hat{i}+3\\hat{i}-5\\hat{k}$$ $$\\therefore\\left(\\overrightarrow{a}+\\overrightarrow{b}\\right).\\left(\\overrightarrow{a}-\\overrightarrow{b}\\right)=-8+3+5=0$$"
+    "explanation": "$$\\left(\\overrightarrow{a}+\\overrightarrow{b}\\right)=4\\hat{i}+\\hat{i}-\\hat{k}$$ $$\\left(\\overrightarrow{a}-\\overrightarrow{b}\\right)=-2\\hat{i}+3\\hat{i}-5\\hat{k}$$ $$\\therefore\\left(\\overrightarrow{a}+\\overrightarrow{b}\\right).\\left(\\overrightarrow{a}-\\overrightarrow{b}\\right)=-8+3+5=0$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 40,
@@ -637,7 +715,9 @@
       "d": "4"
     },
     "correctAnswer": "a",
-    "explanation": "$$a_1 \\hat i + b_1 \\hat j + c_1 \\hat k = 0$$ এবং $$a_2 \\hat i + b_2 \\hat j + c_2 \\hat = 0$$ ভেক্টরদ্বয় সসমান্তরাল হবে যদি, $$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2} \\therefore \\frac{2}{2} = \\frac{-5}{a} \\implies a = -5$$"
+    "explanation": "$$a_1 \\hat i + b_1 \\hat j + c_1 \\hat k = 0$$ এবং $$a_2 \\hat i + b_2 \\hat j + c_2 \\hat = 0$$ ভেক্টরদ্বয় সসমান্তরাল হবে যদি, $$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2} \\therefore \\frac{2}{2} = \\frac{-5}{a} \\implies a = -5$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 41,
@@ -653,7 +733,9 @@
       "d": "$$\\cos^{-1}\\frac{1}{\\sqrt{2}}$$"
     },
     "correctAnswer": "c",
-    "explanation": "দেয়া আছে, $$\\begin{array}{l} \\vec{u}=\\hat{i}+\\hat{j} \\\\ \\vec{v}=\\hat{j}+\\hat{k} \\\\ \\vec{u} \\cdot \\vec{v}=|\\vec{u}| \\cdot|\\vec{v}| \\cdot \\cos \\theta \\\\ \\Rightarrow(\\hat{i}+\\hat{j})(\\hat{j}+\\hat{k})=\\sqrt{1^{2}+1^{2}} \\cdot \\sqrt{1^{2}+1^{2}} \\cdot \\cos \\theta \\\\ \\Rightarrow 0 \\cdot+1+0=\\sqrt{2} \\cdot \\sqrt{2} \\cdot \\cos \\theta \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\Rightarrow \\theta=60^{\\circ} \\\\ \\Rightarrow \\theta=\\cos ^{-1}\\left(\\frac{1}{2}\\right) . \\end{array}$$"
+    "explanation": "দেয়া আছে, $$\\begin{array}{l} \\vec{u}=\\hat{i}+\\hat{j} \\\\ \\vec{v}=\\hat{j}+\\hat{k} \\\\ \\vec{u} \\cdot \\vec{v}=|\\vec{u}| \\cdot|\\vec{v}| \\cdot \\cos \\theta \\\\ \\Rightarrow(\\hat{i}+\\hat{j})(\\hat{j}+\\hat{k})=\\sqrt{1^{2}+1^{2}} \\cdot \\sqrt{1^{2}+1^{2}} \\cdot \\cos \\theta \\\\ \\Rightarrow 0 \\cdot+1+0=\\sqrt{2} \\cdot \\sqrt{2} \\cdot \\cos \\theta \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\Rightarrow \\theta=60^{\\circ} \\\\ \\Rightarrow \\theta=\\cos ^{-1}\\left(\\frac{1}{2}\\right) . \\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 42,
@@ -669,7 +751,9 @@
       "d": "প্রাবল্য"
     },
     "correctAnswer": "d",
-    "explanation": "কাজ, বিভব ও ধারকত্বকে প্রকাশ করতে শুধুমাত্র মানের প্রয়োজন হয়। দিকের প্রয়োজন হয় না। তাই এরা স্কেলার রাশি। কিন্তু প্রাবল্যর মান ও দিক উভয়ই রয়েছে। তাই এটি একটি ভেক্টর রাশি।"
+    "explanation": "কাজ, বিভব ও ধারকত্বকে প্রকাশ করতে শুধুমাত্র মানের প্রয়োজন হয়। দিকের প্রয়োজন হয় না। তাই এরা স্কেলার রাশি। কিন্তু প্রাবল্যর মান ও দিক উভয়ই রয়েছে। তাই এটি একটি ভেক্টর রাশি।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 43,
@@ -685,7 +769,9 @@
       "d": "$$\\frac{F_{1}+F_{2}}{2}$$"
     },
     "correctAnswer": "b",
-    "explanation": "সমাধান:: দুটি ভেক্টরের লব্ধি হবে , $$\\begin{array}{l} R =\\sqrt{A^{2}+B^{2}+2 A B \\cos \\theta} \\\\ \\therefore \\quad F^{2} =F_{1}^{2}+F_{2}^{2}+2 F_{1} F_{2} \\cos 90^{\\circ} \\end{array}$$ দেওয়া আছে, $$\\theta=90^{\\circ}$$ সুতরাং, $$F^{2}=F_{1}^{2}+F_{2}^{2} \\Rightarrow F=\\sqrt{F_{1}^{2}+F_{2}^{2}}$$"
+    "explanation": "সমাধান:: দুটি ভেক্টরের লব্ধি হবে , $$\\begin{array}{l} R =\\sqrt{A^{2}+B^{2}+2 A B \\cos \\theta} \\\\ \\therefore \\quad F^{2} =F_{1}^{2}+F_{2}^{2}+2 F_{1} F_{2} \\cos 90^{\\circ} \\end{array}$$ দেওয়া আছে, $$\\theta=90^{\\circ}$$ সুতরাং, $$F^{2}=F_{1}^{2}+F_{2}^{2} \\Rightarrow F=\\sqrt{F_{1}^{2}+F_{2}^{2}}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 44,
@@ -701,7 +787,9 @@
       "d": "π"
     },
     "correctAnswer": "b",
-    "explanation": "$$R^2=A^2+B^2+2AB\\cos\\alpha$$ $$\\Rightarrow R^2=R^2+R^2+2R.R\\cos\\alpha$$ $$\\Rightarrow\\cos\\alpha=-\\frac{1}{2}$$ $$\\therefore\\alpha=\\frac{2\\pi}{3}$$"
+    "explanation": "$$R^2=A^2+B^2+2AB\\cos\\alpha$$ $$\\Rightarrow R^2=R^2+R^2+2R.R\\cos\\alpha$$ $$\\Rightarrow\\cos\\alpha=-\\frac{1}{2}$$ $$\\therefore\\alpha=\\frac{2\\pi}{3}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 45,
@@ -717,7 +805,9 @@
       "d": "$$180°$$"
     },
     "correctAnswer": "c",
-    "explanation": "$$P=\\sqrt{P^2+P^2+2.P.P\\ cos\\alpha}\\ \\Rightarrow cos\\alpha\\ =\\frac{-1}{2}\\therefore\\alpha=120°$$"
+    "explanation": "$$P=\\sqrt{P^2+P^2+2.P.P\\ cos\\alpha}\\ \\Rightarrow cos\\alpha\\ =\\frac{-1}{2}\\therefore\\alpha=120°$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 46,
@@ -733,7 +823,9 @@
       "d": "$$\\vec{A} + \\vec{B} = \\vec{A} \\vec{B}$$"
     },
     "correctAnswer": "a",
-    "explanation": "$$\\vec{A}+\\vec{B}=\\vec{B}+\\vec{A}$$ এটিই ভেক্টরের বিনিময় সূত্র।"
+    "explanation": "$$\\vec{A}+\\vec{B}=\\vec{B}+\\vec{A}$$ এটিই ভেক্টরের বিনিময় সূত্র।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 47,
@@ -749,7 +841,9 @@
       "d": "দিক রাশি উহার মান অথবা দিক, অথবা মান ও দিক উভয়ের পরিবর্তনে পরিবর্তিত হয়"
     },
     "correctAnswer": "a",
-    "explanation": "দিক রাশির যোগফল নির্ণয় করতে রাশিগুলোর মান ও এদের মধ্যবর্তী কোণ দরকার হয়। $$\\begin{array}{l} \\vec{R}=\\vec{P}+\\vec{Q} \\\\ \\Rightarrow R=\\sqrt{P^{2}+Q^{2}+2 P Q \\cos \\theta} \\end{array}$$ $$R=P+Q$$ শুধুমাত্র তখনই হওয়া সম্ভব, যখন $$P$$ ও $$Q$$ এর মধ্যবর্তী কোণ $$0°$$ হবে। অন্য সকল ক্ষেত্রে $$R<P+Q$$ তাই, একই জাতীয় দুটি রাশির মান $$P$$ ও $$Q$$ হলে, এদের যোগফল R=P+Q ; দিক রাশির বৈশিষ্ট্য নয়।"
+    "explanation": "দিক রাশির যোগফল নির্ণয় করতে রাশিগুলোর মান ও এদের মধ্যবর্তী কোণ দরকার হয়। $$\\begin{array}{l} \\vec{R}=\\vec{P}+\\vec{Q} \\\\ \\Rightarrow R=\\sqrt{P^{2}+Q^{2}+2 P Q \\cos \\theta} \\end{array}$$ $$R=P+Q$$ শুধুমাত্র তখনই হওয়া সম্ভব, যখন $$P$$ ও $$Q$$ এর মধ্যবর্তী কোণ $$0°$$ হবে। অন্য সকল ক্ষেত্রে $$R<P+Q$$ তাই, একই জাতীয় দুটি রাশির মান $$P$$ ও $$Q$$ হলে, এদের যোগফল R=P+Q ; দিক রাশির বৈশিষ্ট্য নয়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 48,
@@ -765,7 +859,9 @@
       "d": "সামান্তরিক সূত্র"
     },
     "correctAnswer": "c",
-    "explanation": "ভেক্টর যোজনের পাঁচটি সূত্র- ১. সাধারণ সূত্র ২. ত্রিভূজ সূত্র ৩. বহুভূজ সূত্র ৪. সামান্তরিক সূত্র ৫. উপাংশ সূত্র"
+    "explanation": "ভেক্টর যোজনের পাঁচটি সূত্র- ১. সাধারণ সূত্র ২. ত্রিভূজ সূত্র ৩. বহুভূজ সূত্র ৪. সামান্তরিক সূত্র ৫. উপাংশ সূত্র",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 49,
@@ -781,7 +877,9 @@
       "d": "π"
     },
     "correctAnswer": "b",
-    "explanation": "$$R^2=A^2+B^2+2AB\\cos\\alpha$$ $$\\Rightarrow R^2=R^2+R^2+2R.R\\cos\\alpha$$ $$\\Rightarrow\\cos\\alpha=-\\frac{1}{2}$$ $$\\therefore\\alpha=\\frac{2\\pi}{3}$$"
+    "explanation": "$$R^2=A^2+B^2+2AB\\cos\\alpha$$ $$\\Rightarrow R^2=R^2+R^2+2R.R\\cos\\alpha$$ $$\\Rightarrow\\cos\\alpha=-\\frac{1}{2}$$ $$\\therefore\\alpha=\\frac{2\\pi}{3}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 50,
@@ -797,7 +895,9 @@
       "d": "35 m/s"
     },
     "correctAnswer": "d",
-    "explanation": "বিপরীত মুখী বস্তুদ্বয়ের আপেক্ষিক বেগ নির্ণয় করতে যোগ করতে হয় $$\\begin{aligned} \\bar{V}_{A B} & =\\bar{V}_{A}-\\bar{V}_{B} \\\\ & =25-(-10) \\\\ & =35 \\mathrm{~ms}^{-1}\\end{aligned}$$"
+    "explanation": "বিপরীত মুখী বস্তুদ্বয়ের আপেক্ষিক বেগ নির্ণয় করতে যোগ করতে হয় $$\\begin{aligned} \\bar{V}_{A B} & =\\bar{V}_{A}-\\bar{V}_{B} \\\\ & =25-(-10) \\\\ & =35 \\mathrm{~ms}^{-1}\\end{aligned}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 51,
@@ -813,7 +913,9 @@
       "d": "সিসমোগ্রাফ"
     },
     "correctAnswer": "d",
-    "explanation": "ভূমিকম্প পরিমাপক যন্ত্রের নাম সিসমোগ্রাফ আর ভূমিকম্পের মাত্রা নির্ণায়ক যন্ত্রের নাম রিখটারস্কেল।"
+    "explanation": "ভূমিকম্প পরিমাপক যন্ত্রের নাম সিসমোগ্রাফ আর ভূমিকম্পের মাত্রা নির্ণায়ক যন্ত্রের নাম রিখটারস্কেল।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 52,
@@ -829,7 +931,9 @@
       "d": "সেন্টিমিটার"
     },
     "correctAnswer": "d",
-    "explanation": "SI একক: কিলোগ্রাম, কেলভিন, মিটার"
+    "explanation": "SI একক: কিলোগ্রাম, কেলভিন, মিটার",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 53,
@@ -845,7 +949,9 @@
       "d": "কোপার্নিকাস"
     },
     "correctAnswer": "d",
-    "explanation": "সূর্যকেন্দ্রিক সৌরজগতের ধারণা দেন কোপারনিকাস।"
+    "explanation": "সূর্যকেন্দ্রিক সৌরজগতের ধারণা দেন কোপারনিকাস।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 54,
@@ -861,7 +967,9 @@
       "d": "1915"
     },
     "correctAnswer": "c",
-    "explanation": "নিলস হেনরিক ডেভিড বোর একজন ডেনিশ পদার্থবিদ ছিলেন যিনি পারমাণবিক গঠন এবং কোয়ান্টাম তত্ত্ব বোঝার জন্য মৌলিক অবদান রেখেছিলেন, যার জন্য তিনি 1922 সালে পদার্থবিজ্ঞানে নোবেল পুরস্কার পেয়েছিলেন।"
+    "explanation": "নিলস হেনরিক ডেভিড বোর একজন ডেনিশ পদার্থবিদ ছিলেন যিনি পারমাণবিক গঠন এবং কোয়ান্টাম তত্ত্ব বোঝার জন্য মৌলিক অবদান রেখেছিলেন, যার জন্য তিনি 1922 সালে পদার্থবিজ্ঞানে নোবেল পুরস্কার পেয়েছিলেন।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 55,
@@ -877,7 +985,9 @@
       "d": "$$10^{-3}$$"
     },
     "correctAnswer": "c",
-    "explanation": "$$\\begin{array}{l}1 \\mathrm{GHz}=10^{9} \\\\ 1 \\mathrm{MHZ}=10^{6} \\\\ \\therefore \\frac{10^{9}}{10^{6}}=10^{3}\\end{array}$$"
+    "explanation": "$$\\begin{array}{l}1 \\mathrm{GHz}=10^{9} \\\\ 1 \\mathrm{MHZ}=10^{6} \\\\ \\therefore \\frac{10^{9}}{10^{6}}=10^{3}\\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 56,
@@ -893,7 +1003,9 @@
       "d": "তত্ত্ব"
     },
     "correctAnswer": "d",
-    "explanation": "পরীক্ষা-নিরীক্ষার দ্বারা প্রমাণিত অনুকল্পকে তত্ত্ব বলে।"
+    "explanation": "পরীক্ষা-নিরীক্ষার দ্বারা প্রমাণিত অনুকল্পকে তত্ত্ব বলে।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 57,
@@ -909,7 +1021,9 @@
       "d": "$$(\\text{amp})^2$$ $$\\Omega$$"
     },
     "correctAnswer": "c",
-    "explanation": "ওয়াট (Watt) হলো শক্তির একক, যা শক্তির পরিমাণ এবং সময়ের সাথে সম্পর্কিত। এক ওয়াট সমতুল্য: 1. **১ ওয়াট = ১ জুল/সেকেন্ড** (Joule per second) 2. **১ ওয়াট = ১ ভোল্ট × ১ অ্যাম্পিয়ার** (Volt × Ampere) অর্থাৎ, এক ওয়াট শক্তি হলো প্রতি সেকেন্ডে ১ জুল শক্তি ব্যবহারের পরিমাণ বা ১ ভোল্টে ১ অ্যাম্পিয়ার প্রবাহিত হলে যে শক্তি উৎপন্ন হয় তা।"
+    "explanation": "ওয়াট (Watt) হলো শক্তির একক, যা শক্তির পরিমাণ এবং সময়ের সাথে সম্পর্কিত। এক ওয়াট সমতুল্য: 1. **১ ওয়াট = ১ জুল/সেকেন্ড** (Joule per second) 2. **১ ওয়াট = ১ ভোল্ট × ১ অ্যাম্পিয়ার** (Volt × Ampere) অর্থাৎ, এক ওয়াট শক্তি হলো প্রতি সেকেন্ডে ১ জুল শক্তি ব্যবহারের পরিমাণ বা ১ ভোল্টে ১ অ্যাম্পিয়ার প্রবাহিত হলে যে শক্তি উৎপন্ন হয় তা।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 58,
@@ -925,7 +1039,9 @@
       "d": "3 × 10 8 esu"
     },
     "correctAnswer": "a",
-    "explanation": "বিদ্যুৎ চুম্বকীয় একক হচ্ছে $$3 \\times 10^{10}$$ e.s.u. এখানে e.s.u হচ্ছে electro static units."
+    "explanation": "বিদ্যুৎ চুম্বকীয় একক হচ্ছে $$3 \\times 10^{10}$$ e.s.u. এখানে e.s.u হচ্ছে electro static units.",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 59,
@@ -941,7 +1057,9 @@
       "d": "ধারণা"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 60,
@@ -957,7 +1075,9 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "c",
-    "explanation": "বিজ্ঞানী কেকুল এর অবদান হচ্ছে-তিনি বেনজিনের কাঠামো তত্ত্ব প্রদান করেন।"
+    "explanation": "বিজ্ঞানী কেকুল এর অবদান হচ্ছে-তিনি বেনজিনের কাঠামো তত্ত্ব প্রদান করেন।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 61,
@@ -973,7 +1093,9 @@
       "d": "$$PVT^2$$"
     },
     "correctAnswer": "b",
-    "explanation": "চাপ $$(P) = \\frac{MLT^{-2}}{L^2} = [ML^{-1}T^{-2}]$$ বেগ $$(V) = [LT^{-1}]$$ সময় $$(t) = [T]$$ ধরা যাক, বলের মাত্রা $$F = [P^aV^bT^c]$$ | এখন, প্রচলিত মাত্রার সাথে তুলনা করে $$a, b, c$$ এর মান বের করতে হবে। $$MLT^{-2} = (ML^{-1}T^{-2})^a(LT^{-1})^b(T)^c$$ $$MLT^{-2} = M^aL^{-a+b}T^{-2a-b+c}$$ এখন উভয় পক্ষের মাত্রা তুলনা করে পাই: $$M$$ এর জন্য: $$a = 1$$ $$L$$ এর জন্য: $$-a + b = 1 \\implies -1 + b = 1 \\implies b = 2$$ $$T$$ এর জন্য: $$-2a - b + c = -2 \\implies -2(1) - 2 + c = -2 \\implies -4 + c = -2 \\implies c = 2$$ সুতরাং, বলের মাত্রা হলো $$PV^2t^2$$।"
+    "explanation": "চাপ $$(P) = \\frac{MLT^{-2}}{L^2} = [ML^{-1}T^{-2}]$$ বেগ $$(V) = [LT^{-1}]$$ সময় $$(t) = [T]$$ ধরা যাক, বলের মাত্রা $$F = [P^aV^bT^c]$$ | এখন, প্রচলিত মাত্রার সাথে তুলনা করে $$a, b, c$$ এর মান বের করতে হবে। $$MLT^{-2} = (ML^{-1}T^{-2})^a(LT^{-1})^b(T)^c$$ $$MLT^{-2} = M^aL^{-a+b}T^{-2a-b+c}$$ এখন উভয় পক্ষের মাত্রা তুলনা করে পাই: $$M$$ এর জন্য: $$a = 1$$ $$L$$ এর জন্য: $$-a + b = 1 \\implies -1 + b = 1 \\implies b = 2$$ $$T$$ এর জন্য: $$-2a - b + c = -2 \\implies -2(1) - 2 + c = -2 \\implies -4 + c = -2 \\implies c = 2$$ সুতরাং, বলের মাত্রা হলো $$PV^2t^2$$।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 62,
@@ -989,7 +1111,9 @@
       "d": "আইজ্যাক নিউটন"
     },
     "correctAnswer": "c",
-    "explanation": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন লিওনার্দো দ্যা ভিঞ্চি। সুতরাং সঠিক উত্তর: লিওনার্দো দ্যা ভিঞ্চি (অপশন সি)"
+    "explanation": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন লিওনার্দো দ্যা ভিঞ্চি। সুতরাং সঠিক উত্তর: লিওনার্দো দ্যা ভিঞ্চি (অপশন সি)",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 63,
@@ -1005,7 +1129,9 @@
       "d": "10 -2 T (Tesla)"
     },
     "correctAnswer": "b",
-    "explanation": "1 Gauss= 10 -4 Tesla"
+    "explanation": "1 Gauss= 10 -4 Tesla",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 64,
@@ -1021,7 +1147,9 @@
       "d": "নভো"
     },
     "correctAnswer": "d",
-    "explanation": "নভো কোন একক নয়।"
+    "explanation": "নভো কোন একক নয়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 65,
@@ -1037,7 +1165,9 @@
       "d": "এ্যাংস্ট্রম>পারসেক>আলোক বছর>মেগামিটার"
     },
     "correctAnswer": "b",
-    "explanation": "* $$1 \\mathrm{PC}=3.086 \\times 10^{16} \\mathrm{~m}$$ * $$1 \\mathrm{ly}=9.46 \\times 10^{15} \\mathrm{~m}$$ * $$1 \\mathrm{Mm}=10^{6} \\mathrm{~m} \\cdot 1 \\AA=10^{-10} \\mathrm{~m}$$"
+    "explanation": "* $$1 \\mathrm{PC}=3.086 \\times 10^{16} \\mathrm{~m}$$ * $$1 \\mathrm{ly}=9.46 \\times 10^{15} \\mathrm{~m}$$ * $$1 \\mathrm{Mm}=10^{6} \\mathrm{~m} \\cdot 1 \\AA=10^{-10} \\mathrm{~m}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 66,
@@ -1053,7 +1183,9 @@
       "d": "মেসন কণা"
     },
     "correctAnswer": "c",
-    "explanation": "উত্তরঃহিগস-বোসন কণা ‘ঈশ্বর কণা’ নামে পরিচিত। বোসন কণা, মেসন কণা এবং লেপটন কণা সবই মৌলিক কণা। কিন্তু হিগস-বোসন কণা একটি বিশেষ ধরনের বোসন কণা। এটি মহাবিশ্বের সকল অন্যান্য মৌলিক কণার ভর প্রদান করে বলে মনে করা হয়। তাই, এটিকে ‘ঈশ্বর কণা’ বলা হয়। হিগস-বোসন কণা আবিষ্কারের ফলে পদার্থবিজ্ঞানের স্ট্যান্ডার্ড মডেলকে আরও সমৃদ্ধ করা হয়েছে। এটি মহাবিশ্বের উৎপত্তি এবং বিবর্তন সম্পর্কে আমাদের বোঝার ক্ষেত্রে একটি গুরুত্বপূর্ণ অবদান রেখেছে। সুতরাং, উত্তর হল হিগস-বোসন কণা।"
+    "explanation": "উত্তরঃহিগস-বোসন কণা ‘ঈশ্বর কণা’ নামে পরিচিত। বোসন কণা, মেসন কণা এবং লেপটন কণা সবই মৌলিক কণা। কিন্তু হিগস-বোসন কণা একটি বিশেষ ধরনের বোসন কণা। এটি মহাবিশ্বের সকল অন্যান্য মৌলিক কণার ভর প্রদান করে বলে মনে করা হয়। তাই, এটিকে ‘ঈশ্বর কণা’ বলা হয়। হিগস-বোসন কণা আবিষ্কারের ফলে পদার্থবিজ্ঞানের স্ট্যান্ডার্ড মডেলকে আরও সমৃদ্ধ করা হয়েছে। এটি মহাবিশ্বের উৎপত্তি এবং বিবর্তন সম্পর্কে আমাদের বোঝার ক্ষেত্রে একটি গুরুত্বপূর্ণ অবদান রেখেছে। সুতরাং, উত্তর হল হিগস-বোসন কণা।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 67,
@@ -1069,7 +1201,9 @@
       "d": "$$R = \\frac{d^{2}}{12} + \\frac{4}{d}$$"
     },
     "correctAnswer": "c",
-    "explanation": "কোনো গোলীয় তলের বক্রতার ব্যাসার্ধ নির্ণয়ের সুত্রঃ $$R = \\frac{d^{2}}{6 h} + \\frac{h}{2}$$"
+    "explanation": "কোনো গোলীয় তলের বক্রতার ব্যাসার্ধ নির্ণয়ের সুত্রঃ $$R = \\frac{d^{2}}{6 h} + \\frac{h}{2}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 68,
@@ -1085,7 +1219,9 @@
       "d": "স্বীকার্য"
     },
     "correctAnswer": "a",
-    "explanation": "যে সকল প্রাকৃতিক সত্য সরাসরি স্পষ্টভাবে প্রমাণ করা যায় এবং ওই সত্যের সাহায্যে অনেক প্রাকৃতিক ঘটনাকে প্রমাণ করা যায়, তাকে নীতি বলে।"
+    "explanation": "যে সকল প্রাকৃতিক সত্য সরাসরি স্পষ্টভাবে প্রমাণ করা যায় এবং ওই সত্যের সাহায্যে অনেক প্রাকৃতিক ঘটনাকে প্রমাণ করা যায়, তাকে নীতি বলে।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 69,
@@ -1101,7 +1237,9 @@
       "d": "পারসেক"
     },
     "correctAnswer": "d",
-    "explanation": "1 পারসেক $$(p c)=3.26$$ আলোকবর্ষ$$=3.083 \\times 10^{13}$$ কিলোমিটার = $$3.083 \\times 10^{16}$$ মিটার"
+    "explanation": "1 পারসেক $$(p c)=3.26$$ আলোকবর্ষ$$=3.083 \\times 10^{13}$$ কিলোমিটার = $$3.083 \\times 10^{16}$$ মিটার",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 70,
@@ -1117,7 +1255,9 @@
       "d": "পর্যবেক্ষণমূলক ত্রুটি"
     },
     "correctAnswer": "b",
-    "explanation": "লেভেল ত্রুটি (level error) : কতকগুলো পরীক্ষণের ক্ষেত্রে যন্ত্রকে ভালোভাবে লেভেলিং করে না নিলে সঠিক পাঠ পাওয়া যায় না। যেমন নিক্তি, বিক্ষেপ চৌম্বকমান যন্ত্র, ট্যানজেন্ট গ্যালভানোমিটার ইত্যাদি। লেভেলিং স্ক্রু এবং স্পিরিট লেভেলের সাহায্যে লেভেলিং করে নিতে হয়। এই সকল যন্ত্রে লেভেল ত্রুটি দেখা যায়।"
+    "explanation": "লেভেল ত্রুটি (level error) : কতকগুলো পরীক্ষণের ক্ষেত্রে যন্ত্রকে ভালোভাবে লেভেলিং করে না নিলে সঠিক পাঠ পাওয়া যায় না। যেমন নিক্তি, বিক্ষেপ চৌম্বকমান যন্ত্র, ট্যানজেন্ট গ্যালভানোমিটার ইত্যাদি। লেভেলিং স্ক্রু এবং স্পিরিট লেভেলের সাহায্যে লেভেলিং করে নিতে হয়। এই সকল যন্ত্রে লেভেল ত্রুটি দেখা যায়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 71,
@@ -1133,7 +1273,9 @@
       "d": "দ্বিপোল ভ্রামক, তড়িৎ ফ্লাক্স, তড়িৎক্ষেত্র"
     },
     "correctAnswer": "d",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 72,
@@ -1149,7 +1291,9 @@
       "d": "নিউটন"
     },
     "correctAnswer": "c",
-    "explanation": "রজার বেকন (Roger Bacon, 1214-1292)-ই ছিলেন \"পর্যবেক্ষণ ও পরীক্ষার মাধ্যমেই পদার্থবিজ্ঞানের সব সত্য যাচাই করা যায়\" এই মতবাদের প্রবক্তা। তিনি ছিলেন একজন ইংরেজ দার্শনিক, ধর্মতত্ত্ববিদ এবং বিজ্ঞানী। তাকে আধুনিক বৈজ্ঞানিক পদ্ধতির জনকদের একজন হিসেবে বিবেচনা করা হয়।"
+    "explanation": "রজার বেকন (Roger Bacon, 1214-1292)-ই ছিলেন \"পর্যবেক্ষণ ও পরীক্ষার মাধ্যমেই পদার্থবিজ্ঞানের সব সত্য যাচাই করা যায়\" এই মতবাদের প্রবক্তা। তিনি ছিলেন একজন ইংরেজ দার্শনিক, ধর্মতত্ত্ববিদ এবং বিজ্ঞানী। তাকে আধুনিক বৈজ্ঞানিক পদ্ধতির জনকদের একজন হিসেবে বিবেচনা করা হয়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 73,
@@ -1165,7 +1309,9 @@
       "d": "10 -12"
     },
     "correctAnswer": "b",
-    "explanation": "A nano is defined as 10^-9"
+    "explanation": "A nano is defined as 10^-9",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 74,
@@ -1181,7 +1327,9 @@
       "d": "ঘনত্ব"
     },
     "correctAnswer": "d",
-    "explanation": "অপশনগুলোর মধ্যে শুধু ঘনত্বকে প্রকাশ করতেই কেবল মান এর দরকার হয়, দিক এর দরকার হয়না। তাই ঘনত্ব স্কেলার রাশি।"
+    "explanation": "অপশনগুলোর মধ্যে শুধু ঘনত্বকে প্রকাশ করতেই কেবল মান এর দরকার হয়, দিক এর দরকার হয়না। তাই ঘনত্ব স্কেলার রাশি।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 75,
@@ -1197,7 +1345,9 @@
       "d": "১৭৫৭"
     },
     "correctAnswer": "b",
-    "explanation": "Is-28; নিউটনের এই বইটি 1687 সালে প্রকাশিত হয়।"
+    "explanation": "Is-28; নিউটনের এই বইটি 1687 সালে প্রকাশিত হয়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 76,
@@ -1213,7 +1363,9 @@
       "d": "তাপমাত্রা"
     },
     "correctAnswer": "c",
-    "explanation": "মৌলিক একক হলো সেইসব একক যা অন্য কোনো এককের উপর নির্ভরশীল নয়। আন্তর্জাতিক একক পদ্ধতি (SI) অনুযায়ী, সময়, ভর এবং তাপমাত্রা হলো মৌলিক রাশি এবং এদের এককগুলো মৌলিক একক। অন্যদিকে, ভরবেগ হলো একটি লব্ধ রাশি যা ভর এবং বেগের গুণফল থেকে পাওয়া যায়। ভরবেগ $$(p)$$ এর সূত্র হলো $$p = mv$$, যেখানে $$m$$ হলো ভর এবং $$v$$ হলো বেগ। বেগ নিজেই একটি লব্ধ রাশি (দূরত্ব/সময়), তাই ভরবেগ কোনো মৌলিক একক নয়।"
+    "explanation": "মৌলিক একক হলো সেইসব একক যা অন্য কোনো এককের উপর নির্ভরশীল নয়। আন্তর্জাতিক একক পদ্ধতি (SI) অনুযায়ী, সময়, ভর এবং তাপমাত্রা হলো মৌলিক রাশি এবং এদের এককগুলো মৌলিক একক। অন্যদিকে, ভরবেগ হলো একটি লব্ধ রাশি যা ভর এবং বেগের গুণফল থেকে পাওয়া যায়। ভরবেগ $$(p)$$ এর সূত্র হলো $$p = mv$$, যেখানে $$m$$ হলো ভর এবং $$v$$ হলো বেগ। বেগ নিজেই একটি লব্ধ রাশি (দূরত্ব/সময়), তাই ভরবেগ কোনো মৌলিক একক নয়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 77,
@@ -1229,7 +1381,9 @@
       "d": "আইজ্যাক নিউটন"
     },
     "correctAnswer": "c",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 78,
@@ -1245,7 +1399,9 @@
       "d": "আলবার্ট আইনস্টাইন"
     },
     "correctAnswer": "c",
-    "explanation": "ম্যাক্স প্ল্যাঙ্ক (Max Planck, 1858–1947) : বিজ্ঞানী প্ল্যাঙ্ক ছিলেন জার্মানির প্রখ্যাত পদার্থবিদ। 1900 খ্রিস্টাব্দে তিনি তেজকণাবাদ (Quantum theory) আবিষ্কার করেন। এই আবিষ্কারের মাধ্যমে পদার্থবিজ্ঞানে বিপ্লব সূচিত হয়।"
+    "explanation": "ম্যাক্স প্ল্যাঙ্ক (Max Planck, 1858–1947) : বিজ্ঞানী প্ল্যাঙ্ক ছিলেন জার্মানির প্রখ্যাত পদার্থবিদ। 1900 খ্রিস্টাব্দে তিনি তেজকণাবাদ (Quantum theory) আবিষ্কার করেন। এই আবিষ্কারের মাধ্যমে পদার্থবিজ্ঞানে বিপ্লব সূচিত হয়।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 79,
@@ -1261,7 +1417,9 @@
       "d": "10 -5"
     },
     "correctAnswer": "b",
-    "explanation": "C.G.S পদ্ধতিতে, $$1 \\mathrm{~J}=10^{7} \\mathrm{erg}$$ S.I পদ্ধতিতে, $$\\begin{aligned} K & =1.38 \\times 10^{-23} \\mathrm{~J} \\\\ & =1.38 \\times 10^{-16} \\mathrm{erg}\\end{aligned}$$ $$\\therefore \\quad \\frac{1.38 \\times 10^{-16}}{1.38 \\times 10^{-23}}=10^{7}$$"
+    "explanation": "C.G.S পদ্ধতিতে, $$1 \\mathrm{~J}=10^{7} \\mathrm{erg}$$ S.I পদ্ধতিতে, $$\\begin{aligned} K & =1.38 \\times 10^{-23} \\mathrm{~J} \\\\ & =1.38 \\times 10^{-16} \\mathrm{erg}\\end{aligned}$$ $$\\therefore \\quad \\frac{1.38 \\times 10^{-16}}{1.38 \\times 10^{-23}}=10^{7}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 80,
@@ -1277,7 +1435,9 @@
       "d": "$$\\mathrm{M}^{-1} \\mathrm{~L}^{-3} \\mathrm{~T}^{-2}$$"
     },
     "correctAnswer": "a",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 81,
@@ -1293,7 +1453,9 @@
       "d": "জেমস সি ম্যাক্সওয়েল"
     },
     "correctAnswer": "d",
-    "explanation": "সঠিক উত্তর হচ্ছে - জেমস সি ম্যাক্সওয়েল"
+    "explanation": "সঠিক উত্তর হচ্ছে - জেমস সি ম্যাক্সওয়েল",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 82,
@@ -1309,7 +1471,9 @@
       "d": "0.40%"
     },
     "correctAnswer": "c",
-    "explanation": "আমরা জানি যে, শতকরা ত্রুটি = $$\\frac{\\left|প্রকৃত\\ মান\\ -পরিমাপকৃত\\ মান\\right|}{প্রকৃত\\ মান}\\times100\\%$$ $$=\\frac{10.4-10}{10.4}\\times100\\%=3.85\\%$$"
+    "explanation": "আমরা জানি যে, শতকরা ত্রুটি = $$\\frac{\\left|প্রকৃত\\ মান\\ -পরিমাপকৃত\\ মান\\right|}{প্রকৃত\\ মান}\\times100\\%$$ $$=\\frac{10.4-10}{10.4}\\times100\\%=3.85\\%$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 83,
@@ -1325,7 +1489,9 @@
       "d": "শক্তি"
     },
     "correctAnswer": "a",
-    "explanation": "বলের ঘাত, $$\\begin{array}{l}=F \\times t \\\\ =m a t \\\\ =k g m {s}^{-2} {s}=k g m {s}^{-1}\\end{array}$$ রৈখিক ভরবেগ, $$\\begin{array}{l}=P \\\\ =m v \\\\ =k g m s^{-1}\\end{array}$$"
+    "explanation": "বলের ঘাত, $$\\begin{array}{l}=F \\times t \\\\ =m a t \\\\ =k g m {s}^{-2} {s}=k g m {s}^{-1}\\end{array}$$ রৈখিক ভরবেগ, $$\\begin{array}{l}=P \\\\ =m v \\\\ =k g m s^{-1}\\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 84,
@@ -1341,7 +1507,9 @@
       "d": "8.440 × 10 -8"
     },
     "correctAnswer": "a",
-    "explanation": "ত্রুটি $$\\begin{array}{l}=\\frac{3.14159265-3.14159}{3.14159265} \\times 100 \\% =8.435 \\times 10^{-5} \\%\\end{array}$$"
+    "explanation": "ত্রুটি $$\\begin{array}{l}=\\frac{3.14159265-3.14159}{3.14159265} \\times 100 \\% =8.435 \\times 10^{-5} \\%\\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 85,
@@ -1357,7 +1525,9 @@
       "d": "200"
     },
     "correctAnswer": "a",
-    "explanation": "স্ফেরোমিটারের বৃত্তাকার স্কেলের দাগ সংখ্যা = 25/0.5 = 50"
+    "explanation": "স্ফেরোমিটারের বৃত্তাকার স্কেলের দাগ সংখ্যা = 25/0.5 = 50",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 86,
@@ -1373,7 +1543,9 @@
       "d": "1.425×10 10"
     },
     "correctAnswer": "b",
-    "explanation": "AU-কে বর্তমানে সংজ্ঞায়িত করা হয় ঠিক ১৪৯ ৫৯৭ ৮৭০ ৭০০ মিটার (প্রায় ১৫০ মিলিয়ন কিলোমিটার বা ৯৩ মিলিয়ন মাইল) হিসেবে।"
+    "explanation": "AU-কে বর্তমানে সংজ্ঞায়িত করা হয় ঠিক ১৪৯ ৫৯৭ ৮৭০ ৭০০ মিটার (প্রায় ১৫০ মিলিয়ন কিলোমিটার বা ৯৩ মিলিয়ন মাইল) হিসেবে।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 87,
@@ -1389,7 +1561,9 @@
       "d": "বেগ"
     },
     "correctAnswer": "b",
-    "explanation": "আলোক বর্ষ (ইংরেজি: Light year) একটি দৈর্ঘ্য পরিমাপের একক, যা দিয়ে জ্যোতির্বিদ্যা সম্পর্কিত দূরত্ব মাপা হয়। এক আলোক বর্ষ সমান ৯৪৬ হাজার কোটি কিলোমিটার। ইন্টারন্যাশনাল অ্যাস্ট্রোনমিক্যাল ইউনিয়নের সংজ্ঞা অনুসারে এক আলোক বর্ষ হল এক জুলীয় বছরে (৩৬৫.২৫ দিন) শূন্য মাধ্যমে আলো যত দূরত্ব অতিক্রম করে সেই দূরত্ব"
+    "explanation": "আলোক বর্ষ (ইংরেজি: Light year) একটি দৈর্ঘ্য পরিমাপের একক, যা দিয়ে জ্যোতির্বিদ্যা সম্পর্কিত দূরত্ব মাপা হয়। এক আলোক বর্ষ সমান ৯৪৬ হাজার কোটি কিলোমিটার। ইন্টারন্যাশনাল অ্যাস্ট্রোনমিক্যাল ইউনিয়নের সংজ্ঞা অনুসারে এক আলোক বর্ষ হল এক জুলীয় বছরে (৩৬৫.২৫ দিন) শূন্য মাধ্যমে আলো যত দূরত্ব অতিক্রম করে সেই দূরত্ব",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 88,
@@ -1405,7 +1579,9 @@
       "d": "বলের ভ্রামক=[ML -1 T -2 ]"
     },
     "correctAnswer": "d",
-    "explanation": "বলের ভ্রামকের মাত্রা= $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-2}\\right]$$ কেননা, টর্ক= Fr তাই একক=Kgms^-2.m=Kgm²s^-2 আর তাই, মাত্রা= $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-2}\\right]$$"
+    "explanation": "বলের ভ্রামকের মাত্রা= $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-2}\\right]$$ কেননা, টর্ক= Fr তাই একক=Kgms^-2.m=Kgm²s^-2 আর তাই, মাত্রা= $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-2}\\right]$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 89,
@@ -1421,7 +1597,9 @@
       "d": "$$\\frac{v^{2}}{r g}$$"
     },
     "correctAnswer": "d",
-    "explanation": "$$\\frac{v^{2}}{r g}=\\frac{\\left(m s^{-1}\\right)^{2}}{m \\times m s^{-2}}=\\frac{m^{2} s^{-2}}{m^{2} s^{-2}}=1$$"
+    "explanation": "$$\\frac{v^{2}}{r g}=\\frac{\\left(m s^{-1}\\right)^{2}}{m \\times m s^{-2}}=\\frac{m^{2} s^{-2}}{m^{2} s^{-2}}=1$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 90,
@@ -1437,7 +1615,9 @@
       "d": "টন"
     },
     "correctAnswer": "c",
-    "explanation": "এককগুলির মধ্যে \"ডেকামিটার\" (গ) সবচেয়ে কম ব্যবহৃত এবং অনেকে এই এককটি দৈনন্দিন জীবনে ব্যবহার করেন না। তবে একক হিসেবে এটি বিদ্যমান। যদি প্রশ্নে এমন কিছু বোঝানো হয় যা দৈনন্দিন জীবনে ব্যবহার হয় না, তবে ডেকামিটারকে ধরা যেতে পারে। অন্যথায়, টন, কিলোমিটার, এবং মাইক্রন সবগুলোই প্রচলিত ব্যবহারিক একক।"
+    "explanation": "এককগুলির মধ্যে \"ডেকামিটার\" (গ) সবচেয়ে কম ব্যবহৃত এবং অনেকে এই এককটি দৈনন্দিন জীবনে ব্যবহার করেন না। তবে একক হিসেবে এটি বিদ্যমান। যদি প্রশ্নে এমন কিছু বোঝানো হয় যা দৈনন্দিন জীবনে ব্যবহার হয় না, তবে ডেকামিটারকে ধরা যেতে পারে। অন্যথায়, টন, কিলোমিটার, এবং মাইক্রন সবগুলোই প্রচলিত ব্যবহারিক একক।",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 91,
@@ -1453,7 +1633,9 @@
       "d": "[M 2 LT 2 ]"
     },
     "correctAnswer": "b",
-    "explanation": "কাজ ও শক্তির মাত্রা : $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-2}\\right]$$ক্ষমতার মাত্রা : $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-3}\\right]$$"
+    "explanation": "কাজ ও শক্তির মাত্রা : $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-2}\\right]$$ক্ষমতার মাত্রা : $$\\left[\\mathrm{ML}^{2} \\mathrm{~T}^{-3}\\right]$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 92,
@@ -1469,7 +1651,9 @@
       "d": "10 9"
     },
     "correctAnswer": "c",
-    "explanation": "জুল এবং আর্গ উভয়ই শক্তির একক আমরা জানি, 1 জুল = 10$$^7$$ আর্গ $$\\therefore$$10 জুল = (10$$^7 \\times$$ 10) = 10$$^8$$ আর্গ"
+    "explanation": "জুল এবং আর্গ উভয়ই শক্তির একক আমরা জানি, 1 জুল = 10$$^7$$ আর্গ $$\\therefore$$10 জুল = (10$$^7 \\times$$ 10) = 10$$^8$$ আর্গ",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 93,
@@ -1485,7 +1669,9 @@
       "d": "ক্যান্ডেলা"
     },
     "correctAnswer": "d",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 94,
@@ -1501,7 +1687,9 @@
       "d": "2.125 × 10 -9 m 3"
     },
     "correctAnswer": "b",
-    "explanation": "$$\\begin{array}{l}a=1.3 \\times 10^{-3} \\\\ \\text { আয়তন }, V=a^{3}=2.197 \\times 10^{-9} \\mathrm{~m}^{3}\\end{array}$$"
+    "explanation": "$$\\begin{array}{l}a=1.3 \\times 10^{-3} \\\\ \\text { আয়তন }, V=a^{3}=2.197 \\times 10^{-9} \\mathrm{~m}^{3}\\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 95,
@@ -1517,7 +1705,9 @@
       "d": "28.317"
     },
     "correctAnswer": "d",
-    "explanation": "1 কিউসেক = 1 কিউবিক ফুট = 1 ফুট = 30.48 সে.মি $$\\therefore$$ 1 কিউসেক = 30,48 × 30.48 X30.48 = 28316.8 $$cm³$$ = $$\\frac{28316.85}{1000}$$= 28.317 লিটার"
+    "explanation": "1 কিউসেক = 1 কিউবিক ফুট = 1 ফুট = 30.48 সে.মি $$\\therefore$$ 1 কিউসেক = 30,48 × 30.48 X30.48 = 28316.8 $$cm³$$ = $$\\frac{28316.85}{1000}$$= 28.317 লিটার",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 96,
@@ -1533,7 +1723,9 @@
       "d": "0.1 cm"
     },
     "correctAnswer": "d",
-    "explanation": "Is-27, কোনো যন্ত্রের সাহায্যে ন্যূনতম যতটুকু পরিমাপ করা সম্ভব তাকে ঐ যন্ত্রের লঘিষ্ঠ গণন বলে। মিটার স্কেলের লঘিষ্ঠ গণন 0.1 cm."
+    "explanation": "Is-27, কোনো যন্ত্রের সাহায্যে ন্যূনতম যতটুকু পরিমাপ করা সম্ভব তাকে ঐ যন্ত্রের লঘিষ্ঠ গণন বলে। মিটার স্কেলের লঘিষ্ঠ গণন 0.1 cm.",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 97,
@@ -1549,7 +1741,9 @@
       "d": "$$\\left [ M L T^{- 1} \\right ]$$"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 98,
@@ -1565,7 +1759,9 @@
       "d": "কম্পাংক"
     },
     "correctAnswer": "c",
-    "explanation": "$$\\begin{array}{l}E=\\frac{h c}{\\lambda} \\\\ \\Rightarrow h=\\frac{E \\lambda}{c} \\\\ \\therefore h \\text { এর~একক }=\\frac{\\mathrm{J} m}{\\mathrm{~ms}^{-2}} =JS \\\\\\end{array}$$ কৌণিক ভরবেগ, $$\\begin{array}{l}=m v r \\\\ =k g m s^{-1} m \\\\ =k g m^{2} s^{-1} \\\\ =k g m^{2} s^{-2} \\times s \\\\ =J s\\end{array}$$"
+    "explanation": "$$\\begin{array}{l}E=\\frac{h c}{\\lambda} \\\\ \\Rightarrow h=\\frac{E \\lambda}{c} \\\\ \\therefore h \\text { এর~একক }=\\frac{\\mathrm{J} m}{\\mathrm{~ms}^{-2}} =JS \\\\\\end{array}$$ কৌণিক ভরবেগ, $$\\begin{array}{l}=m v r \\\\ =k g m s^{-1} m \\\\ =k g m^{2} s^{-1} \\\\ =k g m^{2} s^{-2} \\times s \\\\ =J s\\end{array}$$",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 99,
@@ -1581,7 +1777,9 @@
       "d": "স্বীকার্য"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 100,
@@ -1597,6 +1795,8 @@
       "d": "MLT -2 ও ML -2 T -3"
     },
     "correctAnswer": "b",
-    "explanation": ""
+    "explanation": "",
+    "questionImage": null,
+    "explanationImage": null
   }
 ]

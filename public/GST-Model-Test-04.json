@@ -13,7 +13,9 @@
     "explanation": "$$P=Fv=(20×2)W=40W$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@
     "explanation": "যেহেতু Capacitor DC ব্লক করে তাই , $$I=\\frac{20}{2}=10 A$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 3,
@@ -45,7 +49,9 @@
     "explanation": "$$1−\\frac{300}{{T}_{1}}=\\frac{40}{100}⇒\\frac{60}{100}=\\frac{300}{{T}_{1}}$$ $$⇒{T}_{1}=\\frac{100×300}{60}=500K$$ $$1−\\frac{300}{{T}_{1}}=\\frac{80}{100}⇒\\frac{20}{100}=\\frac{300}{{T}_{1}}$$ $$⇒{T}_{1}=\\frac{100×300}{20}=1500K$$ $$∴$$ তাপ উৎসের তাপমাত্রা $$(1500K−500K)=1000K$$ বাড়াতে হবে|",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 4,
@@ -61,7 +67,9 @@
     "explanation": "$${E}_{k}=h(f−{f}_{0})$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 5,
@@ -77,7 +85,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 6,
@@ -93,7 +103,9 @@
     "explanation": "গ্যাসের আয়তন $$10%$$ কমানো হয়। $$∴\\frac{v}{V}=0.1 ∴p=B.\\frac{v}{V}=6×1{0}^{3}×.1=600 {Nm}^{−2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 7,
@@ -109,7 +121,9 @@
     "explanation": "$$mgh=Fs+\\frac{1}{2}m{v}^{2}⇒v=4m{s}^{−1}$$ $$[s=6m, h=4m, F=16N]$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 8,
@@ -125,7 +139,9 @@
     "explanation": "$${E}_{p}=mgh=10×9.8×20=1960J$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 9,
@@ -141,7 +157,9 @@
     "explanation": "$$α=\\frac{{I}_{C}}{{I}_{E}}=\\frac{98}{100}=0.98$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 10,
@@ -157,7 +175,9 @@
     "explanation": "$$R=\\frac{f}{F}=\\frac{2×{10}^{−3}}{4×{10}^{−3}}=\\frac{1}{2}=50%$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 11,
@@ -173,7 +193,9 @@
     "explanation": "প্রথম 12 দিনে ভাঙবে 50% ; দ্বিতীয় 12 দিনে ভাঙবে অবশিষ্ট 50% এর 50% ; সুতরাং অবশিষ্ট থাকবে 25% |",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 12,
@@ -189,7 +211,9 @@
     "explanation": "মুক্তভাবে পড়ন্ত অবস্থায় $$g=0$$ [অভিকর্ষজ ত্বরণ g , আবার দোলকের ত্বরণও g ] $$T=2π\\sqrt{\\frac{L}{g}}=2π\\sqrt{\\frac{L}{0}}=∞$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 13,
@@ -205,7 +229,9 @@
     "explanation": "$$W=\\frac{1}{2}k{x}^{2}=\\frac{1}{2}×2×{(0.1)}^{2}=0.01 J$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 14,
@@ -221,7 +247,9 @@
     "explanation": "$$T=2π\\sqrt{\\frac{L}{g}}∴g=\\frac{4{π}^{2}L}{{T}^{2}}$$ $$∴\\frac{∆g}{g}=\\frac{∆L}{L}+2\\frac{∆T}{T}=\\frac{3}{90}+2×\\frac{0.03}{2}$$ $$=0.03+0.03=0.06×100%=6%$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 15,
@@ -237,7 +265,9 @@
     "explanation": "কেন্দ্রমুখী ত্বরণ , $$a= {ω}^{2}r$$ $$∴\\frac{{a}_{2}}{{a}_{1}}=\\frac{{ω}_{2}^{2}{r}_{2}}{{ω}_{1}^{2}{r}_{1}}=\\frac{1}{4} × 2=0.5$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 16,
@@ -253,7 +283,9 @@
     "explanation": "ডায়োডটি রিভার্স বায়াসে থাকায় $$I=0 A$$ হবে এবং $${V}_{0}=10 V$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 17,
@@ -269,7 +301,9 @@
     "explanation": "$${E}_{k}=\\frac{1}{2}I{ω}^{2}=\\frac{1}{2}m{r}^{2}{ω}^{2}$$ $$=\\frac{1}{2}×0.02×{(0.3)}^{2}×{5}^{2}=\\frac{1}{2}×\\frac{2}{100}×\\frac{9}{100}×25$$ $$=2.25×{10}^{−2} J$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 18,
@@ -285,7 +319,9 @@
     "explanation": "$${R}_{p}= \\frac{3×6}{3+6}=2Ω; I=\\frac{20}{4+2+4}=2A$$",
     "hasDiagram": true,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 19,
@@ -301,7 +337,9 @@
     "explanation": "$$\\frac{{T}_{2}}{{T}_{1}}=\\sqrt{\\frac{{L}_{2}}{{L}_{1}}}⇒\\frac{{L}_{2}}{{L}_{1}}={(1.5)}^{2}=2.25$$ $$∴∆L={L}_{2}−{L}_{1}=1.25 {L}_{1}=125%$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 20,
@@ -317,7 +355,9 @@
     "explanation": "এখানে , $$I= 5A; V=6V; R=?$$ $$R=\\frac{V}{I}=\\frac{6}{5}Ω=1.2Ω$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 21,
@@ -333,7 +373,9 @@
     "explanation": "$$F∝\\frac{{m}_{1}{m}_{2}}{{d}^{2}}∴ \\frac{F}{F}=\\frac{2m×3m×{d}^{2}}{{(2d)}^{2}×m×m}=1.5$$ $$⇒ F=1.5F$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 22,
@@ -349,7 +391,9 @@
     "explanation": "$$C→=A→+B→=2i^+3j^+4i^+j^=6i^+4j^$$ $$C→.i^=|C→||i^|cosθ⇒cosθ=\\frac{6}{\\sqrt{36+16}}$$ $$⇒ θ={cos}^{−1} (\\frac{6}{\\sqrt{52}})$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 23,
@@ -365,7 +409,9 @@
     "explanation": "$$\\frac{1}{N}sinθ=nλ$$ $$⇒sinθ=nNλ$$ $$=2×4×{10}^{5}×6250×{10}^{−10}=0.5∴θ={30}^{o}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 24,
@@ -381,7 +427,9 @@
     "explanation": "$$x=\\frac{λD}{2a}=\\frac{5000×{10}^{−10}×1}{2×0.4×{10}^{−3}}=\\frac{5}{8}×{10}^{−3}$$ $$=0.625×{10}^{−3} m=0.625 mm$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 25,
@@ -397,7 +445,9 @@
     "explanation": "$$k$$ এর মান পরিবর্তন করলে ডাই ইলেকট্রিক পদার্থ বিপরীত দিকে তড়িৎ ক্ষেত্র প্রয়োগ করে| সুতরাং বিভব কমে যায়| $$C= {∈}_{0}\\frac{KA}{d}$$ এক্ষেত্রে, $$C$$ বেড়ে যায়|",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 26,
@@ -413,7 +463,9 @@
     "explanation": "$${P}_{1}{V}_{1}={n}_{1}R{T}_{1} ;{P}_{2}{V}_{2}={n}_{2}R{T}_{2}$$ $${P}_{1}={P}_{2};{V}_{1}={V}_{2}$$ এবং R ধ্রুবক| $$∴{n}_{1}{T}_{1}={n}_{2}{T}_{2}$$ $$∴\\frac{{w}_{1}}{{M}_{1}}{T}_{1}=\\frac{{w}_{2}}{{M}_{2}}{T}_{2}$$ $$∴{T}_{2}=\\frac{{w}_{1}}{{w}_{2}}×\\frac{{M}_{2}}{{M}_{1}}×{T}_{1}=\\frac{64}{56}×\\frac{28}{32}×600=600K$$ .",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 27,
@@ -429,7 +481,9 @@
     "explanation": "ধরি, V পরিমাণ করে মিশ্রিত করা হলো, $$∴{10}^{−3}×V+{10}^{−4}×V=S×(V+V)$$ $$⇒\\frac{10×{10}^{−4}+{10}^{−4}}{2}=S ∴S=5.5×{10}^{−4}mol/L$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 28,
@@ -445,7 +499,9 @@
     "explanation": "$$w=ZIt⇒t=\\frac{w}{ZI}=\\frac{52}{\\frac{52}{3×96500}×0.965}$$ $$=300000 sec=5000 min$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 29,
@@ -461,7 +517,9 @@
     "explanation": "$$r∝\\frac{1}{t}⇒\\frac{{t}_{1}}{{t}_{2}}=\\frac{{r}_{2}}{{r}_{1}}=\\frac{1}{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 30,
@@ -477,7 +535,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 31,
@@ -493,7 +553,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 32,
@@ -509,7 +571,9 @@
     "explanation": "সংকরিত $$s{p}^{2}$$ ও অসংকরিত $${p}_{z}$$ একে অপরের সাপেক্ষে লম্বভাবে অবস্থান করে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 33,
@@ -525,7 +589,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 34,
@@ -541,7 +607,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 35,
@@ -557,7 +625,9 @@
     "explanation": "$${E}_{3}=\\frac{{E}_{1}}{{3}^{2}}=\\frac{{E}_{1}}{9}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 36,
@@ -573,7 +643,9 @@
     "explanation": "$$2S{O}_{2}+{O}_{2}→2S{O}_{3}$$ এই বিক্রিয়ায় এর জারন মান +4 হতে +6 এ পরিবর্তিত হয়|",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 37,
@@ -589,7 +661,9 @@
     "explanation": "$${K}_{w}({35}^{∘}C)<{K}_{w}({70}^{∘}C)<{K}_{w}({100}^{∘}C)$$ ; তাপমাত্রা বৃদ্ধিতে পানির আয়নিক গুণফল বৃদ্ধি পায়।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 38,
@@ -605,7 +679,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 39,
@@ -621,7 +697,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 40,
@@ -637,7 +715,9 @@
     "explanation": "$$pH=13$$ $$∴[{H}^{+}]={10}^{−13}$$ $$∴[O{H}^{−}]=\\frac{{10}^{−14}}{{10}^{−13}}=0.1 M$$ $$Ba{(OH)}_{2}⇌B{a}^{2+}+2O{H}^{−}$$ $$∴[B{a}^{2+}]=0.05M$$ $$∴{K}_{sp}=[B{a}^{2+}]{[O{H}^{−}]}^{2}=0.05×{(0.1)}^{2}=5×{10}^{−4}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 41,
@@ -653,7 +733,9 @@
     "explanation": "Be পূর্ণ অরবিটাল থাকার কারণে এবং N অর্ধপূর্ণ অরবিটাল থাকার কারণে যথাক্রমে B ও O থেকে আয়নীকরণ বিভব বেশি হয়|",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 42,
@@ -669,7 +751,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 43,
@@ -685,7 +769,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 44,
@@ -701,7 +787,9 @@
     "explanation": "$${(ne)}_{FeS{O}_{4}}={(ne)}_{{K}_{2}C{r}_{2}{O}_{7}}$$ $$⇒$$ $$\\frac{w}{x}×1=\\frac{12.5}{1000}×0.01×6$$ $$=12.5×6×{10}^{−3}×{10}^{−2}=75×{10}^{−5}$$ $$⇒W=75×{10}^{−5}x;%{FeSO}_{4}=\\frac{75×{10}^{−5}x}{0.2}×100%$$ $$=\\frac{75x×{10}^{−4+2}}{2}%=37.5x×{10}^{−2}%=0.375x%$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 45,
@@ -717,7 +805,9 @@
     "explanation": "$$\\begin{matrix} Pb{({C}_{2}{H}_{3}{O}_{2})}_{2}+KI=Pb{I}_{2}↓+ {CH}_{3}COOK \\\\ \\text{হলুদ} \\text{অধঃক্ষেপ} \\end{matrix}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 46,
@@ -733,7 +823,9 @@
     "explanation": "$$4x+(−2×6)=−2;x=+2.5$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 47,
@@ -749,7 +841,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 48,
@@ -765,7 +859,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 49,
@@ -781,7 +877,9 @@
     "explanation": "$${K}_{p}=\\frac{{α}^{2}P}{1−{α}^{2}}=\\frac{{0.5}^{2}×2}{1−{0.5}^{2}}atm=\\frac{2}{3}atm$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 50,
@@ -797,7 +895,9 @@
     "explanation": "$$S=\\frac{100m}{M−m}=\\frac{100×10}{60−10}$$ $$=\\frac{100×10}{50}=20 g/100 g {H}_{2}O$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 51,
@@ -813,7 +913,9 @@
     "explanation": "$${∫}_{0}^{1}\\frac{5−x}{5+x}dx={∫}_{0}^{1}\\frac{−(5+x)+10}{5+x}dx$$ $$={∫}_{0}^{1}[\\frac{10}{5+x}−1]dx={[10ln |x+5|−x]}_{0}^{1}$$ $$=10ln 6−1−10ln 5=10ln (\\frac{6}{5})−1$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 52,
@@ -829,7 +931,9 @@
     "explanation": "$$∴tan {60}^{∘}=\\frac{{v}_{t}}{{v}_{r}}⇒\\sqrt{3}=\\frac{{v}_{t}}{30}∴{v}_{t}=30\\sqrt{3} {ms}^{−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 53,
@@ -845,7 +949,9 @@
     "explanation": "ঢাল $$m=\\frac{−(−1)}{\\sqrt{3}}=tan θ⇒tan θ=\\frac{1}{\\sqrt{3}}$$ $$⇒θ={30}^{∘}$$ $$∴x$$ অক্ষের ঋণাত্মক দিকের সাথে উৎপন্ন কোণ $${θ}^{{}^{′}}={180}^{∘}−{30}^{∘}={150}^{∘}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 54,
@@ -861,7 +967,9 @@
     "explanation": "$$−\\frac{2P}{3}=−\\frac{1}{4}⇒\\frac{2P}{3}=\\frac{1}{4}⇒2P=\\frac{3}{4}$$ $$∴P=\\frac{3}{8}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 55,
@@ -877,7 +985,9 @@
     "explanation": "$$\\frac{−sin θ−2cos θ}{\\sqrt{6} cosec θ×\\frac{1}{cos θ}×\\frac{cos θ}{sin θ}}=\\frac{−sin θ−2cos θ}{\\sqrt{6} cose{c}^{2}θ}$$ $$=\\frac{−(−\\frac{\\sqrt{2}}{\\sqrt{3}})−2(−\\frac{1}{\\sqrt{3}})}{\\sqrt{6}×{(−\\frac{\\sqrt{3}}{\\sqrt{2}})}^{2}}=\\frac{\\frac{\\sqrt{2}}{\\sqrt{3}}+\\frac{2}{\\sqrt{3}}}{\\sqrt{6}×\\frac{3}{2}}$$ $$=\\frac{2+\\sqrt{2}}{\\sqrt{3}}×\\frac{2}{3\\sqrt{6}}$$ $$=\\frac{4+2\\sqrt{2}}{9×\\sqrt{2}}=\\frac{2(\\sqrt{2}+1)}{9}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 56,
@@ -893,7 +1003,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 57,
@@ -909,7 +1021,9 @@
     "explanation": "x অক্ষে ছেদ করলে $$y=0$$ $$∴{e}^{x}=2⇒x=ln 2$$ $$∴$$ ক্ষেত্রফল: $${∫}_{0}^{ln 2}(−y)dx$$ $$={∫}_{0}^{ln 2}(−{e}^{x}+2)dx$$ $$={[−{e}^{x}+2x]}_{0}^{ln 2}$$ $$=−2+2ln 2+1$$ $$=ln 4−1$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 58,
@@ -925,7 +1039,9 @@
     "explanation": "ধরি, মূলদ্বয় $$α, β;α+β=\\frac{1}{m}; αβ=\\frac{n}{m}$$ $$∴{α}^{2}+{β}^{2}={(α+β)}^{2}−2αβ={(\\frac{1}{m})}^{2}−2⋅\\frac{n}{m}$$ $$=\\frac{1}{{m}^{2}}−\\frac{2n}{m}=\\frac{1−2mn}{{m}^{2}}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 59,
@@ -941,7 +1057,9 @@
     "explanation": "$$tan θ=\\frac{1}{tan \\frac{θ}{2}} ⇒tan \\frac{θ}{2}⋅tan (2×\\frac{θ}{2})=1$$ $$⇒\\frac{2{tan}^{2} \\frac{θ}{2}}{1−{tan}^{2} \\frac{θ}{2}}=1 ⇒2{tan}^{2} \\frac{θ}{2}=1−{tan}^{2} \\frac{θ}{2}⇒3{tan}^{2} \\frac{θ}{2}=1$$ $$⇒tan \\frac{θ}{2}=\\frac{1}{\\sqrt{3}}=tan \\frac{π}{6}∴θ=\\frac{π}{3}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 60,
@@ -957,7 +1075,9 @@
     "explanation": "জটিল সংখ্যাকে $$ni$$ দ্বারা গুণ করলে আর্গুমেন্ট $$\\frac{π}{2}$$ কোণে ঘুরে যায়| $$[n≠0]$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 61,
@@ -973,7 +1093,9 @@
     "explanation": "$$S{P}^{2}={e}^{2}P{M}^{2}$$ $$⇒{(x−0)}^{2}+{(y−5)}^{2}={2}^{2}|\\frac{y+4}{\\sqrt{{1}^{2}+{0}^{2}}}|$$ $$⇒{x}^{2}+{y}^{2}−10y+25=4({y}^{2}+8y+16)$$ $$⇒{x}^{2}−3{y}^{2}−42y−39=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 62,
@@ -989,7 +1111,9 @@
     "explanation": "$$\\frac{2}{a+2i}=\\frac{2i}{b+i}⇒2b+2i=2ai+4{i}^{2}$$ $$⇒2i+4=2ai−2b ∴a=1$$ এবং $$b=−2$$ [ বাস্তব ও কাল্পনিক অংশের সহগ সমীকৃত করে ]",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 63,
@@ -1005,7 +1129,9 @@
     "explanation": "$${cosec}^{−1} (5\\sqrt{2})={tan}^{−1} (\\frac{1}{7})$$ $${cot}^{−1} 8={tan}^{−1} \\frac{1}{8}$$ ∴ অপর কোণ $$π−({tan}^{−1} \\frac{1}{7}+{tan}^{−1} \\frac{1}{8})$$ $$=π−{tan}^{−1} \\frac{3}{11}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 64,
@@ -1021,7 +1147,9 @@
     "explanation": "$$\\frac{{x}^{2}}{9}−\\frac{{y}^{2}}{4}=1⇒\\frac{{x}^{2}}{{(3)}^{2}}−\\frac{{y}^{2}}{{(2)}^{2}}=1$$ $$∴a=3$$ এবং $$b=2$$ পরামিতিক স্থানাঙ্ক, $$(a sec θ, btan θ)≡(3sec θ,2tan θ)$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 65,
@@ -1037,7 +1165,9 @@
     "explanation": "$$16{x}^{2}+9{y}^{2}+96x+225=0$$ $$⇒16 ({x}^{2}+6x+9)+9({y}^{2}−10y+25)$$ $$=−225+225+144$$ $$⇒\\frac{{(x+3)}^{2}}{9}+\\frac{{(y−5)}^{2}}{16}=1$$ ∴ কেন্দ্র: $$(−3, 5)$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 66,
@@ -1053,7 +1183,9 @@
     "explanation": "$${log}_{ln (x)} y=e⇒y={[ln x]}^{e}$$ $$⇒\\frac{dy}{dx}=e{(ln x)}^{e−1}×\\frac{1}{x}$$ $$∴\\frac{dy}{d(ln x)}=\\frac{\\frac{dy}{dx}}{\\frac{d(ln x)}{dx}}=\\frac{e{(ln x)}^{e−1}}{x×\\frac{1}{x}}=e{(ln x)}^{e−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 67,
@@ -1069,7 +1201,9 @@
     "explanation": "$$α+β+γ=a;αβ+βγ+αγ=0;$$ $$αβγ=−b$$ $$∴∑{α}^{2}={α}^{2}+{β}^{2}+{γ}^{2}$$ $$={(α+β+γ)}^{2}−2(αβ+βγ+αγ)$$ $$={a}^{2}−2×0={a}^{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 68,
@@ -1085,7 +1219,9 @@
     "explanation": "$$α+β=−\\frac{b}{a}, αβ=\\frac{c}{a}$$ $$∴ac({x}^{2}+1)−({b}^{2}−2ac)x=0$$ $$⇒ac{x}^{2}−({b}^{2}−2ac)x+ac=0$$ $$⇒\\frac{c}{a} {x}^{2}−(\\frac{{b}^{2}}{{a}^{2}}−2\\frac{c}{a})x+\\frac{c}{a}=0$$ [ $${a}^{2}$$ দ্বারা ভাগ করে] $$⇒αβ{x}^{2}−{{(α+β)}^{2}−2αβ}x+αβ=0$$ $$⇒αβ{x}^{2}−({α}^{2}+{β}^{2})x+αβ=0$$ $$⇒αβ{x}^{2}−{α}^{2}x−{β}^{2}x+αβ=0$$ $$⇒αx(βx−α)−β(βx−α)=0$$ $$⇒(αx−β)(βx−α)=0$$ $$∴x=\\frac{α}{β},\\frac{β}{α}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 69,
@@ -1101,7 +1237,9 @@
     "explanation": "$$tan α=\\frac{4H}{R}=\\frac{4×50}{200}=1$$ $$∴α={45}^{∘} [α<{90}^{∘}]$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 70,
@@ -1117,7 +1255,9 @@
     "explanation": "বৃত্ত হতে হলে, $$xy$$ এর সহগ $$=0$$ $$⇒2k{b}^{2}−\\frac{1}{4}=0 ⇒k{b}^{2}=\\frac{1}{8}$$ আবার, বৃত্ত হওয়ার জন্য $${x}^{2}$$ এর সহগ $${=y}^{2}$$ এর সহগ। $$∴{b}^{2}=1 ⇒b=±1;k=\\frac{1}{8}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 71,
@@ -1133,7 +1273,9 @@
     "explanation": "$$k=3, z=n$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 72,
@@ -1149,7 +1291,9 @@
     "explanation": "$$0=(2−0){e}^{x}+(2x−3){e}^{x}$$ $$={e}^{x}(2x−3+2)$$ $$⇒2x−1=0⇒x=\\frac{1}{2}$$ $$∴$$ চরমমান $$=(2×\\frac{1}{2}−3){e}^{ \\frac{1}{2}}=−2\\sqrt{e}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 73,
@@ -1165,7 +1309,9 @@
     "explanation": "$$sin (πcos \\frac{θ}{2})=sin (\\frac{π}{2}±πsin \\frac{θ}{2})$$ $$⇒cos \\frac{θ}{2}±sin \\frac{θ}{2}=\\frac{1}{2} ⇒1±sin θ=\\frac{1}{4} [$$ বর্গ করে $$]$$ $$⇒±sin θ=\\frac{3}{4}∴sin θ=±\\frac{3}{4}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 74,
@@ -1181,7 +1327,9 @@
     "explanation": "স্পর্শকের ঢাল $$=\\frac{17}{6}={\\frac{dy}{dx}|}_{(−1, α)}$$ আবার, $${x}^{3}+3{x}^{2}{y}^{2}−26=0$$ $$⇒3{x}^{2}+6x{y}^{2}+6{x}^{2}y\\frac{dy}{dx}⇒\\frac{dy}{dx}=\\frac{x+2{y}^{2}}{−2xy}$$ $$[∵x≠0]⇒{\\frac{dy}{dx}|}_{(−1, α)}=\\frac{−1+2{α}^{2}}{2α}=\\frac{17}{6}$$ $$⇒12{α}^{2}−34α−6=0$$ $$⇒6{α}^{2}−17α−3=0∴α=3,\\frac{−1}{6}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 75,
@@ -1197,7 +1345,9 @@
     "explanation": "$$\\frac{{x}^{2}}{30}+\\frac{{y}^{2}}{14}=1;{a}^{2}=30, {b}^{2}=14$$ $$∴e=\\sqrt{\\frac{{a}^{2}−{b}^{2}}{{a}^{2}}}=\\frac{\\sqrt{16}}{\\sqrt{30}}=\\frac{4}{\\sqrt{30}}$$ তাহলে, $$\\frac{a}{e}−ae=\\frac{\\sqrt{30}}{\\frac{4}{\\sqrt{30}}}−\\sqrt{30}×\\frac{4}{\\sqrt{30}}$$ $$=\\frac{30}{4}−4=\\frac{14}{4}=\\frac{7}{2}$$ একক।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 76,
@@ -1213,7 +1363,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 77,
@@ -1229,7 +1381,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 78,
@@ -1245,7 +1399,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 79,
@@ -1261,7 +1417,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 80,
@@ -1277,7 +1435,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 81,
@@ -1293,7 +1453,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 82,
@@ -1309,7 +1471,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 83,
@@ -1325,7 +1489,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 84,
@@ -1341,7 +1507,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 85,
@@ -1357,7 +1525,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 86,
@@ -1373,7 +1543,9 @@
     "explanation": "পারঅক্সিসোম প্রাণীর কিডনি ও লিভার কোষে অধিক থাকে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 87,
@@ -1389,7 +1561,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 88,
@@ -1405,7 +1579,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 89,
@@ -1421,7 +1597,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 90,
@@ -1437,7 +1615,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 91,
@@ -1453,7 +1633,9 @@
     "explanation": "টাইপ - ২ ডায়াবেটিস স্থূলতাজনিত রোগ।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 92,
@@ -1469,7 +1651,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 93,
@@ -1485,7 +1669,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 94,
@@ -1501,7 +1687,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 95,
@@ -1517,7 +1705,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 96,
@@ -1533,7 +1723,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 97,
@@ -1549,7 +1741,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 98,
@@ -1565,7 +1759,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 99,
@@ -1581,7 +1777,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 100,
@@ -1597,6 +1795,8 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   }
 ]

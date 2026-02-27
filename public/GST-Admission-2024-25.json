@@ -13,7 +13,9 @@
     "explanation": "$${​}_{g}{μ}_{w}=\\frac{{\\begin{matrix} \\end{matrix}a μ}_{w}}{{\\begin{matrix} \\end{matrix}a μ}_{g}}=\\frac{\\frac{4}{3}}{\\frac{3}{2}}=\\frac{4×2}{3×3}=\\frac{8}{9}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@
     "explanation": "$$\\frac{{g}^{{}^{′}}}{g}=1−\\frac{d}{R}⇒\\frac{1}{4}=1−\\frac{d}{R}⇒\\frac{d}{R}=\\frac{3}{4}∴d=\\frac{3R}{4}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 3,
@@ -45,7 +49,9 @@
     "explanation": "$${r}_{2}=n3×{r}_{1}={(8)}^{\\frac{1}{3}}×{r}_{1}=2{r}_{1};v∝{r}^{2}$$ $$∴\\frac{{v}_{2}}{{v}_{1}}={(\\frac{{r}_{2}}{{r}_{1}})}^{2}⇒\\frac{{v}_{2}}{8}={(\\frac{2r}{r})}^{2}∴{v}_{2}=4×8=32 cm{s}^{−1}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 4,
@@ -61,7 +67,9 @@
     "explanation": "$$m=\\frac{{m}_{0}}{\\sqrt{1−\\frac{{v}^{2}}{{c}^{2}}}}=\\frac{{m}_{0}}{\\sqrt{1−1}}=∞$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 5,
@@ -77,7 +85,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 6,
@@ -93,7 +103,9 @@
     "explanation": "$$v=gt=9.8×3=29.4 m{s}^{−1}$$ $$∴{E}_{K}=\\frac{1}{2}m{v}^{2}=\\frac{1}{2}×5×{(29.4)}^{2}=2160.9 J$$ [Note: প্রকৃতপক্ষে, বস্তুটি $$t=\\sqrt{\\frac{2h}{g}}=2.47 s$$ পরেই ভূমিতে পতিত হয়। তাই $$3 s$$ পরে বস্তুটি ভূমিতে থাকবে ও গতিশক্তি হবে $$0 J$$ । তবে প্রশ্নে থাকা তথ্যের ভিত্তিতে উত্তরটি দেওয়া হলো। ]",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 7,
@@ -109,7 +121,9 @@
     "explanation": "$$∆S=msln (\\frac{{T}_{2}}{{T}_{1}})=3×4200×ln (\\frac{283}{273})$$ $$=453 J{K}^{−1}$$ [ক্যালকুলেটর ব্যবহার করে ]",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 8,
@@ -125,7 +139,9 @@
     "explanation": "পৃ থিবীর কেন্দ্রে, $$g=0$$ $$∴$$ দোলনকাল, $$T=2π\\sqrt{\\frac{L}{0}}=∞$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 9,
@@ -141,7 +157,9 @@
     "explanation": "$$B→⋅C→=2−3−20=−21≠0;$$ সুতরাং , $$B→$$ এবং $$C→$$ কোনোটিই লম্ব হতে পারবে না। তাই $$A→$$ লম্ব ধরবো। এবার চিত্রানুসারে, $$A→⋅C→=0⇒2 m−2−4=0$$ $$∴m=3$$ , যা অপশনে আছে। আবার, $$C→$$ এর স্থানে $$B→$$ ধরলে, $$A→⋅B→=0⇒m+6+5=0$$ $$∴m=−11$$ ; যা অপশনে নেই।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 10,
@@ -157,7 +175,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 11,
@@ -173,7 +193,9 @@
     "explanation": "$$τ=Iα=10×10=100 Nm$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 12,
@@ -189,7 +211,9 @@
     "explanation": "$$∆x=\\frac{λ}{2π}⇒φ=\\frac{λ}{2π}×π=\\frac{λ}{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 13,
@@ -205,7 +229,9 @@
     "explanation": "$$t=\\frac{h}{v}=\\frac{60}{30}=2 s$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 14,
@@ -221,7 +247,9 @@
     "explanation": "$${E}_{2}=\\frac{{E}_{1}}{{2}^{2}}=\\frac{−13.6}{4}=−\\frac{136}{40}=−3.4 eV$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 15,
@@ -237,7 +265,9 @@
     "explanation": "$$\\frac{1}{f}=(μ−1)×(\\frac{1}{{r}_{1}}−\\frac{1}{{r}_{2}})$$ $$=(1.5−1)×(\\frac{1}{−30}−\\frac{1}{20})$$ $$=0.5×(\\frac{−2−3}{60})=\\frac{1}{2}×(−\\frac{1}{12})=−\\frac{1}{24}$$ $$∴f=−24 cm$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 16,
@@ -253,7 +283,9 @@
     "explanation": "$$C∝\\sqrt{T}⇒\\frac{{C}_{2}}{{C}_{1}}=\\sqrt{\\frac{{T}_{2}}{{T}_{1}}}⇒2=\\sqrt{\\frac{{T}_{2}}{300}}$$ $$∴{T}_{2}=300×4=1200 k$$ $$=(1200−273)℃=927℃$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 17,
@@ -269,7 +301,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 18,
@@ -285,7 +319,9 @@
     "explanation": "এখানে, $$v=72 km{h}^{−1}=\\frac{72}{3.6}m{s}^{−1}=20 m{s}^{−1}$$ $${a}_{c}=\\frac{{v}^{2}}{r}⇒r=\\frac{{v}^{2}}{{a}_{c}}=\\frac{{20}^{2}}{1}=400 m$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 19,
@@ -301,7 +337,9 @@
     "explanation": "বিদ্যুৎ প্রবাহ, $$I=\\frac{P}{V}=\\frac{1200}{120}A=10 A$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 20,
@@ -317,7 +355,9 @@
     "explanation": "সমান $$n$$ টুকরো করা হলে, প্রতি টুকরোর স্প্রিং ধ্রুবক, $$k=nk=4k$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 21,
@@ -333,7 +373,9 @@
     "explanation": "$${E}_{k}^{{}^{′}}={E}_{k}+300%×{E}_{k}=4{E}_{k}$$ $$∴p=\\sqrt{2m{E}_{k}}∴{p}^{{}^{′}}=\\sqrt{\\frac{{E}_{k}^{{}^{′}}}{{E}_{k}}}×p=2p$$ $$∴∆p={p}^{{}^{′}}−p=100%p$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 22,
@@ -349,7 +391,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 23,
@@ -365,7 +409,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 24,
@@ -381,7 +427,9 @@
     "explanation": "$$\\frac{c}{5}=\\frac{F−32}{9}⇒\\frac{c}{5}=\\frac{c+10−32}{9}$$ $$⇒9c=5c−22×5⇒4c=−110∴c=−27.5℃$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 25,
@@ -397,7 +445,9 @@
     "explanation": "$$N=\\frac{{N}_{0}}{16}=\\frac{{N}_{0}}{{2}^{4}}−\\frac{{N}_{0}}{{2}^{n}}∴n=4;t=n×{T}_{\\frac{1}{2}}$$ $$⇒{T}_{\\frac{1}{2}}=\\frac{2}{4}hr=\\frac{120}{4}min=30 min$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 26,
@@ -413,7 +463,9 @@
     "explanation": "যেহেতু $${I}^{−}$$ এর জারণ ঘটে তাই এটি বিজারক।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 27,
@@ -429,7 +481,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 28,
@@ -445,7 +499,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 29,
@@ -461,7 +517,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 30,
@@ -477,7 +535,9 @@
     "explanation": "$$C{H}_{4}$$ এর মোল ভগ্নাংশ $$=\\frac{{n}_{C{H}_{4}}}{{n}_{C{H}_{4}}+{n}_{{O}_{2}}}$$ $$=\\frac{\\frac{4}{16}}{\\frac{4}{16}+\\frac{24}{32}}=\\frac{0.25}{0.25+0.75}=0.25$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 31,
@@ -493,7 +553,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 32,
@@ -509,7 +571,9 @@
     "explanation": "পোলার যৌগসমূহের স্ফুটনাঙ্ক বেশি হয়। তাই $$C{H}_{3}OH$$ এবং $${C}_{2}{H}_{5}OH$$ এর স্ফুটনাঙ্ক বেশি হবে। আবার, $$C{H}_{3}−OH$$ ও $${C}_{2}{H}_{5}OH$$ এর মধ্যে $${C}_{2}{H}_{5}OH$$ এর আণবিক ভর বেশি। তাই $${C}_{2}{H}_{5}OH$$ এর স্ফুটনাঙ্ক বেশি।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 33,
@@ -525,7 +589,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 34,
@@ -541,7 +607,9 @@
     "explanation": "$${1}^{∘}$$ অ্যামিনসমূহ কার্বিল অ্যামিন পরীক্ষা দেয়। $${C}_{2}{H}_{5}N{H}_{2}$$ $${1}^{∘}$$ অ্যামিন হওয়ায় কার্বিল অ্যামিন পরীক্ষা দিবে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 35,
@@ -557,7 +625,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 36,
@@ -573,7 +643,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 37,
@@ -589,7 +661,9 @@
     "explanation": "একই পর্যায়ের বাম থেকে ডান দিকে মৌলসমূহের পারমাণবিক ব্যাসার্ধ হ্রাস পায়। যেহেতু option এর মৌলটি পর্যায় সারণির সবচেয়ে বামে অবস্থিত। তাই ঐ মৌলের ব্যাসার্ধ সবচেয়ে বেশি হবে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 38,
@@ -605,7 +679,9 @@
     "explanation": "$$pH+pOH=14⇒pOH=14−pH$$ $$⇒pOH=14+log [{H}^{+}]=14+log (1×{10}^{−4})$$ $$=14−4=10$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 39,
@@ -621,7 +697,9 @@
     "explanation": "বিউটান- 2 , 3 - ডাইঅলে দুইটি কাইরাল কার্বন আছে। যৌগটি- $$∴$$ যৌগটি 2 ও 3 নং কার্বন কাইরাল কার্বন।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 40,
@@ -637,7 +715,9 @@
     "explanation": "একই তাপমাত্রা ও চাপে সমান আয়তনের সকল গ্যাসে সমান সংখ্যক অণু থাকে। $${N}_{2}$$ ও $${H}_{2}S$$ এর আয়তন সমান। তাই এদের মোল সংখ্যাও সমান হবে। $$56g {N}_{2}=\\frac{56}{28}=2 mole {N}_{2}$$ $$∴2 mole {H}_{2}S=(2×34)g=68 g$$ Note: অপশনে ভুল রয়েছে লিটার (L) এর পরিবর্তে গ্রাম (g) হলে উত্তর (b) ।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 41,
@@ -653,7 +733,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 42,
@@ -669,7 +751,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 43,
@@ -685,7 +769,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 44,
@@ -701,7 +787,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 45,
@@ -717,7 +805,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 46,
@@ -733,7 +823,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 47,
@@ -749,7 +841,9 @@
     "explanation": "$${N}_{2}$$ এর আণবিক ভর $$=2×14=28$$ $$CO$$ এর আণবিক ভর $$=12+16=28$$ সুতরাং, $${N}_{2}$$ ও $$CO$$ এর ব্যাপন হার সমান হবে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 48,
@@ -765,7 +859,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 49,
@@ -781,7 +877,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 50,
@@ -797,7 +895,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 51,
@@ -813,7 +913,9 @@
     "explanation": "$$x$$ অক্ষকে স্পর্শ করলে, $${g}^{2}=c ⇒{(−2)}^{2}=c⇒c=4.$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 52,
@@ -829,7 +931,9 @@
     "explanation": "$$v=u+at=0+5×5=25$$ ft/sec.",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 53,
@@ -845,7 +949,9 @@
     "explanation": "$$f(x)=\\sqrt{\\frac{1−x}{x}}$$ এখানে, হরের ক্ষেত্রে, $$x>0$$ এবং লবের ক্ষেত্রে, $$1−x≥0⇒−x≥−1⇒x≤1$$ $$∴$$ ডোমেন: $$(0, 1].$$ অথবা, হরের ক্ষেত্রে, $$x<0$$ এবং লবের ক্ষেত্রে, $$1−x<0$$ $$⇒−x<−1⇒x>1$$ $$∴$$ ডোমেন: $$∅$$ অর্থাৎ, $$f(x)$$ এর ডোমেন: $$(0,1]∪∅=(0,1]$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 54,
@@ -861,7 +967,9 @@
     "explanation": "$$6h−k=1………(i) [A$$ বিন্দুটি বসিয়ে ] $$2h−5k=5………(ii) [B$$ বিন্দুটি বসিয়ে] $$(i)−(ii)×3$$ হতে পাই. $$k=−1 (i)$$ হতে, $$2h+5=5∴h=0$$ $$∴A$$ ও $$B$$ বিন্দু দুইটি $$(0, −1)$$ . প্রশ্নের সমীকরণগুলোর মাঝে option $$B$$ ও $$D$$ কে বিন্দুটি সিদ্ধ করে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 55,
@@ -877,7 +985,9 @@
     "explanation": "$$\\sqrt{3}y−x+5=0$$ ঢাল $$m=\\frac{−(−1)}{\\sqrt{3}}=\\frac{1}{\\sqrt{3}}$$ $$∴x$$ অক্ষের সাথে উৎপন্ন কোণ $$tan θ=\\frac{1}{\\sqrt{3}}⇒θ={30}^{∘}$$ $$∴y$$ অক্ষের সাথে উৎপন্ন কোণ: $${90}^{∘}−{30}^{∘}={60}^{∘}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 56,
@@ -893,7 +1003,9 @@
     "explanation": "$$cos (\\frac{π}{2}+{cos}^{−1} x)=−sin⁡({cos}^{−1} x)$$ $$=−sin {sin}^{−1} \\sqrt{1−{x}^{2}}=−\\sqrt{1−{x}^{2}}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 57,
@@ -909,7 +1021,9 @@
     "explanation": "$${x}^{2}+{y}^{2}+10y=0$$ বৃত্তের ব্যাসার্ধ $$⇒\\sqrt{{0}^{2}+{5}^{2}+0}=5$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 58,
@@ -925,7 +1039,9 @@
     "explanation": "$${x}^{2}−x+1=0 ; α, β$$ মূল হলে, $$α+β=1$$ এবং $$αβ=1$$ $$∴{α}^{3}+{β}^{3}={(α+β)}^{3}−3αβ(a+β)=1−3.1.1=−2$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 59,
@@ -941,7 +1057,9 @@
     "explanation": "$$A−B=\\frac{π}{4}∴tan (A−B)=tan \\frac{π}{4}$$ $$⇒\\frac{tan A−tan B}{1+tan Atan B}=1$$ $$⇒tan A−tan B−tanA tanB=1$$ $$∴(1+tan A)(1−tan B)$$ $$=1+tan A−tan B−tan Atan B=1+1=2.$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 60,
@@ -957,7 +1075,9 @@
     "explanation": "$$tan {sin}^{−1} (\\sqrt{1−{x}^{2}})=sin {cos}^{−1} (\\frac{1}{\\sqrt{5}})$$ $$⇒tan {tan}^{−1} (\\frac{\\sqrt{1−{x}^{2}}}{x})=sin {sin}^{−1} (\\frac{2}{\\sqrt{5}})$$ $$⇒\\frac{\\sqrt{1−{x}^{2}}}{x}=\\frac{2}{\\sqrt{5}} ⇒\\frac{1−{x}^{2}}{{x}^{2}}=\\frac{4}{5}$$ $$⇒5−5{x}^{2}=4{x}^{2}⇒5=9{x}^{2}⇒{x}^{2}=\\frac{5}{9} ⇒x=±\\frac{\\sqrt{5}}{3}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 61,
@@ -973,7 +1093,9 @@
     "explanation": "$$(1, −\\sqrt{3}), r=\\sqrt{1+3}=2;$$ $$θ=−{tan}^{−1} (\\frac{\\sqrt{3}}{1})⇒θ=−\\frac{π}{3}$$ অথবা $$\\frac{5π}{3}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 62,
@@ -989,7 +1111,9 @@
     "explanation": "$${x}^{2}+12y=0 ⇒{x}^{2}−4.3.y=0,$$ পরাবৃত্তের নিয়ামক রেখার সমীকরণ: $$y=+3.$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 63,
@@ -1005,7 +1129,9 @@
     "explanation": "$$4x+3y=12 ⇒\\frac{x}{3}+\\frac{y}{4}=1$$ $$∴$$ অক্ষদ্বয়ের মধ্যবর্তী খন্ডিত অংশ $$=\\sqrt{{3}^{2}+{4}^{2}}=5$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 64,
@@ -1021,7 +1147,9 @@
     "explanation": "$${x}^{2}+px+q=0$$ ধরি, মূলদ্বয় $$α, α−1$$ $$∴α+α−1=−p ⇒2α=1−p ⇒α=\\frac{1−p}{2}$$ আবার, $$α(α−1)⇒{α}^{2}−α=q$$ $$⇒{(\\frac{1−p}{2})}^{2}−\\frac{1−p}{2}=q$$ $$⇒\\frac{1−2p+{p}^{2}}{4}−\\frac{1−p}{2}=q$$ $$⇒\\frac{1−2p+{p}^{2}−2+2p}{4}=q ⇒{p}^{2}−1=4q$$ $$1+4q={p}^{2}⇒1+4q+4{q}^{2}={p}^{2}+4{q}^{2}$$ $$⇒{(2q+1)}^{2}={p}^{2}+4{q}^{2}∴{p}^{2}+4{q}^{2}={(1+2q)}^{2}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 65,
@@ -1037,7 +1165,9 @@
     "explanation": "$$[−2,−3]$$ ব্যবধিতে, $$|x|=−x$$ $$∴ {∫}_{−3}^{−2}(x+|x|)dx={∫}_{−3}^{−2}(x−x)dx={∫}_{−3}^{−2}0⋅dx=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 66,
@@ -1053,7 +1183,9 @@
     "explanation": "উৎকেন্দ্রিকতা $$e=\\sqrt{1−\\frac{{b}^{2}}{{a}^{2}}}∵(b>a)$$ $$∴e=\\sqrt{1−\\frac{9}{25}}=\\frac{4}{5}.$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 67,
@@ -1069,7 +1201,9 @@
     "explanation": "$$f(x)=\\sqrt{x−3} ;$$ $${ f}^{−1}(x)={x}^{2}+3; {f}^{−1}(−2)=4+3=7$$ $$[$$ বি.দ্র: $${f}^{−1}(x)$$ ফাংশন হলে $$(−2)$$ বিন্দুতে $$f(x) exist$$ করে না ]",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 68,
@@ -1085,7 +1219,9 @@
     "explanation": "$$\\frac{1}{x}+a−bx=0$$ $$⇒b{x}^{2}−ax−1=0$$ সমীকরণের মূলদ্বয় সমান হলে, $$D=0$$ $$⇒{(−a)}^{2}−4.b.(−1)=0⇒{a}^{2}+4b=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 69,
@@ -1101,7 +1237,9 @@
     "explanation": "$$y=x+\\frac{1}{x} ;\\frac{dy}{dx}=1−\\frac{1}{{x}^{2}}$$ ঢাল শূন্য হলে, $$\\frac{dy}{dx}=0 ⇒1−\\frac{1}{{x}^{2}}=0⇒{x}^{2}=1⇒x=±1$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 70,
@@ -1117,7 +1255,9 @@
     "explanation": "সাধারণ জ্যা: $${S}_{1}−{S}_{2}=0$$ $$⇒{x}^{2}+{y}^{2}−4x+6y−36−{x}^{2}$$ $$−{y}^{2}+5x−8y+43=0⇒x−2y+7=0$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 71,
@@ -1133,7 +1273,9 @@
     "explanation": "$$y=\\frac{1}{x}; xy=1$$ এখানে, $$a=0, h=\\frac{1}{2}, b=0={h}^{2}>ab$$ $$∴$$ সমীকরণটি অধিবৃত্ত নির্দেশ করে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 72,
@@ -1149,7 +1291,9 @@
     "explanation": "$${r}^{2}−2rsin θ=3$$ $$⇒{x}^{2}+{y}^{2}−2y−3=0$$ $$∴$$ ব্যাসার্ধ $$=\\sqrt{{{0}^{2}+1}^{2}+3}=2$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 73,
@@ -1165,7 +1309,9 @@
     "explanation": "$${y}^{2}=4px ; (3, −2)$$ বসিয়ে, $${(−2)}^{2}=4⋅p⋅3$$ $$⇒4=4⋅p⋅3 ⇒p=\\frac{1}{3}∴{y}^{2}=4⋅\\frac{1}{3}⋅x$$ $$∴$$ উপকেন্দ্র $$(\\frac{1}{3}, 0)$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 74,
@@ -1181,7 +1327,9 @@
     "explanation": "$${z}^{2}=5+12i=9+12i−4$$ $$={(3)}^{2}+2.3.2i+{(2i)}^{2}={(3+2i)}^{2}$$ $$∴z=±(3+2i)$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 75,
@@ -1197,7 +1345,9 @@
     "explanation": "$${∫}_{1}^{{e}^{2}}\\frac{dx}{x{(1+lnx)}^{2}}$$ ধরি, $$1+lnx=z=\\frac{1}{x}dx=dz.$$ $$={∫}_{1}^{3}\\frac{dx}{{z}^{2}}= {∫}_{1}^{3}{z}^{−2}dz=[\\frac{{z}^{−2+1}}{−2+1}]$$ $$=−{[\\frac{1}{z}]}_{1}^{3}=−(\\frac{1}{3}−\\frac{1}{1})=1−\\frac{1}{3}=\\frac{2}{3}$$",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 76,
@@ -1213,7 +1363,9 @@
     "explanation": "পাটের আঁশ হলো বাস্ট ফাইবার। আর সেকেন্ডারি ফ্লোয়েমে অবস্থিত ফাইবারকে বাস্ট ফাইবার বলে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 77,
@@ -1229,7 +1381,9 @@
     "explanation": "Eco RI, HindIII, BamHI ইত্যাদি হলো রেস্ট্রিকশন এনজাইম। এরা DNA অণুর একটি সুনির্দিষ্ট সিকোয়েন্স কেটে দিতে সক্ষম।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 78,
@@ -1245,7 +1399,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 79,
@@ -1261,7 +1417,9 @@
     "explanation": "উদ্ভিদ কোষে মধ্যপর্দার দুই পাশে সেলুলোজ, হেমিসেলুলোজ এবং গ্লাইকোপ্রোটিন জমা হয়ে প্রাথমিক প্রাচীর তৈরি হয়।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 80,
@@ -1277,7 +1435,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 81,
@@ -1293,7 +1453,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 82,
@@ -1309,7 +1471,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 83,
@@ -1325,7 +1489,9 @@
     "explanation": "তীব্র খাদ্যাভাবের সময় লাইসোসোমের প্রাচীর ফেটে যায় এবং আবদ্ধকৃত এনজাইম বের হয়ে কোষের অন্যান্য অঙ্গাণু বিনষ্ট করে দেয় এবং একসময় পুরো কোষটিই পরিপাক হয়ে যেতে পারে। এ প্রক্রিয়াকে বলা হয় স্ব-গ্রাস বা অটোফ্যাগী।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 84,
@@ -1341,7 +1507,9 @@
     "explanation": "হিমোফিলিয়া মানুষের X ক্রোমোসোমে অবস্থিত জিন দ্বারা নিয়ন্ত্রিত একটি রোগ।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 85,
@@ -1357,7 +1525,9 @@
     "explanation": "মিয়োসিস কোষ বিভাজনের প্রোফেজ-১ এর প্যাকাইটিন উপদশায় ক্রসিং ওভার ঘটে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 86,
@@ -1373,7 +1543,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 87,
@@ -1389,7 +1561,9 @@
     "explanation": "Nematoda পর্বের প্রাণিদেহে সংবহনতন্ত্র অনুপস্থিত। বদ্ধ রক্ত সংবহনতন্ত্র Annelida এবং Chordata পর্বভুক্ত প্রাণীতে দেখা যায়।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 88,
@@ -1405,7 +1579,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 89,
@@ -1421,7 +1597,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 90,
@@ -1437,7 +1615,9 @@
     "explanation": "হার্পিস ঘনক্ষেত্রাকার বা বহুভুজাকার ভাইরাস।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 91,
@@ -1453,7 +1633,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 92,
@@ -1469,7 +1651,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 93,
@@ -1485,7 +1669,9 @@
     "explanation": "RNA অণু একসূত্রক চেইন-এর মতো। কোনো কোনো RNA অণুর গঠনে একাধিক U- আকৃতির ফাঁস বা Hairpin Loop থাকে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 94,
@@ -1501,7 +1687,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 95,
@@ -1517,7 +1705,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 96,
@@ -1533,7 +1723,9 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 97,
@@ -1549,7 +1741,9 @@
     "explanation": "প্রোটিন সংশ্লেষণে সমাপনী কোড ৩টি। যথা: UAA, UAG, UGA",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 98,
@@ -1565,7 +1759,9 @@
     "explanation": "দুধের প্রধান প্রোটিন হলো কেসিন। রেনিন (Rennin) এনজাইম নিষ্ক্রিয় কেসিনোজেনকে কেসিনে পরিণত করে। পরবর্তীতে কেসিন, প্যারাকেসিনে পরিণত হয়। অর্থাৎ, কেসিনোজেন → কেসিন → প্যারাকেসিন",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 99,
@@ -1581,7 +1777,9 @@
     "explanation": "অক্সিন (Auxin) মূলের বৃদ্ধি নিয়ন্ত্রণে ভূমিকা রাখে। এটি মূলের কোষ বিভাজন ও প্রসারণকে প্রভাবিত করে। তাই টিস্যু কালচারে মূল উৎপাদনকারী মিডিয়ামে ফাইটোহরমোন হিসেবে অক্সিন ব্যবহার করা হয়। অপরদিকে জিবেরেলিন মূলত কাণ্ডের বৃদ্ধি ও বীজ অঙ্কুরোদগমে সহায়তা করে।",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 100,
@@ -1597,6 +1795,8 @@
     "explanation": "",
     "hasDiagram": false,
     "svg_code": "",
-    "topic": ""
+    "topic": "",
+    "questionImage": null,
+    "explanationImage": null
   }
 ]

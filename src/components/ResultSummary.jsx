@@ -3,11 +3,11 @@ import { renderLatex } from '../utils/latex'
 import SubmissionStatus from './SubmissionStatus'
 import './ResultSummary.css'
 
-function ResultSummary({ questions, answers, studentName, score, onRestart, questionFile, submissionStatus }) {
+function ResultSummary({ questions, answers, studentName, score, onRestart, questionFile, submissionStatus, passMark = 60.0 }) {
   const { score: totalScore, correct, wrong, attempted, total, subjectStats = {} } = score
   const accuracy = attempted > 0 ? ((correct / attempted) * 100).toFixed(1) : 0
   const unanswered = total - attempted
-  const pass = totalScore >= 60.0
+  const pass = totalScore >= passMark
 
   const subjectNames = {
     'Biology': 'জীববিজ্ঞান',

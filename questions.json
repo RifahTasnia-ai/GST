@@ -8,7 +8,9 @@
       "c": "84 Ω সমান্তরালে",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 2,
@@ -19,7 +21,9 @@
       "c": "প্রতিবিম্বটি লেন্সের দিকে 3 cm কাছে আসবে",
       "d": "প্রতিবিম্বটির অবস্থান অপরিবর্তিত থাকবে"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 3,
@@ -30,7 +34,9 @@
       "c": "35%",
       "d": "50%"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 4,
@@ -41,7 +47,9 @@
       "c": "32",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 5,
@@ -52,7 +60,9 @@
       "c": "hfc",
       "d": "hfc²"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 6,
@@ -63,7 +73,9 @@
       "c": "4 mA",
       "d": "3 mA"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 7,
@@ -74,7 +86,9 @@
       "c": "20 J",
       "d": "21 J"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 8,
@@ -85,7 +99,9 @@
       "c": "202.4",
       "d": "125.6"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 9,
@@ -96,7 +112,9 @@
       "c": "এক্স রশি তড়িৎক্ষেত্র দ্বারা বিচ্যুত হয়",
       "d": "এক্স রশি গ্যাসকে আয়নিত করতে পারে"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 10,
@@ -107,7 +125,9 @@
       "c": "1/9 g",
       "d": "1/6 g"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 11,
@@ -118,7 +138,9 @@
       "c": "অর্ধেক হবে",
       "d": "অপরিবর্তিত থাকবে"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 12,
@@ -129,7 +151,9 @@
       "c": "পরাবৃত্ত",
       "d": "অধিবৃত্ত"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 13,
@@ -140,7 +164,9 @@
       "c": "2200 N",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 14,
@@ -151,7 +177,9 @@
       "c": "1.96 N",
       "d": "0.196 N"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 15,
@@ -162,7 +190,9 @@
       "c": "9.3 mm",
       "d": "11.2 mm"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 16,
@@ -173,7 +203,9 @@
       "c": "4 H",
       "d": "40 H"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 17,
@@ -184,7 +216,9 @@
       "c": "1 L",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 18,
@@ -195,7 +229,9 @@
       "c": "9.8 × 10⁵ Nm⁻²",
       "d": "9.8 × 10⁶ Nm⁻²"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 19,
@@ -206,7 +242,9 @@
       "c": "√3/6",
       "d": "6"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 20,
@@ -217,7 +255,9 @@
       "c": "25%",
       "d": "50%"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 21,
@@ -228,7 +268,9 @@
       "c": "0.63",
       "d": "6.3"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 22,
@@ -239,7 +281,9 @@
       "c": "প্রোটনটি ইলেকট্রনের তুলনায় অনেক দ্রুত গতিতে চলছে",
       "d": "ইলেকট্রনটির ভরবেগ প্রোটনের ভরবেগের তুলনায় বেশি"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 23,
@@ -250,7 +294,9 @@
       "c": "AND",
       "d": "NOR"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 24,
@@ -261,7 +307,9 @@
       "c": "3 × 10⁸ ms⁻¹",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 25,
@@ -272,7 +320,9 @@
       "c": "7 ms⁻¹",
       "d": "10 ms⁻¹"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 26,
@@ -283,7 +333,9 @@
       "c": "84 Ω সমান্তরালে",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 27,
@@ -294,7 +346,9 @@
       "c": "প্রতিবিম্বটি লেন্সের দিকে 3 cm কাছে আসবে",
       "d": "প্রতিবিম্বটির অবস্থান অপরিবর্তিত থাকবে"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 28,
@@ -305,7 +359,9 @@
       "c": "35%",
       "d": "50%"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 29,
@@ -316,7 +372,9 @@
       "c": "32",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 30,
@@ -327,7 +385,9 @@
       "c": "hfc",
       "d": "hfc²"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 31,
@@ -338,7 +398,9 @@
       "c": "4 mA",
       "d": "3 mA"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 32,
@@ -349,7 +411,9 @@
       "c": "20 J",
       "d": "21 J"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 33,
@@ -360,7 +424,9 @@
       "c": "202.4",
       "d": "125.6"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 34,
@@ -371,7 +437,9 @@
       "c": "এক্স রশি তড়িৎক্ষেত্র দ্বারা বিচ্যুত হয়",
       "d": "এক্স রশি গ্যাসকে আয়নিত করতে পারে"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 35,
@@ -382,7 +450,9 @@
       "c": "1/9 g",
       "d": "1/6 g"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 36,
@@ -393,7 +463,9 @@
       "c": "অর্ধেক হবে",
       "d": "অপরিবর্তিত থাকবে"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 37,
@@ -404,7 +476,9 @@
       "c": "পরাবৃত্ত",
       "d": "অধিবৃত্ত"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 38,
@@ -415,7 +489,9 @@
       "c": "2200 N",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 39,
@@ -426,7 +502,9 @@
       "c": "1.96 N",
       "d": "0.196 N"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 40,
@@ -437,7 +515,9 @@
       "c": "9.3 mm",
       "d": "11.2 mm"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 41,
@@ -448,7 +528,9 @@
       "c": "4 H",
       "d": "40 H"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 42,
@@ -459,7 +541,9 @@
       "c": "1 L",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "c"
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 43,
@@ -470,7 +554,9 @@
       "c": "9.8 × 10⁵ Nm⁻²",
       "d": "9.8 × 10⁶ Nm⁻²"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 44,
@@ -481,7 +567,9 @@
       "c": "√3/6",
       "d": "6"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 45,
@@ -492,7 +580,9 @@
       "c": "25%",
       "d": "50%"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 46,
@@ -503,7 +593,9 @@
       "c": "0.63",
       "d": "6.3"
     },
-    "correctAnswer": "b"
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 47,
@@ -514,7 +606,9 @@
       "c": "প্রোটনটি ইলেকট্রনের তুলনায় অনেক দ্রুত গতিতে চলছে",
       "d": "ইলেকট্রনটির ভরবেগ প্রোটনের ভরবেগের তুলনায় বেশি"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 48,
@@ -525,7 +619,9 @@
       "c": "AND",
       "d": "NOR"
     },
-    "correctAnswer": "d"
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 49,
@@ -536,7 +632,9 @@
       "c": "3 × 10⁸ ms⁻¹",
       "d": "কোনোটিই নয়"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   },
   {
     "id": 50,
@@ -547,6 +645,8 @@
       "c": "7 ms⁻¹",
       "d": "10 ms⁻¹"
     },
-    "correctAnswer": "a"
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
   }
 ]
