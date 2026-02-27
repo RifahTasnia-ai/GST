@@ -773,20 +773,6 @@
     "questionFile": "রক্ত-সঞ্চালন .json"
   },
   {
-    "studentName": "dfad_1",
-    "answers": {
-      "50": "d"
-    },
-    "score": 0,
-    "totalMarks": 50,
-    "timestamp": "2026-02-27T11:28:38.351Z",
-    "attempted": 1,
-    "correct": 0,
-    "wrong": 1,
-    "pass": false,
-    "questionFile": "ভৌতজগৎ-ও-পরিমাপ.json"
-  },
-  {
     "studentName": "dfad_3",
     "answers": {
       "50": "d"
