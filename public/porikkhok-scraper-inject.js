@@ -249,55 +249,67 @@
 
             // ── Extract Explanation (green box below options) ─────────────────
             let explanation = '';
-            for (const child of questionContainer.children) {
-                if (child === optionsGrid) continue;
+            let explanationEl = null; // the DOM element of the green box
+            // Search all descendants for green boxes
+            const allDescendants = Array.from(questionContainer.querySelectorAll('*'));
+            let nextSib = questionContainer.nextElementSibling;
+            if (nextSib) allDescendants.push(...Array.from(nextSib.querySelectorAll('*')), nextSib);
+
+            for (const child of allDescendants) {
+                if (child.tagName === 'BUTTON' || child === optionsGrid) continue;
                 const bgColor = window.getComputedStyle(child).backgroundColor;
                 const cls = child.className || '';
-                // Check for green-ish bg or green class
-                if (bgColor.includes('209') || bgColor.includes('220') || bgColor.includes('230') ||
-                    bgColor.includes('240, 253') || bgColor.includes('236, 253') ||
+                if (bgColor.includes('240, 253') || bgColor.includes('236, 253') ||
+                    bgColor.includes('209') || bgColor.includes('220') || bgColor.includes('230') ||
                     cls.includes('green') || cls.includes('bg-green')) {
-                    explanation = (child.innerText || '').trim();
-                    break;
-                }
-            }
-            // Also check siblings of the questionContainer
-            if (!explanation) {
-                let nextSib = questionContainer.nextElementSibling;
-                if (nextSib) {
-                    const bgColor = window.getComputedStyle(nextSib).backgroundColor;
-                    const cls = nextSib.className || '';
-                    if (bgColor.includes('209') || bgColor.includes('240, 253') ||
-                        cls.includes('green') || cls.includes('bg-green')) {
-                        explanation = (nextSib.innerText || '').trim();
+                    const text = (child.innerText || '').trim();
+                    if (text.length > 5 && !optLetters.some(l => text.startsWith(l))) {
+                        explanation = text;
+                        explanationEl = child;
+                        break;
                     }
                 }
             }
 
-            // ── Extract Images ───────────────────────────────────────────────
-            const imgEls = Array.from(questionContainer.querySelectorAll('img'));
-            // Also check siblings
+            // ── Extract Images (separate question vs explanation) ────────────
+            function isImgValid(src) {
+                return src && !src.startsWith('data:') && src.length > 10 &&
+                    !src.includes('facebook') && !src.includes('pixel') && !src.includes('google');
+            }
+
+            // Explanation images: images inside the green explanation box
+            const explImgUrls = [];
+            if (explanationEl) {
+                const explImgs = Array.from(explanationEl.querySelectorAll('img'));
+                for (const img of explImgs) {
+                    if (isImgValid(img.src)) explImgUrls.push(img.src);
+                }
+            }
+            const explImgSet = new Set(explImgUrls);
+
+            // Question images: all images in the container EXCEPT explanation images
+            const allImgEls = Array.from(questionContainer.querySelectorAll('img'));
             let prevSib = questionContainer.previousElementSibling;
             if (prevSib) {
-                imgEls.push(...Array.from(prevSib.querySelectorAll('img')));
-                if (prevSib.tagName === 'IMG') imgEls.push(prevSib);
+                allImgEls.push(...Array.from(prevSib.querySelectorAll('img')));
+                if (prevSib.tagName === 'IMG') allImgEls.push(prevSib);
             }
             let nextSib2 = questionContainer.nextElementSibling;
             if (nextSib2) {
-                imgEls.push(...Array.from(nextSib2.querySelectorAll('img')));
-                if (nextSib2.tagName === 'IMG') imgEls.push(nextSib2);
+                allImgEls.push(...Array.from(nextSib2.querySelectorAll('img')));
+                if (nextSib2.tagName === 'IMG') allImgEls.push(nextSib2);
             }
-            const imgUrls = imgEls
+            const questionImgUrls = allImgEls
                 .map(i => i.src)
-                .filter(s => s && !s.startsWith('data:') && s.length > 10 &&
-                    !s.includes('facebook') && !s.includes('pixel') && !s.includes('google'));
+                .filter(s => isImgValid(s) && !explImgSet.has(s));
 
             rawQuestions.push({
                 question: qText,
                 options,
                 correctAnswer,
                 explanation,
-                imageUrls: imgUrls
+                imageUrls: questionImgUrls,
+                explanationImageUrls: explImgUrls
             });
         }
 
@@ -322,20 +334,41 @@
             // Also extract image URLs from API fields
             for (let i = 0; i < apiQuestions.length && i < rawQuestions.length; i++) {
                 const apiQ = apiQuestions[i]?.q || {};
-                const allText = [apiQ.question, apiQ.A, apiQ.B, apiQ.C, apiQ.D, apiQ.solution, JSON.stringify(apiQ.meta || {})]
+                // Check question/option fields for question images
+                const qText = [apiQ.question, apiQ.A, apiQ.B, apiQ.C, apiQ.D]
                     .filter(Boolean).join(' ');
-                const urlMatches = allText.match(/https?:\/\/[^\s"'<>]+\.(png|jpg|jpeg|gif|webp|svg)/gi) || [];
-                for (const url of urlMatches) {
+                const qUrlMatches = qText.match(/https?:\/\/[^\s"'<>]+\.(png|jpg|jpeg|gif|webp|svg)/gi) || [];
+                for (const url of qUrlMatches) {
                     if (!rawQuestions[i].imageUrls.includes(url)) {
                         rawQuestions[i].imageUrls.push(url);
                     }
                 }
 
-                // Use API explanation if DOM explanation is empty
-                if (!rawQuestions[i].explanation) {
-                    const e = apiQ?.meta?.ai_explanation;
-                    if (e) {
-                        rawQuestions[i].explanation = typeof e === 'string' ? e : (e.explanation || '');
+                // Prefer API explanation as it's more complete
+                const e = apiQ?.meta?.ai_explanation;
+                if (e && (typeof e === 'string' || e.explanation)) {
+                    const explHtml = typeof e === 'string' ? e : e.explanation;
+                    const tmp = document.createElement('div');
+                    tmp.innerHTML = explHtml;
+                    const text = (tmp.innerText || '').trim();
+                    if (text.length > 3) {
+                        rawQuestions[i].explanation = text;
+                    }
+                    // Extract explanation images from API explanation HTML
+                    const explImgs = Array.from(tmp.querySelectorAll('img'));
+                    for (const img of explImgs) {
+                        if (img.src && img.src.length > 10 && !rawQuestions[i].explanationImageUrls.includes(img.src)) {
+                            rawQuestions[i].explanationImageUrls.push(img.src);
+                        }
+                    }
+                }
+
+                // Check solution field for explanation images
+                const solText = [apiQ.solution, JSON.stringify(apiQ.meta || {})].filter(Boolean).join(' ');
+                const solUrlMatches = solText.match(/https?:\/\/[^\s"'<>]+\.(png|jpg|jpeg|gif|webp|svg)/gi) || [];
+                for (const url of solUrlMatches) {
+                    if (!rawQuestions[i].explanationImageUrls.includes(url) && !rawQuestions[i].imageUrls.includes(url)) {
+                        rawQuestions[i].explanationImageUrls.push(url);
                     }
                 }
             }
@@ -346,12 +379,11 @@
         const ansMap = { A: 'a', B: 'b', C: 'c', D: 'd' };
 
         // ── Report image stats ──────────────────────────────────────────────
-        const totalImgs = rawQuestions.reduce((sum, q) => sum + q.imageUrls.length, 0);
-        if (totalImgs > 0) {
-            log(`[IMG] ${totalImgs} images found in questions`, '#4ade80');
-        } else {
-            log('[IMG] This exam has NO images', '#64748b');
-        }
+        const totalQImgs = rawQuestions.reduce((sum, q) => sum + q.imageUrls.length, 0);
+        const totalExplImgs = rawQuestions.reduce((sum, q) => sum + q.explanationImageUrls.length, 0);
+        if (totalQImgs > 0) log(`[IMG] ${totalQImgs} question images found`, '#4ade80');
+        if (totalExplImgs > 0) log(`[IMG] ${totalExplImgs} explanation images found`, '#4ade80');
+        if (totalQImgs === 0 && totalExplImgs === 0) log('[IMG] This exam has NO images', '#64748b');
 
         // ???? Download images as base64 ????????????????????????????????????????????????????????????????????????????????????????
         // Helper: fetch image via <img>+<canvas> (works when server sends CORS headers)
@@ -428,24 +460,16 @@
         }
 
         const images = {};
-        let hasImages = false;
-        for (let i = 0; i < rawQuestions.length; i++) {
-            const q = rawQuestions[i];
-            for (let j = 0; j < q.imageUrls.length; j++) {
-                const url = q.imageUrls[j];
-                const ext = (url.split('.').pop() || 'png').split('?')[0].toLowerCase().replace(/[^a-z]/g, '') || 'png';
-                const fname = `q${i + 1}_img${j + 1}.${ext}`;
-                log(`[IMG] Downloading Q${i + 1} image...`, '#94a3b8');
-                try {
-                    const b64 = await imgToBase64(url);
-                    images[fname] = b64;
-                    q.localImage = `/images/${fname}`;
-                    hasImages = true;
-                    log(`[IMG] Downloaded: ${fname}`, '#a78bfa');
-                } catch (e) {
-                    // Keep the remote URL as fallback so the question still references an image
-                    q.localImage = url;
-                    log(`[WARN] Q${i + 1} image CORS blocked - storing remote URL as fallback: ${e.message}`, '#fbbf24');
+        let hasImages = dlTasks.length > 0;
+
+        // Do not download images client-side. The server API will handle them for maximum speed.
+        if (hasImages) {
+            log(`[IMG] Found ${dlTasks.length} images. Server will download them...`, '#94a3b8');
+            for (const task of dlTasks) {
+                if (task.type === 'question') {
+                    task.q.localImage = `/images/${task.fname}`;
+                } else {
+                    task.q.localExplImage = `/images/${task.fname}`;
                 }
             }
         }
@@ -476,6 +500,7 @@
                 explanation: q.explanation || '',
                 hasDiagram: !!q.localImage,
                 image: q.localImage || null,
+                explanationImage: q.localExplImage || null,
                 svg_code: '',
                 topic: '',
             };
@@ -491,7 +516,7 @@
         if (emptyQs === 0 && noAnswer === 0) log('[OK] All questions look good!', '#4ade80');
 
         // ── POST to local API ───────────────────────────────────────────────
-        log('[SAVE] Saving to local server...');
+        log('[SAVE] Saving to local server (server will download images)...');
         const port = await findLocalPort();
         const apiEndpoint = `http://localhost:${port}/api/save-questions`;
 
@@ -500,7 +525,7 @@
             const r = await fetch(apiEndpoint, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ filename, questions: jsonOut, images: hasImages ? images : {} }),
+                body: JSON.stringify({ filename, questions: jsonOut, imagesToDownload: dlTasks }),
             });
             const result = await r.json();
             if (result.success) {
@@ -527,13 +552,22 @@
             log(`[OK] Downloaded ${filename}.json`, '#4ade80');
 
             if (hasImages) {
-                log('[DOWN] Downloading images...', '#a78bfa');
-                for (const [fname, dataUrl] of Object.entries(images)) {
-                    const a2 = document.createElement('a');
-                    a2.href = dataUrl;
-                    a2.download = fname;
-                    a2.click();
-                    await new Promise(r => setTimeout(r, 250));
+                log('[DOWN] Downloading images in browser (fallback)...', '#a78bfa');
+                const BATCH_SIZE = 4;
+                for (let i = 0; i < dlTasks.length; i += BATCH_SIZE) {
+                    const batch = dlTasks.slice(i, i + BATCH_SIZE);
+                    await Promise.all(batch.map(async (task) => {
+                        try {
+                            const b64 = await imgToBase64(task.url);
+                            const a2 = document.createElement('a');
+                            a2.href = b64;
+                            a2.download = task.fname;
+                            a2.click();
+                            await new Promise(r => setTimeout(r, 250));
+                        } catch (e) {
+                            log(`[WARN] Fallback image download failed for ${task.fname}`, '#fbbf24');
+                        }
+                    }));
                 }
                 log('[OK] Images downloaded - move to public/images/', '#4ade80');
             }
