@@ -38,5 +38,15 @@
     "videoUrl": "https://www.youtube.com/watch?v=6u-Am3EZJOY",
     "createdAt": "2026-02-26T15:59:26.702Z",
     "thumbnailUrl": "https://img.youtube.com/vi/6u-Am3EZJOY/hqdefault.jpg"
+  },
+  {
+    "id": "vid_1772217731903_xh53tn",
+    "lesson": 5,
+    "title": "Mouler Porjabritto Lec-01",
+    "subject": "Chemistry",
+    "platform": "youtube",
+    "videoUrl": "https://www.youtube.com/watch?v=c3E-g5hz0po",
+    "createdAt": "2026-02-27T18:42:11.903Z",
+    "thumbnailUrl": "https://img.youtube.com/vi/c3E-g5hz0po/hqdefault.jpg"
   }
 ]
