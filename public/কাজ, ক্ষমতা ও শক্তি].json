@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "question": "ক্ষমতার মাত্রা- DU 09-10",
+    "options": {
+      "a": "[\n𝑀\n𝐿\n2\n𝑇\n−\n2\n]\n[ML\n2\nT\n−2\n]",
+      "b": "[\n𝑀\n𝐿\n3\n𝑇\n−\n2\n]\n[ML\n3\nT\n−2\n]",
+      "c": "[\n𝑀\n𝐿\n2\n𝑇\n−\n3\n]\n[ML\n2\nT\n−3\n]",
+      "d": "[\n𝑀\n𝐿\n2\n𝑇\n−\n1\n]\n[ML\n2\nT\n−1\n]"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "question": "নির্দিষ্ট ভরের কোন বস্তুর গতিশক্তি ও বেগের মধ্যে সম্পর্ক কীরূপ?",
+    "options": {
+      "a": "গতিশক্তি বেগের সমান",
+      "b": "গতিশক্তি বেগের সমানুপাতিক",
+      "c": "গতিশক্তি বেগের বর্গের সমানুপাতিক",
+      "d": "গতিশক্তি বেগের ব্যাস্তানুপাতিক"
+    },
+    "correctAnswer": "c",
+    "explanation": "Is- 352; নির্দিষ্ট ভরের কোন বস্তুর গতিশক্তি বেগের বর্গের সমানুপাতিক অর্থাৎ \n\n\n\n\n \n𝐸\n𝑘\n∝\n𝑉\n2\nE\nk\n\t​\n\n∝V\n2",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "question": "ধনাত্মক কাজের জন্য বল ও সরণের মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "90\n°\n≤\n𝜃\n≤\n180\n°\n90°≤θ≤180°",
+      "b": "0\n°\n<\n𝜃\n≤\n180\n°\n0°<θ≤180°",
+      "c": "0\n°\n≤\n𝜃\n≤\n90\n°\n0°≤θ≤90°",
+      "d": "0\n°\n≤\n𝜃\n<\n90\n°\n0°≤θ<90°"
+    },
+    "correctAnswer": "d",
+    "explanation": "𝑊\n=\n𝐹\n⃗\n⋅\n𝑆\n⃗\n=\n𝐹\n𝑆\ncos\n⁡\n𝜃\n ধনাত্মক কাজ : \n0\n∘\n⩽\n𝜃\n<\n90\n∘\nঋণাত্মক কাজঃ \n90\n∘\n<\n𝜃\n⩽\n180\n∘\nশূণ্য কাজ : \n𝜃\n=\n90\n0\nW=\nF\n⋅\nS\n=FScosθ\n ধনাত্মক কাজ : 0\n∘\n⩽θ<90\n∘\nঋণাত্মক কাজঃ 90\n∘\n<θ⩽180\n∘\nশূণ্য কাজ : θ=90\n0",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "question": "3m সরণে 30kg ভরের বস্তুর বেগ 30m/s থেকে 50m/s হলে কৃতকাজ কত?",
+    "options": {
+      "a": "12000 J",
+      "b": "30000 J",
+      "c": "24000 J",
+      "d": "25000 J"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝑊\n=\n1\n2\n𝑚\n(\n𝑣\n2\n−\n𝑢\n2\n)\n=\n1\n2\n×\n30\n×\n(\n50\n2\n−\n30\n2\n)\n=\n15\n×\n40\n2\n=\n15\n×\n1600\n=\n24000\n \n𝐽\nW=\n2\n1\n\t​\n\nm(v\n2\n−u\n2\n)=\n2\n1\n\t​\n\n×30×(50\n2\n−30\n2\n)=15×40\n2\n=15×1600=24000 J",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "question": "স্প্রিং ধ্রুবকের মান নিচের কোনটির উপর নির্ভর করে না?",
+    "options": {
+      "a": "পদার্থের স্থিতিস্থাপকতা",
+      "b": "স্প্রিং এর দৈর্ঘ্য",
+      "c": "জ্যামিতিক গঠন",
+      "d": "স্প্রিং এর আকার"
+    },
+    "correctAnswer": "d",
+    "explanation": "স্প্রিং ধ্রুবক নির্ভর করে- \n\nI. স্প্রিং-এর দৈর্ঘ্যের ওপর \n\nII. জ্যামিতিক গঠনের ওপর \n\nIII. পদার্থের স্থিতিস্থাপকতার ওপর।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "question": "কোন একটি 2gm ভরের বুলেট একটি তক্তাকে 100 − 1 100 ms −1 বেগে আঘাত করে তক্তা থেকে 50 − 1 50 ms −1 বেগে বের হলে তক্তার প্রতিরোধ বলের বিরুদ্ধে গুলির কৃতকাজ কত?",
+    "options": {
+      "a": "15 J",
+      "b": "7.5 J",
+      "c": "75 J",
+      "d": "5 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "𝑊\n=\n1\n2\n𝑚\n(\n𝑢\n2\n−\n𝑣\n2\n)\n=\n1\n2\n×\n2\n×\n10\n−\n3\n×\n(\n100\n2\n−\n50\n2\n)\n𝐽\n=\n7.5\n𝐽\nW=\n2\n1\n\t​\n\nm(u\n2\n−v\n2\n)\n=\n2\n1\n\t​\n\n×2×10\n−3\n×(100\n2\n−50\n2\n)J\n=7.5J",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "question": "ভরবেগের সাথে গতিশক্তির সঠিক সম্পর্ক নিচের কোনটি?",
+    "options": {
+      "a": "𝐸\n𝑘\n=\n1\n2\n𝑚\n2\n(\n2\n𝑝\nE\nk\n\t​\n\n=\n2\n1\n\t​\n\n(2p\nm\n2\n\t​",
+      "b": "𝐸\n𝑘\n=\n1\n2\n𝑝\n2\n(\n2\n𝑚\nE\nk\n\t​\n\n=\n2\n1\n\t​\n\n(2m\np\n2\n\t​",
+      "c": "𝐸\n𝑘\n=\n1\n2\n2\n𝑚\n𝑝\n2\nE\nk\n\t​\n\n=\n2\n1\n\t​\n\np\n2\n2m\n\t​",
+      "d": "𝐸\n𝑘\n=\n1\n2\n𝑝\n2\n(\n𝑚\nE\nk\n\t​\n\n=\n2\n1\n\t​\n\n(m\np\n2\n\t​"
+    },
+    "correctAnswer": "d",
+    "explanation": "𝐸\n𝑘\n=\n1\n2\n𝑚\n𝑣\n2\n=\n(\n𝑚\n𝑣\n)\n2\n2\n𝑚\n\n\n∴\n𝐸\n𝑘\n=\n𝑝\n2\n2\n𝑚\nE\nk\n\t​\n\n=\n2\n1\n\t​\n\nmv\n2\n=\n2m\n(mv)\n2\n\t​\n\n∴E\nk\n\t​\n\n=\n2m\np\n2\n\t​\n\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "question": "ধনাত্মক (Positive Work) কাজের ক্ষেত্রে বল ও সরণের মধ্যবর্তী কোণ এর মান-",
+    "options": {
+      "a": "0\n°\n≤\n𝜃\n<\n90\n°\n0°≤θ<90°",
+      "b": "90\n°\n<\n𝜃\n≤\n180\n°\n90°<θ≤180°",
+      "c": "0\n°\n<\n𝜃\n≤\n90\n°\n0°<θ≤90°",
+      "d": "90\n°\n≤\n𝜃\n<\n180\n°\n90°≤θ<180°"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধনাত্নক কাজ =0° ≤ θ< 90°\n\nধনাত্নক কাজ =90° < θ ≤180°",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "question": "কাজের মাত্রা সমীকরণ নিচের কোনটি?",
+    "options": {
+      "a": "[\n𝑀\n𝐿\n𝑇\n−\n3\n]\n[MLT\n−3\n]",
+      "b": "[\n𝑀\n𝐿\n𝑇\n−\n2\n]\n[MLT\n−2\n]",
+      "c": "[\n𝑀\n𝐿\n2\n𝑇\n−\n2\n]\n[ML\n2\nT\n−2\n]",
+      "d": "[\n𝑀\n𝐿\n−\n1\n𝑇\n−\n1\n]\n[ML\n−1\nT\n−1\n]"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q9_img.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "question": "কার্যকর শক্তি/মোট প্রদত্ত শক্তি=? MAT 03-04",
+    "options": {
+      "a": "শক্তি",
+      "b": "কর্মদক্ষতা",
+      "c": "কাজ",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "question": "55kg ভরের এক ব্যক্তি 3 সেকেন্ড 3 meter উচু্ঁ এবং সিড়ি বেয়ে উপরে উঠে। ব্যক্তির ক্ষমতা কত? JU A 17-18 Set-1",
+    "options": {
+      "a": "539 Watt",
+      "b": "639 Watt",
+      "c": "739 Watt",
+      "d": "839 Watt"
+    },
+    "correctAnswer": "a",
+    "explanation": "P\n=\nW\nt\n=\nm\ng\nh\nt\n=\n55\n×\n9.8\n×\n3\n3\n=\n539\nW\na\nt\nt\nP=\nt\nW\n\t​\n\n=\nt\nmgh\n\t​\n\n=\n3\n55×9.8×3\n\t​\n\n=539Watt",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "question": "কোনটি ঘর্ষণ বল (Frictional Force) এর উদাহরণ? DAT 20-21",
+    "options": {
+      "a": "অ-সংরক্ষণশীল শক্তি",
+      "b": "সমন্বিত শক্তি",
+      "c": "আঠালো শক্তি",
+      "d": "সংরক্ষণশীল শক্তি"
+    },
+    "correctAnswer": "a",
+    "explanation": "অ-সংরক্ষণশীল বলের উদাহরণ হলঃ ঘর্ষণ এবং অ-স্থিতিস্থাপক পীড়ন।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "question": "10 কিলো গ্রাম ভরের একটি বস্তু 50 মিটার উচ্চতা হতে পড়লে ইহার গতিশক্তি কত হবে? BAU 11-12",
+    "options": {
+      "a": "4.9x103erg",
+      "b": "4.9x103J",
+      "c": "4.9x107erg",
+      "d": "4.9x107J"
+    },
+    "correctAnswer": "b",
+    "explanation": "মুক্তভাবে পড়ন্ত বস্তুর গতিশক্তি = স্থিতিশক্তি \n=\nm\ng\nh\n=\n10\n×\n=mgh=10× \n9.8\n×\n50\n=\n4.9\n×\n10\n3\n \nJ\n9.8×50=4.9×10\n3\n J",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "question": "কাজের চরম এককের বেলায় কোনটি সত্য?",
+    "options": {
+      "a": "এস আই পদ্ধতিতে সংশ্লিষ্ট কাজের একক জুল",
+      "b": "এফ পি এস পদ্ধতিতে সংশ্লিষ্ট কাজের একক ফুট পাউন্ড",
+      "c": "সি জি এস পদ্ধতিতে সংশ্লিষ্ট কাজের একক ফুট পাউন্ড",
+      "d": "এফ পি এস পদ্ধতিতে সংশ্লিষ্ট কাজের একক আর্গ"
+    },
+    "correctAnswer": "a",
+    "explanation": "এস আই পদ্ধতিতে সংশ্লিষ্ট কাজের একক জুল।\n\nকাজের একক: কাজের একক হল কোনও বস্তুর উপর বল প্রয়োগ করে বস্তুটিকে সরানোর জন্য প্রয়োজনীয় শক্তির পরিমাণ।\n\nএস আই পদ্ধতিতে, কাজের একক হল জুল। ১ জুল হল ১ নিউটন বল প্রয়োগে ১ মিটার সরলে সম্পাদিত কাজের পরিমাণ।\n\nএফ পি এস পদ্ধতিতে, কাজের একক হল ফুঁট পাউল্ড। ১ ফুট পাউন্ড হল ১ পাউন্ড বল প্রয়োগে ১ ফুঁট সরলে সম্পাদিত কাজের পরিমাণ।\n\nসি জি এস পদ্ধতিতে, কাজের একক হল আর্গ। ১ আর্গ হল ১ ডাইন বল প্রয়োগে ১ সেমি সরলে সম্পাদিত কাজের পরিমাণ।\n\nসুতরাং, এস আই পদ্ধতিতে সংশ্লিষ্ট কাজের একক জুল।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "question": "30m উচ্চতা থেকে পড়ন্ত বস্তু কত m পতিত হলে এর গতিশক্তি বিভবশক্তির দ্বিগুন হবে? AFMC : 17-18",
+    "options": {
+      "a": "20",
+      "b": "10",
+      "c": "5",
+      "d": "35"
+    },
+    "correctAnswer": "a",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q15_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "question": "নিম্নের কোনটি সত্য নয়? DAT 15-16,DAT 07-08",
+    "options": {
+      "a": "ক্ষমতা = কাজ / সময়",
+      "b": "ইঞ্জিনের ক্ষমতা = বল × গতিবেগ",
+      "c": "ক্ষমতা = কাজ × সময়",
+      "d": "কাজ = ক্ষমতা × সময়"
+    },
+    "correctAnswer": "c",
+    "explanation": "অপশন 'C' সত্য নয়; কারণ- ক্ষমতা \n=\n কাজ \n সময় \n=\n সময় \n কাজ \n\t​\n\n অর্থাৎ কাজ = ক্ষমতা \n×\n× সময়",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "question": "সৌর চুল্লীতে ভাত রান্না করলে, কোন শক্তি তাপশক্তিতে রূপান্তরিত হয়? DAT 16-17",
+    "options": {
+      "a": "যান্ত্রিক শক্তি",
+      "b": "শব্দ শক্তি",
+      "c": "রাসায়নিক শক্তি",
+      "d": "আলোক শক্তি"
+    },
+    "correctAnswer": "d",
+    "explanation": "সৌর চুল্লীতে ভাত রান্না করলে, আলোক শক্তি তাপশক্তিতে রূপান্তরিত হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "question": "250 V সম্পন্ন বিদ্যুৎ লাইনের সাথে সংযুক্ত একটি হিটারের কাজ করতে 8A বিদ্যুতের প্রয়োজন হয়। হিটারের শক্তি কত? MAT 14-15,DAT 14-15",
+    "options": {
+      "a": "500 W",
+      "b": "2000 W",
+      "c": "1 KW",
+      "d": "5 KW"
+    },
+    "correctAnswer": "b",
+    "explanation": "হিটারের শক্তি, \n𝑃\n=\n𝑉\n𝐼\nP=VI\n\n=\n(\n250\n×\n8\n)\nW\n\n\n=\n2000\n \nW\n=(250×8)W\n=2000 W\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "question": "ঋণাত্মক কাজের শর্ত কোনটি ? SAU 15-16",
+    "options": {
+      "a": "90°> θ >180°",
+      "b": "90° < θ <= 180°",
+      "c": "90° = θ = 180°",
+      "d": "θ = 45°"
+    },
+    "correctAnswer": "b",
+    "explanation": "(\n+\n)\n𝑤\n→\n0\n∘\n≤\n𝜃\n<\n90\n∘\n\n\n(\n−\n)\n𝑤\n→\n90\n∘\n<\n𝜃\n≤\n180\n∘\n(+)w→0\n∘\n≤θ<90\n∘\n(−)w→90\n∘\n<θ≤180\n∘\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "question": "বিভবশক্তির একক -",
+    "options": {
+      "a": "ওয়াট",
+      "b": "অশ্বক্ষমতা",
+      "c": "জুল",
+      "d": "জুল-সেকেন্ড"
+    },
+    "correctAnswer": "c",
+    "explanation": "যেহেতু কৃত কাজ দিয়েই শক্তির পরিমাপ করা হয় সুতরাং কাজ ও শক্তির একক একই। অর্থাৎ এস. আই. (SI) পদ্ধতিতে শক্তির একক জুল (J)\n\nশক্তি ও কাজের মাত্রা একই, \n[\nE\n]\n=\n[\nM\nL\n2\n \nT\n−\n2\n]\n[E]=[ML\n2\n T\n−2\n]",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "question": "ক্ষমতার মাত্রা-",
+    "options": {
+      "a": "ML2T3",
+      "b": "ML2T-3",
+      "c": "ML2T-2",
+      "d": "ML2T2"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "question": "স্প্রিং বল সংকুচিত করলে এতে কিরকম শক্তি জমা হয়?",
+    "options": {
+      "a": "বিভব",
+      "b": "গতি",
+      "c": "তাপ",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "স্প্রিংকে সংকুচিত করলে এটি স্বাভাবিক অবস্থা হতে পরিবর্তিত অবস্থায় আসে এবং এ পরিবর্তনের ফলে এটি বিভবশক্তি অর্জন করে। এ শক্তি পরিবর্তীতে গতিশক্তিতে রূপান্তরিত হতে পারে বা এ শক্তির দ্বারা স্প্রিংটি সমপরিমাণ কাজ ও করতে সক্ষম।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "question": "নিচের কোনটি অসংরক্ষণশীল বলের বৈশিষ্ট্য?",
+    "options": {
+      "a": "পূর্ণচক্রে মোট কাজ শূন্য হয় না",
+      "b": "যান্ত্রিক শক্তির নিত্যতার সূত্র সংরক্ষিত হয়",
+      "c": "শুধু অবস্থানের উপর নির্ভর করে",
+      "d": "কৃতকাজ সম্পূর্ণরূপে পুনরুদ্ধার করা যায়"
+    },
+    "correctAnswer": "a",
+    "explanation": "অসংরক্ষণশীল বলঃ যে বলের ক্রিয়ায় কোন বস্তু কণা একটি পূর্ণ চক্র সম্পন্ন করে আদি অবস্থানে ফিরে আসলে সম্পাদিত কাজের পরিমাণ শূন্য হয় না তাকে অসংরক্ষণশীল বল (Nonconservative Force) বলে।\n\nঅসংরক্ষণশীল বলের ক্রিয়ার অভিমুখ বস্তু কণার গতির অভিমুখের উপর নির্ভরশীল এবং বলদ্বারা কৃতকাজ বস্তু কণার গতিপথের উপর নির্ভরশীল। ঘর্ষণ বল, সান্দ্র বল ইত্যাদি অসংরক্ষণশীল বলের উদাহরণ।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "question": "300 − 1 300 Nm −1 বল ধ্রুবক সম্পন্ন একটি স্প্রিংকে কতটুকু সংকুচিত করলে 1.5 1.5 Jকাজ করা হবে? DU 06-07",
+    "options": {
+      "a": "0.1 m",
+      "b": "1.5 m",
+      "c": "3.01 m",
+      "d": "1.0 m"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝑊\n=\n1\n2\n𝑘\n𝑥\n2\n \n⇒\n1.5\n=\n1\n2\n300\n×\n𝑥\n2\n \n∴\n𝑥\n=\n0.1\n \n𝑚\nW=\n2\n1\n\t​\n\nkx\n2\n ⇒1.5=\n2\n1\n\t​\n\n300×x\n2\n \n∴x=0.1 m",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "subject": "Physics",
+    "question": "কোনটি অসংরক্ষণশীল বল?",
+    "options": {
+      "a": "ঘর্ষণ বল",
+      "b": "বৈদ্যুতিক বল",
+      "c": "মহাকর্ষ বল",
+      "d": "চুম্বকীয় বল"
+    },
+    "correctAnswer": "a",
+    "explanation": "সংরক্ষণশীল বলের ক্ষেত্রে-(১) পূর্ণচকেরে মোট কাজ শূন্য হয় (২) কাজের পরিমাণ কণার গতিপথের ওপর নির্ভর করে না (৩) শক্তি নিত্যতার সূত্র পালিত হয় (৪) কাজ পুনরুদ্ধার করা যায়। এই বলের উদাহরণ-অভিকর্ষীয় বল, বৈদ্যুতিক বল, স্প্রিং-এ বিকৃতি প্রতিরোধকারী বল।\n\n \n\nঅসংরক্ষণশীল বলের ক্ষেত্রে- (১) পূর্ণচক্রে মোট কাজ শূন্য হয় না। (২) কাজের পরিমাণ কণার গতিপথের ওপর নির্ভর করে। (৩) শক্তির নিত্যতা পালিত হয় না। (৪) কাজ সম্পূর্ণরূপে পুনরুদ্ধার করা যায় না। এই বলের উদাহরণ হলো—ঘর্ষণ বল, সান্দ্র বল।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "subject": "Physics",
+    "question": "বল F ও বেগ v হলে ক্ষমতার মান কত?",
+    "options": {
+      "a": "𝑝\n=\n𝐹\n𝑣\n2\np=Fv\n2",
+      "b": "𝑃\n=\n𝐹\n𝑣\nP=\nv\nF\n\t​",
+      "c": "𝑃\n=\n𝐹\n𝑣\nP=Fv",
+      "d": "𝑃\n=\n𝐹\n𝑣\nP=\nv\nF\n\t​"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝑃\n=\n𝜔\n𝑡\n=\n𝐹\n⃗\n⋅\n𝑣\n⃗\n\n\n=\n𝜏\n𝜔\n=\n𝐹\n⃗\n⋅\n𝑥\n⃗\n𝑡\nP=\nt\nω\n\t​\n\n=\nF\n⋅\nv\n=τω=\nt\nF\n⋅\nx\n\t​\n\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "subject": "Physics",
+    "question": "একটি চলন্ত বস্তু সমান ভরের অপর একটি বস্তুকে আঘাত করলে কত অংশ গতিশক্তি স্থানান্তরিত হবে?",
+    "options": {
+      "a": "50%",
+      "b": "0%",
+      "c": "1%",
+      "d": "100%"
+    },
+    "correctAnswer": "d",
+    "explanation": "যে সংঘর্ষের আগে ও পরে দুটি বস্তুর আপেক্ষিক বেগ অপরিবর্তিত থাকে অর্গাৎ বস্তুদ্বয়ের মোট গতিশক্তি সংরক্ষিত থাকে লেই সংঘর্ষকে পূর্ণ স্থিতিস্যাপক সংঘর্ষ বলে। এই সংঘর্বের আগে বস্তু দুটির মোট গতিশক্তি যা ছিল সংঘর্ষের পরেও মোট গতিশক্তি একই থাকে। উদাহরণ : দুটি কাচের বা ইস্পাতের বলের সংঘর্ষ প্রায় পূর্ণ স্থিতিস্থাপক সংঘর্ব হয়।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "subject": "Physics",
+    "question": "সমান গতিসম্পন্ন 64g ও 49g ভরের দুটি বস্তুর ভরবেগের অনুপাত কত?",
+    "options": {
+      "a": "49:64",
+      "b": "√2 : 1",
+      "c": "64:49",
+      "d": "8:7"
+    },
+    "correctAnswer": "c",
+    "explanation": "প্রশ্নে বলা আছে - সমান গতিসম্পন্ন দুটি বম্তুর ভর যথাক্রমে:\n\n\n\n\n- প্রথম বস্তু: \n𝑚\n1\n=\n64\n𝑔\nm\n1\n\t​\n\n=64g\n\n\n\n\n- দ্বিতীয় বস্তু: \n𝑚\n2\n=\n49\n𝑔\nm\n2\n\t​\n\n=49g\n\n\n\n\n- গতি \n𝑣\nv - যেহেতু \"সমান গতিসম্পন্ন\", তাই উভয়ের \n𝑣\nv এক\n\n\n\n\n\nরৈখিক ভরবেগ (Linear Momentum) এর সূত্র:\n\n\n\n\n𝑝\n=\n𝑚\n𝑣\np=mv\n\n\n\n\n\nতাহলে,\n\n\n\n\n- প্রথম বস্তুর ভরবেগ: \n𝑝\n1\n=\n64\n𝑣\np\n1\n\t​\n\n=64v\n\n\n\n\n- দ্বিতীয় বস্তুর ভরবেগ: \n𝑝\n2\n=\n49\nv\np\n2\n\t​\n\n=49v\n\n\n\n\n\nভরবেগের অনুপাত:\n\n\n\n\n𝑝\n1\n𝑝\n2\n=\n64\n𝑣\n49\n𝑣\n=\n64\n49\np\n2\n\t​\n\np\n1\n\t​\n\n\t​\n\n=\n49v\n64v\n\t​\n\n=\n49\n64\n\t​\n\n\n\n\n\n\nউত্তর:\n\n\n\n\nভরবেগের অনুপাত \n64\n:\n49\n64:49",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "subject": "Physics",
+    "question": "5g ভরের সমতুল্য শক্তি কত?",
+    "options": {
+      "a": "15×108j",
+      "b": "4.5×1014 j",
+      "c": "3×1014 j",
+      "d": "45×1014 j"
+    },
+    "correctAnswer": "b",
+    "explanation": "ভর ও শক্তি সমতুল্য \n⇒\n⇒ \nE\n=\nm\nc\n2\n=\n5\n×\n10\n−\n3\n×\n[\n3\n×\n10\n8\n]\n2\n=\n4.5\n×\n10\n14\n𝑗\nE=mc\n2\n=5×10\n−3\n×[3×10\n8\n]\n2\n=4.5×10\n14\nj",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "subject": "Physics",
+    "question": "ভূমিতে পতনের মুহূর্তে বৃষ্টির ফোঁটার ত্বরণ কত হবে?",
+    "options": {
+      "a": "0\n0",
+      "b": "𝑔\ng",
+      "c": "𝑔\n2\n2\ng\n\t​",
+      "d": "√\n𝑔\n√g"
+    },
+    "correctAnswer": "a",
+    "explanation": "ত্বরন শূন্য হবে। কেনোনা প্রান্ত বেগ লাভ করবে। আর প্রান্ত বেগ হলো সেই বেগ যখন বস্তুর ত্বরণ শুন্য।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "subject": "Physics",
+    "question": "ঘূর্ণন গতিশক্তি E, জড়তার ভ্রামক I এবং কৌণিক বেগ ω এর মধ্যবর্তী সম্পর্ক কোনটি?",
+    "options": {
+      "a": "𝐸\n=\n𝐼\n𝜔\nE=Iω",
+      "b": "𝐸\n=\n𝐼\n𝜔\n2\nE=Iω\n2",
+      "c": "𝐸\n=\n1\n2\n𝐼\n𝜔\nE=\n2\n1\n\t​\n\nIω",
+      "d": "𝐸\n=\n1\n2\n𝐼\n𝜔\n2\nE=\n2\n1\n\t​\n\nIω\n2"
+    },
+    "correctAnswer": "d",
+    "explanation": "𝐸\n=\n1\n2\n𝑚\n𝑣\n2\n ঘূর্ণন গতির ক্ষেত্রে \n𝑚\n→\n𝐼\n𝑣\n→\n𝜔\nE=\n2\n1\n\t​\n\nmv\n2\n ঘূর্ণন গতির ক্ষেত্রে m→I\nv→ω",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "subject": "Physics",
+    "question": "ভূমি হতে 'm' ভরের কোন বস্তুকণাকে 2R (পৃথিবীর ব্যাসার্ধের দ্বিগুণ) উচ্চতায় উত্তোলন করলে কৃত কাজঃ",
+    "options": {
+      "a": "2mgR",
+      "b": "mgR/2",
+      "c": "3mgR",
+      "d": "2mgR/3"
+    },
+    "correctAnswer": "b",
+    "explanation": "আমরা জানি,\n\n𝑊\nagent \n\t\n=\nGm\n⁡\n𝑚\n(\n1\n𝑅\n1\n−\n1\n𝑅\n2\n)\n\n\n\t\n=\n𝑔\n𝑅\n2\n𝑚\n(\n1\n𝑅\n−\n1\n2\n𝑅\n)\n\n\n\t\n=\n𝑔\n𝑚\n(\n𝑅\n2\n2\n𝑅\n)\n\n\n\t\n=\n𝑔\n𝑚\n𝑅\n2\nW\nagent \n\t​\n\n\t​\n\n=Gmm(\nR\n1\n\t​\n\n1\n\t​\n\n−\nR\n2\n\t​\n\n1\n\t​\n\n)\n=gR\n2\nm(\nR\n1\n\t​\n\n−\n2R\n1\n\t​\n\n)\n=gm(\n2R\nR\n2\n\t​\n\n)\n=\n2\ngmR\n\t​\n\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "subject": "Physics",
+    "question": "কোন স্প্রিং-এর এক প্রান্তে m ভরের একটি বস্তু ঝুলালে এটি 8 c m 8 cm প্রসারিত হয়। বস্তুটি এরপর একটু টেনে ছেড়ে দিলে এর পর্যায়কাল কত হবে? GST A 23-24",
+    "options": {
+      "a": "0.56 sec",
+      "b": "0.57 sec",
+      "c": "0.65 sec",
+      "d": "0.75 sec"
+    },
+    "correctAnswer": "b",
+    "explanation": "𝑇\n\t\n=\n2\n𝜋\n𝐿\n𝑔\n\n\n\t\n=\n2\n𝜋\n0.08\n9.8\n\n\n\t\n=\n0.57\ns\ne\nc\nT\n\t​\n\n=2π\ng\nL\n\t​\n\n\t​\n\n=2π\n9.8\n0.08\n\t​\n\n\t​\n\n=0.57sec\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "subject": "Physics",
+    "question": "একটি গাড়ি 36 km/hr বেগে গতিশীল। প্রায় কোন গতিতে চললে গাড়িটির গতিশক্তি দ্বিগুণ হবে? DU 02-03,DU 02-03",
+    "options": {
+      "a": "7 m/s",
+      "b": "20 m/s",
+      "c": "54 m/s",
+      "d": "14 m/s"
+    },
+    "correctAnswer": "d",
+    "explanation": "36\n \nk\nm\n/\nh\n=\n10\n \nm\ns\n−\n1\n\n\nE\nk\n1\n=\n1\n2\n \nm\n(\n10\n \nm\ns\n−\n1\n)\n2\n ও \nE\nk\n2\n=\n1\n2\nm\nv\n2\n\n\n এখন \nE\nk\n2\nE\nk\n1\n=\n1\n2\nm\nv\n2\n1\n2\n \nm\n(\n10\n \nm\ns\n−\n1\n)\n2\n⇒\n2\n=\nv\n2\n10\n2\n∴\nv\n=\n14.14\n \nm\ns\n−\n1\n36 km/h=10 ms\n−1\nE\nk\n1\n\t​\n\n\t​\n\n=\n2\n1\n\t​\n\n m(10 ms\n−1\n)\n2\n ও E\nk\n2\n\t​\n\n\t​\n\n=\n2\n1\n\t​\n\nmv\n2\n এখন \nE\nk\n1\n\t​\n\n\t​\n\nE\nk\n2\n\t​\n\n\t​\n\n\t​\n\n=\n2\n1\n\t​\n\n m(10 ms\n−1\n)\n2\n2\n1\n\t​\n\nmv\n2\n\t​\n\n⇒2=\n10\n2\nv\n2\n\t​\n\n∴v=14.14 ms\n−1\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "subject": "Physics",
+    "question": "অভিকর্ষ বলের বিপরীতে সরণ তিনগুণ হলে কাজের পরিমাণ কত গুণ হবে?",
+    "options": {
+      "a": "নয়গুণ",
+      "b": "ছয়গুণ",
+      "c": "বারগুণ",
+      "d": "তিনগুণ"
+    },
+    "correctAnswer": "d",
+    "explanation": "অভিকর্ষ বলের ক্ষেত্রে, W=mgh \n\n                               W∝h",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "subject": "Physics",
+    "question": "সংরক্ষণশীল বল -",
+    "options": {
+      "a": "বায়ুর বাঁধা",
+      "b": "তড়িৎ বল",
+      "c": "ঘর্ষণ বল",
+      "d": "সান্দ্র বল"
+    },
+    "correctAnswer": "b",
+    "explanation": "সংরক্ষণশীল বলের ক্ষেত্রে-(১) পূর্ণচকেরে মোট কাজ শূন্য হয় (২) কাজের পরিমাণ কণার গতিপথের ওপর নির্ভর করে না (৩) শক্তি নিত্যতার সূত্র পালিত হয় (৪) কাজ পুনরুদ্ধার করা যায়। এই বলের উদাহরণ-অভিকর্ষীয় বল, বৈদ্যুতিক বল, স্প্রিং-এ বিকৃতি প্রতিরোধকারী বল।\n\nঅসংরক্ষণশীল বলের ক্ষেত্রে- (১) পূর্ণচক্রে মোট কাজ শূন্য হয় না। (২) কাজের পরিমাণ কণার গতিপথের ওপর নির্ভর করে। (৩) শক্তির নিত্যতা পালিত হয় না। (৪) কাজ সম্পূর্ণরূপে পুনরুদ্ধার করা যায় না। এই বলের উদাহরণ হলো—ঘর্ষণ বল, সান্দ্র বল।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "subject": "Physics",
+    "question": "5kg ভরের বস্তুটি বিনা বাধায় 20m দূরে পৌঁছালে গতিশক্তির পরিবর্তন কত? [ = 10 m s − 2 ] [g=10ms −2 ]",
+    "options": {
+      "a": "50 J",
+      "b": "0 J",
+      "c": "25 J",
+      "d": "250 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "বিনা বাধা মানে বেগ একই আছে। সমবেগে চললে গতিশক্তির কোনো পরিবর্তন হবে না।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "subject": "Physics",
+    "question": "পদার্থ বিজ্ঞানের নিম্নের কোন তথ্যটি সঠিক?",
+    "options": {
+      "a": "mgh গতিশক্তি সমীকরণ",
+      "b": "শক্তির মাত্রা : ML²/ T²",
+      "c": "ক্ষমতার মাত্রা : MV^{2}",
+      "d": "গতিশক্তি একটি ভেক্টর রাশি"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "hasDiagram": true,
+    "questionImage": "/images/q38_img.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "subject": "Physics",
+    "question": "একটি বস্তুর গতিশক্তি চারগুণ করতে হলে এর বেগ কতগুণ করতে হবে?",
+    "options": {
+      "a": "চারগুণ",
+      "b": "আটগুণ",
+      "c": "দ্বিগুণ",
+      "d": "ষোলগুণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝐸\n𝑘\n=\n1\n2\n𝑚\n𝑣\n2\n\n\n∴\n𝐸\n𝑘\n∝\n𝑣\n2\nE\nk\n\t​\n\n=\n2\n1\n\t​\n\nmv\n2\n∴E\nk\n\t​\n\n∝v\n2\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "subject": "Physics",
+    "question": "ধনাত্মক কাজ হলে কোনো বস্তুর -",
+    "options": {
+      "a": "স্থিতিশক্তি বৃদ্ধি পায়, গতিশক্তি হ্রাস পায়",
+      "b": "স্থিতিশক্তি হ্রাস পায়, গতিশক্তি বৃদ্ধি পায়",
+      "c": "স্থিতিশক্তি বৃদ্ধি পায়, গতিশক্তি বৃদ্ধি পায়",
+      "d": "স্থিতিশক্তি হ্রাস পায়, গতিশক্তি হ্রাস পায়"
+    },
+    "correctAnswer": "b",
+    "explanation": "যদি বল প্রয়োগে বলের প্রয়োগ বিন্দু বলের ক্রিয়ার অভিমুখে সরে যায় বা বলের দিকে সরণের ধনাত্মক উপাংশ থাকে তবে বলের দ্বারা কাজ হয়েছে বুঝায়। বলের দ্বারাকৃত কাজকে ধনাত্মক কাজ বলে।",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "subject": "Physics",
+    "question": "বল ও বল প্রয়োগে সরণের উপাংশের মধ্যবর্তী কোণ কত হলে কাজ শূন্য হবে?",
+    "options": {
+      "a": "90°",
+      "b": "60°",
+      "c": "30°",
+      "d": "0°"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝑊\n=\n𝐹\n⃗\n⋅\n𝑆\n⃗\n=\n𝐹\n𝑆\ncos\n⁡\n𝜃\n ধনাত্মক কাজ : \n0\n∘\n⩽\n𝜃\n<\n90\n∘\nঋণাত্মক কাজঃ \n90\n∘\n<\n𝜃\n⩽\n180\n∘\nশূণ্য কাজ : \n𝜃\n=\n90\n0\nW=\nF\n⋅\nS\n=FScosθ\n ধনাত্মক কাজ : 0\n∘\n⩽θ<90\n∘\nঋণাত্মক কাজঃ 90\n∘\n<θ⩽180\n∘\nশূণ্য কাজ : θ=90\n0",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "subject": "Physics",
+    "question": "2 N/m স্প্রিং ধ্রুবক সম্পন্ন একটি আদর্শ স্প্রিংইয়ের দৈর্ঘ্য সাম্যবস্থা থেকে 0.1 m বৃদ্ধি করলে স্প্রিংয়ের স্থিতিশক্তির বৃদ্ধি হবে? DU 04-05,DU 04-05",
+    "options": {
+      "a": "0.1 J",
+      "b": "0.001 J",
+      "c": "1 J",
+      "d": "0.01 J"
+    },
+    "correctAnswer": "d",
+    "explanation": "W\n=\n1\n2\nk\nx\n2\n=\n1\n2\n×\n2\n×\n0.1\n2\n=\n0.01\n \nJ\nW=\n2\n1\n\t​\n\nkx\n2\n=\n2\n1\n\t​\n\n×2×0.1\n2\n=0.01 J",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "subject": "Physics",
+    "question": "কেন্দ্রমুখী বল দ্বারা কৃতকাজ কত হবে?",
+    "options": {
+      "a": "অসীম",
+      "b": "ধনাত্মক",
+      "c": "শূন্য",
+      "d": "ঋণাত্মক"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "subject": "Physics",
+    "question": "একটি বস্তুর ভরবেগ দ্বিগুণ করা হলে গতিশক্তি?",
+    "options": {
+      "a": "দ্বিগুণ",
+      "b": "আটগুণ",
+      "c": "চারগুণ",
+      "d": "একই থাকে"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝐸\n𝑘\n=\n𝑝\n2\n2\n𝑚\n\n\n∴\n𝐸\n𝑘\n∝\n𝑝\n2\nE\nk\n\t​\n\n=\n2m\np\n2\n\t​\n\n∴E\nk\n\t​\n\n∝p\n2\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "subject": "Physics",
+    "question": "m ভরের একটি বস্তুর গতিশক্তি E হলে, ভরবেগ কত?",
+    "options": {
+      "a": "𝑚\n𝐸\nm\nE\n\t​",
+      "b": "2\n𝑚\n𝐸\n2m\n\t​\n\nE",
+      "c": "(\n2\n𝑚\n𝐸\n(2mE\n\t​",
+      "d": "𝑚\n𝐸\nmE"
+    },
+    "correctAnswer": "c",
+    "explanation": "𝐸\n=\n𝑃\n2\n2\n𝑚\n\n\n𝑃\n2\n=\n2\n𝑚\n𝐸\n\n\n∴\n𝑃\n=\n2\n𝑚\n𝐸\nE=\n2m\nP\n2\n\t​\n\nP\n2\n=2mE\n∴P=\n2mE\n\t​\n\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "subject": "Physics",
+    "question": "60 m উচ্চতা থেকে একটি বস্তুকে বিনা বাধায় পড়তে দিলে ভুমি থেকে কোথায় এর গতিশক্তি বিভবশক্তির তিনগুণ হবে?",
+    "options": {
+      "a": "10 m",
+      "b": "15 m",
+      "c": "45 m",
+      "d": "50 m"
+    },
+    "correctAnswer": "b",
+    "explanation": "𝐸\n𝑘\n=\n3\n𝐸\n𝑝\n\n\n⇒\n𝑚\n𝑔\n(\nℎ\n−\n𝑥\n)\n=\n3\n𝑚\n𝑔\n𝑥\n\n\n⇒\n𝑥\n=\nℎ\n4\n=\n60\n4\n=\n15\n \nm\nE\nk\n\t​\n\n=3E\np\n\t​\n\n⇒mg(h−x)=3mgx\n⇒x=\n4\nh\n\t​\n\n=\n4\n60\n\t​\n\n=15 m\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "subject": "Physics",
+    "question": "শক্তির প্রকারভেদ নয় -",
+    "options": {
+      "a": "আণবিক শক্তি",
+      "b": "তাপশক্তি",
+      "c": "শব্দশক্তি",
+      "d": "সৌর শক্তি"
+    },
+    "correctAnswer": "a",
+    "explanation": "(i) যান্ত্রিক শক্তি (Mechanical energy)\n\n(ii) তাপ শক্তি (Heat energy)\n\n(iii) আলোক শক্তি (Light energy)\n\n(iv) শব্দশক্তি (Sound energy)\n\n(v) চৌশ্বক শক্তি (Magnetic energy)\n\n(vi) তড়িৎ শক্তি (Electrical energy)\n\n(vii) রাসায়নিক শক্তি (Chemical energy)\n\n(viii) পারমাণবিক শক্তি (Nuclear energy)\n\n(ix) সৌর শক্তি (Solar energy)",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "subject": "Physics",
+    "question": "40N ওজনের বস্তুকে মেঝে থেকে 2 মিটার উচুঁতে 2 সেকেন্ড ধরে রাখতে কাজের পরিমাণ -",
+    "options": {
+      "a": "2J",
+      "b": "180J",
+      "c": "40J",
+      "d": "0J"
+    },
+    "correctAnswer": "d",
+    "explanation": "",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Physics",
+    "question": "5m ব্যাসার্ধ ও 5kg ভরের একটি নিরেট গোলক এর কোনো স্পর্শকের সাপেক্ষে 0.4 − 1 0.4 rad s −1 কৌণিক বেগে ঘূর্ণায়মান থাকলে গোলকটির কৌণিক গতিশক্তি কত?",
+    "options": {
+      "a": "15\n \n𝐽\n15 J",
+      "b": "7\n \n𝐽\n7 J",
+      "c": "14\n \n𝐽\n14 J",
+      "d": "11\n \n𝐽\n11 J"
+    },
+    "correctAnswer": "c",
+    "explanation": "12 Iω2=12(25mr2+mr2)ω2=12×75×5×52×16×10−2=14 J",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Physics",
+    "question": "কোন বস্তু 20মি. উচ্চতায় উপর থেকে বিনা বাধায় পরলে, ভূমি থেকে কত উচ্চতায় তার গতিশক্তি বিভবশক্তির তিনগুন হবে?",
+    "options": {
+      "a": "5m",
+      "b": "10m",
+      "c": "15m",
+      "d": "20m"
+    },
+    "correctAnswer": "a",
+    "explanation": "𝐸\n𝑘\n=\n3\n𝐸\n𝑝\n\n\n⇒\n𝑚\n𝑔\n(\nℎ\n−\n𝑥\n)\n=\n3\n𝑚\n𝑔\n𝑥\n\n\n⇒\n𝑥\n=\nℎ\n4\n=\n20\n4\n=\n5\n \nm\nE\nk\n\t​\n\n=3E\np\n\t​\n\n⇒mg(h−x)=3mgx\n⇒x=\n4\nh\n\t​\n\n=\n4\n20\n\t​\n\n=5 m\n\t​",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]
