@@ -530,20 +530,6 @@
     "questionFile": "GST-Model-Test-07.json"
   },
   {
-    "studentName": "Test Student",
-    "answers": {
-      "1": "a"
-    },
-    "currentQuestion": 1,
-    "answeredCount": 1,
-    "totalQuestions": 100,
-    "questionFile": "questions.json"
-  },
-  {
-    "studentName": "API_TEST",
-    "answers": {}
-  },
-  {
     "studentName": "Gst 9",
     "answers": {
       "1": "b",
@@ -748,43 +734,6 @@
     "questionFile": "physics-1.json"
   },
   {
-    "studentName": "dfad",
-    "answers": {
-      "27": "c",
-      "40": "d",
-      "41": "c",
-      "42": "b",
-      "43": "b",
-      "44": "c",
-      "45": "b",
-      "46": "c",
-      "47": "b",
-      "48": "b",
-      "49": "c",
-      "50": "b"
-    },
-    "score": 4,
-    "totalMarks": 100,
-    "timestamp": "2026-02-27T09:21:17.157Z",
-    "attempted": 24,
-    "correct": 8,
-    "wrong": 16,
-    "pass": false,
-    "questionFile": "রক্ত-সঞ্চালন .json"
-  },
-  {
-    "studentName": "Gst11..",
-    "answers": {},
-    "score": 0,
-    "totalMarks": 100,
-    "timestamp": "2026-02-27T16:27:05.916Z",
-    "attempted": 0,
-    "correct": 0,
-    "wrong": 0,
-    "pass": false,
-    "questionFile": "physics-1.json"
-  },
-  {
     "studentName": "Gst11.._1",
     "answers": {
       "1": "b",
@@ -843,20 +792,6 @@
     "attempted": 49,
     "correct": 30,
     "wrong": 19,
-    "pass": false,
-    "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
-  },
-  {
-    "studentName": "dfad_1",
-    "answers": {
-      "50": "c"
-    },
-    "score": 0,
-    "totalMarks": 50,
-    "timestamp": "2026-02-27T17:23:13.625Z",
-    "attempted": 1,
-    "correct": 0,
-    "wrong": 1,
     "pass": false,
     "questionFile": "শ্বাসক্রিয়া ও শোষণ.json"
   },
