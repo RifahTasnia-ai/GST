@@ -48,5 +48,15 @@
     "videoUrl": "https://www.youtube.com/watch?v=c3E-g5hz0po",
     "createdAt": "2026-02-27T18:42:11.903Z",
     "thumbnailUrl": "https://img.youtube.com/vi/c3E-g5hz0po/hqdefault.jpg"
+  },
+  {
+    "id": "vid_1772359805669_f6k4nd",
+    "lesson": 6,
+    "title": "স্ট্রেইট লাইন রিভিশন ক্লাস!",
+    "subject": "Mathematics",
+    "platform": "youtube",
+    "videoUrl": "https://www.youtube.com/watch?v=FBEczy0mOhU",
+    "createdAt": "2026-03-01T10:10:05.669Z",
+    "thumbnailUrl": "https://img.youtube.com/vi/FBEczy0mOhU/hqdefault.jpg"
   }
 ]
