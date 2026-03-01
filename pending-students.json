@@ -23,10 +23,17 @@
       "21": "a",
       "22": "b",
       "25": "d",
-      "26": "a"
+      "26": "a",
+      "29": "c",
+      "30": "d",
+      "32": "b",
+      "33": "c",
+      "34": "b",
+      "35": "d",
+      "36": "b"
     },
-    "currentQuestion": 29,
-    "answeredCount": 20,
+    "currentQuestion": 37,
+    "answeredCount": 27,
     "totalQuestions": 50,
     "questionFile": "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধন.json"
   }
