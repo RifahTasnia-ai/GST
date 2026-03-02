@@ -4,6 +4,7 @@ import SubmissionsTable from '../components/admin/SubmissionsTable'
 import NotificationToast from '../components/admin/NotificationToast'
 import QuestionSetModal from '../components/admin/QuestionSetModal'
 import VideoManageModal from '../components/admin/VideoManageModal'
+import { getExamConfig } from '../utils/examConfig'
 import './AdminPage.css'
 
 function AdminPage() {
@@ -175,15 +176,20 @@ function AdminPage() {
       const start = new Date(pending.timestamp).getTime()
       const elapsed = now - start
 
-      // Filter out pending students older than 61 minutes (exam timeout)
-      const SIXTY_ONE_MINUTES_MS = 61 * 60 * 1000;
-      if (elapsed > SIXTY_ONE_MINUTES_MS) return;
+      const resolvedQuestions = Number(pending.totalQuestions) > 0 ? Number(pending.totalQuestions) : 100
+      const durationSeconds = getExamConfig(resolvedQuestions).durationSeconds
+      const durationMs = durationSeconds * 1000
+      const TIMEOUT_THRESHOLD = Math.floor(durationSeconds / 60)
+      const MAX_DISPLAY_MS = durationMs + (5 * 60 * 1000)
+
+      // Keep timed-out students visible for 5 extra minutes
+      if (elapsed > MAX_DISPLAY_MS) return
 
       const minutes = Math.floor(elapsed / (1000 * 60))
-      const TIMEOUT_THRESHOLD = 60
 
       const pendingEntry = {
         ...pending,
+        totalQuestions: resolvedQuestions,
         studentName: pending.studentName,
         timestamp: pending.timestamp,
         status: 'Pending',
@@ -459,7 +465,7 @@ function AdminPage() {
         onClose={() => setShowSettingsModal(false)}
         onSave={(fileName) => {
           setNotification({
-            message: `প্রশ্ন সেট সফলভাবে সংরক্ষিত হয়েছে: ${fileName}`,
+            message: `প্রশ্ন সেট সফলভাবে সংরক্ষিত হয়েছে এবং ছাত্রদের আপডেট নোটিফিকেশন পাঠানো হয়েছে: ${fileName}`,
             type: 'success'
           })
         }}
