@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import html2canvas from 'html2canvas'
 import { renderLatex } from '../../utils/latex'
+import { getExamConfig } from '../../utils/examConfig'
 import './SubmissionsTable.css'
 
 function SubmissionsTable({
@@ -37,6 +38,23 @@ function SubmissionsTable({
       setSpectateQuestions([])
     }
   }, [spectatingStudent])
+
+  useEffect(() => {
+    if (!spectatingStudent) return
+
+    const latest = submissions.find((sub) => {
+      if (!sub) return false
+      if (spectatingStudent.studentName && sub.studentName === spectatingStudent.studentName) return true
+      if (spectatingStudent.studentId && sub.studentId && sub.studentId === spectatingStudent.studentId) return true
+      return false
+    })
+
+    if (!latest) return
+
+    if (hasSpectatorProgressChanged(spectatingStudent, latest)) {
+      setSpectatingStudent(latest)
+    }
+  }, [submissions, spectatingStudent])
 
   async function loadQuestions() {
     try {
@@ -77,6 +95,24 @@ function SubmissionsTable({
       correctAnswer: question.correctAnswer,
       question
     }
+  }
+
+  function hasSpectatorProgressChanged(currentStudent, nextStudent) {
+    if (!currentStudent || !nextStudent) return false
+
+    if (currentStudent.currentQuestion !== nextStudent.currentQuestion) return true
+    if (currentStudent.answeredCount !== nextStudent.answeredCount) return true
+    if (currentStudent.totalQuestions !== nextStudent.totalQuestions) return true
+    if (currentStudent.timestamp !== nextStudent.timestamp) return true
+    if (currentStudent.questionFile !== nextStudent.questionFile) return true
+
+    const currentAnswers = currentStudent.answers || {}
+    const nextAnswers = nextStudent.answers || {}
+    const nextKeys = Object.keys(nextAnswers)
+
+    if (Object.keys(currentAnswers).length !== nextKeys.length) return true
+
+    return nextKeys.some((key) => currentAnswers[key] !== nextAnswers[key])
   }
 
   function getFilteredQuestions() {
@@ -132,14 +168,19 @@ function SubmissionsTable({
     })
   }
 
-  function getElapsedTime(timestamp) {
+  function getElapsedTime(timestamp, totalQuestions = 100) {
     const now = Date.now()
     const start = new Date(timestamp).getTime()
     const minutes = Math.floor((now - start) / (1000 * 60))
+    const resolvedTotalQuestions = Number(totalQuestions) > 0 ? Number(totalQuestions) : 100
+    const durationMins = Math.floor(getExamConfig(resolvedTotalQuestions).durationSeconds / 60)
+    const warningThreshold = Math.floor(durationMins * (5 / 6))
+
     return {
       minutes,
-      isExpired: minutes > 60,
-      isWarning: minutes > 50 && minutes <= 60
+      durationMins,
+      isExpired: minutes > durationMins,
+      isWarning: minutes > warningThreshold && minutes <= durationMins
     }
   }
 
@@ -257,6 +298,11 @@ function SubmissionsTable({
 
   const stats = getStats()
   const filteredModalQuestions = getFilteredQuestions()
+  const spectateTotalQuestions = spectatingStudent
+    ? (Number(spectatingStudent.totalQuestions) > 0
+      ? Number(spectatingStudent.totalQuestions)
+      : (spectateQuestions.length || 100))
+    : 100
 
   return (
     <>
@@ -287,7 +333,7 @@ function SubmissionsTable({
                 </td>
                 <td data-label="স্ট্যাটাস">
                   {sub.isPending ? (() => {
-                    const timeInfo = getElapsedTime(sub.timestamp)
+                    const timeInfo = getElapsedTime(sub.timestamp, sub.totalQuestions || 100)
                     if (timeInfo.isExpired) {
                       return (
                         <span className="status-badge" style={{ backgroundColor: '#dc2626', color: 'white' }}>
@@ -592,10 +638,10 @@ function SubmissionsTable({
               {/* ===== DONUT CHART + STATS ===== */}
               {(() => {
                 const answered = spectatingStudent.answeredCount || 0
-                const total = spectatingStudent.totalQuestions || 1
+                const total = spectateTotalQuestions || 1
                 const pct = Math.round((answered / total) * 100)
-                const elapsed = getElapsedTime(spectatingStudent.timestamp)
-                const timeRemaining = Math.max(0, 60 - elapsed.minutes)
+                const elapsed = getElapsedTime(spectatingStudent.timestamp, spectateTotalQuestions)
+                const timeRemaining = Math.max(0, elapsed.durationMins - elapsed.minutes)
 
                 return (
                   <div className="spectate-chart-section">
@@ -653,7 +699,7 @@ function SubmissionsTable({
               })()}
 
               {/* Answer Grid */}
-              {spectatingStudent.totalQuestions > 0 && (
+              {spectateTotalQuestions > 0 && (
                 <div className="adm-answer-grid-section">
                   <h3 className="adm-section-title bengali">🗂️ উত্তর ম্যাপ</h3>
                   <div className="adm-answer-grid">
@@ -664,7 +710,7 @@ function SubmissionsTable({
                       )
                       const hasQuestionsLoaded = spectateQuestions.length > 0
 
-                      return Array.from({ length: spectatingStudent.totalQuestions }, (_, i) => {
+                      return Array.from({ length: spectateTotalQuestions }, (_, i) => {
                         const qNum = i + 1
                         let hasAnswer = false
                         let answerVal = null
@@ -680,7 +726,7 @@ function SubmissionsTable({
                           answerVal = answers[qNum.toString()]
                         }
 
-                        const isCurrent = qNum === spectatingStudent.currentQuestion
+                        const isCurrent = qNum === Number(spectatingStudent.currentQuestion || 0)
                         return (
                           <div
                             key={qNum}

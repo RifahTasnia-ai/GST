@@ -2,34 +2,81 @@ import { useState, useEffect } from 'react'
 import MCQContainer from '../components/MCQContainer'
 import StartScreen from '../components/StartScreen'
 import ErrorBoundary from '../components/ErrorBoundary'
+import NotificationToast from '../components/admin/NotificationToast'
 import { getActiveQuestionFile } from '../utils/api'
 import { getExamConfig } from '../utils/examConfig'
 
+const STUDENT_NOTICE_SEEN_KEY = 'student_notice_seen_id'
+
 function ExamPage() {
   const [studentName, setStudentName] = useState(() => {
-    // Check localStorage for saved session — check all known key prefixes
     const savedName = localStorage.getItem('exam_session_student')
     if (!savedName) return ''
-    // Check v100 and v50 keys (questions haven't loaded yet so we don't know the count)
+
     const hasSession =
       localStorage.getItem(`mcq_state_v100_${savedName}`) ||
       localStorage.getItem(`mcq_state_v50_${savedName}`)
+
     return hasSession ? savedName : ''
   })
+
   const [questions, setQuestions] = useState([])
   const [questionFile, setQuestionFile] = useState('questions.json')
   const [examConfig, setExamConfig] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const [studentNoticeToast, setStudentNoticeToast] = useState(null)
 
   useEffect(() => {
     loadQuestions()
   }, [])
 
+  useEffect(() => {
+    const interval = setInterval(async () => {
+      try {
+        const activeConfig = await getActiveQuestionFile()
+        maybeShowStudentNotice(activeConfig?.studentNotice)
+      } catch {
+        // Ignore background polling errors
+      }
+    }, 45 * 1000)
+
+    return () => clearInterval(interval)
+  }, [])
+
+  function maybeShowStudentNotice(notice) {
+    if (!notice || !notice.id) return
+
+    const seenId = localStorage.getItem(STUDENT_NOTICE_SEEN_KEY)
+    if (seenId === notice.id) return
+
+    localStorage.setItem(STUDENT_NOTICE_SEEN_KEY, notice.id)
+    setStudentNoticeToast({
+      message: notice.message || 'New exam update available. Please follow teacher instructions.',
+      type: 'success'
+    })
+  }
+
+  function renderWithNotice(content) {
+    return (
+      <>
+        {content}
+        {studentNoticeToast && (
+          <NotificationToast
+            message={studentNoticeToast.message}
+            type={studentNoticeToast.type}
+            onClose={() => setStudentNoticeToast(null)}
+          />
+        )}
+      </>
+    )
+  }
+
   async function loadQuestions() {
     try {
       const activeConfig = await getActiveQuestionFile()
       const file = activeConfig.activeFile || 'questions.json'
+      maybeShowStudentNotice(activeConfig?.studentNotice)
 
       setQuestionFile(file)
 
@@ -64,8 +111,6 @@ function ExamPage() {
         explanation: q.explanation || `সঠিক উত্তর: ${q.correctAnswer}. ${q.question}`,
         hasDiagram: q.hasDiagram || false,
         svg_code: q.svg_code || null,
-        // Strict separation: questionImage never falls back to explanationImage and vice-versa.
-        // Legacy `image` field is promoted to `questionImage` for unmigrated JSON files.
         questionImage: q.questionImage ?? q.image ?? null,
         explanationImage: q.explanationImage ?? null,
         subject: q.subject || ''
@@ -86,7 +131,7 @@ function ExamPage() {
   }
 
   if (loading) {
-    return (
+    return renderWithNotice(
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         <div className="bengali">প্রশ্ন লোড হচ্ছে...</div>
       </div>
@@ -94,7 +139,7 @@ function ExamPage() {
   }
 
   if (error) {
-    return (
+    return renderWithNotice(
       <div style={{
         display: 'flex', justifyContent: 'center', alignItems: 'center',
         minHeight: '100vh', flexDirection: 'column', gap: '16px',
@@ -121,15 +166,25 @@ function ExamPage() {
   }
 
   if (!studentName) {
-    return <StartScreen onStart={(name) => {
-      localStorage.setItem('exam_session_student', name)
-      setStudentName(name)
-    }} examConfig={examConfig} />
+    return renderWithNotice(
+      <StartScreen
+        onStart={(name) => {
+          localStorage.setItem('exam_session_student', name)
+          setStudentName(name)
+        }}
+        examConfig={examConfig}
+      />
+    )
   }
 
-  return (
+  return renderWithNotice(
     <ErrorBoundary>
-      <MCQContainer questions={questions} studentName={studentName} questionFile={questionFile} examConfig={examConfig} />
+      <MCQContainer
+        questions={questions}
+        studentName={studentName}
+        questionFile={questionFile}
+        examConfig={examConfig}
+      />
     </ErrorBoundary>
   )
 }

@@ -12,6 +12,38 @@ const DOWNLOAD_CONCURRENCY = 30;  // More parallel downloads
 const DOWNLOAD_RETRIES = 3;       // More retries for flaky connections
 const DOWNLOAD_TIMEOUT_MS = 8000; // Fail faster, don't block the batch
 
+function buildUploadNotice(fileName, questionCount) {
+    const now = new Date().toISOString();
+    return {
+        id: `upload_${Date.now()}`,
+        type: "upload",
+        title: "New Questions Uploaded",
+        message: `A new question set (${fileName}.json, ${questionCount} questions) was uploaded. Wait for teacher instructions before starting.`,
+        createdAt: now,
+    };
+}
+
+async function updateExamConfigWithUploadNotice(fileName, questionCount) {
+    const configPath = path.join(process.cwd(), "exam-config.json");
+    let config = {};
+
+    try {
+        const existing = await fs.readFile(configPath, "utf-8");
+        config = JSON.parse(existing);
+    } catch (err) {
+        if (err?.code !== "ENOENT") throw err;
+    }
+
+    const updated = {
+        ...config,
+        activeQuestionFile: config.activeQuestionFile || "questions.json",
+        lastUpdated: config.lastUpdated || null,
+        studentNotice: buildUploadNotice(fileName, questionCount),
+    };
+
+    await fs.writeFile(configPath, JSON.stringify(updated, null, 2), "utf-8");
+}
+
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -155,6 +187,13 @@ export default async function handler(req, res) {
         await fs.writeFile(jsonPath, JSON.stringify(normalizedQuestions, null, 2), "utf-8");
         console.log(`[save-questions] Saved ${normalizedQuestions.length} questions → public/${safe}.json`);
         timings.saveJsonMs = Date.now() - saveJsonStart;
+
+        // Best-effort student notification update (do not block upload success)
+        try {
+            await updateExamConfigWithUploadNotice(safe, normalizedQuestions.length);
+        } catch (noticeErr) {
+            console.warn("[save-questions] Could not update exam-config notice:", noticeErr?.message || noticeErr);
+        }
 
         // ── Respond immediately so the browser is NEVER frozen ───────────
         // Image downloads continue in the background after the response is sent.

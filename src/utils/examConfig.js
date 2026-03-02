@@ -1,11 +1,30 @@
 /**
  * examConfig.js
  *
- * প্রশ্ন সংখ্যার উপর ভিত্তি করে পরীক্ষার সমস্ত settings auto-calculate করে।
- * 100 MCQ → 60 min, pass 60  (backward compatible)
- * 50  MCQ → 30 min, pass 30
- * অন্য যেকোনো সংখ্যা → proportional
+ * প্রশ্ন সংখ্যার ওপর ভিত্তি করে পরীক্ষার সেটিংস auto-calculate করে।
+ * 100 MCQ -> 60 min, pass 60  (backward compatible)
+ * 50  MCQ -> 30 min, pass 30
+ * Explicit proportional presets:
+ * 40 MCQ -> 24 min, pass 24
+ * 30 MCQ -> 18 min, pass 18
+ * 25 MCQ -> 15 min, pass 15
+ * Any other count -> proportional fallback
  */
+
+function buildProportionalConfig(totalQuestions, durationMins = Math.round(totalQuestions * 0.6)) {
+    const passMark = parseFloat((totalQuestions * 0.60).toFixed(1))
+
+    return {
+        durationSeconds: durationMins * 60,
+        markPerQuestion: 1.0,
+        negativeMarking: 0.25,
+        passMark,
+        storageKey: `mcq_state_v${totalQuestions}`,
+        displayText: `সময়: ${durationMins} মিনিট | মোট নম্বর: ${totalQuestions}.০ | প্রশ্ন: ${totalQuestions}`,
+        markingText: `সঠিক: +১ | ভুল: -০.২৫ | পাস মার্ক: ${passMark}`,
+        title: `GST ${totalQuestions}MCQ`,
+    }
+}
 
 export function getExamConfig(totalQuestions) {
     if (totalQuestions === 100) {
@@ -34,17 +53,17 @@ export function getExamConfig(totalQuestions) {
         }
     }
 
-    // যেকোনো অন্য সংখ্যার জন্য auto-calculate (proportional)
-    const passMark = parseFloat((totalQuestions * 0.60).toFixed(1))
-    const durationMins = Math.round(totalQuestions * 0.6)
-    return {
-        durationSeconds: durationMins * 60,
-        markPerQuestion: 1.0,
-        negativeMarking: 0.25,
-        passMark,
-        storageKey: `mcq_state_v${totalQuestions}`,
-        displayText: `সময়: ${durationMins} মিনিট | মোট নম্বর: ${totalQuestions}.০ | প্রশ্ন: ${totalQuestions}`,
-        markingText: `সঠিক: +১ | ভুল: -০.২৫ | পাস মার্ক: ${passMark}`,
-        title: `GST ${totalQuestions}MCQ`,
+    if (totalQuestions === 40) {
+        return buildProportionalConfig(40, 24)
     }
+
+    if (totalQuestions === 30) {
+        return buildProportionalConfig(30, 18)
+    }
+
+    if (totalQuestions === 25) {
+        return buildProportionalConfig(25, 15)
+    }
+
+    return buildProportionalConfig(totalQuestions)
 }
