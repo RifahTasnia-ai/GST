@@ -13,10 +13,22 @@
       "8": "b",
       "9": "d",
       "10": "a",
-      "11": "c"
+      "11": "c",
+      "12": "b",
+      "13": "b",
+      "14": "c",
+      "15": "b",
+      "16": "a",
+      "18": "c",
+      "19": "a",
+      "22": "a",
+      "23": "a",
+      "24": "b",
+      "25": "d",
+      "26": "b"
     },
-    "currentQuestion": 12,
-    "answeredCount": 10,
+    "currentQuestion": 27,
+    "answeredCount": 22,
     "totalQuestions": 50,
     "questionFile": "প্রাণীর পরিচিতি.json"
   }
