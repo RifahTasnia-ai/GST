@@ -68,5 +68,15 @@
     "videoUrl": "https://www.youtube.com/watch?v=IRWTq1jzrCo",
     "createdAt": "2026-03-02T09:38:55.484Z",
     "thumbnailUrl": "https://img.youtube.com/vi/IRWTq1jzrCo/hqdefault.jpg"
+  },
+  {
+    "id": "vid_1772512888246_eftbq4",
+    "lesson": 8,
+    "title": "Lec-02: Mouler Porjabritto",
+    "subject": "Chemistry",
+    "platform": "youtube",
+    "videoUrl": "https://www.youtube.com/watch?v=ctf5stTY0QI",
+    "createdAt": "2026-03-03T04:41:28.246Z",
+    "thumbnailUrl": "https://img.youtube.com/vi/ctf5stTY0QI/hqdefault.jpg"
   }
 ]
