@@ -4,13 +4,17 @@
     "timestamp": "2026-03-04T17:05:53.511Z",
     "status": "Pending",
     "answers": {
+      "40": "b",
+      "41": "a",
+      "43": "c",
+      "44": "c",
       "45": "b",
       "47": "a",
       "48": "c",
       "50": "b"
     },
-    "currentQuestion": 44,
-    "answeredCount": 4,
+    "currentQuestion": 39,
+    "answeredCount": 8,
     "totalQuestions": 50,
     "questionFile": "কাজ, ক্ষমতা ও শক্তি.json"
   }
