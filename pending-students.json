@@ -5,10 +5,13 @@
     "status": "Pending",
     "answers": {
       "1": "b",
-      "2": "d"
+      "2": "d",
+      "47": "d",
+      "48": "a",
+      "49": "b"
     },
-    "currentQuestion": 3,
-    "answeredCount": 2,
+    "currentQuestion": 46,
+    "answeredCount": 5,
     "totalQuestions": 50,
     "questionFile": "সরলরেখা.json"
   }
