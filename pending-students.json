@@ -6,12 +6,13 @@
     "answers": {
       "1": "b",
       "2": "d",
+      "46": "a",
       "47": "d",
       "48": "a",
       "49": "b"
     },
-    "currentQuestion": 46,
-    "answeredCount": 5,
+    "currentQuestion": 45,
+    "answeredCount": 6,
     "totalQuestions": 50,
     "questionFile": "সরলরেখা.json"
   }
