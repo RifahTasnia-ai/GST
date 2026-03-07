@@ -1,5 +1,5 @@
 const ADMIN_API_KEY_STORAGE = 'teacher_admin_api_key'
-const ADMIN_API_KEY_ENV = import.meta.env.VITE_ADMIN_API_KEY || ''
+const ADMIN_API_KEY_ENV = import.meta?.env?.VITE_ADMIN_API_KEY || ''
 
 function getAdminApiKey() {
   return localStorage.getItem(ADMIN_API_KEY_STORAGE) || ADMIN_API_KEY_ENV
@@ -52,8 +52,7 @@ export async function saveSubmission(payload) {
   }
 
   if (!res.ok) {
-    const text = await res.text()
-    throw new Error(text || 'Failed to save submission')
+    throw new Error(await extractApiErrorMessage(res, 'Failed to save submission'))
   }
 
   const result = await res.json()
@@ -109,8 +108,8 @@ export async function loadSubmissions() {
   }
 
   if (!res.ok) {
-    const text = await res.text().catch(() => 'Could not read error')
-    throw new Error(`Failed to load submissions: ${res.status} ${res.statusText}`)
+    const message = await extractApiErrorMessage(res, `Failed to load submissions: ${res.status} ${res.statusText}`)
+    throw new Error(message)
   }
 
   const data = await res.json()
@@ -134,8 +133,7 @@ export async function savePendingStudent(studentName, timestamp = null, progress
   }
 
   if (!res.ok) {
-    const text = await res.text()
-    throw new Error(text || 'Failed to save pending student')
+    throw new Error(await extractApiErrorMessage(res, 'Failed to save pending student'))
   }
 
   return res.json()
@@ -154,8 +152,7 @@ export async function removePendingStudent(studentName) {
   }
 
   if (!res.ok) {
-    const text = await res.text()
-    throw new Error(text || 'Failed to remove pending student')
+    throw new Error(await extractApiErrorMessage(res, 'Failed to remove pending student'))
   }
 
   return res.json()
@@ -175,8 +172,8 @@ export async function loadPendingStudents() {
     if (res.status === 404) {
       return []
     }
-    const text = await res.text().catch(() => 'Could not read error')
-    throw new Error(`Failed to load pending students: ${res.status} ${res.statusText}`)
+    const message = await extractApiErrorMessage(res, `Failed to load pending students: ${res.status} ${res.statusText}`)
+    throw new Error(message)
   }
 
   const data = await res.json()
@@ -195,8 +192,8 @@ export async function loadQuestionFiles() {
   }
 
   if (!res.ok) {
-    const text = await res.text().catch(() => 'Could not read error')
-    throw new Error(`Failed to load question files: ${res.status} ${res.statusText}`)
+    const message = await extractApiErrorMessage(res, `Failed to load question files: ${res.status} ${res.statusText}`)
+    throw new Error(message)
   }
 
   const data = await res.json()
