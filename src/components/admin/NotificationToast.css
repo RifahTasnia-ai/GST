@@ -1,16 +1,21 @@
+/* ═══════════════════════════════════════════════════════════
+   NotificationToast — NEO-BRUTALISM
+   ═══════════════════════════════════════════════════════════ */
+
 .notification-toast {
   position: fixed;
   bottom: 24px;
   right: 24px;
   z-index: 1000;
-  animation: slideIn 0.3s ease-out;
+  animation: neoSlideIn 0.3s ease-out;
 }
 
-@keyframes slideIn {
+@keyframes neoSlideIn {
   from {
     transform: translateX(100%);
     opacity: 0;
   }
+
   to {
     transform: translateX(0);
     opacity: 1;
@@ -18,48 +23,58 @@
 }
 
 .notification-content {
-  background: white;
-  border-radius: 8px;
+  background: var(--neo-white);
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius-sm);
   padding: 16px 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--neo-shadow-lg);
   display: flex;
   align-items: center;
   gap: 12px;
   min-width: 300px;
-  border-left: 4px solid;
+  border-left: 6px solid;
 }
 
 .notification-toast.success .notification-content {
-  border-left-color: var(--success);
+  border-left-color: var(--neo-success);
 }
 
 .notification-toast.error .notification-content {
-  border-left-color: var(--error);
+  border-left-color: var(--neo-error);
 }
 
 .notification-message {
   flex: 1;
-  font-weight: 600;
-  color: var(--gray-900);
+  font-family: var(--font-body);
+  font-weight: 700;
+  color: var(--neo-text);
 }
 
 .notification-close {
-  background: none;
-  border: none;
-  font-size: 1.25rem;
+  background: var(--neo-gray-100);
+  border: 2px solid var(--neo-black);
+  font-size: 1.1rem;
   cursor: pointer;
-  color: var(--gray-500);
+  color: var(--neo-text);
   padding: 0;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
+  border-radius: var(--neo-border-radius-xs);
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s, box-shadow 0.1s;
 }
 
 .notification-close:hover {
-  background: var(--gray-100);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--neo-black);
+}
+
+.notification-close:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--neo-black);
 }
 
 @media (max-width: 640px) {
@@ -68,10 +83,8 @@
     right: 16px;
     left: 16px;
   }
-  
+
   .notification-content {
     min-width: auto;
   }
 }
-
-

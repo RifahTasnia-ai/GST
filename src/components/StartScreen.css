@@ -1,144 +1,186 @@
+/* ═══════════════════════════════════════════════════════════
+   StartScreen — NEO-BRUTALISM Exam Entry
+   ═══════════════════════════════════════════════════════════ */
+
 .start-screen {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--spacing-3);
-  background: transparent;
-  /* Rely on global background */
+  padding: var(--space-6);
+  background: var(--neo-bg);
 }
 
 .start-card {
-  background: white;
-  /* Fallback */
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-radius: var(--radius-xl);
-  padding: var(--spacing-4);
+  background: var(--neo-white);
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius);
+  box-shadow: var(--neo-shadow-lg);
+  padding: var(--space-8);
   max-width: 480px;
   width: 100%;
-  box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(255, 255, 255, 0.6);
   text-align: center;
-  animation: slideUp 0.5s ease-out;
+  animation: neoBounceIn 0.5s ease-out;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Header Compactness */
+/* Decorative accent bar at top */
+.start-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, var(--neo-yellow), var(--neo-lime), var(--neo-blue), var(--neo-orange));
+}
+
 .start-card h1 {
-  font-size: 1.75rem;
-  /* Scales nicely */
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  color: var(--slate-800);
-  margin-bottom: var(--spacing-3);
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--neo-text);
+  margin-bottom: var(--space-6);
 }
 
 .exam-info {
-  background: var(--slate-50);
-  border-radius: var(--radius-lg);
-  padding: var(--spacing-3);
-  margin-bottom: var(--spacing-4);
-  border: 1px solid var(--slate-200);
+  background: var(--neo-yellow-soft);
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-sm);
+  padding: var(--space-5);
+  margin-bottom: var(--space-8);
+  box-shadow: 2px 2px 0px var(--neo-black);
 }
 
 .exam-info p {
   margin: 4px 0;
-  color: var(--slate-600);
+  color: var(--neo-text-secondary);
+  font-family: var(--font-bengali);
   font-size: var(--font-sm);
-  font-weight: 500;
-  line-height: normal;
-  /* Tighten line height */
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .start-card form {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-3);
+  gap: var(--space-5);
   text-align: left;
 }
 
 .start-card label {
-  font-weight: 600;
-  color: var(--slate-700);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--neo-text);
   font-size: var(--font-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wider);
   margin-left: 2px;
 }
 
 .start-card input {
   width: 100%;
-  padding: 10px 14px;
-  /* More compact padding */
-  border: 1px solid var(--slate-300);
-  /* Slightly refined border */
-  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius-sm);
   font-size: 16px;
-  /* Must remain 16px for iOS */
-  transition: all 0.2s;
-  background: white;
-  color: var(--slate-900);
+  font-family: var(--font-body);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  background: var(--neo-white);
+  color: var(--neo-text);
+  box-shadow: var(--neo-shadow-sm);
 }
 
 .start-card input:focus {
   outline: none;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px var(--primary-soft);
+  border-color: var(--neo-blue);
+  box-shadow: var(--neo-shadow);
+  transform: translate(-1px, -1px);
 }
 
 .start-card input::placeholder {
-  color: var(--slate-400);
+  color: var(--neo-text-light);
 }
 
 .primary-btn {
-  padding: 14px;
-  background: #16a34a;
+  padding: 16px;
+  background: var(--neo-success);
   color: white;
-  border: none;
-  border-radius: var(--radius-md);
-  font-size: 16px;
-  font-weight: 600;
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius-sm);
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.2s;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--neo-shadow);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
   width: 100%;
-  margin-top: var(--spacing-2);
+  margin-top: var(--space-2);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .primary-btn:hover {
-  background: #15803d;
-  transform: translateY(-1px);
+  transform: translate(-2px, -2px);
+  box-shadow: var(--neo-shadow-hover);
+  background: var(--neo-success-dark);
 }
 
 .primary-btn:active {
-  transform: translateY(0);
+  transform: translate(2px, 2px);
+  box-shadow: var(--neo-shadow-active);
 }
 
 .hint {
   text-align: center;
-  color: var(--slate-500);
-  font-size: 0.7rem;
-  /* Smaller hint */
-  margin-top: var(--spacing-2);
+  color: var(--neo-text-muted);
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+  margin-top: var(--space-4);
+  padding: 6px 12px;
+  background: var(--neo-gray-100);
+  border: 1px solid var(--neo-gray-300);
+  border-radius: var(--neo-border-radius-full);
+  display: inline-block;
 }
 
 /* Mobile Optimizations */
 @media (max-width: 640px) {
   .start-screen {
-    padding: var(--spacing-2);
+    padding: var(--space-4);
     align-items: flex-start;
-    /* Move to top on mobile for keyboard space */
     padding-top: 5vh;
-    /* Reduce top whitespace */
   }
 
   .start-card {
-    padding: var(--spacing-3);
-    box-shadow: var(--shadow-md);
+    padding: var(--space-6);
+    box-shadow: var(--neo-shadow);
   }
 
   .start-card h1 {
-    font-size: 1.5rem;
-    /* Smaller title on mobile */
-    margin-bottom: var(--spacing-2);
+    font-size: 1.6rem;
+    margin-bottom: var(--space-4);
+  }
+
+  .exam-info {
+    padding: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+}
+
+@keyframes neoBounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(12px);
+  }
+
+  60% {
+    transform: scale(1.02) translateY(-2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
   }
 }

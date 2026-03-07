@@ -1,16 +1,20 @@
+/* ═══════════════════════════════════════════════════════════
+   MCQContainer — NEO-BRUTALISM Layout
+   ═══════════════════════════════════════════════════════════ */
+
 .mcq-container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: transparent;
+  background-color: var(--neo-bg);
 }
 
 .mcq-content {
   flex: 1;
   display: grid;
   grid-template-columns: 1fr min(360px, 30vw);
-  gap: var(--spacing-4);
-  padding: var(--spacing-4);
+  gap: var(--space-8);
+  padding: var(--space-8);
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
@@ -20,22 +24,22 @@
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-3);
+  gap: var(--space-6);
 }
 
-/* Wide Desktop (> 1200px) — generous sidebar */
+/* Wide Desktop (> 1200px) */
 @media (min-width: 1201px) {
   .mcq-content {
     grid-template-columns: 1fr 380px;
   }
 }
 
-/* ≤ 768px: collapse to single column (QuestionNavigator uses its own mobile FAB/drawer) */
+/* ≤ 768px: collapse to single column */
 @media (max-width: 768px) {
   .mcq-content {
     grid-template-columns: 1fr;
-    gap: var(--spacing-3);
-    padding: var(--spacing-3);
+    gap: var(--space-6);
+    padding: var(--space-6);
   }
 }
 
@@ -44,11 +48,11 @@
   .mcq-content {
     display: flex;
     flex-direction: column;
-    padding: var(--spacing-2);
-    gap: var(--spacing-2-5);
+    padding: var(--space-4);
+    gap: var(--space-5);
   }
 
   .question-section {
-    gap: var(--spacing-2);
+    gap: var(--space-4);
   }
 }

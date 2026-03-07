@@ -1,26 +1,24 @@
-/* =====================================================
-   MOBILE-FIRST SUBMISSION STATUS STYLES
-   ===================================================== */
+/* ═══════════════════════════════════════════════════════════
+   SubmissionStatus — NEO-BRUTALISM Toast
+   ═══════════════════════════════════════════════════════════ */
 
 .submission-status {
   position: fixed;
-  bottom: var(--spacing-2);
+  bottom: var(--space-4);
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.98);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  padding: var(--spacing-2) var(--spacing-3);
-  border-radius: var(--spacing-2);
-  box-shadow: var(--shadow-lg);
+  background: var(--neo-white);
+  border: var(--neo-border);
+  padding: var(--space-4) var(--space-6);
+  border-radius: var(--neo-border-radius);
+  box-shadow: var(--neo-shadow-lg);
   z-index: 9999;
-  width: calc(100% - var(--spacing-3));
-  max-width: 340px;
-  animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-  border: 1px solid var(--slate-200);
+  width: calc(100% - var(--space-6));
+  max-width: 380px;
+  animation: neoSlideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-@keyframes slideUp {
+@keyframes neoSlideUp {
   from {
     transform: translateX(-50%) translateY(100px);
     opacity: 0;
@@ -33,24 +31,23 @@
 }
 
 .submission-status.info {
-  border-left: 3px solid #3b82f6;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(255, 255, 255, 0.98) 40%);
+  border-left: 6px solid var(--neo-blue);
+  background: var(--neo-blue-soft);
 }
 
 .submission-status.warning {
-  border-left: 3px solid #f59e0b;
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(255, 255, 255, 0.98) 40%);
+  border-left: 6px solid var(--neo-yellow-dark);
+  background: var(--neo-yellow-soft);
 }
 
 .submission-status.error {
-  border-left: 3px solid #ef4444;
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(255, 255, 255, 0.98) 40%);
+  border-left: 6px solid var(--neo-error);
+  background: var(--neo-error-soft);
 }
 
 .submission-status.success {
-  border-left: 3px solid #10b981;
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(255, 255, 255, 0.98) 40%);
-  box-shadow: var(--shadow-lg);
+  border-left: 6px solid var(--neo-success);
+  background: var(--neo-success-soft);
 }
 
 .submission-status-content {
@@ -61,8 +58,7 @@
 
 .submission-icon {
   font-size: 24px;
-  animation: iconPulse 2s ease-in-out infinite;
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.1));
+  animation: neoPulse 2s ease-in-out infinite;
   flex-shrink: 0;
 }
 
@@ -70,7 +66,7 @@
   animation: successBounce 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-@keyframes iconPulse {
+@keyframes neoPulse {
 
   0%,
   100% {
@@ -99,25 +95,26 @@
 }
 
 .submission-text {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #1f2937;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--neo-text);
   line-height: 1.4;
 }
 
 .submission-progress {
-  margin-top: 8px;
-  height: 3px;
-  background: #e5e7eb;
-  border-radius: 2px;
+  margin-top: 10px;
+  height: 4px;
+  background: var(--neo-gray-200);
+  border: 1px solid var(--neo-black);
+  border-radius: 0;
   overflow: hidden;
 }
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  background: var(--neo-blue);
   animation: countdown linear forwards;
-  border-radius: 2px;
 }
 
 @keyframes countdown {
@@ -130,111 +127,62 @@
   }
 }
 
-/* ===== TABLET (641px+) ===== */
+/* Tablet */
 @media (min-width: 641px) {
   .submission-status {
-    bottom: 20px;
-    padding: 16px 24px;
-    border-radius: 14px;
-    min-width: 320px;
+    bottom: 24px;
+    padding: 18px 28px;
+    min-width: 340px;
     width: auto;
     max-width: 90vw;
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-    border-left-width: 4px;
-  }
-
-  .submission-status.success {
-    box-shadow: var(--shadow-xl);
-    animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-  }
-
-  @keyframes successPulse {
-
-    0%,
-    100% {
-      transform: translateX(-50%) scale(1);
-    }
-
-    50% {
-      transform: translateX(-50%) scale(1.05);
-    }
-  }
-
-  .submission-status-content {
-    gap: 14px;
-  }
-
-  .submission-icon {
-    font-size: 26px;
+    border-left-width: 8px;
   }
 
   .submission-text {
-    font-size: 0.9375rem;
+    font-size: 0.95rem;
   }
 }
 
-/* ===== DESKTOP (1025px+) ===== */
+/* Desktop */
 @media (min-width: 1025px) {
   .submission-status {
-    padding: 18px 28px;
-    border-radius: 16px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-  }
-
-  .submission-icon {
-    font-size: 28px;
-    animation: iconPulse 2s ease-in-out infinite;
-  }
-
-  .submission-status.success .submission-icon {
-    animation: successBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-  }
-
-  @keyframes iconPulse {
-
-    0%,
-    100% {
-      transform: scale(1);
-    }
-
-    50% {
-      transform: scale(1.15);
-    }
-  }
-
-  .submission-text {
-    font-size: 15px;
+    padding: 20px 32px;
   }
 }
 
 /* Close Button */
 .submission-close-btn {
   margin-left: auto;
-  background: none;
-  border: none;
-  color: var(--slate-600);
-  font-size: 24px;
+  background: var(--neo-gray-100);
+  border: 2px solid var(--neo-black);
+  color: var(--neo-text);
+  font-size: 18px;
   line-height: 1;
   cursor: pointer;
   padding: 0;
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  transition: all 0.2s;
+  border-radius: var(--neo-border-radius-xs);
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s, box-shadow 0.1s;
   flex-shrink: 0;
 }
 
 .submission-close-btn:hover {
-  background: rgba(0, 0, 0, 0.05);
-  color: var(--slate-900);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--neo-black);
 }
 
 .submission-close-btn:active {
-  transform: scale(0.95);
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--neo-black);
+}
+
+@media print {
+  .submission-status {
+    display: none !important;
+  }
 }

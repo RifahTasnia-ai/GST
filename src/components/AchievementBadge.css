@@ -1,58 +1,48 @@
-/* =====================================================
-   MOBILE-FIRST ACHIEVEMENT BADGE STYLES
-   ===================================================== */
+/* ═══════════════════════════════════════════════════════════
+   AchievementBadge — NEO-BRUTALISM
+   ═══════════════════════════════════════════════════════════ */
 
 .achievement-badge {
     position: relative;
     display: flex;
     align-items: center;
-    gap: var(--spacing-2);
-    padding: var(--spacing-2);
-    border-radius: var(--spacing-2);
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+    border: var(--neo-border);
+    border-radius: var(--neo-border-radius);
     overflow: hidden;
-    animation: scaleIn 0.4s ease-out 0.2s both;
-    margin-bottom: var(--spacing-2);
-    border: 1px solid var(--slate-200);
+    animation: neoBounceIn 0.4s ease-out 0.2s both;
+    margin-bottom: var(--space-4);
+    box-shadow: var(--neo-shadow);
+    background: var(--neo-white);
 }
 
 .achievement-badge::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: var(--gradient, var(--gradient-primary));
-    opacity: 0.15;
-    z-index: 0;
+    display: none;
 }
 
 .achievement-badge::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, transparent 60%);
-    z-index: 0;
+    display: none;
 }
 
 .badge-glow {
     display: none;
-    /* Hidden on mobile for performance */
 }
 
 .badge-icon {
     position: relative;
     z-index: 1;
-    width: 48px;
-    height: 48px;
+    width: 52px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
-    background: var(--gradient, var(--gradient-primary));
-    color: white;
+    border-radius: var(--neo-border-radius-sm);
+    border: 2px solid var(--neo-black);
     font-size: 1.5rem;
     font-weight: 800;
     animation: bounceIn 0.6s ease-out 0.4s both;
-    box-shadow: var(--shadow-md);
-    border: 2px solid white;
+    box-shadow: 2px 2px 0px var(--neo-black);
 }
 
 @keyframes bounceIn {
@@ -75,6 +65,22 @@
     }
 }
 
+@keyframes neoBounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9) translateY(10px);
+    }
+
+    60% {
+        transform: scale(1.02) translateY(-2px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
 .badge-content {
     position: relative;
     z-index: 1;
@@ -82,97 +88,107 @@
 }
 
 .badge-title {
-    font-size: 1.125rem;
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
     font-weight: 700;
-    color: var(--gray-900);
+    color: var(--neo-text);
     margin-bottom: 2px;
 }
 
 .badge-subtitle {
-    font-size: 0.875rem;
-    color: var(--gray-700);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--neo-text-secondary);
     font-weight: 500;
 }
 
-/* Badge Type Specific Styles */
+/* Badge Types */
 .achievement-badge.gold {
-    --gradient: var(--gradient-gold);
+    background: var(--neo-yellow-soft);
 }
 
 .achievement-badge.gold .badge-icon {
-    animation: bounceIn 0.6s ease-out 0.4s both;
+    background: var(--neo-yellow);
+    color: var(--neo-text);
 }
 
 .achievement-badge.silver {
-    --gradient: var(--gradient-silver);
+    background: var(--neo-gray-100);
+}
+
+.achievement-badge.silver .badge-icon {
+    background: var(--neo-gray-300);
+    color: var(--neo-text);
 }
 
 .achievement-badge.bronze {
-    --gradient: var(--gradient-bronze);
+    background: var(--neo-orange-soft);
+}
+
+.achievement-badge.bronze .badge-icon {
+    background: var(--neo-orange);
+    color: var(--neo-text);
 }
 
 .achievement-badge.participation {
-    --gradient: var(--gradient-primary);
+    background: var(--neo-blue-soft);
 }
 
-/* ===== MEDIUM MOBILE (481px+) ===== */
+.achievement-badge.participation .badge-icon {
+    background: var(--neo-blue);
+    color: white;
+}
+
+/* Responsive */
 @media (min-width: 481px) {
     .achievement-badge {
-        padding: 18px 20px;
-        gap: 14px;
-        border-radius: 14px;
+        padding: 20px 24px;
+        gap: 16px;
     }
 
     .badge-icon {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .badge-title {
         font-size: 1.25rem;
-        margin-bottom: 3px;
     }
 
     .badge-subtitle {
-        font-size: 0.9375rem;
+        font-size: 0.95rem;
     }
 }
 
-/* ===== TABLET (641px+) ===== */
 @media (min-width: 641px) {
     .achievement-badge {
-        padding: 20px 24px;
-        gap: 16px;
-        border-radius: 16px;
+        padding: 22px 28px;
         margin-bottom: 20px;
     }
 
     .badge-icon {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        width: 60px;
+        height: 60px;
     }
 
     .badge-title {
         font-size: 1.375rem;
-        margin-bottom: 4px;
     }
 
     .badge-subtitle {
         font-size: 1rem;
     }
-
-
-
-
 }
 
-/* ===== DESKTOP (1025px+) ===== */
 @media (min-width: 1025px) {
     .achievement-badge {
-        padding: 20px 24px;
         margin-bottom: 24px;
     }
 
     .badge-icon {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        width: 64px;
+        height: 64px;
     }
 
     .badge-title {

@@ -1,10 +1,15 @@
+/* ═══════════════════════════════════════════════════════════
+   QuestionCard — NEO-BRUTALISM
+   Bold Borders · Hard Shadows · Accent Colors
+   ═══════════════════════════════════════════════════════════ */
+
 .question-card {
-  background: white;
-  border-radius: var(--radius-lg);
-  padding: var(--spacing-3);
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--slate-100);
-  transition: all 0.3s ease;
+  background: var(--neo-white);
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius);
+  padding: var(--space-6);
+  box-shadow: var(--neo-shadow);
+  transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
 }
@@ -13,36 +18,42 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: var(--spacing-2);
-  padding-bottom: var(--spacing-1-5);
-  border-bottom: 1px solid var(--slate-100);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--neo-black);
 }
 
 .question-badge {
-  background: var(--primary-soft);
-  color: var(--primary);
-  padding: 4px 10px;
-  border-radius: var(--radius-md);
-  font-weight: 600;
+  background: var(--neo-blue);
+  color: white;
+  padding: 5px 14px;
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-full);
+  font-family: var(--font-heading);
+  font-weight: 700;
   font-size: 0.8rem;
+  box-shadow: 2px 2px 0px var(--neo-black);
 }
 
 .review-badge {
-  background: var(--warning-soft);
-  color: var(--warning);
-  padding: 4px 8px;
-  border-radius: var(--radius-md);
+  background: var(--neo-yellow);
+  color: var(--neo-text);
+  padding: 4px 12px;
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-full);
+  font-family: var(--font-heading);
   font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
 }
 
 .question-text {
-  font-size: 1.05rem;
-  line-height: 1.5;
-  color: var(--slate-800);
-  margin-bottom: var(--spacing-3);
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--neo-text);
+  margin-bottom: var(--space-6);
   font-weight: 500;
 }
 
@@ -50,11 +61,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: var(--spacing-2) 0;
-  padding: var(--spacing-2);
-  background: var(--slate-50);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--slate-200);
+  margin: var(--space-4) 0;
+  padding: var(--space-4);
+  background: var(--neo-cream);
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-sm);
 }
 
 .question-diagram svg {
@@ -68,12 +79,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: var(--spacing-2) 0;
+  margin: var(--space-4) 0;
   position: relative;
   width: 100%;
-  background: var(--slate-50);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--slate-200);
+  background: var(--neo-cream);
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-sm);
   overflow: hidden;
   min-height: 100px;
 }
@@ -82,7 +93,6 @@
   max-width: 100%;
   height: auto;
   max-height: 300px;
-  /* Cap height on desktop to prevent huge scroll */
   object-fit: contain;
   cursor: zoom-in;
   transition: opacity 0.3s ease;
@@ -94,27 +104,29 @@
   position: absolute;
 }
 
-/* Skeleton loader for slow images */
 .question-diagram-skeleton {
   width: 100%;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, var(--slate-100) 25%, var(--slate-200) 50%, var(--slate-100) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite;
-  color: var(--slate-500);
+  background: var(--neo-gray-200);
+  color: var(--neo-text-muted);
   font-size: 0.9rem;
+  border: 2px dashed var(--neo-gray-400);
+  border-radius: var(--neo-border-radius-sm);
+  animation: neoSkeletonPulse 1.5s ease-in-out infinite;
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: 200% 0;
+@keyframes neoSkeletonPulse {
+
+  0%,
+  100% {
+    opacity: 1;
   }
 
-  100% {
-    background-position: -200% 0;
+  50% {
+    opacity: 0.5;
   }
 }
 
@@ -124,9 +136,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--error);
+  color: var(--neo-error);
   font-size: 0.9rem;
-  background: var(--error-soft);
+  font-weight: 600;
+  background: var(--neo-error-soft);
+  border: 2px solid var(--neo-error);
+  border-radius: var(--neo-border-radius-sm);
 }
 
 /* Fullscreen Image Zoom Overlay */
@@ -136,12 +151,11 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(26, 26, 46, 0.92);
   z-index: 99999;
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px);
   cursor: zoom-out;
   padding: 20px;
   animation: fadeIn 0.15s ease-out;
@@ -151,8 +165,9 @@
   max-width: 95vw;
   max-height: 90vh;
   object-fit: contain;
-  border-radius: 8px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius-sm);
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3);
   cursor: default;
 }
 
@@ -160,101 +175,117 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+  background: var(--neo-yellow);
+  border: 2px solid var(--neo-black);
+  color: var(--neo-text);
+  width: 48px;
+  height: 48px;
+  border-radius: var(--neo-border-radius-xs);
   font-size: 1.5rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   z-index: 100000;
-  transition: all 0.2s ease;
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .close-zoom-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: scale(1.05);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px var(--neo-black);
 }
 
+.close-zoom-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--neo-black);
+}
+
+/* ─── Options Grid ─── */
 .options-grid {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-1-5);
-  margin-bottom: var(--spacing-3);
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
 }
 
 /* ─── Option Card ─── */
 .option-card {
   display: flex;
   align-items: flex-start;
-  gap: var(--spacing-2);
-  padding: 12px;
-  border: 1px solid var(--slate-200);
-  border-radius: var(--radius-md);
-  background: white;
+  gap: var(--space-4);
+  padding: 14px 16px;
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-sm);
+  background: var(--neo-white);
   cursor: pointer;
-  transition: all 0.15s ease;
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
   text-align: left;
   width: 100%;
   font-size: var(--font-base);
   position: relative;
   min-height: 48px;
   touch-action: manipulation;
-  -webkit-tap-highlight-color: rgba(37, 99, 235, 0.12);
+  -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
   user-select: none;
 }
 
 .option-card:hover {
-  border-color: var(--slate-400);
-  background: var(--slate-50);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px var(--neo-black);
+  background: var(--neo-gray-50);
 }
 
-/* Explicit active/press state for touch */
 .option-card:active {
-  background: var(--slate-100);
-  transform: scale(0.985);
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--neo-black);
   transition-duration: 0.05s;
 }
 
 .option-card.selected {
-  border-color: var(--primary);
-  background: var(--primary-soft);
-  box-shadow: 0 0 0 1px var(--primary);
+  border-color: var(--neo-blue);
+  background: var(--neo-blue-soft);
+  box-shadow: 3px 3px 0px var(--neo-blue-dark);
+}
+
+.option-card.selected:hover {
+  box-shadow: 4px 4px 0px var(--neo-blue-dark);
 }
 
 .option-card.selected:active {
-  background: rgba(37, 99, 235, 0.15);
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--neo-blue-dark);
 }
 
 .option-label {
-  font-weight: 600;
-  color: var(--slate-500);
-  min-width: 24px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--neo-text-muted);
+  min-width: 28px;
   margin-top: 1px;
+  font-size: 0.95rem;
 }
 
 .option-card.selected .option-label {
-  color: var(--primary);
+  color: var(--neo-blue);
 }
 
 .option-text {
   flex: 1;
-  color: var(--slate-700);
-  line-height: 1.4;
+  color: var(--neo-text-secondary);
+  line-height: 1.5;
 }
 
 .option-card.selected .option-text {
-  color: var(--primary-dark);
-  font-weight: 500;
+  color: var(--neo-blue-dark);
+  font-weight: 600;
 }
 
 .check-icon {
-  color: var(--success);
+  color: var(--neo-success);
   font-size: var(--font-lg);
   font-weight: 700;
   margin-left: auto;
@@ -265,150 +296,152 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: var(--spacing-2);
-  border-top: 1px solid var(--slate-100);
-  gap: var(--spacing-2);
+  padding-top: var(--space-4);
+  border-top: 2px solid var(--neo-black);
+  gap: var(--space-4);
 }
 
 .nav-buttons {
   display: flex;
-  gap: var(--spacing-2);
+  gap: var(--space-3);
   flex: 1;
   justify-content: flex-end;
 }
 
 .action-btn {
-  padding: 8px 16px;
-  border: none;
-  border-radius: var(--radius-md);
+  padding: 10px 20px;
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-xs);
+  font-family: var(--font-heading);
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  transition: all 0.15s ease;
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
   min-height: 44px;
   touch-action: manipulation;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.08);
+  -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
   user-select: none;
 }
 
+.action-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px var(--neo-black);
+}
+
+.action-btn:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px var(--neo-black);
+}
+
 .action-btn:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
+  transform: none;
+  box-shadow: 2px 2px 0px var(--neo-black);
+}
+
+.action-btn:disabled:hover {
+  transform: none;
+  box-shadow: 2px 2px 0px var(--neo-black);
 }
 
 .action-btn.secondary {
-  background: white;
-  color: var(--slate-600);
-  border: 1px solid var(--slate-200);
+  background: var(--neo-white);
+  color: var(--neo-text);
 }
 
 .action-btn.secondary:hover:not(:disabled) {
-  background: var(--slate-50);
-  border-color: var(--slate-300);
-  color: var(--slate-800);
+  background: var(--neo-gray-100);
 }
 
 .action-btn.secondary:active:not(:disabled) {
-  background: var(--slate-100);
-  transform: scale(0.97);
+  background: var(--neo-gray-200);
 }
 
-/* ─── Exit Button ─── */
+/* Exit Button */
 .action-btn.exit-btn {
-  background: white;
-  color: #dc2626;
-  border: 1.5px solid #fca5a5;
-  font-weight: 700;
+  background: var(--neo-error-soft);
+  color: var(--neo-error);
+  border-color: var(--neo-error);
+  box-shadow: 2px 2px 0px var(--neo-error-dark);
 }
 
 .action-btn.exit-btn:hover {
-  background: #fef2f2;
-  border-color: #dc2626;
-  color: #b91c1c;
+  background: var(--neo-error);
+  color: white;
+  box-shadow: 4px 4px 0px var(--neo-error-dark);
 }
 
 .action-btn.exit-btn:active {
-  background: #fee2e2;
-  transform: scale(0.97);
+  box-shadow: 1px 1px 0px var(--neo-error-dark);
 }
 
 .action-btn.primary {
-  background: var(--primary);
+  background: var(--neo-blue);
   color: white;
-  box-shadow: var(--shadow-sm);
 }
 
 .action-btn.primary:hover:not(:disabled) {
-  background: var(--primary-dark);
-  transform: translateY(-1px);
-}
-
-.action-btn.primary:active:not(:disabled) {
-  transform: scale(0.97);
-  background: var(--primary-dark);
+  background: var(--neo-blue-dark);
 }
 
 .submit-btn {
-  background: var(--success);
+  background: var(--neo-success);
+  color: white;
 }
 
 .submit-btn:hover:not(:disabled) {
-  background: var(--success-dark);
-}
-
-.submit-btn:active:not(:disabled) {
-  background: var(--success-dark);
-  transform: scale(0.97);
+  background: var(--neo-success-dark);
 }
 
 /* ─── Mobile Optimizations ─── */
 @media (max-width: 640px) {
   .question-card {
-    padding: var(--spacing-2-5);
-    border-radius: var(--radius-lg);
-    box-shadow: none;
-    border: 1px solid var(--slate-200);
+    padding: var(--space-5);
+    border-radius: var(--neo-border-radius-sm);
   }
 
   .question-header {
-    margin-bottom: var(--spacing-2);
+    margin-bottom: var(--space-3);
   }
 
   .question-text {
     font-size: 1rem;
-    margin-bottom: var(--spacing-2);
-    line-height: 1.4;
+    margin-bottom: var(--space-4);
+    line-height: 1.5;
   }
 
   .options-grid {
-    gap: var(--spacing-1-5);
+    gap: var(--space-3);
   }
 
   .option-card {
-    padding: 10px 12px;
-    border-radius: var(--radius-md);
+    padding: 12px 14px;
+    border-radius: var(--neo-border-radius-xs);
     min-height: 48px;
   }
 
-  /* Remove hover effects on touch devices — rely on :active */
+  /* Override hover on touch */
   .option-card:hover {
-    border-color: var(--slate-200);
-    background: white;
+    transform: none;
+    box-shadow: 2px 2px 0px var(--neo-black);
+    background: var(--neo-white);
   }
 
   .option-card.selected:hover {
-    border-color: var(--primary);
-    background: var(--primary-soft);
+    box-shadow: 3px 3px 0px var(--neo-blue-dark);
+    background: var(--neo-blue-soft);
   }
 
   .question-actions {
     flex-direction: row;
-    padding-top: var(--spacing-2);
+    padding-top: var(--space-4);
   }
 
   .nav-buttons {
@@ -417,24 +450,22 @@
 
   .action-btn.secondary {
     flex: 0 0 auto;
-    padding: 0 12px;
+    padding: 0 14px;
   }
 
   .action-btn {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     padding: 0 16px;
     height: 44px;
     min-height: 44px;
   }
 
-  /* Image specific mobile adjustments */
   .question-content-image {
     max-height: 200px;
-    /* Cap image sizes smaller on mobile to keep options visible */
   }
 
-  /* Remove hover transform on touch */
   .action-btn.primary:hover:not(:disabled) {
     transform: none;
+    box-shadow: 2px 2px 0px var(--neo-black);
   }
 }

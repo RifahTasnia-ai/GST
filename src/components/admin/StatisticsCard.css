@@ -1,16 +1,23 @@
+/* ═══════════════════════════════════════════════════════════
+   StatisticsCard — NEO-BRUTALISM
+   ═══════════════════════════════════════════════════════════ */
+
 .statistics-card {
-  background: white;
-  border-radius: 12px;
+  background: var(--neo-white);
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius);
   padding: 24px;
   margin-bottom: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--neo-shadow);
 }
 
 .statistics-title {
-  font-size: 1.5rem;
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
   font-weight: 700;
-  color: var(--gray-900);
+  color: var(--neo-text);
   margin-bottom: 20px;
+  letter-spacing: -0.02em;
 }
 
 .stats-grid {
@@ -20,27 +27,30 @@
 }
 
 .stat-box {
-  background: var(--gray-50);
-  border-radius: 12px;
+  background: var(--neo-cream);
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-sm);
   padding: 20px;
   text-align: center;
-  transition: transform 0.2s;
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s, box-shadow 0.1s;
 }
 
 .stat-box:hover {
-  transform: translateY(-4px);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px var(--neo-black);
 }
 
 .stat-box.success {
-  background: rgba(16, 185, 129, 0.1);
+  background: var(--neo-success-soft);
 }
 
 .stat-box.error {
-  background: rgba(239, 68, 68, 0.1);
+  background: var(--neo-error-soft);
 }
 
 .stat-box.primary {
-  background: rgba(37, 99, 235, 0.1);
+  background: var(--neo-blue-soft);
 }
 
 .stat-icon {
@@ -49,28 +59,32 @@
 }
 
 .stat-value {
+  font-family: var(--font-heading);
   font-size: 2rem;
-  font-weight: 700;
-  color: var(--gray-900);
+  font-weight: 800;
+  color: var(--neo-text);
   margin-bottom: 4px;
 }
 
 .stat-box.success .stat-value {
-  color: var(--success);
+  color: var(--neo-success);
 }
 
 .stat-box.error .stat-value {
-  color: var(--error);
+  color: var(--neo-error);
 }
 
 .stat-box.primary .stat-value {
-  color: var(--primary);
+  color: var(--neo-blue);
 }
 
 .stat-label {
-  font-size: 0.875rem;
-  color: var(--gray-600);
-  font-weight: 600;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--neo-text-secondary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 640px) {
@@ -78,5 +92,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-

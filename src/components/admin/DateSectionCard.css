@@ -1,17 +1,25 @@
+/* ═══════════════════════════════════════════════════════════
+   DateSectionCard — NEO-BRUTALISM
+   ═══════════════════════════════════════════════════════════ */
+
 .date-section-card {
-  background: white;
-  border-radius: 12px;
+  background: var(--neo-white);
+  border: var(--neo-border);
+  border-radius: var(--neo-border-radius);
   padding: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--neo-shadow);
   cursor: pointer;
-  transition: all 0.2s;
-  border: 2px solid transparent;
+  transition: transform 0.1s, box-shadow 0.1s;
 }
 
 .date-section-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-color: var(--primary);
+  transform: translate(-3px, -3px);
+  box-shadow: var(--neo-shadow-hover);
+}
+
+.date-section-card:active {
+  transform: translate(2px, 2px);
+  box-shadow: var(--neo-shadow-active);
 }
 
 .date-section-header {
@@ -22,19 +30,23 @@
 }
 
 .date-section-title {
+  font-family: var(--font-heading);
   font-size: 1.125rem;
   font-weight: 700;
-  color: var(--gray-900);
+  color: var(--neo-text);
   margin: 0;
 }
 
 .date-section-count {
-  background: var(--primary);
+  background: var(--neo-blue);
   color: white;
-  padding: 4px 12px;
-  border-radius: 12px;
-  font-weight: 700;
+  padding: 4px 14px;
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-full);
+  font-family: var(--font-heading);
+  font-weight: 800;
   font-size: 0.875rem;
+  box-shadow: 2px 2px 0px var(--neo-black);
 }
 
 .date-section-stats {
@@ -51,37 +63,39 @@
 
 .date-stat-label {
   font-size: 0.875rem;
-  color: var(--gray-600);
+  color: var(--neo-text-secondary);
+  font-weight: 600;
 }
 
 .date-stat-value {
-  font-weight: 700;
+  font-family: var(--font-heading);
+  font-weight: 800;
   font-size: 1.125rem;
 }
 
 .date-stat-value.pass {
-  color: var(--success);
+  color: var(--neo-success);
 }
 
 .date-stat-value.fail {
-  color: var(--error);
+  color: var(--neo-error);
 }
 
 .view-date-btn {
   width: 100%;
   padding: 10px;
-  background: var(--gray-100);
-  color: var(--gray-700);
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
+  background: var(--neo-gray-100);
+  color: var(--neo-text);
+  border: 2px solid var(--neo-black);
+  border-radius: var(--neo-border-radius-xs);
+  font-family: var(--font-heading);
+  font-weight: 700;
   cursor: pointer;
-  transition: background 0.2s;
+  box-shadow: 2px 2px 0px var(--neo-black);
+  transition: transform 0.1s, box-shadow 0.1s, background 0.1s;
 }
 
 .date-section-card:hover .view-date-btn {
-  background: var(--primary);
+  background: var(--neo-blue);
   color: white;
 }
-
-
