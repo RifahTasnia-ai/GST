@@ -19,42 +19,55 @@ function AdminPage() {
   const [showSettingsModal, setShowSettingsModal] = useState(false)
   const [nextRefreshIn, setNextRefreshIn] = useState(1)
   const loadDataRef = useRef(null)
+  const loadPendingRef = useRef(null)
+  const loadSubmissionsRef = useRef(null)
   const itemsPerPage = 7
 
   useEffect(() => {
     loadData()
     loadDataRef.current = loadData
+    loadPendingRef.current = loadPendingData
+    loadSubmissionsRef.current = loadSubmissionData
   }, [])
 
   useEffect(() => {
     loadDataRef.current = loadData
+    loadPendingRef.current = loadPendingData
+    loadSubmissionsRef.current = loadSubmissionData
   })
 
   useEffect(() => {
     if (!autoRefresh) return
 
-    const refreshIntervalSeconds = 1
-    setNextRefreshIn(refreshIntervalSeconds)
+    const pendingRefreshSeconds = 1
+    const submissionsRefreshSeconds = 8
+    setNextRefreshIn(pendingRefreshSeconds)
 
-    const interval = setInterval(() => {
-      loadDataRef.current?.()
-    }, refreshIntervalSeconds * 1000)
+    const pendingInterval = setInterval(() => {
+      loadPendingRef.current?.()
+    }, pendingRefreshSeconds * 1000)
+
+    const submissionsInterval = setInterval(() => {
+      loadSubmissionsRef.current?.()
+    }, submissionsRefreshSeconds * 1000)
 
     const ticker = setInterval(() => {
-      setNextRefreshIn((prev) => (prev <= 1 ? refreshIntervalSeconds : prev - 1))
+      setNextRefreshIn((prev) => (prev <= 1 ? pendingRefreshSeconds : prev - 1))
     }, 1000)
 
     const onVisibilityChange = () => {
       if (document.visibilityState === 'visible') {
-        loadDataRef.current?.()
-        setNextRefreshIn(refreshIntervalSeconds)
+        loadPendingRef.current?.()
+        loadSubmissionsRef.current?.()
+        setNextRefreshIn(pendingRefreshSeconds)
       }
     }
 
     document.addEventListener('visibilitychange', onVisibilityChange)
 
     return () => {
-      clearInterval(interval)
+      clearInterval(pendingInterval)
+      clearInterval(submissionsInterval)
       clearInterval(ticker)
       document.removeEventListener('visibilitychange', onVisibilityChange)
     }
@@ -76,6 +89,29 @@ function AdminPage() {
       console.error('Failed to load data', err)
     } finally {
       setLoading(false)
+    }
+  }
+
+  async function loadPendingData() {
+    try {
+      const pendingData = await loadPendingStudents().catch(() => [])
+      setPendingStudents(pendingData)
+      setError(null)
+      setNextRefreshIn(1)
+    } catch (err) {
+      setError(err.message)
+      console.error('Failed to load pending data', err)
+    }
+  }
+
+  async function loadSubmissionData() {
+    try {
+      const submissionsData = await loadSubmissions()
+      setSubmissions(submissionsData)
+      setError(null)
+    } catch (err) {
+      setError(err.message)
+      console.error('Failed to load submissions', err)
     }
   }
 

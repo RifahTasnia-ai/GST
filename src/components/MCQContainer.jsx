@@ -42,7 +42,6 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
   const lastSaveRef = useRef(0)
   const saveTimerRef = useRef(null)
   const timeLeftRef = useRef(timeLeft)
-  const progressSyncTimerRef = useRef(null)
 
   // Keep timeLeftRef in sync without triggering re-renders
   useEffect(() => {
@@ -325,12 +324,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
       syncLiveProgress().catch((err) => console.error('Failed to register live session:', err))
     }
 
-    clearTimeout(progressSyncTimerRef.current)
-    progressSyncTimerRef.current = setTimeout(() => {
-      syncLiveProgress().catch((err) => console.error('Failed to sync live progress:', err))
-    }, 250)
-
-    return () => clearTimeout(progressSyncTimerRef.current)
+    syncLiveProgress().catch((err) => console.error('Failed to sync live progress:', err))
   }, [status, questions, syncLiveProgress])
 
   useEffect(() => {
@@ -338,7 +332,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
 
     const heartbeatInterval = setInterval(() => {
       syncLiveProgress().catch((err) => console.error('Failed to send heartbeat:', err))
-    }, 5000)
+    }, 2000)
 
     return () => clearInterval(heartbeatInterval)
   }, [status, syncLiveProgress])
