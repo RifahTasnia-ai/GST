@@ -1,8 +1,21 @@
 import { useState, useEffect, useRef } from 'react'
 import html2canvas from 'html2canvas'
 import { renderLatex } from '../../utils/latex'
-import { getExamConfig } from '../../utils/examConfig'
+import { getExamConfig, parseQuestionSetPayload } from '../../utils/examConfig'
 import './SubmissionsTable.css'
+
+function resolveExamSnapshot(record, fallbackQuestionCount = 0) {
+  const snapshot = record?.examConfigSnapshot
+  if (snapshot && Number(snapshot.durationSeconds) > 0) {
+    return snapshot
+  }
+
+  const totalQuestions = Number(record?.totalQuestions) > 0
+    ? Number(record.totalQuestions)
+    : fallbackQuestionCount
+
+  return getExamConfig(totalQuestions || 100, { questionFile: record?.questionFile })
+}
 
 function SubmissionsTable({
   submissions,
@@ -62,7 +75,8 @@ function SubmissionsTable({
       const res = await fetch(`/${questionFile}`, { cache: 'no-store' })
       if (!res.ok) throw new Error('Failed to load questions')
       const data = await res.json()
-      setQuestions(data)
+      const parsed = parseQuestionSetPayload(data, { questionFile })
+      setQuestions(parsed.questions)
     } catch (err) {
       console.error('Failed to load questions:', err)
     }
@@ -77,7 +91,8 @@ function SubmissionsTable({
         return
       }
       const data = await res.json()
-      setSpectateQuestions(data)
+      const parsed = parseQuestionSetPayload(data, { questionFile })
+      setSpectateQuestions(parsed.questions)
     } catch (err) {
       console.error('Failed to load spectate questions:', err)
       setSpectateQuestions([])
@@ -90,9 +105,9 @@ function SubmissionsTable({
     if (!question) return { isCorrect: null, correctAnswer: null, question: null }
     const isAnswered = studentAnswer !== undefined && studentAnswer !== null
     return {
-      isCorrect: isAnswered ? question.correctAnswer === studentAnswer : null,
+      isCorrect: isAnswered ? question.correctOptionId === studentAnswer : null,
       isAnswered,
-      correctAnswer: question.correctAnswer,
+      correctAnswer: question.correctOptionId,
       question
     }
   }
@@ -121,7 +136,7 @@ function SubmissionsTable({
       const qid = q.id.toString()
       const ans = answers[qid]
       const isAnswered = ans !== undefined && ans !== null
-      const isCorrect = isAnswered && q.correctAnswer === ans
+      const isCorrect = isAnswered && q.correctOptionId === ans
 
       if (modalFilter === 'correct') return isCorrect
       if (modalFilter === 'wrong') return isAnswered && !isCorrect
@@ -146,7 +161,7 @@ function SubmissionsTable({
       const ans = answers[q.id.toString()]
       if (ans === undefined || ans === null) {
         unanswered++
-      } else if (q.correctAnswer === ans) {
+      } else if (q.correctOptionId === ans) {
         correct++
       } else {
         wrong++
@@ -168,19 +183,21 @@ function SubmissionsTable({
     })
   }
 
-  function getElapsedTime(timestamp, totalQuestions = 100) {
+  function getElapsedTime(record) {
     const now = Date.now()
-    const start = new Date(timestamp).getTime()
+    const start = new Date(record?.timestamp).getTime()
+    const elapsedMs = now - start
     const minutes = Math.floor((now - start) / (1000 * 60))
-    const resolvedTotalQuestions = Number(totalQuestions) > 0 ? Number(totalQuestions) : 100
-    const durationMins = Math.floor(getExamConfig(resolvedTotalQuestions).durationSeconds / 60)
+    const config = resolveExamSnapshot(record, spectateQuestions.length || questions.length)
+    const durationSeconds = Number(config?.durationSeconds) || 0
+    const durationMins = Math.floor(durationSeconds / 60)
     const warningThreshold = Math.floor(durationMins * (5 / 6))
 
     return {
       minutes,
       durationMins,
-      isExpired: minutes > durationMins,
-      isWarning: minutes > warningThreshold && minutes <= durationMins
+      isExpired: elapsedMs > durationSeconds * 1000,
+      isWarning: elapsedMs <= durationSeconds * 1000 && minutes > warningThreshold
     }
   }
 
@@ -235,11 +252,11 @@ function SubmissionsTable({
         statistics: {
           totalQuestions: questions.length,
           attempted: selectedSubmission.attempted || answeredCount,
-          correct: selectedSubmission.correct || 0,
-          wrong: selectedSubmission.wrong || 0,
+          correct: selectedSubmission.correct ?? 0,
+          wrong: selectedSubmission.wrong ?? 0,
           unanswered: unansweredCount,
           score: Number(selectedSubmission.score || 0).toFixed(2),
-          totalMarks: selectedSubmission.totalMarks || 100,
+          totalMarks: selectedSubmission.totalMarks ?? resolveExamSnapshot(selectedSubmission, questions.length).totalMarks,
           passStatus: selectedSubmission.pass || false,
           passLabel: selectedSubmission.pass ? 'পাস' : 'ফেল'
         },
@@ -252,7 +269,7 @@ function SubmissionsTable({
             questionId: question.id, question: question.question,
             options: question.options,
             studentAnswer: isAnswered ? studentAnswer : null,
-            correctAnswer: question.correctAnswer,
+            correctAnswer: question.correctOptionId,
             isCorrect, isAnswered,
             solution: question.explanation || null
           }
@@ -333,7 +350,7 @@ function SubmissionsTable({
                 </td>
                 <td data-label="স্ট্যাটাস">
                   {sub.isPending ? (() => {
-                    const timeInfo = getElapsedTime(sub.timestamp, sub.totalQuestions || 100)
+                    const timeInfo = getElapsedTime(sub)
                     if (timeInfo.isExpired) {
                       return (
                         <span className="status-badge" style={{ backgroundColor: '#dc2626', color: 'white' }}>
@@ -424,7 +441,7 @@ function SubmissionsTable({
               <div className="adm-score-row">
                 <div className="adm-score-main">
                   <span className="adm-score-val">{Number(selectedSubmission.score || 0).toFixed(2)}</span>
-                  <span className="adm-score-total">/ {selectedSubmission.totalMarks || 100}</span>
+                  <span className="adm-score-total">/ {selectedSubmission.totalMarks ?? resolveExamSnapshot(selectedSubmission, questions.length).totalMarks}</span>
                 </div>
                 <span className={`adm-pass-chip ${selectedSubmission.pass ? 'pass' : 'fail'}`}>
                   {selectedSubmission.pass ? '✓ পাস' : '✗ ফেল'}
@@ -434,11 +451,11 @@ function SubmissionsTable({
               {/* Quick Stats */}
               <div className="adm-stats-row">
                 <div className="adm-stat correct">
-                  <span className="adm-stat-num">{selectedSubmission.correct || stats.correct}</span>
+                  <span className="adm-stat-num">{selectedSubmission.correct ?? stats.correct}</span>
                   <span className="adm-stat-label bengali">সঠিক</span>
                 </div>
                 <div className="adm-stat wrong">
-                  <span className="adm-stat-num">{selectedSubmission.wrong || stats.wrong}</span>
+                  <span className="adm-stat-num">{selectedSubmission.wrong ?? stats.wrong}</span>
                   <span className="adm-stat-label bengali">ভুল</span>
                 </div>
                 <div className="adm-stat">
@@ -464,7 +481,7 @@ function SubmissionsTable({
                     const sel = answers[q.id.toString()]
                     if (sel !== undefined && sel !== null) {
                       s[subject].attempted++
-                      if (sel === q.correctAnswer) s[subject].correct++
+                      if (sel === q.correctOptionId) s[subject].correct++
                       else s[subject].wrong++
                     }
                   })
@@ -514,7 +531,7 @@ function SubmissionsTable({
                     const qid = q.id.toString()
                     const ans = (selectedSubmission.answers || {})[qid]
                     const isAnswered = ans !== undefined && ans !== null
-                    const isCorrect = isAnswered && q.correctAnswer === ans
+                    const isCorrect = isAnswered && q.correctOptionId === ans
                     const cls = isCorrect ? 'correct' : isAnswered ? 'wrong' : 'skipped'
                     return (
                       <button
@@ -558,14 +575,9 @@ function SubmissionsTable({
                   const qid = q.id.toString()
                   const ans = (selectedSubmission.answers || {})[qid]
                   const isAnswered = ans !== undefined && ans !== null
-                  const isCorrect = isAnswered && q.correctAnswer === ans
+                  const isCorrect = isAnswered && q.correctOptionId === ans
                   const statusCls = isCorrect ? 'correct' : isAnswered ? 'wrong' : 'unanswered'
-                  const options = [
-                    { key: 'a', text: q.options?.a },
-                    { key: 'b', text: q.options?.b },
-                    { key: 'c', text: q.options?.c },
-                    { key: 'd', text: q.options?.d },
-                  ]
+                  const options = q.options || []
 
                   return (
                     <div
@@ -581,17 +593,17 @@ function SubmissionsTable({
                       </div>
                       <div className="adm-q-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(q.question) }} />
                       <div className="adm-options">
-                        {options.map(opt => {
+                        {options.map((opt) => {
                           let optCls = ''
-                          if (opt.key === q.correctAnswer) optCls = 'correct-opt'
-                          if (isAnswered && opt.key === ans && !isCorrect) optCls += ' wrong-opt'
-                          if (isAnswered && opt.key === ans && isCorrect) optCls = 'correct-opt selected'
+                          if (opt.id === q.correctOptionId) optCls = 'correct-opt'
+                          if (isAnswered && opt.id === ans && !isCorrect) optCls += ' wrong-opt'
+                          if (isAnswered && opt.id === ans && isCorrect) optCls = 'correct-opt selected'
                           return (
-                            <div key={opt.key} className={`adm-option ${optCls}`}>
-                              <span className="adm-opt-letter">{opt.key.toUpperCase()}</span>
+                            <div key={opt.id} className={`adm-option ${optCls}`}>
+                              <span className="adm-opt-letter">{opt.id.toUpperCase()}</span>
                               <span className="adm-opt-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(opt.text || '') }} />
-                              {opt.key === q.correctAnswer && <span className="adm-opt-icon correct">✓</span>}
-                              {isAnswered && opt.key === ans && !isCorrect && <span className="adm-opt-icon wrong">✗</span>}
+                              {opt.id === q.correctOptionId && <span className="adm-opt-icon correct">✓</span>}
+                              {isAnswered && opt.id === ans && !isCorrect && <span className="adm-opt-icon wrong">✗</span>}
                             </div>
                           )
                         })}
@@ -640,7 +652,7 @@ function SubmissionsTable({
                 const answered = spectatingStudent.answeredCount || 0
                 const total = spectateTotalQuestions || 1
                 const pct = Math.round((answered / total) * 100)
-                const elapsed = getElapsedTime(spectatingStudent.timestamp, spectateTotalQuestions)
+                const elapsed = getElapsedTime(spectatingStudent)
                 const timeRemaining = Math.max(0, elapsed.durationMins - elapsed.minutes)
 
                 return (

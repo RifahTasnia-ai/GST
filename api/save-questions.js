@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { getExamConfig, setExamConfig } from "../lib/runtimeStore.js";
+import { extractQuestionSetPayload } from "../lib/questionSet.js";
 
 // CORS headers so the script injected into porikkhok.com can POST back to us
 const CORS_HEADERS = {
@@ -134,10 +135,17 @@ export default async function handler(req, res) {
         return res.status(405).json({ error: "Method not allowed" });
     }
 
-    const { filename, questions, images } = req.body || {};
+    const { filename, questions, meta } = req.body || {};
 
-    if (!filename || !Array.isArray(questions)) {
-        return res.status(400).json({ error: "filename and questions[] required" });
+    if (!filename) {
+        return res.status(400).json({ error: "filename required" });
+    }
+
+    const incomingPayload = meta ? { meta, questions } : questions;
+    const { questions: extractedQuestions, meta: extractedMeta } = extractQuestionSetPayload(incomingPayload);
+
+    if (!Array.isArray(extractedQuestions) || extractedQuestions.length === 0) {
+        return res.status(400).json({ error: "questions[] required" });
     }
 
     // Sanitize filename — preserve Bengali characters (\u0980-\u09FF) and ASCII safe chars
@@ -157,7 +165,7 @@ export default async function handler(req, res) {
         // ── Normalize image fields (strict separation) ────────────────────────
         // Converts legacy `image` field → `questionImage`.
         // `explanationImage` is NEVER derived from `image`.
-        const normalizedQuestions = questions.map((q) => {
+        const normalizedQuestions = extractedQuestions.map((q) => {
             if (q.questionImage === undefined && q.image !== undefined) {
                 // Old schema: promote `image` → `questionImage`, drop `image`
                 const { image, ...rest } = q;
@@ -177,7 +185,11 @@ export default async function handler(req, res) {
 
         // ── Save JSON first ───────────────────────────────────────────────────
         const saveJsonStart = Date.now();
-        await fs.writeFile(jsonPath, JSON.stringify(normalizedQuestions, null, 2), "utf-8");
+        const jsonPayload = Object.keys(extractedMeta || {}).length > 0
+            ? { meta: extractedMeta, questions: normalizedQuestions }
+            : normalizedQuestions;
+
+        await fs.writeFile(jsonPath, JSON.stringify(jsonPayload, null, 2), "utf-8");
         console.log(`[save-questions] Saved ${normalizedQuestions.length} questions → public/${safe}.json`);
         timings.saveJsonMs = Date.now() - saveJsonStart;
 

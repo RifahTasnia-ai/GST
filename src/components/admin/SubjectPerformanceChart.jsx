@@ -31,7 +31,7 @@ function SubjectPerformanceChart({ questions, studentAnswers }) {
 
             if (studentAnswer === undefined || studentAnswer === null) {
                 stats[subject].unanswered++
-            } else if (studentAnswer === q.correctAnswer) {
+            } else if (studentAnswer === q.correctOptionId) {
                 stats[subject].correct++
             } else {
                 stats[subject].wrong++

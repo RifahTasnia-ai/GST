@@ -1,144 +1,202 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import ExamHeader from './ExamHeader'
 import QuestionCard from './QuestionCard'
 import QuestionNavigator from './QuestionNavigator'
 import ResultSummary from './ResultSummary'
 import SubmissionStatus from './SubmissionStatus'
-import { saveSubmission, savePendingStudent, removePendingStudent } from '../utils/api'
-import { queueSubmission, processSubmission, startBackgroundSync } from '../utils/SubmissionManager'
+import { savePendingStudent } from '../utils/api'
+import { processSubmission, queueSubmission, startBackgroundSync } from '../utils/SubmissionManager'
 import './MCQContainer.css'
-
 
 const STATUS = {
   IDLE: 'IDLE',
   RUNNING: 'RUNNING',
-  SUBMITTED: 'SUBMITTED'
+  SUBMITTED: 'SUBMITTED',
 }
 
-const SAVE_THROTTLE_MS = 5000 // Throttle localStorage writes to every 5 seconds
+const SAVE_THROTTLE_MS = 5000
+
+function buildStorageCandidates(storageKey, legacyStorageKeys, studentName) {
+  const uniqueKeys = Array.from(new Set([storageKey, ...(legacyStorageKeys || [])].filter(Boolean)))
+  return uniqueKeys.map((key) => `${key}_${studentName}`)
+}
+
+function loadSavedState(storageKeys) {
+  for (const key of storageKeys) {
+    const saved = localStorage.getItem(key)
+    if (!saved) continue
+
+    try {
+      return {
+        storageItemKey: key,
+        data: JSON.parse(saved),
+      }
+    } catch (error) {
+      console.error('Failed to parse saved exam state', error)
+    }
+  }
+
+  return null
+}
 
 function MCQContainer({ questions, studentName, questionFile = 'questions.json', examConfig }) {
-  // Derive all settings from examConfig (auto-set by ExamPage based on questions.length)
-  const DURATION_SECONDS = examConfig?.durationSeconds ?? 60 * 60
-  const MARK_PER_QUESTION = examConfig?.markPerQuestion ?? 1.0
-  const NEGATIVE_MARKING = examConfig?.negativeMarking ?? 0.25
-  const PASS_MARK = examConfig?.passMark ?? 60.0
-  const STORAGE_KEY = examConfig?.storageKey ?? 'mcq_state_v100'
-  // ALL HOOKS MUST BE CALLED BEFORE ANY CONDITIONAL RETURNS
+  const durationSeconds = examConfig?.durationSeconds ?? 60 * 60
+  const markPerQuestion = examConfig?.markPerQuestion ?? 1
+  const negativeMarking = examConfig?.negativeMarking ?? 0.25
+  const passMark = examConfig?.passMark ?? 60
+  const storageKey = examConfig?.storageKey ?? 'mcq_state_questions_100'
+  const legacyStorageKeys = examConfig?.legacyStorageKeys ?? []
+  const totalMarks = examConfig?.totalMarks ?? Number((questions.length * markPerQuestion).toFixed(2))
+  const storageCandidates = useMemo(
+    () => buildStorageCandidates(storageKey, legacyStorageKeys, studentName),
+    [storageKey, legacyStorageKeys, studentName]
+  )
+  const primaryStorageKey = storageCandidates[0]
+
   const [status, setStatus] = useState(STATUS.RUNNING)
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [answers, setAnswers] = useState({})
   const [visitedQuestions, setVisitedQuestions] = useState(new Set([0]))
-  const [timeLeft, setTimeLeft] = useState(DURATION_SECONDS)
+  const [timeLeft, setTimeLeft] = useState(durationSeconds)
   const [showExitConfirm, setShowExitConfirm] = useState(false)
-  // WK-4 fix: useRef instead of useState so guard works reliably across re-renders
-  const pendingSentRef = useRef(false)
   const [submissionStatus, setSubmissionStatus] = useState({ status: 'idle', retryCount: 0 })
 
-  // examStartTime stored in a ref AND persisted in localStorage so it survives tab switches/refreshes
+  const pendingSentRef = useRef(false)
   const examStartTimeRef = useRef(null)
-
-  // Refs for throttled save
   const lastSaveRef = useRef(0)
   const saveTimerRef = useRef(null)
   const timeLeftRef = useRef(timeLeft)
 
-  // Keep timeLeftRef in sync without triggering re-renders
+  const examConfigSnapshot = useMemo(() => ({
+    title: examConfig?.title || 'GST MCQ Exam',
+    questionFile,
+    totalQuestions: questions.length,
+    totalMarks,
+    durationSeconds,
+    durationMinutes: Number((durationSeconds / 60).toFixed(2)),
+    markPerQuestion,
+    negativeMarking,
+    passMark,
+  }), [
+    durationSeconds,
+    examConfig?.title,
+    markPerQuestion,
+    negativeMarking,
+    passMark,
+    questionFile,
+    questions.length,
+    totalMarks,
+  ])
+
   useEffect(() => {
     timeLeftRef.current = timeLeft
   }, [timeLeft])
 
-  // All useCallback hooks must be defined before any returns
   const handleAnswerSelect = useCallback((questionId, optionId) => {
-    setAnswers(prev => ({
+    setAnswers((prev) => ({
       ...prev,
-      [questionId]: optionId
+      [questionId]: optionId,
     }))
-    setVisitedQuestions(prev => new Set([...prev, currentQuestionIndex]))
+    setVisitedQuestions((prev) => new Set([...prev, currentQuestionIndex]))
   }, [currentQuestionIndex])
 
   const handleQuestionJump = useCallback((index) => {
-    if (questions && index >= 0 && index < questions.length) {
-      setCurrentQuestionIndex(index)
-      setVisitedQuestions(prev => new Set([...prev, index]))
-    }
+    if (!questions || index < 0 || index >= questions.length) return
+    setCurrentQuestionIndex(index)
+    setVisitedQuestions((prev) => new Set([...prev, index]))
   }, [questions])
 
   const handlePrev = useCallback(() => {
-    if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(prev => {
-        const newIndex = prev - 1
-        setVisitedQuestions(prevSet => new Set([...prevSet, newIndex]))
-        return newIndex
-      })
-    }
-  }, [currentQuestionIndex])
+    if (currentQuestionIndex <= 0) return
 
-  const handleNext = useCallback(() => {
-    if (questions && currentQuestionIndex < questions.length - 1) {
-      setCurrentQuestionIndex(prev => {
-        const newIndex = prev + 1
-        setVisitedQuestions(prevSet => new Set([...prevSet, newIndex]))
-        return newIndex
-      })
-    }
-  }, [currentQuestionIndex, questions])
-
-  const toggleMarkForReview = useCallback(() => {
-    setMarkedForReview(prev => {
-      const newSet = new Set(prev)
-      if (newSet.has(currentQuestionIndex)) {
-        newSet.delete(currentQuestionIndex)
-      } else {
-        newSet.add(currentQuestionIndex)
-      }
-      return newSet
+    setCurrentQuestionIndex((prev) => {
+      const nextIndex = prev - 1
+      setVisitedQuestions((prevVisited) => new Set([...prevVisited, nextIndex]))
+      return nextIndex
     })
   }, [currentQuestionIndex])
 
+  const handleNext = useCallback(() => {
+    if (!questions || currentQuestionIndex >= questions.length - 1) return
+
+    setCurrentQuestionIndex((prev) => {
+      const nextIndex = prev + 1
+      setVisitedQuestions((prevVisited) => new Set([...prevVisited, nextIndex]))
+      return nextIndex
+    })
+  }, [currentQuestionIndex, questions])
+
   const calculateScore = useCallback(() => {
-    if (!questions || !Array.isArray(questions)) return { score: 0, correct: 0, wrong: 0, attempted: 0, total: 0, subjectStats: {} }
+    if (!Array.isArray(questions) || questions.length === 0) {
+      return { score: 0, correct: 0, wrong: 0, attempted: 0, total: 0, totalMarks: 0, subjectStats: {} }
+    }
 
     let correct = 0
     let wrong = 0
     const subjectStats = {}
 
-    questions.forEach(q => {
-      const subject = q.subject || 'General'
+    questions.forEach((question) => {
+      const subject = question.subject || 'General'
       if (!subjectStats[subject]) {
         subjectStats[subject] = { correct: 0, wrong: 0, attempted: 0, total: 0 }
       }
-      subjectStats[subject].total++
 
-      const selected = answers[q.id]
-      if (!selected) return
+      subjectStats[subject].total += 1
 
-      subjectStats[subject].attempted++
-      if (selected === q.correctOptionId) {
-        correct++
-        subjectStats[subject].correct++
+      const selectedAnswer = answers[question.id]
+      if (selectedAnswer === undefined) return
+
+      subjectStats[subject].attempted += 1
+      if (selectedAnswer === question.correctOptionId) {
+        correct += 1
+        subjectStats[subject].correct += 1
       } else {
-        wrong++
-        subjectStats[subject].wrong++
+        wrong += 1
+        subjectStats[subject].wrong += 1
       }
     })
 
-    // Calculate percentages for each subject
-    Object.keys(subjectStats).forEach(subject => {
-      const stats = subjectStats[subject]
+    Object.values(subjectStats).forEach((stats) => {
       stats.percentage = stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : 0
     })
 
-    const score = Math.max(correct * MARK_PER_QUESTION - wrong * NEGATIVE_MARKING, 0)
+    const score = Math.max(correct * markPerQuestion - wrong * negativeMarking, 0)
+
     return {
-      score,
+      score: Number(score.toFixed(2)),
       correct,
       wrong,
       attempted: correct + wrong,
       total: questions.length,
-      subjectStats
+      totalMarks,
+      subjectStats,
     }
-  }, [questions, answers])
+  }, [answers, markPerQuestion, negativeMarking, questions, totalMarks])
+
+  const saveStateToStorage = useCallback(() => {
+    if (status !== STATUS.RUNNING || !primaryStorageKey) return
+
+    const state = {
+      answers,
+      currentIndex: currentQuestionIndex,
+      timeLeft: timeLeftRef.current,
+      examStartTime: examStartTimeRef.current,
+      visited: Array.from(visitedQuestions),
+    }
+
+    const now = Date.now()
+    if (now - lastSaveRef.current >= SAVE_THROTTLE_MS) {
+      localStorage.setItem(primaryStorageKey, JSON.stringify(state))
+      lastSaveRef.current = now
+      return
+    }
+
+    clearTimeout(saveTimerRef.current)
+    saveTimerRef.current = setTimeout(() => {
+      localStorage.setItem(primaryStorageKey, JSON.stringify(state))
+      lastSaveRef.current = Date.now()
+    }, SAVE_THROTTLE_MS)
+  }, [answers, currentQuestionIndex, primaryStorageKey, status, visitedQuestions])
 
   const handleSubmit = useCallback(async () => {
     if (status === STATUS.SUBMITTED) return
@@ -147,65 +205,55 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
     const payload = {
       studentName,
       answers,
-      score: parseFloat(scoreData.score.toFixed(2)),
-      totalMarks: scoreData.total * MARK_PER_QUESTION,
+      score: scoreData.score,
+      totalMarks,
+      totalQuestions: questions.length,
       timestamp: new Date().toISOString(),
       attempted: scoreData.attempted,
       correct: scoreData.correct,
       wrong: scoreData.wrong,
-      pass: scoreData.score >= PASS_MARK,
-      questionFile: questionFile
+      pass: scoreData.score >= passMark,
+      passMark,
+      markPerQuestion,
+      negativeMarking,
+      durationSeconds,
+      durationMinutes: Number((durationSeconds / 60).toFixed(2)),
+      examTitle: examConfigSnapshot.title,
+      questionFile,
+      subjectStats: scoreData.subjectStats,
+      examConfigSnapshot,
     }
 
-    // Immediately queue the submission to localStorage for insurance
     const queueId = queueSubmission(payload)
-
-    // Show result screen immediately
     setStatus(STATUS.SUBMITTED)
 
-    // Start attempting to submit in background
     const queueItem = { id: queueId, payload, retryCount: 0 }
 
     processSubmission(queueItem, (progress) => {
       setSubmissionStatus(progress)
 
       if (progress.status === 'success') {
-        // Clean up only on confirmed success
-        localStorage.removeItem(`${STORAGE_KEY}_${studentName}`)
+        storageCandidates.forEach((key) => localStorage.removeItem(key))
         localStorage.removeItem('exam_session_student')
       }
-    }).catch(err => {
-      console.error('Submission error:', err)
-      // Don't remove anything - let retry mechanism handle it
+    }).catch((error) => {
+      console.error('Submission error:', error)
     })
-  }, [status, studentName, answers, questions, calculateScore, questionFile])
-
-  // Throttled save to localStorage — avoids synchronous write every second
-  const saveStateToStorage = useCallback(() => {
-    if (status !== STATUS.RUNNING) return
-
-    const now = Date.now()
-    const state = {
-      answers,
-      currentIndex: currentQuestionIndex,
-      timeLeft: timeLeftRef.current,
-      // CRITICAL: always persist the real start time so tab-switching can't cheat the timer
-      examStartTime: examStartTimeRef.current,
-      visited: Array.from(visitedQuestions)
-    }
-
-    if (now - lastSaveRef.current >= SAVE_THROTTLE_MS) {
-      localStorage.setItem(`${STORAGE_KEY}_${studentName}`, JSON.stringify(state))
-      lastSaveRef.current = now
-    } else {
-      // Schedule a trailing save
-      clearTimeout(saveTimerRef.current)
-      saveTimerRef.current = setTimeout(() => {
-        localStorage.setItem(`${STORAGE_KEY}_${studentName}`, JSON.stringify(state))
-        lastSaveRef.current = Date.now()
-      }, SAVE_THROTTLE_MS)
-    }
-  }, [answers, currentQuestionIndex, visitedQuestions, status, studentName])
+  }, [
+    answers,
+    calculateScore,
+    durationSeconds,
+    examConfigSnapshot,
+    markPerQuestion,
+    negativeMarking,
+    passMark,
+    questionFile,
+    questions.length,
+    status,
+    storageCandidates,
+    studentName,
+    totalMarks,
+  ])
 
   const handleExit = useCallback(() => {
     setShowExitConfirm(true)
@@ -218,126 +266,138 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
       answers,
       currentQuestion: currentQuestionIndex + 1,
       answeredCount: Object.keys(answers).length,
-      totalQuestions: questions?.length || 0,
+      totalQuestions: questions.length || 0,
       questionFile,
+      examTitle: examConfigSnapshot.title,
+      durationSeconds,
+      durationMinutes: Number((durationSeconds / 60).toFixed(2)),
+      totalMarks,
+      passMark,
+      negativeMarking,
+      markPerQuestion,
+      examConfigSnapshot,
     })
-  }, [status, studentName, answers, currentQuestionIndex, questions, questionFile])
+  }, [
+    answers,
+    currentQuestionIndex,
+    durationSeconds,
+    examConfigSnapshot,
+    markPerQuestion,
+    negativeMarking,
+    passMark,
+    questionFile,
+    questions.length,
+    status,
+    studentName,
+    totalMarks,
+  ])
 
-  // All useEffect hooks must be called before any returns
   useEffect(() => {
-    if (!questions || questions.length === 0) return
+    if (!questions || questions.length === 0 || !primaryStorageKey) return
 
-    const saved = localStorage.getItem(`${STORAGE_KEY}_${studentName}`)
-    if (saved) {
-      try {
-        const data = JSON.parse(saved)
-        setAnswers(data.answers || {})
-        const maxIndex = Math.max(0, questions.length - 1)
-        setCurrentQuestionIndex(Math.min(data.currentIndex || 0, maxIndex))
-        setVisitedQuestions(new Set(data.visited || [0]))
-        setMarkedForReview(new Set(data.marked || []))
+    const savedState = loadSavedState(storageCandidates)
+    if (savedState?.data) {
+      const data = savedState.data
+      setAnswers(data.answers || {})
+      setVisitedQuestions(new Set(data.visited || [0]))
+      setCurrentQuestionIndex(Math.min(data.currentIndex || 0, Math.max(questions.length - 1, 0)))
 
-        // Restore wall-clock start time so timer can't be cheated by tab switching
-        if (data.examStartTime) {
-          examStartTimeRef.current = data.examStartTime
-          // Compute REAL time left using wall-clock, not saved snapshot
-          const elapsed = Math.floor((Date.now() - data.examStartTime) / 1000)
-          const realTimeLeft = Math.max(DURATION_SECONDS - elapsed, 0)
-          setTimeLeft(realTimeLeft)
-        } else {
-          // First ever load — record the real start time
-          const now = Date.now()
-          examStartTimeRef.current = now
-          setTimeLeft(data.timeLeft ?? DURATION_SECONDS)
-        }
-      } catch (e) {
-        console.error('Failed to load saved state', e)
+      if (data.examStartTime) {
+        examStartTimeRef.current = data.examStartTime
+        const elapsed = Math.floor((Date.now() - data.examStartTime) / 1000)
+        setTimeLeft(Math.max(durationSeconds - elapsed, 0))
+      } else {
+        examStartTimeRef.current = Date.now()
+        setTimeLeft(data.timeLeft ?? durationSeconds)
       }
-    } else {
-      // Brand new exam — record start time
-      const now = Date.now()
-      examStartTimeRef.current = now
-    }
-  }, [studentName, questions])
 
-  // Save on meaningful state changes (NOT on every timeLeft tick)
+      if (savedState.storageItemKey !== primaryStorageKey) {
+        localStorage.setItem(primaryStorageKey, JSON.stringify(data))
+      }
+
+      return
+    }
+
+    examStartTimeRef.current = Date.now()
+    setTimeLeft(durationSeconds)
+  }, [durationSeconds, primaryStorageKey, questions, storageCandidates])
+
   useEffect(() => {
     saveStateToStorage()
     return () => clearTimeout(saveTimerRef.current)
   }, [saveStateToStorage])
 
-  // Timer — uses wall-clock (Date.now) so background tabs / mobile tab-switching cannot cheat
   useEffect(() => {
-    if (status !== STATUS.RUNNING || timeLeft <= 0) return
+    if (status !== STATUS.RUNNING) return undefined
 
     const interval = setInterval(() => {
       if (!examStartTimeRef.current) return
+
       const elapsed = Math.floor((Date.now() - examStartTimeRef.current) / 1000)
-      const remaining = Math.max(DURATION_SECONDS - elapsed, 0)
+      const remaining = Math.max(durationSeconds - elapsed, 0)
       setTimeLeft(remaining)
+
       if (remaining <= 0) {
         handleSubmit()
       }
     }, 1000)
 
     return () => clearInterval(interval)
-  }, [status, handleSubmit])
+  }, [durationSeconds, handleSubmit, status])
 
-  // Correct timer & send Spectre heartbeat when tab becomes visible again after being hidden
   useEffect(() => {
-    if (status !== STATUS.RUNNING) return
+    if (status !== STATUS.RUNNING) return undefined
 
     const onVisibilityChange = () => {
-      if (document.visibilityState === 'visible') {
-        // Correct the timer immediately using real wall-clock
-        if (examStartTimeRef.current) {
-          const elapsed = Math.floor((Date.now() - examStartTimeRef.current) / 1000)
-          const remaining = Math.max(DURATION_SECONDS - elapsed, 0)
-          setTimeLeft(remaining)
-          if (remaining <= 0) {
-            handleSubmit()
-            return
-          }
+      if (document.visibilityState !== 'visible') return
+
+      if (examStartTimeRef.current) {
+        const elapsed = Math.floor((Date.now() - examStartTimeRef.current) / 1000)
+        const remaining = Math.max(durationSeconds - elapsed, 0)
+        setTimeLeft(remaining)
+
+        if (remaining <= 0) {
+          handleSubmit()
+          return
         }
-        // Send Spectre heartbeat so admin sees the student is still active
-        syncLiveProgress().catch(err => console.error('Visibility heartbeat failed:', err))
       }
+
+      syncLiveProgress().catch((error) => console.error('Visibility heartbeat failed:', error))
     }
 
     document.addEventListener('visibilitychange', onVisibilityChange)
     return () => document.removeEventListener('visibilitychange', onVisibilityChange)
-  }, [status, handleSubmit, syncLiveProgress])
+  }, [durationSeconds, handleSubmit, status, syncLiveProgress])
 
-  // Safety check for current question index
   useEffect(() => {
-    if (questions && questions.length > 0 && (currentQuestionIndex < 0 || currentQuestionIndex >= questions.length)) {
+    if (!questions || questions.length === 0) return
+
+    if (currentQuestionIndex < 0 || currentQuestionIndex >= questions.length) {
       setCurrentQuestionIndex(0)
     }
   }, [currentQuestionIndex, questions])
 
-  // Register immediately, sync on each MCQ interaction, and keep a light heartbeat running.
   useEffect(() => {
     if (status !== STATUS.RUNNING || !questions?.length) return
 
     if (!pendingSentRef.current) {
       pendingSentRef.current = true
-      syncLiveProgress().catch((err) => console.error('Failed to register live session:', err))
+      syncLiveProgress().catch((error) => console.error('Failed to register live session:', error))
     }
 
-    syncLiveProgress().catch((err) => console.error('Failed to sync live progress:', err))
-  }, [status, questions, syncLiveProgress])
+    syncLiveProgress().catch((error) => console.error('Failed to sync live progress:', error))
+  }, [questions, status, syncLiveProgress])
 
   useEffect(() => {
-    if (status !== STATUS.RUNNING) return
+    if (status !== STATUS.RUNNING) return undefined
 
     const heartbeatInterval = setInterval(() => {
-      syncLiveProgress().catch((err) => console.error('Failed to send heartbeat:', err))
+      syncLiveProgress().catch((error) => console.error('Failed to send heartbeat:', error))
     }, 2000)
 
     return () => clearInterval(heartbeatInterval)
   }, [status, syncLiveProgress])
 
-  // Background sync for pending submissions (network reconnection handling)
   useEffect(() => {
     const cleanup = startBackgroundSync((progress) => {
       setSubmissionStatus(progress)
@@ -346,28 +406,26 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
     return cleanup
   }, [])
 
-  // NOW we can do conditional returns after all hooks
-  // Validate questions array AFTER all hooks (React rules)
-  if (!questions || !Array.isArray(questions) || questions.length === 0) {
+  if (!Array.isArray(questions) || questions.length === 0) {
     console.error('MCQContainer: Invalid questions array', { questions })
     return (
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '100vh',
-        flexDirection: 'column',
-        gap: '16px',
-        padding: '20px',
-        backgroundColor: 'var(--gray-50)'
-      }}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '100vh',
+          flexDirection: 'column',
+          gap: '16px',
+          padding: '20px',
+          backgroundColor: 'var(--gray-50)',
+        }}
+      >
         <div style={{ color: 'var(--error)', fontSize: '18px', textAlign: 'center' }} className="bengali">
           প্রশ্ন পাওয়া যায়নি। দয়া করে পৃষ্ঠাটি রিফ্রেশ করুন।
         </div>
         <div style={{ color: 'var(--gray-600)', fontSize: '14px', marginTop: '8px', textAlign: 'center' }}>
-          {!questions ? 'Questions is null/undefined' :
-            !Array.isArray(questions) ? 'Questions is not an array' :
-              questions.length === 0 ? 'Questions array is empty' : 'Unknown error'}
+          {!questions ? 'Questions is null/undefined' : !Array.isArray(questions) ? 'Questions is not an array' : 'Questions array is empty'}
         </div>
         <button
           onClick={() => window.location.reload()}
@@ -379,7 +437,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
             borderRadius: '8px',
             cursor: 'pointer',
             fontSize: '16px',
-            marginTop: '8px'
+            marginTop: '8px',
           }}
           className="bengali"
         >
@@ -399,7 +457,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
         onRestart={() => window.location.reload()}
         questionFile={questionFile}
         submissionStatus={submissionStatus}
-        passMark={PASS_MARK}
+        examConfig={examConfigSnapshot}
       />
     )
   }
@@ -409,12 +467,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
 
   if (!currentQuestion) {
     return (
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '100vh'
-      }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
         <div className="bengali">প্রশ্ন লোড হচ্ছে...</div>
       </div>
     )
@@ -424,7 +477,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
     return (
       <div className="mcq-container">
         <ExamHeader
-          examName="MCQ Exam"
+          examName={examConfigSnapshot.title}
           timeLeft={timeLeft}
           totalQuestions={questions.length}
         />
@@ -455,23 +508,31 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
 
         <SubmissionStatus {...submissionStatus} />
 
-        {/* Exit Confirm Popup */}
         {showExitConfirm && (
           <div
             style={{
-              position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.55)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              zIndex: 1000, padding: '20px'
+              position: 'fixed',
+              inset: 0,
+              background: 'rgba(0,0,0,0.55)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              zIndex: 1000,
+              padding: '20px',
             }}
             onClick={() => setShowExitConfirm(false)}
           >
             <div
               style={{
-                background: 'white', borderRadius: '16px', padding: '32px 28px',
-                maxWidth: '360px', width: '100%', textAlign: 'center',
-                boxShadow: '0 20px 60px rgba(0,0,0,0.3)'
+                background: 'white',
+                borderRadius: '16px',
+                padding: '32px 28px',
+                maxWidth: '360px',
+                width: '100%',
+                textAlign: 'center',
+                boxShadow: '0 20px 60px rgba(0,0,0,0.3)',
               }}
-              onClick={e => e.stopPropagation()}
+              onClick={(event) => event.stopPropagation()}
             >
               <div style={{ fontSize: '40px', marginBottom: '12px' }}>⚠️</div>
               <h3 className="bengali" style={{ fontSize: '1.2rem', fontWeight: '700', marginBottom: '10px', color: '#1e293b' }}>
@@ -485,20 +546,35 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
                   className="bengali"
                   onClick={() => setShowExitConfirm(false)}
                   style={{
-                    flex: 1, padding: '12px', border: '1.5px solid #e2e8f0',
-                    borderRadius: '10px', background: 'white', color: '#475569',
-                    fontWeight: '600', fontSize: '1rem', cursor: 'pointer'
+                    flex: 1,
+                    padding: '12px',
+                    border: '1.5px solid #e2e8f0',
+                    borderRadius: '10px',
+                    background: 'white',
+                    color: '#475569',
+                    fontWeight: '600',
+                    fontSize: '1rem',
+                    cursor: 'pointer',
                   }}
                 >
                   না, থাকব
                 </button>
                 <button
                   className="bengali"
-                  onClick={() => { setShowExitConfirm(false); handleSubmit() }}
+                  onClick={() => {
+                    setShowExitConfirm(false)
+                    handleSubmit()
+                  }}
                   style={{
-                    flex: 1, padding: '12px', border: 'none',
-                    borderRadius: '10px', background: '#dc2626', color: 'white',
-                    fontWeight: '700', fontSize: '1rem', cursor: 'pointer'
+                    flex: 1,
+                    padding: '12px',
+                    border: 'none',
+                    borderRadius: '10px',
+                    background: '#dc2626',
+                    color: 'white',
+                    fontWeight: '700',
+                    fontSize: '1rem',
+                    cursor: 'pointer',
                   }}
                 >
                   হ্যাঁ, সাবমিট
@@ -512,15 +588,17 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
   } catch (error) {
     console.error('MCQContainer render error:', error)
     return (
-      <div style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '100vh',
-        flexDirection: 'column',
-        gap: '16px',
-        padding: '20px'
-      }}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '100vh',
+          flexDirection: 'column',
+          gap: '16px',
+          padding: '20px',
+        }}
+      >
         <div style={{ color: 'var(--error)', fontSize: '18px' }} className="bengali">
           রেন্ডারিং ত্রুটি: {error.message}
         </div>

@@ -3,43 +3,51 @@ import { renderLatex } from '../utils/latex'
 import SubmissionStatus from './SubmissionStatus'
 import './ResultSummary.css'
 
-function ResultSummary({ questions, answers, studentName, score, onRestart, questionFile, submissionStatus, passMark = 60.0 }) {
-  const { score: totalScore, correct, wrong, attempted, total, subjectStats = {} } = score
+function ResultSummary({
+  questions,
+  answers,
+  studentName,
+  score,
+  onRestart,
+  questionFile,
+  submissionStatus,
+  examConfig,
+}) {
+  const { score: totalScore, correct, wrong, attempted, total, totalMarks = total, subjectStats = {} } = score
   const accuracy = attempted > 0 ? ((correct / attempted) * 100).toFixed(1) : 0
   const unanswered = total - attempted
+  const passMark = examConfig?.passMark ?? 60
   const pass = totalScore >= passMark
 
   const subjectNames = {
-    'Biology': 'জীববিজ্ঞান',
-    'Chemistry': 'রসায়ন',
-    'ICT': 'আইসিটি',
-    'Physics': 'পদার্থবিজ্ঞান',
-    'Mathematics': 'গণিত',
-    'General': 'সাধারণ'
+    Biology: 'জীববিজ্ঞান',
+    Chemistry: 'রসায়ন',
+    ICT: 'আইসিটি',
+    Physics: 'পদার্থবিজ্ঞান',
+    Mathematics: 'গণিত',
+    General: 'সাধারণ',
   }
 
   const [filter, setFilter] = useState('all')
-  // Single question popup — null means closed
   const [viewingQuestion, setViewingQuestion] = useState(null)
 
   function getCongratulatoryMessage() {
-    if (totalScore >= 60) return 'Congratulations! তুমি GST এর জন্য Perfect 🎯'
-    if (accuracy >= 90) return 'অসাধারণ! তুমি চমৎকার করেছো! 🏆'
-    if (accuracy >= 75) return 'খুব ভালো! চমৎকার কাজ! 🌟'
-    if (accuracy >= 60) return 'ভালো করেছো! এগিয়ে চলো! 💪'
-    return 'পরবর্তীতে আরও ভাল করবে! 📚'
+    if (pass) return 'অভিনন্দন! তুমি পরীক্ষায় পাস করেছ।'
+    if (accuracy >= 75) return 'ভালো হয়েছে, আরও একটু অনুশীলন করলে আরও ভালো হবে।'
+    if (accuracy >= 50) return 'চেষ্টা ঠিক আছে, এখন ভুলগুলো দেখে নাও।'
+    return 'পরেরবার আরও ভালো করার সুযোগ আছে।'
   }
 
-  function getQuestionStatus(q) {
-    const selected = answers[q.id]
+  function getQuestionStatus(question) {
+    const selected = answers[question.id]
     const hasAnswer = selected !== undefined
-    const isCorrect = hasAnswer && selected === q.correctOptionId
+    const isCorrect = hasAnswer && selected === question.correctOptionId
     return { selected, hasAnswer, isCorrect }
   }
 
   function getFilteredQuestions() {
-    return questions.filter((q) => {
-      const { hasAnswer, isCorrect } = getQuestionStatus(q)
+    return questions.filter((question) => {
+      const { hasAnswer, isCorrect } = getQuestionStatus(question)
       if (filter === 'correct') return isCorrect
       if (filter === 'wrong') return hasAnswer && !isCorrect
       if (filter === 'unanswered') return !hasAnswer
@@ -47,19 +55,17 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
     })
   }
 
-  // Open single question popup
-  function openQuestion(qId) {
-    const q = questions.find(q => q.id === qId)
-    if (q) setViewingQuestion(q)
+  function openQuestion(questionId) {
+    const question = questions.find((item) => item.id === questionId)
+    if (question) setViewingQuestion(question)
   }
 
-  // Navigate prev/next in popup
   function navigateQuestion(direction) {
     if (!viewingQuestion) return
-    const idx = questions.findIndex(q => q.id === viewingQuestion.id)
-    const nextIdx = idx + direction
-    if (nextIdx >= 0 && nextIdx < questions.length) {
-      setViewingQuestion(questions[nextIdx])
+    const index = questions.findIndex((item) => item.id === viewingQuestion.id)
+    const nextIndex = index + direction
+    if (nextIndex >= 0 && nextIndex < questions.length) {
+      setViewingQuestion(questions[nextIndex])
     }
   }
 
@@ -77,51 +83,45 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
   const badge = getBadge()
   const filteredQuestions = getFilteredQuestions()
 
-  // Render a single question card (reused in both list and popup)
-  function renderQuestionCard(q) {
-    const { selected, hasAnswer, isCorrect } = getQuestionStatus(q)
-    const statusCls = isCorrect ? 'correct' : hasAnswer ? 'wrong' : 'unanswered'
-    const options = [
-      { key: 'a', text: q.options.a },
-      { key: 'b', text: q.options.b },
-      { key: 'c', text: q.options.c },
-      { key: 'd', text: q.options.d },
-    ]
+  function renderQuestionCard(question) {
+    const { selected, hasAnswer, isCorrect } = getQuestionStatus(question)
+    const statusClass = isCorrect ? 'correct' : hasAnswer ? 'wrong' : 'unanswered'
 
     return (
       <>
         <div className="rs-q-header">
-          <span className="rs-q-num bengali">প্রশ্ন {q.id}</span>
-          <span className={`rs-q-badge ${statusCls}`}>
+          <span className="rs-q-num bengali">প্রশ্ন {question.id}</span>
+          <span className={`rs-q-badge ${statusClass}`}>
             {isCorrect ? '✓ সঠিক' : hasAnswer ? '✗ ভুল' : '— বাদ'}
           </span>
         </div>
-        <div className="rs-q-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(q.question) }} />
+        <div className="rs-q-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(question.question) }} />
         <div className="rs-options">
-          {options.map(opt => {
-            let optCls = ''
-            if (opt.key === q.correctOptionId) optCls = 'correct-option'
-            if (hasAnswer && opt.key === selected && !isCorrect) optCls += ' wrong-option'
-            if (hasAnswer && opt.key === selected && isCorrect) optCls = 'correct-option selected'
+          {question.options.map((option) => {
+            let optionClass = ''
+            if (option.id === question.correctOptionId) optionClass = 'correct-option'
+            if (hasAnswer && option.id === selected && !isCorrect) optionClass += ' wrong-option'
+            if (hasAnswer && option.id === selected && isCorrect) optionClass = 'correct-option selected'
+
             return (
-              <div key={opt.key} className={`rs-option ${optCls}`}>
-                <span className="rs-opt-letter">{opt.key.toUpperCase()}</span>
-                <span className="rs-opt-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(opt.text) }} />
-                {opt.key === q.correctOptionId && <span className="rs-opt-check">✓</span>}
-                {hasAnswer && opt.key === selected && !isCorrect && <span className="rs-opt-cross">✗</span>}
+              <div key={option.id} className={`rs-option ${optionClass}`.trim()}>
+                <span className="rs-opt-letter">{option.id.toUpperCase()}</span>
+                <span className="rs-opt-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(option.text) }} />
+                {option.id === question.correctOptionId && <span className="rs-opt-check">✓</span>}
+                {hasAnswer && option.id === selected && !isCorrect && <span className="rs-opt-cross">✗</span>}
               </div>
             )
           })}
         </div>
-        {q.explanation && (
+        {question.explanation && (
           <div className="rs-explanation">
             <div className="rs-explanation-header bengali">💡 ব্যাখ্যা</div>
-            <div className="rs-explanation-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(q.explanation) }} />
-            {q.explanationImage && (
+            <div className="rs-explanation-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(question.explanation) }} />
+            {question.explanationImage && (
               <div className="rs-explanation-image">
                 <img
-                  src={q.explanationImage}
-                  alt={`Explanation diagram for question ${q.id}`}
+                  src={question.explanationImage}
+                  alt={`Explanation diagram for question ${question.id}`}
                   style={{ maxWidth: '100%', borderRadius: '8px', marginTop: '8px' }}
                   loading="lazy"
                 />
@@ -136,8 +136,6 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
   return (
     <div className="result-summary">
       <div className="result-card">
-
-        {/* ===== HEADER ===== */}
         <div className="rs-header">
           <div className={`rs-badge-chip ${badge.cls}`}>
             <span className="rs-badge-icon">{badge.icon}</span>
@@ -146,22 +144,26 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           <h1 className="rs-title bengali">পরীক্ষা সম্পন্ন</h1>
           <p className="rs-student bengali">{studentName}</p>
           <p className="rs-congrats bengali">{getCongratulatoryMessage()}</p>
+          <p className="bengali" style={{ marginTop: '8px', color: 'var(--slate-500)' }}>
+            পাস মার্ক {passMark} | নেগেটিভ {examConfig?.negativeMarking ?? 0.25} | মোট নম্বর {totalMarks}
+          </p>
         </div>
 
-        {/* ===== SCORE HERO ===== */}
         <div className="rs-score-hero">
           <div className={`rs-score-ring ${pass ? 'pass' : 'fail'}`}>
             <svg viewBox="0 0 120 120">
               <circle className="rs-ring-bg" cx="60" cy="60" r="52" />
               <circle
                 className="rs-ring-fill"
-                cx="60" cy="60" r="52"
-                style={{ strokeDasharray: `${(totalScore / total) * 327} 327` }}
+                cx="60"
+                cy="60"
+                r="52"
+                style={{ strokeDasharray: `${Math.min((totalScore / Math.max(totalMarks, 1)) * 327, 327)} 327` }}
               />
             </svg>
             <div className="rs-ring-text">
-              <span className="rs-score-num">{totalScore.toFixed(1)}</span>
-              <span className="rs-score-total bengali">/ {total}</span>
+              <span className="rs-score-num">{totalScore.toFixed(2)}</span>
+              <span className="rs-score-total bengali">/ {totalMarks}</span>
             </div>
           </div>
           <div className={`rs-pass-chip ${pass ? 'pass' : 'fail'}`}>
@@ -169,7 +171,6 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           </div>
         </div>
 
-        {/* ===== QUICK STATS ===== */}
         <div className="rs-stats-row">
           <div className="rs-stat correct">
             <div className="rs-stat-num">{correct}</div>
@@ -189,7 +190,6 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           </div>
         </div>
 
-        {/* ===== SUBJECT ANALYSIS ===== */}
         {Object.keys(subjectStats).length > 0 && (
           <div className="rs-subjects">
             <h2 className="rs-section-title bengali">📊 বিষয়ভিত্তিক বিশ্লেষণ</h2>
@@ -219,21 +219,20 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           </div>
         )}
 
-        {/* ===== COMPACT ANSWER GRID — click opens popup ===== */}
         <div className="rs-answer-grid-section">
           <h2 className="rs-section-title bengali">🗂️ উত্তর সারসংক্ষেপ <span className="rs-hint bengali">(নম্বরে ক্লিক করুন)</span></h2>
           <div className="rs-answer-grid">
-            {questions.map((q) => {
-              const { hasAnswer, isCorrect } = getQuestionStatus(q)
+            {questions.map((question) => {
+              const { hasAnswer, isCorrect } = getQuestionStatus(question)
               const cls = isCorrect ? 'correct' : hasAnswer ? 'wrong' : 'skipped'
               return (
                 <button
-                  key={q.id}
-                  className={`rs-grid-tile ${cls} ${viewingQuestion?.id === q.id ? 'active' : ''}`}
-                  onClick={() => openQuestion(q.id)}
-                  title={`প্রশ্ন ${q.id}`}
+                  key={question.id}
+                  className={`rs-grid-tile ${cls} ${viewingQuestion?.id === question.id ? 'active' : ''}`}
+                  onClick={() => openQuestion(question.id)}
+                  title={`প্রশ্ন ${question.id}`}
                 >
-                  {q.id}
+                  {question.id}
                 </button>
               )
             })}
@@ -245,16 +244,14 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           </div>
         </div>
 
-        {/* ===== SINGLE QUESTION POPUP ===== */}
         {viewingQuestion && (
           <div className="rs-popup-overlay" onClick={() => setViewingQuestion(null)}>
-            <div className="rs-popup" onClick={(e) => e.stopPropagation()}>
-              {/* Popup navigation */}
+            <div className="rs-popup" onClick={(event) => event.stopPropagation()}>
               <div className="rs-popup-nav">
                 <button
                   className="rs-popup-nav-btn bengali"
                   onClick={() => navigateQuestion(-1)}
-                  disabled={questions.findIndex(q => q.id === viewingQuestion.id) === 0}
+                  disabled={questions.findIndex((question) => question.id === viewingQuestion.id) === 0}
                 >
                   ← আগের
                 </button>
@@ -264,13 +261,12 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
                 <button
                   className="rs-popup-nav-btn bengali"
                   onClick={() => navigateQuestion(1)}
-                  disabled={questions.findIndex(q => q.id === viewingQuestion.id) === questions.length - 1}
+                  disabled={questions.findIndex((question) => question.id === viewingQuestion.id) === questions.length - 1}
                 >
                   পরের →
                 </button>
                 <button className="rs-popup-close" onClick={() => setViewingQuestion(null)}>✕</button>
               </div>
-              {/* Question content */}
               <div className={`rs-popup-body ${getQuestionStatus(viewingQuestion).isCorrect ? 'correct' : getQuestionStatus(viewingQuestion).hasAnswer ? 'wrong' : 'unanswered'}`}>
                 {renderQuestionCard(viewingQuestion)}
               </div>
@@ -278,7 +274,6 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           </div>
         )}
 
-        {/* ===== PDF & FILTER BAR ===== */}
         <div className="rs-toolbar">
           <div className="rs-filters">
             {[
@@ -286,13 +281,13 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
               { key: 'wrong', label: `ভুল (${wrong})` },
               { key: 'correct', label: `সঠিক (${correct})` },
               { key: 'unanswered', label: `বাদ (${unanswered})` },
-            ].map(f => (
+            ].map((item) => (
               <button
-                key={f.key}
-                className={`rs-filter-btn bengali ${filter === f.key ? 'active' : ''}`}
-                onClick={() => setFilter(f.key)}
+                key={item.key}
+                className={`rs-filter-btn bengali ${filter === item.key ? 'active' : ''}`}
+                onClick={() => setFilter(item.key)}
               >
-                {f.label}
+                {item.label}
               </button>
             ))}
           </div>
@@ -301,20 +296,18 @@ function ResultSummary({ questions, answers, studentName, score, onRestart, ques
           </button>
         </div>
 
-        {/* ===== FULL QUESTION LIST (for PDF / filter view) ===== */}
         <div className="rs-questions-list">
-          {filteredQuestions.map((q) => {
-            const { selected, hasAnswer, isCorrect } = getQuestionStatus(q)
-            const statusCls = isCorrect ? 'correct' : hasAnswer ? 'wrong' : 'unanswered'
+          {filteredQuestions.map((question) => {
+            const { hasAnswer, isCorrect } = getQuestionStatus(question)
+            const statusClass = isCorrect ? 'correct' : hasAnswer ? 'wrong' : 'unanswered'
             return (
-              <div key={q.id} className={`rs-question-card ${statusCls}`}>
-                {renderQuestionCard(q)}
+              <div key={question.id} className={`rs-question-card ${statusClass}`}>
+                {renderQuestionCard(question)}
               </div>
             )
           })}
         </div>
 
-        {/* ===== ACTIONS ===== */}
         <div className="rs-actions no-print">
           <button className="rs-restart-btn bengali" onClick={onRestart}>
             🔄 নতুন পরীক্ষা শুরু করুন

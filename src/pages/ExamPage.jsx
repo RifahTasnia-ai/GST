@@ -1,23 +1,37 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import MCQContainer from '../components/MCQContainer'
 import StartScreen from '../components/StartScreen'
 import ErrorBoundary from '../components/ErrorBoundary'
 import NotificationToast from '../components/admin/NotificationToast'
 import { getActiveQuestionFile } from '../utils/api'
-import { getExamConfig } from '../utils/examConfig'
+import { parseQuestionSetPayload } from '../utils/examConfig'
 
 const STUDENT_NOTICE_SEEN_KEY = 'student_notice_seen_id'
+const EXAM_SESSION_STUDENT_KEY = 'exam_session_student'
+
+function hasSavedExamSession(studentName) {
+  if (!studentName) return false
+
+  try {
+    for (let index = 0; index < localStorage.length; index += 1) {
+      const key = localStorage.key(index)
+      if (!key || !key.startsWith('mcq_state_')) continue
+      if (key.endsWith(`_${studentName}`)) {
+        return true
+      }
+    }
+  } catch (error) {
+    console.error('Failed to inspect saved exam sessions', error)
+  }
+
+  return false
+}
 
 function ExamPage() {
   const [studentName, setStudentName] = useState(() => {
-    const savedName = localStorage.getItem('exam_session_student')
+    const savedName = localStorage.getItem(EXAM_SESSION_STUDENT_KEY)
     if (!savedName) return ''
-
-    const hasSession =
-      localStorage.getItem(`mcq_state_v100_${savedName}`) ||
-      localStorage.getItem(`mcq_state_v50_${savedName}`)
-
-    return hasSession ? savedName : ''
+    return hasSavedExamSession(savedName) ? savedName : ''
   })
 
   const [questions, setQuestions] = useState([])
@@ -53,7 +67,7 @@ function ExamPage() {
     localStorage.setItem(STUDENT_NOTICE_SEEN_KEY, notice.id)
     setStudentNoticeToast({
       message: notice.message || 'New exam update available. Please follow teacher instructions.',
-      type: 'success'
+      type: 'success',
     })
   }
 
@@ -74,6 +88,9 @@ function ExamPage() {
 
   async function loadQuestions() {
     try {
+      setLoading(true)
+      setError(null)
+
       const activeConfig = await getActiveQuestionFile()
       const file = activeConfig.activeFile || 'questions.json'
       maybeShowStudentNotice(activeConfig?.studentNotice)
@@ -85,7 +102,7 @@ function ExamPage() {
 
       const res = await fetch(fileUrl, {
         cache: 'no-store',
-        headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' }
+        headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' },
       })
 
       if (!res.ok) {
@@ -97,35 +114,19 @@ function ExamPage() {
         throw new Error(`File ${file} is not a JSON file. Got content-type: ${contentType}`)
       }
 
-      const data = await res.json()
+      const payload = await res.json()
+      const parsed = parseQuestionSetPayload(payload, { questionFile: file })
 
-      if (!Array.isArray(data) || data.length === 0) {
-        throw new Error('No questions found in file')
-      }
-
-      const transformed = data.map(q => ({
-        id: q.id,
-        question: q.question,
-        options: Object.entries(q.options).map(([id, text]) => ({ id, text })),
-        correctOptionId: q.correctAnswer,
-        explanation: q.explanation || `সঠিক উত্তর: ${q.correctAnswer}. ${q.question}`,
-        hasDiagram: q.hasDiagram || false,
-        svg_code: q.svg_code || null,
-        questionImage: q.questionImage ?? q.image ?? null,
-        explanationImage: q.explanationImage ?? null,
-        subject: q.subject || ''
-      }))
-
-      if (transformed.length === 0) {
+      if (!Array.isArray(parsed.questions) || parsed.questions.length === 0) {
         throw new Error('No valid questions found after processing')
       }
 
-      setQuestions(transformed)
-      setExamConfig(getExamConfig(transformed.length))
-      setLoading(false)
+      setQuestions(parsed.questions)
+      setExamConfig(parsed.examConfig)
     } catch (err) {
       console.error('Error loading questions:', err)
       setError(err.message)
+    } finally {
       setLoading(false)
     }
   }
@@ -140,11 +141,18 @@ function ExamPage() {
 
   if (error) {
     return renderWithNotice(
-      <div style={{
-        display: 'flex', justifyContent: 'center', alignItems: 'center',
-        minHeight: '100vh', flexDirection: 'column', gap: '16px',
-        padding: '20px', textAlign: 'center'
-      }}>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: '100vh',
+          flexDirection: 'column',
+          gap: '16px',
+          padding: '20px',
+          textAlign: 'center',
+        }}
+      >
         <div style={{ color: 'var(--error)', fontSize: '18px' }} className="bengali">
           প্রশ্ন লোড করতে সমস্যা হয়েছে
         </div>
@@ -154,8 +162,14 @@ function ExamPage() {
         <button
           onClick={loadQuestions}
           style={{
-            padding: '12px 24px', backgroundColor: 'var(--primary)', color: 'white',
-            border: 'none', borderRadius: '8px', cursor: 'pointer', fontSize: '16px', marginTop: '16px'
+            padding: '12px 24px',
+            backgroundColor: 'var(--primary)',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            fontSize: '16px',
+            marginTop: '16px',
           }}
           className="bengali"
         >
@@ -169,7 +183,7 @@ function ExamPage() {
     return renderWithNotice(
       <StartScreen
         onStart={(name) => {
-          localStorage.setItem('exam_session_student', name)
+          localStorage.setItem(EXAM_SESSION_STUDENT_KEY, name)
           setStudentName(name)
         }}
         examConfig={examConfig}

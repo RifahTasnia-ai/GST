@@ -6,6 +6,19 @@ import QuestionSetModal from '../components/admin/QuestionSetModal'
 import { getExamConfig } from '../utils/examConfig'
 import './AdminPage.css'
 
+function resolveDurationSeconds(record) {
+  if (Number(record?.examConfigSnapshot?.durationSeconds) > 0) {
+    return Number(record.examConfigSnapshot.durationSeconds)
+  }
+
+  if (Number(record?.durationSeconds) > 0) {
+    return Number(record.durationSeconds)
+  }
+
+  const totalQuestions = Number(record?.totalQuestions) > 0 ? Number(record.totalQuestions) : 100
+  return getExamConfig(totalQuestions, { questionFile: record?.questionFile }).durationSeconds
+}
+
 function AdminPage() {
   const [submissions, setSubmissions] = useState([])
   const [pendingStudents, setPendingStudents] = useState([])
@@ -170,10 +183,10 @@ function AdminPage() {
       const studentKey = pending.studentName
       const start = new Date(pending.timestamp).getTime()
       const elapsed = now - start
+      const elapsedSeconds = elapsed / 1000
       const resolvedQuestions = Number(pending.totalQuestions) > 0 ? Number(pending.totalQuestions) : 100
-      const durationSeconds = getExamConfig(resolvedQuestions).durationSeconds
+      const durationSeconds = resolveDurationSeconds(pending)
       const durationMs = durationSeconds * 1000
-      const timeoutThreshold = Math.floor(durationSeconds / 60)
       const maxDisplayMs = durationMs + (5 * 60 * 1000)
 
       if (elapsed > maxDisplayMs) return
@@ -182,11 +195,12 @@ function AdminPage() {
       const pendingEntry = {
         ...pending,
         totalQuestions: resolvedQuestions,
+        durationSeconds,
         studentName: pending.studentName,
         timestamp: pending.timestamp,
         status: 'Pending',
         isPending: true,
-        isExpired: minutes > timeoutThreshold,
+        isExpired: elapsedSeconds > durationSeconds,
         elapsedMinutes: minutes,
       }
 
@@ -253,11 +267,12 @@ function AdminPage() {
   )
 
   const stats = useMemo(() => {
+    const submitted = submissionsByStudent.filter((entry) => !entry.isPending)
     const total = submissionsByStudent.length
-    const passed = submissionsByStudent.filter((s) => s.pass).length
-    const failed = total - passed
-    const avgScore = total > 0
-      ? (submissionsByStudent.reduce((sum, s) => sum + (s.score || 0), 0) / total).toFixed(1)
+    const passed = submitted.filter((entry) => entry.pass).length
+    const failed = submitted.filter((entry) => !entry.pass).length
+    const avgScore = submitted.length > 0
+      ? (submitted.reduce((sum, entry) => sum + (entry.score || 0), 0) / submitted.length).toFixed(1)
       : 0
     return { total, passed, failed, avgScore }
   }, [submissionsByStudent])
