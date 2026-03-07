@@ -1,5 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
-import { getActiveQuestionFile, loadQuestionFiles, setActiveQuestionFile } from '../../utils/api'
+import {
+  getActiveQuestionFile,
+  getStoredAdminApiKey,
+  loadQuestionFiles,
+  setActiveQuestionFile,
+  setAdminApiKey,
+} from '../../utils/api'
 import './QuestionSetModal.css'
 
 function sortByDisplayName(a, b) {
@@ -52,11 +58,34 @@ function badgeForFile(file, hasUnsavedSelection) {
   return null
 }
 
+function formatUiError(error) {
+  let message = error?.message || 'Unknown error'
+
+  if (typeof message === 'string' && message.trim().startsWith('{')) {
+    try {
+      const parsed = JSON.parse(message)
+      if (typeof parsed?.error === 'string' && parsed.error.trim()) {
+        message = parsed.error
+      } else if (typeof parsed?.message === 'string' && parsed.message.trim()) {
+        message = parsed.message
+      }
+    } catch (_) {
+      // keep original message when it is not valid JSON
+    }
+  }
+
+  if (message.toLowerCase().includes('unauthorized')) {
+    return 'Admin API key মেলেনি। Vercel-এর ADMIN_API_KEY এই বক্সে দিন, তারপর আবার সংরক্ষণ করুন।'
+  }
+  return message
+}
+
 function QuestionSetModal({ isOpen, onClose, onSave }) {
   const [questionFiles, setQuestionFiles] = useState([])
   const [questionSetHistory, setQuestionSetHistory] = useState([])
   const [activeFile, setActiveFile] = useState(null)
   const [selectedFile, setSelectedFile] = useState(null)
+  const [adminApiKey, setAdminApiKeyValue] = useState('')
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState(null)
@@ -65,6 +94,7 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
 
   useEffect(() => {
     if (!isOpen) return
+    setAdminApiKeyValue(getStoredAdminApiKey())
     loadData()
     setSearchQuery('')
     setActiveSubject('all')
@@ -86,7 +116,7 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
       setQuestionSetHistory(Array.isArray(activeConfig.questionSetHistory) ? activeConfig.questionSetHistory : [])
     } catch (err) {
       console.error('Failed to load question files:', err)
-      setError(err.message)
+      setError(formatUiError(err))
     } finally {
       setLoading(false)
     }
@@ -100,6 +130,10 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
     try {
       setSaving(true)
       setError(null)
+      const trimmedAdminKey = adminApiKey.trim()
+      if (trimmedAdminKey) {
+        setAdminApiKey(trimmedAdminKey)
+      }
 
       const result = await setActiveQuestionFile(selectedFile)
       const nextHistory = Array.isArray(result?.questionSetHistory) ? result.questionSetHistory : questionSetHistory
@@ -116,9 +150,22 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
       }, 400)
     } catch (err) {
       console.error('Failed to save selection:', err)
-      setError(err.message)
+      setError(formatUiError(err))
       setSaving(false)
     }
+  }
+
+  function handleRememberAdminKey() {
+    const trimmedAdminKey = adminApiKey.trim()
+    setAdminApiKey(trimmedAdminKey)
+    setAdminApiKeyValue(trimmedAdminKey)
+    setError(null)
+  }
+
+  function handleClearAdminKey() {
+    setAdminApiKey('')
+    setAdminApiKeyValue('')
+    setError(null)
   }
 
   function getDisplayName(fileName) {
@@ -219,6 +266,29 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
               <span>{error}</span>
             </div>
           )}
+
+          <div className="admin-key-panel">
+            <div className="admin-key-copy">
+              <strong>Admin API Key</strong>
+              <p className="bengali">Question set save/delete করতে হলে Vercel-এর `ADMIN_API_KEY` একবার এখানে দিন।</p>
+            </div>
+            <div className="admin-key-actions">
+              <input
+                type="password"
+                className="admin-key-input"
+                placeholder="ADMIN_API_KEY"
+                value={adminApiKey}
+                onChange={(event) => setAdminApiKeyValue(event.target.value)}
+                autoComplete="off"
+              />
+              <button type="button" className="admin-key-button" onClick={handleRememberAdminKey}>
+                Save Key
+              </button>
+              <button type="button" className="admin-key-button secondary" onClick={handleClearAdminKey}>
+                Clear
+              </button>
+            </div>
+          </div>
 
           <div className="filter-section">
             <div className="search-container">

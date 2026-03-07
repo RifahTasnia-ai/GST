@@ -1,9 +1,33 @@
-const LOCAL_ACTIVE_FILE_KEY = 'local_active_question_file'
 const ADMIN_API_KEY_STORAGE = 'teacher_admin_api_key'
 const ADMIN_API_KEY_ENV = import.meta.env.VITE_ADMIN_API_KEY || ''
 
 function getAdminApiKey() {
   return localStorage.getItem(ADMIN_API_KEY_STORAGE) || ADMIN_API_KEY_ENV
+}
+
+async function extractApiErrorMessage(res, fallbackMessage) {
+  try {
+    const data = await res.json()
+    if (typeof data?.error === 'string' && data.error.trim()) {
+      return data.error
+    }
+    if (typeof data?.message === 'string' && data.message.trim()) {
+      return data.message
+    }
+  } catch (_) {
+    // ignore JSON parse failures and try text fallback below
+  }
+
+  try {
+    const text = await res.text()
+    if (text) {
+      return text
+    }
+  } catch (_) {
+    // ignore text read failures
+  }
+
+  return fallbackMessage
 }
 
 function withAdminHeaders(baseHeaders = {}) {
@@ -49,8 +73,7 @@ export async function deleteSubmission(studentName, timestamp) {
   }
 
   if (!res.ok) {
-    const text = await res.text()
-    throw new Error(text || 'Failed to delete submission')
+    throw new Error(await extractApiErrorMessage(res, 'Failed to delete submission'))
   }
 
   return res.json()
@@ -69,8 +92,7 @@ export async function deleteStudent(studentName) {
   }
 
   if (!res.ok) {
-    const text = await res.text()
-    throw new Error(text || 'Failed to delete student')
+    throw new Error(await extractApiErrorMessage(res, 'Failed to delete student'))
   }
 
   return res.json()
@@ -93,24 +115,6 @@ export async function loadSubmissions() {
 
   const data = await res.json()
   return data
-}
-
-export async function loadLatestQuestions() {
-  for (let version = 100; version >= 1; version--) {
-    const fileName = `questions-${version}.json`
-    try {
-      const res = await fetch(`/${fileName}`)
-      if (res.ok) {
-        const text = await res.text()
-        JSON.parse(text)
-        return { file: fileName, version }
-      }
-    } catch (error) {
-      continue
-    }
-  }
-
-  return { file: 'questions.json', version: 0 }
 }
 
 export async function savePendingStudent(studentName, timestamp = null, progressData = {}) {
@@ -200,11 +204,6 @@ export async function loadQuestionFiles() {
 }
 
 export async function getActiveQuestionFile() {
-  const localOverride = localStorage.getItem(LOCAL_ACTIVE_FILE_KEY)
-  if (localOverride) {
-    return { activeFile: localOverride, source: 'local-override' }
-  }
-
   let res;
   try {
     res = await fetch('/api/active-question', {
@@ -238,35 +237,23 @@ export async function getActiveQuestionFile() {
 }
 
 export async function setActiveQuestionFile(fileName) {
-  const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   let res;
   try {
     res = await fetch('/api/active-question', {
       method: 'POST',
-      headers: {
+      headers: withAdminHeaders({
         'Content-Type': 'application/json',
-        'x-admin-key': getAdminApiKey()
-      },
+      }),
       body: JSON.stringify({ fileName })
     });
   } catch (fetchErr) {
-    if (isLocalhost) {
-      localStorage.setItem(LOCAL_ACTIVE_FILE_KEY, fileName)
-      return { success: true, activeFile: fileName, localOnly: true }
-    }
     throw fetchErr;
   }
 
   if (!res.ok) {
-    if (isLocalhost) {
-      localStorage.setItem(LOCAL_ACTIVE_FILE_KEY, fileName)
-      return { success: true, activeFile: fileName, localOnly: true }
-    }
-    const text = await res.text()
-    throw new Error(text || 'Failed to set active question file')
+    throw new Error(await extractApiErrorMessage(res, 'Failed to set active question file'))
   }
 
-  localStorage.setItem(LOCAL_ACTIVE_FILE_KEY, fileName)
   return res.json()
 }
 
@@ -276,6 +263,10 @@ export function setAdminApiKey(apiKey) {
     return
   }
   localStorage.setItem(ADMIN_API_KEY_STORAGE, apiKey)
+}
+
+export function getStoredAdminApiKey() {
+  return getAdminApiKey()
 }
 
 
