@@ -1,10 +1,3 @@
-const ADMIN_API_KEY_STORAGE = 'teacher_admin_api_key'
-const ADMIN_API_KEY_ENV = import.meta?.env?.VITE_ADMIN_API_KEY || ''
-
-function getAdminApiKey() {
-  return localStorage.getItem(ADMIN_API_KEY_STORAGE) || ADMIN_API_KEY_ENV
-}
-
 async function extractApiErrorMessage(res, fallbackMessage) {
   try {
     const data = await res.json()
@@ -28,15 +21,6 @@ async function extractApiErrorMessage(res, fallbackMessage) {
   }
 
   return fallbackMessage
-}
-
-function withAdminHeaders(baseHeaders = {}) {
-  const adminKey = getAdminApiKey()
-  if (!adminKey) return baseHeaders
-  return {
-    ...baseHeaders,
-    'x-admin-key': adminKey,
-  }
 }
 
 export async function saveSubmission(payload) {
@@ -64,7 +48,7 @@ export async function deleteSubmission(studentName, timestamp) {
   try {
     res = await fetch('/api/delete-answer', {
       method: 'POST',
-      headers: withAdminHeaders({ 'Content-Type': 'application/json' }),
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ studentName, timestamp })
     })
   } catch (fetchErr) {
@@ -83,7 +67,7 @@ export async function deleteStudent(studentName) {
   try {
     res = await fetch('/api/delete-student', {
       method: 'POST',
-      headers: withAdminHeaders({ 'Content-Type': 'application/json' }),
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ studentName })
     })
   } catch (fetchErr) {
@@ -238,9 +222,9 @@ export async function setActiveQuestionFile(fileName) {
   try {
     res = await fetch('/api/active-question', {
       method: 'POST',
-      headers: withAdminHeaders({
+      headers: {
         'Content-Type': 'application/json',
-      }),
+      },
       body: JSON.stringify({ fileName })
     });
   } catch (fetchErr) {
@@ -252,18 +236,6 @@ export async function setActiveQuestionFile(fileName) {
   }
 
   return res.json()
-}
-
-export function setAdminApiKey(apiKey) {
-  if (!apiKey) {
-    localStorage.removeItem(ADMIN_API_KEY_STORAGE)
-    return
-  }
-  localStorage.setItem(ADMIN_API_KEY_STORAGE, apiKey)
-}
-
-export function getStoredAdminApiKey() {
-  return getAdminApiKey()
 }
 
 
