@@ -13,6 +13,23 @@ function buildStudentNotice(fileName) {
   }
 }
 
+function appendQuestionSetHistory(history, fileName, activatedAt) {
+  const safeHistory = Array.isArray(history) ? history : []
+  const lastEntry = safeHistory[safeHistory.length - 1]
+
+  if (lastEntry?.fileName === fileName) {
+    return safeHistory
+  }
+
+  return [
+    ...safeHistory,
+    {
+      fileName,
+      activatedAt,
+    },
+  ]
+}
+
 async function validateQuestionFile(fileName) {
   const filePath = path.join(process.cwd(), 'public', fileName)
   const content = await fs.readFile(filePath, 'utf-8')
@@ -31,10 +48,16 @@ export default async function handler(req, res) {
         setAt: config?.lastUpdated || null,
         isDefault: activeFile === 'questions.json',
         studentNotice: config?.studentNotice || null,
+        questionSetHistory: Array.isArray(config?.questionSetHistory) ? config.questionSetHistory : [],
       })
     } catch (error) {
       console.error('active-question GET error:', error)
-      return res.status(200).json({ activeFile: 'questions.json', setAt: null, isDefault: true })
+      return res.status(200).json({
+        activeFile: 'questions.json',
+        setAt: null,
+        isDefault: true,
+        questionSetHistory: [],
+      })
     }
   }
 
@@ -54,10 +77,14 @@ export default async function handler(req, res) {
 
       const now = new Date().toISOString()
       const studentNotice = buildStudentNotice(fileName)
+      const currentConfig = await getExamConfig()
+      const questionSetHistory = appendQuestionSetHistory(currentConfig?.questionSetHistory, fileName, now)
+
       await setExamConfig({
         activeQuestionFile: fileName,
         lastUpdated: now,
         studentNotice,
+        questionSetHistory,
       })
 
       return res.status(200).json({
@@ -65,6 +92,7 @@ export default async function handler(req, res) {
         activeFile: fileName,
         message: 'Updated successfully',
         studentNotice,
+        questionSetHistory,
       })
     } catch (error) {
       console.error('active-question POST error:', error)

@@ -1,265 +1,378 @@
-import { useState, useEffect } from 'react'
-import { loadQuestionFiles, getActiveQuestionFile, setActiveQuestionFile } from '../../utils/api'
+import { useEffect, useMemo, useState } from 'react'
+import { getActiveQuestionFile, loadQuestionFiles, setActiveQuestionFile } from '../../utils/api'
 import './QuestionSetModal.css'
 
+function sortByDisplayName(a, b) {
+  return a.displayName.localeCompare(b.displayName, undefined, { numeric: true, sensitivity: 'base' })
+}
+
+function formatFileSize(bytes) {
+  if (bytes < 1024) return `${bytes} B`
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`
+}
+
+function formatDate(dateString) {
+  if (!dateString) return 'Unknown'
+  const date = new Date(dateString)
+  if (Number.isNaN(date.getTime())) return 'Unknown'
+  return date.toLocaleDateString('en-GB', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+  })
+}
+
+function getSubjectMatch(activeSubject, file) {
+  if (activeSubject === 'all') return true
+
+  const name = file.name.toLowerCase()
+  const displayName = file.displayName.toLowerCase()
+
+  if (activeSubject === 'math') {
+    return name.includes('math') || displayName.includes('math') || displayName.includes('গণিত')
+  }
+
+  return name.includes(activeSubject) || displayName.includes(activeSubject)
+}
+
+function badgeForFile(file, hasUnsavedSelection) {
+  if (file.isActive) {
+    return { label: 'চলমান', className: 'active-badge' }
+  }
+
+  if (file.isSelected && hasUnsavedSelection) {
+    return { label: 'নির্বাচিত', className: 'selected-badge' }
+  }
+
+  if (file.isUsedBefore) {
+    return { label: 'আগে ব্যবহৃত', className: 'used-badge' }
+  }
+
+  return null
+}
+
 function QuestionSetModal({ isOpen, onClose, onSave }) {
-    const [questionFiles, setQuestionFiles] = useState([])
-    const [activeFile, setActiveFile] = useState(null)
-    const [selectedFile, setSelectedFile] = useState(null)
-    const [loading, setLoading] = useState(false)
-    const [error, setError] = useState(null)
-    const [saving, setSaving] = useState(false)
+  const [questionFiles, setQuestionFiles] = useState([])
+  const [questionSetHistory, setQuestionSetHistory] = useState([])
+  const [activeFile, setActiveFile] = useState(null)
+  const [selectedFile, setSelectedFile] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [activeSubject, setActiveSubject] = useState('all')
 
-    const [searchQuery, setSearchQuery] = useState('')
-    const [activeSubject, setActiveSubject] = useState('all')
+  useEffect(() => {
+    if (!isOpen) return
+    loadData()
+    setSearchQuery('')
+    setActiveSubject('all')
+  }, [isOpen])
 
-    useEffect(() => {
-        if (isOpen) {
-            loadData()
-            setSearchQuery('')
-            setActiveSubject('all')
-        }
-    }, [isOpen])
+  async function loadData() {
+    try {
+      setLoading(true)
+      setError(null)
 
-    async function loadData() {
-        try {
-            setLoading(true)
-            setError(null)
+      const [files, activeConfig] = await Promise.all([
+        loadQuestionFiles(),
+        getActiveQuestionFile(),
+      ])
 
-            const [files, activeConfig] = await Promise.all([
-                loadQuestionFiles(),
-                getActiveQuestionFile()
-            ])
+      setQuestionFiles(files)
+      setActiveFile(activeConfig.activeFile)
+      setSelectedFile(activeConfig.activeFile)
+      setQuestionSetHistory(Array.isArray(activeConfig.questionSetHistory) ? activeConfig.questionSetHistory : [])
+    } catch (err) {
+      console.error('Failed to load question files:', err)
+      setError(err.message)
+    } finally {
+      setLoading(false)
+    }
+  }
 
-            setQuestionFiles(files)
-            setActiveFile(activeConfig.activeFile)
-            setSelectedFile(activeConfig.activeFile)
-        } catch (err) {
-            console.error('Failed to load question files:', err)
-            setError(err.message)
-        } finally {
-            setLoading(false)
-        }
+  async function handleSave() {
+    if (!selectedFile || selectedFile === activeFile) {
+      return
     }
 
-    async function handleSave() {
-        if (!selectedFile) {
-            setError('অনুগ্রহ করে একটি প্রশ্ন সেট নির্বাচন করুন')
-            return
-        }
+    try {
+      setSaving(true)
+      setError(null)
 
-        try {
-            setSaving(true)
-            setError(null)
+      const result = await setActiveQuestionFile(selectedFile)
+      const nextHistory = Array.isArray(result?.questionSetHistory) ? result.questionSetHistory : questionSetHistory
 
-            await setActiveQuestionFile(selectedFile)
+      setActiveFile(selectedFile)
+      setQuestionSetHistory(nextHistory)
 
-            // Call parent callback
-            if (onSave) {
-                onSave(selectedFile)
-            }
+      if (onSave) {
+        onSave(selectedFile)
+      }
 
-            // Close modal after short delay
-            setTimeout(() => {
-                onClose()
-            }, 500)
-        } catch (err) {
-            console.error('Failed to save selection:', err)
-            setError(err.message)
-            setSaving(false)
-        }
+      setTimeout(() => {
+        onClose()
+      }, 400)
+    } catch (err) {
+      console.error('Failed to save selection:', err)
+      setError(err.message)
+      setSaving(false)
     }
+  }
 
-    function handleCardClick(fileName) {
-        setSelectedFile(fileName)
-    }
+  function getDisplayName(fileName) {
+    return questionFiles.find((file) => file.name === fileName)?.displayName || fileName || 'questions.json'
+  }
 
-    function handleKeyDown(e) {
-        if (e.key === 'Escape') {
-            onClose()
-        }
-    }
+  const filteredFiles = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase()
 
-    function formatFileSize(bytes) {
-        if (bytes < 1024) return bytes + ' B'
-        if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB'
-        return (bytes / (1024 * 1024)).toFixed(1) + ' MB'
-    }
-
-    function formatDate(dateString) {
-        const date = new Date(dateString)
-        return date.toLocaleDateString('en-GB', {
-            day: '2-digit',
-            month: 'short',
-            year: 'numeric'
-        })
-    }
-
-    // Filter logic
-    const filteredFiles = questionFiles.filter(file => {
-        const name = file.name.toLowerCase()
-        const displayName = file.displayName.toLowerCase()
-        const query = searchQuery.toLowerCase()
-
-        // Search filter
-        const matchesSearch = name.includes(query) || displayName.includes(query)
-
-        // Subject filter
-        let matchesSubject = true
-        if (activeSubject !== 'all') {
-            if (activeSubject === 'math') {
-                matchesSubject = name.includes('math') || displayName.includes('math') || displayName.includes('গণিত')
-            } else {
-                matchesSubject = name.includes(activeSubject) || displayName.includes(activeSubject)
-            }
-        }
-
-        return matchesSearch && matchesSubject
+    return questionFiles.filter((file) => {
+      const name = file.name.toLowerCase()
+      const displayName = file.displayName.toLowerCase()
+      const matchesSearch = !query || name.includes(query) || displayName.includes(query)
+      return matchesSearch && getSubjectMatch(activeSubject, file)
     })
+  }, [activeSubject, questionFiles, searchQuery])
 
-    if (!isOpen) return null
+  const historyMap = useMemo(() => {
+    const map = new Map()
+    questionSetHistory.forEach((entry) => {
+      if (!entry?.fileName) return
+      map.set(entry.fileName, entry.activatedAt)
+    })
+    return map
+  }, [questionSetHistory])
 
-    return (
-        <div className="modal-overlay" onClick={onClose} onKeyDown={handleKeyDown}>
-            <div className="modal-container" onClick={(e) => e.stopPropagation()}>
-                <div className="modal-header">
-                    <h2 className="bengali">প্রশ্ন সেট সেটিংস</h2>
-                    <button className="close-button" onClick={onClose} aria-label="Close">
-                        ×
-                    </button>
-                </div>
+  const hasUnsavedSelection = Boolean(selectedFile && activeFile && selectedFile !== activeFile)
+  const activeVisible = filteredFiles.some((file) => file.name === activeFile)
+  const selectedVisible = filteredFiles.some((file) => file.name === selectedFile)
 
-                <div className="modal-body">
-                    {error && (
-                        <div className="error-message">
-                            <span>⚠️</span> {error}
-                        </div>
-                    )}
+  const enrichedFiles = useMemo(() => {
+    return filteredFiles.map((file) => {
+      const isActive = file.name === activeFile
+      const isSelected = file.name === selectedFile
+      const lastActivatedAt = historyMap.get(file.name) || null
+      const isUsedBefore = historyMap.has(file.name) && !isActive
+      const isNeverUsed = !historyMap.has(file.name) && !isActive
 
-                    <div className="filter-section">
-                        <div className="search-container">
-                            <span className="search-icon">🔍</span>
-                            <input
-                                type="text"
-                                className="search-input bengali"
-                                placeholder="নাম বা আইডি দিয়ে খুঁজুন..."
-                                value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
-                            />
-                        </div>
+      return {
+        ...file,
+        isActive,
+        isSelected,
+        isUsedBefore,
+        isNeverUsed,
+        lastActivatedAt,
+      }
+    })
+  }, [activeFile, filteredFiles, historyMap, selectedFile])
 
-                        <div className="filter-buttons">
-                            <button
-                                className={`filter-btn bengali ${activeSubject === 'all' ? 'active' : ''}`}
-                                onClick={() => setActiveSubject('all')}
-                            >
-                                সব
-                            </button>
-                            <button
-                                className={`filter-btn bengali ${activeSubject === 'biology' ? 'active' : ''}`}
-                                onClick={() => setActiveSubject('biology')}
-                            >
-                                জীববিজ্ঞান
-                            </button>
-                            <button
-                                className={`filter-btn bengali ${activeSubject === 'chemistry' ? 'active' : ''}`}
-                                onClick={() => setActiveSubject('chemistry')}
-                            >
-                                রসায়ন
-                            </button>
-                            <button
-                                className={`filter-btn bengali ${activeSubject === 'physics' ? 'active' : ''}`}
-                                onClick={() => setActiveSubject('physics')}
-                            >
-                                পদার্থবিজ্ঞান
-                            </button>
-                            <button
-                                className={`filter-btn bengali ${activeSubject === 'math' ? 'active' : ''}`}
-                                onClick={() => setActiveSubject('math')}
-                            >
-                                গণিত
-                            </button>
-                        </div>
-                    </div>
+  const sections = useMemo(() => {
+    const active = enrichedFiles.filter((file) => file.isActive).sort(sortByDisplayName)
+    const unused = enrichedFiles
+      .filter((file) => file.isNeverUsed)
+      .sort((a, b) => {
+        if (a.isSelected && !b.isSelected) return -1
+        if (!a.isSelected && b.isSelected) return 1
+        return sortByDisplayName(a, b)
+      })
+    const used = enrichedFiles
+      .filter((file) => file.isUsedBefore)
+      .sort((a, b) => {
+        if (a.isSelected && !b.isSelected) return -1
+        if (!a.isSelected && b.isSelected) return 1
+        return sortByDisplayName(a, b)
+      })
 
-                    {loading ? (
-                        <div className="loading-state">
-                            <div className="spinner"></div>
-                            <p className="bengali">লোড হচ্ছে...</p>
-                        </div>
-                    ) : filteredFiles.length === 0 ? (
-                        <div className="empty-state">
-                            <div className="empty-icon">📭</div>
-                            <h3 className="bengali">কোন প্রশ্ন সেট পাওয়া যায়নি</h3>
-                            <p>আপনার সার্চ ফিল্টার পরিবর্তন করুন</p>
-                        </div>
-                    ) : (
-                        <div className="question-sets-grid">
-                            {filteredFiles.map((file) => {
-                                const isActive = file.name === activeFile
-                                const isSelected = file.name === selectedFile
+    return [
+      { key: 'active', title: 'চলমান সেট', files: active },
+      { key: 'unused', title: 'নতুন / এখনো ব্যবহার হয়নি', files: unused },
+      { key: 'used', title: 'আগে ব্যবহার হয়েছে', files: used },
+    ].filter((section) => section.files.length > 0)
+  }, [enrichedFiles])
 
-                                return (
-                                    <div
-                                        key={file.name}
-                                        className={`question-set-card ${isActive ? 'active' : ''} ${isSelected ? 'selected' : ''}`}
-                                        onClick={() => handleCardClick(file.name)}
-                                        role="button"
-                                        tabIndex={0}
-                                        onKeyDown={(e) => {
-                                            if (e.key === 'Enter' || e.key === ' ') {
-                                                e.preventDefault()
-                                                handleCardClick(file.name)
-                                            }
-                                        }}
-                                    >
-                                        <input
-                                            type="radio"
-                                            name="questionSet"
-                                            value={file.name}
-                                            checked={isSelected}
-                                            onChange={() => handleCardClick(file.name)}
-                                            aria-label={file.displayName}
-                                        />
-                                        <div className="card-content">
-                                            <div className="card-icon">📄</div>
-                                            <div className="card-details">
-                                                <h3 className="card-title">{file.displayName}</h3>
-                                                <div className="card-meta">
-                                                    <span className="file-size">{formatFileSize(file.size)}</span>
-                                                    <span className="file-date">{formatDate(file.lastModified)}</span>
-                                                </div>
-                                            </div>
-                                            {isActive && (
-                                                <span className="active-badge bengali">সক্রিয়</span>
-                                            )}
-                                        </div>
-                                    </div>
-                                )
-                            })}
-                        </div>
-                    )}
-                </div>
+  if (!isOpen) return null
 
-                <div className="modal-footer">
-                    <button
-                        className="cancel-button bengali"
-                        onClick={onClose}
-                        disabled={saving}
-                    >
-                        বাতিল
-                    </button>
-                    <button
-                        className="save-button bengali"
-                        onClick={handleSave}
-                        disabled={loading || saving || !selectedFile}
-                    >
-                        {saving ? 'সংরক্ষণ হচ্ছে...' : 'সংরক্ষণ করুন'}
-                    </button>
-                </div>
-            </div>
+  const currentActiveDisplayName = getDisplayName(activeFile)
+  const selectedDisplayName = getDisplayName(selectedFile)
+  const selectedOutsideFilter = hasUnsavedSelection && !selectedVisible
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div
+        className="modal-container"
+        onClick={(event) => event.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="question-set-modal-title"
+      >
+        <div className="modal-header">
+          <h2 id="question-set-modal-title" className="bengali">প্রশ্ন সেট সেটিংস</h2>
+          <button className="close-button" onClick={onClose} aria-label="Close">×</button>
         </div>
-    )
+
+        <div className="modal-body">
+          {error && (
+            <div className="error-message">
+              <span>⚠️</span>
+              <span>{error}</span>
+            </div>
+          )}
+
+          <div className="filter-section">
+            <div className="search-container">
+              <span className="search-icon">🔍</span>
+              <input
+                type="text"
+                className="search-input bengali"
+                placeholder="নাম বা আইডি দিয়ে খুঁজুন..."
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+              />
+            </div>
+
+            <div className="filter-buttons">
+              {[
+                ['all', 'সব'],
+                ['biology', 'জীববিজ্ঞান'],
+                ['chemistry', 'রসায়ন'],
+                ['physics', 'পদার্থবিজ্ঞান'],
+                ['math', 'গণিত'],
+              ].map(([value, label]) => (
+                <button
+                  key={value}
+                  className={`filter-btn bengali ${activeSubject === value ? 'active' : ''}`}
+                  onClick={() => setActiveSubject(value)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="summary-strip">
+            <div className="summary-row">
+              <span className="summary-label bengali">বর্তমানে চালু</span>
+              <strong>{currentActiveDisplayName}</strong>
+            </div>
+            <div className="summary-row">
+              <span className="summary-label bengali">নির্বাচন অবস্থা</span>
+              <strong className={hasUnsavedSelection ? 'summary-pending' : 'summary-stable'}>
+                {hasUnsavedSelection ? `নতুন নির্বাচন: ${selectedDisplayName}` : 'কোনো পরিবর্তন হয়নি'}
+              </strong>
+            </div>
+          </div>
+
+          {!activeVisible && activeFile && (
+            <div className="filter-warning bengali">
+              চলমান সেটটি বর্তমান ফিল্টারের বাইরে আছে: {currentActiveDisplayName}
+            </div>
+          )}
+
+          {selectedOutsideFilter && (
+            <div className="filter-warning bengali">
+              নির্বাচিত সেট ফিল্টারের বাইরে আছে: {selectedDisplayName}
+            </div>
+          )}
+
+          {loading ? (
+            <div className="loading-state">
+              <div className="spinner"></div>
+              <p className="bengali">লোড হচ্ছে...</p>
+            </div>
+          ) : sections.length === 0 ? (
+            <div className="empty-state">
+              <div className="empty-icon">📭</div>
+              <h3 className="bengali">কোন প্রশ্ন সেট পাওয়া যায়নি</h3>
+              <p>আপনার সার্চ বা ফিল্টার পরিবর্তন করুন</p>
+            </div>
+          ) : (
+            <div className="question-set-sections">
+              {sections.map((section) => (
+                <section key={section.key} className="question-set-section">
+                  <div className="section-heading bengali">{section.title}</div>
+                  <div className="question-sets-grid">
+                    {section.files.map((file) => {
+                      const badge = badgeForFile(file, hasUnsavedSelection)
+
+                      return (
+                        <div
+                          key={file.name}
+                          className={[
+                            'question-set-card',
+                            file.isActive ? 'active' : '',
+                            file.isSelected && hasUnsavedSelection ? 'selected' : '',
+                            file.isUsedBefore ? 'used' : '',
+                          ].filter(Boolean).join(' ')}
+                          onClick={() => setSelectedFile(file.name)}
+                          role="button"
+                          tabIndex={0}
+                          onKeyDown={(event) => {
+                            if (event.key === 'Enter' || event.key === ' ') {
+                              event.preventDefault()
+                              setSelectedFile(file.name)
+                            }
+                          }}
+                        >
+                          <input
+                            type="radio"
+                            name="questionSet"
+                            value={file.name}
+                            checked={file.isSelected}
+                            onChange={() => setSelectedFile(file.name)}
+                            aria-label={file.displayName}
+                          />
+                          <div className="card-content">
+                            <div className="card-icon">📄</div>
+                            <div className="card-details">
+                              <h3 className="card-title">{file.displayName}</h3>
+                              <div className="card-meta">
+                                <span className="file-size">{formatFileSize(file.size)}</span>
+                                <span className="file-date">{formatDate(file.lastModified)}</span>
+                              </div>
+                              {file.lastActivatedAt && (
+                                <div className="last-used-meta bengali">
+                                  শেষ চালু: {formatDate(file.lastActivatedAt)}
+                                </div>
+                              )}
+                            </div>
+                            {badge && (
+                              <span className={`${badge.className} bengali`}>{badge.label}</span>
+                            )}
+                          </div>
+                        </div>
+                      )
+                    })}
+                  </div>
+                </section>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <div className="modal-footer">
+          <div className="footer-helper bengali">
+            {hasUnsavedSelection
+              ? `সংরক্ষণ করলে নতুন সেট চালু হবে: ${selectedDisplayName}`
+              : 'বর্তমান সেটই চালু আছে'}
+          </div>
+          <div className="footer-actions">
+            <button className="cancel-button bengali" onClick={onClose} disabled={saving}>
+              বাতিল
+            </button>
+            <button
+              className="save-button bengali"
+              onClick={handleSave}
+              disabled={loading || saving || !selectedFile || !hasUnsavedSelection}
+            >
+              {saving ? 'সংরক্ষণ হচ্ছে...' : 'সংরক্ষণ করুন'}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
 
 export default QuestionSetModal

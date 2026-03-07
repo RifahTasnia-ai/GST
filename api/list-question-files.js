@@ -32,10 +32,12 @@ export default async function handler(req, res) {
     const publicDir = path.join(process.cwd(), 'public')
     const files = fs.readdirSync(publicDir).map((name) => {
       const fullPath = path.join(publicDir, name)
+      const stats = fs.statSync(fullPath)
       return {
         name,
-        type: fs.statSync(fullPath).isFile() ? 'file' : 'dir',
-        size: fs.statSync(fullPath).size,
+        type: stats.isFile() ? 'file' : 'dir',
+        size: stats.size,
+        lastModified: stats.mtime.toISOString(),
       }
     })
 
@@ -56,7 +58,7 @@ export default async function handler(req, res) {
         name: file.name,
         displayName: toDisplayName(file.name),
         size: file.size,
-        lastModified: new Date().toISOString(),
+        lastModified: file.lastModified,
       }))
 
     fileList.sort((a, b) => {
