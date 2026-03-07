@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import './WelcomePage.css'
 
 function WelcomePage() {
-    const navigate = useNavigate()
     const [showNotesPopup, setShowNotesPopup] = useState(false)
 
     function navigateToSection(path) {
         if (path) {
-            navigate(path)
+            window.location.assign(path)
         }
     }
 
@@ -48,7 +46,10 @@ function WelcomePage() {
                     </button>
 
                     {/* Class */}
-                    <button className="welcome-option-card class-card" onClick={() => navigateToSection('/class')}>
+                    <button
+                        className="welcome-option-card class-card"
+                        onClick={() => window.location.assign('https://gst-exam-x648.vercel.app/')}
+                    >
                         <div className="option-icon-wrapper">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />

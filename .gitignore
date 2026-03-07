@@ -5,3 +5,5 @@ dist
 .vercel
 .env*.local
 main.py
+public/html_dump.txt
+public/extracted_html.txt
