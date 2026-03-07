@@ -94,6 +94,8 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
 
   useEffect(() => {
     if (!isOpen) return
+    setSaving(false)
+    setError(null)
     setAdminApiKeyValue(getStoredAdminApiKey())
     loadData()
     setSearchQuery('')
@@ -139,6 +141,7 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
       const nextHistory = Array.isArray(result?.questionSetHistory) ? result.questionSetHistory : questionSetHistory
 
       setActiveFile(selectedFile)
+      setSelectedFile(selectedFile)
       setQuestionSetHistory(nextHistory)
 
       if (onSave) {
@@ -151,6 +154,7 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
     } catch (err) {
       console.error('Failed to save selection:', err)
       setError(formatUiError(err))
+    } finally {
       setSaving(false)
     }
   }
