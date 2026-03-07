@@ -265,17 +265,14 @@
 }
 
 .summary-strip {
-  position: sticky;
-  top: 0;
-  z-index: 2;
   margin-bottom: 20px;
-  padding: 14px 16px;
+  padding: 12px 16px;
   border: 2px solid var(--neo-blue);
   border-radius: var(--neo-border-radius-sm);
-  background: var(--neo-blue-soft);
+  background: var(--neo-white);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
   box-shadow: 2px 2px 0px var(--neo-blue-dark);
 }
 

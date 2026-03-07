@@ -222,6 +222,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
       questionFile,
       subjectStats: scoreData.subjectStats,
       examConfigSnapshot,
+      visited: Array.from(visitedQuestions),
     }
 
     const queueId = queueSubmission(payload)
@@ -276,6 +277,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
       negativeMarking,
       markPerQuestion,
       examConfigSnapshot,
+      visited: Array.from(visitedQuestions),
     })
   }, [
     answers,

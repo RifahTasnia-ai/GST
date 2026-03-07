@@ -586,6 +586,11 @@ table.data-table {
   color: var(--neo-text-muted);
 }
 
+.adm-grid-tile.visited {
+  background: var(--neo-yellow);
+  color: var(--neo-text);
+}
+
 .adm-grid-tile.active {
   border-color: var(--neo-blue);
   transform: scale(1.1);
@@ -624,6 +629,10 @@ table.data-table {
 
 .adm-dot.wrong {
   background: var(--neo-error);
+}
+
+.adm-dot.visited {
+  background: var(--neo-yellow);
 }
 
 .adm-dot.skipped {

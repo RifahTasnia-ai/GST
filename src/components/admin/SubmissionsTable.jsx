@@ -527,17 +527,20 @@ function SubmissionsTable({
               <div className="adm-answer-grid-section">
                 <h3 className="adm-section-title bengali">🗂️ উত্তর ম্যাপ <span className="adm-hint">(ক্লিক করে দেখুন)</span></h3>
                 <div className="adm-answer-grid">
-                  {questions.map(q => {
+                  {questions.map((q, idx) => {
                     const qid = q.id.toString()
                     const ans = (selectedSubmission.answers || {})[qid]
                     const isAnswered = ans !== undefined && ans !== null
                     const isCorrect = isAnswered && q.correctOptionId === ans
-                    const cls = isCorrect ? 'correct' : isAnswered ? 'wrong' : 'skipped'
+                    const visitedArr = selectedSubmission.visited || []
+                    const isSeen = !isAnswered && visitedArr.includes(idx)
+                    const cls = isCorrect ? 'correct' : isAnswered ? 'wrong' : isSeen ? 'visited' : 'skipped'
                     return (
                       <button
                         key={q.id}
                         className={`adm-grid-tile ${cls} ${activeQuestionId === q.id ? 'active' : ''}`}
                         onClick={() => scrollToQuestion(q.id)}
+                        title={isSeen ? 'দেখেছে কিন্তু উত্তর দেয়নি' : undefined}
                       >
                         {q.id}
                       </button>
@@ -547,6 +550,7 @@ function SubmissionsTable({
                 <div className="adm-grid-legend">
                   <span><span className="adm-dot correct" />সঠিক</span>
                   <span><span className="adm-dot wrong" />ভুল</span>
+                  <span><span className="adm-dot visited" />দেখেছে</span>
                   <span><span className="adm-dot skipped" />বাদ</span>
                 </div>
               </div>
@@ -721,6 +725,8 @@ function SubmissionsTable({
                         Object.keys(answers).filter(k => answers[k] !== undefined && answers[k] !== null)
                       )
                       const hasQuestionsLoaded = spectateQuestions.length > 0
+                      const visitedArr = spectatingStudent.visited || []
+                      const visitedSet = new Set(visitedArr)
 
                       return Array.from({ length: spectateTotalQuestions }, (_, i) => {
                         const qNum = i + 1
@@ -728,22 +734,22 @@ function SubmissionsTable({
                         let answerVal = null
 
                         if (hasQuestionsLoaded && spectateQuestions[i]) {
-                          // question file লোড হয়েছে: সঠিক question id দিয়ে check করো
                           const qId = spectateQuestions[i].id.toString()
                           hasAnswer = answeredKeys.has(qId)
                           answerVal = answers[qId]
                         } else {
-                          // fallback: position number দিয়ে check করো
                           hasAnswer = answeredKeys.has(qNum.toString())
                           answerVal = answers[qNum.toString()]
                         }
 
                         const isCurrent = qNum === Number(spectatingStudent.currentQuestion || 0)
+                        const isSeen = !hasAnswer && visitedSet.has(i)
+                        const tileCls = hasAnswer ? 'correct' : isSeen ? 'visited' : 'skipped'
                         return (
                           <div
                             key={qNum}
-                            className={`adm-grid-tile ${hasAnswer ? 'correct' : 'skipped'} ${isCurrent ? 'active' : ''}`}
-                            title={hasAnswer ? `উত্তর: ${answerVal}` : 'উত্তর দেয়নি'}
+                            className={`adm-grid-tile ${tileCls} ${isCurrent ? 'active' : ''}`}
+                            title={hasAnswer ? `উত্তর: ${answerVal}` : isSeen ? 'দেখেছে কিন্তু উত্তর দেয়নি' : 'উত্তর দেয়নি'}
                             style={isCurrent ? { outline: '2px solid #6366f1', outlineOffset: '1px' } : {}}
                           >
                             {qNum}
@@ -755,6 +761,7 @@ function SubmissionsTable({
                   </div>
                   <div className="adm-grid-legend">
                     <span><span className="adm-dot correct" />উত্তর দিয়েছে</span>
+                    <span><span className="adm-dot visited" />দেখেছে</span>
                     <span><span className="adm-dot skipped" />বাকি আছে</span>
                     <span>🟣 বর্তমান প্রশ্ন</span>
                   </div>
