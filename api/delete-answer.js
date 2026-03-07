@@ -5,11 +5,6 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const adminKey = process.env.ADMIN_API_KEY
-  if (adminKey && req.headers['x-admin-key'] !== adminKey) {
-    return res.status(401).json({ error: 'Unauthorized' })
-  }
-
   const { studentName, timestamp } = req.body || {}
   if (!studentName || !timestamp) {
     return res.status(400).json({ error: 'studentName and timestamp required' })

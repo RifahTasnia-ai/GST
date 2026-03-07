@@ -1,11 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import {
-  getActiveQuestionFile,
-  getStoredAdminApiKey,
-  loadQuestionFiles,
-  setActiveQuestionFile,
-  setAdminApiKey,
-} from '../../utils/api'
+import { getActiveQuestionFile, loadQuestionFiles, setActiveQuestionFile } from '../../utils/api'
 import './QuestionSetModal.css'
 
 function sortByDisplayName(a, b) {
@@ -51,11 +45,15 @@ function badgeForFile(file, hasUnsavedSelection) {
     return { label: 'নির্বাচিত', className: 'selected-badge' }
   }
 
-  if (file.isUsedBefore) {
-    return { label: 'আগে ব্যবহৃত', className: 'used-badge' }
+  return null
+}
+
+function archiveBadgeForFile(file, hasUnsavedSelection) {
+  if (file.isSelected && hasUnsavedSelection) {
+    return { label: 'পুনরায় নির্বাচন', className: 'selected-badge' }
   }
 
-  return null
+  return { label: 'আগে ব্যবহৃত', className: 'used-badge' }
 }
 
 function formatUiError(error) {
@@ -70,13 +68,10 @@ function formatUiError(error) {
         message = parsed.message
       }
     } catch (_) {
-      // keep original message when it is not valid JSON
+      // keep original text
     }
   }
 
-  if (message.toLowerCase().includes('unauthorized')) {
-    return 'Admin API key মেলেনি। Vercel-এর ADMIN_API_KEY এই বক্সে দিন, তারপর আবার সংরক্ষণ করুন।'
-  }
   return message
 }
 
@@ -85,21 +80,21 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
   const [questionSetHistory, setQuestionSetHistory] = useState([])
   const [activeFile, setActiveFile] = useState(null)
   const [selectedFile, setSelectedFile] = useState(null)
-  const [adminApiKey, setAdminApiKeyValue] = useState('')
   const [loading, setLoading] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
   const [activeSubject, setActiveSubject] = useState('all')
+  const [showArchive, setShowArchive] = useState(false)
 
   useEffect(() => {
     if (!isOpen) return
     setSaving(false)
     setError(null)
-    setAdminApiKeyValue(getStoredAdminApiKey())
-    loadData()
+    setShowArchive(false)
     setSearchQuery('')
     setActiveSubject('all')
+    loadData()
   }, [isOpen])
 
   async function loadData() {
@@ -132,10 +127,6 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
     try {
       setSaving(true)
       setError(null)
-      const trimmedAdminKey = adminApiKey.trim()
-      if (trimmedAdminKey) {
-        setAdminApiKey(trimmedAdminKey)
-      }
 
       const result = await setActiveQuestionFile(selectedFile)
       const nextHistory = Array.isArray(result?.questionSetHistory) ? result.questionSetHistory : questionSetHistory
@@ -143,6 +134,7 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
       setActiveFile(selectedFile)
       setSelectedFile(selectedFile)
       setQuestionSetHistory(nextHistory)
+      setShowArchive(false)
 
       if (onSave) {
         onSave(selectedFile)
@@ -157,19 +149,6 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
     } finally {
       setSaving(false)
     }
-  }
-
-  function handleRememberAdminKey() {
-    const trimmedAdminKey = adminApiKey.trim()
-    setAdminApiKey(trimmedAdminKey)
-    setAdminApiKeyValue(trimmedAdminKey)
-    setError(null)
-  }
-
-  function handleClearAdminKey() {
-    setAdminApiKey('')
-    setAdminApiKeyValue('')
-    setError(null)
   }
 
   function getDisplayName(fileName) {
@@ -197,8 +176,6 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
   }, [questionSetHistory])
 
   const hasUnsavedSelection = Boolean(selectedFile && activeFile && selectedFile !== activeFile)
-  const activeVisible = filteredFiles.some((file) => file.name === activeFile)
-  const selectedVisible = filteredFiles.some((file) => file.name === selectedFile)
 
   const enrichedFiles = useMemo(() => {
     return filteredFiles.map((file) => {
@@ -228,26 +205,36 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
         if (!a.isSelected && b.isSelected) return 1
         return sortByDisplayName(a, b)
       })
-    const used = enrichedFiles
-      .filter((file) => file.isUsedBefore)
-      .sort((a, b) => {
-        if (a.isSelected && !b.isSelected) return -1
-        if (!a.isSelected && b.isSelected) return 1
-        return sortByDisplayName(a, b)
-      })
 
     return [
       { key: 'active', title: 'চলমান সেট', files: active },
       { key: 'unused', title: 'নতুন / এখনো ব্যবহার হয়নি', files: unused },
-      { key: 'used', title: 'আগে ব্যবহার হয়েছে', files: used },
     ].filter((section) => section.files.length > 0)
   }, [enrichedFiles])
+
+  const archiveFiles = useMemo(() => {
+    const latestHistory = new Map()
+    questionSetHistory.forEach((entry) => {
+      if (!entry?.fileName) return
+      latestHistory.set(entry.fileName, entry.activatedAt)
+    })
+
+    return questionFiles
+      .filter((file) => latestHistory.has(file.name) && file.name !== activeFile)
+      .map((file) => ({
+        ...file,
+        isSelected: file.name === selectedFile,
+        lastActivatedAt: latestHistory.get(file.name),
+      }))
+      .sort((a, b) => new Date(b.lastActivatedAt || 0) - new Date(a.lastActivatedAt || 0))
+  }, [activeFile, questionFiles, questionSetHistory, selectedFile])
 
   if (!isOpen) return null
 
   const currentActiveDisplayName = getDisplayName(activeFile)
   const selectedDisplayName = getDisplayName(selectedFile)
-  const selectedOutsideFilter = hasUnsavedSelection && !selectedVisible
+  const archiveCount = archiveFiles.length
+  const isArchiveSelection = hasUnsavedSelection && archiveFiles.some((file) => file.name === selectedFile)
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -260,7 +247,18 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
       >
         <div className="modal-header">
           <h2 id="question-set-modal-title" className="bengali">প্রশ্ন সেট সেটিংস</h2>
-          <button className="close-button" onClick={onClose} aria-label="Close">×</button>
+          <div className="modal-header-actions">
+            <button
+              type="button"
+              className={`archive-toggle ${showArchive ? 'active' : ''}`}
+              onClick={() => setShowArchive((prev) => !prev)}
+              title="পুরাতন সেট দেখুন"
+            >
+              <span className="archive-toggle-icon">🗂</span>
+              <span className="archive-toggle-count">{archiveCount}</span>
+            </button>
+            <button className="close-button" onClick={onClose} aria-label="Close">×</button>
+          </div>
         </div>
 
         <div className="modal-body">
@@ -270,29 +268,6 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
               <span>{error}</span>
             </div>
           )}
-
-          <div className="admin-key-panel">
-            <div className="admin-key-copy">
-              <strong>Admin API Key</strong>
-              <p className="bengali">Question set save/delete করতে হলে Vercel-এর `ADMIN_API_KEY` একবার এখানে দিন।</p>
-            </div>
-            <div className="admin-key-actions">
-              <input
-                type="password"
-                className="admin-key-input"
-                placeholder="ADMIN_API_KEY"
-                value={adminApiKey}
-                onChange={(event) => setAdminApiKeyValue(event.target.value)}
-                autoComplete="off"
-              />
-              <button type="button" className="admin-key-button" onClick={handleRememberAdminKey}>
-                Save Key
-              </button>
-              <button type="button" className="admin-key-button secondary" onClick={handleClearAdminKey}>
-                Clear
-              </button>
-            </div>
-          </div>
 
           <div className="filter-section">
             <div className="search-container">
@@ -336,17 +311,64 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
                 {hasUnsavedSelection ? `নতুন নির্বাচন: ${selectedDisplayName}` : 'কোনো পরিবর্তন হয়নি'}
               </strong>
             </div>
+            <div className="summary-row">
+              <span className="summary-label bengali">পুরাতন সেট</span>
+              <button
+                type="button"
+                className="summary-archive-link bengali"
+                onClick={() => setShowArchive((prev) => !prev)}
+              >
+                {showArchive ? 'লুকান' : `দেখুন (${archiveCount})`}
+              </button>
+            </div>
           </div>
 
-          {!activeVisible && activeFile && (
-            <div className="filter-warning bengali">
-              চলমান সেটটি বর্তমান ফিল্টারের বাইরে আছে: {currentActiveDisplayName}
-            </div>
-          )}
+          {showArchive && (
+            <div className="archive-panel">
+              <div className="archive-panel-header">
+                <div>
+                  <strong className="bengali">পুরাতন সেট</strong>
+                  <p className="bengali">এখান থেকে আগের ব্যবহার করা সেট আবার বেছে নিতে পারবেন।</p>
+                </div>
+              </div>
 
-          {selectedOutsideFilter && (
-            <div className="filter-warning bengali">
-              নির্বাচিত সেট ফিল্টারের বাইরে আছে: {selectedDisplayName}
+              {archiveFiles.length === 0 ? (
+                <div className="archive-empty bengali">এখনও কোনো পুরাতন সেট নেই।</div>
+              ) : (
+                <div className="archive-list">
+                  {archiveFiles.map((file) => {
+                    const badge = archiveBadgeForFile(file, hasUnsavedSelection)
+
+                    return (
+                      <div
+                        key={file.name}
+                        className={[
+                          'archive-item',
+                          file.isSelected && isArchiveSelection ? 'selected' : '',
+                        ].filter(Boolean).join(' ')}
+                      >
+                        <div className="archive-item-main">
+                          <div className="archive-item-title-row">
+                            <strong>{file.displayName}</strong>
+                            <span className={`${badge.className} bengali archive-item-badge`}>{badge.label}</span>
+                          </div>
+                          <div className="archive-item-meta">
+                            <span>{formatFileSize(file.size)}</span>
+                            <span>শেষ চালু: {formatDate(file.lastActivatedAt)}</span>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="archive-use-button bengali"
+                          onClick={() => setSelectedFile(file.name)}
+                        >
+                          পুনরায় ব্যবহার
+                        </button>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
             </div>
           )}
 
@@ -377,7 +399,6 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
                             'question-set-card',
                             file.isActive ? 'active' : '',
                             file.isSelected && hasUnsavedSelection ? 'selected' : '',
-                            file.isUsedBefore ? 'used' : '',
                           ].filter(Boolean).join(' ')}
                           onClick={() => setSelectedFile(file.name)}
                           role="button"
@@ -405,11 +426,6 @@ function QuestionSetModal({ isOpen, onClose, onSave }) {
                                 <span className="file-size">{formatFileSize(file.size)}</span>
                                 <span className="file-date">{formatDate(file.lastModified)}</span>
                               </div>
-                              {file.lastActivatedAt && (
-                                <div className="last-used-meta bengali">
-                                  শেষ চালু: {formatDate(file.lastActivatedAt)}
-                                </div>
-                              )}
                             </div>
                             {badge && (
                               <span className={`${badge.className} bengali`}>{badge.label}</span>

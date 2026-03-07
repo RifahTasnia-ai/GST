@@ -14,7 +14,6 @@ Recommended Vercel secrets:
 
 ```bash
 FIREBASE_SERVICE_ACCOUNT_JSON=<full firebase service account json>
-ADMIN_API_KEY=<strong secret used by protected admin actions>
 ```
 
 Alternative Firebase setup if you do not want the one-variable JSON secret:
@@ -23,13 +22,6 @@ Alternative Firebase setup if you do not want the one-variable JSON secret:
 FIREBASE_PROJECT_ID=<firebase project id>
 FIREBASE_CLIENT_EMAIL=<service account client email>
 FIREBASE_PRIVATE_KEY=<service account private key>
-ADMIN_API_KEY=<strong secret used by protected admin actions>
-```
-
-Optional frontend env:
-
-```bash
-VITE_ADMIN_API_KEY=<same value as ADMIN_API_KEY if you want it bundled into the frontend>
 ```
 
 ## Local Development
@@ -48,14 +40,13 @@ If Firebase env vars are missing, the server falls back to local JSON storage fo
 5. Redeploy after env changes.
 
 ## Admin Notes
-- Admin-protected endpoints require `ADMIN_API_KEY`.
-- The question-set modal now includes an `Admin API Key` input so you can save the key in browser storage once.
+- Question set changes and delete actions now run directly from the admin UI.
 - After migration, old `GITHUB_*` Vercel variables are no longer required for runtime.
 
 ## Question Set Flow
 - Active question set is stored in runtime config.
 - Question files are listed from `public/`.
-- Used question sets are tracked in config history and shown lower in the admin modal.
+- Used question sets are tracked in config history and shown from the archive icon in the admin modal.
 
 ## Core Endpoints
 - `GET /api/active-question`

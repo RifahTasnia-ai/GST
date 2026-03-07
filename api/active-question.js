@@ -62,11 +62,6 @@ export default async function handler(req, res) {
   }
 
   if (req.method === 'POST') {
-    const adminKey = process.env.ADMIN_API_KEY
-    if (adminKey && req.headers['x-admin-key'] !== adminKey) {
-      return res.status(401).json({ error: 'Unauthorized' })
-    }
-
     try {
       const { fileName } = req.body || {}
       if (!fileName || typeof fileName !== 'string' || !fileName.endsWith('.json')) {
