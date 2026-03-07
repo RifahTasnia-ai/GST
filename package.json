@@ -16,6 +16,7 @@
     "@fontsource/inter": "^5.2.8",
     "@fontsource/noto-sans-bengali": "^5.2.11",
     "cheerio": "^1.2.0",
+    "firebase-admin": "^13.7.0",
     "html2canvas": "^1.4.1",
     "katex": "^0.16.27",
     "react": "^18.2.0",

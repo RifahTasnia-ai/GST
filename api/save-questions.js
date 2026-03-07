@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { getExamConfig, setExamConfig } from "../lib/runtimeStore.js";
 
 // CORS headers so the script injected into porikkhok.com can POST back to us
 const CORS_HEADERS = {
@@ -24,15 +25,7 @@ function buildUploadNotice(fileName, questionCount) {
 }
 
 async function updateExamConfigWithUploadNotice(fileName, questionCount) {
-    const configPath = path.join(process.cwd(), "exam-config.json");
-    let config = {};
-
-    try {
-        const existing = await fs.readFile(configPath, "utf-8");
-        config = JSON.parse(existing);
-    } catch (err) {
-        if (err?.code !== "ENOENT") throw err;
-    }
+    const config = await getExamConfig();
 
     const updated = {
         ...config,
@@ -41,7 +34,7 @@ async function updateExamConfigWithUploadNotice(fileName, questionCount) {
         studentNotice: buildUploadNotice(fileName, questionCount),
     };
 
-    await fs.writeFile(configPath, JSON.stringify(updated, null, 2), "utf-8");
+    await setExamConfig(updated);
 }
 
 function sleep(ms) {

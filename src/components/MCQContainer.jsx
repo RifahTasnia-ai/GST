@@ -42,6 +42,7 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
   const lastSaveRef = useRef(0)
   const saveTimerRef = useRef(null)
   const timeLeftRef = useRef(timeLeft)
+  const progressSyncTimerRef = useRef(null)
 
   // Keep timeLeftRef in sync without triggering re-renders
   useEffect(() => {
@@ -211,6 +212,18 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
     setShowExitConfirm(true)
   }, [])
 
+  const syncLiveProgress = useCallback(async () => {
+    if (status !== STATUS.RUNNING || !studentName) return null
+
+    return savePendingStudent(studentName, null, {
+      answers,
+      currentQuestion: currentQuestionIndex + 1,
+      answeredCount: Object.keys(answers).length,
+      totalQuestions: questions?.length || 0,
+      questionFile,
+    })
+  }, [status, studentName, answers, currentQuestionIndex, questions, questionFile])
+
   // All useEffect hooks must be called before any returns
   useEffect(() => {
     if (!questions || questions.length === 0) return
@@ -288,19 +301,13 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
           }
         }
         // Send Spectre heartbeat so admin sees the student is still active
-        savePendingStudent(studentName, null, {
-          answers,
-          currentQuestion: currentQuestionIndex + 1,
-          answeredCount: Object.keys(answers).length,
-          totalQuestions: questions?.length || 0,
-          questionFile
-        }).catch(err => console.error('Visibility heartbeat failed:', err))
+        syncLiveProgress().catch(err => console.error('Visibility heartbeat failed:', err))
       }
     }
 
     document.addEventListener('visibilitychange', onVisibilityChange)
     return () => document.removeEventListener('visibilitychange', onVisibilityChange)
-  }, [status, studentName, answers, currentQuestionIndex, questions, questionFile, handleSubmit])
+  }, [status, handleSubmit, syncLiveProgress])
 
   // Safety check for current question index
   useEffect(() => {
@@ -309,64 +316,32 @@ function MCQContainer({ questions, studentName, questionFile = 'questions.json',
     }
   }, [currentQuestionIndex, questions])
 
-  // Track pending students - First after 1 minute (registered with Spectre), then heartbeat every 2 min
-  // 2 min interval = 4x fewer Vercel invocations vs 30s (saves monthly quota)
+  // Register immediately, sync on each MCQ interaction, and keep a light heartbeat running.
+  useEffect(() => {
+    if (status !== STATUS.RUNNING || !questions?.length) return
+
+    if (!pendingSentRef.current) {
+      pendingSentRef.current = true
+      syncLiveProgress().catch((err) => console.error('Failed to register live session:', err))
+    }
+
+    clearTimeout(progressSyncTimerRef.current)
+    progressSyncTimerRef.current = setTimeout(() => {
+      syncLiveProgress().catch((err) => console.error('Failed to sync live progress:', err))
+    }, 250)
+
+    return () => clearTimeout(progressSyncTimerRef.current)
+  }, [status, questions, syncLiveProgress])
+
   useEffect(() => {
     if (status !== STATUS.RUNNING) return
 
-    const ONE_MINUTE = 1 * 60 * 1000
-    const TWO_MINUTES = 2 * 60 * 1000
-
-    // 1. Initial trigger after 1 minute — register student with Spectre
-    const initialTimer = setTimeout(() => {
-      if (!pendingSentRef.current) {
-        pendingSentRef.current = true  // WK-4: ref guard, never resets between renders
-        savePendingStudent(studentName, null, {
-          answers,
-          currentQuestion: currentQuestionIndex + 1,
-          answeredCount: Object.keys(answers).length,
-          totalQuestions: questions.length,
-          questionFile
-        })
-          .then((result) => {
-            // WK-5: Re-anchor exam clock to SERVER time to defeat localStorage tampering
-            // Server returns serverTimestamp = when the heartbeat was received (1 min into exam)
-            if (result?.serverTimestamp) {
-              const serverNow = new Date(result.serverTimestamp).getTime()
-              // Exam really started ~1 minute before this heartbeat
-              const serverExamStart = serverNow - ONE_MINUTE
-              // Only recalibrate if the drift is more than 5s (avoids noise)
-              if (Math.abs(examStartTimeRef.current - serverExamStart) > 5000) {
-                console.warn('Clock recalibrated from server:', {
-                  local: new Date(examStartTimeRef.current).toISOString(),
-                  server: new Date(serverExamStart).toISOString()
-                })
-                examStartTimeRef.current = serverExamStart
-              }
-            }
-          })
-          .catch(err => console.error('Failed to save pending student (1 min):', err))
-      }
-    }, ONE_MINUTE)
-
-    // 2. Heartbeat every 2 minutes (syncs answers for Spectre live view)
-    // Was 30s → now 2min: saves ~75% Vercel function calls per exam
     const heartbeatInterval = setInterval(() => {
-      savePendingStudent(studentName, null, {
-        answers,
-        currentQuestion: currentQuestionIndex + 1,
-        answeredCount: Object.keys(answers).length,
-        totalQuestions: questions.length,
-        questionFile
-      })
-        .catch(err => console.error('Failed to send heartbeat:', err))
-    }, TWO_MINUTES)
+      syncLiveProgress().catch((err) => console.error('Failed to send heartbeat:', err))
+    }, 5000)
 
-    return () => {
-      clearTimeout(initialTimer)
-      clearInterval(heartbeatInterval)
-    }
-  }, [status, studentName, answers, currentQuestionIndex, questions, questionFile])
+    return () => clearInterval(heartbeatInterval)
+  }, [status, syncLiveProgress])
 
   // Background sync for pending submissions (network reconnection handling)
   useEffect(() => {
