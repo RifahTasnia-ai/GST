@@ -229,7 +229,7 @@
       "d": "𝑃 𝐶 𝑙 3 PCl 3 ও 𝑃 𝐶 𝑙 5 PCl 5 উভয়ই বৃদ্ধি পায়"
     },
     "correctAnswer": "a",
-    "explanation": "সাম্যবস্থায় চাপ বৃদ্ধি করলে: PCl5( g)⇌PCl3( g)+Cl2( g) \\mathrm{PCl}_{5}(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_{3}(\\mathrm{~g})+\\mathrm{Cl}_{2}(\\mathrm{~g}) PCl5( g)⇌PCl3( g)+Cl2( g) চাপ দিলে বেশি থেকে কম মৌল এর দিকে যাবে। অর্থাৎ, বিক্রিয়াটি পিছনে যাবে। PCl₃ ও Cl2_22 এর পরিমাণ হ্রাস পাবে।",
+    "explanation": "সাম্যবস্থায় চাপ বৃদ্ধি করলে: \\mathrm{PCl}_{5}(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_{3}(\\mathrm{~g})+\\mathrm{Cl}_{2}(\\mathrm{~g}) PCl5( g)⇌PCl3( g)+Cl2( g) চাপ দিলে বেশি থেকে কম মৌল এর দিকে যাবে। অর্থাৎ, বিক্রিয়াটি পিছনে যাবে। PCl₃ ও এর পরিমাণ হ্রাস পাবে।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -237,7 +237,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "PCl5(g)⇌PCl3(g)+Cl2(g);PCl_5\\left(g\\right)\\rightleftharpoons PCl_3(g)+Cl_2(g);PCl5(g)⇌PCl3(g)+Cl2(g); সাম্যাবস্থায় বিক্রিয়াটিতে চাপ বৃদ্ধি করলে-",
-    "explanationLatex": "সাম্যবস্থায় চাপ বৃদ্ধি করলে: PCl5( g)⇌PCl3( g)+Cl2( g) \\mathrm{PCl}_{5}(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_{3}(\\mathrm{~g})+\\mathrm{Cl}_{2}(\\mathrm{~g}) PCl5( g)⇌PCl3( g)+Cl2( g) চাপ দিলে বেশি থেকে কম মৌল এর দিকে যাবে। অর্থাৎ, বিক্রিয়াটি পিছনে যাবে। PCl₃ ও Cl2_22 এর পরিমাণ হ্রাস পাবে।"
+    "explanationLatex": "সাম্যবস্থায় চাপ বৃদ্ধি করলে: \\mathrm{PCl}_{5}(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_{3}(\\mathrm{~g})+\\mathrm{Cl}_{2}(\\mathrm{~g}) PCl5( g)⇌PCl3( g)+Cl2( g) চাপ দিলে বেশি থেকে কম মৌল এর দিকে যাবে। অর্থাৎ, বিক্রিয়াটি পিছনে যাবে। PCl₃ ও এর পরিমাণ হ্রাস পাবে।"
   },
   {
     "id": 13,
@@ -269,7 +269,7 @@
       "d": "ফসফরাস পেন্টাক্লোরোইডের বিয়োজন"
     },
     "correctAnswer": "a",
-    "explanation": "কার্বনের দহন =C(s)+O2( g)→CO2( g) =C_{(s)}+\\mathrm{O}_{2(\\mathrm{~g})} \\rightarrow \\mathrm{CO}_{2(\\mathrm{~g})} =C(s)+O2( g)→CO2( g) এস্টারিফিকেশন =RCOOH+ROH⇌RCOOR+H2O= \\mathrm{RCOOH}+\\mathrm{ROH} \\rightleftharpoons \\mathrm{RCOOR}+\\mathrm{H}_{2} \\mathrm{O} =RCOOH+ROH⇌RCOOR+H2O হাইড্রোজেন আয়োডাইড সংশ্লেষণ =H2(g)+I2(g)⇌2HI(g) =H_{2(g)}+I_{2(g) }\\rightleftharpoons 2 H I_{(g)} =H2(g)+I2(g)⇌2HI(g) ফসফরাস পেন্টাক্লোরোইডের =PCl5+H2O⇌H3PO4+HCl =\\mathrm{PCl}_{5}+\\mathrm{H}_{2} \\mathrm{O} \\rightleftharpoons \\mathrm{H}_{3} \\mathrm{PO}_{4}+\\mathrm{HCl} =PCl5+H2O⇌H3PO4+HCl",
+    "explanation": "কার্বনের দহন =\\mathrm{O}_{2(\\mathrm{~g})} \\rightarrow \\mathrm{CO}_{2(\\mathrm{~g})} =C(s)+O2( g)এস্টারিফিকেশন =\\mathrm{RCOOH}+\\mathrm{ROH} \\rightleftharpoons \\mathrm{RCOOR}+\\mathrm{H}_{2} \\mathrm{O} =RCOOH+ROH⇌RCOOR+H2O হাইড্রোজেন আয়োডাইড সংশ্লেষণ =\\rightleftharpoons 2 H I_{(g)} =H2(g)+I2(g)⇌2HI(g) ফসফরাস পেন্টাক্লোরোইডের =\\mathrm{PCl}_{5}+\\mathrm{H}_{2} \\mathrm{O} \\rightleftharpoons \\mathrm{H}_{3} \\mathrm{PO}_{4}+\\mathrm{HCl} =PCl5+H2O⇌H3PO4+HCl",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -277,7 +277,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোনটি একমুখী বিক্রিয়া?",
-    "explanationLatex": "$কার্বনের দহন =C(s)+O2( g)→CO2( g) =C_{(s)}+\\mathrm{O}_{2(\\mathrm{~g})} \\rightarrow \\mathrm{CO}_{2(\\mathrm{~g})} =C(s)+O2( g)→CO2( g) এস্টারিফিকেশন =RCOOH+ROH⇌RCOOR+H2O= \\mathrm{RCOOH}+\\mathrm{ROH} \\rightleftharpoons \\mathrm{RCOOR}+\\mathrm{H}_{2} \\mathrm{O} =RCOOH+ROH⇌RCOOR+H2O হাইড্রোজেন আয়োডাইড সংশ্লেষণ =H2(g)+I2(g)⇌2HI(g) =H_{2(g)}+I_{2(g) }\\rightleftharpoons 2 H I_{(g)} =H2(g)+I2(g)⇌2HI(g) ফসফরাস পেন্টাক্লোরোইডের =PCl5+H2O⇌H3PO4+HCl =\\mathrm{PCl}_{5}+\\mathrm{H}_{2} \\mathrm{O} \\rightleftharpoons \\mathrm{H}_{3} \\mathrm{PO}_{4}+\\mathrm{HCl} =PCl5+H2O⇌H3PO4+HCl$"
+    "explanationLatex": "কার্বনের দহন =\\mathrm{O}_{2(\\mathrm{~g})} \\rightarrow \\mathrm{CO}_{2(\\mathrm{~g})} =C(s)+O2( g)এস্টারিফিকেশন =\\mathrm{RCOOH}+\\mathrm{ROH} \\rightleftharpoons \\mathrm{RCOOR}+\\mathrm{H}_{2} \\mathrm{O} =RCOOH+ROH⇌RCOOR+H2O হাইড্রোজেন আয়োডাইড সংশ্লেষণ =\\rightleftharpoons 2 H I_{(g)} =H2(g)+I2(g)⇌2HI(g) ফসফরাস পেন্টাক্লোরোইডের =\\mathrm{PCl}_{5}+\\mathrm{H}_{2} \\mathrm{O} \\rightleftharpoons \\mathrm{H}_{3} \\mathrm{PO}_{4}+\\mathrm{HCl} =PCl5+H2O⇌H3PO4+HCl"
   },
   {
     "id": 15,
@@ -309,7 +309,7 @@
       "d": "mol2dm-6s-1"
     },
     "correctAnswer": "c",
-    "explanation": "−dcdt=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1 -\\frac{\\mathrm{dc}}{\\mathrm{dt}}=\\mathrm{k}[\\mathrm{A}][\\mathrm{B}] \\Rightarrow \\mathrm{k}=\\mathrm{mol}^{-1} \\mathrm{Ls}^{-1}=\\mathrm{mol}^{-1} \\mathrm{dm}^{3} \\mathrm{~s}^{-1} −dtdc=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1",
+    "explanation": "−\\frac{\\mathrm{dc}}{\\mathrm{dt}}=\\mathrm{k}[\\mathrm{A}][\\mathrm{B}] \\Rightarrow \\mathrm{k}=\\mathrm{mol}^{-1} \\mathrm{Ls}^{-1}=\\mathrm{mol}^{-1} \\mathrm{dm}^{3} \\mathrm{~s}^{-1} −dtdc=k[A][B]",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -317,7 +317,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "The rate of reaction A+ B→ product is K [A] [B]. What is the unit of the rate constant?",
-    "explanationLatex": "$−dcdt=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1 -\\frac{\\mathrm{dc}}{\\mathrm{dt}}=\\mathrm{k}[\\mathrm{A}][\\mathrm{B}] \\Rightarrow \\mathrm{k}=\\mathrm{mol}^{-1} \\mathrm{Ls}^{-1}=\\mathrm{mol}^{-1} \\mathrm{dm}^{3} \\mathrm{~s}^{-1} −dtdc=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1$"
+    "explanationLatex": "−\\frac{\\mathrm{dc}}{\\mathrm{dt}}=\\mathrm{k}[\\mathrm{A}][\\mathrm{B}] \\Rightarrow \\mathrm{k}=\\mathrm{mol}^{-1} \\mathrm{Ls}^{-1}=\\mathrm{mol}^{-1} \\mathrm{dm}^{3} \\mathrm{~s}^{-1} −dtdc=k[A][B]"
   },
   {
     "id": 17,
@@ -489,7 +489,7 @@
       "d": "2.66×104 min"
     },
     "correctAnswer": "d",
-    "explanation": "k=0.6934000min⁡−1⇒t=1kln⁡aa−x=40000.693ln⁡100l=2.66×104 min \\mathrm{k}=\\frac{0.693}{4000} \\min ^{-1} \\Rightarrow \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\frac{\\mathrm{a}}{\\mathrm{a}-\\mathrm{x}}=\\frac{4000}{0.693} \\ln \\frac{100}{\\mathrm{l}}=2.66 \\times 10^{4} \\mathrm{~min} k=40000.693min−1⇒t=k1lna−xa=0.6934000lnl100=2.66×104 min.",
+    "explanation": "\\mathrm{k}=\\frac{0.693}{4000} \\min ^{-1} \\Rightarrow \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\frac{\\mathrm{a}}{\\mathrm{a}-\\mathrm{x}}=\\frac{4000}{0.693} \\ln \\frac{100}{\\mathrm{l}}=2.66 \\times 10^{4} \\mathrm{~min} k=40000.693min−1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -497,7 +497,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$35^{\\\\circ}C তাপমাত্রায় নাইট্রোজেন পেন্টাঅক্সাইডের বিয়োজনের অর্ধায়ু 4000min। বিক্রিয়ার 99% সম্পন্ন হতে কত সময় প্রয়োজন হবে?$",
-    "explanationLatex": "$k=0.6934000min⁡−1⇒t=1kln⁡aa−x=40000.693ln⁡100l=2.66\\ \\times 104 min \\mathrm{k}=\\frac{0.693}{4000} \\min ^{-1} \\Rightarrow \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\frac{\\mathrm{a}}{\\mathrm{a}-\\mathrm{x}}=\\frac{4000}{0.693} \\ln \\frac{100}{\\mathrm{l}}=2.66 \\times 10^{4} \\mathrm{~min} k=40000.693min−1⇒t=k1lna−xa=0.6934000lnl100=2.66\\ \\times 104 min.$"
+    "explanationLatex": "\\times 104 min \\mathrm{k}=\\frac{0.693}{4000} \\min ^{-1} \\Rightarrow \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\frac{\\mathrm{a}}{\\mathrm{a}-\\mathrm{x}}=\\frac{4000}{0.693} \\ln \\frac{100}{\\mathrm{l}}=2.66 \\times 10^{4} \\mathrm{~min} k=40000.693min−1\\times 104 min."
   },
   {
     "id": 26,
@@ -669,7 +669,7 @@
       "d": "55"
     },
     "correctAnswer": "c",
-    "explanation": "H2+I2→2HI \\mathrm{H}_{2}+\\mathrm{I}_{2} \\rightarrow 2 \\mathrm{HI} H2+I2→2HI a−αb−α2α a-\\alpha \\quad b-\\alpha \\quad 2 \\alpha a−αb−α2α α=102=5 \\begin{aligned} \\alpha & =\\frac{10}{2} =5\\end{aligned} α=210=5 [H2]=a−α=15−5=10 \\begin{aligned} {[H_2] =a-\\alpha } & =15-5 =10\\end{aligned} [H2]=a−α=15−5=10 [I2]=b−α=5⋅2.5=0.2 \\begin{aligned} {\\left[I_{2}\\right]=b-\\alpha } & =5 \\cdot 2.5 =0.2\\end{aligned} [I2]=b−α=5⋅2.5=0.2 Kc=[HI]2[I2][H2]=10210×0.2=100×1010×0.2=50 \\begin{aligned} K_{c} & =\\frac{[H I]^{2}}{\\left[I_{2}\\right]\\left[H_{2}\\right]} \\\\ & =\\frac{10^{2}}{10 \\times 0.2} \\\\ & =\\frac{100 \\times 10}{10 \\times 0.2} \\\\ & =50\\end{aligned} Kc=[I2][H2][HI]2=10×0.2102=10×0.2100×10=50",
+    "explanation": "H2+I2\\mathrm{H}_{2}+\\mathrm{I}_{2} \\rightarrow 2 \\mathrm{HI} H2+I2\\alpha \\quad b-\\alpha \\quad 2 \\alpha a−αb−α2α α=102=5 \\begin{aligned} \\alpha & =\\frac{10}{2} =5\\end{aligned} α=210=5 [H2]=a−α=15−5=10 \\begin{aligned} {[H_2] =a-\\alpha } & =15-5 =10\\end{aligned} [H2]=a−α=15−5=10 [I2]=b−α=5⋅2.5=0.2 \\begin{aligned} {\\left[I_{2}\\right]=b-\\alpha } & =5 \\cdot 2.5 =0.2\\end{aligned} [I2]=b−α=5⋅2.5=0.2 Kc=[HI]2[I2][H2]=10210\\begin{aligned} K_{c} & =\\frac{[H I]^{2}}{\\left[I_{2}\\right]\\left[H_{2}\\right]} \\\\ & =\\frac{10^{2}}{10 \\times 0.2} \\\\ & =\\frac{100 \\times 10}{10 \\times 0.2} \\\\ & =50\\end{aligned} Kc=[I2][H2][HI]2=10",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -729,7 +729,7 @@
       "d": "Fe2O2Al3O3SO3"
     },
     "correctAnswer": "a",
-    "explanation": "Fe2O3+2Al→ তাপলোহিত Fe3Al2O3 \\mathrm{Fe}_{2} \\mathrm{O}_{3}+2 \\mathrm{Al} \\xrightarrow[\\text { তাপ}]{\\text {লোহিত }} \\mathrm{Fe}_{3} \\mathrm{Al}_{2} \\mathrm{O}_{3} Fe2O3+2Alলোহিত তাপFe3Al2O3",
+    "explanation": "→ তাপলোহিত \\mathrm{Fe}_{2} \\mathrm{O}_{3}+2 \\mathrm{Al} \\xrightarrow[\\text { তাপ}]{\\text {লোহিত }} \\mathrm{Fe}_{3} \\mathrm{Al}_{2} \\mathrm{O}_{3} Fe2O3+2Alলোহিত তাপ",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ফেরিক অক্সাইড এর সাথে অ্যালুমিনিয়াম মিশিয়ে লোহিত তাপে উত্তপ্ত করলে কি ঘটে?",
-    "explanationLatex": "Fe2O3+2Al→ তাপলোহিত Fe3Al2O3 \\mathrm{Fe}_{2} \\mathrm{O}_{3}+2 \\mathrm{Al} \\xrightarrow[\\text { তাপ}]{\\text {লোহিত }} \\mathrm{Fe}_{3} \\mathrm{Al}_{2} \\mathrm{O}_{3} Fe2O3+2Alলোহিত তাপFe3Al2O3"
+    "explanationLatex": "→ তাপলোহিত \\mathrm{Fe}_{2} \\mathrm{O}_{3}+2 \\mathrm{Al} \\xrightarrow[\\text { তাপ}]{\\text {লোহিত }} \\mathrm{Fe}_{3} \\mathrm{Al}_{2} \\mathrm{O}_{3} Fe2O3+2Alলোহিত তাপ"
   },
   {
     "id": 38,
@@ -849,7 +849,7 @@
       "d": "সোডিয়াম, পটাসিয়াম, ক্যালসিয়াম"
     },
     "correctAnswer": "d",
-    "explanation": "(i) সোডিয়াম: 2Na+2H2O→2NaOH+H2 2 \\mathrm{Na}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{NaOH}+\\mathrm{H}_{2} 2Na+2H2O→2NaOH+H2 (ii) পটাসিয়াম: 2 K+2H2O→2KOH+H2 2 \\mathrm{~K}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{KOH}+\\mathrm{H}_{2} 2 K+2H2O→2KOH+H2 (iii) ক্যালসিয়াস: Ca+2H2O→Ca(OH)2+H2 \\mathrm{Ca}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{H}_{2} Ca+2H2O→Ca(OH)2+H2",
+    "explanation": "(i) সোডিয়াম: \\mathrm{Na}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{NaOH}+\\mathrm{H}_{2} 2Na+2H2Oপটাসিয়াম: \\mathrm{~K}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{KOH}+\\mathrm{H}_{2} 2 K+2H2Oক্যালসিয়াস: \\mathrm{Ca}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{H}_{2} Ca+2H2O",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -857,7 +857,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কক্ষ তাপমাত্রায় পানি কোনগুলোর সাথে বিক্রিয়া করে-",
-    "explanationLatex": "(i) সোডিয়াম: 2Na+2H2O→2NaOH+H2 2 \\mathrm{Na}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{NaOH}+\\mathrm{H}_{2} 2Na+2H2O→2NaOH+H2 (ii) পটাসিয়াম: 2 K+2H2O→2KOH+H2 2 \\mathrm{~K}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{KOH}+\\mathrm{H}_{2} 2 K+2H2O→2KOH+H2 (iii) ক্যালসিয়াস: Ca+2H2O→Ca(OH)2+H2 \\mathrm{Ca}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{H}_{2} Ca+2H2O→Ca(OH)2+H2"
+    "explanationLatex": "(i) সোডিয়াম: \\mathrm{Na}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{NaOH}+\\mathrm{H}_{2} 2Na+2H2Oপটাসিয়াম: \\mathrm{~K}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{KOH}+\\mathrm{H}_{2} 2 K+2H2Oক্যালসিয়াস: \\mathrm{Ca}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{H}_{2} Ca+2H2O"
   },
   {
     "id": 44,

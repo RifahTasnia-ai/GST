@@ -109,7 +109,7 @@
       "d": "31.58 % 31.58%"
     },
     "correctAnswer": "d",
-    "explanation": "P2=2519×3.2=4.21 atm%0ΔP=4.21−3.23.2×100%=31.5.8% \\begin{aligned} P_{2} & =\\frac{25}{19} \\times 3.2 \\\\ & =4.21 \\mathrm{~atm} \\\\ \\%_{0} \\Delta P & =\\frac{4.21-3.2}{3.2} \\times 100 \\% \\\\ & =31.5 .8 \\%\\end{aligned} P2%0ΔP=1925×3.2=4.21 atm=3.24.21−3.2×100%=31.5.8%",
+    "explanation": "\\begin{aligned} P_{2} & =\\frac{25}{19} \\times 3.2 \\\\ & =4.21 \\mathrm{~atm} \\\\ \\%_{0} \\Delta P & =\\frac{4.21-3.2}{3.2} \\times 100 \\% \\\\ & =31.5 .8 \\%\\end{aligned} P2%0ΔP=1925",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -121,7 +121,7 @@
   },
   {
     "id": 7,
-    "question": "0.64 m0.64\\ m0.64 m পারদস্তম্ভ চাপে এবং 35oC35^oC35oC তাপমাত্রায় কোনো গ্যাসের আয়তন 6×10−4m36\\times{10}^{-4}m^36×10−4m3 । প্রমাণ চাপ ও তাপমাত্রায় গ্যাসের আয়তন কত?",
+    "question": "পারদস্তম্ভ চাপে এবং তাপমাত্রায় কোনো গ্যাসের আয়তন 6\\times{10}^{-4}m^36প্রমাণ চাপ ও তাপমাত্রায় গ্যাসের আয়তন কত?",
     "options": {
       "a": "5.05 × 10 − 4 𝑚 3 5.05×10 −4 m 3",
       "b": "6.32 × 10 − 4 𝑚 3 6.32×10 −4 m 3",
@@ -137,7 +137,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$0.64 m0.64\\ m0.64 m পারদস্তম্ভ চাপে এবং 35oC35^oC35oC তাপমাত্রায় কোনো গ্যাসের আয়তন 6\\ \\times 10−4m36 \\times {10}^{-4}m^36\\ \\times 10−4m3 । প্রমাণ চাপ ও তাপমাত্রায় গ্যাসের আয়তন কত?$",
-    "explanationLatex": "$সঠিক উত্তর: (d) 4.5 \\ \\times 10 − 4 𝑚 3 4.5\\ \\times 10 −4 m 3।$"
+    "explanationLatex": "সঠিক উত্তর: (\\times 10 − 4 𝑚 3 4.5\\ \\times 10 −4 m 3।"
   },
   {
     "id": 8,
@@ -149,7 +149,7 @@
       "d": "8.32 x 107 erg.mol-1k-1"
     },
     "correctAnswer": "a",
-    "explanation": "S. I এককে R এর মান = 8.314 J mol-1k-1 R=PVnT=101325×22.4×10−3273=8.31Jk−1 mol−1 \\begin{aligned} R & =\\frac{P V}{n T} \\\\ & =\\frac{101325 \\times 22.4 \\times 10^{-3}}{273} \\\\ & =8.31 \\mathrm{Jk}^{-1} \\mathrm{~mol}^{-1}\\end{aligned} R=nTPV=273101325×22.4×10−3=8.31Jk−1 mol−1",
+    "explanation": "S. I এককে R এর মান = \\begin{aligned} R & =\\frac{P V}{n T} \\\\ & =\\frac{101325 \\times 22.4 \\times 10^{-3}}{273} \\\\ & =8.31 \\mathrm{Jk}^{-1} \\mathrm{~mol}^{-1}\\end{aligned} R=nTPV=273101325",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -169,7 +169,7 @@
       "d": "আর্দশ গ্যাস সমীকরন"
     },
     "correctAnswer": "a",
-    "explanation": "বয়েলের সূত্র PV=K⇒V=KP⇒P1 V1=P2 V2=K \\mathrm{PV}=\\mathrm{K} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{K}}{\\mathrm{P}} \\Rightarrow \\mathrm{P}_{1} \\mathrm{~V}_{1}=\\mathrm{P}_{2} \\mathrm{~V}_{2}=\\mathrm{K} PV=K⇒V=PK⇒P1 V1=P2 V2=K চার্লসের সূত্র: V∝T⇒V=KT⇒V1T1=V2T2=K,Vt=VO(1+t273) V \\propto T \\Rightarrow V=K T \\Rightarrow \\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}=K, V_{t}=V_{O}\\left(1+\\frac{t}{273}\\right) V∝T⇒V=KT⇒T1V1=T2V2=K,Vt=VO(1+273t) চাপের সূত্র : P=KT⇒P1T1=P2T2=K P=K T \\Rightarrow \\frac{P_{1}}{T_{1}}=\\frac{P_{2}}{T_{2}}=K P=KT⇒T1P1=T2P2=K আদর্শগ্যাস সমীকরণ : PV=nRT,n=PVRT⇒WM=PVRT⇒d=PMRT P V=n R T, n=\\frac{P V}{R T} \\Rightarrow \\frac{W}{M}=\\frac{P V}{R T} \\Rightarrow d=\\frac{P M}{R T} PV=nRT,n=RTPV⇒MW=RTPV⇒d=RTPM",
+    "explanation": "বয়েলের সূত্র PV=K\\mathrm{PV}=\\mathrm{K} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{K}}{\\mathrm{P}} \\Rightarrow \\mathrm{P}_{1} \\mathrm{~V}_{1}=\\mathrm{P}_{2} \\mathrm{~V}_{2}=\\mathrm{K} PV=Kচার্লসের সূত্র: V∝T\\propto T \\Rightarrow V=K T \\Rightarrow \\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}=K, V_{t}=V_{O}\\left(1+\\frac{t}{273}\\right) V∝Tচাপের সূত্র : P=KT\\Rightarrow \\frac{P_{1}}{T_{1}}=\\frac{P_{2}}{T_{2}}=K P=KTআদর্শগ্যাস সমীকরণ : \\frac{P V}{R T} \\Rightarrow \\frac{W}{M}=\\frac{P V}{R T} \\Rightarrow d=\\frac{P M}{R T} PV=nRT,n=RTPV",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -177,7 +177,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$PV=K সমকরনটি সাধানভাবে কোন সূত্রের প্রকাশ?$",
-    "explanationLatex": "$বয়েলের সূত্র PV=K⇒V=KP⇒P1 V1=P2 V2=K \\mathrm{PV}=\\mathrm{K} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{K}}{\\mathrm{P}} \\Rightarrow \\mathrm{P}_{1} \\mathrm{~V}_{1}=\\mathrm{P}_{2} \\mathrm{~V}_{2}=\\mathrm{K} PV=K⇒V=PK⇒P1 V1=P2 V2=K চার্লসের সূত্র: V\\\\propto T⇒V=KT⇒V1T1=V2T2=K,Vt=VO(1+t273) V \\propto T \\Rightarrow V=K T \\Rightarrow \\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}=K, V_{t}=V_{O}\\left(1+\\frac{t}{273}\\right) V\\\\propto T⇒V=KT⇒T1V1=T2V2=K,Vt=VO(1+273t) চাপের সূত্র : P=KT⇒P1T1=P2T2=K P=K T \\Rightarrow \\frac{P_{1}}{T_{1}}=\\frac{P_{2}}{T_{2}}=K P=KT⇒T1P1=T2P2=K আদর্শগ্যাস সমীকরণ : PV=nRT,n=PVRT⇒WM=PVRT⇒d=PMRT P V=n R T, n=\\frac{P V}{R T} \\Rightarrow \\frac{W}{M}=\\frac{P V}{R T} \\Rightarrow d=\\frac{P M}{R T} PV=nRT,n=RTPV⇒MW=RTPV⇒d=RTPM$"
+    "explanationLatex": "বয়েলের সূত্র PV=K\\mathrm{PV}=\\mathrm{K} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{K}}{\\mathrm{P}} \\Rightarrow \\mathrm{P}_{1} \\mathrm{~V}_{1}=\\mathrm{P}_{2} \\mathrm{~V}_{2}=\\mathrm{K} PV=Kচার্লসের সূত্র: V\\\\propto T\\propto T \\Rightarrow V=K T \\Rightarrow \\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}=K, V_{t}=V_{O}\\left(1+\\frac{t}{273}\\right) V\\\\propto Tচাপের সূত্র : P=KT\\Rightarrow \\frac{P_{1}}{T_{1}}=\\frac{P_{2}}{T_{2}}=K P=KTআদর্শগ্যাস সমীকরণ : \\frac{P V}{R T} \\Rightarrow \\frac{W}{M}=\\frac{P V}{R T} \\Rightarrow d=\\frac{P M}{R T} PV=nRT,n=RTPV"
   },
   {
     "id": 10,
@@ -349,7 +349,7 @@
       "d": "478.1 𝑚 / 𝑠 478.1m/s"
     },
     "correctAnswer": "b",
-    "explanation": "Crms=3RTM=3×8.31×30028×10−3=516.95 ms−1 \\begin{array}{l}C_{r m{s}}=\\sqrt{\\frac{3 R T}{M}} \\\\ =\\sqrt{\\frac{3 \\times 8.31 \\times 300}{28 \\times 10^{-3}}} \\\\ =516.95 \\mathrm{~ms}^{-1}\\end{array} Crms=M3RT=28×10−33×8.31×300=516.95 ms−1",
+    "explanation": "\\begin{array}{l}C_{r m{s}}=\\sqrt{\\frac{3 R T}{M}} \\\\ =\\sqrt{\\frac{3 \\times 8.31 \\times 300}{28 \\times 10^{-3}}} \\\\ =516.95 \\mathrm{~ms}^{-1}\\end{array} Crms=M3RT=28",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি কণার স্বাধীনতার মাত্রার সংখ্যা 5 হলে শক্তির সমবিভাজন নীতি অনুযায়ী কণাটির মোট শক্তি কত?",
-    "explanationLatex": "$সঠিক উত্তর: (d) 5 𝐾 𝑇 / 2 \\frac{5KT}{2}।$"
+    "explanationLatex": "সঠিক উত্তর: (\\frac{5KT}{2}।"
   },
   {
     "id": 24,
@@ -489,7 +489,7 @@
       "d": "3.44%"
     },
     "correctAnswer": "d",
-    "explanation": "PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m2m1=T2T1⇒Δmm1=(T1−T2T2)×100%=3.448%PV\\ =n_1RT_1,\\ PV=n_2RT_2\\ \\Rightarrow n_1T_1=n_2T_2\\Rightarrow m_1T_1=m_2T_2\\Rightarrow\\frac{m_2}{m_1}=\\frac{T_2}{T_1}\\Rightarrow\\frac{\\Delta m}{m_1}=\\left(\\frac{T_1-T_2}{T_2}\\right)\\times100\\%=3.448\\%PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m1m2=T1T2⇒m1Δm=(T2T1−T2)×100%=3.448%",
+    "explanation": "\\Rightarrow n_1T_1=n_2T_2\\Rightarrow m_1T_1=m_2T_2\\Rightarrow\\frac{m_2}{m_1}=\\frac{T_2}{T_1}\\Rightarrow\\frac{\\Delta m}{m_1}=\\left(\\frac{T_1-T_2}{T_2}\\right)\\times100\\%=3.448\\%PV =n1RT1, PV=n2RT2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -497,7 +497,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি 300m3 আয়তনের কক্ষের বাতাসের তাপমাত্রা 27oC । এয়ারকুলার ব্যবহার করার জন্য বাতাসের তাপমাত্রা কমে 17oC হল।যদি ঘরে বায়ুচাপ সমান থাকে , তবে শতকতা কতভাগ বাতাস ঘরের মধ্যে আসবে বা বাহির হয়ে যাবে?",
-    "explanationLatex": "$PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m2m1=T2T1⇒\\\\Delta mm1=(T1−T2T2)\\ \\times 100%=3.448%PV\\ =n_1RT_1,\\ PV=n_2RT_2\\ \\Rightarrow n_1T_1=n_2T_2\\Rightarrow m_1T_1=m_2T_2\\Rightarrow\\frac{m_2}{m_1}=\\frac{T_2}{T_1}\\Rightarrow\\frac{\\Delta m}{m_1}=\\left(\\frac{T_1-T_2}{T_2}\\right) \\times 100\\%=3.448\\%PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m1m2=T1T2⇒m1\\\\Delta m=(T2T1−T2)\\ \\times 100%=3.448%$"
+    "explanationLatex": "\\Delta mm1=(T1−T2T2)\\ \\times 100%=3.448%PV\\ =n_1RT_1,\\ PV=n_2RT_2\\ \\Rightarrow n_1T_1=n_2T_2\\Rightarrow m_1T_1=m_2T_2\\Rightarrow\\frac{m_2}{m_1}=\\frac{T_2}{T_1}\\Rightarrow\\frac{\\Delta m}{m_1}=\\left(\\frac{T_1-T_2}{T_2}\\right) \\times 100\\%=3.448\\%PV =n1RT1, PV=n2RT2 \\Delta m=(T2T1−T2)\\ \\times 100%=3.448%"
   },
   {
     "id": 26,
@@ -529,7 +529,7 @@
       "d": "𝑇 4 4 T"
     },
     "correctAnswer": "b",
-    "explanation": "PVT=const ∴ PVT=P′V′T′⇒PVT=2P.2VT′=4T\\frac{PV}{T}=const\\ \\ \\therefore\\ \\frac{PV}{T}=\\frac{P'V'}{T'}\\Rightarrow\\frac{PV}{T}=\\frac{2P.2V}{T'}=4TTPV=const ∴ TPV=T′P′V′⇒TPV=T′2P.2V=4T",
+    "explanation": "\\frac{PV}{T}=const\\ \\ \\therefore\\ \\frac{PV}{T}=\\frac{P'V'}{T'}\\Rightarrow\\frac{PV}{T}=\\frac{2P.2V}{T'}=4TTPV=const",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "T তাপমাত্রার এক লিটার বায়ুকে উত্তপ্ত করা হলো যতক্ষণ না বায়ুর চাপ ও আয়তন উভয়ই দ্বিগুন হয়। চূড়ান্ত তাপমাত্রা কত ?",
-    "explanationLatex": "$PVT=const ∴ PVT=P′V′T′⇒PVT=2P.2VT′=4T\\frac{PV}{T}=const\\ \\ \\therefore\\ \\frac{PV}{T}=\\frac{P'V'}{T'}\\Rightarrow\\frac{PV}{T}=\\frac{2P.2V}{T'}=4TTPV=const ∴ TPV=T′P′V′⇒TPV=T′2P.2V=4T$"
+    "explanationLatex": "\\frac{PV}{T}=const\\ \\ \\therefore\\ \\frac{PV}{T}=\\frac{P'V'}{T'}\\Rightarrow\\frac{PV}{T}=\\frac{2P.2V}{T'}=4TTPV=const"
   },
   {
     "id": 28,
@@ -609,7 +609,7 @@
       "d": "327°C"
     },
     "correctAnswer": "d",
-    "explanation": "T2300=42∴T2=600 K=(600−273)∘C=327∘C \\begin{array}{c}\\frac{\\mathrm{T}_{2}}{300}=\\frac{4}{2} \\\\ \\therefore \\mathrm{T}_{2}=600 \\mathrm{~K}=(600-273)^{\\circ} \\mathrm{C}=327^{\\circ} \\mathrm{C}\\end{array} 300T2=24∴T2=600 K=(600−273)∘C=327∘C",
+    "explanation": "\\begin{array}{c}\\frac{\\mathrm{T}_{2}}{300}=\\frac{4}{2} \\\\ \\therefore \\mathrm{T}_{2}=600 \\mathrm{~K}=(600-273)^{\\circ} \\mathrm{C}=327^{\\circ} \\mathrm{C}\\end{array} 300T2=24",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$স্থির চাপে 27^{\\\\circ}C তাপমাত্রায় 2Litre বাতাসের আয়তন 4L করতে হলে উত্তপ্ত করে যে তাপমাত্রায় নিতে হবে।$",
-    "explanationLatex": "$T2300=42∴T2=600 K=(600−273)∘C=327∘C \\begin{array}{c}\\frac{\\mathrm{T}_{2}}{300}=\\frac{4}{2} \\\\ \\therefore \\mathrm{T}_{2}=600 \\mathrm{~K}=(600-273)^{\\circ} \\mathrm{C}=327^{\\circ} \\mathrm{C}\\end{array} 300T2=24∴T2=600 K=(600−273)∘C=327∘C$"
+    "explanationLatex": "\\begin{array}{c}\\frac{\\mathrm{T}_{2}}{300}=\\frac{4}{2} \\\\ \\therefore \\mathrm{T}_{2}=600 \\mathrm{~K}=(600-273)^{\\circ} \\mathrm{C}=327^{\\circ} \\mathrm{C}\\end{array} 300T2=24"
   },
   {
     "id": 32,
@@ -629,7 +629,7 @@
       "d": "262° C"
     },
     "correctAnswer": "c",
-    "explanation": "V1T1=V2T2 ⇒217+273=3T2 ∴T2=435 K=162°C\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\ \\Rightarrow\\frac{2}{17+273}=\\frac{3}{T_2}\\ \\ \\ \\therefore T_2=435\\ K=162°CT1V1=T2V2 ⇒17+2732=T23 ∴T2=435 K=162°C",
+    "explanation": "\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\ \\Rightarrow\\frac{2}{17+273}=\\frac{3}{T_2}\\ \\ \\ \\therefore T_2=435\\ K=162°CT1V1=T2V2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$সমচাপে ও 17^{\\\\circ} C তাপমাত্রায় 2 লিটার বায়ুকে 3 লিটার আয়তন করার জন্য তাপমাত্রা কত হতে হবে ?$",
-    "explanationLatex": "$V1T1=V2T2 ⇒217+273=3T2 ∴T2=435 K=162^{\\\\circ}C\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\ \\Rightarrow\\frac{2}{17+273}=\\frac{3}{T_2}\\ \\ \\ \\therefore T_2=435\\ K=162^{\\\\circ}CT1V1=T2V2 ⇒17+2732=T23 ∴T2=435 K=162^{\\\\circ}C$"
+    "explanationLatex": "\\circ}C\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\ \\Rightarrow\\frac{2}{17+273}=\\frac{3}{T_2}\\ \\ \\ \\therefore T_2=435\\ K=162^{\\\\circ}CT1V1=T2V2 \\circ}C"
   },
   {
     "id": 33,
@@ -669,7 +669,7 @@
       "d": "-173°C"
     },
     "correctAnswer": "b",
-    "explanation": "Ek=32nRT=32×n×R×O(T=0 K)=0 \\begin{aligned} E_{k} & =\\frac{3}{2} n R T \\\\ & =\\frac{3}{2} \\times n \\times R \\times O(T=0 \\mathrm{~K}) \\\\ & =0\\end{aligned} Ek=23nRT=23×n×R×O(T=0 K)=0",
+    "explanation": "\\begin{aligned} E_{k} & =\\frac{3}{2} n R T \\\\ & =\\frac{3}{2} \\times n \\times R \\times O(T=0 \\mathrm{~K}) \\\\ & =0\\end{aligned} Ek=23nRT=23",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -709,7 +709,7 @@
       "d": "80 m 80 m"
     },
     "correctAnswer": "a",
-    "explanation": "V2=4V1 V_{2}=4 V_{1} V2=4V1 P1V1=P2V2P1V1=P2×4V1P1=4P2 \\begin{array}{c} P_{1} V_{1}=P_{2} V_{2} \\\\ P_{1} V_{1}=P_{2} \\times 4 V_{1} \\\\ P_{1}=4 P_{2} \\end{array} P1V1=P2V2P1V1=P2×4V1P1=4P2 P1=4P2 P_{1}=4 P_{2} P1=4P2, Patm +ρgh=4Patm100000+1000×9.8×h=4×100000100000+9800h=4000009800h=300000h=3000009800h≈30.61 m \\begin{array}{c} P_{\\text {atm }}+\\rho g h=4 P_{\\mathrm{atm}} \\\\ 100000+1000 \\times 9.8 \\times h=4 \\times 100000 \\\\ 100000+9800 h=400000 \\\\ 9800 h=300000 \\\\ h=\\frac{300000}{9800} \\\\ h \\approx 30.61 \\mathrm{~m} \\end{array} Patm +ρgh=4Patm100000+1000×9.8×h=4×100000100000+9800h=4000009800h=300000h=9800300000h≈30.61 m",
+    "explanation": "\\begin{array}{c} P_{1} V_{1}=P_{2} V_{2} \\\\ P_{1} V_{1}=P_{2} \\times 4 V_{1} \\\\ P_{1}=4 P_{2} \\end{array} P1V1=P2V2P1V1=P2\\begin{array}{c} P_{\\text {atm }}+\\rho g h=4 P_{\\mathrm{atm}} \\\\ 100000+1000 \\times 9.8 \\times h=4 \\times 100000 \\\\ 100000+9800 h=400000 \\\\ 9800 h=300000 \\\\ h=\\frac{300000}{9800} \\\\ h \\approx 30.61 \\mathrm{~m} \\end{array} Patm +ρgh=4Patm100000+1000",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -717,7 +717,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "বায়ু বুদবুদের পৃষ্ঠের আয়তন চারগুণ বৃদ্ধি পায়, যখন এটি জলের ট্যাঙ্কের নীচে থেকে উপরে ওঠে যেখানে তাপমাত্রা অভিন্ন থাকে। যদি বায়ুমণ্ডলীয় চাপ 10 m10 \\mathrm{~m} 10 m হয়, তাহলে ট্যাঙ্কের পানির গভীরতা কত?",
-    "explanationLatex": "$V2=4V1 V_{2}=4 V_{1} V2=4V1 P1V1=P2V2P1V1=P2\\ \\times 4V1P1=4P2 \\begin{array}{c} P_{1} V_{1}=P_{2} V_{2} \\\\ P_{1} V_{1}=P_{2} \\times 4 V_{1} \\\\ P_{1}=4 P_{2} \\end{array} P1V1=P2V2P1V1=P2\\ \\times 4V1P1=4P2 P1=4P2 P_{1}=4 P_{2} P1=4P2, Patm +ρgh=4Patm100000+1000\\ \\times 9.8\\ \\times h=4\\ \\times 100000100000+9800h=4000009800h=300000h=3000009800h≈30.61 m \\begin{array}{c} P_{\\text {atm }}+\\rho g h=4 P_{\\mathrm{atm}} \\\\ 100000+1000 \\times 9.8 \\times h=4 \\times 100000 \\\\ 100000+9800 h=400000 \\\\ 9800 h=300000 \\\\ h=\\frac{300000}{9800} \\\\ h \\approx 30.61 \\mathrm{~m} \\end{array} Patm +ρgh=4Patm100000+1000\\ \\times 9.8\\ \\times h=4\\ \\times 100000100000+9800h=4000009800h=300000h=9800300000h≈30.61 m$"
+    "explanationLatex": "\\times 4V1P1=4P2 \\begin{array}{c} P_{1} V_{1}=P_{2} V_{2} \\\\ P_{1} V_{1}=P_{2} \\times 4 V_{1} \\\\ P_{1}=4 P_{2} \\end{array} P1V1=P2V2P1V1=P2\\ \\times 4V1P1=4P2 P1=4P2 P_{1}=4 P_{2} P1=4P2, Patm +ρgh=4Patm100000+1000\\ \\times 9.8\\ \\times h=4\\ \\times 100000100000+9800h=4000009800h=300000h=3000009800h\\begin{array}{c} P_{\\text {atm }}+\\rho g h=4 P_{\\mathrm{atm}} \\\\ 100000+1000 \\times 9.8 \\times h=4 \\times 100000 \\\\ 100000+9800 h=400000 \\\\ 9800 h=300000 \\\\ h=\\frac{300000}{9800} \\\\ h \\approx 30.61 \\mathrm{~m} \\end{array} Patm +ρgh=4Patm100000+1000\\ \\times 9.8\\ \\times h=4\\ \\times 100000100000+9800h=4000009800h=300000h=9800300000h"
   },
   {
     "id": 37,
@@ -749,7 +749,7 @@
       "d": "PV=nRT"
     },
     "correctAnswer": "c",
-    "explanation": "n=wm=84=2 mol∴PV=nRT=2RT \\begin{array}{l}n=\\frac{w}{m}=\\frac{8}{4}=2 \\mathrm{~mol} \\\\ \\therefore P V=n R T =2 R T\\end{array} n=mw=48=2 mol∴PV=nRT=2RT n=mol W=mass M=Atomic mass P=Pressure V=Volume",
+    "explanation": "\\begin{array}{l}n=\\frac{w}{m}=\\frac{8}{4}=2 \\mathrm{~mol} \\\\ \\therefore P V=n R T =2 R T\\end{array} n=mw=48=2 mol",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -757,7 +757,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "8gm হিলিয়াম গ্যাসের জন্য আদর্শ গ্যাস সমীকরণ কোনটি?",
-    "explanationLatex": "$n=wm=84=2 mol∴PV=nRT=2RT \\begin{array}{l}n=\\frac{w}{m}=\\frac{8}{4}=2 \\mathrm{~mol} \\\\ \\therefore P V=n R T =2 R T\\end{array} n=mw=48=2 mol∴PV=nRT=2RT n=mol W=mass M=Atomic mass P=Pressure V=Volume$"
+    "explanationLatex": "\\begin{array}{l}n=\\frac{w}{m}=\\frac{8}{4}=2 \\mathrm{~mol} \\\\ \\therefore P V=n R T =2 R T\\end{array} n=mw=48=2 mol"
   },
   {
     "id": 39,
@@ -809,7 +809,7 @@
       "d": "1/4 times"
     },
     "correctAnswer": "a",
-    "explanation": "গ্যাসের প্রাথমিক চাপ, P1=PP_1=PP1=P পরিবর্তিত চাপ, P2=2PP_2=2PP2=2P গ্যাসের প্রাথমিক আয়তন, V1=VV_1=VV1=V পরিবর্তিত আয়তন, V2=?V_2=?V2=? আমরা জানি, P1V1=P2V2⇒V2=P1V1P2 ∴V2=12 VP_1V_1=P_2V_2 \\Rightarrow V_2=\\frac{P_1V_1}{P_2}\\ \\therefore V_2=\\frac{1}{2}\\ VP1V1=P2V2⇒V2=P2P1V1 ∴V2=21 V ∴ আয়তন 12\\frac{1}{2}21 হয়ে যাবে।",
+    "explanation": "গ্যাসের প্রাথমিক চাপ, পরিবর্তিত চাপ, গ্যাসের প্রাথমিক আয়তন, পরিবর্তিত আয়তন, আমরা জানি, \\Rightarrow V_2=\\frac{P_1V_1}{P_2}\\ \\therefore V_2=\\frac{1}{2}\\ VP1V1=P2V2আয়তন 12\\frac{1}{2}21 হয়ে যাবে।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "স্থির তাপমাত্রায় একক আয়তনের গ্যাসের চাপ দ্বিগুণ করলে আয়তন কত হবে?",
-    "explanationLatex": "$গ্যাসের প্রাথমিক চাপ, P1=PP_1=PP1=P পরিবর্তিত চাপ, P2=2PP_2=2PP2=2P গ্যাসের প্রাথমিক আয়তন, V1=VV_1=VV1=V পরিবর্তিত আয়তন, V2=?V_2=?V2=? আমরা জানি, P1V1=P2V2⇒V2=P1V1P2 ∴V2=12 VP_1V_1=P_2V_2 \\Rightarrow V_2=\\frac{P_1V_1}{P_2}\\ \\therefore V_2=\\frac{1}{2}\\ VP1V1=P2V2⇒V2=P2P1V1 ∴V2=21 V ∴ আয়তন 12\\frac{1}{2}21 হয়ে যাবে।$"
+    "explanationLatex": "গ্যাসের প্রাথমিক চাপ, পরিবর্তিত চাপ, গ্যাসের প্রাথমিক আয়তন, পরিবর্তিত আয়তন, আমরা জানি, \\Rightarrow V_2=\\frac{P_1V_1}{P_2}\\ \\therefore V_2=\\frac{1}{2}\\ VP1V1=P2V2আয়তন 12\\frac{1}{2}21 হয়ে যাবে।"
   },
   {
     "id": 42,
@@ -889,7 +889,7 @@
       "d": "586°C"
     },
     "correctAnswer": "c",
-    "explanation": "গ্যাসটির চুড়ান্ত তাপমাত্রা কত? v1T1=v2T2⇒v1293=2v1T2+19.M⇒T2=586 K⇒=313∘c \\begin{aligned} \\frac{v_{1}}{T_{1}} & =\\frac{v_{2}}{T_{2}} \\\\ \\Rightarrow \\frac{v_{1}}{293} & =\\frac{2 v_{1}}{T_{2}}+19 . \\mathrm{M} \\\\ \\Rightarrow T_{2} & =586 \\mathrm{~K} \\\\ \\Rightarrow & =313^{\\circ} \\mathrm{c}\\end{aligned} T1v1⇒293v1⇒T2⇒=T2v2=T22v1+19.M=586 K=313∘c",
+    "explanation": "গ্যাসটির চুড়ান্ত তাপমাত্রা কত? \\begin{aligned} \\frac{v_{1}}{T_{1}} & =\\frac{v_{2}}{T_{2}} \\\\ \\Rightarrow \\frac{v_{1}}{293} & =\\frac{2 v_{1}}{T_{2}}+19 . \\mathrm{M} \\\\ \\Rightarrow T_{2} & =586 \\mathrm{~K} \\\\ \\Rightarrow & =313^{\\circ} \\mathrm{c}\\end{aligned} T1v1",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -897,7 +897,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$20^{\\\\circ}C তাপমাত্রায় একটি গ্যাসের চাপ স্থির রেখে এর আয়তন দ্বিগুণ করা হলো।$",
-    "explanationLatex": "$গ্যাসটির চুড়ান্ত তাপমাত্রা কত? v1T1=v2T2⇒v1293=2v1T2+19.M⇒T2=586 K⇒=313∘c \\begin{aligned} \\frac{v_{1}}{T_{1}} & =\\frac{v_{2}}{T_{2}} \\\\ \\Rightarrow \\frac{v_{1}}{293} & =\\frac{2 v_{1}}{T_{2}}+19 . \\mathrm{M} \\\\ \\Rightarrow T_{2} & =586 \\mathrm{~K} \\\\ \\Rightarrow & =313^{\\circ} \\mathrm{c}\\end{aligned} T1v1⇒293v1⇒T2⇒=T2v2=T22v1+19.M=586 K=313∘c$"
+    "explanationLatex": "গ্যাসটির চুড়ান্ত তাপমাত্রা কত? \\begin{aligned} \\frac{v_{1}}{T_{1}} & =\\frac{v_{2}}{T_{2}} \\\\ \\Rightarrow \\frac{v_{1}}{293} & =\\frac{2 v_{1}}{T_{2}}+19 . \\mathrm{M} \\\\ \\Rightarrow T_{2} & =586 \\mathrm{~K} \\\\ \\Rightarrow & =313^{\\circ} \\mathrm{c}\\end{aligned} T1v1"
   },
   {
     "id": 46,
@@ -941,7 +941,7 @@
   },
   {
     "id": 48,
-    "question": "27 0C তাপমাত্রায় বায়ুর আপেক্ষিক আদ্রর্তা 70% এবং শিশিরাঙ্কে সম্পৃক্ত জলীয়বাষ্প চাপ 14 × \\times × 10-3mHg হলে ঐ তাপমাত্রায় সম্পৃক্ত জলীয়বাষ্পচাপ কত?",
+    "question": "তাপমাত্রায় বায়ুর আপেক্ষিক আদ্রর্তা 70% এবং শিশিরাঙ্কে সম্পৃক্ত জলীয়বাষ্প চাপ 14 × \\times হলে ঐ তাপমাত্রায় সম্পৃক্ত জলীয়বাষ্পচাপ কত?",
     "options": {
       "a": "12 × × 10-3",
       "b": "16 × × 10-3",

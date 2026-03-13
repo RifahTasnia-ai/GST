@@ -29,7 +29,7 @@
       "d": "m h o − 1 mho −1"
     },
     "correctAnswer": "a",
-    "explanation": "পরিবাহিতা, G=1R∵G=1ohm=ohm−1=mho \\begin{array}{l}\\text {পরিবাহিতা, } G=\\frac{1}{R} \\\\ \\because G=\\frac{1}{o h m} \\\\ = ohm^{-1} =m h o \\\\\\end{array} পরিবাহিতা, G=R1∵G=ohm1=ohm−1=mho",
+    "explanation": "পরিবাহিতা, G=1R\\begin{array}{l}\\text {পরিবাহিতা, } G=\\frac{1}{R} \\\\ \\because G=\\frac{1}{o h m} \\\\ = ohm^{-1} =m h o \\\\\\end{array} পরিবাহিতা, G=R1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "তড়িৎ পরিবাহীতার একক নিচের কোনটি?",
-    "explanationLatex": "$পরিবাহিতা, G=1R∵G=1ohm=ohm−1=mho \\begin{array}{l}\\text {পরিবাহিতা, } G=\\frac{1}{R} \\\\ \\because G=\\frac{1}{o h m} \\\\ = ohm^{-1} =m h o \\\\\\end{array} পরিবাহিতা, G=R1∵G=ohm1=ohm−1=mho$"
+    "explanationLatex": "পরিবাহিতা, G=1R\\begin{array}{l}\\text {পরিবাহিতা, } G=\\frac{1}{R} \\\\ \\because G=\\frac{1}{o h m} \\\\ = ohm^{-1} =m h o \\\\\\end{array} পরিবাহিতা, G=R1"
   },
   {
     "id": 3,
@@ -109,7 +109,7 @@
       "d": "6F"
     },
     "correctAnswer": "c",
-    "explanation": "Q=neF⇒Q=1×3F=3F Q=n e F \\Rightarrow Q=1 \\times 3 F=3 F Q=neF⇒Q=1×3F=3F",
+    "explanation": "Q=neF\\Rightarrow Q=1 \\times 3 F=3 F Q=neF",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -117,7 +117,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "AlCl3 দ্রবণে কত বিদ্যুৎ চালনা করলে এক মোল Al সঞ্চিত হবে?",
-    "explanationLatex": "$Q=neF⇒Q=1\\ \\times 3F=3F Q=n e F \\Rightarrow Q=1 \\times 3 F=3 F Q=neF⇒Q=1\\ \\times 3F=3F$"
+    "explanationLatex": "Q=neF\\times 3F=3F Q=n e F \\Rightarrow Q=1 \\times 3 F=3 F Q=neF\\times 3F=3F"
   },
   {
     "id": 7,
@@ -149,7 +149,7 @@
       "d": "19300"
     },
     "correctAnswer": "b",
-    "explanation": "W=MQeF⇒Q=WeFM=20×2×9650040=96500C W=\\frac{\\mathrm{MQ}}{\\mathrm{eF}} \\Rightarrow \\mathrm{Q}=\\frac{\\mathrm{WeF}}{\\mathrm{M}}=\\frac{20 \\times 2 \\times 96500}{40}=96500 \\mathrm{C} W=eFMQ⇒Q=MWeF=4020×2×96500=96500C",
+    "explanation": "\\frac{\\mathrm{MQ}}{\\mathrm{eF}} \\Rightarrow \\mathrm{Q}=\\frac{\\mathrm{WeF}}{\\mathrm{M}}=\\frac{20 \\times 2 \\times 96500}{40}=96500 \\mathrm{C} W=eFMQ",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "গলিত CaCl2 থেকে তড়িৎ বিশ্লেষণ পদ্ধতিতে 20g ক্যালসিয়াম ধাতু নিষ্কাশনে কত‌ কুলম্ব বিদ্যুৎ প্রয়োজন হবে?",
-    "explanationLatex": "$W=MQeF⇒Q=WeFM=20\\ \\times 2\\ \\times 9650040=96500C W=\\frac{\\mathrm{MQ}}{\\mathrm{eF}} \\Rightarrow \\mathrm{Q}=\\frac{\\mathrm{WeF}}{\\mathrm{M}}=\\frac{20 \\times 2 \\times 96500}{40}=96500 \\mathrm{C} W=eFMQ⇒Q=MWeF=4020\\ \\times 2\\ \\times 96500=96500C$"
+    "explanationLatex": "\\times 2\\ \\times 9650040=96500C W=\\frac{\\mathrm{MQ}}{\\mathrm{eF}} \\Rightarrow \\mathrm{Q}=\\frac{\\mathrm{WeF}}{\\mathrm{M}}=\\frac{20 \\times 2 \\times 96500}{40}=96500 \\mathrm{C} W=eFMQ\\times 2\\ \\times 96500=96500C"
   },
   {
     "id": 9,
@@ -169,7 +169,7 @@
       "d": "0.0125 o h m − 1 . 𝑚 − 2 0.0125 ohm −1 .m −2"
     },
     "correctAnswer": "c",
-    "explanation": "κ=1R×lA=0.0125 ohm−1 cm−1\\kappa=\\frac{1}{R}\\times\\frac{l}{A}=0.0125\\ {\\rm ohm}^{-1}\\ cm^{-1} κ=R1×Al=0.0125 ohm−1 cm−1",
+    "explanation": "κ=1R\\kappa=\\frac{1}{R}\\times\\frac{l}{A}=0.0125\\ {\\rm ohm}^{-1}\\ cm^{-1} κ=R1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -429,7 +429,7 @@
       "d": "4 F"
     },
     "correctAnswer": "c",
-    "explanation": "1 mol Cr ক্যাথোডে সঞ্চিত হতে 3F বিদ্যুৎ প্রয়োজন। Q= neF or, Q=1×3×96500or, Q=3 F \\begin{aligned} Q & =\\text { neF } \\\\ \\text {or, } Q & =1 \\times 3 \\times 96500 \\\\\\text {or, } Q & =3 \\mathrm{~F}\\end{aligned} Qor, Qor, Q= neF =1×3×96500=3 F",
+    "explanation": "ক্যাথোডে সঞ্চিত হতে 3F বিদ্যুৎ প্রয়োজন। \\begin{aligned} Q & =\\text { neF } \\\\ \\text {or, } Q & =1 \\times 3 \\times 96500 \\\\\\text {or, } Q & =3 \\mathrm{~F}\\end{aligned} Qor, Qor, Q= neF =1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -509,7 +509,7 @@
       "d": "0.2 𝑐 𝑚 0.2 cm"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, A=(0.6×1.5)cm2=0.9 cm2L=4.5 cm \\begin{aligned} A & =(0.6 \\times 1.5) \\mathrm{cm}^{2} \\\\ & =0.9 \\mathrm{~cm}^{2} \\\\ L & =4.5 \\mathrm{~cm}\\end{aligned} AL=(0.6×1.5)cm2=0.9 cm2=4.5 cm ∴\\therefore∴ কোষ ধ্রুবক =LA=4.5 cm0.9 cm2=5 cm−1 \\begin{array}{l}=\\frac{L}{A} \\\\ =\\frac{4.5 \\mathrm{~cm}}{0.9 \\mathrm{~cm}^{2}} \\\\ =5 \\mathrm{~cm}^{-1}\\end{array} =AL=0.9 cm24.5 cm=5 cm−1",
+    "explanation": "দেওয়া আছে, \\begin{aligned} A & =(0.6 \\times 1.5) \\mathrm{cm}^{2} \\\\ & =0.9 \\mathrm{~cm}^{2} \\\\ L & =4.5 \\mathrm{~cm}\\end{aligned} AL=(0.6\\therefore∴ কোষ ধ্রুবক =\\begin{array}{l}=\\frac{L}{A} \\\\ =\\frac{4.5 \\mathrm{~cm}}{0.9 \\mathrm{~cm}^{2}} \\\\ =5 \\mathrm{~cm}^{-1}\\end{array} =AL=0.9 cm24.5 cm=5 cm−1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -517,7 +517,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন পরিবাহিতা কোষের তড়িৎদ্বারের মাত্রাগুলো হল 0.6 cm ও 1.5 cm এবং তড়িৎদ্বার দুটির মধ্যবর্তী দূরত্ব 4.5 cm হলে ঐ পরিবাহিতা কোষের কোষ ধ্রুবক কত?",
-    "explanationLatex": "$দেওয়া আছে, A=(0.6\\ \\times 1.5)cm2=0.9 cm2L=4.5 cm \\begin{aligned} A & =(0.6 \\times 1.5) \\mathrm{cm}^{2} \\\\ & =0.9 \\mathrm{~cm}^{2} \\\\ L & =4.5 \\mathrm{~cm}\\end{aligned} AL=(0.6\\ \\times 1.5)cm2=0.9 cm2=4.5 cm ∴\\therefore∴ কোষ ধ্রুবক =LA=4.5 cm0.9 cm2=5 cm−1 \\begin{array}{l}=\\frac{L}{A} \\\\ =\\frac{4.5 \\mathrm{~cm}}{0.9 \\mathrm{~cm}^{2}} \\\\ =5 \\mathrm{~cm}^{-1}\\end{array} =AL=0.9 cm24.5 cm=5 cm−1$"
+    "explanationLatex": "দেওয়া আছে, \\times 1.5)cm2=0.9 cm2L=4.5 cm \\begin{aligned} A & =(0.6 \\times 1.5) \\mathrm{cm}^{2} \\\\ & =0.9 \\mathrm{~cm}^{2} \\\\ L & =4.5 \\mathrm{~cm}\\end{aligned} AL=(0.6\\ \\times 1.5)cm2=0.9 cm2=4.5 cm ∴\\therefore∴ কোষ ধ্রুবক =\\begin{array}{l}=\\frac{L}{A} \\\\ =\\frac{4.5 \\mathrm{~cm}}{0.9 \\mathrm{~cm}^{2}} \\\\ =5 \\mathrm{~cm}^{-1}\\end{array} =AL=0.9 cm24.5 cm=5 cm−1"
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "4.31 × 10 − 7 𝑘 𝑔 𝐶 − 1 4.31×10 −7 kg C −1"
     },
     "correctAnswer": "c",
-    "explanation": "W=ZIt⇒Z=WIt=0.20.2×50×60=3.33×10−4gc−1=3.33×10−7kgc−1 \\begin{aligned} W & =Z I t \\\\ \\Rightarrow Z & =\\frac{W}{I t} \\\\ & =\\frac{0.2}{0.2 \\times 50 \\times 60} \\\\ & =3.33 \\times 10^{-4} \\mathrm{gc}^{-1} \\\\ & =3.33 \\times 10^{-7} \\mathrm{kgc}^{-1} \\end{aligned} W⇒Z=ZIt=ItW=0.2×50×600.2=3.33×10−4gc−1=3.33×10−7kgc−1",
+    "explanation": "W=ZIt\\begin{aligned} W & =Z I t \\\\ \\Rightarrow Z & =\\frac{W}{I t} \\\\ & =\\frac{0.2}{0.2 \\times 50 \\times 60} \\\\ & =3.33 \\times 10^{-4} \\mathrm{gc}^{-1} \\\\ & =3.33 \\times 10^{-7} \\mathrm{kgc}^{-1} \\end{aligned} W",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "50 মিনিট ধরে 0.20 অ্যাম্পিয়ার বিদ্যুৎ প্রবাহিত হওয়ায় 0.20 গ্রাম কপার জমা হয়। কপারের রাসায়নিক তুল্য ওজন কত?",
-    "explanationLatex": "$W=ZIt⇒Z=WIt=0.20.2\\ \\times 50\\ \\times 60=3.33\\ \\times 10−4gc−1=3.33\\ \\times 10−7kgc−1 \\begin{aligned} W & =Z I t \\\\ \\Rightarrow Z & =\\frac{W}{I t} \\\\ & =\\frac{0.2}{0.2 \\times 50 \\times 60} \\\\ & =3.33 \\times 10^{-4} \\mathrm{gc}^{-1} \\\\ & =3.33 \\times 10^{-7} \\mathrm{kgc}^{-1} \\end{aligned} W⇒Z=ZIt=ItW=0.2\\ \\times 50\\ \\times 600.2=3.33\\ \\times 10−4gc−1=3.33\\ \\times 10−7kgc−1$"
+    "explanationLatex": "W=ZIt\\times 50\\ \\times 60=3.33\\ \\times 10−4gc−1=3.33\\ \\times 10−7kgc−1 \\begin{aligned} W & =Z I t \\\\ \\Rightarrow Z & =\\frac{W}{I t} \\\\ & =\\frac{0.2}{0.2 \\times 50 \\times 60} \\\\ & =3.33 \\times 10^{-4} \\mathrm{gc}^{-1} \\\\ & =3.33 \\times 10^{-7} \\mathrm{kgc}^{-1} \\end{aligned} W\\times 50\\ \\times 600.2=3.33\\ \\times 10−4gc−1=3.33\\ \\times 10−7kgc−1"
   },
   {
     "id": 28,
@@ -569,7 +569,7 @@
       "d": "লবণ সেতু"
     },
     "correctAnswer": "b",
-    "explanation": "অ্যানোডে তড়িৎদ্বারের জারণ ঘটে। বিজারক ইলেকট্রন ত্যাগ করে Na→Na++e− \\mathrm{Na} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{e}^{-} Na→Na++e−(জারণ)",
+    "explanation": "অ্যানোডে তড়িৎদ্বারের জারণ ঘটে। বিজারক ইলেকট্রন ত্যাগ করে Na\\mathrm{Na} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{e}^{-} Naজারণ)",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -577,7 +577,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "রাসায়নিক তড়িৎ কোষের উল্লিখিত কোনটিতে জারণ ঘটে?",
-    "explanationLatex": "$অ্যানোডে তড়িৎদ্বারের জারণ ঘটে। বিজারক ইলেকট্রন ত্যাগ করে Na→Na++e− \\mathrm{Na} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{e}^{-} Na→Na++e−(জারণ)$"
+    "explanationLatex": "অ্যানোডে তড়িৎদ্বারের জারণ ঘটে। বিজারক ইলেকট্রন ত্যাগ করে Na\\mathrm{Na} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{e}^{-} Naজারণ)"
   },
   {
     "id": 30,
@@ -749,7 +749,7 @@
       "d": "3.06g"
     },
     "correctAnswer": "d",
-    "explanation": "m=197e=3t=(30×60)sec \\begin{array}{l}m=197 \\\\ e=3 \\\\ t=(30 \\times 60) \\mathrm{sec}\\end{array} m=197e=3t=(30×60)sec W=mIteF=197×2.5×30×603×96500=3.06 g \\begin{aligned} W & =\\frac{m I t}{e F} \\\\ & =\\frac{197 \\times 2.5 \\times 30 \\times 60}{3 \\times 96500} \\\\ & =3.06 \\mathrm{~g}\\end{aligned} W=eFmIt=3×96500197×2.5×30×60=3.06 g",
+    "explanation": "\\begin{array}{l}m=197 \\\\ e=3 \\\\ t=(30 \\times 60) \\mathrm{sec}\\end{array} m=197e=3t=(30\\begin{aligned} W & =\\frac{m I t}{e F} \\\\ & =\\frac{197 \\times 2.5 \\times 30 \\times 60}{3 \\times 96500} \\\\ & =3.06 \\mathrm{~g}\\end{aligned} W=eFmIt=3",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -869,7 +869,7 @@
       "d": "13 hr 52 min"
     },
     "correctAnswer": "a",
-    "explanation": "Or, W=MItnF ⇒t=nWFMI=3×1×9650052×0.120=12 hr 53min⁡.W=\\frac{MIt}{nF}\\ \\ \\Rightarrow t=\\frac{nWF}{MI}=\\frac{3\\times1\\times96500}{52\\times0.120}=12\\ hr\\ 53\\min.W=nFMIt ⇒t=MInWF=52×0.1203×1×96500=12 hr 53min.",
+    "explanation": "\\frac{MIt}{nF}\\ \\ \\Rightarrow t=\\frac{nWF}{MI}=\\frac{3\\times1\\times96500}{52\\times0.120}=12\\ hr\\ 53\\min.W=nFMIt",
     "subject": "Chemistry",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244128/gst-question-images/___________q44.jpg",
@@ -877,7 +877,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ক্রোমিয়াম (III) সালফেট দ্রবণে 0.120 অ্যাম্পিয়ার বিদ্যুৎ কত সময় যাবত প্রবাহিত করলে ক্যাথোডে 1.00 g ক্রোমিয়াম সঞ্চিত হবে?",
-    "explanationLatex": "$Or, W=MItnF ⇒t=nWFMI=3\\ \\times 1\\ \\times 9650052\\ \\times 0.120=12 hr 53min⁡.W=\\frac{MIt}{nF}\\ \\ \\Rightarrow t=\\frac{nWF}{MI}=\\frac{3 \\times 1 \\times 96500}{52 \\times 0.120}=12\\ hr\\ 53\\min.W=nFMIt ⇒t=MInWF=52\\ \\times 0.1203\\ \\times 1\\ \\times 96500=12 hr 53min.$"
+    "explanationLatex": "\\times 1\\ \\times 9650052\\ \\times 0.120=12 hr 53min\\frac{MIt}{nF}\\ \\ \\Rightarrow t=\\frac{nWF}{MI}=\\frac{3 \\times 1 \\times 96500}{52 \\times 0.120}=12\\ hr\\ 53\\min.W=nFMIt \\times 0.1203\\ \\times 1\\ \\times 96500=12 hr 53min."
   },
   {
     "id": 45,
@@ -909,7 +909,7 @@
       "d": "NaOCl+H2"
     },
     "correctAnswer": "c",
-    "explanation": "সোডিয়াম ক্লোরাইডের সম্পৃক্ত (গাঢ়) জলীয় দ্রবণ এর নাম ব্রাইন। সাধারণত সমুদ্রের পানিকে গাঢ় করে ব্রাইন তৈরি করা হয়। ব্রাইনকে তড়িৎবিশ্লেষণ করলে ক্যাথোডে H₂, অ্যানোডে Cl₂ এবং দ্রবণে NaOH উৎপন্ন হয়। জলীয় দ্রবণে সোডিয়াম ক্লোরাইড আয়নিত হয়ে সোডিয়াম আয়ন ও ক্লোরাইড আয়ন গঠন করে। একই সঙ্গে পানিও কিছুটা বিয়োজিত হয়। তড়িৎ প্রবাহিত করলে দ্রবণে উপস্থিত দুটো ধনাত্মক আয়ন হাইড্রোজেন আয়ন ও সোডিয়াম আয়ন ক্যাথোডে আকৃষ্ট হয়। কিন্তু হাইড্রোজেন আয়নের বিজারণ পটেনসিয়াল বেশি বলে ক্যাথোডে ইলেকট্রন গ্রহণ করে সহজে বিজারিত হয় ও হাইড্রোজেন গ্যাসে পরিণত হয়। অপরদিকে, বিদ্যুৎ প্রবাহের ফলে ঋণাত্মক আয়নদ্বয় ক্লোরাইড আয়ন ও হাইড্রক্সিল আয়ন অ্যানোডে আকৃষ্ট হয়। কিন্তু ক্লোরাইড আয়নের তুলনায় হাইড্রক্সিল আয়নের জারণ প্রবণতা বেশি। তবে ব্রাইনে ক্লোরাইড আয়নের ঘনমাত্রা উচ্চ হওয়ায় ক্লোরাইড আয়নই আগে ইলেকট্রন ত্যাগ করে অ্যানোডে চার্জমুক্ত হয় এবং ক্লোরিন গ্যাস হিসেবে নির্গত হয়। NaCl→Na++Cl−2Cl−−2e−=Cl2 \\mathrm{NaCl} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{Cl}^{-} \\quad 2 \\mathrm{Cl}^{-}-2 \\mathrm{e}^{-}=\\mathrm{Cl}_{2} NaCl→Na++Cl−2Cl−−2e−=Cl2 : অ্যানোডে H2O→H++OH−2H++2e−=H2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\quad 2 \\mathrm{H}^{+}+2 \\mathrm{e}^{-}=\\mathrm{H}_{2} H2O→H++OH−2H++2e−=H2 ক্যাথোডে",
+    "explanation": "সোডিয়াম ক্লোরাইডের সম্পৃক্ত (গাঢ়) জলীয় দ্রবণ এর নাম ব্রাইন। সাধারণত সমুদ্রের পানিকে গাঢ় করে ব্রাইন তৈরি করা হয়। ব্রাইনকে তড়িৎবিশ্লেষণ করলে ক্যাথোডে Hঅ্যানোডে Cl₂ এবং দ্রবণে NaOH উৎপন্ন হয়। জলীয় দ্রবণে সোডিয়াম ক্লোরাইড আয়নিত হয়ে সোডিয়াম আয়ন ও ক্লোরাইড আয়ন গঠন করে। একই সঙ্গে পানিও কিছুটা বিয়োজিত হয়। তড়িৎ প্রবাহিত করলে দ্রবণে উপস্থিত দুটো ধনাত্মক আয়ন হাইড্রোজেন আয়ন ও সোডিয়াম আয়ন ক্যাথোডে আকৃষ্ট হয়। কিন্তু হাইড্রোজেন আয়নের বিজারণ পটেনসিয়াল বেশি বলে ক্যাথোডে ইলেকট্রন গ্রহণ করে সহজে বিজারিত হয় ও হাইড্রোজেন গ্যাসে পরিণত হয়। অপরদিকে, বিদ্যুৎ প্রবাহের ফলে ঋণাত্মক আয়নদ্বয় ক্লোরাইড আয়ন ও হাইড্রক্সিল আয়ন অ্যানোডে আকৃষ্ট হয়। কিন্তু ক্লোরাইড আয়নের তুলনায় হাইড্রক্সিল আয়নের জারণ প্রবণতা বেশি। তবে ব্রাইনে ক্লোরাইড আয়নের ঘনমাত্রা উচ্চ হওয়ায় ক্লোরাইড আয়নই আগে ইলেকট্রন ত্যাগ করে অ্যানোডে চার্জমুক্ত হয় এবং ক্লোরিন গ্যাস হিসেবে নির্গত হয়। NaCl\\mathrm{NaCl} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{Cl}^{-} \\quad 2 \\mathrm{Cl}^{-}-2 \\mathrm{e}^{-}=\\mathrm{Cl}_{2} NaClঅ্যানোডে H2O\\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\quad 2 \\mathrm{H}^{+}+2 \\mathrm{e}^{-}=\\mathrm{H}_{2} H2Oক্যাথোডে",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "NaCl পানিতে দ্রবীভুত হলে কোন মিশ্রনটি পাওয়া যায়?",
-    "explanationLatex": "$সোডিয়াম ক্লোরাইডের সম্পৃক্ত (গাঢ়) জলীয় দ্রবণ এর নাম ব্রাইন। সাধারণত সমুদ্রের পানিকে গাঢ় করে ব্রাইন তৈরি করা হয়। ব্রাইনকে তড়িৎবিশ্লেষণ করলে ক্যাথোডে H₂, অ্যানোডে Cl₂ এবং দ্রবণে NaOH উৎপন্ন হয়। জলীয় দ্রবণে সোডিয়াম ক্লোরাইড আয়নিত হয়ে সোডিয়াম আয়ন ও ক্লোরাইড আয়ন গঠন করে। একই সঙ্গে পানিও কিছুটা বিয়োজিত হয়। তড়িৎ প্রবাহিত করলে দ্রবণে উপস্থিত দুটো ধনাত্মক আয়ন হাইড্রোজেন আয়ন ও সোডিয়াম আয়ন ক্যাথোডে আকৃষ্ট হয়। কিন্তু হাইড্রোজেন আয়নের বিজারণ পটেনসিয়াল বেশি বলে ক্যাথোডে ইলেকট্রন গ্রহণ করে সহজে বিজারিত হয় ও হাইড্রোজেন গ্যাসে পরিণত হয়। অপরদিকে, বিদ্যুৎ প্রবাহের ফলে ঋণাত্মক আয়নদ্বয় ক্লোরাইড আয়ন ও হাইড্রক্সিল আয়ন অ্যানোডে আকৃষ্ট হয়। কিন্তু ক্লোরাইড আয়নের তুলনায় হাইড্রক্সিল আয়নের জারণ প্রবণতা বেশি। তবে ব্রাইনে ক্লোরাইড আয়নের ঘনমাত্রা উচ্চ হওয়ায় ক্লোরাইড আয়নই আগে ইলেকট্রন ত্যাগ করে অ্যানোডে চার্জমুক্ত হয় এবং ক্লোরিন গ্যাস হিসেবে নির্গত হয়। NaCl→Na++Cl−2Cl−−2e−=Cl2 \\mathrm{NaCl} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{Cl}^{-} \\quad 2 \\mathrm{Cl}^{-}-2 \\mathrm{e}^{-}=\\mathrm{Cl}_{2} NaCl→Na++Cl−2Cl−−2e−=Cl2 : অ্যানোডে H2O→H++OH−2H++2e−=H2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\quad 2 \\mathrm{H}^{+}+2 \\mathrm{e}^{-}=\\mathrm{H}_{2} H2O→H++OH−2H++2e−=H2 ক্যাথোডে$"
+    "explanationLatex": "সোডিয়াম ক্লোরাইডের সম্পৃক্ত (গাঢ়) জলীয় দ্রবণ এর নাম ব্রাইন। সাধারণত সমুদ্রের পানিকে গাঢ় করে ব্রাইন তৈরি করা হয়। ব্রাইনকে তড়িৎবিশ্লেষণ করলে ক্যাথোডে Hঅ্যানোডে Cl₂ এবং দ্রবণে NaOH উৎপন্ন হয়। জলীয় দ্রবণে সোডিয়াম ক্লোরাইড আয়নিত হয়ে সোডিয়াম আয়ন ও ক্লোরাইড আয়ন গঠন করে। একই সঙ্গে পানিও কিছুটা বিয়োজিত হয়। তড়িৎ প্রবাহিত করলে দ্রবণে উপস্থিত দুটো ধনাত্মক আয়ন হাইড্রোজেন আয়ন ও সোডিয়াম আয়ন ক্যাথোডে আকৃষ্ট হয়। কিন্তু হাইড্রোজেন আয়নের বিজারণ পটেনসিয়াল বেশি বলে ক্যাথোডে ইলেকট্রন গ্রহণ করে সহজে বিজারিত হয় ও হাইড্রোজেন গ্যাসে পরিণত হয়। অপরদিকে, বিদ্যুৎ প্রবাহের ফলে ঋণাত্মক আয়নদ্বয় ক্লোরাইড আয়ন ও হাইড্রক্সিল আয়ন অ্যানোডে আকৃষ্ট হয়। কিন্তু ক্লোরাইড আয়নের তুলনায় হাইড্রক্সিল আয়নের জারণ প্রবণতা বেশি। তবে ব্রাইনে ক্লোরাইড আয়নের ঘনমাত্রা উচ্চ হওয়ায় ক্লোরাইড আয়নই আগে ইলেকট্রন ত্যাগ করে অ্যানোডে চার্জমুক্ত হয় এবং ক্লোরিন গ্যাস হিসেবে নির্গত হয়। NaCl\\mathrm{NaCl} \\rightarrow \\mathrm{Na}^{+}+\\mathrm{Cl}^{-} \\quad 2 \\mathrm{Cl}^{-}-2 \\mathrm{e}^{-}=\\mathrm{Cl}_{2} NaClঅ্যানোডে H2O\\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{H}^{+}+\\mathrm{OH}^{-} \\quad 2 \\mathrm{H}^{+}+2 \\mathrm{e}^{-}=\\mathrm{H}_{2} H2Oক্যাথোডে"
   },
   {
     "id": 47,

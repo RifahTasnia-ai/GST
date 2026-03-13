@@ -89,7 +89,7 @@
       "d": "নিউট্রন"
     },
     "correctAnswer": "a",
-    "explanation": "ইলেকট্রনের ভর সবচেয়ে কম। এর ভর = 9.1×10−31 kg 9.1 \\times 10^{-31} \\mathrm{~kg} 9.1×10−31 kg - প্রোটনের ভর = 1.673×10−27 kg 1.673 \\times 10^{-27} \\mathrm{~kg} 1.673×10−27 kg - নিউট্রনের ভর = 1.675×10−27 kg 1.675 \\times 10^{-27} \\mathrm{~kg} 1.675×10−27 kg",
+    "explanation": "ইলেকট্রনের ভর সবচেয়ে কম। এর ভর = 9.1\\times 10^{-31} \\mathrm{~kg} 9.1প্রোটনের ভর = 1.673\\times 10^{-27} \\mathrm{~kg} 1.673নিউট্রনের ভর = 1.675\\times 10^{-27} \\mathrm{~kg} 1.675",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -109,7 +109,7 @@
       "d": "− 4.7 𝑒 𝑉 −4.7 eV"
     },
     "correctAnswer": "b",
-    "explanation": "En=−13.6×z2n2(eV)∴E2=−13.6×1222=−3.4eV \\begin{array}{l} E_{n}=-13.6 \\times \\frac{z^{2}}{n^{2}}(\\mathrm{eV}) \\\\ \\therefore E_{2}=-13.6 \\times \\frac{1^{2}}{2^{2}}=-3.4 \\mathrm{eV}\\end{array} En=−13.6×n2z2(eV)∴E2=−13.6×2212=−3.4eV",
+    "explanation": "\\begin{array}{l} E_{n}=-13.6 \\times \\frac{z^{2}}{n^{2}}(\\mathrm{eV}) \\\\ \\therefore E_{2}=-13.6 \\times \\frac{1^{2}}{2^{2}}=-3.4 \\mathrm{eV}\\end{array} En=−13.6",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -117,7 +117,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$হাইড্রোজেন পরমাণুর প্রথম বোর কক্ষের শক্তি −13.6 V^{-13}.6\\ V−13.6 Vহলে এর দ্বিতীয় কক্ষের শক্তি কত?$",
-    "explanationLatex": "$En=−13.6\\ \\times z2n2(eV)∴E2=−13.6\\ \\times 1222=−3.4eV \\begin{array}{l} E_{n}=-13.6 \\times \\frac{z^{2}}{n^{2}}(\\mathrm{eV}) \\\\ \\therefore E_{2}=-13.6 \\times \\frac{1^{2}}{2^{2}}=-3.4 \\mathrm{eV}\\end{array} En=−13.6\\ \\times n2z2(eV)∴E2=−13.6\\ \\times 2212=−3.4eV$"
+    "explanationLatex": "\\times z2n2(eV)\\times 1222=−3.4eV \\begin{array}{l} E_{n}=-13.6 \\times \\frac{z^{2}}{n^{2}}(\\mathrm{eV}) \\\\ \\therefore E_{2}=-13.6 \\times \\frac{1^{2}}{2^{2}}=-3.4 \\mathrm{eV}\\end{array} En=−13.6\\ \\times n2z2(eV)\\times 2212=−3.4eV"
   },
   {
     "id": 7,
@@ -209,7 +209,7 @@
       "d": "নিউট্রন"
     },
     "correctAnswer": "a",
-    "explanation": "e→ ভর →9.1×10−31 kg/9.1×10−28 gp→ ভর →1.673×10−24 gn→ ভর →1.675×10−24 g∝→ ভর →6.645×10−24 g \\begin{array}{l} \\mathrm{e} \\rightarrow \\text { ভর } \\rightarrow 9.1 \\times 10^{-31} \\mathrm{~kg} / 9.1 \\times 10^{-28} \\mathrm{~g} \\\\ \\mathrm{p} \\rightarrow \\text { ভর } \\rightarrow 1.673 \\times 10^{-24} \\mathrm{~g} \\\\ \\mathrm{n} \\rightarrow \\text { ভর } \\rightarrow 1.675 \\times 10^{-24} \\mathrm{~g} \\\\ \\propto \\rightarrow \\text { ভর } \\rightarrow 6.645 \\times 10^{-24} \\mathrm{~g}\\end{array} e→ ভর →9.1×10−31 kg/9.1×10−28 gp→ ভর →1.673×10−24 gn→ ভর →1.675×10−24 g∝→ ভর →6.645×10−24 g",
+    "explanation": "e→ ভর ভর ভর ভর \\begin{array}{l} \\mathrm{e} \\rightarrow \\text { ভর } \\rightarrow 9.1 \\times 10^{-31} \\mathrm{~kg} / 9.1 \\times 10^{-28} \\mathrm{~g} \\\\ \\mathrm{p} \\rightarrow \\text { ভর } \\rightarrow 1.673 \\times 10^{-24} \\mathrm{~g} \\\\ \\mathrm{n} \\rightarrow \\text { ভর } \\rightarrow 1.675 \\times 10^{-24} \\mathrm{~g} \\\\ \\propto \\rightarrow \\text { ভর } \\rightarrow 6.645 \\times 10^{-24} \\mathrm{~g}\\end{array} e→ ভর ভর ভর ভর",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সবচেয়ে ভারী কণা কোনটি -",
-    "explanationLatex": "$e→ ভর →9.1\\ \\times 10−31 \\frac{kg}{9.1}\\ \\times 10−28 gp→ ভর →1.673\\ \\times 10−24 gn→ ভর →1.675\\ \\times 10−24 g\\\\propto → ভর →6.645\\ \\times 10−24 g \\begin{array}{l} \\mathrm{e} \\rightarrow \\text { ভর } \\rightarrow 9.1 \\times 10^{-31} \\mathrm{~kg} / 9.1 \\times 10^{-28} \\mathrm{~g} \\\\ \\mathrm{p} \\rightarrow \\text { ভর } \\rightarrow 1.673 \\times 10^{-24} \\mathrm{~g} \\\\ \\mathrm{n} \\rightarrow \\text { ভর } \\rightarrow 1.675 \\times 10^{-24} \\mathrm{~g} \\\\ \\propto \\rightarrow \\text { ভর } \\rightarrow 6.645 \\times 10^{-24} \\mathrm{~g}\\end{array} e→ ভর →9.1\\ \\times 10−31 \\frac{kg}{9.1}\\ \\times 10−28 gp→ ভর →1.673\\ \\times 10−24 gn→ ভর →1.675\\ \\times 10−24 g\\\\propto → ভর →6.645\\ \\times 10−24 g$"
+    "explanationLatex": "e→ ভর \\times 10−31 \\frac{kg}{9.1}\\ \\times 10−28 gp→ ভর \\times 10−24 gn→ ভর \\times 10−24 g\\\\propto → ভর \\times 10−24 g \\begin{array}{l} \\mathrm{e} \\rightarrow \\text { ভর } \\rightarrow 9.1 \\times 10^{-31} \\mathrm{~kg} / 9.1 \\times 10^{-28} \\mathrm{~g} \\\\ \\mathrm{p} \\rightarrow \\text { ভর } \\rightarrow 1.673 \\times 10^{-24} \\mathrm{~g} \\\\ \\mathrm{n} \\rightarrow \\text { ভর } \\rightarrow 1.675 \\times 10^{-24} \\mathrm{~g} \\\\ \\propto \\rightarrow \\text { ভর } \\rightarrow 6.645 \\times 10^{-24} \\mathrm{~g}\\end{array} e→ ভর \\times 10−31 \\frac{kg}{9.1}\\ \\times 10−28 gp→ ভর \\times 10−24 gn→ ভর \\times 10−24 g\\\\propto → ভর \\times 10−24 g"
   },
   {
     "id": 12,
@@ -369,7 +369,7 @@
       "d": "58"
     },
     "correctAnswer": "d",
-    "explanation": "নিউট্রন সংখ্যা = (23−11)+(27−13)+{(16−8)+(1−1)}×4=58 (23-11)+(27-13)+\\{(16-8)+(1-1)\\} \\times 4=58 (23−11)+(27−13)+{(16−8)+(1−1)}×4=58",
+    "explanation": "নিউট্রন সংখ্যা = (\\{(16-8)+(1-1)\\} \\times 4=58 (23−11)+(27−13)+{(16−8)+(1−1)}",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -389,7 +389,7 @@
       "d": "1800"
     },
     "correctAnswer": "c",
-    "explanation": "1531 P4_{15}^{31}\\ P_41531 P4এর একটি অণুর নিউট্রন=4×(31−15)=64=4\\times(31-15)=64=4×(31−15)=64টি ∴15\\therefore15∴15টি অণুর নিউট্রন=15×64=960=15\\times64=960=15×64=960টি",
+    "explanation": "এর একটি অণুর নিউট্রন=4\\times(31-15)=64=4টি \\therefore15টি অণুর নিউট্রন=15\\times64=960=15টি",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$1531 P4_{15}^{31}\\ P_41531 P4এর 15 টি অণুর মধ্যে কয়টি নিউট্রন আছে?$",
-    "explanationLatex": "$1531 P4_{15}^{31}\\ P_41531 P4এর একটি অণুর নিউট্রন=4\\ \\times (31−15)=64=4 \\times (31-15)=64=4\\ \\times (31−15)=64টি ∴15\\therefore15∴15টি অণুর নিউট্রন=15\\ \\times 64=960=15 \\times 64=960=15\\ \\times 64=960টি$"
+    "explanationLatex": "এর একটি অণুর নিউট্রন=4\\ \\times (31−15)=64=4 \\times (31-15)=64=4\\ \\times (31−15)=64টি \\therefore15টি অণুর নিউট্রন=15\\ \\times 64=960=15 \\times 64=960=15\\ \\times 64=960টি"
   },
   {
     "id": 21,
@@ -449,7 +449,7 @@
       "d": "16"
     },
     "correctAnswer": "b",
-    "explanation": "ভারী পানি =D2O =D_{2} O =D2O ডিউটেরিয়াম (D) = ²H আণবিক ভর ≈ 2 D হলো H পরমাণুর আইসোটপ ∴ \\therefore ∴ আনবিক ভর , D2O \\mathrm{D}_{2} \\mathrm{O} D2O =2×2+16=20 \\begin{array}{l} =2 \\times 2+16 \\\\ =20 \\end{array} =2×2+16=20",
+    "explanation": "ভারী পানি =ডিউটেরিয়াম (D) = আণবিক ভর হলো H পরমাণুর আইসোটপ ∴ \\therefore ∴ আনবিক ভর , D2O \\mathrm{D}_{2} \\mathrm{O} D2O =2\\begin{array}{l} =2 \\times 2+16 \\\\ =20 \\end{array} =2",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ভারী পানির আণবিক ভর কত?",
-    "explanationLatex": "$ভারী পানি =D2O =D_{2} O =D2O ডিউটেরিয়াম (D) = ²H আণবিক ভর ≈ 2 D হলো H পরমাণুর আইসোটপ ∴ \\therefore ∴ আনবিক ভর , D2O \\mathrm{D}_{2} \\mathrm{O} D2O =2\\ \\times 2+16=20 \\begin{array}{l} =2 \\times 2+16 \\\\ =20 \\end{array} =2\\ \\times 2+16=20$"
+    "explanationLatex": "ভারী পানি =ডিউটেরিয়াম (D) = আণবিক ভর হলো H পরমাণুর আইসোটপ ∴ \\therefore ∴ আনবিক ভর , D2O \\mathrm{D}_{2} \\mathrm{O} D2O =2\\ \\times 2+16=20 \\begin{array}{l} =2 \\times 2+16 \\\\ =20 \\end{array} =2\\ \\times 2+16=20"
   },
   {
     "id": 24,
@@ -469,7 +469,7 @@
       "d": "70%"
     },
     "correctAnswer": "b",
-    "explanation": "মিউরেট অব পটাশের সংকেত KCl. KCl এ K এর সংযুক্তি, =(3939+35.5×100)%=52.35%≈50% \\begin{array}{l}=\\left(\\frac{39}{39+35.5} \\times 100\\right) \\% \\\\ =52.35 \\% \\\\ \\approx 50 \\%\\end{array} =(39+35.539×100)%=52.35%≈50% মিউরেট অব পটাশ (Muriate of Potash) হল পটাশিয়াম ক্লোরাইড (KCl), যা সাধারণত কৃষিতে ব্যবহার হয় পটাশিয়াম রাসায়নিক সার হিসেবে। পটাশিয়াম ক্লোরাইডে p(K) প্রায় 52% থাকে। তবে যখন এই প্রশ্নের অপশন বিবেচনা করা হয়, সেটি 50% -এর নিকটবর্তী। সুতরাং সঠিক উত্তর হবে: সঠিক উত্তর: 50%",
+    "explanation": "মিউরেট অব পটাশের সংকেত এ K এর সংযুক্তি, =(\\begin{array}{l}=\\left(\\frac{39}{39+35.5} \\times 100\\right) \\% \\\\ =52.35 \\% \\\\ \\approx 50 \\%\\end{array} =(39+35.539মিউরেট অব পটাশ (হল পটাশিয়াম ক্লোরাইড (যা সাধারণত কৃষিতে ব্যবহার হয় পটাশিয়াম রাসায়নিক সার হিসেবে। পটাশিয়াম ক্লোরাইডে p(K) প্রায় 52% থাকে। তবে যখন এই প্রশ্নের অপশন বিবেচনা করা হয়, সেটি 50% -এর নিকটবর্তী। সুতরাং সঠিক উত্তর হবে: সঠিক উত্তর: 50%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -477,7 +477,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "মিউরেট অব পটাশ এ কী পরিমাণ K থাকে?",
-    "explanationLatex": "$মিউরেট অব পটাশের সংকেত KCl. KCl এ K এর সংযুক্তি, =(3939+35.5\\ \\times 100)%=52.35%≈50% \\begin{array}{l}=\\left(\\frac{39}{39+35.5} \\times 100\\right) \\% \\\\ =52.35 \\% \\\\ \\approx 50 \\%\\end{array} =(39+35.539\\ \\times 100)%=52.35%≈50% মিউরেট অব পটাশ (Muriate of Potash) হল পটাশিয়াম ক্লোরাইড (KCl), যা সাধারণত কৃষিতে ব্যবহার হয় পটাশিয়াম রাসায়নিক সার হিসেবে। পটাশিয়াম ক্লোরাইডে p(K) প্রায় 52% থাকে। তবে যখন এই প্রশ্নের অপশন বিবেচনা করা হয়, সেটি 50% -এর নিকটবর্তী। সুতরাং সঠিক উত্তর হবে: সঠিক উত্তর: 50%$"
+    "explanationLatex": "মিউরেট অব পটাশের সংকেত এ K এর সংযুক্তি, =(\\times 100)%=52.35%\\begin{array}{l}=\\left(\\frac{39}{39+35.5} \\times 100\\right) \\% \\\\ =52.35 \\% \\\\ \\approx 50 \\%\\end{array} =(39+35.539\\ \\times 100)%=52.35%মিউরেট অব পটাশ (হল পটাশিয়াম ক্লোরাইড (যা সাধারণত কৃষিতে ব্যবহার হয় পটাশিয়াম রাসায়নিক সার হিসেবে। পটাশিয়াম ক্লোরাইডে p(K) প্রায় 52% থাকে। তবে যখন এই প্রশ্নের অপশন বিবেচনা করা হয়, সেটি 50% -এর নিকটবর্তী। সুতরাং সঠিক উত্তর হবে: সঠিক উত্তর: 50%"
   },
   {
     "id": 25,
@@ -497,7 +497,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "এক ডাল্টন সমান কত?",
-    "explanationLatex": "$1 ডাল্টন = 1.66053906660 \\ \\times 10⁻²⁷ কিলোগ্রাম$"
+    "explanationLatex": "1 ডাল্টন = \\times 10কিলোগ্রাম"
   },
   {
     "id": 26,
@@ -549,7 +549,7 @@
       "d": "প্রোটন > ইলেকট্রন > নিউট্রন"
     },
     "correctAnswer": "c",
-    "explanation": "পরমানুর সমস্ত ভর এর নিউক্লিয়াসে বিদ্যমান সেখানে রয়েছে প্রোটন ও নিউট্রন। নিউট্রনের ভর ও আকৃতি দুটিই প্রোটনের তুলনায় বেশি। আর e− e^{-} e− এর নগন্য। নিউট্রনের ভর ⇒ 1.675×10−24 g 1.675 \\times 10^{-24} \\mathrm{~g} 1.675×10−24 g প্রোটনের ভর ⇒ 1.673×10−24 g 1.673 \\times 10^{-24} \\mathrm{~g} 1.673×10−24 g e− e^{-} e− ভর ⇒ 9.1085×10−28 g 9.1085 \\times 10^{-28} \\mathrm{~g} 9.1085×10−28 g",
+    "explanation": "পরমানুর সমস্ত ভর এর নিউক্লিয়াসে বিদ্যমান সেখানে রয়েছে প্রোটন ও নিউট্রন। নিউট্রনের ভর ও আকৃতি দুটিই প্রোটনের তুলনায় বেশি। আর এর নগন্য। নিউট্রনের ভর \\times 10^{-24} \\mathrm{~g} 1.675প্রোটনের ভর \\times 10^{-24} \\mathrm{~g} 1.673ভর \\times 10^{-28} \\mathrm{~g} 9.1085",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন ক্রমটি পরমাণুর ভরের ক্ষেত্রে সঠিক?",
-    "explanationLatex": "$পরমানুর সমস্ত ভর এর নিউক্লিয়াসে বিদ্যমান সেখানে রয়েছে প্রোটন ও নিউট্রন। নিউট্রনের ভর ও আকৃতি দুটিই প্রোটনের তুলনায় বেশি। আর e− e^{-} e− এর নগন্য। নিউট্রনের ভর ⇒ 1.675\\ \\times 10−24 g 1.675 \\times 10^{-24} \\mathrm{~g} 1.675\\ \\times 10−24 g প্রোটনের ভর ⇒ 1.673\\ \\times 10−24 g 1.673 \\times 10^{-24} \\mathrm{~g} 1.673\\ \\times 10−24 g e− e^{-} e− ভর ⇒ 9.1085\\ \\times 10−28 g 9.1085 \\times 10^{-28} \\mathrm{~g} 9.1085\\ \\times 10−28 g$"
+    "explanationLatex": "পরমানুর সমস্ত ভর এর নিউক্লিয়াসে বিদ্যমান সেখানে রয়েছে প্রোটন ও নিউট্রন। নিউট্রনের ভর ও আকৃতি দুটিই প্রোটনের তুলনায় বেশি। আর এর নগন্য। নিউট্রনের ভর \\times 10−24 g 1.675 \\times 10^{-24} \\mathrm{~g} 1.675\\ \\times 10−24 g প্রোটনের ভর \\times 10−24 g 1.673 \\times 10^{-24} \\mathrm{~g} 1.673\\ \\times 10−24 g e− e^{-} e− ভর \\times 10−28 g 9.1085 \\times 10^{-28} \\mathrm{~g} 9.1085\\ \\times 10−28 g"
   },
   {
     "id": 29,
@@ -569,7 +569,7 @@
       "d": "9.1 × 10 − 30 𝑔 9.1×10 −30 g"
     },
     "correctAnswer": "c",
-    "explanation": "ইলেক্ট্রন হল পরমাণুর একটি মৌলিক কণা এবং এটি একটি ঋণাত্মক আধান বহন করে। ইলেক্ট্রনের ভর পরমাণুর অন্যান্য মূল স্থায়ী কণিকা হতে খুবই কম। একটি ইলেকট্রনের ভর 9.1×10−28g9.1\\times10^{-28}g9.1×10−28g",
+    "explanation": "ইলেক্ট্রন হল পরমাণুর একটি মৌলিক কণা এবং এটি একটি ঋণাত্মক আধান বহন করে। ইলেক্ট্রনের ভর পরমাণুর অন্যান্য মূল স্থায়ী কণিকা হতে খুবই কম। একটি ইলেকট্রনের ভর 9.1\\times10^{-28}g9.1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -589,7 +589,7 @@
       "d": "1:3"
     },
     "correctAnswer": "c",
-    "explanation": "ক্লোরিনের পারমাণবিক ভর 35.5 দেওয়া আছে, যা Cl35 এবং Cl37 আইসোটোপের গড় পারমাণবিক ভর নির্দেশ করে। আমরা অনুপাত নির্ণয় করতে পারি নিচের সূত্র ব্যবহার করে: (x×35+(1−x)×37=35.5)(x \\times 35 + (1-x) \\times 37 = 35.5)(x×35+(1−x)×37=35.5) এখানে xxx হলো Cl35 আইসোটোপের অনুপাত এবং (1−x)(1-x)(1−x) হলো Cl37 আইসোটোপের অনুপাত। সূত্রটির সমাধান করা যাক: 35x+37−37x=35.535x + 37 - 37x = 35.535x+37−37x=35.5 −2x+37=35.5-2x + 37 = 35.5−2x+37=35.5 −2x=35.5−37-2x = 35.5 - 37−2x=35.5−37 −2x=−1.5-2x = -1.5−2x=−1.5 x=−1.5−2=0.75x = \\frac{-1.5}{-2} = 0.75x=−2−1.5=0.75 এখন, Cl35 এর অনুপাত x=0.75x = 0.75x=0.75 এবং Cl37 এর অনুপাত 1−x=0.251-x = 0.251−x=0.25। তাহলে Cl35 এবং Cl37 এর অনুপাত হবে 0.75:0.25, যা সরল করে 3:1 হয়। অতএব, সঠিক উত্তর হল: C: 3:1",
+    "explanation": "ক্লোরিনের পারমাণবিক ভর 35.5 দেওয়া আছে, যা Cl35 এবং Cl37 আইসোটোপের গড় পারমাণবিক ভর নির্দেশ করে। আমরা অনুপাত নির্ণয় করতে পারি নিচের সূত্র ব্যবহার করে: (x\\times 35 + (1-x) \\times 37 = 35.5)(xএখানে xxx হলো Cl35 আইসোটোপের অনুপাত এবং (হলো Cl37 আইসোটোপের অনুপাত। সূত্রটির সমাধান করা যাক: \\frac{-1.5}{-2} = 0.75x=−2−1.5=0.75 এখন, Cl35 এর অনুপাত এবং Cl37 এর অনুপাত তাহলে Cl35 এবং Cl37 এর অনুপাত হবে যা সরল করে 3:1 হয়। অতএব, সঠিক উত্তর হল:",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -609,7 +609,7 @@
       "d": "23"
     },
     "correctAnswer": "b",
-    "explanation": "অতএব, NO3−1NO_3^{-1}NO3−1এর ইলেক্ট্রন = ∑PNO3−(−1) \\sum P_{\\mathrm{NO3}}-(-1) ∑PNO3−(−1) → =PN+3×P0+1=7+3×8+1=32 টি \\begin{aligned} \\rightarrow \\text { } & =P_{N}+3 \\times P_{0}+1=7+3 \\times 8+1 \\\\ & =32~ টি \\end{aligned} → =PN+3×P0+1=7+3×8+1=32 টি P হলো প্রোটন সংখ্যা।",
+    "explanation": "অতএব, এর ইলেক্ট্রন = \\sum P_{\\mathrm{NO3}}-(-1) টি \\begin{aligned} \\rightarrow \\text { } & =P_{N}+3 \\times P_{0}+1=7+3 \\times 8+1 \\\\ & =32~ টি \\end{aligned} টি P হলো প্রোটন সংখ্যা।",
     "subject": "Chemistry",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244068/gst-question-images/____________q31.png",
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নাইট্রেট অ্যানায়নে কয়টি ইলেকট্রন রয়েছে?",
-    "explanationLatex": "$অতএব, NO3−1NO_3^{-1}NO3−1এর ইলেক্ট্রন = ∑PNO3−(−1) \\sum P_{\\mathrm{NO3}}-(-1) ∑PNO3−(−1) → =PN+3\\ \\times P0+1=7+3\\ \\times 8+1=32 টি \\begin{aligned} \\rightarrow \\text { } & =P_{N}+3 \\times P_{0}+1=7+3 \\times 8+1 \\\\ & =32~ টি \\end{aligned} → =PN+3\\ \\times P0+1=7+3\\ \\times 8+1=32 টি P হলো প্রোটন সংখ্যা।$"
+    "explanationLatex": "অতএব, এর ইলেক্ট্রন = \\sum P_{\\mathrm{NO3}}-(-1) \\times P0+1=7+3\\ \\times 8+1=32 টি \\begin{aligned} \\rightarrow \\text { } & =P_{N}+3 \\times P_{0}+1=7+3 \\times 8+1 \\\\ & =32~ টি \\end{aligned} \\times P0+1=7+3\\ \\times 8+1=32 টি P হলো প্রোটন সংখ্যা।"
   },
   {
     "id": 32,
@@ -669,7 +669,7 @@
       "d": "None of these"
     },
     "correctAnswer": "a",
-    "explanation": "M=16×99.76+17×0.037+18×0.203100=16.004M=\\frac{16\\times99.76+17\\times0.037+18\\times0.203}{100} =16.004M=10016×99.76+17×0.037+18×0.203=16.004",
+    "explanation": "M=16\\frac{16\\times99.76+17\\times0.037+18\\times0.203}{100} =16.004M=10016",
     "subject": "Chemistry",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244071/gst-question-images/____________q34.jpg",
@@ -749,7 +749,7 @@
       "d": "2.0g"
     },
     "correctAnswer": "b",
-    "explanation": "V=1120ml=1⋅12LV = 1120 \\text{ml} = 1 \\cdot 12 \\text{L}V=1120ml=1⋅12L এখন, n=WM=V22⋅4n = \\frac{W}{M} = \\frac{V}{22 \\cdot 4}n=MW=22⋅4V ⇒WM=1⋅1222⋅4\\Rightarrow \\frac{W}{M} = \\frac{1 \\cdot 12}{22 \\cdot 4}⇒MW=22⋅41⋅12 ⇒W=1⋅1222⋅4×44=2⋅2g\\Rightarrow W = \\frac{1 \\cdot 12}{22 \\cdot 4} \\times 44 = 2 \\cdot 2 \\text{g}⇒W=22⋅41⋅12×44=2⋅2g",
+    "explanation": "\\text{ml} = 1 \\cdot 12 \\text{L}V=1120ml=1⋅12L এখন, n=WM=V22⋅4n = \\frac{W}{M} = \\frac{V}{22 \\cdot 4}n=MW=22⋅4V \\Rightarrow \\frac{W}{M} = \\frac{1 \\cdot 12}{22 \\cdot 4}\\Rightarrow W = \\frac{1 \\cdot 12}{22 \\cdot 4} \\times 44 = 2 \\cdot 2 \\text{g}",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -757,7 +757,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "প্রমান অবস্থায় 1120mL CO2 গ্যাসের অণুগুলোর মোট ভরঃ",
-    "explanationLatex": "$V=1120ml=1⋅12LV = 1120 \\text{ml} = 1 \\cdot 12 \\text{L}V=1120ml=1⋅12L এখন, n=WM=V22⋅4n = \\frac{W}{M} = \\frac{V}{22 \\cdot 4}n=MW=22⋅4V ⇒WM=1⋅1222⋅4\\Rightarrow \\frac{W}{M} = \\frac{1 \\cdot 12}{22 \\cdot 4}⇒MW=22⋅41⋅12 ⇒W=1⋅1222⋅4\\ \\times 44=2⋅2g\\Rightarrow W = \\frac{1 \\cdot 12}{22 \\cdot 4} \\times 44 = 2 \\cdot 2 \\text{g}⇒W=22⋅41⋅12\\ \\times 44=2⋅2g$"
+    "explanationLatex": "\\text{ml} = 1 \\cdot 12 \\text{L}V=1120ml=1⋅12L এখন, n=WM=V22⋅4n = \\frac{W}{M} = \\frac{V}{22 \\cdot 4}n=MW=22⋅4V \\Rightarrow \\frac{W}{M} = \\frac{1 \\cdot 12}{22 \\cdot 4}\\times 44=2⋅2g\\Rightarrow W = \\frac{1 \\cdot 12}{22 \\cdot 4} \\times 44 = 2 \\cdot 2 \\text{g}\\times 44=2⋅2g"
   },
   {
     "id": 39,
@@ -776,7 +776,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$1 esu= কত C?$",
+    "questionLatex": "1 esu= কত C?",
     "explanationLatex": "$esu প্রাচীন একক, যা CGS পদ্ধতিতে ব্যবহৃত হয়।esu বিদ্যুতের চার্জ পরিমাপ করতে ব্যবহৃত হয়। 1 esu=3.33564\\ \\times 10^{-10} C$"
   },
   {
@@ -789,7 +789,7 @@
       "d": "None"
     },
     "correctAnswer": "c",
-    "explanation": "Solution: (c); We=1×8×me×NA=9.11×10−28×8×6.02×1023×1000=4.3×10−3 g \\mathrm{W}_{\\mathrm{e}}=1 \\times 8 \\times \\mathrm{m}_{\\mathrm{e}} \\times \\mathrm{N}_{\\mathrm{A}}=9.11 \\times 10^{-28} \\times 8 \\times 6.02 \\times 10^{23} \\times 1000=4.3 \\times 10^{-3} \\mathrm{~g} We=1×8×me×NA=9.11×10−28×8×6.02×1023×1000=4.3×10−3 g",
+    "explanation": "\\mathrm{W}_{\\mathrm{e}}=1 \\times 8 \\times \\mathrm{m}_{\\mathrm{e}} \\times \\mathrm{N}_{\\mathrm{A}}=9.11 \\times 10^{-28} \\times 8 \\times 6.02 \\times 10^{23} \\times 1000=4.3 \\times 10^{-3} \\mathrm{~g} We=1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -809,7 +809,7 @@
       "d": "5.8845 × 10-4"
     },
     "correctAnswer": "b",
-    "explanation": "9.1×10−281.66×10−24=5.488×10−4 \\frac{9.1 \\times 10^{-28}}{1.66 \\times 10^{-24}} = 5.488 \\times 10^{-4} 1.66×10−249.1×10−28=5.488×10−4",
+    "explanation": "9.1\\frac{9.1 \\times 10^{-28}}{1.66 \\times 10^{-24}} = 5.488 \\times 10^{-4} 1.66",
     "subject": "Chemistry",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244077/gst-question-images/____________q41.png",
@@ -889,7 +889,7 @@
       "d": "23 × 1000 × 6.023 × 10 23 23×1000×6.023×10 23"
     },
     "correctAnswer": "c",
-    "explanation": "n=NNA=wM \\mathrm{n}=\\frac{\\mathrm{N}}{\\mathrm{N}_{\\mathrm{A}}}=\\frac{\\mathrm{w}}{\\mathrm{M}} n=NAN=Mw ⇒w=N×MNA=1×24×10−36.02×1023=246.02×1023×1000 \\Rightarrow w=\\frac{N \\times M}{N_{A}}=\\frac{1 \\times 24 \\times 10^{-3}}{6.02 \\times 10^{23}}=\\frac{24}{6.02 \\times 10^{23} \\times 1000} ⇒w=NAN×M=6.02×10231×24×10−3=6.02×1023×100024",
+    "explanation": "\\mathrm{n}=\\frac{\\mathrm{N}}{\\mathrm{N}_{\\mathrm{A}}}=\\frac{\\mathrm{w}}{\\mathrm{M}} n=NAN=Mw \\Rightarrow w=\\frac{N \\times M}{N_{A}}=\\frac{1 \\times 24 \\times 10^{-3}}{6.02 \\times 10^{23}}=\\frac{24}{6.02 \\times 10^{23} \\times 1000}",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -897,7 +897,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি ম্যাগনেসিয়াম পরমাণু (2412Mg) এর ভর কত কেজি?",
-    "explanationLatex": "$n=NNA=wM \\mathrm{n}=\\frac{\\mathrm{N}}{\\mathrm{N}_{\\mathrm{A}}}=\\frac{\\mathrm{w}}{\\mathrm{M}} n=NAN=Mw ⇒w=N\\ \\times MNA=1\\ \\times 24\\ \\times 10−36.02\\ \\times 1023=246.02\\ \\times 1023\\ \\times 1000 \\Rightarrow w=\\frac{N \\times M}{N_{A}}=\\frac{1 \\times 24 \\times 10^{-3}}{6.02 \\times 10^{23}}=\\frac{24}{6.02 \\times 10^{23} \\times 1000} ⇒w=NAN\\ \\times M=6.02\\ \\times 10231\\ \\times 24\\ \\times 10−3=6.02\\ \\times 1023\\ \\times 100024$"
+    "explanationLatex": "\\mathrm{n}=\\frac{\\mathrm{N}}{\\mathrm{N}_{\\mathrm{A}}}=\\frac{\\mathrm{w}}{\\mathrm{M}} n=NAN=Mw \\times MNA=1\\ \\times 24\\ \\times 10−36.02\\ \\times 1023=246.02\\ \\times 1023\\ \\times 1000 \\Rightarrow w=\\frac{N \\times M}{N_{A}}=\\frac{1 \\times 24 \\times 10^{-3}}{6.02 \\times 10^{23}}=\\frac{24}{6.02 \\times 10^{23} \\times 1000} \\times M=6.02\\ \\times 10231\\ \\times 24\\ \\times 10−3=6.02\\ \\times 1023\\ \\times 100024"
   },
   {
     "id": 46,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিচের কোনটি ভরের একক নয়?",
-    "explanationLatex": "$সঠিক উত্তর হলো MeV। কারণ: amu (atomic mass unit): এটি পারমাণবিক ভরের একক, যা ভরের একটি পরিমাপ। Nm⁻¹s²: এই এককটিকে বিশ্লেষণ করলে দেখা যায়, এটি ভরের একক কিলোগ্রাম (kg) নির্দেশ করে। (N = kg·m/s²; তাই Nm⁻¹s² = (kg·m/s²)·(\\frac{1}{m})·s² = kg)। MeV (Mega Electron Volt): এটি হলো শক্তির একক। ইলেকট্রন ভোল্ট (eV) শক্তি পরিমাপের জন্য ব্যবহৃত হয়, ভর পরিমাপের জন্য নয়। MeV/c²: আইনস্টাইনের ভর-শক্তি সমীকরণ E=mc² থেকে পাই m=E/c²। তাই MeV/c² ভরের একটি একক হিসেবে ব্যবহৃত হতে পারে। এটি কিলোগ্রামের সমতুল্য। সুতরাং, MeV হলো একমাত্র বিকল্প যা ভরের একক নয়, বরং শক্তির একক।$"
+    "explanationLatex": "সঠিক উত্তর হলো MeV। কারণ: এটি পারমাণবিক ভরের একক, যা ভরের একটি পরিমাপ। Nmএই এককটিকে বিশ্লেষণ করলে দেখা যায়, এটি ভরের একক কিলোগ্রাম (kg) নির্দেশ করে। (তাই Nm\\frac{1}{m})·sএটি হলো শক্তির একক। ইলেকট্রন ভোল্ট (eV) শক্তি পরিমাপের জন্য ব্যবহৃত হয়, ভর পরিমাপের জন্য নয়। MeV/cআইনস্টাইনের ভর-শক্তি সমীকরণ E=mc² থেকে পাই m=E/cতাই MeV/c² ভরের একটি একক হিসেবে ব্যবহৃত হতে পারে। এটি কিলোগ্রামের সমতুল্য। সুতরাং, MeV হলো একমাত্র বিকল্প যা ভরের একক নয়, বরং শক্তির একক।"
   },
   {
     "id": 47,

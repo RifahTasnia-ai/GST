@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "question": "k \\mathrm{k} k এর মান কত হলে x2+(k2−4)x+2k−6=0 \\mathrm{x}^{2}+\\left(\\mathrm{k}^{2}-4\\right) \\mathrm{x}+2 \\mathrm{k}-6=0 x2+(k2−4)x+2k−6=0 সমীকরণের মূল দুইটি পরস্পর উল্টা ও বিপরীত চিনহ বিশিষ্ট হবে? [DB'19]",
+    "options": {
+      "a": "± 3 ± 3",
+      "b": "± 5 ± 5",
+      "c": "5 2 2 5",
+      "d": "7 2 2 7"
+    },
+    "correctAnswer": "c",
+    "explanation": "সমাধান: (c); α⋅1−α=(2k−6) \\alpha \\cdot \\frac{1}{-\\alpha}=(2 \\mathrm{k}-6) α⋅−α1=(2k−6)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$k \\mathrm{k} k এর মান কত হলে x2+(k2−4)x+2k−6=0 \\mathrm{x}^{2}+\\left(\\mathrm{k}^{2}-4\\right) \\mathrm{x}+2 \\mathrm{k}-6=0 x2+(k2−4)x+2k−6=0 সমীকরণের মূল দুইটি পরস্পর উল্টা ও বিপরীত চিনহ বিশিষ্ট হবে? [DB'19]$",
+    "explanationLatex": "$সমাধান: (c); α⋅1−α=(2k−6) \\alpha \\cdot \\frac{1}{-\\alpha}=(2 \\mathrm{k}-6) α⋅−α1=(2k−6)$"
+  },
+  {
+    "id": 2,
+    "question": "K এর মান কত হলে (k+1)x2+(k+1)x+1=0 সমীকরণের মূলগুলি কাল্পনিক হবে?",
+    "options": {
+      "a": "-1",
+      "b": "-3",
+      "c": "-2",
+      "d": "1"
+    },
+    "correctAnswer": "d",
+    "explanation": "Solve :",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243610/gst-question-images/Math_________-Varsity-arc_q2.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$K এর মান কত হলে (k+1)x2+(k+1)x+1=0 সমীকরণের মূলগুলি কাল্পনিক হবে?$",
+    "explanationLatex": "Solve :"
+  },
+  {
+    "id": 3,
+    "question": "a এর মান কত হলে x3+x2+x+a রাশিটি x+2 দ্বারা নিঃশেষে বিভাজ্য হবে?",
+    "options": {
+      "a": "-3",
+      "b": "6",
+      "c": "4",
+      "d": "-4"
+    },
+    "correctAnswer": "b",
+    "explanation": "x+2 দ্বারা নিঃশেষে বিভাজ্য হলে x=-2 সমীকরণের একটি মূল হবে। x3+x2+x+a=0⇒(−2)3+(−2)2+(−2)+a=0⇒−8+4−2+a=0∴a=6 \\begin{aligned} & x^{3}+x^{2}+x+a=0 \\\\ \\Rightarrow & (-2)^{3}+(-2)^{2}+(-2)+a=0 \\\\ \\Rightarrow & -8+4-2+a=0 \\\\ & \\therefore a=6\\end{aligned} ⇒⇒x3+x2+x+a=0(−2)3+(−2)2+(−2)+a=0−8+4−2+a=0∴a=6",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "a এর মান কত হলে x3+x2+x+a রাশিটি x+2 দ্বারা নিঃশেষে বিভাজ্য হবে?",
+    "explanationLatex": "$x+2 দ্বারা নিঃশেষে বিভাজ্য হলে x=-2 সমীকরণের একটি মূল হবে। x3+x2+x+a=0⇒(−2)3+(−2)2+(−2)+a=0⇒−8+4−2+a=0∴a=6 \\begin{aligned} & x^{3}+x^{2}+x+a=0 \\\\ \\Rightarrow & (-2)^{3}+(-2)^{2}+(-2)+a=0 \\\\ \\Rightarrow & -8+4-2+a=0 \\\\ & \\therefore a=6\\end{aligned} ⇒⇒x3+x2+x+a=0(−2)3+(−2)2+(−2)+a=0−8+4−2+a=0∴a=6$"
+  },
+  {
+    "id": 4,
+    "question": "ax2+bx+c=0{\\rm ax}^2+bx+c=0 ax2+bx+c=0 এর মূলদ্বয়ের অনুপাত 4:54:5 4:5 হলে কোনটি সঠিক?",
+    "options": {
+      "a": "20 𝑎 𝑐 = 81 𝑏 2 20ac=81b 2",
+      "b": "20 𝑏 𝑐 = 81 𝑎 2 20bc=81a 2",
+      "c": "20 𝑏 2 = 81 𝑎 𝑐 20b 2 =81ac",
+      "d": "81 𝑏 2 = 20 𝑏 𝑐 81b 2 =20bc"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধরি মূলদ্বয়, 4α,5α 4 \\alpha, 5 \\alpha 4α,5α 4α+5α=−ba9α=−ba4α.5α=ca⇒20α2=ca⇒20(−b9a)2=ca⇒20b2=81ac \\begin{array}{l} 4 \\alpha+5 \\alpha=-\\frac{b}{a} \\\\ 9 \\alpha=-\\frac{b}{a} \\\\ 4 \\alpha .5 \\alpha=\\frac{c}{a} \\\\ \\Rightarrow 20 \\alpha^{2}=\\frac{c}{a} \\\\ \\Rightarrow 20\\left(-\\frac{b}{9 a}\\right)^{2}=\\frac{c}{a} \\\\ \\Rightarrow 20 b^{2}=81 a c\\end{array} 4α+5α=−ab9α=−ab4α.5α=ac⇒20α2=ac⇒20(−9ab)2=ac⇒20b2=81ac",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ax2+bx+c=0{\\rm ax}^2+bx+c=0 ax2+bx+c=0 এর মূলদ্বয়ের অনুপাত 4:54:5 4:5 হলে কোনটি সঠিক?$",
+    "explanationLatex": "$ধরি মূলদ্বয়, 4α,5α 4 \\alpha, 5 \\alpha 4α,5α 4α+5α=−ba9α=−ba4α.5α=ca⇒20α2=ca⇒20(−b9a)2=ca⇒20b2=81ac \\begin{array}{l} 4 \\alpha+5 \\alpha=-\\frac{b}{a} \\\\ 9 \\alpha=-\\frac{b}{a} \\\\ 4 \\alpha .5 \\alpha=\\frac{c}{a} \\\\ \\Rightarrow 20 \\alpha^{2}=\\frac{c}{a} \\\\ \\Rightarrow 20\\left(-\\frac{b}{9 a}\\right)^{2}=\\frac{c}{a} \\\\ \\Rightarrow 20 b^{2}=81 a c\\end{array} 4α+5α=−ab9α=−ab4α.5α=ac⇒20α2=ac⇒20(−9ab)2=ac⇒20b2=81ac$"
+  },
+  {
+    "id": 5,
+    "question": "7x²-5x-3 = 0 একটি দ্বিঘাত সমীকরণ।",
+    "options": {
+      "a": "− ( 3 7 ) −( 7 3 )",
+      "b": "3 7 7 3",
+      "c": "− ( 5 7 ) −( 7 5 )",
+      "d": "5 7 7 5"
+    },
+    "correctAnswer": "d",
+    "explanation": "মূলদ্বয়ের যোগফল নিচের কোনটি? মুলদ্বয়ের যোগফল =−−57=57 =-\\frac{-5}{7}=\\frac{5}{7} =−7−5=75",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$7x²-5x-3 = 0 একটি দ্বিঘাত সমীকরণ।$",
+    "explanationLatex": "$মূলদ্বয়ের যোগফল নিচের কোনটি? মুলদ্বয়ের যোগফল =−−57=57 =-\\frac{-5}{7}=\\frac{5}{7} =−7−5=75$"
+  },
+  {
+    "id": 6,
+    "question": "যে শর্তে দ্বিঘাত সমীকরণ ax2 + bx+ c = 0 এর একটি মূল অপরটির উল্টা ও বিপরীত চিহ্নের হবে-",
+    "options": {
+      "a": "c=a",
+      "b": "a=b",
+      "c": "c=-a",
+      "d": "a=-b"
+    },
+    "correctAnswer": "c",
+    "explanation": "Solve :",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243616/gst-question-images/Math_________-Varsity-arc_q6.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$যে শর্তে দ্বিঘাত সমীকরণ ax2 + bx+ c = 0 এর একটি মূল অপরটির উল্টা ও বিপরীত চিহ্নের হবে-$",
+    "explanationLatex": "Solve :"
+  },
+  {
+    "id": 7,
+    "question": "6x2−5x+1=0 6 \\mathrm{x}^{2}-5 \\mathrm{x}+1=0 6x2−5x+1=0 সমীকরণের মূলদ্বয় α,β \\alpha, \\beta α,β হলে, 1α,1β \\frac{1}{\\alpha}, \\frac{1}{\\beta} α1,β1 মূল বিশিষ্ট সমীকরণটি হবে -",
+    "options": {
+      "a": "5x2 + 2x - 6 = 0",
+      "b": "x2 - 5x + 6 = 0",
+      "c": "3x2 - 2x + 5 = 0",
+      "d": "x2 - 6x + 5 = 0"
+    },
+    "correctAnswer": "b",
+    "explanation": "α+β=56;αβ=16 \\alpha+\\beta=\\frac{5}{6} ; \\alpha \\beta=\\frac{1}{6} α+β=65;αβ=61 ∴1α \\therefore \\frac{1}{\\alpha} ∴α1 এবং 1β \\frac{1}{\\beta} β1 মূলের সমীকরণ ⇒x2−(1α+1β)x+(1α⋅1β)=0⇒x2−(α+βαβ)x+1αβ=0⇒x2−5x+6=0 \\begin{array}{l} \\Rightarrow x^{2}-\\left(\\frac{1}{\\alpha}+\\frac{1}{\\beta}\\right) x+\\left(\\frac{1}{\\alpha} \\cdot \\frac{1}{\\beta}\\right)=0 \\\\ \\Rightarrow x^{2}-\\left(\\frac{\\alpha+\\beta}{\\alpha \\beta}\\right) x+\\frac{1}{\\alpha \\beta}=0 \\Rightarrow x^{2}-5 x+6=0 \\end{array} ⇒x2−(α1+β1)x+(α1⋅β1)=0⇒x2−(αβα+β)x+αβ1=0⇒x2−5x+6=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$6x2−5x+1=0 6 \\mathrm{x}^{2}-5 \\mathrm{x}+1=0 6x2−5x+1=0 সমীকরণের মূলদ্বয় α,β \\alpha, \\beta α,β হলে, 1α,1β \\frac{1}{\\alpha}, \\frac{1}{\\beta} α1,β1 মূল বিশিষ্ট সমীকরণটি হবে -$",
+    "explanationLatex": "$α+β=56;αβ=16 \\alpha+\\beta=\\frac{5}{6} ; \\alpha \\beta=\\frac{1}{6} α+β=65;αβ=61 ∴1α \\therefore \\frac{1}{\\alpha} ∴α1 এবং 1β \\frac{1}{\\beta} β1 মূলের সমীকরণ ⇒x2−(1α+1β)x+(1α⋅1β)=0⇒x2−(α+βαβ)x+1αβ=0⇒x2−5x+6=0 \\begin{array}{l} \\Rightarrow x^{2}-\\left(\\frac{1}{\\alpha}+\\frac{1}{\\beta}\\right) x+\\left(\\frac{1}{\\alpha} \\cdot \\frac{1}{\\beta}\\right)=0 \\\\ \\Rightarrow x^{2}-\\left(\\frac{\\alpha+\\beta}{\\alpha \\beta}\\right) x+\\frac{1}{\\alpha \\beta}=0 \\Rightarrow x^{2}-5 x+6=0 \\end{array} ⇒x2−(α1+β1)x+(α1⋅β1)=0⇒x2−(αβα+β)x+αβ1=0⇒x2−5x+6=0$"
+  },
+  {
+    "id": 8,
+    "question": "x5−x4+10x3−9x2+8x x^{5}-x^{4}+10 x^{3}-9 x^{2}+8 x x5−x4+10x3−9x2+8x +699 রাশিটির একটি উৎপাদক নির্ণয় কর।",
+    "options": {
+      "a": "𝑥 + 2 x+2",
+      "b": "𝑥 + 3 x+3",
+      "c": "𝑥 + 4 x+4",
+      "d": "𝑥 + 5 x+5"
+    },
+    "correctAnswer": "b",
+    "explanation": "Solve: ধরি, f(x)=x5−x4+10x3−9x2+8x+699∴f(−3)=(−3)5−(−3)4+10(−3)3− \\begin{aligned} & f(x)=x^{5}-x^{4}+10 x^{3}-9 x^{2}+8 x+699 \\\\ \\therefore & f(-3)=(-3)^{5}-(-3)^{4}+10(-3)^{3}- \\end{aligned} ∴f(x)=x5−x4+10x3−9x2+8x+699f(−3)=(−3)5−(−3)4+10(−3)3− 9(−3)2+8(−3)+699=−243−81−270−81−24+699=−699+699=0 \\begin{aligned} & 9(-3)^{2}+8(-3)+699 \\\\ = & -243-81-270-81-24+699 \\\\ = & -699+699=0 \\end{aligned} ==9(−3)2+8(−3)+699−243−81−270−81−24+699−699+699=0 ∴ \\therefore ∴ ভাগশেষ উপপাদ্যে সাহায্যে, x−(−3)=x+3 \\mathrm{x}-(-3)=\\mathrm{x}+3 x−(−3)=x+3 হবে f(x)=x5−x4+10x3−9x2+8x+ f(x)=x^{5}-x^{4}+10 x^{3}-9 x^{2}+8 x+ f(x)=x5−x4+10x3−9x2+8x+ 699 বহুপদীর একটি উৎপাদক ।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x5−x4+10x3−9x2+8x x^{5}-x^{4}+10 x^{3}-9 x^{2}+8 x x5−x4+10x3−9x2+8x +699 রাশিটির একটি উৎপাদক নির্ণয় কর।$",
+    "explanationLatex": "$Solve: ধরি, f(x)=x5−x4+10x3−9x2+8x+699∴f(−3)=(−3)5−(−3)4+10(−3)3− \\begin{aligned} & f(x)=x^{5}-x^{4}+10 x^{3}-9 x^{2}+8 x+699 \\\\ \\therefore & f(-3)=(-3)^{5}-(-3)^{4}+10(-3)^{3}- \\end{aligned} ∴f(x)=x5−x4+10x3−9x2+8x+699f(−3)=(−3)5−(−3)4+10(−3)3− 9(−3)2+8(−3)+699=−243−81−270−81−24+699=−699+699=0 \\begin{aligned} & 9(-3)^{2}+8(-3)+699 \\\\ = & -243-81-270-81-24+699 \\\\ = & -699+699=0 \\end{aligned} ==9(−3)2+8(−3)+699−243−81−270−81−24+699−699+699=0 ∴ \\therefore ∴ ভাগশেষ উপপাদ্যে সাহায্যে, x−(−3)=x+3 \\mathrm{x}-(-3)=\\mathrm{x}+3 x−(−3)=x+3 হবে f(x)=x5−x4+10x3−9x2+8x+ f(x)=x^{5}-x^{4}+10 x^{3}-9 x^{2}+8 x+ f(x)=x5−x4+10x3−9x2+8x+ 699 বহুপদীর একটি উৎপাদক ।$"
+  },
+  {
+    "id": 9,
+    "question": "x3+2x2+3x+4=0x^3+2x^2+3x+4=0 x3+2x2+3x+4=0 এর মূলত্রয় α, β, γ\\alpha,\\ \\beta,\\ \\gammaα, β, γ হলে, α3+β3+γ3=?\\alpha^3+\\beta^3+\\gamma^3=?α3+β3+γ3=?",
+    "options": {
+      "a": "18 18",
+      "b": "0 0",
+      "c": "2 2",
+      "d": "− 2 −2"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) − 2 −2।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243617/gst-question-images/Math_________-Varsity-arc_q9.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x3+2x2+3x+4=0x^3+2x^2+3x+4=0 x3+2x2+3x+4=0 এর মূলত্রয় α, β, γ\\alpha,\\ \\beta,\\ \\gammaα, β, γ হলে, α3+β3+γ3=?\\alpha^3+\\beta^3+\\gamma^3=?α3+β3+γ3=?$",
+    "explanationLatex": "সঠিক উত্তর: (d) − 2 −2।"
+  },
+  {
+    "id": 10,
+    "question": "(x−1)4−1=0\\left(x-1\\right)^4-1=0(x−1)4−1=0 এর মূলগুলি-",
+    "options": {
+      "a": "1 , 0 , 1 + 𝑖 , 1 − 𝑖 1, 0, 1+i, 1−i",
+      "b": "2 , 1 , 1 + 𝑖 , 1 − 𝑖 2, 1, 1+i, 1−i",
+      "c": "0 , 0 , 1 + 𝑖 , 1 − 𝑖 0, 0, 1+i, 1−i",
+      "d": "2 , 0 , 1 + 𝑖 , 1 − 𝑖 2, 0, 1+i, 1−i"
+    },
+    "correctAnswer": "d",
+    "explanation": "প্রদত্ত সমীকরণ: (x−1)4−1=0 (x-1)^{4}-1=0 (x−1)4−1=0 (x−1)4=1 (x-1)^{4}=1 (x−1)4=1 উভয় পক্ষে চতুর্থ মূলঃ x−1=±14 x-1= \\pm \\sqrt[4]{1} x−1=±41 x−1=±1 কারণ 14=1 এবং (−1)4=1 x-1= \\pm 1 \\quad \\text { কারণ } \\quad 1^{4}=1 \\quad \\text { এবং } \\quad(-1)^{4}=1 x−1=±1 কারণ 14=1 এবং (−1)4=1 1. যখন x−1=1 x-1=1 x−1=1 : x=1+1=2 x=1+1=2 x=1+1=2 2. যখন x−1=−1 x-1=-1 x−1=−1 : x=1−1=0 x=1-1=0 x=1−1=0 জর্টিল মূলগুলি বিবেচনা করি। x−1=±i কারণ i4=1 এবং (−i)4=1 x-1= \\pm i \\quad \\text { কারণ } \\quad i^{4}=1 \\quad \\text { এবং } \\quad(-i)^{4}=1 x−1=±i কারণ i4=1 এবং (−i)4=1 3. যখন x−1=i x-1=i x−1=i : x=1+i x=1+i x=1+i 4. যখন x−1=−i x-1=-i x−1=−i : x=1−i x=1-i x=1−i সুতরাং, সমীকরণের মূলগুলি হলো: x=0,x=2,x=1+i,x=1−i x=0, \\quad x=2, \\quad x=1+i, \\quad x=1-i x=0,x=2,x=1+i,x=1−i",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$(x−1)4−1=0\\left(x-1\\right)^4-1=0(x−1)4−1=0 এর মূলগুলি-$",
+    "explanationLatex": "$প্রদত্ত সমীকরণ: (x−1)4−1=0 (x-1)^{4}-1=0 (x−1)4−1=0 (x−1)4=1 (x-1)^{4}=1 (x−1)4=1 উভয় পক্ষে চতুর্থ মূলঃ x−1=\\\\pm 14 x-1= \\pm \\sqrt[4]{1} x−1=\\\\pm 41 x−1=\\\\pm 1 কারণ 14=1 এবং (−1)4=1 x-1= \\pm 1 \\quad \\text { কারণ } \\quad 1^{4}=1 \\quad \\text { এবং } \\quad(-1)^{4}=1 x−1=\\\\pm 1 কারণ 14=1 এবং (−1)4=1 1. যখন x−1=1 x-1=1 x−1=1 : x=1+1=2 x=1+1=2 x=1+1=2 2. যখন x−1=−1 x-1=-1 x−1=−1 : x=1−1=0 x=1-1=0 x=1−1=0 জর্টিল মূলগুলি বিবেচনা করি। x−1=\\\\pm i কারণ i4=1 এবং (−i)4=1 x-1= \\pm i \\quad \\text { কারণ } \\quad i^{4}=1 \\quad \\text { এবং } \\quad(-i)^{4}=1 x−1=\\\\pm i কারণ i4=1 এবং (−i)4=1 3. যখন x−1=i x-1=i x−1=i : x=1+i x=1+i x=1+i 4. যখন x−1=−i x-1=-i x−1=−i : x=1−i x=1-i x=1−i সুতরাং, সমীকরণের মূলগুলি হলো: x=0,x=2,x=1+i,x=1−i x=0, \\quad x=2, \\quad x=1+i, \\quad x=1-i x=0,x=2,x=1+i,x=1−i$"
+  },
+  {
+    "id": 11,
+    "question": "a,b,ca,b,ca,b,c সমান্তর প্রগমনে থাকলে নিচের কোনটি সত্য?",
+    "options": {
+      "a": "1 𝑎 + 1 𝑐 = 2 𝑏 a 1 + c 1 = b 2",
+      "b": "𝑎 + 𝑏 = 𝑐 a+b=c",
+      "c": "𝑎 + 𝑐 = 2 𝑏 a+c=2b",
+      "d": "𝑎 𝑐 = 𝑏 2 ac=b 2"
+    },
+    "correctAnswer": "c",
+    "explanation": "সমান্তর প্রগমনে ধরি, a= b-r b=b c= b+r এখন, a+c=b−r+b+r=b+b=2ba+c \\\\= b-r+b+r\\\\ = b+b\\\\=2ba+c=b−r+b+r=b+b=2b",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "a,b,ca,b,ca,b,c সমান্তর প্রগমনে থাকলে নিচের কোনটি সত্য?",
+    "explanationLatex": "$সমান্তর প্রগমনে ধরি, a= b-r b=b c= b+r এখন, a+c=b−r+b+r=b+b=2ba+c \\\\= b-r+b+r\\\\ = b+b\\\\=2ba+c=b−r+b+r=b+b=2b$"
+  },
+  {
+    "id": 12,
+    "question": "6x3+5x2+6x+2=06x^3+5x^2+6x+2=06x3+5x2+6x+2=0 সমীকরণের মূলের সংখ্যা-",
+    "options": {
+      "a": "4",
+      "b": "2",
+      "c": "5",
+      "d": "3"
+    },
+    "correctAnswer": "d",
+    "explanation": "কোনো সমীকরণের মূল এর সংখ্যা হবে, সমীকরণের সর্বোচ্চ পাওয়ার এর সমান। সমীকরণে x এর পাওয়ার আছে 3 তাই মূলের সংখ্যা =3",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$6x3+5x2+6x+2=06x^3+5x^2+6x+2=06x3+5x2+6x+2=0 সমীকরণের মূলের সংখ্যা-$",
+    "explanationLatex": "$কোনো সমীকরণের মূল এর সংখ্যা হবে, সমীকরণের সর্বোচ্চ পাওয়ার এর সমান। সমীকরণে x এর পাওয়ার আছে 3 তাই মূলের সংখ্যা =3$"
+  },
+  {
+    "id": 13,
+    "question": "x2+x+1=0x^2 + x + 1 = 0x2+x+1=0 সমীকরণের মূল দুটি α\\alpha α ও β\\betaβ হলে, নিচের কোন সমীকরণটি সঠিক যার মূল 1α\\frac{1}{\\alpha}α1 এবং 1β\\frac{1}{\\beta} β1 হবে?",
+    "options": {
+      "a": "𝑥 2 + 𝑥 + 1 = 0 x 2 +x+1=0",
+      "b": "𝑥 2 – 𝑥 – 1 = 0 x 2 –x–1=0",
+      "c": "𝑥 2 – 𝑥 + 1 = 0 x 2 –x+1=0",
+      "d": "𝑥 2 + 𝑥 – 1 = 0 x 2 +x–1=0"
+    },
+    "correctAnswer": "a",
+    "explanation": "মূলদয়ের যোগফল, α+β=-1/1=-1 মূলদ্বয়ের গুণফল, αβ=1/1=1 নতুন মূল 1/α ও 1/β নির্ণেয় সমীকরণ x^2-{(1/α)+(1/β)}x+(1/αβ)=0 =>x^2-{(α+β)/αβ}.x+(1/αβ)=0 =>x^2-(-1/1)x+(1/1)=0 =>x^2+x+1=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x2+x+1=0x^2 + x + 1 = 0x2+x+1=0 সমীকরণের মূল দুটি α\\alpha α ও β\\betaβ হলে, নিচের কোন সমীকরণটি সঠিক যার মূল 1α\\frac{1}{\\alpha}α1 এবং 1β\\frac{1}{\\beta} β1 হবে?$",
+    "explanationLatex": "$মূলদয়ের যোগফল, α+β=-\\frac{1}{1}=-1 মূলদ্বয়ের গুণফল, αβ=\\frac{1}{1}=1 নতুন মূল 1/α ও 1/β নির্ণেয় সমীকরণ x^2-{(1/α)+(1/β)}x+(1/αβ)=0 =>x^2-{(α+β)/αβ}.x+(1/αβ)=0 =>x^2-(-\\frac{1}{1})x+(\\frac{1}{1})=0 =>x^2+x+1=0$"
+  },
+  {
+    "id": 14,
+    "question": "3x2−4x+2=0 3 x^{2}-4 x+2=0 3x2−4x+2=0 সমীকরণের মূলের প্রকৃতি নির্ণয় কর।",
+    "options": {
+      "a": "সরল",
+      "b": "অবাস্তব",
+      "c": "বাস্তব",
+      "d": "কোনটি নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "Solve: 3x2−4x+2=0 3 x^{2}-4 x+2=0 3x2−4x+2=0 সমীকরণের পৃথায়ক=(−4)2−4.3.2=16−24=−8 =(-4)^{2}-4.3 .2=16-24=-8 =(−4)2−4.3.2=16−24=−8 ∴ \\therefore ∴ প্রদত্ত সমীকরণের মূলদ্বয় অবাস্তব।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$3x2−4x+2=0 3 x^{2}-4 x+2=0 3x2−4x+2=0 সমীকরণের মূলের প্রকৃতি নির্ণয় কর।$",
+    "explanationLatex": "$Solve: 3x2−4x+2=0 3 x^{2}-4 x+2=0 3x2−4x+2=0 সমীকরণের পৃথায়ক=(−4)2−4.3.2=16−24=−8 =(-4)^{2}-4.3 .2=16-24=-8 =(−4)2−4.3.2=16−24=−8 ∴ \\therefore ∴ প্রদত্ত সমীকরণের মূলদ্বয় অবাস্তব।$"
+  },
+  {
+    "id": 15,
+    "question": "k এর মান কত হলে x2+kx+1=0 সমীকরণের মূলদ্বয় সমান হবে?",
+    "options": {
+      "a": "-4",
+      "b": "-1",
+      "c": "-2",
+      "d": "0"
+    },
+    "correctAnswer": "c",
+    "explanation": "x2+kx+3=0 x^{2}+k x+3=0 x2+kx+3=0 নিশ্চায়ক, D=k2−4 D=k^{2}-4 D=k2−4 মূলদ্বয় জটিল হলে, k2^22 - 4 = 0 k = ±\\pm± 2 অপশন অনুসারে, -2 হবে।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$k এর মান কত হলে x2+kx+1=0 সমীকরণের মূলদ্বয় সমান হবে?$",
+    "explanationLatex": "$x2+kx+3=0 x^{2}+k x+3=0 x2+kx+3=0 নিশ্চায়ক, D=k2−4 D=k^{2}-4 D=k2−4 মূলদ্বয় জটিল হলে, k2^22 - 4 = 0 k = \\\\pm \\pm\\\\pm  2 অপশন অনুসারে, -2 হবে।$"
+  },
+  {
+    "id": 16,
+    "question": "x2 - 3x + 5 = 0 এর নূন্যতম মান-",
+    "options": {
+      "a": "3",
+      "b": "5",
+      "c": "14 4 4 14",
+      "d": "11 4 4 11"
+    },
+    "correctAnswer": "d",
+    "explanation": "x2−3x+5 এর ন্যুনতম মান =c-b²/4a=5−94=20−94=114 \\begin{array}{l}x^{2}-3 x+5 \\text { এর ন্যুনতম মান =c-b²/4a}=5-\\frac{9}{4} \\\\ =\\frac{20-9}{4}=\\frac{11}{4}\\end{array} x2−3x+5 এর ন্যুনতম মান =c-b²/4a=5−49=420−9=411",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x2 - 3x + 5 = 0 এর নূন্যতম মান-$",
+    "explanationLatex": "$x2−3x+5 এর ন্যুনতম মান =c-b²/4a=5−94=20−94=114 \\begin{array}{l}x^{2}-3 x+5 \\text { এর ন্যুনতম মান =c-b²/4a}=5-\\frac{9}{4} \\\\ =\\frac{20-9}{4}=\\frac{11}{4}\\end{array} x2−3x+5 এর ন্যুনতম মান =c-b²/4a=5−49=420−9=411$"
+  },
+  {
+    "id": 17,
+    "question": "k এর মান কত হলে, x2-3x+2+ k- 0 সমীকরণের (x-3) একটি উৎপাদক হবে?",
+    "options": {
+      "a": "2",
+      "b": "-2",
+      "c": "1",
+      "d": "-1"
+    },
+    "correctAnswer": "b",
+    "explanation": "∴ \\therefore ∴ প্রদত্ত সমীকরণের একটি উৎপাদক (x−3) (\\mathrm{x}-3) (x−3) হলে x=3x=3x=3 বসিয়ে পাই, ∴32−3×3+2+k=0⇒k=−2 \\therefore 3^{2}-3 \\times 3+2+\\mathrm{k}=0 \\Rightarrow \\mathrm{k}=-2 ∴32−3×3+2+k=0⇒k=−2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "k এর মান কত হলে, x2-3x+2+ k- 0 সমীকরণের (x-3) একটি উৎপাদক হবে?",
+    "explanationLatex": "$∴ \\therefore ∴ প্রদত্ত সমীকরণের একটি উৎপাদক (x−3) (\\mathrm{x}-3) (x−3) হলে x=3x=3x=3 বসিয়ে পাই, ∴32−3\\\\times 3+2+k=0⇒k=−2 \\therefore 3^{2}-3 \\times 3+2+\\mathrm{k}=0 \\Rightarrow \\mathrm{k}=-2 ∴32−3\\\\times 3+2+k=0⇒k=−2$"
+  },
+  {
+    "id": 18,
+    "question": "(4−k)x2+(2k+4)x+8k+1=0 \\left ( 4 - k \\right ) x^{2} + \\left ( 2 k + 4 \\right ) x + 8 k + 1 = 0 (4−k)x2+(2k+4)x+8k+1=0 এর মূলদ্বয় সমান হলে, k এর মান-",
+    "options": {
+      "a": "2,3",
+      "b": "3,5",
+      "c": "3,7",
+      "d": "0,3"
+    },
+    "correctAnswer": "d",
+    "explanation": "(4−k)x2+(2k+4)x+8k+1=0 (4-\\mathrm{k}) \\mathrm{x}^{2}+(2 \\mathrm{k}+4) \\mathrm{x}+8 \\mathrm{k}+1=0 (4−k)x2+(2k+4)x+8k+1=0 এর মূলদ্বয় সমান হলে, নিশ্চায়ক =0 ⇒(2k+4)2−4(4−k)(8k+1)=0⇒k2+4k+4−32k−4+8k2+k=0⇒9k2−27k=0⇒k=0,3 \\begin{array}{l} \\Rightarrow(2 \\mathrm{k}+4)^{2}-4(4-\\mathrm{k})(8 \\mathrm{k}+1)=0 \\\\ \\Rightarrow \\mathrm{k}^{2}+4 \\mathrm{k}+4-32 \\mathrm{k}-4+8 \\mathrm{k}^{2}+\\mathrm{k}=0 \\\\ \\Rightarrow 9 \\mathrm{k}^{2}-27 \\mathrm{k}=0 \\\\ \\Rightarrow \\mathrm{k}=0,3 \\end{array} ⇒(2k+4)2−4(4−k)(8k+1)=0⇒k2+4k+4−32k−4+8k2+k=0⇒9k2−27k=0⇒k=0,3",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$(4−k)x2+(2k+4)x+8k+1=0 \\left ( 4 - k \\right ) x^{2} + \\left ( 2 k + 4 \\right ) x + 8 k + 1 = 0 (4−k)x2+(2k+4)x+8k+1=0 এর মূলদ্বয় সমান হলে, k এর মান-$",
+    "explanationLatex": "$(4−k)x2+(2k+4)x+8k+1=0 (4-\\mathrm{k}) \\mathrm{x}^{2}+(2 \\mathrm{k}+4) \\mathrm{x}+8 \\mathrm{k}+1=0 (4−k)x2+(2k+4)x+8k+1=0 এর মূলদ্বয় সমান হলে, নিশ্চায়ক =0 ⇒(2k+4)2−4(4−k)(8k+1)=0⇒k2+4k+4−32k−4+8k2+k=0⇒9k2−27k=0⇒k=0,3 \\begin{array}{l} \\Rightarrow(2 \\mathrm{k}+4)^{2}-4(4-\\mathrm{k})(8 \\mathrm{k}+1)=0 \\\\ \\Rightarrow \\mathrm{k}^{2}+4 \\mathrm{k}+4-32 \\mathrm{k}-4+8 \\mathrm{k}^{2}+\\mathrm{k}=0 \\\\ \\Rightarrow 9 \\mathrm{k}^{2}-27 \\mathrm{k}=0 \\\\ \\Rightarrow \\mathrm{k}=0,3 \\end{array} ⇒(2k+4)2−4(4−k)(8k+1)=0⇒k2+4k+4−32k−4+8k2+k=0⇒9k2−27k=0⇒k=0,3$"
+  },
+  {
+    "id": 19,
+    "question": "5x2−6x+3= 5 x^{2}-6 x+3= 5x2−6x+3= সমীকরণের মুলদ্বয় α\\alphaα ও β \\beta β হলে, 1a+1β \\frac{1}{a}+\\frac{1}{\\beta} a1+β1 এর মান কোনটি?",
+    "options": {
+      "a": "6 5 5 6",
+      "b": "3 5 5 3",
+      "c": "2",
+      "d": "3"
+    },
+    "correctAnswer": "c",
+    "explanation": "5x2−6x+3=0 5 x^{2}-6 x+3=0 5x2−6x+3=0 এর মূল α,β \\alpha, \\beta α,β হলে, α+β=65 \\alpha+\\beta=\\frac{6}{5} α+β=56 এবং αβ=35∴1α+1β=α+βαβ=6535=2 \\alpha \\beta=\\frac{3}{5} \\quad \\therefore \\frac{1}{\\alpha}+\\frac{1}{\\beta}=\\frac{\\alpha+\\beta}{\\alpha \\beta}=\\frac{\\frac{6}{5}}{\\frac{3}{5}}=2 αβ=53∴α1+β1=αβα+β=5356=2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$5x2−6x+3= 5 x^{2}-6 x+3= 5x2−6x+3= সমীকরণের মুলদ্বয় α\\alphaα ও β \\beta β হলে, 1a+1β \\frac{1}{a}+\\frac{1}{\\beta} a1+β1 এর মান কোনটি?$",
+    "explanationLatex": "$5x2−6x+3=0 5 x^{2}-6 x+3=0 5x2−6x+3=0 এর মূল α,β \\alpha, \\beta α,β হলে, α+β=65 \\alpha+\\beta=\\frac{6}{5} α+β=56 এবং αβ=35∴1α+1β=α+βαβ=6535=2 \\alpha \\beta=\\frac{3}{5} \\quad \\therefore \\frac{1}{\\alpha}+\\frac{1}{\\beta}=\\frac{\\alpha+\\beta}{\\alpha \\beta}=\\frac{\\frac{6}{5}}{\\frac{3}{5}}=2 αβ=53∴α1+β1=αβα+β=5356=2$"
+  },
+  {
+    "id": 20,
+    "question": "x²+ax+b = 0 সমীকরণের মূলদ্বয় সমান এবং x²+ax+8 =0 সমীকরণটির একটি মূল 4 হলে b এর মান কত?",
+    "options": {
+      "a": "4",
+      "b": "8",
+      "c": "9",
+      "d": "12"
+    },
+    "correctAnswer": "c",
+    "explanation": "x=4 হলে, 42+4a+8=0⇒a=−6x2−6x+b=0 \\begin{array}{l} x=4 \\text { হলে, } 4^{2}+4 a+8=0 \\Rightarrow a=-6 \\\\ x^{2}-6 x+b=0 \\end{array} x=4 হলে, 42+4a+8=0⇒a=−6x2−6x+b=0 মূলদ্বয় সমান হলে, b2−4ac=0⇒36−4.1.b=0⇒b=9 b^{2}-4 a c=0 \\Rightarrow 36-4.1 . b=0 \\Rightarrow b=9 b2−4ac=0⇒36−4.1.b=0⇒b=9",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x²+ax+b = 0 সমীকরণের মূলদ্বয় সমান এবং x²+ax+8 =0 সমীকরণটির একটি মূল 4 হলে b এর মান কত?$",
+    "explanationLatex": "$x=4 হলে, 42+4a+8=0⇒a=−6x2−6x+b=0 \\begin{array}{l} x=4 \\text { হলে, } 4^{2}+4 a+8=0 \\Rightarrow a=-6 \\\\ x^{2}-6 x+b=0 \\end{array} x=4 হলে, 42+4a+8=0⇒a=−6x2−6x+b=0 মূলদ্বয় সমান হলে, b2−4ac=0⇒36−4.1.b=0⇒b=9 b^{2}-4 a c=0 \\Rightarrow 36-4.1 . b=0 \\Rightarrow b=9 b2−4ac=0⇒36−4.1.b=0⇒b=9$"
+  },
+  {
+    "id": 21,
+    "question": "ax3+bx2+d=0 এ জটিল মূল থাকতে পারে-",
+    "options": {
+      "a": "একটি",
+      "b": "তিনটি",
+      "c": "দুইটি",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "বাস্তব সহগবিশিষ্ট সমীকরণে জটিল মূল সবসময় অনুবন্ধী আকারে থাকে। যেহেতু এখানে মোট মূলসংখ্যা ৩ টি(x এর সর্বোচ্চ ঘাত 3)। সুতরাং, সর্বোচ্চ জটিল মূল ২ টি থাকতে পারবে",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ax3+bx2+d=0 এ জটিল মূল থাকতে পারে-$",
+    "explanationLatex": "বাস্তব সহগবিশিষ্ট সমীকরণে জটিল মূল সবসময় অনুবন্ধী আকারে থাকে। যেহেতু এখানে মোট মূলসংখ্যা ৩ টি(x এর সর্বোচ্চ ঘাত 3)। সুতরাং, সর্বোচ্চ জটিল মূল ২ টি থাকতে পারবে"
+  },
+  {
+    "id": 22,
+    "question": "2x³ -3x -5 = 0 সমীকরণের মুলগুলি ɑ, β ও ɤ হলে, ∑αβ=? \\sum \\alpha \\beta = ? ∑αβ=?",
+    "options": {
+      "a": "5/2",
+      "b": "3/2",
+      "c": "-3/2",
+      "d": "-5/2"
+    },
+    "correctAnswer": "c",
+    "explanation": "2x3−3x−5=0 2 x^{3}-3 x-5=0 2x3−3x−5=0 হলে ∑αβ=ca=−32 \\sum \\alpha \\beta=\\frac{c}{a}=\\frac{-3}{2} ∑αβ=ac=2−3",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$2x³ -3x -5 = 0 সমীকরণের মুলগুলি ɑ, β ও ɤ হলে, ∑αβ=? \\sum \\alpha \\beta = ? ∑αβ=?$",
+    "explanationLatex": "$2x3−3x−5=0 2 x^{3}-3 x-5=0 2x3−3x−5=0 হলে ∑αβ=ca=−32 \\sum \\alpha \\beta=\\frac{c}{a}=\\frac{-3}{2} ∑αβ=ac=2−3$"
+  },
+  {
+    "id": 23,
+    "question": "কোনো দ্বিঘাত সমীকরণের একটি মূল 12+i \\frac{1}{2+i} 2+i1 হলে সমীকরণটি হবে?",
+    "options": {
+      "a": "9 𝑥 2 − 12 𝑥 + 5 = 0 9x 2 −12x+5=0",
+      "b": "5 x 2 − 4 x + 1 = 0 5x 2 −4x+1=0",
+      "c": "5 𝑥 2 + 4 𝑥 + 1 = 0 5x 2 +4x+1=0",
+      "d": "25 x 2 − 20 x + 3 = 0 25x 2 −20x+3=0"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান: (b); মূল: 12+i=25−15i \\frac{1}{2+\\mathrm{i}}=\\frac{2}{5}-\\frac{1}{5} \\mathrm{i} 2+i1=52−51i ∴ \\therefore ∴ অন্য মূল =25+15i.: =\\frac{2}{5}+\\frac{1}{5} \\mathrm{i} .: =52+51i.: সমীকরণ,x2−(25−15i+25+15i)x+(25−15i)(25+15i)=0 \\mathrm{x}^{2}-\\left(\\frac{2}{5}-\\frac{1}{5} \\mathrm{i}+\\frac{2}{5}+\\frac{1}{5} \\mathrm{i}\\right) \\mathrm{x}+\\left(\\frac{2}{5}-\\frac{1}{5} \\mathrm{i}\\right)\\left(\\frac{2}{5}+\\frac{1}{5} \\mathrm{i}\\right)=0 x2−(52−51i+52+51i)x+(52−51i)(52+51i)=0 ⇒x2−45x+15=0⇒5x2−4x+1=0 \\Rightarrow x^{2}-\\frac{4}{5} \\mathrm{x}+\\frac{1}{5}=0 \\Rightarrow 5 \\mathrm{x}^{2}-4 \\mathrm{x}+1=0 ⇒x2−54x+51=0⇒5x2−4x+1=0Or (Use Calculator)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$কোনো দ্বিঘাত সমীকরণের একটি মূল 12+i \\frac{1}{2+i} 2+i1 হলে সমীকরণটি হবে?$",
+    "explanationLatex": "$সমাধান: (b); মূল: 12+i=25−15i \\frac{1}{2+\\mathrm{i}}=\\frac{2}{5}-\\frac{1}{5} \\mathrm{i} 2+i1=52−51i ∴ \\therefore ∴ অন্য মূল =25+15i.: =\\frac{2}{5}+\\frac{1}{5} \\mathrm{i} .: =52+51i.: সমীকরণ,x2−(25−15i+25+15i)x+(25−15i)(25+15i)=0 \\mathrm{x}^{2}-\\left(\\frac{2}{5}-\\frac{1}{5} \\mathrm{i}+\\frac{2}{5}+\\frac{1}{5} \\mathrm{i}\\right) \\mathrm{x}+\\left(\\frac{2}{5}-\\frac{1}{5} \\mathrm{i}\\right)\\left(\\frac{2}{5}+\\frac{1}{5} \\mathrm{i}\\right)=0 x2−(52−51i+52+51i)x+(52−51i)(52+51i)=0 ⇒x2−45x+15=0⇒5x2−4x+1=0 \\Rightarrow x^{2}-\\frac{4}{5} \\mathrm{x}+\\frac{1}{5}=0 \\Rightarrow 5 \\mathrm{x}^{2}-4 \\mathrm{x}+1=0 ⇒x2−54x+51=0⇒5x2−4x+1=0Or (Use Calculator)$"
+  },
+  {
+    "id": 24,
+    "question": "2x3−2bx2−2b2x−4b3 2 x^{3}-2 b x^{2}-2 b^{2} x-4 b^{3} 2x3−2bx2−2b2x−4b3 এর উৎপাদক নির্ণয় কর।",
+    "options": {
+      "a": "4 𝑥 − 2 𝑏 4x−2b",
+      "b": "2 𝑥 − 2 𝑏 2x−2b",
+      "c": "𝑥 − 𝑏 x−b",
+      "d": "𝑥 − 2 𝑏 x−2b"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধরি, f(x)=2x3−2bx2−2b2x−4b3 f(x)=2 x^{3}-2 b x^{2}-2 b^{2} x-4 b^{3} f(x)=2x3−2bx2−2b2x−4b3 ∴f(2b)=2⋅(2b)3−2b(2b)2−2b2(2b)−4b3=16b3−8b3−4b3−4b3=16b3−16b3=0 \\begin{aligned} \\therefore f(2 b) & =2 \\cdot(2 b)^{3}-2 b(2 b)^{2}-2 b^{2}(2 b)-4 b^{3} \\\\ & =16 b^{3}-8 b^{3}-4 b^{3}-4 b^{3} \\\\ &= 16 b^{3}-16 b^{3}\\\\ & =0 \\end{aligned} ∴f(2b)=2⋅(2b)3−2b(2b)2−2b2(2b)−4b3=16b3−8b3−4b3−4b3=16b3−16b3=0 ∴ \\therefore ∴ ভাগশেষ উপপাদ্যে সাহায্য,x−(2 b)=x−2 b \\mathrm{x}-(2 \\mathrm{~b})=\\mathrm{x}-2 \\mathrm{~b} x−(2 b)=x−2 b হবে f(x)=2x3−2bx2−2b2x−4b3 f(x)=2 x^{3}-2 b x^{2}-2 b^{2} x-4 b^{3} f(x)=2x3−2bx2−2b2x−4b3 বহুপদীর একটি উৎপাদক।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$2x3−2bx2−2b2x−4b3 2 x^{3}-2 b x^{2}-2 b^{2} x-4 b^{3} 2x3−2bx2−2b2x−4b3 এর উৎপাদক নির্ণয় কর।$",
+    "explanationLatex": "$ধরি, f(x)=2x3−2bx2−2b2x−4b3 f(x)=2 x^{3}-2 b x^{2}-2 b^{2} x-4 b^{3} f(x)=2x3−2bx2−2b2x−4b3 ∴f(2b)=2⋅(2b)3−2b(2b)2−2b2(2b)−4b3=16b3−8b3−4b3−4b3=16b3−16b3=0 \\begin{aligned} \\therefore f(2 b) & =2 \\cdot(2 b)^{3}-2 b(2 b)^{2}-2 b^{2}(2 b)-4 b^{3} \\\\ & =16 b^{3}-8 b^{3}-4 b^{3}-4 b^{3} \\\\ &= 16 b^{3}-16 b^{3}\\\\ & =0 \\end{aligned} ∴f(2b)=2⋅(2b)3−2b(2b)2−2b2(2b)−4b3=16b3−8b3−4b3−4b3=16b3−16b3=0 ∴ \\therefore ∴ ভাগশেষ উপপাদ্যে সাহায্য,x−(2 b)=x−2 b \\mathrm{x}-(2 \\mathrm{~b})=\\mathrm{x}-2 \\mathrm{~b} x−(2 b)=x−2 b হবে f(x)=2x3−2bx2−2b2x−4b3 f(x)=2 x^{3}-2 b x^{2}-2 b^{2} x-4 b^{3} f(x)=2x3−2bx2−2b2x−4b3 বহুপদীর একটি উৎপাদক।$"
+  },
+  {
+    "id": 25,
+    "question": "a1x2+b1x+c1=0 a_{1} x^{2}+b_{1} x+c_{1}=0 a1x2+b1x+c1=0 এবং a2x2+b2x+c2=0 a_{2} x^{2}+b_{2} x+c_{2}=0 a2x2+b2x+c2=0 সমীকরণ দুটির দুটই মূলই সাধারণ হওয়ার শর্ত-",
+    "options": {
+      "a": "𝑎 1 𝑎 2 = 𝑏 1 𝑏 2 = 𝑐 1 𝑐 2 a 1 a 2 =b 1 b 2 =c 1 c 2",
+      "b": "𝑎 1 𝑎 2 ≠ 𝑏 1 𝑏 2 ≠ 𝑐 1 𝑐 2 a 1 a 2  =b 1 b 2  =c 1 c 2",
+      "c": "𝑎 1 𝑎 2 ≠ 𝑏 1 𝑏 2 ≠ 𝑐 1 𝑐 2 a 2 a 1  = b 2 b 1  = c 2 c 1",
+      "d": "𝑎 1 𝑎 2 = 𝑏 1 𝑏 2 = 𝑐 1 𝑐 2 a 2 a 1 = b 2 b 1 = c 2 c 1"
+    },
+    "correctAnswer": "d",
+    "explanation": "a1x2+b1x+c1=0 a_{1} x^{2}+b_{1} x+c_{1}=0 a1x2+b1x+c1=0 এবং a2x2+b2x+c2=0 a_{2} x^{2}+b_{2} x+c_{2}=0 a2x2+b2x+c2=0 সমীকরণের দুটি মূলই সা ধারণ মূল থাকলে, a1a2=b1b2=c1c2 \\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}}=\\frac{c_{1}}{c_{2}} a2a1=b2b1=c2c1",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$a1x2+b1x+c1=0 a_{1} x^{2}+b_{1} x+c_{1}=0 a1x2+b1x+c1=0 এবং a2x2+b2x+c2=0 a_{2} x^{2}+b_{2} x+c_{2}=0 a2x2+b2x+c2=0 সমীকরণ দুটির দুটই মূলই সাধারণ হওয়ার শর্ত-$",
+    "explanationLatex": "$a1x2+b1x+c1=0 a_{1} x^{2}+b_{1} x+c_{1}=0 a1x2+b1x+c1=0 এবং a2x2+b2x+c2=0 a_{2} x^{2}+b_{2} x+c_{2}=0 a2x2+b2x+c2=0 সমীকরণের দুটি মূলই সা ধারণ মূল থাকলে, a1a2=b1b2=c1c2 \\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}}=\\frac{c_{1}}{c_{2}} a2a1=b2b1=c2c1$"
+  },
+  {
+    "id": 26,
+    "question": "যদি x2−5x+k=0 x^{2} - 5 x + k = 0 x2−5x+k=0 সমীকরণটির একটি মূল 4 হয়, তাহলে k এর মান এবং অন্য মূলটি কত?",
+    "options": {
+      "a": "0;0",
+      "b": "4;1",
+      "c": "-4;-1",
+      "d": "4;-1"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) 4;1।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$যদি x2−5x+k=0 x^{2} - 5 x + k = 0 x2−5x+k=0 সমীকরণটির একটি মূল 4 হয়, তাহলে k এর মান এবং অন্য মূলটি কত?$",
+    "explanationLatex": "সঠিক উত্তর: (b) 4;1।"
+  },
+  {
+    "id": 27,
+    "question": "p এর মান কত হলে px2 + 3x + 4 = 0 সমীকরনের মূলগুলো বাস্তব ও অসমান হবে?",
+    "options": {
+      "a": "p > 9/16",
+      "b": "p = 9/16",
+      "c": "p < 9/16",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "px2+3x+4=0 p x^{2}+3 x+4=0 px2+3x+4=0 বাস্তব ও অসমান হলে, b2−4ac>0 b^{2}-4 a c>0 b2−4ac>0 9−4×p×4>0বা,9−16p>0বা∴1p>169∴p<9/16 \\begin{array}{r} 9-4 \\times p \\times 4>0 \\\\ বা,9-16 p>0 \\\\ বা \\therefore \\frac{1}{p}>\\frac{16}{9} \\\\ \\therefore p<9 / 16 \\end{array} 9−4×p×4>0বা,9−16p>0বা∴p1>916∴p<9/16",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$p এর মান কত হলে px2 + 3x + 4 = 0 সমীকরনের মূলগুলো বাস্তব ও অসমান হবে?$",
+    "explanationLatex": "$px2+3x+4=0 p x^{2}+3 x+4=0 px2+3x+4=0 বাস্তব ও অসমান হলে, b2−4ac>0 b^{2}-4 a c>0 b2−4ac>0 9−4\\\\times p\\\\times 4>0বা,9−16p>0বা∴1p>169∴p<\\frac{9}{16} \\begin{array}{r} 9-4 \\times p \\times 4>0 \\\\ বা,9-16 p>0 \\\\ বা \\therefore \\frac{1}{p}>\\frac{16}{9} \\\\ \\therefore p<\\frac{9}{16} \\end{array} 9−4\\\\times p\\\\times 4>0বা,9−16p>0বা∴p1>916∴p<\\frac{9}{16}$"
+  },
+  {
+    "id": 28,
+    "question": "4x2−kx+5=04x^2−kx+5=04x2−kx+5=0 সমীকরণটির একটি মূল অপরটির দ্বিগুণ হলে k এর মান কত?",
+    "options": {
+      "a": "3 10 3 10",
+      "b": "80 80",
+      "c": "2 10 2 10",
+      "d": "10 10"
+    },
+    "correctAnswer": "a",
+    "explanation": "ধরি, মূলদ্বয় আবার, 2α2=54⇒α2=58α এবং 2α∴α+2α=k4⇒k2144=58⇒k=7208⇒3α=k4∴α=k12⇒k=310 \\begin{array}{ll} \\text { ধরি, মূলদ্বয় } & \\text { আবার, } 2 \\alpha^{2}=\\frac{5}{4} \\Rightarrow \\alpha^{2}=\\frac{5}{8} \\\\ \\alpha \\text { এবং } 2 \\alpha \\therefore \\alpha+2 \\alpha=\\frac{\\mathrm{k}}{4} & \\Rightarrow \\frac{\\mathrm{k}^{2}}{144}=\\frac{5}{8} \\Rightarrow \\mathrm{k}=\\sqrt{\\frac{720}{8}} \\\\ \\Rightarrow 3 \\alpha=\\frac{\\mathrm{k}}{4} \\therefore \\alpha=\\frac{\\mathrm{k}}{12} & \\Rightarrow k=3 \\sqrt{10} \\end{array} ধরি, মূলদ্বয় α এবং 2α∴α+2α=4k⇒3α=4k∴α=12k আবার, 2α2=45⇒α2=85⇒144k2=85⇒k=8720⇒k=310",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$4x2−kx+5=04x^2−kx+5=04x2−kx+5=0 সমীকরণটির একটি মূল অপরটির দ্বিগুণ হলে k এর মান কত?$",
+    "explanationLatex": "$ধরি, মূলদ্বয় আবার, 2α2=54⇒α2=58α এবং 2α∴α+2α=k4⇒k2144=58⇒k=7208⇒3α=k4∴α=k12⇒k=310 \\begin{array}{ll} \\text { ধরি, মূলদ্বয় } & \\text { আবার, } 2 \\alpha^{2}=\\frac{5}{4} \\Rightarrow \\alpha^{2}=\\frac{5}{8} \\\\ \\alpha \\text { এবং } 2 \\alpha \\therefore \\alpha+2 \\alpha=\\frac{\\mathrm{k}}{4} & \\Rightarrow \\frac{\\mathrm{k}^{2}}{144}=\\frac{5}{8} \\Rightarrow \\mathrm{k}=\\sqrt{\\frac{720}{8}} \\\\ \\Rightarrow 3 \\alpha=\\frac{\\mathrm{k}}{4} \\therefore \\alpha=\\frac{\\mathrm{k}}{12} & \\Rightarrow k=3 \\sqrt{10} \\end{array} ধরি, মূলদ্বয় α এবং 2α∴α+2α=4k⇒3α=4k∴α=12k আবার, 2α2=45⇒α2=85⇒144k2=85⇒k=8720⇒k=310$"
+  },
+  {
+    "id": 29,
+    "question": "3x3+6x+2=03x^3+6x+2=03x3+6x+2=0 সমীকরণের মূলদ্বয় সমষ্টি কত?",
+    "options": {
+      "a": "3",
+      "b": "0",
+      "c": "6",
+      "d": "2/3"
+    },
+    "correctAnswer": "b",
+    "explanation": "3x3+6x+2=0=3x3+0⋅x2+6x+2=0 \\begin{aligned} & 3 x^{3}+6 x+2=0 \\\\ = & 3 x^{3}+0 \\cdot x^{2}+6 x+2=0 \\end{aligned} =3x3+6x+2=03x3+0⋅x2+6x+2=0 ∴ \\therefore ∴ মূলদ্বয়ের সমষ্টি =03=0 =\\frac{0}{3}=0 =30=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$3x3+6x+2=03x^3+6x+2=03x3+6x+2=0 সমীকরণের মূলদ্বয় সমষ্টি কত?$",
+    "explanationLatex": "$3x3+6x+2=0=3x3+0⋅x2+6x+2=0 \\begin{aligned} & 3 x^{3}+6 x+2=0 \\\\ = & 3 x^{3}+0 \\cdot x^{2}+6 x+2=0 \\end{aligned} =3x3+6x+2=03x3+0⋅x2+6x+2=0 ∴ \\therefore ∴ মূলদ্বয়ের সমষ্টি =03=0 =\\frac{0}{3}=0 =30=0$"
+  },
+  {
+    "id": 30,
+    "question": "ax2+bx+c=0 a x^{2}+b x+c=0 ax2+bx+c=0 সমীকরণের মূলদ্বয় α \\alpha α ,β \\beta β হলে cx2−2bx+4a=0 c x^{2}-2 b x+4 a=0 cx2−2bx+4a=0 সমীকরণের মূলদ্বয়কে α,β \\alpha, \\beta α,β এর মাধ্যমে প্রকাশ কর।",
+    "options": {
+      "a": "− 3 𝛼 − α 3 এবং − 2 𝛽 − β 2",
+      "b": "− 2 𝛼 − α 2 এবং − 2 𝛽 − β 2",
+      "c": "− 2 𝛼 − α 2 এবং − 3 𝛽 − β 3",
+      "d": "− 3 𝛼 − α 3 এবং − 3 𝛽 − β 3"
+    },
+    "correctAnswer": "b",
+    "explanation": "Solve:দেওয়া আছে, ax2+bx+c=0 a x^{2}+\\mathrm{bx}+\\mathrm{c}=0 ax2+bx+c=0 সমীকরণের মুলদ্বয় α \\alpha α এবং β \\beta β ∴α+β=−ba⇒b=−a(α+β) and αβ=ca⇒c=aαβ Now, cx2−2bx+4a=0⇒aαβx2−2{−a(α+β)}x+4a=0⇒αβx2+2αx+2βx+4=0 \\begin{aligned} \\therefore & \\alpha+\\beta=-\\frac{b}{a} \\Rightarrow b=-a(\\alpha+\\beta) \\text { and } \\\\ & \\alpha \\beta=\\frac{c}{a} \\Rightarrow c=a \\alpha \\beta \\\\ & \\text { Now, } c x^{2}-2 b x+4 a=0 \\\\ \\Rightarrow & a \\alpha \\beta x^{2}-2\\{-a(\\alpha+\\beta)\\} x+4 a=0 \\\\ \\Rightarrow & \\alpha \\beta x^{2}+2 \\alpha x+2 \\beta x+4=0 \\end{aligned} ∴⇒⇒α+β=−ab⇒b=−a(α+β) and αβ=ac⇒c=aαβ Now, cx2−2bx+4a=0aαβx2−2{−a(α+β)}x+4a=0αβx2+2αx+2βx+4=0 ⇒αx(βx+2)+2(βx+2)=0⇒(αx+2)(βx+2)=0∴x=−2α,−2β \\begin{array}{l} \\Rightarrow \\alpha x(\\beta x+2)+2(\\beta x+2)=0 \\\\ \\Rightarrow(\\alpha x+2)(\\beta x+2)=0 \\quad \\therefore x=-\\frac{2}{\\alpha},-\\frac{2}{\\beta} \\end{array} ⇒αx(βx+2)+2(βx+2)=0⇒(αx+2)(βx+2)=0∴x=−α2,−β2 অতএব, cx2−2bx+4a=0 c x^{2}-2 b x+4 a=0 cx2−2bx+4a=0 সমীকরণের মূলদ্বয় −2α -\\frac{2}{\\alpha} −α2 এবং −2β -\\frac{2}{\\beta} −β2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ax2+bx+c=0 a x^{2}+b x+c=0 ax2+bx+c=0 সমীকরণের মূলদ্বয় α \\alpha α ,β \\beta β হলে cx2−2bx+4a=0 c x^{2}-2 b x+4 a=0 cx2−2bx+4a=0 সমীকরণের মূলদ্বয়কে α,β \\alpha, \\beta α,β এর মাধ্যমে প্রকাশ কর।$",
+    "explanationLatex": "$Solve:দেওয়া আছে, ax2+bx+c=0 a x^{2}+\\mathrm{bx}+\\mathrm{c}=0 ax2+bx+c=0 সমীকরণের মুলদ্বয় α \\alpha α এবং β \\beta β ∴α+β=−ba⇒b=−a(α+β) and αβ=ca⇒c=aαβ Now, cx2−2bx+4a=0⇒aαβx2−2{−a(α+β)}x+4a=0⇒αβx2+2αx+2βx+4=0 \\begin{aligned} \\therefore & \\alpha+\\beta=-\\frac{b}{a} \\Rightarrow b=-a(\\alpha+\\beta) \\text { and } \\\\ & \\alpha \\beta=\\frac{c}{a} \\Rightarrow c=a \\alpha \\beta \\\\ & \\text { Now, } c x^{2}-2 b x+4 a=0 \\\\ \\Rightarrow & a \\alpha \\beta x^{2}-2\\{-a(\\alpha+\\beta)\\} x+4 a=0 \\\\ \\Rightarrow & \\alpha \\beta x^{2}+2 \\alpha x+2 \\beta x+4=0 \\end{aligned} ∴⇒⇒α+β=−ab⇒b=−a(α+β) and αβ=ac⇒c=aαβ Now, cx2−2bx+4a=0aαβx2−2{−a(α+β)}x+4a=0αβx2+2αx+2βx+4=0 ⇒αx(βx+2)+2(βx+2)=0⇒(αx+2)(βx+2)=0∴x=−2α,−2β \\begin{array}{l} \\Rightarrow \\alpha x(\\beta x+2)+2(\\beta x+2)=0 \\\\ \\Rightarrow(\\alpha x+2)(\\beta x+2)=0 \\quad \\therefore x=-\\frac{2}{\\alpha},-\\frac{2}{\\beta} \\end{array} ⇒αx(βx+2)+2(βx+2)=0⇒(αx+2)(βx+2)=0∴x=−α2,−β2 অতএব, cx2−2bx+4a=0 c x^{2}-2 b x+4 a=0 cx2−2bx+4a=0 সমীকরণের মূলদ্বয় −2α -\\frac{2}{\\alpha} −α2 এবং −2β -\\frac{2}{\\beta} −β2$"
+  },
+  {
+    "id": 31,
+    "question": "x2−(k+5)x+16=0x^2-\\left(k+5\\right)x+16=0x2−(k+5)x+16=0 সমীকরণের একটি মূল অপরটির 4 গুণ হলে, k=?k= ?k=?",
+    "options": {
+      "a": "15 15",
+      "b": "− 5 −5",
+      "c": "5 5",
+      "d": "0"
+    },
+    "correctAnswer": "c",
+    "explanation": "মূলদ্বয় α\\alphaα ও 4α4\\alpha4α ∴4α2=16⇒α=±2 \\therefore4\\alpha^2=16\\Rightarrow\\alpha=\\pm2\\ ∴4α2=16⇒α=±2 ; এখন, α+4α=k+5⇒5α=k+5⇒±10=k+5∴k=5, −15\\alpha+4\\alpha=k+5\\\\ \\Rightarrow5\\alpha=k+5\\\\ \\Rightarrow\\pm10=k+5 \\\\ \\therefore k=5,\\ -15 α+4α=k+5⇒5α=k+5⇒±10=k+5∴k=5, −15",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x2−(k+5)x+16=0x^2-\\left(k+5\\right)x+16=0x2−(k+5)x+16=0 সমীকরণের একটি মূল অপরটির 4 গুণ হলে, k=?k= ?k=?$",
+    "explanationLatex": "$মূলদ্বয় α\\alphaα ও 4α4\\alpha4α ∴4α2=16⇒α=\\\\pm 2 \\therefore4\\alpha^2=16\\Rightarrow\\alpha=\\pm2\\ ∴4α2=16⇒α=\\\\pm 2 ; এখন, α+4α=k+5⇒5α=k+5⇒\\\\pm 10=k+5∴k=5, −15\\alpha+4\\alpha=k+5\\\\ \\Rightarrow5\\alpha=k+5\\\\ \\Rightarrow\\pm10=k+5 \\\\ \\therefore k=5,\\ -15 α+4α=k+5⇒5α=k+5⇒\\\\pm 10=k+5∴k=5, −15$"
+  },
+  {
+    "id": 32,
+    "question": "2x3-5x2-6x+20 কে(x+4) দ্বারা ভাগ করলে ভাগশেষ কত হবে?",
+    "options": {
+      "a": "0",
+      "b": "44",
+      "c": "-164",
+      "d": "-44"
+    },
+    "correctAnswer": "c",
+    "explanation": "সমীকরন (x+4) দ্বারা ভাগ করলে ভাগশেষ, x=-4 বসিয়ে ∴2(−4)3−5(−4)2−6(−4)+20=−164 \\therefore 2(-4)^{3}-5(-4)^{2}-6(-4)+20=-164 ∴2(−4)3−5(−4)2−6(−4)+20=−164",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "2x3-5x2-6x+20 কে(x+4) দ্বারা ভাগ করলে ভাগশেষ কত হবে?",
+    "explanationLatex": "$সমীকরন (x+4) দ্বারা ভাগ করলে ভাগশেষ, x=-4 বসিয়ে ∴2(−4)3−5(−4)2−6(−4)+20=−164 \\therefore 2(-4)^{3}-5(-4)^{2}-6(-4)+20=-164 ∴2(−4)3−5(−4)2−6(−4)+20=−164$"
+  },
+  {
+    "id": 33,
+    "question": "p p p ও q q q এর মান যথাক্রমে কত হলে, 15x2+px−2=0 15x^{2}+px-2=0 15x2+px−2=0 এবং qx2+3x−6=0 qx^{2}+3x-6=0 qx2+3x−6=0 সমীকরণদ্বয়ের মূলদ্বয় অভিন্ন হবে?",
+    "options": {
+      "a": "15,3",
+      "b": "9,5",
+      "c": "1,45",
+      "d": "45,1"
+    },
+    "correctAnswer": "c",
+    "explanation": "15x2+px−2=0ওqx2+3x−6=0 15 x^{2}+p x-2=0 \\quad ও \\quad q x^{2}+3 x-6=0 15x2+px−2=0ওqx2+3x−6=0 সমীকরণদ্বয় অভিন্ন হলে, 15q=p3=−2−6 \\frac{15}{q}=\\frac{p}{3}=\\frac{-2}{-6} q15=3p=−6−2 হবে, এখন, 15q=−2−6⇒q=45 এবং; p3=−2−6⇒p=1∴(p,q)=(1,45) \\begin{array}{l} \\text { এখন, } \\frac{15}{q}=\\frac{-2}{-6} \\Rightarrow q=45 \\\\ \\text { এবং; } \\frac{p}{3}=\\frac{-2}{-6} \\Rightarrow p=1 \\\\ \\therefore \\quad(p, q)=(1,45) \\end{array} এখন, q15=−6−2⇒q=45 এবং; 3p=−6−2⇒p=1∴(p,q)=(1,45)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$p p p ও q q q এর মান যথাক্রমে কত হলে, 15x2+px−2=0 15x^{2}+px-2=0 15x2+px−2=0 এবং qx2+3x−6=0 qx^{2}+3x-6=0 qx2+3x−6=0 সমীকরণদ্বয়ের মূলদ্বয় অভিন্ন হবে?$",
+    "explanationLatex": "$15x2+px−2=0ওqx2+3x−6=0 15 x^{2}+p x-2=0 \\quad ও \\quad q x^{2}+3 x-6=0 15x2+px−2=0ওqx2+3x−6=0 সমীকরণদ্বয় অভিন্ন হলে, 15q=p3=−2−6 \\frac{15}{q}=\\frac{p}{3}=\\frac{-2}{-6} q15=3p=−6−2 হবে, এখন, 15q=−2−6⇒q=45 এবং; p3=−2−6⇒p=1∴(p,q)=(1,45) \\begin{array}{l} \\text { এখন, } \\frac{15}{q}=\\frac{-2}{-6} \\Rightarrow q=45 \\\\ \\text { এবং; } \\frac{p}{3}=\\frac{-2}{-6} \\Rightarrow p=1 \\\\ \\therefore \\quad(p, q)=(1,45) \\end{array} এখন, q15=−6−2⇒q=45 এবং; 3p=−6−2⇒p=1∴(p,q)=(1,45)$"
+  },
+  {
+    "id": 34,
+    "question": "2x3−9x2+14x−5=0 2 x^{3}-9 x^{2}+14 x-5=0 2x3−9x2+14x−5=0 এর একটি মূল 2−i 2-i2−i . সমীকরণটির বাস্তব মূল এবং 14 \\frac{1}{4} 41 মূলবিশিষ্ট একটি দ্বিঘাত সমীকরণ নির্ণয় কর।",
+    "options": {
+      "a": "8 𝑥 2 − 6 𝑥 − 6 = 0 8x 2 −6x−6=0",
+      "b": "8 𝑥 2 − 6 𝑥 + 1 = 0 8x 2 −6x+1=0",
+      "c": "8 𝑥 2 − 6 𝑥 − 1 = 0 8x 2 −6x−1=0",
+      "d": "8 𝑥 2 − 𝑥 + 1 = 0 8x 2 −x+1=0"
+    },
+    "correctAnswer": "b",
+    "explanation": "Solve: প্রদত্ত সমীকরণ 2x3−9x2+14x−5=0 2 x^{3}-9 x^{2}+14 x-5=0 2x3−9x2+14x−5=0 এর একটি মূল 2−i 2-\\mathrm{i} 2−i, যা জটিল।∴ \\therefore ∴ অপর জটিল মূল হবে 2+i 2+\\mathrm{i} 2+i. এ জটিল মূল দুইটি দ্বারা গঠিত সমীকরণ, x2−(2−i+2+i)x+(2−i)(2+i)=0⇒x2−4x+4−i2=0⇒x2−4x+5=0 Now, 2x3−9x2+14x−5=0⇒2x(x2−4x+5)−1(x2−4x+5)=0⇒(2x−1)(x2−4x+5)=02x−1=0 if, x=12 \\begin{aligned} & x^{2}-(2-i+2+i) x+(2-i)(2+i)=0 \\\\ \\Rightarrow & x^{2}-4 x+4-i^{2}=0 \\Rightarrow x^{2}-4 x+5=0 \\\\ & \\text { Now, } 2 x^{3}-9 x^{2}+14 x-5=0 \\\\ \\Rightarrow & 2 x\\left(x^{2}-4 x+5\\right)-1\\left(x^{2}-4 x+5\\right)=0 \\\\ \\Rightarrow & (2 x-1)\\left(x^{2}-4 x+5\\right)=0 \\\\ & 2 x-1=0 \\text { if, } x=\\frac{1}{2} \\end{aligned} ⇒⇒⇒x2−(2−i+2+i)x+(2−i)(2+i)=0x2−4x+4−i2=0⇒x2−4x+5=0 Now, 2x3−9x2+14x−5=02x(x2−4x+5)−1(x2−4x+5)=0(2x−1)(x2−4x+5)=02x−1=0 if, x=21 ∴ \\therefore ∴ প্রদত্ত সমীকরণের বাস্তব মূল 12 \\frac{1}{2} 21. এখন, 12 \\frac{1}{2} 21 ও 14 \\frac{1}{4} 41 মূল বিশিষ্ট সমীকরণ, x2−(12+14)x+12⋅14=0⇒x2−2+14x+18=0⇒8x2−6x+1=0 (Ans.) \\begin{aligned} & x^{2}-\\left(\\frac{1}{2}+\\frac{1}{4}\\right) x+\\frac{1}{2} \\cdot \\frac{1}{4}=0 \\\\ \\Rightarrow & x^{2}-\\frac{2+1}{4} x+\\frac{1}{8}=0 \\\\ \\Rightarrow & 8 x^{2}-6 x+1=0 \\text { (Ans.) } \\end{aligned} ⇒⇒x2−(21+41)x+21⋅41=0x2−42+1x+81=08x2−6x+1=0 (Ans.)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$2x3−9x2+14x−5=0 2 x^{3}-9 x^{2}+14 x-5=0 2x3−9x2+14x−5=0 এর একটি মূল 2−i 2-i2−i . সমীকরণটির বাস্তব মূল এবং 14 \\frac{1}{4} 41 মূলবিশিষ্ট একটি দ্বিঘাত সমীকরণ নির্ণয় কর।$",
+    "explanationLatex": "$Solve: প্রদত্ত সমীকরণ 2x3−9x2+14x−5=0 2 x^{3}-9 x^{2}+14 x-5=0 2x3−9x2+14x−5=0 এর একটি মূল 2−i 2-\\mathrm{i} 2−i, যা জটিল।∴ \\therefore ∴ অপর জটিল মূল হবে 2+i 2+\\mathrm{i} 2+i. এ জটিল মূল দুইটি দ্বারা গঠিত সমীকরণ, x2−(2−i+2+i)x+(2−i)(2+i)=0⇒x2−4x+4−i2=0⇒x2−4x+5=0 Now, 2x3−9x2+14x−5=0⇒2x(x2−4x+5)−1(x2−4x+5)=0⇒(2x−1)(x2−4x+5)=02x−1=0 if, x=12 \\begin{aligned} & x^{2}-(2-i+2+i) x+(2-i)(2+i)=0 \\\\ \\Rightarrow & x^{2}-4 x+4-i^{2}=0 \\Rightarrow x^{2}-4 x+5=0 \\\\ & \\text { Now, } 2 x^{3}-9 x^{2}+14 x-5=0 \\\\ \\Rightarrow & 2 x\\left(x^{2}-4 x+5\\right)-1\\left(x^{2}-4 x+5\\right)=0 \\\\ \\Rightarrow & (2 x-1)\\left(x^{2}-4 x+5\\right)=0 \\\\ & 2 x-1=0 \\text { if, } x=\\frac{1}{2} \\end{aligned} ⇒⇒⇒x2−(2−i+2+i)x+(2−i)(2+i)=0x2−4x+4−i2=0⇒x2−4x+5=0 Now, 2x3−9x2+14x−5=02x(x2−4x+5)−1(x2−4x+5)=0(2x−1)(x2−4x+5)=02x−1=0 if, x=21 ∴ \\therefore ∴ প্রদত্ত সমীকরণের বাস্তব মূল 12 \\frac{1}{2} 21. এখন, 12 \\frac{1}{2} 21 ও 14 \\frac{1}{4} 41 মূল বিশিষ্ট সমীকরণ, x2−(12+14)x+12⋅14=0⇒x2−2+14x+18=0⇒8x2−6x+1=0 (Ans.) \\begin{aligned} & x^{2}-\\left(\\frac{1}{2}+\\frac{1}{4}\\right) x+\\frac{1}{2} \\cdot \\frac{1}{4}=0 \\\\ \\Rightarrow & x^{2}-\\frac{2+1}{4} x+\\frac{1}{8}=0 \\\\ \\Rightarrow & 8 x^{2}-6 x+1=0 \\text { (Ans.) } \\end{aligned} ⇒⇒x2−(21+41)x+21⋅41=0x2−42+1x+81=08x2−6x+1=0 (Ans.)$"
+  },
+  {
+    "id": 35,
+    "question": "x3−7x2+8x+10=0 সমীকরণের একটি মূল 1+3হলে অপর মুল টি কত?x^3-7x^2+8x+10=0\\ \\ সমীকরণের\\ একটি\\ মূল\\ 1+\\sqrt{3}হলে\\ অপর\\ মুল\\ টি\\ কত?x3−7x2+8x+10=0 সমীকরণের একটি মূল 1+3হলে অপর মুল টি কত?",
+    "options": {
+      "a": "1 − 3 1− 3",
+      "b": "1 − 𝑖 3 1−i 3",
+      "c": "5 5",
+      "d": "− 1 + 𝑖 3 −1+i 3"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 1 − 3 1− 3।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243612/gst-question-images/Math_________-Varsity-arc_q35.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x3−7x2+8x+10=0 সমীকরণের একটি মূল 1+3হলে অপর মুল টি কত?x^3-7x^2+8x+10=0\\ \\ সমীকরণের\\ একটি\\ মূল\\ 1+\\sqrt{3}হলে\\ অপর\\ মুল\\ টি\\ কত?x3−7x2+8x+10=0 সমীকরণের একটি মূল 1+3হলে অপর মুল টি কত?$",
+    "explanationLatex": "সঠিক উত্তর: (a) 1 − 3 1− 3।"
+  },
+  {
+    "id": 36,
+    "question": "9x2 - 6px + q2 এর সর্বনিম্ন মান কোনটি?",
+    "options": {
+      "a": "p2-q2",
+      "b": "q2-p2",
+      "c": "p2+q2",
+      "d": "p2+2q2"
+    },
+    "correctAnswer": "b",
+    "explanation": "9x2−6px+q2=(3x)2−2.3x⋅p+p2+q2−p2 9 x^{2}-6 p x+q^{2}=(3 x)^{2}-2.3 x \\cdot p+p^{2}+q^{2}-p^{2} 9x2−6px+q2=(3x)2−2.3x⋅p+p2+q2−p2 =(3x−p)2+q2−p2=02+(q2−p2) [যখন3x−p=0 হবে তখন সর্বনিম্ন মান পাওয়া যাবে] =q2−p2 \\begin{array}{l} =(3 \\mathrm{x}-\\mathrm{p})^{2}+\\mathrm{q}^{2}-\\mathrm{p}^{2} \\\\ =0^{2}+\\left(\\mathrm{q}^{2}-\\mathrm{p}^{2}\\right) \\text { [যখন} 3 \\mathrm{x}-\\mathrm{p}=0 \\text { হবে তখন সর্বনিম্ন মান পাওয়া যাবে] } \\\\ =\\mathrm{q}^{2}-\\mathrm{p}^{2} \\end{array} =(3x−p)2+q2−p2=02+(q2−p2) [যখন3x−p=0 হবে তখন সর্বনিম্ন মান পাওয়া যাবে] =q2−p2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "9x2 - 6px + q2 এর সর্বনিম্ন মান কোনটি?",
+    "explanationLatex": "$9x2−6px+q2=(3x)2−2.3x⋅p+p2+q2−p2 9 x^{2}-6 p x+q^{2}=(3 x)^{2}-2.3 x \\cdot p+p^{2}+q^{2}-p^{2} 9x2−6px+q2=(3x)2−2.3x⋅p+p2+q2−p2 =(3x−p)2+q2−p2=02+(q2−p2) [যখন3x−p=0 হবে তখন সর্বনিম্ন মান পাওয়া যাবে] =q2−p2 \\begin{array}{l} =(3 \\mathrm{x}-\\mathrm{p})^{2}+\\mathrm{q}^{2}-\\mathrm{p}^{2} \\\\ =0^{2}+\\left(\\mathrm{q}^{2}-\\mathrm{p}^{2}\\right) \\text { [যখন} 3 \\mathrm{x}-\\mathrm{p}=0 \\text { হবে তখন সর্বনিম্ন মান পাওয়া যাবে] } \\\\ =\\mathrm{q}^{2}-\\mathrm{p}^{2} \\end{array} =(3x−p)2+q2−p2=02+(q2−p2) [যখন3x−p=0 হবে তখন সর্বনিম্ন মান পাওয়া যাবে] =q2−p2$"
+  },
+  {
+    "id": 37,
+    "question": "x3-6x2+11x-6=0 সমীকরণের একটি মূল 1 হলে, অপর মূল দুইটি-",
+    "options": {
+      "a": "-2,-3",
+      "b": "-2,3",
+      "c": "2,-3",
+      "d": "2,3"
+    },
+    "correctAnswer": "d",
+    "explanation": "x3−6x2+11x−6=0বা,x3−x2−5x2+5x+6x−6=0বা,x2(x−1)−5x(x−1)+6(x−1)=0 বা ,(x−1)(x2−5x+6)=0 \\begin{array}{l} x^{3}-6 x^{2}+11 x-6=0 বা,\\\\ x^{3}-x^{2}-5 x^{2}+5 x+6x-6=0 \\\\ বা,x^{2}(x-1)-5 x(x-1)+6(x-1)=0 \\\\ \\text { বা ,}(x-1)\\left(x^{2}-5x+6\\right)=0 \\\\\\end{array} x3−6x2+11x−6=0বা,x3−x2−5x2+5x+6x−6=0বা,x2(x−1)−5x(x−1)+6(x−1)=0 বা ,(x−1)(x2−5x+6)=0 বা, (x-1)(x²-3x-2x+6)=0 বা,(x-1){x(x-3)-2(x-3)}=0 বা,(x-1)(x-2)(x-3)=0 X=1,2,3",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x3-6x2+11x-6=0 সমীকরণের একটি মূল 1 হলে, অপর মূল দুইটি-$",
+    "explanationLatex": "$x3−6x2+11x−6=0বা,x3−x2−5x2+5x+6x−6=0বা,x2(x−1)−5x(x−1)+6(x−1)=0 বা ,(x−1)(x2−5x+6)=0 \\begin{array}{l} x^{3}-6 x^{2}+11 x-6=0 বা,\\\\ x^{3}-x^{2}-5 x^{2}+5 x+6x-6=0 \\\\ বা,x^{2}(x-1)-5 x(x-1)+6(x-1)=0 \\\\ \\text { বা ,}(x-1)\\left(x^{2}-5x+6\\right)=0 \\\\\\end{array} x3−6x2+11x−6=0বা,x3−x2−5x2+5x+6x−6=0বা,x2(x−1)−5x(x−1)+6(x−1)=0 বা ,(x−1)(x2−5x+6)=0 বা, (x-1)(x²-3x-2x+6)=0 বা,(x-1){x(x-3)-2(x-3)}=0 বা,(x-1)(x-2)(x-3)=0 X=1,2,3$"
+  },
+  {
+    "id": 38,
+    "question": "বাস্তব সহগবিশিষ্ট দ্বিঘাত সমীকরণের একটি মূল 12+1 \\frac{1}{\\sqrt{2}+1} 2+11 হলে অপর মূল কোনটি? [MB'22]",
+    "options": {
+      "a": "2 + 1 2 +1",
+      "b": "− 2 − 1 − 2 −1",
+      "c": "2 − 1 2 −1",
+      "d": "− 2 + 1 − 2 +1"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান: (b); একটি মূল =12+1=2−1(2+1)(2−1) =\\frac{1}{\\sqrt{2}+1}=\\frac{\\sqrt{2}-1}{(\\sqrt{2}+1)(\\sqrt{2}-1)} =2+11=(2+1)(2−1)2−1 =2−12−1=2−1∴ =\\frac{\\sqrt{2}-1}{2-1}=\\sqrt{2}-1 \\therefore =2−12−1=2−1∴ অন্য মূলটি হবে =−2−1 =-\\sqrt{2}-1 =−2−1",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$বাস্তব সহগবিশিষ্ট দ্বিঘাত সমীকরণের একটি মূল 12+1 \\frac{1}{\\sqrt{2}+1} 2+11 হলে অপর মূল কোনটি? [MB'22]$",
+    "explanationLatex": "$সমাধান: (b); একটি মূল =12+1=2−1(2+1)(2−1) =\\frac{1}{\\sqrt{2}+1}=\\frac{\\sqrt{2}-1}{(\\sqrt{2}+1)(\\sqrt{2}-1)} =2+11=(2+1)(2−1)2−1 =2−12−1=2−1∴ =\\frac{\\sqrt{2}-1}{2-1}=\\sqrt{2}-1 \\therefore =2−12−1=2−1∴ অন্য মূলটি হবে =−2−1 =-\\sqrt{2}-1 =−2−1$"
+  },
+  {
+    "id": 39,
+    "question": "x3+ax2+bx+c=0x^3+ax^2+bx+c=0 x3+ax2+bx+c=0 সমীকরণের মূলগুলি α, β, γ\\alpha,\\ \\beta,\\ \\gamma α, β, γ হলে α2+β2+γ2\\alpha^2+\\beta^2+\\gamma^2α2+β2+γ2 এর মান কত?",
+    "options": {
+      "a": "𝑏 2 − 2 𝑎 b 2 −2a",
+      "b": "𝑎 2 + 2 𝑏 a 2 +2b",
+      "c": "𝑎 2 − 2 𝑏 a 2 −2b",
+      "d": "2 𝑏 + 3 𝑎 2 2b+3a 2"
+    },
+    "correctAnswer": "c",
+    "explanation": "α+β+γ=−a…….(i);αβ+βγ+γα=b……(ii)α2+β2+γ2=(α+β+γ)2−2(αβ+βγ+γα)=a2−2b\\alpha+\\beta+\\gamma=-a\\ldots\\ldots.(i) ; \\\\\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=b\\ldots\\ldots(ii)\\\\ \\alpha^2+\\beta^2+\\gamma^2=\\left(\\alpha+\\beta+\\gamma\\right)^2-2\\left(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha\\right)=a^2-2b α+β+γ=−a…….(i);αβ+βγ+γα=b……(ii)α2+β2+γ2=(α+β+γ)2−2(αβ+βγ+γα)=a2−2b",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x3+ax2+bx+c=0x^3+ax^2+bx+c=0 x3+ax2+bx+c=0 সমীকরণের মূলগুলি α, β, γ\\alpha,\\ \\beta,\\ \\gamma α, β, γ হলে α2+β2+γ2\\alpha^2+\\beta^2+\\gamma^2α2+β2+γ2 এর মান কত?$",
+    "explanationLatex": "$α+β+γ=−a…….(i);αβ+βγ+γα=b……(ii)α2+β2+γ2=(α+β+γ)2−2(αβ+βγ+γα)=a2−2b\\alpha+\\beta+\\gamma=-a\\ldots\\ldots.(i) ; \\\\\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=b\\ldots\\ldots(ii)\\\\ \\alpha^2+\\beta^2+\\gamma^2=\\left(\\alpha+\\beta+\\gamma\\right)^2-2\\left(\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha\\right)=a^2-2b α+β+γ=−a…….(i);αβ+βγ+γα=b……(ii)α2+β2+γ2=(α+β+γ)2−2(αβ+βγ+γα)=a2−2b$"
+  },
+  {
+    "id": 40,
+    "question": "ɑ-β=8, ɑ3-β3=152 হলে, ɑ ও β মূলবিশিষ্ট দ্বিঘাত সমীকরণ কোনটি?",
+    "options": {
+      "a": "x2-8x-2=0",
+      "b": "x2-2x-15=0",
+      "c": "x2+15x+12=0",
+      "d": "x2+12x+8=0"
+    },
+    "correctAnswer": "b",
+    "explanation": "α3−β3=152 বা, (α−β)3+3αβ(α−β)=152বা,83+3αβ×8=152∴αβ=−15(α+β)2=(α−β)2+4αβ=82−4×15∴α+β=2∴ সমীকরণ x2−2x−15=0 \\begin{array}{l}\\alpha^{3}-\\beta^{3}=152 \\\\ \\text { বা, }(\\alpha-\\beta)^{3}+3 \\alpha \\beta(\\alpha-\\beta)=152 \\\\ বা,8^{3}+3 \\alpha \\beta \\times 8=152 \\\\ \\therefore \\alpha \\beta=-15 \\\\ (\\alpha+\\beta)^{2}=(\\alpha-\\beta)^{2}+4 \\alpha \\beta \\\\ =8^{2}-4 \\times 15 \\\\ \\therefore \\alpha +\\beta=2 \\\\ \\therefore \\text { সমীকরণ}~ x^{2}-2 x-15=0\\end{array} α3−β3=152 বা, (α−β)3+3αβ(α−β)=152বা,83+3αβ×8=152∴αβ=−15(α+β)2=(α−β)2+4αβ=82−4×15∴α+β=2∴ সমীকরণ x2−2x−15=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ɑ-β=8, ɑ3-β3=152 হলে, ɑ ও β মূলবিশিষ্ট দ্বিঘাত সমীকরণ কোনটি?$",
+    "explanationLatex": "$α3−β3=152 বা, (α−β)3+3αβ(α−β)=152বা,83+3αβ\\\\times 8=152∴αβ=−15(α+β)2=(α−β)2+4αβ=82−4\\\\times 15∴α+β=2∴ সমীকরণ x2−2x−15=0 \\begin{array}{l}\\alpha^{3}-\\beta^{3}=152 \\\\ \\text { বা, }(\\alpha-\\beta)^{3}+3 \\alpha \\beta(\\alpha-\\beta)=152 \\\\ বা,8^{3}+3 \\alpha \\beta \\times 8=152 \\\\ \\therefore \\alpha \\beta=-15 \\\\ (\\alpha+\\beta)^{2}=(\\alpha-\\beta)^{2}+4 \\alpha \\beta \\\\ =8^{2}-4 \\times 15 \\\\ \\therefore \\alpha +\\beta=2 \\\\ \\therefore \\text { সমীকরণ}~ x^{2}-2 x-15=0\\end{array} α3−β3=152 বা, (α−β)3+3αβ(α−β)=152বা,83+3αβ\\\\times 8=152∴αβ=−15(α+β)2=(α−β)2+4αβ=82−4\\\\times 15∴α+β=2∴ সমীকরণ x2−2x−15=0$"
+  },
+  {
+    "id": 41,
+    "question": "কোনো দ্বিঘাত সমীকরণের একটি মূল 2+32+\\sqrt{3}2+3 হলে, সমীকরণটি-",
+    "options": {
+      "a": "𝑥 2 + 4 𝑥 + 1 = 0 x 2 +4x+1=0",
+      "b": "x²-4x+1=0",
+      "c": "x²+4x-1=0",
+      "d": "x²-4x-1=0"
+    },
+    "correctAnswer": "b",
+    "explanation": "একটি মূল 2+3 হলে অন্যটি হবে 2−3একটি\\ মূল\\ 2+\\sqrt{3}\\ হলে\\ অন্যটি\\ হবে\\ 2-\\sqrt{3}একটি মূল 2+3 হলে অন্যটি হবে 2−3 ∴যোগফল =4,গুনফল = 1\\thereforeযোগফল\\ =4,গুনফল\\ =\\ 1∴যোগফল =4,গুনফল = 1 So,equation will be x2−4x+1=0So,equation\\ will\\ be\\ x^2-4x+1=0So,equation will be x2−4x+1=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$কোনো দ্বিঘাত সমীকরণের একটি মূল 2+32+\\sqrt{3}2+3 হলে, সমীকরণটি-$",
+    "explanationLatex": "$একটি মূল 2+3 হলে অন্যটি হবে 2−3একটি\\ মূল\\ 2+\\sqrt{3}\\ হলে\\ অন্যটি\\ হবে\\ 2-\\sqrt{3}একটি মূল 2+3 হলে অন্যটি হবে 2−3 ∴যোগফল =4,গুনফল = 1\\thereforeযোগফল\\ =4,গুনফল\\ =\\ 1∴যোগফল =4,গুনফল = 1 So,equation will be x2−4x+1=0So,equation\\ will\\ be\\ x^2-4x+1=0So,equation will be x2−4x+1=0$"
+  },
+  {
+    "id": 42,
+    "question": "x3+m2=0 সমীকরণের মুলত্রয়ের গুনফল কোনটি?",
+    "options": {
+      "a": "0",
+      "b": "-m2",
+      "c": "m2",
+      "d": "1"
+    },
+    "correctAnswer": "b",
+    "explanation": "x3+m2=0 x^{3}+m^{2}=0 x3+m2=0 বা, x3+0⋅x2+0⋅x+m2=0 x^{3}+0 \\cdot x^{2}+0 \\cdot x+m^{2}=0 x3+0⋅x2+0⋅x+m2=0 মূলত্রয়ের গুণফল =−m21 =\\frac{-m^{2}}{1} =1−m2 =−m2 =-m^{2} =−m2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x3+m2=0 সমীকরণের মুলত্রয়ের গুনফল কোনটি?$",
+    "explanationLatex": "$x3+m2=0 x^{3}+m^{2}=0 x3+m2=0 বা, x3+0⋅x2+0⋅x+m2=0 x^{3}+0 \\cdot x^{2}+0 \\cdot x+m^{2}=0 x3+0⋅x2+0⋅x+m2=0 মূলত্রয়ের গুণফল =−m21 =\\frac{-m^{2}}{1} =1−m2 =−m2 =-m^{2} =−m2$"
+  },
+  {
+    "id": 43,
+    "question": "যদি x4 - 1 = 0 সমীকরণের মূলগুলি 1, α, β এবং γ হয় তবে (1-α)(1-β)(1-γ)=কত?",
+    "options": {
+      "a": "0",
+      "b": "3",
+      "c": "4",
+      "d": "2"
+    },
+    "correctAnswer": "c",
+    "explanation": "x4−1=0∴x=1,−1,i,−i(1−α)(1−β)(1−γ)=(1+1)(1−i)(1+i)=4 \\begin{array}{l}x^{4}-1=0 \\\\ \\therefore x=1,-1, i,-i \\\\ (1-\\alpha)(1-\\beta)(1-\\gamma) \\\\ =(1+1)(1-i)(1+i) \\\\ =4\\end{array} x4−1=0∴x=1,−1,i,−i(1−α)(1−β)(1−γ)=(1+1)(1−i)(1+i)=4",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$যদি x4 - 1 = 0 সমীকরণের মূলগুলি 1, α, β এবং γ হয় তবে (1-α)(1-β)(1-γ)=কত?$",
+    "explanationLatex": "$x4−1=0∴x=1,−1,i,−i(1−α)(1−β)(1−γ)=(1+1)(1−i)(1+i)=4 \\begin{array}{l}x^{4}-1=0 \\\\ \\therefore x=1,-1, i,-i \\\\ (1-\\alpha)(1-\\beta)(1-\\gamma) \\\\ =(1+1)(1-i)(1+i) \\\\ =4\\end{array} x4−1=0∴x=1,−1,i,−i(1−α)(1−β)(1−γ)=(1+1)(1−i)(1+i)=4$"
+  },
+  {
+    "id": 44,
+    "question": "x2-2x+1 = 0 সমীকরণটির মুলদ্বয়ের ত্রিঘাত এর সমষ্টি হলাে-",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "-2",
+      "d": "-3"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 2।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243613/gst-question-images/Math_________-Varsity-arc_q44.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x2-2x+1 = 0 সমীকরণটির মুলদ্বয়ের ত্রিঘাত এর সমষ্টি হলাে-$",
+    "explanationLatex": "সঠিক উত্তর: (a) 2।"
+  },
+  {
+    "id": 45,
+    "question": "k-এর মান কত হলে, (k2-3)x2+3kx+3k+1=0 সমীকরণের মূলদ্বয় পরস্পর উল্টো হবে?",
+    "options": {
+      "a": "4,1",
+      "b": "4,-1",
+      "c": "6,1",
+      "d": "6,-1"
+    },
+    "correctAnswer": "b",
+    "explanation": "মূলদ্বয়, α,1αα×1α=3k+1k2−3বা, k2−3=3k+1 বা, k2−3k−4=0∴k=4,−1 \\begin{array}{l}\\text { মূলদ্বয়, } \\alpha, \\frac{1}{\\alpha} \\\\ \\alpha \\times \\frac{1}{\\alpha}=\\frac{3 k+1}{k^{2}-3} \\\\ \\text {বা, } k^{2}-3=3 k+1 \\\\ \\text { বা, } k^{2}-3 k-4=0 \\\\ \\therefore k=4,-1\\end{array} মূলদ্বয়, α,α1α×α1=k2−33k+1বা, k2−3=3k+1 বা, k2−3k−4=0∴k=4,−1",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$k-এর মান কত হলে, (k2-3)x2+3kx+3k+1=0 সমীকরণের মূলদ্বয় পরস্পর উল্টো হবে?$",
+    "explanationLatex": "$মূলদ্বয়, α,1αα\\\\times 1α=3k+1k2−3বা, k2−3=3k+1 বা, k2−3k−4=0∴k=4,−1 \\begin{array}{l}\\text { মূলদ্বয়, } \\alpha, \\frac{1}{\\alpha} \\\\ \\alpha \\times \\frac{1}{\\alpha}=\\frac{3 k+1}{k^{2}-3} \\\\ \\text {বা, } k^{2}-3=3 k+1 \\\\ \\text { বা, } k^{2}-3 k-4=0 \\\\ \\therefore k=4,-1\\end{array} মূলদ্বয়, α,α1α\\\\times α1=k2−33k+1বা, k2−3=3k+1 বা, k2−3k−4=0∴k=4,−1$"
+  },
+  {
+    "id": 46,
+    "question": "ax² + bx + c = 0, (a≠0, a, b, c বাস্তব) সমীকরণে যদি b = 0, ac > 0 হয় তবে মূলদ্বয় কিরূপ হবে-",
+    "options": {
+      "a": "বাস্তব",
+      "b": "বাস্তব ও সমান",
+      "c": "কাল্পনিক",
+      "d": "মূলদ"
+    },
+    "correctAnswer": "c",
+    "explanation": "b2−4ac<0বা,0−4ac<0বা,−4ac<0∴ac>0 \\begin{aligned} b^{2}-4 a c & <0 \\\\ বা,0-4 a c & <0 \\\\ বা,-4 a c & <0 \\\\ \\therefore a c & >0 \\end{aligned} b2−4acবা,0−4acবা,−4ac∴ac<0<0<0>0 ∴ \\therefore ∴ কাল্পনিক হবে ।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ax² + bx + c = 0, (a\\\\neq 0, a, b, c বাস্তব) সমীকরণে যদি b = 0, ac > 0 হয় তবে মূলদ্বয় কিরূপ হবে-$",
+    "explanationLatex": "$b2−4ac<0বা,0−4ac<0বা,−4ac<0∴ac>0 \\begin{aligned} b^{2}-4 a c & <0 \\\\ বা,0-4 a c & <0 \\\\ বা,-4 a c & <0 \\\\ \\therefore a c & >0 \\end{aligned} b2−4acবা,0−4acবা,−4ac∴ac<0<0<0>0 ∴ \\therefore ∴ কাল্পনিক হবে ।$"
+  },
+  {
+    "id": 47,
+    "question": "পূর্ণসংখ্যা সহগসহ দ্বিমাত্রিক সমীকরণ নির্ণয় করো।",
+    "options": {
+      "a": "𝑥 2 + 2 𝑥 + 6 = 0 x 2 +2x+6=0",
+      "b": "𝑥 2 + 𝑥 + 3 = 0 x 2 +x+3=0",
+      "c": "𝑥 2 + 2 𝑥 − 6 = 0 x 2 +2x−6=0",
+      "d": "𝑥 2 + 𝑥 − 3 = 0 x 2 +x−3=0"
+    },
+    "correctAnswer": "a",
+    "explanation": "যার একটি মূল= −5−1\\sqrt{-5}-1−5−1 একটি মূল−5−1=−1+5i\\sqrt{-5}-1=-1+\\sqrt{5}i−5−1=−1+5i ∴\\therefore∴অপর মূলটি=−1−5i=−1-\\sqrt{5i}=−1−5i ∴\\therefore∴সমীকরণটি,x2−2(−1)x+{12+(5)2}=0x^2-2(-1)x+\\left\\{1^2+(\\sqrt{5})^2\\right\\}=0x2−2(−1)x+{12+(5)2}=0 ⇒x2+2x+6=0⇒x^2+2x+6=0⇒x2+2x+6=0",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243614/gst-question-images/Math_________-Varsity-arc_q47.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পূর্ণসংখ্যা সহগসহ দ্বিমাত্রিক সমীকরণ নির্ণয় করো।",
+    "explanationLatex": "$যার একটি মূল= −5−1\\sqrt{-5}-1−5−1 একটি মূল−5−1=−1+5i\\sqrt{-5}-1=-1+\\sqrt{5}i−5−1=−1+5i ∴\\therefore∴অপর মূলটি=−1−5i=−1-\\sqrt{5i}=−1−5i ∴\\therefore∴সমীকরণটি,x2−2(−1)x+{12+(5)2}=0x^2-2(-1)x+\\left\\{1^2+(\\sqrt{5})^2\\right\\}=0x2−2(−1)x+{12+(5)2}=0 ⇒x2+2x+6=0⇒x^2+2x+6=0⇒x2+2x+6=0$"
+  },
+  {
+    "id": 48,
+    "question": "দুজন ছাত্রকে একটি সমীকরণ সমাধান করতে বলা হল । একজন ছাত্র x \\mathrm{x} x এর সহগ ভুল লিখে সমীকরণটির মূল 2 এবং 6 নির্ণয় করল। অপর ছাত্র ধ্রুবক পদটি ভুল লিখে সমীকরণটির মূল 2 এবং -9 নির্ণয় করল। সমীকরণটির নির্ভূল মূলদ্বয় নির্ণয় কর।",
+    "options": {
+      "a": "3 ও 4",
+      "b": "-3 ও -4",
+      "c": "-3 ও 4",
+      "d": "3 ও -4"
+    },
+    "correctAnswer": "b",
+    "explanation": "Solve: 2,6 মূলবিশিষ্ট সমীকরণ,x2−(2+6)x+2×6=0⇒x2−8x+12=0 \\begin{aligned} & x^{2}-(2+6) x+2 \\times 6=0 \\\\ \\Rightarrow & x^{2}-8 x+12=0 \\end{aligned} ⇒x2−(2+6)x+2×6=0x2−8x+12=0 যেহেতু সমীকরণটির x \\mathrm{x} x এর সহগ ভুল, সুতরাং প্রকৃত সমীকণর্টির x2 x^{2} x2 এর সহগ 1 এবং ধ্রুবপদ 12 আবার, 2,−9 2,-9 2,−9 মূলবিশিষ্ট সমীকরণ, x2−(2−9)x+2(−9)=0⇒x2+7x−18=0. \\begin{aligned} & x^{2}-(2-9) x+2(-9)=0 \\\\ \\Rightarrow & x^{2}+7 x-18=0 . \\end{aligned} ⇒x2−(2−9)x+2(−9)=0x2+7x−18=0. ∴ \\therefore ∴ প্রকৃত সমীকরণের x x xএর সহগ 7 ∴ \\therefore ∴ প্রকৃত সমীকরণ, x2+7x+12=0 \\mathrm{x}^{2}+7 \\mathrm{x}+12=0 x2+7x+12=0 ⇒x2+4x+3x+12=0⇒x(x+4)+3(x+4)=0∴x=−3,−4 \\begin{array}{l} \\Rightarrow x^{2}+4 x+3 x+12=0 \\\\ \\Rightarrow x(x+4)+3(x+4)=0 \\quad \\therefore x=-3,-4 \\end{array} ⇒x2+4x+3x+12=0⇒x(x+4)+3(x+4)=0∴x=−3,−4 ∴ \\therefore ∴ সমীকরণটির নির্ভূল মূলদ্বয় -3 ও -4.",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "দুজন ছাত্রকে একটি সমীকরণ সমাধান করতে বলা হল । একজন ছাত্র x \\mathrm{x} x এর সহগ ভুল লিখে সমীকরণটির মূল 2 এবং 6 নির্ণয় করল। অপর ছাত্র ধ্রুবক পদটি ভুল লিখে সমীকরণটির মূল 2 এবং -9 নির্ণয় করল। সমীকরণটির নির্ভূল মূলদ্বয় নির্ণয় কর।",
+    "explanationLatex": "$Solve: 2,6 মূলবিশিষ্ট সমীকরণ,x2−(2+6)x+2\\\\times 6=0⇒x2−8x+12=0 \\begin{aligned} & x^{2}-(2+6) x+2 \\times 6=0 \\\\ \\Rightarrow & x^{2}-8 x+12=0 \\end{aligned} ⇒x2−(2+6)x+2\\\\times 6=0x2−8x+12=0 যেহেতু সমীকরণটির x \\mathrm{x} x এর সহগ ভুল, সুতরাং প্রকৃত সমীকণর্টির x2 x^{2} x2 এর সহগ 1 এবং ধ্রুবপদ 12 আবার, 2,−9 2,-9 2,−9 মূলবিশিষ্ট সমীকরণ, x2−(2−9)x+2(−9)=0⇒x2+7x−18=0. \\begin{aligned} & x^{2}-(2-9) x+2(-9)=0 \\\\ \\Rightarrow & x^{2}+7 x-18=0 . \\end{aligned} ⇒x2−(2−9)x+2(−9)=0x2+7x−18=0. ∴ \\therefore ∴ প্রকৃত সমীকরণের x x xএর সহগ 7 ∴ \\therefore ∴ প্রকৃত সমীকরণ, x2+7x+12=0 \\mathrm{x}^{2}+7 \\mathrm{x}+12=0 x2+7x+12=0 ⇒x2+4x+3x+12=0⇒x(x+4)+3(x+4)=0∴x=−3,−4 \\begin{array}{l} \\Rightarrow x^{2}+4 x+3 x+12=0 \\\\ \\Rightarrow x(x+4)+3(x+4)=0 \\quad \\therefore x=-3,-4 \\end{array} ⇒x2+4x+3x+12=0⇒x(x+4)+3(x+4)=0∴x=−3,−4 ∴ \\therefore ∴ সমীকরণটির নির্ভূল মূলদ্বয় -3 ও -4.$"
+  },
+  {
+    "id": 49,
+    "question": "k এর কোন মানের জন্য x2−6x−1+k(2x+1)=0 x^{2}-6 x-1+k(2 x+1)=0 x2−6x−1+k(2x+1)=0 সমীকরণটির দুইটি মূল সমান হবে?",
+    "options": {
+      "a": "- 1",
+      "b": "- 2",
+      "c": "2",
+      "d": "1"
+    },
+    "correctAnswer": "c",
+    "explanation": "x2−6x−1+k(2x+1)=0 x^{2}-6 x-1+k(2 x+1)=0 x2−6x−1+k(2x+1)=0 ⇒x2+(2k−6)x+(k−1)=0 \\Rightarrow \\mathrm{x}^{2}+(2 \\mathrm{k}-6) \\mathrm{x}+(\\mathrm{k}-1)=0 ⇒x2+(2k−6)x+(k−1)=0 সমীকরণটির মূলদ্বয় সমান হলে, নিশ্চায়ক=0⇒b2−4ac=0 =0 \\Rightarrow b^{2}-4 a c=0 =0⇒b2−4ac=0 ⇒(2k−6)2−4.1(k−1)=0⇒4k2−24k+36−4k+4=0⇒k2−7k+10=0⇒(k−2)(k−5)=0⇒k=2,5 \\begin{array}{l} \\Rightarrow(2 k-6)^{2}-4.1(k-1)=0 \\\\ \\Rightarrow 4 k^{2}-24 k+36-4 k+4=0 \\\\ \\Rightarrow k^{2}-7 k+10=0 \\Rightarrow(k-2)(k-5)=0 \\Rightarrow k=2,5 \\end{array} ⇒(2k−6)2−4.1(k−1)=0⇒4k2−24k+36−4k+4=0⇒k2−7k+10=0⇒(k−2)(k−5)=0⇒k=2,5",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$k এর কোন মানের জন্য x2−6x−1+k(2x+1)=0 x^{2}-6 x-1+k(2 x+1)=0 x2−6x−1+k(2x+1)=0 সমীকরণটির দুইটি মূল সমান হবে?$",
+    "explanationLatex": "$x2−6x−1+k(2x+1)=0 x^{2}-6 x-1+k(2 x+1)=0 x2−6x−1+k(2x+1)=0 ⇒x2+(2k−6)x+(k−1)=0 \\Rightarrow \\mathrm{x}^{2}+(2 \\mathrm{k}-6) \\mathrm{x}+(\\mathrm{k}-1)=0 ⇒x2+(2k−6)x+(k−1)=0 সমীকরণটির মূলদ্বয় সমান হলে, নিশ্চায়ক=0⇒b2−4ac=0 =0 \\Rightarrow b^{2}-4 a c=0 =0⇒b2−4ac=0 ⇒(2k−6)2−4.1(k−1)=0⇒4k2−24k+36−4k+4=0⇒k2−7k+10=0⇒(k−2)(k−5)=0⇒k=2,5 \\begin{array}{l} \\Rightarrow(2 k-6)^{2}-4.1(k-1)=0 \\\\ \\Rightarrow 4 k^{2}-24 k+36-4 k+4=0 \\\\ \\Rightarrow k^{2}-7 k+10=0 \\Rightarrow(k-2)(k-5)=0 \\Rightarrow k=2,5 \\end{array} ⇒(2k−6)2−4.1(k−1)=0⇒4k2−24k+36−4k+4=0⇒k2−7k+10=0⇒(k−2)(k−5)=0⇒k=2,5$"
+  },
+  {
+    "id": 50,
+    "question": "x2-px+p+3=0 সমীকরণের বাস্তব ও অসমান বীজ থাকলে p এর মান বের করঃ",
+    "options": {
+      "a": "p>6 and p>-2",
+      "b": "p<6 and p<-2",
+      "c": "P=0",
+      "d": "p>6"
+    },
+    "correctAnswer": "a",
+    "explanation": "বাস্তব ও অসমান বীজ হলে b2−4ac>0 b^{2}-4 a c>0 b2−4ac>0 (−p)2−4⋅1⋅(p+3)>0⇒p2−4p−12>0⇒(p−6)(p+2)>0 \\begin{aligned} (-p)^{2}-4 \\cdot 1 \\cdot(p+3)>0 & \\Rightarrow p^{2}-4 p-12>0 \\\\ & \\Rightarrow(p-6)(p+2)>0 \\end{aligned} (−p)2−4⋅1⋅(p+3)>0⇒p2−4p−12>0⇒(p−6)(p+2)>0 ∴(p−6) \\therefore(p-6) ∴(p−6) এবং (p+2) (p+2) (p+2) এর চিহু একই হতে হবে। (p−6)>0 এবং (p+2)>0 (\\mathrm{p}-6)>0 \\text { এবং }(\\mathrm{p}+2)>0 (p−6)>0 এবং (p+2)>0 p>6 এবং p>−2 \\mathrm{p}>6 \\text { এবং } \\mathrm{p}>-2 p>6 এবং p>−2 অথবা, (p−6)<0 (\\mathrm{p}-6)<0 (p−6)<0 এবং (p+2)<0⇒p<6 (\\mathrm{p}+2)<0 \\Rightarrow \\mathrm{p}<6 (p+2)<0⇒p<6 এবং p<−2 \\mathrm{p}<-2 p<−2 ∴p<−2 \\therefore \\mathrm{p}<-2 ∴p<−2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x2-px+p+3=0 সমীকরণের বাস্তব ও অসমান বীজ থাকলে p এর মান বের করঃ$",
+    "explanationLatex": "$বাস্তব ও অসমান বীজ হলে b2−4ac>0 b^{2}-4 a c>0 b2−4ac>0 (−p)2−4⋅1⋅(p+3)>0⇒p2−4p−12>0⇒(p−6)(p+2)>0 \\begin{aligned} (-p)^{2}-4 \\cdot 1 \\cdot(p+3)>0 & \\Rightarrow p^{2}-4 p-12>0 \\\\ & \\Rightarrow(p-6)(p+2)>0 \\end{aligned} (−p)2−4⋅1⋅(p+3)>0⇒p2−4p−12>0⇒(p−6)(p+2)>0 ∴(p−6) \\therefore(p-6) ∴(p−6) এবং (p+2) (p+2) (p+2) এর চিহু একই হতে হবে। (p−6)>0 এবং (p+2)>0 (\\mathrm{p}-6)>0 \\text { এবং }(\\mathrm{p}+2)>0 (p−6)>0 এবং (p+2)>0 p>6 এবং p>−2 \\mathrm{p}>6 \\text { এবং } \\mathrm{p}>-2 p>6 এবং p>−2 অথবা, (p−6)<0 (\\mathrm{p}-6)<0 (p−6)<0 এবং (p+2)<0⇒p<6 (\\mathrm{p}+2)<0 \\Rightarrow \\mathrm{p}<6 (p+2)<0⇒p<6 এবং p<−2 \\mathrm{p}<-2 p<−2 ∴p<−2 \\therefore \\mathrm{p}<-2 ∴p<−2$"
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "x=√-1 হলে ∫01log⁡ex4dx \\int_{0}^{1} \\log e^{x^{4}} d x ∫01logex4dx এর মান কোনটি?",
+    "question": "x=হলে \\int_{0}^{1} \\log e^{x^{4}} d x এর মান কোনটি?",
     "options": {
       "a": "0",
       "b": "-1",
@@ -16,12 +16,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$x=\\\\sqrt{}-1 হলে ∫01log⁡ex4dx \\int_{0}^{1} \\log e^{x^{4}} d x ∫01logex4dx এর মান কোনটি?$",
+    "questionLatex": "x=\\\\sqrt{}-1 হলে \\int_{0}^{1} \\log e^{x^{4}} d x এর মান কোনটি?",
     "explanationLatex": "সঠিক উত্তর: (d) 1।"
   },
   {
     "id": 2,
-    "question": "∫exdx1+e2x=f(x)+c \\int \\frac{e^{x} dx}{1 + e^{2 x}} = f{\\left ( x \\right )} + c ∫1+e2xexdx=f(x)+c",
+    "question": "\\int \\frac{e^{x} dx}{1 + e^{2 x}} = f{\\left ( x \\right )} + c",
     "options": {
       "a": "1 2 tan ⁡ − 1 𝑒 𝑥 2 1 tan −1 e x",
       "b": "tan ⁡ − 1 𝑒 𝑥 tan −1 e x",
@@ -29,19 +29,19 @@
       "d": "কোনোটি নয়"
     },
     "correctAnswer": "b",
-    "explanation": "হলে, f(x)=? ধরি cx=z c^{x}=z cx=z বা exdx=dz \\text { বা } e^{x} d x=d z বা exdx=dz ∫exdx1+e2x=∫exdx1+(ex)2=∫dz1+z2=tan⁡−1z=tan⁡−1ex+c \\begin{aligned} & \\int \\frac{e^{x} d x}{1+e^{2 x}} \\\\ = & \\int \\frac{e^{x} d x}{1+\\left(e^{x}\\right)^{2}} \\\\ = & \\int \\frac{d z}{1+z^{2}} \\\\ = & \\tan ^{-1} z \\\\ = & \\tan ^{-1} e^{x}+c \\end{aligned} ====∫1+e2xexdx∫1+(ex)2exdx∫1+z2dztan−1ztan−1ex+c",
+    "explanation": "হলে, ধরি বা \\text { বা } e^{x} d x=d z বা exdx=dz \\begin{aligned} & \\int \\frac{e^{x} d x}{1+e^{2 x}} \\\\ = & \\int \\frac{e^{x} d x}{1+\\left(e^{x}\\right)^{2}} \\\\ = & \\int \\frac{d z}{1+z^{2}} \\\\ = & \\tan ^{-1} z \\\\ = & \\tan ^{-1} e^{x}+c \\end{aligned} ====",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫exdx1+e2x=f(x)+c \\int \\frac{e^{x} dx}{1 + e^{2 x}} = f{\\left ( x \\right )} + c ∫1+e2xexdx=f(x)+c$",
-    "explanationLatex": "$হলে, f(x)=? ধরি cx=z c^{x}=z cx=z বা exdx=dz \\text { বা } e^{x} d x=d z বা exdx=dz ∫exdx1+e2x=∫exdx1+(ex)2=∫dz1+z2=tan⁡−1z=tan⁡−1ex+c \\begin{aligned} & \\int \\frac{e^{x} d x}{1+e^{2 x}} \\\\ = & \\int \\frac{e^{x} d x}{1+\\left(e^{x}\\right)^{2}} \\\\ = & \\int \\frac{d z}{1+z^{2}} \\\\ = & \\tan ^{-1} z \\\\ = & \\tan ^{-1} e^{x}+c \\end{aligned} ====∫1+e2xexdx∫1+(ex)2exdx∫1+z2dztan−1ztan−1ex+c$"
+    "questionLatex": "\\int \\frac{e^{x} dx}{1 + e^{2 x}} = f{\\left ( x \\right )} + c",
+    "explanationLatex": "হলে, ধরি বা \\text { বা } e^{x} d x=d z বা exdx=dz \\begin{aligned} & \\int \\frac{e^{x} d x}{1+e^{2 x}} \\\\ = & \\int \\frac{e^{x} d x}{1+\\left(e^{x}\\right)^{2}} \\\\ = & \\int \\frac{d z}{1+z^{2}} \\\\ = & \\tan ^{-1} z \\\\ = & \\tan ^{-1} e^{x}+c \\end{aligned} ===="
   },
   {
     "id": 3,
-    "question": "∫0aa2−x2dx\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x∫0aa2−x2dx",
+    "question": "\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x",
     "options": {
       "a": "1 3 𝜋 𝑎 2 3 1 πa 2",
       "b": "1 4 𝜋 𝑎 3 4 1 πa 3",
@@ -49,19 +49,19 @@
       "d": "1 2 𝜋 𝑎 2 2 1 πa 2"
     },
     "correctAnswer": "c",
-    "explanation": "Solve: ধরি I=∫0aa2−x2dx \\mathrm{I}=\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x I=∫0aa2−x2dx এবং x=asin⁡θ: x=a \\sin \\theta: x=asinθ: তাহলে dx=acos⁡θdθ d x=a \\cos \\theta d \\theta dx=acosθdθ সীমা : x=0 x=0 x=0 হলে θ=sin⁡−10=0 \\theta=\\sin ^{-1} 0=0 θ=sin−10=0 এবংx=a if θ=sin⁡−11=π2∴I=∫0π/2a2(1−sin⁡2θ)acos⁡θdθ=a2∫0π/2cos⁡2θdθ=a22∫0π/2(1+cos⁡2θ)dθ=a22[θ+12sin⁡2θ]0π/2=a22{(π2+12sin⁡π)−(0+12sin⁡0)}=a22⋅π2=14πa2 \\begin{aligned} & x=a \\text { if } \\theta=\\sin ^{-1} 1=\\frac{\\pi}{2} \\\\ \\therefore \\quad & \\mathrm{I}=\\int_{0}^{\\pi / 2} \\sqrt{a^{2}\\left(1-\\sin ^{2} \\theta\\right) a \\cos \\theta d \\theta} \\\\ = & a^{2} \\int_{0}^{\\pi / 2} \\cos ^{2} \\theta d \\theta=\\frac{a^{2}}{2} \\int_{0}^{\\pi / 2}(1+\\cos 2 \\theta) d \\theta \\\\ = & \\frac{a^{2}}{2}\\left[\\theta+\\frac{1}{2} \\sin 2 \\theta\\right]_{0}^{\\pi / 2} \\\\ = & \\frac{a^{2}}{2}\\left\\{\\left(\\frac{\\pi}{2}+\\frac{1}{2} \\sin \\pi\\right)-\\left(0+\\frac{1}{2} \\sin 0\\right)\\right\\} \\\\ = & \\frac{a^{2}}{2} \\cdot \\frac{\\pi}{2}=\\frac{1}{4} \\pi a^{2} \\end{aligned} ∴====x=a if θ=sin−11=2πI=∫0π/2a2(1−sin2θ)acosθdθa2∫0π/2cos2θdθ=2a2∫0π/2(1+cos2θ)dθ2a2[θ+21sin2θ]0π/22a2{(2π+21sinπ)−(0+21sin0)}2a2⋅2π=41πa2",
+    "explanation": "ধরি I=\\mathrm{I}=\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x I=এবং \\sin \\theta: x=asinθ: তাহলে \\cos \\theta d \\theta dx=acosθdθ সীমা : হলে θ=sin\\theta=\\sin ^{-1} 0=0 θ=sin−10=0 এবংx=a if θ=sin\\begin{aligned} & x=a \\text { if } \\theta=\\sin ^{-1} 1=\\frac{\\pi}{2} \\\\ \\therefore \\quad & \\mathrm{I}=\\int_{0}^{\\pi / 2} \\sqrt{a^{2}\\left(1-\\sin ^{2} \\theta\\right) a \\cos \\theta d \\theta} \\\\ = & a^{2} \\int_{0}^{\\pi / 2} \\cos ^{2} \\theta d \\theta=\\frac{a^{2}}{2} \\int_{0}^{\\pi / 2}(1+\\cos 2 \\theta) d \\theta \\\\ = & \\frac{a^{2}}{2}\\left[\\theta+\\frac{1}{2} \\sin 2 \\theta\\right]_{0}^{\\pi / 2} \\\\ = & \\frac{a^{2}}{2}\\left\\{\\left(\\frac{\\pi}{2}+\\frac{1}{2} \\sin \\pi\\right)-\\left(0+\\frac{1}{2} \\sin 0\\right)\\right\\} \\\\ = & \\frac{a^{2}}{2} \\cdot \\frac{\\pi}{2}=\\frac{1}{4} \\pi a^{2} \\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫0aa2−x2dx\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x∫0aa2−x2dx$",
-    "explanationLatex": "$Solve: ধরি I=∫0aa2−x2dx \\mathrm{I}=\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x I=∫0aa2−x2dx এবং x=asin⁡\\\\theta : x=a \\sin \\theta: x=asin\\\\theta : তাহলে dx=acos⁡\\\\theta d\\\\theta  d x=a \\cos \\theta d \\theta dx=acos\\\\theta d\\\\theta  সীমা : x=0 x=0 x=0 হলে \\\\theta =sin⁡−10=0 \\theta=\\sin ^{-1} 0=0 \\\\theta =sin−10=0 এবংx=a if \\\\theta =sin⁡−11=\\\\pi 2∴I=∫0\\\\\\frac{pi}{2a2}(1−sin⁡2\\\\theta )acos⁡\\\\theta d\\\\theta =a2∫0\\\\\\frac{pi}{2cos}⁡2\\\\theta d\\\\theta =a22∫0\\\\\\frac{pi}{2}(1+cos⁡2\\\\theta )d\\\\theta =a22[\\\\theta +12sin⁡2\\\\theta ]0\\\\\\frac{pi}{2}=a22{(\\\\pi 2+12sin⁡\\\\pi )−(0+12sin⁡0)}=a22⋅\\\\pi 2=14\\\\pi a2 \\begin{aligned} & x=a \\text { if } \\theta=\\sin ^{-1} 1=\\frac{\\pi}{2} \\\\ \\therefore \\quad & \\mathrm{I}=\\int_{0}^{\\\\frac{pi}{2}} \\sqrt{a^{2}\\left(1-\\sin ^{2} \\theta\\right) a \\cos \\theta d \\theta} \\\\ = & a^{2} \\int_{0}^{\\\\frac{pi}{2}} \\cos ^{2} \\theta d \\theta=\\frac{a^{2}}{2} \\int_{0}^{\\\\frac{pi}{2}}(1+\\cos 2 \\theta) d \\theta \\\\ = & \\frac{a^{2}}{2}\\left[\\theta+\\frac{1}{2} \\sin 2 \\theta\\right]_{0}^{\\\\frac{pi}{2}} \\\\ = & \\frac{a^{2}}{2}\\left\\{\\left(\\frac{\\pi}{2}+\\frac{1}{2} \\sin \\pi\\right)-\\left(0+\\frac{1}{2} \\sin 0\\right)\\right\\} \\\\ = & \\frac{a^{2}}{2} \\cdot \\frac{\\pi}{2}=\\frac{1}{4} \\pi a^{2} \\end{aligned} ∴====x=a if \\\\theta =sin−11=2\\\\pi I=∫0\\\\\\frac{pi}{2a2}(1−sin2\\\\theta )acos\\\\theta d\\\\theta a2∫0\\\\\\frac{pi}{2cos2}\\\\theta d\\\\theta =2a2∫0\\\\\\frac{pi}{2}(1+cos2\\\\theta )d\\\\theta 2a2[\\\\theta +21sin2\\\\theta ]0\\\\\\frac{pi}{22a2}{(2\\\\pi +21sin\\\\pi )−(0+21sin0)}2a2⋅2\\\\pi =41\\\\pi a2$"
+    "questionLatex": "\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x",
+    "explanationLatex": "ধরি I=\\mathrm{I}=\\int_{0}^{a} \\sqrt{a^{2}-x^{2}} d x I=এবং ⁡\\\\theta : x=a \\sin \\theta: x=asin\\\\theta : তাহলে ⁡\\\\theta d\\\\theta d x=a \\cos \\theta d \\theta dx=acos\\\\theta d\\\\theta সীমা : হলে \\\\theta =sin\\theta=\\sin ^{-1} 0=0 \\\\theta =sin−10=0 এবংx=a if \\\\theta =sin\\pi 2\\frac{pi}{2a2}(1−sin\\theta )acos⁡\\\\theta d\\\\theta =a2\\frac{pi}{2cos}\\theta d\\\\theta =a22\\frac{pi}{2}(1+cos\\theta )d\\\\theta =a22[\\\\theta +12sin\\theta ]0\\\\\\frac{pi}{2}=a22{(\\\\pi 2+12sin⁡\\\\pi )−(0+12sin⁡0)}=a22⋅\\\\pi 2=14\\\\pi a2 \\begin{aligned} & x=a \\text { if } \\theta=\\sin ^{-1} 1=\\frac{\\pi}{2} \\\\ \\therefore \\quad & \\mathrm{I}=\\int_{0}^{\\\\frac{pi}{2}} \\sqrt{a^{2}\\left(1-\\sin ^{2} \\theta\\right) a \\cos \\theta d \\theta} \\\\ = & a^{2} \\int_{0}^{\\\\frac{pi}{2}} \\cos ^{2} \\theta d \\theta=\\frac{a^{2}}{2} \\int_{0}^{\\\\frac{pi}{2}}(1+\\cos 2 \\theta) d \\theta \\\\ = & \\frac{a^{2}}{2}\\left[\\theta+\\frac{1}{2} \\sin 2 \\theta\\right]_{0}^{\\\\frac{pi}{2}} \\\\ = & \\frac{a^{2}}{2}\\left\\{\\left(\\frac{\\pi}{2}+\\frac{1}{2} \\sin \\pi\\right)-\\left(0+\\frac{1}{2} \\sin 0\\right)\\right\\} \\\\ = & \\frac{a^{2}}{2} \\cdot \\frac{\\pi}{2}=\\frac{1}{4} \\pi a^{2} \\end{aligned} \\theta =sin−11=2\\\\pi I=\\frac{pi}{2a2}(1−sin2\\\\theta )acos\\\\theta d\\\\theta a2\\frac{pi}{2cos2}\\\\theta d\\\\theta =2a2\\frac{pi}{2}(1+cos2\\\\theta )d\\\\theta 2a2[\\\\theta +21sin2\\\\theta ]0\\\\\\frac{pi}{22a2}{(2\\\\pi +21sin\\\\pi )−(0+21sin0)}2a2⋅2\\\\pi =41\\\\pi a2"
   },
   {
     "id": 4,
-    "question": "∫cos⁡xdx(1−sin⁡x)2=? \\int \\frac{\\cos x d x}{(1-\\sin x)^{2}} \\quad = ?∫(1−sinx)2cosxdx=?",
+    "question": "\\int \\frac{\\cos x d x}{(1-\\sin x)^{2}} \\quad = ?",
     "options": {
       "a": "1 1 − sin ⁡ 𝑥 + 𝑐 1−sinx 1 +c",
       "b": "1 1 − sin ⁡ 2 𝑥 + 𝑐 1−sin 2 x 1 +c",
@@ -69,19 +69,19 @@
       "d": "1 1 − cos ⁡ 𝑥 2 + 𝑐 1−cosx 2 1 +c"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: ধরি, 1−sin⁡x=z 1-\\sin x=z 1−sinx=z. তাহলে, −cos⁡dx=dz -\\cos d x=d z −cosdx=dz এবং ∫cos⁡xdx(1−sin⁡x)2=−∫dzz2=−∫z−2dz=−z−2+1−2+1+c=z−1+c=11−sin⁡x+c \\begin{array}{l} \\int \\frac{\\cos x d x}{(1-\\sin x)^{2}}=-\\int \\frac{d z}{z^{2}}=-\\int z^{-2} d z \\\\ =-\\frac{z^{-2+1}}{-2+1}+c=z^{-1}+c=\\frac{1}{1-\\sin x}+c \\end{array} ∫(1−sinx)2cosxdx=−∫z2dz=−∫z−2dz=−−2+1z−2+1+c=z−1+c=1−sinx1+c",
+    "explanation": "ধরি, 1−sin\\sin x=z 1−sinx=z. তাহলে, −cos\\cos d x=d z −cosdx=dz এবং \\begin{array}{l} \\int \\frac{\\cos x d x}{(1-\\sin x)^{2}}=-\\int \\frac{d z}{z^{2}}=-\\int z^{-2} d z \\\\ =-\\frac{z^{-2+1}}{-2+1}+c=z^{-1}+c=\\frac{1}{1-\\sin x}+c \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫cos⁡xdx(1−sin⁡x)2=? \\int \\frac{\\cos x d x}{(1-\\sin x)^{2}} \\quad = ?∫(1−sinx)2cosxdx=?$",
-    "explanationLatex": "$Solve: ধরি, 1−sin⁡x=z 1-\\sin x=z 1−sinx=z. তাহলে, −cos⁡dx=dz -\\cos d x=d z −cosdx=dz এবং ∫cos⁡xdx(1−sin⁡x)2=−∫dzz2=−∫z−2dz=−z−2+1−2+1+c=z−1+c=11−sin⁡x+c \\begin{array}{l} \\int \\frac{\\cos x d x}{(1-\\sin x)^{2}}=-\\int \\frac{d z}{z^{2}}=-\\int z^{-2} d z \\\\ =-\\frac{z^{-2+1}}{-2+1}+c=z^{-1}+c=\\frac{1}{1-\\sin x}+c \\end{array} ∫(1−sinx)2cosxdx=−∫z2dz=−∫z−2dz=−−2+1z−2+1+c=z−1+c=1−sinx1+c$"
+    "questionLatex": "\\int \\frac{\\cos x d x}{(1-\\sin x)^{2}} \\quad = ?",
+    "explanationLatex": "ধরি, 1−sin\\sin x=z 1−sinx=z. তাহলে, −cos\\cos d x=d z −cosdx=dz এবং \\begin{array}{l} \\int \\frac{\\cos x d x}{(1-\\sin x)^{2}}=-\\int \\frac{d z}{z^{2}}=-\\int z^{-2} d z \\\\ =-\\frac{z^{-2+1}}{-2+1}+c=z^{-1}+c=\\frac{1}{1-\\sin x}+c \\end{array}"
   },
   {
     "id": 5,
-    "question": "∫xdxx4+1=? \\int \\frac{x d x}{x^{4}+1} = ? ∫x4+1xdx=?",
+    "question": "\\int \\frac{x d x}{x^{4}+1} = ?",
     "options": {
       "a": "1 2 ⋅ tan ⁡ − 1 ( 𝑥 2 ) + 𝑐 2 1 ⋅tan −1 (x 2 )+c",
       "b": "− 1 2 ⋅ tan ⁡ − 1 ( 𝑥 2 ) + 𝑐 − 2 1 ⋅tan −1 (x 2 )+c",
@@ -89,15 +89,15 @@
       "d": "1 2 ⋅ tan ⁡ − 1 ( − 𝑥 2 ) + 𝑐 2 1 ⋅tan −1 (−x 2 )+c"
     },
     "correctAnswer": "a",
-    "explanation": "Solve:=12∫2xdx1+(x2)2=12⋅tan⁡−1(x2)+c =\\frac{1}{2} \\int \\frac{2 x d x}{1+\\left(x^{2}\\right)^{2}}=\\frac{1}{2} \\cdot \\tan ^{-1}\\left(x^{2}\\right)+c =21∫1+(x2)22xdx=21⋅tan−1(x2)+c",
+    "explanation": "\\frac{1}{2} \\int \\frac{2 x d x}{1+\\left(x^{2}\\right)^{2}}=\\frac{1}{2} \\cdot \\tan ^{-1}\\left(x^{2}\\right)+c =21",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫xdxx4+1=? \\int \\frac{x d x}{x^{4}+1} = ? ∫x4+1xdx=?$",
-    "explanationLatex": "$Solve:=12∫2xdx1+(x2)2=12⋅tan⁡−1(x2)+c =\\frac{1}{2} \\int \\frac{2 x d x}{1+\\left(x^{2}\\right)^{2}}=\\frac{1}{2} \\cdot \\tan ^{-1}\\left(x^{2}\\right)+c =21∫1+(x2)22xdx=21⋅tan−1(x2)+c$"
+    "questionLatex": "\\int \\frac{x d x}{x^{4}+1} = ?",
+    "explanationLatex": "\\frac{1}{2} \\int \\frac{2 x d x}{1+\\left(x^{2}\\right)^{2}}=\\frac{1}{2} \\cdot \\tan ^{-1}\\left(x^{2}\\right)+c =21"
   },
   {
     "id": 6,
@@ -109,7 +109,7 @@
       "d": "9"
     },
     "correctAnswer": "d",
-    "explanation": "A=∫03x2dx=[x33]03=[333−033]=9A=\\int_0^3x^2dx=\\left[\\frac{x^3}{3}\\right]_0^3=\\left[\\frac{3^3}{3}-\\frac{0^3}{3}\\right]=9A=∫03x2dx=[3x3]03=[333−303]=9 বর্গ একক।",
+    "explanation": "A=\\int_0^3x^2dx=\\left[\\frac{x^3}{3}\\right]_0^3=\\left[\\frac{3^3}{3}-\\frac{0^3}{3}\\right]=9A=বর্গ একক।",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243657/gst-question-images/Math___________-Varsity-arc_q6.png",
@@ -117,11 +117,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$y=x2,x \\mathrm{y}=\\mathrm{x}^{2}, \\mathrm{x} y=x2,x-অক্ষ, x=0 \\mathrm{x}=0 x=0 এবং x=3 \\mathrm{x}=3 x=3 দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল- [Ctg. B, JB'21]$",
-    "explanationLatex": "$A=∫03x2dx=[x33]03=[333−033]=9A=\\int_0^3x^2dx=\\left[\\frac{x^3}{3}\\right]_0^3=\\left[\\frac{3^3}{3}-\\frac{0^3}{3}\\right]=9A=∫03x2dx=[3x3]03=[333−303]=9 বর্গ একক।$"
+    "explanationLatex": "A=\\int_0^3x^2dx=\\left[\\frac{x^3}{3}\\right]_0^3=\\left[\\frac{3^3}{3}-\\frac{0^3}{3}\\right]=9A=বর্গ একক।"
   },
   {
     "id": 7,
-    "question": "∫32(2x1+x2)dx=? \\int_{3}^{2} \\left ( \\frac{2 x}{1 + x^{2}} \\right ) dx = ? ∫32(1+x22x)dx=?",
+    "question": "\\int_{3}^{2} \\left ( \\frac{2 x}{1 + x^{2}} \\right ) dx = ?",
     "options": {
       "a": "2",
       "b": "1",
@@ -129,19 +129,19 @@
       "d": "5"
     },
     "correctAnswer": "c",
-    "explanation": "ধরি, 1+x2=z 1+x^{2}=z 1+x2=z ⇒2xdx=dz \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dz} ⇒2xdx=dz ∫322x1+x2 \\int_{3}^{2} \\frac{2 \\mathrm{x}}{1+\\mathrm{x}^{2}} ∫321+x22x ⇒∫1051zdz⇒[ln⁡z]105 \\Rightarrow \\int_{10}^{5} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\Rightarrow[\\ln \\mathrm{z}]_{10}^{5} ⇒∫105z1dz⇒[lnz]105 ⇒ln⁡5−ln⁡10⇒ln⁡0.5 \\Rightarrow \\ln 5-\\ln 10\\Rightarrow \\ln 0. 5 ⇒ln5−ln10⇒ln0.5",
+    "explanation": "ধরি, \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dz} \\int_{3}^{2} \\frac{2 \\mathrm{x}}{1+\\mathrm{x}^{2}} \\Rightarrow \\int_{10}^{5} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\Rightarrow[\\ln \\mathrm{z}]_{10}^{5} \\Rightarrow \\ln 5-\\ln 10\\Rightarrow \\ln 0. 5",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243658/gst-question-images/Math___________-Varsity-arc_q7.png",
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫32(2x1+x2)dx=? \\int_{3}^{2} \\left ( \\frac{2 x}{1 + x^{2}} \\right ) dx = ? ∫32(1+x22x)dx=?$",
-    "explanationLatex": "$ধরি, 1+x2=z 1+x^{2}=z 1+x2=z ⇒2xdx=dz \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dz} ⇒2xdx=dz ∫322x1+x2 \\int_{3}^{2} \\frac{2 \\mathrm{x}}{1+\\mathrm{x}^{2}} ∫321+x22x ⇒∫1051zdz⇒[ln⁡z]105 \\Rightarrow \\int_{10}^{5} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\Rightarrow[\\ln \\mathrm{z}]_{10}^{5} ⇒∫105z1dz⇒[lnz]105 ⇒ln⁡5−ln⁡10⇒ln⁡0.5 \\Rightarrow \\ln 5-\\ln 10\\Rightarrow \\ln 0. 5 ⇒ln5−ln10⇒ln0.5$"
+    "questionLatex": "\\int_{3}^{2} \\left ( \\frac{2 x}{1 + x^{2}} \\right ) dx = ?",
+    "explanationLatex": "ধরি, \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dz} \\int_{3}^{2} \\frac{2 \\mathrm{x}}{1+\\mathrm{x}^{2}} \\Rightarrow \\int_{10}^{5} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\Rightarrow[\\ln \\mathrm{z}]_{10}^{5} \\Rightarrow \\ln 5-\\ln 10\\Rightarrow \\ln 0. 5"
   },
   {
     "id": 8,
-    "question": "∫0π2sin⁡6xdx=?\\int_{0}^{\\frac{\\pi}{2}}\\sin^6{xdx=?}∫02πsin6xdx=?",
+    "question": "\\int_{0}^{\\frac{\\pi}{2}}\\sin^6{xdx=?}",
     "options": {
       "a": "5 𝜋 32 32 5π",
       "b": "𝜋 16 16 π",
@@ -149,19 +149,19 @@
       "d": "0"
     },
     "correctAnswer": "a",
-    "explanation": "∫0π2sin⁡6xdx=56×34×12×π2=5π32 [wallis Theorem]\\int_{0}^{\\frac{\\pi}{2}}\\sin^6xdx=\\frac {5} {6}\\times \\frac {3} {4}\\times \\frac {1} {2}\\times \\frac {\\pi} {2}=\\frac {5\\pi} {32} \\rm\\ [wallis\\ Theorem]∫02πsin6xdx=65×43×21×2π=325π [wallis Theorem]",
+    "explanation": "\\int_{0}^{\\frac{\\pi}{2}}\\sin^6xdx=\\frac {5} {6}\\times \\frac {3} {4}\\times \\frac {1} {2}\\times \\frac {\\pi} {2}=\\frac {5\\pi} {32} \\rm\\ [wallis\\ Theorem]",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫0\\\\pi 2sin⁡6xdx=?\\int_{0}^{\\frac{\\pi}{2}}\\sin^6{xdx=?}∫02\\\\pi sin6xdx=?$",
-    "explanationLatex": "$∫0\\\\pi 2sin⁡6xdx=56\\\\times 34\\\\times 12\\\\times \\\\pi 2=5\\\\pi 32 [wallis Theorem]\\int_{0}^{\\frac{\\pi}{2}}\\sin^6xdx=\\frac {5} {6}\\times \\frac {3} {4}\\times \\frac {1} {2}\\times \\frac {\\pi} {2}=\\frac {5\\pi} {32} \\rm\\ [wallis\\ Theorem]∫02\\\\pi sin6xdx=65\\\\times 43\\\\times 21\\\\times 2\\\\pi =325\\\\pi  [wallis Theorem]$"
+    "questionLatex": "\\pi 2sin\\int_{0}^{\\frac{\\pi}{2}}\\sin^6{xdx=?}\\pi sin6xdx=?",
+    "explanationLatex": "\\pi 2sin\\times 34\\\\times 12\\\\times \\\\pi 2=5\\\\pi 32 [wallis Theorem]\\int_{0}^{\\frac{\\pi}{2}}\\sin^6xdx=\\frac {5} {6}\\times \\frac {3} {4}\\times \\frac {1} {2}\\times \\frac {\\pi} {2}=\\frac {5\\pi} {32} \\rm\\ [wallis\\ Theorem]\\pi sin6xdx=65\\\\times 43\\\\times 21\\\\times 2\\\\pi =325\\\\pi [wallis Theorem]"
   },
   {
     "id": 9,
-    "question": "∫dxex+e−x=?\\int{\\frac{dx}{e^x+e^{-x}}=?}∫ex+e−xdx=?",
+    "question": "\\int{\\frac{dx}{e^x+e^{-x}}=?}",
     "options": {
       "a": "sin ⁡ − 1 𝑒 𝑥 + 𝑐 sin −1 e x +c",
       "b": "tan ⁡ − 1 𝑒 𝑥 + 𝑐 tan −1 e x +c",
@@ -169,19 +169,19 @@
       "d": "cos ⁡ − 1 𝑒 𝑥 + 𝑐 cos −1 e x +c"
     },
     "correctAnswer": "b",
-    "explanation": "∫dxex+e−x=∫exdx(ex)2+1=∫dzz2+1\\int{\\frac{dx}{e^x+e^{-x}}=\\int{\\frac{e^xdx}{\\left(e^x\\right)^2+1}=\\int\\frac{dz}{z^2+1}}}∫ex+e−xdx=∫(ex)2+1exdx=∫z2+1dz [ধরি, z=ex]= tan⁡−1(z)=tan⁡−1(ex)+cz = e^x] =\\ \\tan^{-1}{(}z)=\\tan^{-1}{(}e^x)+cz=ex]= tan−1(z)=tan−1(ex)+c",
+    "explanation": "\\int{\\frac{dx}{e^x+e^{-x}}=\\int{\\frac{e^xdx}{\\left(e^x\\right)^2+1}=\\int\\frac{dz}{z^2+1}}}ধরি, \\tan^{-1}{(}z)=\\tan^{-1}{(}e^x)+cz=ex]= tan−1(z)=tan−1(ex)+c",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫dxex+e−x=?\\int{\\frac{dx}{e^x+e^{-x}}=?}∫ex+e−xdx=?$",
-    "explanationLatex": "$∫dxex+e−x=∫exdx(ex)2+1=∫dzz2+1\\int{\\frac{dx}{e^x+e^{-x}}=\\int{\\frac{e^xdx}{\\left(e^x\\right)^2+1}=\\int\\frac{dz}{z^2+1}}}∫ex+e−xdx=∫(ex)2+1exdx=∫z2+1dz [ধরি, z=ex]= tan⁡−1(z)=tan⁡−1(ex)+cz = e^x] =\\ \\tan^{-1}{(}z)=\\tan^{-1}{(}e^x)+cz=ex]= tan−1(z)=tan−1(ex)+c$"
+    "questionLatex": "\\int{\\frac{dx}{e^x+e^{-x}}=?}",
+    "explanationLatex": "\\int{\\frac{dx}{e^x+e^{-x}}=\\int{\\frac{e^xdx}{\\left(e^x\\right)^2+1}=\\int\\frac{dz}{z^2+1}}}ধরি, \\tan^{-1}{(}z)=\\tan^{-1}{(}e^x)+cz=ex]= tan−1(z)=tan−1(ex)+c"
   },
   {
     "id": 10,
-    "question": "∫−12∣x∣xdx=?\\int_{-1}^{2}\\frac{\\left|x\\right|}{x}dx=? ∫−12x∣x∣dx=?",
+    "question": "\\int_{-1}^{2}\\frac{\\left|x\\right|}{x}dx=?",
     "options": {
       "a": "3 2 2 3",
       "b": "3",
@@ -189,19 +189,19 @@
       "d": "1 2 2 1"
     },
     "correctAnswer": "c",
-    "explanation": "∫−12∣x∣xdx= \\int_{-1}^{2} \\frac{|x|}{x} d x= ∫−12x∣x∣dx= ? Sol :∵∣x∣x={xx=1; if x>0−xx=−1; if x<0∴∫−12∣x∣xdx=∫−10(−1)dx+∫02(1)dx=−[x]−10+[x]02=−[0−(−1)]+[2−0]=−1+2=1 (Ans) \\begin{array}{l} \\text { Sol }: \\because \\frac{|x|}{x}=\\left\\{\\begin{array}{l} \\frac{x}{x}=1 ; \\text { if } x>0 \\\\ \\frac{-x}{x}=-1 ; \\text { if } x<0 \\end{array}\\right. \\\\ \\therefore \\int_{-1}^{2} \\frac{|x|}{x} \\mathrm{dx}=\\int_{-1}^{0}(-1) \\mathrm{dx}+\\int_{0}^{2}(1) \\mathrm{dx}=-[x]_{-1}^{0}+[x]_{0}^{2}=-[0-(-1)]+[2-0]=-1+2=1 \\text { (Ans) } \\end{array} Sol :∵x∣x∣={xx=1; if x>0x−x=−1; if x<0∴∫−12x∣x∣dx=∫−10(−1)dx+∫02(1)dx=−[x]−10+[x]02=−[0−(−1)]+[2−0]=−1+2=1 (Ans)",
+    "explanation": "\\int_{-1}^{2} \\frac{|x|}{x} d x= \\begin{array}{l} \\text { Sol }: \\because \\frac{|x|}{x}=\\left\\{\\begin{array}{l} \\frac{x}{x}=1 ; \\text { if } x>0 \\\\ \\frac{-x}{x}=-1 ; \\text { if } x<0 \\end{array}\\right. \\\\ \\therefore \\int_{-1}^{2} \\frac{|x|}{x} \\mathrm{dx}=\\int_{-1}^{0}(-1) \\mathrm{dx}+\\int_{0}^{2}(1) \\mathrm{dx}=-[x]_{-1}^{0}+[x]_{0}^{2}=-[0-(-1)]+[2-0]=-1+2=1 \\text { (Ans) } \\end{array} Sol :∵x∣x∣={xx=1; if x>0x−x=−1; if x<0∴∫−12x∣x∣dx=∫−10(−1)dx+∫02(1)dx=−[x]−10+[x]02=−[0−(−1)]+[2−0]=−1+2=1 (Ans)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫−12∣x∣xdx=?\\int_{-1}^{2}\\frac{\\left|x\\right|}{x}dx=? ∫−12x∣x∣dx=?$",
-    "explanationLatex": "$∫−12∣x∣xdx= \\int_{-1}^{2} \\frac{|x|}{x} d x= ∫−12x∣x∣dx= ? Sol :∵∣x∣x={xx=1; if x>0−xx=−1; if x<0∴∫−12∣x∣xdx=∫−10(−1)dx+∫02(1)dx=−[x]−10+[x]02=−[0−(−1)]+[2−0]=−1+2=1 (Ans) \\begin{array}{l} \\text { Sol }: \\because \\frac{|x|}{x}=\\left\\{\\begin{array}{l} \\frac{x}{x}=1 ; \\text { if } x>0 \\\\ \\frac{-x}{x}=-1 ; \\text { if } x<0 \\end{array}\\right. \\\\ \\therefore \\int_{-1}^{2} \\frac{|x|}{x} \\mathrm{dx}=\\int_{-1}^{0}(-1) \\mathrm{dx}+\\int_{0}^{2}(1) \\mathrm{dx}=-[x]_{-1}^{0}+[x]_{0}^{2}=-[0-(-1)]+[2-0]=-1+2=1 \\text { (Ans) } \\end{array} Sol :∵x∣x∣={xx=1; if x>0x−x=−1; if x<0∴∫−12x∣x∣dx=∫−10(−1)dx+∫02(1)dx=−[x]−10+[x]02=−[0−(−1)]+[2−0]=−1+2=1 (Ans)$"
+    "questionLatex": "\\int_{-1}^{2}\\frac{\\left|x\\right|}{x}dx=?",
+    "explanationLatex": "\\int_{-1}^{2} \\frac{|x|}{x} d x= \\begin{array}{l} \\text { Sol }: \\because \\frac{|x|}{x}=\\left\\{\\begin{array}{l} \\frac{x}{x}=1 ; \\text { if } x>0 \\\\ \\frac{-x}{x}=-1 ; \\text { if } x<0 \\end{array}\\right. \\\\ \\therefore \\int_{-1}^{2} \\frac{|x|}{x} \\mathrm{dx}=\\int_{-1}^{0}(-1) \\mathrm{dx}+\\int_{0}^{2}(1) \\mathrm{dx}=-[x]_{-1}^{0}+[x]_{0}^{2}=-[0-(-1)]+[2-0]=-1+2=1 \\text { (Ans) } \\end{array} Sol :∵x∣x∣={xx=1; if x>0x−x=−1; if x<0∴∫−12x∣x∣dx=∫−10(−1)dx+∫02(1)dx=−[x]−10+[x]02=−[0−(−1)]+[2−0]=−1+2=1 (Ans)"
   },
   {
     "id": 11,
-    "question": "∫sin⁡x+cos⁡x1+sin⁡2xdx=?\\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x = ?∫1+sin2xsinx+cosxdx=?",
+    "question": "\\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x = ?",
     "options": {
       "a": "2 𝑥 + 𝑐 2x+c",
       "b": "𝑥 − 1 + 𝑐 x −1 +c",
@@ -209,19 +209,19 @@
       "d": "𝑥 + 𝑐 x+c"
     },
     "correctAnswer": "d",
-    "explanation": "Solve: ∫sin⁡x+cos⁡x1+sin⁡2xdx=∫sin⁡x+cos⁡xsin⁡2x+cos⁡2x+2sin⁡xcos⁡xdx=∫sin⁡x+cos⁡x(sin⁡x+cos⁡x)2dx=∫sin⁡x+cos⁡xsin⁡x+cos⁡xdx=∫dx=x+c \\begin{array}{l} \\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{\\sin ^{2} x+\\cos ^{2} x+2 \\sin x \\cos x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{(\\sin x+\\cos x)^{2}}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sin x+\\cos x} d x=\\int d x=x+c \\\\ \\end{array} ∫1+sin2xsinx+cosxdx=∫sin2x+cos2x+2sinxcosxsinx+cosxdx=∫(sinx+cosx)2sinx+cosxdx=∫sinx+cosxsinx+cosxdx=∫dx=x+c",
+    "explanation": "\\begin{array}{l} \\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{\\sin ^{2} x+\\cos ^{2} x+2 \\sin x \\cos x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{(\\sin x+\\cos x)^{2}}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sin x+\\cos x} d x=\\int d x=x+c \\\\ \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫sin⁡x+cos⁡x1+sin⁡2xdx=?\\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x = ?∫1+sin2xsinx+cosxdx=?$",
-    "explanationLatex": "$Solve: ∫sin⁡x+cos⁡x1+sin⁡2xdx=∫sin⁡x+cos⁡xsin⁡2x+cos⁡2x+2sin⁡xcos⁡xdx=∫sin⁡x+cos⁡x(sin⁡x+cos⁡x)2dx=∫sin⁡x+cos⁡xsin⁡x+cos⁡xdx=∫dx=x+c \\begin{array}{l} \\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{\\sin ^{2} x+\\cos ^{2} x+2 \\sin x \\cos x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{(\\sin x+\\cos x)^{2}}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sin x+\\cos x} d x=\\int d x=x+c \\\\ \\end{array} ∫1+sin2xsinx+cosxdx=∫sin2x+cos2x+2sinxcosxsinx+cosxdx=∫(sinx+cosx)2sinx+cosxdx=∫sinx+cosxsinx+cosxdx=∫dx=x+c$"
+    "questionLatex": "\\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x = ?",
+    "explanationLatex": "\\begin{array}{l} \\int \\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin 2 x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{\\sin ^{2} x+\\cos ^{2} x+2 \\sin x \\cos x}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sqrt{(\\sin x+\\cos x)^{2}}} d x \\\\ =\\int \\frac{\\sin x+\\cos x}{\\sin x+\\cos x} d x=\\int d x=x+c \\\\ \\end{array}"
   },
   {
     "id": 12,
-    "question": "∫dx1+cos⁡2x=? \\int \\frac{dx}{1 + \\cos{2} x} = ? ∫1+cos2xdx=?",
+    "question": "\\int \\frac{dx}{1 + \\cos{2} x} = ?",
     "options": {
       "a": "1/2 tan x + c",
       "b": "tan x",
@@ -229,19 +229,19 @@
       "d": "Sin 2x + c"
     },
     "correctAnswer": "a",
-    "explanation": "∫dx1+cos⁡2x⇒∫dx2cos⁡2x⇒12∫sec⁡2xdx=12tan⁡x+C \\begin{aligned} & \\int \\frac{d x}{1+\\cos 2 x} \\\\ \\Rightarrow & \\int \\frac{d x}{2 \\cos ^{2} x} \\\\ \\Rightarrow & \\frac{1}{2} \\int \\sec ^{2} x d x \\\\ = & \\frac{1}{2} \\tan x+C\\end{aligned} ⇒⇒=∫1+cos2xdx∫2cos2xdx21∫sec2xdx21tanx+C",
+    "explanation": "\\begin{aligned} & \\int \\frac{d x}{1+\\cos 2 x} \\\\ \\Rightarrow & \\int \\frac{d x}{2 \\cos ^{2} x} \\\\ \\Rightarrow & \\frac{1}{2} \\int \\sec ^{2} x d x \\\\ = & \\frac{1}{2} \\tan x+C\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫dx1+cos⁡2x=? \\int \\frac{dx}{1 + \\cos{2} x} = ? ∫1+cos2xdx=?$",
-    "explanationLatex": "$∫dx1+cos⁡2x⇒∫dx2cos⁡2x⇒12∫sec⁡2xdx=12tan⁡x+C \\begin{aligned} & \\int \\frac{d x}{1+\\cos 2 x} \\\\ \\Rightarrow & \\int \\frac{d x}{2 \\cos ^{2} x} \\\\ \\Rightarrow & \\frac{1}{2} \\int \\sec ^{2} x d x \\\\ = & \\frac{1}{2} \\tan x+C\\end{aligned} ⇒⇒=∫1+cos2xdx∫2cos2xdx21∫sec2xdx21tanx+C$"
+    "questionLatex": "\\int \\frac{dx}{1 + \\cos{2} x} = ?",
+    "explanationLatex": "\\begin{aligned} & \\int \\frac{d x}{1+\\cos 2 x} \\\\ \\Rightarrow & \\int \\frac{d x}{2 \\cos ^{2} x} \\\\ \\Rightarrow & \\frac{1}{2} \\int \\sec ^{2} x d x \\\\ = & \\frac{1}{2} \\tan x+C\\end{aligned}"
   },
   {
     "id": 13,
-    "question": "∫x+25x−25dx=?\\int \\frac{x+25}{x-25} d x = ?∫x−25x+25dx=?",
+    "question": "\\int \\frac{x+25}{x-25} d x = ?",
     "options": {
       "a": "𝑥 + 50 ln ⁡ ∣ 𝑥 − 25 ∣ + 𝑐 x+50ln∣x−25∣+c",
       "b": "𝑥 − 50 ln ⁡ ∣ 𝑥 − 25 ∣ + 𝑐 x−50ln∣x−25∣+c",
@@ -249,19 +249,19 @@
       "d": "− 𝑥 + 50 ln ⁡ ∣ 𝑥 − 25 ∣ + 𝑐 −x+50ln∣x−25∣+c"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: ∫x+25x−25dx=∫x−25+50x−25dx=∫(x−25x−25+50x−25)dx=∫(1+50x−25)dx=∫dx+50∫1x−25dx=x+50ln⁡∣x−25∣+c \\begin{array}{l} \\int \\frac{x+25}{x-25} d x \\\\ =\\int \\frac{x-25+50}{x-25} d x=\\int\\left(\\frac{x-25}{x-25}+\\frac{50}{x-25}\\right) d x \\\\ =\\int\\left(1+\\frac{50}{x-25}\\right) d x=\\int d x+50 \\int \\frac{1}{x-25} d x \\\\ =x+50 \\ln |x-25|+c \\end{array} ∫x−25x+25dx=∫x−25x−25+50dx=∫(x−25x−25+x−2550)dx=∫(1+x−2550)dx=∫dx+50∫x−251dx=x+50ln∣x−25∣+c",
+    "explanation": "\\begin{array}{l} \\int \\frac{x+25}{x-25} d x \\\\ =\\int \\frac{x-25+50}{x-25} d x=\\int\\left(\\frac{x-25}{x-25}+\\frac{50}{x-25}\\right) d x \\\\ =\\int\\left(1+\\frac{50}{x-25}\\right) d x=\\int d x+50 \\int \\frac{1}{x-25} d x \\\\ =x+50 \\ln |x-25|+c \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫x+25x−25dx=?\\int \\frac{x+25}{x-25} d x = ?∫x−25x+25dx=?$",
-    "explanationLatex": "$Solve: ∫x+25x−25dx=∫x−25+50x−25dx=∫(x−25x−25+50x−25)dx=∫(1+50x−25)dx=∫dx+50∫1x−25dx=x+50ln⁡∣x−25∣+c \\begin{array}{l} \\int \\frac{x+25}{x-25} d x \\\\ =\\int \\frac{x-25+50}{x-25} d x=\\int\\left(\\frac{x-25}{x-25}+\\frac{50}{x-25}\\right) d x \\\\ =\\int\\left(1+\\frac{50}{x-25}\\right) d x=\\int d x+50 \\int \\frac{1}{x-25} d x \\\\ =x+50 \\ln |x-25|+c \\end{array} ∫x−25x+25dx=∫x−25x−25+50dx=∫(x−25x−25+x−2550)dx=∫(1+x−2550)dx=∫dx+50∫x−251dx=x+50ln∣x−25∣+c$"
+    "questionLatex": "\\int \\frac{x+25}{x-25} d x = ?",
+    "explanationLatex": "\\begin{array}{l} \\int \\frac{x+25}{x-25} d x \\\\ =\\int \\frac{x-25+50}{x-25} d x=\\int\\left(\\frac{x-25}{x-25}+\\frac{50}{x-25}\\right) d x \\\\ =\\int\\left(1+\\frac{50}{x-25}\\right) d x=\\int d x+50 \\int \\frac{1}{x-25} d x \\\\ =x+50 \\ln |x-25|+c \\end{array}"
   },
   {
     "id": 14,
-    "question": "∫16−9x2dx=?\\int \\sqrt{16-9 x^{2}} d x = ? ∫16−9x2dx=?",
+    "question": "\\int \\sqrt{16-9 x^{2}} d x = ?",
     "options": {
       "a": "𝑥 16 − 9 𝑥 2 2 − 8 3 sin ⁡ − 1 3 𝑥 4 + 𝑐 2 x 16−9x 2 − 3 8 sin −1 4 3x +c",
       "b": "𝑥 16 − 9 𝑥 2 2 + 8 3 sin ⁡ − 1 3 𝑥 4 + 𝑐 2 x 16−9x 2 + 3 8 sin −1 4 3x +c",
@@ -269,19 +269,19 @@
       "d": "𝑥 16 − 9 𝑥 2 2 + 4 3 sin ⁡ − 1 3 𝑥 4 + 𝑐 2 x 16−9x 2 + 3 4 sin −1 4 3x +c"
     },
     "correctAnswer": "b",
-    "explanation": "Solve: ∫16−9x2dx=13(4)2−(3x)2d(3x)=13[3x42−(3x)22+422sin⁡−13x4]+c=x16−9x22+83sin⁡−13x4+c (Ans.) \\begin{array}{l} \\int \\sqrt{16-9 x^{2}} d x \\\\ =\\frac{1}{3} \\sqrt{(4)^{2}-(3 x)^{2}} d(3 x) \\\\ =\\frac{1}{3}\\left[\\frac{3 x \\sqrt{4^{2}-(3 x)^{2}}}{2}+\\frac{4^{2}}{2} \\sin ^{-1} \\frac{3 x}{4}\\right]+c \\\\ =\\frac{x \\sqrt{16-9 x^{2}}}{2}+\\frac{8}{3} \\sin ^{-1} \\frac{3 x}{4}+c \\text { (Ans.) } \\end{array} ∫16−9x2dx=31(4)2−(3x)2d(3x)=31[23x42−(3x)2+242sin−143x]+c=2x16−9x2+38sin−143x+c (Ans.)",
+    "explanation": "\\begin{array}{l} \\int \\sqrt{16-9 x^{2}} d x \\\\ =\\frac{1}{3} \\sqrt{(4)^{2}-(3 x)^{2}} d(3 x) \\\\ =\\frac{1}{3}\\left[\\frac{3 x \\sqrt{4^{2}-(3 x)^{2}}}{2}+\\frac{4^{2}}{2} \\sin ^{-1} \\frac{3 x}{4}\\right]+c \\\\ =\\frac{x \\sqrt{16-9 x^{2}}}{2}+\\frac{8}{3} \\sin ^{-1} \\frac{3 x}{4}+c \\text { (Ans.) } \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫16−9x2dx=?\\int \\sqrt{16-9 x^{2}} d x = ? ∫16−9x2dx=?$",
-    "explanationLatex": "$Solve: ∫16−9x2dx=13(4)2−(3x)2d(3x)=13[3x42−(3x)22+422sin⁡−13x4]+c=x16−9x22+83sin⁡−13x4+c (Ans.) \\begin{array}{l} \\int \\sqrt{16-9 x^{2}} d x \\\\ =\\frac{1}{3} \\sqrt{(4)^{2}-(3 x)^{2}} d(3 x) \\\\ =\\frac{1}{3}\\left[\\frac{3 x \\sqrt{4^{2}-(3 x)^{2}}}{2}+\\frac{4^{2}}{2} \\sin ^{-1} \\frac{3 x}{4}\\right]+c \\\\ =\\frac{x \\sqrt{16-9 x^{2}}}{2}+\\frac{8}{3} \\sin ^{-1} \\frac{3 x}{4}+c \\text { (Ans.) } \\end{array} ∫16−9x2dx=31(4)2−(3x)2d(3x)=31[23x42−(3x)2+242sin−143x]+c=2x16−9x2+38sin−143x+c (Ans.)$"
+    "questionLatex": "\\int \\sqrt{16-9 x^{2}} d x = ?",
+    "explanationLatex": "\\begin{array}{l} \\int \\sqrt{16-9 x^{2}} d x \\\\ =\\frac{1}{3} \\sqrt{(4)^{2}-(3 x)^{2}} d(3 x) \\\\ =\\frac{1}{3}\\left[\\frac{3 x \\sqrt{4^{2}-(3 x)^{2}}}{2}+\\frac{4^{2}}{2} \\sin ^{-1} \\frac{3 x}{4}\\right]+c \\\\ =\\frac{x \\sqrt{16-9 x^{2}}}{2}+\\frac{8}{3} \\sin ^{-1} \\frac{3 x}{4}+c \\text { (Ans.) } \\end{array}"
   },
   {
     "id": 15,
-    "question": "∫1−cos⁡2x1+cos⁡2xdx=? \\int \\frac{1 - \\cos{2} x}{1 + \\cos{2} x} dx = ? ∫1+cos2x1−cos2xdx=?",
+    "question": "\\int \\frac{1 - \\cos{2} x}{1 + \\cos{2} x} dx = ?",
     "options": {
       "a": "ln ⁡ ∣ 1 + cos ⁡ 2 𝑥 ∣ + 𝐶 ln∣1+cos2x∣+C",
       "b": "𝑥 − tan ⁡ 𝑥 + 𝐶 x−tanx+C",
@@ -289,19 +289,19 @@
       "d": "tan ⁡ 𝑥 − 𝑥 + 𝐶 tanx−x+C"
     },
     "correctAnswer": "d",
-    "explanation": "∫1−cos⁡2x1+cos⁡2xdx⇒∫2sin⁡2x2cos⁡2xdx=∫sin⁡2xcos⁡2xdx=∫tan⁡2xdx=∫(sec⁡2x−1)dx⇒tan⁡x−x+c \\begin{array}{l}\\text { } \\int \\frac{1-\\cos 2 x}{1+\\cos 2 x} d x \\\\ \\Rightarrow \\int \\frac{2 \\sin ^{2} x}{2 \\cos ^{2} x} d x=\\int \\frac{\\sin ^{2} x}{\\cos ^{2} x} d x=\\int \\tan ^{2} x d x=\\int\\left(\\sec ^{2} x-1\\right) d x \\\\ \\Rightarrow \\tan x-x+c\\end{array} ∫1+cos2x1−cos2xdx⇒∫2cos2x2sin2xdx=∫cos2xsin2xdx=∫tan2xdx=∫(sec2x−1)dx⇒tanx−x+c",
+    "explanation": "\\begin{array}{l}\\text { } \\int \\frac{1-\\cos 2 x}{1+\\cos 2 x} d x \\\\ \\Rightarrow \\int \\frac{2 \\sin ^{2} x}{2 \\cos ^{2} x} d x=\\int \\frac{\\sin ^{2} x}{\\cos ^{2} x} d x=\\int \\tan ^{2} x d x=\\int\\left(\\sec ^{2} x-1\\right) d x \\\\ \\Rightarrow \\tan x-x+c\\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫1−cos⁡2x1+cos⁡2xdx=? \\int \\frac{1 - \\cos{2} x}{1 + \\cos{2} x} dx = ? ∫1+cos2x1−cos2xdx=?$",
-    "explanationLatex": "$∫1−cos⁡2x1+cos⁡2xdx⇒∫2sin⁡2x2cos⁡2xdx=∫sin⁡2xcos⁡2xdx=∫tan⁡2xdx=∫(sec⁡2x−1)dx⇒tan⁡x−x+c \\begin{array}{l}\\text { } \\int \\frac{1-\\cos 2 x}{1+\\cos 2 x} d x \\\\ \\Rightarrow \\int \\frac{2 \\sin ^{2} x}{2 \\cos ^{2} x} d x=\\int \\frac{\\sin ^{2} x}{\\cos ^{2} x} d x=\\int \\tan ^{2} x d x=\\int\\left(\\sec ^{2} x-1\\right) d x \\\\ \\Rightarrow \\tan x-x+c\\end{array} ∫1+cos2x1−cos2xdx⇒∫2cos2x2sin2xdx=∫cos2xsin2xdx=∫tan2xdx=∫(sec2x−1)dx⇒tanx−x+c$"
+    "questionLatex": "\\int \\frac{1 - \\cos{2} x}{1 + \\cos{2} x} dx = ?",
+    "explanationLatex": "\\begin{array}{l}\\text { } \\int \\frac{1-\\cos 2 x}{1+\\cos 2 x} d x \\\\ \\Rightarrow \\int \\frac{2 \\sin ^{2} x}{2 \\cos ^{2} x} d x=\\int \\frac{\\sin ^{2} x}{\\cos ^{2} x} d x=\\int \\tan ^{2} x d x=\\int\\left(\\sec ^{2} x-1\\right) d x \\\\ \\Rightarrow \\tan x-x+c\\end{array}"
   },
   {
     "id": 16,
-    "question": "∫0ln⁡2dx1+e−x \\int_{0}^{\\ln{2}} \\frac{dx}{1 + e^{- x}} ∫0ln21+e−xdx এর মান কত?",
+    "question": "\\int_{0}^{\\ln{2}} \\frac{dx}{1 + e^{- x}} এর মান কত?",
     "options": {
       "a": "ln ⁡ ( 2 3 ) ln( 3 2 )",
       "b": "ln ⁡ ( 4 3 ) ln( 3 4 )",
@@ -309,19 +309,19 @@
       "d": "ln ⁡ ( 3 2 ) ln( 2 3 )"
     },
     "correctAnswer": "d",
-    "explanation": "ধরি, ex+1=z e^{x}+1=z ex+1=z ⇒exdx=dz \\Rightarrow \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=\\mathrm{dz} ⇒exdx=dz ∫0ln⁡2dx1+e−x \\int_{0}^{\\ln 2} \\frac{\\mathrm{dx}}{1+\\mathrm{e}^{-\\mathrm{x}}} ∫0ln21+e−xdx =∫0ln⁡2exex+1dx=∫2z31zdz=[ln⁡z]23=ln⁡3−ln⁡2=ln⁡32 \\begin{array}{l} =\\int_{0}^{\\ln 2} \\frac{\\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+1} \\mathrm{dx}=\\int_{2 \\mathrm{z}}^{3} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\\\ =[\\ln \\mathrm{z}]_{2}^{3}=\\ln 3-\\ln ^{2}=\\ln \\frac{3}{2} \\end{array} =∫0ln2ex+1exdx=∫2z3z1dz=[lnz]23=ln3−ln2=ln23",
+    "explanation": "ধরি, \\Rightarrow \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=\\mathrm{dz} \\int_{0}^{\\ln 2} \\frac{\\mathrm{dx}}{1+\\mathrm{e}^{-\\mathrm{x}}} \\begin{array}{l} =\\int_{0}^{\\ln 2} \\frac{\\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+1} \\mathrm{dx}=\\int_{2 \\mathrm{z}}^{3} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\\\ =[\\ln \\mathrm{z}]_{2}^{3}=\\ln 3-\\ln ^{2}=\\ln \\frac{3}{2} \\end{array} =",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243654/gst-question-images/Math___________-Varsity-arc_q16.png",
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫0ln⁡2dx1+e−x \\int_{0}^{\\ln{2}} \\frac{dx}{1 + e^{- x}} ∫0ln21+e−xdx এর মান কত?$",
-    "explanationLatex": "$ধরি, ex+1=z e^{x}+1=z ex+1=z ⇒exdx=dz \\Rightarrow \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=\\mathrm{dz} ⇒exdx=dz ∫0ln⁡2dx1+e−x \\int_{0}^{\\ln 2} \\frac{\\mathrm{dx}}{1+\\mathrm{e}^{-\\mathrm{x}}} ∫0ln21+e−xdx =∫0ln⁡2exex+1dx=∫2z31zdz=[ln⁡z]23=ln⁡3−ln⁡2=ln⁡32 \\begin{array}{l} =\\int_{0}^{\\ln 2} \\frac{\\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+1} \\mathrm{dx}=\\int_{2 \\mathrm{z}}^{3} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\\\ =[\\ln \\mathrm{z}]_{2}^{3}=\\ln 3-\\ln ^{2}=\\ln \\frac{3}{2} \\end{array} =∫0ln2ex+1exdx=∫2z3z1dz=[lnz]23=ln3−ln2=ln23$"
+    "questionLatex": "\\int_{0}^{\\ln{2}} \\frac{dx}{1 + e^{- x}} এর মান কত?",
+    "explanationLatex": "ধরি, \\Rightarrow \\mathrm{e}^{\\mathrm{x}} \\mathrm{dx}=\\mathrm{dz} \\int_{0}^{\\ln 2} \\frac{\\mathrm{dx}}{1+\\mathrm{e}^{-\\mathrm{x}}} \\begin{array}{l} =\\int_{0}^{\\ln 2} \\frac{\\mathrm{e}^{\\mathrm{x}}}{\\mathrm{e}^{\\mathrm{x}}+1} \\mathrm{dx}=\\int_{2 \\mathrm{z}}^{3} \\frac{1}{\\mathrm{z}} \\mathrm{dz} \\\\ =[\\ln \\mathrm{z}]_{2}^{3}=\\ln 3-\\ln ^{2}=\\ln \\frac{3}{2} \\end{array} ="
   },
   {
     "id": 17,
-    "question": "∫01(xex)2=? \\int_{0}^{1} \\left ( x e^{x} \\right )^{2} = ? ∫01(xex)2=?",
+    "question": "\\int_{0}^{1} \\left ( x e^{x} \\right )^{2} = ?",
     "options": {
       "a": "1-2/e",
       "b": "1/2(e-1)",
@@ -329,19 +329,19 @@
       "d": "1/2(e+1)"
     },
     "correctAnswer": "b",
-    "explanation": "Let I=∫01xex2dx \\mathrm{I}=\\int_{0}^{1} \\mathrm{xe}^{\\mathrm{x}^{2}} \\mathrm{dx} I=∫01xex2dx Put x2=t⇒2xdx=dt \\mathrm{x}^{2}=\\mathrm{t} \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dt} x2=t⇒2xdx=dt As x→0,t→o \\mathrm{x} \\rightarrow 0, \\mathrm{t} \\rightarrow \\mathrm{o} x→0,t→o and as x→1,t→1 \\mathrm{x} \\rightarrow 1, \\mathrm{t} \\rightarrow 1 x→1,t→1, ∴I=12∫01etdt⇒12∫etdt=12et=F(t) \\begin{array}{l} \\therefore \\mathrm{I}=\\frac{1}{2} \\int_{0}^{1} \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt} \\\\ \\Rightarrow \\frac{1}{2} \\int \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt}=\\frac{1}{2} \\mathrm{e}^{\\mathrm{t}}=\\mathrm{F}(\\mathrm{t}) \\end{array} ∴I=21∫01etdt⇒21∫etdt=21et=F(t) By second fundamental theorem of calculus, we obtain I=F(1)−F(0)=12e−12e0=12(e−1) \\begin{array}{l} I=F(1)-F(0) \\\\ =\\frac{1}{2} e-\\frac{1}{2} e^{0} \\\\ =\\frac{1}{2}(e-1) \\end{array} I=F(1)−F(0)=21e−21e0=21(e−1)",
+    "explanation": "\\mathrm{I}=\\int_{0}^{1} \\mathrm{xe}^{\\mathrm{x}^{2}} \\mathrm{dx} I=\\mathrm{x}^{2}=\\mathrm{t} \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dt} x2=t\\mathrm{x} \\rightarrow 0, \\mathrm{t} \\rightarrow \\mathrm{o} x\\mathrm{x} \\rightarrow 1, \\mathrm{t} \\rightarrow 1 x\\begin{array}{l} \\therefore \\mathrm{I}=\\frac{1}{2} \\int_{0}^{1} \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt} \\\\ \\Rightarrow \\frac{1}{2} \\int \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt}=\\frac{1}{2} \\mathrm{e}^{\\mathrm{t}}=\\mathrm{F}(\\mathrm{t}) \\end{array} \\begin{array}{l} I=F(1)-F(0) \\\\ =\\frac{1}{2} e-\\frac{1}{2} e^{0} \\\\ =\\frac{1}{2}(e-1) \\end{array} I=F(1)−F(0)=21e−21e0=21(e−1)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫01(xex)2=? \\int_{0}^{1} \\left ( x e^{x} \\right )^{2} = ? ∫01(xex)2=?$",
-    "explanationLatex": "$Let I=∫01xex2dx \\mathrm{I}=\\int_{0}^{1} \\mathrm{xe}^{\\mathrm{x}^{2}} \\mathrm{dx} I=∫01xex2dx Put x2=t⇒2xdx=dt \\mathrm{x}^{2}=\\mathrm{t} \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dt} x2=t⇒2xdx=dt As x→0,t→o \\mathrm{x} \\rightarrow 0, \\mathrm{t} \\rightarrow \\mathrm{o} x→0,t→o and as x→1,t→1 \\mathrm{x} \\rightarrow 1, \\mathrm{t} \\rightarrow 1 x→1,t→1, ∴I=12∫01etdt⇒12∫etdt=12et=F(t) \\begin{array}{l} \\therefore \\mathrm{I}=\\frac{1}{2} \\int_{0}^{1} \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt} \\\\ \\Rightarrow \\frac{1}{2} \\int \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt}=\\frac{1}{2} \\mathrm{e}^{\\mathrm{t}}=\\mathrm{F}(\\mathrm{t}) \\end{array} ∴I=21∫01etdt⇒21∫etdt=21et=F(t) By second fundamental theorem of calculus, we obtain I=F(1)−F(0)=12e−12e0=12(e−1) \\begin{array}{l} I=F(1)-F(0) \\\\ =\\frac{1}{2} e-\\frac{1}{2} e^{0} \\\\ =\\frac{1}{2}(e-1) \\end{array} I=F(1)−F(0)=21e−21e0=21(e−1)$"
+    "questionLatex": "\\int_{0}^{1} \\left ( x e^{x} \\right )^{2} = ?",
+    "explanationLatex": "\\mathrm{I}=\\int_{0}^{1} \\mathrm{xe}^{\\mathrm{x}^{2}} \\mathrm{dx} I=\\mathrm{x}^{2}=\\mathrm{t} \\Rightarrow 2 \\mathrm{xdx}=\\mathrm{dt} x2=t\\mathrm{x} \\rightarrow 0, \\mathrm{t} \\rightarrow \\mathrm{o} x\\mathrm{x} \\rightarrow 1, \\mathrm{t} \\rightarrow 1 x\\begin{array}{l} \\therefore \\mathrm{I}=\\frac{1}{2} \\int_{0}^{1} \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt} \\\\ \\Rightarrow \\frac{1}{2} \\int \\mathrm{e}^{\\mathrm{t}} \\mathrm{dt}=\\frac{1}{2} \\mathrm{e}^{\\mathrm{t}}=\\mathrm{F}(\\mathrm{t}) \\end{array} \\begin{array}{l} I=F(1)-F(0) \\\\ =\\frac{1}{2} e-\\frac{1}{2} e^{0} \\\\ =\\frac{1}{2}(e-1) \\end{array} I=F(1)−F(0)=21e−21e0=21(e−1)"
   },
   {
     "id": 18,
-    "question": "∫x3a8−x8dx= \\int \\frac{x^{3}}{\\sqrt{a^{8}-x^{8}}} d x= ∫a8−x8x3dx= ?",
+    "question": "\\int \\frac{x^{3}}{\\sqrt{a^{8}-x^{8}}} d x=",
     "options": {
       "a": "1 4 sin ⁡ − 1 𝑥 𝑎 4 + 𝑐 4 1 sin −1 a 4 x +c",
       "b": "1 4 sin ⁡ − 1 𝑥 4 𝑎 4 + 𝑐 4 1 sin −1 a 4 x 4 +c",
@@ -349,19 +349,19 @@
       "d": "1 4 sin ⁡ − 1 𝑥 3 𝑎 4 + 𝑐 4 1 sin −1 a 4 x 3 +c"
     },
     "correctAnswer": "b",
-    "explanation": "Sol. সমাধান: (b); ∫x3dxa8−x8 \\int \\frac{x^{3} d x}{\\sqrt{a^{8}-x^{8}}} \\quad ∫a8−x8x3dx ধরি, x4=z⇒dz=4x3dx=14∫dza8−z2=14sin⁡−1za4+c=14sin⁡−1x4a4+c x^{4}=z \\Rightarrow d z=4 x^{3} d x=\\frac{1}{4} \\int \\frac{d z}{\\sqrt{a^{8}-z^{2}}}=\\frac{1}{4} \\sin ^{-1} \\frac{z}{a^{4}}+c=\\frac{1}{4} \\sin ^{-1} \\frac{x^{4}}{a^{4}}+c x4=z⇒dz=4x3dx=41∫a8−z2dz=41sin−1a4z+c=41sin−1a4x4+c",
+    "explanation": "Sol. সমাধান: (b); \\int \\frac{x^{3} d x}{\\sqrt{a^{8}-x^{8}}} \\quad ধরি, x4=z\\Rightarrow d z=4 x^{3} d x=\\frac{1}{4} \\int \\frac{d z}{\\sqrt{a^{8}-z^{2}}}=\\frac{1}{4} \\sin ^{-1} \\frac{z}{a^{4}}+c=\\frac{1}{4} \\sin ^{-1} \\frac{x^{4}}{a^{4}}+c x4=z",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫x3a8−x8dx= \\int \\frac{x^{3}}{\\sqrt{a^{8}-x^{8}}} d x= ∫a8−x8x3dx= ?$",
-    "explanationLatex": "$Sol. সমাধান: (b); ∫x3dxa8−x8 \\int \\frac{x^{3} d x}{\\sqrt{a^{8}-x^{8}}} \\quad ∫a8−x8x3dx ধরি, x4=z⇒dz=4x3dx=14∫dza8−z2=14sin⁡−1za4+c=14sin⁡−1x4a4+c x^{4}=z \\Rightarrow d z=4 x^{3} d x=\\frac{1}{4} \\int \\frac{d z}{\\sqrt{a^{8}-z^{2}}}=\\frac{1}{4} \\sin ^{-1} \\frac{z}{a^{4}}+c=\\frac{1}{4} \\sin ^{-1} \\frac{x^{4}}{a^{4}}+c x4=z⇒dz=4x3dx=41∫a8−z2dz=41sin−1a4z+c=41sin−1a4x4+c$"
+    "questionLatex": "\\int \\frac{x^{3}}{\\sqrt{a^{8}-x^{8}}} d x=",
+    "explanationLatex": "Sol. সমাধান: (b); \\int \\frac{x^{3} d x}{\\sqrt{a^{8}-x^{8}}} \\quad ধরি, x4=z\\Rightarrow d z=4 x^{3} d x=\\frac{1}{4} \\int \\frac{d z}{\\sqrt{a^{8}-z^{2}}}=\\frac{1}{4} \\sin ^{-1} \\frac{z}{a^{4}}+c=\\frac{1}{4} \\sin ^{-1} \\frac{x^{4}}{a^{4}}+c x4=z"
   },
   {
     "id": 19,
-    "question": "∫cos⁡x2dx=? \\int \\cos \\frac{x}{2} d x=? ∫cos2xdx=?",
+    "question": "\\int \\cos \\frac{x}{2} d x=?",
     "options": {
       "a": "2 cos ⁡ 𝑥 2 2cos 2 x",
       "b": "2 sin ⁡ 𝑥 2 2sin 2 x",
@@ -369,19 +369,19 @@
       "d": "2 cosec ⁡ 𝑥 2 2cosec 2 x"
     },
     "correctAnswer": "b",
-    "explanation": "∫cos⁡x2dx=sin⁡x212=2sin⁡x2 \\int \\cos \\frac{x}{2} d x=\\frac{\\sin \\frac{x}{2}}{\\frac{1}{2}}=2 \\sin \\frac{x}{2} ∫cos2xdx=21sin2x=2sin2x",
+    "explanation": "\\int \\cos \\frac{x}{2} d x=\\frac{\\sin \\frac{x}{2}}{\\frac{1}{2}}=2 \\sin \\frac{x}{2}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫cos⁡x2dx=? \\int \\cos \\frac{x}{2} d x=? ∫cos2xdx=?$",
-    "explanationLatex": "$∫cos⁡x2dx=sin⁡x212=2sin⁡x2 \\int \\cos \\frac{x}{2} d x=\\frac{\\sin \\frac{x}{2}}{\\frac{1}{2}}=2 \\sin \\frac{x}{2} ∫cos2xdx=21sin2x=2sin2x$"
+    "questionLatex": "\\int \\cos \\frac{x}{2} d x=?",
+    "explanationLatex": "\\int \\cos \\frac{x}{2} d x=\\frac{\\sin \\frac{x}{2}}{\\frac{1}{2}}=2 \\sin \\frac{x}{2}"
   },
   {
     "id": 20,
-    "question": "∫cos⁡4xdx=? \\int \\cos ^{4} x d x = ?∫cos4xdx=?",
+    "question": "\\int \\cos ^{4} x d x = ?",
     "options": {
       "a": "1 4 ( 3 2 𝑥 + sin ⁡ 2 𝑥 − 1 8 sin ⁡ 4 𝑥 ) + 𝑐 4 1 ( 2 3 x+sin2x− 8 1 sin4x)+c",
       "b": "1 4 ( 3 2 𝑥 − sin ⁡ 2 𝑥 − 1 8 sin ⁡ 4 𝑥 ) + 𝑐 4 1 ( 2 3 x−sin2x− 8 1 sin4x)+c",
@@ -389,15 +389,15 @@
       "d": "1 4 ( 3 2 𝑥 − sin ⁡ 2 𝑥 + 1 8 sin ⁡ 4 𝑥 ) + 𝑐 4 1 ( 2 3 x−sin2x+ 8 1 sin4x)+c"
     },
     "correctAnswer": "c",
-    "explanation": "Solve: cos⁡4xdx=(cos⁡2x)2={12(1+cos⁡2x)}2=14{1+2cos⁡2x+cos⁡22x˙}=14{1+2cos⁡2x+12(1+cos⁡4x)}=14[1+2cos⁡2x+12+12cos⁡4x]=14[32+2cos⁡2x+12cos⁡4x]∴cos⁡4xdx=∫14(32+2cos⁡2x+12cos⁡4x)dx=14(32x+2⋅12sin⁡2x+12⋅14sin⁡4x)+c=14(32x+sin⁡2x+18sin⁡4x)+c (Ans.) \\begin{aligned} & \\cos ^{4} x d x=\\left(\\cos ^{2} x\\right)^{2}=\\left\\{\\frac{1}{2}(1+\\cos 2 x)\\right\\}^{2} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\cos ^{2} 2 \\dot{x}\\right\\} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\frac{1}{2}(1+\\cos 4 x)\\right\\} \\\\ & =\\frac{1}{4}\\left[1+2 \\cos 2 x+\\frac{1}{2}+\\frac{1}{2} \\cos 4 x\\right] \\\\ & =\\frac{1}{4}\\left[\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right] \\\\ \\therefore \\quad & \\cos { }^{4} x d x \\\\ & =\\int \\frac{1}{4}\\left(\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right) d x \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+2 \\cdot \\frac{1}{2} \\sin 2 x+\\frac{1}{2} \\cdot \\frac{1}{4} \\sin 4 x\\right)+c \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+\\sin 2 x+\\frac{1}{8} \\sin 4 x\\right)+c \\text { (Ans.) } \\end{aligned} ∴cos4xdx=(cos2x)2={21(1+cos2x)}2=41{1+2cos2x+cos22x˙}=41{1+2cos2x+21(1+cos4x)}=41[1+2cos2x+21+21cos4x]=41[23+2cos2x+21cos4x]cos4xdx=∫41(23+2cos2x+21cos4x)dx=41(23x+2⋅21sin2x+21⋅41sin4x)+c=41(23x+sin2x+81sin4x)+c (Ans.)",
+    "explanation": "\\begin{aligned} & \\cos ^{4} x d x=\\left(\\cos ^{2} x\\right)^{2}=\\left\\{\\frac{1}{2}(1+\\cos 2 x)\\right\\}^{2} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\cos ^{2} 2 \\dot{x}\\right\\} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\frac{1}{2}(1+\\cos 4 x)\\right\\} \\\\ & =\\frac{1}{4}\\left[1+2 \\cos 2 x+\\frac{1}{2}+\\frac{1}{2} \\cos 4 x\\right] \\\\ & =\\frac{1}{4}\\left[\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right] \\\\ \\therefore \\quad & \\cos { }^{4} x d x \\\\ & =\\int \\frac{1}{4}\\left(\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right) d x \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+2 \\cdot \\frac{1}{2} \\sin 2 x+\\frac{1}{2} \\cdot \\frac{1}{4} \\sin 4 x\\right)+c \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+\\sin 2 x+\\frac{1}{8} \\sin 4 x\\right)+c \\text { (Ans.) } \\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫cos⁡4xdx=? \\int \\cos ^{4} x d x = ?∫cos4xdx=?$",
-    "explanationLatex": "$Solve: cos⁡4xdx=(cos⁡2x)2={12(1+cos⁡2x)}2=14{1+2cos⁡2x+cos⁡22x˙}=14{1+2cos⁡2x+12(1+cos⁡4x)}=14[1+2cos⁡2x+12+12cos⁡4x]=14[32+2cos⁡2x+12cos⁡4x]∴cos⁡4xdx=∫14(32+2cos⁡2x+12cos⁡4x)dx=14(32x+2⋅12sin⁡2x+12⋅14sin⁡4x)+c=14(32x+sin⁡2x+18sin⁡4x)+c (Ans.) \\begin{aligned} & \\cos ^{4} x d x=\\left(\\cos ^{2} x\\right)^{2}=\\left\\{\\frac{1}{2}(1+\\cos 2 x)\\right\\}^{2} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\cos ^{2} 2 \\dot{x}\\right\\} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\frac{1}{2}(1+\\cos 4 x)\\right\\} \\\\ & =\\frac{1}{4}\\left[1+2 \\cos 2 x+\\frac{1}{2}+\\frac{1}{2} \\cos 4 x\\right] \\\\ & =\\frac{1}{4}\\left[\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right] \\\\ \\therefore \\quad & \\cos { }^{4} x d x \\\\ & =\\int \\frac{1}{4}\\left(\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right) d x \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+2 \\cdot \\frac{1}{2} \\sin 2 x+\\frac{1}{2} \\cdot \\frac{1}{4} \\sin 4 x\\right)+c \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+\\sin 2 x+\\frac{1}{8} \\sin 4 x\\right)+c \\text { (Ans.) } \\end{aligned} ∴cos4xdx=(cos2x)2={21(1+cos2x)}2=41{1+2cos2x+cos22x˙}=41{1+2cos2x+21(1+cos4x)}=41[1+2cos2x+21+21cos4x]=41[23+2cos2x+21cos4x]cos4xdx=∫41(23+2cos2x+21cos4x)dx=41(23x+2⋅21sin2x+21⋅41sin4x)+c=41(23x+sin2x+81sin4x)+c (Ans.)$"
+    "questionLatex": "\\int \\cos ^{4} x d x = ?",
+    "explanationLatex": "\\begin{aligned} & \\cos ^{4} x d x=\\left(\\cos ^{2} x\\right)^{2}=\\left\\{\\frac{1}{2}(1+\\cos 2 x)\\right\\}^{2} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\cos ^{2} 2 \\dot{x}\\right\\} \\\\ & =\\frac{1}{4}\\left\\{1+2 \\cos 2 x+\\frac{1}{2}(1+\\cos 4 x)\\right\\} \\\\ & =\\frac{1}{4}\\left[1+2 \\cos 2 x+\\frac{1}{2}+\\frac{1}{2} \\cos 4 x\\right] \\\\ & =\\frac{1}{4}\\left[\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right] \\\\ \\therefore \\quad & \\cos { }^{4} x d x \\\\ & =\\int \\frac{1}{4}\\left(\\frac{3}{2}+2 \\cos 2 x+\\frac{1}{2} \\cos 4 x\\right) d x \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+2 \\cdot \\frac{1}{2} \\sin 2 x+\\frac{1}{2} \\cdot \\frac{1}{4} \\sin 4 x\\right)+c \\\\ & =\\frac{1}{4}\\left(\\frac{3}{2} x+\\sin 2 x+\\frac{1}{8} \\sin 4 x\\right)+c \\text { (Ans.) } \\end{aligned}"
   },
   {
     "id": 21,
@@ -409,7 +409,7 @@
       "d": "-2"
     },
     "correctAnswer": "c",
-    "explanation": "∫abydx=∫0πsin⁡xdx \\int_{a}^{b} y d x=\\int_{0}^{\\pi} \\sin x d x ∫abydx=∫0πsinxdx =[−cos⁡x]0π=−cos⁡π+cos⁡0=1+1=2 বর্গ একक =[-\\cos x]_{0}^{\\pi}=-\\cos \\pi+\\cos 0=1+1=2 \\text { বর্গ একक } =[−cosx]0π=−cosπ+cos0=1+1=2 বর্গ একक",
+    "explanation": "\\int_{a}^{b} y d x=\\int_{0}^{\\pi} \\sin x d x বর্গ একक =[-\\cos x]_{0}^{\\pi}=-\\cos \\pi+\\cos 0=1+1=2 \\text { বর্গ একक } =[−cosx]0π=−cosπ+cos0=1+1=2 বর্গ একक",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -417,7 +417,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$y=sinx বক্ররেখা xঅক্ষ x=0 এবং x=\\\\pi  রেখা দ্বারা সীমাবদ্ধ ক্ষেত্রের ক্ষেত্রফল কত বর্গ একক?$",
-    "explanationLatex": "$∫abydx=∫0\\\\pi sin⁡xdx \\int_{a}^{b} y d x=\\int_{0}^{\\pi} \\sin x d x ∫abydx=∫0\\\\pi sinxdx =[−cos⁡x]0\\\\pi =−cos⁡\\\\pi +cos⁡0=1+1=2 বর্গ একक =[-\\cos x]_{0}^{\\pi}=-\\cos \\pi+\\cos 0=1+1=2 \\text { বর্গ একक } =[−cosx]0\\\\pi =−cos\\\\pi +cos0=1+1=2 বর্গ একक$"
+    "explanationLatex": "\\pi sin\\int_{a}^{b} y d x=\\int_{0}^{\\pi} \\sin x d x \\pi sinxdx =[−cos\\pi =−cos⁡\\\\pi +cosবর্গ একक =[-\\cos x]_{0}^{\\pi}=-\\cos \\pi+\\cos 0=1+1=2 \\text { বর্গ একक } =[−cosx]0\\\\pi =−cos\\\\pi +cos0=1+1=2 বর্গ একक"
   },
   {
     "id": 22,
@@ -436,12 +436,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫01dx1+x2=tan-1x01=tan-11-tan-10=\\\\pi 4-0=\\\\pi 4$",
-    "explanationLatex": "$সঠিক উত্তর: (b) \\frac{pi}{4}।$"
+    "questionLatex": "\\pi 4-0=\\\\pi 4",
+    "explanationLatex": "সঠিক উত্তর: (b) \\frac{pi}{4}।"
   },
   {
     "id": 23,
-    "question": "∫dxcos⁡2x1+tan⁡x+c \\int \\frac{dx}{\\cos^{2}{x} \\sqrt{1 + \\tan{x}}} + c ∫cos2x1+tanxdx+c এর মান কোনটি?",
+    "question": "\\int \\frac{dx}{\\cos^{2}{x} \\sqrt{1 + \\tan{x}}} + c এর মান কোনটি?",
     "options": {
       "a": "2 1 + tan ⁡ 𝑥 ) + 𝑐 2 1+tanx )+c",
       "b": "1 + tan ⁡ 𝑥 ) + 𝑐 1+tanx )+c",
@@ -449,15 +449,15 @@
       "d": "কোনোটিই নয়"
     },
     "correctAnswer": "a",
-    "explanation": "∫dxcos⁡2x1+tan⁡x=∫sec⁡−x1+tan⁡xdx=21+tan⁡x+c−f′(x)f(x)=2ρ(x) \\begin{aligned} \\int \\frac{d x}{\\cos ^{2} x \\sqrt{1+\\tan x}} \\\\ =\\int \\frac{\\sec ^{-} x}{\\sqrt{1+\\tan x}} d x \\\\ =2 \\sqrt{1+\\tan x}+c \\\\ -\\frac{f^{\\prime}(x)}{\\sqrt{f(x)}}=2 \\sqrt{\\rho(x)}\\end{aligned} ∫cos2x1+tanxdx=∫1+tanxsec−xdx=21+tanx+c−f(x)f′(x)=2ρ(x)",
+    "explanation": "\\begin{aligned} \\int \\frac{d x}{\\cos ^{2} x \\sqrt{1+\\tan x}} \\\\ =\\int \\frac{\\sec ^{-} x}{\\sqrt{1+\\tan x}} d x \\\\ =2 \\sqrt{1+\\tan x}+c \\\\ -\\frac{f^{\\prime}(x)}{\\sqrt{f(x)}}=2 \\sqrt{\\rho(x)}\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫dxcos⁡2x1+tan⁡x+c \\int \\frac{dx}{\\cos^{2}{x} \\sqrt{1 + \\tan{x}}} + c ∫cos2x1+tanxdx+c এর মান কোনটি?$",
-    "explanationLatex": "$∫dxcos⁡2x1+tan⁡x=∫sec⁡−x1+tan⁡xdx=21+tan⁡x+c−f′(x)f(x)=2ρ(x) \\begin{aligned} \\int \\frac{d x}{\\cos ^{2} x \\sqrt{1+\\tan x}} \\\\ =\\int \\frac{\\sec ^{-} x}{\\sqrt{1+\\tan x}} d x \\\\ =2 \\sqrt{1+\\tan x}+c \\\\ -\\frac{f^{\\prime}(x)}{\\sqrt{f(x)}}=2 \\sqrt{\\rho(x)}\\end{aligned} ∫cos2x1+tanxdx=∫1+tanxsec−xdx=21+tanx+c−f(x)f′(x)=2ρ(x)$"
+    "questionLatex": "\\int \\frac{dx}{\\cos^{2}{x} \\sqrt{1 + \\tan{x}}} + c এর মান কোনটি?",
+    "explanationLatex": "\\begin{aligned} \\int \\frac{d x}{\\cos ^{2} x \\sqrt{1+\\tan x}} \\\\ =\\int \\frac{\\sec ^{-} x}{\\sqrt{1+\\tan x}} d x \\\\ =2 \\sqrt{1+\\tan x}+c \\\\ -\\frac{f^{\\prime}(x)}{\\sqrt{f(x)}}=2 \\sqrt{\\rho(x)}\\end{aligned}"
   },
   {
     "id": 24,
@@ -476,12 +476,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫dxxx2−1=f(x)=c হলে, f(x) সমান-$",
-    "explanationLatex": "$∫dxxx2-1=sec-1x+c⇒f(x)=sec-1x$"
+    "questionLatex": "∫dxxx2−1=f(x)=c হলে, f(x) সমান-",
+    "explanationLatex": "∫dxxx2-1=sec-1x+c⇒f(x)=sec-1x"
   },
   {
     "id": 25,
-    "question": "∫02∣x−1∣dx=?\\int_{0}^{2} \\left \\lvert x - 1 \\right \\rvert dx = ?∫02∣x−1∣dx=?",
+    "question": "\\int_{0}^{2} \\left \\lvert x - 1 \\right \\rvert dx = ?",
     "options": {
       "a": "0",
       "b": "1",
@@ -496,12 +496,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫02∣x−1∣dx=?\\int_{0}^{2} \\left \\lvert x - 1 \\right \\rvert dx = ?∫02∣x−1∣dx=?$",
+    "questionLatex": "\\int_{0}^{2} \\left \\lvert x - 1 \\right \\rvert dx = ?",
     "explanationLatex": "$∫02|x-1|dx = - ∫01(x-1).dx + ∫12(x-1)dx = 1$"
   },
   {
     "id": 26,
-    "question": "∫e5x+e3xex+e−xdx \\int \\frac{e^{5 x} + e^{3 x}}{e^{x} + e^{- x}} dx ∫ex+e−xe5x+e3xdx এর মান কোনটি?",
+    "question": "\\int \\frac{e^{5 x} + e^{3 x}}{e^{x} + e^{- x}} dx এর মান কোনটি?",
     "options": {
       "a": "4 𝑒 4 𝑥 4e 4x",
       "b": "1 4 𝑒 4 𝑥 + 𝑐 4 1 e 4x +c",
@@ -509,15 +509,15 @@
       "d": "1 5 𝑒 5 𝑥 + 𝑐 5 1 e 5x +c"
     },
     "correctAnswer": "b",
-    "explanation": "∫e5x+e3xex+e−xdx=∫e4x(exx+e−x)(ex+e−x)dx=∫e4xdx=14e4x+c \\begin{aligned} & \\int \\frac{e^{5 x}+e^{3 x}}{e^{x}+e^{-x}} d x \\\\ = & \\int \\frac{e^{4 x}\\left(e^{x x}+e^{-x}\\right)}{\\left(e^{x}+e^{-x}\\right)} d x \\\\ = & \\int e^{4 x} d x \\\\ = & \\frac{1}{4} e^{4 x}+c\\end{aligned} ===∫ex+e−xe5x+e3xdx∫(ex+e−x)e4x(exx+e−x)dx∫e4xdx41e4x+c",
+    "explanation": "\\begin{aligned} & \\int \\frac{e^{5 x}+e^{3 x}}{e^{x}+e^{-x}} d x \\\\ = & \\int \\frac{e^{4 x}\\left(e^{x x}+e^{-x}\\right)}{\\left(e^{x}+e^{-x}\\right)} d x \\\\ = & \\int e^{4 x} d x \\\\ = & \\frac{1}{4} e^{4 x}+c\\end{aligned} ===",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫e5x+e3xex+e−xdx \\int \\frac{e^{5 x} + e^{3 x}}{e^{x} + e^{- x}} dx ∫ex+e−xe5x+e3xdx এর মান কোনটি?$",
-    "explanationLatex": "$∫e5x+e3xex+e−xdx=∫e4x(exx+e−x)(ex+e−x)dx=∫e4xdx=14e4x+c \\begin{aligned} & \\int \\frac{e^{5 x}+e^{3 x}}{e^{x}+e^{-x}} d x \\\\ = & \\int \\frac{e^{4 x}\\left(e^{x x}+e^{-x}\\right)}{\\left(e^{x}+e^{-x}\\right)} d x \\\\ = & \\int e^{4 x} d x \\\\ = & \\frac{1}{4} e^{4 x}+c\\end{aligned} ===∫ex+e−xe5x+e3xdx∫(ex+e−x)e4x(exx+e−x)dx∫e4xdx41e4x+c$"
+    "questionLatex": "\\int \\frac{e^{5 x} + e^{3 x}}{e^{x} + e^{- x}} dx এর মান কোনটি?",
+    "explanationLatex": "\\begin{aligned} & \\int \\frac{e^{5 x}+e^{3 x}}{e^{x}+e^{-x}} d x \\\\ = & \\int \\frac{e^{4 x}\\left(e^{x x}+e^{-x}\\right)}{\\left(e^{x}+e^{-x}\\right)} d x \\\\ = & \\int e^{4 x} d x \\\\ = & \\frac{1}{4} e^{4 x}+c\\end{aligned} ==="
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "35/3 বর্গ একক"
     },
     "correctAnswer": "a",
-    "explanation": "y=x2x=1,x=3 \\begin{array}{l} y=x^{2} \\\\ x=1, x=3 \\end{array} y=x2x=1,x=3 ∫13x2dx=[x33]13=273−13=263 \\begin{aligned} & \\int_{1}^{3} x^{2} d x \\\\ = & {\\left[\\frac{x^{3}}{3}\\right]_{1}^{3} } \\\\ = & \\frac{27}{3}-\\frac{1}{3} \\\\ = & \\frac{26}{3} \\end{aligned} ===∫13x2dx[3x3]13327−31326",
+    "explanation": "\\begin{array}{l} y=x^{2} \\\\ x=1, x=3 \\end{array} y=x2x=1,x=3 \\begin{aligned} & \\int_{1}^{3} x^{2} d x \\\\ = & {\\left[\\frac{x^{3}}{3}\\right]_{1}^{3} } \\\\ = & \\frac{27}{3}-\\frac{1}{3} \\\\ = & \\frac{26}{3} \\end{aligned} ===",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,11 +537,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$y=x2, x=1, x=3 এবং x অক্ষ দ্বারা সীমাবদ্ধ ক্ষেত্রের ক্ষেত্রফল-$",
-    "explanationLatex": "$y=x2x=1,x=3 \\begin{array}{l} y=x^{2} \\\\ x=1, x=3 \\end{array} y=x2x=1,x=3 ∫13x2dx=[x33]13=273−13=263 \\begin{aligned} & \\int_{1}^{3} x^{2} d x \\\\ = & {\\left[\\frac{x^{3}}{3}\\right]_{1}^{3} } \\\\ = & \\frac{27}{3}-\\frac{1}{3} \\\\ = & \\frac{26}{3} \\end{aligned} ===∫13x2dx[3x3]13327−31326$"
+    "explanationLatex": "\\begin{array}{l} y=x^{2} \\\\ x=1, x=3 \\end{array} y=x2x=1,x=3 \\begin{aligned} & \\int_{1}^{3} x^{2} d x \\\\ = & {\\left[\\frac{x^{3}}{3}\\right]_{1}^{3} } \\\\ = & \\frac{27}{3}-\\frac{1}{3} \\\\ = & \\frac{26}{3} \\end{aligned} ==="
   },
   {
     "id": 28,
-    "question": "∫01x3⋅1+3x4dx\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} d x ∫01x3⋅1+3x4dx",
+    "question": "\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} d x",
     "options": {
       "a": "1 14 14 1",
       "b": "7 18 18 7",
@@ -549,19 +549,19 @@
       "d": "1 14 14 1"
     },
     "correctAnswer": "b",
-    "explanation": "Solve: Let, I =∫01x3⋅1+3x4dx =\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} dx =∫01x3⋅1+3x4dx এবং z=1+3x4∴dz=12x3dx z=1+3 x^{4} \\therefore d z=12 x^{3} d x z=1+3x4∴dz=12x3dxLimit: x=0 x=0 x=0 হলে z=1 z=1 z=1 এবং x=1 x=1 x=1 হলে z=4 z=4 z=4 ∴I=112∫14zdz=112[z3/23/2]14=112×23(43/2−1)=118(8−1)=718 \\begin{aligned} \\therefore \\mathrm{I} & =\\frac{1}{12} \\int_{1}^{4} \\sqrt{z} d z=\\frac{1}{12}\\left[\\frac{z^{3 / 2}}{3 / 2}\\right]_{1}^{4} \\\\ & =\\frac{1}{12} \\times \\frac{2}{3}\\left(4^{3 / 2}-1\\right)=\\frac{1}{18}(8-1)=\\frac{7}{18} \\end{aligned} ∴I=121∫14zdz=121[3/2z3/2]14=121×32(43/2−1)=181(8−1)=187",
+    "explanation": "\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} dx =এবং \\therefore d z=12 x^{3} d x z=1+3x4হলে এবং হলে \\begin{aligned} \\therefore \\mathrm{I} & =\\frac{1}{12} \\int_{1}^{4} \\sqrt{z} d z=\\frac{1}{12}\\left[\\frac{z^{3 / 2}}{3 / 2}\\right]_{1}^{4} \\\\ & =\\frac{1}{12} \\times \\frac{2}{3}\\left(4^{3 / 2}-1\\right)=\\frac{1}{18}(8-1)=\\frac{7}{18} \\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫01x3⋅1+3x4dx\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} d x ∫01x3⋅1+3x4dx$",
-    "explanationLatex": "$Solve: Let, I =∫01x3⋅1+3x4dx =\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} dx =∫01x3⋅1+3x4dx এবং z=1+3x4∴dz=12x3dx z=1+3 x^{4} \\therefore d z=12 x^{3} d x z=1+3x4∴dz=12x3dxLimit: x=0 x=0 x=0 হলে z=1 z=1 z=1 এবং x=1 x=1 x=1 হলে z=4 z=4 z=4 ∴I=112∫14zdz=112[\\frac{z3}{23}/2]14=112\\\\times 23(\\frac{43}{2}−1)=118(8−1)=718 \\begin{aligned} \\therefore \\mathrm{I} & =\\frac{1}{12} \\int_{1}^{4} \\sqrt{z} d z=\\frac{1}{12}\\left[\\frac{z^{\\frac{3}{2}}}{\\frac{3}{2}}\\right]_{1}^{4} \\\\ & =\\frac{1}{12} \\times \\frac{2}{3}\\left(4^{\\frac{3}{2}}-1\\right)=\\frac{1}{18}(8-1)=\\frac{7}{18} \\end{aligned} ∴I=121∫14zdz=121[\\frac{3}{2z3}/2]14=121\\\\times 32(\\frac{43}{2}−1)=181(8−1)=187$"
+    "questionLatex": "\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} d x",
+    "explanationLatex": "\\int_{0}^{1} x^{3} \\cdot \\sqrt{1+3 x^{4}} dx =এবং \\therefore d z=12 x^{3} d x z=1+3x4হলে এবং হলে \\frac{z3}{23}/2]14=112\\\\times 23(\\frac{43}{2}−1)=118(8−1)=718 \\begin{aligned} \\therefore \\mathrm{I} & =\\frac{1}{12} \\int_{1}^{4} \\sqrt{z} d z=\\frac{1}{12}\\left[\\frac{z^{\\frac{3}{2}}}{\\frac{3}{2}}\\right]_{1}^{4} \\\\ & =\\frac{1}{12} \\times \\frac{2}{3}\\left(4^{\\frac{3}{2}}-1\\right)=\\frac{1}{18}(8-1)=\\frac{7}{18} \\end{aligned} \\frac{3}{2z3}/2]14=121\\\\times 32(\\frac{43}{2}−1)=181(8−1)=187"
   },
   {
     "id": 29,
-    "question": "∫0πcos⁡x+sin⁡x1+sin⁡2xdx \\int_{0}^{π} \\frac{\\cos{x} + \\sin{x}}{\\sqrt{1 + \\sin{2} x}} dx ∫0π1+sin2xcosx+sinxdx এর মান কোনটি?",
+    "question": "\\int_{0}^{π} \\frac{\\cos{x} + \\sin{x}}{\\sqrt{1 + \\sin{2} x}} dx এর মান কোনটি?",
     "options": {
       "a": "π",
       "b": "0",
@@ -569,19 +569,19 @@
       "d": "- 1"
     },
     "correctAnswer": "a",
-    "explanation": "∫0πsin⁡(x)+cos⁡(x)sin⁡(2x)+1dx \\int_{0}^{\\pi} \\frac{\\sin (x)+\\cos (x)}{\\sqrt{\\sin (2 x)+1}} d x ∫0πsin(2x)+1sin(x)+cos(x)dx =∫0πtan⁡xsec⁡x+1sec⁡x2cos⁡(x)sin⁡x+1dx =\\int_{0}^{\\pi} \\frac{\\frac{\\tan x}{\\sec x}+\\frac{1}{\\sec x}}{\\sqrt{2 \\cos (x) \\sin x+1}} d x =∫0π2cos(x)sinx+1secxtanx+secx1dx =∫0πsec⁡2(x)1tan⁡2x+1dx =\\int_{0}^{\\pi} \\sec ^{2}(x) \\frac{1}{\\tan ^{2} x+1} d x =∫0πsec2(x)tan2x+11dx ধরি, u=tan⁡x u=\\tan x u=tanx du=sec⁡2xdx d u=\\sec ^{2} x d x du=sec2xdx =∫0π1u2+1du=tan⁡−1u+e=tan⁡−1(tan⁡x)+c=[x+c]0π=π \\begin{array}{l}=\\int_{0}^{\\pi} \\frac{1}{u^{2}+1} d u \\\\ =\\tan ^{-1} u+e \\\\ =\\tan ^{-1}\\left(\\tan x\\right)+c \\\\ =[x+c]_{0}^{\\pi} \\\\ =\\pi\\end{array} =∫0πu2+11du=tan−1u+e=tan−1(tanx)+c=[x+c]0π=π",
+    "explanation": "\\int_{0}^{\\pi} \\frac{\\sin (x)+\\cos (x)}{\\sqrt{\\sin (2 x)+1}} d x \\int_{0}^{\\pi} \\frac{\\frac{\\tan x}{\\sec x}+\\frac{1}{\\sec x}}{\\sqrt{2 \\cos (x) \\sin x+1}} d x =\\int_{0}^{\\pi} \\sec ^{2}(x) \\frac{1}{\\tan ^{2} x+1} d x =ধরি, u=tan\\tan x u=tanx du=sec\\sec ^{2} x d x du=sec2xdx =\\begin{array}{l}=\\int_{0}^{\\pi} \\frac{1}{u^{2}+1} d u \\\\ =\\tan ^{-1} u+e \\\\ =\\tan ^{-1}\\left(\\tan x\\right)+c \\\\ =[x+c]_{0}^{\\pi} \\\\ =\\pi\\end{array} =",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫0\\\\pi cos⁡x+sin⁡x1+sin⁡2xdx \\int_{0}^{\\\\pi } \\frac{\\cos{x} + \\sin{x}}{\\sqrt{1 + \\sin{2} x}} dx ∫0\\\\pi 1+sin2xcosx+sinxdx এর মান কোনটি?$",
-    "explanationLatex": "$∫0\\\\pi sin⁡(x)+cos⁡(x)sin⁡(2x)+1dx \\int_{0}^{\\pi} \\frac{\\sin (x)+\\cos (x)}{\\sqrt{\\sin (2 x)+1}} d x ∫0\\\\pi sin(2x)+1sin(x)+cos(x)dx =∫0\\\\pi tan⁡xsec⁡x+1sec⁡x2cos⁡(x)sin⁡x+1dx =\\int_{0}^{\\pi} \\frac{\\frac{\\tan x}{\\sec x}+\\frac{1}{\\sec x}}{\\sqrt{2 \\cos (x) \\sin x+1}} d x =∫0\\\\pi 2cos(x)sinx+1secxtanx+secx1dx =∫0\\\\pi sec⁡2(x)1tan⁡2x+1dx =\\int_{0}^{\\pi} \\sec ^{2}(x) \\frac{1}{\\tan ^{2} x+1} d x =∫0\\\\pi sec2(x)tan2x+11dx ধরি, u=tan⁡x u=\\tan x u=tanx du=sec⁡2xdx d u=\\sec ^{2} x d x du=sec2xdx =∫0\\\\pi 1u2+1du=tan⁡−1u+e=tan⁡−1(tan⁡x)+c=[x+c]0\\\\pi =\\\\pi  \\begin{array}{l}=\\int_{0}^{\\pi} \\frac{1}{u^{2}+1} d u \\\\ =\\tan ^{-1} u+e \\\\ =\\tan ^{-1}\\left(\\tan x\\right)+c \\\\ =[x+c]_{0}^{\\pi} \\\\ =\\pi\\end{array} =∫0\\\\pi u2+11du=tan−1u+e=tan−1(tanx)+c=[x+c]0\\\\pi =\\\\pi $"
+    "questionLatex": "\\pi cos\\int_{0}^{\\\\pi } \\frac{\\cos{x} + \\sin{x}}{\\sqrt{1 + \\sin{2} x}} dx \\pi 1+sin2xcosx+sinxdx এর মান কোনটি?",
+    "explanationLatex": "\\pi sin\\int_{0}^{\\pi} \\frac{\\sin (x)+\\cos (x)}{\\sqrt{\\sin (2 x)+1}} d x \\pi sin(2x)+1sin(x)+cos(x)dx =\\pi tan\\int_{0}^{\\pi} \\frac{\\frac{\\tan x}{\\sec x}+\\frac{1}{\\sec x}}{\\sqrt{2 \\cos (x) \\sin x+1}} d x =\\pi 2cos(x)sinx+1secxtanx+secx1dx =\\pi sec\\int_{0}^{\\pi} \\sec ^{2}(x) \\frac{1}{\\tan ^{2} x+1} d x =\\pi sec2(x)tan2x+11dx ধরি, u=tan\\tan x u=tanx du=sec\\sec ^{2} x d x du=sec2xdx =\\pi 1u2+1du=tan\\pi =\\\\pi \\begin{array}{l}=\\int_{0}^{\\pi} \\frac{1}{u^{2}+1} d u \\\\ =\\tan ^{-1} u+e \\\\ =\\tan ^{-1}\\left(\\tan x\\right)+c \\\\ =[x+c]_{0}^{\\pi} \\\\ =\\pi\\end{array} =\\pi u2+11du=tan−1u+e=tan−1(tanx)+c=[x+c]0\\\\pi =\\\\pi"
   },
   {
     "id": 30,
-    "question": "∫x9ex10dx=? \\int x^{9} e^{x^{10}} dx = ? ∫x9ex10dx=?",
+    "question": "\\int x^{9} e^{x^{10}} dx = ?",
     "options": {
       "a": "− 1 9 𝑒 𝑥 10 + 𝑐 − 9 1 e x 10 +c",
       "b": "− 1 10 𝑒 𝑥 10 + 𝑐 − 10 1 e x 10 +c",
@@ -589,19 +589,19 @@
       "d": "1 10 𝑒 𝑥 10 + 𝑐 10 1 e x 10 +c"
     },
     "correctAnswer": "d",
-    "explanation": "x10=z∴10x9dx=dz;x9dx=110dz;I=∫110ezdz=110ez+c=ex1010+c \\mathrm{x}^{10}=\\mathrm{z} \\therefore 10 \\mathrm{x}^{9} \\mathrm{dx}=\\mathrm{dz} ; \\mathrm{x}^{9} \\mathrm{dx}=\\frac{1}{10} \\mathrm{dz} ; \\mathrm{I}=\\int \\frac{1}{10} \\mathrm{e}^{\\mathrm{z}} \\mathrm{dz}=\\frac{1}{10} \\mathrm{e}^{\\mathrm{z}}+\\mathrm{c}=\\frac{\\mathrm{e}^{\\mathrm{x}^{10}}}{10}+\\mathrm{c} x10=z∴10x9dx=dz;x9dx=101dz;I=∫101ezdz=101ez+c=10ex10+c",
+    "explanation": "x10=z\\mathrm{x}^{10}=\\mathrm{z} \\therefore 10 \\mathrm{x}^{9} \\mathrm{dx}=\\mathrm{dz} ; \\mathrm{x}^{9} \\mathrm{dx}=\\frac{1}{10} \\mathrm{dz} ; \\mathrm{I}=\\int \\frac{1}{10} \\mathrm{e}^{\\mathrm{z}} \\mathrm{dz}=\\frac{1}{10} \\mathrm{e}^{\\mathrm{z}}+\\mathrm{c}=\\frac{\\mathrm{e}^{\\mathrm{x}^{10}}}{10}+\\mathrm{c} x10=z",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫x9ex10dx=? \\int x^{9} e^{x^{10}} dx = ? ∫x9ex10dx=?$",
-    "explanationLatex": "$x10=z∴10x9dx=dz;x9dx=110dz;I=∫110ezdz=110ez+c=ex1010+c \\mathrm{x}^{10}=\\mathrm{z} \\therefore 10 \\mathrm{x}^{9} \\mathrm{dx}=\\mathrm{dz} ; \\mathrm{x}^{9} \\mathrm{dx}=\\frac{1}{10} \\mathrm{dz} ; \\mathrm{I}=\\int \\frac{1}{10} \\mathrm{e}^{\\mathrm{z}} \\mathrm{dz}=\\frac{1}{10} \\mathrm{e}^{\\mathrm{z}}+\\mathrm{c}=\\frac{\\mathrm{e}^{\\mathrm{x}^{10}}}{10}+\\mathrm{c} x10=z∴10x9dx=dz;x9dx=101dz;I=∫101ezdz=101ez+c=10ex10+c$"
+    "questionLatex": "\\int x^{9} e^{x^{10}} dx = ?",
+    "explanationLatex": "x10=z\\mathrm{x}^{10}=\\mathrm{z} \\therefore 10 \\mathrm{x}^{9} \\mathrm{dx}=\\mathrm{dz} ; \\mathrm{x}^{9} \\mathrm{dx}=\\frac{1}{10} \\mathrm{dz} ; \\mathrm{I}=\\int \\frac{1}{10} \\mathrm{e}^{\\mathrm{z}} \\mathrm{dz}=\\frac{1}{10} \\mathrm{e}^{\\mathrm{z}}+\\mathrm{c}=\\frac{\\mathrm{e}^{\\mathrm{x}^{10}}}{10}+\\mathrm{c} x10=z"
   },
   {
     "id": 31,
-    "question": "∫1eln⁡xdx \\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx} ∫1elnxdx এর মান নিচের কোনটি? [RB'22]",
+    "question": "\\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx} এর মান নিচের কোনটি? [",
     "options": {
       "a": "-1",
       "b": "0",
@@ -609,19 +609,19 @@
       "d": "1"
     },
     "correctAnswer": "d",
-    "explanation": "সমাধান: (d); ∫ln⁡xdx=(ln⁡x)∫dx−∫(1x⋅∫dx)dx=xln⁡x−∫dx=xln⁡x−x+c \\int \\ln x d x=(\\ln x) \\int d x-\\int\\left(\\frac{1}{x} \\cdot \\int d x\\right) d x=x \\ln x-\\int d x=x \\ln x-x+c ∫lnxdx=(lnx)∫dx−∫(x1⋅∫dx)dx=xlnx−∫dx=xlnx−x+c ∴∫1eln⁡xdx=[xln⁡x−x]1e=(eln⁡e−e)−(0−1)=e−e+1=1 \\therefore \\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx}=[\\mathrm{x} \\ln \\mathrm{x}-\\mathrm{x}]_{1}^{\\mathrm{e}}=(\\mathrm{e} \\ln \\mathrm{e}-\\mathrm{e})-(0-1)=\\mathrm{e}-\\mathrm{e}+1=1 ∴∫1elnxdx=[xlnx−x]1e=(elne−e)−(0−1)=e−e+1=1",
+    "explanation": "সমাধান: (d); \\int \\ln x d x=(\\ln x) \\int d x-\\int\\left(\\frac{1}{x} \\cdot \\int d x\\right) d x=x \\ln x-\\int d x=x \\ln x-x+c \\therefore \\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx}=[\\mathrm{x} \\ln \\mathrm{x}-\\mathrm{x}]_{1}^{\\mathrm{e}}=(\\mathrm{e} \\ln \\mathrm{e}-\\mathrm{e})-(0-1)=\\mathrm{e}-\\mathrm{e}+1=1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫1eln⁡xdx \\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx} ∫1elnxdx এর মান নিচের কোনটি? [RB'22]$",
-    "explanationLatex": "$সমাধান: (d); ∫ln⁡xdx=(ln⁡x)∫dx−∫(1x⋅∫dx)dx=xln⁡x−∫dx=xln⁡x−x+c \\int \\ln x d x=(\\ln x) \\int d x-\\int\\left(\\frac{1}{x} \\cdot \\int d x\\right) d x=x \\ln x-\\int d x=x \\ln x-x+c ∫lnxdx=(lnx)∫dx−∫(x1⋅∫dx)dx=xlnx−∫dx=xlnx−x+c ∴∫1eln⁡xdx=[xln⁡x−x]1e=(eln⁡e−e)−(0−1)=e−e+1=1 \\therefore \\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx}=[\\mathrm{x} \\ln \\mathrm{x}-\\mathrm{x}]_{1}^{\\mathrm{e}}=(\\mathrm{e} \\ln \\mathrm{e}-\\mathrm{e})-(0-1)=\\mathrm{e}-\\mathrm{e}+1=1 ∴∫1elnxdx=[xlnx−x]1e=(elne−e)−(0−1)=e−e+1=1$"
+    "questionLatex": "\\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx} এর মান নিচের কোনটি? [",
+    "explanationLatex": "সমাধান: (d); \\int \\ln x d x=(\\ln x) \\int d x-\\int\\left(\\frac{1}{x} \\cdot \\int d x\\right) d x=x \\ln x-\\int d x=x \\ln x-x+c \\therefore \\int_{1}^{\\mathrm{e}} \\ln \\mathrm{xdx}=[\\mathrm{x} \\ln \\mathrm{x}-\\mathrm{x}]_{1}^{\\mathrm{e}}=(\\mathrm{e} \\ln \\mathrm{e}-\\mathrm{e})-(0-1)=\\mathrm{e}-\\mathrm{e}+1=1"
   },
   {
     "id": 32,
-    "question": "pv =5 =5 =5 হলে, ∫12pdv \\int_{1}^{2} \\mathrm{pdv} ∫12pdv এর মান কত?",
+    "question": "হলে, \\int_{1}^{2} \\mathrm{pdv} এর মান কত?",
     "options": {
       "a": "5 ( ln ⁡ 2 − 1 ) 5(ln2−1)",
       "b": "5 ln ⁡ 2 5ln2",
@@ -629,19 +629,19 @@
       "d": "3 10 10 3"
     },
     "correctAnswer": "b",
-    "explanation": "Sol. সমাধান: (b); pv=5;∫12pdv=∫12pvvdv=∫125×1vdv=5[ln⁡∣v∣]12=5[ln⁡∣2∣−ln⁡∣1∣]=5ln⁡2 p v=5 ; \\int_{1}^{2} p d v=\\int_{1}^{2} \\frac{p v}{v} d v=\\int_{1}^{2} 5 \\times \\frac{1}{v} d v=5[\\ln |v|]_{1}^{2}=5[\\ln |2|-\\ln |1|]=5 \\ln 2 pv=5;∫12pdv=∫12vpvdv=∫125×v1dv=5[ln∣v∣]12=5[ln∣2∣−ln∣1∣]=5ln2 (Ans.)",
+    "explanation": "Sol. সমাধান: (\\int_{1}^{2} p d v=\\int_{1}^{2} \\frac{p v}{v} d v=\\int_{1}^{2} 5 \\times \\frac{1}{v} d v=5[\\ln |v|]_{1}^{2}=5[\\ln |2|-\\ln |1|]=5 \\ln 2 pv=5;",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$pv =5 =5 =5 হলে, ∫12pdv \\int_{1}^{2} \\mathrm{pdv} ∫12pdv এর মান কত?$",
-    "explanationLatex": "$Sol. সমাধান: (b); pv=5;∫12pdv=∫12pvvdv=∫125\\\\times 1vdv=5[ln⁡∣v∣]12=5[ln⁡∣2∣−ln⁡∣1∣]=5ln⁡2 p v=5 ; \\int_{1}^{2} p d v=\\int_{1}^{2} \\frac{p v}{v} d v=\\int_{1}^{2} 5 \\times \\frac{1}{v} d v=5[\\ln |v|]_{1}^{2}=5[\\ln |2|-\\ln |1|]=5 \\ln 2 pv=5;∫12pdv=∫12vpvdv=∫125\\\\times v1dv=5[ln∣v∣]12=5[ln∣2∣−ln∣1∣]=5ln2 (Ans.)$"
+    "questionLatex": "হলে, \\int_{1}^{2} \\mathrm{pdv} এর মান কত?",
+    "explanationLatex": "Sol. সমাধান: (\\times 1vdv=5[ln\\int_{1}^{2} p d v=\\int_{1}^{2} \\frac{p v}{v} d v=\\int_{1}^{2} 5 \\times \\frac{1}{v} d v=5[\\ln |v|]_{1}^{2}=5[\\ln |2|-\\ln |1|]=5 \\ln 2 pv=5;\\times v1dv=5[ln∣v∣]12=5[ln∣2∣−ln∣1∣]=5ln2 (Ans.)"
   },
   {
     "id": 33,
-    "question": "∫sin⁡5xdx=?\\int \\sin 5 x d x = ?∫sin5xdx=?",
+    "question": "\\int \\sin 5 x d x = ?",
     "options": {
       "a": "− 1 5 sin ⁡ 5 𝑥 + 𝑐 − 5 1 sin5x+c",
       "b": "− 1 5 sec ⁡ 5 𝑥 + 𝑐 − 5 1 sec5x+c",
@@ -649,19 +649,19 @@
       "d": "− 1 5 cos ⁡ 5 𝑥 + 𝑐 − 5 1 cos5x+c"
     },
     "correctAnswer": "d",
-    "explanation": "Solve:ধরি, I =∫sin⁡5xdx =\\int \\sin 5 x d x =∫sin5xdx এবং 5x=z 5 x=z 5x=z. তাহলে 5dx=dz⇒dx=15dz 5 d x=d z \\Rightarrow d x=\\frac{1}{5} d z 5dx=dz⇒dx=51dz এবং I=15∫sin⁡zdz=−15cos⁡z+c I=\\frac{1}{5} \\int \\sin z d z=-\\frac{1}{5} \\cos z+c I=51∫sinzdz=−51cosz+c ∴∫sin⁡5xdx=−15cos⁡5x+c \\therefore \\int \\sin 5 x d x=-\\frac{1}{5} \\cos 5 x+c ∴∫sin5xdx=−51cos5x+c",
+    "explanation": "ধরি, I =\\int \\sin 5 x d x =এবং তাহলে \\Rightarrow d x=\\frac{1}{5} d z 5dx=dzএবং I=15\\frac{1}{5} \\int \\sin z d z=-\\frac{1}{5} \\cos z+c I=51\\therefore \\int \\sin 5 x d x=-\\frac{1}{5} \\cos 5 x+c",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫sin⁡5xdx=?\\int \\sin 5 x d x = ?∫sin5xdx=?$",
-    "explanationLatex": "$Solve:ধরি, I =∫sin⁡5xdx =\\int \\sin 5 x d x =∫sin5xdx এবং 5x=z 5 x=z 5x=z. তাহলে 5dx=dz⇒dx=15dz 5 d x=d z \\Rightarrow d x=\\frac{1}{5} d z 5dx=dz⇒dx=51dz এবং I=15∫sin⁡zdz=−15cos⁡z+c I=\\frac{1}{5} \\int \\sin z d z=-\\frac{1}{5} \\cos z+c I=51∫sinzdz=−51cosz+c ∴∫sin⁡5xdx=−15cos⁡5x+c \\therefore \\int \\sin 5 x d x=-\\frac{1}{5} \\cos 5 x+c ∴∫sin5xdx=−51cos5x+c$"
+    "questionLatex": "\\int \\sin 5 x d x = ?",
+    "explanationLatex": "ধরি, I =\\int \\sin 5 x d x =এবং তাহলে \\Rightarrow d x=\\frac{1}{5} d z 5dx=dzএবং I=15\\frac{1}{5} \\int \\sin z d z=-\\frac{1}{5} \\cos z+c I=51\\therefore \\int \\sin 5 x d x=-\\frac{1}{5} \\cos 5 x+c"
   },
   {
     "id": 34,
-    "question": "∫1x2sin⁡1xdx=? \\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x = ?∫x21sinx1dx=?",
+    "question": "\\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x = ?",
     "options": {
       "a": "sin ⁡ 1 𝑥 + 𝑐 sin x 1 +c",
       "b": "tan ⁡ 1 𝑥 + 𝑐 tan x 1 +c",
@@ -669,19 +669,19 @@
       "d": "cos ⁡ 1 𝑥 + 𝑐 cos x 1 +c"
     },
     "correctAnswer": "d",
-    "explanation": "Solve:ধরি, 1x=z∴−x−2dx=dz⇒1x2dx=−dz \\frac{1}{x}=z \\therefore-x^{-2} d x=d z \\Rightarrow \\frac{1}{x^{2}} d x=-d z x1=z∴−x−2dx=dz⇒x21dx=−dz ∴∫1x2sin⁡1xdx=∫sin⁡(1/x)x2dx=−∫sin⁡zdz=−(−cos⁡z)+c=cos⁡1x+c \\begin{array}{l} \\therefore \\quad \\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x=\\int \\frac{\\sin (1 / x)}{x^{2}} d x \\\\ \\quad=-\\int \\sin z d z=-(-\\cos z)+c=\\cos \\frac{1}{x}+c \\end{array} ∴∫x21sinx1dx=∫x2sin(1/x)dx=−∫sinzdz=−(−cosz)+c=cosx1+c",
+    "explanation": "ধরি, 1x=z\\frac{1}{x}=z \\therefore-x^{-2} d x=d z \\Rightarrow \\frac{1}{x^{2}} d x=-d z x1=z\\begin{array}{l} \\therefore \\quad \\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x=\\int \\frac{\\sin (1 / x)}{x^{2}} d x \\\\ \\quad=-\\int \\sin z d z=-(-\\cos z)+c=\\cos \\frac{1}{x}+c \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫1x2sin⁡1xdx=? \\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x = ?∫x21sinx1dx=?$",
-    "explanationLatex": "$Solve:ধরি, 1x=z∴−x−2dx=dz⇒1x2dx=−dz \\frac{1}{x}=z \\therefore-x^{-2} d x=d z \\Rightarrow \\frac{1}{x^{2}} d x=-d z x1=z∴−x−2dx=dz⇒x21dx=−dz ∴∫1x2sin⁡1xdx=∫sin⁡(\\frac{1}{x})x2dx=−∫sin⁡zdz=−(−cos⁡z)+c=cos⁡1x+c \\begin{array}{l} \\therefore \\quad \\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x=\\int \\frac{\\sin (\\frac{1}{x})}{x^{2}} d x \\\\ \\quad=-\\int \\sin z d z=-(-\\cos z)+c=\\cos \\frac{1}{x}+c \\end{array} ∴∫x21sinx1dx=∫x2sin(\\frac{1}{x})dx=−∫sinzdz=−(−cosz)+c=cosx1+c$"
+    "questionLatex": "\\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x = ?",
+    "explanationLatex": "ধরি, 1x=z\\frac{1}{x}=z \\therefore-x^{-2} d x=d z \\Rightarrow \\frac{1}{x^{2}} d x=-d z x1=z\\frac{1}{x})x2dx=−\\begin{array}{l} \\therefore \\quad \\int \\frac{1}{x^{2}} \\sin \\frac{1}{x} d x=\\int \\frac{\\sin (\\frac{1}{x})}{x^{2}} d x \\\\ \\quad=-\\int \\sin z d z=-(-\\cos z)+c=\\cos \\frac{1}{x}+c \\end{array} \\frac{1}{x})dx=−"
   },
   {
     "id": 35,
-    "question": "∫e2xtan⁡e2xsec⁡e2xdx=?\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x = ?∫e2xtane2xsece2xdx=?",
+    "question": "\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x = ?",
     "options": {
       "a": "1 2 sec ⁡ 𝑒 − 2 𝑥 + 𝑐 2 1 sece −2x +c",
       "b": "1 2 sec ⁡ 𝑒 2 𝑥 + 𝑐 2 1 sece 2x +c",
@@ -689,15 +689,15 @@
       "d": "1 2 tan ⁡ 𝑒 − 2 𝑥 + 𝑐 2 1 tane −2x +c"
     },
     "correctAnswer": "b",
-    "explanation": "Solve: ধরি, I=∫e2xtan⁡e2xsec⁡e2xdx \\mathrm{I}=\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x I=∫e2xtane2xsece2xdxএবং e2x=z e^{2 x}=z e2x=z. তাহলে, 2e2xdx=dz 2 e^{2 x} d x=d z 2e2xdx=dz এবং I=12∫sec⁡ztan⁡zdz=12sec⁡z+c∴∫e2xtan⁡e2xsec⁡e2xdx=12sec⁡e2x+c \\begin{array}{c} I=\\frac{1}{2} \\int \\sec z \\tan z d z=\\frac{1}{2} \\sec z+c \\\\ \\therefore \\quad \\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x=\\frac{1}{2} \\sec e^{2 x}+c \\end{array} I=21∫secztanzdz=21secz+c∴∫e2xtane2xsece2xdx=21sece2x+c",
+    "explanation": "ধরি, I=\\mathrm{I}=\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x I=এবং তাহলে, এবং I=12\\begin{array}{c} I=\\frac{1}{2} \\int \\sec z \\tan z d z=\\frac{1}{2} \\sec z+c \\\\ \\therefore \\quad \\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x=\\frac{1}{2} \\sec e^{2 x}+c \\end{array} I=21",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫e2xtan⁡e2xsec⁡e2xdx=?\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x = ?∫e2xtane2xsece2xdx=?$",
-    "explanationLatex": "$Solve: ধরি, I=∫e2xtan⁡e2xsec⁡e2xdx \\mathrm{I}=\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x I=∫e2xtane2xsece2xdxএবং e2x=z e^{2 x}=z e2x=z. তাহলে, 2e2xdx=dz 2 e^{2 x} d x=d z 2e2xdx=dz এবং I=12∫sec⁡ztan⁡zdz=12sec⁡z+c∴∫e2xtan⁡e2xsec⁡e2xdx=12sec⁡e2x+c \\begin{array}{c} I=\\frac{1}{2} \\int \\sec z \\tan z d z=\\frac{1}{2} \\sec z+c \\\\ \\therefore \\quad \\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x=\\frac{1}{2} \\sec e^{2 x}+c \\end{array} I=21∫secztanzdz=21secz+c∴∫e2xtane2xsece2xdx=21sece2x+c$"
+    "questionLatex": "\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x = ?",
+    "explanationLatex": "ধরি, I=\\mathrm{I}=\\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x I=এবং তাহলে, এবং I=12\\begin{array}{c} I=\\frac{1}{2} \\int \\sec z \\tan z d z=\\frac{1}{2} \\sec z+c \\\\ \\therefore \\quad \\int e^{2 x} \\tan e^{2 x} \\sec e^{2 x} d x=\\frac{1}{2} \\sec e^{2 x}+c \\end{array} I=21"
   },
   {
     "id": 36,
@@ -709,19 +709,19 @@
       "d": "− 180 𝜋 cos ⁡ ( 𝜋 𝑥 180 ) + 𝐶 − π 180 cos( 180 πx )+C"
     },
     "correctAnswer": "d",
-    "explanation": "∫sin⁡x∘dx=∫sin⁡πx180dx=−cos⁡πx180⋅1π180+C=−180πcos⁡πx180+C \\begin{aligned} \\int \\sin x^{\\circ} d x=\\int \\sin \\frac{\\pi x}{180} d x & =-\\cos \\frac{\\pi x}{180} \\cdot \\frac{1}{\\frac{\\pi}{180}}+C \\\\ & =-\\frac{180}{\\pi} \\cos \\frac{\\pi x}{180}+C \\end{aligned} ∫sinx∘dx=∫sin180πxdx=−cos180πx⋅180π1+C=−π180cos180πx+C",
+    "explanation": "\\begin{aligned} \\int \\sin x^{\\circ} d x=\\int \\sin \\frac{\\pi x}{180} d x & =-\\cos \\frac{\\pi x}{180} \\cdot \\frac{1}{\\frac{\\pi}{180}}+C \\\\ & =-\\frac{180}{\\pi} \\cos \\frac{\\pi x}{180}+C \\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫sinx^{\\\\circ}dx = ?$",
-    "explanationLatex": "$∫sin⁡x∘dx=∫sin⁡\\\\pi x180dx=−cos⁡\\\\pi x180⋅1\\\\pi 180+C=−180\\\\pi cos⁡\\\\pi x180+C \\begin{aligned} \\int \\sin x^{\\circ} d x=\\int \\sin \\frac{\\pi x}{180} d x & =-\\cos \\frac{\\pi x}{180} \\cdot \\frac{1}{\\frac{\\pi}{180}}+C \\\\ & =-\\frac{180}{\\pi} \\cos \\frac{\\pi x}{180}+C \\end{aligned} ∫sinx∘dx=∫sin180\\\\pi xdx=−cos180\\\\pi x⋅180\\\\pi 1+C=−\\\\pi 180cos180\\\\pi x+C$"
+    "questionLatex": "\\circ}dx = ?",
+    "explanationLatex": "\\pi x180dx=−cos⁡\\\\pi x180⋅1\\\\pi 180+C=−180\\\\pi cos⁡\\\\pi x180+C \\begin{aligned} \\int \\sin x^{\\circ} d x=\\int \\sin \\frac{\\pi x}{180} d x & =-\\cos \\frac{\\pi x}{180} \\cdot \\frac{1}{\\frac{\\pi}{180}}+C \\\\ & =-\\frac{180}{\\pi} \\cos \\frac{\\pi x}{180}+C \\end{aligned} \\pi xdx=−cos180\\\\pi x⋅180\\\\pi 1+C=−\\\\pi 180cos180\\\\pi x+C"
   },
   {
     "id": 37,
-    "question": "∫02x2(4−x2)3/2dx\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{3 / 2}} d x \\quad∫02(4−x2)3/2x2dx",
+    "question": "\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{3 / 2}} d x \\quad",
     "options": {
       "a": "1 − 𝜋 4 1− 4 π",
       "b": "− 1 − 𝜋 4 −1− 4 π",
@@ -729,19 +729,19 @@
       "d": "− 1 + 𝜋 4 −1+ 4 π"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: ধরি I=∫02x2(4−x2)3/2dx \\mathrm{I}=\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{3 / 2}} d x \\quad I=∫02(4−x2)3/2x2dx এবং x=2sin⁡θ x=2 \\sin \\theta x=2sinθ. তাহলে dx≐2cos⁡θdθ d x \\doteq 2 \\cos \\theta d \\theta dx≐2cosθdθসীমা : x=0 x=0 x=0 হলে θ=sin⁡−10=0 \\theta=\\sin ^{-1} 0=0 θ=sin−10=0 এবং x=2 হলে θ=sin⁡−112=π4∴I=∫0π/44sin⁡2θ⋅2cos⁡θdθ{4(1−sin⁡2θ)}3/2=∫0π/48sin⁡2θcos⁡θdθ8cos⁡3θ=∫0π/4tan⁡2θdθ=∫0π/4(sec⁡2θ−1)dθ=[tan⁡θ−θ]0π/4=tan⁡π4−π4−(tan⁡0−0)=1−π4 \\begin{aligned} & x=\\sqrt{2} \\text { হলে } \\theta=\\sin ^{-1} \\frac{1}{\\sqrt{2}}=\\frac{\\pi}{4} \\\\ \\therefore \\quad & I=\\int_{0}^{\\pi / 4} \\frac{4 \\sin ^{2} \\theta \\cdot 2 \\cos \\theta d \\theta}{\\left\\{4\\left(1-\\sin ^{2} \\theta\\right)\\right\\}^{3 / 2}} \\\\ & =\\int_{0}^{\\pi / 4} \\frac{8 \\sin ^{2} \\theta \\cos \\theta d \\theta}{8 \\cos ^{3} \\theta}=\\int_{0}^{\\pi / 4} \\tan ^{2} \\theta d \\theta \\\\ & =\\int_{0}^{\\pi / 4}\\left(\\sec ^{2} \\theta-1\\right) d \\theta=[\\tan \\theta-\\theta]_{0}^{\\pi / 4} \\\\ & =\\tan \\frac{\\pi}{4}-\\frac{\\pi}{4}-(\\tan 0-0)=1-\\frac{\\pi}{4} \\end{aligned} ∴x=2 হলে θ=sin−121=4πI=∫0π/4{4(1−sin2θ)}3/24sin2θ⋅2cosθdθ=∫0π/48cos3θ8sin2θcosθdθ=∫0π/4tan2θdθ=∫0π/4(sec2θ−1)dθ=[tanθ−θ]0π/4=tan4π−4π−(tan0−0)=1−4π",
+    "explanation": "ধরি I=\\mathrm{I}=\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{3 / 2}} d x \\quad I=এবং \\sin \\theta x=2sinθ. তাহলে \\doteq 2 \\cos \\theta d \\theta dx≐2cosθdθসীমা : হলে θ=sin\\theta=\\sin ^{-1} 0=0 θ=sin−10=0 এবং x=2 হলে θ=sin\\begin{aligned} & x=\\sqrt{2} \\text { হলে } \\theta=\\sin ^{-1} \\frac{1}{\\sqrt{2}}=\\frac{\\pi}{4} \\\\ \\therefore \\quad & I=\\int_{0}^{\\pi / 4} \\frac{4 \\sin ^{2} \\theta \\cdot 2 \\cos \\theta d \\theta}{\\left\\{4\\left(1-\\sin ^{2} \\theta\\right)\\right\\}^{3 / 2}} \\\\ & =\\int_{0}^{\\pi / 4} \\frac{8 \\sin ^{2} \\theta \\cos \\theta d \\theta}{8 \\cos ^{3} \\theta}=\\int_{0}^{\\pi / 4} \\tan ^{2} \\theta d \\theta \\\\ & =\\int_{0}^{\\pi / 4}\\left(\\sec ^{2} \\theta-1\\right) d \\theta=[\\tan \\theta-\\theta]_{0}^{\\pi / 4} \\\\ & =\\tan \\frac{\\pi}{4}-\\frac{\\pi}{4}-(\\tan 0-0)=1-\\frac{\\pi}{4} \\end{aligned} হলে θ=",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫02x2(4−x2)\\frac{3}{2dx}\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{\\frac{3}{2}}} d x \\quad∫02(4−x2)\\frac{3}{2x2dx}$",
-    "explanationLatex": "$Solve: ধরি I=∫02x2(4−x2)\\frac{3}{2dx} \\mathrm{I}=\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{\\frac{3}{2}}} d x \\quad I=∫02(4−x2)\\frac{3}{2x2dx} এবং x=2sin⁡\\\\theta  x=2 \\sin \\theta x=2sin\\\\theta . তাহলে dx≐2cos⁡\\\\theta d\\\\theta  d x \\doteq 2 \\cos \\theta d \\theta dx≐2cos\\\\theta d\\\\theta সীমা : x=0 x=0 x=0 হলে \\\\theta =sin⁡−10=0 \\theta=\\sin ^{-1} 0=0 \\\\theta =sin−10=0 এবং x=2 হলে \\\\theta =sin⁡−112=\\\\pi 4∴I=∫0\\\\\\frac{pi}{44sin}⁡2\\\\theta ⋅2cos⁡\\\\theta d\\\\theta {4(1−sin⁡2\\\\theta )}\\frac{3}{2}=∫0\\\\\\frac{pi}{48sin}⁡2\\\\theta cos⁡\\\\theta d\\\\theta 8cos⁡3\\\\theta =∫0\\\\\\frac{pi}{4tan}⁡2\\\\theta d\\\\theta =∫0\\\\\\frac{pi}{4}(sec⁡2\\\\theta −1)d\\\\theta =[tan⁡\\\\theta −\\\\theta ]0\\\\\\frac{pi}{4}=tan⁡\\\\pi 4−\\\\pi 4−(tan⁡0−0)=1−\\\\pi 4 \\begin{aligned} & x=\\sqrt{2} \\text { হলে } \\theta=\\sin ^{-1} \\frac{1}{\\sqrt{2}}=\\frac{\\pi}{4} \\\\ \\therefore \\quad & I=\\int_{0}^{\\\\frac{pi}{4}} \\frac{4 \\sin ^{2} \\theta \\cdot 2 \\cos \\theta d \\theta}{\\left\\{4\\left(1-\\sin ^{2} \\theta\\right)\\right\\}^{\\frac{3}{2}}} \\\\ & =\\int_{0}^{\\\\frac{pi}{4}} \\frac{8 \\sin ^{2} \\theta \\cos \\theta d \\theta}{8 \\cos ^{3} \\theta}=\\int_{0}^{\\\\frac{pi}{4}} \\tan ^{2} \\theta d \\theta \\\\ & =\\int_{0}^{\\\\frac{pi}{4}}\\left(\\sec ^{2} \\theta-1\\right) d \\theta=[\\tan \\theta-\\theta]_{0}^{\\\\frac{pi}{4}} \\\\ & =\\tan \\frac{\\pi}{4}-\\frac{\\pi}{4}-(\\tan 0-0)=1-\\frac{\\pi}{4} \\end{aligned} ∴x=2 হলে \\\\theta =sin−121=4\\\\pi I=∫0\\\\\\frac{pi}{4}{4(1−sin2\\\\theta )}\\frac{3}{24sin2}\\\\theta ⋅2cos\\\\theta d\\\\theta =∫0\\\\\\frac{pi}{48cos3}\\\\theta 8sin2\\\\theta cos\\\\theta d\\\\theta =∫0\\\\\\frac{pi}{4tan2}\\\\theta d\\\\theta =∫0\\\\\\frac{pi}{4}(sec2\\\\theta −1)d\\\\theta =[tan\\\\theta −\\\\theta ]0\\\\\\frac{pi}{4}=tan4\\\\pi −4\\\\pi −(tan0−0)=1−4\\\\pi $"
+    "questionLatex": "\\frac{3}{2dx}\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{\\frac{3}{2}}} d x \\quad\\frac{3}{2x2dx}",
+    "explanationLatex": "ধরি I=\\frac{3}{2dx} \\mathrm{I}=\\int_{0}^{\\sqrt{2}} \\frac{x^{2}}{\\left(4-x^{2}\\right)^{\\frac{3}{2}}} d x \\quad I=\\frac{3}{2x2dx} এবং x=2sin⁡\\\\theta x=2 \\sin \\theta x=2sin\\\\theta . তাহলে ⁡\\\\theta d\\\\theta d x \\doteq 2 \\cos \\theta d \\theta dx≐2cos\\\\theta d\\\\theta সীমা : হলে \\\\theta =sin\\theta=\\sin ^{-1} 0=0 \\\\theta =sin−10=0 এবং x=2 হলে \\\\theta =sin\\pi 4\\frac{pi}{44sin}\\theta ⋅2cos⁡\\\\theta d\\\\theta {4(1−sin⁡2\\\\theta )}\\frac{3}{2}=\\frac{pi}{48sin}\\theta cos⁡\\\\theta d\\\\theta 8cos\\theta =\\frac{pi}{4tan}\\theta d\\\\theta =\\frac{pi}{4}(sec\\theta −1)d\\\\theta =[tan⁡\\\\theta −\\\\theta ]0\\\\\\frac{pi}{4}=tan⁡\\\\pi 4−\\\\pi 4−(tan\\pi 4 \\begin{aligned} & x=\\sqrt{2} \\text { হলে } \\theta=\\sin ^{-1} \\frac{1}{\\sqrt{2}}=\\frac{\\pi}{4} \\\\ \\therefore \\quad & I=\\int_{0}^{\\\\frac{pi}{4}} \\frac{4 \\sin ^{2} \\theta \\cdot 2 \\cos \\theta d \\theta}{\\left\\{4\\left(1-\\sin ^{2} \\theta\\right)\\right\\}^{\\frac{3}{2}}} \\\\ & =\\int_{0}^{\\\\frac{pi}{4}} \\frac{8 \\sin ^{2} \\theta \\cos \\theta d \\theta}{8 \\cos ^{3} \\theta}=\\int_{0}^{\\\\frac{pi}{4}} \\tan ^{2} \\theta d \\theta \\\\ & =\\int_{0}^{\\\\frac{pi}{4}}\\left(\\sec ^{2} \\theta-1\\right) d \\theta=[\\tan \\theta-\\theta]_{0}^{\\\\frac{pi}{4}} \\\\ & =\\tan \\frac{\\pi}{4}-\\frac{\\pi}{4}-(\\tan 0-0)=1-\\frac{\\pi}{4} \\end{aligned} হলে \\\\theta =sin−121=4\\\\pi I=\\frac{pi}{4}{4(1−sin2\\\\theta )}\\frac{3}{24sin2}\\\\theta ⋅2cos\\\\theta d\\\\theta =\\frac{pi}{48cos3}\\\\theta 8sin2\\\\theta cos\\\\theta d\\\\theta =\\frac{pi}{4tan2}\\\\theta d\\\\theta =\\frac{pi}{4}(sec2\\\\theta −1)d\\\\theta =[tan\\\\theta −\\\\theta ]0\\\\\\frac{pi}{4}=tan4\\\\pi −4\\\\pi −(tan0−0)=1−4\\\\pi"
   },
   {
     "id": 38,
-    "question": "∫tan⁡−1(x5)dx=? \\int \\tan ^{-1}\\left(\\frac{x}{5}\\right) d x = ?∫tan−1(5x)dx=?",
+    "question": "\\int \\tan ^{-1}\\left(\\frac{x}{5}\\right) d x = ?",
     "options": {
       "a": "𝑥 tan ⁡ − 1 ( 𝑥 5 ) − 1 2 ln ⁡ ( 25 − 𝑥 2 ) + 𝑐 xtan −1 ( 5 x )− 2 1 ln(25−x 2 )+c",
       "b": "𝑥 tan ⁡ − 1 ( 𝑥 5 ) + 1 2 ln ⁡ ( 25 + 𝑥 2 ) + 𝑐 xtan −1 ( 5 x )+ 2 1 ln(25+x 2 )+c",
@@ -749,19 +749,19 @@
       "d": "− 𝑥 tan ⁡ − 1 ( 𝑥 5 ) − 1 2 ln ⁡ ( 25 + 𝑥 2 ) + 𝑐 −xtan −1 ( 5 x )− 2 1 ln(25+x 2 )+c"
     },
     "correctAnswer": "c",
-    "explanation": "Solve: ∫tan⁡−1(x5)dx \\left.\\int \\tan ^{-1} \\frac{(x}{5}\\right) d x ∫tan−15(x)dx=tan⁡−1(x5)∫dx−∫[ddx{tan⁡−1(x5)}∫dx]dx =\\tan ^{-1}\\left(\\frac{x}{5}\\right) \\int d x-\\int\\left[\\frac{d}{d x}\\left\\{\\tan ^{-1}\\left(\\frac{x}{5}\\right)\\right\\} \\int d x\\right] d x =tan−1(5x)∫dx−∫[dxd{tan−1(5x)}∫dx]dx =xtan⁡−1(x5)−∫1/51+(x5)2xdx=xtan⁡−1(x5)−∫xdx25+x2=xtan⁡−1(x5)−12∫(0+2x)dx25+x2=xtan⁡−1(x5)−12ln⁡(25+x2)+c \\begin{array}{l} =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{1 / 5}{1+\\left(\\frac{x}{5}\\right)^{2}} x d x \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{x d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\int \\frac{(0+2 x) d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\ln \\left(25+x^{2}\\right)+c \\end{array} =xtan−1(5x)−∫1+(5x)21/5xdx=xtan−1(5x)−∫25+x2xdx=xtan−1(5x)−21∫25+x2(0+2x)dx=xtan−1(5x)−21ln(25+x2)+c",
+    "explanation": "\\left.\\int \\tan ^{-1} \\frac{(x}{5}\\right) d x \\tan ^{-1}\\left(\\frac{x}{5}\\right) \\int d x-\\int\\left[\\frac{d}{d x}\\left\\{\\tan ^{-1}\\left(\\frac{x}{5}\\right)\\right\\} \\int d x\\right] d x =tan−1(5x)\\begin{array}{l} =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{1 / 5}{1+\\left(\\frac{x}{5}\\right)^{2}} x d x \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{x d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\int \\frac{(0+2 x) d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\ln \\left(25+x^{2}\\right)+c \\end{array} =xtan−1(5x)−",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫tan⁡−1(x5)dx=? \\int \\tan ^{-1}\\left(\\frac{x}{5}\\right) d x = ?∫tan−1(5x)dx=?$",
-    "explanationLatex": "$Solve: ∫tan⁡−1(x5)dx \\left.\\int \\tan ^{-1} \\frac{(x}{5}\\right) d x ∫tan−15(x)dx=tan⁡−1(x5)∫dx−∫[ddx{tan⁡−1(x5)}∫dx]dx =\\tan ^{-1}\\left(\\frac{x}{5}\\right) \\int d x-\\int\\left[\\frac{d}{d x}\\left\\{\\tan ^{-1}\\left(\\frac{x}{5}\\right)\\right\\} \\int d x\\right] d x =tan−1(5x)∫dx−∫[dxd{tan−1(5x)}∫dx]dx =xtan⁡−1(x5)−∫\\frac{1}{51}+(x5)2xdx=xtan⁡−1(x5)−∫xdx25+x2=xtan⁡−1(x5)−12∫(0+2x)dx25+x2=xtan⁡−1(x5)−12ln⁡(25+x2)+c \\begin{array}{l} =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{\\frac{1}{5}}{1+\\left(\\frac{x}{5}\\right)^{2}} x d x \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{x d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\int \\frac{(0+2 x) d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\ln \\left(25+x^{2}\\right)+c \\end{array} =xtan−1(5x)−∫1+(5x)\\frac{21}{5xdx}=xtan−1(5x)−∫25+x2xdx=xtan−1(5x)−21∫25+x2(0+2x)dx=xtan−1(5x)−21ln(25+x2)+c$"
+    "questionLatex": "\\int \\tan ^{-1}\\left(\\frac{x}{5}\\right) d x = ?",
+    "explanationLatex": "\\left.\\int \\tan ^{-1} \\frac{(x}{5}\\right) d x \\tan ^{-1}\\left(\\frac{x}{5}\\right) \\int d x-\\int\\left[\\frac{d}{d x}\\left\\{\\tan ^{-1}\\left(\\frac{x}{5}\\right)\\right\\} \\int d x\\right] d x =tan−1(5x)\\frac{1}{51}+(x5)2xdx=xtan\\begin{array}{l} =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{\\frac{1}{5}}{1+\\left(\\frac{x}{5}\\right)^{2}} x d x \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\int \\frac{x d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\int \\frac{(0+2 x) d x}{25+x^{2}} \\\\ =x \\tan ^{-1}\\left(\\frac{x}{5}\\right)-\\frac{1}{2} \\ln \\left(25+x^{2}\\right)+c \\end{array} =xtan−1(5x)−\\frac{21}{5xdx}=xtan−1(5x)−"
   },
   {
     "id": 39,
-    "question": "∫4cos⁡(2x+3)dx=? \\int 4 \\cos{\\left ( 2 x + 3 \\right )} dx = ? ∫4cos(2x+3)dx=?",
+    "question": "\\int 4 \\cos{\\left ( 2 x + 3 \\right )} dx = ?",
     "options": {
       "a": "4sin(2x+3)+c",
       "b": "-4 sin(2x+3)+c",
@@ -769,19 +769,19 @@
       "d": "-2 sin(2x+3)++ c"
     },
     "correctAnswer": "c",
-    "explanation": "∫4cox⁡(2x+3)dx=4×sin⁡(2x+3)2+c=2sin⁡(2x+3)+c \\begin{aligned} \\int 4 \\operatorname{cox}(2 x+3) d x & =4 \\times \\frac{\\sin (2 x+3)}{2}+c \\\\ & =2 \\sin (2 x+3)+c \\end{aligned} ∫4cox(2x+3)dx=4×2sin(2x+3)+c=2sin(2x+3)+c",
+    "explanation": "\\begin{aligned} \\int 4 \\operatorname{cox}(2 x+3) d x & =4 \\times \\frac{\\sin (2 x+3)}{2}+c \\\\ & =2 \\sin (2 x+3)+c \\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫4cos⁡(2x+3)dx=? \\int 4 \\cos{\\left ( 2 x + 3 \\right )} dx = ? ∫4cos(2x+3)dx=?$",
-    "explanationLatex": "$∫4cox⁡(2x+3)dx=4\\\\times sin⁡(2x+3)2+c=2sin⁡(2x+3)+c \\begin{aligned} \\int 4 \\operatorname{cox}(2 x+3) d x & =4 \\times \\frac{\\sin (2 x+3)}{2}+c \\\\ & =2 \\sin (2 x+3)+c \\end{aligned} ∫4cox(2x+3)dx=4\\\\times 2sin(2x+3)+c=2sin(2x+3)+c$"
+    "questionLatex": "\\int 4 \\cos{\\left ( 2 x + 3 \\right )} dx = ?",
+    "explanationLatex": "\\times sin\\begin{aligned} \\int 4 \\operatorname{cox}(2 x+3) d x & =4 \\times \\frac{\\sin (2 x+3)}{2}+c \\\\ & =2 \\sin (2 x+3)+c \\end{aligned} \\times 2sin(2x+3)+c=2sin(2x+3)+c"
   },
   {
     "id": 40,
-    "question": "∫01dx4−3x2\\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}}∫014−3x2dx",
+    "question": "\\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}}",
     "options": {
       "a": "𝜋 3 3 3 3 π",
       "b": "− 𝜋 3 3 − 3 3 π",
@@ -789,19 +789,19 @@
       "d": "𝜋 2 3 2 3 π"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: ∫01dx4−3x2=13∫013dx22−(3x)2=[13sin⁡−13x2]01=13(sin⁡−132−sin⁡−10)=13(π3−0)=π33 \\begin{array}{l} \\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}} \\\\ =\\frac{1}{\\sqrt{3}} \\int_{0}^{1} \\frac{\\sqrt{3} d x}{\\sqrt{2^{2}-(\\sqrt{3} x)^{2}}}=\\left[\\frac{1}{\\sqrt{3}} \\sin ^{-1} \\frac{\\sqrt{3} x}{2}\\right]_{0}^{1} \\\\ =\\frac{1}{\\sqrt{3}}\\left(\\sin ^{-1} \\frac{\\sqrt{3}}{2}-\\sin ^{-1} 0\\right)=\\frac{1}{\\sqrt{3}}\\left(\\frac{\\pi}{3}-0\\right)=\\frac{\\pi}{3 \\sqrt{3}} \\end{array} ∫014−3x2dx=31∫0122−(3x)23dx=[31sin−123x]01=31(sin−123−sin−10)=31(3π−0)=33π",
+    "explanation": "\\begin{array}{l} \\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}} \\\\ =\\frac{1}{\\sqrt{3}} \\int_{0}^{1} \\frac{\\sqrt{3} d x}{\\sqrt{2^{2}-(\\sqrt{3} x)^{2}}}=\\left[\\frac{1}{\\sqrt{3}} \\sin ^{-1} \\frac{\\sqrt{3} x}{2}\\right]_{0}^{1} \\\\ =\\frac{1}{\\sqrt{3}}\\left(\\sin ^{-1} \\frac{\\sqrt{3}}{2}-\\sin ^{-1} 0\\right)=\\frac{1}{\\sqrt{3}}\\left(\\frac{\\pi}{3}-0\\right)=\\frac{\\pi}{3 \\sqrt{3}} \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫01dx4−3x2\\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}}∫014−3x2dx$",
-    "explanationLatex": "$Solve: ∫01dx4−3x2=13∫013dx22−(3x)2=[13sin⁡−13x2]01=13(sin⁡−132−sin⁡−10)=13(\\\\pi 3−0)=\\\\pi 33 \\begin{array}{l} \\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}} \\\\ =\\frac{1}{\\sqrt{3}} \\int_{0}^{1} \\frac{\\sqrt{3} d x}{\\sqrt{2^{2}-(\\sqrt{3} x)^{2}}}=\\left[\\frac{1}{\\sqrt{3}} \\sin ^{-1} \\frac{\\sqrt{3} x}{2}\\right]_{0}^{1} \\\\ =\\frac{1}{\\sqrt{3}}\\left(\\sin ^{-1} \\frac{\\sqrt{3}}{2}-\\sin ^{-1} 0\\right)=\\frac{1}{\\sqrt{3}}\\left(\\frac{\\pi}{3}-0\\right)=\\frac{\\pi}{3 \\sqrt{3}} \\end{array} ∫014−3x2dx=31∫0122−(3x)23dx=[31sin−123x]01=31(sin−123−sin−10)=31(3\\\\pi −0)=33\\\\pi $"
+    "questionLatex": "\\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}}",
+    "explanationLatex": "\\pi 3−0)=\\\\pi 33 \\begin{array}{l} \\int_{0}^{1} \\frac{d x}{\\sqrt{4-3 x^{2}}} \\\\ =\\frac{1}{\\sqrt{3}} \\int_{0}^{1} \\frac{\\sqrt{3} d x}{\\sqrt{2^{2}-(\\sqrt{3} x)^{2}}}=\\left[\\frac{1}{\\sqrt{3}} \\sin ^{-1} \\frac{\\sqrt{3} x}{2}\\right]_{0}^{1} \\\\ =\\frac{1}{\\sqrt{3}}\\left(\\sin ^{-1} \\frac{\\sqrt{3}}{2}-\\sin ^{-1} 0\\right)=\\frac{1}{\\sqrt{3}}\\left(\\frac{\\pi}{3}-0\\right)=\\frac{\\pi}{3 \\sqrt{3}} \\end{array} \\pi −0)=33\\\\pi"
   },
   {
     "id": 41,
-    "question": "∫0π/2sin⁡2xcos⁡xdx=?\\int_{0}^{\\pi / 2} \\sin 2 x \\cos x d x \\quad = ?∫0π/2sin2xcosxdx=?",
+    "question": "\\int_{0}^{\\pi / 2} \\sin 2 x \\cos x d x \\quad = ?",
     "options": {
       "a": "− 3 2 − 2 3",
       "b": "− 2 3 − 3 2",
@@ -809,19 +809,19 @@
       "d": "2 3 3 2"
     },
     "correctAnswer": "d",
-    "explanation": "Solve: ∫0π/2sin⁡2xcos⁡xdx=∫0π/212(sin⁡3x+sin⁡x)dx=12[−13cos⁡3x−cos⁡x]0π/2=12(−13cos⁡3π2,−cos⁡π2+13cos⁡0+cos⁡0)=12[−13(cos⁡3π2−cos⁡0)−(cos⁡π2−cos⁡0)]=12[−13(0−1)−(0−1)]=12(13+1)=23 \\begin{array}{l} \\int_{0}^{\\pi / 2} \\sin 2 x \\cos x d x \\quad \\\\ =\\int_{0}^{\\pi / 2} \\frac{1}{2}(\\sin 3 x+\\sin x) d x \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3} \\cos 3 x-\\cos x\\right]_{0}^{\\pi / 2} \\\\ =\\frac{1}{2}\\left(-\\frac{1}{3} \\cos 3 \\frac{\\pi}{2},-\\cos \\frac{\\pi}{2}+\\frac{1}{3} \\cos 0+\\cos 0\\right) \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}\\left(\\cos 3 \\frac{\\pi}{2}-\\cos 0\\right)-\\left(\\cos \\frac{\\pi}{2}-\\cos 0\\right)\\right] \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}(0-1)-(0-1)\\right]=\\frac{1}{2}\\left(\\frac{1}{3}+1\\right)=\\frac{2}{3} \\end{array} ∫0π/2sin2xcosxdx=∫0π/221(sin3x+sinx)dx=21[−31cos3x−cosx]0π/2=21(−31cos32π,−cos2π+31cos0+cos0)=21[−31(cos32π−cos0)−(cos2π−cos0)]=21[−31(0−1)−(0−1)]=21(31+1)=32",
+    "explanation": "\\begin{array}{l} \\int_{0}^{\\pi / 2} \\sin 2 x \\cos x d x \\quad \\\\ =\\int_{0}^{\\pi / 2} \\frac{1}{2}(\\sin 3 x+\\sin x) d x \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3} \\cos 3 x-\\cos x\\right]_{0}^{\\pi / 2} \\\\ =\\frac{1}{2}\\left(-\\frac{1}{3} \\cos 3 \\frac{\\pi}{2},-\\cos \\frac{\\pi}{2}+\\frac{1}{3} \\cos 0+\\cos 0\\right) \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}\\left(\\cos 3 \\frac{\\pi}{2}-\\cos 0\\right)-\\left(\\cos \\frac{\\pi}{2}-\\cos 0\\right)\\right] \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}(0-1)-(0-1)\\right]=\\frac{1}{2}\\left(\\frac{1}{3}+1\\right)=\\frac{2}{3} \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫0\\\\\\frac{pi}{2sin}⁡2xcos⁡xdx=?\\int_{0}^{\\\\frac{pi}{2}} \\sin 2 x \\cos x d x \\quad = ?∫0\\\\\\frac{pi}{2sin2xcosxdx}=?$",
-    "explanationLatex": "$Solve: ∫0\\\\\\frac{pi}{2sin}⁡2xcos⁡xdx=∫0\\\\\\frac{pi}{212}(sin⁡3x+sin⁡x)dx=12[−13cos⁡3x−cos⁡x]0\\\\\\frac{pi}{2}=12(−13cos⁡3\\\\pi 2,−cos⁡\\\\pi 2+13cos⁡0+cos⁡0)=12[−13(cos⁡3\\\\pi 2−cos⁡0)−(cos⁡\\\\pi 2−cos⁡0)]=12[−13(0−1)−(0−1)]=12(13+1)=23 \\begin{array}{l} \\int_{0}^{\\\\frac{pi}{2}} \\sin 2 x \\cos x d x \\quad \\\\ =\\int_{0}^{\\\\frac{pi}{2}} \\frac{1}{2}(\\sin 3 x+\\sin x) d x \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3} \\cos 3 x-\\cos x\\right]_{0}^{\\\\frac{pi}{2}} \\\\ =\\frac{1}{2}\\left(-\\frac{1}{3} \\cos 3 \\frac{\\pi}{2},-\\cos \\frac{\\pi}{2}+\\frac{1}{3} \\cos 0+\\cos 0\\right) \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}\\left(\\cos 3 \\frac{\\pi}{2}-\\cos 0\\right)-\\left(\\cos \\frac{\\pi}{2}-\\cos 0\\right)\\right] \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}(0-1)-(0-1)\\right]=\\frac{1}{2}\\left(\\frac{1}{3}+1\\right)=\\frac{2}{3} \\end{array} ∫0\\\\\\frac{pi}{2sin2xcosxdx}=∫0\\\\\\frac{pi}{221}(sin3x+sinx)dx=21[−31cos3x−cosx]0\\\\\\frac{pi}{2}=21(−31cos32\\\\pi ,−cos2\\\\pi +31cos0+cos0)=21[−31(cos32\\\\pi −cos0)−(cos2\\\\pi −cos0)]=21[−31(0−1)−(0−1)]=21(31+1)=32$"
+    "questionLatex": "\\frac{pi}{2sin}\\int_{0}^{\\\\frac{pi}{2}} \\sin 2 x \\cos x d x \\quad = ?\\frac{pi}{2sin2xcosxdx}=?",
+    "explanationLatex": "\\frac{pi}{2sin}\\frac{pi}{212}(sin\\frac{pi}{2}=12(−13cos\\pi 2,−cos⁡\\\\pi 2+13cos\\pi 2−cos\\pi 2−cos\\begin{array}{l} \\int_{0}^{\\\\frac{pi}{2}} \\sin 2 x \\cos x d x \\quad \\\\ =\\int_{0}^{\\\\frac{pi}{2}} \\frac{1}{2}(\\sin 3 x+\\sin x) d x \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3} \\cos 3 x-\\cos x\\right]_{0}^{\\\\frac{pi}{2}} \\\\ =\\frac{1}{2}\\left(-\\frac{1}{3} \\cos 3 \\frac{\\pi}{2},-\\cos \\frac{\\pi}{2}+\\frac{1}{3} \\cos 0+\\cos 0\\right) \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}\\left(\\cos 3 \\frac{\\pi}{2}-\\cos 0\\right)-\\left(\\cos \\frac{\\pi}{2}-\\cos 0\\right)\\right] \\\\ =\\frac{1}{2}\\left[-\\frac{1}{3}(0-1)-(0-1)\\right]=\\frac{1}{2}\\left(\\frac{1}{3}+1\\right)=\\frac{2}{3} \\end{array} \\frac{pi}{2sin2xcosxdx}=\\frac{pi}{221}(sin3x+sinx)dx=21[−31cos3x−cosx]0\\\\\\frac{pi}{2}=21(−31cos32\\\\pi ,−cos2\\\\pi +31cos0+cos0)=21[−31(cos32\\\\pi −cos0)−(cos2\\\\pi −cos0)]=21[−31(0−1)−(0−1)]=21(31+1)=32"
   },
   {
     "id": 42,
-    "question": "∫0416−x2=? \\int_{0}^{4} \\sqrt{16 - x^{2}} = ? ∫0416−x2=?",
+    "question": "\\int_{0}^{4} \\sqrt{16 - x^{2}} = ?",
     "options": {
       "a": "π",
       "b": "2 π",
@@ -829,19 +829,19 @@
       "d": "4 𝜋 4π"
     },
     "correctAnswer": "d",
-    "explanation": "∫0416−x2dx=[x16−x22+162sin⁡−1x4]04 \\int_{0}^{4} \\sqrt{16-x^{2}} d x=\\left[\\frac{x \\sqrt{16-x^{2}}}{2}+\\frac{16}{2} \\sin ^{-1} \\frac{x}{4}\\right]_{0}^{4} ∫0416−x2dx=[2x16−x2+216sin−14x]04 =0+162sin⁡−10−162sin⁡−10=8×π2=4π =0+\\frac{16}{2} \\sin ^{-1} 0-\\frac{16}{2} \\sin ^{-1} 0=8 \\times \\frac{\\pi}{2}=4 \\pi =0+216sin−10−216sin−10=8×2π=4π",
+    "explanation": "\\int_{0}^{4} \\sqrt{16-x^{2}} d x=\\left[\\frac{x \\sqrt{16-x^{2}}}{2}+\\frac{16}{2} \\sin ^{-1} \\frac{x}{4}\\right]_{0}^{4} \\frac{16}{2} \\sin ^{-1} 0-\\frac{16}{2} \\sin ^{-1} 0=8 \\times \\frac{\\pi}{2}=4 \\pi =0+216sin−10−216sin−10=8",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫0416−x2=? \\int_{0}^{4} \\sqrt{16 - x^{2}} = ? ∫0416−x2=?$",
-    "explanationLatex": "$∫0416−x2dx=[x16−x22+162sin⁡−1x4]04 \\int_{0}^{4} \\sqrt{16-x^{2}} d x=\\left[\\frac{x \\sqrt{16-x^{2}}}{2}+\\frac{16}{2} \\sin ^{-1} \\frac{x}{4}\\right]_{0}^{4} ∫0416−x2dx=[2x16−x2+216sin−14x]04 =0+162sin⁡−10−162sin⁡−10=8\\\\times \\\\pi 2=4\\\\pi  =0+\\frac{16}{2} \\sin ^{-1} 0-\\frac{16}{2} \\sin ^{-1} 0=8 \\times \\frac{\\pi}{2}=4 \\pi =0+216sin−10−216sin−10=8\\\\times 2\\\\pi =4\\\\pi $"
+    "questionLatex": "\\int_{0}^{4} \\sqrt{16 - x^{2}} = ?",
+    "explanationLatex": "\\int_{0}^{4} \\sqrt{16-x^{2}} d x=\\left[\\frac{x \\sqrt{16-x^{2}}}{2}+\\frac{16}{2} \\sin ^{-1} \\frac{x}{4}\\right]_{0}^{4} \\times \\\\pi 2=4\\\\pi =0+\\frac{16}{2} \\sin ^{-1} 0-\\frac{16}{2} \\sin ^{-1} 0=8 \\times \\frac{\\pi}{2}=4 \\pi =0+216sin−10−216sin−10=8\\\\times 2\\\\pi =4\\\\pi"
   },
   {
     "id": 43,
-    "question": "∫04f(x)dx=5 \\int_{0}^{4} f{\\left ( x \\right )} dx = 5 ∫04f(x)dx=5 হলে, তবে ∫15f(x−1)dx=? \\int_{1}^{5} f{\\left ( x - 1 \\right )} dx = ? ∫15f(x−1)dx=?",
+    "question": "\\int_{0}^{4} f{\\left ( x \\right )} dx = 5 হলে, তবে \\int_{1}^{5} f{\\left ( x - 1 \\right )} dx = ?",
     "options": {
       "a": "0",
       "b": "5",
@@ -849,15 +849,15 @@
       "d": "4"
     },
     "correctAnswer": "b",
-    "explanation": "Let, t=x−1⇒dx=dt if x=5;t=4x=1;t=0∫15f(x−1)dx=∫04f(t)dt=∫04f(x)dx=5 \\begin{array}{l} \\text { Let, } \\quad t=x-1 \\\\ \\Rightarrow d x=d t \\\\ \\text { if } x=5 ; t=4 \\\\ x=1 ; t=0 \\\\ \\int_{1}^{5} f(x-1) d x=\\int_{0}^{4} f(t) d t=\\int_{0}^{4} f(x) d x \\\\ =5\\end{array} Let, t=x−1⇒dx=dt if x=5;t=4x=1;t=0∫15f(x−1)dx=∫04f(t)dt=∫04f(x)dx=5",
+    "explanation": "\\begin{array}{l} \\text { Let, } \\quad t=x-1 \\\\ \\Rightarrow d x=d t \\\\ \\text { if } x=5 ; t=4 \\\\ x=1 ; t=0 \\\\ \\int_{1}^{5} f(x-1) d x=\\int_{0}^{4} f(t) d t=\\int_{0}^{4} f(x) d x \\\\ =5\\end{array} Let, t=x−1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫04f(x)dx=5 \\int_{0}^{4} f{\\left ( x \\right )} dx = 5 ∫04f(x)dx=5 হলে, তবে ∫15f(x−1)dx=? \\int_{1}^{5} f{\\left ( x - 1 \\right )} dx = ? ∫15f(x−1)dx=?$",
-    "explanationLatex": "$Let, t=x−1⇒dx=dt if x=5;t=4x=1;t=0∫15f(x−1)dx=∫04f(t)dt=∫04f(x)dx=5 \\begin{array}{l} \\text { Let, } \\quad t=x-1 \\\\ \\Rightarrow d x=d t \\\\ \\text { if } x=5 ; t=4 \\\\ x=1 ; t=0 \\\\ \\int_{1}^{5} f(x-1) d x=\\int_{0}^{4} f(t) d t=\\int_{0}^{4} f(x) d x \\\\ =5\\end{array} Let, t=x−1⇒dx=dt if x=5;t=4x=1;t=0∫15f(x−1)dx=∫04f(t)dt=∫04f(x)dx=5$"
+    "questionLatex": "\\int_{0}^{4} f{\\left ( x \\right )} dx = 5 হলে, তবে \\int_{1}^{5} f{\\left ( x - 1 \\right )} dx = ?",
+    "explanationLatex": "\\begin{array}{l} \\text { Let, } \\quad t=x-1 \\\\ \\Rightarrow d x=d t \\\\ \\text { if } x=5 ; t=4 \\\\ x=1 ; t=0 \\\\ \\int_{1}^{5} f(x-1) d x=\\int_{0}^{4} f(t) d t=\\int_{0}^{4} f(x) d x \\\\ =5\\end{array} Let, t=x−1"
   },
   {
     "id": 44,
@@ -869,7 +869,7 @@
       "d": "8 বর্গ একক"
     },
     "correctAnswer": "d",
-    "explanation": "∫04ydx⇒∫04xdx=12[x2]04=422=8 \\int_{0}^{4} y d x \\Rightarrow \\int_{0}^{4} x d x=\\frac{1}{2}\\left[x^{2}\\right]_{0}^{4}=\\frac{4^{2}}{2}=8 ∫04ydx⇒∫04xdx=21[x2]04=242=8",
+    "explanation": "\\int_{0}^{4} y d x \\Rightarrow \\int_{0}^{4} x d x=\\frac{1}{2}\\left[x^{2}\\right]_{0}^{4}=\\frac{4^{2}}{2}=8",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243656/gst-question-images/Math___________-Varsity-arc_q45.png",
@@ -877,11 +877,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$y=x y=x y=x সরলরেখা, x x x অক্ষ এবং x=4 x=4 x=4 রেখা দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল-$",
-    "explanationLatex": "$∫04ydx⇒∫04xdx=12[x2]04=422=8 \\int_{0}^{4} y d x \\Rightarrow \\int_{0}^{4} x d x=\\frac{1}{2}\\left[x^{2}\\right]_{0}^{4}=\\frac{4^{2}}{2}=8 ∫04ydx⇒∫04xdx=21[x2]04=242=8$"
+    "explanationLatex": "\\int_{0}^{4} y d x \\Rightarrow \\int_{0}^{4} x d x=\\frac{1}{2}\\left[x^{2}\\right]_{0}^{4}=\\frac{4^{2}}{2}=8"
   },
   {
     "id": 45,
-    "question": "∫x(sec⁡2x−1)dx=? \\int x\\left(\\sec ^{2} x-1\\right) d x = ?∫x(sec2x−1)dx=?",
+    "question": "\\int x\\left(\\sec ^{2} x-1\\right) d x = ?",
     "options": {
       "a": "𝑥 tan ⁡ 𝑥 + ln ⁡ ∣ cos ⁡ 𝑥 ∣ + 𝑥 2 2 + 𝑐 xtanx+ln∣cosx∣+ 2 x 2 +c",
       "b": "𝑥 tan ⁡ 𝑥 − ln ⁡ ∣ cos ⁡ 𝑥 ∣ − 𝑥 2 2 + 𝑐 xtanx−ln∣cosx∣− 2 x 2 +c",
@@ -889,19 +889,19 @@
       "d": "− 𝑥 tan ⁡ 𝑥 + ln ⁡ ∣ cos ⁡ 𝑥 ∣ − 𝑥 2 2 + 𝑐 −xtanx+ln∣cosx∣− 2 x 2 +c"
     },
     "correctAnswer": "c",
-    "explanation": "Solve: =∫x(sec⁡2x−1)dx=∫xsec⁡2xdx−∫xdx=x∫sec⁡2xdx−∫{ddx(x)∫sec⁡2xdx}dx−x22=xtan⁡x−∫1⋅tan⁡xdx−x22=xtan⁡x+ln⁡∣cos⁡x∣−x22+c \\begin{array}{l} =\\int x\\left(\\sec ^{2} x-1\\right) d x=\\int x \\sec ^{2} x d x-\\int x d x \\\\ =x \\int \\sec ^{2} x d x-\\int\\left\\{\\frac{d}{d x}(x) \\int \\sec ^{2} x d x\\right\\} d x-\\frac{x^{2}}{2} \\\\ =x \\tan x-\\int 1 \\cdot \\tan x d x-\\frac{x^{2}}{2} \\\\ =x \\tan x+\\ln |\\cos x|-\\frac{x^{2}}{2}+c \\end{array} =∫x(sec2x−1)dx=∫xsec2xdx−∫xdx=x∫sec2xdx−∫{dxd(x)∫sec2xdx}dx−2x2=xtanx−∫1⋅tanxdx−2x2=xtanx+ln∣cosx∣−2x2+c",
+    "explanation": "\\begin{array}{l} =\\int x\\left(\\sec ^{2} x-1\\right) d x=\\int x \\sec ^{2} x d x-\\int x d x \\\\ =x \\int \\sec ^{2} x d x-\\int\\left\\{\\frac{d}{d x}(x) \\int \\sec ^{2} x d x\\right\\} d x-\\frac{x^{2}}{2} \\\\ =x \\tan x-\\int 1 \\cdot \\tan x d x-\\frac{x^{2}}{2} \\\\ =x \\tan x+\\ln |\\cos x|-\\frac{x^{2}}{2}+c \\end{array} =",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫x(sec⁡2x−1)dx=? \\int x\\left(\\sec ^{2} x-1\\right) d x = ?∫x(sec2x−1)dx=?$",
-    "explanationLatex": "$Solve: =∫x(sec⁡2x−1)dx=∫xsec⁡2xdx−∫xdx=x∫sec⁡2xdx−∫{ddx(x)∫sec⁡2xdx}dx−x22=xtan⁡x−∫1⋅tan⁡xdx−x22=xtan⁡x+ln⁡∣cos⁡x∣−x22+c \\begin{array}{l} =\\int x\\left(\\sec ^{2} x-1\\right) d x=\\int x \\sec ^{2} x d x-\\int x d x \\\\ =x \\int \\sec ^{2} x d x-\\int\\left\\{\\frac{d}{d x}(x) \\int \\sec ^{2} x d x\\right\\} d x-\\frac{x^{2}}{2} \\\\ =x \\tan x-\\int 1 \\cdot \\tan x d x-\\frac{x^{2}}{2} \\\\ =x \\tan x+\\ln |\\cos x|-\\frac{x^{2}}{2}+c \\end{array} =∫x(sec2x−1)dx=∫xsec2xdx−∫xdx=x∫sec2xdx−∫{dxd(x)∫sec2xdx}dx−2x2=xtanx−∫1⋅tanxdx−2x2=xtanx+ln∣cosx∣−2x2+c$"
+    "questionLatex": "\\int x\\left(\\sec ^{2} x-1\\right) d x = ?",
+    "explanationLatex": "\\begin{array}{l} =\\int x\\left(\\sec ^{2} x-1\\right) d x=\\int x \\sec ^{2} x d x-\\int x d x \\\\ =x \\int \\sec ^{2} x d x-\\int\\left\\{\\frac{d}{d x}(x) \\int \\sec ^{2} x d x\\right\\} d x-\\frac{x^{2}}{2} \\\\ =x \\tan x-\\int 1 \\cdot \\tan x d x-\\frac{x^{2}}{2} \\\\ =x \\tan x+\\ln |\\cos x|-\\frac{x^{2}}{2}+c \\end{array} ="
   },
   {
     "id": 46,
-    "question": "∫01(tan)−1x21+x2dx=কত? \\int_{0}^{1} \\frac{ (tan)^{-1} x^{2}}{1 + x^{2}} dx = কত ? ∫011+x2(tan)−1x2dx=কত?",
+    "question": "কত? \\int_{0}^{1} \\frac{ (tan)^{-1} x^{2}}{1 + x^{2}} dx = কত ? কত?",
     "options": {
       "a": "( 𝜋 ) 3 192 192 (π) 3",
       "b": "( 𝜋 ) 3 64 64 (π) 3",
@@ -916,12 +916,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫01(tan)−1x21+x2dx=কত? \\int_{0}^{1} \\frac{ (tan)^{-1} x^{2}}{1 + x^{2}} dx = কত ? ∫011+x2(tan)−1x2dx=কত?$",
+    "questionLatex": "কত? \\int_{0}^{1} \\frac{ (tan)^{-1} x^{2}}{1 + x^{2}} dx = কত ? কত?",
     "explanationLatex": "$সঠিক উত্তর: (a) ( 𝜋 ) 3 192 192 (\\\\pi ) 3।$"
   },
   {
     "id": 47,
-    "question": "∫tan⁡xsin⁡x.cos⁡x=f(x)+c \\int \\frac{\\sqrt{\\tan{x}}}{\\sin{x} . \\cos{x}} = f{\\left ( x \\right )} + c ∫sinx.cosxtanx=f(x)+c হলে f(x)=কত?",
+    "question": "\\int \\frac{\\sqrt{\\tan{x}}}{\\sin{x} . \\cos{x}} = f{\\left ( x \\right )} + c হলে f(x)=কত?",
     "options": {
       "a": "tanx",
       "b": "cotx",
@@ -929,19 +929,19 @@
       "d": "tan ⁡ 𝑥 2 2 tanx"
     },
     "correctAnswer": "c",
-    "explanation": "∫tan⁡xsin⁡x⋅cos⁡xdx=∫tan⁡xsin⁡xcos⁡x⋅cos⁡2xdx=∫tan⁡xtan⁡xcos⁡2x=∫sec⁡2xtan⁡x=2tan⁡x[∫f′(x)f(x)dx=2f(x)] \\begin{aligned} & \\int \\frac{\\sqrt{\\tan x}}{\\sin x \\cdot \\cos x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\frac{\\sin x}{\\cos x} \\cdot \\cos ^{2} x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\tan x \\cos ^{2} x} \\\\ = & \\int \\frac{\\sec ^{2} x}{\\sqrt{\\tan x}} \\\\ = & 2 \\sqrt{\\tan x}\\left[\\int \\frac{f^{\\prime}(x)}{f(x)} d x=2 \\sqrt{f(x)}\\right]\\end{aligned} ====∫sinx⋅cosxtanxdx∫cosxsinx⋅cos2xtanxdx∫tanxcos2xtanx∫tanxsec2x2tanx[∫f(x)f′(x)dx=2f(x)]",
+    "explanation": "\\begin{aligned} & \\int \\frac{\\sqrt{\\tan x}}{\\sin x \\cdot \\cos x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\frac{\\sin x}{\\cos x} \\cdot \\cos ^{2} x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\tan x \\cos ^{2} x} \\\\ = & \\int \\frac{\\sec ^{2} x}{\\sqrt{\\tan x}} \\\\ = & 2 \\sqrt{\\tan x}\\left[\\int \\frac{f^{\\prime}(x)}{f(x)} d x=2 \\sqrt{f(x)}\\right]\\end{aligned} ====",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫tan⁡xsin⁡x.cos⁡x=f(x)+c \\int \\frac{\\sqrt{\\tan{x}}}{\\sin{x} . \\cos{x}} = f{\\left ( x \\right )} + c ∫sinx.cosxtanx=f(x)+c হলে f(x)=কত?$",
-    "explanationLatex": "$∫tan⁡xsin⁡x⋅cos⁡xdx=∫tan⁡xsin⁡xcos⁡x⋅cos⁡2xdx=∫tan⁡xtan⁡xcos⁡2x=∫sec⁡2xtan⁡x=2tan⁡x[∫f′(x)f(x)dx=2f(x)] \\begin{aligned} & \\int \\frac{\\sqrt{\\tan x}}{\\sin x \\cdot \\cos x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\frac{\\sin x}{\\cos x} \\cdot \\cos ^{2} x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\tan x \\cos ^{2} x} \\\\ = & \\int \\frac{\\sec ^{2} x}{\\sqrt{\\tan x}} \\\\ = & 2 \\sqrt{\\tan x}\\left[\\int \\frac{f^{\\prime}(x)}{f(x)} d x=2 \\sqrt{f(x)}\\right]\\end{aligned} ====∫sinx⋅cosxtanxdx∫cosxsinx⋅cos2xtanxdx∫tanxcos2xtanx∫tanxsec2x2tanx[∫f(x)f′(x)dx=2f(x)]$"
+    "questionLatex": "\\int \\frac{\\sqrt{\\tan{x}}}{\\sin{x} . \\cos{x}} = f{\\left ( x \\right )} + c হলে f(x)=কত?",
+    "explanationLatex": "\\begin{aligned} & \\int \\frac{\\sqrt{\\tan x}}{\\sin x \\cdot \\cos x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\frac{\\sin x}{\\cos x} \\cdot \\cos ^{2} x} d x \\\\ = & \\int \\frac{\\sqrt{\\tan x}}{\\tan x \\cos ^{2} x} \\\\ = & \\int \\frac{\\sec ^{2} x}{\\sqrt{\\tan x}} \\\\ = & 2 \\sqrt{\\tan x}\\left[\\int \\frac{f^{\\prime}(x)}{f(x)} d x=2 \\sqrt{f(x)}\\right]\\end{aligned} ===="
   },
   {
     "id": 48,
-    "question": "∫01(cos⁡−1x)31−x2 dx=?\\int_{0}^{1}{\\frac{\\left(\\cos^{-1}{x}\\right)^3}{\\sqrt{1-x^2}}\\ dx}=? ∫011−x2(cos−1x)3 dx=?",
+    "question": "\\int_{0}^{1}{\\frac{\\left(\\cos^{-1}{x}\\right)^3}{\\sqrt{1-x^2}}\\ dx}=?",
     "options": {
       "a": "𝜋 3 24 24 π 3",
       "b": "𝜋 4 64 64 π 4",
@@ -949,14 +949,14 @@
       "d": "𝜋 4 32 32 π 4"
     },
     "correctAnswer": "b",
-    "explanation": "∫01(cos⁡−1x)31−x2 dx=[(cos⁡−1x)44]10=π464\\int_{0}^{1}{\\frac{(\\cos^{-1}x){3}}{\\sqrt{1-x^2}}\\ dx}=\\left[\\frac{{{(\\cos}^{-1}{x})}^4}{4}\\right]_1^0=\\frac{\\pi^4}{64}∫011−x2(cos−1x)3 dx=[4(cos−1x)4]10=64π4",
+    "explanation": "\\int_{0}^{1}{\\frac{(\\cos^{-1}x){3}}{\\sqrt{1-x^2}}\\ dx}=\\left[\\frac{{{(\\cos}^{-1}{x})}^4}{4}\\right]_1^0=\\frac{\\pi^4}{64}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$∫01(cos⁡−1x)31−x2 dx=?\\int_{0}^{1}{\\frac{\\left(\\cos^{-1}{x}\\right)^3}{\\sqrt{1-x^2}}\\ dx}=? ∫011−x2(cos−1x)3 dx=?$",
-    "explanationLatex": "$∫01(cos⁡−1x)31−x2 dx=[(cos⁡−1x)44]10=\\\\pi 464\\int_{0}^{1}{\\frac{(\\cos^{-1}x){3}}{\\sqrt{1-x^2}}\\ dx}=\\left[\\frac{{{(\\cos}^{-1}{x})}^4}{4}\\right]_1^0=\\frac{\\pi^4}{64}∫011−x2(cos−1x)3 dx=[4(cos−1x)4]10=64\\\\pi 4$"
+    "questionLatex": "\\int_{0}^{1}{\\frac{\\left(\\cos^{-1}{x}\\right)^3}{\\sqrt{1-x^2}}\\ dx}=?",
+    "explanationLatex": "\\pi 464\\int_{0}^{1}{\\frac{(\\cos^{-1}x){3}}{\\sqrt{1-x^2}}\\ dx}=\\left[\\frac{{{(\\cos}^{-1}{x})}^4}{4}\\right]_1^0=\\frac{\\pi^4}{64}\\pi 4"
   }
 ]

@@ -170,14 +170,14 @@
       "d": "900 K বাড়াতে হবে"
     },
     "correctAnswer": "d",
-    "explanation": "\\( \\eta = 1 - \\frac{600}{900} = \\frac{1}{3} \\) ; \\( \\frac{2}{3} = 1 - \\frac{600}{T_1} \\) ∴ \\( T_1 = 1800 \\text{ K} \\) ∴ তাপমাত্রা বাড়াতে হবে \\( 1800 - 900 = 900 \\text{ K} \\)",
+    "explanation": "\\( \\eta = 1 - \\frac{600}{900} = \\frac{1}{3} \\) ; \\( \\frac{2}{3} = 1 - \\frac{600}{T_1} \\) \\text{ K} \\) ∴ তাপমাত্রা বাড়াতে হবে \\( \\text{ K} \\)",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি কার্নো ইঞ্জিন 600K ও 900K তাপমাত্রায় কার্যরত আছে। কর্মদক্ষতা দ্বিগুণ করতে হলে তাপ উৎসের তাপমাত্রার কিরূপ পরিবর্তন করতে হবে?",
-    "explanationLatex": "$\\( \\eta = 1 - \\frac{600}{900} = \\frac{1}{3} \\) ; \\( \\frac{2}{3} = 1 - \\frac{600}{T_1} \\) ∴ \\( T_1 = 1800 \\text{ K} \\) ∴ তাপমাত্রা বাড়াতে হবে \\( 1800 - 900 = 900 \\text{ K} \\)$"
+    "explanationLatex": "\\( \\eta = 1 - \\frac{600}{900} = \\frac{1}{3} \\) ; \\( \\frac{2}{3} = 1 - \\frac{600}{T_1} \\) \\text{ K} \\) ∴ তাপমাত্রা বাড়াতে হবে \\( \\text{ K} \\)"
   },
   {
     "id": 10,
@@ -370,14 +370,14 @@
       "d": "2300K"
     },
     "correctAnswer": "c",
-    "explanation": "\\( \\eta = 1 - \\frac{T_2}{T_1} \\Rightarrow 0.8 = 1 - \\frac{127 + 273}{T_1} \\) ∴ \\( T_1 = 2000 \\text{ K} \\)",
+    "explanation": "\\( \\eta = 1 - \\frac{T_2}{T_1} \\Rightarrow 0.8 = 1 - \\frac{127 + 273}{T_1} \\) \\text{ K} \\)",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি তাপ ইঞ্জিনের কর্মদক্ষতা 80%। গ্রাহকের তাপমাত্রা 127^{\\\\circ}C হলে উৎসের তাপমাত্রা কত?$",
-    "explanationLatex": "$\\( \\eta = 1 - \\frac{T_2}{T_1} \\Rightarrow 0.8 = 1 - \\frac{127 + 273}{T_1} \\) ∴ \\( T_1 = 2000 \\text{ K} \\)$"
+    "explanationLatex": "\\( \\eta = 1 - \\frac{T_2}{T_1} \\Rightarrow 0.8 = 1 - \\frac{127 + 273}{T_1} \\) \\text{ K} \\)"
   },
   {
     "id": 20,

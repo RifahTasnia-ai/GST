@@ -9,7 +9,7 @@
       "d": "1"
     },
     "correctAnswer": "a",
-    "explanation": "T2T1=L2L1=4L1L1 \\frac{T_{2}}{T_{1}} = \\sqrt{\\frac{L_{2}}{L_{1}}} = \\sqrt{\\frac{4 L_{1}}{L_{1}}} T1T2=L1L2=L14L1 বা, T2=2×T1 T_{2} = 2 × T_{1} T2=2×T1",
+    "explanation": "\\frac{T_{2}}{T_{1}} = \\sqrt{\\frac{L_{2}}{L_{1}}} = \\sqrt{\\frac{4 L_{1}}{L_{1}}} T1T2=L1L2=L14L1 বা, T2=2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -89,7 +89,7 @@
       "d": "3 𝑑 𝑥 𝑑 𝑡 + 10 𝑥 = 0 3 dt dx +10x=0"
     },
     "correctAnswer": "b",
-    "explanation": "কোনো কণার উপর ক্রিয়াশীল বল F এবং সরণ x হলে সরল দোলন গতির ক্ষেত্রে, F∝−xF \\propto -x F∝−x এ ধ্রুবক k কে বলা হয় বল ধ্রুবক। নিউটনের গতির দ্বিতীয় সূত্র থেকে আবার আমরা জানি বস্তুর ভর m এবং ত্বরণ a হলে, F=ma ∴ma=−kxa=dvdt=ddt(dxdt)=d2xdt2∴md2xdt2=−kx⇒d2xdt2=−kmx⇒d2xdt2+kmx=x\\begin{aligned} & \\therefore ma = -kx \\\\ & a = \\frac{dv}{dt} = \\frac{d}{dt}(\\frac{dx}{dt}) = \\frac{d²x}{dt²} \\\\ & \\therefore m \\frac{d²x}{dt²} = -kx \\\\ & \\Rightarrow \\frac{d²x}{dt²} = - \\frac{k}{m}x \\\\ & \\Rightarrow \\frac{d²x}{dt²} + \\frac{k}{m}x = x \\end{aligned} ∴ma=−kxa=dtdv=dtd(dtdx)=dt2d2x∴mdt2d2x=−kx⇒dt2d2x=−mkx⇒dt2d2x+mkx=x আবার km=ω2\\frac{k}{m} = \\omega² mk=ω2 তাহলে d2xdt2 \\frac{d^{2} x}{dt^{2}} dt2d2x +ω²x=0 এটিই সরল ছন্দিত স্পন্দনের ব্যবকলনীয় সমীকরণ হিসেবে পরিচিত।",
+    "explanation": "কোনো কণার উপর ক্রিয়াশীল বল F এবং সরণ x হলে সরল দোলন গতির ক্ষেত্রে, \\propto -x F∝−x এ ধ্রুবক k কে বলা হয় বল ধ্রুবক। নিউটনের গতির দ্বিতীয় সূত্র থেকে আবার আমরা জানি বস্তুর ভর m এবং ত্বরণ a হলে, F=ma \\begin{aligned} & \\therefore ma = -kx \\\\ & a = \\frac{dv}{dt} = \\frac{d}{dt}(\\frac{dx}{dt}) = \\frac{d²x}{dt²} \\\\ & \\therefore m \\frac{d²x}{dt²} = -kx \\\\ & \\Rightarrow \\frac{d²x}{dt²} = - \\frac{k}{m}x \\\\ & \\Rightarrow \\frac{d²x}{dt²} + \\frac{k}{m}x = x \\end{aligned} আবার km=ω2\\frac{k}{m} = \\omegaতাহলে \\frac{d^{2} x}{dt^{2}} dt2d2x +ωএটিই সরল ছন্দিত স্পন্দনের ব্যবকলনীয় সমীকরণ হিসেবে পরিচিত।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিচের কোনটি সরল ছন্দিত গতিসম্পন্ন কণার অন্তরক সমীকরণ?",
-    "explanationLatex": "$কোনো কণার উপর ক্রিয়াশীল বল F এবং সরণ x হলে সরল দোলন গতির ক্ষেত্রে, F\\\\propto −xF \\propto -x F\\\\propto −x এ ধ্রুবক k কে বলা হয় বল ধ্রুবক। নিউটনের গতির দ্বিতীয় সূত্র থেকে আবার আমরা জানি বস্তুর ভর m এবং ত্বরণ a হলে, F=ma ∴ma=−kxa=dvdt=ddt(dxdt)=d2xdt2∴md2xdt2=−kx⇒d2xdt2=−kmx⇒d2xdt2+kmx=x\\begin{aligned} & \\therefore ma = -kx \\\\ & a = \\frac{dv}{dt} = \\frac{d}{dt}(\\frac{dx}{dt}) = \\frac{d²x}{dt²} \\\\ & \\therefore m \\frac{d²x}{dt²} = -kx \\\\ & \\Rightarrow \\frac{d²x}{dt²} = - \\frac{k}{m}x \\\\ & \\Rightarrow \\frac{d²x}{dt²} + \\frac{k}{m}x = x \\end{aligned} ∴ma=−kxa=dtdv=dtd(dtdx)=dt2d2x∴mdt2d2x=−kx⇒dt2d2x=−mkx⇒dt2d2x+mkx=x আবার km=ω2\\frac{k}{m} = \\omega² mk=ω2 তাহলে d2xdt2 \\frac{d^{2} x}{dt^{2}} dt2d2x +ω²x=0 এটিই সরল ছন্দিত স্পন্দনের ব্যবকলনীয় সমীকরণ হিসেবে পরিচিত।$"
+    "explanationLatex": "কোনো কণার উপর ক্রিয়াশীল বল F এবং সরণ x হলে সরল দোলন গতির ক্ষেত্রে, F\\\\propto −xF \\propto -x F\\\\propto −x এ ধ্রুবক k কে বলা হয় বল ধ্রুবক। নিউটনের গতির দ্বিতীয় সূত্র থেকে আবার আমরা জানি বস্তুর ভর m এবং ত্বরণ a হলে, F=ma \\begin{aligned} & \\therefore ma = -kx \\\\ & a = \\frac{dv}{dt} = \\frac{d}{dt}(\\frac{dx}{dt}) = \\frac{d²x}{dt²} \\\\ & \\therefore m \\frac{d²x}{dt²} = -kx \\\\ & \\Rightarrow \\frac{d²x}{dt²} = - \\frac{k}{m}x \\\\ & \\Rightarrow \\frac{d²x}{dt²} + \\frac{k}{m}x = x \\end{aligned} আবার km=ω2\\frac{k}{m} = \\omegaতাহলে \\frac{d^{2} x}{dt^{2}} dt2d2x +ωএটিই সরল ছন্দিত স্পন্দনের ব্যবকলনীয় সমীকরণ হিসেবে পরিচিত।"
   },
   {
     "id": 6,
@@ -129,7 +129,7 @@
       "d": "1 𝑚 𝐽 1mJ"
     },
     "correctAnswer": "d",
-    "explanation": "স্প্রিং ধ্রুবক K = 10 N/m বিস্তার A = 2cm = 0.02 m সর্বোচ্চ গতিশক্তি = E=12×KA2=2×10−3=2mJ,E=\\frac{1}{2}\\times KA^2=2\\times10^{-3}=2mJ, E=21×KA2=2×10−3=2mJ, :. গড় গতিশক্তি =E2=22=1mJ=\\frac{E}{2}=\\frac{2}{2}=1mJ=2E=22=1mJ",
+    "explanation": "স্প্রিং ধ্রুবক বিস্তার সর্বোচ্চ গতিশক্তি = E=12\\frac{1}{2}\\times KA^2=2\\times10^{-3}=2mJ, E=21গড় গতিশক্তি =\\frac{E}{2}=\\frac{2}{2}=1mJ=2E=22=1mJ",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -149,7 +149,7 @@
       "d": "25:16"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, সরলদোলকের দোলনকাল, T=2πLgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2πgL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] ∴T∝L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}∴T∝L এখন প্রথম দোলকের দৈর্ঘ্য L1L_1L1, দ্বিতীয় দোলকের দৈর্ঘ্য L2L_2L2 প্রথম দোলকের দোলনকাল T1T_1T1, দ্বিতীয় দোলকের দোলনকাল T2T_2T2 T1T2=L1L2⇒45=L1L2⇒1625=L1L2\\begin{aligned} \\frac{T_1}{T_2} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{4}{5} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{16}{25} &= \\frac{L_1}{L_2}\\end{aligned} T2T1⇒54⇒2516=L2L1=L2L1=L2L1",
+    "explanation": "আমরা জানি, সরলদোলকের দোলনকাল, \\pi \\sqrt{\\frac{L}{g}}T=2πgL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}এখন প্রথম দোলকের দৈর্ঘ্য দ্বিতীয় দোলকের দৈর্ঘ্য প্রথম দোলকের দোলনকাল দ্বিতীয় দোলকের দোলনকাল \\begin{aligned} \\frac{T_1}{T_2} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{4}{5} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{16}{25} &= \\frac{L_1}{L_2}\\end{aligned} T2T1",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন স্থানে দুটি সরল দোলকের দোলনকালের অনুপাত 4:5 হলে এদের কার্যকর দৈর্ঘের অনুপাত বের কর।",
-    "explanationLatex": "$আমরা জানি, সরলদোলকের দোলনকাল, T=2\\\\pi LgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2\\\\pi gL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] ∴T\\\\propto L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}∴T\\\\propto L এখন প্রথম দোলকের দৈর্ঘ্য L1L_1L1, দ্বিতীয় দোলকের দৈর্ঘ্য L2L_2L2 প্রথম দোলকের দোলনকাল T1T_1T1, দ্বিতীয় দোলকের দোলনকাল T2T_2T2 T1T2=L1L2⇒45=L1L2⇒1625=L1L2\\begin{aligned} \\frac{T_1}{T_2} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{4}{5} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{16}{25} &= \\frac{L_1}{L_2}\\end{aligned} T2T1⇒54⇒2516=L2L1=L2L1=L2L1$"
+    "explanationLatex": "আমরা জানি, সরলদোলকের দোলনকাল, T=2\\\\pi LgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2\\\\pi gL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] \\propto L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}\\propto L এখন প্রথম দোলকের দৈর্ঘ্য দ্বিতীয় দোলকের দৈর্ঘ্য প্রথম দোলকের দোলনকাল দ্বিতীয় দোলকের দোলনকাল \\begin{aligned} \\frac{T_1}{T_2} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{4}{5} &= \\sqrt{\\frac{L_1}{L_2}} \\\\ \\Rightarrow \\frac{16}{25} &= \\frac{L_1}{L_2}\\end{aligned} T2T1"
   },
   {
     "id": 9,
@@ -229,7 +229,7 @@
       "d": "180 s"
     },
     "correctAnswer": "d",
-    "explanation": "সরলদোলকের দোলনকাল, T=2πLgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2πgL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] ∴T∝L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}∴T∝L এখন প্রথম দোলকের দৈর্ঘ্য L1=40cmL_1 = 40cmL1=40cm, দ্বিতীয় দোলকের দৈর্ঘ্য L2=160cmL_2 = 160cmL2=160cm 40 টি দোল দিতে সময় লাগে 60 sec .: 1 টি দোল দিতে সময় লাগে 6040\\frac{60}{40}4060 = পর্যায়কাল T1T_1T1, দ্বিতীয় দোলকের দোলনকাল T2T_2T2 T2 T1=L2 L1⇒T2 T1=2⇒T2=2×6040∴T2=3sec \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=\\sqrt{\\frac{\\mathrm{L}_{2}}{\\mathrm{~L}_{1}}} \\Rightarrow \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=2 \\Rightarrow \\mathrm{T}_{2}=2 \\times \\frac{60}{40} \\therefore \\mathrm{T}_{2}=3 \\mathrm{sec} T1T2= L1L2⇒ T1T2=2⇒T2=2×4060∴T2=3sec ∴60 \\therefore 60 ∴60 বার দুলতে সময় =3×60=180sec =3 \\times 60=180 \\mathrm{sec} =3×60=180sec",
+    "explanation": "সরলদোলকের দোলনকাল, \\pi \\sqrt{\\frac{L}{g}}T=2πgL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}এখন প্রথম দোলকের দৈর্ঘ্য দ্বিতীয় দোলকের দৈর্ঘ্য টি দোল দিতে সময় লাগে টি দোল দিতে সময় লাগে 6040\\frac{60}{40}4060 = পর্যায়কাল দ্বিতীয় দোলকের দোলনকাল \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=\\sqrt{\\frac{\\mathrm{L}_{2}}{\\mathrm{~L}_{1}}} \\Rightarrow \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=2 \\Rightarrow \\mathrm{T}_{2}=2 \\times \\frac{60}{40} \\therefore \\mathrm{T}_{2}=3 \\mathrm{sec} T1T2= L1L2\\therefore 60 বার দুলতে সময় =3\\times 60=180 \\mathrm{sec} =3",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -237,7 +237,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "40 cm দীর্ঘ একটি সরল দোলক এক মিনিটে 40 বার দোল দেয়। যদি এর দৈর্ঘ্য 160 cm হয় তবে 60 বার দুলতে কত সময় নিবে ?",
-    "explanationLatex": "$সরলদোলকের দোলনকাল, T=2\\\\pi LgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2\\\\pi gL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] ∴T\\\\propto L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}∴T\\\\propto L এখন প্রথম দোলকের দৈর্ঘ্য L1=40cmL_1 = 40cmL1=40cm, দ্বিতীয় দোলকের দৈর্ঘ্য L2=160cmL_2 = 160cmL2=160cm 40 টি দোল দিতে সময় লাগে 60 sec .: 1 টি দোল দিতে সময় লাগে 6040\\frac{60}{40}4060 = পর্যায়কাল T1T_1T1, দ্বিতীয় দোলকের দোলনকাল T2T_2T2 T2 T1=L2 L1⇒T2 T1=2⇒T2=2\\ \\times 6040∴T2=3sec \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=\\sqrt{\\frac{\\mathrm{L}_{2}}{\\mathrm{~L}_{1}}} \\Rightarrow \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=2 \\Rightarrow \\mathrm{T}_{2}=2 \\times \\frac{60}{40} \\therefore \\mathrm{T}_{2}=3 \\mathrm{sec} T1T2= L1L2⇒ T1T2=2⇒T2=2\\ \\times 4060∴T2=3sec ∴60 \\therefore 60 ∴60 বার দুলতে সময় =3\\ \\times 60=180sec =3 \\times 60=180 \\mathrm{sec} =3\\ \\times 60=180sec$"
+    "explanationLatex": "সরলদোলকের দোলনকাল, T=2\\\\pi LgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2\\\\pi gL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] \\propto L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}\\propto L এখন প্রথম দোলকের দৈর্ঘ্য দ্বিতীয় দোলকের দৈর্ঘ্য টি দোল দিতে সময় লাগে টি দোল দিতে সময় লাগে 6040\\frac{60}{40}4060 = পর্যায়কাল দ্বিতীয় দোলকের দোলনকাল \\times 6040\\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=\\sqrt{\\frac{\\mathrm{L}_{2}}{\\mathrm{~L}_{1}}} \\Rightarrow \\frac{\\mathrm{T}_{2}}{\\mathrm{~T}_{1}}=2 \\Rightarrow \\mathrm{T}_{2}=2 \\times \\frac{60}{40} \\therefore \\mathrm{T}_{2}=3 \\mathrm{sec} T1T2= L1L2\\times 4060\\therefore 60 বার দুলতে সময় =3\\ \\times 60=180sec =3 \\times 60=180 \\mathrm{sec} =3\\ \\times 60=180sec"
   },
   {
     "id": 13,
@@ -269,7 +269,7 @@
       "d": "অসীম"
     },
     "correctAnswer": "d",
-    "explanation": "মহাকাশযানে g-এর মান শূন্য ধরা হয়। ∴T=2πLg=2πL0=∞ \\therefore \\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{L}}{\\mathrm{g}}}=2 \\pi \\sqrt{\\frac{\\mathrm{L}}{0}}=\\infty ∴T=2πgL=2π0L=∞ অর্থাৎ, মহাকাশযানে সেকেন্ড দোলকের পর্যায়কাল অসীম হবে।",
+    "explanation": "মহাকাশযানে g-এর মান শূন্য ধরা হয়। \\therefore \\mathrm{T}=2 \\pi \\sqrt{\\frac{\\mathrm{L}}{\\mathrm{g}}}=2 \\pi \\sqrt{\\frac{\\mathrm{L}}{0}}=\\infty অর্থাৎ, মহাকাশযানে সেকেন্ড দোলকের পর্যায়কাল অসীম হবে।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -349,7 +349,7 @@
       "d": "3 2 V m a x 2 3 V max"
     },
     "correctAnswer": "c",
-    "explanation": "v=ωA2−x2⇒v=ωA2−A24⇒v=ω3A24⇒v=ωA32⇒v=32vmax \\begin{aligned} v & =\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v & =\\omega \\sqrt{A^{2}-\\frac{A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega \\sqrt{\\frac{3 A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega A \\frac{\\sqrt{3}}{2} \\\\ \\Rightarrow v & =\\frac{\\sqrt{3}}{2} v_{\\text {max }}\\end{aligned} v⇒v⇒v⇒v⇒v=ωA2−x2=ωA2−4A2=ω43A2=ωA23=23vmax",
+    "explanation": "\\begin{aligned} v & =\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v & =\\omega \\sqrt{A^{2}-\\frac{A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega \\sqrt{\\frac{3 A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega A \\frac{\\sqrt{3}}{2} \\\\ \\Rightarrow v & =\\frac{\\sqrt{3}}{2} v_{\\text {max }}\\end{aligned} v",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -357,7 +357,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$স্প্রিং সংযুক্ত একটি কণা সরল ছন্দিত স্পন্দনে স্পন্দিত হচ্ছে। x=A2\\rm x=\\frac{A}{2} x=2A অবস্থানে বেগ কত?$",
-    "explanationLatex": "$v=ωA2−x2⇒v=ωA2−A24⇒v=ω3A24⇒v=ωA32⇒v=32vmax \\begin{aligned} v & =\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v & =\\omega \\sqrt{A^{2}-\\frac{A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega \\sqrt{\\frac{3 A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega A \\frac{\\sqrt{3}}{2} \\\\ \\Rightarrow v & =\\frac{\\sqrt{3}}{2} v_{\\text {max }}\\end{aligned} v⇒v⇒v⇒v⇒v=ωA2−x2=ωA2−4A2=ω43A2=ωA23=23vmax$"
+    "explanationLatex": "\\begin{aligned} v & =\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v & =\\omega \\sqrt{A^{2}-\\frac{A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega \\sqrt{\\frac{3 A^{2}}{4}} \\\\ \\Rightarrow v & =\\omega A \\frac{\\sqrt{3}}{2} \\\\ \\Rightarrow v & =\\frac{\\sqrt{3}}{2} v_{\\text {max }}\\end{aligned} v"
   },
   {
     "id": 19,
@@ -389,7 +389,7 @@
       "d": "1 m"
     },
     "correctAnswer": "c",
-    "explanation": "সেকেন্ড দোলকের পর্যায়কাল ২ সেকেন্ড পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2π×Lg⇒2=2π×L9.8∴L=0.993 mT=2\\pi\\times\\sqrt{\\frac{L}{g}}\\Rightarrow2=2\\pi\\times\\sqrt{\\frac{L}{9.8}}\\therefore L=0.993\\ m T=2π×gL⇒2=2π×9.8L∴L=0.993 m",
+    "explanation": "সেকেন্ড দোলকের পর্যায়কাল ২ সেকেন্ড পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2π\\pi\\times\\sqrt{\\frac{L}{g}}\\Rightarrow2=2\\pi\\times\\sqrt{\\frac{L}{9.8}}\\therefore L=0.993\\ m T=2π",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিচের কোনটি সেকেন্ড দোলকের দৈর্ঘ্য?",
-    "explanationLatex": "$সেকেন্ড দোলকের পর্যায়কাল ২ সেকেন্ড পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2\\\\pi \\ \\times Lg⇒2=2\\\\pi \\ \\times L9.8∴L=0.993 mT=2\\pi \\times \\sqrt{\\frac{L}{g}}\\Rightarrow2=2\\pi \\times \\sqrt{\\frac{L}{9.8}}\\therefore L=0.993\\ m T=2\\\\pi \\ \\times gL⇒2=2\\\\pi \\ \\times 9.8L∴L=0.993 m$"
+    "explanationLatex": "সেকেন্ড দোলকের পর্যায়কাল ২ সেকেন্ড পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2\\\\pi \\ \\times Lg\\pi \\ \\times L9.8\\pi \\times \\sqrt{\\frac{L}{g}}\\Rightarrow2=2\\pi \\times \\sqrt{\\frac{L}{9.8}}\\therefore L=0.993\\ m T=2\\\\pi \\ \\times gL\\pi \\ \\times 9.8L"
   },
   {
     "id": 21,
@@ -489,7 +489,7 @@
       "d": "এক চতুর্থাংশ"
     },
     "correctAnswer": "b",
-    "explanation": "সরলদোলকের দোলনকাল, T=2πLg∴T∝L \\begin{array}{l} T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}} \\\\ \\end{array} T=2πgL∴T∝L ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] T∝4⇒T∝2T \\propto \\sqrt{4} \\Rightarrow T \\propto 2T∝4⇒T∝2 অর্থাৎ দৈর্ঘ্য চারগুণ করূলে দোলনকাল পূর্বের দ্বিগুণ হবে।",
+    "explanation": "সরলদোলকের দোলনকাল, \\begin{array}{l} T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}} \\\\ \\end{array} T=2πgLএখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] T∝4\\propto \\sqrt{4} \\Rightarrow T \\propto 2T∝4অর্থাৎ দৈর্ঘ্য চারগুণ করূলে দোলনকাল পূর্বের দ্বিগুণ হবে।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -509,7 +509,7 @@
       "d": "বর্গমূলের সমানুপাতিক"
     },
     "correctAnswer": "a",
-    "explanation": "পর্যায়কাল=TT T কার্যকরী দৈর্ঘ্য=LLL অভিকর্ষজ ত্বরণ=ggg আমরা জানি, T=2πLg⇒Tg=2πL⇒g∝L⇒g∝L \\begin{aligned} & T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\Rightarrow & T \\sqrt{g}=2 \\pi \\sqrt{L} \\\\ \\Rightarrow & \\sqrt{g} \\propto \\sqrt{L} \\\\ \\Rightarrow & g \\propto L\\end{aligned} ⇒⇒⇒T=2πgLTg=2πLg∝Lg∝L সেকেন্ড দোলকের ক্ষেত্রে কার্যকরী দৈর্ঘ্য অভিকর্ষজ ত্বরণের সমানুপাতিক",
+    "explanation": "পর্যায়কাল=TT T কার্যকরী দৈর্ঘ্য=LLL অভিকর্ষজ ত্বরণ=ggg আমরা জানি, \\begin{aligned} & T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\Rightarrow & T \\sqrt{g}=2 \\pi \\sqrt{L} \\\\ \\Rightarrow & \\sqrt{g} \\propto \\sqrt{L} \\\\ \\Rightarrow & g \\propto L\\end{aligned} সেকেন্ড দোলকের ক্ষেত্রে কার্যকরী দৈর্ঘ্য অভিকর্ষজ ত্বরণের সমানুপাতিক",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -517,7 +517,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সেকেন্ড দোলকের ক্ষেত্রে কার্যকরী দৈর্ঘ্য অভিকর্ষজ ত্বরণের-",
-    "explanationLatex": "$পর্যায়কাল=TT T কার্যকরী দৈর্ঘ্য=LLL অভিকর্ষজ ত্বরণ=ggg আমরা জানি, T=2\\\\pi Lg⇒Tg=2\\\\pi L⇒g\\\\propto L⇒g\\\\propto L \\begin{aligned} & T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\Rightarrow & T \\sqrt{g}=2 \\pi \\sqrt{L} \\\\ \\Rightarrow & \\sqrt{g} \\propto \\sqrt{L} \\\\ \\Rightarrow & g \\propto L\\end{aligned} ⇒⇒⇒T=2\\\\pi gLTg=2\\\\pi Lg\\\\propto Lg\\\\propto L সেকেন্ড দোলকের ক্ষেত্রে কার্যকরী দৈর্ঘ্য অভিকর্ষজ ত্বরণের সমানুপাতিক$"
+    "explanationLatex": "পর্যায়কাল=TT T কার্যকরী দৈর্ঘ্য=LLL অভিকর্ষজ ত্বরণ=ggg আমরা জানি, T=2\\\\pi Lg\\pi L\\propto L\\propto L \\begin{aligned} & T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\Rightarrow & T \\sqrt{g}=2 \\pi \\sqrt{L} \\\\ \\Rightarrow & \\sqrt{g} \\propto \\sqrt{L} \\\\ \\Rightarrow & g \\propto L\\end{aligned} \\pi gLTg=2\\\\pi Lg\\\\propto Lg\\\\propto L সেকেন্ড দোলকের ক্ষেত্রে কার্যকরী দৈর্ঘ্য অভিকর্ষজ ত্বরণের সমানুপাতিক"
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "3 গুণ"
     },
     "correctAnswer": "c",
-    "explanation": "বর্তমান দোলোনকাল T′=T+0.5TT′=1.5TT2I1=L2L1⇒(1.5)2=L2L1⇒2.25=L2L1⇒L2=2.25L1 \\begin{array}{l} T^{\\prime}=T+0.5 T \\\\ T^{\\prime}=1.5 T \\\\ \\frac{T_{2}}{I_{1}}=\\sqrt{\\frac{L_{2}}{L_{1}}} \\\\ \\Rightarrow(1.5)^{2}=\\frac{L_{2}}{L_{1}} \\\\ \\Rightarrow 2.25=\\frac{L_{2}}{L_{1}} \\Rightarrow L_{2}=2.25 L_{1} \\end{array} T′=T+0.5TT′=1.5TI1T2=L1L2⇒(1.5)2=L1L2⇒2.25=L1L2⇒L2=2.25L1 দৈর্ঘ্য বৃদ্ধি করতে হবে, (2.25L1−L1)=1.25L1 \\left(2.25 L_{1}-L_{1}\\right)=1.25 L_{1} (2.25L1−L1)=1.25L1",
+    "explanation": "বর্তমান দোলোনকাল \\begin{array}{l} T^{\\prime}=T+0.5 T \\\\ T^{\\prime}=1.5 T \\\\ \\frac{T_{2}}{I_{1}}=\\sqrt{\\frac{L_{2}}{L_{1}}} \\\\ \\Rightarrow(1.5)^{2}=\\frac{L_{2}}{L_{1}} \\\\ \\Rightarrow 2.25=\\frac{L_{2}}{L_{1}} \\Rightarrow L_{2}=2.25 L_{1} \\end{array} T′=T+0.5TT′=1.5TI1T2=L1L2দৈর্ঘ্য বৃদ্ধি করতে হবে, (\\left(2.25 L_{1}-L_{1}\\right)=1.25 L_{1} (2.25L1−L1)=1.25L1",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দোলনকাল 50% বৃদ্ধি করতে এর কার্যকরী দৈর্ঘ্য বাড়াতে হবে -",
-    "explanationLatex": "$বর্তমান দোলোনকাল T′=T+0.5TT′=1.5TT2I1=L2L1⇒(1.5)2=L2L1⇒2.25=L2L1⇒L2=2.25L1 \\begin{array}{l} T^{\\prime}=T+0.5 T \\\\ T^{\\prime}=1.5 T \\\\ \\frac{T_{2}}{I_{1}}=\\sqrt{\\frac{L_{2}}{L_{1}}} \\\\ \\Rightarrow(1.5)^{2}=\\frac{L_{2}}{L_{1}} \\\\ \\Rightarrow 2.25=\\frac{L_{2}}{L_{1}} \\Rightarrow L_{2}=2.25 L_{1} \\end{array} T′=T+0.5TT′=1.5TI1T2=L1L2⇒(1.5)2=L1L2⇒2.25=L1L2⇒L2=2.25L1 দৈর্ঘ্য বৃদ্ধি করতে হবে, (2.25L1−L1)=1.25L1 \\left(2.25 L_{1}-L_{1}\\right)=1.25 L_{1} (2.25L1−L1)=1.25L1$"
+    "explanationLatex": "বর্তমান দোলোনকাল \\begin{array}{l} T^{\\prime}=T+0.5 T \\\\ T^{\\prime}=1.5 T \\\\ \\frac{T_{2}}{I_{1}}=\\sqrt{\\frac{L_{2}}{L_{1}}} \\\\ \\Rightarrow(1.5)^{2}=\\frac{L_{2}}{L_{1}} \\\\ \\Rightarrow 2.25=\\frac{L_{2}}{L_{1}} \\Rightarrow L_{2}=2.25 L_{1} \\end{array} T′=T+0.5TT′=1.5TI1T2=L1L2দৈর্ঘ্য বৃদ্ধি করতে হবে, (\\left(2.25 L_{1}-L_{1}\\right)=1.25 L_{1} (2.25L1−L1)=1.25L1"
   },
   {
     "id": 28,
@@ -589,7 +589,7 @@
       "d": "𝑇 2 2 T"
     },
     "correctAnswer": "b",
-    "explanation": "T2T1=L2L1T2=2×T1T2=2T1 \\begin{array}{l}\\frac{T_{2}}{T_{1}}=\\sqrt{\\frac{L_{2}}{L_{1}}} \\\\ T_{2}=\\sqrt{2} \\times T_{1} \\\\ T_{2}=\\sqrt{2} T_{1}\\end{array} T1T2=L1L2T2=2×T1T2=2T1",
+    "explanation": "\\begin{array}{l}\\frac{T_{2}}{T_{1}}=\\sqrt{\\frac{L_{2}}{L_{1}}} \\\\ T_{2}=\\sqrt{2} \\times T_{1} \\\\ T_{2}=\\sqrt{2} T_{1}\\end{array} T1T2=L1L2T2=2",
     "subject": "Physics",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243801/gst-question-images/physics_________________-_varsity_arc_q30.jpg",
@@ -609,7 +609,7 @@
       "d": "চারগুণ হবে"
     },
     "correctAnswer": "c",
-    "explanation": "আমরা জানি, সরলদোলকের দোলনকাল, T=2πLg∴T∝L \\begin{array}{l} T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}} \\\\ \\end{array} T=2πgL∴T∝L T∝4⇒T∝2T \\propto \\sqrt{4} \\Rightarrow T \\propto 2T∝4⇒T∝2 অর্থাৎ দৈর্ঘ্য চারগুণ করূলে দোলনকাল পূর্বের দ্বিগুণ হবে।এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।",
+    "explanation": "আমরা জানি, সরলদোলকের দোলনকাল, \\begin{array}{l} T=2 \\pi \\sqrt{\\frac{L}{g}} \\\\ \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}} \\\\ \\end{array} T=2πgL\\propto \\sqrt{4} \\Rightarrow T \\propto 2T∝4অর্থাৎ দৈর্ঘ্য চারগুণ করূলে দোলনকাল পূর্বের দ্বিগুণ হবে।এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -629,7 +629,7 @@
       "d": "সবগুলো"
     },
     "correctAnswer": "d",
-    "explanation": "বল ধ্রুবক K, বিস্তার A সরল দোলকের ক্ষেত্রে মোট শক্তি = বিভবশক্তি + গতিশক্তি = 12kA2\\frac{1}{2}kA²21kA2 আবার সর্বোচ্চ গতিশক্তির ক্ষেত্রে বিভবশক্তি শূন্য, মোটশক্তি = ০ + সর্বোচ্চ গতিশক্তি = 12kA2\\frac{1}{2}kA²21kA2 আবার সর্বোচ্চ বিভবশক্তির ক্ষেত্রে গতিশক্তি শূন্য, মোটশক্তি = সর্বোচ্চ বিভবশক্তি + ০ = 12kA2\\frac{1}{2}kA²21kA2",
+    "explanation": "বল ধ্রুবক K, বিস্তার A সরল দোলকের ক্ষেত্রে মোট শক্তি = বিভবশক্তি + গতিশক্তি = 12kA2\\frac{1}{2}kAআবার সর্বোচ্চ গতিশক্তির ক্ষেত্রে বিভবশক্তি শূন্য, মোটশক্তি = ০ + সর্বোচ্চ গতিশক্তি = 12kA2\\frac{1}{2}kAআবার সর্বোচ্চ বিভবশক্তির ক্ষেত্রে গতিশক্তি শূন্য, মোটশক্তি = সর্বোচ্চ বিভবশক্তি + ০ = 12kA2\\frac{1}{2}kA",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$সরলগতি সম্পন্ন কণার ক্ষেত্রে \\frac{1}{2} KA² সম্পর্কে কোনটি সত্য?$",
-    "explanationLatex": "$বল ধ্রুবক K, বিস্তার A সরল দোলকের ক্ষেত্রে মোট শক্তি = বিভবশক্তি + গতিশক্তি = 12kA2\\frac{1}{2}kA²21kA2 আবার সর্বোচ্চ গতিশক্তির ক্ষেত্রে বিভবশক্তি শূন্য, মোটশক্তি = ০ + সর্বোচ্চ গতিশক্তি = 12kA2\\frac{1}{2}kA²21kA2 আবার সর্বোচ্চ বিভবশক্তির ক্ষেত্রে গতিশক্তি শূন্য, মোটশক্তি = সর্বোচ্চ বিভবশক্তি + ০ = 12kA2\\frac{1}{2}kA²21kA2$"
+    "explanationLatex": "বল ধ্রুবক K, বিস্তার A সরল দোলকের ক্ষেত্রে মোট শক্তি = বিভবশক্তি + গতিশক্তি = 12kA2\\frac{1}{2}kAআবার সর্বোচ্চ গতিশক্তির ক্ষেত্রে বিভবশক্তি শূন্য, মোটশক্তি = ০ + সর্বোচ্চ গতিশক্তি = 12kA2\\frac{1}{2}kAআবার সর্বোচ্চ বিভবশক্তির ক্ষেত্রে গতিশক্তি শূন্য, মোটশক্তি = সর্বোচ্চ বিভবশক্তি + ০ = 12kA2\\frac{1}{2}kA"
   },
   {
     "id": 33,
@@ -649,7 +649,7 @@
       "d": "3 Hz"
     },
     "correctAnswer": "d",
-    "explanation": "সর্বোচ্চ বেগ =vmax=3πv_{max}=3πvmax=3π বিস্তার =A=0.5mA=0.5mA=0.5m কৌণিক কম্পাঙ্ক =ω=2πf\\omega =2πfω=2πf কম্পাঙ্ক =fff vmax=ωA=2πf.Av_{max}=\\omega A=2πf.Avmax=ωA=2πf.A 3π=2πf.A⇒3π=2π×f×12⇒f=3Hz3π=2πf.A⇒3π=2π×f×12⇒f=3Hz3π=2πf.A⇒3π=2π×f×12⇒f=3Hz",
+    "explanation": "সর্বোচ্চ বেগ =বিস্তার =কৌণিক কম্পাঙ্ক =ω=2πf\\omega =2πfω=2πf কম্পাঙ্ক =\\omega A=2πf.Avmax=ωA=2πf.A 3π=2πf.A",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -657,7 +657,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সর্বোচ্চ বেগ 3\\\\pi 3\\pi3\\\\pi এবং বিস্তার 0.5 m0.5\\ m0.5 m হলে, S.H.M চলা কোনো কণার কম্পাঙ্ক কত?",
-    "explanationLatex": "$সর্বোচ্চ বেগ =vmax=3\\\\pi v_{max}=3\\\\pi vmax=3\\\\pi বিস্তার =A=0.5mA=0.5mA=0.5m কৌণিক কম্পাঙ্ক =ω=2\\\\pi f\\omega =2\\\\pi fω=2\\\\pi f কম্পাঙ্ক =fff vmax=ωA=2\\\\pi f.Av_{max}=\\omega A=2\\\\pi f.Avmax=ωA=2\\\\pi f.A 3\\\\pi =2\\\\pi f.A⇒3\\\\pi =2\\\\pi \\ \\times f\\ \\times 12⇒f=3Hz3\\\\pi =2\\\\pi f.A⇒3\\\\pi =2\\\\pi \\ \\times f\\ \\times 12⇒f=3Hz3\\\\pi =2\\\\pi f.A⇒3\\\\pi =2\\\\pi \\ \\times f\\ \\times 12⇒f=3Hz$"
+    "explanationLatex": "সর্বোচ্চ বেগ =\\pi v_{max}=3\\\\pi vmax=3\\\\pi বিস্তার =কৌণিক কম্পাঙ্ক =ω=2\\\\pi f\\omega =2\\\\pi fω=2\\\\pi f কম্পাঙ্ক =\\pi f.Av_{max}=\\omega A=2\\\\pi f.Avmax=ωA=2\\\\pi f.A 3\\\\pi =2\\\\pi f.A\\pi =2\\\\pi \\ \\times f\\ \\times 12\\pi =2\\\\pi f.A\\pi =2\\\\pi \\ \\times f\\ \\times 12\\pi =2\\\\pi f.A\\pi =2\\\\pi \\ \\times f\\ \\times 12"
   },
   {
     "id": 34,
@@ -669,7 +669,7 @@
       "d": "𝑑 𝑡 2 / 𝑑 2 𝑥 + 𝜔 𝑘 dt 2 /d 2 x+ωk"
     },
     "correctAnswer": "b",
-    "explanation": "Force=F Spring constant=K Displacement=X Mass=m Acceleration=a Angular frequency=ω\\omegaω F=−kx⇒ma=−kx⇒a=−kmx⇒d2xdt2=−ω2x⇒d2xdt2+ω2x=0 \\begin{aligned} & F=-k x \\\\ \\Rightarrow & m a=-k x \\\\ \\Rightarrow & a=-\\frac{k}{m} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}=-\\omega^{2} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}+\\omega^{2} x=0\\end{aligned} ⇒⇒⇒⇒F=−kxma=−kxa=−mkxdt2d2x=−ω2xdt2d2x+ω2x=0",
+    "explanation": "\\omegaω F=−kx\\begin{aligned} & F=-k x \\\\ \\Rightarrow & m a=-k x \\\\ \\Rightarrow & a=-\\frac{k}{m} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}=-\\omega^{2} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}+\\omega^{2} x=0\\end{aligned}",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -677,7 +677,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সরল ছন্দিত স্পন্দনরত কণার ব্যবকলনীয় সমীকরণ কোনটি?",
-    "explanationLatex": "$Force=F Spring constant=K Displacement=X Mass=m Acceleration=a Angular frequency=ω\\omegaω F=−kx⇒ma=−kx⇒a=−kmx⇒d2xdt2=−ω2x⇒d2xdt2+ω2x=0 \\begin{aligned} & F=-k x \\\\ \\Rightarrow & m a=-k x \\\\ \\Rightarrow & a=-\\frac{k}{m} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}=-\\omega^{2} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}+\\omega^{2} x=0\\end{aligned} ⇒⇒⇒⇒F=−kxma=−kxa=−mkxdt2d2x=−ω2xdt2d2x+ω2x=0$"
+    "explanationLatex": "\\omegaω F=−kx\\begin{aligned} & F=-k x \\\\ \\Rightarrow & m a=-k x \\\\ \\Rightarrow & a=-\\frac{k}{m} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}=-\\omega^{2} x \\\\ \\Rightarrow & \\frac{d^{2} x}{d t^{2}}+\\omega^{2} x=0\\end{aligned}"
   },
   {
     "id": 35,
@@ -729,7 +729,7 @@
       "d": "অর্ধেক"
     },
     "correctAnswer": "c",
-    "explanation": "কম্পাঙ্ক (f) = 1/পর্যায়কাল(T) পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2πLgT = 2 \\pi \\sqrt{\\frac{L}{g}} T=2πgL ∴f=12πgLf2f1=L1L2⇒(2)2=L1L2⇒L2=L14 \\begin{array}{l}\\therefore f=\\frac{1}{2 \\pi} \\sqrt{\\frac{g}{L}} \\\\ \\frac{f_{2}}{f_{1}}=\\sqrt{\\frac{L_{1}}{L_{2}}} \\\\ \\Rightarrow(2)^{2}=\\frac{L_{1}}{L_{2}} \\\\ \\Rightarrow L_{2}=\\frac{L_{1}}{4}\\end{array} ∴f=2π1Lgf1f2=L2L1⇒(2)2=L2L1⇒L2=4L1",
+    "explanation": "কম্পাঙ্ক (পর্যায়কাল(T) পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, \\pi \\sqrt{\\frac{L}{g}} T=2πgL \\begin{array}{l}\\therefore f=\\frac{1}{2 \\pi} \\sqrt{\\frac{g}{L}} \\\\ \\frac{f_{2}}{f_{1}}=\\sqrt{\\frac{L_{1}}{L_{2}}} \\\\ \\Rightarrow(2)^{2}=\\frac{L_{1}}{L_{2}} \\\\ \\Rightarrow L_{2}=\\frac{L_{1}}{4}\\end{array}",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি সরল দোলকের দৈর্ঘ্য L ভর M এবং কম্পাঙ্ক f। এর কম্পাঙ্ক দ্বিগুণ করতে হলে, দৈর্ঘ্য কত করতে হবে?",
-    "explanationLatex": "$কম্পাঙ্ক (f) = 1/পর্যায়কাল(T) পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2\\\\pi LgT = 2 \\pi \\sqrt{\\frac{L}{g}} T=2\\\\pi gL ∴f=12\\\\pi gLf2f1=L1L2⇒(2)2=L1L2⇒L2=L14 \\begin{array}{l}\\therefore f=\\frac{1}{2 \\pi} \\sqrt{\\frac{g}{L}} \\\\ \\frac{f_{2}}{f_{1}}=\\sqrt{\\frac{L_{1}}{L_{2}}} \\\\ \\Rightarrow(2)^{2}=\\frac{L_{1}}{L_{2}} \\\\ \\Rightarrow L_{2}=\\frac{L_{1}}{4}\\end{array} ∴f=2\\\\pi 1Lgf1f2=L2L1⇒(2)2=L2L1⇒L2=4L1$"
+    "explanationLatex": "কম্পাঙ্ক (পর্যায়কাল(T) পর্যায়কাল T, কার্যকরী দৈর্ঘ্য L ও অভিকর্ষজ ত্বরণ g হলে, T=2\\\\pi LgT = 2 \\pi \\sqrt{\\frac{L}{g}} T=2\\\\pi gL \\pi gLf2f1=L1L2\\begin{array}{l}\\therefore f=\\frac{1}{2 \\pi} \\sqrt{\\frac{g}{L}} \\\\ \\frac{f_{2}}{f_{1}}=\\sqrt{\\frac{L_{1}}{L_{2}}} \\\\ \\Rightarrow(2)^{2}=\\frac{L_{1}}{L_{2}} \\\\ \\Rightarrow L_{2}=\\frac{L_{1}}{4}\\end{array} \\pi 1Lgf1f2=L2L1"
   },
   {
     "id": 38,
@@ -809,7 +809,7 @@
       "d": "9 𝑟 𝑎 𝑑 / 𝑠 9 rad/s"
     },
     "correctAnswer": "a",
-    "explanation": "3 দ্বারা ভাগ করে নিতে হবে। 3d2xdt2+27x=0 ⇒d2xdt2+9x=0 ∴ω=3rad/s3\\frac{d^2x}{dt^2}+27x=0\\ \\ \\Rightarrow\\frac{d^2x}{dt^2}+9x=0\\ \\ \\ \\therefore\\omega=3rad/s3dt2d2x+27x=0 ⇒dt2d2x+9x=0 ∴ω=3rad/s",
+    "explanation": "3 দ্বারা ভাগ করে নিতে হবে। \\frac{d^2x}{dt^2}+27x=0\\ \\ \\Rightarrow\\frac{d^2x}{dt^2}+9x=0\\ \\ \\ \\therefore\\omega=3rad/s3dt2d2x+27x=0",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$3d2xdt2+27x=03\\frac{d^2x}{dt^2}+27x=03dt2d2x+27x=0সমীকরণটি একটি সরল ছন্দিত স্পন্দন বর্ণনা করে । এই স্পন্দনের কৌণিক কম্পাঙ্ক কত?$",
-    "explanationLatex": "$3 দ্বারা ভাগ করে নিতে হবে। 3d2xdt2+27x=0 ⇒d2xdt2+9x=0 ∴ω=\\frac{3rad}{s3}\\frac{d^2x}{dt^2}+27x=0\\ \\ \\Rightarrow\\frac{d^2x}{dt^2}+9x=0\\ \\ \\ \\therefore\\omega=\\frac{3rad}{s3dt2d2x}+27x=0 ⇒dt2d2x+9x=0 ∴ω=\\frac{3rad}{s}$"
+    "explanationLatex": "3 দ্বারা ভাগ করে নিতে হবে। \\frac{3rad}{s3}\\frac{d^2x}{dt^2}+27x=0\\ \\ \\Rightarrow\\frac{d^2x}{dt^2}+9x=0\\ \\ \\ \\therefore\\omega=\\frac{3rad}{s3dt2d2x}+27x=0 \\frac{3rad}{s}"
   },
   {
     "id": 42,
@@ -829,7 +829,7 @@
       "d": "None"
     },
     "correctAnswer": "c",
-    "explanation": "T=2nlgT∝l \\begin{array}{l} T=2 n \\sqrt{\\frac{l}{g}} \\\\ T \\propto \\sqrt{l} \\end{array} T=2nglT∝l (T1T1)2=h1=(21)2=41[T2=2×T1] \\left(\\frac{T_{1}}{T_{1}}\\right)^{2}=h_{1}=\\left(\\frac{2}{1}\\right)^{2}=\\frac{4}{1}\\left[T_{2}=2 \\times T_{1}]\\right. (T1T1)2=h1=(12)2=14[T2=2×T1]",
+    "explanation": "\\begin{array}{l} T=2 n \\sqrt{\\frac{l}{g}} \\\\ T \\propto \\sqrt{l} \\end{array} T=2nglT∝l (T1T1)2=h1=(21)2=41[T2=2\\left(\\frac{T_{1}}{T_{1}}\\right)^{2}=h_{1}=\\left(\\frac{2}{1}\\right)^{2}=\\frac{4}{1}\\left[T_{2}=2 \\times T_{1}]\\right. (T1T1)2=h1=(12)2=14[T2=2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -869,7 +869,7 @@
       "d": "৩ গুণ বাড়াতে হবে"
     },
     "correctAnswer": "d",
-    "explanation": "সরলদোলকের দোলনকাল, T=2πLgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2πgL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] ∴T∝L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}∴T∝L L2L1=T2T1⇒L2=(T2T1)2×L1⇒L12=(2TT)2×L1⇒L2=4×L1 \\begin{array}{l}\\sqrt{\\frac{L_{2}}{L_{1}}}=\\frac{T_{2}}{T_{1}} \\\\ \\Rightarrow L_{2}=\\left(\\frac{T_{2}}{T_{1}}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{1}^{2}=\\left(\\frac{2 T}{T}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{2}=4 \\times L_1\\end{array} L1L2=T1T2⇒L2=(T1T2)2×L1⇒L12=(T2T)2×L1⇒L2=4×L1 বর্তমান দৈর্ঘ্য =L1L_1L1 নতুন দৈর্ঘ্য =4L1L_1L1 বাড়াতে হবে= 4L1L_1L1 - L1L_1L1 =3 L1L_1L1 ৩ গুন বৃদ্ধি করতে হবে",
+    "explanation": "সরলদোলকের দোলনকাল, \\pi \\sqrt{\\frac{L}{g}}T=2πgL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] \\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}\\begin{array}{l}\\sqrt{\\frac{L_{2}}{L_{1}}}=\\frac{T_{2}}{T_{1}} \\\\ \\Rightarrow L_{2}=\\left(\\frac{T_{2}}{T_{1}}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{1}^{2}=\\left(\\frac{2 T}{T}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{2}=4 \\times L_1\\end{array} L1L2=T1T2বর্তমান দৈর্ঘ্য =নতুন দৈর্ঘ্য =বাড়াতে হবে= ৩ গুন বৃদ্ধি করতে হবে",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -877,7 +877,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি সরল দোলকের পর্যায়কাল দ্বিগুণ করতে হলে এর দৈর্ঘ্য অবশ্যই-",
-    "explanationLatex": "$সরলদোলকের দোলনকাল, T=2\\\\pi LgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2\\\\pi gL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] ∴T\\\\propto L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}∴T\\\\propto L L2L1=T2T1⇒L2=(T2T1)2\\ \\times L1⇒L12=(2TT)2\\ \\times L1⇒L2=4\\ \\times L1 \\begin{array}{l}\\sqrt{\\frac{L_{2}}{L_{1}}}=\\frac{T_{2}}{T_{1}} \\\\ \\Rightarrow L_{2}=\\left(\\frac{T_{2}}{T_{1}}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{1}^{2}=\\left(\\frac{2 T}{T}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{2}=4 \\times L_1\\end{array} L1L2=T1T2⇒L2=(T1T2)2\\ \\times L1⇒L12=(T2T)2\\ \\times L1⇒L2=4\\ \\times L1 বর্তমান দৈর্ঘ্য =L1L_1L1 নতুন দৈর্ঘ্য =4L1L_1L1 বাড়াতে হবে= 4L1L_1L1 - L1L_1L1 =3 L1L_1L1 ৩ গুন বৃদ্ধি করতে হবে$"
+    "explanationLatex": "সরলদোলকের দোলনকাল, T=2\\\\pi LgT=2 \\pi \\sqrt{\\frac{L}{g}}T=2\\\\pi gL ; [এখানে L = দোলকের দৈর্ঘ্য, g = অভিকর্ষজ ত্বরণ।] \\propto L\\therefore \\mathrm{T} \\propto \\sqrt{\\mathrm{L}}\\propto L L2L1=T2T1\\times L1\\times L1\\times L1 \\begin{array}{l}\\sqrt{\\frac{L_{2}}{L_{1}}}=\\frac{T_{2}}{T_{1}} \\\\ \\Rightarrow L_{2}=\\left(\\frac{T_{2}}{T_{1}}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{1}^{2}=\\left(\\frac{2 T}{T}\\right)^{2} \\times L_{1} \\\\ \\Rightarrow L_{2}=4 \\times L_1\\end{array} L1L2=T1T2\\times L1\\times L1\\times L1 বর্তমান দৈর্ঘ্য =নতুন দৈর্ঘ্য =বাড়াতে হবে= ৩ গুন বৃদ্ধি করতে হবে"
   },
   {
     "id": 45,
@@ -949,7 +949,7 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "বেগ v কৌণিক কম্পাঙ্ক ω\\omegaω বিস্তার A সরণ x জানা আছে, v=ωA2−x2⇒v2=ω2(A2−x2)⇒v2=ω2A2−ω2x2⇒v2+ω2x2=ω2A2⇒v2(ωA)2+ω2x2(ωA)2=1⇒x2A2+v2ω2A2=1 x2a2+y2b2=1 \\begin{array}{l} v=\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v^{2}=\\omega^{2}\\left(A^{2}-x^{2}\\right) \\\\ \\Rightarrow v^{2}=\\omega^{2} A^{2}-\\omega^{2} x^{2} \\\\ \\Rightarrow v^{2}+\\omega^{2} x^{2}=\\omega^{2} A^{2} \\\\ \\Rightarrow \\frac{v^{2}}{(\\omega A)^{2}}+\\frac{\\omega^{2} x^{2}}{(\\omega A)^{2}}=1 \\\\ \\Rightarrow \\frac{x^{2}}{A^{2}}+\\frac{v^{2}}{\\omega^{2} A^{2}}=1 \\\\ \\begin{array}{l} \\text { } \\\\ \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 \\end{array} \\\\ \\end{array} v=ωA2−x2⇒v2=ω2(A2−x2)⇒v2=ω2A2−ω2x2⇒v2+ω2x2=ω2A2⇒(ωA)2v2+(ωA)2ω2x2=1⇒A2x2+ω2A2v2=1 a2x2+b2y2=1 এর সাথে সাদৃশ্যপূর্ণ হওয়ায় উপরের সমীকরণটি একটি উপবৃত্তের সমীকরণ।",
+    "explanation": "বেগ v কৌণিক কম্পাঙ্ক ω\\omegaω বিস্তার A সরণ x জানা আছে, \\begin{array}{l} v=\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v^{2}=\\omega^{2}\\left(A^{2}-x^{2}\\right) \\\\ \\Rightarrow v^{2}=\\omega^{2} A^{2}-\\omega^{2} x^{2} \\\\ \\Rightarrow v^{2}+\\omega^{2} x^{2}=\\omega^{2} A^{2} \\\\ \\Rightarrow \\frac{v^{2}}{(\\omega A)^{2}}+\\frac{\\omega^{2} x^{2}}{(\\omega A)^{2}}=1 \\\\ \\Rightarrow \\frac{x^{2}}{A^{2}}+\\frac{v^{2}}{\\omega^{2} A^{2}}=1 \\\\ \\begin{array}{l} \\text { } \\\\ \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 \\end{array} \\\\ \\end{array} v=ωA2−x2এর সাথে সাদৃশ্যপূর্ণ হওয়ায় উপরের সমীকরণটি একটি উপবৃত্তের সমীকরণ।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -957,7 +957,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সরল ছন্দিত গতিসম্পন্ন কোনো কণার বেগ বনাম সরণ (v বনাম x) গ্রাফ কিরুপ হবে?",
-    "explanationLatex": "$বেগ v কৌণিক কম্পাঙ্ক ω\\omegaω বিস্তার A সরণ x জানা আছে, v=ωA2−x2⇒v2=ω2(A2−x2)⇒v2=ω2A2−ω2x2⇒v2+ω2x2=ω2A2⇒v2(ωA)2+ω2x2(ωA)2=1⇒x2A2+v2ω2A2=1 x2a2+y2b2=1 \\begin{array}{l} v=\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v^{2}=\\omega^{2}\\left(A^{2}-x^{2}\\right) \\\\ \\Rightarrow v^{2}=\\omega^{2} A^{2}-\\omega^{2} x^{2} \\\\ \\Rightarrow v^{2}+\\omega^{2} x^{2}=\\omega^{2} A^{2} \\\\ \\Rightarrow \\frac{v^{2}}{(\\omega A)^{2}}+\\frac{\\omega^{2} x^{2}}{(\\omega A)^{2}}=1 \\\\ \\Rightarrow \\frac{x^{2}}{A^{2}}+\\frac{v^{2}}{\\omega^{2} A^{2}}=1 \\\\ \\begin{array}{l} \\text { } \\\\ \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 \\end{array} \\\\ \\end{array} v=ωA2−x2⇒v2=ω2(A2−x2)⇒v2=ω2A2−ω2x2⇒v2+ω2x2=ω2A2⇒(ωA)2v2+(ωA)2ω2x2=1⇒A2x2+ω2A2v2=1 a2x2+b2y2=1 এর সাথে সাদৃশ্যপূর্ণ হওয়ায় উপরের সমীকরণটি একটি উপবৃত্তের সমীকরণ।$"
+    "explanationLatex": "বেগ v কৌণিক কম্পাঙ্ক ω\\omegaω বিস্তার A সরণ x জানা আছে, \\begin{array}{l} v=\\omega \\sqrt{A^{2}-x^{2}} \\\\ \\Rightarrow v^{2}=\\omega^{2}\\left(A^{2}-x^{2}\\right) \\\\ \\Rightarrow v^{2}=\\omega^{2} A^{2}-\\omega^{2} x^{2} \\\\ \\Rightarrow v^{2}+\\omega^{2} x^{2}=\\omega^{2} A^{2} \\\\ \\Rightarrow \\frac{v^{2}}{(\\omega A)^{2}}+\\frac{\\omega^{2} x^{2}}{(\\omega A)^{2}}=1 \\\\ \\Rightarrow \\frac{x^{2}}{A^{2}}+\\frac{v^{2}}{\\omega^{2} A^{2}}=1 \\\\ \\begin{array}{l} \\text { } \\\\ \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1 \\end{array} \\\\ \\end{array} v=ωA2−x2এর সাথে সাদৃশ্যপূর্ণ হওয়ায় উপরের সমীকরণটি একটি উপবৃত্তের সমীকরণ।"
   },
   {
     "id": 49,
@@ -969,7 +969,7 @@
       "d": "(EK)max=1/2 mωk2"
     },
     "correctAnswer": "a",
-    "explanation": "বল ধ্রুবক K, বিস্তার a, ভর m, কৌণিক কম্পাঙ্ক ω\\omegaω হলে Ek(max⁡)=12Ka2=12mω2a2 E_{k(\\max )}=\\frac{1}{2}Ka² =\\frac{1}{2} m \\omega^{2} a^{2} Ek(max)=21Ka2=21mω2a2",
+    "explanation": "বল ধ্রুবক K, বিস্তার a, ভর m, কৌণিক কম্পাঙ্ক ω\\omegaω হলে Ek(max\\max )}=\\frac{1}{2}Ka\\frac{1}{2} m \\omega^{2} a^{2} Ek(max)=21Ka2=21mω2a2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -977,7 +977,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সরল দোল গতি সম্পন্ন কোন বস্তুর সর্বোচ্চ গতিশক্তির সমীকরণ-",
-    "explanationLatex": "$বল ধ্রুবক K, বিস্তার a, ভর m, কৌণিক কম্পাঙ্ক ω\\omegaω হলে Ek(max⁡)=12Ka2=12mω2a2 E_{k(\\max )}=\\frac{1}{2}Ka² =\\frac{1}{2} m \\omega^{2} a^{2} Ek(max)=21Ka2=21mω2a2$"
+    "explanationLatex": "বল ধ্রুবক K, বিস্তার a, ভর m, কৌণিক কম্পাঙ্ক ω\\omegaω হলে Ek(max\\max )}=\\frac{1}{2}Ka\\frac{1}{2} m \\omega^{2} a^{2} Ek(max)=21Ka2=21mω2a2"
   },
   {
     "id": 50,

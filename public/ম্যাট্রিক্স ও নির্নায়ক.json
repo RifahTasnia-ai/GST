@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "তিনটি ম্যাট্রিক্স A,B ও C এর order যথাক্রমে 2×3, 4×2, 5×42\\times3,\\ \\ 4\\times2,\\ \\ 5\\times42×3, 4×2, 5×4 হলে, CBA ম্যাট্রিক্সটির order কত হবে?",
+    "question": "তিনটি ম্যাট্রিক্স A,B ও C এর যথাক্রমে 2\\times3,\\ \\ 4\\times2,\\ \\ 5\\times42হলে, CBA ম্যাট্রিক্সটির কত হবে?",
     "options": {
       "a": "5 × 3 5×3",
       "b": "5 × 4 5×4",
@@ -9,7 +9,7 @@
       "d": "4 × 3 4×3"
     },
     "correctAnswer": "a",
-    "explanation": "CBAC→5×4B→4×2CB→5×2A→2×3 \\begin{array}{l}C B A \\\\ C \\rightarrow 5 \\times 4 \\\\ B \\rightarrow 4 \\times 2 \\\\ C B \\rightarrow 5 \\times 2 \\\\ A \\rightarrow 2 \\times 3\\end{array} CBAC→5×4B→4×2CB→5×2A→2×3 ∴CBA=5×3 \\therefore C B A=5 \\times 3 ∴CBA=5×3",
+    "explanation": "CBAC\\begin{array}{l}C B A \\\\ C \\rightarrow 5 \\times 4 \\\\ B \\rightarrow 4 \\times 2 \\\\ C B \\rightarrow 5 \\times 2 \\\\ A \\rightarrow 2 \\times 3\\end{array} CBAC\\therefore C B A=5 \\times 3",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -17,7 +17,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$তিনটি ম্যাট্রিক্স A,B ও C এর order যথাক্রমে 2\\\\times 3, 4\\\\times 2, 5\\\\times 42\\times3,\\ \\ 4\\times2,\\ \\ 5\\times42\\\\times 3, 4\\\\times 2, 5\\\\times 4 হলে, CBA ম্যাট্রিক্সটির order কত হবে?$",
-    "explanationLatex": "$CBAC→5\\\\times 4B→4\\\\times 2CB→5\\\\times 2A→2\\\\times 3 \\begin{array}{l}C B A \\\\ C \\rightarrow 5 \\times 4 \\\\ B \\rightarrow 4 \\times 2 \\\\ C B \\rightarrow 5 \\times 2 \\\\ A \\rightarrow 2 \\times 3\\end{array} CBAC→5\\\\times 4B→4\\\\times 2CB→5\\\\times 2A→2\\\\times 3 ∴CBA=5\\\\times 3 \\therefore C B A=5 \\times 3 ∴CBA=5\\\\times 3$"
+    "explanationLatex": "CBAC\\times 4B\\times 2CB\\times 2A\\times 3 \\begin{array}{l}C B A \\\\ C \\rightarrow 5 \\times 4 \\\\ B \\rightarrow 4 \\times 2 \\\\ C B \\rightarrow 5 \\times 2 \\\\ A \\rightarrow 2 \\times 3\\end{array} CBAC\\times 4B\\times 2CB\\times 2A\\times 3 \\times 3 \\therefore C B A=5 \\times 3 \\times 3"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "d": "-6, -4"
     },
     "correctAnswer": "a",
-    "explanation": "∣α+228α−4∣=0⇒α2−2α−8−16=0⇒α2−2α−24=0⇒α2−6α+4α−24=0⇒α(α−6)+4(α−6)=0⇒(α−6)(α+4)=0∴α=−4,6 \\begin{array}{l}\\quad\\left|\\begin{array}{cc}\\alpha+2 & 2 \\\\ 8 & \\alpha-4\\end{array}\\right|=0 \\Rightarrow \\alpha^{2}-2 \\alpha-8-16=0 \\\\ \\Rightarrow \\alpha^{2}-2 \\alpha-24=0 \\Rightarrow \\alpha^{2}-6 \\alpha+4 \\alpha-24=0 \\\\ \\Rightarrow \\alpha(\\alpha-6)+4(\\alpha-6)=0 \\\\ \\Rightarrow(\\alpha-6)(\\alpha+4)=0 \\quad \\therefore \\alpha=-4,6\\end{array} α+282α−4=0⇒α2−2α−8−16=0⇒α2−2α−24=0⇒α2−6α+4α−24=0⇒α(α−6)+4(α−6)=0⇒(α−6)(α+4)=0∴α=−4,6",
+    "explanation": "∣α+\\begin{array}{l}\\quad\\left|\\begin{array}{cc}\\alpha+2 & 2 \\\\ 8 & \\alpha-4\\end{array}\\right|=0 \\Rightarrow \\alpha^{2}-2 \\alpha-8-16=0 \\\\ \\Rightarrow \\alpha^{2}-2 \\alpha-24=0 \\Rightarrow \\alpha^{2}-6 \\alpha+4 \\alpha-24=0 \\\\ \\Rightarrow \\alpha(\\alpha-6)+4(\\alpha-6)=0 \\\\ \\Rightarrow(\\alpha-6)(\\alpha+4)=0 \\quad \\therefore \\alpha=-4,6\\end{array} α+282α−4=0",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$[α+228α−4] \\left[\\begin{array}{cc}\\alpha+2 & 2 \\\\ 8 & \\alpha-4\\end{array}\\right] [α+282α−4] ম্যাট্রিক্সটি ব্যাতিক্রমী হবে যদি α= \\alpha= α= ?$",
-    "explanationLatex": "$∣α+228α−4∣=0⇒α2−2α−8−16=0⇒α2−2α−24=0⇒α2−6α+4α−24=0⇒α(α−6)+4(α−6)=0⇒(α−6)(α+4)=0∴α=−4,6 \\begin{array}{l}\\quad\\left|\\begin{array}{cc}\\alpha+2 & 2 \\\\ 8 & \\alpha-4\\end{array}\\right|=0 \\Rightarrow \\alpha^{2}-2 \\alpha-8-16=0 \\\\ \\Rightarrow \\alpha^{2}-2 \\alpha-24=0 \\Rightarrow \\alpha^{2}-6 \\alpha+4 \\alpha-24=0 \\\\ \\Rightarrow \\alpha(\\alpha-6)+4(\\alpha-6)=0 \\\\ \\Rightarrow(\\alpha-6)(\\alpha+4)=0 \\quad \\therefore \\alpha=-4,6\\end{array} α+282α−4=0⇒α2−2α−8−16=0⇒α2−2α−24=0⇒α2−6α+4α−24=0⇒α(α−6)+4(α−6)=0⇒(α−6)(α+4)=0∴α=−4,6$"
+    "explanationLatex": "∣α+\\begin{array}{l}\\quad\\left|\\begin{array}{cc}\\alpha+2 & 2 \\\\ 8 & \\alpha-4\\end{array}\\right|=0 \\Rightarrow \\alpha^{2}-2 \\alpha-8-16=0 \\\\ \\Rightarrow \\alpha^{2}-2 \\alpha-24=0 \\Rightarrow \\alpha^{2}-6 \\alpha+4 \\alpha-24=0 \\\\ \\Rightarrow \\alpha(\\alpha-6)+4(\\alpha-6)=0 \\\\ \\Rightarrow(\\alpha-6)(\\alpha+4)=0 \\quad \\therefore \\alpha=-4,6\\end{array} α+282α−4=0"
   },
   {
     "id": 3,
@@ -89,7 +89,7 @@
       "d": "xyz2"
     },
     "correctAnswer": "a",
-    "explanation": "∣x+yxyxx+zzyzy+z∣ এখানে (x,y,z)≡(1,1,1)∴∣211121112∣=4=4.1.1.1=4xyz \\begin{array}{l} \\left|\\begin{array}{ccc} x+y & x & y \\\\ x & x+z & z \\\\ y & z & y+z \\end{array}\\right| \\text { এখানে }(x, y, z) \\equiv(1,1,1) \\\\ \\therefore\\left|\\begin{array}{ccc} 2 & 1 & 1 \\\\ 1 & 2 & 1 \\\\ 1 & 1 & 2 \\end{array}\\right|=4=4.1 .1 .1=4 x y z \\end{array} x+yxyxx+zzyzy+z এখানে (x,y,z)≡(1,1,1)∴211121112=4=4.1.1.1=4xyz এই নিয়মে x, y, z এর যে কোন মানের জন্যই Math হরে ।",
+    "explanation": "∣এখানে (\\begin{array}{l} \\left|\\begin{array}{ccc} x+y & x & y \\\\ x & x+z & z \\\\ y & z & y+z \\end{array}\\right| \\text { এখানে }(x, y, z) \\equiv(1,1,1) \\\\ \\therefore\\left|\\begin{array}{ccc} 2 & 1 & 1 \\\\ 1 & 2 & 1 \\\\ 1 & 1 & 2 \\end{array}\\right|=4=4.1 .1 .1=4 x y z \\end{array} x+yxyxx+zzyzy+z এখানে (এই নিয়মে এর যে কোন মানের জন্যই Math হরে ।",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "∣x+yxyxx+zzyzy+z∣ \\left|\\begin{array}{ccc}x+y & x & y \\\\ x & x+z & z \\\\ y & z & y+z\\end{array}\\right| x+yxyxx+zzyzy+z নির্ণায়কটির মান -",
-    "explanationLatex": "$∣x+yxyxx+zzyzy+z∣ এখানে (x,y,z)≡(1,1,1)∴∣211121112∣=4=4.1.1.1=4xyz \\begin{array}{l} \\left|\\begin{array}{ccc} x+y & x & y \\\\ x & x+z & z \\\\ y & z & y+z \\end{array}\\right| \\text { এখানে }(x, y, z) \\equiv(1,1,1) \\\\ \\therefore\\left|\\begin{array}{ccc} 2 & 1 & 1 \\\\ 1 & 2 & 1 \\\\ 1 & 1 & 2 \\end{array}\\right|=4=4.1 .1 .1=4 x y z \\end{array} x+yxyxx+zzyzy+z এখানে (x,y,z)≡(1,1,1)∴211121112=4=4.1.1.1=4xyz এই নিয়মে x, y, z এর যে কোন মানের জন্যই Math হরে ।$"
+    "explanationLatex": "∣এখানে (\\begin{array}{l} \\left|\\begin{array}{ccc} x+y & x & y \\\\ x & x+z & z \\\\ y & z & y+z \\end{array}\\right| \\text { এখানে }(x, y, z) \\equiv(1,1,1) \\\\ \\therefore\\left|\\begin{array}{ccc} 2 & 1 & 1 \\\\ 1 & 2 & 1 \\\\ 1 & 1 & 2 \\end{array}\\right|=4=4.1 .1 .1=4 x y z \\end{array} x+yxyxx+zzyzy+z এখানে (এই নিয়মে এর যে কোন মানের জন্যই Math হরে ।"
   },
   {
     "id": 6,
@@ -149,7 +149,7 @@
       "d": "35"
     },
     "correctAnswer": "c",
-    "explanation": "8 এর অনুরাশি {(5×7)−(3×−3)}=44\\left\\{\\left(5\\times7\\right)-\\left(3\\times-3\\right)\\right\\}=44{(5×7)−(3×−3)}=44 ; এক্ষেত্রে, অনুরাশিতে চিহ্ন ব্যবহৃত হয় না।",
+    "explanation": "8 এর অনুরাশি {(5\\left\\{\\left(5\\times7\\right)-\\left(3\\times-3\\right)\\right\\}=44{(5×7)−(3×−3)}=44 ; এক্ষেত্রে, অনুরাশিতে চিহ্ন ব্যবহৃত হয় না।",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -169,7 +169,7 @@
       "d": "𝑥 = 11 7 x= 7 11"
     },
     "correctAnswer": "c",
-    "explanation": "∣0x−145057x0∣≠0 \\left|\\begin{array}{ccc}0 & x-1 & 4 \\\\ 5 & 0 & 5 \\\\ 7 & x & 0\\end{array}\\right| \\neq 0 057x−10x450=0 বা,(−x+1)(0−35)+4(5x)≠0 (-x+1)(0-35)+4(5 x) \\neq 0 (−x+1)(0−35)+4(5x)=0 বা, 35x−35+20x≠0 35 x-35+20 x \\neq 0 35x−35+20x=0 বা, 55x≠35 55 x \\neq 35 55x=35. ∴x≠7/11 \\therefore x \\neq 7 / 11 ∴x=7/11",
+    "explanation": "∣\\left|\\begin{array}{ccc}0 & x-1 & 4 \\\\ 5 & 0 & 5 \\\\ 7 & x & 0\\end{array}\\right| \\neq 0 057x−10x450=0 বা,(−x+1)(0−35)+4(5x)\\neq 0 (−x+1)(0−35)+4(5x)=0 বা, 35x−35+20x\\neq 0 35x−35+20x=0 বা, 55x\\neq 35 55x=35. \\therefore x \\neq 7 / 11",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -177,7 +177,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "[0x−145057x0]\\left[\\begin{matrix}0&x-1&4\\\\5&0&5\\\\7&x&0\\\\\\end{matrix}\\right]057x−10x450 একটি অব্যতিক্রমী ম্যাট্রিক্স হবে যদি–",
-    "explanationLatex": "$∣0x−145057x0∣\\\\neq 0 \\left|\\begin{array}{ccc}0 & x-1 & 4 \\\\ 5 & 0 & 5 \\\\ 7 & x & 0\\end{array}\\right| \\neq 0 057x−10x450=0 বা,(−x+1)(0−35)+4(5x)\\\\neq 0 (-x+1)(0-35)+4(5 x) \\neq 0 (−x+1)(0−35)+4(5x)=0 বা, 35x−35+20x\\\\neq 0 35 x-35+20 x \\neq 0 35x−35+20x=0 বা, 55x\\\\neq 35 55 x \\neq 35 55x=35. ∴x\\\\neq \\frac{7}{11} \\therefore x \\neq \\frac{7}{11} ∴x=\\frac{7}{11}$"
+    "explanationLatex": "∣\\neq 0 \\left|\\begin{array}{ccc}0 & x-1 & 4 \\\\ 5 & 0 & 5 \\\\ 7 & x & 0\\end{array}\\right| \\neq 0 057x−10x450=0 বা,(−x+1)(0−35)+4(5x)\\\\neq 0 (-x+1)(0-35)+4(5 x) \\neq 0 (−x+1)(0−35)+4(5x)=0 বা, 35x−35+20x\\\\neq 0 35 x-35+20 x \\neq 0 35x−35+20x=0 বা, 55x\\\\neq 35 55 x \\neq 35 55x=35. \\neq \\frac{7}{11} \\therefore x \\neq \\frac{7}{11} \\frac{7}{11}"
   },
   {
     "id": 10,
@@ -209,7 +209,7 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "c",
-    "explanation": "A=(1234) A=\\left(\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right) A=(1324) এবং AB=(3121124) A B=\\left(\\begin{array}{cc}3 & 12 \\\\ 11 & 24\\end{array}\\right) AB=(3111224) এখন, AB=(3121124)⇒A−1AB=A−1(3121124)⇒B=14−6(4−2−31)(3121124)⇒(−2132−12)(3121124)=(50−16) \\begin{array}{l} \\text { এখন, } \\mathrm{AB}=\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\Rightarrow \\mathrm{A}^{-1} \\mathrm{AB}=\\mathrm{A}^{-1}\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow \\mathrm{B}=\\frac{1}{4-6}\\left(\\begin{array}{cc} 4 & -2 \\\\ -3 & 1 \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow\\left(\\begin{array}{cc} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right)=\\left(\\begin{array}{cc} 5 & 0 \\\\ -1 & 6 \\end{array}\\right) \\end{array} এখন, AB=(3111224)⇒A−1AB=A−1(3111224)⇒B=4−61(4−3−21)(3111224)⇒(−2231−21)(3111224)=(5−106)",
+    "explanation": "\\left(\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right) A=(1324) এবং AB=(3121124) A B=\\left(\\begin{array}{cc}3 & 12 \\\\ 11 & 24\\end{array}\\right) AB=(3111224) এখন, AB=(3121124)\\begin{array}{l} \\text { এখন, } \\mathrm{AB}=\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\Rightarrow \\mathrm{A}^{-1} \\mathrm{AB}=\\mathrm{A}^{-1}\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow \\mathrm{B}=\\frac{1}{4-6}\\left(\\begin{array}{cc} 4 & -2 \\\\ -3 & 1 \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow\\left(\\begin{array}{cc} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right)=\\left(\\begin{array}{cc} 5 & 0 \\\\ -1 & 6 \\end{array}\\right) \\end{array} এখন, AB=(3111224)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$A=[1234] A = \\left [ \\begin{matrix} 1 & 2 \\\\ 3 & 4 \\end{matrix} \\right ] A=[1324] এবং AB=[3121124] A B = \\left [ \\begin{matrix} 3 & 12 \\\\ 11 & 24 \\end{matrix} \\right ] AB=[3111224] হলে, B = ?$",
-    "explanationLatex": "$A=(1234) A=\\left(\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right) A=(1324) এবং AB=(3121124) A B=\\left(\\begin{array}{cc}3 & 12 \\\\ 11 & 24\\end{array}\\right) AB=(3111224) এখন, AB=(3121124)⇒A−1AB=A−1(3121124)⇒B=14−6(4−2−31)(3121124)⇒(−2132−12)(3121124)=(50−16) \\begin{array}{l} \\text { এখন, } \\mathrm{AB}=\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\Rightarrow \\mathrm{A}^{-1} \\mathrm{AB}=\\mathrm{A}^{-1}\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow \\mathrm{B}=\\frac{1}{4-6}\\left(\\begin{array}{cc} 4 & -2 \\\\ -3 & 1 \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow\\left(\\begin{array}{cc} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right)=\\left(\\begin{array}{cc} 5 & 0 \\\\ -1 & 6 \\end{array}\\right) \\end{array} এখন, AB=(3111224)⇒A−1AB=A−1(3111224)⇒B=4−61(4−3−21)(3111224)⇒(−2231−21)(3111224)=(5−106)$"
+    "explanationLatex": "\\left(\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right) A=(1324) এবং AB=(3121124) A B=\\left(\\begin{array}{cc}3 & 12 \\\\ 11 & 24\\end{array}\\right) AB=(3111224) এখন, AB=(3121124)\\begin{array}{l} \\text { এখন, } \\mathrm{AB}=\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\Rightarrow \\mathrm{A}^{-1} \\mathrm{AB}=\\mathrm{A}^{-1}\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow \\mathrm{B}=\\frac{1}{4-6}\\left(\\begin{array}{cc} 4 & -2 \\\\ -3 & 1 \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right) \\\\ \\Rightarrow\\left(\\begin{array}{cc} -2 & 1 \\\\ \\frac{3}{2} & -\\frac{1}{2} \\end{array}\\right)\\left(\\begin{array}{cc} 3 & 12 \\\\ 11 & 24 \\end{array}\\right)=\\left(\\begin{array}{cc} 5 & 0 \\\\ -1 & 6 \\end{array}\\right) \\end{array} এখন, AB=(3111224)"
   },
   {
     "id": 12,
@@ -229,7 +229,7 @@
       "d": "2×5"
     },
     "correctAnswer": "c",
-    "explanation": "প্রদত্ত ম্যাট্রিক্সগুলির আকার: A A A এর আকার 4×5 4 \\times 5 4×5 B B B এর আকার 5×4 5 \\times 4 5×4 C C C এর আকার 4×2 4 \\times 2 4×2 প্রথমে, AT A^{T} AT (A এর ট্রান্সপোজ) এর আকার নির্ণয় করি। যেহ্তে A A A এর আকার 4×5 4 \\times 5 4×5, তাই AT A^{T} AT এর আকার হবে 5×4 5 \\times 4 5×4. এখন, AT+B A^{T}+B AT+B এর আকার নির্ণয় করি। AT A^{T} AT এবং B B B উভয়েরই আকার 5×4 5 \\times 4 5×4, তাই তাদের যোগফল AT+B A^{T}+B AT+B এর আকারও 5×4 5 \\times 4 5×4. পরবর্তীতে, (AT+B)C \\left(A^{T}+B\\right) C (AT+B)C এর আকার নির্ণয় করি। AT+B A^{T}+B AT+B এর আকার 5×4 5 \\times 4 5×4 এবং C C C এর আকার 4×2 4 \\times 2 4×2. ম্যাট্রিক্স গুণনের নিয়ম অনুযায়ী, যদি প্রথম ম্যাট্রিক্সের কলাম সংখ্যা দ্বিতীয় ম্যাট্রিক্সের সারি সংখ্যার সমান হয়, তবে গুণফল ম্যাট্রিক্সের আকার হবে প্রথম ম্যাট্রিক্সের সারি সংখ্যা × \\times × দ্বিতীয় ম্যাট্রিক্সের কলাম সংখ্যা। অত,এব, (AT+B)C \\left(A^{T}+B\\right) C (AT+B)C এর আকার হবে 5×2 5 \\times 2 5×2.",
+    "explanation": "প্রদত্ত ম্যাট্রিক্সগুলির আকার: এর আকার 4\\times 5 4এর আকার 5\\times 4 5এর আকার 4\\times 2 4প্রথমে, এর ট্রান্সপোজ) এর আকার নির্ণয় করি। যেহ্তে এর আকার 4\\times 5 4তাই এর আকার হবে 5\\times 4 5এখন, এর আকার নির্ণয় করি। এবং উভয়েরই আকার 5\\times 4 5তাই তাদের যোগফল এর আকারও 5\\times 4 5পরবর্তীতে, (\\left(A^{T}+B\\right) C (AT+B)C এর আকার নির্ণয় করি। এর আকার 5\\times 4 5এবং এর আকার 4\\times 2 4ম্যাট্রিক্স গুণনের নিয়ম অনুযায়ী, যদি প্রথম ম্যাট্রিক্সের কলাম সংখ্যা দ্বিতীয় ম্যাট্রিক্সের সারি সংখ্যার সমান হয়, তবে গুণফল ম্যাট্রিক্সের আকার হবে প্রথম ম্যাট্রিক্সের সারি সংখ্যা × \\times × দ্বিতীয় ম্যাট্রিক্সের কলাম সংখ্যা। অত,এব, (\\left(A^{T}+B\\right) C (AT+B)C এর আকার হবে 5\\times 2 5",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -309,7 +309,7 @@
       "d": "[ − 4 3 3 − 3 ] [ −4 3 3 −3 ]"
     },
     "correctAnswer": "c",
-    "explanation": "A=[4332]A−1=18−9[2−3−34]⇒[−233−4] A=\\left[\\begin{array}{ll}4 & 3 \\\\ 3 & 2\\end{array}\\right] A^{-1}=\\frac{1}{8-9}\\left[\\begin{array}{cc}2 & -3 \\\\ -3 & 4\\end{array}\\right] \\Rightarrow\\left[\\begin{array}{cc}-2 & 3 \\\\ 3 & -4\\end{array}\\right] A=[4332]A−1=8−91[2−3−34]⇒[−233−4]",
+    "explanation": "\\left[\\begin{array}{ll}4 & 3 \\\\ 3 & 2\\end{array}\\right] A^{-1}=\\frac{1}{8-9}\\left[\\begin{array}{cc}2 & -3 \\\\ -3 & 4\\end{array}\\right] \\Rightarrow\\left[\\begin{array}{cc}-2 & 3 \\\\ 3 & -4\\end{array}\\right] A=[4332]A−1=8−91[2−3−34]",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -317,11 +317,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "[4332] \\left [ \\begin{matrix} 4 & 3 \\\\ 3 & 2 \\end{matrix} \\right ] [4332] বিপরীত ম্যাট্রিক্স নিচের কোনটি?",
-    "explanationLatex": "$A=[4332]A−1=18−9[2−3−34]⇒[−233−4] A=\\left[\\begin{array}{ll}4 & 3 \\\\ 3 & 2\\end{array}\\right] A^{-1}=\\frac{1}{8-9}\\left[\\begin{array}{cc}2 & -3 \\\\ -3 & 4\\end{array}\\right] \\Rightarrow\\left[\\begin{array}{cc}-2 & 3 \\\\ 3 & -4\\end{array}\\right] A=[4332]A−1=8−91[2−3−34]⇒[−233−4]$"
+    "explanationLatex": "\\left[\\begin{array}{ll}4 & 3 \\\\ 3 & 2\\end{array}\\right] A^{-1}=\\frac{1}{8-9}\\left[\\begin{array}{cc}2 & -3 \\\\ -3 & 4\\end{array}\\right] \\Rightarrow\\left[\\begin{array}{cc}-2 & 3 \\\\ 3 & -4\\end{array}\\right] A=[4332]A−1=8−91[2−3−34]"
   },
   {
     "id": 17,
-    "question": "[124−3] \\left [ \\begin{matrix} 1 & 2 \\\\ 4 & - 3 \\end{matrix} \\right ] [142−3] হলে A² এর মান কত?",
+    "question": "[\\left [ \\begin{matrix} 1 & 2 \\\\ 4 & - 3 \\end{matrix} \\right ] [142−3] হলে A² এর মান কত?",
     "options": {
       "a": "[ 1 8 12 17 ] [ 1 12 8 17 ]",
       "b": "[ 9 − 4 0 17 ] [ 9 0 −4 17 ]",
@@ -336,7 +336,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "[124−3] \\left [ \\begin{matrix} 1 & 2 \\\\ 4 & - 3 \\end{matrix} \\right ] [142−3] হলে A² এর মান কত?",
+    "questionLatex": "[\\left [ \\begin{matrix} 1 & 2 \\\\ 4 & - 3 \\end{matrix} \\right ] [142−3] হলে A² এর মান কত?",
     "explanationLatex": "$A2=(124−3)(124−3)=(1+82−64−128+9)=(9−4−817) A^{2}=\\left(\\begin{array}{cc} 1 & 2 \\\\ 4 & -3 \\end{array}\\right)\\left(\\begin{array}{cc} 1 & 2 \\\\ 4 & -3 \\end{array}\\right)=\\left(\\begin{array}{cc} 1+8 & 2-6 \\\\ 4-12 & 8+9 \\end{array}\\right)=\\left(\\begin{array}{cc} 9 & -4 \\\\ -8 & 17 \\end{array}\\right) A2=(142−3)(142−3)=(1+84−122−68+9)=(9−8−417).$"
   },
   {
@@ -349,7 +349,7 @@
       "d": "A − 1 A −1 অস্তিত্বশীল নয়"
     },
     "correctAnswer": "b",
-    "explanation": "A=[1234]∣A∣=−2∴A−1=−12[4−2−31] A=\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]|A|=-2 \\therefore A^{-1}=-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right] A=[1324]∣A∣=−2∴A−1=−21[4−3−21]",
+    "explanation": "\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]|A|=-2 \\therefore A^{-1}=-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right] A=[1324]∣A∣=−2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -357,7 +357,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$A=[1234] \\mathrm{A}=\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right] A=[1324] হলে A−1= \\mathrm{A}^{-1}= A−1= ?$",
-    "explanationLatex": "$A=[1234]∣A∣=−2∴A−1=−12[4−2−31] A=\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]|A|=-2 \\therefore A^{-1}=-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right] A=[1324]∣A∣=−2∴A−1=−21[4−3−21]$"
+    "explanationLatex": "\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 4\\end{array}\\right]|A|=-2 \\therefore A^{-1}=-\\frac{1}{2}\\left[\\begin{array}{cc}4 & -2 \\\\ -3 & 1\\end{array}\\right] A=[1324]∣A∣=−2"
   },
   {
     "id": 19,
@@ -369,7 +369,7 @@
       "d": "None"
     },
     "correctAnswer": "d",
-    "explanation": "এখানে, y=2 এবং,2x−y=6বা,2x−2=6∴x=4 \\begin{array}{c} y=2 \\\\~এবং, 2 x-y=6 \\\\ বা, 2 x-2=6 \\\\ \\therefore x=4 \\end{array} y=2 এবং,2x−y=6বা,2x−2=6∴x=4",
+    "explanation": "এখানে, y=2 এবং,বা,\\begin{array}{c} y=2 \\\\~এবং, 2 x-y=6 \\\\ বা, 2 x-2=6 \\\\ \\therefore x=4 \\end{array} y=2 এবং,2x−y=6বা,2x−2=6",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -377,7 +377,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$যদি [2x−y53y]=[6532] \\left [ \\begin{matrix} 2 x - y & 5 \\\\ 3 & y \\end{matrix} \\right ] = \\left [ \\begin{matrix} 6 & 5 \\\\ 3 & 2 \\end{matrix} \\right ] [2x−y35y]=[6352] হয় তবে x=?$",
-    "explanationLatex": "$এখানে, y=2 এবং,2x−y=6বা,2x−2=6∴x=4 \\begin{array}{c} y=2 \\\\~এবং, 2 x-y=6 \\\\ বা, 2 x-2=6 \\\\ \\therefore x=4 \\end{array} y=2 এবং,2x−y=6বা,2x−2=6∴x=4$"
+    "explanationLatex": "এখানে, y=2 এবং,বা,\\begin{array}{c} y=2 \\\\~এবং, 2 x-y=6 \\\\ বা, 2 x-2=6 \\\\ \\therefore x=4 \\end{array} y=2 এবং,2x−y=6বা,2x−2=6"
   },
   {
     "id": 20,
@@ -389,7 +389,7 @@
       "d": "5"
     },
     "correctAnswer": "d",
-    "explanation": "C=[789217652][100010001]=[789217652] C=\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right]\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]=\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right] C=726815972100010001=726815972 ∴C32=5 \\therefore \\mathrm{C}_{32}=5 ∴C32=5",
+    "explanation": "\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right]\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]=\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right] C=726815972100010001=726815972 \\therefore \\mathrm{C}_{32}=5",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$যদি A=[789217652] A = \\left [ \\begin{matrix} 7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2 \\end{matrix} \\right ] A=726815972 এবং C=A x I3x3 তাহলে C32=?$",
-    "explanationLatex": "$C=[789217652][100010001]=[789217652] C=\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right]\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]=\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right] C=726815972100010001=726815972 ∴C32=5 \\therefore \\mathrm{C}_{32}=5 ∴C32=5$"
+    "explanationLatex": "\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right]\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]=\\left[\\begin{array}{lll}7 & 8 & 9 \\\\ 2 & 1 & 7 \\\\ 6 & 5 & 2\\end{array}\\right] C=726815972100010001=726815972 \\therefore \\mathrm{C}_{32}=5"
   },
   {
     "id": 21,
@@ -469,7 +469,7 @@
       "d": "6 6"
     },
     "correctAnswer": "a",
-    "explanation": "∣11112314k∣=2⇒1(2k−12)−1(k−3)+1(4−2)=2∴k=9 \\left|\\begin{array}{lll}1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & \\mathrm{k}\\end{array}\\right|=2 \\Rightarrow 1(2 \\mathrm{k}-12)-1(\\mathrm{k}-3)+1(4-2)=2 \\therefore \\mathrm{k}=9 11112413k=2⇒1(2k−12)−1(k−3)+1(4−2)=2∴k=9",
+    "explanation": "∣\\left|\\begin{array}{lll}1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & \\mathrm{k}\\end{array}\\right|=2 \\Rightarrow 1(2 \\mathrm{k}-12)-1(\\mathrm{k}-3)+1(4-2)=2 \\therefore \\mathrm{k}=9 11112413k=2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -477,7 +477,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নির্ণায়ক∣11112314k∣ \\left|\\begin{array}{lll}1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & k\\end{array}\\right| 11112413k এর মান 2 , হলে k k k এর মান কত?",
-    "explanationLatex": "$∣11112314k∣=2⇒1(2k−12)−1(k−3)+1(4−2)=2∴k=9 \\left|\\begin{array}{lll}1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & \\mathrm{k}\\end{array}\\right|=2 \\Rightarrow 1(2 \\mathrm{k}-12)-1(\\mathrm{k}-3)+1(4-2)=2 \\therefore \\mathrm{k}=9 11112413k=2⇒1(2k−12)−1(k−3)+1(4−2)=2∴k=9$"
+    "explanationLatex": "∣\\left|\\begin{array}{lll}1 & 1 & 1 \\\\ 1 & 2 & 3 \\\\ 1 & 4 & \\mathrm{k}\\end{array}\\right|=2 \\Rightarrow 1(2 \\mathrm{k}-12)-1(\\mathrm{k}-3)+1(4-2)=2 \\therefore \\mathrm{k}=9 11112413k=2"
   },
   {
     "id": 25,
@@ -529,7 +529,7 @@
       "d": "2"
     },
     "correctAnswer": "d",
-    "explanation": "দেয়া আছে, [1230]×[31x1]=[3+2x1+293]=[3+2x393] \\begin{aligned} & {\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 0\\end{array}\\right] \\times\\left[\\begin{array}{ll}3 & 1 \\\\ x & 1\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 1+2 \\\\ 9 & 3\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right] }\\end{aligned} ==[1320]×[3x11][3+2x91+23][3+2x933] এখন, [3+2x393]=[7393]∴3+2x=7⇒2x=4∴x=2 \\begin{aligned} & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right]=\\left[\\begin{array}{ll}7 & 3 \\\\ 9 & 3\\end{array}\\right] } \\\\ \\therefore & 3+2 x=7 \\\\ \\Rightarrow & 2 x=4 \\\\ \\therefore & x=2\\end{aligned} ∴⇒∴[3+2x933]=[7933]3+2x=72x=4x=2",
+    "explanation": "দেয়া আছে, [1230]\\begin{aligned} & {\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 0\\end{array}\\right] \\times\\left[\\begin{array}{ll}3 & 1 \\\\ x & 1\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 1+2 \\\\ 9 & 3\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right] }\\end{aligned} ==[1320]এখন, [\\begin{aligned} & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right]=\\left[\\begin{array}{ll}7 & 3 \\\\ 9 & 3\\end{array}\\right] } \\\\ \\therefore & 3+2 x=7 \\\\ \\Rightarrow & 2 x=4 \\\\ \\therefore & x=2\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$[1230] [31x1]= [7393]\\left[\\begin{matrix}1&2\\\\3&0\\\\&\\end{matrix}\\right]\\ \\left[\\begin{matrix}3&1\\\\x&1\\\\&\\end{matrix}\\right]=\\ \\left[\\begin{matrix}7&3\\\\9&3\\\\&\\end{matrix}\\right]1320 3x11= 7933 হলে x=?x=?x=?$",
-    "explanationLatex": "$দেয়া আছে, [1230]\\\\times [31x1]=[3+2x1+293]=[3+2x393] \\begin{aligned} & {\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 0\\end{array}\\right] \\times\\left[\\begin{array}{ll}3 & 1 \\\\ x & 1\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 1+2 \\\\ 9 & 3\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right] }\\end{aligned} ==[1320]\\\\times [3x11][3+2x91+23][3+2x933] এখন, [3+2x393]=[7393]∴3+2x=7⇒2x=4∴x=2 \\begin{aligned} & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right]=\\left[\\begin{array}{ll}7 & 3 \\\\ 9 & 3\\end{array}\\right] } \\\\ \\therefore & 3+2 x=7 \\\\ \\Rightarrow & 2 x=4 \\\\ \\therefore & x=2\\end{aligned} ∴⇒∴[3+2x933]=[7933]3+2x=72x=4x=2$"
+    "explanationLatex": "দেয়া আছে, [\\times [31x1]=[3+2x1+293]=[3+2x393] \\begin{aligned} & {\\left[\\begin{array}{ll}1 & 2 \\\\ 3 & 0\\end{array}\\right] \\times\\left[\\begin{array}{ll}3 & 1 \\\\ x & 1\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 1+2 \\\\ 9 & 3\\end{array}\\right] } \\\\ = & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right] }\\end{aligned} ==[1320]\\\\times [3x11][3+2x91+23][3+2x933] এখন, [3+2x393]=[7393]\\begin{aligned} & {\\left[\\begin{array}{cc}3+2 x & 3 \\\\ 9 & 3\\end{array}\\right]=\\left[\\begin{array}{ll}7 & 3 \\\\ 9 & 3\\end{array}\\right] } \\\\ \\therefore & 3+2 x=7 \\\\ \\Rightarrow & 2 x=4 \\\\ \\therefore & x=2\\end{aligned}"
   },
   {
     "id": 28,
@@ -589,7 +589,7 @@
       "d": "0"
     },
     "correctAnswer": "d",
-    "explanation": "2+1=x+3∴x=0 2+1=x+3 \\therefore \\mathrm{x}=0 2+1=x+3∴x=0",
+    "explanation": "\\therefore \\mathrm{x}=0 2+1=x+3",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$A=[9−42−210−1−11] \\mathrm{A}=\\left[\\begin{array}{ccc}9 & -4 & 2 \\\\ -2 & 1 & 0 \\\\ -1 & -1 & 1\\end{array}\\right] A=9−2−1−41−1201 ম্যাট্রিক্স এর (1,3) (1,3) (1,3) এবং (3,3) (3,3) (3,3) তম ভুক্তি দুইটির যোগফল x+3 \\mathrm{x}+3 x+3 হলে, x \\mathrm{x} x এর মান কত?$",
-    "explanationLatex": "$2+1=x+3∴x=0 2+1=x+3 \\therefore \\mathrm{x}=0 2+1=x+3∴x=0$"
+    "explanationLatex": "\\therefore \\mathrm{x}=0 2+1=x+3"
   },
   {
     "id": 31,
@@ -609,7 +609,7 @@
       "d": "3"
     },
     "correctAnswer": "d",
-    "explanation": "A=∣12312P340∣=1(0−4P)−2(0−3P)+3(4−6)=−4P+6P−6 \\begin{aligned} A & =\\left|\\begin{array}{lll} 1 & 2 & 3 \\\\ 1 & 2 & P \\\\ 3 & 4 & 0 \\end{array}\\right| \\\\ & =1(0-4 P)-2(0-3 P)+3(4-6) \\\\ & =-4 P+6 P-6 \\end{aligned} A=1132243P0=1(0−4P)−2(0−3P)+3(4−6)=−4P+6P−6 মান 0 হওয়ায় , −4P+6P−6=0⇒2P=6∴P=3 \\begin{array}{l} -4 P+6 P-6=0 \\\\ \\Rightarrow 2 P=6 \\\\ \\therefore P=3 \\end{array} −4P+6P−6=0⇒2P=6∴P=3",
+    "explanation": "\\begin{aligned} A & =\\left|\\begin{array}{lll} 1 & 2 & 3 \\\\ 1 & 2 & P \\\\ 3 & 4 & 0 \\end{array}\\right| \\\\ & =1(0-4 P)-2(0-3 P)+3(4-6) \\\\ & =-4 P+6 P-6 \\end{aligned} A=1132243P0=1(0−4P)−2(0−3P)+3(4−6)=−4P+6P−6 মান 0 হওয়ায় , −\\begin{array}{l} -4 P+6 P-6=0 \\\\ \\Rightarrow 2 P=6 \\\\ \\therefore P=3 \\end{array} −4P+6P−6=0",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "P P P এর কোন মানের জন্য ∣12312P340∣ \\left|\\begin{array}{lll}1 & 2 & 3 \\\\ 1 & 2 & P \\\\ 3 & 4 & 0\\end{array}\\right| 1132243P0 নির্ণয়কটির মান শূন্য হবে?",
-    "explanationLatex": "$A=∣12312P340∣=1(0−4P)−2(0−3P)+3(4−6)=−4P+6P−6 \\begin{aligned} A & =\\left|\\begin{array}{lll} 1 & 2 & 3 \\\\ 1 & 2 & P \\\\ 3 & 4 & 0 \\end{array}\\right| \\\\ & =1(0-4 P)-2(0-3 P)+3(4-6) \\\\ & =-4 P+6 P-6 \\end{aligned} A=1132243P0=1(0−4P)−2(0−3P)+3(4−6)=−4P+6P−6 মান 0 হওয়ায় , −4P+6P−6=0⇒2P=6∴P=3 \\begin{array}{l} -4 P+6 P-6=0 \\\\ \\Rightarrow 2 P=6 \\\\ \\therefore P=3 \\end{array} −4P+6P−6=0⇒2P=6∴P=3$"
+    "explanationLatex": "\\begin{aligned} A & =\\left|\\begin{array}{lll} 1 & 2 & 3 \\\\ 1 & 2 & P \\\\ 3 & 4 & 0 \\end{array}\\right| \\\\ & =1(0-4 P)-2(0-3 P)+3(4-6) \\\\ & =-4 P+6 P-6 \\end{aligned} A=1132243P0=1(0−4P)−2(0−3P)+3(4−6)=−4P+6P−6 মান 0 হওয়ায় , −\\begin{array}{l} -4 P+6 P-6=0 \\\\ \\Rightarrow 2 P=6 \\\\ \\therefore P=3 \\end{array} −4P+6P−6=0"
   },
   {
     "id": 32,
@@ -629,7 +629,7 @@
       "d": "[15]"
     },
     "correctAnswer": "b",
-    "explanation": "[456]×[23−1]=[8+15−6]=17 \\begin{aligned} & {\\left[\\begin{array}{lll}4 & 5 & 6\\end{array}\\right] \\times\\left[\\begin{array}{c}2 \\\\ 3 \\\\ -1\\end{array}\\right] } \\\\ = & {[8+15-6] } \\\\ = & 17\\end{aligned} ==[456]×23−1[8+15−6]17",
+    "explanation": "[456]\\begin{aligned} & {\\left[\\begin{array}{lll}4 & 5 & 6\\end{array}\\right] \\times\\left[\\begin{array}{c}2 \\\\ 3 \\\\ -1\\end{array}\\right] } \\\\ = & {[8+15-6] } \\\\ = & 17\\end{aligned} ==[456]",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -689,7 +689,7 @@
       "d": "− 1 , − 6 −1,−6"
     },
     "correctAnswer": "a",
-    "explanation": "∣m−262m−3∣=0⇒(m−2)(m−3)=12⇒m2−5m−6=0∴m=6,−1 \\begin{aligned} & \\left|\\begin{array}{cc}m-2 & 6 \\\\ 2 & m-3\\end{array}\\right|=0 \\\\ \\Rightarrow & (m-2)(m-3)=12 \\\\ \\Rightarrow & m^{2}-5 m-6=0 \\\\ \\therefore & m=6,-1\\end{aligned} ⇒⇒∴m−226m−3=0(m−2)(m−3)=12m2−5m−6=0m=6,−1",
+    "explanation": "∣\\begin{aligned} & \\left|\\begin{array}{cc}m-2 & 6 \\\\ 2 & m-3\\end{array}\\right|=0 \\\\ \\Rightarrow & (m-2)(m-3)=12 \\\\ \\Rightarrow & m^{2}-5 m-6=0 \\\\ \\therefore & m=6,-1\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -697,7 +697,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$[m−262m−3] \\left[\\begin{array}{cc}m-2 & 6 \\\\ 2 & m-3\\end{array}\\right] [m−226m−3] ম্যাট্রিক্সটির বিপরীত ম্যাট্রিক্স বিদ্যমান না থাকলে m= \\mathbf{m}= m= কত?$",
-    "explanationLatex": "$∣m−262m−3∣=0⇒(m−2)(m−3)=12⇒m2−5m−6=0∴m=6,−1 \\begin{aligned} & \\left|\\begin{array}{cc}m-2 & 6 \\\\ 2 & m-3\\end{array}\\right|=0 \\\\ \\Rightarrow & (m-2)(m-3)=12 \\\\ \\Rightarrow & m^{2}-5 m-6=0 \\\\ \\therefore & m=6,-1\\end{aligned} ⇒⇒∴m−226m−3=0(m−2)(m−3)=12m2−5m−6=0m=6,−1$"
+    "explanationLatex": "∣\\begin{aligned} & \\left|\\begin{array}{cc}m-2 & 6 \\\\ 2 & m-3\\end{array}\\right|=0 \\\\ \\Rightarrow & (m-2)(m-3)=12 \\\\ \\Rightarrow & m^{2}-5 m-6=0 \\\\ \\therefore & m=6,-1\\end{aligned}"
   },
   {
     "id": 36,
@@ -709,7 +709,7 @@
       "d": "[ 8 1 12 5 ] [ 8 12 1 5 ]"
     },
     "correctAnswer": "b",
-    "explanation": "A=[1005],B=[5021]AB=[1005][5021]=[1×5+0×21×0+0×10×5+5×20×0+5×1]=[5+00+00+100+5]=[50105] \\begin{array}{l} A=\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 5\\end{array}\\right], B=\\left[\\begin{array}{ll}5 & 0 \\\\ 2 & 1\\end{array}\\right] \\\\ A B=\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 5\\end{array}\\right]\\left[\\begin{array}{ll}5 & 0 \\\\ 2 & 1\\end{array}\\right] \\\\ =\\left[\\begin{array}{ll}1 \\times 5+0 \\times 2 & 1 \\times 0+0 \\times 1 \\\\ 0 \\times 5+5 \\times 2 & 0 \\times 0+5 \\times 1\\end{array}\\right] \\\\ =\\left[\\begin{array}{ll}5+0 & 0+0 \\\\ 0+10 & 0+5\\end{array}\\right] \\\\ =\\left[\\begin{array}{ll}5 & 0 \\\\ 10 & 5\\end{array}\\right]\\end{array} A=[1005],B=[5201]AB=[1005][5201]=[1×5+0×20×5+5×21×0+0×10×0+5×1]=[5+00+100+00+5]=[51005]",
+    "explanation": "\\begin{array}{l} A=\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 5\\end{array}\\right], B=\\left[\\begin{array}{ll}5 & 0 \\\\ 2 & 1\\end{array}\\right] \\\\ A B=\\left[\\begin{array}{ll}1 & 0 \\\\ 0 & 5\\end{array}\\right]\\left[\\begin{array}{ll}5 & 0 \\\\ 2 & 1\\end{array}\\right] \\\\ =\\left[\\begin{array}{ll}1 \\times 5+0 \\times 2 & 1 \\times 0+0 \\times 1 \\\\ 0 \\times 5+5 \\times 2 & 0 \\times 0+5 \\times 1\\end{array}\\right] \\\\ =\\left[\\begin{array}{ll}5+0 & 0+0 \\\\ 0+10 & 0+5\\end{array}\\right] \\\\ =\\left[\\begin{array}{ll}5 & 0 \\\\ 10 & 5\\end{array}\\right]\\end{array} A=[1005],B=[5201]AB=[1005][5201]=[1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -729,7 +729,7 @@
       "d": "5 𝐴 − 2 𝐴 2 − 9 𝐼 5A−2A 2 −9I"
     },
     "correctAnswer": "c",
-    "explanation": "5A3−9A2+2AI+I=05A^3-9A^2+2AI+I=05A3−9A2+2AI+I=0 ⇒5A2 − 9A +2I + A−1 = 0\\Rightarrow5A^2\\ -\\ 9A\\ +2I\\ +\\ A^{-1}\\ =\\ 0⇒5A2 − 9A +2I + A−1 = 0(A-1` দিয়ে গুন করে) ⇒ A−1 = 9A −5A2 − 2I \\Rightarrow\\ A^{-1}\\ =\\ 9A\\ -5A^2\\ -\\ 2I\\ ⇒ A−1 = 9A −5A2 − 2I",
+    "explanation": "\\Rightarrow5A^2\\ -\\ 9A\\ +2I\\ +\\ A^{-1}\\ =\\ 0দিয়ে গুন করে) \\Rightarrow\\ A^{-1}\\ =\\ 9A\\ -5A^2\\ -\\ 2I\\",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$যে কোন ম্যাট্রিক্স A ও অভেদক ম্যাট্রিক্স III এর জন্য 5A3−9A2+2AI+I=05A^3-9A^2+2AI+I=05A3−9A2+2AI+I=0 হলে A−1=?A^{-1}=?A−1=?$",
-    "explanationLatex": "$5A3−9A2+2AI+I=05A^3-9A^2+2AI+I=05A3−9A2+2AI+I=0 ⇒5A2 − 9A +2I + A−1 = 0\\Rightarrow5A^2\\ -\\ 9A\\ +2I\\ +\\ A^{-1}\\ =\\ 0⇒5A2 − 9A +2I + A−1 = 0(A-1` দিয়ে গুন করে) ⇒ A−1 = 9A −5A2 − 2I \\Rightarrow\\ A^{-1}\\ =\\ 9A\\ -5A^2\\ -\\ 2I\\ ⇒ A−1 = 9A −5A2 − 2I$"
+    "explanationLatex": "\\Rightarrow5A^2\\ -\\ 9A\\ +2I\\ +\\ A^{-1}\\ =\\ 0দিয়ে গুন করে) \\Rightarrow\\ A^{-1}\\ =\\ 9A\\ -5A^2\\ -\\ 2I\\"
   },
   {
     "id": 38,
@@ -749,7 +749,7 @@
       "d": "− 1 2 − 2 1"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: [x44][210102024][x4−1] \\left[\\begin{array}{lll}\\mathrm{x} & 4 & 4\\end{array}\\right]\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ 1 & 0 & 2 \\\\ 0 & 2 & 4\\end{array}\\right]\\left[\\begin{array}{c}x \\\\ 4 \\\\ -1\\end{array}\\right] [x44]210102024x4−1=[x44][2x+4+0x−20+8−4]=[x44][2x+4x−24] =\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4+0 \\\\ x-2 \\\\ 0+8-4 \\end{array}\\right]=\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4 \\\\ x-2 \\\\ 4 \\end{array}\\right] =[x44]2x+4+0x−20+8−4=[x44]2x+4x−24 =[2x2+4x+4x−8+16] =\\left[2 x^{2}+4 x+4 x-8+16\\right] =[2x2+4x+4x−8+16] =⌊2x2+8x+8⌋ =\\left\\lfloor 2 x^{2}+8 x+8\\right\\rfloor =⌊2x2+8x+8⌋ প্রশ্নমতে 2x2+8x+8=0 2 \\mathrm{x}^{2}+8 \\mathrm{x}+8=0 2x2+8x+8=0 ⇒x2+4x+4=0⇒(x+2)2=0 \\Rightarrow x^{2}+4 x+4=0 \\Rightarrow(x+2)^{2}=0 ⇒x2+4x+4=0⇒(x+2)2=0 ⇒x=−2 \\Rightarrow \\mathrm{x}=-2 ⇒x=−2",
+    "explanation": "\\left[\\begin{array}{lll}\\mathrm{x} & 4 & 4\\end{array}\\right]\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ 1 & 0 & 2 \\\\ 0 & 2 & 4\\end{array}\\right]\\left[\\begin{array}{c}x \\\\ 4 \\\\ -1\\end{array}\\right] [x44]210102024x4−1=[x44][2x+4+0x−20+8−4]=[x44][2x+4x−24] =\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4+0 \\\\ x-2 \\\\ 0+8-4 \\end{array}\\right]=\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4 \\\\ x-2 \\\\ 4 \\end{array}\\right] =[x44]2x+4+0x−20+8−4=[x44]2x+4x−24 =[2x2+4x+4x−8+16] =\\left[2 x^{2}+4 x+4 x-8+16\\right] =[2x2+4x+4x−8+16] =⌊2x2+8x+8⌋ =\\left\\lfloor 2 x^{2}+8 x+8\\right\\rfloor =⌊2x2+8x+8⌋ প্রশ্নমতে \\mathrm{x}^{2}+8 \\mathrm{x}+8=0 2x2+8x+8=0 \\Rightarrow x^{2}+4 x+4=0 \\Rightarrow(x+2)^{2}=0 \\Rightarrow \\mathrm{x}=-2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -757,7 +757,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "[x44][210102024][x4−1] \\left[\\begin{array}{lll}\\mathrm{x} & 4 & 4\\end{array}\\right]\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ 1 & 0 & 2 \\\\ 0 & 2 & 4\\end{array}\\right]\\left[\\begin{array}{c}x \\\\ 4 \\\\ -1\\end{array}\\right] [x44]210102024x4−1 একটি Null ম্যাট্রিক্স হলে X \\mathrm{X} X ।",
-    "explanationLatex": "$Solve: [x44][210102024][x4−1] \\left[\\begin{array}{lll}\\mathrm{x} & 4 & 4\\end{array}\\right]\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ 1 & 0 & 2 \\\\ 0 & 2 & 4\\end{array}\\right]\\left[\\begin{array}{c}x \\\\ 4 \\\\ -1\\end{array}\\right] [x44]210102024x4−1=[x44][2x+4+0x−20+8−4]=[x44][2x+4x−24] =\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4+0 \\\\ x-2 \\\\ 0+8-4 \\end{array}\\right]=\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4 \\\\ x-2 \\\\ 4 \\end{array}\\right] =[x44]2x+4+0x−20+8−4=[x44]2x+4x−24 =[2x2+4x+4x−8+16] =\\left[2 x^{2}+4 x+4 x-8+16\\right] =[2x2+4x+4x−8+16] =⌊2x2+8x+8⌋ =\\left\\lfloor 2 x^{2}+8 x+8\\right\\rfloor =⌊2x2+8x+8⌋ প্রশ্নমতে 2x2+8x+8=0 2 \\mathrm{x}^{2}+8 \\mathrm{x}+8=0 2x2+8x+8=0 ⇒x2+4x+4=0⇒(x+2)2=0 \\Rightarrow x^{2}+4 x+4=0 \\Rightarrow(x+2)^{2}=0 ⇒x2+4x+4=0⇒(x+2)2=0 ⇒x=−2 \\Rightarrow \\mathrm{x}=-2 ⇒x=−2$"
+    "explanationLatex": "\\left[\\begin{array}{lll}\\mathrm{x} & 4 & 4\\end{array}\\right]\\left[\\begin{array}{ccc}2 & 1 & 0 \\\\ 1 & 0 & 2 \\\\ 0 & 2 & 4\\end{array}\\right]\\left[\\begin{array}{c}x \\\\ 4 \\\\ -1\\end{array}\\right] [x44]210102024x4−1=[x44][2x+4+0x−20+8−4]=[x44][2x+4x−24] =\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4+0 \\\\ x-2 \\\\ 0+8-4 \\end{array}\\right]=\\left[\\begin{array}{lll} x & 4 & 4 \\end{array}\\right]\\left[\\begin{array}{c} 2 x+4 \\\\ x-2 \\\\ 4 \\end{array}\\right] =[x44]2x+4+0x−20+8−4=[x44]2x+4x−24 =[2x2+4x+4x−8+16] =\\left[2 x^{2}+4 x+4 x-8+16\\right] =[2x2+4x+4x−8+16] =⌊2x2+8x+8⌋ =\\left\\lfloor 2 x^{2}+8 x+8\\right\\rfloor =⌊2x2+8x+8⌋ প্রশ্নমতে \\mathrm{x}^{2}+8 \\mathrm{x}+8=0 2x2+8x+8=0 \\Rightarrow x^{2}+4 x+4=0 \\Rightarrow(x+2)^{2}=0 \\Rightarrow \\mathrm{x}=-2"
   },
   {
     "id": 39,
@@ -789,7 +789,7 @@
       "d": "( − 1 , − 2 , − 1 ) (−1,−2,−1)"
     },
     "correctAnswer": "c",
-    "explanation": "Solve: [3−511147−21][21−3]=[xyz]⇒[6−5−32+1−1214−2−3]=[xyz]⇒[−2−99]=[xyz]∴(x,y,z)=(−2,−9,9) \\begin{aligned} & \\left[\\begin{array}{ccc} 3 & -5 & 1 \\\\ 1 & 1 & 4 \\\\ 7 & -2 & 1 \\end{array}\\right]\\left[\\begin{array}{c} 2 \\\\ 1 \\\\ -3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\\\ \\Rightarrow & {\\left[\\begin{array}{c} 6-5-3 \\\\ 2+1-12 \\\\ 14-2-3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\Rightarrow\\left[\\begin{array}{c} -2 \\\\ -9 \\\\ 9 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] } \\\\ \\therefore \\quad & (x, y, z)=(-2,-9 , 9) \\end{aligned} ⇒∴317−51−214121−3=xyz6−5−32+1−1214−2−3=xyz⇒−2−99=xyz(x,y,z)=(−2,−9,9)",
+    "explanation": "\\begin{aligned} & \\left[\\begin{array}{ccc} 3 & -5 & 1 \\\\ 1 & 1 & 4 \\\\ 7 & -2 & 1 \\end{array}\\right]\\left[\\begin{array}{c} 2 \\\\ 1 \\\\ -3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\\\ \\Rightarrow & {\\left[\\begin{array}{c} 6-5-3 \\\\ 2+1-12 \\\\ 14-2-3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\Rightarrow\\left[\\begin{array}{c} -2 \\\\ -9 \\\\ 9 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] } \\\\ \\therefore \\quad & (x, y, z)=(-2,-9 , 9) \\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -797,7 +797,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$(g)[3−511147−21][21−3]=[xyz] (g\\mathrm)\\left[\\begin{array}{ccc}3 & -5 & 1 \\\\ 1 & 1 & 4 \\\\ 7 & -2 & 1\\end{array}\\right]\\left[\\begin{array}{c}2 \\\\ 1 \\\\ -3\\end{array}\\right]=\\left[\\begin{array}{l}x \\\\ y \\\\ z\\end{array}\\right] (g)317−51−214121−3=xyz হলে (x,y,z) (\\mathrm{x}, \\mathrm{y}, \\mathrm{z}) (x,y,z) নিচের কোনটি।$",
-    "explanationLatex": "$Solve: [3−511147−21][21−3]=[xyz]⇒[6−5−32+1−1214−2−3]=[xyz]⇒[−2−99]=[xyz]∴(x,y,z)=(−2,−9,9) \\begin{aligned} & \\left[\\begin{array}{ccc} 3 & -5 & 1 \\\\ 1 & 1 & 4 \\\\ 7 & -2 & 1 \\end{array}\\right]\\left[\\begin{array}{c} 2 \\\\ 1 \\\\ -3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\\\ \\Rightarrow & {\\left[\\begin{array}{c} 6-5-3 \\\\ 2+1-12 \\\\ 14-2-3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\Rightarrow\\left[\\begin{array}{c} -2 \\\\ -9 \\\\ 9 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] } \\\\ \\therefore \\quad & (x, y, z)=(-2,-9 , 9) \\end{aligned} ⇒∴317−51−214121−3=xyz6−5−32+1−1214−2−3=xyz⇒−2−99=xyz(x,y,z)=(−2,−9,9)$"
+    "explanationLatex": "\\begin{aligned} & \\left[\\begin{array}{ccc} 3 & -5 & 1 \\\\ 1 & 1 & 4 \\\\ 7 & -2 & 1 \\end{array}\\right]\\left[\\begin{array}{c} 2 \\\\ 1 \\\\ -3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\\\ \\Rightarrow & {\\left[\\begin{array}{c} 6-5-3 \\\\ 2+1-12 \\\\ 14-2-3 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] \\Rightarrow\\left[\\begin{array}{c} -2 \\\\ -9 \\\\ 9 \\end{array}\\right]=\\left[\\begin{array}{l} x \\\\ y \\\\ z \\end{array}\\right] } \\\\ \\therefore \\quad & (x, y, z)=(-2,-9 , 9) \\end{aligned}"
   },
   {
     "id": 41,
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$m\\\\times n ও n\\\\times p আকারের দুটি ম্যাট্রিক্স এর গুণফল ম্যাট্রিক্স এর আকার কত হবে?$",
-    "explanationLatex": "$সঠিক উত্তর: (a) m\\\\times p।$"
+    "explanationLatex": "সঠিক উত্তর: (a) m\\\\times p।"
   },
   {
     "id": 42,
@@ -869,7 +869,7 @@
       "d": "[ 1 0 0 1 ] [ 1 0 0 1 ]"
     },
     "correctAnswer": "b",
-    "explanation": "AB=[11−11]×[1−1−1−1]=[1−1−1−1−1−11−1]=2[0−1−10] \\begin{aligned} A B=\\left[\\begin{array}{cc}1 & 1 \\\\ -1 & 1\\end{array}\\right] \\times\\left[\\begin{array}{cc}1 & -1 \\\\ -1 & -1\\end{array}\\right] & =\\left[\\begin{array}{cc}1-1 & -1-1 \\\\ -1-1 & 1-1\\end{array}\\right] =2\\left[\\begin{array}{cc}0 & -1 \\\\ -1 & 0\\end{array}\\right]\\end{aligned} AB=[1−111]×[1−1−1−1]=[1−1−1−1−1−11−1]=2[0−1−10]",
+    "explanation": "\\begin{aligned} A B=\\left[\\begin{array}{cc}1 & 1 \\\\ -1 & 1\\end{array}\\right] \\times\\left[\\begin{array}{cc}1 & -1 \\\\ -1 & -1\\end{array}\\right] & =\\left[\\begin{array}{cc}1-1 & -1-1 \\\\ -1-1 & 1-1\\end{array}\\right] =2\\left[\\begin{array}{cc}0 & -1 \\\\ -1 & 0\\end{array}\\right]\\end{aligned} AB=[1−111]",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -909,7 +909,7 @@
       "d": "( 0 , 2 ) (0,2)"
     },
     "correctAnswer": "a",
-    "explanation": "x+y=4x−y=2}∴x=3;y=1∴(x,y)=(3,1) \\left.\\begin{array}{r}x+y=4 \\\\ x-y=2\\end{array}\\right\\} \\therefore x=3 ; y=1 \\therefore(x, y)=(3,1) x+y=4x−y=2}∴x=3;y=1∴(x,y)=(3,1)",
+    "explanation": "\\left.\\begin{array}{r}x+y=4 \\\\ x-y=2\\end{array}\\right\\} \\therefore x=3 ; y=1 \\therefore(x, y)=(3,1) x+y=4x−y=2}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$[2x+yx−y3]=[2423] \\left[\\begin{array}{cc}2 & x+y \\\\ x-y & 3\\end{array}\\right]=\\left[\\begin{array}{ll}2 & 4 \\\\ 2 & 3\\end{array}\\right] [2x−yx+y3]=[2243] হলে (x,y) (\\mathrm{x}, \\mathrm{y}) (x,y) কত?$",
-    "explanationLatex": "$x+y=4x−y=2}∴x=3;y=1∴(x,y)=(3,1) \\left.\\begin{array}{r}x+y=4 \\\\ x-y=2\\end{array}\\right\\} \\therefore x=3 ; y=1 \\therefore(x, y)=(3,1) x+y=4x−y=2}∴x=3;y=1∴(x,y)=(3,1)$"
+    "explanationLatex": "\\left.\\begin{array}{r}x+y=4 \\\\ x-y=2\\end{array}\\right\\} \\therefore x=3 ; y=1 \\therefore(x, y)=(3,1) x+y=4x−y=2}"
   },
   {
     "id": 47,
@@ -961,7 +961,7 @@
   },
   {
     "id": 49,
-    "question": "স্কেলার Matrix (3×3) (3 \\times 3) (3×3) Trace 9 হলে, a11= \\mathrm{a}_{11}= a11= ?",
+    "question": "স্কেলার \\times 3) (3হলে, a11= \\mathrm{a}_{11}= a11= ?",
     "options": {
       "a": "9",
       "b": "0",
@@ -969,7 +969,7 @@
       "d": "-3"
     },
     "correctAnswer": "c",
-    "explanation": "স্কেলার Matrix এর ক্ষেত্রে মুখ্য কর্ণের ভুক্তি গুলো সমান, ∴a11=3×33=3. \\begin{aligned} \\therefore \\quad a_{11} & =\\frac{3 \\times 3}{3} =3 .\\end{aligned} ∴a11=33×3=3.",
+    "explanation": "স্কেলার এর ক্ষেত্রে মুখ্য কর্ণের ভুক্তি গুলো সমান, \\begin{aligned} \\therefore \\quad a_{11} & =\\frac{3 \\times 3}{3} =3 .\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -977,7 +977,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$স্কেলার Matrix (3\\\\times 3) (3 \\times 3) (3\\\\times 3) Trace 9 হলে, a11= \\mathrm{a}_{11}= a11= ?$",
-    "explanationLatex": "$স্কেলার Matrix এর ক্ষেত্রে মুখ্য কর্ণের ভুক্তি গুলো সমান, ∴a11=3\\\\times 33=3. \\begin{aligned} \\therefore \\quad a_{11} & =\\frac{3 \\times 3}{3} =3 .\\end{aligned} ∴a11=33\\\\times 3=3.$"
+    "explanationLatex": "স্কেলার এর ক্ষেত্রে মুখ্য কর্ণের ভুক্তি গুলো সমান, \\times 33=3. \\begin{aligned} \\therefore \\quad a_{11} & =\\frac{3 \\times 3}{3} =3 .\\end{aligned} \\times 3=3."
   },
   {
     "id": 50,

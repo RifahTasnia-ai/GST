@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$20 \\\\Omega রোধের গ্যালভানোমিটারের মধ্যে দিয়ে 1A তড়িৎ প্রবাহিত হয়। কত মানের শান্ট যুক্ত হলে 0.01A তড়িৎ প্রবাহিত হবে?$",
-    "explanationLatex": "$𝐼 𝑔 = 𝐼 𝑆 𝐺 + 𝑆 ⇒ 0.01 = 1 𝑆 20 + 𝑆 ⇒ 0.2 + 0.01 𝑆 = 𝑆 ∴ 𝑆 = 0.202 \\\\Omega I g = G+S IS ⇒0.01= 20+S 1S ⇒0.2+0.01S=S ∴ S=0.202\\\\Omega$"
+    "explanationLatex": "𝐼 𝑔 = 𝐼 𝑆 𝐺 + 𝑆 \\Omega I g = G+S IS \\Omega"
   },
   {
     "id": 3,
@@ -77,7 +77,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি তারের ভিতর দিয়ে তড়িৎ প্রবাহের সময় উৎপন্ন তাপের সাথে রোধের সম্পর্ক কি?",
-    "explanationLatex": "$উৎপন্ন তাপ, 𝐻 = 𝐼 2 𝑅 𝑡 ∴ 𝐻 \\\\propto 𝑅 উৎপন্ন তাপ, H=I 2 Rt ∴H\\\\propto R সুতরাং উৎপন্ন তাপের সাথে রোধের সম্পর্ক সমানুপাতিক।$"
+    "explanationLatex": "উৎপন্ন তাপ, 𝐻 = 𝐼 2 𝑅 𝑡 \\propto 𝑅 উৎপন্ন তাপ, \\propto R সুতরাং উৎপন্ন তাপের সাথে রোধের সম্পর্ক সমানুপাতিক।"
   },
   {
     "id": 5,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিচের কোনটি সঠিক?",
-    "explanationLatex": "$1 𝐵 . 𝑂 . T = 1 K W H = 1000 \\ \\times 3600 J = 3.6 \\ \\times 10 6 J 1B.O. T =1KWH =1000\\ \\times 3600 J =3.6\\ \\times 10 6 J$"
+    "explanationLatex": "\\times 3600 J = 3.6 \\ \\times 10 6 J 1B.O. T =1KWH =1000\\ \\times 3600 J =3.6\\ \\times 10 6 J"
   },
   {
     "id": 9,
@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বৈদ্যুতিক স্টোভের গায়ে ১০০০ watt এবং ২০০ volt লেখা আছ। গরম অবস্থায় এর রোধ কত হবে?",
-    "explanationLatex": "$ক্ষমতা, P=1000W বিভব পার্থক্য, V=200V রোধ, R= 𝑉 2 𝑃 P V 2 = 200 2 1000 1000 200 2 =40\\\\Omega I = \\frac{V}{R}$"
+    "explanationLatex": "ক্ষমতা, বিভব পার্থক্য, রোধ, \\Omega I = \\frac{V}{R}"
   },
   {
     "id": 12,
@@ -317,7 +317,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "এক ঘন্টায় একটি 250W টিভি সেট বা 10 মিনিট একটি 1200W ইস্ত্রি, কোনটি বেশি শক্তি ব্যবহার করবে?",
-    "explanationLatex": "$𝑊 TV = 250 \\ \\times 3600 = 9 \\ \\times 10 5 J 𝑊 Iron = 1200 \\ \\times 10 \\ \\times 60 = 7.2 \\ \\times 10 5 J W TV =250\\ \\times 3600=9\\ \\times 10 5 J W Iron =1200\\ \\times 10\\ \\times 60=7.2\\ \\times 10 5 J 𝑊 𝑇 𝑉 > 𝑊 Inon W TV >W Inon$"
+    "explanationLatex": "𝑊 \\times 3600 = 9 \\ \\times 10 5 J 𝑊 Iron = 1200 \\ \\times 10 \\ \\times 60 = 7.2 \\ \\times 10 5 J W TV =250\\ \\times 3600=9\\ \\times 10 5 J W Iron =1200\\ \\times 10\\ \\times 60=7.2\\ \\times 10 5 J 𝑊 𝑇 𝑉 > 𝑊 Inon W TV >W Inon"
   },
   {
     "id": 17,
@@ -337,7 +337,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "1h এ একটি 200 watt এর TV সেট এবং 20min এ 1000 watt এর একটি ইস্ত্রির বিদ্যুৎ শক্তি ব্যবহারের অনুপাত কত হবে?",
-    "explanationLatex": "$এখানে সময় সেকেন্ড এক ওকে গণনা করা হয়েছে। যেহেতু দুইটার অনুপাত সেহেতু একক যাইহোক কোন সমস্যা হবে না 𝑊 1 𝑊 2 = 𝑃 1 𝑡 1 𝑃 2 𝑡 2 = 200 \\ \\times 3600 1000 \\ \\times 20 \\ \\times 60 = 3 5 W 2 W 1 = P 2 t 2 P 1 t 1 = 1000\\ \\times 20\\ \\times 60 200\\ \\times 3600 = 5 3$"
+    "explanationLatex": "এখানে সময় সেকেন্ড এক ওকে গণনা করা হয়েছে। যেহেতু দুইটার অনুপাত সেহেতু একক যাইহোক কোন সমস্যা হবে না 𝑊 \\times 3600 1000 \\ \\times 20 \\ \\times 60 = 3 5 W 2 W 1 = P 2 t 2 P 1 t 1 = 1000\\ \\times 20\\ \\times 60 200\\ \\times 3600 = 5 3"
   },
   {
     "id": 18,
@@ -437,7 +437,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$20\\\\Omega রোধের তারকে টেনে এমনভাবে লম্বা করা হল যাতে দৈর্ঘ্য দ্বিগুণ ও প্রস্থচ্ছেদ অর্ধেক হয় । তারটির রোধ কত ওহম হবে?$",
-    "explanationLatex": "$দৈর্ঘ্য l, প্রস্থচ্ছেদ A হলে, রোধ 𝑅 \\\\propto 𝑙 𝐴 R\\\\propto A l দেয়া আছে, 𝑙 1 𝑙 2 = 2 l 2 l 1 =2 এবং 𝐴 1 𝐴 2 = 1 2 A 1 = 2 1 এবং 𝑅 1 = 20 R 1 =20 বা, 𝑅 2 = 𝑅 1 𝑙 1 𝑙 2 𝐴 2 𝐴 1 = 𝑅 1 2 \\ \\times 2 = 20 \\ \\times 2 2 = 80 R 2 =R 1 l 2 l 1 A 2 =R 1 2\\ \\times 2=20\\ \\times 2 2 =80$"
+    "explanationLatex": "দৈর্ঘ্য l, প্রস্থচ্ছেদ A হলে, রোধ 𝑅 \\\\propto 𝑙 𝐴 R\\\\propto A l দেয়া আছে, 𝑙 এবং 𝐴 এবং 𝑅 বা, 𝑅 2 = 𝑅 1 𝑙 1 𝑙 2 𝐴 2 𝐴 1 = 𝑅 1 2 \\ \\times 2 = 20 \\ \\times 2 2 = 80 R 2 =R 1 l 2 l 1 A 2 =R 1 2\\ \\times 2=20\\ \\times 2 2 =80"
   },
   {
     "id": 23,
@@ -477,7 +477,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "6 ohm রোধের একটি তারকে টেনে ৩ গুণ লম্বা করা হলে, তারটির বর্তমান রোধ কত?",
-    "explanationLatex": "$এখানে, R=6\\\\Omega n=3(তারকে যত গুন লম্বা করা হবে) ∴বর্তমান রোধ,R'=n2\\ \\times R =32\\ \\times 6 =54\\\\Omega$"
+    "explanationLatex": "এখানে, R=6\\\\Omega n=3(তারকে যত গুন লম্বা করা হবে) ∴বর্তমান রোধ,\\times R =32\\ \\times 6 =54\\\\Omega"
   },
   {
     "id": 25,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$5 \\\\Omega রোধ বিশিষ্ট একটি গ্যালভানোমিটার এর মধ্য দিয়ে 6A বিদ্যুৎ প্রবাহিত হলে এটি পূর্ণ স্কেল বিক্ষেপ দেয়। গ্যালভানোমিটারের কয়েলের সাথে X মানের একটি রোধ শ্রেণী সমবায়ে যুক্ত করে একে 300V এর একটি ভোল্টমিটারে পরিণত করা হল। X এর মান কত?$",
-    "explanationLatex": "$𝑅 = 𝐺 ( 𝑛 − 1 ) , 𝑛 = 𝑉 𝑉 𝑔 = 300 5 \\ \\times 6 = 10 , 𝑅 = 45 \\\\Omega R=G(n−1), n= V g V = 5\\ \\times 6 300 =10, R=45\\\\Omega$"
+    "explanationLatex": "𝑅 = 𝐺 ( 𝑛 − \\times 6 = 10 , 𝑅 = 45 \\\\Omega R=G(n−1), n= V g V = 5\\ \\times 6 300 =10, R=45\\\\Omega"
   },
   {
     "id": 28,
@@ -577,7 +577,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একই উপাদানের তৈরি দুটি তারের দৈর্ঘ্য সমান। এদের ব্যাসের অনুপাত 2 :1। প্রথম তারের রোধ 100\\\\Omega হলে দ্বিতীয় তারের রোধ কত?$",
-    "explanationLatex": "$R \\\\propto 1 A ; R 1 R 2 = ( d 2 d 1 ) 2 = 1 4 ∴ R 2 = 4 R 1 = 400 R\\\\propto A 1 ; R 2 R 1 =( d 1 d 2 ) 2 = 4 1 ∴R 2 =4R 1 =400$"
+    "explanationLatex": "R \\\\propto 1 A ; R 1 R 2 = ( d 2 d 1 ) 2 = 1 4 \\propto A 1 ; R 2 R 1 =( d 1 d 2 ) 2 = 4 1"
   },
   {
     "id": 30,
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি হুইটস্টোন ব্রিজের চার বাহুতে যথাক্রমে 10 \\\\Omega , 20 \\\\Omega , 30 \\\\Omega , 40 \\\\Omega 10\\\\Omega ,20\\\\Omega , 30\\\\Omega ,40\\\\Omega রোধ যুক্ত আছে। চতুর্থ বাহুতে কত মানের রোধ কিভাবে যুক্ত করলে ব্রিজটি সাম্যাবস্থায় আসবে?$",
-    "explanationLatex": "$ধরি, রোধ = 𝑅 \\\\Omega =R\\\\Omega এখন, 10 20 = 30 𝑅 ⇒ 1 2 = 30 𝑅 ∴ 𝑅 = 60 \\\\Omega এখন, 20 10 = R 30 ⇒ 2 1 = R 30 ∴R=60\\\\Omega দেয়া আছে, 𝑅 ′ = 40 \\\\Omega R ′ =40\\\\Omega . সুতরাং; 𝑅 = 𝑅 ′ + 𝑥 R=R ′ +x ⇒ 𝑥 = ( 60 − 40 ) \\\\Omega ⇒ 𝑥 = 20 \\\\Omega ⇒x=(60−40)\\\\Omega ⇒x=20 \\\\Omega শ্রেণিতে যোগ করতে হবে।$"
+    "explanationLatex": "ধরি, রোধ = 𝑅 \\\\Omega =R\\\\Omega এখন, 10 20 = 30 𝑅 \\Omega এখন, 20 10 = R 30 \\Omega দেয়া আছে, 𝑅 ′ = 40 \\\\Omega R ′ =40\\\\Omega . সুতরাং; 𝑅 = 𝑅 ′ + 𝑥 \\Omega \\Omega \\Omega \\Omega শ্রেণিতে যোগ করতে হবে।"
   },
   {
     "id": 31,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "এক কিলোওয়াট-ঘন্টা সমান -",
-    "explanationLatex": "$1 𝐾 𝑊 ℎ = 1000 𝐽 𝑆 − 1 \\ \\times 3600 𝑠 = 3.6 \\ \\times 10 6 𝐽 1KWh=1000JS −1 \\ \\times 3600s=3.6\\ \\times 10 6 J$"
+    "explanationLatex": "\\times 3600 𝑠 = 3.6 \\ \\times 10 6 𝐽 1KWh=1000JS −1 \\ \\times 3600s=3.6\\ \\times 10 6 J"
   },
   {
     "id": 33,
@@ -656,8 +656,8 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$1 a.m.u = কত অ্যাম্পিয়ার ?$",
-    "explanationLatex": "$1 a.m.u( atomic mass unit )= 10A$"
+    "questionLatex": "1 a.m.u = কত অ্যাম্পিয়ার ?",
+    "explanationLatex": "1 a.m.u( atomic mass unit )= 10A"
   },
   {
     "id": 34,
@@ -717,7 +717,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$12 12Vতড়িচ্চালক শক্তি এবং 0.1 \\\\Omega অভ্যন্তরীণ রোধের একটি ব্যাটারিকে একটি বৈদ্যুতিক মোটরের সঙ্গে সংযুক্ত করলে ব্যাটারির প্রান্তদ্বয়ের বিভব পার্থক্য দাঁড়ায় 7.0 7.0V। মোটরে সরবরাহকৃত কারেন্টের মান কত?$",
-    "explanationLatex": "$তড়িচ্চালক শক্তি,E=12V বিভব পার্থক্য, V=7.0V অভ্যন্তরীণ রোধ,r=0.1 \\\\Omega \\\\Omega তড়িৎ প্রবাহ, I=? 𝐸 = 𝑉 + 𝐼 𝑟 ∴ 𝐼 = 𝐸 − 𝑉 𝑟 = 12 − 7 0.1 = 50 𝐴 E=V+Ir ∴I= r E−V = 0.1 12−7 =50 A$"
+    "explanationLatex": "তড়িচ্চালক শক্তি,বিভব পার্থক্য, অভ্যন্তরীণ রোধ,\\Omega \\\\Omega তড়িৎ প্রবাহ,"
   },
   {
     "id": 37,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "400W এর একটি হিটার কত সময় যাবৎ চালালে 96 Cal তাপ উৎপন্ন হবে?",
-    "explanationLatex": "$𝐻 = 0.24 P t ⇒ 𝑡 = 𝐻 0.24 P = 96 0.24 \\ \\times 400 = 1 s e c H=0.24Pt⇒t= 0.24P H = 0.24\\ \\times 400 96 =1sec.$"
+    "explanationLatex": "𝐻 = \\times 400 = 1 s e c H=0.24Pt\\times 400 96 =1sec."
   },
   {
     "id": 38,
@@ -797,7 +797,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$2\\\\Omega অন্তরােধের একটি কোষের প্রান্তদ্বয় 8\\\\Omega রােধের সাথে যুক্ত করলে 0.3A বিদ্যুৎ প্রবাহিত হয়। কোষটির তড়িচ্চালক বল কত?$",
-    "explanationLatex": "$সমাধান: ওহমের সূত্র অনুসারে, 𝐸 = 𝐼 𝑅 total E=IR total যেখানে, তড়িচ্চালক বল = E আভ্যন্তরীন রোধ, 𝑟 = 2 \\\\Omega r=2\\\\Omega বিদ্যুৎ প্রবাহ, I = 0.3 A তুল্য রোধ, 𝑅 total = 𝑅 + 𝑟 = 8 + 2 = 10 \\\\Omega R total =R+r=8+2=10\\\\Omega 𝐸 = 0.3 \\ \\times 10 = 3 V E=0.3\\ \\times 10=3 V$"
+    "explanationLatex": "সমাধান: ওহমের সূত্র অনুসারে, 𝐸 = 𝐼 𝑅 যেখানে, তড়িচ্চালক বল = E আভ্যন্তরীন রোধ, 𝑟 = 2 \\\\Omega r=2\\\\Omega বিদ্যুৎ প্রবাহ, তুল্য রোধ, 𝑅 \\Omega R total =R+r=8+2=10\\\\Omega 𝐸 = 0.3 \\ \\times 10 = 3 V E=0.3\\ \\times 10=3 V"
   },
   {
     "id": 41,
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$5\\\\Omega বিশিষ্ট কোন তারকে টেনে তিনগুণ লম্বা করলে তারের দোধ কত হবে?$",
-    "explanationLatex": "$𝑅 2 = 𝑛 2 𝑅 1 = 3 2 \\ \\times 5 = 45 \\\\Omega R 2 =n 2 R 1 =3 2 \\ \\times 5 =45\\\\Omega$"
+    "explanationLatex": "𝑅 \\times 5 = 45 \\\\Omega R 2 =n 2 R 1 =3 2 \\ \\times 5 =45\\\\Omega"
   },
   {
     "id": 42,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "প্রস্থচ্ছেদের ক্ষেত্রফল দ্বিগুণ করা হলে রােধ কী পরিমাণ হবে?",
-    "explanationLatex": "$𝑅 \\\\propto 1 𝐴 ∴ 𝑅 2 = 1 2 𝑅 1 R ∴R 2 \\\\propto A 1 = 2 1 R 1$"
+    "explanationLatex": "𝑅 \\\\propto 1 𝐴 \\propto A 1 = 2 1 R 1"
   },
   {
     "id": 47,
@@ -937,7 +937,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি মোটর গাড়ির হেড লাইটের ফিলামেন্ট 5 অ্যাম্পিয়ার তড়িৎ প্রবাহ বহন করে। এর প্রান্ত দ্বয়ের বিভব পার্থক্য 6 ভোল্ট,ফিলামেন্টের রোধ হবে---",
-    "explanationLatex": "$V = 𝐼 𝑅 ⇒ 𝑅 = 𝑉 𝐼 = 6 5 = 1.2 \\\\Omega =IR⇒R= I V = 5 6 =1.2\\\\Omega$"
+    "explanationLatex": "V = 𝐼 𝑅 \\Omega =IR\\Omega"
   },
   {
     "id": 48,
@@ -977,7 +977,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$2 \\\\Omega রোধের একটি তারকে পেঁচিয়ে বৃত্ত বানালে বৃত্তের ব্যাসের দুই প্রান্তের তুল্যরোধ কত?$",
-    "explanationLatex": "$Req ⁡ = ( 1 1 + 1 1 ) − 1 = 0.5 \\\\Omega Req =( 1 1 + 1 1 ) −1 =0.5\\\\Omega$"
+    "explanationLatex": "Req \\Omega Req =( 1 1 + 1 1 ) −1 =0.5\\\\Omega"
   },
   {
     "id": 50,

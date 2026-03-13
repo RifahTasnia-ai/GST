@@ -1,0 +1,18 @@
+{
+  "name": "GST 100MCQ — ভর্তি পরীক্ষার প্র্যাকটিস",
+  "short_name": "GST 100MCQ",
+  "description": "GST ভর্তি পরীক্ষার জন্য বিনামূল্যে MCQ প্র্যাকটিস। Physics, Chemistry, Biology ও Mathematics — ১০০ প্রশ্ন, ৬০ মিনিট।",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "lang": "bn",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

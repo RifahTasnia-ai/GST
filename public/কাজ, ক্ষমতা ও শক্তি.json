@@ -49,7 +49,7 @@
       "d": "0 ° ≤ 𝜃 < 90 ° 0°≤θ<90°"
     },
     "correctAnswer": "d",
-    "explanation": "W=F⃗⋅S⃗=FScos⁡θ ধনাত্মক কাজ : 0∘⩽θ<90∘ঋণাত্মক কাজঃ 90∘<θ⩽180∘শূণ্য কাজ : θ=900 W=\\vec{F} \\cdot \\vec{S}=F S \\cos \\theta \\\\ \\text { ধনাত্মক কাজ : } 0^{\\circ} \\leqslant \\theta<90^{\\circ} \\\\ \\text{ঋণাত্মক কাজঃ } 90^{\\circ} <\\theta\\leqslant180^{\\circ} \\\\ \\text{শূণ্য কাজ : } \\theta = 90⁰ W=F⋅S=FScosθ ধনাত্মক কাজ : 0∘⩽θ<90∘ঋণাত্মক কাজঃ 90∘<θ⩽180∘শূণ্য কাজ : θ=900",
+    "explanation": "ধনাত্মক কাজ : ঋণাত্মক কাজঃ শূণ্য কাজ : θ=\\vec{F} \\cdot \\vec{S}=F S \\cos \\theta \\\\ \\text { ধনাত্মক কাজ : } 0^{\\circ} \\leqslant \\theta<90^{\\circ} \\\\ \\text{ঋণাত্মক কাজঃ } 90^{\\circ} <\\theta\\leqslant180^{\\circ} \\\\ \\text{শূণ্য কাজ : } \\theta = 90⁰ W=F⋅S=FScosθ ধনাত্মক কাজ : ঋণাত্মক কাজঃ শূণ্য কাজ : θ=900",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -69,7 +69,7 @@
       "d": "25000 J"
     },
     "correctAnswer": "c",
-    "explanation": "W=12m(v2−u2)=12×30×(502−302)=15×402=15×1600=24000 JW=\\frac{1}{2}m\\left(v^2-u^2\\right)=\\frac{1}{2}\\times30\\times\\left({50}^2-{30}^2\\right)=15\\times{40}^2=15\\times1600=24000\\ JW=21m(v2−u2)=21×30×(502−302)=15×402=15×1600=24000 J",
+    "explanation": "\\frac{1}{2}m\\left(v^2-u^2\\right)=\\frac{1}{2}\\times30\\times\\left({50}^2-{30}^2\\right)=15\\times{40}^2=15\\times1600=24000\\ JW=21m(v2−u2)=21",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -109,7 +109,7 @@
       "d": "5 J"
     },
     "correctAnswer": "b",
-    "explanation": "W=12m(u2−v2)=12×2×10−3×(1002−502)J=7.5JW=\\frac{1}{2}m\\left(u^2-v^2\\right)\\\\ =\\frac{1}{2}\\times2\\times{10}^{-3}\\times\\left({100}^2-{50}^2\\right)J \\\\ =7.5J W=21m(u2−v2)=21×2×10−3×(1002−502)J=7.5J",
+    "explanation": "\\frac{1}{2}m\\left(u^2-v^2\\right)\\\\ =\\frac{1}{2}\\times2\\times{10}^{-3}\\times\\left({100}^2-{50}^2\\right)J \\\\ =7.5J W=21m(u2−v2)=21",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -129,7 +129,7 @@
       "d": "𝐸 𝑘 = 1 2 𝑝 2 ( 𝑚 E k = 2 1 (m p 2"
     },
     "correctAnswer": "d",
-    "explanation": "Ek=12mv2=(mv)22m∴Ek=p22m \\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2}=\\frac{(m v)^{2}}{2 m} \\\\ \\therefore E_{k}=\\frac{p^{2}}{2 m}\\end{array} Ek=21mv2=2m(mv)2∴Ek=2mp2",
+    "explanation": "\\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2}=\\frac{(m v)^{2}}{2 m} \\\\ \\therefore E_{k}=\\frac{p^{2}}{2 m}\\end{array} Ek=21mv2=2m(mv)2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -137,7 +137,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ভরবেগের সাথে গতিশক্তির সঠিক সম্পর্ক নিচের কোনটি?",
-    "explanationLatex": "$Ek=12mv2=(mv)22m∴Ek=p22m \\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2}=\\frac{(m v)^{2}}{2 m} \\\\ \\therefore E_{k}=\\frac{p^{2}}{2 m}\\end{array} Ek=21mv2=2m(mv)2∴Ek=2mp2$"
+    "explanationLatex": "\\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2}=\\frac{(m v)^{2}}{2 m} \\\\ \\therefore E_{k}=\\frac{p^{2}}{2 m}\\end{array} Ek=21mv2=2m(mv)2"
   },
   {
     "id": 8,
@@ -196,7 +196,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$কার্যকর শক্তি/মোট প্রদত্ত শক্তি=?$",
+    "questionLatex": "কার্যকর শক্তি/মোট প্রদত্ত শক্তি=?",
     "explanationLatex": "$কার্যকর শক্তি হলো প্রদত্ত মোট শক্তির একটি অংশ যা কাজে ব্যবহৃত হয়। কাজেই, কার্যকর শক্তি/প্রদত্ত মোট শক্তি = কর্মদক্ষতা। কর্মদক্ষতা = কাজ প্রদত্ত শক্তি অতএব, কার্যকর শক্তি/প্রদত্ত মোট শক্তি = কর্মদক্ষতা। ১০০দ্বারা গুণ করে কর্মদক্ষতার শতকরা পরিমাণ বের করা হয়$"
   },
   {
@@ -209,7 +209,7 @@
       "d": "839 Watt"
     },
     "correctAnswer": "a",
-    "explanation": "P=Wt=mght=55×9.8×33=539Watt \\mathrm{P}=\\frac{\\mathrm{W}}{\\mathrm{t}}=\\frac{\\mathrm{mgh}}{\\mathrm{t}}=\\frac{55 \\times 9.8 \\times 3}{3}=539 \\mathrm{Watt} P=tW=tmgh=355×9.8×3=539Watt",
+    "explanation": "\\mathrm{P}=\\frac{\\mathrm{W}}{\\mathrm{t}}=\\frac{\\mathrm{mgh}}{\\mathrm{t}}=\\frac{55 \\times 9.8 \\times 3}{3}=539 \\mathrm{Watt} P=tW=tmgh=355",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -249,7 +249,7 @@
       "d": "4.9x107J"
     },
     "correctAnswer": "b",
-    "explanation": "মুক্তভাবে পড়ন্ত বস্তুর গতিশক্তি = স্থিতিশক্তি =mgh=10× =\\mathrm{mgh}=10 \\times =mgh=10× 9.8×50=4.9×103 J 9.8 \\times 50=4.9 \\times 10^{3} \\mathrm{~J} 9.8×50=4.9×103 J",
+    "explanation": "মুক্তভাবে পড়ন্ত বস্তুর গতিশক্তি = স্থিতিশক্তি =\\mathrm{mgh}=10 \\times =mgh=10\\times 50=4.9 \\times 10^{3} \\mathrm{~J} 9.8",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -349,7 +349,7 @@
       "d": "5 KW"
     },
     "correctAnswer": "b",
-    "explanation": "হিটারের শক্তি, P=VIP=VIP=VI =(250×8)W=2000 W \\begin{array}{l} =(250 \\times 8) \\mathrm{W} \\\\ =2000 \\mathrm{~W} \\end{array} =(250×8)W=2000 W",
+    "explanation": "হিটারের শক্তি, \\begin{array}{l} =(250 \\times 8) \\mathrm{W} \\\\ =2000 \\mathrm{~W} \\end{array} =(250",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -369,7 +369,7 @@
       "d": "θ = 45°"
     },
     "correctAnswer": "b",
-    "explanation": "(+)w→0∘≤θ<90∘(−)w→90∘<θ≤180∘ \\begin{array}{l}(+) w \\rightarrow 0^{\\circ} \\leq \\theta<90^{\\circ} \\\\ (-) w \\rightarrow 90^{\\circ}<\\theta \\leq 180^{\\circ}\\end{array} (+)w→0∘≤θ<90∘(−)w→90∘<θ≤180∘",
+    "explanation": "(+)w\\begin{array}{l}(+) w \\rightarrow 0^{\\circ} \\leq \\theta<90^{\\circ} \\\\ (-) w \\rightarrow 90^{\\circ}<\\theta \\leq 180^{\\circ}\\end{array} (+)w",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -377,7 +377,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ঋণাত্মক কাজের শর্ত কোনটি ?",
-    "explanationLatex": "$(+)w→0∘\\\\le \\\\theta <90∘(−)w→90∘<\\\\theta \\\\le 180∘ \\begin{array}{l}(+) w \\rightarrow 0^{\\circ} \\leq \\theta<90^{\\circ} \\\\ (-) w \\rightarrow 90^{\\circ}<\\theta \\leq 180^{\\circ}\\end{array} (+)w→0∘\\\\le \\\\theta <90∘(−)w→90∘<\\\\theta \\\\le 180∘$"
+    "explanationLatex": "(+)w\\le \\\\theta <90∘(−)w\\theta \\\\le 180∘ \\begin{array}{l}(+) w \\rightarrow 0^{\\circ} \\leq \\theta<90^{\\circ} \\\\ (-) w \\rightarrow 90^{\\circ}<\\theta \\leq 180^{\\circ}\\end{array} (+)w\\le \\\\theta <90∘(−)w\\theta \\\\le 180∘"
   },
   {
     "id": 20,
@@ -449,7 +449,7 @@
       "d": "1.0 m"
     },
     "correctAnswer": "a",
-    "explanation": "W=12kx2 ⇒1.5=12300×x2 ∴x=0.1 mW=\\frac{1}{2}kx^2\\ \\Rightarrow1.5=\\frac{1}{2}300\\times x^2\\ \\\\ \\therefore x=0.1\\ mW=21kx2 ⇒1.5=21300×x2 ∴x=0.1 m",
+    "explanation": "\\frac{1}{2}kx^2\\ \\Rightarrow1.5=\\frac{1}{2}300\\times x^2\\ \\\\ \\therefore x=0.1\\ mW=21kx2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$300 Nm−1300\\ Nm^{-1}300 Nm−1বল ধ্রুবক সম্পন্ন একটি স্প্রিংকে কতটুকু সংকুচিত করলে1.5 J1.5\\ J1.5 Jকাজ করা হবে?$",
-    "explanationLatex": "$W=12kx2 ⇒1.5=12300\\ \\times x2 ∴x=0.1 mW=\\frac{1}{2}kx^2\\ \\Rightarrow1.5=\\frac{1}{2}300 \\times x^2\\ \\\\ \\therefore x=0.1\\ mW=21kx2 ⇒1.5=21300\\ \\times x2 ∴x=0.1 m$"
+    "explanationLatex": "\\times x2 \\frac{1}{2}kx^2\\ \\Rightarrow1.5=\\frac{1}{2}300 \\times x^2\\ \\\\ \\therefore x=0.1\\ mW=21kx2 \\times x2"
   },
   {
     "id": 24,
@@ -549,7 +549,7 @@
       "d": "45×1014 j"
     },
     "correctAnswer": "b",
-    "explanation": "ভর ও শক্তি সমতুল্য ⇒ \\Rightarrow ⇒ E=mc2=5×10−3×[3×108]2=4.5×1014j \\mathrm{E}=\\mathrm{mc}^{2}=5 \\times 10^{-3} \\times\\left[3 \\times 10^{8}\\right]^{2}=4.5 \\times 10^{14}j E=mc2=5×10−3×[3×108]2=4.5×1014j",
+    "explanation": "ভর ও শক্তি সমতুল্য ⇒ \\Rightarrow \\mathrm{E}=\\mathrm{mc}^{2}=5 \\times 10^{-3} \\times\\left[3 \\times 10^{8}\\right]^{2}=4.5 \\times 10^{14}j E=mc2=5",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -589,7 +589,7 @@
       "d": "𝐸 = 1 2 𝐼 𝜔 2 E= 2 1 Iω 2"
     },
     "correctAnswer": "d",
-    "explanation": "E=12mv2 ঘূর্ণন গতির ক্ষেত্রে m→Iv→ωE = \\frac{1}{2} mv²\\\\ \\text { ঘূর্ণন গতির ক্ষেত্রে } m \\rightarrow I \\\\ v \\rightarrow \\omega E=21mv2 ঘূর্ণন গতির ক্ষেত্রে m→Iv→ω",
+    "explanation": "ঘূর্ণন গতির ক্ষেত্রে m\\frac{1}{2} mv²\\\\ \\text { ঘূর্ণন গতির ক্ষেত্রে } m \\rightarrow I \\\\ v \\rightarrow \\omega E=21mv2 ঘূর্ণন গতির ক্ষেত্রে m",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ঘূর্ণন গতিশক্তি E, জড়তার ভ্রামক I এবং কৌণিক বেগ ω এর মধ্যবর্তী সম্পর্ক কোনটি?",
-    "explanationLatex": "$E=12mv2 ঘূর্ণন গতির ক্ষেত্রে m→Iv→ωE = \\frac{1}{2} mv²\\\\ \\text { ঘূর্ণন গতির ক্ষেত্রে } m \\rightarrow I \\\\ v \\rightarrow \\omega E=21mv2 ঘূর্ণন গতির ক্ষেত্রে m→Iv→ω$"
+    "explanationLatex": "ঘূর্ণন গতির ক্ষেত্রে m\\frac{1}{2} mv²\\\\ \\text { ঘূর্ণন গতির ক্ষেত্রে } m \\rightarrow I \\\\ v \\rightarrow \\omega E=21mv2 ঘূর্ণন গতির ক্ষেত্রে m"
   },
   {
     "id": 31,
@@ -609,7 +609,7 @@
       "d": "2mgR/3"
     },
     "correctAnswer": "b",
-    "explanation": "আমরা জানি, Wagent =Gm⁡m(1R1−1R2)=gR2m(1R−12R)=gm(R22R)=gmR2 \\begin{aligned} W_{\\text {agent }} & =\\operatorname{Gm} m\\left(\\frac{1}{R_{1}}-\\frac{1}{R_{2}}\\right) \\\\ & =g R^{2} m\\left(\\frac{1}{R}-\\frac{1}{2 R}\\right) \\\\ & =g m\\left(\\frac{R^{2}}{2 R}\\right) \\\\ & =\\frac{g m R}{2}\\end{aligned} Wagent =Gmm(R11−R21)=gR2m(R1−2R1)=gm(2RR2)=2gmR",
+    "explanation": "আমরা জানি, \\begin{aligned} W_{\\text {agent }} & =\\operatorname{Gm} m\\left(\\frac{1}{R_{1}}-\\frac{1}{R_{2}}\\right) \\\\ & =g R^{2} m\\left(\\frac{1}{R}-\\frac{1}{2 R}\\right) \\\\ & =g m\\left(\\frac{R^{2}}{2 R}\\right) \\\\ & =\\frac{g m R}{2}\\end{aligned} Wagent =Gmm(R11−R21)=gR2m(R1−2R1)=gm(2RR2)=2gmR",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ভূমি হতে 'm' ভরের কোন বস্তুকণাকে 2R (পৃথিবীর ব্যাসার্ধের দ্বিগুণ) উচ্চতায় উত্তোলন করলে কৃত কাজঃ",
-    "explanationLatex": "$আমরা জানি, Wagent =Gm⁡m(1R1−1R2)=gR2m(1R−12R)=gm(R22R)=gmR2 \\begin{aligned} W_{\\text {agent }} & =\\operatorname{Gm} m\\left(\\frac{1}{R_{1}}-\\frac{1}{R_{2}}\\right) \\\\ & =g R^{2} m\\left(\\frac{1}{R}-\\frac{1}{2 R}\\right) \\\\ & =g m\\left(\\frac{R^{2}}{2 R}\\right) \\\\ & =\\frac{g m R}{2}\\end{aligned} Wagent =Gmm(R11−R21)=gR2m(R1−2R1)=gm(2RR2)=2gmR$"
+    "explanationLatex": "আমরা জানি, \\begin{aligned} W_{\\text {agent }} & =\\operatorname{Gm} m\\left(\\frac{1}{R_{1}}-\\frac{1}{R_{2}}\\right) \\\\ & =g R^{2} m\\left(\\frac{1}{R}-\\frac{1}{2 R}\\right) \\\\ & =g m\\left(\\frac{R^{2}}{2 R}\\right) \\\\ & =\\frac{g m R}{2}\\end{aligned} Wagent =Gmm(R11−R21)=gR2m(R1−2R1)=gm(2RR2)=2gmR"
   },
   {
     "id": 32,
@@ -649,7 +649,7 @@
       "d": "14 m/s"
     },
     "correctAnswer": "d",
-    "explanation": "36 km/h=10 ms−1Ek1=12 m(10 ms−1)2 ও Ek2=12mv2 এখন Ek2Ek1=12mv212 m(10 ms−1)2⇒2=v2102∴v=14.14 ms−1 \\begin{array}{l}36 \\mathrm{~km} / \\mathrm{h}=10 \\mathrm{~ms}^{-1} \\\\ \\mathrm{E}_{\\mathrm{k}_{1}}=\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2} \\text { ও } \\mathrm{E}_{\\mathrm{k}_{2}}=\\frac{1}{2} \\mathrm{mv}^{2} \\\\ \\text { এখন } \\frac{\\mathrm{E}_{\\mathrm{k}_{2}}}{\\mathrm{E}_{\\mathrm{k}_{1}}}=\\frac{\\frac{1}{2} \\mathrm{mv}^{2}}{\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2}} \\Rightarrow 2=\\frac{\\mathrm{v}^{2}}{10^{2}} \\therefore \\mathrm{v}=14.14 \\mathrm{~ms}^{-1}\\end{array} 36 km/h=10 ms−1Ek1=21 m(10 ms−1)2 ও Ek2=21mv2 এখন Ek1Ek2=21 m(10 ms−1)221mv2⇒2=102v2∴v=14.14 ms−1",
+    "explanation": "ও এখন \\begin{array}{l}36 \\mathrm{~km} / \\mathrm{h}=10 \\mathrm{~ms}^{-1} \\\\ \\mathrm{E}_{\\mathrm{k}_{1}}=\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2} \\text { ও } \\mathrm{E}_{\\mathrm{k}_{2}}=\\frac{1}{2} \\mathrm{mv}^{2} \\\\ \\text { এখন } \\frac{\\mathrm{E}_{\\mathrm{k}_{2}}}{\\mathrm{E}_{\\mathrm{k}_{1}}}=\\frac{\\frac{1}{2} \\mathrm{mv}^{2}}{\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2}} \\Rightarrow 2=\\frac{\\mathrm{v}^{2}}{10^{2}} \\therefore \\mathrm{v}=14.14 \\mathrm{~ms}^{-1}\\end{array} 36 km/h=10 ms−1Ek1=21 m(10 ms−1)2 ও Ek2=21mv2 এখন Ek1Ek2=21 m(10 ms−1)221mv2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -657,7 +657,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি গাড়ি 36 \\frac{km}{hr} বেগে গতিশীল। প্রায় কোন গতিতে চললে গাড়িটির গতিশক্তি দ্বিগুণ হবে?$",
-    "explanationLatex": "$36 \\frac{km}{h}=10 ms−1Ek1=12 m(10 ms−1)2 ও Ek2=12mv2 এখন Ek2Ek1=12mv212 m(10 ms−1)2⇒2=v2102∴v=14.14 ms−1 \\begin{array}{l}36 \\mathrm{~km} / \\mathrm{h}=10 \\mathrm{~ms}^{-1} \\\\ \\mathrm{E}_{\\mathrm{k}_{1}}=\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2} \\text { ও } \\mathrm{E}_{\\mathrm{k}_{2}}=\\frac{1}{2} \\mathrm{mv}^{2} \\\\ \\text { এখন } \\frac{\\mathrm{E}_{\\mathrm{k}_{2}}}{\\mathrm{E}_{\\mathrm{k}_{1}}}=\\frac{\\frac{1}{2} \\mathrm{mv}^{2}}{\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2}} \\Rightarrow 2=\\frac{\\mathrm{v}^{2}}{10^{2}} \\therefore \\mathrm{v}=14.14 \\mathrm{~ms}^{-1}\\end{array} 36 \\frac{km}{h}=10 ms−1Ek1=21 m(10 ms−1)2 ও Ek2=21mv2 এখন Ek1Ek2=21 m(10 ms−1)221mv2⇒2=102v2∴v=14.14 ms−1$"
+    "explanationLatex": "36 \\frac{km}{h}=10 ms−1Ek1=12 m(10 ms−1)2 ও Ek2=12mv2 এখন Ek2Ek1=12mv212 m(10 ms−1)2\\begin{array}{l}36 \\mathrm{~km} / \\mathrm{h}=10 \\mathrm{~ms}^{-1} \\\\ \\mathrm{E}_{\\mathrm{k}_{1}}=\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2} \\text { ও } \\mathrm{E}_{\\mathrm{k}_{2}}=\\frac{1}{2} \\mathrm{mv}^{2} \\\\ \\text { এখন } \\frac{\\mathrm{E}_{\\mathrm{k}_{2}}}{\\mathrm{E}_{\\mathrm{k}_{1}}}=\\frac{\\frac{1}{2} \\mathrm{mv}^{2}}{\\frac{1}{2} \\mathrm{~m}\\left(10 \\mathrm{~ms}^{-1}\\right)^{2}} \\Rightarrow 2=\\frac{\\mathrm{v}^{2}}{10^{2}} \\therefore \\mathrm{v}=14.14 \\mathrm{~ms}^{-1}\\end{array} 36 \\frac{km}{h}=10 ms−1Ek1=21 m(10 ms−1)2 ও Ek2=21mv2 এখন Ek1Ek2=21 m(10 ms−1)221mv2"
   },
   {
     "id": 34,
@@ -729,7 +729,7 @@
       "d": "ষোলগুণ"
     },
     "correctAnswer": "c",
-    "explanation": "Ek=12mv2∴Ek∝v2 \\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2} \\\\ \\therefore E_{k} \\propto v^{2}\\end{array} Ek=21mv2∴Ek∝v2",
+    "explanation": "\\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2} \\\\ \\therefore E_{k} \\propto v^{2}\\end{array} Ek=21mv2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বস্তুর গতিশক্তি চারগুণ করতে হলে এর বেগ কতগুণ করতে হবে?",
-    "explanationLatex": "$Ek=12mv2∴Ek\\\\propto v2 \\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2} \\\\ \\therefore E_{k} \\propto v^{2}\\end{array} Ek=21mv2∴Ek\\\\propto v2$"
+    "explanationLatex": "\\propto v2 \\begin{array}{l}E_{k}=\\frac{1}{2} m v^{2} \\\\ \\therefore E_{k} \\propto v^{2}\\end{array} Ek=21mv2\\propto v2"
   },
   {
     "id": 38,
@@ -769,7 +769,7 @@
       "d": "0°"
     },
     "correctAnswer": "a",
-    "explanation": "W=F⃗⋅S⃗=FScos⁡θ ধনাত্মক কাজ : 0∘⩽θ<90∘ঋণাত্মক কাজঃ 90∘<θ⩽180∘শূণ্য কাজ : θ=900 W=\\vec{F} \\cdot \\vec{S}=F S \\cos \\theta \\\\ \\text { ধনাত্মক কাজ : } 0^{\\circ} \\leqslant \\theta<90^{\\circ} \\\\ \\text{ঋণাত্মক কাজঃ } 90^{\\circ} <\\theta\\leqslant180^{\\circ} \\\\ \\text{শূণ্য কাজ : } \\theta = 90⁰ W=F⋅S=FScosθ ধনাত্মক কাজ : 0∘⩽θ<90∘ঋণাত্মক কাজঃ 90∘<θ⩽180∘শূণ্য কাজ : θ=900",
+    "explanation": "ধনাত্মক কাজ : ঋণাত্মক কাজঃ শূণ্য কাজ : θ=\\vec{F} \\cdot \\vec{S}=F S \\cos \\theta \\\\ \\text { ধনাত্মক কাজ : } 0^{\\circ} \\leqslant \\theta<90^{\\circ} \\\\ \\text{ঋণাত্মক কাজঃ } 90^{\\circ} <\\theta\\leqslant180^{\\circ} \\\\ \\text{শূণ্য কাজ : } \\theta = 90⁰ W=F⋅S=FScosθ ধনাত্মক কাজ : ঋণাত্মক কাজঃ শূণ্য কাজ : θ=900",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -789,7 +789,7 @@
       "d": "0.01 J"
     },
     "correctAnswer": "d",
-    "explanation": "W=12kx2=12×2×0.12=0.01 J \\mathrm{W}=\\frac{1}{2} \\mathrm{kx}^{2}=\\frac{1}{2} \\times 2 \\times 0.1^{2}=0.01 \\mathrm{~J} W=21kx2=21×2×0.12=0.01 J",
+    "explanation": "\\mathrm{W}=\\frac{1}{2} \\mathrm{kx}^{2}=\\frac{1}{2} \\times 2 \\times 0.1^{2}=0.01 \\mathrm{~J} W=21kx2=21",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -829,7 +829,7 @@
       "d": "একই থাকে"
     },
     "correctAnswer": "c",
-    "explanation": "Ek=p22m∴Ek∝p2 \\begin{array}{l}E_{k}=\\frac{p^{2}}{2 m} \\\\ \\therefore E_{k} \\propto p^{2}\\end{array} Ek=2mp2∴Ek∝p2",
+    "explanation": "\\begin{array}{l}E_{k}=\\frac{p^{2}}{2 m} \\\\ \\therefore E_{k} \\propto p^{2}\\end{array} Ek=2mp2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -837,7 +837,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বস্তুর ভরবেগ দ্বিগুণ করা হলে গতিশক্তি?",
-    "explanationLatex": "$Ek=p22m∴Ek\\\\propto p2 \\begin{array}{l}E_{k}=\\frac{p^{2}}{2 m} \\\\ \\therefore E_{k} \\propto p^{2}\\end{array} Ek=2mp2∴Ek\\\\propto p2$"
+    "explanationLatex": "\\propto p2 \\begin{array}{l}E_{k}=\\frac{p^{2}}{2 m} \\\\ \\therefore E_{k} \\propto p^{2}\\end{array} Ek=2mp2\\propto p2"
   },
   {
     "id": 43,
@@ -849,7 +849,7 @@
       "d": "𝑚 𝐸 mE"
     },
     "correctAnswer": "c",
-    "explanation": "E=P22mP2=2mE∴P=2mE \\begin{array}{l}E=\\frac{P^{2}}{2 m} \\\\ P^{2}=2 m E \\\\ \\therefore P=\\sqrt{2 m E}\\end{array} E=2mP2P2=2mE∴P=2mE",
+    "explanation": "\\begin{array}{l}E=\\frac{P^{2}}{2 m} \\\\ P^{2}=2 m E \\\\ \\therefore P=\\sqrt{2 m E}\\end{array} E=2mP2P2=2mE",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -857,7 +857,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "m ভরের একটি বস্তুর গতিশক্তি E হলে, ভরবেগ কত?",
-    "explanationLatex": "$E=P22mP2=2mE∴P=2mE \\begin{array}{l}E=\\frac{P^{2}}{2 m} \\\\ P^{2}=2 m E \\\\ \\therefore P=\\sqrt{2 m E}\\end{array} E=2mP2P2=2mE∴P=2mE$"
+    "explanationLatex": "\\begin{array}{l}E=\\frac{P^{2}}{2 m} \\\\ P^{2}=2 m E \\\\ \\therefore P=\\sqrt{2 m E}\\end{array} E=2mP2P2=2mE"
   },
   {
     "id": 44,
@@ -869,7 +869,7 @@
       "d": "50 m"
     },
     "correctAnswer": "b",
-    "explanation": "Ek=3Ep⇒mg(h−x)=3mgx⇒x=h4=604=15 m \\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{60}{4}=15 \\mathrm{~m}\\end{array} Ek=3Ep⇒mg(h−x)=3mgx⇒x=4h=460=15 m",
+    "explanation": "\\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{60}{4}=15 \\mathrm{~m}\\end{array} Ek=3Ep",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -877,7 +877,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "60 m উচ্চতা থেকে একটি বস্তুকে বিনা বাধায় পড়তে দিলে ভুমি থেকে কোথায় এর গতিশক্তি বিভবশক্তির তিনগুণ হবে?",
-    "explanationLatex": "$Ek=3Ep⇒mg(h−x)=3mgx⇒x=h4=604=15 m \\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{60}{4}=15 \\mathrm{~m}\\end{array} Ek=3Ep⇒mg(h−x)=3mgx⇒x=4h=460=15 m$"
+    "explanationLatex": "\\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{60}{4}=15 \\mathrm{~m}\\end{array} Ek=3Ep"
   },
   {
     "id": 45,
@@ -909,7 +909,7 @@
       "d": "0J"
     },
     "correctAnswer": "d",
-    "explanation": "কাজ শূন্য হওয়ার শর্ত : (ক) সরণ যদি শূন্য হয়, তবে কাজ W=F×0=0 W=F \\times 0=0 W=F×0=0 হয়। (খ) বল ও সরণের মধ্যবর্তী কোণ 90∘ 90^{\\circ} 90∘ হলে কাজ W=FScos⁡90∘=0 W=F S \\cos 90^{\\circ}=0 W=FScos90∘=0 হয়। (গ) সংরক্ষণশীল বলের প্রভাবে যদি কোনো বস্তু বৃত্তাকার পথে ঘুরে তখন কাজ শূন্য रয়।",
+    "explanation": "কাজ শূন্য হওয়ার শর্ত : (ক) সরণ যদি শূন্য হয়, তবে কাজ W=F\\times 0=0 W=Fহয়। (খ) বল ও সরণের মধ্যবর্তী কোণ \\circ} 90∘ হলে কাজ W=FScos\\cos 90^{\\circ}=0 W=FScos90∘=0 হয়। (গ) সংরক্ষণশীল বলের প্রভাবে যদি কোনো বস্তু বৃত্তাকার পথে ঘুরে তখন কাজ শূন্য रয়।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "40N ওজনের বস্তুকে মেঝে থেকে 2 মিটার উচুঁতে 2 সেকেন্ড ধরে রাখতে কাজের পরিমাণ -",
-    "explanationLatex": "$কাজ শূন্য হওয়ার শর্ত : (ক) সরণ যদি শূন্য হয়, তবে কাজ W=F\\ \\times 0=0 W=F \\times 0=0 W=F\\ \\times 0=0 হয়। (খ) বল ও সরণের মধ্যবর্তী কোণ 90∘ 90^{\\circ} 90∘ হলে কাজ W=FScos⁡90∘=0 W=F S \\cos 90^{\\circ}=0 W=FScos90∘=0 হয়। (গ) সংরক্ষণশীল বলের প্রভাবে যদি কোনো বস্তু বৃত্তাকার পথে ঘুরে তখন কাজ শূন্য रয়।$"
+    "explanationLatex": "কাজ শূন্য হওয়ার শর্ত : (ক) সরণ যদি শূন্য হয়, তবে কাজ W=F\\ \\times 0=0 W=F \\times 0=0 W=F\\ \\times 0=0 হয়। (খ) বল ও সরণের মধ্যবর্তী কোণ \\circ} 90∘ হলে কাজ W=FScos\\cos 90^{\\circ}=0 W=FScos90∘=0 হয়। (গ) সংরক্ষণশীল বলের প্রভাবে যদি কোনো বস্তু বৃত্তাকার পথে ঘুরে তখন কাজ শূন্য रয়।"
   },
   {
     "id": 47,
@@ -949,7 +949,7 @@
       "d": "20m"
     },
     "correctAnswer": "a",
-    "explanation": "Ek=3Ep⇒mg(h−x)=3mgx⇒x=h4=204=5 m \\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{20}{4}=5 \\mathrm{~m}\\end{array} Ek=3Ep⇒mg(h−x)=3mgx⇒x=4h=420=5 m",
+    "explanation": "\\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{20}{4}=5 \\mathrm{~m}\\end{array} Ek=3Ep",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -957,6 +957,6 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন বস্তু 20মি. উচ্চতায় উপর থেকে বিনা বাধায় পরলে, ভূমি থেকে কত উচ্চতায় তার গতিশক্তি বিভবশক্তির তিনগুন হবে?",
-    "explanationLatex": "$Ek=3Ep⇒mg(h−x)=3mgx⇒x=h4=204=5 m \\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{20}{4}=5 \\mathrm{~m}\\end{array} Ek=3Ep⇒mg(h−x)=3mgx⇒x=4h=420=5 m$"
+    "explanationLatex": "\\begin{array}{l}E_{k}=3 E_{p} \\\\ \\Rightarrow m g(h-x)=3 m g x \\\\ \\Rightarrow x=\\frac{h}{4}=\\frac{20}{4}=5 \\mathrm{~m}\\end{array} Ek=3Ep"
   }
 ]

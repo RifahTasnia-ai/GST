@@ -57,7 +57,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$\\frac{5km}{h} বেগে প্রবাহমান 4km প্রশস্ত একটি নদী সোজাসুজি পার হতে 3600s লাগলে লদ্ধি বেগ কত?$",
-    "explanationLatex": "$সঠিক উত্তর: (a) \\frac{4km}{h}।$"
+    "explanationLatex": "সঠিক উত্তর: (a) \\frac{4km}{h}।"
   },
   {
     "id": 4,
@@ -101,7 +101,7 @@
   },
   {
     "id": 6,
-    "question": "A⃗,B⃗\\vec{A}, \\vec{B}A,B ও C⃗\\vec CC তিনটি ভেক্টর রাশি হলে এবং C⃗= A⃗×B⃗\\vec{C}=\\ \\vec{A}\\times\\vec{B}C= A×B হলে C⃗\\vec{C}C এর দিক হবে-",
+    "question": "A⃗,B⃗\\vec{A}, \\vec{B}A,B ও C⃗\\vec CC তিনটি ভেক্টর রাশি হলে এবং \\vec{C}=\\ \\vec{A}\\times\\vec{B}C= Aহলে C⃗\\vec{C}C এর দিক হবে-",
     "options": {
       "a": "𝐴 ⃗ A বরাবর",
       "b": "𝐴 ⃗ A ও 𝐵 ⃗ B এর সমতলের লম্ব বরাবর",
@@ -141,7 +141,7 @@
   },
   {
     "id": 8,
-    "question": "i‾ ×k‾ =\\overline{i}\\ \\times\\overline{k}\\ =i ×k =কোনটি?",
+    "question": "i‾ \\overline{i}\\ \\times\\overline{k}\\ =i কোনটি?",
     "options": {
       "a": "𝑗 ‾ j",
       "b": "𝑖 ‾ i",
@@ -297,7 +297,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দুটি ভেক্টর রাশির যোগফল & বিয়োগফল সমান হলে তাদের মধ্যবর্তী কোন-",
-    "explanationLatex": "$সঠিক উত্তর: (a) 90^{\\\\circ}।$"
+    "explanationLatex": "সঠিক উত্তর: (a) 90^{\\\\circ}।"
   },
   {
     "id": 16,
@@ -381,7 +381,7 @@
   },
   {
     "id": 20,
-    "question": "a→=4i→−3j→+2k→\\overrightarrow{a}=4\\overrightarrow{i}-3\\overrightarrow{j}+2\\overrightarrow{k}a=4i−3j+2kও b→=2i→−3j→+4k→\\overrightarrow{b}=2\\overrightarrow{i}-3\\overrightarrow{j}+4\\overrightarrow{k}b=2i−3j+4kভেক্টর দুইুট যে সামান্তরিকের সন্নিহিত বাহু তার ক্ষেত্রফল হবে-",
+    "question": "a\\overrightarrow{a}=4\\overrightarrow{i}-3\\overrightarrow{j}+2\\overrightarrow{k}a=4i−3j+2kও b\\overrightarrow{b}=2\\overrightarrow{i}-3\\overrightarrow{j}+4\\overrightarrow{k}b=2i−3j+4kভেক্টর দুইুট যে সামান্তরিকের সন্নিহিত বাহু তার ক্ষেত্রফল হবে-",
     "options": {
       "a": "3 3 𝑠 𝑞 𝑢 𝑛 𝑖 𝑡 𝑠 3 3 sq units",
       "b": "6 3 𝑠 𝑞 𝑢 𝑛 𝑖 𝑡 𝑠 6 3 sq units",
@@ -396,7 +396,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$a→=4i→−3j→+2k→\\overrightarrow{a}=4\\overrightarrow{i}-3\\overrightarrow{j}+2\\overrightarrow{k}a=4i−3j+2kও b→=2i→−3j→+4k→\\overrightarrow{b}=2\\overrightarrow{i}-3\\overrightarrow{j}+4\\overrightarrow{k}b=2i−3j+4kভেক্টর দুইুট যে সামান্তরিকের সন্নিহিত বাহু তার ক্ষেত্রফল হবে-$",
+    "questionLatex": "a\\overrightarrow{a}=4\\overrightarrow{i}-3\\overrightarrow{j}+2\\overrightarrow{k}a=4i−3j+2kও b\\overrightarrow{b}=2\\overrightarrow{i}-3\\overrightarrow{j}+4\\overrightarrow{k}b=2i−3j+4kভেক্টর দুইুট যে সামান্তরিকের সন্নিহিত বাহু তার ক্ষেত্রফল হবে-",
     "explanationLatex": "সঠিক উত্তর: (a) 3 3 𝑠 𝑞 𝑢 𝑛 𝑖 𝑡 𝑠 3 3 sq units।"
   },
   {
@@ -417,7 +417,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "Ā,B̄ এবং C̄ ভেক্টর তিনটি একই তলে হওয়ার শর্ত কোনটি?",
-    "explanationLatex": "$সঠিক উত্তর: (a) 𝐴 ⃗ . ( 𝐵 ⃗ \\ \\times 𝐶 ⃗ ) = 0 A .( B \\ \\times C )=0।$"
+    "explanationLatex": "সঠিক উত্তর: (\\times 𝐶 ⃗ ) = 0 A .( B \\ \\times C )=0।"
   },
   {
     "id": 22,
@@ -461,7 +461,7 @@
   },
   {
     "id": 24,
-    "question": "যদিP→=i^−j^+k^\\overrightarrow{P}=\\hat{i}-\\hat{j}+\\hat{k}P=i^−j^+k^এবংQ→=i^+j^−k^\\overrightarrow{Q}=\\hat{i}+\\hat{j}-\\hat{k}Q=i^+j^−k^একটি সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে, তাহলে উপযুক্ত এককে সামান্তরিকের ক্ষেত্রফল নির্ণয় কর।",
+    "question": "যদিP\\overrightarrow{P}=\\hat{i}-\\hat{j}+\\hat{k}P=i^−j^+k^এবংQ\\overrightarrow{Q}=\\hat{i}+\\hat{j}-\\hat{k}Q=i^+j^−k^একটি সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে, তাহলে উপযুক্ত এককে সামান্তরিকের ক্ষেত্রফল নির্ণয় কর।",
     "options": {
       "a": "2 2 2 2",
       "b": "2 2",
@@ -476,7 +476,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$যদিP→=i^−j^+k^\\overrightarrow{P}=\\hat{i}-\\hat{j}+\\hat{k}P=i^−j^+k^এবংQ→=i^+j^−k^\\overrightarrow{Q}=\\hat{i}+\\hat{j}-\\hat{k}Q=i^+j^−k^একটি সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে, তাহলে উপযুক্ত এককে সামান্তরিকের ক্ষেত্রফল নির্ণয় কর।$",
+    "questionLatex": "যদিP\\overrightarrow{P}=\\hat{i}-\\hat{j}+\\hat{k}P=i^−j^+k^এবংQ\\overrightarrow{Q}=\\hat{i}+\\hat{j}-\\hat{k}Q=i^+j^−k^একটি সামান্তরিকের দুইটি সন্নিহিত বাহু নির্দেশ করে, তাহলে উপযুক্ত এককে সামান্তরিকের ক্ষেত্রফল নির্ণয় কর।",
     "explanationLatex": "সঠিক উত্তর: (a) 2 2 2 2 ।"
   },
   {
@@ -501,7 +501,7 @@
   },
   {
     "id": 26,
-    "question": "যদি QP→=A⃗\\overrightarrow {QP}=\\vec{A}QP=A হয়, তবে PQ→=?\\overrightarrow {PQ}=?PQ=?",
+    "question": "যদি QP\\overrightarrow {QP}=\\vec{A}QP=A হয়, তবে PQ\\overrightarrow {PQ}=?PQ=?",
     "options": {
       "a": "𝐴 ⃗ A",
       "b": "∣ 𝐴 ⃗ ∣ ∣ A ∣",
@@ -516,7 +516,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$যদি QP→=A⃗\\overrightarrow {QP}=\\vec{A}QP=A হয়, তবে PQ→=?\\overrightarrow {PQ}=?PQ=?$",
+    "questionLatex": "যদি QP\\overrightarrow {QP}=\\vec{A}QP=A হয়, তবে PQ\\overrightarrow {PQ}=?PQ=?",
     "explanationLatex": "সঠিক উত্তর: (a) 𝐴 ⃗ A।"
   },
   {
@@ -721,7 +721,7 @@
   },
   {
     "id": 37,
-    "question": "a→=i^+2j^−3k^\\overrightarrow{a}=\\hat{i}+2\\hat{j}-3\\hat{k}a=i^+2j^−3k^এবংb→=3i^−j^+2k^\\overrightarrow{b}=3\\hat{i}-\\hat{j}+2\\hat{k}b=3i^−j^+2k^হলে, নিম্নের কোনটি সত্য?",
+    "question": "a\\overrightarrow{a}=\\hat{i}+2\\hat{j}-3\\hat{k}a=i^+2j^−3k^এবংb\\overrightarrow{b}=3\\hat{i}-\\hat{j}+2\\hat{k}b=3i^−j^+2k^হলে, নিম্নের কোনটি সত্য?",
     "options": {
       "a": "𝑎 → . 𝑏 → = 0 a . b =0",
       "b": "( 𝑎 → + 𝑏 → ) . ( 𝑎 → − 𝑏 → ) = 0 ( a + b ).( a − b )=0",
@@ -736,7 +736,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$a→=i^+2j^−3k^\\overrightarrow{a}=\\hat{i}+2\\hat{j}-3\\hat{k}a=i^+2j^−3k^এবংb→=3i^−j^+2k^\\overrightarrow{b}=3\\hat{i}-\\hat{j}+2\\hat{k}b=3i^−j^+2k^হলে, নিম্নের কোনটি সত্য?$",
+    "questionLatex": "a\\overrightarrow{a}=\\hat{i}+2\\hat{j}-3\\hat{k}a=i^+2j^−3k^এবংb\\overrightarrow{b}=3\\hat{i}-\\hat{j}+2\\hat{k}b=3i^−j^+2k^হলে, নিম্নের কোনটি সত্য?",
     "explanationLatex": "$সঠিক উত্তর: (a) 𝑎 → . 𝑏 → = 0 a . b =0।$"
   },
   {
@@ -761,7 +761,7 @@
   },
   {
     "id": 39,
-    "question": "ভেক্টরu→=i^+j^\\overrightarrow{u}=\\hat{i}+\\hat{j}u=i^+j^ওv→=j^+k^\\overrightarrow{v}=\\hat{j}+\\hat{k}v=j^+k^এর অন্তর্ভুক্ত কোণ-",
+    "question": "ভেক্টরu\\overrightarrow{u}=\\hat{i}+\\hat{j}u=i^+j^ওv\\overrightarrow{v}=\\hat{j}+\\hat{k}v=j^+k^এর অন্তর্ভুক্ত কোণ-",
     "options": {
       "a": "cos ⁡ − 1 1 3 cos −1 3 1",
       "b": "cos ⁡ − 1 1 3 cos −1 3 1",
@@ -776,7 +776,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$ভেক্টরu→=i^+j^\\overrightarrow{u}=\\hat{i}+\\hat{j}u=i^+j^ওv→=j^+k^\\overrightarrow{v}=\\hat{j}+\\hat{k}v=j^+k^এর অন্তর্ভুক্ত কোণ-$",
+    "questionLatex": "ভেক্টরu\\overrightarrow{u}=\\hat{i}+\\hat{j}u=i^+j^ওv\\overrightarrow{v}=\\hat{j}+\\hat{k}v=j^+k^এর অন্তর্ভুক্ত কোণ-",
     "explanationLatex": "সঠিক উত্তর: (a) cos ⁡ − 1 1 3 cos −1 3 1 ।"
   },
   {
@@ -821,7 +821,7 @@
   },
   {
     "id": 42,
-    "question": "যদিA→+B→=R→\\overrightarrow{A}+\\overrightarrow{B}=\\overrightarrow{R}A+B=RএবংA=B=RA=B=RA=B=Rহয়, তবে A ও B এর মধ্যবর্তী কোণ কত?",
+    "question": "যদিA\\overrightarrow{A}+\\overrightarrow{B}=\\overrightarrow{R}A+B=RএবংA=B=RA=B=RA=B=Rহয়, তবে A ও B এর মধ্যবর্তী কোণ কত?",
     "options": {
       "a": "0",
       "b": "2π/3",
@@ -836,7 +836,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "$যদিA→+B→=R→\\overrightarrow{A}+\\overrightarrow{B}=\\overrightarrow{R}A+B=RএবংA=B=RA=B=RA=B=Rহয়, তবে A ও B এর মধ্যবর্তী কোণ কত?$",
+    "questionLatex": "যদিA\\overrightarrow{A}+\\overrightarrow{B}=\\overrightarrow{R}A+B=RএবংA=B=RA=B=RA=B=Rহয়, তবে A ও B এর মধ্যবর্তী কোণ কত?",
     "explanationLatex": "সঠিক উত্তর: (a) 0।"
   },
   {
@@ -937,6 +937,6 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$বিপরীতমুখী দুইটি বাসের বেগ যথাক্রমে \\frac{25m}{s} ও 10 \\frac{m}{s} হলে, তাদের মধ্যকার আপেক্ষিক বেগের মান কত?$",
-    "explanationLatex": "$সঠিক উত্তর: (a) \\frac{25m}{s}।$"
+    "explanationLatex": "সঠিক উত্তর: (a) \\frac{25m}{s}।"
   }
 ]

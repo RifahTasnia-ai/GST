@@ -29,7 +29,7 @@
       "d": "0.04% CO2"
     },
     "correctAnswer": "a",
-    "explanation": "বায়ুমন্ডলে O2 এর পরিমাণ 20.94% প্রধান উপাদান N2=78,O2=20.95,H2O \\text{N}_{2} = 78, \\text{O}_{2} = 20.95, \\text{H}_{2}\\text{O} N2=78,O2=20.95,H2O (জলীয় বাষ্প) =0.1−0.4 = 0.1 - 0.4 =0.1−0.4 (পরিবর্তনশীল) অল্প উপস্থিত উপাদান Ar=0.93,CO2=0.04 \\text{Ar} = 0.93, \\text{CO}_{2} = 0.04 Ar=0.93,CO2=0.04 বা, 400 ppm 400 \\text{ ppm} 400 ppm (আয়তন হিসেবে পরিবর্তনশীল) নগণ্য উপস্থিত উপাদান O3=6×10−5,NO2=1×10−5,SO2=2×10−5,CO=1×10−6, \\text{O}_{3} = 6 \\times 10^{-5}, \\text{NO}_{2} = 1 \\times 10^{-5}, \\text{SO}_{2} = 2 \\times 10^{-5}, \\text{CO} = 1 \\times 10^{-6}, O3=6×10−5,NO2=1×10−5,SO2=2×10−5,CO=1×10−6, NH3=1×10−6,N2O=2×10−5,H2=5×10−5,He=5×10−3, \\text{NH}_{3} = 1 \\times 10^{-6}, \\text{N}_{2}\\text{O} = 2 \\times 10^{-5}, \\text{H}_{2} = 5 \\times 10^{-5}, \\text{He} = 5 \\times 10^{-3}, NH3=1×10−6,N2O=2×10−5,H2=5×10−5,He=5×10−3, Ne=1.8×10−3,Kr=1.5×10−4,Xe=8×10−6 \\text{Ne} = 1.8 \\times 10^{-3}, \\text{Kr} = 1.5 \\times 10^{-4}, \\text{Xe} = 8 \\times 10^{-6} Ne=1.8×10−3,Kr=1.5×10−4,Xe=8×10−6",
+    "explanation": "বায়ুমন্ডলে O2 এর পরিমাণ প্রধান উপাদান \\text{N}_{2} = 78, \\text{O}_{2} = 20.95, \\text{H}_{2}\\text{O} N2=78,O2=20.95,H2O (জলীয় বাষ্প) =পরিবর্তনশীল) অল্প উপস্থিত উপাদান \\text{Ar} = 0.93, \\text{CO}_{2} = 0.04 Ar=0.93,CO2=0.04 বা, 400 ppm 400 \\text{ ppm} 400 ppm (আয়তন হিসেবে পরিবর্তনশীল) নগণ্য উপস্থিত উপাদান O3=6\\text{O}_{3} = 6 \\times 10^{-5}, \\text{NO}_{2} = 1 \\times 10^{-5}, \\text{SO}_{2} = 2 \\times 10^{-5}, \\text{CO} = 1 \\times 10^{-6}, O3=6\\text{NH}_{3} = 1 \\times 10^{-6}, \\text{N}_{2}\\text{O} = 2 \\times 10^{-5}, \\text{H}_{2} = 5 \\times 10^{-5}, \\text{He} = 5 \\times 10^{-3}, NH3=1\\text{Ne} = 1.8 \\times 10^{-3}, \\text{Kr} = 1.5 \\times 10^{-4}, \\text{Xe} = 8 \\times 10^{-6} Ne=1.8",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -549,7 +549,7 @@
       "d": "60°C"
     },
     "correctAnswer": "c",
-    "explanation": "260∘C 260^{\\circ} \\mathrm{C} 260∘C তাপমাত্রায় ছুঁতে সাদা অনার্দ্র কপার সালফেটে রূপান্তরিত হয়। বিক্রিয়াটি হলো: CuSO4.5H2O→CuSO4CuSO_4.5H_2O \\rightarrow CuSO_4CuSO4.5H2O→CuSO4",
+    "explanation": "\\circ} \\mathrm{C} 260∘C তাপমাত্রায় ছুঁতে সাদা অনার্দ্র কপার সালফেটে রূপান্তরিত হয়। বিক্রিয়াটি হলো: \\rightarrow CuSO_4CuSO4.5H2O",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কত তাপমাত্রায় তুঁতে সাদা অনার্দ্র কপার সালফেটে রূপান্তরিত হয়?",
-    "explanationLatex": "$260∘C 260^{\\circ} \\mathrm{C} 260∘C তাপমাত্রায় ছুঁতে সাদা অনার্দ্র কপার সালফেটে রূপান্তরিত হয়। বিক্রিয়াটি হলো: CuSO4.5H2O→CuSO4CuSO_4.5H_2O \\rightarrow CuSO_4CuSO4.5H2O→CuSO4$"
+    "explanationLatex": "\\circ} \\mathrm{C} 260∘C তাপমাত্রায় ছুঁতে সাদা অনার্দ্র কপার সালফেটে রূপান্তরিত হয়। বিক্রিয়াটি হলো: \\rightarrow CuSO_4CuSO4.5H2O"
   },
   {
     "id": 29,
@@ -729,7 +729,7 @@
       "d": "থার্মোস্ফিয়ার"
     },
     "correctAnswer": "b",
-    "explanation": "স্ট্র্যাটোস্ফিয়ারে সূর্যের আলোর মধ্যস্থ ক্ষতিকারক UV-রশ্মি শোষণকারী ওজোন (O3) স্তর অক্সিজেন থেকে সৃষ্টি হয়। সূর্য থেকে আসা অতিবেখনি রশ্মির(UV) পভাবে এ স্তরে O2 \\mathrm{O}_{2} O2 অণু ভেজে সক্রিয় পারমাণবিক অক্সিজেনে পরিণত হয় এবং তা O2 \\mathrm{O}_{2} O2 এর সলে যুক্ত হয়ে O3 \\mathrm{O}_{3} O3 গঠন করে। O2( g)→UV2O(g)O2( g)+O(g)→O3( g)+ তাপ \\begin{array}{l} \\mathrm{O}_{2}(\\mathrm{~g}) \\xrightarrow{\\mathrm{UV}} 2 \\mathrm{O}(\\mathrm{g}) \\\\ \\mathrm{O}_{2}(\\mathrm{~g})+\\mathrm{O}(\\mathrm{g}) \\rightarrow \\mathrm{O}_{3}(\\mathrm{~g})+\\text { তাপ } \\end{array} O2( g)UV2O(g)O2( g)+O(g)→O3( g)+ তাপ এ বিক্রিয়ায় বিমুক্ত তাপশক্তির কারনে ট্রপোমন্ডলের উর্ধাংশের নিম্ন তাপমাত্রা (−56∘C) \\left(-56^{\\circ} \\mathrm{C}\\right) (−56∘C) এখানে বৃদ্ধি পেশ্যে −2∘C -2^{\\circ} \\mathrm{C} −2∘C হয়।",
+    "explanation": "স্ট্র্যাটোস্ফিয়ারে সূর্যের আলোর মধ্যস্থ ক্ষতিকারক UV-রশ্মি শোষণকারী ওজোন (O3) স্তর অক্সিজেন থেকে সৃষ্টি হয়। সূর্য থেকে আসা অতিবেখনি রশ্মির(UV) পভাবে এ স্তরে O2 \\mathrm{O}_{2} O2 অণু ভেজে সক্রিয় পারমাণবিক অক্সিজেনে পরিণত হয় এবং তা O2 \\mathrm{O}_{2} O2 এর সলে যুক্ত হয়ে O3 \\mathrm{O}_{3} O3 গঠন করে। O2( g)তাপ \\begin{array}{l} \\mathrm{O}_{2}(\\mathrm{~g}) \\xrightarrow{\\mathrm{UV}} 2 \\mathrm{O}(\\mathrm{g}) \\\\ \\mathrm{O}_{2}(\\mathrm{~g})+\\mathrm{O}(\\mathrm{g}) \\rightarrow \\mathrm{O}_{3}(\\mathrm{~g})+\\text { তাপ } \\end{array} O2( g)UV2O(g)O2( g)+O(g)তাপ এ বিক্রিয়ায় বিমুক্ত তাপশক্তির কারনে ট্রপোমন্ডলের উর্ধাংশের নিম্ন তাপমাত্রা (−\\left(-56^{\\circ} \\mathrm{C}\\right) (−56∘C) এখানে বৃদ্ধি পেশ্যে −\\circ} \\mathrm{C} −2∘C হয়।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ক্ষতিকারক UV-রশ্মি শোষণকারী ওজোন (O3) স্তর সৃষ্টি হয় বায়ুমন্ডলের কোন অঞ্চলে ?",
-    "explanationLatex": "$স্ট্র্যাটোস্ফিয়ারে সূর্যের আলোর মধ্যস্থ ক্ষতিকারক UV-রশ্মি শোষণকারী ওজোন (O3) স্তর অক্সিজেন থেকে সৃষ্টি হয়। সূর্য থেকে আসা অতিবেখনি রশ্মির(UV) পভাবে এ স্তরে O2 \\mathrm{O}_{2} O2 অণু ভেজে সক্রিয় পারমাণবিক অক্সিজেনে পরিণত হয় এবং তা O2 \\mathrm{O}_{2} O2 এর সলে যুক্ত হয়ে O3 \\mathrm{O}_{3} O3 গঠন করে। O2( g)→UV2O(g)O2( g)+O(g)→O3( g)+ তাপ \\begin{array}{l} \\mathrm{O}_{2}(\\mathrm{~g}) \\xrightarrow{\\mathrm{UV}} 2 \\mathrm{O}(\\mathrm{g}) \\\\ \\mathrm{O}_{2}(\\mathrm{~g})+\\mathrm{O}(\\mathrm{g}) \\rightarrow \\mathrm{O}_{3}(\\mathrm{~g})+\\text { তাপ } \\end{array} O2( g)UV2O(g)O2( g)+O(g)→O3( g)+ তাপ এ বিক্রিয়ায় বিমুক্ত তাপশক্তির কারনে ট্রপোমন্ডলের উর্ধাংশের নিম্ন তাপমাত্রা (−56∘C) \\left(-56^{\\circ} \\mathrm{C}\\right) (−56∘C) এখানে বৃদ্ধি পেশ্যে −2∘C^{-2}^{\\circ} \\mathrm{C} −2∘C হয়।$"
+    "explanationLatex": "স্ট্র্যাটোস্ফিয়ারে সূর্যের আলোর মধ্যস্থ ক্ষতিকারক UV-রশ্মি শোষণকারী ওজোন (O3) স্তর অক্সিজেন থেকে সৃষ্টি হয়। সূর্য থেকে আসা অতিবেখনি রশ্মির(UV) পভাবে এ স্তরে O2 \\mathrm{O}_{2} O2 অণু ভেজে সক্রিয় পারমাণবিক অক্সিজেনে পরিণত হয় এবং তা O2 \\mathrm{O}_{2} O2 এর সলে যুক্ত হয়ে O3 \\mathrm{O}_{3} O3 গঠন করে। O2( g)তাপ \\begin{array}{l} \\mathrm{O}_{2}(\\mathrm{~g}) \\xrightarrow{\\mathrm{UV}} 2 \\mathrm{O}(\\mathrm{g}) \\\\ \\mathrm{O}_{2}(\\mathrm{~g})+\\mathrm{O}(\\mathrm{g}) \\rightarrow \\mathrm{O}_{3}(\\mathrm{~g})+\\text { তাপ } \\end{array} O2( g)UV2O(g)O2( g)+O(g)তাপ এ বিক্রিয়ায় বিমুক্ত তাপশক্তির কারনে ট্রপোমন্ডলের উর্ধাংশের নিম্ন তাপমাত্রা (−\\left(-56^{\\circ} \\mathrm{C}\\right) (−56∘C) এখানে বৃদ্ধি পেশ্যে −\\circ} \\mathrm{C} −2∘C হয়।"
   },
   {
     "id": 38,

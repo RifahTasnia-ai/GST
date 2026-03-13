@@ -17,7 +17,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সমমানের বলের লব্ধি বলদ্বয়ের যেকোনো একটির সমান হলে উহাদের মধ্যবর্তী কোণ কত?",
-    "explanationLatex": "$সঠিক উত্তর: (b) 2 𝜋 3 3 2\\\\pi ।$"
+    "explanationLatex": "সঠিক উত্তর: (b) 2 𝜋 3 3 2\\\\pi ।"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "d": "10N"
     },
     "correctAnswer": "a",
-    "explanation": "cos⁡α=−p13122=p2+132+2⋅p⋅13⋅(−px)⇒144=169−p2⇒p2=25∴P=5 \\begin{array}{l}\\cos \\alpha=-\\frac{p}{13} \\\\ 12^{2}=p^{2}+13^{2}+2 \\cdot p \\cdot 13 \\cdot\\left(\\frac{-p}{x}\\right) \\\\ \\Rightarrow 144=169-p^{2} \\\\ \\Rightarrow p^{2}=25 \\\\ \\therefore \\quad P=5 \\\\\\end{array} cosα=−13p122=p2+132+2⋅p⋅13⋅(x−p)⇒144=169−p2⇒p2=25∴P=5",
+    "explanation": "cos\\begin{array}{l}\\cos \\alpha=-\\frac{p}{13} \\\\ 12^{2}=p^{2}+13^{2}+2 \\cdot p \\cdot 13 \\cdot\\left(\\frac{-p}{x}\\right) \\\\ \\Rightarrow 144=169-p^{2} \\\\ \\Rightarrow p^{2}=25 \\\\ \\therefore \\quad P=5 \\\\\\end{array} cosα=−13p122=p2+132+2⋅p⋅13⋅(x−p)",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243690/gst-question-images/Math_______________-Varsity-arc_q2.png",
@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$দুইটি বলের লব্ধি 12N,যার ক্রিয়া রেখা P বলের সাথে 90^{\\\\circ} কোণ উৎপন্ন করে। অপর বলটি 13N হলে P এর মান কত?$",
-    "explanationLatex": "$cos⁡α=−p13122=p2+132+2⋅p⋅13⋅(−px)⇒144=169−p2⇒p2=25∴P=5 \\begin{array}{l}\\cos \\alpha=-\\frac{p}{13} \\\\ 12^{2}=p^{2}+13^{2}+2 \\cdot p \\cdot 13 \\cdot\\left(\\frac{-p}{x}\\right) \\\\ \\Rightarrow 144=169-p^{2} \\\\ \\Rightarrow p^{2}=25 \\\\ \\therefore \\quad P=5 \\\\\\end{array} cosα=−13p122=p2+132+2⋅p⋅13⋅(x−p)⇒144=169−p2⇒p2=25∴P=5$"
+    "explanationLatex": "cos\\begin{array}{l}\\cos \\alpha=-\\frac{p}{13} \\\\ 12^{2}=p^{2}+13^{2}+2 \\cdot p \\cdot 13 \\cdot\\left(\\frac{-p}{x}\\right) \\\\ \\Rightarrow 144=169-p^{2} \\\\ \\Rightarrow p^{2}=25 \\\\ \\therefore \\quad P=5 \\\\\\end{array} cosα=−13p122=p2+132+2⋅p⋅13⋅(x−p)"
   },
   {
     "id": 3,
@@ -49,7 +49,7 @@
       "d": "6"
     },
     "correctAnswer": "b",
-    "explanation": "R=2Pcos⁡(α2) \\mathrm{R}=2 \\mathrm{P} \\cos \\left(\\frac{\\alpha}{2}\\right) R=2Pcos(2α) বা, 33=2Pcos⁡30∘ 3 \\sqrt{3}=2 \\mathrm{P} \\cos 30^{\\circ} 33=2Pcos30∘ বা, P=3 \\mathrm{P}=3 P=3",
+    "explanation": "\\mathrm{R}=2 \\mathrm{P} \\cos \\left(\\frac{\\alpha}{2}\\right) R=2Pcos(2α) বা, 33=2Pcos\\sqrt{3}=2 \\mathrm{P} \\cos 30^{\\circ} 33=2Pcos30∘ বা, P=3 \\mathrm{P}=3 P=3",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -57,7 +57,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$পরস্পর 60^{\\\\circ} কোণে কার্যরত দুটি বলের লব্ধি 3\\\\sqrt{}3 একক। সমান বলদ্বয় কত?$",
-    "explanationLatex": "$R=2Pcos⁡(α2) \\mathrm{R}=2 \\mathrm{P} \\cos \\left(\\frac{\\alpha}{2}\\right) R=2Pcos(2α) বা, 33=2Pcos⁡30∘ 3 \\sqrt{3}=2 \\mathrm{P} \\cos 30^{\\circ} 33=2Pcos30∘ বা, P=3 \\mathrm{P}=3 P=3$"
+    "explanationLatex": "\\mathrm{R}=2 \\mathrm{P} \\cos \\left(\\frac{\\alpha}{2}\\right) R=2Pcos(2α) বা, 33=2Pcos\\sqrt{3}=2 \\mathrm{P} \\cos 30^{\\circ} 33=2Pcos30∘ বা, P=3 \\mathrm{P}=3 P=3"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
       "d": "কোনটিই না"
     },
     "correctAnswer": "b",
-    "explanation": "4 একক বলের দিকে উপাংশ নিয়ে, Fcosθ=4cos⁡0∘+2cos⁡60∘+cos⁡120∘=4+212−12=92 \\begin{aligned} F c o s \\theta & =4 \\cos 0^{\\circ}+2 \\cos 60^{\\circ}+\\cos 120^{\\circ} \\\\ & =4+2 \\frac{1}{2}-\\frac{1}{2}=\\frac{9}{2}\\end{aligned} Fcosθ=4cos0∘+2cos60∘+cos120∘=4+221−21=29 4 একক বলের লম্ব দিকে উপাংশ নিয়ে, Fsin⁡θ=4sin⁡0∘+2sin⁡60∘+sin⁡120∘=0+2⋅32+32=332 \\begin{aligned} F \\sin \\theta & =4 \\sin 0^{\\circ}+2 \\sin 60^{\\circ}+\\sin 120^{\\circ} \\\\ & =0+2 \\cdot \\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\\end{aligned} Fsinθ=4sin0∘+2sin60∘+sin120∘=0+2⋅23+23=233 F2cos⁡2θ+F2sin⁡2θ=(92)2+(332)2F2=814+274=1084=27∴F=33 \\begin{array}{l}F^{2} \\cos ^{2} \\theta+F^{2} \\sin ^{2} \\theta=\\left(\\frac{9}{2}\\right)^{2}+\\left(\\frac{3\\sqrt{3}}{2}\\right)^{2} \\\\ \\quad F^{2}=\\frac{81}{4}+\\frac{27}{4}=\\frac{108}{4}=27 \\\\ \\therefore F=3\\sqrt{3}\\end{array} F2cos2θ+F2sin2θ=(29)2+(233)2F2=481+427=4108=27∴F=33",
+    "explanation": "4 একক বলের দিকে উপাংশ নিয়ে, \\begin{aligned} F c o s \\theta & =4 \\cos 0^{\\circ}+2 \\cos 60^{\\circ}+\\cos 120^{\\circ} \\\\ & =4+2 \\frac{1}{2}-\\frac{1}{2}=\\frac{9}{2}\\end{aligned} Fcosθ=4cos0∘+2cos60∘+cos120∘=4+221−21=29 4 একক বলের লম্ব দিকে উপাংশ নিয়ে, Fsin\\begin{aligned} F \\sin \\theta & =4 \\sin 0^{\\circ}+2 \\sin 60^{\\circ}+\\sin 120^{\\circ} \\\\ & =0+2 \\cdot \\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\\end{aligned} Fsinθ=4sin0∘+2sin60∘+sin120∘=0+2⋅23+23=233 F2cos\\begin{array}{l}F^{2} \\cos ^{2} \\theta+F^{2} \\sin ^{2} \\theta=\\left(\\frac{9}{2}\\right)^{2}+\\left(\\frac{3\\sqrt{3}}{2}\\right)^{2} \\\\ \\quad F^{2}=\\frac{81}{4}+\\frac{27}{4}=\\frac{108}{4}=27 \\\\ \\therefore F=3\\sqrt{3}\\end{array} F2cos2θ+F2sin2θ=(29)2+(233)2F2=481+427=4108=27",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243704/gst-question-images/Math_______________-Varsity-arc_q4.png",
@@ -77,7 +77,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ABC সমবাহু ত্রিভূজের AB, AC ও BC বাহুগুলির সমান্তরাল গতিপথ কোন একটি বিন্দুতে যথাক্রমে 4, 2 ও 1 একক মানের বলত্রয় ক্রিয়ারত হলে, এদের লব্ধির মান কত একক?",
-    "explanationLatex": "$4 একক বলের দিকে উপাংশ নিয়ে, Fcos\\\\theta =4cos⁡0∘+2cos⁡60∘+cos⁡120∘=4+212−12=92 \\begin{aligned} F c o s \\theta & =4 \\cos 0^{\\circ}+2 \\cos 60^{\\circ}+\\cos 120^{\\circ} \\\\ & =4+2 \\frac{1}{2}-\\frac{1}{2}=\\frac{9}{2}\\end{aligned} Fcos\\\\theta =4cos0∘+2cos60∘+cos120∘=4+221−21=29 4 একক বলের লম্ব দিকে উপাংশ নিয়ে, Fsin⁡\\\\theta =4sin⁡0∘+2sin⁡60∘+sin⁡120∘=0+2⋅32+32=332 \\begin{aligned} F \\sin \\theta & =4 \\sin 0^{\\circ}+2 \\sin 60^{\\circ}+\\sin 120^{\\circ} \\\\ & =0+2 \\cdot \\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\\end{aligned} Fsin\\\\theta =4sin0∘+2sin60∘+sin120∘=0+2⋅23+23=233 F2cos⁡2\\\\theta +F2sin⁡2\\\\theta =(92)2+(332)2F2=814+274=1084=27∴F=33 \\begin{array}{l}F^{2} \\cos ^{2} \\theta+F^{2} \\sin ^{2} \\theta=\\left(\\frac{9}{2}\\right)^{2}+\\left(\\frac{3\\sqrt{3}}{2}\\right)^{2} \\\\ \\quad F^{2}=\\frac{81}{4}+\\frac{27}{4}=\\frac{108}{4}=27 \\\\ \\therefore F=3\\sqrt{3}\\end{array} F2cos2\\\\theta +F2sin2\\\\theta =(29)2+(233)2F2=481+427=4108=27∴F=33$"
+    "explanationLatex": "4 একক বলের দিকে উপাংশ নিয়ে, Fcos\\\\theta =4cos\\begin{aligned} F c o s \\theta & =4 \\cos 0^{\\circ}+2 \\cos 60^{\\circ}+\\cos 120^{\\circ} \\\\ & =4+2 \\frac{1}{2}-\\frac{1}{2}=\\frac{9}{2}\\end{aligned} Fcos\\\\theta =4cos0∘+2cos60∘+cos120∘=4+221−21=29 4 একক বলের লম্ব দিকে উপাংশ নিয়ে, Fsin⁡\\\\theta =4sin\\begin{aligned} F \\sin \\theta & =4 \\sin 0^{\\circ}+2 \\sin 60^{\\circ}+\\sin 120^{\\circ} \\\\ & =0+2 \\cdot \\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{2}=\\frac{3\\sqrt{3}}{2}\\end{aligned} Fsin\\\\theta =4sin0∘+2sin60∘+sin120∘=0+2⋅23+23=233 F2cos\\theta +F2sin\\theta =(92)2+(332)2F2=814+274=1084=27\\begin{array}{l}F^{2} \\cos ^{2} \\theta+F^{2} \\sin ^{2} \\theta=\\left(\\frac{9}{2}\\right)^{2}+\\left(\\frac{3\\sqrt{3}}{2}\\right)^{2} \\\\ \\quad F^{2}=\\frac{81}{4}+\\frac{27}{4}=\\frac{108}{4}=27 \\\\ \\therefore F=3\\sqrt{3}\\end{array} F2cos2\\\\theta +F2sin2\\\\theta =(29)2+(233)2F2=481+427=4108=27"
   },
   {
     "id": 5,
@@ -89,7 +89,7 @@
       "d": "কোনোটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "132=p2+52+2×p×5×cos⁡90⇒p2=132−52∴p=12. \\begin{array}{l}13^{2}=p^{2}+5^{2}+2 \\times p \\times 5 \\times \\cos 90 \\\\ \\Rightarrow p^{2}=13^{2}-5^{2} \\\\ \\therefore p=12 .\\end{array} 132=p2+52+2×p×5×cos90⇒p2=132−52∴p=12.",
+    "explanation": "\\begin{array}{l}13^{2}=p^{2}+5^{2}+2 \\times p \\times 5 \\times \\cos 90 \\\\ \\Rightarrow p^{2}=13^{2}-5^{2} \\\\ \\therefore p=12 .\\end{array} 132=p2+52+2",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243709/gst-question-images/Math_______________-Varsity-arc_q5.png",
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$90^{\\\\circ} কোণে ক্রিয়াশীল দুইটি বলের লব্ধি 13N এদের ক্ষুদ্রতম লব্ধি 5N হলে বৃহত্তর বলটি কত?$",
-    "explanationLatex": "$132=p2+52+2\\\\times p\\\\times 5\\\\times cos⁡90⇒p2=132−52∴p=12. \\begin{array}{l}13^{2}=p^{2}+5^{2}+2 \\times p \\times 5 \\times \\cos 90 \\\\ \\Rightarrow p^{2}=13^{2}-5^{2} \\\\ \\therefore p=12 .\\end{array} 132=p2+52+2\\\\times p\\\\times 5\\\\times cos90⇒p2=132−52∴p=12.$"
+    "explanationLatex": "\\times p\\\\times 5\\\\times cos\\begin{array}{l}13^{2}=p^{2}+5^{2}+2 \\times p \\times 5 \\times \\cos 90 \\\\ \\Rightarrow p^{2}=13^{2}-5^{2} \\\\ \\therefore p=12 .\\end{array} 132=p2+52+2\\\\times p\\\\times 5\\\\times cos90"
   },
   {
     "id": 6,
@@ -109,7 +109,7 @@
       "d": "𝑥 = − 𝑦 x=−y"
     },
     "correctAnswer": "c",
-    "explanation": "x অক্ষ বরাবর 4 ও y অক্ষ বরাবর 2 একক বল ক্রিয়া করলে ,লব্ধির ঢাল হবে tan⁡θ =yx= 24 = 12 যা মূলবিন্দুগামী।\\tan\\theta\\ =\\frac{y}{x}=\\ \\frac{2}{4}\\ =\\ \\frac{1}{2}\\ যা\\ মূলবিন্দুগামী।tanθ =xy= 42 = 21 যা মূলবিন্দুগামী। ∴সমীকরন হবে y = 12x \\thereforeসমীকরন\\ হবে\\ y\\ =\\ \\frac{1}{2}x\\ ∴সমীকরন হবে y = 21x ⇒x = 2y\\Rightarrow x\\ =\\ 2y⇒x = 2y বিকল্প পদ্ধতিঃ - x=0 x=0 x=0 বরাবর 4 এ্কক বল - y=0 y=0 y=0 বরাবর 2 এ্কক বল লব্ধি বল (R⃗) (\\vec{R}) (R) হলো প্রদত্ত বলগুলোর ভেক্টর যোগফল। R⃗=4i^+2j^ \\vec{R}=4 \\hat{i}+2 \\hat{j} R=4i^+2j^ লব্ধির রেখা হলো সেইই রেখা যার দিক লক্ধি বলের দিকের সমান্তরাল। লক্ধি বলের দিক অনুপাত হলো 4:2 4: 2 4:2 বা সরলীকৃতভাবে 2:1 2: 1 2:1. নধ্ধির রেখার সমীকরণ সাধারণ আকারে লেখা যায়: y=mx+c y=m x+c y=mx+c যেখানে m m m হলো রেখার ঢাল। এখানে ঢাল m=12 m=\\frac{1}{2} m=21. যেহেতু লব্ধি বল (4,2) (4,2) (4,2) বিন্দু দিয়ে যায়, তাই c c c নির্ণয় করতে এই বিন্দু ব্যবহার করি: 2=12×4+c2=2+cc=0 \\begin{array}{c} 2=\\frac{1}{2} \\times 4+c \\\\ 2=2+c \\\\ c=0 \\end{array} 2=21×4+c2=2+cc=0 অতএব, লব্ধিরেখার সমীকরণ হলো: y=12x y=\\frac{1}{2} x y=21x অথবা, পূর্ণ সংখ্যায় প্রকাশ করলে: x−2y=0 x-2 y=0 x−2y=0",
+    "explanation": "x অক্ষ বরাবর 4 ও y অক্ষ বরাবর 2 একক বল ক্রিয়া করলে ,লব্ধির ঢাল হবে tanযা মূলবিন্দুগামী।\\tan\\theta\\ =\\frac{y}{x}=\\ \\frac{2}{4}\\ =\\ \\frac{1}{2}\\ যা\\ মূলবিন্দুগামী।যা মূলবিন্দুগামী। ∴সমীকরন হবে \\thereforeসমীকরন\\ হবে\\ \\frac{1}{2}x\\ ∴সমীকরন হবে \\Rightarrow x\\ =\\ 2yবিকল্প পদ্ধতিঃ - বরাবর 4 এ্কক বল - বরাবর 2 এ্কক বল লব্ধি বল (R⃗) (\\vec{R}) (R) হলো প্রদত্ত বলগুলোর ভেক্টর যোগফল। \\vec{R}=4 \\hat{i}+2 \\hat{j} R=4i^+2j^ লব্ধির রেখা হলো সেইই রেখা যার দিক লক্ধি বলের দিকের সমান্তরাল। লক্ধি বলের দিক অনুপাত হলো বা সরলীকৃতভাবে নধ্ধির রেখার সমীকরণ সাধারণ আকারে লেখা যায়: যেখানে হলো রেখার ঢাল। এখানে ঢাল \\frac{1}{2} m=21. যেহেতু লব্ধি বল (বিন্দু দিয়ে যায়, তাই নির্ণয় করতে এই বিন্দু ব্যবহার করি: 2=12\\begin{array}{c} 2=\\frac{1}{2} \\times 4+c \\\\ 2=2+c \\\\ c=0 \\end{array} 2=21অতএব, লব্ধিরেখার সমীকরণ হলো: \\frac{1}{2} x y=21x অথবা, পূর্ণ সংখ্যায় প্রকাশ করলে:",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -117,11 +117,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$x=0, y=0x=0,\\ \\ y=0x=0, y=0 বরাবর যথাক্রমে 4 ও 2 একক বল ক্রিয়া করলে লব্ধি যে রেখা বরাবর কাজ করে তার সমীকরণ কোনটি?$",
-    "explanationLatex": "$x অক্ষ বরাবর 4 ও y অক্ষ বরাবর 2 একক বল ক্রিয়া করলে ,লব্ধির ঢাল হবে tan⁡\\\\theta  =yx= 24 = 12 যা মূলবিন্দুগামী।\\tan\\theta\\ =\\frac{y}{x}=\\ \\frac{2}{4}\\ =\\ \\frac{1}{2}\\ যা\\ মূলবিন্দুগামী।tan\\\\theta  =xy= 42 = 21 যা মূলবিন্দুগামী। ∴সমীকরন হবে y = 12x \\thereforeসমীকরন\\ হবে\\ y\\ =\\ \\frac{1}{2}x\\ ∴সমীকরন হবে y = 21x ⇒x = 2y\\Rightarrow x\\ =\\ 2y⇒x = 2y বিকল্প পদ্ধতিঃ - x=0 x=0 x=0 বরাবর 4 এ্কক বল - y=0 y=0 y=0 বরাবর 2 এ্কক বল লব্ধি বল (R⃗) (\\vec{R}) (R) হলো প্রদত্ত বলগুলোর ভেক্টর যোগফল। R⃗=4i^+2j^ \\vec{R}=4 \\hat{i}+2 \\hat{j} R=4i^+2j^ লব্ধির রেখা হলো সেইই রেখা যার দিক লক্ধি বলের দিকের সমান্তরাল। লক্ধি বলের দিক অনুপাত হলো 4:2 4: 2 4:2 বা সরলীকৃতভাবে 2:1 2: 1 2:1. নধ্ধির রেখার সমীকরণ সাধারণ আকারে লেখা যায়: y=mx+c y=m x+c y=mx+c যেখানে m m m হলো রেখার ঢাল। এখানে ঢাল m=12 m=\\frac{1}{2} m=21. যেহেতু লব্ধি বল (4,2) (4,2) (4,2) বিন্দু দিয়ে যায়, তাই c c c নির্ণয় করতে এই বিন্দু ব্যবহার করি: 2=12\\\\times 4+c2=2+cc=0 \\begin{array}{c} 2=\\frac{1}{2} \\times 4+c \\\\ 2=2+c \\\\ c=0 \\end{array} 2=21\\\\times 4+c2=2+cc=0 অতএব, লব্ধিরেখার সমীকরণ হলো: y=12x y=\\frac{1}{2} x y=21x অথবা, পূর্ণ সংখ্যায় প্রকাশ করলে: x−2y=0 x-2 y=0 x−2y=0$"
+    "explanationLatex": "x অক্ষ বরাবর 4 ও y অক্ষ বরাবর 2 একক বল ক্রিয়া করলে ,লব্ধির ঢাল হবে tan⁡\\\\theta =yx= 24 = 12 যা মূলবিন্দুগামী।\\tan\\theta\\ =\\frac{y}{x}=\\ \\frac{2}{4}\\ =\\ \\frac{1}{2}\\ যা\\ মূলবিন্দুগামী।tan\\\\theta =xy= 42 = 21 যা মূলবিন্দুগামী। ∴সমীকরন হবে \\thereforeসমীকরন\\ হবে\\ \\frac{1}{2}x\\ ∴সমীকরন হবে \\Rightarrow x\\ =\\ 2yবিকল্প পদ্ধতিঃ - বরাবর 4 এ্কক বল - বরাবর 2 এ্কক বল লব্ধি বল (R⃗) (\\vec{R}) (R) হলো প্রদত্ত বলগুলোর ভেক্টর যোগফল। \\vec{R}=4 \\hat{i}+2 \\hat{j} R=4i^+2j^ লব্ধির রেখা হলো সেইই রেখা যার দিক লক্ধি বলের দিকের সমান্তরাল। লক্ধি বলের দিক অনুপাত হলো বা সরলীকৃতভাবে নধ্ধির রেখার সমীকরণ সাধারণ আকারে লেখা যায়: যেখানে হলো রেখার ঢাল। এখানে ঢাল \\frac{1}{2} m=21. যেহেতু লব্ধি বল (বিন্দু দিয়ে যায়, তাই নির্ণয় করতে এই বিন্দু ব্যবহার করি: 2=12\\\\times 4+c2=2+cc=0 \\begin{array}{c} 2=\\frac{1}{2} \\times 4+c \\\\ 2=2+c \\\\ c=0 \\end{array} 2=21\\\\times 4+c2=2+cc=0 অতএব, লব্ধিরেখার সমীকরণ হলো: \\frac{1}{2} x y=21x অথবা, পূর্ণ সংখ্যায় প্রকাশ করলে:"
   },
   {
     "id": 7,
-    "question": "∆ABC এর AB ও AC বরাবর sec⁡B\\sec{B}secB ও sec⁡C\\sec{C}secC বল কার্যরত এবং এদের লব্ধি AD বরাবর কার্যরত। AD⊥BCAD\\bot BCAD⊥BC হলে লব্ধি কত?",
+    "question": "∆ABC এর AB ও AC বরাবর sec⁡B\\sec{B}secB ও sec⁡C\\sec{C}secC বল কার্যরত এবং এদের লব্ধি AD বরাবর কার্যরত। \\bot BCAD⊥BC হলে লব্ধি কত?",
     "options": {
       "a": "tan ⁡ 𝐶 tan ⁡ 𝐵 tanB tanC",
       "b": "tan ⁡ 𝐵 + tan ⁡ 𝐶 tanB+tanC",
@@ -129,15 +129,15 @@
       "d": "cot ⁡ 𝐵 + cot ⁡ 𝐶 cotB+cotC"
     },
     "correctAnswer": "b",
-    "explanation": "AD न्यान लम्ना०कानल, sec⁡Bsin⁡B+⁡sec⁡Csin⁡C⇒sin⁡Bcos⁡B+sin⁡Ccos⁡C⇒tan⁡B+tan⁡C \\begin{array}{l}A D \\text { न्यान लम्ना०कानल, } \\\\ \\sec B \\sin B+\\operatorname{} \\sec C \\sin C \\\\ \\Rightarrow \\frac{\\sin B}{\\cos B}+\\frac{\\sin C}{\\cos C} \\\\ \\Rightarrow \\tan B+\\tan C\\end{array} AD न्यान लम्ना०कानल, secBsinB+secCsinC⇒cosBsinB+cosCsinC⇒tanB+tanC",
+    "explanation": "AD न्यान लम्ना०कानल, sec\\begin{array}{l}A D \\text { न्यान लम्ना०कानल, } \\\\ \\sec B \\sin B+\\operatorname{} \\sec C \\sin C \\\\ \\Rightarrow \\frac{\\sin B}{\\cos B}+\\frac{\\sin C}{\\cos C} \\\\ \\Rightarrow \\tan B+\\tan C\\end{array} AD न्यान लम्ना०कानल, secBsinB+secCsinC",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243710/gst-question-images/Math_______________-Varsity-arc_q7.png",
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "∆ABC এর AB ও AC বরাবর sec⁡B\\sec{B}secB ও sec⁡C\\sec{C}secC বল কার্যরত এবং এদের লব্ধি AD বরাবর কার্যরত। AD⊥BCAD\\bot BCAD⊥BC হলে লব্ধি কত?",
-    "explanationLatex": "$AD न्यान लम्ना०कानल, sec⁡Bsin⁡B+⁡sec⁡Csin⁡C⇒sin⁡Bcos⁡B+sin⁡Ccos⁡C⇒tan⁡B+tan⁡C \\begin{array}{l}A D \\text { न्यान लम्ना०कानल, } \\\\ \\sec B \\sin B+\\operatorname{} \\sec C \\sin C \\\\ \\Rightarrow \\frac{\\sin B}{\\cos B}+\\frac{\\sin C}{\\cos C} \\\\ \\Rightarrow \\tan B+\\tan C\\end{array} AD न्यान लम्ना०कानल, secBsinB+secCsinC⇒cosBsinB+cosCsinC⇒tanB+tanC$"
+    "questionLatex": "∆ABC এর AB ও AC বরাবর sec⁡B\\sec{B}secB ও sec⁡C\\sec{C}secC বল কার্যরত এবং এদের লব্ধি AD বরাবর কার্যরত। \\bot BCAD⊥BC হলে লব্ধি কত?",
+    "explanationLatex": "AD न्यान लम्ना०कानल, sec\\begin{array}{l}A D \\text { न्यान लम्ना०कानल, } \\\\ \\sec B \\sin B+\\operatorname{} \\sec C \\sin C \\\\ \\Rightarrow \\frac{\\sin B}{\\cos B}+\\frac{\\sin C}{\\cos C} \\\\ \\Rightarrow \\tan B+\\tan C\\end{array} AD न्यान लम्ना०कानल, secBsinB+secCsinC"
   },
   {
     "id": 8,
@@ -149,7 +149,7 @@
       "d": "5.1 kg"
     },
     "correctAnswer": "d",
-    "explanation": "T=Wsin⁡θ=Wsin⁡[cos⁡−1(1050)]=5.1 kgT=\\frac{W}{\\sin{\\theta}}=\\frac{W}{\\sin{\\left[\\cos^{-1}{\\left(\\frac{10}{50}\\right)}\\right]}}=5.1\\ kgT=sinθW=sin[cos−1(5010)]W=5.1 kg",
+    "explanation": "\\frac{W}{\\sin{\\theta}}=\\frac{W}{\\sin{\\left[\\cos^{-1}{\\left(\\frac{10}{50}\\right)}\\right]}}=5.1\\ kgT=sinθW=sin[cos−1(5010)]W=5.1 kg",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "40 cm দৈর্ঘ্যের রশির একপ্রান্ত মসৃণ দেয়ালে ও অন্যপ্রান্ত 10 cm ব্যাসার্ধের গোলকের তলে অবস্থিতে এক বিন্দুতে বাঁধা। গোলকের ওজন 5 kg হলে রশির টান কত?",
-    "explanationLatex": "$T=Wsin⁡\\\\theta =Wsin⁡[cos⁡−1(1050)]=5.1 kgT=\\frac{W}{\\sin{\\theta}}=\\frac{W}{\\sin{\\left[\\cos^{-1}{\\left(\\frac{10}{50}\\right)}\\right]}}=5.1\\ kgT=sin\\\\theta W=sin[cos−1(5010)]W=5.1 kg$"
+    "explanationLatex": "⁡\\\\theta =Wsin\\frac{W}{\\sin{\\theta}}=\\frac{W}{\\sin{\\left[\\cos^{-1}{\\left(\\frac{10}{50}\\right)}\\right]}}=5.1\\ kgT=sin\\\\theta W=sin[cos−1(5010)]W=5.1 kg"
   },
   {
     "id": 9,
@@ -169,7 +169,7 @@
       "d": "2 : 1 : 3 2:1: 3"
     },
     "correctAnswer": "a",
-    "explanation": "Asin⁡90o=Bsin⁡120o=Csin⁡150o⇒A1=B32=C12∴A:B:C=2:3:1\\frac{A}{\\sin{90^o}}=\\frac{B}{\\sin{120^o}}=\\frac{C}{\\sin{150^o}}\\Rightarrow\\frac{A}{1}=\\frac{B}{\\frac{\\sqrt3}{2}}=\\frac{C}{\\frac{1}{2}}\\therefore A:B:C=2:\\sqrt3:1sin90oA=sin120oB=sin150oC⇒1A=23B=21C∴A:B:C=2:3:1",
+    "explanation": "Asin\\frac{A}{\\sin{90^o}}=\\frac{B}{\\sin{120^o}}=\\frac{C}{\\sin{150^o}}\\Rightarrow\\frac{A}{1}=\\frac{B}{\\frac{\\sqrt3}{2}}=\\frac{C}{\\frac{1}{2}}\\therefore A:B:C=2:\\sqrt3:1sin90oA=sin120oB=sin150oC",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -177,7 +177,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$A ⃗, B ⃗, C ⃗\\vec{A\\ },\\ \\vec{B\\ },\\ \\vec{C\\ }A , B , C বলত্রয় O OO বিন্দুতে ক্রিয়া করে সাম্যাবস্থা সৃষ্টি করেছে। A ⃗\\vec{A\\ }A ও B ⃗\\vec{B\\ }B এর অন্তর্ভুক্ত কোণ 150^{\\\\circ}, B150^{\\\\circ}, ~B150^{\\\\circ}, B ও C⃗\\vec{C}C এর অন্তর্ভুক্ত কোণ 90^{\\\\circ} 90^{\\\\circ}90^{\\\\circ} হলে A:B:C=? A : B : C =?A:B:C=?$",
-    "explanationLatex": "$Asin⁡90o=Bsin⁡120o=Csin⁡150o⇒A1=B32=C12∴A:B:C=2:3:1\\frac{A}{\\sin{90^o}}=\\frac{B}{\\sin{120^o}}=\\frac{C}{\\sin{150^o}}\\Rightarrow\\frac{A}{1}=\\frac{B}{\\frac{\\sqrt3}{2}}=\\frac{C}{\\frac{1}{2}}\\therefore A:B:C=2:\\sqrt3:1sin90oA=sin120oB=sin150oC⇒1A=23B=21C∴A:B:C=2:3:1$"
+    "explanationLatex": "Asin\\frac{A}{\\sin{90^o}}=\\frac{B}{\\sin{120^o}}=\\frac{C}{\\sin{150^o}}\\Rightarrow\\frac{A}{1}=\\frac{B}{\\frac{\\sqrt3}{2}}=\\frac{C}{\\frac{1}{2}}\\therefore A:B:C=2:\\sqrt3:1sin90oA=sin120oB=sin150oC"
   },
   {
     "id": 10,
@@ -189,7 +189,7 @@
       "d": "1 3 3 1"
     },
     "correctAnswer": "c",
-    "explanation": "Solution: সমবাহু ত্রিভুজের লম্বকেন্দ্র ও ভরকেন্দ্র একই। ∴P=3\\therefore P=3∴P=3",
+    "explanation": "সমবাহু ত্রিভুজের লম্বকেন্দ্র ও ভরকেন্দ্র একই। \\therefore P=3",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243685/gst-question-images/Math_______________-Varsity-arc_q10.jpg",
@@ -197,7 +197,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$ABC সমবাহু ত্রিভুজের তিনটি কৌণিক বিন্দু A, B ও C তে যথাক্রমে 3, 3 ও P মানের তিনটি সদৃশ সমান্তরাল বল ক্রিয়া করে। এদের লব্ধি ত্রিভুজের লম্বকেন্দ্র দিয়ে গেলে P = ?$",
-    "explanationLatex": "$Solution: সমবাহু ত্রিভুজের লম্বকেন্দ্র ও ভরকেন্দ্র একই। ∴P=3\\therefore P=3∴P=3$"
+    "explanationLatex": "সমবাহু ত্রিভুজের লম্বকেন্দ্র ও ভরকেন্দ্র একই। \\therefore P=3"
   },
   {
     "id": 11,
@@ -237,7 +237,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$O হল ভরকেন্দ্র ও লব্ধি O বিন্দুগামী। P=2P=2 P=2 হলে নিচের কোনটি সঠিক?$",
-    "explanationLatex": "$P=Q=R=2P=Q=R=2 P=Q=R=2$"
+    "explanationLatex": "P=Q=R=2P=Q=R=2 P=Q=R=2"
   },
   {
     "id": 13,
@@ -249,7 +249,7 @@
       "d": "6N"
     },
     "correctAnswer": "c",
-    "explanation": "cos⁡α=−QP⇒cos⁡120=−Q10⇒−12=−Q10∴Q=5 \\begin{array}{c}\\cos \\alpha=\\frac{-Q}{P} \\\\ \\Rightarrow \\cos 120=\\frac{-Q}{10} \\\\ \\Rightarrow \\frac{-1}{2}=\\frac{-Q}{10} \\\\ \\therefore Q=5\\end{array} cosα=P−Q⇒cos120=10−Q⇒2−1=10−Q∴Q=5",
+    "explanation": "cos\\begin{array}{c}\\cos \\alpha=\\frac{-Q}{P} \\\\ \\Rightarrow \\cos 120=\\frac{-Q}{10} \\\\ \\Rightarrow \\frac{-1}{2}=\\frac{-Q}{10} \\\\ \\therefore Q=5\\end{array} cosα=P−Q",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243687/gst-question-images/Math_______________-Varsity-arc_q13.png",
@@ -257,7 +257,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$কোন বিন্দুতে দুটি বল 120^{\\\\circ} কোণে ক্রিয়ারত। বৃহত্তর বলটির মান 10N এবং তাদের লব্ধি ক্ষুদ্রতর বলের সাথে সমকোণ উৎপন্ন করলে ক্ষুদ্রতর বলের মান কত?$",
-    "explanationLatex": "$cos⁡α=−QP⇒cos⁡120=−Q10⇒−12=−Q10∴Q=5 \\begin{array}{c}\\cos \\alpha=\\frac{-Q}{P} \\\\ \\Rightarrow \\cos 120=\\frac{-Q}{10} \\\\ \\Rightarrow \\frac{-1}{2}=\\frac{-Q}{10} \\\\ \\therefore Q=5\\end{array} cosα=P−Q⇒cos120=10−Q⇒2−1=10−Q∴Q=5$"
+    "explanationLatex": "cos\\begin{array}{c}\\cos \\alpha=\\frac{-Q}{P} \\\\ \\Rightarrow \\cos 120=\\frac{-Q}{10} \\\\ \\Rightarrow \\frac{-1}{2}=\\frac{-Q}{10} \\\\ \\therefore Q=5\\end{array} cosα=P−Q"
   },
   {
     "id": 14,
@@ -269,7 +269,7 @@
       "d": "1m"
     },
     "correctAnswer": "a",
-    "explanation": "বৃহত্তর বল হতে x x x মি. দূরে ক্রিয়া করবে 15x=10(5−x)⇒15x=50−10x⇒25x=50∴x=2 m \\begin{aligned} 15 x & =10(5-x) \\\\ \\Rightarrow 15 x & =50-10 x \\\\ \\Rightarrow 25 x & =50 \\quad \\therefore x=2 \\mathrm{~m} \\end{aligned} 15x⇒15x⇒25x=10(5−x)=50−10x=50∴x=2 m",
+    "explanation": "বৃহত্তর বল হতে মি. দূরে ক্রিয়া করবে \\begin{aligned} 15 x & =10(5-x) \\\\ \\Rightarrow 15 x & =50-10 x \\\\ \\Rightarrow 25 x & =50 \\quad \\therefore x=2 \\mathrm{~m} \\end{aligned} 15x",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243688/gst-question-images/Math_______________-Varsity-arc_q14.png",
@@ -277,7 +277,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "15N ও 10N দুইটি সদৃশ সমান্তরাল বল 5 মিটার লম্বা একটি হালকা রডের দুই প্রান্তে কার্যরত হলে বৃহত্তর বল থেকে লব্ধি কত দূরে ক্রিয়া করবে?",
-    "explanationLatex": "$বৃহত্তর বল হতে x x x মি. দূরে ক্রিয়া করবে 15x=10(5−x)⇒15x=50−10x⇒25x=50∴x=2 m \\begin{aligned} 15 x & =10(5-x) \\\\ \\Rightarrow 15 x & =50-10 x \\\\ \\Rightarrow 25 x & =50 \\quad \\therefore x=2 \\mathrm{~m} \\end{aligned} 15x⇒15x⇒25x=10(5−x)=50−10x=50∴x=2 m$"
+    "explanationLatex": "বৃহত্তর বল হতে মি. দূরে ক্রিয়া করবে \\begin{aligned} 15 x & =10(5-x) \\\\ \\Rightarrow 15 x & =50-10 x \\\\ \\Rightarrow 25 x & =50 \\quad \\therefore x=2 \\mathrm{~m} \\end{aligned} 15x"
   },
   {
     "id": 15,
@@ -289,7 +289,7 @@
       "d": "1.5m"
     },
     "correctAnswer": "b",
-    "explanation": "লব্ধির ক্রিয়াবিন্দুর দূরত্ব- ধরি, বৃহত্তর বল থেকে লব্ধির ক্রিয়াবিন্দুর দূরত্ব x m 2w×x=w×(6−x).⇒2x=6−x.⇒3x=6∴x=2 \\begin{aligned} & 2 w \\times x=w \\times(6-x) . \\\\ \\Rightarrow & 2 x=6-x . \\\\ \\Rightarrow & 3 x=6 \\quad \\\\ \\therefore & x=2\\end{aligned} ⇒⇒∴2w×x=w×(6−x).2x=6−x.3x=6x=2",
+    "explanation": "লব্ধির ক্রিয়াবিন্দুর দূরত্ব- ধরি, বৃহত্তর বল থেকে লব্ধির ক্রিয়াবিন্দুর দূরত্ব \\begin{aligned} & 2 w \\times x=w \\times(6-x) . \\\\ \\Rightarrow & 2 x=6-x . \\\\ \\Rightarrow & 3 x=6 \\quad \\\\ \\therefore & x=2\\end{aligned}",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243689/gst-question-images/Math_______________-Varsity-arc_q15.png",
@@ -297,7 +297,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "6m দীর্ঘ একটি রডের দুই প্রান্তে 2W এবং W ওজন দুইটি ক্রিয়া করে। বৃহত্তর ওজন থেকে এদের",
-    "explanationLatex": "$লব্ধির ক্রিয়াবিন্দুর দূরত্ব- ধরি, বৃহত্তর বল থেকে লব্ধির ক্রিয়াবিন্দুর দূরত্ব x m 2w\\\\times x=w\\\\times (6−x).⇒2x=6−x.⇒3x=6∴x=2 \\begin{aligned} & 2 w \\times x=w \\times(6-x) . \\\\ \\Rightarrow & 2 x=6-x . \\\\ \\Rightarrow & 3 x=6 \\quad \\\\ \\therefore & x=2\\end{aligned} ⇒⇒∴2w\\\\times x=w\\\\times (6−x).2x=6−x.3x=6x=2$"
+    "explanationLatex": "লব্ধির ক্রিয়াবিন্দুর দূরত্ব- ধরি, বৃহত্তর বল থেকে লব্ধির ক্রিয়াবিন্দুর দূরত্ব \\times x=w\\\\times (6−x).\\begin{aligned} & 2 w \\times x=w \\times(6-x) . \\\\ \\Rightarrow & 2 x=6-x . \\\\ \\Rightarrow & 3 x=6 \\quad \\\\ \\therefore & x=2\\end{aligned} \\times x=w\\\\times (6−x).2x=6−x.3x=6x=2"
   },
   {
     "id": 16,
@@ -309,7 +309,7 @@
       "d": "120o"
     },
     "correctAnswer": "d",
-    "explanation": "P2=P2+P2+2.P⋅Pcos⁡α⇒2P2cos⁡α=−P2⇒cos⁡α=−12=cos⁡120∘∴α=120∘ \\begin{array}{l}\\mathrm{P}^{2}=\\mathrm{P}^{2}+\\mathrm{P}^{2}+2 . \\mathrm{P} \\cdot \\mathrm{P} \\cos \\alpha \\\\\\Rightarrow 2 \\mathrm{P}^{2} \\cos \\alpha=-\\mathrm{P}^{2} \\\\ \\Rightarrow \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\\\therefore \\alpha=120^{\\circ}\\end{array} P2=P2+P2+2.P⋅Pcosα⇒2P2cosα=−P2⇒cosα=−21=cos120∘∴α=120∘",
+    "explanation": "\\begin{array}{l}\\mathrm{P}^{2}=\\mathrm{P}^{2}+\\mathrm{P}^{2}+2 . \\mathrm{P} \\cdot \\mathrm{P} \\cos \\alpha \\\\\\Rightarrow 2 \\mathrm{P}^{2} \\cos \\alpha=-\\mathrm{P}^{2} \\\\ \\Rightarrow \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\\\therefore \\alpha=120^{\\circ}\\end{array} P2=P2+P2+2.P⋅Pcosα",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -317,7 +317,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দুইটি সমান বল P এর লব্ধি P হলে, বল দুইটির মধ্যকার কোণ কত ডিগ্রী?",
-    "explanationLatex": "$P2=P2+P2+2.P⋅Pcos⁡α⇒2P2cos⁡α=−P2⇒cos⁡α=−12=cos⁡120∘∴α=120∘ \\begin{array}{l}\\mathrm{P}^{2}=\\mathrm{P}^{2}+\\mathrm{P}^{2}+2 . \\mathrm{P} \\cdot \\mathrm{P} \\cos \\alpha \\\\\\Rightarrow 2 \\mathrm{P}^{2} \\cos \\alpha=-\\mathrm{P}^{2} \\\\ \\Rightarrow \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\\\therefore \\alpha=120^{\\circ}\\end{array} P2=P2+P2+2.P⋅Pcosα⇒2P2cosα=−P2⇒cosα=−21=cos120∘∴α=120∘$"
+    "explanationLatex": "\\begin{array}{l}\\mathrm{P}^{2}=\\mathrm{P}^{2}+\\mathrm{P}^{2}+2 . \\mathrm{P} \\cdot \\mathrm{P} \\cos \\alpha \\\\\\Rightarrow 2 \\mathrm{P}^{2} \\cos \\alpha=-\\mathrm{P}^{2} \\\\ \\Rightarrow \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\\\therefore \\alpha=120^{\\circ}\\end{array} P2=P2+P2+2.P⋅Pcosα"
   },
   {
     "id": 17,
@@ -349,7 +349,7 @@
       "d": "None"
     },
     "correctAnswer": "a",
-    "explanation": "লম্বভাবে ক্রিয়া করলে,R2=122=P2+Q2ক্ষুদ্রতম লব্ধির ক্ষেত্রে,P−Q=4(P>Q) \\begin{array}{l} লম্বভাবে\\ ক্রিয়া\\ করলে, R^{2}=12^{2}=P^{2}+Q^{2} \\\\ ক্ষুদ্রতম\\ লব্ধির\\ ক্ষেত্রে, P-Q=4 \\quad(P>Q) \\end{array} লম্বভাবে ক্রিয়া করলে,R2=122=P2+Q2ক্ষুদ্রতম লব্ধির ক্ষেত্রে,P−Q=4(P>Q) এখন, P2+Q2=(P−Q)2+2PQ⇒PQ=144−(P−Q)22=64∴(P+Q)=(P−Q)2+4PQ=16+256=417 \\begin{aligned} P^{2}+Q^{2} & =(P-Q)^{2}+2PQ \\\\ \\Rightarrow PQ & =\\frac{144-(P-Q)^{2}}{2}=64 \\\\ \\therefore(P+Q ) & =\\sqrt{(P-Q)^{2}+4PQ} \\\\ & =\\sqrt{16+256}=4 \\sqrt{17} \\end{aligned} P2+Q2⇒PQ∴(P+Q)=(P−Q)2+2PQ=2144−(P−Q)2=64=(P−Q)2+4PQ=16+256=417",
+    "explanation": "লম্বভাবে ক্রিয়া করলে,ক্ষুদ্রতম লব্ধির ক্ষেত্রে,\\begin{array}{l} লম্বভাবে\\ ক্রিয়া\\ করলে, ক্ষুদ্রতম\\ লব্ধির\\ ক্ষেত্রে, \\quad(P>Q) \\end{array} লম্বভাবে ক্রিয়া করলে,ক্ষুদ্রতম লব্ধির ক্ষেত্রে,এখন, \\begin{aligned} P^{2}+Q^{2} & =(P-Q)^{2}+2PQ \\\\ \\Rightarrow PQ & =\\frac{144-(P-Q)^{2}}{2}=64 \\\\ \\therefore(P+Q ) & =\\sqrt{(P-Q)^{2}+4PQ} \\\\ & =\\sqrt{16+256}=4 \\sqrt{17} \\end{aligned} P2+Q2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -357,7 +357,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দুইটি বল একটি বিন্দুতে পরস্পর লম্বভাবে ক্রিয়াশীল থাকলে তাদের লব্ধির মান 12, যদি ঐ বলদ্বয়ের লব্ধির ক্ষুদ্রতম মান 4 হয় তবে এদের লব্ধির বৃহত্তম মান কত হবে?",
-    "explanationLatex": "$লম্বভাবে ক্রিয়া করলে,R2=122=P2+Q2ক্ষুদ্রতম লব্ধির ক্ষেত্রে,P−Q=4(P>Q) \\begin{array}{l} লম্বভাবে\\ ক্রিয়া\\ করলে, R^{2}=12^{2}=P^{2}+Q^{2} \\\\ ক্ষুদ্রতম\\ লব্ধির\\ ক্ষেত্রে, P-Q=4 \\quad(P>Q) \\end{array} লম্বভাবে ক্রিয়া করলে,R2=122=P2+Q2ক্ষুদ্রতম লব্ধির ক্ষেত্রে,P−Q=4(P>Q) এখন, P2+Q2=(P−Q)2+2PQ⇒PQ=144−(P−Q)22=64∴(P+Q)=(P−Q)2+4PQ=16+256=417 \\begin{aligned} P^{2}+Q^{2} & =(P-Q)^{2}+2PQ \\\\ \\Rightarrow PQ & =\\frac{144-(P-Q)^{2}}{2}=64 \\\\ \\therefore(P+Q ) & =\\sqrt{(P-Q)^{2}+4PQ} \\\\ & =\\sqrt{16+256}=4 \\sqrt{17} \\end{aligned} P2+Q2⇒PQ∴(P+Q)=(P−Q)2+2PQ=2144−(P−Q)2=64=(P−Q)2+4PQ=16+256=417$"
+    "explanationLatex": "লম্বভাবে ক্রিয়া করলে,ক্ষুদ্রতম লব্ধির ক্ষেত্রে,\\begin{array}{l} লম্বভাবে\\ ক্রিয়া\\ করলে, ক্ষুদ্রতম\\ লব্ধির\\ ক্ষেত্রে, \\quad(P>Q) \\end{array} লম্বভাবে ক্রিয়া করলে,ক্ষুদ্রতম লব্ধির ক্ষেত্রে,এখন, \\begin{aligned} P^{2}+Q^{2} & =(P-Q)^{2}+2PQ \\\\ \\Rightarrow PQ & =\\frac{144-(P-Q)^{2}}{2}=64 \\\\ \\therefore(P+Q ) & =\\sqrt{(P-Q)^{2}+4PQ} \\\\ & =\\sqrt{16+256}=4 \\sqrt{17} \\end{aligned} P2+Q2"
   },
   {
     "id": 19,
@@ -369,7 +369,7 @@
       "d": "45°"
     },
     "correctAnswer": "c",
-    "explanation": "ধরি, ক্ষুদ্রতর বেগদ্বয়ের মধ্যবর্তী কোণ θ \\theta θ সাম্যাবস্থায় থাকলে ১ম দুটি বলের লব্ধির মান হবে ৩য় বলের সমান 72=32+52+2×3×5×cos⁡θ⇒30cos⁡θ=49−34⇒cos⁡θ=1530⇒cos⁡θ=12∴θ=60∘ \\begin{array}{l} 7^{2}=3^{2}+5^{2}+2 \\times 3 \\times 5 \\times \\cos \\theta\\\\ \\Rightarrow 30 \\cos \\theta=49-34 \\\\ \\Rightarrow \\cos \\theta=\\frac{15}{30} \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\therefore \\theta=60^{\\circ} \\end{array} 72=32+52+2×3×5×cosθ⇒30cosθ=49−34⇒cosθ=3015⇒cosθ=21∴θ=60∘",
+    "explanation": "ধরি, ক্ষুদ্রতর বেগদ্বয়ের মধ্যবর্তী কোণ θ \\theta θ সাম্যাবস্থায় থাকলে ১ম দুটি বলের লব্ধির মান হবে ৩য় বলের সমান \\begin{array}{l} 7^{2}=3^{2}+5^{2}+2 \\times 3 \\times 5 \\times \\cos \\theta\\\\ \\Rightarrow 30 \\cos \\theta=49-34 \\\\ \\Rightarrow \\cos \\theta=\\frac{15}{30} \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\therefore \\theta=60^{\\circ} \\end{array} 72=32+52+2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -377,7 +377,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি বস্তুকণার উপর 3, 5 ও 7 \\frac{m}{sec} মানের তিনটি বেগ বিভিন্ন দিক হতে কার্যরত থাকলেও স্থিতিশীল রয়েছে । ক্ষুদ্রতর দুইটি বেগের মধ্যবর্তী কোণটির পরিমাণ কত?$",
-    "explanationLatex": "$ধরি, ক্ষুদ্রতর বেগদ্বয়ের মধ্যবর্তী কোণ \\\\theta  \\theta \\\\theta  সাম্যাবস্থায় থাকলে ১ম দুটি বলের লব্ধির মান হবে ৩য় বলের সমান 72=32+52+2\\\\times 3\\\\times 5\\\\times cos⁡\\\\theta ⇒30cos⁡\\\\theta =49−34⇒cos⁡\\\\theta =1530⇒cos⁡\\\\theta =12∴\\\\theta =60∘ \\begin{array}{l} 7^{2}=3^{2}+5^{2}+2 \\times 3 \\times 5 \\times \\cos \\theta\\\\ \\Rightarrow 30 \\cos \\theta=49-34 \\\\ \\Rightarrow \\cos \\theta=\\frac{15}{30} \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\therefore \\theta=60^{\\circ} \\end{array} 72=32+52+2\\\\times 3\\\\times 5\\\\times cos\\\\theta ⇒30cos\\\\theta =49−34⇒cos\\\\theta =3015⇒cos\\\\theta =21∴\\\\theta =60∘$"
+    "explanationLatex": "ধরি, ক্ষুদ্রতর বেগদ্বয়ের মধ্যবর্তী কোণ \\\\theta \\theta \\\\theta সাম্যাবস্থায় থাকলে ১ম দুটি বলের লব্ধির মান হবে ৩য় বলের সমান \\times 3\\\\times 5\\\\times cos⁡\\\\theta \\theta =49−34\\theta =1530\\theta =12∴\\\\theta =60∘ \\begin{array}{l} 7^{2}=3^{2}+5^{2}+2 \\times 3 \\times 5 \\times \\cos \\theta\\\\ \\Rightarrow 30 \\cos \\theta=49-34 \\\\ \\Rightarrow \\cos \\theta=\\frac{15}{30} \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\therefore \\theta=60^{\\circ} \\end{array} 72=32+52+2\\\\times 3\\\\times 5\\\\times cos\\\\theta \\theta =49−34\\theta =3015\\theta =21∴\\\\theta =60∘"
   },
   {
     "id": 20,
@@ -389,7 +389,7 @@
       "d": "3.5m"
     },
     "correctAnswer": "d",
-    "explanation": "10.5×AC=24.5×BC⇒ACBC=24.510.5⇒ACAC+BC=245105+245⇒AC5=245350⇒AC=245×5350=3.5 m \\begin{array}{l} 10.5 \\times \\mathrm{AC}=24.5 \\times \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{24.5}{10.5} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{AC}+\\mathrm{BC}}=\\frac{245}{105+245} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{5}=\\frac{245}{350} \\Rightarrow \\mathrm{AC}=\\frac{245 \\times 5}{350}=3.5 \\mathrm{~m} \\end{array} 10.5×AC=24.5×BC⇒BCAC=10.524.5⇒AC+BCAC=105+245245⇒5AC=350245⇒AC=350245×5=3.5 m",
+    "explanation": "10.5\\begin{array}{l} 10.5 \\times \\mathrm{AC}=24.5 \\times \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{24.5}{10.5} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{AC}+\\mathrm{BC}}=\\frac{245}{105+245} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{5}=\\frac{245}{350} \\Rightarrow \\mathrm{AC}=\\frac{245 \\times 5}{350}=3.5 \\mathrm{~m} \\end{array} 10.5",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243691/gst-question-images/Math_______________-Varsity-arc_q20.png",
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "5m দীর্ঘ একটি হালকা রডের দুই প্রান্তে 10.5 kg ও 24.5 kg ওজনের দুইটি বস্তু ঝলানো আছে। একজন লোক বস্তু দুইটি সমেত রডটি অনুভুমিক অবস্থায় বহন করতে চায়। সে রডটির কম ওজন ঝোলানো স্থান থেকে কত দূরত্বে ধরবে?[M-2.8, RU-C1 : 2021-22]",
-    "explanationLatex": "$10.5\\\\times AC=24.5\\\\times BC⇒ACBC=24.510.5⇒ACAC+BC=245105+245⇒AC5=245350⇒AC=245\\\\times 5350=3.5 m \\begin{array}{l} 10.5 \\times \\mathrm{AC}=24.5 \\times \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{24.5}{10.5} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{AC}+\\mathrm{BC}}=\\frac{245}{105+245} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{5}=\\frac{245}{350} \\Rightarrow \\mathrm{AC}=\\frac{245 \\times 5}{350}=3.5 \\mathrm{~m} \\end{array} 10.5\\\\times AC=24.5\\\\times BC⇒BCAC=10.524.5⇒AC+BCAC=105+245245⇒5AC=350245⇒AC=350245\\\\times 5=3.5 m$"
+    "explanationLatex": "10.5\\\\times AC=24.5\\\\times BC\\times 5350=3.5 m \\begin{array}{l} 10.5 \\times \\mathrm{AC}=24.5 \\times \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{24.5}{10.5} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{AC}+\\mathrm{BC}}=\\frac{245}{105+245} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{5}=\\frac{245}{350} \\Rightarrow \\mathrm{AC}=\\frac{245 \\times 5}{350}=3.5 \\mathrm{~m} \\end{array} 10.5\\\\times AC=24.5\\\\times BC\\times 5=3.5 m"
   },
   {
     "id": 21,
@@ -409,7 +409,7 @@
       "d": "5N"
     },
     "correctAnswer": "a",
-    "explanation": "মধ্যবর্তী কোণ 0° হলে লব্ধি সর্বাধিক হবে। যার মান P+Q । Rmax⁡=P+Q=2+5=7R_{\\max}=P+Q=2+5=7Rmax=P+Q=2+5=7",
+    "explanation": "মধ্যবর্তী কোণ 0° হলে লব্ধি সর্বাধিক হবে। যার মান \\max}=P+Q=2+5=7Rmax=P+Q=2+5=7",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -417,7 +417,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "2N এবং 5N, মানের দুইটি বল একই রেখায় একই দিকে ক্রিয়ারত। উহাদের সর্বাধিক লব্ধি হবে-",
-    "explanationLatex": "$মধ্যবর্তী কোণ 0^{\\\\circ} হলে লব্ধি সর্বাধিক হবে। যার মান P+Q । Rmax⁡=P+Q=2+5=7R_{\\max}=P+Q=2+5=7Rmax=P+Q=2+5=7$"
+    "explanationLatex": "মধ্যবর্তী কোণ 0^{\\\\circ} হলে লব্ধি সর্বাধিক হবে। যার মান \\max}=P+Q=2+5=7Rmax=P+Q=2+5=7"
   },
   {
     "id": 22,
@@ -437,7 +437,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ভূমির সাথে α কোণে হেলানো একটি সমতলের উপর W ওজনের একটি বস্তুকে তলের সমান্তরাল P বল প্রয়োগ করে স্থির রাখা যায়। আবার পৃথকভাবে ভূমির সমান্তরাল Q বল প্রয়োগ করে ও বস্তুটিকে স্থির রাখা সম্ভব । 0<α<α/2 হলে নিচের কোনটি সত্য?",
-    "explanationLatex": "$সঠিক উত্তর: (b) P = Q।$"
+    "explanationLatex": "সঠিক উত্তর: (b) P = Q।"
   },
   {
     "id": 23,
@@ -449,7 +449,7 @@
       "d": "কোনোটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "AB=x A B=x AB=x 45×5=15×(5+x).⇒x=10 m. \\begin{array}{l} 45 \\times 5=15 \\times(5+x) . \\\\ \\Rightarrow x=10 \\mathrm{~m} . \\end{array} 45×5=15×(5+x).⇒x=10 m.",
+    "explanation": "\\begin{array}{l} 45 \\times 5=15 \\times(5+x) . \\\\ \\Rightarrow x=10 \\mathrm{~m} . \\end{array} 45",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243695/gst-question-images/Math_______________-Varsity-arc_q23.jpg",
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি দণ্ডের A ও B বিন্দুতে যথাক্রমে 45N ও 15N দুইটি বিপরীতমুখী সমান্তরাল বল ক্রিয়া করছে। যদি এদের লব্ধি দন্ডের C বিন্দুতে ক্রিয়া করে এবং AC=5m হয় তবে , AB=কত m?$",
-    "explanationLatex": "$AB=x A B=x AB=x 45\\\\times 5=15\\\\times (5+x).⇒x=10 m. \\begin{array}{l} 45 \\times 5=15 \\times(5+x) . \\\\ \\Rightarrow x=10 \\mathrm{~m} . \\end{array} 45\\\\times 5=15\\\\times (5+x).⇒x=10 m.$"
+    "explanationLatex": "\\times 5=15\\\\times (5+x).\\begin{array}{l} 45 \\times 5=15 \\times(5+x) . \\\\ \\Rightarrow x=10 \\mathrm{~m} . \\end{array} 45\\\\times 5=15\\\\times (5+x)."
   },
   {
     "id": 24,
@@ -469,7 +469,7 @@
       "d": "90°"
     },
     "correctAnswer": "c",
-    "explanation": "R=2Pcos⁡α2R2=4P2cos⁡2α2⇒3⋅P2=4P2cos⁡2α2cos⁡α2=32=cos⁡30∘⇒α=60∘ \\begin{array}{l} \\text { }^{} R=2 P \\cos \\frac{\\alpha}{2} \\\\ R^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\Rightarrow 3 \\cdot P^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\\\ \\cos \\frac{\\alpha}{2}=\\frac{\\sqrt{3}}{2}=\\cos 30^{\\circ} \\Rightarrow \\alpha=60^{\\circ} \\end{array} R=2Pcos2αR2=4P2cos22α⇒3⋅P2=4P2cos22αcos2α=23=cos30∘⇒α=60∘",
+    "explanation": "\\begin{array}{l} \\text { }^{} R=2 P \\cos \\frac{\\alpha}{2} \\\\ R^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\Rightarrow 3 \\cdot P^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\\\ \\cos \\frac{\\alpha}{2}=\\frac{\\sqrt{3}}{2}=\\cos 30^{\\circ} \\Rightarrow \\alpha=60^{\\circ} \\end{array} R=2Pcos2αR2=4P2cos22α",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -477,7 +477,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সমমানের দুইটি বলের লব্দির বর্গ তাদের গুণফলের তিনগুণ হলে এদের মধ্যবর্তী কোণ কত ?",
-    "explanationLatex": "$R=2Pcos⁡α2R2=4P2cos⁡2α2⇒3⋅P2=4P2cos⁡2α2cos⁡α2=32=cos⁡30∘⇒α=60∘ \\begin{array}{l} \\text { }^{} R=2 P \\cos \\frac{\\alpha}{2} \\\\ R^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\Rightarrow 3 \\cdot P^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\\\ \\cos \\frac{\\alpha}{2}=\\frac{\\sqrt{3}}{2}=\\cos 30^{\\circ} \\Rightarrow \\alpha=60^{\\circ} \\end{array} R=2Pcos2αR2=4P2cos22α⇒3⋅P2=4P2cos22αcos2α=23=cos30∘⇒α=60∘$"
+    "explanationLatex": "\\begin{array}{l} \\text { }^{} R=2 P \\cos \\frac{\\alpha}{2} \\\\ R^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\Rightarrow 3 \\cdot P^{2}=4 P^{2} \\cos ^{2} \\frac{\\alpha}{2} \\\\ \\cos \\frac{\\alpha}{2}=\\frac{\\sqrt{3}}{2}=\\cos 30^{\\circ} \\Rightarrow \\alpha=60^{\\circ} \\end{array} R=2Pcos2αR2=4P2cos22α"
   },
   {
     "id": 25,
@@ -489,7 +489,7 @@
       "d": "11N"
     },
     "correctAnswer": "a",
-    "explanation": "এখানে, cos⁡α=−PQ \\cos \\alpha=\\frac{-P}{Q} cosα=Q−P. R2=P2+Q2+2PQcos⁡α.(37)2=P2+122+2⋅PQ(−PQ)63=144−P2⇒P2=81∴P=9 N \\begin{aligned} R^{2} & =P^{2}+Q^{2}+2 P Q \\cos \\alpha . \\\\ (3 \\sqrt{7})^{2} & =P^{2}+12^{2}+2 \\cdot P Q\\left(\\frac{-P}{Q}\\right) \\\\ 63 & =144-P^{2} \\\\ \\Rightarrow P^{2} & =81 \\quad \\therefore P=9 \\mathrm{~N} \\end{aligned} R2(37)263⇒P2=P2+Q2+2PQcosα.=P2+122+2⋅PQ(Q−P)=144−P2=81∴P=9 N",
+    "explanation": "এখানে, cos\\cos \\alpha=\\frac{-P}{Q} cosα=Q−P. R2=P2+Q2+2PQcos\\begin{aligned} R^{2} & =P^{2}+Q^{2}+2 P Q \\cos \\alpha . \\\\ (3 \\sqrt{7})^{2} & =P^{2}+12^{2}+2 \\cdot P Q\\left(\\frac{-P}{Q}\\right) \\\\ 63 & =144-P^{2} \\\\ \\Rightarrow P^{2} & =81 \\quad \\therefore P=9 \\mathrm{~N} \\end{aligned} R2(37)263",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243697/gst-question-images/Math_______________-Varsity-arc_q25.png",
@@ -497,7 +497,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি বিন্দুতে ক্রিয়াশীল P নিউটন এবং 12N দুইটি বলের লব্ধি 37N 3 \\sqrt{7} N 37N , যা P এর দিকে 90^{\\\\circ} কোণ উৎপন্ন করে। P এর মান-$",
-    "explanationLatex": "$এখানে, cos⁡α=−PQ \\cos \\alpha=\\frac{-P}{Q} cosα=Q−P. R2=P2+Q2+2PQcos⁡α.(37)2=P2+122+2⋅PQ(−PQ)63=144−P2⇒P2=81∴P=9 N \\begin{aligned} R^{2} & =P^{2}+Q^{2}+2 P Q \\cos \\alpha . \\\\ (3 \\sqrt{7})^{2} & =P^{2}+12^{2}+2 \\cdot P Q\\left(\\frac{-P}{Q}\\right) \\\\ 63 & =144-P^{2} \\\\ \\Rightarrow P^{2} & =81 \\quad \\therefore P=9 \\mathrm{~N} \\end{aligned} R2(37)263⇒P2=P2+Q2+2PQcosα.=P2+122+2⋅PQ(Q−P)=144−P2=81∴P=9 N$"
+    "explanationLatex": "এখানে, cos\\cos \\alpha=\\frac{-P}{Q} cosα=Q−P. R2=P2+Q2+2PQcos\\begin{aligned} R^{2} & =P^{2}+Q^{2}+2 P Q \\cos \\alpha . \\\\ (3 \\sqrt{7})^{2} & =P^{2}+12^{2}+2 \\cdot P Q\\left(\\frac{-P}{Q}\\right) \\\\ 63 & =144-P^{2} \\\\ \\Rightarrow P^{2} & =81 \\quad \\therefore P=9 \\mathrm{~N} \\end{aligned} R2(37)263"
   },
   {
     "id": 26,
@@ -509,7 +509,7 @@
       "d": "52cm"
     },
     "correctAnswer": "c",
-    "explanation": "বৃহত্তর বল থেকে লব্ধির প্রয়োগ বিন্দুর দূরত্ব x 15x=9(32+x)⇒15x=288+9x⇒6x=288⇒x=48 cm \\begin{array}{l} 15 x=9(32+x) \\\\ \\Rightarrow 15 x=288+9 x \\\\ \\Rightarrow 6 x=288 \\Rightarrow x=48 \\mathrm{~cm} \\end{array} 15x=9(32+x)⇒15x=288+9x⇒6x=288⇒x=48 cm",
+    "explanation": "বৃহত্তর বল থেকে লব্ধির প্রয়োগ বিন্দুর দূরত্ব \\begin{array}{l} 15 x=9(32+x) \\\\ \\Rightarrow 15 x=288+9 x \\\\ \\Rightarrow 6 x=288 \\Rightarrow x=48 \\mathrm{~cm} \\end{array} 15x=9(32+x)",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243698/gst-question-images/Math_______________-Varsity-arc_q26.png",
@@ -517,7 +517,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "32cm ব্যবধানে দুইটি বিন্দুতে 15kg ও 9kg ওজনের দুইটি বিসদৃশ সমান্তরাল বল কার্যরত আছে। বৃহত্তর বল থেকে তাদের লব্ধির প্রয়োগবিন্দুর দূরত্ব -",
-    "explanationLatex": "$বৃহত্তর বল থেকে লব্ধির প্রয়োগ বিন্দুর দূরত্ব x 15x=9(32+x)⇒15x=288+9x⇒6x=288⇒x=48 cm \\begin{array}{l} 15 x=9(32+x) \\\\ \\Rightarrow 15 x=288+9 x \\\\ \\Rightarrow 6 x=288 \\Rightarrow x=48 \\mathrm{~cm} \\end{array} 15x=9(32+x)⇒15x=288+9x⇒6x=288⇒x=48 cm$"
+    "explanationLatex": "বৃহত্তর বল থেকে লব্ধির প্রয়োগ বিন্দুর দূরত্ব \\begin{array}{l} 15 x=9(32+x) \\\\ \\Rightarrow 15 x=288+9 x \\\\ \\Rightarrow 6 x=288 \\Rightarrow x=48 \\mathrm{~cm} \\end{array} 15x=9(32+x)"
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "8 মিটার"
     },
     "correctAnswer": "b",
-    "explanation": "⇒12⋅x=8(10−x)⇒12x=80−8x⇒20x=80⇒x=4 m \\begin{array}{l}\\Rightarrow 12 \\cdot x=8(10-x) \\\\ \\Rightarrow 12 x=80-8 x \\\\ \\Rightarrow 20 x=80 \\\\ \\Rightarrow x=4 \\mathrm{~m}\\end{array} ⇒12⋅x=8(10−x)⇒12x=80−8x⇒20x=80⇒x=4 m",
+    "explanation": "\\begin{array}{l}\\Rightarrow 12 \\cdot x=8(10-x) \\\\ \\Rightarrow 12 x=80-8 x \\\\ \\Rightarrow 20 x=80 \\\\ \\Rightarrow x=4 \\mathrm{~m}\\end{array}",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243699/gst-question-images/Math_______________-Varsity-arc_q27.png",
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "12 ও 8N দুটি সমান্তরাল বল 10 মিটার লম্বা একটি হালকা দণ্ডের দুই প্রান্তে কার্যকর হলে বৃহত্তর বল হতে লব্ধি যতদূরে ক্রিয়া করে-",
-    "explanationLatex": "$⇒12⋅x=8(10−x)⇒12x=80−8x⇒20x=80⇒x=4 m \\begin{array}{l}\\Rightarrow 12 \\cdot x=8(10-x) \\\\ \\Rightarrow 12 x=80-8 x \\\\ \\Rightarrow 20 x=80 \\\\ \\Rightarrow x=4 \\mathrm{~m}\\end{array} ⇒12⋅x=8(10−x)⇒12x=80−8x⇒20x=80⇒x=4 m$"
+    "explanationLatex": "\\begin{array}{l}\\Rightarrow 12 \\cdot x=8(10-x) \\\\ \\Rightarrow 12 x=80-8 x \\\\ \\Rightarrow 20 x=80 \\\\ \\Rightarrow x=4 \\mathrm{~m}\\end{array}"
   },
   {
     "id": 28,
@@ -549,7 +549,7 @@
       "d": "5 : 6 : 7 5:6:7"
     },
     "correctAnswer": "c",
-    "explanation": "P P P এর সাপেক্ষে ভ্রামক 9Q=12R 9 Q=12 R 9Q=12R ∴Q:R=69∴Q:R=23 \\begin{array}{l} \\therefore Q: R=\\frac{6}{9} \\\\ \\therefore Q: R=\\frac{2}{3} \\end{array} ∴Q:R=96∴Q:R=32 R R R এর সাপেক্ষে ভ্রামক 3Q=6P 3 Q=6 P 3Q=6P ∴Q:P=63Q:P=21∴P:Q:R=1:2:3 \\begin{array}{r} \\therefore Q: P=\\frac{6}{3} \\\\\\quad Q:P=\\frac{2}{1} \\\\ \\therefore P: Q: R=1: 2: 3 \\end{array} ∴Q:P=36Q:P=12∴P:Q:R=1:2:3",
+    "explanation": "এর সাপেক্ষে ভ্রামক \\begin{array}{l} \\therefore Q: R=\\frac{6}{9} \\\\ \\therefore Q: R=\\frac{2}{3} \\end{array} এর সাপেক্ষে ভ্রামক \\begin{array}{r} \\therefore Q: P=\\frac{6}{3} \\\\\\quad Q:P=\\frac{2}{1} \\\\ \\therefore P: Q: R=1: 2: 3 \\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি দন্ডের একপ্রান্ত হতে 3, 6, 9m3,\\ 6,\\ 9m3, 6, 9m দূরে P, Q, RP,\\ Q,\\ R P, Q, R মানের 3টি বল ক্রিয়া করছে। দন্ডটি সাম্যাবস্থায় থাকলে P:Q:R=P:Q:R=P:Q:R= কত?$",
-    "explanationLatex": "$P P P এর সাপেক্ষে ভ্রামক 9Q=12R 9 Q=12 R 9Q=12R ∴Q:R=69∴Q:R=23 \\begin{array}{l} \\therefore Q: R=\\frac{6}{9} \\\\ \\therefore Q: R=\\frac{2}{3} \\end{array} ∴Q:R=96∴Q:R=32 R R R এর সাপেক্ষে ভ্রামক 3Q=6P 3 Q=6 P 3Q=6P ∴Q:P=63Q:P=21∴P:Q:R=1:2:3 \\begin{array}{r} \\therefore Q: P=\\frac{6}{3} \\\\\\quad Q:P=\\frac{2}{1} \\\\ \\therefore P: Q: R=1: 2: 3 \\end{array} ∴Q:P=36Q:P=12∴P:Q:R=1:2:3$"
+    "explanationLatex": "এর সাপেক্ষে ভ্রামক \\begin{array}{l} \\therefore Q: R=\\frac{6}{9} \\\\ \\therefore Q: R=\\frac{2}{3} \\end{array} এর সাপেক্ষে ভ্রামক \\begin{array}{r} \\therefore Q: P=\\frac{6}{3} \\\\\\quad Q:P=\\frac{2}{1} \\\\ \\therefore P: Q: R=1: 2: 3 \\end{array}"
   },
   {
     "id": 29,
@@ -569,7 +569,7 @@
       "d": "8 মিটার"
     },
     "correctAnswer": "b",
-    "explanation": "বৃহত্তর বল হতে লব্ধির ক্রিয়াবিন্দুর দূরত্ব = AC 12BC=8AC⇒12AB−AC=8AC⇒12AC=8(AB−AC)⇒12AC=8.10−8AC[∵AB=10 মিটার ]⇒20AC=80AC=4 মিটার \\begin{array}{l}\\frac{12}{\\mathrm{BC}}=\\frac{8}{\\mathrm{AC}} \\Rightarrow \\frac{12}{\\mathrm{AB}-\\mathrm{AC}}=\\frac{8}{\\mathrm{AC}} \\\\ \\Rightarrow 12 \\mathrm{AC}=8(\\mathrm{AB}-\\mathrm{AC}) \\\\ \\Rightarrow 12 \\mathrm{AC}=8.10-8 \\mathrm{AC}[\\because \\mathrm{AB}=10 \\text { মিটার }] \\\\ \\Rightarrow 20 \\mathrm{AC}=80 \\\\ \\mathrm{AC}=4 \\text { মিটার }\\end{array} BC12=AC8⇒AB−AC12=AC8⇒12AC=8(AB−AC)⇒12AC=8.10−8AC[∵AB=10 মিটার ]⇒20AC=80AC=4 মিটার",
+    "explanation": "বৃহত্তর বল হতে লব্ধির ক্রিয়াবিন্দুর দূরত্ব = মিটার ]মিটার \\begin{array}{l}\\frac{12}{\\mathrm{BC}}=\\frac{8}{\\mathrm{AC}} \\Rightarrow \\frac{12}{\\mathrm{AB}-\\mathrm{AC}}=\\frac{8}{\\mathrm{AC}} \\\\ \\Rightarrow 12 \\mathrm{AC}=8(\\mathrm{AB}-\\mathrm{AC}) \\\\ \\Rightarrow 12 \\mathrm{AC}=8.10-8 \\mathrm{AC}[\\because \\mathrm{AB}=10 \\text { মিটার }] \\\\ \\Rightarrow 20 \\mathrm{AC}=80 \\\\ \\mathrm{AC}=4 \\text { মিটার }\\end{array} BC12=AC8মিটার ]মিটার",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -577,7 +577,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "12N ও 8N দু'টি সমান্তরাল বল 10 মিটার লম্বা একটি হালকা দন্ডের দুই প্রান্তে কার্যকর হলে বৃহত্তর বল হতে লব্ধি যতদূরে ক্রিয়া করে-",
-    "explanationLatex": "$বৃহত্তর বল হতে লব্ধির ক্রিয়াবিন্দুর দূরত্ব = AC 12BC=8AC⇒12AB−AC=8AC⇒12AC=8(AB−AC)⇒12AC=8.10−8AC[∵AB=10 মিটার ]⇒20AC=80AC=4 মিটার \\begin{array}{l}\\frac{12}{\\mathrm{BC}}=\\frac{8}{\\mathrm{AC}} \\Rightarrow \\frac{12}{\\mathrm{AB}-\\mathrm{AC}}=\\frac{8}{\\mathrm{AC}} \\\\ \\Rightarrow 12 \\mathrm{AC}=8(\\mathrm{AB}-\\mathrm{AC}) \\\\ \\Rightarrow 12 \\mathrm{AC}=8.10-8 \\mathrm{AC}[\\because \\mathrm{AB}=10 \\text { মিটার }] \\\\ \\Rightarrow 20 \\mathrm{AC}=80 \\\\ \\mathrm{AC}=4 \\text { মিটার }\\end{array} BC12=AC8⇒AB−AC12=AC8⇒12AC=8(AB−AC)⇒12AC=8.10−8AC[∵AB=10 মিটার ]⇒20AC=80AC=4 মিটার$"
+    "explanationLatex": "বৃহত্তর বল হতে লব্ধির ক্রিয়াবিন্দুর দূরত্ব = মিটার ]মিটার \\begin{array}{l}\\frac{12}{\\mathrm{BC}}=\\frac{8}{\\mathrm{AC}} \\Rightarrow \\frac{12}{\\mathrm{AB}-\\mathrm{AC}}=\\frac{8}{\\mathrm{AC}} \\\\ \\Rightarrow 12 \\mathrm{AC}=8(\\mathrm{AB}-\\mathrm{AC}) \\\\ \\Rightarrow 12 \\mathrm{AC}=8.10-8 \\mathrm{AC}[\\because \\mathrm{AB}=10 \\text { মিটার }] \\\\ \\Rightarrow 20 \\mathrm{AC}=80 \\\\ \\mathrm{AC}=4 \\text { মিটার }\\end{array} BC12=AC8মিটার ]মিটার"
   },
   {
     "id": 30,
@@ -589,7 +589,7 @@
       "d": "5N,6N"
     },
     "correctAnswer": "b",
-    "explanation": "বলদ্বয় লম্বভাবে ক্রিয়ারত হলে লব্ধি, R=P2+Q2 \\mathrm{R}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} R=P2+Q2 ⇒13=P2+Q2⇒P2+Q2=13…(i) \\Rightarrow \\sqrt{13}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} \\Rightarrow \\mathrm{P}^{2}+\\mathrm{Q}^{2}=13…(i) ⇒13=P2+Q2⇒P2+Q2=13…(i)",
+    "explanation": "বলদ্বয় লম্বভাবে ক্রিয়ারত হলে লব্ধি, \\mathrm{R}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} R=P2+Q2 \\Rightarrow \\sqrt{13}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} \\Rightarrow \\mathrm{P}^{2}+\\mathrm{Q}^{2}=13…(i)",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243700/gst-question-images/Math_______________-Varsity-arc_q30.png",
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$দুইটি বল পরস্পর লম্বভাবে ক্রিয়ারত থাকলে লব্ধি \\\\sqrt{}13N, আবার এরা পরস্পর 120^{\\\\circ} কোণে ক্রিয়ারত থাকলে এদের লব্ধি \\\\sqrt{}7N. বলদ্বয়ের মান কত?$",
-    "explanationLatex": "$বলদ্বয় লম্বভাবে ক্রিয়ারত হলে লব্ধি, R=P2+Q2 \\mathrm{R}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} R=P2+Q2 ⇒13=P2+Q2⇒P2+Q2=13…(i) \\Rightarrow \\sqrt{13}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} \\Rightarrow \\mathrm{P}^{2}+\\mathrm{Q}^{2}=13…(i) ⇒13=P2+Q2⇒P2+Q2=13…(i)$"
+    "explanationLatex": "বলদ্বয় লম্বভাবে ক্রিয়ারত হলে লব্ধি, \\mathrm{R}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} R=P2+Q2 \\Rightarrow \\sqrt{13}=\\sqrt{\\mathrm{P}^{2}+\\mathrm{Q}^{2}} \\Rightarrow \\mathrm{P}^{2}+\\mathrm{Q}^{2}=13…(i)"
   },
   {
     "id": 31,
@@ -629,7 +629,7 @@
       "d": "4"
     },
     "correctAnswer": "d",
-    "explanation": "p2p=2p2p+8⇒p(2p+8)=4p2⇒2p2+8p=4p2⇒2p2=8p⇒p=4 \\begin{aligned} & \\frac{p}{2 p}=\\frac{2 p}{2 p+8} \\\\ \\Rightarrow & p(2 p+8)=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}+8 p=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}=8 p \\\\ \\Rightarrow & p=4\\end{aligned} ⇒⇒⇒⇒2pp=2p+82pp(2p+8)=4p22p2+8p=4p22p2=8pp=4",
+    "explanation": "\\begin{aligned} & \\frac{p}{2 p}=\\frac{2 p}{2 p+8} \\\\ \\Rightarrow & p(2 p+8)=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}+8 p=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}=8 p \\\\ \\Rightarrow & p=4\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন বিন্দুতে P এবং 2P মানের দুইটি বল ক্রিয়াশীল। প্রথমটিকে দ্বিগুণ করে দ্বিতীয়টির মান 8 একক বৃদ্ধি করলে লব্ধির দিক অপরিবর্তিত থাকে। P এর মান কত একক?",
-    "explanationLatex": "$p2p=2p2p+8⇒p(2p+8)=4p2⇒2p2+8p=4p2⇒2p2=8p⇒p=4 \\begin{aligned} & \\frac{p}{2 p}=\\frac{2 p}{2 p+8} \\\\ \\Rightarrow & p(2 p+8)=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}+8 p=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}=8 p \\\\ \\Rightarrow & p=4\\end{aligned} ⇒⇒⇒⇒2pp=2p+82pp(2p+8)=4p22p2+8p=4p22p2=8pp=4$"
+    "explanationLatex": "\\begin{aligned} & \\frac{p}{2 p}=\\frac{2 p}{2 p+8} \\\\ \\Rightarrow & p(2 p+8)=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}+8 p=4 p^{2} \\\\ \\Rightarrow & 2 p^{2}=8 p \\\\ \\Rightarrow & p=4\\end{aligned}"
   },
   {
     "id": 33,
@@ -657,7 +657,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "30 মিটার লম্বা AB \\mathrm{AB} AB রডের A \\mathrm{A} A প্রান্তে 20 kg 20 \\mathrm{~kg} 20 kg ওজন এবং B \\mathrm{B} B প্রান্তে P kg P \\mathrm{~kg} P kg ওজন ঝুলানো আছে। তাদের লব্ধি C বিন্দুতে ক্রিয়াশীল। AC এর দৈর্ঘ্য 20 মিটার হলে P এর মান কত? [CB'21]",
-    "explanationLatex": "$P x 10 = 20 \\\\times  20 বা, P = 40 kg$"
+    "explanationLatex": "P x 10 = 20 \\\\times  20 বা, P = 40 kg"
   },
   {
     "id": 34,
@@ -669,7 +669,7 @@
       "d": "150°"
     },
     "correctAnswer": "c",
-    "explanation": "p2=p2+p2+2p⋅p⋅cos⁡α⇒p2=2p2+2p2cos⁡α⇒p2=−2p2cos⁡α⇒cos⁡α=−12⇒α=120∘ \\begin{aligned} & p^{2}=p^{2}+p^{2}+2 p \\cdot p \\cdot \\cos \\alpha \\\\ \\Rightarrow & p^{2}=2 p^{2}+2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & p^{2}=-2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned} ⇒⇒⇒⇒p2=p2+p2+2p⋅p⋅cosαp2=2p2+2p2cosαp2=−2p2cosαcosα=−21α=120∘",
+    "explanation": "\\begin{aligned} & p^{2}=p^{2}+p^{2}+2 p \\cdot p \\cdot \\cos \\alpha \\\\ \\Rightarrow & p^{2}=2 p^{2}+2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & p^{2}=-2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -677,7 +677,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দুটি সমমানের বল একটি বিন্দুতে ক্রিয়াশীল। এদের লব্ধির মান যে কোনো একটি বলের সমান হলে বল দুইটির মধ্যবর্তী কোণ কত?",
-    "explanationLatex": "$p2=p2+p2+2p⋅p⋅cos⁡α⇒p2=2p2+2p2cos⁡α⇒p2=−2p2cos⁡α⇒cos⁡α=−12⇒α=120∘ \\begin{aligned} & p^{2}=p^{2}+p^{2}+2 p \\cdot p \\cdot \\cos \\alpha \\\\ \\Rightarrow & p^{2}=2 p^{2}+2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & p^{2}=-2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned} ⇒⇒⇒⇒p2=p2+p2+2p⋅p⋅cosαp2=2p2+2p2cosαp2=−2p2cosαcosα=−21α=120∘$"
+    "explanationLatex": "\\begin{aligned} & p^{2}=p^{2}+p^{2}+2 p \\cdot p \\cdot \\cos \\alpha \\\\ \\Rightarrow & p^{2}=2 p^{2}+2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & p^{2}=-2 p^{2} \\cos \\alpha \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned}"
   },
   {
     "id": 35,
@@ -709,7 +709,7 @@
       "d": "110°"
     },
     "correctAnswer": "c",
-    "explanation": "θ=tan⁡−12Psin⁡120P+2Pcos⁡120=tan⁡−12Psin⁡120P(1+2cos⁡120)=90∘ \\begin{aligned} \\theta & =\\tan ^{-1} \\frac{2 P \\sin 120}{P+2 P \\cos 120} \\\\ & =\\tan ^{-1} \\frac{2 P \\sin 120}{P(1+2 \\cos 120)} \\\\ & =90^{\\circ} \\end{aligned} θ=tan−1P+2Pcos1202Psin120=tan−1P(1+2cos120)2Psin120=90∘",
+    "explanation": "θ=tan\\begin{aligned} \\theta & =\\tan ^{-1} \\frac{2 P \\sin 120}{P+2 P \\cos 120} \\\\ & =\\tan ^{-1} \\frac{2 P \\sin 120}{P(1+2 \\cos 120)} \\\\ & =90^{\\circ} \\end{aligned} θ=tan−1P+2Pcos1202Psin120=tan−1P(1+2cos120)2Psin120=90∘",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243703/gst-question-images/Math_______________-Varsity-arc_q36.png",
@@ -717,7 +717,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একবিন্দুতে 120^{\\\\circ} কোণে কর্মরত P ও 2P বলের লব্ধি P বলের সাথে \\\\theta  কোণ উৎপন্ন করে। \\\\theta  = কতো?$",
-    "explanationLatex": "$\\\\theta =tan⁡−12Psin⁡120P+2Pcos⁡120=tan⁡−12Psin⁡120P(1+2cos⁡120)=90∘ \\begin{aligned} \\theta & =\\tan ^{-1} \\frac{2 P \\sin 120}{P+2 P \\cos 120} \\\\ & =\\tan ^{-1} \\frac{2 P \\sin 120}{P(1+2 \\cos 120)} \\\\ & =90^{\\circ} \\end{aligned} \\\\theta =tan−1P+2Pcos1202Psin120=tan−1P(1+2cos120)2Psin120=90∘$"
+    "explanationLatex": "\\\\theta =tan\\begin{aligned} \\theta & =\\tan ^{-1} \\frac{2 P \\sin 120}{P+2 P \\cos 120} \\\\ & =\\tan ^{-1} \\frac{2 P \\sin 120}{P(1+2 \\cos 120)} \\\\ & =90^{\\circ} \\end{aligned} \\\\theta =tan−1P+2Pcos1202Psin120=tan−1P(1+2cos120)2Psin120=90∘"
   },
   {
     "id": 37,
@@ -729,7 +729,7 @@
       "d": "√11 N"
     },
     "correctAnswer": "b",
-    "explanation": "বলদ্বয়ের লব্ধি, =82+32+2.8.3.cos⁡60°=\\sqrt{8^2+3^2+2.8.3.\\cos60°}=82+32+2.8.3.cos60° =64+9+2.8.312=64+9+24=97N=\\sqrt{64+9+2.8.3\\frac{1}{2}}=\\sqrt{64+9+24}=\\sqrt{97}N=64+9+2.8.321=64+9+24=97N",
+    "explanation": "বলদ্বয়ের লব্ধি, =\\sqrt{8^2+3^2+2.8.3.\\cos60°}=82+32+2.8.3.cos60° =64+9+2.8.312=64+9+24=97N=\\sqrt{64+9+2.8.3\\frac{1}{2}}=\\sqrt{64+9+24}=\\sqrt{97}N=64+9+2.8.321=64+9+24=97N",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$8N এবং 3N দুইটি বল একটি বিন্দুতে 60^{\\\\circ} কোণে একটি বস্তুতে ক্রিয়ারত । বলদ্বয়ের লব্ধির মান-$",
-    "explanationLatex": "$বলদ্বয়ের লব্ধি, =82+32+2.8.3.cos⁡60^{\\\\circ}=\\sqrt{8^2+3^2+2.8.3.\\cos60^{\\\\circ}}=82+32+2.8.3.cos60^{\\\\circ} =64+9+2.8.312=64+9+24=97N=\\sqrt{64+9+2.8.3\\frac{1}{2}}=\\sqrt{64+9+24}=\\sqrt{97}N=64+9+2.8.321=64+9+24=97N$"
+    "explanationLatex": "বলদ্বয়ের লব্ধি, =\\circ}=\\sqrt{8^2+3^2+2.8.3.\\cos60^{\\\\circ}}=82+32+2.8.3.cos60^{\\\\circ} =64+9+2.8.312=64+9+24=97N=\\sqrt{64+9+2.8.3\\frac{1}{2}}=\\sqrt{64+9+24}=\\sqrt{97}N=64+9+2.8.321=64+9+24=97N"
   },
   {
     "id": 38,
@@ -749,7 +749,7 @@
       "d": "9731 lb-wt"
     },
     "correctAnswer": "b",
-    "explanation": "লামীর উপপাদ্য অনুসারে, Wsin⁡(π−θ)=Tsin⁡90o⇒T=Wsin⁡θ=1000041013=10277.42 lb−wt\\frac{W}{\\sin{\\left(\\pi-\\theta\\right)}}=\\frac{T}{\\sin{{90}^o}}\\Rightarrow T=\\frac{W}{\\sin{\\theta}}=\\frac{10000}{\\frac{4\\sqrt{10}}{13}}=10277.42\\ lb-wtsin(π−θ)W=sin90oT⇒T=sinθW=1341010000=10277.42 lb−wt [এখানে, sin⁡θ=132−3213=41013\\sin{\\theta}=\\frac{\\sqrt{{13}^2-3^2}}{13}=\\frac{4\\sqrt{10}}{13}sinθ=13132−32=13410",
+    "explanation": "লামীর উপপাদ্য অনুসারে, Wsin\\frac{W}{\\sin{\\left(\\pi-\\theta\\right)}}=\\frac{T}{\\sin{{90}^o}}\\Rightarrow T=\\frac{W}{\\sin{\\theta}}=\\frac{10000}{\\frac{4\\sqrt{10}}{13}}=10277.42\\ lb-wtsin(π−θ)W=sin90oTএখানে, sin\\sin{\\theta}=\\frac{\\sqrt{{13}^2-3^2}}{13}=\\frac{4\\sqrt{10}}{13}sinθ=13132−32=13410",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -757,7 +757,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "10 ft দৈর্ঘ্য বিশিষ্ট একটি রশির এক প্রান্ত একটি খাড়া দেওয়ালের সাথে আটকানো আছে এবং অপর প্রান্ত একটি মসৃন গোলকের উপরিস্থিত একটি বিন্দুতে সংযুক্ত রয়েছে। যদি গোলকটি দেওয়ালের সংস্পর্শে স্থিতিশীল অবস্থায় থাকে তবে রশির উপর টান কত হবে? [গোলকটির ওজন 10000 lb-wt ও ব্যাসার্ধ 3ft ]",
-    "explanationLatex": "$লামীর উপপাদ্য অনুসারে, Wsin⁡(\\\\pi −\\\\theta )=Tsin⁡90o⇒T=Wsin⁡\\\\theta =1000041013=10277.42 lb−wt\\frac{W}{\\sin{\\left(\\pi-\\theta\\right)}}=\\frac{T}{\\sin{{90}^o}}\\Rightarrow T=\\frac{W}{\\sin{\\theta}}=\\frac{10000}{\\frac{4\\sqrt{10}}{13}}=10277.42\\ lb-wtsin(\\\\pi −\\\\theta )W=sin90oT⇒T=sin\\\\theta W=1341010000=10277.42 lb−wt [এখানে, sin⁡\\\\theta =132−3213=41013\\sin{\\theta}=\\frac{\\sqrt{{13}^2-3^2}}{13}=\\frac{4\\sqrt{10}}{13}sin\\\\theta =13132−32=13410$"
+    "explanationLatex": "লামীর উপপাদ্য অনুসারে, Wsin\\pi −\\\\theta )=Tsin\\theta =1000041013=10277.42 lb−wt\\frac{W}{\\sin{\\left(\\pi-\\theta\\right)}}=\\frac{T}{\\sin{{90}^o}}\\Rightarrow T=\\frac{W}{\\sin{\\theta}}=\\frac{10000}{\\frac{4\\sqrt{10}}{13}}=10277.42\\ lb-wtsin(\\\\pi −\\\\theta )W=sin90oT\\theta W=1341010000=10277.42 lb−wt [এখানে, sin⁡\\\\theta =132−3213=41013\\sin{\\theta}=\\frac{\\sqrt{{13}^2-3^2}}{13}=\\frac{4\\sqrt{10}}{13}sin\\\\theta =13132−32=13410"
   },
   {
     "id": 39,
@@ -769,7 +769,7 @@
       "d": "120°"
     },
     "correctAnswer": "a",
-    "explanation": "R2=3p2⇒R=3p(3p)2=p2+p2+2p2cos⁡θ.⇒3p2−2p2=2p2cos⁡θ.⇒cos⁡θ=1/2⇒θ=60∘ \\begin{array}{l}R^{2}=3 p^{2} \\Rightarrow R=\\sqrt{3} p \\\\ (\\sqrt{3} p)^{2}=p^{2}+p^{2}+2 p^{2} \\cos \\theta . \\\\ \\Rightarrow 3 p^{2}-2 p^{2}=2 p^{2} \\cos \\theta . \\\\ \\Rightarrow \\cos \\theta=1 / 2 \\\\ \\Rightarrow \\theta=60^{\\circ}\\end{array} R2=3p2⇒R=3p(3p)2=p2+p2+2p2cosθ.⇒3p2−2p2=2p2cosθ.⇒cosθ=1/2⇒θ=60∘",
+    "explanation": "\\begin{array}{l}R^{2}=3 p^{2} \\Rightarrow R=\\sqrt{3} p \\\\ (\\sqrt{3} p)^{2}=p^{2}+p^{2}+2 p^{2} \\cos \\theta . \\\\ \\Rightarrow 3 p^{2}-2 p^{2}=2 p^{2} \\cos \\theta . \\\\ \\Rightarrow \\cos \\theta=1 / 2 \\\\ \\Rightarrow \\theta=60^{\\circ}\\end{array} R2=3p2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -777,7 +777,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একবিন্দুতে পরস্পর \\\\theta  কোণে ক্রিয়াশীল P,P দুটি সমান বলের লব্ধি R. যদি R2=3P2 হয় তবে \\\\theta  এর মান কতো?$",
-    "explanationLatex": "$R2=3p2⇒R=3p(3p)2=p2+p2+2p2cos⁡\\\\theta .⇒3p2−2p2=2p2cos⁡\\\\theta .⇒cos⁡\\\\theta =\\frac{1}{2}⇒\\\\theta =60∘ \\begin{array}{l}R^{2}=3 p^{2} \\Rightarrow R=\\sqrt{3} p \\\\ (\\sqrt{3} p)^{2}=p^{2}+p^{2}+2 p^{2} \\cos \\theta . \\\\ \\Rightarrow 3 p^{2}-2 p^{2}=2 p^{2} \\cos \\theta . \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\Rightarrow \\theta=60^{\\circ}\\end{array} R2=3p2⇒R=3p(3p)2=p2+p2+2p2cos\\\\theta .⇒3p2−2p2=2p2cos\\\\theta .⇒cos\\\\theta =\\frac{1}{2}⇒\\\\theta =60∘$"
+    "explanationLatex": "\\theta .\\theta .\\theta =\\frac{1}{2}⇒\\\\theta =60∘ \\begin{array}{l}R^{2}=3 p^{2} \\Rightarrow R=\\sqrt{3} p \\\\ (\\sqrt{3} p)^{2}=p^{2}+p^{2}+2 p^{2} \\cos \\theta . \\\\ \\Rightarrow 3 p^{2}-2 p^{2}=2 p^{2} \\cos \\theta . \\\\ \\Rightarrow \\cos \\theta=\\frac{1}{2} \\\\ \\Rightarrow \\theta=60^{\\circ}\\end{array} R2=3p2\\theta .\\theta .\\theta =\\frac{1}{2}⇒\\\\theta =60∘"
   },
   {
     "id": 40,
@@ -789,7 +789,7 @@
       "d": "1m"
     },
     "correctAnswer": "a",
-    "explanation": "P⋅AC=Q⋅BC⇒ACBC=QP=1015⇒AC:BC=2:3⇒AC:AC+BC=2:2+3⇒AC:5=2:5∴AC=2 m \\begin{array}{l} \\mathrm{P} \\cdot \\mathrm{AC}=\\mathrm{Q} \\cdot \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{\\mathrm{Q}}{\\mathrm{P}}=\\frac{10}{15} \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{BC}=2: 3 \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{AC}+\\mathrm{BC}=2: 2+3 \\\\ \\Rightarrow \\mathrm{AC}: 5=2: 5 \\\\ \\therefore \\mathrm{AC}=2 \\mathrm{~m} \\\\ \\end{array} P⋅AC=Q⋅BC⇒BCAC=PQ=1510⇒AC:BC=2:3⇒AC:AC+BC=2:2+3⇒AC:5=2:5∴AC=2 m",
+    "explanation": "\\begin{array}{l} \\mathrm{P} \\cdot \\mathrm{AC}=\\mathrm{Q} \\cdot \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{\\mathrm{Q}}{\\mathrm{P}}=\\frac{10}{15} \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{BC}=2: 3 \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{AC}+\\mathrm{BC}=2: 2+3 \\\\ \\Rightarrow \\mathrm{AC}: 5=2: 5 \\\\ \\therefore \\mathrm{AC}=2 \\mathrm{~m} \\\\ \\end{array} P⋅AC=Q⋅BC",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -797,7 +797,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "15 N এবং 10 N দুইটি সদৃশ সমান্তরাল বল 5 m লম্বা একটি হালকা রঙের দুই প্রান্তে কার্যকর হলে বৃহত্তম বল থেকে লব্ধি কত দূরে ক্রিয়া করবে?",
-    "explanationLatex": "$P⋅AC=Q⋅BC⇒ACBC=QP=1015⇒AC:BC=2:3⇒AC:AC+BC=2:2+3⇒AC:5=2:5∴AC=2 m \\begin{array}{l} \\mathrm{P} \\cdot \\mathrm{AC}=\\mathrm{Q} \\cdot \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{\\mathrm{Q}}{\\mathrm{P}}=\\frac{10}{15} \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{BC}=2: 3 \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{AC}+\\mathrm{BC}=2: 2+3 \\\\ \\Rightarrow \\mathrm{AC}: 5=2: 5 \\\\ \\therefore \\mathrm{AC}=2 \\mathrm{~m} \\\\ \\end{array} P⋅AC=Q⋅BC⇒BCAC=PQ=1510⇒AC:BC=2:3⇒AC:AC+BC=2:2+3⇒AC:5=2:5∴AC=2 m$"
+    "explanationLatex": "\\begin{array}{l} \\mathrm{P} \\cdot \\mathrm{AC}=\\mathrm{Q} \\cdot \\mathrm{BC} \\\\ \\Rightarrow \\frac{\\mathrm{AC}}{\\mathrm{BC}}=\\frac{\\mathrm{Q}}{\\mathrm{P}}=\\frac{10}{15} \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{BC}=2: 3 \\\\ \\Rightarrow \\mathrm{AC}: \\mathrm{AC}+\\mathrm{BC}=2: 2+3 \\\\ \\Rightarrow \\mathrm{AC}: 5=2: 5 \\\\ \\therefore \\mathrm{AC}=2 \\mathrm{~m} \\\\ \\end{array} P⋅AC=Q⋅BC"
   },
   {
     "id": 41,
@@ -809,7 +809,7 @@
       "d": "sin ⁡ − 1 𝑝 2 𝑞 sin −1 2q p"
     },
     "correctAnswer": "a",
-    "explanation": "P বরাবর R এর লম্বাংশ Pcos⁡0∘+Qcos⁡α=Q P \\cos 0^{\\circ}+Q \\cos \\alpha=Q Pcos0∘+Qcosα=Q ⇒Q(1−cos⁡θ)=P⇒2sin⁡2α2=PQ⇒α2=sin⁡−1P2Q⇒α=2sin⁡−1P2Q \\begin{array}{l}\\Rightarrow Q(1-\\cos \\theta)=P \\\\ \\Rightarrow 2 \\sin ^{2} \\frac{\\alpha}{2}=\\frac{P}{Q} \\\\ \\Rightarrow \\frac{\\alpha}{2}=\\sin ^{-1} \\sqrt{\\frac{P}{2 Q}} \\\\ \\Rightarrow \\alpha=2 \\sin ^{-1} \\sqrt{\\frac{P}{2 Q}}\\end{array} ⇒Q(1−cosθ)=P⇒2sin22α=QP⇒2α=sin−12QP⇒α=2sin−12QP",
+    "explanation": "P বরাবর R এর লম্বাংশ Pcos\\cos 0^{\\circ}+Q \\cos \\alpha=Q Pcos0∘+Qcosα=Q \\begin{array}{l}\\Rightarrow Q(1-\\cos \\theta)=P \\\\ \\Rightarrow 2 \\sin ^{2} \\frac{\\alpha}{2}=\\frac{P}{Q} \\\\ \\Rightarrow \\frac{\\alpha}{2}=\\sin ^{-1} \\sqrt{\\frac{P}{2 Q}} \\\\ \\Rightarrow \\alpha=2 \\sin ^{-1} \\sqrt{\\frac{P}{2 Q}}\\end{array}",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243705/gst-question-images/Math_______________-Varsity-arc_q41.png",
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন বিন্দুতে ক্রিয়ারত P ও Q বলদ্বয়ের লব্ধি R এবং P এর দিক বরাবর R এর লম্বাংশ Q হলে বলদ্বয়ের অন্তর্গত কোণ কত?",
-    "explanationLatex": "$P বরাবর R এর লম্বাংশ Pcos⁡0∘+Qcos⁡α=Q P \\cos 0^{\\circ}+Q \\cos \\alpha=Q Pcos0∘+Qcosα=Q ⇒Q(1−cos⁡\\\\theta )=P⇒2sin⁡2α2=PQ⇒α2=sin⁡−1P2Q⇒α=2sin⁡−1P2Q \\begin{array}{l}\\Rightarrow Q(1-\\cos \\theta)=P \\\\ \\Rightarrow 2 \\sin ^{2} \\frac{\\alpha}{2}=\\frac{P}{Q} \\\\ \\Rightarrow \\frac{\\alpha}{2}=\\sin ^{-1} \\sqrt{\\frac{P}{2 Q}} \\\\ \\Rightarrow \\alpha=2 \\sin ^{-1} \\sqrt{\\frac{P}{2 Q}}\\end{array} ⇒Q(1−cos\\\\theta )=P⇒2sin22α=QP⇒2α=sin−12QP⇒α=2sin−12QP$"
+    "explanationLatex": "P বরাবর R এর লম্বাংশ Pcos\\cos 0^{\\circ}+Q \\cos \\alpha=Q Pcos0∘+Qcosα=Q \\theta )=P\\begin{array}{l}\\Rightarrow Q(1-\\cos \\theta)=P \\\\ \\Rightarrow 2 \\sin ^{2} \\frac{\\alpha}{2}=\\frac{P}{Q} \\\\ \\Rightarrow \\frac{\\alpha}{2}=\\sin ^{-1} \\sqrt{\\frac{P}{2 Q}} \\\\ \\Rightarrow \\alpha=2 \\sin ^{-1} \\sqrt{\\frac{P}{2 Q}}\\end{array} \\theta )=P"
   },
   {
     "id": 42,
@@ -829,7 +829,7 @@
       "d": "কোনোটি নয়"
     },
     "correctAnswer": "b",
-    "explanation": "শেষোক্ত বল দুইটির সমষ্টি 48 গ্রাম ওজন হলে প্রথম বলটির মান ___ ধরি, বলগুলো L, M, N. প্রশ্নমতে, M+N=48 M+N=48 M+N=48 গ্রাম সুস্থিত সৃষ্টিকারী সমবিন্দু L,M,N মানের বল তিনটি এদের ত্রিয়ারেখার সমান্তরাল ABC ত্রিভুজের BC, CA, AB বাহু ত্রয়ের দৈর্ঘ্যের সমানুপাতিক হবে।∴1BC=MCA=NAB⇒L4=M5=N7⇒14=M5=N7=M+N5+7=4812=4∴L=4×4=16 গ্রাম ওজন \\begin{array}{l} \\therefore \\frac{1}{B C}=\\frac{M}{C A}=\\frac{N}{A B} \\Rightarrow \\frac{L}{4}=\\frac{M}{5}=\\frac{N}{7} \\\\ \\Rightarrow \\frac{1}{4} = \\frac{M}{5}=\\frac{N}{7}=\\frac{M+N}{5+7}=\\frac{48}{12}=4 \\\\ \\therefore L=4 \\times 4=16 \\text { গ্রাম ওজন } \\end{array} ∴BC1=CAM=ABN⇒4L=5M=7N⇒41=5M=7N=5+7M+N=1248=4∴L=4×4=16 গ্রাম ওজন",
+    "explanation": "শেষোক্ত বল দুইটির সমষ্টি 48 গ্রাম ওজন হলে প্রথম বলটির মান ___ ধরি, বলগুলো প্রশ্নমতে, গ্রাম সুস্থিত সৃষ্টিকারী সমবিন্দু মানের বল তিনটি এদের ত্রিয়ারেখার সমান্তরাল ABC ত্রিভুজের বাহু ত্রয়ের দৈর্ঘ্যের সমানুপাতিক হবে।গ্রাম ওজন \\begin{array}{l} \\therefore \\frac{1}{B C}=\\frac{M}{C A}=\\frac{N}{A B} \\Rightarrow \\frac{L}{4}=\\frac{M}{5}=\\frac{N}{7} \\\\ \\Rightarrow \\frac{1}{4} = \\frac{M}{5}=\\frac{N}{7}=\\frac{M+N}{5+7}=\\frac{48}{12}=4 \\\\ \\therefore L=4 \\times 4=16 \\text { গ্রাম ওজন } \\end{array} গ্রাম ওজন",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -837,7 +837,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সুস্থিত সমবিন্দু ৩টি বলের ক্রিয়ারেখা ত্রিভুজ ABC এর BC,CA,AB বাহুর সমান্তরাল। বাহু তিনটির দৈর্ঘ্য যথাক্রমে 4,5,7 cm.",
-    "explanationLatex": "$শেষোক্ত বল দুইটির সমষ্টি 48 গ্রাম ওজন হলে প্রথম বলটির মান ___ ধরি, বলগুলো L, M, N. প্রশ্নমতে, M+N=48 M+N=48 M+N=48 গ্রাম সুস্থিত সৃষ্টিকারী সমবিন্দু L,M,N মানের বল তিনটি এদের ত্রিয়ারেখার সমান্তরাল ABC ত্রিভুজের BC, CA, AB বাহু ত্রয়ের দৈর্ঘ্যের সমানুপাতিক হবে।∴1BC=MCA=NAB⇒L4=M5=N7⇒14=M5=N7=M+N5+7=4812=4∴L=4\\\\times 4=16 গ্রাম ওজন \\begin{array}{l} \\therefore \\frac{1}{B C}=\\frac{M}{C A}=\\frac{N}{A B} \\Rightarrow \\frac{L}{4}=\\frac{M}{5}=\\frac{N}{7} \\\\ \\Rightarrow \\frac{1}{4} = \\frac{M}{5}=\\frac{N}{7}=\\frac{M+N}{5+7}=\\frac{48}{12}=4 \\\\ \\therefore L=4 \\times 4=16 \\text { গ্রাম ওজন } \\end{array} ∴BC1=CAM=ABN⇒4L=5M=7N⇒41=5M=7N=5+7M+N=1248=4∴L=4\\\\times 4=16 গ্রাম ওজন$"
+    "explanationLatex": "শেষোক্ত বল দুইটির সমষ্টি 48 গ্রাম ওজন হলে প্রথম বলটির মান ___ ধরি, বলগুলো প্রশ্নমতে, গ্রাম সুস্থিত সৃষ্টিকারী সমবিন্দু মানের বল তিনটি এদের ত্রিয়ারেখার সমান্তরাল ABC ত্রিভুজের বাহু ত্রয়ের দৈর্ঘ্যের সমানুপাতিক হবে।\\times 4=16 গ্রাম ওজন \\begin{array}{l} \\therefore \\frac{1}{B C}=\\frac{M}{C A}=\\frac{N}{A B} \\Rightarrow \\frac{L}{4}=\\frac{M}{5}=\\frac{N}{7} \\\\ \\Rightarrow \\frac{1}{4} = \\frac{M}{5}=\\frac{N}{7}=\\frac{M+N}{5+7}=\\frac{48}{12}=4 \\\\ \\therefore L=4 \\times 4=16 \\text { গ্রাম ওজন } \\end{array} \\times 4=16 গ্রাম ওজন"
   },
   {
     "id": 43,
@@ -849,7 +849,7 @@
       "d": "30 ° 30°"
     },
     "correctAnswer": "b",
-    "explanation": "132=72+82+2.7⋅8cos⁡α⇒169=49+64+112cos⁡α⇒169−113=112cos⁡α⇒cos⁡α=56112=12⇒α=cos⁡−1(1/2)⇒α=60∘ (Ans.) \\begin{array}{l}13^{2}=7^{2}+8^{2}+2.7 \\cdot 8 \\cos \\alpha \\\\ \\Rightarrow 169=49+64+112 \\cos \\alpha \\\\ \\Rightarrow 169-113=112 \\cos \\alpha \\\\ \\Rightarrow \\cos \\alpha=\\frac{56}{112}=\\frac{1}{2} \\\\ \\Rightarrow \\alpha=\\cos ^{-1}(1 / 2) \\\\ \\Rightarrow \\alpha=60^{\\circ} \\text { (Ans.) }\\end{array} 132=72+82+2.7⋅8cosα⇒169=49+64+112cosα⇒169−113=112cosα⇒cosα=11256=21⇒α=cos−1(1/2)⇒α=60∘ (Ans.)",
+    "explanation": "\\begin{array}{l}13^{2}=7^{2}+8^{2}+2.7 \\cdot 8 \\cos \\alpha \\\\ \\Rightarrow 169=49+64+112 \\cos \\alpha \\\\ \\Rightarrow 169-113=112 \\cos \\alpha \\\\ \\Rightarrow \\cos \\alpha=\\frac{56}{112}=\\frac{1}{2} \\\\ \\Rightarrow \\alpha=\\cos ^{-1}(1 / 2) \\\\ \\Rightarrow \\alpha=60^{\\circ} \\text { (Ans.) }\\end{array} 132=72+82+2.7⋅8cosα",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243706/gst-question-images/Math_______________-Varsity-arc_q43.png",
@@ -857,7 +857,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "7 ও 8 কিলোগ্রাম ওজনের দুইটি বলের লব্ধি 13 কিলোগ্রাম হলে বলদ্বয় পরস্পর কত কোণে ক্রিয়া করবে?",
-    "explanationLatex": "$132=72+82+2.7⋅8cos⁡α⇒169=49+64+112cos⁡α⇒169−113=112cos⁡α⇒cos⁡α=56112=12⇒α=cos⁡−1(\\frac{1}{2})⇒α=60∘ (Ans.) \\begin{array}{l}13^{2}=7^{2}+8^{2}+2.7 \\cdot 8 \\cos \\alpha \\\\ \\Rightarrow 169=49+64+112 \\cos \\alpha \\\\ \\Rightarrow 169-113=112 \\cos \\alpha \\\\ \\Rightarrow \\cos \\alpha=\\frac{56}{112}=\\frac{1}{2} \\\\ \\Rightarrow \\alpha=\\cos ^{-1}(\\frac{1}{2}) \\\\ \\Rightarrow \\alpha=60^{\\circ} \\text { (Ans.) }\\end{array} 132=72+82+2.7⋅8cosα⇒169=49+64+112cosα⇒169−113=112cosα⇒cosα=11256=21⇒α=cos−1(\\frac{1}{2})⇒α=60∘ (Ans.)$"
+    "explanationLatex": "\\frac{1}{2})\\begin{array}{l}13^{2}=7^{2}+8^{2}+2.7 \\cdot 8 \\cos \\alpha \\\\ \\Rightarrow 169=49+64+112 \\cos \\alpha \\\\ \\Rightarrow 169-113=112 \\cos \\alpha \\\\ \\Rightarrow \\cos \\alpha=\\frac{56}{112}=\\frac{1}{2} \\\\ \\Rightarrow \\alpha=\\cos ^{-1}(\\frac{1}{2}) \\\\ \\Rightarrow \\alpha=60^{\\circ} \\text { (Ans.) }\\end{array} 132=72+82+2.7⋅8cosα\\frac{1}{2})"
   },
   {
     "id": 44,
@@ -889,7 +889,7 @@
       "d": "8N"
     },
     "correctAnswer": "a",
-    "explanation": "tan⁡90=psin⁡α3+pcos⁡α⇒10=psin⁡α3+pcos⁡α⇒3+pcos⁡α=0⇒pcos⁡α=−342=p2+32+2⋅3⋅pcos⁡α⇒42=p2+32+2⋅3⋅(−3)⇒16−9+18=p2⇒p2=25⇒p=5 \\begin{array}{l}\\tan 90=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow \\frac{1}{0}=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow 3+p \\cos \\alpha=0 \\\\ \\Rightarrow p \\cos \\alpha=-3 \\\\ 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot p \\cos \\alpha \\\\ \\Rightarrow 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot(-3) \\\\ \\Rightarrow 16-9+18=p^{2} \\\\ \\Rightarrow p^{2}=25 \\Rightarrow p=5\\end{array} tan90=3+pcosαpsinα⇒01=3+pcosαpsinα⇒3+pcosα=0⇒pcosα=−342=p2+32+2⋅3⋅pcosα⇒42=p2+32+2⋅3⋅(−3)⇒16−9+18=p2⇒p2=25⇒p=5",
+    "explanation": "tan\\begin{array}{l}\\tan 90=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow \\frac{1}{0}=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow 3+p \\cos \\alpha=0 \\\\ \\Rightarrow p \\cos \\alpha=-3 \\\\ 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot p \\cos \\alpha \\\\ \\Rightarrow 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot(-3) \\\\ \\Rightarrow 16-9+18=p^{2} \\\\ \\Rightarrow p^{2}=25 \\Rightarrow p=5\\end{array} tan90=3+pcosαpsinα",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243707/gst-question-images/Math_______________-Varsity-arc_q45.png",
@@ -897,7 +897,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দুইটি বলের লব্ধির মান 4N যা ছোট বলটির ওপর লম্ব বরাবর ক্রিয়া করে। ছোট বলটি 3N হলে বড় বলটি কত?",
-    "explanationLatex": "$tan⁡90=psin⁡α3+pcos⁡α⇒10=psin⁡α3+pcos⁡α⇒3+pcos⁡α=0⇒pcos⁡α=−342=p2+32+2⋅3⋅pcos⁡α⇒42=p2+32+2⋅3⋅(−3)⇒16−9+18=p2⇒p2=25⇒p=5 \\begin{array}{l}\\tan 90=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow \\frac{1}{0}=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow 3+p \\cos \\alpha=0 \\\\ \\Rightarrow p \\cos \\alpha=-3 \\\\ 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot p \\cos \\alpha \\\\ \\Rightarrow 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot(-3) \\\\ \\Rightarrow 16-9+18=p^{2} \\\\ \\Rightarrow p^{2}=25 \\Rightarrow p=5\\end{array} tan90=3+pcosαpsinα⇒01=3+pcosαpsinα⇒3+pcosα=0⇒pcosα=−342=p2+32+2⋅3⋅pcosα⇒42=p2+32+2⋅3⋅(−3)⇒16−9+18=p2⇒p2=25⇒p=5$"
+    "explanationLatex": "tan\\begin{array}{l}\\tan 90=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow \\frac{1}{0}=\\frac{p \\sin \\alpha}{3+p \\cos \\alpha} \\\\ \\Rightarrow 3+p \\cos \\alpha=0 \\\\ \\Rightarrow p \\cos \\alpha=-3 \\\\ 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot p \\cos \\alpha \\\\ \\Rightarrow 4^{2}=p^{2}+3^{2}+2 \\cdot 3 \\cdot(-3) \\\\ \\Rightarrow 16-9+18=p^{2} \\\\ \\Rightarrow p^{2}=25 \\Rightarrow p=5\\end{array} tan90=3+pcosαpsinα"
   },
   {
     "id": 46,
@@ -909,7 +909,7 @@
       "d": "5F"
     },
     "correctAnswer": "a",
-    "explanation": "বলের ভ্রামক =Ft=F×0=0 =\\mathrm{Ft}=\\mathrm{F} \\times 0=0 =Ft=F×0=0, কেননা বিন্দু বলের মধ্যবর্তী দূরত্ব r=0 r=0 r=0",
+    "explanation": "বলের ভ্রামক =Ft=F\\mathrm{Ft}=\\mathrm{F} \\times 0=0 =Ft=Fকেননা বিন্দু বলের মধ্যবর্তী দূরত্ব",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -929,7 +929,7 @@
       "d": "90°"
     },
     "correctAnswer": "c",
-    "explanation": "ধরি, লব্ধি R। লব্ধি R. P এর ক্রিয়ারেখার উপর লম্ব। P+2Pcos⁡α=0⇒cos⁡α=−12=cos⁡120∘⇒α=120∘ \\begin{aligned} & P+2 P \\cos \\alpha =0 \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned} ⇒⇒P+2Pcosα=0cosα=−21=cos120∘α=120∘ ∴ বলদ্বয়ের মধ্যবর্তী কোন 120°।",
+    "explanation": "ধরি, লব্ধি R। লব্ধি R. P এর ক্রিয়ারেখার উপর লম্ব। \\begin{aligned} & P+2 P \\cos \\alpha =0 \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned} বলদ্বয়ের মধ্যবর্তী কোন 120°।",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243708/gst-question-images/Math_______________-Varsity-arc_q47.png",
@@ -937,7 +937,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন বিন্দুতে ɑ কোণে ক্রিয়ারত p ও 2p বলদ্বয়ের লব্ধি p বলের উপর লম্ব হলে ɑ এর মান -",
-    "explanationLatex": "$ধরি, লব্ধি R। লব্ধি R. P এর ক্রিয়ারেখার উপর লম্ব। P+2Pcos⁡α=0⇒cos⁡α=−12=cos⁡120∘⇒α=120∘ \\begin{aligned} & P+2 P \\cos \\alpha =0 \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned} ⇒⇒P+2Pcosα=0cosα=−21=cos120∘α=120∘ ∴ বলদ্বয়ের মধ্যবর্তী কোন 120^{\\\\circ}।$"
+    "explanationLatex": "ধরি, লব্ধি R। লব্ধি R. P এর ক্রিয়ারেখার উপর লম্ব। \\begin{aligned} & P+2 P \\cos \\alpha =0 \\\\ \\Rightarrow & \\cos \\alpha=-\\frac{1}{2}=\\cos 120^{\\circ} \\\\ \\Rightarrow & \\alpha=120^{\\circ}\\end{aligned} বলদ্বয়ের মধ্যবর্তী কোন \\circ}।"
   },
   {
     "id": 48,
@@ -969,7 +969,7 @@
       "d": "5"
     },
     "correctAnswer": "a",
-    "explanation": "F2F=4F4F+8⇒12=4F4F+8⇒8F=4F+8∴F=2\\frac{F}{2F}=\\frac{4F}{4F+8} \\\\ \\Rightarrow\\frac{1}{2}=\\frac{4F}{4F+8} \\\\ \\Rightarrow8F=4F+8 \\\\\\therefore F=22FF=4F+84F⇒21=4F+84F⇒8F=4F+8∴F=2",
+    "explanation": "\\frac{F}{2F}=\\frac{4F}{4F+8} \\\\ \\Rightarrow\\frac{1}{2}=\\frac{4F}{4F+8} \\\\ \\Rightarrow8F=4F+8 \\\\\\therefore F=22FF=4F+84F",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -977,7 +977,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "F ও 4F দুটি বল একই বিন্দুতে ক্রিয়া করছে৷ যদি বল দুটি যথাক্রমে 2F ও 4F+8 দ্বারা পরিবর্তন করা হয় তবে লব্ধির দিক একই থাকে। F এর মান কতো?",
-    "explanationLatex": "$F2F=4F4F+8⇒12=4F4F+8⇒8F=4F+8∴F=2\\frac{F}{2F}=\\frac{4F}{4F+8} \\\\ \\Rightarrow\\frac{1}{2}=\\frac{4F}{4F+8} \\\\ \\Rightarrow8F=4F+8 \\\\\\therefore F=22FF=4F+84F⇒21=4F+84F⇒8F=4F+8∴F=2$"
+    "explanationLatex": "\\frac{F}{2F}=\\frac{4F}{4F+8} \\\\ \\Rightarrow\\frac{1}{2}=\\frac{4F}{4F+8} \\\\ \\Rightarrow8F=4F+8 \\\\\\therefore F=22FF=4F+84F"
   },
   {
     "id": 50,
@@ -989,7 +989,7 @@
       "d": "কোনোটিই নয়"
     },
     "correctAnswer": "c",
-    "explanation": "cos⁡(180∘−α)=1 2+2 2−(3) 22⋅2⋅1=29=cos⁡60∘. \\begin{aligned} \\cos \\left(180^{\\circ}-\\alpha\\right) & =\\frac{1^{\\ 2}+2^{\\ 2 }-(\\sqrt{3})^{\\ 2 }}{2 \\cdot 2 \\cdot 1} \\\\ & =\\frac{2}{9}=\\cos 60^{\\circ} .\\end{aligned} cos(180∘−α)=2⋅2⋅11 2+2 2−(3) 2=92=cos60∘. ∴180∘−α=60∘⇒α=120∘. \\begin{array}{l}\\therefore 180^{\\circ}-\\alpha=60^{\\circ} \\\\ \\Rightarrow \\alpha=120^{\\circ} .\\end{array} ∴180∘−α=60∘⇒α=120∘.",
+    "explanation": "cos\\begin{aligned} \\cos \\left(180^{\\circ}-\\alpha\\right) & =\\frac{1^{\\ 2}+2^{\\ 2 }-(\\sqrt{3})^{\\ 2 }}{2 \\cdot 2 \\cdot 1} \\\\ & =\\frac{2}{9}=\\cos 60^{\\circ} .\\end{aligned} cos(180∘−α)=2⋅2⋅11 2+2 2−(3) 2=92=cos60∘. \\begin{array}{l}\\therefore 180^{\\circ}-\\alpha=60^{\\circ} \\\\ \\Rightarrow \\alpha=120^{\\circ} .\\end{array}",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -997,6 +997,6 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$সমতলীয় 1,2, 3 \\sqrt{3} 3 নিউটন বল ৩টি এক বিন্দুতে ক্রিয়া করে সাম্যাবস্থার সৃষ্টি করে। প্রথম ২টি বলের অন্তর্ভুক্ত কোণ কতো?$",
-    "explanationLatex": "$cos⁡(180∘−α)=1 2+2 2−(3) 22⋅2⋅1=29=cos⁡60∘. \\begin{aligned} \\cos \\left(180^{\\circ}-\\alpha\\right) & =\\frac{1^{\\ 2}+2^{\\ 2 }-(\\sqrt{3})^{\\ 2 }}{2 \\cdot 2 \\cdot 1} \\\\ & =\\frac{2}{9}=\\cos 60^{\\circ} .\\end{aligned} cos(180∘−α)=2⋅2⋅11 2+2 2−(3) 2=92=cos60∘. ∴180∘−α=60∘⇒α=120∘. \\begin{array}{l}\\therefore 180^{\\circ}-\\alpha=60^{\\circ} \\\\ \\Rightarrow \\alpha=120^{\\circ} .\\end{array} ∴180∘−α=60∘⇒α=120∘.$"
+    "explanationLatex": "cos\\begin{aligned} \\cos \\left(180^{\\circ}-\\alpha\\right) & =\\frac{1^{\\ 2}+2^{\\ 2 }-(\\sqrt{3})^{\\ 2 }}{2 \\cdot 2 \\cdot 1} \\\\ & =\\frac{2}{9}=\\cos 60^{\\circ} .\\end{aligned} cos(180∘−α)=2⋅2⋅11 2+2 2−(3) 2=92=cos60∘. \\begin{array}{l}\\therefore 180^{\\circ}-\\alpha=60^{\\circ} \\\\ \\Rightarrow \\alpha=120^{\\circ} .\\end{array}"
   }
 ]

@@ -49,7 +49,7 @@
       "d": "পর্যায় - 7, গ্রুপ - 13"
     },
     "correctAnswer": "c",
-    "explanation": "কোনো মৌলের ইলেকট্রন বিন্যাসে প্রধান শক্তিস্তরে শুধু S ও P অরবিটাল থাকে, তবে ঐ S ও P অরবিটালের মোট ইলেকট্রন সংখ্যার সাথে 10 যোগ করলে ঐ মৌলের গ্রুপ সংখ্যা বের হয়। এখানে, Pb→[Xe]4f145d106s26p2 P b \\rightarrow[X e] 4 f^{14} 5 d^{10} 6 s^{2} 6 p^{2} Pb→[Xe]4f145d106s26p2 সর্ববহিস্থ প্রধান শক্তিস্থর =6। অর্থাৎ Pb এর পর্যায় সংখ্যা 6 এবং ইলেকট্রন S ও P অরবিটালে হওয়ায়, (2+2)+10=14. অর্থাৎ গ্রুপ সংখ্যা = 14 সুতরাং, পর্যায় = 6, গ্রুপ = 14.",
+    "explanation": "কোনো মৌলের ইলেকট্রন বিন্যাসে প্রধান শক্তিস্তরে শুধু S ও P অরবিটাল থাকে, তবে ঐ S ও P অরবিটালের মোট ইলেকট্রন সংখ্যার সাথে 10 যোগ করলে ঐ মৌলের গ্রুপ সংখ্যা বের হয়। এখানে, Pb\\rightarrow[X e] 4 f^{14} 5 d^{10} 6 s^{2} 6 p^{2} Pbসর্ববহিস্থ প্রধান শক্তিস্থর =6। অর্থাৎ Pb এর পর্যায় সংখ্যা 6 এবং ইলেকট্রন S ও P অরবিটালে হওয়ায়, (অর্থাৎ গ্রুপ সংখ্যা = 14 সুতরাং, পর্যায় = 6, গ্রুপ = 14.",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -57,7 +57,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "পর্যায় সারণীতে Pb মোলটির পর্যায় ও গ্রুপ কত ?",
-    "explanationLatex": "$কোনো মৌলের ইলেকট্রন বিন্যাসে প্রধান শক্তিস্তরে শুধু S ও P অরবিটাল থাকে, তবে ঐ S ও P অরবিটালের মোট ইলেকট্রন সংখ্যার সাথে 10 যোগ করলে ঐ মৌলের গ্রুপ সংখ্যা বের হয়। এখানে, Pb→[Xe]4f145d106s26p2 P b \\rightarrow[X e] 4 f^{14} 5 d^{10} 6 s^{2} 6 p^{2} Pb→[Xe]4f145d106s26p2 সর্ববহিস্থ প্রধান শক্তিস্থর =6। অর্থাৎ Pb এর পর্যায় সংখ্যা 6 এবং ইলেকট্রন S ও P অরবিটালে হওয়ায়, (2+2)+10=14. অর্থাৎ গ্রুপ সংখ্যা = 14 সুতরাং, পর্যায় = 6, গ্রুপ = 14.$"
+    "explanationLatex": "কোনো মৌলের ইলেকট্রন বিন্যাসে প্রধান শক্তিস্তরে শুধু S ও P অরবিটাল থাকে, তবে ঐ S ও P অরবিটালের মোট ইলেকট্রন সংখ্যার সাথে 10 যোগ করলে ঐ মৌলের গ্রুপ সংখ্যা বের হয়। এখানে, Pb\\rightarrow[X e] 4 f^{14} 5 d^{10} 6 s^{2} 6 p^{2} Pbসর্ববহিস্থ প্রধান শক্তিস্থর =6। অর্থাৎ Pb এর পর্যায় সংখ্যা 6 এবং ইলেকট্রন S ও P অরবিটালে হওয়ায়, (অর্থাৎ গ্রুপ সংখ্যা = 14 সুতরাং, পর্যায় = 6, গ্রুপ = 14."
   },
   {
     "id": 4,
@@ -109,7 +109,7 @@
       "d": "[Ar]3d104s2"
     },
     "correctAnswer": "d",
-    "explanation": "Zn(30)→[Ar]3d104s2 Z{n}(30) \\rightarrow\\left[A{r}\\right] 3 d^{10} 4 s^{2} Zn(30)→[Ar]3d104s2 Zn এর পারমাণবিক সংখ্যা ৩০। এটি ৪র্থ পর্যায় এবং গ্রুপ ১২ তে অবস্থান করে। এটি d ব্লক মৌল হলেও অবস্থান্তর মৌল নয়।",
+    "explanation": "\\rightarrow\\left[A{r}\\right] 3 d^{10} 4 s^{2} Zn(30)এর পারমাণবিক সংখ্যা ৩০। এটি ৪র্থ পর্যায় এবং গ্রুপ ১২ তে অবস্থান করে। এটি d ব্লক মৌল হলেও অবস্থান্তর মৌল নয়।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -117,7 +117,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিচের কোনটি Zn এর ইলেক্ট্রন বিন্যাস?",
-    "explanationLatex": "$Zn(30)→[Ar]3d104s2 Z{n}(30) \\rightarrow\\left[A{r}\\right] 3 d^{10} 4 s^{2} Zn(30)→[Ar]3d104s2 Zn এর পারমাণবিক সংখ্যা ৩০। এটি ৪র্থ পর্যায় এবং গ্রুপ ১২ তে অবস্থান করে। এটি d ব্লক মৌল হলেও অবস্থান্তর মৌল নয়।$"
+    "explanationLatex": "\\rightarrow\\left[A{r}\\right] 3 d^{10} 4 s^{2} Zn(30)এর পারমাণবিক সংখ্যা ৩০। এটি ৪র্থ পর্যায় এবং গ্রুপ ১২ তে অবস্থান করে। এটি d ব্লক মৌল হলেও অবস্থান্তর মৌল নয়।"
   },
   {
     "id": 7,
@@ -229,7 +229,7 @@
       "d": "16"
     },
     "correctAnswer": "c",
-    "explanation": "মৌলের প্রোটন ও ভর সংখ্যা সমান বলে এটি H। aXa=1H1∴a=1;b=a+5=1+5=6;bYc=6C=1 s22 s22p2∴ { }_{\\mathrm{a}} \\mathrm{X}^{\\mathrm{a}}={ }_{1} \\mathrm{H}^{1} \\quad \\therefore \\mathrm{a}=1 ; \\mathrm{b}=\\mathrm{a}+5=1+5=6 ;{ }_{\\mathrm{b}} \\mathrm{Y}^{\\mathrm{c}}={ }_{6} \\mathrm{C}=1 \\mathrm{~s}^{2} 2 \\mathrm{~s}^{2} 2 \\mathrm{p}^{2} \\quad \\therefore aXa=1H1∴a=1;b=a+5=1+5=6;bYc=6C=1 s22 s22p2∴ =2+2+10=14 =2+2+10=14 =2+2+10=14",
+    "explanation": "মৌলের প্রোটন ও ভর সংখ্যা সমান বলে এটি \\mathrm{a}} \\mathrm{X}^{\\mathrm{a}}={ }_{1} \\mathrm{H}^{1} \\quad \\therefore \\mathrm{a}=1 ; \\mathrm{b}=\\mathrm{a}+5=1+5=6 ;{ }_{\\mathrm{b}} \\mathrm{Y}^{\\mathrm{c}}={ }_{6} \\mathrm{C}=1 \\mathrm{~s}^{2} 2 \\mathrm{~s}^{2} 2 \\mathrm{p}^{2} \\quad \\therefore aXa=1H1",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -237,7 +237,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$aXa ,bYc দুটি মৌলের মধ্যে b-a=5 হলে,Y মৌলটির শ্রেণী নির্ণয় কর।$",
-    "explanationLatex": "$মৌলের প্রোটন ও ভর সংখ্যা সমান বলে এটি H। aXa=1H1∴a=1;b=a+5=1+5=6;bYc=6C=1 s22 s22p2∴ { }_{\\mathrm{a}} \\mathrm{X}^{\\mathrm{a}}={ }_{1} \\mathrm{H}^{1} \\quad \\therefore \\mathrm{a}=1 ; \\mathrm{b}=\\mathrm{a}+5=1+5=6 ;{ }_{\\mathrm{b}} \\mathrm{Y}^{\\mathrm{c}}={ }_{6} \\mathrm{C}=1 \\mathrm{~s}^{2} 2 \\mathrm{~s}^{2} 2 \\mathrm{p}^{2} \\quad \\therefore aXa=1H1∴a=1;b=a+5=1+5=6;bYc=6C=1 s22 s22p2∴ =2+2+10=14 =2+2+10=14 =2+2+10=14$"
+    "explanationLatex": "মৌলের প্রোটন ও ভর সংখ্যা সমান বলে এটি \\mathrm{a}} \\mathrm{X}^{\\mathrm{a}}={ }_{1} \\mathrm{H}^{1} \\quad \\therefore \\mathrm{a}=1 ; \\mathrm{b}=\\mathrm{a}+5=1+5=6 ;{ }_{\\mathrm{b}} \\mathrm{Y}^{\\mathrm{c}}={ }_{6} \\mathrm{C}=1 \\mathrm{~s}^{2} 2 \\mathrm{~s}^{2} 2 \\mathrm{p}^{2} \\quad \\therefore aXa=1H1"
   },
   {
     "id": 13,
@@ -389,7 +389,7 @@
       "d": "[Ne]2s23p6"
     },
     "correctAnswer": "c",
-    "explanation": "Ar⁡(18):1s22s22p63s23p6=[Ne]3s23p6 \\begin{array}{c}\\operatorname{Ar}(18): 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{6} \\\\ =[N e] 3 s^{2} 3 p^{6}\\end{array} Ar(18):1s22s22p63s23p6=[Ne]3s23p6",
+    "explanation": "Ar\\begin{array}{c}\\operatorname{Ar}(18): 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{6} \\\\ =[N e] 3 s^{2} 3 p^{6}\\end{array} Ar(18):1s22s22p63s23p6=[Ne]3s23p6",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "আর্গনের ইলেকট্রন বিন্যাস কোনটি?",
-    "explanationLatex": "$Ar⁡(18):1s22s22p63s23p6=[Ne]3s23p6 \\begin{array}{c}\\operatorname{Ar}(18): 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{6} \\\\ =[N e] 3 s^{2} 3 p^{6}\\end{array} Ar(18):1s22s22p63s23p6=[Ne]3s23p6$"
+    "explanationLatex": "Ar\\begin{array}{c}\\operatorname{Ar}(18): 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{6} \\\\ =[N e] 3 s^{2} 3 p^{6}\\end{array} Ar(18):1s22s22p63s23p6=[Ne]3s23p6"
   },
   {
     "id": 21,
@@ -449,7 +449,7 @@
       "d": "None of above"
     },
     "correctAnswer": "c",
-    "explanation": "CoCoCo এর→[Ar]3d74s2; Co2+→[Ar]3d74s0\\to [Ar] 3d^74s^2;\\ Co^{2+}\\to [Ar] 3d^74s^0→[Ar]3d74s2; Co2+→[Ar]3d74s0",
+    "explanation": "এর\\to [Ar] 3d^74s^2;\\ Co^{2+}\\to [Ar] 3d^74s^0",
     "subject": "Chemistry",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244177/gst-question-images/________________________________________q23.jpg",
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$CoCoCo এবং Co2+Co^{2+}Co2+এর জন্য নিচের কোন যোজ্যতা ইলেকট্রন বিন্যাসটি সঠিক?$",
-    "explanationLatex": "$CoCoCo এর→[Ar]3d74s2; Co2+→[Ar]3d74s0\\to [Ar] 3d^74s^2;\\ Co^{2+}\\to [Ar] 3d^74s^0→[Ar]3d74s2; Co2+→[Ar]3d74s0$"
+    "explanationLatex": "এর\\to [Ar] 3d^74s^2;\\ Co^{2+}\\to [Ar] 3d^74s^0"
   },
   {
     "id": 24,
@@ -549,7 +549,7 @@
       "d": "40"
     },
     "correctAnswer": "c",
-    "explanation": "উক্ত মৌলের ইলেকট্রন বিন্যাস ∴ \\therefore ∴ ইলেকট্রন সংখ্যা =39 =39 =39 যেহেতু , ইলেকট্রন সংখ্যা = পারমাণবিক সং প্রশ্নটি একটি মৌলের ইলেকট্রন বিন্যাসের ভিত্তিতে সেই মৌলের পারমাণবিক সংখ্যা নির্ধারণ করতে বলছে। এখানে মৌলটির সর্ববহিঃস্থ শেলের ইলেকট্রন বিন্যাস দেয়া আছে 4d15s2। আংশিক ইলেকট্রন বিন্যাস: 4d15s1 পূর্ণ ইলেকট্রন বিন্যাস হবে: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1",
+    "explanation": "উক্ত মৌলের ইলেকট্রন বিন্যাস ∴ \\therefore ∴ ইলেকট্রন সংখ্যা =যেহেতু , ইলেকট্রন সংখ্যা = পারমাণবিক সং প্রশ্নটি একটি মৌলের ইলেকট্রন বিন্যাসের ভিত্তিতে সেই মৌলের পারমাণবিক সংখ্যা নির্ধারণ করতে বলছে। এখানে মৌলটির সর্ববহিঃস্থ শেলের ইলেকট্রন বিন্যাস দেয়া আছে আংশিক ইলেকট্রন বিন্যাস: পূর্ণ ইলেকট্রন বিন্যাস হবে:",
     "subject": "Chemistry",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244178/gst-question-images/________________________________________q28.png",
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি মৌলের সর্ববহিঃস্থ শেলের ইলেক্ট্রন বিন্যাস 4d15s2 । মৌলটির আনবিক সংখ্যা কত?",
-    "explanationLatex": "$উক্ত মৌলের ইলেকট্রন বিন্যাস ∴ \\therefore ∴ ইলেকট্রন সংখ্যা =39 =39 =39 যেহেতু , ইলেকট্রন সংখ্যা = পারমাণবিক সং প্রশ্নটি একটি মৌলের ইলেকট্রন বিন্যাসের ভিত্তিতে সেই মৌলের পারমাণবিক সংখ্যা নির্ধারণ করতে বলছে। এখানে মৌলটির সর্ববহিঃস্থ শেলের ইলেকট্রন বিন্যাস দেয়া আছে 4d15s2। আংশিক ইলেকট্রন বিন্যাস: 4d15s1 পূর্ণ ইলেকট্রন বিন্যাস হবে: 1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1$"
+    "explanationLatex": "উক্ত মৌলের ইলেকট্রন বিন্যাস ∴ \\therefore ∴ ইলেকট্রন সংখ্যা =যেহেতু , ইলেকট্রন সংখ্যা = পারমাণবিক সং প্রশ্নটি একটি মৌলের ইলেকট্রন বিন্যাসের ভিত্তিতে সেই মৌলের পারমাণবিক সংখ্যা নির্ধারণ করতে বলছে। এখানে মৌলটির সর্ববহিঃস্থ শেলের ইলেকট্রন বিন্যাস দেয়া আছে আংশিক ইলেকট্রন বিন্যাস: পূর্ণ ইলেকট্রন বিন্যাস হবে:"
   },
   {
     "id": 29,
@@ -609,7 +609,7 @@
       "d": "Ar"
     },
     "correctAnswer": "d",
-    "explanation": "Ar(18)→1s22s22p63s23p6 A r_{(18)} \\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p 6 Ar(18)→1s22s22p63s23p6 এটি নিষ্ক্রিয় গ্যাস। এটি ৩ পর্যায়ের ১৮ নং গ্রুপের মৌল।",
+    "explanation": "\\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p 6 Ar(18)এটি নিষ্ক্রিয় গ্যাস। এটি ৩ পর্যায়ের ১৮ নং গ্রুপের মৌল।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "1s2 2s2 2p6 3s2 3p61s^2\\ 2s^2\\ 2p^6\\ 3s^2\\ 3p^61s2 2s2 2p6 3s2 3p6 ইলেকট্রন বিন্যাসটি কোন মৌলের?",
-    "explanationLatex": "$Ar(18)→1s22s22p63s23p6 A r_{(18)} \\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p 6 Ar(18)→1s22s22p63s23p6 এটি নিষ্ক্রিয় গ্যাস। এটি ৩ পর্যায়ের ১৮ নং গ্রুপের মৌল।$"
+    "explanationLatex": "\\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p 6 Ar(18)এটি নিষ্ক্রিয় গ্যাস। এটি ৩ পর্যায়ের ১৮ নং গ্রুপের মৌল।"
   },
   {
     "id": 32,
@@ -649,7 +649,7 @@
       "d": "None of these"
     },
     "correctAnswer": "d",
-    "explanation": "14Si→1s22s22p63s23p2 S i \\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{2} Si→1s22s22p63s23p2 এটি ৩নং পর্যায়ের ১৪ নং গ্রুপের মৌল।",
+    "explanation": "14Si\\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{2} Siএটি ৩নং পর্যায়ের ১৪ নং গ্রুপের মৌল।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -657,7 +657,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "Si এর ইলেকট্রন বিন্যাস কোনটি?",
-    "explanationLatex": "$14Si→1s22s22p63s23p2 S i \\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{2} Si→1s22s22p63s23p2 এটি ৩নং পর্যায়ের ১৪ নং গ্রুপের মৌল।$"
+    "explanationLatex": "14Si\\rightarrow 1 s^{2} 2 s^{2} 2 p^{6} 3 s^{2} 3 p^{2} Siএটি ৩নং পর্যায়ের ১৪ নং গ্রুপের মৌল।"
   },
   {
     "id": 34,
@@ -909,7 +909,7 @@
       "d": "d- ব্লকে"
     },
     "correctAnswer": "d",
-    "explanation": "39 পারমাণবিক সংখ্যাবিশিষ্ট মৌলটি হল ইট্রিয়াম (y) 39Y→[kr]4d15s2 { }_{39} Y \\rightarrow[k r] 4 d^{1} 5 s^{2} 39Y→[kr]4d15s2 এর শেষ e−d e^{-} d e−d - অরবিটাল প্রবেশ করে। তাই এটি d- ব্লক মৌল।",
+    "explanation": "39 পারমাণবিক সংখ্যাবিশিষ্ট মৌলটি হল ইট্রিয়াম (\\rightarrow[k r] 4 d^{1} 5 s^{2} 39Yএর শেষ অরবিটাল প্রবেশ করে। তাই এটি d- ব্লক মৌল।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "পর্যায় সারণিতে 39 পারমাণবিক সংখ্যাযুক্ত মৌলের অবস্থান হবে-",
-    "explanationLatex": "$39 পারমাণবিক সংখ্যাবিশিষ্ট মৌলটি হল ইট্রিয়াম (y) 39Y→[kr]4d15s2 { }_{39} Y \\rightarrow[k r] 4 d^{1} 5 s^{2} 39Y→[kr]4d15s2 এর শেষ e−d e^{-} d e−d - অরবিটাল প্রবেশ করে। তাই এটি d- ব্লক মৌল।$"
+    "explanationLatex": "39 পারমাণবিক সংখ্যাবিশিষ্ট মৌলটি হল ইট্রিয়াম (\\rightarrow[k r] 4 d^{1} 5 s^{2} 39Yএর শেষ অরবিটাল প্রবেশ করে। তাই এটি d- ব্লক মৌল।"
   },
   {
     "id": 47,
@@ -949,7 +949,7 @@
       "d": "None of them"
     },
     "correctAnswer": "b",
-    "explanation": "Si(14)→[Ne]3s23p2 \\mathrm{Si}_{(14)} \\rightarrow[\\mathrm{Ne}] 3 s^{2} 3 p^{2} Si(14)→[Ne]3s23p2 এটি ৩য় পর্যায়ের ১৪ নং গ্রুপের মৌল।",
+    "explanation": "\\mathrm{Si}_{(14)} \\rightarrow[\\mathrm{Ne}] 3 s^{2} 3 p^{2} Si(14)এটি ৩য় পর্যায়ের ১৪ নং গ্রুপের মৌল।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -957,7 +957,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সিলিকন (Si) এর ইলেকট্রনিক বিন্যাস কোনটি ?",
-    "explanationLatex": "$Si(14)→[Ne]3s23p2 \\mathrm{Si}_{(14)} \\rightarrow[\\mathrm{Ne}] 3 s^{2} 3 p^{2} Si(14)→[Ne]3s23p2 এটি ৩য় পর্যায়ের ১৪ নং গ্রুপের মৌল।$"
+    "explanationLatex": "\\mathrm{Si}_{(14)} \\rightarrow[\\mathrm{Ne}] 3 s^{2} 3 p^{2} Si(14)এটি ৩য় পর্যায়ের ১৪ নং গ্রুপের মৌল।"
   },
   {
     "id": 49,

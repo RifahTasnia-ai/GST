@@ -9,7 +9,7 @@
       "d": "1.02 MeV"
     },
     "correctAnswer": "b",
-    "explanation": "1amu =1.66×10−27 kgE=mc2=1.66×10−27×(3×108)2=1.494×10−10 J=1.494×10−10×10−61.6×10−19MeV=933.75MeV \\begin{array}{l}\\text { 1amu }=1.66 \\times 10^{-27} \\mathrm{~kg} \\\\ \\begin{aligned} E & =m c^{2} \\\\ & =1.66 \\times 10^{-27} \\times\\left(3 \\times 10^{8}\\right)^{2} \\\\ & =1.494 \\times 10^{-10} \\mathrm{~J} \\\\ & =\\frac{1.494 \\times 10^{-10} \\times 10^{-6}}{1.6 \\times 10^{-19}} \\mathrm{MeV} \\\\ & =933.75 \\mathrm{MeV}\\end{aligned}\\end{array} 1amu =1.66×10−27 kgE=mc2=1.66×10−27×(3×108)2=1.494×10−10 J=1.6×10−191.494×10−10×10−6MeV=933.75MeV",
+    "explanation": "\\begin{array}{l}\\text { 1amu }=1.66 \\times 10^{-27} \\mathrm{~kg} \\\\ \\begin{aligned} E & =m c^{2} \\\\ & =1.66 \\times 10^{-27} \\times\\left(3 \\times 10^{8}\\right)^{2} \\\\ & =1.494 \\times 10^{-10} \\mathrm{~J} \\\\ & =\\frac{1.494 \\times 10^{-10} \\times 10^{-6}}{1.6 \\times 10^{-19}} \\mathrm{MeV} \\\\ & =933.75 \\mathrm{MeV}\\end{aligned}\\end{array} 1amu =1.66",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -61,7 +61,7 @@
   },
   {
     "id": 4,
-    "question": "একটি তেজস্ক্রিয় পদার্থের নির্দিষ্ট আইসোটোপের অর্ধায়ু 6.5h।প্রারম্ভে পরমাণু সংখ্যা ছিল 4.8×10204.8\\times10^{20}4.8×1020। 26 ঘন্টা পরে তেজস্ক্রিয় পরমাণু সংখ্যা কত হবে?",
+    "question": "একটি তেজস্ক্রিয় পদার্থের নির্দিষ্ট আইসোটোপের অর্ধায়ু 6.5h।প্রারম্ভে পরমাণু সংখ্যা ছিল 4.8\\times10^{20}4.8ঘন্টা পরে তেজস্ক্রিয় পরমাণু সংখ্যা কত হবে?",
     "options": {
       "a": "6.0 × 10 19 6.0×10 19 টি",
       "b": "1.2 × 10 20 1.2×10 20 টি",
@@ -69,7 +69,7 @@
       "d": "3 × 10 19 3×10 19 টি"
     },
     "correctAnswer": "d",
-    "explanation": "অবশিষ্ট পরমাণুর সংখ্যা, N=N0e−λt=4×1020e−(0.6936.5×26)[λ=ln⁡(2)t1/2]=3×1019টি~ \\begin{aligned} N & =N_{0} e^{-\\lambda t} \\\\ & =4 \\times 10^{20} e^{-\\left(\\frac{0.693}{6.5} \\times 26\\right)}\\left[\\lambda=\\frac{\\ln (2)}{t_{1 / 2}}\\right] \\\\ & =3 \\times 10^{19} \\widetilde{টি}\\end{aligned} N=N0e−λt=4×1020e−(6.50.693×26)[λ=t1/2ln(2)]=3×1019টি",
+    "explanation": "অবশিষ্ট পরমাণুর সংখ্যা, টি~ \\begin{aligned} N & =N_{0} e^{-\\lambda t} \\\\ & =4 \\times 10^{20} e^{-\\left(\\frac{0.693}{6.5} \\times 26\\right)}\\left[\\lambda=\\frac{\\ln (2)}{t_{1 / 2}}\\right] \\\\ & =3 \\times 10^{19} \\widetilde{টি}\\end{aligned} N=N0e−λt=4টি",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -89,7 +89,7 @@
       "d": "1.7 day − 1 −1"
     },
     "correctAnswer": "a",
-    "explanation": "T12=4 days ∴λ=0.6934=173.25×10−3 day −1=7.218×10−3 h−1=2×10−6 s−1 \\begin{array}{l}\\mathrm{T}_{\\frac{1}{2}}=4 \\text { days } \\therefore \\lambda=\\frac{0.693}{4}=173.25 \\times 10^{-3} \\text { day }^{-1}=7.218 \\times 10^{-3} \\mathrm{~h}^{-1}=2 \\times 10^{-6} \\mathrm{~s}^{-1}\\end{array} T21=4 days ∴λ=40.693=173.25×10−3 day −1=7.218×10−3 h−1=2×10−6 s−1",
+    "explanation": "\\begin{array}{l}\\mathrm{T}_{\\frac{1}{2}}=4 \\text { days } \\therefore \\lambda=\\frac{0.693}{4}=173.25 \\times 10^{-3} \\text { day }^{-1}=7.218 \\times 10^{-3} \\mathrm{~h}^{-1}=2 \\times 10^{-6} \\mathrm{~s}^{-1}\\end{array} T21=4 days",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "Radon একটি রেডিও এক্টিভ গ্যাস, যার 4 দিনের অর্ধায়ু আছে। Radon এর decay কনস্ট্যান্ট নির্ণয় কর।",
-    "explanationLatex": "$T12=4 days ∴λ=0.6934=173.25\\ \\times 10−3 day −1=7.218\\ \\times 10−3 h−1=2\\ \\times 10−6 s−1 \\begin{array}{l}\\mathrm{T}_{\\frac{1}{2}}=4 \\text { days } \\therefore \\lambda=\\frac{0.693}{4}=173.25 \\times 10^{-3} \\text { day }^{-1}=7.218 \\times 10^{-3} \\mathrm{~h}^{-1}=2 \\times 10^{-6} \\mathrm{~s}^{-1}\\end{array} T21=4 days ∴λ=40.693=173.25\\ \\times 10−3 day −1=7.218\\ \\times 10−3 h−1=2\\ \\times 10−6 s−1$"
+    "explanationLatex": "\\times 10−3 day −1=7.218\\ \\times 10−3 h−1=2\\ \\times 10−6 s−1 \\begin{array}{l}\\mathrm{T}_{\\frac{1}{2}}=4 \\text { days } \\therefore \\lambda=\\frac{0.693}{4}=173.25 \\times 10^{-3} \\text { day }^{-1}=7.218 \\times 10^{-3} \\mathrm{~h}^{-1}=2 \\times 10^{-6} \\mathrm{~s}^{-1}\\end{array} T21=4 days \\times 10−3 day −1=7.218\\ \\times 10−3 h−1=2\\ \\times 10−6 s−1"
   },
   {
     "id": 6,
@@ -129,7 +129,7 @@
       "d": "বর্গের সমানুপাতিক"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, হাইড্রোজেন পরমাণুর n-তম কক্ষপথে ইলেকট্রনের বেগ- vn=nh2πmrn=nh2πm⋅πme2n2h2ϵ0=e22hϵ0×1n v_{n}=\\frac{n h}{2 \\pi m r_{n}}=\\frac{n h}{2 \\pi m} \\cdot \\frac{\\pi m e^{2}}{n^{2} h^{2} \\epsilon_{0}}=\\frac{e^{2}}{2 h \\epsilon_{0}} \\times \\frac{1}{n} vn=2πmrnnh=2πmnh⋅n2h2ϵ0πme2=2hϵ0e2×n1 ; [rn=n2h2ϵ0πme2 r_{n}=\\frac{\\mathrm{n}^{2} h^{2} \\epsilon_{0}}{\\pi \\mathrm{me}^{2}} rn=πme2n2h2ϵ0 ] এখানে, e22hϵ0= \\frac{e^{2}}{2 h \\epsilon_{0}}=\\ 2hϵ0e2= ধ্রুব সংখ্যা। সুতরাং vn∝1n v_{n} \\propto \\frac{1}{n} vn∝n1, অর্থাং কক্ষপথে ইলেকট্রনের বেগ কক্ষপথের মানের ব্যস্তানুপাতিক।",
+    "explanation": "আমরা জানি, হাইড্রোজেন পরমাণুর n-তম কক্ষপথে ইলেকট্রনের বেগ- \\frac{n h}{2 \\pi m r_{n}}=\\frac{n h}{2 \\pi m} \\cdot \\frac{\\pi m e^{2}}{n^{2} h^{2} \\epsilon_{0}}=\\frac{e^{2}}{2 h \\epsilon_{0}} \\times \\frac{1}{n} vn=2πmrnnh=2πmnh⋅n2h2ϵ0πme2=2hϵ0e2\\frac{\\mathrm{n}^{2} h^{2} \\epsilon_{0}}{\\pi \\mathrm{me}^{2}} rn=πme2n2h2ϵ0 ] এখানে, \\frac{e^{2}}{2 h \\epsilon_{0}}=\\ 2hϵ0e2= ধ্রুব সংখ্যা। সুতরাং \\propto \\frac{1}{n} vn∝n1, অর্থাং কক্ষপথে ইলেকট্রনের বেগ কক্ষপথের মানের ব্যস্তানুপাতিক।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -169,7 +169,7 @@
       "d": "এক্সরে আধানের প্রকৃতি ধনাত্মক।"
     },
     "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর 'B'। অন্যান্য অপশন সঠিক নয়। কারণ, → \\rightarrow → আলফা রশ্মির ভর 6.694×10−27 kg 6.694 \\times 10^{-27} \\mathrm{~kg} 6.694×10−27 kg । → \\rightarrow → গামা রশ্মির পাল্লা 30cm লোহা। → \\rightarrow → এক্সরে আধান নিরপেক্ষ।",
+    "explanation": "সঠিক উত্তর 'B'। অন্যান্য অপশন সঠিক নয়। কারণ, → \\rightarrow → আলফা রশ্মির ভর 6.694\\times 10^{-27} \\mathrm{~kg} 6.694\\rightarrow → গামা রশ্মির পাল্লা 30cm লোহা। → \\rightarrow → এক্সরে আধান নিরপেক্ষ।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -229,7 +229,7 @@
       "d": "কোনোটিই নয়"
     },
     "correctAnswer": "c",
-    "explanation": "β \\beta β কণা হলো দ্রুতগামী ইলেকট্রন যা নিউক্লিয়াস থেকে নির্গত হয়। কিন্তু নিউক্লিয়াসে ইলেকট্রন থাকে না। প্রকৃতপক্ষে নিউক্লিয়াসের একটি নিউট্রন ভেঙে একটি ইলেকট্রন ও একটি প্রোটন উৎপন্ন হয়। সাংকেতিক চিহ্ন দিয়ে একে নিম্নলিখিতভাবে লেখা যয়- on1→1p1+−1e0 { }_{\\mathrm{o}} \\mathrm{n}^{1} \\rightarrow{ }_{1} \\mathrm{p}^{1}+{ }_{-1} \\mathrm{e}^{0} on1→1p1+−1e0 (বিটা কণা) প্রোটনটি নিউক্লিয়াসে থেকে যায়, কিন্তু ইলেকট্রনটি বিটা কণা হিসেবে নির্গত হয়। এজন্য রূপান্তরিত পরমাণুর ভরসংখ্যা এক একক বৃদ্ধি পায়।",
+    "explanation": "β \\beta β কণা হলো দ্রুতগামী ইলেকট্রন যা নিউক্লিয়াস থেকে নির্গত হয়। কিন্তু নিউক্লিয়াসে ইলেকট্রন থাকে না। প্রকৃতপক্ষে নিউক্লিয়াসের একটি নিউট্রন ভেঙে একটি ইলেকট্রন ও একটি প্রোটন উৎপন্ন হয়। সাংকেতিক চিহ্ন দিয়ে একে নিম্নলিখিতভাবে লেখা যয়- on1\\mathrm{o}} \\mathrm{n}^{1} \\rightarrow{ }_{1} \\mathrm{p}^{1}+{ }_{-1} \\mathrm{e}^{0} on1বিটা কণা) প্রোটনটি নিউক্লিয়াসে থেকে যায়, কিন্তু ইলেকট্রনটি বিটা কণা হিসেবে নির্গত হয়। এজন্য রূপান্তরিত পরমাণুর ভরসংখ্যা এক একক বৃদ্ধি পায়।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -237,7 +237,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি তেজক্রিয় মৌলের নিউক্লিয়াস হতে যে ইলেকট্রন নির্গত হয় তাকে কী বলা হয়?",
-    "explanationLatex": "$β \\beta β কণা হলো দ্রুতগামী ইলেকট্রন যা নিউক্লিয়াস থেকে নির্গত হয়। কিন্তু নিউক্লিয়াসে ইলেকট্রন থাকে না। প্রকৃতপক্ষে নিউক্লিয়াসের একটি নিউট্রন ভেঙে একটি ইলেকট্রন ও একটি প্রোটন উৎপন্ন হয়। সাংকেতিক চিহ্ন দিয়ে একে নিম্নলিখিতভাবে লেখা যয়- on1→1p1+−1e0 { }_{\\mathrm{o}} \\mathrm{n}^{1} \\rightarrow{ }_{1} \\mathrm{p}^{1}+{ }_{-1} \\mathrm{e}^{0} on1→1p1+−1e0 (বিটা কণা) প্রোটনটি নিউক্লিয়াসে থেকে যায়, কিন্তু ইলেকট্রনটি বিটা কণা হিসেবে নির্গত হয়। এজন্য রূপান্তরিত পরমাণুর ভরসংখ্যা এক একক বৃদ্ধি পায়।$"
+    "explanationLatex": "β \\beta β কণা হলো দ্রুতগামী ইলেকট্রন যা নিউক্লিয়াস থেকে নির্গত হয়। কিন্তু নিউক্লিয়াসে ইলেকট্রন থাকে না। প্রকৃতপক্ষে নিউক্লিয়াসের একটি নিউট্রন ভেঙে একটি ইলেকট্রন ও একটি প্রোটন উৎপন্ন হয়। সাংকেতিক চিহ্ন দিয়ে একে নিম্নলিখিতভাবে লেখা যয়- on1\\mathrm{o}} \\mathrm{n}^{1} \\rightarrow{ }_{1} \\mathrm{p}^{1}+{ }_{-1} \\mathrm{e}^{0} on1বিটা কণা) প্রোটনটি নিউক্লিয়াসে থেকে যায়, কিন্তু ইলেকট্রনটি বিটা কণা হিসেবে নির্গত হয়। এজন্য রূপান্তরিত পরমাণুর ভরসংখ্যা এক একক বৃদ্ধি পায়।"
   },
   {
     "id": 13,
@@ -249,7 +249,7 @@
       "d": "ইউরেনিয়াম"
     },
     "correctAnswer": "a",
-    "explanation": "89234Ac→90234Th+−10e { }_{89}^{234} \\mathrm{Ac} \\rightarrow{ }_{90}^{234} \\mathrm{Th}+{ }_{-1}^{0} \\mathrm{e} 89234Ac→90234Th+−10e",
+    "explanation": "\\mathrm{Ac} \\rightarrow{ }_{90}^{234} \\mathrm{Th}+{ }_{-1}^{0} \\mathrm{e} 89234Ac",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -257,7 +257,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "অ্যাক্টিনিয়াম থেকে বিটা রশ্মি বিকিরিত হয়ে কী উৎপন্ন হয়?",
-    "explanationLatex": "$89234Ac→90234Th+−10e { }_{89}^{234} \\mathrm{Ac} \\rightarrow{ }_{90}^{234} \\mathrm{Th}+{ }_{-1}^{0} \\mathrm{e} 89234Ac→90234Th+−10e$"
+    "explanationLatex": "\\mathrm{Ac} \\rightarrow{ }_{90}^{234} \\mathrm{Th}+{ }_{-1}^{0} \\mathrm{e} 89234Ac"
   },
   {
     "id": 14,
@@ -329,7 +329,7 @@
       "d": "14/3 min"
     },
     "correctAnswer": "c",
-    "explanation": "N=116N0N=N0e−λt⇒116=e−λ×14 \\begin{aligned} N & =\\frac{1}{16} N_{0} \\\\ N & =N_{0} e^{-\\lambda t} \\\\ \\Rightarrow \\frac{1}{16} & =e^{-\\lambda \\times 14}\\end{aligned} NN⇒161=161N0=N0e−λt=e−λ×14 ⇒λ=0.1980 min−1T1/2=0.693λ=3.5 min=72 min \\begin{aligned} \\Rightarrow \\lambda & =0.1980 \\mathrm{~min}^{-1} \\\\ T_{1 / 2} & =\\frac{0.693}{\\lambda} \\\\ & =3.5 \\mathrm{~min} \\\\ & =\\frac{7}{2} \\mathrm{~min}\\end{aligned} ⇒λT1/2=0.1980 min−1=λ0.693=3.5 min=27 min",
+    "explanation": "\\begin{aligned} N & =\\frac{1}{16} N_{0} \\\\ N & =N_{0} e^{-\\lambda t} \\\\ \\Rightarrow \\frac{1}{16} & =e^{-\\lambda \\times 14}\\end{aligned} NN\\begin{aligned} \\Rightarrow \\lambda & =0.1980 \\mathrm{~min}^{-1} \\\\ T_{1 / 2} & =\\frac{0.693}{\\lambda} \\\\ & =3.5 \\mathrm{~min} \\\\ & =\\frac{7}{2} \\mathrm{~min}\\end{aligned}",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -337,7 +337,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$14 মিনিট পরে একটি তেজস্ক্রিয় মৌলের \\frac{1}{16} অংশ অবশিষ্ট থাকে। এর অর্ধায়ু হবে-$",
-    "explanationLatex": "$N=116N0N=N0e−λt⇒116=e−λ\\ \\times 14 \\begin{aligned} N & =\\frac{1}{16} N_{0} \\\\ N & =N_{0} e^{-\\lambda t} \\\\ \\Rightarrow \\frac{1}{16} & =e^{-\\lambda \\times 14}\\end{aligned} NN⇒161=161N0=N0e−λt=e−λ\\ \\times 14 ⇒λ=0.1980 min−\\frac{1T1}{2}=0.693λ=3.5 min=72 min \\begin{aligned} \\Rightarrow \\lambda & =0.1980 \\mathrm{~min}^{-1} \\\\ T_{\\frac{1}{2}} & =\\frac{0.693}{\\lambda} \\\\ & =3.5 \\mathrm{~min} \\\\ & =\\frac{7}{2} \\mathrm{~min}\\end{aligned} ⇒λT1/2=0.1980 min−1=λ0.693=3.5 min=27 min$"
+    "explanationLatex": "\\times 14 \\begin{aligned} N & =\\frac{1}{16} N_{0} \\\\ N & =N_{0} e^{-\\lambda t} \\\\ \\Rightarrow \\frac{1}{16} & =e^{-\\lambda \\times 14}\\end{aligned} NN\\times 14 \\frac{1T1}{2}=0.693λ=3.5 min=72 min \\begin{aligned} \\Rightarrow \\lambda & =0.1980 \\mathrm{~min}^{-1} \\\\ T_{\\frac{1}{2}} & =\\frac{0.693}{\\lambda} \\\\ & =3.5 \\mathrm{~min} \\\\ & =\\frac{7}{2} \\mathrm{~min}\\end{aligned}"
   },
   {
     "id": 18,
@@ -349,7 +349,7 @@
       "d": "বর্গের ব্যস্তানুপাতিক"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, τ=1λ=T1/2ln⁡2∴τ∝T1/2 \\begin{array}{l}\\tau=\\frac{1}{\\lambda}=\\frac{T_{1 / 2}}{\\ln 2} \\\\ \\therefore \\tau \\propto T_{1 / 2}\\end{array} τ=λ1=ln2T1/2∴τ∝T1/2",
+    "explanation": "আমরা জানি, τ=\\begin{array}{l}\\tau=\\frac{1}{\\lambda}=\\frac{T_{1 / 2}}{\\ln 2} \\\\ \\therefore \\tau \\propto T_{1 / 2}\\end{array} τ=λ1=ln2T1/2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -389,7 +389,7 @@
       "d": "22086Rn"
     },
     "correctAnswer": "b",
-    "explanation": "92235U→−α90231O→−β91231P→−α89227Q→−β90227R→−α88223S { }_{92}^{235} U \\rightarrow^{-\\alpha}{ }_{90}^{231} O \\stackrel{-\\beta}{\\rightarrow}{ }_{91}^{231} P \\rightarrow^{-\\alpha}{ }_{89}^{227} Q \\stackrel{-\\beta}{\\rightarrow}{ }_{90}^{227} R \\rightarrow^{-\\alpha}{ }_{88}^{223} S 92235U→−α90231O→−β91231P→−α89227Q→−β90227R→−α88223S সর্বশেষে আলফা কণা নির্গত হওয়া ভর সংখ্যা ২ কমে ২২১ এবং প্রোটন সংখ্যা ১ কমে ৮৭ হবে । অর্থাৎ খ নং সঠিক উত্তর ।",
+    "explanation": "\\rightarrow^{-\\alpha}{ }_{90}^{231} O \\stackrel{-\\beta}{\\rightarrow}{ }_{91}^{231} P \\rightarrow^{-\\alpha}{ }_{89}^{227} Q \\stackrel{-\\beta}{\\rightarrow}{ }_{90}^{227} R \\rightarrow^{-\\alpha}{ }_{88}^{223} S 92235Uসর্বশেষে আলফা কণা নির্গত হওয়া ভর সংখ্যা ২ কমে ২২১ এবং প্রোটন সংখ্যা ১ কমে ৮৭ হবে । অর্থাৎ খ নং সঠিক উত্তর ।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিম্নের নিউক্লিয়ার বিক্রিয়া থেকে S বাহির কর।",
-    "explanationLatex": "$92235U→−α90231O→−β91231P→−α89227Q→−β90227R→−α88223S { }_{92}^{235} U \\rightarrow^{-\\alpha}{ }_{90}^{231} O \\stackrel{-\\beta}{\\rightarrow}{ }_{91}^{231} P \\rightarrow^{-\\alpha}{ }_{89}^{227} Q \\stackrel{-\\beta}{\\rightarrow}{ }_{90}^{227} R \\rightarrow^{-\\alpha}{ }_{88}^{223} S 92235U→−α90231O→−β91231P→−α89227Q→−β90227R→−α88223S সর্বশেষে আলফা কণা নির্গত হওয়া ভর সংখ্যা ২ কমে ২২১ এবং প্রোটন সংখ্যা ১ কমে ৮৭ হবে । অর্থাৎ খ নং সঠিক উত্তর ।$"
+    "explanationLatex": "\\rightarrow^{-\\alpha}{ }_{90}^{231} O \\stackrel{-\\beta}{\\rightarrow}{ }_{91}^{231} P \\rightarrow^{-\\alpha}{ }_{89}^{227} Q \\stackrel{-\\beta}{\\rightarrow}{ }_{90}^{227} R \\rightarrow^{-\\alpha}{ }_{88}^{223} S 92235Uসর্বশেষে আলফা কণা নির্গত হওয়া ভর সংখ্যা ২ কমে ২২১ এবং প্রোটন সংখ্যা ১ কমে ৮৭ হবে । অর্থাৎ খ নং সঠিক উত্তর ।"
   },
   {
     "id": 21,
@@ -569,7 +569,7 @@
       "d": "-40.8eV"
     },
     "correctAnswer": "a",
-    "explanation": "n n n তম কক্ষপথে ইলেকট্টনের মোট শক্তি En=−13.6n2eV E_{n}=\\frac{-13.6}{n^{2}} \\mathrm{eV} En=n2−13.6eV ∴ \\therefore ∴ তৃতীয় কক্ষপথে ইলেকট্রনের শক্তি E3=−13.6(3)2eV \\mathrm{E}_{3}=\\frac{-13.6}{(3)^{2}} \\mathrm{eV} E3=(3)2−13.6eV =−1.51eV =-1.51 \\mathrm{eV} =−1.51eV",
+    "explanation": "তম কক্ষপথে ইলেকট্টনের মোট শক্তি \\frac{-13.6}{n^{2}} \\mathrm{eV} En=n2−13.6eV ∴ \\therefore ∴ তৃতীয় কক্ষপথে ইলেকট্রনের শক্তি \\mathrm{E}_{3}=\\frac{-13.6}{(3)^{2}} \\mathrm{eV} E3=(3)2−13.6eV =−1.51eV =-1.51 \\mathrm{eV} =−1.51eV",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -577,7 +577,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "হাইড্রোজেন প্রমাণুর প্রথম বাের কক্ষে ইলেক্ট্রনের মােট শক্তি –13.6 eV। তৃতীয় বাের কক্ষে মােট শক্তি কত?",
-    "explanationLatex": "$n n n তম কক্ষপথে ইলেকট্টনের মোট শক্তি En=−13.6n2eV E_{n}=\\frac{-13.6}{n^{2}} \\mathrm{eV} En=n2−13.6eV ∴ \\therefore ∴ তৃতীয় কক্ষপথে ইলেকট্রনের শক্তি E3=−13.6(3)2eV \\mathrm{E}_{3}=\\frac{-13.6}{(3)^{2}} \\mathrm{eV} E3=(3)2−13.6eV =−1.51eV =-1.51 \\mathrm{eV} =−1.51eV$"
+    "explanationLatex": "তম কক্ষপথে ইলেকট্টনের মোট শক্তি \\frac{-13.6}{n^{2}} \\mathrm{eV} En=n2−13.6eV ∴ \\therefore ∴ তৃতীয় কক্ষপথে ইলেকট্রনের শক্তি \\mathrm{E}_{3}=\\frac{-13.6}{(3)^{2}} \\mathrm{eV} E3=(3)2−13.6eV =−1.51eV =-1.51 \\mathrm{eV} =−1.51eV"
   },
   {
     "id": 30,
@@ -629,7 +629,7 @@
       "d": "𝜆 = 𝑇 1 2 0.693 λ= 0.693 T 2 1"
     },
     "correctAnswer": "b",
-    "explanation": "T12=ln⁡(2)λ T_{\\frac{1}{2}}=\\frac{\\ln (2)}{\\lambda} T21=λln(2)",
+    "explanation": "\\frac{1}{2}}=\\frac{\\ln (2)}{\\lambda} T21=λln(2)",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "তেজস্ক্রিয় ক্ষয় ধ্রুবক ও অর্ধায়ুর মধ্যে সম্পর্ক নিচের কোনটি?",
-    "explanationLatex": "$T12=ln⁡(2)λ T_{\\frac{1}{2}}=\\frac{\\ln (2)}{\\lambda} T21=λln(2)$"
+    "explanationLatex": "\\frac{1}{2}}=\\frac{\\ln (2)}{\\lambda} T21=λln(2)"
   },
   {
     "id": 33,
@@ -749,7 +749,7 @@
       "d": "5.66 eV"
     },
     "correctAnswer": "d",
-    "explanation": "E=chλ=3×108×6.63×10−342200×10−10=5.66 eVE=\\frac{ch}{\\lambda}= \\frac{3 \\times 10^{8} \\times 6.63 \\times 10^{-34}}{2200\\times 10^{-10}} = 5.66\\ eVE=λch=2200×10−103×108×6.63×10−34=5.66 eV",
+    "explanation": "\\frac{ch}{\\lambda}= \\frac{3 \\times 10^{8} \\times 6.63 \\times 10^{-34}}{2200\\times 10^{-10}} = 5.66\\ eVE=λch=2200",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -769,7 +769,7 @@
       "d": "𝛾 → 𝛽 → 𝛼 γ→β→α"
     },
     "correctAnswer": "d",
-    "explanation": "α রশ্মির ভর 24He2+2^4He^{2+}24He2+নিউক্লিয়াসের ভরের সমান β রশ্মির ভর e−e^-e−এর ভরের সমান, γγγ রশ্মির স্থির ভর শূন্য সুতরাং ভরের ঊর্ধ্বক্রম অনসারে γ→β→αγ\\toβ\\toαγ→β→αহবে সঠিক।",
+    "explanation": "α রশ্মির ভর নিউক্লিয়াসের ভরের সমান β রশ্মির ভর এর ভরের সমান, γγγ রশ্মির স্থির ভর শূন্য সুতরাং ভরের ঊর্ধ্বক্রম অনসারে γ\\toβ\\toαγহবে সঠিক।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -777,7 +777,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "α, β ও γα,\\ β\\ ও\\ γα, β ও γরশ্মির ভরের ঊর্ধ্বক্রমে কীভাবে সাজানো যায়?",
-    "explanationLatex": "$α রশ্মির ভর 24He2+2^4He^{2+}24He2+নিউক্লিয়াসের ভরের সমান β রশ্মির ভর e−e^-e−এর ভরের সমান, γγγ রশ্মির স্থির ভর শূন্য সুতরাং ভরের ঊর্ধ্বক্রম অনসারে γ→β→αγ\\toβ\\toαγ→β→αহবে সঠিক।$"
+    "explanationLatex": "α রশ্মির ভর নিউক্লিয়াসের ভরের সমান β রশ্মির ভর এর ভরের সমান, γγγ রশ্মির স্থির ভর শূন্য সুতরাং ভরের ঊর্ধ্বক্রম অনসারে γ\\toβ\\toαγহবে সঠিক।"
   },
   {
     "id": 40,
@@ -889,7 +889,7 @@
       "d": "0.1 m 0.1 m"
     },
     "correctAnswer": "c",
-    "explanation": "α \\alpha α-রশ্মি একটি সীসা খণ্ডের মাত্র 1×10−5 m 1 \\times 10^{-5} \\mathrm{~m} 1×10−5 m ভেদ করতে পারে, β \\beta β-রশ্মি 1×10−4 m 1 \\times 10^{-4} \\mathrm{~m} 1×10−4 m এবং γ \\gamma γ-রশ্মি 0.1 m 0.1 \\mathrm{~m} 0.1 m ভেদ করতে পারে।",
+    "explanation": "α \\alpha α-রশ্মি একটি সীসা খণ্ডের মাত্র 1\\times 10^{-5} \\mathrm{~m} 1ভেদ করতে পারে, β \\beta β-রশ্মি 1\\times 10^{-4} \\mathrm{~m} 1এবং γ \\gamma γ-রশ্মি \\mathrm{~m} 0.1 m ভেদ করতে পারে।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -909,7 +909,7 @@
       "d": "𝛼 𝑎 𝑛 𝑑 𝛾 α and γ"
     },
     "correctAnswer": "a",
-    "explanation": "Ans:α and β 92238 U_{\\ \\ 92}^{238}\\ U 92238 U= 90234 Th_{\\ \\ 90}^{234}\\ Th 90234 Th+ 24 He_{\\ \\ 2}^{4}\\ He 24 He= 91234 Pa_{\\ \\ 91}^{234}\\ Pa 91234 Pa+ 01 B_{\\ \\ 0}^{1}\\ B 01 B ∴\\therefore∴ α ,β নির্গত হয়",
+    "explanation": "∴\\therefore∴ α ,β নির্গত হয়",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি 92238 U_{\\ \\ 92}^{238}\\ U 92238 Uনিউক্লিয়াস দুই ধাপে ক্ষয় হয়ে 91234 Pa_{\\ \\ 91}^{234}\\ Pa 91234 Paনিউক্লিয়াস সৃষ্টি করে । এই দুই ধাপে কী কী ধরনের রশ্মি নির্গত হয়?$",
-    "explanationLatex": "$Ans:α and β 92238 U_{\\ \\ 92}^{238}\\ U 92238 U= 90234 Th_{\\ \\ 90}^{234}\\ Th 90234 Th+ 24 He_{\\ \\ 2}^{4}\\ He 24 He= 91234 Pa_{\\ \\ 91}^{234}\\ Pa 91234 Pa+ 01 B_{\\ \\ 0}^{1}\\ B 01 B ∴\\therefore∴ α ,β নির্গত হয়$"
+    "explanationLatex": "∴\\therefore∴ α ,β নির্গত হয়"
   },
   {
     "id": 47,
@@ -929,7 +929,7 @@
       "d": "85 218 𝐴 𝑡 85 218 At"
     },
     "correctAnswer": "b",
-    "explanation": "একটি আলফা কণা নিঃসরণ হওয়ায়, ভর সংখ্যা = 214 - 4= 210 পারমানবিক সংখ্যা =83 =83 =83 - 2 = 81 তাহলে, 83214Bi→24He+81210Ti { }_{83}^{214} B i \\rightarrow{ }_{2}^{4} H e+{ }_{81}^{210} T i 83214Bi→24He+81210Ti",
+    "explanation": "একটি আলফা কণা নিঃসরণ হওয়ায়, ভর সংখ্যা = পারমানবিক সংখ্যা =তাহলে, \\rightarrow{ }_{2}^{4} H e+{ }_{81}^{210} T i 83214Bi",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -937,7 +937,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$83214Bi_{\\ \\ 83}^{214}Bi 83214Biআইসোটোপ হতে একটি আলফা কণা নিঃসরণ এর ফলে প্রোডাক্ট আইসোটোপ হবে-$",
-    "explanationLatex": "$একটি আলফা কণা নিঃসরণ হওয়ায়, ভর সংখ্যা = 214 - 4= 210 পারমানবিক সংখ্যা =83 =83 =83 - 2 = 81 তাহলে, 83214Bi→24He+81210Ti { }_{83}^{214} B i \\rightarrow{ }_{2}^{4} H e+{ }_{81}^{210} T i 83214Bi→24He+81210Ti$"
+    "explanationLatex": "একটি আলফা কণা নিঃসরণ হওয়ায়, ভর সংখ্যা = পারমানবিক সংখ্যা =তাহলে, \\rightarrow{ }_{2}^{4} H e+{ }_{81}^{210} T i 83214Bi"
   },
   {
     "id": 48,
@@ -949,7 +949,7 @@
       "d": "− 4.8 × 10 − 10 e s u −4.8×10 −10 esu"
     },
     "correctAnswer": "d",
-    "explanation": "Charge of electron, −1.602×10−19C -1.602 \\times 10^{-19} \\mathrm{C} −1.602×10−19C ∴1C=3×109esu∴−1.602×10−19C=−1.602×10−19×3×109=−4.8×10−10esu \\therefore 1 \\mathrm{C} =3 \\times 10^{9} \\mathrm{esu} \\\\ \\therefore-1.602 \\times 10^{-19} \\mathrm{C} =-1.602 \\times 10^{-19} \\times 3 \\times 10^{9} \\\\ =-4.8 \\times 10^{-10} \\mathrm{esu} ∴1C=3×109esu∴−1.602×10−19C=−1.602×10−19×3×109=−4.8×10−10esu",
+    "explanation": "\\times 10^{-19} \\mathrm{C} −1.602\\therefore 1 \\mathrm{C} =3 \\times 10^{9} \\mathrm{esu} \\\\ \\therefore-1.602 \\times 10^{-19} \\mathrm{C} =-1.602 \\times 10^{-19} \\times 3 \\times 10^{9} \\\\ =-4.8 \\times 10^{-10} \\mathrm{esu}",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -957,7 +957,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ইলেকট্রনের চার্জের কোন মানটি সঠিক?",
-    "explanationLatex": "$Charge of electron, −1.602\\ \\times 10−19C -1.602 \\times 10^{-19} \\mathrm{C} −1.602\\ \\times 10−19C ∴1C=3\\ \\times 109esu∴−1.602\\ \\times 10−19C=−1.602\\ \\times 10−19\\ \\times 3\\ \\times 109=−4.8\\ \\times 10−10esu \\therefore 1 \\mathrm{C} =3 \\times 10^{9} \\mathrm{esu} \\\\ \\therefore^{-1}.602 \\times 10^{-19} \\mathrm{C} =-1.602 \\times 10^{-19} \\times 3 \\times 10^{9} \\\\ =-4.8 \\times 10^{-10} \\mathrm{esu} ∴1C=3\\ \\times 109esu∴−1.602\\ \\times 10−19C=−1.602\\ \\times 10−19\\ \\times 3\\ \\times 109=−4.8\\ \\times 10−10esu$"
+    "explanationLatex": "\\times 10−19C -1.602 \\times 10^{-19} \\mathrm{C} −1.602\\ \\times 10−19C \\times 109esu\\times 10−19C=−1.602\\ \\times 10−19\\ \\times 3\\ \\times 109=−4.8\\ \\times 10−10esu \\therefore 1 \\mathrm{C} =3 \\times 10^{9} \\mathrm{esu} \\\\ \\therefore^{-1}.602 \\times 10^{-19} \\mathrm{C} =-1.602 \\times 10^{-19} \\times 3 \\times 10^{9} \\\\ =-4.8 \\times 10^{-10} \\mathrm{esu} \\times 109esu\\times 10−19C=−1.602\\ \\times 10−19\\ \\times 3\\ \\times 109=−4.8\\ \\times 10−10esu"
   },
   {
     "id": 49,
@@ -969,7 +969,7 @@
       "d": "Neutron"
     },
     "correctAnswer": "a",
-    "explanation": "49Be+24X→612C+01n_4^9Be+_2^4X\\to_6^{12}C+_0^1n49Be+24X→612C+01n উত্তর :α-particle 49Be+24X→612C+01n_4^9Be+_2^4X\\to_6^{12}C+_0^1n49Be+24X→612C+01n হিলিয়াম পরমাণু নিউক্লিয়াসই হলো আলফা রশ্মি।",
+    "explanation": "\\to_6^{12}C+_0^1n49Be+24Xউত্তর :α-\\to_6^{12}C+_0^1n49Be+24Xহিলিয়াম পরমাণু নিউক্লিয়াসই হলো আলফা রশ্মি।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -977,7 +977,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিম্নের নিউক্লিয়ার বিক্রিয়ায়XXXকণাটি কি?",
-    "explanationLatex": "$49Be+24X→612C+01n_4^9Be+_2^4X\\to_6^{12}C+_0^1n49Be+24X→612C+01n উত্তর :α-particle 49Be+24X→612C+01n_4^9Be+_2^4X\\to_6^{12}C+_0^1n49Be+24X→612C+01n হিলিয়াম পরমাণু নিউক্লিয়াসই হলো আলফা রশ্মি।$"
+    "explanationLatex": "\\to_6^{12}C+_0^1n49Be+24Xউত্তর :α-\\to_6^{12}C+_0^1n49Be+24Xহিলিয়াম পরমাণু নিউক্লিয়াসই হলো আলফা রশ্মি।"
   },
   {
     "id": 50,
