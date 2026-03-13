@@ -106,10 +106,10 @@ function ExamPage() {
 
       const transformed = questionList.map(q => ({
         id: q.id,
-        question: q.question,
+        question: q.questionLatex || q.question,
         options: Object.entries(q.options).map(([id, text]) => ({ id, text })),
         correctOptionId: q.correctAnswer,
-        explanation: q.explanation || `সঠিক উত্তর: ${q.correctAnswer}. ${q.question}`,
+        explanation: q.explanationLatex || q.explanation || `সঠিক উত্তর: ${q.correctAnswer}. ${q.question}`,
         hasDiagram: q.hasDiagram || false,
         svg_code: q.svg_code || null,
         questionImage: q.questionImage ?? q.image ?? null,
