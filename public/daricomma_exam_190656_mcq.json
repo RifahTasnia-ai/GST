@@ -2,7 +2,7 @@
   {
     "id": 1,
     "subject": "Higher Mathematics",
-    "question": "\\left|\\begin{array}{lll}0 & 3 & 2 x+7 \\\\2 & 7 x & 9+5 x \\\\0 & 0 & 2 x+5\\end{array}\\right|=0",
+    "question": "∣ ∣ ∣ ∣ 0 3 2 x + 7 2 7 x 9 + 5 x 0 0 2 x + 5 ∣ ∣ ∣ ∣ = 0 | 0 3 2 𝑥 + 7 2 7 𝑥 9 + 5 𝑥 0 0 2 𝑥 + 5 | = 0 0 হলে, x এর মান-\n\\left|\\begin{array}{lll}0 & 3 & 2 x+7 \\\\2 & 7 x & 9+5 x \\\\0 & 0 & 2 x+5\\end{array}\\right|=0",
     "options": {
       "a": "-\\frac{9}{5}",
       "b": "-\\frac{7}{2}",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "subject": "Higher Mathematics",
-    "question": "A=\\left[\\begin{array}{cc}1 & i \\\\-i & 1\\end{array}\\right],",
+    "question": "A = [ 1 i − i 1 ] , 𝐴 = [ 1 𝑖 − 𝑖 1 ] , B = [ i − 1 − 1 − i ] 𝐵 = [ 𝑖 − 1 − 1 − 𝑖 ] এবং i = √ − 1 𝑖 = − 1 হলে A B 𝐴 𝐵 এর মান কত?\nA=\\left[\\begin{array}{cc}1 & i \\\\-i & 1\\end{array}\\right],  B=\\left[\\begin{array}{cc}i & -1 \\\\-1 & -i\\end{array}\\right] i=\\sqrt{-1} AB",
     "options": {
       "a": "\\left[\\begin{array}{ll}1 & 0 \\\\0 & 1\\end{array}\\right]",
       "b": "\\left[\\begin{array}{ll}0 & 0 \\\\0 & 0\\end{array}\\right]",
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "subject": "Higher Mathematics",
-    "question": "A=\\left[\\begin{array}{cc}1 & i \\\\-i & 1\\end{array}\\right], B=\\left[\\begin{array}{cc}i & -1 \\\\-1 & -i\\end{array}\\right]",
+    "question": "A = [ 1 i − i 1 ] , B = [ i − 1 − 1 − i ] 𝐴 = [ 1 𝑖 − 𝑖 1 ] , 𝐵 = [ 𝑖 − 1 − 1 − 𝑖 ] এবং এবং i = √ − 1 𝑖 = − 1 হলে, AB এর মান হবে-\nA=\\left[\\begin{array}{cc}1 & i \\\\-i & 1\\end{array}\\right], B=\\left[\\begin{array}{cc}i & -1 \\\\-1 & -i\\end{array}\\right] i=\\sqrt{-1}",
     "options": {
       "a": "\\left[\\begin{array}{ll}1 & 0 \\\\0 & 1\\end{array}\\right]",
       "b": "\\left[\\begin{array}{ll}0 & 0 \\\\0 & 0\\end{array}\\right]",
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "subject": "Higher Mathematics",
-    "question": "\\left|\\begin{array}{lll}\\mathbf{a} & \\mathbf{1} & \\mathbf{b}+\\mathbf{c} \\\\\\mathbf{b} & \\mathbf{1} & \\mathbf{c}+\\mathbf{a}\\\\\\mathbf{c} & \\mathbf{1} & \\mathbf{a}+\\mathbf{b}\\end{array}\\right|",
+    "question": "∣ ∣ ∣ ∣ a 1 b + c b 1 c + a c 1 a + b ∣ ∣ ∣ ∣ | 𝑎 1 𝑏 + 𝑐 𝑏 1 𝑐 + 𝑎 𝑐 1 𝑎 + 𝑏 | এর মান কত?\n\\left|\\begin{array}{lll}\\mathbf{a} & \\mathbf{1} & \\mathbf{b}+\\mathbf{c} \\\\\\mathbf{b} & \\mathbf{1} & \\mathbf{c}+\\mathbf{a}\\\\\\mathbf{c} & \\mathbf{1} & \\mathbf{a}+\\mathbf{b}\\end{array}\\right|",
     "options": {
       "a": "0",
       "b": "abc(a+b) (b+c) (c+a)",
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "subject": "Higher Mathematics",
-    "question": "A=\\left(\\begin{array}{cc}-2 & 1 \\\\3 / 2 & -1 / 2\\end{array}\\right)",
+    "question": "যদি A = ( − 2 1 3 / 2 − 1 / 2 ) 𝐴 = ( − 2 1 3 / 2 − 1 / 2 ) হয় তবে A − 1 A − 1 সমান-\nA=\\left(\\begin{array}{cc}-2 & 1 \\\\3 / 2 & -1 / 2\\end{array}\\right) \\mathrm{A}^{-1}",
     "options": {
       "a": "\\left(\\begin{array}{ll}1 & 3 \\\\2 & 4\\end{array}\\right)",
       "b": "\\left(\\begin{array}{ll}1 & 0 \\\\0 & 1\\end{array}\\right)",
@@ -72,7 +72,7 @@
   {
     "id": 6,
     "subject": "Higher Mathematics",
-    "question": "\\left|\\begin{array}{lll}1 & b c & b c(b+c) \\\\1 & c a & c a(c+a) \\\\1 & a b & a b(a+b)\\end{array}\\right|",
+    "question": "নির্ণায়ক ∣ ∣ ∣ ∣ ∣ 1 b c b c ( b + c ) 1 c a c a ( c + a ) 1 a b a b ( a + b ) ∣ ∣ ∣ ∣ ∣ | 1 𝑏 𝑐 𝑏 𝑐 ( 𝑏 + 𝑐 ) 1 𝑐 𝑎 𝑐 𝑎 ( 𝑐 + 𝑎 ) 1 𝑎 𝑏 𝑎 𝑏 ( 𝑎 + 𝑏 ) | এর মান কত?\n\\left|\\begin{array}{lll}1 & b c & b c(b+c) \\\\1 & c a & c a(c+a) \\\\1 & a b & a b(a+b)\\end{array}\\right|",
     "options": {
       "a": "-2",
       "b": "-1",
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "subject": "Higher Mathematics",
-    "question": "A=\\left[\\begin{array}{ll}4 & 2 \\\\3 & 5\\end{array}\\right] ; \\quad B=\\left[\\begin{array}{l}6 \\\\1\\end{array}\\right] ; \\quad X=\\left[\\begin{array}{l}x \\\\y\\end{array}\\right]",
+    "question": "যদি A = [ 4 2 3 5 ] ; B = [ 6 1 ] ; X = [ x y ] 𝐴 = [ 4 2 3 5 ] ; 𝐵 = [ 6 1 ] ; 𝑋 = [ 𝑥 𝑦 ] এবং A X = B 𝐴 𝑋 = 𝐵 হয়, তাহলে ; ক্রেমারের সূত্র মতে x ও y এর মান কত?\nA=\\left[\\begin{array}{ll}4 & 2 \\\\3 & 5\\end{array}\\right] ; \\quad B=\\left[\\begin{array}{l}6 \\\\1\\end{array}\\right] ; \\quad X=\\left[\\begin{array}{l}x \\\\y\\end{array}\\right] \\mathbf{A X}=\\mathbf{B}",
     "options": {
       "a": "2, -1",
       "b": "3, -1",
@@ -100,7 +100,7 @@
   {
     "id": 8,
     "subject": "Higher Mathematics",
-    "question": "\\left(A^{T}+B\\right) C",
+    "question": "A এবং ( A T + B ) C ( 𝐴 𝑇 + 𝐵 ) 𝐶 ম্যাট্রিক্স দুইটির ক্রম যথাক্রমে 4 × 5 এবং 5 × 2 হলে C ম্যাট্রিক্স এর ক্রম কী হবে?\n\\left(A^{T}+B\\right) C",
     "options": {
       "a": "4×2",
       "b": "4x3",
@@ -128,7 +128,7 @@
   {
     "id": 10,
     "subject": "Higher Mathematics",
-    "question": "A=\\left[\\begin{array}{ll}2 & 3 \\\\1 & 3\\end{array}\\right],",
+    "question": "A = [ 2 3 1 3 ] , 𝐴 = [ 2 3 1 3 ] , B = [ 1 3 5 2 0 1 ] 𝐵 = [ 1 3 5 2 0 1 ] , C = ⎡ ⎢ ⎣ 1 2 3 ⎤ ⎥ ⎦ 𝐶 = [ 1 2 3 ] হলে, (AB)C ম্যাট্রিক্সের ক্রম কত?\nA=\\left[\\begin{array}{ll}2 & 3 \\\\1 & 3\\end{array}\\right], B=\\left[\\begin{array}{lll}1 & 3 & 5 \\\\2 & 0 & 1\\end{array}\\right] C=\\left[\\begin{array}{l}1 \\\\2 \\\\3\\end{array}\\right]",
     "options": {
       "a": "2 × 3",
       "b": "2 × 1",
@@ -156,7 +156,7 @@
   {
     "id": 12,
     "subject": "Higher Mathematics",
-    "question": "^{\\circ}",
+    "question": "y - x - 2 = 0 সরলরেখাটি i. x অক্ষের সাথে 45 ∘ ∘ কোণ উৎপন্ন করে ii. দ্বারা অক্ষদ্বয়ের মধ্যবর্তী খণ্ডিতাংশের দৈর্ঘ্য =4 iii. y অক্ষকে (0,2) বিন্দুতে ছেদ করে নিচের কোনটি সঠিক?\n^{\\circ}",
     "options": {
       "a": "i ও ii",
       "b": "i ও iii",
@@ -170,7 +170,7 @@
   {
     "id": 13,
     "subject": "Higher Mathematics",
-    "question": "\\left(1,-\\sqrt{3}\\right)",
+    "question": "( 1 , − √ 3 ) ( 1 , − 3 ) বিন্দুর পোলার স্থানাঙ্ক কত ?\n\\left(1,-\\sqrt{3}\\right)",
     "options": {
       "a": "\\left(-2,\\frac{2\\pi}{3}\\right)",
       "b": "\\left(2,\\frac{\\pi}{3}\\right)",
@@ -226,7 +226,7 @@
   {
     "id": 17,
     "subject": "Higher Mathematics",
-    "question": "(1, \\sqrt(3))",
+    "question": "একটি বিন্দুর কার্তেসীয় স্থানাঙ্ক ( 1 , √ ( 3 ) ) ( 1 , ( 3 ) ) হলে বিন্দুটির পোলার স্থানাঙ্ক কত?\n(1, \\sqrt(3))",
     "options": {
       "a": "\\left(-2, \\frac{2 \\pi}{3}\\right)",
       "b": "\\left(2, \\frac{2 \\pi}{3}\\right)",
@@ -254,7 +254,7 @@
   {
     "id": 19,
     "subject": "Higher Mathematics",
-    "question": "x^2+y^2−4x−6y+c=0",
+    "question": "x 2 + y 2 − 4 x − 6 y + c = 0 𝑥 2 + 𝑦 2 − 4 𝑥 − 6 𝑦 + 𝑐 = 0 বৃত্তটি x অক্ষকে স্পর্শ করলে, c এর মান কত?\nx^2+y^2−4x−6y+c=0",
     "options": {
       "a": "0",
       "b": "4",
@@ -268,7 +268,7 @@
   {
     "id": 20,
     "subject": "Higher Mathematics",
-    "question": "x^{2}+y^{2}-4x-6y+c=0",
+    "question": "x 2 + y 2 − 4 x − 6 y + c = 0 𝑥 2 + 𝑦 2 − 4 𝑥 − 6 𝑦 + 𝑐 = 0 বৃত্তটি x-অক্ষকে স্পর্শ করলে, c এর মান কত?\nx^{2}+y^{2}-4x-6y+c=0",
     "options": {
       "a": "0",
       "b": "4",
@@ -296,7 +296,7 @@
   {
     "id": 22,
     "subject": "Higher Mathematics",
-    "question": "(x - y + 3) ^ 2 + (kx + 2)(y - 1) = 0",
+    "question": "k এর কোন মানের জন্য ( x − y + 3 ) 2 + ( k x + 2 ) ( y − 1 ) = 0 ( 𝑥 − 𝑦 + 3 ) 2 + ( 𝑘 𝑥 + 2 ) ( 𝑦 − 1 ) = 0 সমীকরণটি একটি বৃত্ত নির্দেশ করে?\n(x - y + 3) ^ 2 + (kx + 2)(y - 1) = 0",
     "options": {
       "a": "2",
       "b": "1",
@@ -310,7 +310,7 @@
   {
     "id": 23,
     "subject": "Higher Mathematics",
-    "question": "(x-2)^{2}+(y-3)^{2}=16",
+    "question": "( x − 2 ) 2 + ( y − 3 ) 2 = 16 ( 𝑥 − 2 ) 2 + ( 𝑦 − 3 ) 2 = 16 এবং ( x − 2 ) 2 + ( y − 10 ) 2 = 9 ( 𝑥 − 2 ) 2 + ( 𝑦 − 10 ) 2 = 9 বৃত্তদ্বয়ের স্পর্শবিন্দুর স্থানাংক-\n(x-2)^{2}+(y-3)^{2}=16 (x-2)^{2}+(y-10)^{2}=9",
     "options": {
       "a": "(2,3)",
       "b": "(16,9)",
@@ -338,7 +338,7 @@
   {
     "id": 25,
     "subject": "Higher Mathematics",
-    "question": "(3, – 1)",
+    "question": "( 3 , – 1 ) ( 3 , – 1 ) বিন্দুগামী এবং x 2 + y 2 − 6 x + 8 y = 0 𝑥 2 + 𝑦 2 − 6 𝑥 + 8 𝑦 = 0 বৃত্তের সাথে এককেন্দ্রিক বৃত্তের সমীকরণ কোনটি ।\n(3, – 1) x^{2}+y^{2}-6 x+8 y=0",
     "options": {
       "a": "x^{2}+y^{2}+6 x-8 y+16=0",
       "b": "x^{2}+y^{2}-6 x+8 y-16=0",
@@ -366,7 +366,7 @@
   {
     "id": 27,
     "subject": "Higher Mathematics",
-    "question": "x^{2}+y^{2}+8 x-4 y+c=0",
+    "question": "x 2 + y 2 + 8 x − 4 y + c = 0 𝑥 2 + 𝑦 2 + 8 𝑥 − 4 𝑦 + 𝑐 = 0 বৃত্তটি X অক্ষকে স্পর্শ করে c এর মান-\nx^{2}+y^{2}+8 x-4 y+c=0",
     "options": {
       "a": "16",
       "b": "2",
@@ -394,7 +394,7 @@
   {
     "id": 29,
     "subject": "Higher Mathematics",
-    "question": "2tan\\frac{x}{2}-1=0",
+    "question": "2 t a n x 2 − 1 = 0 2 𝑡 𝑎 𝑛 𝑥 2 − 1 = 0 হলে cosx এর মান কত?\n2tan\\frac{x}{2}-1=0",
     "options": {
       "a": "\\frac{5}{3}",
       "b": "\\frac{3}{5}",
@@ -408,7 +408,7 @@
   {
     "id": 30,
     "subject": "Higher Mathematics",
-    "question": "f\\left(\\theta\\right)=\\frac{1-tan\\theta}{1+tan\\theta}",
+    "question": "f ( θ ) = 1 − t a n θ 1 + t a n θ 𝑓 ( 𝜃 ) = 1 − 𝑡 𝑎 𝑛 𝜃 1 + 𝑡 𝑎 𝑛 𝜃 হলে ∫ ( π 4 − θ ) d θ ∫ ( 𝜋 4 − 𝜃 ) 𝑑 𝜃 এর মান কোনটি?\nf\\left(\\theta\\right)=\\frac{1-tan\\theta}{1+tan\\theta} \\int \\left(\\frac{\\pi}{4}-\\theta\\right) d\\theta",
     "options": {
       "a": "\\theta",
       "b": "\\theta",
@@ -422,7 +422,7 @@
   {
     "id": 31,
     "subject": "Higher Mathematics",
-    "question": "tan\\beta=\\frac{b}{a}",
+    "question": "t a n β = b a 𝑡 𝑎 𝑛 𝛽 = 𝑏 𝑎 হলে c o s 2 β 𝑐 𝑜 𝑠 2 𝛽 এর মান কত?\ntan\\beta=\\frac{b}{a} cos2\\beta",
     "options": {
       "a": "\\frac{2ab}{a^{2}+b^{2}}",
       "b": "\\frac{2ab}{a^{2}-b^{2}}",
@@ -436,7 +436,7 @@
   {
     "id": 32,
     "subject": "Higher Mathematics",
-    "question": "sin13^{^{\\circ}}=a",
+    "question": "s i n 13 ∘ = a 𝑠 𝑖 𝑛 13 ∘ = 𝑎 হলে, s i n 26 ∘ 𝑠 𝑖 𝑛 26 ∘ এর মান কত?\nsin13^{^{\\circ}}=a sin26^{^{\\circ}}",
     "options": {
       "a": "a",
       "b": "2a^{3}",
@@ -450,7 +450,7 @@
   {
     "id": 33,
     "subject": "Higher Mathematics",
-    "question": "\\underset{x\\to0}{lim}\\frac{sinbx}{x}=?",
+    "question": "l i m x → 0 s i n b x x = ? 𝑙 𝑖 𝑚 𝑥 → 0 𝑠 𝑖 𝑛 𝑏 𝑥 𝑥 = ?\n\\underset{x\\to0}{lim}\\frac{sinbx}{x}=?",
     "options": {
       "a": "\\frac{1}{b}",
       "b": "b",
@@ -464,7 +464,7 @@
   {
     "id": 34,
     "subject": "Higher Mathematics",
-    "question": "tan\\theta+2cot2\\theta=",
+    "question": "t a n θ + 2 c o t 2 θ = 𝑡 𝑎 𝑛 𝜃 + 2 𝑐 𝑜 𝑡 2 𝜃 = কত ?\ntan\\theta+2cot2\\theta=",
     "options": {
       "a": "cot\\theta",
       "b": "tan\\theta",
@@ -478,7 +478,7 @@
   {
     "id": 35,
     "subject": "Higher Mathematics",
-    "question": "\\triangle ABC",
+    "question": "△ A B C △ 𝐴 𝐵 𝐶 এ, BC = ৪ সে.মি. AB = 6 সে.মি. এবং AC = 10 সে.মি. হলে- i. ∠ C = π 2 ∠ 𝐶 = 𝜋 2 ii. পরিসীমা 24 সে.মি. iii. ক্ষেত্রফল - 24 বর্গ সে.মি নিচের কোনটি সঠিক?\n\\triangle ABC ∠C=\\frac{\\pi}{2}",
     "options": {
       "a": "i ও ii",
       "b": "i ও iii",
@@ -492,7 +492,7 @@
   {
     "id": 36,
     "subject": "Higher Mathematics",
-    "question": "\\angle C = ?",
+    "question": "একটি ত্রিভূজের a, b, c তিনটি বাহুর দৈর্ঘ্য যথাক্রমে 3, 5, 7 হলে, ∠ C = ? ∠ 𝐶 = ?\n\\angle C = ?",
     "options": {
       "a": "120^\\circ",
       "b": "\\cos^{-1}\\left(\\frac{11}{14}\\right)",
@@ -505,8 +505,22 @@
   },
   {
     "id": 37,
+    "subject": "Higher Mathematics",
+    "question": "একটি ত্রিজ্জের a, b, c তিনটি বাহুর দৈর্ঘ্য যথাক্রমে 3, 5, 7 হলে, ∠ ∠ C =\n∠",
+    "options": {
+      "a": "120°",
+      "b": "cos^{-1}\\left(\\frac{11}{14}\\right)",
+      "c": "cos^{-1}\\left(\\frac{13}{14}\\right)",
+      "d": "sin^{-1}\\left(\\frac{11}{14}\\right)"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 38,
     "subject": "Physics",
-    "question": "A = 6\\vec{i} - 8\\vec{j}, B = 8\\vec{i} - 3\\vec{j}, C = 26\\vec{i} - 19\\vec{j}",
+    "question": "A = 6 → i − 8 → j , B = 8 → i − 3 → j , C = 26 → i − 19 → j 𝐴 = 6 𝑖 → − 8 𝑗 → , 𝐵 = 8 𝑖 → − 3 𝑗 → , 𝐶 = 26 𝑖 → − 19 𝑗 → এবং যদি a → A + b → B + → C = → 0 𝑎 𝐴 → + 𝑏 𝐵 → + 𝐶 → = 0 → হয়, তবে a , b 𝑎 , 𝑏 এর মান কত?\nA = 6\\vec{i} - 8\\vec{j}, B = 8\\vec{i} - 3\\vec{j}, C = 26\\vec{i} - 19\\vec{j} a\\vec{A} + b\\vec{B} + \\vec{C} = \\vec{0} a, b",
     "options": {
       "a": "a=7, b=5",
       "b": "a=5, b=8",
@@ -518,9 +532,9 @@
     "explanationImage": null
   },
   {
-    "id": 38,
+    "id": 39,
     "subject": "Physics",
-    "question": "\\overrightarrow{A}=6\\widehat{i}–8\\widehat{j},\\overrightarrow{B}=-8\\widehat{i}+3\\widehat{j}",
+    "question": "তিনটি ভেক্টর → A = 6 ˆ i – 8 ˆ j , → B = − 8 ˆ i + 3 ˆ j 𝐴 → = 6 𝑖 ^ – 8 𝑗 ^ , 𝐵 → = − 8 𝑖 ^ + 3 𝑗 ^ এবং C = 26 ˆ i + 19 ˆ j 𝐶 = 26 𝑖 ^ + 19 𝑗 ^ দেওয়া আছে। যদি a → A + b → B + C = → O 𝑎 𝐴 → + 𝑏 𝐵 → + 𝐶 = 𝑂 → হয় তবে a ও b এর সম্ভাব্য মানগুলো হবে-\n\\overrightarrow{A}=6\\widehat{i}–8\\widehat{j},\\overrightarrow{B}=-8\\widehat{i}+3\\widehat{j} C=26\\widehat{i}+19\\widehat{j} a\\overrightarrow{A}+b\\overrightarrow{B}+C=\\overrightarrow{O}",
     "options": {
       "a": "a = 7 , b = 5",
       "b": "a = 5, b = 7",
@@ -532,9 +546,9 @@
     "explanationImage": null
   },
   {
-    "id": 39,
+    "id": 40,
     "subject": "Physics",
-    "question": "x=e^{-2t},y=2cos3t",
+    "question": "x = e − 2 t , y = 2 c o s 3 t 𝑥 = 𝑒 − 2 𝑡 , 𝑦 = 2 𝑐 𝑜 𝑠 3 𝑡 এবং z = 2 s i n 2 t 𝑧 = 2 𝑠 𝑖 𝑛 2 𝑡 দ্বারা বর্ণিত বক্রপথে একটি কণা ভ্রমণ করে। t = 0 সময়ে কণাটির বেগ কত হবে?\nx=e^{-2t},y=2cos3t z = 2sin 2t",
     "options": {
       "a": "-2\\widehat{i}+4\\widehat{k}",
       "b": "-2\\widehat{i}-6\\widehat{j}+4\\widehat{k}",
@@ -546,7 +560,7 @@
     "explanationImage": null
   },
   {
-    "id": 40,
+    "id": 41,
     "subject": "Higher Mathematics",
     "question": "নিচের কোনটি ভেক্টর রাশি নয়?",
     "options": {
@@ -560,7 +574,7 @@
     "explanationImage": null
   },
   {
-    "id": 41,
+    "id": 42,
     "subject": "Higher Mathematics",
     "question": "একটি 3 মানের ভেক্টরকে একটি 4 মানের ভেক্টরের সাথে যোগ করলে লব্ধি ভেক্টরের মান নিচের কোনটি হবে না?",
     "options": {
@@ -574,9 +588,9 @@
     "explanationImage": null
   },
   {
-    "id": 42,
+    "id": 43,
     "subject": "Physics",
-    "question": "\\overrightarrow{\\mathbf{P}}=2 \\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}-\\hat{\\mathbf{k}}",
+    "question": "→ P = 2 ^ i + 2 ^ j − ^ k 𝑃 → = 2 𝑖 ^ + 2 𝑗 ^ − 𝑘 ^ এবং → Q = 6 ^ i + 3 ^ j − 3 ^ k Q → = 6 𝑖 ^ + 3 𝑗 ^ − 3 𝑘 ^ ভেক্টরদ্বয়ের উভয়ের ওপর লম্ব দিকে একটি একক ভেক্টর কোনটি হবে?\n\\overrightarrow{\\mathbf{P}}=2 \\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}-\\hat{\\mathbf{k}} \\overrightarrow{\\mathrm{Q}}=6 \\hat{\\mathbf{i}}+3 \\hat{\\mathbf{j}}-3 \\hat{\\mathbf{k}}",
     "options": {
       "a": "-\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{k}}",
       "b": "-3 \\hat{i}-6 \\hat{k}",
@@ -588,7 +602,7 @@
     "explanationImage": null
   },
   {
-    "id": 43,
+    "id": 44,
     "subject": "Higher Mathematics",
     "question": "নিচের কোনটি ভেক্টর রাশি নয়?",
     "options": {
@@ -602,7 +616,7 @@
     "explanationImage": null
   },
   {
-    "id": 44,
+    "id": 45,
     "subject": "Higher Mathematics",
     "question": "কোনো কণা P(2, 3, 5) বিন্দু থেকে Q(3, 4, 5) বিন্দুতে স্থানান্তরিত হলে এর সরণ ভেক্টর কী হবে?",
     "options": {
@@ -616,9 +630,9 @@
     "explanationImage": null
   },
   {
-    "id": 45,
+    "id": 46,
     "subject": "Physics",
-    "question": "\\overrightarrow{\\mathbf{P}}=2 \\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}-\\hat{\\mathbf{k}}",
+    "question": "→ P = 2 ^ i + 2 ^ j − ^ k 𝑃 → = 2 𝑖 ^ + 2 𝑗 ^ − 𝑘 ^ এবং → Q = 6 ^ i + 3 ^ j − 3 ^ k 𝑄 → = 6 𝑖 ^ + 3 𝑗 ^ − 3 𝑘 ^ ভেক্টরদ্বয়ের উভয়ের ওপর লম্ব দিকে একটি একক ভেক্টর কোনটি হবে?\n\\overrightarrow{\\mathbf{P}}=2 \\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}-\\hat{\\mathbf{k}} \\vec{Q}=6 \\hat{i}+3 \\hat{j}-3 \\hat{k}",
     "options": {
       "a": "-\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{k}}",
       "b": "-3 \\hat{i}-6 \\hat{k}",
@@ -630,9 +644,9 @@
     "explanationImage": null
   },
   {
-    "id": 46,
+    "id": 47,
     "subject": "Higher Mathematics",
-    "question": "|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|=|\\overrightarrow{\\mathbf{A}} \\cdot \\overrightarrow{\\mathbf{B}}|",
+    "question": "| → A × → B | = | → A ⋅ → B | | 𝐴 → × 𝐵 → | = | 𝐴 → ⋅ 𝐵 → | হলে → A 𝐴 → ও → B 𝐵 → এর মধ্যবর্তী কোণ কত?\n|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|=|\\overrightarrow{\\mathbf{A}} \\cdot \\overrightarrow{\\mathbf{B}}| \\overrightarrow{\\mathbf{A}} \\overrightarrow{\\mathbf{B}}",
     "options": {
       "a": "0^{o}",
       "b": "30^{\\circ}",
@@ -644,7 +658,7 @@
     "explanationImage": null
   },
   {
-    "id": 47,
+    "id": 48,
     "subject": "Higher Mathematics",
     "question": "দুটি সমমানের ভেক্টর একটি বিন্দুতে ক্রিয়াশীল। এদের লব্ধির মান যে কোন একটি ভেক্টরের মানের সমান। ভেক্টর দু'টির মধ্যবর্তী কোণ কত?",
     "options": {
@@ -658,7 +672,7 @@
     "explanationImage": null
   },
   {
-    "id": 48,
+    "id": 49,
     "subject": "Physics",
     "question": "একটি চাকার জড়তার ভ্রামক 10 kgm²। চাকাটিতে 10 rad/s² কৌণিক ত্বরণ সৃষ্টি করতে কত টর্ক প্রয়োগ করতে হবে?",
     "options": {
@@ -672,7 +686,7 @@
     "explanationImage": null
   },
   {
-    "id": 49,
+    "id": 50,
     "subject": "Physics",
     "question": "বৃত্তাকার পথে 72 km/h সমদ্রুতিতে চলমান কোন গাড়ীর কেন্দ্রমুখী ত্বরণ 1 m/s² হলে, বৃত্তাকার পথের ব্যাসার্ধ কত?",
     "options": {
@@ -686,7 +700,7 @@
     "explanationImage": null
   },
   {
-    "id": 50,
+    "id": 51,
     "subject": "Physics",
     "question": "গাছ থেকে 2 kg ভরের একটি নারিকেল সোজা নিচের দিকে পড়ছে। বাতাসের বাধা 8.6 N হলে নারিকেলটির ত্বরণ কত?",
     "options": {
@@ -700,7 +714,7 @@
     "explanationImage": null
   },
   {
-    "id": 51,
+    "id": 52,
     "subject": "Physics",
     "question": "একজন সাইকেল আরোহী ঘণ্টায় 24 km বেগে 30 m ব্যাসার্ধের একটি বৃত্তাকার পথে মোড় নিচ্ছে। তাকে উল্লম্বের সাথে কত কোণে হেলে থাকতে হবে?",
     "options": {
@@ -714,7 +728,7 @@
     "explanationImage": null
   },
   {
-    "id": 52,
+    "id": 53,
     "subject": "Physics",
     "question": "একজন ফুটবলার 0.4 kg ভরের এবং 12 ms-1 বেগে আগত একটি ফুটবলকে কিক মারার ফলে সেটা বিপরীত দিকে 5 ms-1 বেগ প্রাপ্ত হলো। কি মারার সময়কাল 0.02 s হলে ফুটবলার কর্তৃক বলটির উপর প্রযুক্ত বল কত N?",
     "options": {
@@ -728,9 +742,9 @@
     "explanationImage": null
   },
   {
-    "id": 53,
+    "id": 54,
     "subject": "Physics",
-    "question": "2 \\mathrm{~ms}^{-1}",
+    "question": "সমান্তরাল সমবায়ে যুক্ত চারটি তামার তারের সাহায্যে 6 kg ভরের একটি বস্তুরে খাড়া উপরের দিকে 2 m s − 1 2 m s − 1 সমবেগে টানা হলে প্রতিটি তারে কত N টান পড়বে?\n2 \\mathrm{~ms}^{-1}",
     "options": {
       "a": "10.7",
       "b": "12.7",
@@ -742,9 +756,9 @@
     "explanationImage": null
   },
   {
-    "id": 54,
+    "id": 55,
     "subject": "Physics",
-    "question": "\\mathrm{ms}^{-2} ?",
+    "question": "গাছ থেকে 0.5 kg ভরের একটি আম খাড়া নিচের দিকে পড়ছে। বাতাসের বাধা যদি 2.4 N হয়, তাহলে আমটির ত্বরণ কত m s − 2 ? m s − 2 ?\n\\mathrm{ms}^{-2} ?",
     "options": {
       "a": "5.0",
       "b": "5.5",
@@ -756,9 +770,9 @@
     "explanationImage": null
   },
   {
-    "id": 55,
+    "id": 56,
     "subject": "Physics",
-    "question": "\\mathbf{v}_{1}",
+    "question": "v 1 𝑣 1 বেগের একটি বুলেট শুধুমাত্র নির্দিষ্ট পুরুত্বের একটি তক্তা ভেদ করতে পারে। এরূপ নয়টি তক্তা ভেদ করতে হলে ঐ বুলেটের বেগ কত হতে হবে?\n\\mathbf{v}_{1}",
     "options": {
       "a": "2 v_{1}",
       "b": "4 v_{1}",
@@ -770,9 +784,9 @@
     "explanationImage": null
   },
   {
-    "id": 56,
+    "id": 57,
     "subject": "Physics",
-    "question": "\\mathrm{kgms}^{-1}",
+    "question": "কোন বস্তুর উপর 15 N বল 3 s ধরে ক্রিয়া করলে বস্তুটির ভরবেগের পরিবর্তন কত k g m s − 1 k g m s − 1 ?\n\\mathrm{kgms}^{-1}",
     "options": {
       "a": "25",
       "b": "30",
@@ -784,9 +798,9 @@
     "explanationImage": null
   },
   {
-    "id": 57,
+    "id": 58,
     "subject": "Physics",
-    "question": "\\mathrm{ms}^{-1} ?",
+    "question": "একটি চাকার ব্যাসার্ধ 1 m। এটি মিনিটে 15 বার ঘুরলে এর প্রান্তের রৈখিক বেগ কত m s − 1 ? m s − 1 ?\n\\mathrm{ms}^{-1} ?",
     "options": {
       "a": "\\pi",
       "b": "\\frac{\\pi}{2}",
@@ -798,7 +812,7 @@
     "explanationImage": null
   },
   {
-    "id": 58,
+    "id": 59,
     "subject": "Physics",
     "question": "কেন্দ্রীয় বল F এর প্রভাবে r ব্যাসার্ধের বৃত্তাকার পথে ঘূর্ণনরত একটি কণার উপর ক্রিয়াশীল টর্কের মান-",
     "options": {
@@ -812,9 +826,9 @@
     "explanationImage": null
   },
   {
-    "id": 59,
+    "id": 60,
     "subject": "Physics",
-    "question": "3ms^{-2}",
+    "question": "ভূ-সমতলের সাথে 30° কোণে আনত পথে একটি 2kg ভরের বস্তুকে 3 m s − 2 3 𝑚 𝑠 − 2 ত্বরণে উঠাতে হলে বস্তুটির উপর কত নিউটন (N) বল প্রয়োগ করতে হবে?\n3ms^{-2}",
     "options": {
       "a": "6.8",
       "b": "11.8",
@@ -826,9 +840,9 @@
     "explanationImage": null
   },
   {
-    "id": 60,
+    "id": 61,
     "subject": "Physics",
-    "question": "1.2 \\ ms^{-1}",
+    "question": "5 kg ভরের একটি বস্তু 1.2 m s − 1 1.2 𝑚 𝑠 − 1 বেগে একটি দেয়ালে লম্বভাবে ধাক্কা খেয়ে 0.8 m s − 1 0.8 𝑚 𝑠 − 1 বেগে বিপরীত দিকে ফিরে আসলে বলের ঘাত কত Ns হবে?\n1.2 \\ ms^{-1} 0.8ms^{-1}",
     "options": {
       "a": "4",
       "b": "5",
@@ -840,9 +854,9 @@
     "explanationImage": null
   },
   {
-    "id": 61,
+    "id": 62,
     "subject": "Physics",
-    "question": "5 \\ ms^{-1}",
+    "question": "অনুভূমিক দিকে গতিশীল 2 kg ভরের একটি লৌহ গোলক 5 m s − 1 5 𝑚 𝑠 − 1 বেগে একটি দেয়ালে লম্বভাবে ধাক্কা খেয়ে 3 m s − 1 3 𝑚 𝑠 − 1 বেগে বিপরীতে ফিরে গেল।বলের ঘাত কত?\n5 \\ ms^{-1} 3 \\ ms^{-1}",
     "options": {
       "a": "16kgms−1",
       "b": "1.6kgms−1",
@@ -854,7 +868,7 @@
     "explanationImage": null
   },
   {
-    "id": 62,
+    "id": 63,
     "subject": "Physics",
     "question": "L দৈর্ঘ্য ও স্প্রিং ধ্রুবক k বিশিষ্ট একটি স্প্রিংকে কেটে সমান ৪ টুকরা করলে প্রতি টুকরার স্প্রিং ধ্রুবক কত হবে?",
     "options": {
@@ -868,7 +882,7 @@
     "explanationImage": null
   },
   {
-    "id": 63,
+    "id": 64,
     "subject": "Physics",
     "question": "একটি 5 kg ভরের বস্তু 30 m উচ্চতা থেকে মুক্তভাবে অভিকর্ষ বলের প্রভাবে পড়লে 3s পরে তার গতিশক্তি কত হবে?",
     "options": {
@@ -882,7 +896,7 @@
     "explanationImage": null
   },
   {
-    "id": 64,
+    "id": 65,
     "subject": "Physics",
     "question": "কোন বস্তুর গতিশক্তি 300% বৃদ্ধি করা হলে উক্ত বস্তুর ভরবেগ বাড়বে -",
     "options": {
@@ -896,7 +910,7 @@
     "explanationImage": null
   },
   {
-    "id": 65,
+    "id": 66,
     "subject": "Physics",
     "question": "250 m উঁচু একটি ঝরনা থেকে পানি মাটিতে পড়ে অনুভূমিকভাবে নির্দিষ্ট গতিবেগে গড়িয়ে যাচ্ছে। শক্তির অপচয় অগ্রাহ্য করলে পানির বেগ কত?",
     "options": {
@@ -910,7 +924,7 @@
     "explanationImage": null
   },
   {
-    "id": 66,
+    "id": 67,
     "subject": "Higher Mathematics",
     "question": "200 g ভরের একটি বস্তু 20 m ওপর থেকে পড়লে ভূমি স্পর্শ করার পূর্ব মুহূর্তে গতিশক্তি কত হবে?",
     "options": {
@@ -924,7 +938,7 @@
     "explanationImage": null
   },
   {
-    "id": 67,
+    "id": 68,
     "subject": "Physics",
     "question": "500 g ভরের একটি কণার উপর (6x² - 4x) N বল ক্রিয়া করায় বস্তুটি বলের দিকে x = 0 অবস্থান হতে x = 2 অবস্থানে সরে গেলে বলের দ্বারা কৃত কাজের পরিমাণ কত J?",
     "options": {
@@ -938,7 +952,7 @@
     "explanationImage": null
   },
   {
-    "id": 68,
+    "id": 69,
     "subject": "Physics",
     "question": "হিরাবস্থা থেকে 20 kg ভরের কোনো বস্তু একটি নির্দিষ্ট বলের ক্রিয়ার ফলে 3 s পর 6 ms¹ বেগ অর্জন করলে 5s পর এর গতিশক্তি কত kJ?",
     "options": {
@@ -952,7 +966,7 @@
     "explanationImage": null
   },
   {
-    "id": 69,
+    "id": 70,
     "subject": "Physics",
     "question": "সংরক্ষণশীল বল দ্বারা 1 kg ভরের একটি বস্তুকে A থেকে B বিন্দুতে নেয়া হলে এবং B থেকে A বিন্দুতে ফিরিয়ে আনা হলো। বস্তুটির উপর কত J কাজ করা হলো?",
     "options": {
@@ -966,7 +980,7 @@
     "explanationImage": null
   },
   {
-    "id": 70,
+    "id": 71,
     "subject": "Physics",
     "question": "একটি দালানের ছাদের সাথে লাগানো 10m লম্বা একটি মই ভূমির সাথে 30° কোণে আনত আছে। 68 kg ভরের এক ব্যক্তি 12 kg ভরের জিনিসসহ 19.6s এ মই বেয়ে ছাদে উঠে। ঐ ব্যক্তি কত ওয়াট (W) ক্ষমতা প্রয়োগ করেছে?",
     "options": {
@@ -980,7 +994,7 @@
     "explanationImage": null
   },
   {
-    "id": 71,
+    "id": 72,
     "subject": "Physics",
     "question": "একটি দালানের ছাদের সাথে লাগানো 10m একটি মই ভূমির সাথে 30° কোণে আনত আছে। 68 kg ভরের এক ব্যক্তি 12 kg ভরের জিনিসসহ 19.6 s এ মই বেয়ে ছাদে ওঠে। ঐ ব্যক্তি কত ওয়াট (W) ক্ষমতা প্রয়োগ করেছে?",
     "options": {
@@ -994,7 +1008,7 @@
     "explanationImage": null
   },
   {
-    "id": 72,
+    "id": 73,
     "subject": "Physics",
     "question": "একটি গাড়ির ইঞ্জিন 200 kN বল প্রয়োগ করে এবং গাড়িটি এক মিনিটে 21 m স্থানচ্যুতি হয়। গাড়িটির ক্ষমতা কত?",
     "options": {
@@ -1008,7 +1022,7 @@
     "explanationImage": null
   },
   {
-    "id": 73,
+    "id": 74,
     "subject": "Physics",
     "question": "1g ভরের একটি বস্তুকে 0.5m ব্যাসার্ধের একটি আনুভূমিক বৃত্তাকার পথে 2m / s সমদ্রুতিতে ঘোরানো হচ্ছে। এক পূর্ণ ঘূর্ণনের জন্য প্রয়োজনীয় কাজের মান কত?",
     "options": {
@@ -1022,7 +1036,7 @@
     "explanationImage": null
   },
   {
-    "id": 74,
+    "id": 75,
     "subject": "Physics",
     "question": "1 g ভরের একটি বস্তুকে 0.5 m ব্যাসার্ধের একটি আনুভূমিক বৃত্তাকার পথে 2 m/s সমদ্রুতিতে ঘোরানো হচ্ছে। এক পূর্ণ ঘূর্ণনের জন্য প্রয়োজনীয় কাজের মান কত?",
     "options": {
@@ -1036,7 +1050,7 @@
     "explanationImage": null
   },
   {
-    "id": 75,
+    "id": 76,
     "subject": "Physics",
     "question": "কোন ব্যক্তি 30° ঢালের 5m উঁচু ঘর্ষণবিহীন তল বরাবর একটি 100N ব্লক টেনে তুলছে। ব্লকটি সমদ্রুতিতে চললে ব্যক্তি কী পরিমাণ কাজ করবে?",
     "options": {
@@ -1050,7 +1064,7 @@
     "explanationImage": null
   },
   {
-    "id": 76,
+    "id": 77,
     "subject": "Chemistry",
     "question": "নিম্নে কোন যুগল একে অপরের আইসোবার?",
     "options": {
@@ -1064,7 +1078,7 @@
     "explanationImage": null
   },
   {
-    "id": 77,
+    "id": 78,
     "subject": "Chemistry",
     "question": "হাইড্রোজেন পরমাণুর একটি ইলেকট্রন ১ম শক্তিস্তর থেকে দ্বিতীয় শক্তিবদ্যরে গেলে কী হবে?",
     "options": {
@@ -1078,7 +1092,7 @@
     "explanationImage": null
   },
   {
-    "id": 78,
+    "id": 79,
     "subject": "Chemistry",
     "question": "n = 4 এর জন্য অরবিটাল সংখ্যা কত?",
     "options": {
@@ -1092,9 +1106,9 @@
     "explanationImage": null
   },
   {
-    "id": 79,
+    "id": 80,
     "subject": "Higher Mathematics",
-    "question": "\\overline{\\mathbf{e}}",
+    "question": "আর্সেনিক এর n = 3 , l = 1 এর জন্য কতটি ¯¯¯ e 𝑒 ¯ আছে?\n\\overline{\\mathbf{e}}",
     "options": {
       "a": "4",
       "b": "10",
@@ -1106,7 +1120,7 @@
     "explanationImage": null
   },
   {
-    "id": 80,
+    "id": 81,
     "subject": "Chemistry",
     "question": "UV রশ্মি দ্বারা জাল টাকা শণাক্তকরণে কী হয়?",
     "options": {
@@ -1120,9 +1134,9 @@
     "explanationImage": null
   },
   {
-    "id": 81,
+    "id": 82,
     "subject": "Chemistry",
-    "question": "K_{s p}=1.6 \\times 10^{-10}",
+    "question": "AgCI এর K s p = 1.6 × 10 − 10 𝐾 𝑠 𝑝 = 1.6 × 10 − 10 Ag এর পারমাণবিক ভর 108 হলে 1L এ Ag এর পরিমাণ?\nK_{s p}=1.6 \\times 10^{-10}",
     "options": {
       "a": "1.5 \\times 10^{-4} \\mathrm{~g}",
       "b": "2.3 \\times 10^{-3} \\mathrm{~g}",
@@ -1134,9 +1148,9 @@
     "explanationImage": null
   },
   {
-    "id": 82,
+    "id": 83,
     "subject": "Chemistry",
-    "question": "\\mathrm{Cl}^{-}",
+    "question": "AgCl এর দ্রবণে নিম্নের কোনটি যোগ করলে C l − C l − এর ঘনমাত্রা বৃদ্ধি পাবে?\n\\mathrm{Cl}^{-}",
     "options": {
       "a": "\\mathrm{AgNO}_{3}",
       "b": "AgCl",
@@ -1148,25 +1162,25 @@
     "explanationImage": null
   },
   {
-    "id": 83,
+    "id": 84,
     "subject": "Physics",
     "question": "নিচের কোনটিকে তাপীয় বিকিরণ বলে?",
     "options": {
       "a": "IR-radiation",
       "b": "X-radiation",
       "c": "UV-radiation",
-      "d": "\\gamma \\text { -radiation}"
+      "d": " \\gamma \\text { -radiation}"
     },
     "correctAnswer": "a",
     "questionImage": null,
     "explanationImage": null
   },
   {
-    "id": 84,
+    "id": 85,
     "subject": "Chemistry",
-    "question": "\\text {1 m}",
+    "question": "কতটি হাইড্রোজেন পরমাণু পাশাপাশি সাজালে 1 m 1 m হবে? [ধরে নাও, প্রতিটি হাইড্রোজেন পরমাণুর ব্যাসার্ধ 0.53 ´ Å ] 0.53 Å ´ ]\n \\text {1 m}  \\text {0.53 } \\mathrm {\\acute{Å}]}",
     "options": {
-      "a": "\\mathrm {1.8 × 10^{10}}",
+      "a": " \\mathrm {1.8 × 10^{10}}",
       "b": "\\mathrm {1.787 × 10^{10}}",
       "c": "\\mathrm {1.8868 × 10^{10}}",
       "d": "None"
@@ -1176,7 +1190,7 @@
     "explanationImage": null
   },
   {
-    "id": 85,
+    "id": 86,
     "subject": "Higher Mathematics",
     "question": "কোন আয়নটি বর্ণহীন?",
     "options": {
@@ -1190,9 +1204,9 @@
     "explanationImage": null
   },
   {
-    "id": 86,
-    "subject": "Chemistry",
-    "question": "\\mathrm {{p b}\\left(\\mathrm{NO}_{3}\\right)_{2} \\xrightarrow{\\Delta} {A}+{P b O}+{O}_{2} ;}",
+    "id": 87,
+    "subject": "Higher Mathematics",
+    "question": "p b ( N O 3 ) 2 Δ −→ A + P b O + O 2 ; p b ( N O 3 ) 2 → Δ A + P b O + O 2 ; এখানে A A -গ্যাসটির বর্ণ কোনটি?\n \\mathrm {{p b}\\left(\\mathrm{NO}_{3}\\right)_{2} \\xrightarrow{\\Delta} {A}+{P b O}+{O}_{2} ;}  \\text A",
     "options": {
       "a": "বেগুনি",
       "b": "বাদামি",
@@ -1204,51 +1218,51 @@
     "explanationImage": null
   },
   {
-    "id": 87,
+    "id": 88,
     "subject": "Higher Mathematics",
     "question": "নিচের কোনটি রঙিন গ্যাস?",
     "options": {
-      "a": "\\mathrm {N_2O}",
-      "b": "\\mathrm {NO_2}",
-      "c": "\\mathrm {NO}",
-      "d": "\\mathrm {N_2O_2}"
+      "a": " \\mathrm {N_2O}",
+      "b": " \\mathrm {NO_2}",
+      "c": " \\mathrm {NO}",
+      "d": " \\mathrm {N_2O_2}"
     },
     "correctAnswer": "b",
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 88,
-    "subject": "Chemistry",
-    "question": "কোন ধাতু বাংলাদেশে স্বাভাবিক তাপমাত্রায় শীতকালে কঠিন কিন্তু গরমকালে তরল থাকতে পারে?",
-    "options": {
-      "a": "\\mathrm {Cs}",
-      "b": "\\mathrm {Mg}",
-      "c": "\\mathrm {Na}",
-      "d": "\\mathrm {K}"
-    },
-    "correctAnswer": "a",
     "questionImage": null,
     "explanationImage": null
   },
   {
     "id": 89,
     "subject": "Chemistry",
-    "question": "সাপের বিষে কোন ধাতু থাকে?",
+    "question": "কোন ধাতু বাংলাদেশে স্বাভাবিক তাপমাত্রায় শীতকালে কঠিন কিন্তু গরমকালে তরল থাকতে পারে?",
     "options": {
-      "a": "\\mathrm {Pb}",
-      "b": "\\mathrm {Zn}",
-      "c": "\\mathrm {Cr}",
-      "d": "\\mathrm {Fe}"
+      "a": " \\mathrm {Cs}",
+      "b": " \\mathrm {Mg}",
+      "c": " \\mathrm {Na}",
+      "d": " \\mathrm {K}"
     },
-    "correctAnswer": "b",
+    "correctAnswer": "a",
     "questionImage": null,
     "explanationImage": null
   },
   {
     "id": 90,
     "subject": "Chemistry",
-    "question": "\\mathrm {(i) ~ H + H →H_2 \\\\ (ii) ~ HCl → H^+ + Cl^- \\\\ (iii) H + e → H^-}",
+    "question": "সাপের বিষে কোন ধাতু থাকে?",
+    "options": {
+      "a": " \\mathrm {Pb}",
+      "b": " \\mathrm {Zn}",
+      "c": " \\mathrm {Cr}",
+      "d": " \\mathrm {Fe}"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 91,
+    "subject": "Chemistry",
+    "question": "হাইড্রোজেন পরমাণুর জন্য নিচের বিক্রিয়াগুলো দেয়া হলো- ( i ) H + H → H 2 ( i i ) H C l → H + + C l − ( i i i ) H + e → H − ( i ) H + H → H 2 ( i i ) H C l → H + + C l − ( i i i ) H + e → H − হাইড্রোজেন পরমাণুর উপরের কোন বিক্রিয়া/বিক্রিয়াসমূহ হ্যালোজেনের বিক্রিয়া সদৃশ?\n \\mathrm {(i) ~  H + H →H_2 \\\\  (ii) ~ HCl → H^+ + Cl^- \\\\ (iii) H + e → H^-}",
     "options": {
       "a": "i, ii",
       "b": "i, iii",
@@ -1260,7 +1274,7 @@
     "explanationImage": null
   },
   {
-    "id": 91,
+    "id": 92,
     "subject": "Chemistry",
     "question": "কয়েকটি ধাতব যৌগের d- অরবিটালের ইলেকট্রন বিন্যাস নিম্নরূপ। কোন যৌগটি বেশী প্যারাম্যাগনেটিক হবে?",
     "options": {
@@ -1274,7 +1288,7 @@
     "explanationImage": null
   },
   {
-    "id": 92,
+    "id": 93,
     "subject": "Higher Mathematics",
     "question": "বরফের জ্যামিতিক আকৃতি কোনটি ?",
     "options": {
@@ -1288,9 +1302,9 @@
     "explanationImage": null
   },
   {
-    "id": 93,
+    "id": 94,
     "subject": "Chemistry",
-    "question": "s p^{2}",
+    "question": "s p 2 𝑠 𝑝 2 সংকরণ দ্বারা একটি কার্বন কোন বন্ধন গঠন করে ?\ns p^{2}",
     "options": {
       "a": "4 \\pi \\text {-bonds }",
       "b": "2 \\pi \\text {-bonds and } 2 \\sigma \\text {-bonds }",
@@ -1302,7 +1316,7 @@
     "explanationImage": null
   },
   {
-    "id": 94,
+    "id": 95,
     "subject": "Chemistry",
     "question": "কয়েকটি ধাতব যৌগের d অরবিটালের ইলেকট্রন বিন্যাস নিম্নরূপ। কোন যৌগটি বেশি প্যারাম্যাগনেটিক হবে?",
     "options": {
@@ -1316,7 +1330,7 @@
     "explanationImage": null
   },
   {
-    "id": 95,
+    "id": 96,
     "subject": "Chemistry",
     "question": "sp2 সংকরণ দ্বারা একটি কার্বন কোন বন্ধন গঠন করে?",
     "options": {
