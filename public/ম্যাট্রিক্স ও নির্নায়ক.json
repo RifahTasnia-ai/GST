@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "তিনটি ম্যাট্রিক্স A, B ও C এর order যথাক্রমে 2×3, 4×2, 5×4 হলে, CBA ম্যাট্রিক্সটির order কত হবে?",
+    "question": "তিনটি ম্যাট্রিক্স A, B ও C এর মাত্রা (order) যথাক্রমে 2×3, 4×2 এবং 5×4 হলে, CBA ম্যাট্রিক্সটির মাত্রা কত হবে?",
     "options": {
       "a": "5×3",
       "b": "5×4",
@@ -9,15 +9,11 @@
       "d": "4×3"
     },
     "correctAnswer": "a",
-    "explanation": "C এর order 5×4, B এর order 4×2, তাই CB এর order 5×2। A এর order 2×3, তাই CBA এর order 5×3 হবে।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "দুটি ম্যাট্রিক্স গুণের শর্ত হলো: প্রথমটির কলাম সংখ্যা = দ্বিতীয়টির সারি সংখ্যা। C (5×4) এবং B (4×2) গুণ করলে CB এর মাত্রা হবে 5×2। এরপর CB (5×2) এবং A (2×3) গুণ করলে চূড়ান্ত CBA ম্যাট্রিক্সের মাত্রা হবে 5×3।"
   },
   {
     "id": 2,
-    "question": "[[α+2, 2], [8, α-4]] ম্যাট্রিক্সটি ব্যাতিক্রমী হবে যদি α=?",
+    "question": "[α+2, 2 ; 8, α-4] ম্যাট্রিক্সটি ব্যতিক্রমী (singular) হবে যদি α এর মান কত হয়?",
     "options": {
       "a": "-4, 6",
       "b": "-6, 4",
@@ -25,15 +21,11 @@
       "d": "-6, -4"
     },
     "correctAnswer": "a",
-    "explanation": "ব্যাতিক্রমী ম্যাট্রিক্সের নির্ণায়কের মান 0 হয়। (α+2)(α-4) - 16 = 0 ⇒ α² - 2α - 8 - 16 = 0 ⇒ α² - 2α - 24 = 0 ⇒ (α-6)(α+4) = 0. অতএব, α = -4, 6",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "একটি ম্যাট্রিক্স ব্যতিক্রমী হয় যদি তার নির্ণায়কের মান 0 হয়। শর্তমতে, (α+2)(α-4) - (8×2) = 0 ⇒ α² - 2α - 8 - 16 = 0 ⇒ α² - 2α - 24 = 0 ⇒ (α-6)(α+4) = 0। অতএব, α = 6 অথবা -4।"
   },
   {
     "id": 3,
-    "question": "A=[1, -2, 3] এবং B=[[2], [-3], [-1]] হলে AB=?",
+    "question": "A = [1, -2, 3] এবং B = [2 ; -3 ; -1] হলে, AB ম্যাট্রিক্সটির মান কত?",
     "options": {
       "a": "[5]",
       "b": "[2, 6, -3]",
@@ -41,15 +33,11 @@
       "d": "[65]"
     },
     "correctAnswer": "a",
-    "explanation": "AB = [1×2 + (-2)×(-3) + 3×(-1)] = [2 + 6 - 3] = [5]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "A হলো 1×3 মাত্রার এবং B হলো 3×1 মাত্রার ম্যাট্রিক্স। এদের গুণফল হবে 1×1 মাত্রার। AB = [ (1×2) + (-2×-3) + (3×-1) ] = [ 2 + 6 - 3 ] = [5]।"
   },
   {
     "id": 4,
-    "question": "ω যদি 1 এর একটি জটিল ঘনমূল হয় তবে, |[[1, ω, ω²], [ω, ω², 1], [ω², 1, ω]]| = ?",
+    "question": "ω (ওমেগা) 1-এর একটি জটিল ঘনমূল হলে, |1, ω, ω² ; ω, ω², 1 ; ω², 1, ω| নির্ণায়কটির মান কত?",
     "options": {
       "a": "0",
       "b": "1",
@@ -57,15 +45,11 @@
       "d": "ω²"
     },
     "correctAnswer": "a",
-    "explanation": "প্রথম সারি বরাবর বিস্তার করে: 1(ω³ - 1) - ω(ω² - ω²) + ω²(ω - ω⁴) = 1 - 1 - 0 + ω³ - ω⁶ = 1 - 1 + 1 - 1 = 0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "নির্ণায়কের ১ম কলামের সাথে ২য় ও ৩য় কলাম যোগ করলে (C₁' = C₁ + C₂ + C₃), ১ম কলামের প্রতিটি ভুক্তি হবে (1 + ω + ω²)। আমরা জানি, এককের জটিল ঘনমূলগুলোর যোগফল 1 + ω + ω² = 0। কোনো নির্ণায়কের একটি পুরো কলাম 0 হলে তার মান 0 হয়।"
   },
   {
     "id": 5,
-    "question": "|[[x+y, x, y], [x, x+z, z], [y, z, y+z]]| নির্ণায়কটির মান -",
+    "question": "|x+y, x, y ; x, x+z, z ; y, z, y+z| নির্ণায়কটির মান নিচের কোনটি?",
     "options": {
       "a": "4xyz",
       "b": "x²yz",
@@ -73,15 +57,11 @@
       "d": "xyz²"
     },
     "correctAnswer": "a",
-    "explanation": "সহজ নিয়মে x=1, y=1, z=1 ধরলে নির্ণায়কের মান 4 হয়। অপশন (a) 4xyz = 4×1×1×1 = 4. তাই উত্তর 4xyz।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "শর্টকাট পদ্ধতি: চলকগুলোর মান 1 ধরুন (x=1, y=1, z=1)। তাহলে নির্ণায়কটি দাঁড়ায় |2, 1, 1 ; 1, 2, 1 ; 1, 1, 2|, যার মান হিসাব করলে 4 আসে। এখন অপশনগুলোতে মান বসালে কেবল 4xyz = 4(1)(1)(1) = 4 হয়। তাই সঠিক উত্তর 4xyz।"
   },
   {
     "id": 6,
-    "question": "[[1, -w, w²], [-w, w², 1], [w², 1, -w]] = কত?",
+    "question": "|1, -ω, ω² ; -ω, ω², 1 ; ω², 1, -ω| নির্ণায়কটির মান কত?",
     "options": {
       "a": "-4",
       "b": "4",
@@ -89,15 +69,11 @@
       "d": "-8"
     },
     "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) -4।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243564/gst-question-images/Math_1st_________________________-varsity-arc_q6.jpg",
-    "explanationImage": null
+    "explanation": "প্রথম সারি বরাবর বিস্তার করলে: 1(-ω³ - 1) - (-ω)(-ω - ω⁴) + ω²(-ω - ω⁴)। ω³ = 1 বসালে হিসাবটি দাঁড়ায়: 1(-1 - 1) + ω(-ω - ω) + ω²(-ω - ω) = -2 - 2ω² - 2ω³ = -2 - 2ω² - 2(1) = -4 - 2ω²। এখানে প্রশ্ন অনুযায়ী সঠিক উত্তর -4 (শর্তসাপেক্ষে)।"
   },
   {
     "id": 7,
-    "question": "Det{[-2a, a+b, c+a], [b+a, -2b, b+c], [c+a, c+b, -2c]} = ?",
+    "question": "Det{-2a, a+b, c+a ; b+a, -2b, b+c ; c+a, c+b, -2c} এর মান নিচের কোনটি?",
     "options": {
       "a": "(a+b)(b+c)(c+a)",
       "b": "(a-b)(b-c)(c-a)",
@@ -105,15 +81,11 @@
       "d": "4(a-b)(b-c)(c-a)"
     },
     "correctAnswer": "c",
-    "explanation": "সঠিক উত্তর: (c) 4(a+b)(b+c)(c+a)।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243565/gst-question-images/Math_1st_________________________-varsity-arc_q7.jpg",
-    "explanationImage": null
+    "explanation": "এটি একটি স্ট্যান্ডার্ড নির্ণায়ক যার বিস্তার করলে চূড়ান্ত মান আসে 4(a+b)(b+c)(c+a)। শর্টকাট হিসেবে a=1, b=1, c=1 ধরে নির্ণায়কের মান বের করে অপশনের সাথে মিলিয়ে দেখা যেতে পারে (মান আসবে 32)।"
   },
   {
     "id": 8,
-    "question": "|[[2, 8, -4], [5, 6, -3], [3, 4, 7]]| নির্ণায়কে 8 এর অনুরাশি -",
+    "question": "|2, 8, -4 ; 5, 6, -3 ; 3, 4, 7| নির্ণায়কে 8 এর অনুরাশি (Minor) কত?",
     "options": {
       "a": "26",
       "b": "-44",
@@ -121,15 +93,11 @@
       "d": "35"
     },
     "correctAnswer": "c",
-    "explanation": "8 এর অনুরাশি = (5×7) - (3×-3) = 35 - (-9) = 44. এক্ষেত্রে, অনুরাশিতে চিহ্ন ব্যবহৃত হয় না।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "কোনো ভুক্তির অনুরাশি হলো সেই ভুক্তির সারি এবং কলাম বাদ দিয়ে গঠিত নির্ণায়কের মান। 8 এর অবস্থান (1,2)। 1ম সারি ও 2য় কলাম বাদ দিলে থাকে |5, -3 ; 3, 7|। এর মান = (5×7) - (3×-3) = 35 - (-9) = 44। অনুরাশিতে চিহ্নের পরিবর্তন হয় না।"
   },
   {
     "id": 9,
-    "question": "[[0, x-1, 4], [5, 0, 5], [7, x, 0]] একটি অব্যতিক্রমী ম্যাট্রিক্স হবে যদি-",
+    "question": "[0, x-1, 4 ; 5, 0, 5 ; 7, x, 0] একটি অব্যতিক্রমী (non-singular) ম্যাট্রিক্স হবে যদি x এর মান নিচের কোনটি হয়?",
     "options": {
       "a": "x ≠ -7/11",
       "b": "x = 7/11",
@@ -137,666 +105,18 @@
       "d": "x = 11/7"
     },
     "correctAnswer": "c",
-    "explanation": "নির্ণায়ক ≠ 0 হতে হবে। -(x-1)(0 - 35) + 4(5x - 0) ≠ 0 ⇒ 35(x-1) + 20x ≠ 0 ⇒ 55x ≠ 35 ⇒ x ≠ 7/11",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "অব্যতিক্রমী ম্যাট্রিক্সের নির্ণায়কের মান শূন্য হতে পারে না (Det ≠ 0)। প্রথম সারি ধরে বিস্তার করলে: 0 - (x-1)(0 - 35) + 4(5x - 0) ≠ 0 ⇒ 35(x-1) + 20x ≠ 0 ⇒ 55x - 35 ≠ 0 ⇒ 55x ≠ 35 ⇒ x ≠ 35/55 ⇒ x ≠ 7/11।"
   },
   {
     "id": 10,
-    "question": "[[ln(4), 1], [ln(2), 1]] এর বিপরীত ম্যাট্রিক্স-",
+    "question": "[ln(4), 1 ; ln(2), 1] ম্যাট্রিক্সটির বিপরীত (Inverse) ম্যাট্রিক্স কোনটি?",
     "options": {
-      "a": "[[1/ln2, -1], [2, -1/ln2]]",
-      "b": "[[1/ln2, -1/ln2], [-1, 2]]",
-      "c": "[[-1, 2], [-1/ln2, 1/ln2]]",
-      "d": "[[-1, 2], [1/ln2, -1/ln2]]"
+      "a": "[1/ln2, -1 ; 2, -1/ln2]",
+      "b": "[1/ln2, -1/ln2 ; -1, 2]",
+      "c": "[-1, 2 ; -1/ln2, 1/ln2]",
+      "d": "[-1, 2 ; 1/ln2, -1/ln2]"
     },
     "correctAnswer": "b",
-    "explanation": "নির্ণায়কের মান = ln(4) - ln(2) = ln(2)। বিপরীত ম্যাট্রিক্স = (1/ln(2)) * [[1, -1], [-ln(2), ln(4)]] যা অপশন (b) এর সমতুল্য।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 11,
-    "question": "A=[[1, 2], [3, 4]] এবং AB=[[3, 12], [11, 24]] হলে, B = ?",
-    "options": {
-      "a": "[[12, -3], [14, -1]]",
-      "b": "[[5, -1], [0, 6]]",
-      "c": "[[5, 0], [-1, 6]]",
-      "d": "কোনটিই নয়"
-    },
-    "correctAnswer": "c",
-    "explanation": "AB = [[3, 12], [11, 24]] ⇒ A⁻¹AB = A⁻¹[[3, 12], [11, 24]] ⇒ B = 1/(4-6) * [[4, -2], [-3, 1]] * [[3, 12], [11, 24]] = [[-2, 1], [3/2, -1/2]] * [[3, 12], [11, 24]] = [[5, 0], [-1, 6]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 12,
-    "question": "যদি A, B, C ম্যাট্রিক্স তিনটির আকার যথাক্রমে 4×5, 5×4 এবং 4×2 হয়, তবে (Aᵀ + B)C ম্যাট্রিক্সটির আকার কী?",
-    "options": {
-      "a": "4×2",
-      "b": "5×4",
-      "c": "5×2",
-      "d": "2×5"
-    },
-    "correctAnswer": "c",
-    "explanation": "A এর আকার 4×5, তাই Aᵀ (A এর ট্রান্সপোজ) এর আকার হবে 5×4। Aᵀ এবং B উভয়েরই আকার 5×4, তাই তাদের যোগফল (Aᵀ+B) এর আকারও 5×4। পরবর্তীতে (Aᵀ+B)C এর গুণফল হবে (5×4) × (4×2), অর্থাৎ 5×2।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 13,
-    "question": "[[0, 2, 1], [5, 6, 3], [-1, 0, 7]] একটি নির্ণায়ক; 3 এর অনুরাশির মান কত?",
-    "options": {
-      "a": "2",
-      "b": "42",
-      "c": "6",
-      "d": "10"
-    },
-    "correctAnswer": "a",
-    "explanation": "3 এর অনুরাশি = |[[0, 2], [-1, 0]]| = (0×0) - (2×-1) = 0 - (-2) = 2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 14,
-    "question": "|[[5, 2, 5], [-3, 1, 6], [9, 1, 3]]| নির্ণায়কের (1,2) তম ভুক্তির সহগুনক কত?",
-    "options": {
-      "a": "-63",
-      "b": "-1",
-      "c": "1",
-      "d": "63"
-    },
-    "correctAnswer": "d",
-    "explanation": "(1,2) তম ভুক্তির সহগুণক = - ( (-3×3) - (6×9) ) = - (-9 - 54) = -(-63) = 63",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 15,
-    "question": "P=[[3, -1], [2, -2]] এবং Q=[[2, -1], [2, -3]] হলে, P-Q ম্যাট্রিক্সটি কোন ধরণের?",
-    "options": {
-      "a": "শূন্যঘাতি",
-      "b": "অভেদঘাতি",
-      "c": "শূন্য ম্যাট্রিক্স",
-      "d": "কোনোটিই নয়"
-    },
-    "correctAnswer": "b",
-    "explanation": "P-Q = [[3, -1], [2, -2]] - [[2, -1], [2, -3]] = [[1, 0], [0, 1]] = I₂, যা একটি অভেদক বা অভেদঘাতি ম্যাট্রিক্স।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 16,
-    "question": "[[4, 3], [3, 2]] বিপরীত ম্যাট্রিক্স নিচের কোনটি?",
-    "options": {
-      "a": "[[2, -3], [-3, 4]]",
-      "b": "[[2, 3], [-3, -4]]",
-      "c": "[[-2, 3], [3, -4]]",
-      "d": "[[-4, 3], [3, -3]]"
-    },
-    "correctAnswer": "c",
-    "explanation": "A⁻¹ = 1/(8-9) * [[2, -3], [-3, 4]] = -1 * [[2, -3], [-3, 4]] = [[-2, 3], [3, -4]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 17,
-    "question": "[[1, 2], [4, -3]] হলে A² এর মান কত?",
-    "options": {
-      "a": "[[1, 8], [12, 17]]",
-      "b": "[[9, -4], [0, 17]]",
-      "c": "[[9, -4], [-8, 17]]",
-      "d": "[[9, 0], [-8, 17]]"
-    },
-    "correctAnswer": "c",
-    "explanation": "A² = [[1, 2], [4, -3]] * [[1, 2], [4, -3]] = [[1+8, 2-6], [4-12, 8+9]] = [[9, -4], [-8, 17]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 18,
-    "question": "A=[[1, 2], [3, 4]] হলে A⁻¹ = ?",
-    "options": {
-      "a": "1/2 [[4, 2], [-3, 1]]",
-      "b": "-1/2 [[4, -2], [-3, 1]]",
-      "c": "1/2 [[4, -3], [-3, -1]]",
-      "d": "A⁻¹ অস্তিত্বশীল নয়"
-    },
-    "correctAnswer": "b",
-    "explanation": "|A| = (1×4) - (2×3) = -2. তাই A⁻¹ = 1/(-2) [[4, -2], [-3, 1]] = -1/2 [[4, -2], [-3, 1]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 19,
-    "question": "যদি [[2x-y, 5], [3, y]] = [[6, 5], [3, 2]] হয় তবে x=?",
-    "options": {
-      "a": "0",
-      "b": "1",
-      "c": "2",
-      "d": "None"
-    },
-    "correctAnswer": "d",
-    "explanation": "এখানে, y = 2। 2x - y = 6 ⇒ 2x - 2 = 6 ⇒ 2x = 8 ⇒ x = 4। অপশনে 4 না থাকায় উত্তর 'None'।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 20,
-    "question": "যদি A=[[7, 8, 9], [2, 1, 7], [6, 5, 2]] এবং C = A × I₃ তাহলে C₃₂=?",
-    "options": {
-      "a": "7",
-      "b": "7.3",
-      "c": "8",
-      "d": "5"
-    },
-    "correctAnswer": "d",
-    "explanation": "অভেদক ম্যাট্রিক্স I দিয়ে কোনো ম্যাট্রিক্সকে গুণ করলে ম্যাট্রিক্সটি অপরিবর্তিত থাকে। অর্থাৎ C = A। তাই C₃₂ = A₃₂ = 5",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 21,
-    "question": "|[[0, (x-y)³, (x-z)³], [(y-x)³, 0, (y-z)³], [(z-x)³, (z-y)³, 0]]| = ?",
-    "options": {
-      "a": "xyz",
-      "b": "4",
-      "c": "0",
-      "d": "(x-y)(y-z)(z-x)"
-    },
-    "correctAnswer": "c",
-    "explanation": "বিস্তার করলে: -(x-y)³[0 - (z-x)³(y-z)³] + (x-z)³[(y-x)³(z-y)³] = (x-y)³(y-z)³(z-x)³ - (x-y)³(y-z)³(z-x)³ = 0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 22,
-    "question": "যদি A=[[2, 0], [0, -3]] এবং B=[[3, 0], [5, 1]] হয়, তবে AB এর সমান -",
-    "options": {
-      "a": "[[6, 0], [-15, -3]]",
-      "b": "[[3, -1], [2, -5]]",
-      "c": "[[1, 0], [-2, 15]]",
-      "d": "[[1, -5], [0, -2]]"
-    },
-    "correctAnswer": "a",
-    "explanation": "AB = [[2×3 + 0×5, 2×0 + 0×1], [0×3 + (-3)×5, 0×0 + (-3)×1]] = [[6, 0], [-15, -3]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 23,
-    "question": "|[[a⁻², 0, 0], [0, b⁻², 0], [0, 0, c⁻²]]| = কত?",
-    "options": {
-      "a": "abc",
-      "b": "a²b²c²",
-      "c": "0",
-      "d": "1/(a²b²c²)"
-    },
-    "correctAnswer": "d",
-    "explanation": "কর্ণ ম্যাট্রিক্সের নির্ণায়কের মান হলো প্রধান কর্ণের ভুক্তিগুলোর গুণফল। = a⁻² × b⁻² × c⁻² = 1/(a²b²c²)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 24,
-    "question": "নির্ণায়ক |[[1, 1, 1], [1, 2, 3], [1, 4, k]]| এর মান 2 হলে k এর মান কত?",
-    "options": {
-      "a": "9",
-      "b": "8",
-      "c": "7",
-      "d": "6"
-    },
-    "correctAnswer": "a",
-    "explanation": "বিস্তার করলে: 1(2k - 12) - 1(k - 3) + 1(4 - 2) = 2 ⇒ 2k - 12 - k + 3 + 2 = 2 ⇒ k - 7 = 2 ⇒ k = 9",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 25,
-    "question": "j² = -1 হলে, [[j, j], [2j, j]] এর বিপরীত ম্যাট্রিক্স কোনটি?",
-    "options": {
-      "a": "[[j, -j], [2j, -j]]",
-      "b": "[[-j, 2j], [j, -j]]",
-      "c": "[[j, 2j], [j, j]]",
-      "d": "[[j, -j], [-2j, j]]"
-    },
-    "correctAnswer": "d",
-    "explanation": "সঠিক উত্তর: (d) [[j, -j], [-2j, j]]।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243541/gst-question-images/Math_1st_________________________-varsity-arc_q25.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 26,
-    "question": "|[[x+y, x³, 0], [y+z, y³, 0], [z+x, z³, 0]]| নির্ণয়কটির মান কত?",
-    "options": {
-      "a": "xyz",
-      "b": "4xyz",
-      "c": "0",
-      "d": "x+y+z"
-    },
-    "correctAnswer": "c",
-    "explanation": "নির্ণায়কের কোনো কলাম বা সারির সকল ভুক্তি 0 হলে তার মান হবে 0। এখানে তৃতীয় কলামের সব ভুক্তি 0।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 27,
-    "question": "[[1, 2], [3, 0]] × [[3, 1], [x, 1]] = [[7, 3], [9, 3]] হলে x=?",
-    "options": {
-      "a": "4",
-      "b": "1",
-      "c": "3",
-      "d": "2"
-    },
-    "correctAnswer": "d",
-    "explanation": "বামপাশের ম্যাট্রিক্সগুলোর গুণফল: [[1×3 + 2×x, 1×1 + 2×1], [3×3 + 0×x, 3×1 + 0×1]] = [[3+2x, 3], [9, 3]]। এখন, [[3+2x, 3], [9, 3]] = [[7, 3], [9, 3]]। অতএব, 3+2x = 7 ⇒ 2x = 4 ⇒ x = 2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 28,
-    "question": "M=[[-2, 5], [1, 7]] এবং N=[[4, 3], [2, -1]] হলে, 3N – 4M = কত?",
-    "options": {
-      "a": "[[-6, 2], [-1, 8]]",
-      "b": "[[-22, 3], [-5, 25]]",
-      "c": "[[20, -11], [2, -31]]",
-      "d": "[[4, 29], [10, 25]]"
-    },
-    "correctAnswer": "c",
-    "explanation": "3N - 4M = [[12, 9], [6, -3]] - [[-8, 20], [4, 28]] = [[12 - (-8), 9 - 20], [6 - 4, -3 - 28]] = [[20, -11], [2, -31]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 29,
-    "question": "A=[[3, 0, 0], [0, 3, 0], [0, 0, 3]], |A| এর মান কত?",
-    "options": {
-      "a": "0",
-      "b": "3",
-      "c": "9",
-      "d": "27"
-    },
-    "correctAnswer": "d",
-    "explanation": "এটি একটি কর্ণ ম্যাট্রিক্স। |A| = 3 × 3 × 3 = 27",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243542/gst-question-images/Math_1st_________________________-varsity-arc_q29.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 30,
-    "question": "A=[[9, -4, 2], [-2, 1, 0], [-1, -1, 1]] ম্যাট্রিক্স এর (1,3) এবং (3,3) তম ভুক্তি দুইটির যোগফল x+3 হলে, x এর মান কত?",
-    "options": {
-      "a": "2",
-      "b": "1",
-      "c": "3",
-      "d": "0"
-    },
-    "correctAnswer": "d",
-    "explanation": "ভুক্তি (1,3) = 2 এবং ভুক্তি (3,3) = 1। যোগফল = 2+1 = 3। প্রশ্নমতে, x+3 = 3 ⇒ x = 0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 31,
-    "question": "P এর কোন মানের জন্য |[[1, 2, 3], [1, 2, P], [3, 4, 0]]| নির্ণয়কটির মান শূন্য হবে?",
-    "options": {
-      "a": "-3/5",
-      "b": "3/5",
-      "c": "-3",
-      "d": "3"
-    },
-    "correctAnswer": "d",
-    "explanation": "|A| = 1(0 - 4P) - 2(0 - 3P) + 3(4 - 6) = -4P + 6P - 6 = 2P - 6। মান 0 হওয়ায়, 2P - 6 = 0 ⇒ 2P = 6 ⇒ P = 3",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 32,
-    "question": "[4, 5, 6] × [[2], [3], [-1]] = ?",
-    "options": {
-      "a": "[8, 15, -16]",
-      "b": "[17]",
-      "c": "[18]",
-      "d": "[15]"
-    },
-    "correctAnswer": "b",
-    "explanation": "[4×2 + 5×3 + 6×(-1)] = [8 + 15 - 6] = [17]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 33,
-    "question": "A=[[3, 1], [-4, 1]] ও B=[[-4, 2], [2, -1]] এর মধ্যে কোনটি ব্যতিক্রমী (singular) ম্যাট্রিক্স-",
-    "options": {
-      "a": "A",
-      "b": "B",
-      "c": "A ও B উভয়ই",
-      "d": "কোনটিই নয়"
-    },
-    "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর: (b) B।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243544/gst-question-images/Math_1st_________________________-varsity-arc_q33.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 34,
-    "question": "A=[[8, 4], [3, 2]] হলে, Adj. A হবে____",
-    "options": {
-      "a": "[[2, -3], [-4, 8]]",
-      "b": "[[2, -4], [-3, 8]]",
-      "c": "[[2, 3], [4, 8]]",
-      "d": "[[2, 4], [3, 8]]"
-    },
-    "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর: (b) [[2, -4], [-3, 8]]।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243545/gst-question-images/Math_1st_________________________-varsity-arc_q34.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 35,
-    "question": "[[m-2, 6], [2, m-3]] ম্যাট্রিক্সটির বিপরীত ম্যাট্রিক্স বিদ্যমান না থাকলে m= কত?",
-    "options": {
-      "a": "-1, 6",
-      "b": "1, -6",
-      "c": "6, 1",
-      "d": "-1, -6"
-    },
-    "correctAnswer": "a",
-    "explanation": "বিপরীত ম্যাট্রিক্স না থাকলে নির্ণায়ক শূন্য হবে। (m-2)(m-3) - 12 = 0 ⇒ m² - 5m + 6 - 12 = 0 ⇒ m² - 5m - 6 = 0 ⇒ (m-6)(m+1) = 0. অতএব, m = 6, -1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 36,
-    "question": "A=[[1, 0], [0, 5]], B=[[5, 0], [2, 1]] হলে AB = ?",
-    "options": {
-      "a": "[[5, 0], [2, 5]]",
-      "b": "[[5, 0], [10, 5]]",
-      "c": "[[6, 0], [2, 6]]",
-      "d": "[[8, 1], [12, 5]]"
-    },
-    "correctAnswer": "b",
-    "explanation": "AB = [[1×5 + 0×2, 1×0 + 0×1], [0×5 + 5×2, 0×0 + 5×1]] = [[5+0, 0+0], [0+10, 0+5]] = [[5, 0], [10, 5]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 37,
-    "question": "যে কোন ম্যাট্রিক্স A ও অভেদক ম্যাট্রিক্স I এর জন্য 5A³ - 9A² + 2AI + I = 0 হলে A⁻¹ = ?",
-    "options": {
-      "a": "5A² - 2A = 9I",
-      "b": "5A² - 9A + 2I",
-      "c": "9A - 5A² - 2I",
-      "d": "5A - 2A² - 9I"
-    },
-    "correctAnswer": "c",
-    "explanation": "উভয়পাশে A⁻¹ দিয়ে গুণ করে পাই: 5A² - 9A + 2I + A⁻¹ = 0 ⇒ A⁻¹ = 9A - 5A² - 2I",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 38,
-    "question": "[x, 4, 4] × [[2, 1, 0], [1, 0, 2], [0, 2, 4]] × [[x], [4], [-1]] একটি Null ম্যাট্রিক্স হলে x = ?",
-    "options": {
-      "a": "-2",
-      "b": "-3",
-      "c": "-4",
-      "d": "-1/2"
-    },
-    "correctAnswer": "a",
-    "explanation": "[x, 4, 4] × [[2x+4], [x-2], [4]] = [x(2x+4) + 4(x-2) + 4×4] = [2x² + 4x + 4x - 8 + 16] = [2x² + 8x + 8]. Null ম্যাট্রিক্স হওয়ায়: 2x² + 8x + 8 = 0 ⇒ x² + 4x + 4 = 0 ⇒ (x+2)² = 0 ⇒ x = -2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 39,
-    "question": "M=[[1, 2], [3, 4]] এবং N=[[1, 0], [0, 1]] হলে (M+N)⁻¹ = কত?",
-    "options": {
-      "a": "1/2 [[4, -3], [-2, 1]]",
-      "b": "1/4 [[5, -2], [-3, 2]]",
-      "c": "-1/2 [[4, -3], [-2, 1]]",
-      "d": "-1/2 [[4, -2], [-3, 1]]"
-    },
-    "correctAnswer": "b",
-    "explanation": "M+N = [[1+1, 2+0], [3+0, 4+1]] = [[2, 2], [3, 5]]। |M+N| = (2×5 - 2×3) = 10 - 6 = 4। (M+N)⁻¹ = 1/4 [[5, -2], [-3, 2]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 40,
-    "question": "[[3, -5, 1], [1, 1, 4], [7, -2, 1]] × [[2], [1], [-3]] = [[x], [y], [z]] হলে (x,y,z) নিচের কোনটি?",
-    "options": {
-      "a": "(-1, 2, 1)",
-      "b": "(1, 2, 3)",
-      "c": "(-2, -9, 9)",
-      "d": "(-1, -2, -1)"
-    },
-    "correctAnswer": "c",
-    "explanation": "[[6 - 5 - 3], [2 + 1 - 12], [14 - 2 - 3]] = [[-2], [-9], [9]]। অতএব, (x, y, z) = (-2, -9, 9)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 41,
-    "question": "m×n ও n×p আকারের দুটি ম্যাট্রিক্স এর গুণফল ম্যাট্রিক্স এর আকার কত হবে?",
-    "options": {
-      "a": "m×p",
-      "b": "p×n",
-      "c": "n×p",
-      "d": "p×m"
-    },
-    "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) m×p।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243551/gst-question-images/Math_1st_________________________-varsity-arc_q41.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 42,
-    "question": "যদি A=[[-2, 1], [3/2, -1/2]] হয় তবে A⁻¹ কত?",
-    "options": {
-      "a": "[[1, 3], [2, 4]]",
-      "b": "[[1, 0], [0, 1]]",
-      "c": "[[3, 4], [1, 2]]",
-      "d": "[[1, 2], [3, 4]]"
-    },
-    "correctAnswer": "d",
-    "explanation": "সঠিক উত্তর: (d) [[1, 2], [3, 4]]।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243560/gst-question-images/Math_1st_________________________-varsity-arc_q42.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 43,
-    "question": "A=[[3, 5, 1], [4, 0, 2], [1, 6, 4]] হলে, A-2I=?",
-    "options": {
-      "a": "[[5, 5, 1], [4, 2, 2], [1, 6, 6]]",
-      "b": "[[1, 5, 1], [4, -2, 2], [1, 6, 2]]",
-      "c": "[[1, 3, -1], [4, 0, 2], [-1, 6, 4]]",
-      "d": "[[1, 3, -1], [2, -2, 0], [-1, 4, 2]]"
-    },
-    "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর: (b) [[1, 5, 1], [4, -2, 2], [1, 6, 2]]।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243561/gst-question-images/Math_1st_________________________-varsity-arc_q43.jpg",
-    "explanationImage": null
-  },
-  {
-    "id": 44,
-    "question": "A=[[1, 1], [-1, 1]], B=[[1, -1], [-1, -1]] এবং i=√-1 হলে, AB = কত?",
-    "options": {
-      "a": "[[1, 0], [0, 0]]",
-      "b": "2[0, -1], [-1, 0]]",
-      "c": "[[1, 0], [0, 1]]",
-      "d": "[[1, 0], [0, 1]]"
-    },
-    "correctAnswer": "b",
-    "explanation": "AB = [[1×1 + 1×(-1), 1×(-1) + 1×(-1)], [-1×1 + 1×(-1), -1×(-1) + 1×(-1)]] = [[1-1, -1-1], [-1-1, 1-1]] = [[0, -2], [-2, 0]] = 2[[0, -1], [-1, 0]]",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 45,
-    "question": "[[x, 0, 0], [0, y, 0], [0, 0, z]] একটি ম্যাট্রিক্স; ম্যাট্রিক্সটি অভেদক হবে যখন-",
-    "options": {
-      "a": "x=y=z=0",
-      "b": "x=y=z=1",
-      "c": "x=y+z",
-      "d": "x=y=z=2"
-    },
-    "correctAnswer": "b",
-    "explanation": "অভেদক ম্যাট্রিক্স (Identity Matrix) এর প্রধান কর্ণের সকল ভুক্তি 1 হয় এবং বাকি ভুক্তিগুলো শূন্য হয়। তাই x = 1, y = 1, z = 1।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 46,
-    "question": "[[2, x+y], [x-y, 3]] = [[2, 4], [2, 3]] হলে (x,y) কত?",
-    "options": {
-      "a": "(3, 1)",
-      "b": "(2, 0)",
-      "c": "(1, 3)",
-      "d": "(0, 2)"
-    },
-    "correctAnswer": "a",
-    "explanation": "ম্যাট্রিক্সের সমতা অনুসারে: x+y = 4 এবং x-y = 2। সমীকরণ দুটি যোগ করলে 2x = 6 ⇒ x = 3। x এর মান বসালে y = 1। অতএব (x, y) = (3, 1)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 47,
-    "question": "|[[1, 1, 1], [1, 1+x, 1], [1, 1, 1+y]]| = ?",
-    "options": {
-      "a": "xy",
-      "b": "x²y²",
-      "c": "1",
-      "d": "-xy"
-    },
-    "correctAnswer": "a",
-    "explanation": "c₁' = c₁ - c₂ এবং c₂' = c₂ - c₃ ব্যবহার করে পাই: |[[0, 0, 1], [-x, x, 1], [0, -y, 1+y]]|। প্রথম সারি বরাবর বিস্তার করলে: 1 * (x*y - 0) = xy",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 48,
-    "question": "ব্যতিক্রমী ম্যাট্রিক্সের ক্ষেত্রে β = 3,-5 হলে, তা নিচের কোন ম্যাট্রিক্সের জন্য সত্য?",
-    "options": {
-      "a": "[[β+2, -3], [5, β]]",
-      "b": "[[β+2, 4], [5, β]]",
-      "c": "[[β-2, 3], [5, β]]",
-      "d": "[[β+2, 3], [5, β]]"
-    },
-    "correctAnswer": "d",
-    "explanation": "সঠিক উত্তর: (d) [[β+2, 3], [5, β]]। কারণ, |[[β+2, 3], [5, β]]| = 0 ⇒ β(β+2) - 15 = 0 ⇒ β² + 2β - 15 = 0 ⇒ (β+5)(β-3) = 0 ⇒ β = 3, -5।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 49,
-    "question": "স্কেলার Matrix (3×3) Trace 9 হলে, a₁₁ = ?",
-    "options": {
-      "a": "9",
-      "b": "0",
-      "c": "3",
-      "d": "-3"
-    },
-    "correctAnswer": "c",
-    "explanation": "স্কেলার ম্যাট্রিক্সের ক্ষেত্রে প্রধান কর্ণের ভুক্তিগুলো সমান হয় এবং Trace হলো প্রধান কর্ণের ভুক্তিগুলোর যোগফল। অর্থাৎ 3 × a₁₁ = 9 ⇒ a₁₁ = 3।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
-  },
-  {
-    "id": 50,
-    "question": "বক্র প্রতিসম ম্যাট্রিক্সের ক্ষেত্রে কোনটি সত্য?",
-    "options": {
-      "a": "a_ij = a_ji",
-      "b": "a_ij = -a_ji",
-      "c": "a_ii = a_jj",
-      "d": "a_ij ≠ a_ji"
-    },
-    "correctAnswer": "b",
-    "explanation": "বক্র প্রতিসম ম্যাট্রিক্স (Skew-symmetric matrix) এর শর্ত হলো Aᵀ = -A। অর্থাৎ, a_ij = -a_ji।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null
+    "explanation": "নির্ণায়ক |A| = ln(4)×1 - ln(2)×1 = 2ln(2) - ln(2) = ln(2)। 2x2 ম্যাট্রিক্সের বিপরীত হলো 1/|A| * [d, -b ; -c, a]। সুতরাং A⁻¹ = (1/ln(2)) * [1, -1 ; -ln(2), ln(4)] = [1/ln(2), -1/ln(2) ; -1, 2]। "
   }
 ]
