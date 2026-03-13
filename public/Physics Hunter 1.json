@@ -1,0 +1,1332 @@
+[
+  {
+    "id": 1,
+    "subject": "Higher Mathematics",
+    "question": "\\left|\\begin{array}{lll}0 & 3 & 2 x+7 \\\\2 & 7 x & 9+5 x \\\\0 & 0 & 2 x+5\\end{array}\\right|=0",
+    "options": {
+      "a": "-\\frac{9}{5}",
+      "b": "-\\frac{7}{2}",
+      "c": "-\\frac{5}{2}",
+      "d": "0"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 2,
+    "subject": "Higher Mathematics",
+    "question": "A=\\left[\\begin{array}{cc}1 & i \\\\-i & 1\\end{array}\\right],",
+    "options": {
+      "a": "\\left[\\begin{array}{ll}1 & 0 \\\\0 & 1\\end{array}\\right]",
+      "b": "\\left[\\begin{array}{ll}0 & 0 \\\\0 & 0\\end{array}\\right]",
+      "c": "\\left[\\begin{array}{ll}\\mathrm{i} & 0 \\\\0 & \\mathrm{i}\\end{array}\\right]",
+      "d": "\\left[\\begin{array}{ll}\\mathrm{i} & 1 \\\\1 & \\mathrm{i}\\end{array}\\right]"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 3,
+    "subject": "Higher Mathematics",
+    "question": "A=\\left[\\begin{array}{cc}1 & i \\\\-i & 1\\end{array}\\right], B=\\left[\\begin{array}{cc}i & -1 \\\\-1 & -i\\end{array}\\right]",
+    "options": {
+      "a": "\\left[\\begin{array}{ll}1 & 0 \\\\0 & 1\\end{array}\\right]",
+      "b": "\\left[\\begin{array}{ll}0 & 0 \\\\0 & 0\\end{array}\\right]",
+      "c": "\\left[\\begin{array}{ll}\\mathrm{i} & 0 \\\\0 & \\mathrm{i}\\end{array}\\right]",
+      "d": "\\left[\\begin{array}{ll}\\mathrm{i} & 1 \\\\1 & \\mathrm{i}\\end{array}\\right]"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 4,
+    "subject": "Higher Mathematics",
+    "question": "\\left|\\begin{array}{lll}\\mathbf{a} & \\mathbf{1} & \\mathbf{b}+\\mathbf{c} \\\\\\mathbf{b} & \\mathbf{1} & \\mathbf{c}+\\mathbf{a}\\\\\\mathbf{c} & \\mathbf{1} & \\mathbf{a}+\\mathbf{b}\\end{array}\\right|",
+    "options": {
+      "a": "0",
+      "b": "abc(a+b) (b+c) (c+a)",
+      "c": "abc",
+      "d": "(a+b) (b+c) (c+a)"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 5,
+    "subject": "Higher Mathematics",
+    "question": "A=\\left(\\begin{array}{cc}-2 & 1 \\\\3 / 2 & -1 / 2\\end{array}\\right)",
+    "options": {
+      "a": "\\left(\\begin{array}{ll}1 & 3 \\\\2 & 4\\end{array}\\right)",
+      "b": "\\left(\\begin{array}{ll}1 & 0 \\\\0 & 1\\end{array}\\right)",
+      "c": "\\left(\\begin{array}{ll}3 & 4 \\\\1 & 2\\end{array}\\right)",
+      "d": "\\left(\\begin{array}{ll}1 & 2 \\\\3 & 4\\end{array}\\right)"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 6,
+    "subject": "Higher Mathematics",
+    "question": "\\left|\\begin{array}{lll}1 & b c & b c(b+c) \\\\1 & c a & c a(c+a) \\\\1 & a b & a b(a+b)\\end{array}\\right|",
+    "options": {
+      "a": "-2",
+      "b": "-1",
+      "c": "1",
+      "d": "0"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 7,
+    "subject": "Higher Mathematics",
+    "question": "A=\\left[\\begin{array}{ll}4 & 2 \\\\3 & 5\\end{array}\\right] ; \\quad B=\\left[\\begin{array}{l}6 \\\\1\\end{array}\\right] ; \\quad X=\\left[\\begin{array}{l}x \\\\y\\end{array}\\right]",
+    "options": {
+      "a": "2, -1",
+      "b": "3, -1",
+      "c": "-1, 3",
+      "d": "-1, 1"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 8,
+    "subject": "Higher Mathematics",
+    "question": "\\left(A^{T}+B\\right) C",
+    "options": {
+      "a": "4×2",
+      "b": "4x3",
+      "c": "4 × 4",
+      "d": "4 x 5"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 9,
+    "subject": "Higher Mathematics",
+    "question": "A একটি 2 x 3 ম্যাট্রিক্স এবং B একটি 3 × 2 ম্যাট্রিক্স তাহলে BA ম্যাট্রিক্সের অর্ডার হবে-",
+    "options": {
+      "a": "2x3",
+      "b": "2x2",
+      "c": "3×2",
+      "d": "3x3"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 10,
+    "subject": "Higher Mathematics",
+    "question": "A=\\left[\\begin{array}{ll}2 & 3 \\\\1 & 3\\end{array}\\right],",
+    "options": {
+      "a": "2 × 3",
+      "b": "2 × 1",
+      "c": "3 × 1",
+      "d": "3 × 2"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 11,
+    "subject": "Higher Mathematics",
+    "question": "(0, - 1) বিন্দুগামী 2x + 3y + 2 = 0 রেখার সমান্তরাল রেখার সমীকরণ-",
+    "options": {
+      "a": "2x + 3y + 3 = 0",
+      "b": "2x + 3y - 3 = 0",
+      "c": "3x - 2y - 2 = 0",
+      "d": "3x + 2y + 2 = 0"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 12,
+    "subject": "Higher Mathematics",
+    "question": "^{\\circ}",
+    "options": {
+      "a": "i ও ii",
+      "b": "i ও iii",
+      "c": "ii ও iii",
+      "d": "i, ii ও iii"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 13,
+    "subject": "Higher Mathematics",
+    "question": "\\left(1,-\\sqrt{3}\\right)",
+    "options": {
+      "a": "\\left(-2,\\frac{2\\pi}{3}\\right)",
+      "b": "\\left(2,\\frac{\\pi}{3}\\right)",
+      "c": "\\left(2,-\\frac{2\\pi}{3}\\right)",
+      "d": "\\left(2,\\frac{5\\pi}{3}\\right)"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 14,
+    "subject": "Higher Mathematics",
+    "question": "3x - 4y + 1 = 0 এবং kx + 3y + 5 = 0 রেখান্বয় পরস্পর লম্ব হলে k এর মান কত?",
+    "options": {
+      "a": "4",
+      "b": "\\frac{4}{3}",
+      "c": "-\\frac{3}{4}",
+      "d": "-1"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 15,
+    "subject": "Higher Mathematics",
+    "question": "3x+7y=21 এবং 2ax−3by+6=0 সমীকরণদ্বয় একই সরলরেখা প্রকাশ করলে a এবং b এর মান কত?",
+    "options": {
+      "a": "a=1,b=2",
+      "b": "a=37​,b=32​",
+      "c": "a=0,b=1",
+      "d": "a=21​,b=4"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 16,
+    "subject": "Higher Mathematics",
+    "question": "3x + 7y = 21 এবং 2ax - 3by + 6 = 0 সমীকরণদ্বয় একই সরলরেখা প্রকাশ করলে a এবং b এর মান কত?",
+    "options": {
+      "a": "a = 1 , b = 2",
+      "b": "a=\\frac{-3}{7},b=\\frac{2}{3}",
+      "c": "a = 0 , b = 1",
+      "d": "a=\\frac{1}{2},b=4"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 17,
+    "subject": "Higher Mathematics",
+    "question": "(1, \\sqrt(3))",
+    "options": {
+      "a": "\\left(-2, \\frac{2 \\pi}{3}\\right)",
+      "b": "\\left(2, \\frac{2 \\pi}{3}\\right)",
+      "c": "\\left(2,-\\frac{\\pi}{3}\\right)",
+      "d": "\\left(2, \\frac{\\pi}{3}\\right)"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 18,
+    "subject": "Higher Mathematics",
+    "question": "(7, 7) এবং (-5, -10) বিন্দু দুইটির সংযোগ রেখাংশ y অক্ষকে কোনঅনুপাতে ছেদ করে?",
+    "options": {
+      "a": "7:10",
+      "b": "10:7",
+      "c": "7:5",
+      "d": "5:7"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 19,
+    "subject": "Higher Mathematics",
+    "question": "x^2+y^2−4x−6y+c=0",
+    "options": {
+      "a": "0",
+      "b": "4",
+      "c": "1",
+      "d": "12"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 20,
+    "subject": "Higher Mathematics",
+    "question": "x^{2}+y^{2}-4x-6y+c=0",
+    "options": {
+      "a": "0",
+      "b": "4",
+      "c": "1",
+      "d": "12"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 21,
+    "subject": "Higher Mathematics",
+    "question": "একটি বৃত্ত x-অক্ষকে মূলবিন্দুতে স্পর্শ করে এবং (1, 3) বিন্দু দিয়ে যায় বৃত্তটির সমীকরণ কোনটি?",
+    "options": {
+      "a": "2 x^{2}+2 y^{2}-9 x=0",
+      "b": "2 x^{2}+2 y^{2}+9 y=0",
+      "c": "3 x^{2}+3 y^{2}-10 y=0",
+      "d": "3 x^{2}+3 y^{2}+15 x=0"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 22,
+    "subject": "Higher Mathematics",
+    "question": "(x - y + 3) ^ 2 + (kx + 2)(y - 1) = 0",
+    "options": {
+      "a": "2",
+      "b": "1",
+      "c": "-2",
+      "d": "-1"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 23,
+    "subject": "Higher Mathematics",
+    "question": "(x-2)^{2}+(y-3)^{2}=16",
+    "options": {
+      "a": "(2,3)",
+      "b": "(16,9)",
+      "c": "(2,10)",
+      "d": "(2,7)"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 24,
+    "subject": "Higher Mathematics",
+    "question": "নিম্নের কোন বৃত্তটি x-অক্ষকে স্পর্শ করে?",
+    "options": {
+      "a": "x^{2}+y^{2}-2 x+6 y+4=0",
+      "b": "x^{2}+y^{2}-4 x+6 y+5=0",
+      "c": "x^{2}+y^{2}-2 x+6 y+1=0)",
+      "d": "2 x^{2}+2 y^{2}-2 x+6 y+3=0"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 25,
+    "subject": "Higher Mathematics",
+    "question": "(3, – 1)",
+    "options": {
+      "a": "x^{2}+y^{2}+6 x-8 y+16=0",
+      "b": "x^{2}+y^{2}-6 x+8 y-16=0",
+      "c": "x^{2}+y^{2}-6 x+8 y+16=0",
+      "d": "x^{2}+y^{2}-6 x-8 y+16=0"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 26,
+    "subject": "Higher Mathematics",
+    "question": "(2, 4) কেন্দ্রবিশিষ্ট ও X অক্ষকে স্পর্শ করে এমন বৃত্তের সমীকরণ-",
+    "options": {
+      "a": "x^{2}+y^{2}-4 x-8 y+16=0",
+      "b": "x^{2}+y^{2}-4 x-8 y+4=0",
+      "c": "x^{2}+y^{2}-8 x-4 y+4=0",
+      "d": "x^{2}+y^{2}-8 x-4 y+4=0"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 27,
+    "subject": "Higher Mathematics",
+    "question": "x^{2}+y^{2}+8 x-4 y+c=0",
+    "options": {
+      "a": "16",
+      "b": "2",
+      "c": "4",
+      "d": "16"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 28,
+    "subject": "Higher Mathematics",
+    "question": "একটি বৃত্ত y-অক্ষকে স্পর্শ করে এবং (3,0) ও ( 7,0) বিন্দু দিয়ে যায়। বৃত্তটির কেন্দ্রের স্থানাংক হবে-",
+    "options": {
+      "a": "(4, \\pm \\sqrt{20})",
+      "b": "(4, \\pm 5)",
+      "c": "(5,21)",
+      "d": "(5, \\pm \\sqrt{21})"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 29,
+    "subject": "Higher Mathematics",
+    "question": "2tan\\frac{x}{2}-1=0",
+    "options": {
+      "a": "\\frac{5}{3}",
+      "b": "\\frac{3}{5}",
+      "c": "\\frac{2}{5}",
+      "d": "\\frac{5}{2}"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 30,
+    "subject": "Higher Mathematics",
+    "question": "f\\left(\\theta\\right)=\\frac{1-tan\\theta}{1+tan\\theta}",
+    "options": {
+      "a": "\\theta",
+      "b": "\\theta",
+      "c": "\\theta",
+      "d": "\\theta"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 31,
+    "subject": "Higher Mathematics",
+    "question": "tan\\beta=\\frac{b}{a}",
+    "options": {
+      "a": "\\frac{2ab}{a^{2}+b^{2}}",
+      "b": "\\frac{2ab}{a^{2}-b^{2}}",
+      "c": "\\frac{a^{2}+b^{2}}{a^{2}-b^{2}}",
+      "d": "\\frac{a^{2}-b^{2}}{a^{2}+b^{2}}"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 32,
+    "subject": "Higher Mathematics",
+    "question": "sin13^{^{\\circ}}=a",
+    "options": {
+      "a": "a",
+      "b": "2a^{3}",
+      "c": "2a\\sqrt{1-a^{2}}",
+      "d": "2\\sqrt{1-a^{2}}"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 33,
+    "subject": "Higher Mathematics",
+    "question": "\\underset{x\\to0}{lim}\\frac{sinbx}{x}=?",
+    "options": {
+      "a": "\\frac{1}{b}",
+      "b": "b",
+      "c": "0",
+      "d": "\\infty"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 34,
+    "subject": "Higher Mathematics",
+    "question": "tan\\theta+2cot2\\theta=",
+    "options": {
+      "a": "cot\\theta",
+      "b": "tan\\theta",
+      "c": "2cot\\theta",
+      "d": "2tan\\theta"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 35,
+    "subject": "Higher Mathematics",
+    "question": "\\triangle ABC",
+    "options": {
+      "a": "i ও ii",
+      "b": "i ও iii",
+      "c": "ii ও iii",
+      "d": "i ii ও iii"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 36,
+    "subject": "Higher Mathematics",
+    "question": "\\angle C = ?",
+    "options": {
+      "a": "120^\\circ",
+      "b": "\\cos^{-1}\\left(\\frac{11}{14}\\right)",
+      "c": "\\cos^{-1}\\left(\\frac{13}{14}\\right)",
+      "d": "\\sin^{-1}\\left(\\frac{11}{14}\\right)"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 37,
+    "subject": "Physics",
+    "question": "A = 6\\vec{i} - 8\\vec{j}, B = 8\\vec{i} - 3\\vec{j}, C = 26\\vec{i} - 19\\vec{j}",
+    "options": {
+      "a": "a=7, b=5",
+      "b": "a=5, b=8",
+      "c": "a=5, b=7",
+      "d": "a=3, b=7"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 38,
+    "subject": "Physics",
+    "question": "\\overrightarrow{A}=6\\widehat{i}–8\\widehat{j},\\overrightarrow{B}=-8\\widehat{i}+3\\widehat{j}",
+    "options": {
+      "a": "a = 7 , b = 5",
+      "b": "a = 5, b = 7",
+      "c": "a = 5 , b = 8",
+      "d": "a = 3 , b = 7"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 39,
+    "subject": "Physics",
+    "question": "x=e^{-2t},y=2cos3t",
+    "options": {
+      "a": "-2\\widehat{i}+4\\widehat{k}",
+      "b": "-2\\widehat{i}-6\\widehat{j}+4\\widehat{k}",
+      "c": "-\\widehat{i}+2\\widehat{j}",
+      "d": "2\\widehat{i}+6\\widehat{j}+4\\widehat{k}"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 40,
+    "subject": "Higher Mathematics",
+    "question": "নিচের কোনটি ভেক্টর রাশি নয়?",
+    "options": {
+      "a": "বৈদ্যুতিক প্রাবল্য",
+      "b": "বৈদ্যুতিক বিভব",
+      "c": "ওজন",
+      "d": "ভরবেগ"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 41,
+    "subject": "Higher Mathematics",
+    "question": "একটি 3 মানের ভেক্টরকে একটি 4 মানের ভেক্টরের সাথে যোগ করলে লব্ধি ভেক্টরের মান নিচের কোনটি হবে না?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "3",
+      "d": "5"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 42,
+    "subject": "Physics",
+    "question": "\\overrightarrow{\\mathbf{P}}=2 \\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}-\\hat{\\mathbf{k}}",
+    "options": {
+      "a": "-\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{k}}",
+      "b": "-3 \\hat{i}-6 \\hat{k}",
+      "c": "\\frac{-3(\\hat{i}+2 \\hat{k})}{\\sqrt{45}}",
+      "d": "\\frac{-3(\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{k}})}{\\sqrt{45}}"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 43,
+    "subject": "Higher Mathematics",
+    "question": "নিচের কোনটি ভেক্টর রাশি নয়?",
+    "options": {
+      "a": "বৈদ্যুতিক প্রাবল্য",
+      "b": "বৈদ্যুতিক বিভব",
+      "c": "ওজন",
+      "d": "ভরবেগ"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 44,
+    "subject": "Higher Mathematics",
+    "question": "কোনো কণা P(2, 3, 5) বিন্দু থেকে Q(3, 4, 5) বিন্দুতে স্থানান্তরিত হলে এর সরণ ভেক্টর কী হবে?",
+    "options": {
+      "a": "5 \\hat{i}+7 \\hat{j}+9 \\hat{k}",
+      "b": "6 \\hat{i}+12 \\hat{j}+25 \\hat{k}",
+      "c": "\\hat{i}+\\hat{j}",
+      "d": "\\hat{i}+\\hat{j}+\\hat{k}"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 45,
+    "subject": "Physics",
+    "question": "\\overrightarrow{\\mathbf{P}}=2 \\hat{\\mathbf{i}}+2 \\hat{\\mathbf{j}}-\\hat{\\mathbf{k}}",
+    "options": {
+      "a": "-\\hat{\\mathrm{i}}-2 \\hat{\\mathrm{k}}",
+      "b": "-3 \\hat{i}-6 \\hat{k}",
+      "c": "\\frac{-3(\\hat{i}+2 \\hat{k})}{\\sqrt{45}}",
+      "d": "\\frac{-3(\\hat{i}-2 \\hat{k})}{\\sqrt{45}}"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 46,
+    "subject": "Higher Mathematics",
+    "question": "|\\overrightarrow{\\mathbf{A}} \\times \\overrightarrow{\\mathbf{B}}|=|\\overrightarrow{\\mathbf{A}} \\cdot \\overrightarrow{\\mathbf{B}}|",
+    "options": {
+      "a": "0^{o}",
+      "b": "30^{\\circ}",
+      "c": "60^{\\circ}",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 47,
+    "subject": "Higher Mathematics",
+    "question": "দুটি সমমানের ভেক্টর একটি বিন্দুতে ক্রিয়াশীল। এদের লব্ধির মান যে কোন একটি ভেক্টরের মানের সমান। ভেক্টর দু'টির মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "120°",
+      "b": "180°",
+      "c": "90°",
+      "d": "0°"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 48,
+    "subject": "Physics",
+    "question": "একটি চাকার জড়তার ভ্রামক 10 kgm²। চাকাটিতে 10 rad/s² কৌণিক ত্বরণ সৃষ্টি করতে কত টর্ক প্রয়োগ করতে হবে?",
+    "options": {
+      "a": "10 Nm",
+      "b": "100 Nm",
+      "c": "200 Nm",
+      "d": "150 Nm"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 49,
+    "subject": "Physics",
+    "question": "বৃত্তাকার পথে 72 km/h সমদ্রুতিতে চলমান কোন গাড়ীর কেন্দ্রমুখী ত্বরণ 1 m/s² হলে, বৃত্তাকার পথের ব্যাসার্ধ কত?",
+    "options": {
+      "a": "400 m",
+      "b": "150 m",
+      "c": "300 m",
+      "d": "200 m"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 50,
+    "subject": "Physics",
+    "question": "গাছ থেকে 2 kg ভরের একটি নারিকেল সোজা নিচের দিকে পড়ছে। বাতাসের বাধা 8.6 N হলে নারিকেলটির ত্বরণ কত?",
+    "options": {
+      "a": "5.5 \\mathrm{~ms}^{-2}",
+      "b": "4.5 \\mathrm{~ms}^{-2}",
+      "c": "14.5 \\mathrm{~ms}^{-2}",
+      "d": "-14.5 \\mathrm{~ms}^{-2}"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 51,
+    "subject": "Physics",
+    "question": "একজন সাইকেল আরোহী ঘণ্টায় 24 km বেগে 30 m ব্যাসার্ধের একটি বৃত্তাকার পথে মোড় নিচ্ছে। তাকে উল্লম্বের সাথে কত কোণে হেলে থাকতে হবে?",
+    "options": {
+      "a": "\\tan ^{-1}(0.015)",
+      "b": "\\tan ^{-1}(0.115)",
+      "c": "\\tan ^{-1}(0.15)",
+      "d": "\\tan ^{-1}(0.215)"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 52,
+    "subject": "Physics",
+    "question": "একজন ফুটবলার 0.4 kg ভরের এবং 12 ms-1 বেগে আগত একটি ফুটবলকে কিক মারার ফলে সেটা বিপরীত দিকে 5 ms-1 বেগ প্রাপ্ত হলো। কি মারার সময়কাল 0.02 s হলে ফুটবলার কর্তৃক বলটির উপর প্রযুক্ত বল কত N?",
+    "options": {
+      "a": "340",
+      "b": "300",
+      "c": "240",
+      "d": "140"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 53,
+    "subject": "Physics",
+    "question": "2 \\mathrm{~ms}^{-1}",
+    "options": {
+      "a": "10.7",
+      "b": "12.7",
+      "c": "14.7",
+      "d": "17.8"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 54,
+    "subject": "Physics",
+    "question": "\\mathrm{ms}^{-2} ?",
+    "options": {
+      "a": "5.0",
+      "b": "5.5",
+      "c": "6.0",
+      "d": "6.5"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 55,
+    "subject": "Physics",
+    "question": "\\mathbf{v}_{1}",
+    "options": {
+      "a": "2 v_{1}",
+      "b": "4 v_{1}",
+      "c": "5 v_{1}",
+      "d": "3 v_{1}"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 56,
+    "subject": "Physics",
+    "question": "\\mathrm{kgms}^{-1}",
+    "options": {
+      "a": "25",
+      "b": "30",
+      "c": "45",
+      "d": "50"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 57,
+    "subject": "Physics",
+    "question": "\\mathrm{ms}^{-1} ?",
+    "options": {
+      "a": "\\pi",
+      "b": "\\frac{\\pi}{2}",
+      "c": "2 \\pi",
+      "d": "\\frac{\\pi}{3}"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 58,
+    "subject": "Physics",
+    "question": "কেন্দ্রীয় বল F এর প্রভাবে r ব্যাসার্ধের বৃত্তাকার পথে ঘূর্ণনরত একটি কণার উপর ক্রিয়াশীল টর্কের মান-",
+    "options": {
+      "a": "rF",
+      "b": "-rF",
+      "c": "0",
+      "d": "∞"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 59,
+    "subject": "Physics",
+    "question": "3ms^{-2}",
+    "options": {
+      "a": "6.8",
+      "b": "11.8",
+      "c": "12.8",
+      "d": "15.8"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 60,
+    "subject": "Physics",
+    "question": "1.2 \\ ms^{-1}",
+    "options": {
+      "a": "4",
+      "b": "5",
+      "c": "6",
+      "d": "10"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 61,
+    "subject": "Physics",
+    "question": "5 \\ ms^{-1}",
+    "options": {
+      "a": "16kgms−1",
+      "b": "1.6kgms−1",
+      "c": "6.1kgms−1",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 62,
+    "subject": "Physics",
+    "question": "L দৈর্ঘ্য ও স্প্রিং ধ্রুবক k বিশিষ্ট একটি স্প্রিংকে কেটে সমান ৪ টুকরা করলে প্রতি টুকরার স্প্রিং ধ্রুবক কত হবে?",
+    "options": {
+      "a": "k/4",
+      "b": "k/2",
+      "c": "2k",
+      "d": "4k"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 63,
+    "subject": "Physics",
+    "question": "একটি 5 kg ভরের বস্তু 30 m উচ্চতা থেকে মুক্তভাবে অভিকর্ষ বলের প্রভাবে পড়লে 3s পরে তার গতিশক্তি কত হবে?",
+    "options": {
+      "a": "2190.6 J",
+      "b": "2160.9 J",
+      "c": "2169.0 J",
+      "d": "2196.0 J"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 64,
+    "subject": "Physics",
+    "question": "কোন বস্তুর গতিশক্তি 300% বৃদ্ধি করা হলে উক্ত বস্তুর ভরবেগ বাড়বে -",
+    "options": {
+      "a": "100%",
+      "b": "150%",
+      "c": "200%",
+      "d": "400%"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 65,
+    "subject": "Physics",
+    "question": "250 m উঁচু একটি ঝরনা থেকে পানি মাটিতে পড়ে অনুভূমিকভাবে নির্দিষ্ট গতিবেগে গড়িয়ে যাচ্ছে। শক্তির অপচয় অগ্রাহ্য করলে পানির বেগ কত?",
+    "options": {
+      "a": "100 \\mathrm{~ms}^{-1}",
+      "b": "90 \\mathrm{~ms}^{-1}",
+      "c": "80 \\mathrm{~ms}^{-1}",
+      "d": "70 \\mathrm{~ms}^{-1}"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 66,
+    "subject": "Higher Mathematics",
+    "question": "200 g ভরের একটি বস্তু 20 m ওপর থেকে পড়লে ভূমি স্পর্শ করার পূর্ব মুহূর্তে গতিশক্তি কত হবে?",
+    "options": {
+      "a": "3.92 J",
+      "b": "39.2 J",
+      "c": "9.8 J",
+      "d": "98 J"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 67,
+    "subject": "Physics",
+    "question": "500 g ভরের একটি কণার উপর (6x² - 4x) N বল ক্রিয়া করায় বস্তুটি বলের দিকে x = 0 অবস্থান হতে x = 2 অবস্থানে সরে গেলে বলের দ্বারা কৃত কাজের পরিমাণ কত J?",
+    "options": {
+      "a": "8",
+      "b": "6",
+      "c": "4",
+      "d": "2"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 68,
+    "subject": "Physics",
+    "question": "হিরাবস্থা থেকে 20 kg ভরের কোনো বস্তু একটি নির্দিষ্ট বলের ক্রিয়ার ফলে 3 s পর 6 ms¹ বেগ অর্জন করলে 5s পর এর গতিশক্তি কত kJ?",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "1",
+      "d": "0.5"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 69,
+    "subject": "Physics",
+    "question": "সংরক্ষণশীল বল দ্বারা 1 kg ভরের একটি বস্তুকে A থেকে B বিন্দুতে নেয়া হলে এবং B থেকে A বিন্দুতে ফিরিয়ে আনা হলো। বস্তুটির উপর কত J কাজ করা হলো?",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "0.5",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 70,
+    "subject": "Physics",
+    "question": "একটি দালানের ছাদের সাথে লাগানো 10m লম্বা একটি মই ভূমির সাথে 30° কোণে আনত আছে। 68 kg ভরের এক ব্যক্তি 12 kg ভরের জিনিসসহ 19.6s এ মই বেয়ে ছাদে উঠে। ঐ ব্যক্তি কত ওয়াট (W) ক্ষমতা প্রয়োগ করেছে?",
+    "options": {
+      "a": "200",
+      "b": "300",
+      "c": "400",
+      "d": "600"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 71,
+    "subject": "Physics",
+    "question": "একটি দালানের ছাদের সাথে লাগানো 10m একটি মই ভূমির সাথে 30° কোণে আনত আছে। 68 kg ভরের এক ব্যক্তি 12 kg ভরের জিনিসসহ 19.6 s এ মই বেয়ে ছাদে ওঠে। ঐ ব্যক্তি কত ওয়াট (W) ক্ষমতা প্রয়োগ করেছে?",
+    "options": {
+      "a": "200",
+      "b": "300",
+      "c": "400",
+      "d": "600"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 72,
+    "subject": "Physics",
+    "question": "একটি গাড়ির ইঞ্জিন 200 kN বল প্রয়োগ করে এবং গাড়িটি এক মিনিটে 21 m স্থানচ্যুতি হয়। গাড়িটির ক্ষমতা কত?",
+    "options": {
+      "a": "4200 kW",
+      "b": "70 W",
+      "c": "1200 kW",
+      "d": "70 kW"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 73,
+    "subject": "Physics",
+    "question": "1g ভরের একটি বস্তুকে 0.5m ব্যাসার্ধের একটি আনুভূমিক বৃত্তাকার পথে 2m / s সমদ্রুতিতে ঘোরানো হচ্ছে। এক পূর্ণ ঘূর্ণনের জন্য প্রয়োজনীয় কাজের মান কত?",
+    "options": {
+      "a": "0 J",
+      "b": "1 J",
+      "c": "2 J",
+      "d": "4 J"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 74,
+    "subject": "Physics",
+    "question": "1 g ভরের একটি বস্তুকে 0.5 m ব্যাসার্ধের একটি আনুভূমিক বৃত্তাকার পথে 2 m/s সমদ্রুতিতে ঘোরানো হচ্ছে। এক পূর্ণ ঘূর্ণনের জন্য প্রয়োজনীয় কাজের মান কত?",
+    "options": {
+      "a": "0J",
+      "b": "1J",
+      "c": "2J",
+      "d": "4J"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 75,
+    "subject": "Physics",
+    "question": "কোন ব্যক্তি 30° ঢালের 5m উঁচু ঘর্ষণবিহীন তল বরাবর একটি 100N ব্লক টেনে তুলছে। ব্লকটি সমদ্রুতিতে চললে ব্যক্তি কী পরিমাণ কাজ করবে?",
+    "options": {
+      "a": "250 J",
+      "b": "500 J",
+      "c": "0",
+      "d": "100 J"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 76,
+    "subject": "Chemistry",
+    "question": "নিম্নে কোন যুগল একে অপরের আইসোবার?",
+    "options": {
+      "a": "{ }_{18}^{40} \\mathrm{Ar},{ }_{10}^{40} \\mathrm{~K}",
+      "b": "{ }_{6}^{16} \\mathrm{C},{ }_{6}^{13} \\mathrm{C}",
+      "c": "{ }_{20}^{40} \\mathrm{Ca},{ }_{18}^{40} \\mathrm{Ar}",
+      "d": "{ }_{7}^{15} \\mathrm{~N},{ }_{6}^{14} \\mathrm{C}"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 77,
+    "subject": "Chemistry",
+    "question": "হাইড্রোজেন পরমাণুর একটি ইলেকট্রন ১ম শক্তিস্তর থেকে দ্বিতীয় শক্তিবদ্যরে গেলে কী হবে?",
+    "options": {
+      "a": "শক্তি শোষণ",
+      "b": "শক্তি বিকিরণ",
+      "c": "শক্তি শোষণ",
+      "d": "শক্তি বিকিরণ"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 78,
+    "subject": "Chemistry",
+    "question": "n = 4 এর জন্য অরবিটাল সংখ্যা কত?",
+    "options": {
+      "a": "4 টি",
+      "b": "৪ টি",
+      "c": "16 টি",
+      "d": "3 টি"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 79,
+    "subject": "Higher Mathematics",
+    "question": "\\overline{\\mathbf{e}}",
+    "options": {
+      "a": "4",
+      "b": "10",
+      "c": "3",
+      "d": "6"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 80,
+    "subject": "Chemistry",
+    "question": "UV রশ্মি দ্বারা জাল টাকা শণাক্তকরণে কী হয়?",
+    "options": {
+      "a": "প্রতিসরণ",
+      "b": "প্রতিফলন",
+      "c": "প্রতিপ্রভা",
+      "d": "সমবর্তন"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 81,
+    "subject": "Chemistry",
+    "question": "K_{s p}=1.6 \\times 10^{-10}",
+    "options": {
+      "a": "1.5 \\times 10^{-4} \\mathrm{~g}",
+      "b": "2.3 \\times 10^{-3} \\mathrm{~g}",
+      "c": "1.366 \\times 10^{-3} \\mathrm{~g}",
+      "d": "4.2 \\times 10^{-4} \\mathrm{~g}"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 82,
+    "subject": "Chemistry",
+    "question": "\\mathrm{Cl}^{-}",
+    "options": {
+      "a": "\\mathrm{AgNO}_{3}",
+      "b": "AgCl",
+      "c": "\\mathrm{NH}_{3}",
+      "d": "NaCl"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 83,
+    "subject": "Physics",
+    "question": "নিচের কোনটিকে তাপীয় বিকিরণ বলে?",
+    "options": {
+      "a": "IR-radiation",
+      "b": "X-radiation",
+      "c": "UV-radiation",
+      "d": "\\gamma \\text { -radiation}"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 84,
+    "subject": "Chemistry",
+    "question": "\\text {1 m}",
+    "options": {
+      "a": "\\mathrm {1.8 × 10^{10}}",
+      "b": "\\mathrm {1.787 × 10^{10}}",
+      "c": "\\mathrm {1.8868 × 10^{10}}",
+      "d": "None"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 85,
+    "subject": "Higher Mathematics",
+    "question": "কোন আয়নটি বর্ণহীন?",
+    "options": {
+      "a": "\\mathrm {Sc^{3+}}",
+      "b": "\\mathrm {Fe^{2+}}",
+      "c": "\\mathrm {No^{2+}}",
+      "d": "\\mathrm {Fe^{3+}}"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 86,
+    "subject": "Chemistry",
+    "question": "\\mathrm {{p b}\\left(\\mathrm{NO}_{3}\\right)_{2} \\xrightarrow{\\Delta} {A}+{P b O}+{O}_{2} ;}",
+    "options": {
+      "a": "বেগুনি",
+      "b": "বাদামি",
+      "c": "সবুজ",
+      "d": "বর্ণহীন"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 87,
+    "subject": "Higher Mathematics",
+    "question": "নিচের কোনটি রঙিন গ্যাস?",
+    "options": {
+      "a": "\\mathrm {N_2O}",
+      "b": "\\mathrm {NO_2}",
+      "c": "\\mathrm {NO}",
+      "d": "\\mathrm {N_2O_2}"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 88,
+    "subject": "Chemistry",
+    "question": "কোন ধাতু বাংলাদেশে স্বাভাবিক তাপমাত্রায় শীতকালে কঠিন কিন্তু গরমকালে তরল থাকতে পারে?",
+    "options": {
+      "a": "\\mathrm {Cs}",
+      "b": "\\mathrm {Mg}",
+      "c": "\\mathrm {Na}",
+      "d": "\\mathrm {K}"
+    },
+    "correctAnswer": "a",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 89,
+    "subject": "Chemistry",
+    "question": "সাপের বিষে কোন ধাতু থাকে?",
+    "options": {
+      "a": "\\mathrm {Pb}",
+      "b": "\\mathrm {Zn}",
+      "c": "\\mathrm {Cr}",
+      "d": "\\mathrm {Fe}"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 90,
+    "subject": "Chemistry",
+    "question": "\\mathrm {(i) ~ H + H →H_2 \\\\ (ii) ~ HCl → H^+ + Cl^- \\\\ (iii) H + e → H^-}",
+    "options": {
+      "a": "i, ii",
+      "b": "i, iii",
+      "c": "ii, iii",
+      "d": "i, ii, iii"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 91,
+    "subject": "Chemistry",
+    "question": "কয়েকটি ধাতব যৌগের d- অরবিটালের ইলেকট্রন বিন্যাস নিম্নরূপ। কোন যৌগটি বেশী প্যারাম্যাগনেটিক হবে?",
+    "options": {
+      "a": "2, 2, 2, 2, 1",
+      "b": "1, 1, 1, 1, 1",
+      "c": "2, 1, 1, 1, 1",
+      "d": "2, 2, 1, 1. 1"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 92,
+    "subject": "Higher Mathematics",
+    "question": "বরফের জ্যামিতিক আকৃতি কোনটি ?",
+    "options": {
+      "a": "Monoclinic",
+      "b": "Cubic",
+      "c": "Rhombohedral",
+      "d": "Hexagonal"
+    },
+    "correctAnswer": "d",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 93,
+    "subject": "Chemistry",
+    "question": "s p^{2}",
+    "options": {
+      "a": "4 \\pi \\text {-bonds }",
+      "b": "2 \\pi \\text {-bonds and } 2 \\sigma \\text {-bonds }",
+      "c": "1 \\pi \\text {-bond and } 3 \\sigma \\text {-bonds }",
+      "d": "4 \\sigma \\text {-bonds }"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 94,
+    "subject": "Chemistry",
+    "question": "কয়েকটি ধাতব যৌগের d অরবিটালের ইলেকট্রন বিন্যাস নিম্নরূপ। কোন যৌগটি বেশি প্যারাম্যাগনেটিক হবে?",
+    "options": {
+      "a": "2, 2, 2, 2, 1",
+      "b": "1, 1, 1, 1, 1",
+      "c": "2, 1, 1, 1, 1",
+      "d": "2, 2, 1, 1, 1"
+    },
+    "correctAnswer": "b",
+    "questionImage": null,
+    "explanationImage": null
+  },
+  {
+    "id": 95,
+    "subject": "Chemistry",
+    "question": "sp2 সংকরণ দ্বারা একটি কার্বন কোন বন্ধন গঠন করে?",
+    "options": {
+      "a": "4π-bonds",
+      "b": "2π -bonds and 2 σ-bonds",
+      "c": "1 π-bond and 3 σ-bonds",
+      "d": "4 σ-bonds"
+    },
+    "correctAnswer": "c",
+    "questionImage": null,
+    "explanationImage": null
+  }
+]
