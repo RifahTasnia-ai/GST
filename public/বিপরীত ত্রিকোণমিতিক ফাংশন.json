@@ -9,15 +9,15 @@
       "d": "4π"
     },
     "correctAnswer": "c",
-    "explanation": "4(sin\\begin{aligned} & 4\\left(\\sin ^{-1} \\frac{1}{\\sqrt{5}}+\\cot ^{-1} 3\\right) \\\\ = & 4 \\cdot\\left(\\tan ^{-1} \\frac{1}{2}+\\tan ^{-1} \\frac{1}{3}\\right) \\\\ = & 4 \\cdot \\tan ^{-1}\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\times \\frac{1}{3}}\\right) \\\\ = & 4 \\cdot \\frac{\\pi}{4} \\\\ = & \\pi\\end{aligned} ====4(sin−151+cot−13)4⋅(tan−121+tan−131)4⋅tan−1(1−21",
+    "explanation": "4(sin⁡−115+cot⁡−13)=4⋅(tan⁡−112+tan⁡−113)=4⋅tan⁡−1(12+131−12×13)=4⋅π4=π \\begin{aligned} & 4\\left(\\sin ^{-1} \\frac{1}{\\sqrt{5}}+\\cot ^{-1} 3\\right) \\\\ = & 4 \\cdot\\left(\\tan ^{-1} \\frac{1}{2}+\\tan ^{-1} \\frac{1}{3}\\right) \\\\ = & 4 \\cdot \\tan ^{-1}\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\times \\frac{1}{3}}\\right) \\\\ = & 4 \\cdot \\frac{\\pi}{4} \\\\ = & \\pi\\end{aligned} ====4(sin−151+cot−13)4⋅(tan−121+tan−131)4⋅tan−1(1−21×3121+31)4⋅4ππ",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "4(sin-1 1/\\\\sqrt{}5 + cot-13) = কত?",
-    "explanationLatex": "4(sin\\times 13)=4⋅\\\\pi 4=\\\\pi \\begin{aligned} & 4\\left(\\sin ^{-1} \\frac{1}{\\sqrt{5}}+\\cot ^{-1} 3\\right) \\\\ = & 4 \\cdot\\left(\\tan ^{-1} \\frac{1}{2}+\\tan ^{-1} \\frac{1}{3}\\right) \\\\ = & 4 \\cdot \\tan ^{-1}\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\times \\frac{1}{3}}\\right) \\\\ = & 4 \\cdot \\frac{\\pi}{4} \\\\ = & \\pi\\end{aligned} ====4(sin−151+cot−13)4⋅(tan−121+tan−131)4⋅tan−1(1−21\\\\times 3121+31)4⋅4\\\\pi \\\\pi"
+    "questionLatex": "$4(sin-1 1/\\\\sqrt{}5 + cot-13) = কত?$",
+    "explanationLatex": "$4(sin⁡−115+cot⁡−13)=4⋅(tan⁡−112+tan⁡−113)=4⋅tan⁡−1(12+131−12\\\\times 13)=4⋅\\\\pi 4=\\\\pi  \\begin{aligned} & 4\\left(\\sin ^{-1} \\frac{1}{\\sqrt{5}}+\\cot ^{-1} 3\\right) \\\\ = & 4 \\cdot\\left(\\tan ^{-1} \\frac{1}{2}+\\tan ^{-1} \\frac{1}{3}\\right) \\\\ = & 4 \\cdot \\tan ^{-1}\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\times \\frac{1}{3}}\\right) \\\\ = & 4 \\cdot \\frac{\\pi}{4} \\\\ = & \\pi\\end{aligned} ====4(sin−151+cot−13)4⋅(tan−121+tan−131)4⋅tan−1(1−21\\\\times 3121+31)4⋅4\\\\pi \\\\pi $"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "d": "π/18"
     },
     "correctAnswer": "d",
-    "explanation": "cos\\begin{array}{l} \\cos 3 \\theta=\\frac{\\sqrt{3}}{2} \\Rightarrow 3 \\theta=\\frac{\\pi}{6} \\\\ \\therefore \\theta=\\frac{\\pi}{18} \\end{array} cos3θ=23",
+    "explanation": "cos⁡3θ=32⇒3θ=π6∴θ=π18 \\begin{array}{l} \\cos 3 \\theta=\\frac{\\sqrt{3}}{2} \\Rightarrow 3 \\theta=\\frac{\\pi}{6} \\\\ \\therefore \\theta=\\frac{\\pi}{18} \\end{array} cos3θ=23⇒3θ=6π∴θ=18π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -37,11 +37,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$\\\\theta  এর কোন লঘিষ্ঠ ধনাত্মক মানের জন্য 2cos3\\\\theta =\\\\sqrt{}3 হয়?$",
-    "explanationLatex": "cos\\theta =32\\theta =\\\\pi 6∴\\\\theta =\\\\pi 18 \\begin{array}{l} \\cos 3 \\theta=\\frac{\\sqrt{3}}{2} \\Rightarrow 3 \\theta=\\frac{\\pi}{6} \\\\ \\therefore \\theta=\\frac{\\pi}{18} \\end{array} cos3\\\\theta =23\\theta =6\\\\pi ∴\\\\theta =18\\\\pi"
+    "explanationLatex": "$cos⁡3\\\\theta =32⇒3\\\\theta =\\\\pi 6∴\\\\theta =\\\\pi 18 \\begin{array}{l} \\cos 3 \\theta=\\frac{\\sqrt{3}}{2} \\Rightarrow 3 \\theta=\\frac{\\pi}{6} \\\\ \\therefore \\theta=\\frac{\\pi}{18} \\end{array} cos3\\\\theta =23⇒3\\\\theta =6\\\\pi ∴\\\\theta =18\\\\pi $"
   },
   {
     "id": 3,
-    "question": "sin\\sin\\left[\\cot^{-1}\\left\\{\\tan\\left(\\cos^{-1}x\\right)\\right\\}\\right]=?sin[cot−1{tan(cos−1x)}]=?",
+    "question": "sin⁡[cot⁡−1{tan⁡(cos⁡−1x)}]=?\\sin\\left[\\cot^{-1}\\left\\{\\tan\\left(\\cos^{-1}x\\right)\\right\\}\\right]=?sin[cot−1{tan(cos−1x)}]=?",
     "options": {
       "a": "𝑥 x",
       "b": "1 𝑥 x 1",
@@ -49,15 +49,15 @@
       "d": "0 0"
     },
     "correctAnswer": "a",
-    "explanation": "sin\\begin{array}{l}\\sin \\left[\\cot ^{-1}\\left\\{\\tan \\left(\\cos ^{-1} x\\right)\\right\\}\\right]=\\sin \\left[\\cot ^{-1}\\{\\tan y\\}\\right] \\\\ =\\sin \\left[\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-y\\right)\\right\\}\\right] \\\\ =\\sin \\left(\\frac{\\pi}{2}-y\\right) \\\\ =\\cos y \\\\ =x[\\because \\cos y=x]\\end{array} sin[cot−1{tan(cos−1x)}]=sin[cot−1{tany}]=sin[cot−1{cot(2π−y)}]=sin(2π−y)=cosy=x[",
+    "explanation": "sin⁡[cot⁡−1{tan⁡(cos⁡−1x)}]=sin⁡[cot⁡−1{tan⁡y}]=sin⁡[cot⁡−1{cot⁡(π2−y)}]=sin⁡(π2−y)=cos⁡y=x[∵cos⁡y=x] \\begin{array}{l}\\sin \\left[\\cot ^{-1}\\left\\{\\tan \\left(\\cos ^{-1} x\\right)\\right\\}\\right]=\\sin \\left[\\cot ^{-1}\\{\\tan y\\}\\right] \\\\ =\\sin \\left[\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-y\\right)\\right\\}\\right] \\\\ =\\sin \\left(\\frac{\\pi}{2}-y\\right) \\\\ =\\cos y \\\\ =x[\\because \\cos y=x]\\end{array} sin[cot−1{tan(cos−1x)}]=sin[cot−1{tany}]=sin[cot−1{cot(2π−y)}]=sin(2π−y)=cosy=x[∵cosy=x]",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin\\left[\\cot^{-1}\\left\\{\\tan\\left(\\cos^{-1}x\\right)\\right\\}\\right]=?sin[cot−1{tan(cos−1x)}]=?",
-    "explanationLatex": "sin\\pi 2−y)}]=sin\\pi 2−y)=cos\\begin{array}{l}\\sin \\left[\\cot ^{-1}\\left\\{\\tan \\left(\\cos ^{-1} x\\right)\\right\\}\\right]=\\sin \\left[\\cot ^{-1}\\{\\tan y\\}\\right] \\\\ =\\sin \\left[\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-y\\right)\\right\\}\\right] \\\\ =\\sin \\left(\\frac{\\pi}{2}-y\\right) \\\\ =\\cos y \\\\ =x[\\because \\cos y=x]\\end{array} sin[cot−1{tan(cos−1x)}]=sin[cot−1{tany}]=sin[cot−1{cot(2\\\\pi −y)}]=sin(2\\\\pi −y)=cosy=x["
+    "questionLatex": "$sin⁡[cot⁡−1{tan⁡(cos⁡−1x)}]=?\\sin\\left[\\cot^{-1}\\left\\{\\tan\\left(\\cos^{-1}x\\right)\\right\\}\\right]=?sin[cot−1{tan(cos−1x)}]=?$",
+    "explanationLatex": "$sin⁡[cot⁡−1{tan⁡(cos⁡−1x)}]=sin⁡[cot⁡−1{tan⁡y}]=sin⁡[cot⁡−1{cot⁡(\\\\pi 2−y)}]=sin⁡(\\\\pi 2−y)=cos⁡y=x[∵cos⁡y=x] \\begin{array}{l}\\sin \\left[\\cot ^{-1}\\left\\{\\tan \\left(\\cos ^{-1} x\\right)\\right\\}\\right]=\\sin \\left[\\cot ^{-1}\\{\\tan y\\}\\right] \\\\ =\\sin \\left[\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-y\\right)\\right\\}\\right] \\\\ =\\sin \\left(\\frac{\\pi}{2}-y\\right) \\\\ =\\cos y \\\\ =x[\\because \\cos y=x]\\end{array} sin[cot−1{tan(cos−1x)}]=sin[cot−1{tany}]=sin[cot−1{cot(2\\\\pi −y)}]=sin(2\\\\pi −y)=cosy=x[∵cosy=x]$"
   },
   {
     "id": 4,
@@ -69,19 +69,19 @@
       "d": "1 2 2 2 2 1"
     },
     "correctAnswer": "c",
-    "explanation": "cos\\begin{aligned} & \\cos \\left[\\tan ^{-1}\\left\\{\\tan \\left(\\frac{15 \\pi}{4}\\right)\\right\\}\\right] \\\\ = & \\cos \\frac{15 \\pi}{4}=\\cos \\left(7 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{4}\\right) \\\\ & = \\cos \\frac{\\pi}{4} \\\\ = & \\frac{1}{\\sqrt{2}}\\end{aligned} ==cos[tan−1{tan(415π)}]cos415π=cos(7⋅2π+4π)=cos4π21",
+    "explanation": "cos⁡[tan⁡−1{tan⁡(15π4)}]=cos⁡15π4=cos⁡(7⋅π2+π4)=cos⁡π4=12 \\begin{aligned} & \\cos \\left[\\tan ^{-1}\\left\\{\\tan \\left(\\frac{15 \\pi}{4}\\right)\\right\\}\\right] \\\\ = & \\cos \\frac{15 \\pi}{4}=\\cos \\left(7 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{4}\\right) \\\\ & = \\cos \\frac{\\pi}{4} \\\\ = & \\frac{1}{\\sqrt{2}}\\end{aligned} ==cos[tan−1{tan(415π)}]cos415π=cos(7⋅2π+4π)=cos4π21",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\pi 4)}]=",
-    "explanationLatex": "cos\\pi 4)}]=cos\\pi 4=cos\\pi 2+\\\\pi 4)=cos⁡\\\\pi 4=12 \\begin{aligned} & \\cos \\left[\\tan ^{-1}\\left\\{\\tan \\left(\\frac{15 \\pi}{4}\\right)\\right\\}\\right] \\\\ = & \\cos \\frac{15 \\pi}{4}=\\cos \\left(7 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{4}\\right) \\\\ & = \\cos \\frac{\\pi}{4} \\\\ = & \\frac{1}{\\sqrt{2}}\\end{aligned} ==cos[tan−1{tan(415\\\\pi )}]cos415\\\\pi =cos(7⋅2\\\\pi +4\\\\pi )=cos4\\\\pi 21"
+    "questionLatex": "$cos⁡[tan−1{tan⁡(15\\\\pi 4)}]=$",
+    "explanationLatex": "$cos⁡[tan⁡−1{tan⁡(15\\\\pi 4)}]=cos⁡15\\\\pi 4=cos⁡(7⋅\\\\pi 2+\\\\pi 4)=cos⁡\\\\pi 4=12 \\begin{aligned} & \\cos \\left[\\tan ^{-1}\\left\\{\\tan \\left(\\frac{15 \\pi}{4}\\right)\\right\\}\\right] \\\\ = & \\cos \\frac{15 \\pi}{4}=\\cos \\left(7 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{4}\\right) \\\\ & = \\cos \\frac{\\pi}{4} \\\\ = & \\frac{1}{\\sqrt{2}}\\end{aligned} ==cos[tan−1{tan(415\\\\pi )}]cos415\\\\pi =cos(7⋅2\\\\pi +4\\\\pi )=cos4\\\\pi 21$"
   },
   {
     "id": 5,
-    "question": "cos\\cos{3\\theta=\\cos{2\\theta}}cos3θ=cos2θ হলে, θ=?\\theta=?θ=?",
+    "question": "cos⁡3θ=cos⁡2θ\\cos{3\\theta=\\cos{2\\theta}}cos3θ=cos2θ হলে, θ=?\\theta=?θ=?",
     "options": {
       "a": "2 𝑛 𝜋 5 5 2nπ",
       "b": "2 𝑛 𝜋 2nπ",
@@ -89,19 +89,19 @@
       "d": "none"
     },
     "correctAnswer": "c",
-    "explanation": "cos\\cos{3\\theta-\\cos{2\\theta=0}} \\\\ \\Rightarrow2\\sin{\\frac{5\\theta}{2}\\sin{\\frac{\\theta}{2}=0}}cos3θ−cos2θ=0\\frac{5\\theta}{2}=0sin25θ=0, then5θ2=nπ or,θ=2nπ5; If sinθ2=0, then θ=2nπ\\ then \\frac{5\\theta}{2}=n\\pi\\ \\\\ or, \\theta=\\frac{2n\\pi}{5}; \\\\ \\ If \\ sin \\frac{\\theta}{2}=0,\\\\ \\ then \\ \\theta = 2n\\pi then25θ=nπ or,θ=52nπ; If sin2θ=0, then θ=2nπ θ=2nπ5,2nπ\\theta=\\frac{2n\\pi}{5},2n\\piθ=52nπ,2nπ",
+    "explanation": "cos⁡3θ−cos⁡2θ=0⇒2sin⁡5θ2sin⁡θ2=0\\cos{3\\theta-\\cos{2\\theta=0}} \\\\ \\Rightarrow2\\sin{\\frac{5\\theta}{2}\\sin{\\frac{\\theta}{2}=0}}cos3θ−cos2θ=0⇒2sin25θsin2θ=0 If sin5θ2=0sin\\frac{5\\theta}{2}=0sin25θ=0, then5θ2=nπ or,θ=2nπ5; If sinθ2=0, then θ=2nπ\\ then \\frac{5\\theta}{2}=n\\pi\\ \\\\ or, \\theta=\\frac{2n\\pi}{5}; \\\\ \\ If \\ sin \\frac{\\theta}{2}=0,\\\\ \\ then \\ \\theta = 2n\\pi then25θ=nπ or,θ=52nπ; If sin2θ=0, then θ=2nπ θ=2nπ5,2nπ\\theta=\\frac{2n\\pi}{5},2n\\piθ=52nπ,2nπ",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\theta =cos\\theta \\cos{3\\theta=\\cos{2\\theta}}cos3\\\\theta =cos2\\\\theta হলে, \\\\theta =?\\theta=?\\\\theta =?",
+    "questionLatex": "$cos⁡3\\\\theta =cos⁡2\\\\theta \\cos{3\\theta=\\cos{2\\theta}}cos3\\\\theta =cos2\\\\theta  হলে, \\\\theta =?\\theta=?\\\\theta =?$",
     "explanationLatex": "$cos⁡3\\\\theta −cos⁡2\\\\theta =0⇒2sin⁡5\\\\theta 2sin⁡\\\\theta 2=0\\cos{3\\theta-\\cos{2\\theta=0}} \\\\ \\Rightarrow2\\sin{\\frac{5\\theta}{2}\\sin{\\frac{\\theta}{2}=0}}cos3\\\\theta −cos2\\\\theta =0⇒2sin25\\\\theta sin2\\\\theta =0 If sin5\\\\theta 2=0sin\\frac{5\\theta}{2}=0sin25\\\\theta =0, then5\\\\theta 2=n\\\\pi  or,\\\\theta =2n\\\\pi 5; If sin\\\\theta 2=0, then \\\\theta =2n\\\\pi \\ then \\frac{5\\theta}{2}=n\\pi\\ \\\\ or, \\theta=\\frac{2n\\pi}{5}; \\\\ \\ If \\ sin \\frac{\\theta}{2}=0,\\\\ \\ then \\ \\theta = 2n\\pi then25\\\\theta =n\\\\pi  or,\\\\theta =52n\\\\pi ; If sin2\\\\theta =0, then \\\\theta =2n\\\\pi  \\\\theta =2n\\\\pi 5,2n\\\\pi \\theta=\\frac{2n\\pi}{5},2n\\pi\\\\theta =52n\\\\pi ,2n\\\\pi $"
   },
   {
     "id": 6,
-    "question": "sin\\sin{\\left(\\tan^{-1}{\\frac{4}{3}}\\right)}+\\sin^{-1}{\\frac{1}{\\sqrt5}}+\\cot^{-1}{3}=? sin(tan−134)+sin−151+cot−13=?",
+    "question": "sin⁡(tan⁡−143)+sin⁡−115+cot⁡−13=?\\sin{\\left(\\tan^{-1}{\\frac{4}{3}}\\right)}+\\sin^{-1}{\\frac{1}{\\sqrt5}}+\\cot^{-1}{3}=? sin(tan−134)+sin−151+cot−13=?",
     "options": {
       "a": "4 7 + 𝜋 6 7 4 + 6 π",
       "b": "3 5 + 𝜋 4 5 3 + 4 π",
@@ -109,19 +109,19 @@
       "d": "3 4 + 𝜋 4 4 3 + 4 π"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, sin\\sin(tan^{-1}\\frac{4}{3})+sin^{-1}\\frac{1}{\\sqrt{5}}+cot^{-1}3sin(tan−134)+sin−151+cot−13 =sin\\sin{\\left(\\sin^{-1}{\\frac{4}{5}}\\right)}+\\tan^{-1}{\\frac{1}{2}}+\\tan^{-1}{\\frac{1}{3}} \\\\ =\\frac{4}{5}\\ +\\tan^{-1}{\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{6}}\\right)} \\\\ = \\frac{4}{5}+tan^{-1}\\frac{\\frac{5}{6}}{\\frac{5}{6}} \\\\ =\\frac{4}{5} + tan^{-1}1 \\\\ =\\frac{4}{5}+\\frac{\\pi}{4}\\ =sin(sin−154)+tan−121+tan−131=54 +tan−1(1−6121+31)=54+tan−16565=54+tan−11=54+4π",
+    "explanation": "দেওয়া আছে, sin⁡(tan−143)+sin−115+cot−13\\sin(tan^{-1}\\frac{4}{3})+sin^{-1}\\frac{1}{\\sqrt{5}}+cot^{-1}3sin(tan−134)+sin−151+cot−13 =sin⁡(sin⁡−145)+tan⁡−112+tan⁡−113=45 +tan⁡−1(12+131−16)=45+tan−15656=45+tan−11=45+π4 = \\sin{\\left(\\sin^{-1}{\\frac{4}{5}}\\right)}+\\tan^{-1}{\\frac{1}{2}}+\\tan^{-1}{\\frac{1}{3}} \\\\ =\\frac{4}{5}\\ +\\tan^{-1}{\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{6}}\\right)} \\\\ = \\frac{4}{5}+tan^{-1}\\frac{\\frac{5}{6}}{\\frac{5}{6}} \\\\ =\\frac{4}{5} + tan^{-1}1 \\\\ =\\frac{4}{5}+\\frac{\\pi}{4}\\ =sin(sin−154)+tan−121+tan−131=54 +tan−1(1−6121+31)=54+tan−16565=54+tan−11=54+4π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin{\\left(\\tan^{-1}{\\frac{4}{3}}\\right)}+\\sin^{-1}{\\frac{1}{\\sqrt5}}+\\cot^{-1}{3}=? sin(tan−134)+sin−151+cot−13=?",
-    "explanationLatex": "দেওয়া আছে, sin\\sin(tan^{-1}\\frac{4}{3})+sin^{-1}\\frac{1}{\\sqrt{5}}+cot^{-1}3sin(tan−134)+sin−151+cot−13 =sin\\pi 4 = \\sin{\\left(\\sin^{-1}{\\frac{4}{5}}\\right)}+\\tan^{-1}{\\frac{1}{2}}+\\tan^{-1}{\\frac{1}{3}} \\\\ =\\frac{4}{5}\\ +\\tan^{-1}{\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{6}}\\right)} \\\\ = \\frac{4}{5}+tan^{-1}\\frac{\\frac{5}{6}}{\\frac{5}{6}} \\\\ =\\frac{4}{5} + tan^{-1}1 \\\\ =\\frac{4}{5}+\\frac{\\pi}{4}\\ =sin(sin−154)+tan−121+tan−131=54 +tan−1(1−6121+31)=54+tan−16565=54+tan−11=54+4\\\\pi"
+    "questionLatex": "$sin⁡(tan⁡−143)+sin⁡−115+cot⁡−13=?\\sin{\\left(\\tan^{-1}{\\frac{4}{3}}\\right)}+\\sin^{-1}{\\frac{1}{\\sqrt5}}+\\cot^{-1}{3}=? sin(tan−134)+sin−151+cot−13=?$",
+    "explanationLatex": "$দেওয়া আছে, sin⁡(tan−143)+sin−115+cot−13\\sin(tan^{-1}\\frac{4}{3})+sin^{-1}\\frac{1}{\\sqrt{5}}+cot^{-1}3sin(tan−134)+sin−151+cot−13 =sin⁡(sin⁡−145)+tan⁡−112+tan⁡−113=45 +tan⁡−1(12+131−16)=45+tan−15656=45+tan−11=45+\\\\pi 4 = \\sin{\\left(\\sin^{-1}{\\frac{4}{5}}\\right)}+\\tan^{-1}{\\frac{1}{2}}+\\tan^{-1}{\\frac{1}{3}} \\\\ =\\frac{4}{5}\\ +\\tan^{-1}{\\left(\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{6}}\\right)} \\\\ = \\frac{4}{5}+tan^{-1}\\frac{\\frac{5}{6}}{\\frac{5}{6}} \\\\ =\\frac{4}{5} + tan^{-1}1 \\\\ =\\frac{4}{5}+\\frac{\\pi}{4}\\ =sin(sin−154)+tan−121+tan−131=54 +tan−1(1−6121+31)=54+tan−16565=54+tan−11=54+4\\\\pi $"
   },
   {
     "id": 7,
-    "question": "cos\\cos{e} c \\theta + \\cot{\\theta} = \\sqrt{3} cosecθ+cotθ=3 হলে, θ \\theta θ এর মান কত ?",
+    "question": "cos⁡ecθ+cot⁡θ=3 \\cos{e} c \\theta + \\cot{\\theta} = \\sqrt{3} cosecθ+cotθ=3 হলে, θ \\theta θ এর মান কত ?",
     "options": {
       "a": "𝜋 6 6 π",
       "b": "𝜋 3 3 π",
@@ -136,8 +136,8 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\theta +cot⁡\\\\theta =3 \\cos{e} c \\theta + \\cot{\\theta} = \\sqrt{3} cosec\\\\theta +cot\\\\theta =3 হলে, \\\\theta \\theta \\\\theta এর মান কত ?",
-    "explanationLatex": "সঠিক উত্তর: (b) 𝜋 3 3 \\\\pi ।"
+    "questionLatex": "$cos⁡ec\\\\theta +cot⁡\\\\theta =3 \\cos{e} c \\theta + \\cot{\\theta} = \\sqrt{3} cosec\\\\theta +cot\\\\theta =3 হলে, \\\\theta  \\theta \\\\theta  এর মান কত ?$",
+    "explanationLatex": "$সঠিক উত্তর: (b) 𝜋 3 3 \\\\pi ।$"
   },
   {
     "id": 8,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$sin-\\frac{14}{5}+cos-12/\\\\sqrt{}5 এর সমান _$",
-    "explanationLatex": "সঠিক উত্তর: (c) tan-\\frac{111}{2}।"
+    "explanationLatex": "$সঠিক উত্তর: (c) tan-\\frac{111}{2}।$"
   },
   {
     "id": 9,
@@ -169,7 +169,7 @@
       "d": "( 4 𝑛 + 1 ) 𝜋 10 (4n+1) 10 π"
     },
     "correctAnswer": "c",
-    "explanation": "cot\\begin{array}{l} \\text { } \\cot \\theta-\\tan \\theta=2 \\\\ \\Rightarrow \\frac{\\cos \\theta}{\\sin \\theta}-\\frac{\\sin \\theta}{\\cos \\theta}=2 \\\\ \\Rightarrow \\frac{\\cos ^{2} \\theta-\\sin ^{2} \\theta}{\\sin \\theta \\cos \\theta}=2 \\\\ \\Rightarrow \\cos 2 \\theta=2 \\sin \\theta \\cos \\theta \\\\ \\Rightarrow \\cos 2 \\theta=\\sin 2 \\theta \\Rightarrow \\tan 2 \\theta=1=\\tan \\frac{\\pi}{4} \\\\ \\therefore 2 \\theta=n \\pi+\\frac{\\pi}{4}, n \\in \\mathbb{Z} . \\\\ \\Rightarrow \\theta=(4 n+1) \\frac{\\pi}{8} \\end{array} cotθ−tanθ=2\\therefore \\quad ∴ নির্ণেয় সমাধান, θ=(\\theta=(4 n+1) \\frac{\\pi}{8} θ=(4n+1)8π",
+    "explanation": "cot⁡θ−tan⁡θ=2⇒cos⁡θsin⁡θ−sin⁡θcos⁡θ=2⇒cos⁡2θ−sin⁡2θsin⁡θcos⁡θ=2⇒cos⁡2θ=2sin⁡θcos⁡θ⇒cos⁡2θ=sin⁡2θ⇒tan⁡2θ=1=tan⁡π4∴2θ=nπ+π4,n∈Z.⇒θ=(4n+1)π8 \\begin{array}{l} \\text { } \\cot \\theta-\\tan \\theta=2 \\\\ \\Rightarrow \\frac{\\cos \\theta}{\\sin \\theta}-\\frac{\\sin \\theta}{\\cos \\theta}=2 \\\\ \\Rightarrow \\frac{\\cos ^{2} \\theta-\\sin ^{2} \\theta}{\\sin \\theta \\cos \\theta}=2 \\\\ \\Rightarrow \\cos 2 \\theta=2 \\sin \\theta \\cos \\theta \\\\ \\Rightarrow \\cos 2 \\theta=\\sin 2 \\theta \\Rightarrow \\tan 2 \\theta=1=\\tan \\frac{\\pi}{4} \\\\ \\therefore 2 \\theta=n \\pi+\\frac{\\pi}{4}, n \\in \\mathbb{Z} . \\\\ \\Rightarrow \\theta=(4 n+1) \\frac{\\pi}{8} \\end{array} cotθ−tanθ=2⇒sinθcosθ−cosθsinθ=2⇒sinθcosθcos2θ−sin2θ=2⇒cos2θ=2sinθcosθ⇒cos2θ=sin2θ⇒tan2θ=1=tan4π∴2θ=nπ+4π,n∈Z.⇒θ=(4n+1)8π ∴ \\therefore \\quad ∴ নির্ণেয় সমাধান, θ=(4n+1)π8 \\theta=(4 n+1) \\frac{\\pi}{8} θ=(4n+1)8π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -177,7 +177,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$cot \\\\theta  – tan \\\\theta  = 2 সমীকরণটির সাধারণ সমাধান কোনটি?$",
-    "explanationLatex": "cot⁡\\\\theta −tan⁡\\\\theta =2\\theta sin⁡\\\\theta −sin⁡\\\\theta cos⁡\\\\theta =2\\theta −sin\\theta sin⁡\\\\theta cos⁡\\\\theta =2\\theta =2sin⁡\\\\theta cos⁡\\\\theta \\theta =sin\\theta \\theta =1=tan⁡\\\\pi 4\\theta =n\\\\pi +\\\\pi 4,n∈Z.⇒\\\\theta =(4n+1)\\\\pi 8 \\begin{array}{l} \\text { } \\cot \\theta-\\tan \\theta=2 \\\\ \\Rightarrow \\frac{\\cos \\theta}{\\sin \\theta}-\\frac{\\sin \\theta}{\\cos \\theta}=2 \\\\ \\Rightarrow \\frac{\\cos ^{2} \\theta-\\sin ^{2} \\theta}{\\sin \\theta \\cos \\theta}=2 \\\\ \\Rightarrow \\cos 2 \\theta=2 \\sin \\theta \\cos \\theta \\\\ \\Rightarrow \\cos 2 \\theta=\\sin 2 \\theta \\Rightarrow \\tan 2 \\theta=1=\\tan \\frac{\\pi}{4} \\\\ \\therefore 2 \\theta=n \\pi+\\frac{\\pi}{4}, n \\in \\mathbb{Z} . \\\\ \\Rightarrow \\theta=(4 n+1) \\frac{\\pi}{8} \\end{array} cot\\\\theta −tan\\\\theta =2\\theta cos\\\\theta −cos\\\\theta sin\\\\theta =2\\theta cos\\\\theta cos2\\\\theta −sin2\\\\theta =2\\theta =2sin\\\\theta cos\\\\theta \\theta =sin2\\\\theta \\theta =1=tan4\\\\pi \\theta =n\\\\pi +4\\\\pi ,n∈Z.⇒\\\\theta =(4n+1)8\\\\pi ∴ \\therefore \\quad ∴ নির্ণেয় সমাধান, \\\\theta =(4n+1)\\\\pi 8 \\theta=(4 n+1) \\frac{\\pi}{8} \\\\theta =(4n+1)8\\\\pi"
+    "explanationLatex": "$cot⁡\\\\theta −tan⁡\\\\theta =2⇒cos⁡\\\\theta sin⁡\\\\theta −sin⁡\\\\theta cos⁡\\\\theta =2⇒cos⁡2\\\\theta −sin⁡2\\\\theta sin⁡\\\\theta cos⁡\\\\theta =2⇒cos⁡2\\\\theta =2sin⁡\\\\theta cos⁡\\\\theta ⇒cos⁡2\\\\theta =sin⁡2\\\\theta ⇒tan⁡2\\\\theta =1=tan⁡\\\\pi 4∴2\\\\theta =n\\\\pi +\\\\pi 4,n∈Z.⇒\\\\theta =(4n+1)\\\\pi 8 \\begin{array}{l} \\text { } \\cot \\theta-\\tan \\theta=2 \\\\ \\Rightarrow \\frac{\\cos \\theta}{\\sin \\theta}-\\frac{\\sin \\theta}{\\cos \\theta}=2 \\\\ \\Rightarrow \\frac{\\cos ^{2} \\theta-\\sin ^{2} \\theta}{\\sin \\theta \\cos \\theta}=2 \\\\ \\Rightarrow \\cos 2 \\theta=2 \\sin \\theta \\cos \\theta \\\\ \\Rightarrow \\cos 2 \\theta=\\sin 2 \\theta \\Rightarrow \\tan 2 \\theta=1=\\tan \\frac{\\pi}{4} \\\\ \\therefore 2 \\theta=n \\pi+\\frac{\\pi}{4}, n \\in \\mathbb{Z} . \\\\ \\Rightarrow \\theta=(4 n+1) \\frac{\\pi}{8} \\end{array} cot\\\\theta −tan\\\\theta =2⇒sin\\\\theta cos\\\\theta −cos\\\\theta sin\\\\theta =2⇒sin\\\\theta cos\\\\theta cos2\\\\theta −sin2\\\\theta =2⇒cos2\\\\theta =2sin\\\\theta cos\\\\theta ⇒cos2\\\\theta =sin2\\\\theta ⇒tan2\\\\theta =1=tan4\\\\pi ∴2\\\\theta =n\\\\pi +4\\\\pi ,n∈Z.⇒\\\\theta =(4n+1)8\\\\pi  ∴ \\therefore \\quad ∴ নির্ণেয় সমাধান, \\\\theta =(4n+1)\\\\pi 8 \\theta=(4 n+1) \\frac{\\pi}{8} \\\\theta =(4n+1)8\\\\pi $"
   },
   {
     "id": 10,
@@ -189,7 +189,7 @@
       "d": "-π/4"
     },
     "correctAnswer": "b",
-    "explanation": "\\begin{aligned} & A+B+C=\\pi \\\\ \\Rightarrow & A+B=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} 2+\\tan ^{-1} 3=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} \\frac{2+3}{1-(2 \\times 3)}=\\pi-C\\end{aligned} \\begin{array}{l}\\Rightarrow \\tan ^{-1}(-1)=\\pi-c \\\\ \\Rightarrow \\pi-c=\\frac{3 \\pi}{4} \\\\ \\Rightarrow C=\\pi-\\frac{3 \\pi}{4} \\\\ \\therefore C=\\frac{\\pi}{4} \\text { (Ans) }\\end{array}",
+    "explanation": "A+B+C=π⇒A+B=π−C⇒tan⁡−12+tan⁡−13=π−C⇒tan⁡−12+31−(2×3)=π−C \\begin{aligned} & A+B+C=\\pi \\\\ \\Rightarrow & A+B=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} 2+\\tan ^{-1} 3=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} \\frac{2+3}{1-(2 \\times 3)}=\\pi-C\\end{aligned} ⇒⇒⇒A+B+C=πA+B=π−Ctan−12+tan−13=π−Ctan−11−(2×3)2+3=π−C ⇒tan⁡−1(−1)=π−c⇒π−c=3π4⇒C=π−3π4∴C=π4 (Ans) \\begin{array}{l}\\Rightarrow \\tan ^{-1}(-1)=\\pi-c \\\\ \\Rightarrow \\pi-c=\\frac{3 \\pi}{4} \\\\ \\Rightarrow C=\\pi-\\frac{3 \\pi}{4} \\\\ \\therefore C=\\frac{\\pi}{4} \\text { (Ans) }\\end{array} ⇒tan−1(−1)=π−c⇒π−c=43π⇒C=π−43π∴C=4π (Ans)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -197,7 +197,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$যদি A+B+C = \\\\pi , এবং tan-12 = A এবং tan-13 = B হয় তবে C এবং এর মান কত?$",
-    "explanationLatex": "\\pi \\pi −C\\pi −C\\times 3)=\\\\pi −C \\begin{aligned} & A+B+C=\\pi \\\\ \\Rightarrow & A+B=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} 2+\\tan ^{-1} 3=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} \\frac{2+3}{1-(2 \\times 3)}=\\pi-C\\end{aligned} \\pi A+B=\\\\pi −Ctan−12+tan−13=\\\\pi −Ctan−11−(2\\\\times 3)2+3=\\\\pi −C \\pi −c⇒\\\\pi −c=3\\\\pi 4\\pi −3\\\\pi 4\\pi 4 (Ans) \\begin{array}{l}\\Rightarrow \\tan ^{-1}(-1)=\\pi-c \\\\ \\Rightarrow \\pi-c=\\frac{3 \\pi}{4} \\\\ \\Rightarrow C=\\pi-\\frac{3 \\pi}{4} \\\\ \\therefore C=\\frac{\\pi}{4} \\text { (Ans) }\\end{array} \\pi −c⇒\\\\pi −c=43\\\\pi \\pi −43\\\\pi \\pi (Ans)"
+    "explanationLatex": "$A+B+C=\\\\pi ⇒A+B=\\\\pi −C⇒tan⁡−12+tan⁡−13=\\\\pi −C⇒tan⁡−12+31−(2\\\\times 3)=\\\\pi −C \\begin{aligned} & A+B+C=\\pi \\\\ \\Rightarrow & A+B=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} 2+\\tan ^{-1} 3=\\pi-C \\\\ \\Rightarrow & \\tan ^{-1} \\frac{2+3}{1-(2 \\times 3)}=\\pi-C\\end{aligned} ⇒⇒⇒A+B+C=\\\\pi A+B=\\\\pi −Ctan−12+tan−13=\\\\pi −Ctan−11−(2\\\\times 3)2+3=\\\\pi −C ⇒tan⁡−1(−1)=\\\\pi −c⇒\\\\pi −c=3\\\\pi 4⇒C=\\\\pi −3\\\\pi 4∴C=\\\\pi 4 (Ans) \\begin{array}{l}\\Rightarrow \\tan ^{-1}(-1)=\\pi-c \\\\ \\Rightarrow \\pi-c=\\frac{3 \\pi}{4} \\\\ \\Rightarrow C=\\pi-\\frac{3 \\pi}{4} \\\\ \\therefore C=\\frac{\\pi}{4} \\text { (Ans) }\\end{array} ⇒tan−1(−1)=\\\\pi −c⇒\\\\pi −c=43\\\\pi ⇒C=\\\\pi −43\\\\pi ∴C=4\\\\pi  (Ans)$"
   },
   {
     "id": 11,
@@ -209,7 +209,7 @@
       "d": "1"
     },
     "correctAnswer": "d",
-    "explanation": "sin\\sin \\left(\\tan ^{-1} x+\\cot ^{-1} x\\right)\\\\=\\sin \\frac{\\pi}{2}[tan^{-1}x+cot^{-1}x=π/2]\\\\=1 sin(tan−1x+cot−1x)=sin2π[tan−1x+cot−1x=π/2]=1",
+    "explanation": "sin⁡(tan⁡−1x+cot⁡−1x)=sin⁡π2[tan−1x+cot−1x=π/2]=1 \\sin \\left(\\tan ^{-1} x+\\cot ^{-1} x\\right)\\\\=\\sin \\frac{\\pi}{2}[tan^{-1}x+cot^{-1}x=π/2]\\\\=1 sin(tan−1x+cot−1x)=sin2π[tan−1x+cot−1x=π/2]=1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -217,11 +217,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "sin(tan-1x + cot-1x) এর মান কোনটি?",
-    "explanationLatex": "sin\\pi 2[tan−1x+cot−1x=\\\\\\frac{pi}{2}]=1 \\sin \\left(\\tan ^{-1} x+\\cot ^{-1} x\\right)\\\\=\\sin \\frac{\\pi}{2}[tan^{-1}x+cot^{-1}x=\\\\\\frac{pi}{2}]\\\\=1 sin(tan−1x+cot−1x)=sin2\\\\pi [tan−1x+cot−1x=\\\\\\frac{pi}{2}]=1"
+    "explanationLatex": "$sin⁡(tan⁡−1x+cot⁡−1x)=sin⁡\\\\pi 2[tan−1x+cot−1x=\\\\\\frac{pi}{2}]=1 \\sin \\left(\\tan ^{-1} x+\\cot ^{-1} x\\right)\\\\=\\sin \\frac{\\pi}{2}[tan^{-1}x+cot^{-1}x=\\\\\\frac{pi}{2}]\\\\=1 sin(tan−1x+cot−1x)=sin2\\\\pi [tan−1x+cot−1x=\\\\\\frac{pi}{2}]=1$"
   },
   {
     "id": 12,
-    "question": "tan\\tan^{- 1}{x} + \\tan^{- 1}{y} = \\tan^{- 1}{\\left ( \\frac{x + y}{1 - x y} \\right )} tan−1x+tan−1y=tan−1(1−xyx+y) সূত্রটি কোন শর্তে বৈধ?",
+    "question": "tan⁡−1x+tan⁡−1y=tan⁡−1(x+y1−xy) \\tan^{- 1}{x} + \\tan^{- 1}{y} = \\tan^{- 1}{\\left ( \\frac{x + y}{1 - x y} \\right )} tan−1x+tan−1y=tan−1(1−xyx+y) সূত্রটি কোন শর্তে বৈধ?",
     "options": {
       "a": "𝑥 𝑦 < 1 xy<1",
       "b": "𝑥 𝑦 > 1 xy>1",
@@ -236,7 +236,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan^{- 1}{x} + \\tan^{- 1}{y} = \\tan^{- 1}{\\left ( \\frac{x + y}{1 - x y} \\right )} tan−1x+tan−1y=tan−1(1−xyx+y) সূত্রটি কোন শর্তে বৈধ?",
+    "questionLatex": "$tan⁡−1x+tan⁡−1y=tan⁡−1(x+y1−xy) \\tan^{- 1}{x} + \\tan^{- 1}{y} = \\tan^{- 1}{\\left ( \\frac{x + y}{1 - x y} \\right )} tan−1x+tan−1y=tan−1(1−xyx+y) সূত্রটি কোন শর্তে বৈধ?$",
     "explanationLatex": "সঠিক উত্তর: (a) 𝑥 𝑦 < 1 xy<1।"
   },
   {
@@ -249,19 +249,19 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "চিত্রমতে, tan\\tan ^{-1} \\frac{1}{x}=\\sec ^{-1} \\frac{\\sqrt{1+x^{2}}}{x} tan−1x1=sec−1x1+x2",
+    "explanation": "চিত্রমতে, tan⁡−11x=sec⁡−11+x2x \\tan ^{-1} \\frac{1}{x}=\\sec ^{-1} \\frac{\\sqrt{1+x^{2}}}{x} tan−1x1=sec−1x1+x2",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243618/gst-question-images/Math____________________________-Varsity-arc_q13.png",
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan-1(\\frac{1}{x})=?",
-    "explanationLatex": "চিত্রমতে, tan\\tan ^{-1} \\frac{1}{x}=\\sec ^{-1} \\frac{\\sqrt{1+x^{2}}}{x} tan−1x1=sec−1x1+x2"
+    "questionLatex": "$tan-1(\\frac{1}{x})=?$",
+    "explanationLatex": "$চিত্রমতে, tan⁡−11x=sec⁡−11+x2x \\tan ^{-1} \\frac{1}{x}=\\sec ^{-1} \\frac{\\sqrt{1+x^{2}}}{x} tan−1x1=sec−1x1+x2$"
   },
   {
     "id": 14,
-    "question": "sec\\sec{\\theta} = 2 secθ=2 এবং tan\\tan{\\theta} = \\sqrt{3} tanθ=3 হলে θ \\theta θ এর মান হবে __",
+    "question": "sec⁡θ=2 \\sec{\\theta} = 2 secθ=2 এবং tan⁡θ=3 \\tan{\\theta} = \\sqrt{3} tanθ=3 হলে θ \\theta θ এর মান হবে __",
     "options": {
       "a": "300",
       "b": "450",
@@ -281,7 +281,7 @@
   },
   {
     "id": 15,
-    "question": "sin\\sin^{- 1}{P} = \\frac{\\pi}{2} - \\cos^{- 1}{\\left ( \\frac{x}{2} \\right )} sin−1P=2π−cos−1(2x) হলে P এর মান কোনটি?",
+    "question": "sin⁡−1P=π2−cos⁡−1(x2) \\sin^{- 1}{P} = \\frac{\\pi}{2} - \\cos^{- 1}{\\left ( \\frac{x}{2} \\right )} sin−1P=2π−cos−1(2x) হলে P এর মান কোনটি?",
     "options": {
       "a": "π/2 - x",
       "b": "x/2",
@@ -289,19 +289,19 @@
       "d": "2x"
     },
     "correctAnswer": "b",
-    "explanation": "sin\\begin{array}{l}\\sin ^{-1} P=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right) \\\\ \\Rightarrow P=\\sin \\left\\{\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right)\\right\\} \\\\ \\therefore P=\\cos \\cos ^{-1}\\left(\\frac{x}{2}\\right)=\\frac{x}{2} \\text { (Ans.) }\\end{array} sin−1P=2π−cos−1(2x)",
+    "explanation": "sin⁡−1P=π2−cos⁡−1(x2)⇒P=sin⁡{π2−cos⁡−1(x2)}∴P=cos⁡cos⁡−1(x2)=x2 (Ans.) \\begin{array}{l}\\sin ^{-1} P=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right) \\\\ \\Rightarrow P=\\sin \\left\\{\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right)\\right\\} \\\\ \\therefore P=\\cos \\cos ^{-1}\\left(\\frac{x}{2}\\right)=\\frac{x}{2} \\text { (Ans.) }\\end{array} sin−1P=2π−cos−1(2x)⇒P=sin{2π−cos−1(2x)}∴P=coscos−1(2x)=2x (Ans.)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\pi 2−cos\\sin^{- 1}{P} = \\frac{\\pi}{2} - \\cos^{- 1}{\\left ( \\frac{x}{2} \\right )} sin−1P=2\\\\pi −cos−1(2x) হলে P এর মান কোনটি?",
-    "explanationLatex": "sin\\pi 2−cos\\pi 2−cos\\begin{array}{l}\\sin ^{-1} P=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right) \\\\ \\Rightarrow P=\\sin \\left\\{\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right)\\right\\} \\\\ \\therefore P=\\cos \\cos ^{-1}\\left(\\frac{x}{2}\\right)=\\frac{x}{2} \\text { (Ans.) }\\end{array} sin−1P=2\\\\pi −cos−1(2x)\\pi −cos−1(2x)}"
+    "questionLatex": "$sin⁡−1P=\\\\pi 2−cos⁡−1(x2) \\sin^{- 1}{P} = \\frac{\\pi}{2} - \\cos^{- 1}{\\left ( \\frac{x}{2} \\right )} sin−1P=2\\\\pi −cos−1(2x) হলে P এর মান কোনটি?$",
+    "explanationLatex": "$sin⁡−1P=\\\\pi 2−cos⁡−1(x2)⇒P=sin⁡{\\\\pi 2−cos⁡−1(x2)}∴P=cos⁡cos⁡−1(x2)=x2 (Ans.) \\begin{array}{l}\\sin ^{-1} P=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right) \\\\ \\Rightarrow P=\\sin \\left\\{\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\frac{x}{2}\\right)\\right\\} \\\\ \\therefore P=\\cos \\cos ^{-1}\\left(\\frac{x}{2}\\right)=\\frac{x}{2} \\text { (Ans.) }\\end{array} sin−1P=2\\\\pi −cos−1(2x)⇒P=sin{2\\\\pi −cos−1(2x)}∴P=coscos−1(2x)=2x (Ans.)$"
   },
   {
     "id": 16,
-    "question": "4(cot\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right)=? 4(cot−13+cosec−15)=?",
+    "question": "4(cot⁡−13+cosec⁡−15)=? 4\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right)=? 4(cot−13+cosec−15)=?",
     "options": {
       "a": "𝜋 π",
       "b": "− 𝜋 −π",
@@ -309,19 +309,19 @@
       "d": "2 𝜋 2π"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{array}{l}4\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right) \\\\=4\\left(\\tan ^{-1} \\frac{1}{3}+\\tan ^{-1} \\frac{1}{2}\\right)=4 \\tan ^{-1} \\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\cdot \\frac{1}{3}} \\\\=4 \\cdot \\tan ^{-1}\\left(\\frac{3+2}{6} \\times \\frac{6}{6-1}\\right)=4 \\tan ^{-1} \\frac{5}{5} \\\\=4 \\tan ^{-1} 1=4 \\cdot \\frac{\\pi}{4}=\\pi \\end{array}4(cot−13+cosec−15)=4(tan−131+tan−121)=4tan−11−21⋅3121+31=4⋅tan−1(63+2",
+    "explanation": "Solve: 4(cot⁡−13+cosec⁡−15)=4(tan⁡−113+tan⁡−112)=4tan⁡−112+131−12⋅13=4⋅tan⁡−1(3+26×66−1)=4tan⁡−155=4tan⁡−11=4⋅π4=π\\begin{array}{l}4\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right) \\\\=4\\left(\\tan ^{-1} \\frac{1}{3}+\\tan ^{-1} \\frac{1}{2}\\right)=4 \\tan ^{-1} \\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\cdot \\frac{1}{3}} \\\\=4 \\cdot \\tan ^{-1}\\left(\\frac{3+2}{6} \\times \\frac{6}{6-1}\\right)=4 \\tan ^{-1} \\frac{5}{5} \\\\=4 \\tan ^{-1} 1=4 \\cdot \\frac{\\pi}{4}=\\pi \\end{array}4(cot−13+cosec−15)=4(tan−131+tan−121)=4tan−11−21⋅3121+31=4⋅tan−1(63+2×6−16)=4tan−155=4tan−11=4⋅4π=π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "4(cot\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right)=? 4(cot−13+cosec−15)=?",
-    "explanationLatex": "\\times 66−1)=4tan\\pi 4=\\\\pi \\begin{array}{l}4\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right) \\\\=4\\left(\\tan ^{-1} \\frac{1}{3}+\\tan ^{-1} \\frac{1}{2}\\right)=4 \\tan ^{-1} \\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\cdot \\frac{1}{3}} \\\\=4 \\cdot \\tan ^{-1}\\left(\\frac{3+2}{6} \\times \\frac{6}{6-1}\\right)=4 \\tan ^{-1} \\frac{5}{5} \\\\=4 \\tan ^{-1} 1=4 \\cdot \\frac{\\pi}{4}=\\pi \\end{array}4(cot−13+cosec−15)=4(tan−131+tan−121)=4tan−11−21⋅3121+31=4⋅tan−1(63+2\\\\times 6−16)=4tan−155=4tan−11=4⋅4\\\\pi =\\\\pi"
+    "questionLatex": "$4(cot⁡−13+cosec⁡−15)=? 4\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right)=? 4(cot−13+cosec−15)=?$",
+    "explanationLatex": "$Solve: 4(cot⁡−13+cosec⁡−15)=4(tan⁡−113+tan⁡−112)=4tan⁡−112+131−12⋅13=4⋅tan⁡−1(3+26\\\\times 66−1)=4tan⁡−155=4tan⁡−11=4⋅\\\\pi 4=\\\\pi \\begin{array}{l}4\\left(\\cot ^{-1} 3+\\operatorname{cosec}^{-1} \\sqrt{5}\\right) \\\\=4\\left(\\tan ^{-1} \\frac{1}{3}+\\tan ^{-1} \\frac{1}{2}\\right)=4 \\tan ^{-1} \\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2} \\cdot \\frac{1}{3}} \\\\=4 \\cdot \\tan ^{-1}\\left(\\frac{3+2}{6} \\times \\frac{6}{6-1}\\right)=4 \\tan ^{-1} \\frac{5}{5} \\\\=4 \\tan ^{-1} 1=4 \\cdot \\frac{\\pi}{4}=\\pi \\end{array}4(cot−13+cosec−15)=4(tan−131+tan−121)=4tan−11−21⋅3121+31=4⋅tan−1(63+2\\\\times 6−16)=4tan−155=4tan−11=4⋅4\\\\pi =\\\\pi $"
   },
   {
     "id": 17,
-    "question": "tan\\tan ^{-1}x+2 \\cot ^{-1} x=\\frac{2 \\pi}{3} tan−1x+2cot−1x=32π হলে x \\mathrm{x} x এর মান কত?",
+    "question": "tan⁡−1x+2cot⁡−1x=2π3 \\tan ^{-1}x+2 \\cot ^{-1} x=\\frac{2 \\pi}{3} tan−1x+2cot−1x=32π হলে x \\mathrm{x} x এর মান কত?",
     "options": {
       "a": "0",
       "b": "1 2 2 1",
@@ -336,12 +336,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\pi 3 \\tan ^{-1}x+2 \\cot ^{-1} x=\\frac{2 \\pi}{3} tan−1x+2cot−1x=32\\\\pi হলে x \\mathrm{x} x এর মান কত?",
+    "questionLatex": "$tan⁡−1x+2cot⁡−1x=2\\\\pi 3 \\tan ^{-1}x+2 \\cot ^{-1} x=\\frac{2 \\pi}{3} tan−1x+2cot−1x=32\\\\pi  হলে x \\mathrm{x} x এর মান কত?$",
     "explanationLatex": "সঠিক উত্তর: (c) 3 3।"
   },
   {
     "id": 18,
-    "question": "tan\\tan^2x+\\sec^2x=3tan2x+sec2x=3 হলে x=?",
+    "question": "tan⁡2x+sec⁡2x=3\\tan^2x+\\sec^2x=3tan2x+sec2x=3 হলে x=?",
     "options": {
       "a": "𝑛 𝜋 ± 𝜋 4 nπ± 4 π",
       "b": "𝜋 4 4 π",
@@ -349,19 +349,19 @@
       "d": "2 𝑛 𝜋 ± 𝜋 4 2nπ± 4 π"
     },
     "correctAnswer": "a",
-    "explanation": "দেওয়া আছে, tan\\tan^2{x}+\\sec^2{x}=3 \\\\ \\Rightarrow2\\tan^2{x+1}=3 \\\\ \\Rightarrow\\tan{x}=\\pm1\\Rightarrow x=n\\pi\\pm\\frac{\\pi}{4}tan2x+sec2x=3",
+    "explanation": "দেওয়া আছে, tan⁡2x+sec⁡2x=3⇒2tan⁡2x+1=3⇒tan⁡x=±1⇒x=nπ±π4\\tan^2{x}+\\sec^2{x}=3 \\\\ \\Rightarrow2\\tan^2{x+1}=3 \\\\ \\Rightarrow\\tan{x}=\\pm1\\Rightarrow x=n\\pi\\pm\\frac{\\pi}{4}tan2x+sec2x=3⇒2tan2x+1=3⇒tanx=±1⇒x=nπ±4π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan^2x+\\sec^2x=3tan2x+sec2x=3 হলে x=?",
-    "explanationLatex": "দেওয়া আছে, tan\\pm 1\\pi \\\\pm \\\\pi 4\\tan^2{x}+\\sec^2{x}=3 \\\\ \\Rightarrow2\\tan^2{x+1}=3 \\\\ \\Rightarrow\\tan{x}=\\pm1\\Rightarrow x=n\\pi\\pm\\frac{\\pi}{4}tan2x+sec2x=3\\pm 1\\pi \\\\pm 4\\\\pi"
+    "questionLatex": "$tan⁡2x+sec⁡2x=3\\tan^2x+\\sec^2x=3tan2x+sec2x=3 হলে x=?$",
+    "explanationLatex": "$দেওয়া আছে, tan⁡2x+sec⁡2x=3⇒2tan⁡2x+1=3⇒tan⁡x=\\\\pm 1⇒x=n\\\\pi \\\\pm \\\\pi 4\\tan^2{x}+\\sec^2{x}=3 \\\\ \\Rightarrow2\\tan^2{x+1}=3 \\\\ \\Rightarrow\\tan{x}=\\pm1\\Rightarrow x=n\\pi\\pm\\frac{\\pi}{4}tan2x+sec2x=3⇒2tan2x+1=3⇒tanx=\\\\pm 1⇒x=n\\\\pi \\\\pm 4\\\\pi $"
   },
   {
     "id": 19,
-    "question": "tan\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13এর মান-",
+    "question": "tan⁡−11+tan⁡−12+tan⁡−13\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13এর মান-",
     "options": {
       "a": "0 0",
       "b": "𝜋 2 2 π",
@@ -369,19 +369,19 @@
       "d": "2 𝜋 2π"
     },
     "correctAnswer": "a",
-    "explanation": "tan\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13=tan\\tan^{-1}\\frac{1+2}{1-2\\times1}+\\tan^{-1}3=\\tan^{-1}(-3)+\\tan^{-1}3=tan−11−2\\tan^{-1}\\frac{3-3}{1-3\\times3}=\\tan^{-1}0=0=tan−11−3",
+    "explanation": "tan⁡−11+tan⁡−12+tan⁡−13\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13=tan⁡−11+21−2×1+tan⁡−13=tan⁡−1(−3)+tan⁡−13=\\tan^{-1}\\frac{1+2}{1-2\\times1}+\\tan^{-1}3=\\tan^{-1}(-3)+\\tan^{-1}3=tan−11−2×11+2+tan−13=tan−1(−3)+tan−13=tan⁡−13−31−3×3=tan⁡−10=0=\\tan^{-1}\\frac{3-3}{1-3\\times3}=\\tan^{-1}0=0=tan−11−3×33−3=tan−10=0",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13এর মান-",
-    "explanationLatex": "tan\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13=tan\\times 1+tan\\tan^{-1}\\frac{1+2}{1-2\\times1}+\\tan^{-1}3=\\tan^{-1}(-3)+\\tan^{-1}3=tan−11−2\\\\times 11+2+tan−13=tan−1(−3)+tan−13=tan\\times 3=tan\\tan^{-1}\\frac{3-3}{1-3\\times3}=\\tan^{-1}0=0=tan−11−3\\\\times 33−3=tan−10=0"
+    "questionLatex": "$tan⁡−11+tan⁡−12+tan⁡−13\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13এর মান-$",
+    "explanationLatex": "$tan⁡−11+tan⁡−12+tan⁡−13\\tan^{-1}1+\\tan^{-1}2+\\tan^{-1}3tan−11+tan−12+tan−13=tan⁡−11+21−2\\\\times 1+tan⁡−13=tan⁡−1(−3)+tan⁡−13=\\tan^{-1}\\frac{1+2}{1-2\\times1}+\\tan^{-1}3=\\tan^{-1}(-3)+\\tan^{-1}3=tan−11−2\\\\times 11+2+tan−13=tan−1(−3)+tan−13=tan⁡−13−31−3\\\\times 3=tan⁡−10=0=\\tan^{-1}\\frac{3-3}{1-3\\times3}=\\tan^{-1}0=0=tan−11−3\\\\times 33−3=tan−10=0$"
   },
   {
     "id": 20,
-    "question": "cot\\cot^{2}{\\theta} + \\cos{e} c \\theta - 5 = 0 , \\left ( 0 ° < \\theta < 90 ° \\right ) cot2θ+cosecθ−5=0,(0°<θ<90°) এর সমাধান -",
+    "question": "cot⁡2θ+cos⁡ecθ−5=0,(0°<θ<90°) \\cot^{2}{\\theta} + \\cos{e} c \\theta - 5 = 0 , \\left ( 0 ° < \\theta < 90 ° \\right ) cot2θ+cosecθ−5=0,(0°<θ<90°) এর সমাধান -",
     "options": {
       "a": "0°",
       "b": "45°",
@@ -401,7 +401,7 @@
   },
   {
     "id": 21,
-    "question": "sin\\sin^{- 1}{\\left ( \\frac{2 a}{1 + a^{2}} \\right )} sin−1(1+a22a) - cos\\cos^{- 1}{\\left ( \\frac{1 - b^{2}}{1 + b^{2}} \\right )} cos−1(1+b21−b2) =2tan-1(x) হলে, x এর মান-",
+    "question": "sin⁡−1(2a1+a2) \\sin^{- 1}{\\left ( \\frac{2 a}{1 + a^{2}} \\right )} sin−1(1+a22a) - cos⁡−1(1−b21+b2) \\cos^{- 1}{\\left ( \\frac{1 - b^{2}}{1 + b^{2}} \\right )} cos−1(1+b21−b2) =2tan-1(x) হলে, x এর মান-",
     "options": {
       "a": "a+b",
       "b": "a-b",
@@ -409,15 +409,15 @@
       "d": "𝑎 + 𝑏 1 − 𝑎 𝑏 1−ab a+b"
     },
     "correctAnswer": "c",
-    "explanation": "sin\\begin{aligned} & \\sin ^{-1} \\frac{2 a}{1+a^{2}}-\\cos ^{-1} \\frac{1-b^{2}}{1+b^{2}}=2 \\tan ^{-1} x \\\\ \\Rightarrow & 2 \\tan ^{-1} a-2 \\tan ^{-1} b=2 \\tan ^{-1} x \\\\ \\Rightarrow & \\tan ^{-1} x=\\tan ^{-1} \\frac{a-b}{1+a b} \\Rightarrow x=\\frac{a-b}{1+a b}\\end{aligned}",
+    "explanation": "sin⁡−12a1+a2−cos⁡−11−b21+b2=2tan⁡−1x⇒2tan⁡−1a−2tan⁡−1b=2tan⁡−1x⇒tan⁡−1x=tan⁡−1a−b1+ab⇒x=a−b1+ab \\begin{aligned} & \\sin ^{-1} \\frac{2 a}{1+a^{2}}-\\cos ^{-1} \\frac{1-b^{2}}{1+b^{2}}=2 \\tan ^{-1} x \\\\ \\Rightarrow & 2 \\tan ^{-1} a-2 \\tan ^{-1} b=2 \\tan ^{-1} x \\\\ \\Rightarrow & \\tan ^{-1} x=\\tan ^{-1} \\frac{a-b}{1+a b} \\Rightarrow x=\\frac{a-b}{1+a b}\\end{aligned} ⇒⇒sin−11+a22a−cos−11+b21−b2=2tan−1x2tan−1a−2tan−1b=2tan−1xtan−1x=tan−11+aba−b⇒x=1+aba−b",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin^{- 1}{\\left ( \\frac{2 a}{1 + a^{2}} \\right )} sin−1(1+a22a) - cos\\cos^{- 1}{\\left ( \\frac{1 - b^{2}}{1 + b^{2}} \\right )} cos−1(1+b21−b2) =2tan-1(x) হলে, x এর মান-",
-    "explanationLatex": "sin\\begin{aligned} & \\sin ^{-1} \\frac{2 a}{1+a^{2}}-\\cos ^{-1} \\frac{1-b^{2}}{1+b^{2}}=2 \\tan ^{-1} x \\\\ \\Rightarrow & 2 \\tan ^{-1} a-2 \\tan ^{-1} b=2 \\tan ^{-1} x \\\\ \\Rightarrow & \\tan ^{-1} x=\\tan ^{-1} \\frac{a-b}{1+a b} \\Rightarrow x=\\frac{a-b}{1+a b}\\end{aligned}"
+    "questionLatex": "$sin⁡−1(2a1+a2) \\sin^{- 1}{\\left ( \\frac{2 a}{1 + a^{2}} \\right )} sin−1(1+a22a) - cos⁡−1(1−b21+b2) \\cos^{- 1}{\\left ( \\frac{1 - b^{2}}{1 + b^{2}} \\right )} cos−1(1+b21−b2) =2tan-1(x) হলে, x এর মান-$",
+    "explanationLatex": "$sin⁡−12a1+a2−cos⁡−11−b21+b2=2tan⁡−1x⇒2tan⁡−1a−2tan⁡−1b=2tan⁡−1x⇒tan⁡−1x=tan⁡−1a−b1+ab⇒x=a−b1+ab \\begin{aligned} & \\sin ^{-1} \\frac{2 a}{1+a^{2}}-\\cos ^{-1} \\frac{1-b^{2}}{1+b^{2}}=2 \\tan ^{-1} x \\\\ \\Rightarrow & 2 \\tan ^{-1} a-2 \\tan ^{-1} b=2 \\tan ^{-1} x \\\\ \\Rightarrow & \\tan ^{-1} x=\\tan ^{-1} \\frac{a-b}{1+a b} \\Rightarrow x=\\frac{a-b}{1+a b}\\end{aligned} ⇒⇒sin−11+a22a−cos−11+b21−b2=2tan−1x2tan−1a−2tan−1b=2tan−1xtan−1x=tan−11+aba−b⇒x=1+aba−b$"
   },
   {
     "id": 22,
@@ -429,7 +429,7 @@
       "d": "𝜋 6 , 5 𝜋 6 6 π , 6 5π"
     },
     "correctAnswer": "d",
-    "explanation": "sec\\sec^{2}{\\theta} + \\tan^{2}{\\theta} = \\frac{5}{3} , 0 < \\theta < \\pi sec2θ+tan2θ=35,0<θ<π sec\\begin{array}{l} \\\\ \\sec ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 1+\\tan ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 2 \\tan ^{2} \\theta=\\frac{2}{3} \\\\ \\therefore \\tan ^{2} \\theta= \\pm \\frac{1}{\\sqrt{3}} \\\\ \\therefore \\theta=\\pi / 6,5 \\pi / 6 . . \\end{array} sec2θ+tan2θ=351+tan2θ+tan2θ=352tan2θ=32",
+    "explanation": "sec⁡2θ+tan⁡2θ=53,0<θ<π \\sec^{2}{\\theta} + \\tan^{2}{\\theta} = \\frac{5}{3} , 0 < \\theta < \\pi sec2θ+tan2θ=35,0<θ<π sec⁡2θ+tan⁡2θ=531+tan⁡2θ+tan⁡2θ=532tan⁡2θ=23∴tan⁡2θ=±13∴θ=π/6,5π/6.. \\begin{array}{l} \\\\ \\sec ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 1+\\tan ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 2 \\tan ^{2} \\theta=\\frac{2}{3} \\\\ \\therefore \\tan ^{2} \\theta= \\pm \\frac{1}{\\sqrt{3}} \\\\ \\therefore \\theta=\\pi / 6,5 \\pi / 6 . . \\end{array} sec2θ+tan2θ=351+tan2θ+tan2θ=352tan2θ=32∴tan2θ=±31∴θ=π/6,5π/6..",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -437,11 +437,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সমাধান কর:",
-    "explanationLatex": "sec\\theta +tan\\theta =53,0<\\\\theta <\\\\pi \\sec^{2}{\\theta} + \\tan^{2}{\\theta} = \\frac{5}{3} , 0 < \\theta < \\pi sec2\\\\theta +tan2\\\\theta =35,0<\\\\theta <\\\\pi sec\\theta +tan\\theta =531+tan\\theta +tan\\theta =532tan\\theta =23\\theta =\\\\pm 13∴\\\\theta =\\\\\\frac{pi}{6},5\\\\\\frac{pi}{6}.. \\begin{array}{l} \\\\ \\sec ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 1+\\tan ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 2 \\tan ^{2} \\theta=\\frac{2}{3} \\\\ \\therefore \\tan ^{2} \\theta= \\pm \\frac{1}{\\sqrt{3}} \\\\ \\therefore \\theta=\\\\frac{pi}{6},5 \\\\frac{pi}{6} . . \\end{array} sec2\\\\theta +tan2\\\\theta =351+tan2\\\\theta +tan2\\\\theta =352tan2\\\\theta =32\\theta =\\\\pm 31∴\\\\theta =\\\\\\frac{pi}{6},5\\\\\\frac{pi}{6}.."
+    "explanationLatex": "$sec⁡2\\\\theta +tan⁡2\\\\theta =53,0<\\\\theta <\\\\pi  \\sec^{2}{\\theta} + \\tan^{2}{\\theta} = \\frac{5}{3} , 0 < \\theta < \\pi sec2\\\\theta +tan2\\\\theta =35,0<\\\\theta <\\\\pi  sec⁡2\\\\theta +tan⁡2\\\\theta =531+tan⁡2\\\\theta +tan⁡2\\\\theta =532tan⁡2\\\\theta =23∴tan⁡2\\\\theta =\\\\pm 13∴\\\\theta =\\\\\\frac{pi}{6},5\\\\\\frac{pi}{6}.. \\begin{array}{l} \\\\ \\sec ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 1+\\tan ^{2} \\theta+\\tan ^{2} \\theta=\\frac{5}{3} \\\\ 2 \\tan ^{2} \\theta=\\frac{2}{3} \\\\ \\therefore \\tan ^{2} \\theta= \\pm \\frac{1}{\\sqrt{3}} \\\\ \\therefore \\theta=\\\\frac{pi}{6},5 \\\\frac{pi}{6} . . \\end{array} sec2\\\\theta +tan2\\\\theta =351+tan2\\\\theta +tan2\\\\theta =352tan2\\\\theta =32∴tan2\\\\theta =\\\\pm 31∴\\\\theta =\\\\\\frac{pi}{6},5\\\\\\frac{pi}{6}..$"
   },
   {
     "id": 23,
-    "question": "2tan\\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8}= ? 2tan−151+tan−171+2tan−181=?",
+    "question": "2tan⁡−115+tan⁡−117+2tan⁡−118=?2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8}= ? 2tan−151+tan−171+2tan−181=?",
     "options": {
       "a": "𝜋 6 6 π",
       "b": "𝜋 3 3 π",
@@ -449,19 +449,19 @@
       "d": "𝜋 2 2 π"
     },
     "correctAnswer": "c",
-    "explanation": "\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8} \\\\ =\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{8}}{1-\\left(\\frac{1}{8}\\right)^{2}} \\\\ =\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{7}+ \\\\ \\tan ^{-1}\\left(\\frac{2}{8} \\times \\frac{64}{64-1}\\right) \\\\ =\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{7}}{1-\\frac{5}{12} \\cdot \\frac{1}{7}}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1}\\left(\\frac{35+12}{84} \\times \\frac{84}{84-5}\\right)+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{47}{79}+\\tan ^{-1} \\cdot \\frac{16}{63}=\\tan ^{-1} \\frac{\\frac{47}{79}+\\frac{16}{63}}{1-\\frac{47}{79} \\frac{16}{63}} \\\\ =\\tan ^{-1}\\left(\\frac{2961+1264}{4977} \\times \\frac{4977}{4977-752}\\right) \\\\=\\tan ^{-1} \\frac{4225}{4225}=\\tan ^{-1} 1=\\frac{\\pi}{4} \\end{array}2tan−151+tan−171+2tan−181=tan−11−(51)22⋅51+tan−171+tan−11−(81)22⋅81=tan−1(52",
+    "explanation": "Solve: 2tan⁡−115+tan⁡−117+2tan⁡−118=tan⁡−12⋅151−(15)2+tan⁡−117+tan⁡−12⋅181−(18)2=tan⁡−1(25×2525−1)+tan⁡−117+tan⁡−1(28×6464−1)=tan⁡−1512+tan⁡−117+tan⁡−11663=tan⁡−1512+171−512⋅17+tan⁡−11663=tan⁡−1(35+1284×8484−5)+tan⁡−11663=tan⁡−14779+tan⁡−1⋅1663=tan⁡−14779+16631−47791663=tan⁡−1(2961+12644977×49774977−752)=tan⁡−142254225=tan⁡−11=π4\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8} \\\\ =\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{8}}{1-\\left(\\frac{1}{8}\\right)^{2}} \\\\ =\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{7}+ \\\\ \\tan ^{-1}\\left(\\frac{2}{8} \\times \\frac{64}{64-1}\\right) \\\\ =\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{7}}{1-\\frac{5}{12} \\cdot \\frac{1}{7}}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1}\\left(\\frac{35+12}{84} \\times \\frac{84}{84-5}\\right)+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{47}{79}+\\tan ^{-1} \\cdot \\frac{16}{63}=\\tan ^{-1} \\frac{\\frac{47}{79}+\\frac{16}{63}}{1-\\frac{47}{79} \\frac{16}{63}} \\\\ =\\tan ^{-1}\\left(\\frac{2961+1264}{4977} \\times \\frac{4977}{4977-752}\\right) \\\\=\\tan ^{-1} \\frac{4225}{4225}=\\tan ^{-1} 1=\\frac{\\pi}{4} \\end{array}2tan−151+tan−171+2tan−181=tan−11−(51)22⋅51+tan−171+tan−11−(81)22⋅81=tan−1(52×25−125)+tan−171+tan−1(82×64−164)=tan−1125+tan−171+tan−16316=tan−11−125⋅71125+71+tan−16316=tan−1(8435+12×84−584)+tan−16316=tan−17947+tan−1⋅6316=tan−11−794763167947+6316=tan−1(49772961+1264×4977−7524977)=tan−142254225=tan−11=4π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "2tan\\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8}= ? 2tan−151+tan−171+2tan−181=?",
-    "explanationLatex": "\\times 2525−1)+tan\\times 6464−1)=tan\\times 8484−5)+tan\\times 49774977−752)=tan\\pi 4\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8} \\\\ =\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{8}}{1-\\left(\\frac{1}{8}\\right)^{2}} \\\\ =\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{7}+ \\\\ \\tan ^{-1}\\left(\\frac{2}{8} \\times \\frac{64}{64-1}\\right) \\\\ =\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{7}}{1-\\frac{5}{12} \\cdot \\frac{1}{7}}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1}\\left(\\frac{35+12}{84} \\times \\frac{84}{84-5}\\right)+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{47}{79}+\\tan ^{-1} \\cdot \\frac{16}{63}=\\tan ^{-1} \\frac{\\frac{47}{79}+\\frac{16}{63}}{1-\\frac{47}{79} \\frac{16}{63}} \\\\ =\\tan ^{-1}\\left(\\frac{2961+1264}{4977} \\times \\frac{4977}{4977-752}\\right) \\\\=\\tan ^{-1} \\frac{4225}{4225}=\\tan ^{-1} 1=\\frac{\\pi}{4} \\end{array}2tan−151+tan−171+2tan−181=tan−11−(51)22⋅51+tan−171+tan−11−(81)22⋅81=tan−1(52\\\\times 25−125)+tan−171+tan−1(82\\\\times 64−164)=tan−1125+tan−171+tan−16316=tan−11−125⋅71125+71+tan−16316=tan−1(8435+12\\\\times 84−584)+tan−16316=tan−17947+tan−1⋅6316=tan−11−794763167947+6316=tan−1(49772961+1264\\\\times 4977−7524977)=tan−142254225=tan−11=4\\\\pi"
+    "questionLatex": "$2tan⁡−115+tan⁡−117+2tan⁡−118=?2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8}= ? 2tan−151+tan−171+2tan−181=?$",
+    "explanationLatex": "$Solve: 2tan⁡−115+tan⁡−117+2tan⁡−118=tan⁡−12⋅151−(15)2+tan⁡−117+tan⁡−12⋅181−(18)2=tan⁡−1(25\\\\times 2525−1)+tan⁡−117+tan⁡−1(28\\\\times 6464−1)=tan⁡−1512+tan⁡−117+tan⁡−11663=tan⁡−1512+171−512⋅17+tan⁡−11663=tan⁡−1(35+1284\\\\times 8484−5)+tan⁡−11663=tan⁡−14779+tan⁡−1⋅1663=tan⁡−14779+16631−47791663=tan⁡−1(2961+12644977\\\\times 49774977−752)=tan⁡−142254225=tan⁡−11=\\\\pi 4\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{7}+2 \\tan ^{-1} \\frac{1}{8} \\\\ =\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{8}}{1-\\left(\\frac{1}{8}\\right)^{2}} \\\\ =\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{7}+ \\\\ \\tan ^{-1}\\left(\\frac{2}{8} \\times \\frac{64}{64-1}\\right) \\\\ =\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{7}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{7}}{1-\\frac{5}{12} \\cdot \\frac{1}{7}}+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1}\\left(\\frac{35+12}{84} \\times \\frac{84}{84-5}\\right)+\\tan ^{-1} \\frac{16}{63} \\\\ =\\tan ^{-1} \\frac{47}{79}+\\tan ^{-1} \\cdot \\frac{16}{63}=\\tan ^{-1} \\frac{\\frac{47}{79}+\\frac{16}{63}}{1-\\frac{47}{79} \\frac{16}{63}} \\\\ =\\tan ^{-1}\\left(\\frac{2961+1264}{4977} \\times \\frac{4977}{4977-752}\\right) \\\\=\\tan ^{-1} \\frac{4225}{4225}=\\tan ^{-1} 1=\\frac{\\pi}{4} \\end{array}2tan−151+tan−171+2tan−181=tan−11−(51)22⋅51+tan−171+tan−11−(81)22⋅81=tan−1(52\\\\times 25−125)+tan−171+tan−1(82\\\\times 64−164)=tan−1125+tan−171+tan−16316=tan−11−125⋅71125+71+tan−16316=tan−1(8435+12\\\\times 84−584)+tan−16316=tan−17947+tan−1⋅6316=tan−11−794763167947+6316=tan−1(49772961+1264\\\\times 4977−7524977)=tan−142254225=tan−11=4\\\\pi $"
   },
   {
     "id": 24,
-    "question": "tan\\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi tan−1x+tan−1y+tan−1z=π হলে x+y+z x+y+z x+y+z এর মান কত ?",
+    "question": "tan⁡−1x+tan⁡−1y+tan⁡−1z=π \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi tan−1x+tan−1y+tan−1z=π হলে x+y+z x+y+z x+y+z এর মান কত ?",
     "options": {
       "a": "1",
       "b": "2",
@@ -469,19 +469,19 @@
       "d": "𝑧 2 𝑦 2 𝑥 2 z 2 y 2 x 2"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, tan\\begin{aligned}& \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi \\\\\\Rightarrow & \\tan ^{-1} \\frac{x+y}{1-x y}=\\pi-\\tan ^{-1} z \\\\\\Rightarrow & \\frac{x+y}{1-x y}=\\tan \\left(\\pi-\\tan ^{-1} z\\right) \\\\& =-\\tan \\left(\\tan ^{-1} z\\right)=-z \\\\\\Rightarrow & x+y=-z+x y z \\\\\\therefore & x+y+z=x y z \\text { }\\end{aligned}",
+    "explanation": "Solve: দেওয়া আছে, tan⁡−1x+tan⁡−1y+tan⁡−1z=π⇒tan⁡−1x+y1−xy=π−tan⁡−1z⇒x+y1−xy=tan⁡(π−tan⁡−1z)=−tan⁡(tan⁡−1z)=−z⇒x+y=−z+xyz∴x+y+z=xyz \\begin{aligned}& \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi \\\\\\Rightarrow & \\tan ^{-1} \\frac{x+y}{1-x y}=\\pi-\\tan ^{-1} z \\\\\\Rightarrow & \\frac{x+y}{1-x y}=\\tan \\left(\\pi-\\tan ^{-1} z\\right) \\\\& =-\\tan \\left(\\tan ^{-1} z\\right)=-z \\\\\\Rightarrow & x+y=-z+x y z \\\\\\therefore & x+y+z=x y z \\text { }\\end{aligned}⇒⇒⇒∴tan−1x+tan−1y+tan−1z=πtan−11−xyx+y=π−tan−1z1−xyx+y=tan(π−tan−1z)=−tan(tan−1z)=−zx+y=−z+xyzx+y+z=xyz",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\pi \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi tan−1x+tan−1y+tan−1z=\\\\pi হলে x+y+z x+y+z x+y+z এর মান কত ?",
-    "explanationLatex": "দেওয়া আছে, tan\\pi \\pi −tan\\pi −tan\\begin{aligned}& \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi \\\\\\Rightarrow & \\tan ^{-1} \\frac{x+y}{1-x y}=\\pi-\\tan ^{-1} z \\\\\\Rightarrow & \\frac{x+y}{1-x y}=\\tan \\left(\\pi-\\tan ^{-1} z\\right) \\\\& =-\\tan \\left(\\tan ^{-1} z\\right)=-z \\\\\\Rightarrow & x+y=-z+x y z \\\\\\therefore & x+y+z=x y z \\text { }\\end{aligned}\\pi tan−11−xyx+y=\\\\pi −tan−1z1−xyx+y=tan(\\\\pi −tan−1z)=−tan(tan−1z)=−zx+y=−z+xyzx+y+z=xyz"
+    "questionLatex": "$tan⁡−1x+tan⁡−1y+tan⁡−1z=\\\\pi  \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi tan−1x+tan−1y+tan−1z=\\\\pi  হলে x+y+z x+y+z x+y+z এর মান কত ?$",
+    "explanationLatex": "$Solve: দেওয়া আছে, tan⁡−1x+tan⁡−1y+tan⁡−1z=\\\\pi ⇒tan⁡−1x+y1−xy=\\\\pi −tan⁡−1z⇒x+y1−xy=tan⁡(\\\\pi −tan⁡−1z)=−tan⁡(tan⁡−1z)=−z⇒x+y=−z+xyz∴x+y+z=xyz \\begin{aligned}& \\tan ^{-1} x+\\tan ^{-1} y+\\tan ^{-1} z=\\pi \\\\\\Rightarrow & \\tan ^{-1} \\frac{x+y}{1-x y}=\\pi-\\tan ^{-1} z \\\\\\Rightarrow & \\frac{x+y}{1-x y}=\\tan \\left(\\pi-\\tan ^{-1} z\\right) \\\\& =-\\tan \\left(\\tan ^{-1} z\\right)=-z \\\\\\Rightarrow & x+y=-z+x y z \\\\\\therefore & x+y+z=x y z \\text { }\\end{aligned}⇒⇒⇒∴tan−1x+tan−1y+tan−1z=\\\\pi tan−11−xyx+y=\\\\pi −tan−1z1−xyx+y=tan(\\\\pi −tan−1z)=−tan(tan−1z)=−zx+y=−z+xyzx+y+z=xyz$"
   },
   {
     "id": 25,
-    "question": "tan\\tan ^{-1} \\frac{2}{3}= ? tan−132=?",
+    "question": "tan⁡−123=? \\tan ^{-1} \\frac{2}{3}= ? tan−132=?",
     "options": {
       "a": "𝜋 2 + sec ⁡ − 1 13 2 2 π +sec −1 2 13",
       "b": "𝜋 2 − sec ⁡ − 1 13 3 2 π −sec −1 3 13",
@@ -489,19 +489,19 @@
       "d": "𝜋 2 − sec ⁡ − 1 13 2 2 π −sec −1 2 13"
     },
     "correctAnswer": "d",
-    "explanation": "\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{3}{2} sec−1213=tan−123 এখন, tan\\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\tan ^{-1} \\frac{3}{2} tan−132+sec−1213=tan−132+tan−123 \\begin{array}{l}\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\cot ^{-1} \\frac{2}{3} \\\\\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\frac{\\pi}{2} \\\\\\therefore \\tan ^{-1} \\frac{2}{3}=\\frac{\\pi}{2}-\\sec ^{-1} \\frac{\\sqrt{13}}{2}\\end{array}",
+    "explanation": "Solve: sec⁡−1132=tan⁡−132 \\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{3}{2} sec−1213=tan−123 এখন, tan⁡−123+sec⁡−1132=tan⁡−123+tan⁡−132 \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\tan ^{-1} \\frac{3}{2} tan−132+sec−1213=tan−132+tan−123 ⇒tan⁡−123+sec⁡−1132=tan⁡−123+cot⁡−123⇒tan⁡−123+sec⁡−1132=π2∴tan⁡−123=π2−sec⁡−1132\\begin{array}{l}\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\cot ^{-1} \\frac{2}{3} \\\\\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\frac{\\pi}{2} \\\\\\therefore \\tan ^{-1} \\frac{2}{3}=\\frac{\\pi}{2}-\\sec ^{-1} \\frac{\\sqrt{13}}{2}\\end{array}⇒tan−132+sec−1213=tan−132+cot−132⇒tan−132+sec−1213=2π∴tan−132=2π−sec−1213",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan ^{-1} \\frac{2}{3}= ? tan−132=?",
-    "explanationLatex": "\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{3}{2} sec−1213=tan−123 এখন, tan\\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\tan ^{-1} \\frac{3}{2} tan−132+sec−1213=tan−132+tan−123 \\pi 2\\pi 2−sec\\begin{array}{l}\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\cot ^{-1} \\frac{2}{3} \\\\\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\frac{\\pi}{2} \\\\\\therefore \\tan ^{-1} \\frac{2}{3}=\\frac{\\pi}{2}-\\sec ^{-1} \\frac{\\sqrt{13}}{2}\\end{array}\\pi \\pi −sec−1213"
+    "questionLatex": "$tan⁡−123=? \\tan ^{-1} \\frac{2}{3}= ? tan−132=?$",
+    "explanationLatex": "$Solve: sec⁡−1132=tan⁡−132 \\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{3}{2} sec−1213=tan−123 এখন, tan⁡−123+sec⁡−1132=tan⁡−123+tan⁡−132 \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\tan ^{-1} \\frac{3}{2} tan−132+sec−1213=tan−132+tan−123 ⇒tan⁡−123+sec⁡−1132=tan⁡−123+cot⁡−123⇒tan⁡−123+sec⁡−1132=\\\\pi 2∴tan⁡−123=\\\\pi 2−sec⁡−1132\\begin{array}{l}\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\tan ^{-1} \\frac{2}{3}+\\cot ^{-1} \\frac{2}{3} \\\\\\Rightarrow \\tan ^{-1} \\frac{2}{3}+\\sec ^{-1} \\frac{\\sqrt{13}}{2}=\\frac{\\pi}{2} \\\\\\therefore \\tan ^{-1} \\frac{2}{3}=\\frac{\\pi}{2}-\\sec ^{-1} \\frac{\\sqrt{13}}{2}\\end{array}⇒tan−132+sec−1213=tan−132+cot−132⇒tan−132+sec−1213=2\\\\pi ∴tan−132=2\\\\pi −sec−1213$"
   },
   {
     "id": 26,
-    "question": "sin\\sin^{- 1}{\\left ( \\frac{2}{\\sqrt{5}} \\right )} + \\tan^{- 1}{x} = \\frac{\\pi}{2}sin−1(52)+tan−1x=2π হলে x এর মান-",
+    "question": "sin⁡−1(25)+tan⁡−1x=π2\\sin^{- 1}{\\left ( \\frac{2}{\\sqrt{5}} \\right )} + \\tan^{- 1}{x} = \\frac{\\pi}{2}sin−1(52)+tan−1x=2π হলে x এর মান-",
     "options": {
       "a": "1/√5",
       "b": "1/2",
@@ -509,19 +509,19 @@
       "d": "√5"
     },
     "correctAnswer": "b",
-    "explanation": "sin\\begin{aligned} & \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)+\\tan ^{-1} x=\\frac{\\pi}{2} \\\\ \\Rightarrow & \\tan ^{-1} x=\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right) \\\\ \\Rightarrow & x=\\tan \\left(\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\cot ^{-1} \\frac{1}{2}\\right) \\\\ \\therefore & x=\\frac{1}{2}\\end{aligned}",
+    "explanation": "sin⁡−1(25)+tan⁡−1x=π2⇒tan⁡−1x=π2−sin⁡−1(25)⇒x=tan⁡(π2−sin⁡−1(25))⇒x=cot⁡(sin⁡−1(25))⇒x=cot⁡(cot⁡−112)∴x=12 \\begin{aligned} & \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)+\\tan ^{-1} x=\\frac{\\pi}{2} \\\\ \\Rightarrow & \\tan ^{-1} x=\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right) \\\\ \\Rightarrow & x=\\tan \\left(\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\cot ^{-1} \\frac{1}{2}\\right) \\\\ \\therefore & x=\\frac{1}{2}\\end{aligned} ⇒⇒⇒⇒∴sin−1(52)+tan−1x=2πtan−1x=2π−sin−1(52)x=tan(2π−sin−1(52))x=cot(sin−1(52))x=cot(cot−121)x=21",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243622/gst-question-images/Math____________________________-Varsity-arc_q26.png",
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\pi 2\\sin^{- 1}{\\left ( \\frac{2}{\\sqrt{5}} \\right )} + \\tan^{- 1}{x} = \\frac{\\pi}{2}sin−1(52)+tan−1x=2\\\\pi হলে x এর মান-",
-    "explanationLatex": "sin\\pi 2\\pi 2−sin\\pi 2−sin\\begin{aligned} & \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)+\\tan ^{-1} x=\\frac{\\pi}{2} \\\\ \\Rightarrow & \\tan ^{-1} x=\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right) \\\\ \\Rightarrow & x=\\tan \\left(\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\cot ^{-1} \\frac{1}{2}\\right) \\\\ \\therefore & x=\\frac{1}{2}\\end{aligned} \\pi tan−1x=2\\\\pi −sin−1(52)x=tan(2\\\\pi −sin−1(52))x=cot(sin−1(52))x=cot(cot−121)x=21"
+    "questionLatex": "$sin⁡−1(25)+tan⁡−1x=\\\\pi 2\\sin^{- 1}{\\left ( \\frac{2}{\\sqrt{5}} \\right )} + \\tan^{- 1}{x} = \\frac{\\pi}{2}sin−1(52)+tan−1x=2\\\\pi  হলে x এর মান-$",
+    "explanationLatex": "$sin⁡−1(25)+tan⁡−1x=\\\\pi 2⇒tan⁡−1x=\\\\pi 2−sin⁡−1(25)⇒x=tan⁡(\\\\pi 2−sin⁡−1(25))⇒x=cot⁡(sin⁡−1(25))⇒x=cot⁡(cot⁡−112)∴x=12 \\begin{aligned} & \\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)+\\tan ^{-1} x=\\frac{\\pi}{2} \\\\ \\Rightarrow & \\tan ^{-1} x=\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right) \\\\ \\Rightarrow & x=\\tan \\left(\\frac{\\pi}{2}-\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\sin ^{-1}\\left(\\frac{2}{\\sqrt{5}}\\right)\\right) \\\\ \\Rightarrow & x=\\cot \\left(\\cot ^{-1} \\frac{1}{2}\\right) \\\\ \\therefore & x=\\frac{1}{2}\\end{aligned} ⇒⇒⇒⇒∴sin−1(52)+tan−1x=2\\\\pi tan−1x=2\\\\pi −sin−1(52)x=tan(2\\\\pi −sin−1(52))x=cot(sin−1(52))x=cot(cot−121)x=21$"
   },
   {
     "id": 27,
-    "question": "sin\\sin^{-1}\\ \\frac{4}{5}+\\cos^{-1}\\ \\frac{2}{\\sqrt{5}}=?sin−1 54+cos−1 52=?",
+    "question": "sin⁡−1 45+cos⁡−1 25=?\\sin^{-1}\\ \\frac{4}{5}+\\cos^{-1}\\ \\frac{2}{\\sqrt{5}}=?sin−1 54+cos−1 52=?",
     "options": {
       "a": "tan ⁡ − 1 2 11 tan −1 11 2",
       "b": "sin ⁡ − 1 11 2 sin −1 2 11",
@@ -529,15 +529,15 @@
       "d": "cos ⁡ − 1 11 2 cos −1 2 11"
     },
     "correctAnswer": "c",
-    "explanation": "sin\\begin{array}{l} \\sin ^{-1} \\frac{4}{5} \\\\ = \\tan ^{-1} \\frac{4}{3} \\\\ \\cos ^{-1} \\frac{2}{\\sqrt{5}} =\\tan ^{-1} \\frac{1}{2} \\\\ \\sin ^{-1} \\frac{4}{5}+\\cos ^{-1} 2 / 5 \\\\ = \\tan ^{-1} \\frac{4 }{3}+\\tan ^{-1} 1/ 2 \\\\ = \\tan ^{-1} \\frac{4 / 3+1 / 2}{1-\\frac{4}{3} \\cdot \\frac{1}{2}} \\\\ = \\tan ^{-1} \\frac{11}{2}\\end{array} sin−154=tan−134cos−152=tan−121sin−154+cos−12/5=tan−134+tan−11/2=tan−11−34⋅214/3+1/2=tan−1211",
+    "explanation": "sin⁡−145=tan⁡−143cos⁡−125=tan⁡−112sin⁡−145+cos⁡−12/5=tan⁡−143+tan⁡−11/2=tan⁡−14/3+1/21−43⋅12=tan⁡−1112 \\begin{array}{l} \\sin ^{-1} \\frac{4}{5} \\\\ = \\tan ^{-1} \\frac{4}{3} \\\\ \\cos ^{-1} \\frac{2}{\\sqrt{5}} =\\tan ^{-1} \\frac{1}{2} \\\\ \\sin ^{-1} \\frac{4}{5}+\\cos ^{-1} 2 / 5 \\\\ = \\tan ^{-1} \\frac{4 }{3}+\\tan ^{-1} 1/ 2 \\\\ = \\tan ^{-1} \\frac{4 / 3+1 / 2}{1-\\frac{4}{3} \\cdot \\frac{1}{2}} \\\\ = \\tan ^{-1} \\frac{11}{2}\\end{array} sin−154=tan−134cos−152=tan−121sin−154+cos−12/5=tan−134+tan−11/2=tan−11−34⋅214/3+1/2=tan−1211",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin^{-1}\\ \\frac{4}{5}+\\cos^{-1}\\ \\frac{2}{\\sqrt{5}}=?sin−1 54+cos−1 52=?",
-    "explanationLatex": "sin\\frac{12}{5}=tan\\frac{11}{2}=tan⁡−\\frac{14}{3}+\\frac{1}{21}−43⋅12=tan\\begin{array}{l} \\sin ^{-1} \\frac{4}{5} \\\\ = \\tan ^{-1} \\frac{4}{3} \\\\ \\cos ^{-1} \\frac{2}{\\sqrt{5}} =\\tan ^{-1} \\frac{1}{2} \\\\ \\sin ^{-1} \\frac{4}{5}+\\cos ^{-1} \\frac{2}{5} \\\\ = \\tan ^{-1} \\frac{4 }{3}+\\tan ^{-1} \\frac{1}{2} \\\\ = \\tan ^{-1} \\frac{\\frac{4}{3}+\\frac{1}{2}}{1-\\frac{4}{3} \\cdot \\frac{1}{2}} \\\\ = \\tan ^{-1} \\frac{11}{2}\\end{array} sin−154=tan−134cos−152=tan−121sin−154+cos−\\frac{12}{5}=tan−134+tan−\\frac{11}{2}=tan−11−34⋅\\frac{214}{3}+\\frac{1}{2}=tan−1211"
+    "questionLatex": "$sin⁡−1 45+cos⁡−1 25=?\\sin^{-1}\\ \\frac{4}{5}+\\cos^{-1}\\ \\frac{2}{\\sqrt{5}}=?sin−1 54+cos−1 52=?$",
+    "explanationLatex": "$sin⁡−145=tan⁡−143cos⁡−125=tan⁡−112sin⁡−145+cos⁡−\\frac{12}{5}=tan⁡−143+tan⁡−\\frac{11}{2}=tan⁡−\\frac{14}{3}+\\frac{1}{21}−43⋅12=tan⁡−1112 \\begin{array}{l} \\sin ^{-1} \\frac{4}{5} \\\\ = \\tan ^{-1} \\frac{4}{3} \\\\ \\cos ^{-1} \\frac{2}{\\sqrt{5}} =\\tan ^{-1} \\frac{1}{2} \\\\ \\sin ^{-1} \\frac{4}{5}+\\cos ^{-1} \\frac{2}{5} \\\\ = \\tan ^{-1} \\frac{4 }{3}+\\tan ^{-1} \\frac{1}{2} \\\\ = \\tan ^{-1} \\frac{\\frac{4}{3}+\\frac{1}{2}}{1-\\frac{4}{3} \\cdot \\frac{1}{2}} \\\\ = \\tan ^{-1} \\frac{11}{2}\\end{array} sin−154=tan−134cos−152=tan−121sin−154+cos−\\frac{12}{5}=tan−134+tan−\\frac{11}{2}=tan−11−34⋅\\frac{214}{3}+\\frac{1}{2}=tan−1211$"
   },
   {
     "id": 28,
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$sin\\\\theta +cos\\\\theta =\\\\sqrt{}2 হলে, \\\\theta =?$",
-    "explanationLatex": "sin\\\\theta + cos\\\\theta = 2 \\theta + 12 sin\\\\theta =1\\theta cos\\\\pi 4 + sin\\\\theta sin\\\\pi 4 =1\\theta - \\\\pi 4) = 1 \\theta - \\\\pi 4 =2n\\\\pi ⇒\\\\theta =2n\\\\pi + \\\\pi 4"
+    "explanationLatex": "$sin\\\\theta  + cos\\\\theta  = 2 ⇒ 12cos\\\\theta  + 12 sin\\\\theta  =1⇒ cos\\\\theta cos\\\\pi 4 + sin\\\\theta sin\\\\pi 4 =1⇒cos(\\\\theta  - \\\\pi 4) = 1 ⇒ \\\\theta  - \\\\pi 4 =2n\\\\pi  ⇒\\\\theta =2n\\\\pi  + \\\\pi 4$"
   },
   {
     "id": 29,
@@ -569,7 +569,7 @@
       "d": "-5"
     },
     "correctAnswer": "d",
-    "explanation": "প্রদত্ত রাশি= sec\\begin{array}{l}\\text { }{ }^{\\mathrm{}} \\sec ^{2}\\left(\\tan ^{-1} 2\\right)-\\operatorname{cosec}\\left(\\cot ^{-1} 3\\right) \\\\ = (1+tan(tan^{-1}2))\\left(1+3^{2}\\right)=1+4-1-9 \\\\ =-5 \\text { } \\\\ \\text { }\\end{array} sec2(tan−12)−cosec(cot−13)=(1+tan(tan−12))2−1−(cot(cot−13))2=1+22−(1+32)=1+4−1−9=−5",
+    "explanation": "প্রদত্ত রাশি= sec⁡2(tan⁡−12)−cosec⁡(cot⁡−13)=(1+tan(tan−12))2−1−(cot(cot−13))2=1+22−(1+32)=1+4−1−9=−5 \\begin{array}{l}\\text { }{ }^{\\mathrm{}} \\sec ^{2}\\left(\\tan ^{-1} 2\\right)-\\operatorname{cosec}\\left(\\cot ^{-1} 3\\right) \\\\ = (1+tan(tan^{-1}2))²-1-(cot(cot^{-1}3))² \\\\ =1+2^{2}-\\left(1+3^{2}\\right)=1+4-1-9 \\\\ =-5 \\text { } \\\\ \\text { }\\end{array} sec2(tan−12)−cosec(cot−13)=(1+tan(tan−12))2−1−(cot(cot−13))2=1+22−(1+32)=1+4−1−9=−5",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -577,11 +577,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "sec2(tan-12)-cosec2(cot-13) এর মান কত?",
-    "explanationLatex": "প্রদত্ত রাশি= sec\\begin{array}{l}\\text { }{ }^{\\mathrm{}} \\sec ^{2}\\left(\\tan ^{-1} 2\\right)-\\operatorname{cosec}\\left(\\cot ^{-1} 3\\right) \\\\ = (1+tan(tan^{-1}2))\\left(1+3^{2}\\right)=1+4-1-9 \\\\ =-5 \\text { } \\\\ \\text { }\\end{array} sec2(tan−12)−cosec(cot−13)=(1+tan(tan−12))2−1−(cot(cot−13))2=1+22−(1+32)=1+4−1−9=−5"
+    "explanationLatex": "$প্রদত্ত রাশি= sec⁡2(tan⁡−12)−cosec⁡(cot⁡−13)=(1+tan(tan−12))2−1−(cot(cot−13))2=1+22−(1+32)=1+4−1−9=−5 \\begin{array}{l}\\text { }{ }^{\\mathrm{}} \\sec ^{2}\\left(\\tan ^{-1} 2\\right)-\\operatorname{cosec}\\left(\\cot ^{-1} 3\\right) \\\\ = (1+tan(tan^{-1}2))²-1-(cot(cot^{-1}3))² \\\\ =1+2^{2}-\\left(1+3^{2}\\right)=1+4-1-9 \\\\ =-5 \\text { } \\\\ \\text { }\\end{array} sec2(tan−12)−cosec(cot−13)=(1+tan(tan−12))2−1−(cot(cot−13))2=1+22−(1+32)=1+4−1−9=−5$"
   },
   {
     "id": 30,
-    "question": "cot\\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x)=? cot−1(tan2x)+cot−1(−tan3x)=?",
+    "question": "cot⁡−1(tan⁡2x)+cot⁡−1(−tan⁡3x)=? \\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x)=? cot−1(tan2x)+cot−1(−tan3x)=?",
     "options": {
       "a": "x",
       "b": "-x",
@@ -589,15 +589,15 @@
       "d": "3x"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{array}{l}\\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x) \\\\=\\cot ^{-1}(\\tan 2 x)-\\cot ^{-1}(\\tan 3 x) \\\\=\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-2x\\right)\\right\\}-\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-3 x\\right)\\right\\} \\\\=\\frac{\\pi}{2}-2 x-\\frac{\\pi}{2}+3 x=x\\end{array}cot−1(tan2x)+cot−1(−tan3x)=cot−1(tan2x)−cot−1(tan3x)=cot−1{cot(2π−2x)}−cot−1{cot(2π−3x)}=2π−2x−2π+3x=x",
+    "explanation": "Solve: cot⁡−1(tan⁡2x)+cot⁡−1(−tan⁡3x)=cot⁡−1(tan⁡2x)−cot⁡−1(tan⁡3x)=cot⁡−1{cot⁡(π2−2x)}−cot⁡−1{cot⁡(π2−3x)}=π2−2x−π2+3x=x\\begin{array}{l}\\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x) \\\\=\\cot ^{-1}(\\tan 2 x)-\\cot ^{-1}(\\tan 3 x) \\\\=\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-2x\\right)\\right\\}-\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-3 x\\right)\\right\\} \\\\=\\frac{\\pi}{2}-2 x-\\frac{\\pi}{2}+3 x=x\\end{array}cot−1(tan2x)+cot−1(−tan3x)=cot−1(tan2x)−cot−1(tan3x)=cot−1{cot(2π−2x)}−cot−1{cot(2π−3x)}=2π−2x−2π+3x=x",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cot\\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x)=? cot−1(tan2x)+cot−1(−tan3x)=?",
-    "explanationLatex": "\\pi 2−2x)}−cot\\pi 2−3x)}=\\\\pi 2−2x−\\\\pi 2+3x=x\\begin{array}{l}\\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x) \\\\=\\cot ^{-1}(\\tan 2 x)-\\cot ^{-1}(\\tan 3 x) \\\\=\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-2x\\right)\\right\\}-\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-3 x\\right)\\right\\} \\\\=\\frac{\\pi}{2}-2 x-\\frac{\\pi}{2}+3 x=x\\end{array}cot−1(tan2x)+cot−1(−tan3x)=cot−1(tan2x)−cot−1(tan3x)=cot−1{cot(2\\\\pi −2x)}−cot−1{cot(2\\\\pi −3x)}=2\\\\pi −2x−2\\\\pi +3x=x"
+    "questionLatex": "$cot⁡−1(tan⁡2x)+cot⁡−1(−tan⁡3x)=? \\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x)=? cot−1(tan2x)+cot−1(−tan3x)=?$",
+    "explanationLatex": "$Solve: cot⁡−1(tan⁡2x)+cot⁡−1(−tan⁡3x)=cot⁡−1(tan⁡2x)−cot⁡−1(tan⁡3x)=cot⁡−1{cot⁡(\\\\pi 2−2x)}−cot⁡−1{cot⁡(\\\\pi 2−3x)}=\\\\pi 2−2x−\\\\pi 2+3x=x\\begin{array}{l}\\cot ^{-1}(\\tan 2 x)+\\cot ^{-1}(-\\tan 3 x) \\\\=\\cot ^{-1}(\\tan 2 x)-\\cot ^{-1}(\\tan 3 x) \\\\=\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-2x\\right)\\right\\}-\\cot ^{-1}\\left\\{\\cot \\left(\\frac{\\pi}{2}-3 x\\right)\\right\\} \\\\=\\frac{\\pi}{2}-2 x-\\frac{\\pi}{2}+3 x=x\\end{array}cot−1(tan2x)+cot−1(−tan3x)=cot−1(tan2x)−cot−1(tan3x)=cot−1{cot(2\\\\pi −2x)}−cot−1{cot(2\\\\pi −3x)}=2\\\\pi −2x−2\\\\pi +3x=x$"
   },
   {
     "id": 31,
@@ -609,7 +609,7 @@
       "d": "𝑛 𝜋 4 4 nπ"
     },
     "correctAnswer": "c",
-    "explanation": "\\Rightarrow\\frac{sinx\\ sin3x}{cosx\\ cos3x}=1 \\\\\\Rightarrow cosx\\ cos3x-sinx\\ sin3x=0 \\\\\\Rightarrow\\cos{\\left(3x+x\\right)}=0\\ ;\\ 4x=\\left(2n+1\\right)\\frac{\\pi}{2}\\ \\\\\\\\x=\\left(2n+1\\right)\\frac{\\pi}{8}tanx tan3x=1",
+    "explanation": "tanx tan3x=1⇒sinx sin3xcosx cos3x=1⇒cosx cos3x−sinx sin3x=0⇒cos⁡(3x+x)=0 ; 4x=(2n+1)π2 x=(2n+1)π8tanx\\ tan3x=1\\\\\\Rightarrow\\frac{sinx\\ sin3x}{cosx\\ cos3x}=1 \\\\\\Rightarrow cosx\\ cos3x-sinx\\ sin3x=0 \\\\\\Rightarrow\\cos{\\left(3x+x\\right)}=0\\ ;\\ 4x=\\left(2n+1\\right)\\frac{\\pi}{2}\\ \\\\\\\\x=\\left(2n+1\\right)\\frac{\\pi}{8}tanx tan3x=1⇒cosx cos3xsinx sin3x=1⇒cosx cos3x−sinx sin3x=0⇒cos(3x+x)=0 ; 4x=(2n+1)2π x=(2n+1)8π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,11 +617,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$tanx tan3x=1tanx\\ tan3x=1tanx tan3x=1 হলে x=?x=?x=?$",
-    "explanationLatex": "\\pi 2 x=(2n+1)\\\\pi 8tanx\\ tan3x=1\\\\\\Rightarrow\\frac{sinx\\ sin3x}{cosx\\ cos3x}=1 \\\\\\Rightarrow cosx\\ cos3x-sinx\\ sin3x=0 \\\\\\Rightarrow\\cos{\\left(3x+x\\right)}=0\\ ;\\ 4x=\\left(2n+1\\right)\\frac{\\pi}{2}\\ \\\\\\\\x=\\left(2n+1\\right)\\frac{\\pi}{8}tanx tan3x=1\\pi x=(2n+1)8\\\\pi"
+    "explanationLatex": "$tanx tan3x=1⇒sinx sin3xcosx cos3x=1⇒cosx cos3x−sinx sin3x=0⇒cos⁡(3x+x)=0 ; 4x=(2n+1)\\\\pi 2 x=(2n+1)\\\\pi 8tanx\\ tan3x=1\\\\\\Rightarrow\\frac{sinx\\ sin3x}{cosx\\ cos3x}=1 \\\\\\Rightarrow cosx\\ cos3x-sinx\\ sin3x=0 \\\\\\Rightarrow\\cos{\\left(3x+x\\right)}=0\\ ;\\ 4x=\\left(2n+1\\right)\\frac{\\pi}{2}\\ \\\\\\\\x=\\left(2n+1\\right)\\frac{\\pi}{8}tanx tan3x=1⇒cosx cos3xsinx sin3x=1⇒cosx cos3x−sinx sin3x=0⇒cos(3x+x)=0 ; 4x=(2n+1)2\\\\pi  x=(2n+1)8\\\\pi $"
   },
   {
     "id": 32,
-    "question": "\\left ( \\frac{\\pi}{2} \\cos{\\alpha} \\right )} = \\cos{\\left ( \\frac{\\pi}{2} \\sin{\\alpha} \\right )} Sin(2πcosα)=cos(2πsinα) হলে",
+    "question": "Sin(π2cos⁡α)=cos⁡(π2sin⁡α)Sin{\\left ( \\frac{\\pi}{2} \\cos{\\alpha} \\right )} = \\cos{\\left ( \\frac{\\pi}{2} \\sin{\\alpha} \\right )} Sin(2πcosα)=cos(2πsinα) হলে",
     "options": {
       "a": "0 , 𝜋 4 0, 4 π",
       "b": "𝜋 4 , 𝜋 2 4 π , 2 π",
@@ -629,19 +629,19 @@
       "d": "𝜋 2 , 3 𝜋 4 2 π , 4 3π"
     },
     "correctAnswer": "c",
-    "explanation": "α \\alpha α এর মান কোনটি? sinহলে α=π2±βহলে β=πহলে α=π2নির্নয় সমাধান (\\begin{array}{l}\\sin \\alpha=\\cos \\beta \\text { হলে } \\alpha=\\frac{\\pi}{2} \\pm \\beta \\therefore \\alpha \\pm \\beta=\\frac{\\pi}{2} \\\\ \\alpha=0 \\text { হলে } \\beta=\\frac{\\pi}{2} ; \\beta=0 \\text { হলে } \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\cos \\alpha=0 \\therefore \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\sin \\alpha=0 \\therefore \\alpha=0 \\\\ \\therefore \\text { নির্নয় সমাধান }\\left(0, \\frac{\\pi}{2}\\right)\\end{array} sinα=cosβ হলে α=2π±βহলে β=হলে α=2πনির্নয় সমাধান (0,2π)",
+    "explanation": "α \\alpha α এর মান কোনটি? sin⁡α=cos⁡β হলে α=π2±β∴α±β=π2α=0 হলে β=π2;β=0 হলে α=π2∴π2cos⁡α=0∴α=π2∴π2sin⁡α=0∴α=0∴ নির্নয় সমাধান (0,π2) \\begin{array}{l}\\sin \\alpha=\\cos \\beta \\text { হলে } \\alpha=\\frac{\\pi}{2} \\pm \\beta \\therefore \\alpha \\pm \\beta=\\frac{\\pi}{2} \\\\ \\alpha=0 \\text { হলে } \\beta=\\frac{\\pi}{2} ; \\beta=0 \\text { হলে } \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\cos \\alpha=0 \\therefore \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\sin \\alpha=0 \\therefore \\alpha=0 \\\\ \\therefore \\text { নির্নয় সমাধান }\\left(0, \\frac{\\pi}{2}\\right)\\end{array} sinα=cosβ হলে α=2π±β∴α±β=2πα=0 হলে β=2π;β=0 হলে α=2π∴2πcosα=0∴α=2π∴2πsinα=0∴α=0∴ নির্নয় সমাধান (0,2π)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "Sin(\\\\pi 2cos\\pi 2sin\\left ( \\frac{\\pi}{2} \\cos{\\alpha} \\right )} = \\cos{\\left ( \\frac{\\pi}{2} \\sin{\\alpha} \\right )} Sin(2\\\\pi cosα)=cos(2\\\\pi sinα) হলে",
-    "explanationLatex": "α \\alpha α এর মান কোনটি? sinহলে α=\\\\pi 2\\\\pm β\\pm β=\\\\pi 2α=0 হলে β=\\\\pi 2;β=0 হলে α=\\\\pi 2∴\\\\pi 2cos\\pi 2∴\\\\pi 2sinনির্নয় সমাধান (0,\\\\pi 2) \\begin{array}{l}\\sin \\alpha=\\cos \\beta \\text { হলে } \\alpha=\\frac{\\pi}{2} \\pm \\beta \\therefore \\alpha \\pm \\beta=\\frac{\\pi}{2} \\\\ \\alpha=0 \\text { হলে } \\beta=\\frac{\\pi}{2} ; \\beta=0 \\text { হলে } \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\cos \\alpha=0 \\therefore \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\sin \\alpha=0 \\therefore \\alpha=0 \\\\ \\therefore \\text { নির্নয় সমাধান }\\left(0, \\frac{\\pi}{2}\\right)\\end{array} sinα=cosβ হলে α=2\\\\pi \\\\pm β\\pm β=2\\\\pi α=0 হলে β=2\\\\pi ;β=0 হলে α=2\\\\pi \\pi cosα=0\\pi \\pi sinα=0নির্নয় সমাধান (0,2\\\\pi )"
+    "questionLatex": "$Sin(\\\\pi 2cos⁡α)=cos⁡(\\\\pi 2sin⁡α)Sin{\\left ( \\frac{\\pi}{2} \\cos{\\alpha} \\right )} = \\cos{\\left ( \\frac{\\pi}{2} \\sin{\\alpha} \\right )} Sin(2\\\\pi cosα)=cos(2\\\\pi sinα) হলে$",
+    "explanationLatex": "$α \\alpha α এর মান কোনটি? sin⁡α=cos⁡β হলে α=\\\\pi 2\\\\pm β∴α\\\\pm β=\\\\pi 2α=0 হলে β=\\\\pi 2;β=0 হলে α=\\\\pi 2∴\\\\pi 2cos⁡α=0∴α=\\\\pi 2∴\\\\pi 2sin⁡α=0∴α=0∴ নির্নয় সমাধান (0,\\\\pi 2) \\begin{array}{l}\\sin \\alpha=\\cos \\beta \\text { হলে } \\alpha=\\frac{\\pi}{2} \\pm \\beta \\therefore \\alpha \\pm \\beta=\\frac{\\pi}{2} \\\\ \\alpha=0 \\text { হলে } \\beta=\\frac{\\pi}{2} ; \\beta=0 \\text { হলে } \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\cos \\alpha=0 \\therefore \\alpha=\\frac{\\pi}{2} \\\\ \\therefore \\frac{\\pi}{2} \\sin \\alpha=0 \\therefore \\alpha=0 \\\\ \\therefore \\text { নির্নয় সমাধান }\\left(0, \\frac{\\pi}{2}\\right)\\end{array} sinα=cosβ হলে α=2\\\\pi \\\\pm β∴α\\\\pm β=2\\\\pi α=0 হলে β=2\\\\pi ;β=0 হলে α=2\\\\pi ∴2\\\\pi cosα=0∴α=2\\\\pi ∴2\\\\pi sinα=0∴α=0∴ নির্নয় সমাধান (0,2\\\\pi )$"
   },
   {
     "id": 33,
-    "question": "\\arctan \\left\\{\\sin \\left(\\arccos \\frac{\\sqrt{2}}{\\sqrt{3}}\\right)\\right\\} arctan{sin(arccos32)} এর মান কত?",
+    "question": "arctan⁡{sin⁡(arccos⁡23)} \\arctan \\left\\{\\sin \\left(\\arccos \\frac{\\sqrt{2}}{\\sqrt{3}}\\right)\\right\\} arctan{sin(arccos32)} এর মান কত?",
     "options": {
       "a": "𝜋 2 2 π",
       "b": "𝜋 3 3 π",
@@ -656,12 +656,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "\\arctan \\left\\{\\sin \\left(\\arccos \\frac{\\sqrt{2}}{\\sqrt{3}}\\right)\\right\\} arctan{sin(arccos32)} এর মান কত?",
+    "questionLatex": "$arctan⁡{sin⁡(arccos⁡23)} \\arctan \\left\\{\\sin \\left(\\arccos \\frac{\\sqrt{2}}{\\sqrt{3}}\\right)\\right\\} arctan{sin(arccos32)} এর মান কত?$",
     "explanationLatex": "Solve :"
   },
   {
     "id": 34,
-    "question": "tan\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right)tan(cos−1x)=sin(tan−12) তাহলে xxx এর মান নিচের কোনটি ?",
+    "question": "tan⁡(cos⁡−1x)=sin⁡(tan⁡−12)\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right)tan(cos−1x)=sin(tan−12) তাহলে xxx এর মান নিচের কোনটি ?",
     "options": {
       "a": "± 1 3 ± 3 1",
       "b": "± 2 3 ± 3 2",
@@ -669,15 +669,15 @@
       "d": "± 5 3 ± 3 5"
     },
     "correctAnswer": "d",
-    "explanation": "\\begin{array}{l}\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right) \\\\\\Rightarrow \\tan \\left(\\tan ^{-1} \\frac{\\sqrt{1-x^{2}}}{x}\\right)=\\sin \\left(\\sin ^{-1} \\frac{2}{\\sqrt{1^{2}+2^{2}}}\\right) \\\\\\end{array}tan(cos−1x)=sin(tan−12)\\begin{array}{l}\\Rightarrow \\frac{\\sqrt{1-x^{2}}}{x}=\\frac{2}{\\sqrt{5}} \\Rightarrow \\frac{1-x^{2}}{x^{2}}=\\frac{4}{5} \\\\\\Rightarrow 4 x^{2}=5-5 x^{2} \\Rightarrow 9 x^{2}=5 \\quad \\therefore x= \\pm \\frac{\\sqrt{5}}{3}\\end{array}",
+    "explanation": "Solve: tan⁡(cos⁡−1x)=sin⁡(tan⁡−12)⇒tan⁡(tan⁡−11−x2x)=sin⁡(sin⁡−1212+22)\\begin{array}{l}\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right) \\\\\\Rightarrow \\tan \\left(\\tan ^{-1} \\frac{\\sqrt{1-x^{2}}}{x}\\right)=\\sin \\left(\\sin ^{-1} \\frac{2}{\\sqrt{1^{2}+2^{2}}}\\right) \\\\\\end{array}tan(cos−1x)=sin(tan−12)⇒tan(tan−1x1−x2)=sin(sin−112+222) ⇒1−x2x=25⇒1−x2x2=45⇒4x2=5−5x2⇒9x2=5∴x=±53\\begin{array}{l}\\Rightarrow \\frac{\\sqrt{1-x^{2}}}{x}=\\frac{2}{\\sqrt{5}} \\Rightarrow \\frac{1-x^{2}}{x^{2}}=\\frac{4}{5} \\\\\\Rightarrow 4 x^{2}=5-5 x^{2} \\Rightarrow 9 x^{2}=5 \\quad \\therefore x= \\pm \\frac{\\sqrt{5}}{3}\\end{array}⇒x1−x2=52⇒x21−x2=54⇒4x2=5−5x2⇒9x2=5∴x=±35",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right)tan(cos−1x)=sin(tan−12) তাহলে xxx এর মান নিচের কোনটি ?",
-    "explanationLatex": "\\begin{array}{l}\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right) \\\\\\Rightarrow \\tan \\left(\\tan ^{-1} \\frac{\\sqrt{1-x^{2}}}{x}\\right)=\\sin \\left(\\sin ^{-1} \\frac{2}{\\sqrt{1^{2}+2^{2}}}\\right) \\\\\\end{array}tan(cos−1x)=sin(tan−12)\\pm 53\\begin{array}{l}\\Rightarrow \\frac{\\sqrt{1-x^{2}}}{x}=\\frac{2}{\\sqrt{5}} \\Rightarrow \\frac{1-x^{2}}{x^{2}}=\\frac{4}{5} \\\\\\Rightarrow 4 x^{2}=5-5 x^{2} \\Rightarrow 9 x^{2}=5 \\quad \\therefore x= \\pm \\frac{\\sqrt{5}}{3}\\end{array}\\pm 35"
+    "questionLatex": "$tan⁡(cos⁡−1x)=sin⁡(tan⁡−12)\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right)tan(cos−1x)=sin(tan−12) তাহলে xxx এর মান নিচের কোনটি ?$",
+    "explanationLatex": "$Solve: tan⁡(cos⁡−1x)=sin⁡(tan⁡−12)⇒tan⁡(tan⁡−11−x2x)=sin⁡(sin⁡−1212+22)\\begin{array}{l}\\tan \\left(\\cos ^{-1} x\\right)=\\sin \\left(\\tan ^{-1} 2\\right) \\\\\\Rightarrow \\tan \\left(\\tan ^{-1} \\frac{\\sqrt{1-x^{2}}}{x}\\right)=\\sin \\left(\\sin ^{-1} \\frac{2}{\\sqrt{1^{2}+2^{2}}}\\right) \\\\\\end{array}tan(cos−1x)=sin(tan−12)⇒tan(tan−1x1−x2)=sin(sin−112+222) ⇒1−x2x=25⇒1−x2x2=45⇒4x2=5−5x2⇒9x2=5∴x=\\\\pm 53\\begin{array}{l}\\Rightarrow \\frac{\\sqrt{1-x^{2}}}{x}=\\frac{2}{\\sqrt{5}} \\Rightarrow \\frac{1-x^{2}}{x^{2}}=\\frac{4}{5} \\\\\\Rightarrow 4 x^{2}=5-5 x^{2} \\Rightarrow 9 x^{2}=5 \\quad \\therefore x= \\pm \\frac{\\sqrt{5}}{3}\\end{array}⇒x1−x2=52⇒x21−x2=54⇒4x2=5−5x2⇒9x2=5∴x=\\\\pm 35$"
   },
   {
     "id": 35,
@@ -689,19 +689,19 @@
       "d": "π/4"
     },
     "correctAnswer": "b",
-    "explanation": "হলে θ এর মান হবে- cosec\\operatorname{cosec} \\theta+\\cot \\theta=\\sqrt{3} cosecθ+cotθ=3 বা, 1sin\\frac{1}{\\sin \\theta}+\\frac{\\cos \\theta}{\\sin \\theta}=\\sqrt{3} sinθ1+sinθcosθ=3 বা, 1+cos\\cos \\theta=\\sqrt{3} \\sin \\theta 1+cosθ=3sinθ বা, 3sin\\sqrt{3} \\sin \\theta-\\cos \\theta=1 3sinθ−cosθ=1 বা32sinবা \\frac{\\sqrt{3}}{2} \\sin \\theta-\\frac{1}{2} \\cos \\theta=\\frac{1}{2} বা23sinθ−21cosθ=21 বা, sin\\sin \\theta \\cos 30^{\\circ}-\\cos \\theta \\sin 30^{\\circ}=1 / 2 sinθcos30∘−cosθsin30∘=1/2 বা. sin\\sin \\left(\\theta-30^{\\circ}\\right)=1 / 2 sin(θ−30∘)=1/2 বা,secবা ,\\sec \\theta-30^{\\circ}=30^{\\circ} বা,secθ−30∘=30∘ বা, θ=60∘=π/3 \\theta=60^{\\circ}=\\pi / 3 θ=60∘=π/3",
+    "explanation": "হলে θ এর মান হবে- cosec⁡θ+cot⁡θ=3 \\operatorname{cosec} \\theta+\\cot \\theta=\\sqrt{3} cosecθ+cotθ=3 বা, 1sin⁡θ+cos⁡θsin⁡θ=3 \\frac{1}{\\sin \\theta}+\\frac{\\cos \\theta}{\\sin \\theta}=\\sqrt{3} sinθ1+sinθcosθ=3 বা, 1+cos⁡θ=3sin⁡θ 1+\\cos \\theta=\\sqrt{3} \\sin \\theta 1+cosθ=3sinθ বা, 3sin⁡θ−cos⁡θ=1 \\sqrt{3} \\sin \\theta-\\cos \\theta=1 3sinθ−cosθ=1 বা32sin⁡θ−12cos⁡θ=12 বা \\frac{\\sqrt{3}}{2} \\sin \\theta-\\frac{1}{2} \\cos \\theta=\\frac{1}{2} বা23sinθ−21cosθ=21 বা, sin⁡θcos⁡30∘−cos⁡θsin⁡30∘=1/2 \\sin \\theta \\cos 30^{\\circ}-\\cos \\theta \\sin 30^{\\circ}=1 / 2 sinθcos30∘−cosθsin30∘=1/2 বা. sin⁡(θ−30∘)=1/2 \\sin \\left(\\theta-30^{\\circ}\\right)=1 / 2 sin(θ−30∘)=1/2 বা,sec⁡θ−30∘=30∘ বা ,\\sec \\theta-30^{\\circ}=30^{\\circ} বা,secθ−30∘=30∘ বা, θ=60∘=π/3 \\theta=60^{\\circ}=\\pi / 3 θ=60∘=π/3",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "(0<\\\\theta <\\\\pi )",
+    "questionLatex": "$(0<\\\\theta <\\\\pi )$",
     "explanationLatex": "$হলে \\\\theta  এর মান হবে- cosec⁡\\\\theta +cot⁡\\\\theta =3 \\operatorname{cosec} \\theta+\\cot \\theta=\\sqrt{3} cosec\\\\theta +cot\\\\theta =3 বা, 1sin⁡\\\\theta +cos⁡\\\\theta sin⁡\\\\theta =3 \\frac{1}{\\sin \\theta}+\\frac{\\cos \\theta}{\\sin \\theta}=\\sqrt{3} sin\\\\theta 1+sin\\\\theta cos\\\\theta =3 বা, 1+cos⁡\\\\theta =3sin⁡\\\\theta  1+\\cos \\theta=\\sqrt{3} \\sin \\theta 1+cos\\\\theta =3sin\\\\theta  বা, 3sin⁡\\\\theta −cos⁡\\\\theta =1 \\sqrt{3} \\sin \\theta-\\cos \\theta=1 3sin\\\\theta −cos\\\\theta =1 বা32sin⁡\\\\theta −12cos⁡\\\\theta =12 বা \\frac{\\sqrt{3}}{2} \\sin \\theta-\\frac{1}{2} \\cos \\theta=\\frac{1}{2} বা23sin\\\\theta −21cos\\\\theta =21 বা, sin⁡\\\\theta cos⁡30∘−cos⁡\\\\theta sin⁡30∘=\\frac{1}{2} \\sin \\theta \\cos 30^{\\circ}-\\cos \\theta \\sin 30^{\\circ}=\\frac{1}{2} sin\\\\theta cos30∘−cos\\\\theta sin30∘=\\frac{1}{2} বা. sin⁡(\\\\theta −30∘)=\\frac{1}{2} \\sin \\left(\\theta-30^{\\circ}\\right)=\\frac{1}{2} sin(\\\\theta −30∘)=\\frac{1}{2} বা,sec⁡\\\\theta −30∘=30∘ বা ,\\sec \\theta-30^{\\circ}=30^{\\circ} বা,sec\\\\theta −30∘=30∘ বা, \\\\theta =60∘=\\\\\\frac{pi}{3} \\theta=60^{\\circ}=\\\\frac{pi}{3} \\\\theta =60∘=\\\\\\frac{pi}{3}$"
   },
   {
     "id": 36,
-    "question": "2tan\\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} = ?2tan−151+tan−141=?",
+    "question": "2tan⁡−115+tan⁡−114=?2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} = ?2tan−151+tan−141=?",
     "options": {
       "a": "tan ⁡ − 1 32 43 tan −1 43 32",
       "b": "sin ⁡ − 1 32 43 sin −1 43 32",
@@ -709,19 +709,19 @@
       "d": "cot ⁡ − 1 32 43 cot −1 43 32"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{4}=\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{4}}{1-\\frac{5}{12} \\cdot \\frac{1}{4}} . \\\\=\\tan ^{-1}\\left(\\frac{20+12}{48} \\times \\frac{48}{48-5}\\right) \\\\=\\tan ^{-1} \\frac{32}{43}\\end{array}2tan−151+tan−141=tan−11−(51)22⋅51+tan−141=tan−1(52",
+    "explanation": "Solve:2tan⁡−115+tan⁡−114=tan⁡−12⋅151−(15)2+tan⁡−114=tan⁡−1(25×2525−1)+tan⁡−114=tan⁡−1512+tan⁡−114=tan⁡−1512+141−512⋅14.=tan⁡−1(20+1248×4848−5)=tan⁡−13243\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{4}=\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{4}}{1-\\frac{5}{12} \\cdot \\frac{1}{4}} . \\\\=\\tan ^{-1}\\left(\\frac{20+12}{48} \\times \\frac{48}{48-5}\\right) \\\\=\\tan ^{-1} \\frac{32}{43}\\end{array}2tan−151+tan−141=tan−11−(51)22⋅51+tan−141=tan−1(52×25−125)+tan−141=tan−1125+tan−141=tan−11−125⋅41125+41.=tan−1(4820+12×48−548)=tan−14332",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "2tan\\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} = ?2tan−151+tan−141=?",
-    "explanationLatex": "\\times 2525−1)+tan\\times 4848−5)=tan\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{4}=\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{4}}{1-\\frac{5}{12} \\cdot \\frac{1}{4}} . \\\\=\\tan ^{-1}\\left(\\frac{20+12}{48} \\times \\frac{48}{48-5}\\right) \\\\=\\tan ^{-1} \\frac{32}{43}\\end{array}2tan−151+tan−141=tan−11−(51)22⋅51+tan−141=tan−1(52\\\\times 25−125)+tan−141=tan−1125+tan−141=tan−11−125⋅41125+41.=tan−1(4820+12\\\\times 48−548)=tan−14332"
+    "questionLatex": "$2tan⁡−115+tan⁡−114=?2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} = ?2tan−151+tan−141=?$",
+    "explanationLatex": "$Solve:2tan⁡−115+tan⁡−114=tan⁡−12⋅151−(15)2+tan⁡−114=tan⁡−1(25\\\\times 2525−1)+tan⁡−114=tan⁡−1512+tan⁡−114=tan⁡−1512+141−512⋅14.=tan⁡−1(20+1248\\\\times 4848−5)=tan⁡−13243\\begin{array}{l}2 \\tan ^{-1} \\frac{1}{5}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{2 \\cdot \\frac{1}{5}}{1-\\left(\\frac{1}{5}\\right)^{2}}+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1}\\left(\\frac{2}{5} \\times \\frac{25}{25-1}\\right)+\\tan ^{-1} \\frac{1}{4} \\\\=\\tan ^{-1} \\frac{5}{12}+\\tan ^{-1} \\frac{1}{4}=\\tan ^{-1} \\frac{\\frac{5}{12}+\\frac{1}{4}}{1-\\frac{5}{12} \\cdot \\frac{1}{4}} . \\\\=\\tan ^{-1}\\left(\\frac{20+12}{48} \\times \\frac{48}{48-5}\\right) \\\\=\\tan ^{-1} \\frac{32}{43}\\end{array}2tan−151+tan−141=tan−11−(51)22⋅51+tan−141=tan−1(52\\\\times 25−125)+tan−141=tan−1125+tan−141=tan−11−125⋅41125+41.=tan−1(4820+12\\\\times 48−548)=tan−14332$"
   },
   {
     "id": 37,
-    "question": "tan\\tan^2\\theta\\ +\\ \\cot^2\\theta\\ =2tan2θ + cot2θ =2 এর সমাধান হবে -",
+    "question": "tan⁡2θ + cot⁡2θ =2\\tan^2\\theta\\ +\\ \\cot^2\\theta\\ =2tan2θ + cot2θ =2 এর সমাধান হবে -",
     "options": {
       "a": "𝑛 𝜋 ± 𝜋 4 nπ± 4 π",
       "b": "𝑛 𝜋 + 𝜋 3 nπ+ 3 π",
@@ -729,19 +729,19 @@
       "d": "𝑛 𝜋 + 𝜋 2 nπ+ 2 π"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{array}{l} \\tan ^{2} \\theta+\\cot ^{2} \\theta=2 \\\\ \\tan ^{2} \\theta+\\frac{1}{\\tan ^{2} \\theta}=2 \\\\ \\tan ^{4} \\theta+1=2 \\tan ^{2} \\theta \\\\ \\tan ^{4} \\theta-2 \\tan ^{2} \\theta+1=0 \\\\ \\left(\\tan ^{2} \\theta-1\\right)^{2}=0 \\\\ \\tan ^{2} \\theta-1=0 \\\\ \\tan ^{2} \\theta=1 \\\\ \\tan ^{2} \\theta=\\tan ^{2} \\frac{\\pi}{4} \\\\ \\theta=n \\pi \\pm \\frac{\\pi}{4} \\end{array} tan2θ+cot2θ=2tan2θ+tan2θ1=2tan4θ+1=2tan2θtan4θ−2tan2θ+1=0(tan2θ−1)2=0tan2θ−1=0tan2θ=1tan2θ=tan24πθ=nπ±4π Hence, this is the answer.",
+    "explanation": "Consider the given equation. tan⁡2θ+cot⁡2θ=2tan⁡2θ+1tan⁡2θ=2tan⁡4θ+1=2tan⁡2θtan⁡4θ−2tan⁡2θ+1=0(tan⁡2θ−1)2=0tan⁡2θ−1=0tan⁡2θ=1tan⁡2θ=tan⁡2π4θ=nπ±π4 \\begin{array}{l} \\tan ^{2} \\theta+\\cot ^{2} \\theta=2 \\\\ \\tan ^{2} \\theta+\\frac{1}{\\tan ^{2} \\theta}=2 \\\\ \\tan ^{4} \\theta+1=2 \\tan ^{2} \\theta \\\\ \\tan ^{4} \\theta-2 \\tan ^{2} \\theta+1=0 \\\\ \\left(\\tan ^{2} \\theta-1\\right)^{2}=0 \\\\ \\tan ^{2} \\theta-1=0 \\\\ \\tan ^{2} \\theta=1 \\\\ \\tan ^{2} \\theta=\\tan ^{2} \\frac{\\pi}{4} \\\\ \\theta=n \\pi \\pm \\frac{\\pi}{4} \\end{array} tan2θ+cot2θ=2tan2θ+tan2θ1=2tan4θ+1=2tan2θtan4θ−2tan2θ+1=0(tan2θ−1)2=0tan2θ−1=0tan2θ=1tan2θ=tan24πθ=nπ±4π Hence, this is the answer.",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\theta + cot\\theta =2\\tan^2\\theta\\ +\\ \\cot^2\\theta\\ =2tan2\\\\theta + cot2\\\\theta =2 এর সমাধান হবে -",
-    "explanationLatex": "\\theta +cot\\theta =2tan\\theta +1tan\\theta =2tan\\theta +1=2tan\\theta tan\\theta −2tan\\theta +1=0(tan\\theta −1)2=0tan\\theta −1=0tan\\theta =1tan\\theta =tan\\pi 4\\\\theta =n\\\\pi \\\\pm \\\\pi 4 \\begin{array}{l} \\tan ^{2} \\theta+\\cot ^{2} \\theta=2 \\\\ \\tan ^{2} \\theta+\\frac{1}{\\tan ^{2} \\theta}=2 \\\\ \\tan ^{4} \\theta+1=2 \\tan ^{2} \\theta \\\\ \\tan ^{4} \\theta-2 \\tan ^{2} \\theta+1=0 \\\\ \\left(\\tan ^{2} \\theta-1\\right)^{2}=0 \\\\ \\tan ^{2} \\theta-1=0 \\\\ \\tan ^{2} \\theta=1 \\\\ \\tan ^{2} \\theta=\\tan ^{2} \\frac{\\pi}{4} \\\\ \\theta=n \\pi \\pm \\frac{\\pi}{4} \\end{array} tan2\\\\theta +cot2\\\\theta =2tan2\\\\theta +tan2\\\\theta 1=2tan4\\\\theta +1=2tan2\\\\theta tan4\\\\theta −2tan2\\\\theta +1=0(tan2\\\\theta −1)2=0tan2\\\\theta −1=0tan2\\\\theta =1tan2\\\\theta =tan24\\\\pi \\\\theta =n\\\\pi \\\\pm 4\\\\pi Hence, this is the answer."
+    "questionLatex": "$tan⁡2\\\\theta  + cot⁡2\\\\theta  =2\\tan^2\\theta\\ +\\ \\cot^2\\theta\\ =2tan2\\\\theta  + cot2\\\\theta  =2 এর সমাধান হবে -$",
+    "explanationLatex": "$Consider the given equation. tan⁡2\\\\theta +cot⁡2\\\\theta =2tan⁡2\\\\theta +1tan⁡2\\\\theta =2tan⁡4\\\\theta +1=2tan⁡2\\\\theta tan⁡4\\\\theta −2tan⁡2\\\\theta +1=0(tan⁡2\\\\theta −1)2=0tan⁡2\\\\theta −1=0tan⁡2\\\\theta =1tan⁡2\\\\theta =tan⁡2\\\\pi 4\\\\theta =n\\\\pi \\\\pm \\\\pi 4 \\begin{array}{l} \\tan ^{2} \\theta+\\cot ^{2} \\theta=2 \\\\ \\tan ^{2} \\theta+\\frac{1}{\\tan ^{2} \\theta}=2 \\\\ \\tan ^{4} \\theta+1=2 \\tan ^{2} \\theta \\\\ \\tan ^{4} \\theta-2 \\tan ^{2} \\theta+1=0 \\\\ \\left(\\tan ^{2} \\theta-1\\right)^{2}=0 \\\\ \\tan ^{2} \\theta-1=0 \\\\ \\tan ^{2} \\theta=1 \\\\ \\tan ^{2} \\theta=\\tan ^{2} \\frac{\\pi}{4} \\\\ \\theta=n \\pi \\pm \\frac{\\pi}{4} \\end{array} tan2\\\\theta +cot2\\\\theta =2tan2\\\\theta +tan2\\\\theta 1=2tan4\\\\theta +1=2tan2\\\\theta tan4\\\\theta −2tan2\\\\theta +1=0(tan2\\\\theta −1)2=0tan2\\\\theta −1=0tan2\\\\theta =1tan2\\\\theta =tan24\\\\pi \\\\theta =n\\\\pi \\\\pm 4\\\\pi  Hence, this is the answer.$"
   },
   {
     "id": 38,
-    "question": "যদি tan\\tan \\left(\\sin ^{-1} \\sqrt{1-x^{2}}\\right)=\\sin \\left(\\cos ^{-1} \\frac{1}{\\sqrt{5}}\\right) tan(sin−11−x2)=sin(cos−151) হয়, তাহলে",
+    "question": "যদি tan⁡(sin⁡−11−x2)=sin⁡(cos⁡−115) \\tan \\left(\\sin ^{-1} \\sqrt{1-x^{2}}\\right)=\\sin \\left(\\cos ^{-1} \\frac{1}{\\sqrt{5}}\\right) tan(sin−11−x2)=sin(cos−151) হয়, তাহলে x= x= x= ?",
     "options": {
       "a": "± 5 3 ± 3 5",
       "b": "5 3 3 5",
@@ -756,12 +756,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "যদি tan\\tan \\left(\\sin ^{-1} \\sqrt{1-x^{2}}\\right)=\\sin \\left(\\cos ^{-1} \\frac{1}{\\sqrt{5}}\\right) tan(sin−11−x2)=sin(cos−151) হয়, তাহলে",
+    "questionLatex": "$যদি tan⁡(sin⁡−11−x2)=sin⁡(cos⁡−115) \\tan \\left(\\sin ^{-1} \\sqrt{1-x^{2}}\\right)=\\sin \\left(\\cos ^{-1} \\frac{1}{\\sqrt{5}}\\right) tan(sin−11−x2)=sin(cos−151) হয়, তাহলে x= x= x= ?$",
     "explanationLatex": "সঠিক উত্তর: (a) \\\\pm  5 3 \\\\pm  3 5।"
   },
   {
     "id": 39,
-    "question": "cos\\cos{\\theta} + \\sin{\\theta} = \\sqrt{2} cosθ+sinθ=2 সমীকরণের সমাধান কোনটি?",
+    "question": "cos⁡θ+sin⁡θ=2 \\cos{\\theta} + \\sin{\\theta} = \\sqrt{2} cosθ+sinθ=2 সমীকরণের সমাধান কোনটি?",
     "options": {
       "a": "𝜃 = 𝑛 𝜋 , 𝑛 𝜀 𝑧 θ=nπ,nεz",
       "b": "𝜃 = 2 𝑛 𝜋 , 𝑛 𝜀 𝑧 θ=2nπ,nεz",
@@ -781,7 +781,7 @@
   },
   {
     "id": 40,
-    "question": "tan\\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1)",
+    "question": "tan⁡−1x+tan⁡−1(1x) \\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1)",
     "options": {
       "a": "1",
       "b": "x",
@@ -789,19 +789,19 @@
       "d": "π/2"
     },
     "correctAnswer": "d",
-    "explanation": "এর মান কোনটি? tan\\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1) =tan\\tan^{- 1}{x} + \\cot^{- 1}{x} tan−1x+cot−1x =π\\2",
+    "explanation": "এর মান কোনটি? tan⁡−1x+tan⁡−1(1x) \\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1) =tan⁡−1x+cot⁡−1x \\tan^{- 1}{x} + \\cot^{- 1}{x} tan−1x+cot−1x =π\\2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1)",
-    "explanationLatex": "এর মান কোনটি? tan\\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1) =tan\\tan^{- 1}{x} + \\cot^{- 1}{x} tan−1x+cot−1x =\\\\pi \\2"
+    "questionLatex": "$tan⁡−1x+tan⁡−1(1x) \\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1)$",
+    "explanationLatex": "$এর মান কোনটি? tan⁡−1x+tan⁡−1(1x) \\tan^{- 1}{x} + \\tan^{- 1}{\\left( \\frac{1}{x} \\right )} tan−1x+tan−1(x1) =tan⁡−1x+cot⁡−1x \\tan^{- 1}{x} + \\cot^{- 1}{x} tan−1x+cot−1x =\\\\pi \\2$"
   },
   {
     "id": 41,
-    "question": "sec\\sec^2{\\left(\\tan^{-1}{2}\\right)}+cosec^2\\left(\\cot^{-1}{3}\\right)=?sec2(tan−12)+cosec2(cot−13)=?",
+    "question": "sec⁡2(tan⁡−12)+cosec2(cot⁡−13)=?\\sec^2{\\left(\\tan^{-1}{2}\\right)}+cosec^2\\left(\\cot^{-1}{3}\\right)=?sec2(tan−12)+cosec2(cot−13)=?",
     "options": {
       "a": "16",
       "b": "15",
@@ -809,19 +809,19 @@
       "d": "25"
     },
     "correctAnswer": "b",
-    "explanation": "1+tan\\tan^2{\\left(\\tan^{-1}{2}\\right)+1+\\cot^2{\\left(\\cot^{-1}{3}\\right)}}=1+4+1+9=151+tan2(tan−12)+1+cot2(cot−13)=1+4+1+9=15",
+    "explanation": "1+tan⁡2(tan⁡−12)+1+cot⁡2(cot⁡−13)=1+4+1+9=151+\\tan^2{\\left(\\tan^{-1}{2}\\right)+1+\\cot^2{\\left(\\cot^{-1}{3}\\right)}}=1+4+1+9=151+tan2(tan−12)+1+cot2(cot−13)=1+4+1+9=15",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sec\\sec^2{\\left(\\tan^{-1}{2}\\right)}+cosec^2\\left(\\cot^{-1}{3}\\right)=?sec2(tan−12)+cosec2(cot−13)=?",
-    "explanationLatex": "1+tan\\tan^2{\\left(\\tan^{-1}{2}\\right)+1+\\cot^2{\\left(\\cot^{-1}{3}\\right)}}=1+4+1+9=151+tan2(tan−12)+1+cot2(cot−13)=1+4+1+9=15"
+    "questionLatex": "$sec⁡2(tan⁡−12)+cosec2(cot⁡−13)=?\\sec^2{\\left(\\tan^{-1}{2}\\right)}+cosec^2\\left(\\cot^{-1}{3}\\right)=?sec2(tan−12)+cosec2(cot−13)=?$",
+    "explanationLatex": "$1+tan⁡2(tan⁡−12)+1+cot⁡2(cot⁡−13)=1+4+1+9=151+\\tan^2{\\left(\\tan^{-1}{2}\\right)+1+\\cot^2{\\left(\\cot^{-1}{3}\\right)}}=1+4+1+9=151+tan2(tan−12)+1+cot2(cot−13)=1+4+1+9=15$"
   },
   {
     "id": 42,
-    "question": "f:R\\rightarrow R , f:Rযেখানে \\left(\\right. x \\left.\\right) = x^{2} - 2 \\left|\\right. x \\left|\\right. f(x)=x2−2∣x∣ এবং g:R\\rightarrow R , g:Rযেখানে \\left(\\right. x \\left.\\right) = x^{2} + 1 ; \" \\left(\\right. g o f \\left.\\right) \\left(\\right. - 4 \\left.\\right) \" g(x)=x2+1;\"(gof)(−4)\" এর মান কত?",
+    "question": "f:R→R, f : R \\rightarrow R , f:R→R, যেখানে f(x)=x2−2∣x∣ f \\left(\\right. x \\left.\\right) = x^{2} - 2 \\left|\\right. x \\left|\\right. f(x)=x2−2∣x∣ এবং g:R→R, g : R \\rightarrow R , g:R→R, যেখানে g(x)=x2+1;\"(gof)(−4)\" g \\left(\\right. x \\left.\\right) = x^{2} + 1 ; \" \\left(\\right. g o f \\left.\\right) \\left(\\right. - 4 \\left.\\right) \" g(x)=x2+1;\"(gof)(−4)\" এর মান কত?",
     "options": {
       "a": "10",
       "b": "20",
@@ -836,12 +836,12 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "f:R\\rightarrow R , f:Rযেখানে \\left(\\right. x \\left.\\right) = x^{2} - 2 \\left|\\right. x \\left|\\right. f(x)=x2−2∣x∣ এবং g:R\\rightarrow R , g:Rযেখানে \\left(\\right. x \\left.\\right) = x^{2} + 1 ; \" \\left(\\right. g o f \\left.\\right) \\left(\\right. - 4 \\left.\\right) \" g(x)=x2+1;\"(gof)(−4)\" এর মান কত?",
+    "questionLatex": "$f:R→R, f : R \\rightarrow R , f:R→R, যেখানে f(x)=x2−2∣x∣ f \\left(\\right. x \\left.\\right) = x^{2} - 2 \\left|\\right. x \\left|\\right. f(x)=x2−2∣x∣ এবং g:R→R, g : R \\rightarrow R , g:R→R, যেখানে g(x)=x2+1;\"(gof)(−4)\" g \\left(\\right. x \\left.\\right) = x^{2} + 1 ; \" \\left(\\right. g o f \\left.\\right) \\left(\\right. - 4 \\left.\\right) \" g(x)=x2+1;\"(gof)(−4)\" এর মান কত?$",
     "explanationLatex": "সঠিক উত্তর: (c) 65।"
   },
   {
     "id": 43,
-    "question": "tan\\tan^{- 1}{\\left ( \\frac{1}{2} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{5} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{8} \\right )} = tan−1(21)+tan−1(51)+tan−1(81)= কত?",
+    "question": "tan⁡−1(12)+tan⁡−1(15)+tan⁡−1(18)= \\tan^{- 1}{\\left ( \\frac{1}{2} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{5} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{8} \\right )} = tan−1(21)+tan−1(51)+tan−1(81)= কত?",
     "options": {
       "a": "𝜋 2 2 π",
       "b": "π",
@@ -849,15 +849,15 @@
       "d": "𝜋 8 8 π"
     },
     "correctAnswer": "c",
-    "explanation": "tan\\begin{aligned} & \\tan ^{-1}\\left(\\frac{1}{2}\\right)+\\tan ^{-1}\\left(\\frac{1}{5}\\right)+\\tan ^{-1}\\left(\\frac{1}{8}\\right) \\\\ = & \\tan ^{-1} \\frac{1 / 2+1 / 5+1 / 8-\\left(\\frac{1}{2} \\times \\frac{1}{5} \\times \\frac{1}{8}\\right)}{1-\\left(\\frac{1}{2} \\times \\frac{1}{5}\\right)-(1 / 5 \\times 1 / 8)-\\left(\\frac{1}{8} \\times 1 / 2\\right)} \\\\ = & \\tan ^{-1}(1)=\\frac{\\pi}{4} \\text { (Ans) }\\end{aligned} ==tan−1(21)+tan−1(51)+tan−1(81)tan−11−(21",
+    "explanation": "tan⁡−1(12)+tan⁡−1(15)+tan⁡−1(18)=tan⁡−11/2+1/5+1/8−(12×15×18)1−(12×15)−(1/5×1/8)−(18×1/2)=tan⁡−1(1)=π4 (Ans) \\begin{aligned} & \\tan ^{-1}\\left(\\frac{1}{2}\\right)+\\tan ^{-1}\\left(\\frac{1}{5}\\right)+\\tan ^{-1}\\left(\\frac{1}{8}\\right) \\\\ = & \\tan ^{-1} \\frac{1 / 2+1 / 5+1 / 8-\\left(\\frac{1}{2} \\times \\frac{1}{5} \\times \\frac{1}{8}\\right)}{1-\\left(\\frac{1}{2} \\times \\frac{1}{5}\\right)-(1 / 5 \\times 1 / 8)-\\left(\\frac{1}{8} \\times 1 / 2\\right)} \\\\ = & \\tan ^{-1}(1)=\\frac{\\pi}{4} \\text { (Ans) }\\end{aligned} ==tan−1(21)+tan−1(51)+tan−1(81)tan−11−(21×51)−(1/5×1/8)−(81×1/2)1/2+1/5+1/8−(21×51×81)tan−1(1)=4π (Ans)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan^{- 1}{\\left ( \\frac{1}{2} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{5} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{8} \\right )} = tan−1(21)+tan−1(51)+tan−1(81)= কত?",
-    "explanationLatex": "tan\\frac{11}{2}+\\frac{1}{5}+\\frac{1}{8}−(12\\\\times 15\\\\times 18)1−(12\\\\times 15)−(\\frac{1}{5}\\\\times \\frac{1}{8})−(18\\\\times \\frac{1}{2})=tan\\pi 4 (Ans) \\begin{aligned} & \\tan ^{-1}\\left(\\frac{1}{2}\\right)+\\tan ^{-1}\\left(\\frac{1}{5}\\right)+\\tan ^{-1}\\left(\\frac{1}{8}\\right) \\\\ = & \\tan ^{-1} \\frac{\\frac{1}{2}+\\frac{1}{5}+\\frac{1}{8}-\\left(\\frac{1}{2} \\times \\frac{1}{5} \\times \\frac{1}{8}\\right)}{1-\\left(\\frac{1}{2} \\times \\frac{1}{5}\\right)-(\\frac{1}{5} \\times \\frac{1}{8})-\\left(\\frac{1}{8} \\times \\frac{1}{2}\\right)} \\\\ = & \\tan ^{-1}(1)=\\frac{\\pi}{4} \\text { (Ans) }\\end{aligned} ==tan−1(21)+tan−1(51)+tan−1(81)tan−11−(21\\\\times 51)−(\\frac{1}{5}\\\\times \\frac{1}{8})−(81\\\\times \\frac{1}{2})\\frac{1}{2}+\\frac{1}{5}+\\frac{1}{8}−(21\\\\times 51\\\\times 81)tan−1(1)=4\\\\pi (Ans)"
+    "questionLatex": "$tan⁡−1(12)+tan⁡−1(15)+tan⁡−1(18)= \\tan^{- 1}{\\left ( \\frac{1}{2} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{5} \\right )} + \\tan^{- 1}{\\left ( \\frac{1}{8} \\right )} = tan−1(21)+tan−1(51)+tan−1(81)= কত?$",
+    "explanationLatex": "$tan⁡−1(12)+tan⁡−1(15)+tan⁡−1(18)=tan⁡−\\frac{11}{2}+\\frac{1}{5}+\\frac{1}{8}−(12\\\\times 15\\\\times 18)1−(12\\\\times 15)−(\\frac{1}{5}\\\\times \\frac{1}{8})−(18\\\\times \\frac{1}{2})=tan⁡−1(1)=\\\\pi 4 (Ans) \\begin{aligned} & \\tan ^{-1}\\left(\\frac{1}{2}\\right)+\\tan ^{-1}\\left(\\frac{1}{5}\\right)+\\tan ^{-1}\\left(\\frac{1}{8}\\right) \\\\ = & \\tan ^{-1} \\frac{\\frac{1}{2}+\\frac{1}{5}+\\frac{1}{8}-\\left(\\frac{1}{2} \\times \\frac{1}{5} \\times \\frac{1}{8}\\right)}{1-\\left(\\frac{1}{2} \\times \\frac{1}{5}\\right)-(\\frac{1}{5} \\times \\frac{1}{8})-\\left(\\frac{1}{8} \\times \\frac{1}{2}\\right)} \\\\ = & \\tan ^{-1}(1)=\\frac{\\pi}{4} \\text { (Ans) }\\end{aligned} ==tan−1(21)+tan−1(51)+tan−1(81)tan−11−(21\\\\times 51)−(\\frac{1}{5}\\\\times \\frac{1}{8})−(81\\\\times \\frac{1}{2})\\frac{1}{2}+\\frac{1}{5}+\\frac{1}{8}−(21\\\\times 51\\\\times 81)tan−1(1)=4\\\\pi  (Ans)$"
   },
   {
     "id": 44,
@@ -869,7 +869,7 @@
       "d": "π/9"
     },
     "correctAnswer": "b",
-    "explanation": "tan\\begin{aligned} & \\tan ^{-1} \\sin \\cos ^{-1} \\sqrt{\\frac{2}{3}} \\\\ = & \\tan ^{-1} \\sin \\sin ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\tan ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\frac{\\pi}{6} \\text { (Ans.) }\\end{aligned} ===tan−1sincos−132tan−1sinsin−131tan−1316π (Ans.)",
+    "explanation": "tan⁡−1sin⁡cos⁡−123=tan⁡−1sin⁡sin⁡−113=tan⁡−113=π6 (Ans.) \\begin{aligned} & \\tan ^{-1} \\sin \\cos ^{-1} \\sqrt{\\frac{2}{3}} \\\\ = & \\tan ^{-1} \\sin \\sin ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\tan ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\frac{\\pi}{6} \\text { (Ans.) }\\end{aligned} ===tan−1sincos−132tan−1sinsin−131tan−1316π (Ans.)",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243650/gst-question-images/Math____________________________-Varsity-arc_q44.png",
@@ -877,11 +877,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$tan-1sin cos-1 23=? \\sqrt{\\frac{2}{3}} = ? 32=?$",
-    "explanationLatex": "tan\\pi 6 (Ans.) \\begin{aligned} & \\tan ^{-1} \\sin \\cos ^{-1} \\sqrt{\\frac{2}{3}} \\\\ = & \\tan ^{-1} \\sin \\sin ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\tan ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\frac{\\pi}{6} \\text { (Ans.) }\\end{aligned} ===tan−1sincos−132tan−1sinsin−131tan−1316\\\\pi (Ans.)"
+    "explanationLatex": "$tan⁡−1sin⁡cos⁡−123=tan⁡−1sin⁡sin⁡−113=tan⁡−113=\\\\pi 6 (Ans.) \\begin{aligned} & \\tan ^{-1} \\sin \\cos ^{-1} \\sqrt{\\frac{2}{3}} \\\\ = & \\tan ^{-1} \\sin \\sin ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\tan ^{-1} \\frac{1}{\\sqrt{3}} \\\\ = & \\frac{\\pi}{6} \\text { (Ans.) }\\end{aligned} ===tan−1sincos−132tan−1sinsin−131tan−1316\\\\pi  (Ans.)$"
   },
   {
     "id": 45,
-    "question": "tan\\tan^{-1}6+\\tan^{-1}\\frac{7}{5}tan−16+tan−157এর মান-",
+    "question": "tan⁡−16+tan⁡−175\\tan^{-1}6+\\tan^{-1}\\frac{7}{5}tan−16+tan−157এর মান-",
     "options": {
       "a": "𝜋 2 2 π",
       "b": "3 𝜋 2 2 3π",
@@ -889,19 +889,19 @@
       "d": "𝜋 3 3 π"
     },
     "correctAnswer": "c",
-    "explanation": "tan\\begin{array}{l} \\tan ^{-1} 6+\\tan ^{-1} 7 / 5 \\\\ =\\tan ^{-1} \\frac{6+7 / 5}{1-6 \\cdot 7 / 5}\\end{array} tan−16+tan−17/5=tan−11−6⋅7/56+7/5 =tan\\tan ^{-1} \\frac{\\frac{30+7}{5}}{1-\\frac{42}{5}} =tan−11−542530+7 =tan\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{5-42}{5}} =tan−155−42537 =tan\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{-37}{5}} =tan−15−37537 =tan\\begin{array}{l}=\\tan ^{-1}(-1) \\\\ =\\frac{3 \\pi}{4} \\end{array} =tan−1(−1)=43π",
+    "explanation": "tan⁡−16+tan⁡−17/5=tan⁡−16+7/51−6⋅7/5 \\begin{array}{l} \\tan ^{-1} 6+\\tan ^{-1} 7 / 5 \\\\ =\\tan ^{-1} \\frac{6+7 / 5}{1-6 \\cdot 7 / 5}\\end{array} tan−16+tan−17/5=tan−11−6⋅7/56+7/5 =tan⁡−130+751−425 =\\tan ^{-1} \\frac{\\frac{30+7}{5}}{1-\\frac{42}{5}} =tan−11−542530+7 =tan⁡−13755−425 =\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{5-42}{5}} =tan−155−42537 =tan⁡−1375−375 =\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{-37}{5}} =tan−15−37537 =tan⁡−1(−1)=3π4 \\begin{array}{l}=\\tan ^{-1}(-1) \\\\ =\\frac{3 \\pi}{4} \\end{array} =tan−1(−1)=43π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan^{-1}6+\\tan^{-1}\\frac{7}{5}tan−16+tan−157এর মান-",
-    "explanationLatex": "tan\\frac{17}{5}=tan\\frac{7}{51}−6⋅\\frac{7}{5} \\begin{array}{l} \\tan ^{-1} 6+\\tan ^{-1} \\frac{7}{5} \\\\ =\\tan ^{-1} \\frac{6+\\frac{7}{5}}{1-6 \\cdot \\frac{7}{5}}\\end{array} tan−16+tan−\\frac{17}{5}=tan−11−6⋅\\frac{7}{56}+\\frac{7}{5} =tan\\tan ^{-1} \\frac{\\frac{30+7}{5}}{1-\\frac{42}{5}} =tan−11−542530+7 =tan\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{5-42}{5}} =tan−155−42537 =tan\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{-37}{5}} =tan−15−37537 =tan\\pi 4 \\begin{array}{l}=\\tan ^{-1}(-1) \\\\ =\\frac{3 \\pi}{4} \\end{array} =tan−1(−1)=43\\\\pi"
+    "questionLatex": "$tan⁡−16+tan⁡−175\\tan^{-1}6+\\tan^{-1}\\frac{7}{5}tan−16+tan−157এর মান-$",
+    "explanationLatex": "$tan⁡−16+tan⁡−\\frac{17}{5}=tan⁡−16+\\frac{7}{51}−6⋅\\frac{7}{5} \\begin{array}{l} \\tan ^{-1} 6+\\tan ^{-1} \\frac{7}{5} \\\\ =\\tan ^{-1} \\frac{6+\\frac{7}{5}}{1-6 \\cdot \\frac{7}{5}}\\end{array} tan−16+tan−\\frac{17}{5}=tan−11−6⋅\\frac{7}{56}+\\frac{7}{5} =tan⁡−130+751−425 =\\tan ^{-1} \\frac{\\frac{30+7}{5}}{1-\\frac{42}{5}} =tan−11−542530+7 =tan⁡−13755−425 =\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{5-42}{5}} =tan−155−42537 =tan⁡−1375−375 =\\tan ^{-1} \\frac{\\frac{37}{5}}{\\frac{-37}{5}} =tan−15−37537 =tan⁡−1(−1)=3\\\\pi 4 \\begin{array}{l}=\\tan ^{-1}(-1) \\\\ =\\frac{3 \\pi}{4} \\end{array} =tan−1(−1)=43\\\\pi $"
   },
   {
     "id": 46,
-    "question": "tan\\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+ \\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) = ?tan(4π+21cos−1ba)+tan(4π−21cos−1ba)=?",
+    "question": "tan⁡(π4+12cos⁡−1ab)+tan⁡(π4−12cos⁡−1ab)=? \\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+ \\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) = ?tan(4π+21cos−1ba)+tan(4π−21cos−1ba)=?",
     "options": {
       "a": "2 𝑏 𝑎 a 2b",
       "b": "𝑏 𝑎 a b",
@@ -909,19 +909,19 @@
       "d": "𝑏 2 𝑎 a b 2"
     },
     "correctAnswer": "a",
-    "explanation": "মনে করি, cos\\cos ^{-1} \\frac{a}{b}=x \\Rightarrow \\frac{a}{b}=\\cos x cos−1ba=x\\begin{array}{l}\\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) \\\\=\\tan \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}+\\frac{\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)+\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{2 \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin 2 \\cdot \\frac{\\pi}{4}}{\\cos 2 \\cdot \\frac{\\pi}{4}+\\cos 2 \\cdot \\frac{x}{2}} \\\\=\\frac{2 \\sin \\frac{\\pi}{2}}{\\cos \\frac{\\pi}{2}+\\cos x} \\\\ =\\frac{2}{0+\\frac{a}{b}} \\\\ =\\frac{2 b}{a}\\end{array}tan(4π+21cos−1ba)+tan(4π−21cos−1ba)=tan(4π+2x)+tan(4π−2x)=cos(4π+2x)sin(4π+2x)+cos(4π−2x)sin(4π−2x)=cos(4π+2x)cos(4π−2x)sin(4π+2x)cos(4π−2x)+sin(4π−2x)cos(4π+2x)=2cos(4π+2x)cos(4π−2x)2sin(4π+2x+4π−2x)=cos2⋅4π+cos2⋅2x2sin2⋅4π=cos2π+cosx2sin2π=0+ba2=a2b",
+    "explanation": "Solve : মনে করি, cos⁡−1ab=x⇒ab=cos⁡x \\cos ^{-1} \\frac{a}{b}=x \\Rightarrow \\frac{a}{b}=\\cos x cos−1ba=x⇒ba=cosx tan⁡(π4+12cos⁡−1ab)+tan⁡(π4−12cos⁡−1ab)=tan⁡(π4+x2)+tan⁡(π4−x2)=sin⁡(π4+x2)cos⁡(π4+x2)+sin⁡(π4−x2)cos⁡(π4−x2)=sin⁡(π4+x2)cos⁡(π4−x2)+sin⁡(π4−x2)cos⁡(π4+x2)cos⁡(π4+x2)cos⁡(π4−x2)=2sin⁡(π4+x2+π4−x2)2cos⁡(π4+x2)cos⁡(π4−x2)=2sin⁡2⋅π4cos⁡2⋅π4+cos⁡2⋅x2=2sin⁡π2cos⁡π2+cos⁡x=20+ab=2ba\\begin{array}{l}\\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) \\\\=\\tan \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}+\\frac{\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)+\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{2 \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin 2 \\cdot \\frac{\\pi}{4}}{\\cos 2 \\cdot \\frac{\\pi}{4}+\\cos 2 \\cdot \\frac{x}{2}} \\\\=\\frac{2 \\sin \\frac{\\pi}{2}}{\\cos \\frac{\\pi}{2}+\\cos x} \\\\ =\\frac{2}{0+\\frac{a}{b}} \\\\ =\\frac{2 b}{a}\\end{array}tan(4π+21cos−1ba)+tan(4π−21cos−1ba)=tan(4π+2x)+tan(4π−2x)=cos(4π+2x)sin(4π+2x)+cos(4π−2x)sin(4π−2x)=cos(4π+2x)cos(4π−2x)sin(4π+2x)cos(4π−2x)+sin(4π−2x)cos(4π+2x)=2cos(4π+2x)cos(4π−2x)2sin(4π+2x+4π−2x)=cos2⋅4π+cos2⋅2x2sin2⋅4π=cos2π+cosx2sin2π=0+ba2=a2b",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\pi 4+12cos\\pi 4−12cos\\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+ \\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) = ?tan(4\\\\pi +21cos−1ba)+tan(4\\\\pi −21cos−1ba)=?",
-    "explanationLatex": "মনে করি, cos\\cos ^{-1} \\frac{a}{b}=x \\Rightarrow \\frac{a}{b}=\\cos x cos−1ba=x\\pi 4+12cos\\pi 4−12cos\\pi 4+x2)+tan\\pi 4−x2)=sin\\pi 4+x2)cos\\pi 4+x2)+sin\\pi 4−x2)cos\\pi 4−x2)=sin\\pi 4+x2)cos\\pi 4−x2)+sin\\pi 4−x2)cos\\pi 4+x2)cos\\pi 4+x2)cos\\pi 4−x2)=2sin\\pi 4+x2+\\\\pi 4−x2)2cos\\pi 4+x2)cos\\pi 4−x2)=2sin\\pi 4cos\\pi 4+cos\\pi 2cos⁡\\\\pi 2+cos\\begin{array}{l}\\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) \\\\=\\tan \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}+\\frac{\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)+\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{2 \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin 2 \\cdot \\frac{\\pi}{4}}{\\cos 2 \\cdot \\frac{\\pi}{4}+\\cos 2 \\cdot \\frac{x}{2}} \\\\=\\frac{2 \\sin \\frac{\\pi}{2}}{\\cos \\frac{\\pi}{2}+\\cos x} \\\\ =\\frac{2}{0+\\frac{a}{b}} \\\\ =\\frac{2 b}{a}\\end{array}tan(4\\\\pi +21cos−1ba)+tan(4\\\\pi −21cos−1ba)=tan(4\\\\pi +2x)+tan(4\\\\pi −2x)=cos(4\\\\pi +2x)sin(4\\\\pi +2x)+cos(4\\\\pi −2x)sin(4\\\\pi −2x)=cos(4\\\\pi +2x)cos(4\\\\pi −2x)sin(4\\\\pi +2x)cos(4\\\\pi −2x)+sin(4\\\\pi −2x)cos(4\\\\pi +2x)=2cos(4\\\\pi +2x)cos(4\\\\pi −2x)2sin(4\\\\pi +2x+4\\\\pi −2x)=cos2⋅4\\\\pi +cos2⋅2x2sin2⋅4\\\\pi =cos2\\\\pi +cosx2sin2\\\\pi =0+ba2=a2b"
+    "questionLatex": "$tan⁡(\\\\pi 4+12cos⁡−1ab)+tan⁡(\\\\pi 4−12cos⁡−1ab)=? \\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+ \\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) = ?tan(4\\\\pi +21cos−1ba)+tan(4\\\\pi −21cos−1ba)=?$",
+    "explanationLatex": "$Solve : মনে করি, cos⁡−1ab=x⇒ab=cos⁡x \\cos ^{-1} \\frac{a}{b}=x \\Rightarrow \\frac{a}{b}=\\cos x cos−1ba=x⇒ba=cosx tan⁡(\\\\pi 4+12cos⁡−1ab)+tan⁡(\\\\pi 4−12cos⁡−1ab)=tan⁡(\\\\pi 4+x2)+tan⁡(\\\\pi 4−x2)=sin⁡(\\\\pi 4+x2)cos⁡(\\\\pi 4+x2)+sin⁡(\\\\pi 4−x2)cos⁡(\\\\pi 4−x2)=sin⁡(\\\\pi 4+x2)cos⁡(\\\\pi 4−x2)+sin⁡(\\\\pi 4−x2)cos⁡(\\\\pi 4+x2)cos⁡(\\\\pi 4+x2)cos⁡(\\\\pi 4−x2)=2sin⁡(\\\\pi 4+x2+\\\\pi 4−x2)2cos⁡(\\\\pi 4+x2)cos⁡(\\\\pi 4−x2)=2sin⁡2⋅\\\\pi 4cos⁡2⋅\\\\pi 4+cos⁡2⋅x2=2sin⁡\\\\pi 2cos⁡\\\\pi 2+cos⁡x=20+ab=2ba\\begin{array}{l}\\tan \\left(\\frac{\\pi}{4}+\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{1}{2} \\cos ^{-1} \\frac{a}{b}\\right) \\\\=\\tan \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)+\\tan \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}+\\frac{\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{\\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)+\\sin \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right)}{\\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin \\left(\\frac{\\pi}{4}+\\frac{x}{2}+\\frac{\\pi}{4}-\\frac{x}{2}\\right)}{2 \\cos \\left(\\frac{\\pi}{4}+\\frac{x}{2}\\right) \\cos \\left(\\frac{\\pi}{4}-\\frac{x}{2}\\right)} \\\\=\\frac{2 \\sin 2 \\cdot \\frac{\\pi}{4}}{\\cos 2 \\cdot \\frac{\\pi}{4}+\\cos 2 \\cdot \\frac{x}{2}} \\\\=\\frac{2 \\sin \\frac{\\pi}{2}}{\\cos \\frac{\\pi}{2}+\\cos x} \\\\ =\\frac{2}{0+\\frac{a}{b}} \\\\ =\\frac{2 b}{a}\\end{array}tan(4\\\\pi +21cos−1ba)+tan(4\\\\pi −21cos−1ba)=tan(4\\\\pi +2x)+tan(4\\\\pi −2x)=cos(4\\\\pi +2x)sin(4\\\\pi +2x)+cos(4\\\\pi −2x)sin(4\\\\pi −2x)=cos(4\\\\pi +2x)cos(4\\\\pi −2x)sin(4\\\\pi +2x)cos(4\\\\pi −2x)+sin(4\\\\pi −2x)cos(4\\\\pi +2x)=2cos(4\\\\pi +2x)cos(4\\\\pi −2x)2sin(4\\\\pi +2x+4\\\\pi −2x)=cos2⋅4\\\\pi +cos2⋅2x2sin2⋅4\\\\pi =cos2\\\\pi +cosx2sin2\\\\pi =0+ba2=a2b$"
   },
   {
     "id": 47,
-    "question": "tan\\tan{2} \\theta \\tan{\\theta} = 1 , \\left ( 0 ° < \\theta < 90 ° \\right ) tan2θtanθ=1,(0°<θ<90°) এর সমাধান -",
+    "question": "tan⁡2θtan⁡θ=1,(0°<θ<90°) \\tan{2} \\theta \\tan{\\theta} = 1 , \\left ( 0 ° < \\theta < 90 ° \\right ) tan2θtanθ=1,(0°<θ<90°) এর সমাধান -",
     "options": {
       "a": "0°",
       "b": "30°",
@@ -929,7 +929,7 @@
       "d": "60°"
     },
     "correctAnswer": "b",
-    "explanation": "tan\\tan 2 \\theta \\tan \\theta=1 tan2θtanθ=1 \\begin{array}{l} \\Rightarrow \\frac{2 \\tan ^{2} \\theta}{1-\\tan ^{2} \\theta}=1 \\Rightarrow 2 \\tan ^{2} \\theta=1-\\tan ^{2} \\theta \\\\ \\Rightarrow 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan ^{2} \\theta=\\frac{1}{3} \\Rightarrow \\tan \\theta=\\sqrt{\\frac{1}{3}} \\\\ \\therefore \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan 30^{\\circ} \\\\ \\therefore \\theta=30^{\\circ} \\end{array}",
+    "explanation": "tan⁡2θtan⁡θ=1 \\tan 2 \\theta \\tan \\theta=1 tan2θtanθ=1 ⇒2tan⁡2θ1−tan⁡2θ=1⇒2tan⁡2θ=1−tan⁡2θ⇒3tan⁡2θ=1⇒tan⁡2θ=13⇒tan⁡θ=13∴tan⁡θ=13=tan⁡30∘∴θ=30∘ \\begin{array}{l} \\Rightarrow \\frac{2 \\tan ^{2} \\theta}{1-\\tan ^{2} \\theta}=1 \\Rightarrow 2 \\tan ^{2} \\theta=1-\\tan ^{2} \\theta \\\\ \\Rightarrow 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan ^{2} \\theta=\\frac{1}{3} \\Rightarrow \\tan \\theta=\\sqrt{\\frac{1}{3}} \\\\ \\therefore \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan 30^{\\circ} \\\\ \\therefore \\theta=30^{\\circ} \\end{array} ⇒1−tan2θ2tan2θ=1⇒2tan2θ=1−tan2θ⇒3tan2θ=1⇒tan2θ=31⇒tanθ=31∴tanθ=31=tan30∘∴θ=30∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -937,7 +937,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$tan⁡2\\\\theta tan⁡\\\\theta =1,(0^{\\\\circ}<\\\\theta <90^{\\\\circ}) \\tan{2} \\theta \\tan{\\theta} = 1 , \\left ( 0 ^{\\\\circ} < \\theta < 90 ^{\\\\circ} \\right ) tan2\\\\theta tan\\\\theta =1,(0^{\\\\circ}<\\\\theta <90^{\\\\circ}) এর সমাধান -$",
-    "explanationLatex": "tan\\theta tan⁡\\\\theta =1 \\tan 2 \\theta \\tan \\theta=1 tan2\\\\theta tan\\\\theta =1 \\theta 1−tan\\theta =1\\theta =1−tan\\theta \\theta =1\\theta =13\\theta =13\\theta =13=tan\\theta =30∘ \\begin{array}{l} \\Rightarrow \\frac{2 \\tan ^{2} \\theta}{1-\\tan ^{2} \\theta}=1 \\Rightarrow 2 \\tan ^{2} \\theta=1-\\tan ^{2} \\theta \\\\ \\Rightarrow 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan ^{2} \\theta=\\frac{1}{3} \\Rightarrow \\tan \\theta=\\sqrt{\\frac{1}{3}} \\\\ \\therefore \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan 30^{\\circ} \\\\ \\therefore \\theta=30^{\\circ} \\end{array} \\theta 2tan2\\\\theta =1\\theta =1−tan2\\\\theta \\theta =1\\theta =31\\theta =31\\theta =31=tan30∘∴\\\\theta =30∘"
+    "explanationLatex": "$tan⁡2\\\\theta tan⁡\\\\theta =1 \\tan 2 \\theta \\tan \\theta=1 tan2\\\\theta tan\\\\theta =1 ⇒2tan⁡2\\\\theta 1−tan⁡2\\\\theta =1⇒2tan⁡2\\\\theta =1−tan⁡2\\\\theta ⇒3tan⁡2\\\\theta =1⇒tan⁡2\\\\theta =13⇒tan⁡\\\\theta =13∴tan⁡\\\\theta =13=tan⁡30∘∴\\\\theta =30∘ \\begin{array}{l} \\Rightarrow \\frac{2 \\tan ^{2} \\theta}{1-\\tan ^{2} \\theta}=1 \\Rightarrow 2 \\tan ^{2} \\theta=1-\\tan ^{2} \\theta \\\\ \\Rightarrow 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan ^{2} \\theta=\\frac{1}{3} \\Rightarrow \\tan \\theta=\\sqrt{\\frac{1}{3}} \\\\ \\therefore \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan 30^{\\circ} \\\\ \\therefore \\theta=30^{\\circ} \\end{array} ⇒1−tan2\\\\theta 2tan2\\\\theta =1⇒2tan2\\\\theta =1−tan2\\\\theta ⇒3tan2\\\\theta =1⇒tan2\\\\theta =31⇒tan\\\\theta =31∴tan\\\\theta =31=tan30∘∴\\\\theta =30∘$"
   },
   {
     "id": 48,
@@ -949,7 +949,7 @@
       "d": "3"
     },
     "correctAnswer": "a",
-    "explanation": "cos\\begin{array}{l}\\cos ^{-1} x+\\cos ^{-1} y=\\frac{\\pi}{2} \\\\ \\Rightarrow \\cos ^{-1} x=\\frac{\\pi}{2}-\\cos ^{-1} y \\\\ \\Rightarrow \\cos ^{-1} x=\\sin ^{-1} y\\left[\\because \\sin ^{-1} y+\\cos ^{-1} y=\\frac{\\pi}{2}\\right] \\\\ \\Rightarrow \\cos ^{-1} x=\\cos ^{-1} \\sqrt{1-y^{2}} \\\\ x=\\sqrt{1-y^{2}} \\Rightarrow x^{2}+y^{2}=1 \\quad \\text { (Ans) }\\end{array} cos−1x+cos−1y=2π",
+    "explanation": "cos⁡−1x+cos⁡−1y=π2⇒cos⁡−1x=π2−cos⁡−1y⇒cos⁡−1x=sin⁡−1y[∵sin⁡−1y+cos⁡−1y=π2]⇒cos⁡−1x=cos⁡−11−y2x=1−y2⇒x2+y2=1 (Ans) \\begin{array}{l}\\cos ^{-1} x+\\cos ^{-1} y=\\frac{\\pi}{2} \\\\ \\Rightarrow \\cos ^{-1} x=\\frac{\\pi}{2}-\\cos ^{-1} y \\\\ \\Rightarrow \\cos ^{-1} x=\\sin ^{-1} y\\left[\\because \\sin ^{-1} y+\\cos ^{-1} y=\\frac{\\pi}{2}\\right] \\\\ \\Rightarrow \\cos ^{-1} x=\\cos ^{-1} \\sqrt{1-y^{2}} \\\\ x=\\sqrt{1-y^{2}} \\Rightarrow x^{2}+y^{2}=1 \\quad \\text { (Ans) }\\end{array} cos−1x+cos−1y=2π⇒cos−1x=2π−cos−1y⇒cos−1x=sin−1y[∵sin−1y+cos−1y=2π]⇒cos−1x=cos−11−y2x=1−y2⇒x2+y2=1 (Ans)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -957,11 +957,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$cos-1x + cos-1y = \\\\\\frac{pi}{2} হলে x2+y2 এর মান কত?$",
-    "explanationLatex": "cos\\pi 2\\pi 2−cos\\pi 2]\\begin{array}{l}\\cos ^{-1} x+\\cos ^{-1} y=\\frac{\\pi}{2} \\\\ \\Rightarrow \\cos ^{-1} x=\\frac{\\pi}{2}-\\cos ^{-1} y \\\\ \\Rightarrow \\cos ^{-1} x=\\sin ^{-1} y\\left[\\because \\sin ^{-1} y+\\cos ^{-1} y=\\frac{\\pi}{2}\\right] \\\\ \\Rightarrow \\cos ^{-1} x=\\cos ^{-1} \\sqrt{1-y^{2}} \\\\ x=\\sqrt{1-y^{2}} \\Rightarrow x^{2}+y^{2}=1 \\quad \\text { (Ans) }\\end{array} cos−1x+cos−1y=2\\\\pi \\pi −cos−1y\\pi ]"
+    "explanationLatex": "$cos⁡−1x+cos⁡−1y=\\\\pi 2⇒cos⁡−1x=\\\\pi 2−cos⁡−1y⇒cos⁡−1x=sin⁡−1y[∵sin⁡−1y+cos⁡−1y=\\\\pi 2]⇒cos⁡−1x=cos⁡−11−y2x=1−y2⇒x2+y2=1 (Ans) \\begin{array}{l}\\cos ^{-1} x+\\cos ^{-1} y=\\frac{\\pi}{2} \\\\ \\Rightarrow \\cos ^{-1} x=\\frac{\\pi}{2}-\\cos ^{-1} y \\\\ \\Rightarrow \\cos ^{-1} x=\\sin ^{-1} y\\left[\\because \\sin ^{-1} y+\\cos ^{-1} y=\\frac{\\pi}{2}\\right] \\\\ \\Rightarrow \\cos ^{-1} x=\\cos ^{-1} \\sqrt{1-y^{2}} \\\\ x=\\sqrt{1-y^{2}} \\Rightarrow x^{2}+y^{2}=1 \\quad \\text { (Ans) }\\end{array} cos−1x+cos−1y=2\\\\pi ⇒cos−1x=2\\\\pi −cos−1y⇒cos−1x=sin−1y[∵sin−1y+cos−1y=2\\\\pi ]⇒cos−1x=cos−11−y2x=1−y2⇒x2+y2=1 (Ans)$"
   },
   {
     "id": 49,
-    "question": "cot\\cot \\cos ^{-1} \\sin \\tan ^{-1} \\frac{3}{4}=?cotcos−1sintan−143=?",
+    "question": "cot⁡cos⁡−1sin⁡tan⁡−134=?\\cot \\cos ^{-1} \\sin \\tan ^{-1} \\frac{3}{4}=?cotcos−1sintan−143=?",
     "options": {
       "a": "− 3 4 − 4 3",
       "b": "− 4 3 − 3 4",
@@ -969,15 +969,15 @@
       "d": "4 3 3 4"
     },
     "correctAnswer": "c",
-    "explanation": "cot\\cot(\\cos^{-1}(\\sin(\\tan^{-1}(\\frac{3}{4})))) cot(cos−1(sin(tan−1(43)))) =cot\\cot(\\cos^{-1}(\\sin(\\sin^{-1}(\\frac{\\sqrt{3^2 + 4^2}}{4})))) =cot(cos−1(sin(sin−1(432+42)))) =cot\\cot(\\cos^{-1}(\\frac{5}{4})) =cot(cos−1(45)) =cot\\cot^{-1}(\\cos^{-1}(\\frac{5}{4})) =cot−1(cos−1(45)) =cot\\cot(\\cot^{-1}(\\frac{3^2}{4^2})) =cot(cot−1(4232)) =34 = \\frac{3}{4} =43",
+    "explanation": "cot⁡(cos⁡−1(sin⁡(tan⁡−1(34)))) \\cot(\\cos^{-1}(\\sin(\\tan^{-1}(\\frac{3}{4})))) cot(cos−1(sin(tan−1(43)))) =cot⁡(cos⁡−1(sin⁡(sin⁡−1(32+424)))) = \\cot(\\cos^{-1}(\\sin(\\sin^{-1}(\\frac{\\sqrt{3^2 + 4^2}}{4})))) =cot(cos−1(sin(sin−1(432+42)))) =cot⁡(cos⁡−1(54)) = \\cot(\\cos^{-1}(\\frac{5}{4})) =cot(cos−1(45)) =cot⁡−1(cos⁡−1(54)) = \\cot^{-1}(\\cos^{-1}(\\frac{5}{4})) =cot−1(cos−1(45)) =cot⁡(cot⁡−1(3242)) = \\cot(\\cot^{-1}(\\frac{3^2}{4^2})) =cot(cot−1(4232)) =34 = \\frac{3}{4} =43",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cot\\cot \\cos ^{-1} \\sin \\tan ^{-1} \\frac{3}{4}=?cotcos−1sintan−143=?",
-    "explanationLatex": "cot\\cot(\\cos^{-1}(\\sin(\\tan^{-1}(\\frac{3}{4})))) cot(cos−1(sin(tan−1(43)))) =cot\\cot(\\cos^{-1}(\\sin(\\sin^{-1}(\\frac{\\sqrt{3^2 + 4^2}}{4})))) =cot(cos−1(sin(sin−1(432+42)))) =cot\\cot(\\cos^{-1}(\\frac{5}{4})) =cot(cos−1(45)) =cot\\cot^{-1}(\\cos^{-1}(\\frac{5}{4})) =cot−1(cos−1(45)) =cot\\cot(\\cot^{-1}(\\frac{3^2}{4^2})) =cot(cot−1(4232)) =34 = \\frac{3}{4} =43"
+    "questionLatex": "$cot⁡cos⁡−1sin⁡tan⁡−134=?\\cot \\cos ^{-1} \\sin \\tan ^{-1} \\frac{3}{4}=?cotcos−1sintan−143=?$",
+    "explanationLatex": "$cot⁡(cos⁡−1(sin⁡(tan⁡−1(34)))) \\cot(\\cos^{-1}(\\sin(\\tan^{-1}(\\frac{3}{4})))) cot(cos−1(sin(tan−1(43)))) =cot⁡(cos⁡−1(sin⁡(sin⁡−1(32+424)))) = \\cot(\\cos^{-1}(\\sin(\\sin^{-1}(\\frac{\\sqrt{3^2 + 4^2}}{4})))) =cot(cos−1(sin(sin−1(432+42)))) =cot⁡(cos⁡−1(54)) = \\cot(\\cos^{-1}(\\frac{5}{4})) =cot(cos−1(45)) =cot⁡−1(cos⁡−1(54)) = \\cot^{-1}(\\cos^{-1}(\\frac{5}{4})) =cot−1(cos−1(45)) =cot⁡(cot⁡−1(3242)) = \\cot(\\cot^{-1}(\\frac{3^2}{4^2})) =cot(cot−1(4232)) =34 = \\frac{3}{4} =43$"
   },
   {
     "id": 50,
@@ -989,14 +989,14 @@
       "d": "-2x√(1-x2)"
     },
     "correctAnswer": "b",
-    "explanation": "sin\\begin{aligned} & \\sin \\left(2 \\sin ^{-1} x\\right) \\\\ = & \\sin \\left\\{\\sin ^{-1}\\left(2 x \\sqrt{1-x^{2}}\\right)\\right\\} \\\\ = & 2 x \\sqrt{1-x^{2}}\\end{aligned} ==sin(2sin−1x)sin{sin−1(2x1−x2)}2x1−x2",
+    "explanation": "sin⁡(2sin⁡−1x)=sin⁡{sin⁡−1(2x1−x2)}=2x1−x2 \\begin{aligned} & \\sin \\left(2 \\sin ^{-1} x\\right) \\\\ = & \\sin \\left\\{\\sin ^{-1}\\left(2 x \\sqrt{1-x^{2}}\\right)\\right\\} \\\\ = & 2 x \\sqrt{1-x^{2}}\\end{aligned} ==sin(2sin−1x)sin{sin−1(2x1−x2)}2x1−x2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin(2sin-1x) =?",
-    "explanationLatex": "sin\\begin{aligned} & \\sin \\left(2 \\sin ^{-1} x\\right) \\\\ = & \\sin \\left\\{\\sin ^{-1}\\left(2 x \\sqrt{1-x^{2}}\\right)\\right\\} \\\\ = & 2 x \\sqrt{1-x^{2}}\\end{aligned} ==sin(2sin−1x)sin{sin−1(2x1−x2)}2x1−x2"
+    "questionLatex": "$sin(2sin-1x) =?$",
+    "explanationLatex": "$sin⁡(2sin⁡−1x)=sin⁡{sin⁡−1(2x1−x2)}=2x1−x2 \\begin{aligned} & \\sin \\left(2 \\sin ^{-1} x\\right) \\\\ = & \\sin \\left\\{\\sin ^{-1}\\left(2 x \\sqrt{1-x^{2}}\\right)\\right\\} \\\\ = & 2 x \\sqrt{1-x^{2}}\\end{aligned} ==sin(2sin−1x)sin{sin−1(2x1−x2)}2x1−x2$"
   }
 ]

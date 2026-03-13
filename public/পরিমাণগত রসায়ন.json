@@ -9,7 +9,7 @@
       "d": "83.1%"
     },
     "correctAnswer": "a",
-    "explanation": "ধাপ ১: AgCl এর আণবিক ভর নির্ণয়। আমরা জানি, Ag এর আপেক্ষিক পারমাণবিক ভর = 108 এবং Cl এর আপেক্ষিক পারমাণবিক ভর = 35.5 সুতরাং, AgCl এর আণবিক ভর = ধাপ ২: AgCl থেকে ক্লোরিনের পরিমাণ নির্ণয়। গ্রাম AgCl এ ক্লোরিন থাকে 35.5 গ্রাম। গ্রাম AgCl এ ক্লোরিন থাকে (\\left(\\frac{35.5}{143.5}\\right) \\times 0.475(143.535.5)গ্রাম = গ্রাম (প্রায়) ধাপ ৩: জৈব যৌগে ক্লোরিনের শতকরা হার নির্ণয়। গ্রাম জৈব যৌগে ক্লোরিন আছে গ্রাম। 100 গ্রাম জৈব যৌগে ক্লোরিন আছে (\\left(\\frac{0.1175}{0.186}\\right) \\times 100(0.1860.1175)গ্রাম = প্রায়) সুতরাং, ঐ যৌগে ক্লোরিনের শতকরা হার হলো",
+    "explanation": "ধাপ ১: AgCl এর আণবিক ভর নির্ণয়। আমরা জানি, Ag এর আপেক্ষিক পারমাণবিক ভর = 108 এবং Cl এর আপেক্ষিক পারমাণবিক ভর = 35.5 সুতরাং, AgCl এর আণবিক ভর = 108 + 35.5 = 143.5 ধাপ ২: AgCl থেকে ক্লোরিনের পরিমাণ নির্ণয়। 143.5 গ্রাম AgCl এ ক্লোরিন থাকে 35.5 গ্রাম। 0.475 গ্রাম AgCl এ ক্লোরিন থাকে (35.5143.5)×0.475\\left(\\frac{35.5}{143.5}\\right) \\times 0.475(143.535.5)×0.475 গ্রাম = 0.1175 গ্রাম (প্রায়) ধাপ ৩: জৈব যৌগে ক্লোরিনের শতকরা হার নির্ণয়। 0.186 গ্রাম জৈব যৌগে ক্লোরিন আছে 0.1175 গ্রাম। 100 গ্রাম জৈব যৌগে ক্লোরিন আছে (0.11750.186)×100\\left(\\frac{0.1175}{0.186}\\right) \\times 100(0.1860.1175)×100 গ্রাম = 63.17% (প্রায়) সুতরাং, ঐ যৌগে ক্লোরিনের শতকরা হার হলো 63.17%।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -29,7 +29,7 @@
       "d": "7.0 g of nitrogen atoms"
     },
     "correctAnswer": "a",
-    "explanation": "\\mathrm{~g} \\mathrm{H} 1.10 gH পরমাণু ≡6.573\\equiv 6.573 \\times 10^{23} ≡6.573সংখ্যক H-পরমাণু \\mathrm{~g} \\mathrm{Cr} 14.7 gCr পরমাণু ≡1.703\\equiv 1.703 \\times 10^{23} ≡1.703সংখ্যক Cr-পরমাণু \\mathrm{~g} \\mathrm{He} 2.0 gHe পরমাণু ≡\\equiv 3.0115 \\times 10^{23} ≡3.0115সংখ্যক He-পরমাণু \\mathrm{~g} \\mathrm{~N} 7.0 g N পরমাণু ≡\\equiv 3.0115 \\times 10^{23} ≡3.0115সংখ্যক N-পরমাণু",
+    "explanation": "1.10 gH 1.10 \\mathrm{~g} \\mathrm{H} 1.10 gH পরমাণু ≡6.573×1023 \\equiv 6.573 \\times 10^{23} ≡6.573×1023 সংখ্যক H-পরমাণু 14.7 gCr 14.7 \\mathrm{~g} \\mathrm{Cr} 14.7 gCr পরমাণু ≡1.703×1023 \\equiv 1.703 \\times 10^{23} ≡1.703×1023 সংখ্যক Cr-পরমাণু 2.0 gHe 2.0 \\mathrm{~g} \\mathrm{He} 2.0 gHe পরমাণু ≡3.0115×1023 \\equiv 3.0115 \\times 10^{23} ≡3.0115×1023 সংখ্যক He-পরমাণু 7.0 g N 7.0 \\mathrm{~g} \\mathrm{~N} 7.0 g N পরমাণু ≡3.0115×1023 \\equiv 3.0115 \\times 10^{23} ≡3.0115×1023 সংখ্যক N-পরমাণু",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -69,7 +69,7 @@
       "d": "1"
     },
     "correctAnswer": "b",
-    "explanation": "আদর্শ তাপমাত্রা ও চাপে (মোল গ্যাসের একক আয়ততনে অণুর সংখ্যা অ্যাভোগাড্রো সংখ্যার সমান, মানে প্রায় 6.022\\times 10^{23} 6.022টি।",
+    "explanation": "আদর্শ তাপমাত্রা ও চাপে (Standard Temperature and Pressure - STP) 1 মোল গ্যাসের একক আয়ততনে অণুর সংখ্যা অ্যাভোগাড্রো সংখ্যার সমান, মানে প্রায় 6.022×1023 6.022 \\times 10^{23} 6.022×1023 টি।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -89,7 +89,7 @@
       "d": "None of these"
     },
     "correctAnswer": "c",
-    "explanation": "C +O2\\mathrm{O}_{2} \\rightarrow \\mathrm{CO}_{2} +O2\\mathrm{~g} 22.4 \\mathrm{~L}(\\mathrm{STP} 12 g22.4 L(STP তে )\\therefore 1.5 \\mathrm{~g} )কার্বন দহনে উৎপন্ন \\mathrm{CO}_{2}=\\frac{1.5}{12} \\times 22.4 \\mathrm{~L}=2.8 \\mathrm{~L} CO2=121.5",
+    "explanation": "C +O2→CO2 +\\mathrm{O}_{2} \\rightarrow \\mathrm{CO}_{2} +O2→CO2 12 g22.4 L(STP 12 \\mathrm{~g} 22.4 \\mathrm{~L}(\\mathrm{STP} 12 g22.4 L(STP তে )∴1.5 g ) \\therefore 1.5 \\mathrm{~g} )∴1.5 g কার্বন দহনে উৎপন্ন CO2=1.512×22.4 L=2.8 L \\mathrm{CO}_{2}=\\frac{1.5}{12} \\times 22.4 \\mathrm{~L}=2.8 \\mathrm{~L} CO2=121.5×22.4 L=2.8 L",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "1.5 g কার্বন কে বাতাসে দহন করিলে উৎপন্ন CO2 এর আয়তন প্রমাণ অবস্থায় কত?",
-    "explanationLatex": "C +O2\\mathrm{O}_{2} \\rightarrow \\mathrm{CO}_{2} +O2\\mathrm{~g} 22.4 \\mathrm{~L}(\\mathrm{STP} 12 g22.4 L(STP তে )\\therefore 1.5 \\mathrm{~g} )কার্বন দহনে উৎপন্ন \\times 22.4 L=2.8 L \\mathrm{CO}_{2}=\\frac{1.5}{12} \\times 22.4 \\mathrm{~L}=2.8 \\mathrm{~L} CO2=121.5\\ \\times 22.4 L=2.8 L"
+    "explanationLatex": "$C +O2→CO2 +\\mathrm{O}_{2} \\rightarrow \\mathrm{CO}_{2} +O2→CO2 12 g22.4 L(STP 12 \\mathrm{~g} 22.4 \\mathrm{~L}(\\mathrm{STP} 12 g22.4 L(STP তে )∴1.5 g ) \\therefore 1.5 \\mathrm{~g} )∴1.5 g কার্বন দহনে উৎপন্ন CO2=1.512\\ \\times 22.4 L=2.8 L \\mathrm{CO}_{2}=\\frac{1.5}{12} \\times 22.4 \\mathrm{~L}=2.8 \\mathrm{~L} CO2=121.5\\ \\times 22.4 L=2.8 L$"
   },
   {
     "id": 6,
@@ -109,7 +109,7 @@
       "d": "C8H16N2O2"
     },
     "correctAnswer": "c",
-    "explanation": "=(\\left(C_{4} \\mathrm{H}_{8} \\mathrm{~N}_{2} \\mathrm{O}\\right)_{n} =(C4H8 N2O)n ∴\\therefore\\times 4+8 \\times 1+14 \\times 2+16)=100 \\times 2 n(12\\begin{array}{c}\\Rightarrow n \\times 100=200 \\\\ \\Rightarrow n=\\frac{200}{100}=2 \\\\ \\therefore n=2\\end{array} আনবিক সংকেত: \\mathrm{C}_{8} \\mathrm{H}_{16} \\mathrm{~N}_{4} \\mathrm{O}_{2} C8H16 N4O2",
+    "explanation": "=(C4H8 N2O)n =\\left(C_{4} \\mathrm{H}_{8} \\mathrm{~N}_{2} \\mathrm{O}\\right)_{n} =(C4H8 N2O)n ∴\\therefore∴ n(12×4+8×1+14×2+16)=100×2 n(12 \\times 4+8 \\times 1+14 \\times 2+16)=100 \\times 2 n(12×4+8×1+14×2+16)=100×2 ⇒n×100=200⇒n=200100=2∴n=2 \\begin{array}{c}\\Rightarrow n \\times 100=200 \\\\ \\Rightarrow n=\\frac{200}{100}=2 \\\\ \\therefore n=2\\end{array} ⇒n×100=200⇒n=100200=2∴n=2 আনবিক সংকেত: C8H16 N4O2 \\mathrm{C}_{8} \\mathrm{H}_{16} \\mathrm{~N}_{4} \\mathrm{O}_{2} C8H16 N4O2",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -117,7 +117,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি যৌগের স্থুল সংকেত C4H8N2O এর বাষ্প ঘনত্ব 100 হলে যৌগটির আণবিক সংকেত কোনটি হবে ?",
-    "explanationLatex": "=(\\left(C_{4} \\mathrm{H}_{8} \\mathrm{~N}_{2} \\mathrm{O}\\right)_{n} =(C4H8 N2O)n ∴\\therefore\\times 4+8\\ \\times 1+14\\ \\times 2+16)=100\\ \\times 2 n(12 \\times 4+8 \\times 1+14 \\times 2+16)=100 \\times 2 n(12\\ \\times 4+8\\ \\times 1+14\\ \\times 2+16)=100\\ \\times 2 \\times 100=200\\begin{array}{c}\\Rightarrow n \\times 100=200 \\\\ \\Rightarrow n=\\frac{200}{100}=2 \\\\ \\therefore n=2\\end{array} \\times 100=200আনবিক সংকেত: \\mathrm{C}_{8} \\mathrm{H}_{16} \\mathrm{~N}_{4} \\mathrm{O}_{2} C8H16 N4O2"
+    "explanationLatex": "$=(C4H8 N2O)n =\\left(C_{4} \\mathrm{H}_{8} \\mathrm{~N}_{2} \\mathrm{O}\\right)_{n} =(C4H8 N2O)n ∴\\therefore∴ n(12\\ \\times 4+8\\ \\times 1+14\\ \\times 2+16)=100\\ \\times 2 n(12 \\times 4+8 \\times 1+14 \\times 2+16)=100 \\times 2 n(12\\ \\times 4+8\\ \\times 1+14\\ \\times 2+16)=100\\ \\times 2 ⇒n\\ \\times 100=200⇒n=200100=2∴n=2 \\begin{array}{c}\\Rightarrow n \\times 100=200 \\\\ \\Rightarrow n=\\frac{200}{100}=2 \\\\ \\therefore n=2\\end{array} ⇒n\\ \\times 100=200⇒n=100200=2∴n=2 আনবিক সংকেত: C8H16 N4O2 \\mathrm{C}_{8} \\mathrm{H}_{16} \\mathrm{~N}_{4} \\mathrm{O}_{2} C8H16 N4O2$"
   },
   {
     "id": 7,
@@ -129,7 +129,7 @@
       "d": "4.5%"
     },
     "correctAnswer": "c",
-    "explanation": "সালফার এর পরিমাণ =32\\frac{32 \\times 0.1167}{137+32+64}=0.016 \\mathrm{~g} \\quad \\therefore =137+32+6432শতকরা পরিমাণ =(\\left(\\frac{0.016}{0.20} \\times 100\\right) \\%=8.01 \\% =(0.200.016",
+    "explanation": "সালফার এর পরিমাণ =32×0.1167137+32+64=0.016 g∴ =\\frac{32 \\times 0.1167}{137+32+64}=0.016 \\mathrm{~g} \\quad \\therefore =137+32+6432×0.1167=0.016 g∴ শতকরা পরিমাণ =(0.0160.20×100)%=8.01% =\\left(\\frac{0.016}{0.20} \\times 100\\right) \\%=8.01 \\% =(0.200.016×100)%=8.01%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -137,7 +137,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "0.20 gm জৈব যৌগকে ক্যাসিয়াস প্রণালীতে বিশ্লেষণ করে 0.1167 gm BaSO4 পাওয়া গেল। সালফারের শতকরা হার নির্ণয় কর।",
-    "explanationLatex": "সালফার এর পরিমাণ =32\\ \\times 0.1167137+32+64=0.016 g\\frac{32 \\times 0.1167}{137+32+64}=0.016 \\mathrm{~g} \\quad \\therefore =137+32+6432\\ \\times 0.1167=0.016 g∴ শতকরা পরিমাণ =(\\times 100)%=8.01% =\\left(\\frac{0.016}{0.20} \\times 100\\right) \\%=8.01 \\% =(0.200.016\\ \\times 100)%=8.01%"
+    "explanationLatex": "$সালফার এর পরিমাণ =32\\ \\times 0.1167137+32+64=0.016 g∴ =\\frac{32 \\times 0.1167}{137+32+64}=0.016 \\mathrm{~g} \\quad \\therefore =137+32+6432\\ \\times 0.1167=0.016 g∴ শতকরা পরিমাণ =(0.0160.20\\ \\times 100)%=8.01% =\\left(\\frac{0.016}{0.20} \\times 100\\right) \\%=8.01 \\% =(0.200.016\\ \\times 100)%=8.01%$"
   },
   {
     "id": 8,
@@ -149,7 +149,7 @@
       "d": "49.09"
     },
     "correctAnswer": "a",
-    "explanation": "C এর পরিমাণ =1244\\frac{12}{44} \\times .9 \\mathrm{gm}=.245 \\mathrm{gm} =4412এর পরিমাণ =218এর পরিমাণ =\\begin{array}{l} \\mathrm{H}_{2} \\text { এর পরিমাণ }=\\frac{2}{18} \\times 0.3 \\mathrm{gm}=0.033 \\mathrm{gm} \\\\ \\mathrm{O} \\text { এর পরিমাণ }=\\frac{0.5-(0.245+0.033)}{0.5} \\times 100 \\%=44.4 \\% \\end{array} H2 এর পরিমাণ =182এর পরিমাণ =",
+    "explanation": "C এর পরিমাণ =1244×.9gm=.245gm =\\frac{12}{44} \\times .9 \\mathrm{gm}=.245 \\mathrm{gm} =4412×.9gm=.245gm H2 এর পরিমাণ =218×0.3gm=0.033gmO এর পরিমাণ =0.5−(0.245+0.033)0.5×100%=44.4% \\begin{array}{l} \\mathrm{H}_{2} \\text { এর পরিমাণ }=\\frac{2}{18} \\times 0.3 \\mathrm{gm}=0.033 \\mathrm{gm} \\\\ \\mathrm{O} \\text { এর পরিমাণ }=\\frac{0.5-(0.245+0.033)}{0.5} \\times 100 \\%=44.4 \\% \\end{array} H2 এর পরিমাণ =182×0.3gm=0.033gmO এর পরিমাণ =0.50.5−(0.245+0.033)×100%=44.4%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -189,7 +189,7 @@
       "d": "99.60"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{~cm}^{3} 100 cm3 দ্রবণের ভর আবার, \\mathrm{~W}=\\mathrm{CMV} \\Rightarrow 1000 \\times \\mathrm{W}=.1 \\times 40 \\times 100 \\Rightarrow \\mathrm{W}=.4 \\mathrm{gm} 1000 W=CMVঅর্থাৎ তাতে .4gm দ্রব আছে। ∴ \\therefore ∴ পানির শতকরা পরিমাণ =\\frac{110-.4}{110} \\times 100 \\%=99.64 \\% =110110−.4",
+    "explanation": "100 cm3 100 \\mathrm{~cm}^{3} 100 cm3 দ্রবণের ভর 110gm আবার, 1000 W=CMV⇒1000×W=.1×40×100⇒W=.4gm 1000 \\mathrm{~W}=\\mathrm{CMV} \\Rightarrow 1000 \\times \\mathrm{W}=.1 \\times 40 \\times 100 \\Rightarrow \\mathrm{W}=.4 \\mathrm{gm} 1000 W=CMV⇒1000×W=.1×40×100⇒W=.4gm অর্থাৎ তাতে .4gm দ্রব আছে। ∴ \\therefore ∴ পানির শতকরা পরিমাণ =110−.4110×100%=99.64% =\\frac{110-.4}{110} \\times 100 \\%=99.64 \\% =110110−.4×100%=99.64%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -197,7 +197,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$NaOH এর জলীয় দ্রবণের ঘনত্ব 1.10 g.cm^{-3} । দ্রবণটির ঘনমাত্রা 0.1M হলে দ্রবণটিতে শতকরা কত ভাগ ( ভরে ) পানি আছে?$",
-    "explanationLatex": "\\mathrm{~cm}^{3} 100 cm3 দ্রবণের ভর আবার, \\times W=.1\\ \\times 40\\ \\times 100\\mathrm{~W}=\\mathrm{CMV} \\Rightarrow 1000 \\times \\mathrm{W}=.1 \\times 40 \\times 100 \\Rightarrow \\mathrm{W}=.4 \\mathrm{gm} 1000 W=CMV\\times W=.1\\ \\times 40\\ \\times 100অর্থাৎ তাতে .4gm দ্রব আছে। ∴ \\therefore ∴ পানির শতকরা পরিমাণ =\\times 100%=99.64% =\\frac{110-.4}{110} \\times 100 \\%=99.64 \\% =110110−.4\\ \\times 100%=99.64%"
+    "explanationLatex": "$100 cm3 100 \\mathrm{~cm}^{3} 100 cm3 দ্রবণের ভর 110gm আবার, 1000 W=CMV⇒1000\\ \\times W=.1\\ \\times 40\\ \\times 100⇒W=.4gm 1000 \\mathrm{~W}=\\mathrm{CMV} \\Rightarrow 1000 \\times \\mathrm{W}=.1 \\times 40 \\times 100 \\Rightarrow \\mathrm{W}=.4 \\mathrm{gm} 1000 W=CMV⇒1000\\ \\times W=.1\\ \\times 40\\ \\times 100⇒W=.4gm অর্থাৎ তাতে .4gm দ্রব আছে। ∴ \\therefore ∴ পানির শতকরা পরিমাণ =110−.4110\\ \\times 100%=99.64% =\\frac{110-.4}{110} \\times 100 \\%=99.64 \\% =110110−.4\\ \\times 100%=99.64%$"
   },
   {
     "id": 11,
@@ -209,7 +209,7 @@
       "d": "None of these"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{dm}^{3} 1dm3 সামুদ্রিক পানির ভর =\\mathrm{gm} \\quad \\therefore \\% =1030gmলবণ =\\frac{36.4}{1030} \\times 100=3.534 \\% =103036.4",
+    "explanation": "1dm3 1 \\mathrm{dm}^{3} 1dm3 সামুদ্রিক পানির ভর =1030gm∴% =1030 \\mathrm{gm} \\quad \\therefore \\% =1030gm∴% লবণ =36.41030×100=3.534% =\\frac{36.4}{1030} \\times 100=3.534 \\% =103036.4×100=3.534%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সামুদ্রিক পানির আপেক্ষিক গুরুত্ব 1.03। এর 1.0 dm³ পানি নিয়ে বাষ্পীভূত করে 36.4 gm শুষ্ক লবণ পাওয়া যায়। সামুদ্রিক পানিতে কঠিন বস্তুর শতকরা পরিমাণ নির্ণয় কর।",
-    "explanationLatex": "\\mathrm{dm}^{3} 1dm3 সামুদ্রিক পানির ভর =\\mathrm{gm} \\quad \\therefore \\% =1030gmলবণ =\\times 100=3.534% =\\frac{36.4}{1030} \\times 100=3.534 \\% =103036.4\\ \\times 100=3.534%"
+    "explanationLatex": "$1dm3 1 \\mathrm{dm}^{3} 1dm3 সামুদ্রিক পানির ভর =1030gm∴% =1030 \\mathrm{gm} \\quad \\therefore \\% =1030gm∴% লবণ =36.41030\\ \\times 100=3.534% =\\frac{36.4}{1030} \\times 100=3.534 \\% =103036.4\\ \\times 100=3.534%$"
   },
   {
     "id": 12,
@@ -229,7 +229,7 @@
       "d": "6.02×1029"
     },
     "correctAnswer": "a",
-    "explanation": "অ্যাভোগ্রেডো সংখ্যা N দ্বারা প্রকাশ করা হয়। অ্যাভোগ্রেডো সংখ্যার মান, \\times 10^{23}. N=6.02",
+    "explanation": "অ্যাভোগ্রেডো সংখ্যা N দ্বারা প্রকাশ করা হয়। অ্যাভোগ্রেডো সংখ্যার মান, N=6.02×1023. N=6.02 \\times 10^{23}. N=6.02×1023.",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -249,7 +249,7 @@
       "d": "5.04 x 10-6 mg"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{n}=\\frac{\\omega}{\\mathrm{M}}=\\frac{10 \\mathrm{mg}}{14}=7.1428 \\times 10^{-4} \\mathrm{~mol} n=Mω=1410mg=7.1428নিউট্রেন \\rightarrow 14-6=8 \\therefore ∴ নিউট্রনের ভর =8\\times 7.1428 \\times 10^{-4} \\times 1.675 \\times 10^{-27} \\times \\mathrm{N}_{\\mathrm{A}}=5.76 \\times 10^{-7} \\mathrm{~kg} =8",
+    "explanation": "n=ωM=10mg14=7.1428×10−4 mol \\mathrm{n}=\\frac{\\omega}{\\mathrm{M}}=\\frac{10 \\mathrm{mg}}{14}=7.1428 \\times 10^{-4} \\mathrm{~mol} n=Mω=1410mg=7.1428×10−4 mol; নিউট্রেন →14−6=8 \\rightarrow 14-6=8 →14−6=8 ∴ \\therefore ∴ নিউট্রনের ভর =8×7.1428×10−4×1.675×10−27×NA=5.76×10−7 kg =8 \\times 7.1428 \\times 10^{-4} \\times 1.675 \\times 10^{-27} \\times \\mathrm{N}_{\\mathrm{A}}=5.76 \\times 10^{-7} \\mathrm{~kg} =8×7.1428×10−4×1.675×10−27×NA=5.76×10−7 kg",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -257,7 +257,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "10 mg14C মৌল নিউট্রনের ভর কত?",
-    "explanationLatex": "\\times 10−4 mol \\mathrm{n}=\\frac{\\omega}{\\mathrm{M}}=\\frac{10 \\mathrm{mg}}{14}=7.1428 \\times 10^{-4} \\mathrm{~mol} n=Mω=1410mg=7.1428\\ \\times 10−4 mol; নিউট্রেন \\rightarrow 14-6=8 \\therefore ∴ নিউট্রনের ভর =8\\ \\times 7.1428\\ \\times 10−4\\ \\times 1.675\\ \\times 10−27\\ \\times NA=5.76\\ \\times 10−7 kg =8 \\times 7.1428 \\times 10^{-4} \\times 1.675 \\times 10^{-27} \\times \\mathrm{N}_{\\mathrm{A}}=5.76 \\times 10^{-7} \\mathrm{~kg} =8\\ \\times 7.1428\\ \\times 10−4\\ \\times 1.675\\ \\times 10−27\\ \\times NA=5.76\\ \\times 10−7 kg"
+    "explanationLatex": "$n=ωM=10mg14=7.1428\\ \\times 10−4 mol \\mathrm{n}=\\frac{\\omega}{\\mathrm{M}}=\\frac{10 \\mathrm{mg}}{14}=7.1428 \\times 10^{-4} \\mathrm{~mol} n=Mω=1410mg=7.1428\\ \\times 10−4 mol; নিউট্রেন →14−6=8 \\rightarrow 14-6=8 →14−6=8 ∴ \\therefore ∴ নিউট্রনের ভর =8\\ \\times 7.1428\\ \\times 10−4\\ \\times 1.675\\ \\times 10−27\\ \\times NA=5.76\\ \\times 10−7 kg =8 \\times 7.1428 \\times 10^{-4} \\times 1.675 \\times 10^{-27} \\times \\mathrm{N}_{\\mathrm{A}}=5.76 \\times 10^{-7} \\mathrm{~kg} =8\\ \\times 7.1428\\ \\times 10−4\\ \\times 1.675\\ \\times 10−27\\ \\times NA=5.76\\ \\times 10−7 kg$"
   },
   {
     "id": 14,
@@ -269,7 +269,7 @@
       "d": "20ml"
     },
     "correctAnswer": "d",
-    "explanation": "\\begin{aligned} \\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+2 \\mathrm{NaHCO}_{3} & \\rightarrow \\mathrm{Na}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+ \\\\ & 2 \\mathrm{CO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}\\end{aligned} H2C2O4+2NaHCO3\\begin{array}{c}2 \\mathrm{M}_{1} \\mathrm{~V}_{1}=\\mathrm{M}_{2} \\mathrm{~V}_{2} \\\\ \\Rightarrow \\mathrm{V}_{2}=\\frac{2 \\mathrm{M}_{1} \\mathrm{~V}_{1}}{\\mathrm{M}_{2}}=\\frac{2 \\times 0.05 \\times 10}{0.05}=20 \\mathrm{~mL}\\end{array} 2M1 V1=M2 V2",
+    "explanation": "H2C2O4+2NaHCO3→Na2C2O4+2CO2+2H2O \\begin{aligned} \\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+2 \\mathrm{NaHCO}_{3} & \\rightarrow \\mathrm{Na}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+ \\\\ & 2 \\mathrm{CO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}\\end{aligned} H2C2O4+2NaHCO3→Na2C2O4+2CO2+2H2O 2M1 V1=M2 V2⇒V2=2M1 V1M2=2×0.05×100.05=20 mL \\begin{array}{c}2 \\mathrm{M}_{1} \\mathrm{~V}_{1}=\\mathrm{M}_{2} \\mathrm{~V}_{2} \\\\ \\Rightarrow \\mathrm{V}_{2}=\\frac{2 \\mathrm{M}_{1} \\mathrm{~V}_{1}}{\\mathrm{M}_{2}}=\\frac{2 \\times 0.05 \\times 10}{0.05}=20 \\mathrm{~mL}\\end{array} 2M1 V1=M2 V2⇒V2=M22M1 V1=0.052×0.05×10=20 mL",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -277,7 +277,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$0.05 molL^{-1} ঘনমাত্রার 10mL অক্সালিক এসিড দ্রবণকে প্রশমিত করার জন্য 0.05 molL^{-1} ঘনমাত্রার যে আয়তন NaHCO3 দ্রবণ প্রয়োজন তা হলো-$",
-    "explanationLatex": "\\begin{aligned} \\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+2 \\mathrm{NaHCO}_{3} & \\rightarrow \\mathrm{Na}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+ \\\\ & 2 \\mathrm{CO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}\\end{aligned} H2C2O4+2NaHCO3\\times 0.05\\ \\times 100.05=20 mL \\begin{array}{c}2 \\mathrm{M}_{1} \\mathrm{~V}_{1}=\\mathrm{M}_{2} \\mathrm{~V}_{2} \\\\ \\Rightarrow \\mathrm{V}_{2}=\\frac{2 \\mathrm{M}_{1} \\mathrm{~V}_{1}}{\\mathrm{M}_{2}}=\\frac{2 \\times 0.05 \\times 10}{0.05}=20 \\mathrm{~mL}\\end{array} 2M1 V1=M2 V2\\times 0.05\\ \\times 10=20 mL"
+    "explanationLatex": "$H2C2O4+2NaHCO3→Na2C2O4+2CO2+2H2O \\begin{aligned} \\mathrm{H}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+2 \\mathrm{NaHCO}_{3} & \\rightarrow \\mathrm{Na}_{2} \\mathrm{C}_{2} \\mathrm{O}_{4}+ \\\\ & 2 \\mathrm{CO}_{2}+2 \\mathrm{H}_{2} \\mathrm{O}\\end{aligned} H2C2O4+2NaHCO3→Na2C2O4+2CO2+2H2O 2M1 V1=M2 V2⇒V2=2M1 V1M2=2\\ \\times 0.05\\ \\times 100.05=20 mL \\begin{array}{c}2 \\mathrm{M}_{1} \\mathrm{~V}_{1}=\\mathrm{M}_{2} \\mathrm{~V}_{2} \\\\ \\Rightarrow \\mathrm{V}_{2}=\\frac{2 \\mathrm{M}_{1} \\mathrm{~V}_{1}}{\\mathrm{M}_{2}}=\\frac{2 \\times 0.05 \\times 10}{0.05}=20 \\mathrm{~mL}\\end{array} 2M1 V1=M2 V2⇒V2=M22M1 V1=0.052\\ \\times 0.05\\ \\times 10=20 mL$"
   },
   {
     "id": 15,
@@ -289,7 +289,7 @@
       "d": "68.04%"
     },
     "correctAnswer": "c",
-    "explanation": "CO2 \\mathrm{CO}_{2} CO2 এ C -এর পরিমাণ =1244\\frac{12}{44} \\times 0.361 \\mathrm{~g} =4412\\mathrm{H}_{2} \\mathrm{O} H2O এ H \\mathrm{H} H-এর পরিমাণ =218\\frac{2}{18} \\times 0.147 \\mathrm{~g} =182\\therefore 0.202 \\mathrm{~g} এ O-এর পরিমাণ= .\\left(\\frac{12}{44} \\times 0.361+\\frac{2}{18} \\times 0.147\\right)=0.087 \\mathrm{~g} .202−(4412\\therefore ∴ শতকর পরিমাণ =\\frac{0.087}{0.202} \\times 100=43.18 \\% =0.2020.087",
+    "explanation": "CO2 \\mathrm{CO}_{2} CO2 এ C -এর পরিমাণ =1244×0.361 g =\\frac{12}{44} \\times 0.361 \\mathrm{~g} =4412×0.361 g H2O \\mathrm{H}_{2} \\mathrm{O} H2O এ H \\mathrm{H} H-এর পরিমাণ =218×0.147 g =\\frac{2}{18} \\times 0.147 \\mathrm{~g} =182×0.147 g ∴0.202 g \\therefore 0.202 \\mathrm{~g} ∴0.202 g এ O-এর পরিমাণ= .202−(1244×0.361+218×0.147)=0.087 g .202-\\left(\\frac{12}{44} \\times 0.361+\\frac{2}{18} \\times 0.147\\right)=0.087 \\mathrm{~g} .202−(4412×0.361+182×0.147)=0.087 g ∴ \\therefore ∴ শতকর পরিমাণ =0.0870.202×100=43.18% =\\frac{0.087}{0.202} \\times 100=43.18 \\% =0.2020.087×100=43.18%.",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -297,7 +297,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোন একটি বস্তুর 0.202 g পরিমাণকে পোড়ালে 0.361 g CO2 এবং 0.147H2O উৎপন্ন হয়। অক্সিজেনের শতকরা পরিমাণ নির্ণয় কর।",
-    "explanationLatex": "CO2 \\mathrm{CO}_{2} CO2 এ C -এর পরিমাণ =\\times 0.361 g =\\frac{12}{44} \\times 0.361 \\mathrm{~g} =4412\\ \\times 0.361 g H2O \\mathrm{H}_{2} \\mathrm{O} H2O এ H \\mathrm{H} H-এর পরিমাণ =218\\ \\times 0.147 g =\\frac{2}{18} \\times 0.147 \\mathrm{~g} =182\\ \\times 0.147 g \\therefore 0.202 \\mathrm{~g} এ O-এর পরিমাণ= .\\times 0.361+218\\ \\times 0.147)=0.087 g .202-\\left(\\frac{12}{44} \\times 0.361+\\frac{2}{18} \\times 0.147\\right)=0.087 \\mathrm{~g} .202−(4412\\ \\times 0.361+182\\ \\times 0.147)=0.087 g ∴ \\therefore ∴ শতকর পরিমাণ =\\times 100=43.18% =\\frac{0.087}{0.202} \\times 100=43.18 \\% =0.2020.087\\ \\times 100=43.18%."
+    "explanationLatex": "$CO2 \\mathrm{CO}_{2} CO2 এ C -এর পরিমাণ =1244\\ \\times 0.361 g =\\frac{12}{44} \\times 0.361 \\mathrm{~g} =4412\\ \\times 0.361 g H2O \\mathrm{H}_{2} \\mathrm{O} H2O এ H \\mathrm{H} H-এর পরিমাণ =218\\ \\times 0.147 g =\\frac{2}{18} \\times 0.147 \\mathrm{~g} =182\\ \\times 0.147 g ∴0.202 g \\therefore 0.202 \\mathrm{~g} ∴0.202 g এ O-এর পরিমাণ= .202−(1244\\ \\times 0.361+218\\ \\times 0.147)=0.087 g .202-\\left(\\frac{12}{44} \\times 0.361+\\frac{2}{18} \\times 0.147\\right)=0.087 \\mathrm{~g} .202−(4412\\ \\times 0.361+182\\ \\times 0.147)=0.087 g ∴ \\therefore ∴ শতকর পরিমাণ =0.0870.202\\ \\times 100=43.18% =\\frac{0.087}{0.202} \\times 100=43.18 \\% =0.2020.087\\ \\times 100=43.18%.$"
   },
   {
     "id": 16,
@@ -349,7 +349,7 @@
       "d": "1.8 g"
     },
     "correctAnswer": "a",
-    "explanation": "\\frac{\\text { CVM }}{1000} ; M=180 \\Rightarrow W=1.08 \\mathrm{~g} =1000 CVM ;M=180",
+    "explanation": "W = CVM 1000;M=180⇒W=1.08 g =\\frac{\\text { CVM }}{1000} ; M=180 \\Rightarrow W=1.08 \\mathrm{~g} =1000 CVM ;M=180⇒W=1.08 g",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -357,7 +357,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "0.01 M 600mL এ C6H12O6 কত গ্রাম থাকে?",
-    "explanationLatex": "\\frac{\\text { CVM }}{1000} ; M=180 \\Rightarrow W=1.08 \\mathrm{~g} =1000 CVM ;M=180"
+    "explanationLatex": "$W = CVM 1000;M=180⇒W=1.08 g =\\frac{\\text { CVM }}{1000} ; M=180 \\Rightarrow W=1.08 \\mathrm{~g} =1000 CVM ;M=180⇒W=1.08 g$"
   },
   {
     "id": 19,
@@ -389,7 +389,7 @@
       "d": "None"
     },
     "correctAnswer": "d",
-    "explanation": "আণবিক ভর বাষ্প ঘনত্বের দ্বিগুন। ∴ \\therefore ∴ যার আণবিক ভর 30\\times 2=60 30সেটিই উত্তর। কিন্তু কারো আণবিক ভরই 60নয়।",
+    "explanation": "আণবিক ভর বাষ্প ঘনত্বের দ্বিগুন। ∴ \\therefore ∴ যার আণবিক ভর 30×2=60 30 \\times 2=60 30×2=60 সেটিই উত্তর। কিন্তু কারো আণবিক ভরই 60নয়।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -409,7 +409,7 @@
       "d": "560 𝑔 560g"
     },
     "correctAnswer": "c",
-    "explanation": "ρ=ωV\\begin{aligned} \\rho & =\\frac{\\omega}{V} \\\\ \\Rightarrow \\omega & =\\rho V \\\\ & =1.8 \\times 200 \\\\ & =360 \\mathrm{~g}\\end{aligned} ρ",
+    "explanation": "ρ=ωV⇒ω=ρV=1.8×200=360 g \\begin{aligned} \\rho & =\\frac{\\omega}{V} \\\\ \\Rightarrow \\omega & =\\rho V \\\\ & =1.8 \\times 200 \\\\ & =360 \\mathrm{~g}\\end{aligned} ρ⇒ω=Vω=ρV=1.8×200=360 g",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -417,7 +417,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "1.8 আপেক্ষিক গুরুত্ব বিশিষ্ট 200 মি.লি. সালফিউরিক এসিডের ভর কত?",
-    "explanationLatex": "ρ=ωV\\times 200=360 g \\begin{aligned} \\rho & =\\frac{\\omega}{V} \\\\ \\Rightarrow \\omega & =\\rho V \\\\ & =1.8 \\times 200 \\\\ & =360 \\mathrm{~g}\\end{aligned} ρ\\times 200=360 g"
+    "explanationLatex": "$ρ=ωV⇒ω=ρV=1.8\\ \\times 200=360 g \\begin{aligned} \\rho & =\\frac{\\omega}{V} \\\\ \\Rightarrow \\omega & =\\rho V \\\\ & =1.8 \\times 200 \\\\ & =360 \\mathrm{~g}\\end{aligned} ρ⇒ω=Vω=ρV=1.8\\ \\times 200=360 g$"
   },
   {
     "id": 22,
@@ -429,7 +429,7 @@
       "d": "50.12"
     },
     "correctAnswer": "c",
-    "explanation": "\\frac{32}{233} \\times \\frac{.5825}{0.2175} \\times 100 \\%=36.78 \\% S(%)=23332",
+    "explanation": "S(%)=32233×.58250.2175×100%=36.78% S(\\%)=\\frac{32}{233} \\times \\frac{.5825}{0.2175} \\times 100 \\%=36.78 \\% S(%)=23332×0.2175.5825×100%=36.78%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -449,7 +449,7 @@
       "d": "10"
     },
     "correctAnswer": "c",
-    "explanation": "\\text {initial }}=50 \\mathrm{~cm}^{3} ; S_{\\text {initial }}=0.15 \\mathrm{~m} Vinitial =50 cm3;Sinitial =0.15 m Vfinal =? Sfinal =0.1 m\\begin{array}{l} \\mathrm{V}_{\\text {final }}=? \\mathrm{~S}_{\\text {final }}=0.1 \\mathrm{~m} \\\\ \\therefore \\mathrm{v}_{\\text {initial }} \\mathrm{S}_{\\text {initial }}=\\mathrm{V}_{\\text {final }} \\mathrm{S}_{\\text {final }} \\Rightarrow \\mathrm{V}_{\\text {final }}=\\frac{50 \\times 0.15}{0.1}=75 \\mathrm{~cm}^{3} \\therefore \\text { Added water }=(75-50) \\mathrm{cm}^{3}=25 \\mathrm{~cm}^{3} \\end{array} Vfinal =? Sfinal =0.1 m",
+    "explanation": "Vinitial =50 cm3;Sinitial =0.15 m V_{\\text {initial }}=50 \\mathrm{~cm}^{3} ; S_{\\text {initial }}=0.15 \\mathrm{~m} Vinitial =50 cm3;Sinitial =0.15 m Vfinal =? Sfinal =0.1 m∴vinitial Sinitial =Vfinal Sfinal ⇒Vfinal =50×0.150.1=75 cm3∴ Added water =(75−50)cm3=25 cm3 \\begin{array}{l} \\mathrm{V}_{\\text {final }}=? \\mathrm{~S}_{\\text {final }}=0.1 \\mathrm{~m} \\\\ \\therefore \\mathrm{v}_{\\text {initial }} \\mathrm{S}_{\\text {initial }}=\\mathrm{V}_{\\text {final }} \\mathrm{S}_{\\text {final }} \\Rightarrow \\mathrm{V}_{\\text {final }}=\\frac{50 \\times 0.15}{0.1}=75 \\mathrm{~cm}^{3} \\therefore \\text { Added water }=(75-50) \\mathrm{cm}^{3}=25 \\mathrm{~cm}^{3} \\end{array} Vfinal =? Sfinal =0.1 m∴vinitial Sinitial =Vfinal Sfinal ⇒Vfinal =0.150×0.15=75 cm3∴ Added water =(75−50)cm3=25 cm3",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "50cm3 0.15M দ্রবণকে এর ডেসিমোলার দ্রবণে রূপান্তরিত করতে কত cm3 পানি যোগ করতে হবে?",
-    "explanationLatex": "\\text {initial }}=50 \\mathrm{~cm}^{3} ; S_{\\text {initial }}=0.15 \\mathrm{~m} Vinitial =50 cm3;Sinitial =0.15 m Vfinal =? Sfinal =0.1 m\\times 0.150.1=75 cm3\\begin{array}{l} \\mathrm{V}_{\\text {final }}=? \\mathrm{~S}_{\\text {final }}=0.1 \\mathrm{~m} \\\\ \\therefore \\mathrm{v}_{\\text {initial }} \\mathrm{S}_{\\text {initial }}=\\mathrm{V}_{\\text {final }} \\mathrm{S}_{\\text {final }} \\Rightarrow \\mathrm{V}_{\\text {final }}=\\frac{50 \\times 0.15}{0.1}=75 \\mathrm{~cm}^{3} \\therefore \\text { Added water }=(75-50) \\mathrm{cm}^{3}=25 \\mathrm{~cm}^{3} \\end{array} Vfinal =? Sfinal =0.1 m\\times 0.15=75 cm3"
+    "explanationLatex": "$Vinitial =50 cm3;Sinitial =0.15 m V_{\\text {initial }}=50 \\mathrm{~cm}^{3} ; S_{\\text {initial }}=0.15 \\mathrm{~m} Vinitial =50 cm3;Sinitial =0.15 m Vfinal =? Sfinal =0.1 m∴vinitial Sinitial =Vfinal Sfinal ⇒Vfinal =50\\ \\times 0.150.1=75 cm3∴ Added water =(75−50)cm3=25 cm3 \\begin{array}{l} \\mathrm{V}_{\\text {final }}=? \\mathrm{~S}_{\\text {final }}=0.1 \\mathrm{~m} \\\\ \\therefore \\mathrm{v}_{\\text {initial }} \\mathrm{S}_{\\text {initial }}=\\mathrm{V}_{\\text {final }} \\mathrm{S}_{\\text {final }} \\Rightarrow \\mathrm{V}_{\\text {final }}=\\frac{50 \\times 0.15}{0.1}=75 \\mathrm{~cm}^{3} \\therefore \\text { Added water }=(75-50) \\mathrm{cm}^{3}=25 \\mathrm{~cm}^{3} \\end{array} Vfinal =? Sfinal =0.1 m∴vinitial Sinitial =Vfinal Sfinal ⇒Vfinal =0.150\\ \\times 0.15=75 cm3∴ Added water =(75−50)cm3=25 cm3$"
   },
   {
     "id": 24,
@@ -469,7 +469,7 @@
       "d": "𝐶 3 𝐻 6 𝐶 𝑙 3 C 3 H 6 Cl 3"
     },
     "correctAnswer": "b",
-    "explanation": "স্থুল সংকেত থেকে আমরা দেখতে পাই যে এটি কার্বন (C), হাইড্রোজেন (H), এবং ক্লোরিন (Cl) এর সমন্বয়ে গঠিত। প্রকৃত আণবিক সংকেত বের করতে আণবিক ওজনের সাথে উপাদানগুলির পারমাণবিক ওজনের যোগফল মিলিয়ে দেখতে হবে। এর পারমাণবিক ওজন = এর জন্য = 2 এবং এর জন্য = এর মোট ওজন = এর দ্বিগুণ করলে 49.5\\times 2 = 99 49.5তাহলে আণবিক সংকেত হবে, যা ওজনের সমান। অপশন অনুযায়ী সঠিক উত্তর কোনটি নেই। তবে দরকার হলে দেওয়া অপশনগুলোতে যদি ঠিক হয় সেটি হবে। কিন্তু এখানে এটা নেই। তাই এখানে সঠিক উত্তর দেওয়া সম্ভব নয়। বাকি যে অপশনগুলো আছে সেগুলো ভুল।",
+    "explanation": "স্থুল সংকেত CH2Cl CH_{2}Cl CH2Cl থেকে আমরা দেখতে পাই যে এটি কার্বন (C), হাইড্রোজেন (H), এবং ক্লোরিন (Cl) এর সমন্বয়ে গঠিত। প্রকৃত আণবিক সংকেত বের করতে আণবিক ওজনের সাথে উপাদানগুলির পারমাণবিক ওজনের যোগফল মিলিয়ে দেখতে হবে। C C C এর পারমাণবিক ওজন = 12, H2 H_{2} H2 এর জন্য = 2 এবং Cl Cl Cl এর জন্য = 35.5 CH2Cl CH_{2}Cl CH2Cl এর মোট ওজন = 12 + 2 + 35.5 = 49.5 এর দ্বিগুণ করলে 49.5×2=99 49.5 \\times 2 = 99 49.5×2=99 তাহলে আণবিক সংকেত C2H4Cl2 C_{2}H_{4}Cl_{2} C2H4Cl2 হবে, যা 99 99 99 ওজনের সমান। অপশন অনুযায়ী সঠিক উত্তর কোনটি নেই। তবে দরকার হলে দেওয়া অপশনগুলোতে যদি ঠিক হয় সেটি C2H4Cl2 C_{2}H_{4}Cl_{2} C2H4Cl2 হবে। কিন্তু এখানে এটা নেই। তাই এখানে সঠিক উত্তর দেওয়া সম্ভব নয়। বাকি যে অপশনগুলো আছে সেগুলো ভুল।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -509,7 +509,7 @@
       "d": "8.43gm"
     },
     "correctAnswer": "d",
-    "explanation": "\\begin{array}{c}\\mathrm{Na}_{2} \\mathrm{CO}_{3}+2 \\mathrm{HCl} \\rightarrow \\mathrm{NaCl}+\\mathrm{CO}_{2}+\\mathrm{H}_{2} \\mathrm{O} \\end{array} Na2CO3+2HCl\\begin{array}{l}106 \\mathrm{~g} \\longrightarrow 73 \\mathrm{~g} \\\\ 1 \\longrightarrow \\frac{73}{106} \\mathrm{~g} \\\\ 12.25 \\longrightarrow \\frac{73 \\times 12.25}{106} \\\\ =8.43 \\mathrm{~g} \\\\\\end{array} 106 g⟶73 g1⟶10673 g12.25⟶10673",
+    "explanation": "Na2CO3+2HCl→NaCl+CO2+H2O \\begin{array}{c}\\mathrm{Na}_{2} \\mathrm{CO}_{3}+2 \\mathrm{HCl} \\rightarrow \\mathrm{NaCl}+\\mathrm{CO}_{2}+\\mathrm{H}_{2} \\mathrm{O} \\end{array} Na2CO3+2HCl→NaCl+CO2+H2O 106g ~~~~~~~~~~~~~~ 73g 106 g⟶73 g1⟶73106 g12.25⟶73×12.25106=8.43 g \\begin{array}{l}106 \\mathrm{~g} \\longrightarrow 73 \\mathrm{~g} \\\\ 1 \\longrightarrow \\frac{73}{106} \\mathrm{~g} \\\\ 12.25 \\longrightarrow \\frac{73 \\times 12.25}{106} \\\\ =8.43 \\mathrm{~g} \\\\\\end{array} 106 g⟶73 g1⟶10673 g12.25⟶10673×12.25=8.43 g",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -517,7 +517,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "12.25gm Na2CO3 কে সম্পূর্ণরুপে প্রশমিত করতে কত গ্রাম HCl লাগবে?",
-    "explanationLatex": "\\begin{array}{c}\\mathrm{Na}_{2} \\mathrm{CO}_{3}+2 \\mathrm{HCl} \\rightarrow \\mathrm{NaCl}+\\mathrm{CO}_{2}+\\mathrm{H}_{2} \\mathrm{O} \\end{array} Na2CO3+2HCl\\times 12.25106=8.43 g \\begin{array}{l}106 \\mathrm{~g} \\longrightarrow 73 \\mathrm{~g} \\\\ 1 \\longrightarrow \\frac{73}{106} \\mathrm{~g} \\\\ 12.25 \\longrightarrow \\frac{73 \\times 12.25}{106} \\\\ =8.43 \\mathrm{~g} \\\\\\end{array} 106 g⟶73 g1⟶10673 g12.25⟶10673\\ \\times 12.25=8.43 g"
+    "explanationLatex": "$Na2CO3+2HCl→NaCl+CO2+H2O \\begin{array}{c}\\mathrm{Na}_{2} \\mathrm{CO}_{3}+2 \\mathrm{HCl} \\rightarrow \\mathrm{NaCl}+\\mathrm{CO}_{2}+\\mathrm{H}_{2} \\mathrm{O} \\end{array} Na2CO3+2HCl→NaCl+CO2+H2O 106g ~~~~~~~~~~~~~~ 73g 106 g⟶73 g1⟶73106 g12.25⟶73\\ \\times 12.25106=8.43 g \\begin{array}{l}106 \\mathrm{~g} \\longrightarrow 73 \\mathrm{~g} \\\\ 1 \\longrightarrow \\frac{73}{106} \\mathrm{~g} \\\\ 12.25 \\longrightarrow \\frac{73 \\times 12.25}{106} \\\\ =8.43 \\mathrm{~g} \\\\\\end{array} 106 g⟶73 g1⟶10673 g12.25⟶10673\\ \\times 12.25=8.43 g$"
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "3.023×1023"
     },
     "correctAnswer": "b",
-    "explanation": "- পানির আয়তন =\\mathrm{~mL} =90 mL - তাপমাত্রা =\\circ} \\mathrm{C} =4∘C - পানির ঘনত্ব (ρ)=\\rho)=1 \\mathrm{~g} / \\mathrm{mL} (ρ)=1 g/mL ধাপ 1: পানির ভর নির্ণয়: ভর = = = আয়তন × \\times × ঘনত্ব ভর =90 mL\\mathrm{~mL} \\times 1 \\mathrm{~g} / \\mathrm{mL}=90 \\mathrm{~g} =90 mLধাপ 2: পানির আণবিক ভর নির্ণয়: - হাইড্রোজেন (H) এর পারমাণবিক ভর \\approx 1.008 \\mathrm{~g} / \\mathrm{mol} অক্সিজেন (O) এর পারমাণবিক ভর \\approx 15.999 \\mathrm{~g} / \\mathrm{mol} ধাপ 3: পানির মোল সংখ্যা নির্ণয়: মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =\\begin{array}{l} \\text { মোল সংখ্যা }=\\text { প্রদার্যু ভর } \\\\ \\text { মোল সংখ্যা }=\\frac{90 \\mathrm{~g}}{18.015 \\mathrm{~g} / \\mathrm{mol}} \\approx 4.996 \\mathrm{~mol} \\end{array} মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =ধাপ 4: পানির অণুর সংখ্যা নির্ণয়: আমরা জানি, 1 মোল যেকোনো পদার্থের মধ্যে অ্যাভোগাড্রো সংখ্যা (6.022\\left(6.022 \\times 10^{23}\\right) (6.022সংখ্যক অণু থাকে। পানির অণুর সংখ্যা = = = মোল সংখ্যা × \\times × অ্যাভোগাড্রো সংখ্যা পানির অণুর সংখ্যা =\\mathrm{~mol} \\times 6.022 \\times 10^{23} =4.996 molমোল পানির অণুর সংখ্যা \\approx 30.086 \\times 10^{23} অণু পানির অণুর সংখ্যা \\approx 3.0086 \\times 10^{24} অণু সুতরাং, \\circ} \\mathrm{C} 4∘C তাপমাত্রায় বিশুদ্ধ পানিতে প্রায় \\times 10^{24} 3.0086টি অণু আছে।",
+    "explanation": "- পানির আয়তন =90 mL =90 \\mathrm{~mL} =90 mL - তাপমাত্রা =4∘C =4^{\\circ} \\mathrm{C} =4∘C - পানির ঘনত্ব (ρ)=1 g/mL (\\rho)=1 \\mathrm{~g} / \\mathrm{mL} (ρ)=1 g/mL ধাপ 1: পানির ভর নির্ণয়: ভর = = = আয়তন × \\times × ঘনত্ব ভর =90 mL×1 g/mL=90 g =90 \\mathrm{~mL} \\times 1 \\mathrm{~g} / \\mathrm{mL}=90 \\mathrm{~g} =90 mL×1 g/mL=90 g ধাপ 2: পানির আণবিক ভর নির্ণয়: - হাইড্রোজেন (H) এর পারমাণবিক ভর ≈1.008 g/mol \\approx 1.008 \\mathrm{~g} / \\mathrm{mol} ≈1.008 g/mol - অক্সিজেন (O) এর পারমাণবিক ভর ≈15.999 g/mol \\approx 15.999 \\mathrm{~g} / \\mathrm{mol} ≈15.999 g/mol ধাপ 3: পানির মোল সংখ্যা নির্ণয়: মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =90 g18.015 g/mol≈4.996 mol \\begin{array}{l} \\text { মোল সংখ্যা }=\\text { প্রদার্যু ভর } \\\\ \\text { মোল সংখ্যা }=\\frac{90 \\mathrm{~g}}{18.015 \\mathrm{~g} / \\mathrm{mol}} \\approx 4.996 \\mathrm{~mol} \\end{array} মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =18.015 g/mol90 g≈4.996 mol ধাপ 4: পানির অণুর সংখ্যা নির্ণয়: আমরা জানি, 1 মোল যেকোনো পদার্থের মধ্যে অ্যাভোগাড্রো সংখ্যা (6.022×1023) \\left(6.022 \\times 10^{23}\\right) (6.022×1023) সংখ্যক অণু থাকে। পানির অণুর সংখ্যা = = = মোল সংখ্যা × \\times × অ্যাভোগাড্রো সংখ্যা পানির অণুর সংখ্যা =4.996 mol×6.022×1023 =4.996 \\mathrm{~mol} \\times 6.022 \\times 10^{23} =4.996 mol×6.022×1023 अभ/ মোল পানির অণুর সংখ্যা ≈30.086×1023 \\approx 30.086 \\times 10^{23} ≈30.086×1023 অণু পানির অণুর সংখ্যা ≈3.0086×1024 \\approx 3.0086 \\times 10^{24} ≈3.0086×1024 অণু সুতরাং, 4∘C 4^{\\circ} \\mathrm{C} 4∘C তাপমাত্রায় 90 mL বিশুদ্ধ পানিতে প্রায় 3.0086×1024 3.0086 \\times 10^{24} 3.0086×1024 টি অণু আছে।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "4oC তাপমাত্রায় 90mL বিশুদ্ধ পানিতে কতটি অনু আছে?",
-    "explanationLatex": "- পানির আয়তন =\\mathrm{~mL} =90 mL - তাপমাত্রা =\\circ} \\mathrm{C} =4∘C - পানির ঘনত্ব (ρ)=1 \\frac{g}{mL} (\\rho)=1 \\mathrm{~g} / \\mathrm{mL} (ρ)=1 \\frac{g}{mL} ধাপ 1: পানির ভর নির্ণয়: ভর = = = আয়তন \\ \\times \\times \\ \\times ঘনত্ব ভর =\\times 1 \\frac{g}{mL}=90 g =90 \\mathrm{~mL} \\times 1 \\mathrm{~g} / \\mathrm{mL}=90 \\mathrm{~g} =90 mL\\ \\times 1 \\frac{g}{mL}=90 g ধাপ 2: পানির আণবিক ভর নির্ণয়: - হাইড্রোজেন (H) এর পারমাণবিক ভর \\frac{g}{mol} \\approx 1.008 \\mathrm{~g} / \\mathrm{mol} \\frac{g}{mol} - অক্সিজেন (O) এর পারমাণবিক ভর \\frac{g}{mol} \\approx 15.999 \\mathrm{~g} / \\mathrm{mol} \\frac{g}{mol} ধাপ 3: পানির মোল সংখ্যা নির্ণয়: মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =\\frac{g}{mol}\\begin{array}{l} \\text { মোল সংখ্যা }=\\text { প্রদার্যু ভর } \\\\ \\text { মোল সংখ্যা }=\\frac{90 \\mathrm{~g}}{18.015 \\mathrm{~g} / \\mathrm{mol}} \\approx 4.996 \\mathrm{~mol} \\end{array} মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =\\frac{g}{mol90} gধাপ 4: পানির অণুর সংখ্যা নির্ণয়: আমরা জানি, 1 মোল যেকোনো পদার্থের মধ্যে অ্যাভোগাড্রো সংখ্যা (\\times 1023) \\left(6.022 \\times 10^{23}\\right) (6.022\\ \\times 1023) সংখ্যক অণু থাকে। পানির অণুর সংখ্যা = = = মোল সংখ্যা \\ \\times \\times \\ \\times অ্যাভোগাড্রো সংখ্যা পানির অণুর সংখ্যা =\\times 6.022\\ \\times 1023 =4.996 \\mathrm{~mol} \\times 6.022 \\times 10^{23} =4.996 mol\\ \\times 6.022\\ \\times 1023 अभ/ মোল পানির অণুর সংখ্যা \\times 1023 \\approx 30.086 \\times 10^{23} \\times 1023 অণু পানির অণুর সংখ্যা \\times 1024 \\approx 3.0086 \\times 10^{24} \\times 1024 অণু সুতরাং, \\circ} \\mathrm{C} 4∘C তাপমাত্রায় বিশুদ্ধ পানিতে প্রায় \\times 1024 3.0086 \\times 10^{24} 3.0086\\ \\times 1024 টি অণু আছে।"
+    "explanationLatex": "$- পানির আয়তন =90 mL =90 \\mathrm{~mL} =90 mL - তাপমাত্রা =4∘C =4^{\\circ} \\mathrm{C} =4∘C - পানির ঘনত্ব (ρ)=1 \\frac{g}{mL} (\\rho)=1 \\mathrm{~g} / \\mathrm{mL} (ρ)=1 \\frac{g}{mL} ধাপ 1: পানির ভর নির্ণয়: ভর = = = আয়তন \\ \\times \\times \\ \\times ঘনত্ব ভর =90 mL\\ \\times 1 \\frac{g}{mL}=90 g =90 \\mathrm{~mL} \\times 1 \\mathrm{~g} / \\mathrm{mL}=90 \\mathrm{~g} =90 mL\\ \\times 1 \\frac{g}{mL}=90 g ধাপ 2: পানির আণবিক ভর নির্ণয়: - হাইড্রোজেন (H) এর পারমাণবিক ভর ≈1.008 \\frac{g}{mol} \\approx 1.008 \\mathrm{~g} / \\mathrm{mol} ≈1.008 \\frac{g}{mol} - অক্সিজেন (O) এর পারমাণবিক ভর ≈15.999 \\frac{g}{mol} \\approx 15.999 \\mathrm{~g} / \\mathrm{mol} ≈15.999 \\frac{g}{mol} ধাপ 3: পানির মোল সংখ্যা নির্ণয়: মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =90 g18.015 \\frac{g}{mol}≈4.996 mol \\begin{array}{l} \\text { মোল সংখ্যা }=\\text { প্রদার্যু ভর } \\\\ \\text { মোল সংখ্যা }=\\frac{90 \\mathrm{~g}}{18.015 \\mathrm{~g} / \\mathrm{mol}} \\approx 4.996 \\mathrm{~mol} \\end{array} মোল সংখ্যা = প্রদার্যু ভর মোল সংখ্যা =18.015 \\frac{g}{mol90} g≈4.996 mol ধাপ 4: পানির অণুর সংখ্যা নির্ণয়: আমরা জানি, 1 মোল যেকোনো পদার্থের মধ্যে অ্যাভোগাড্রো সংখ্যা (6.022\\ \\times 1023) \\left(6.022 \\times 10^{23}\\right) (6.022\\ \\times 1023) সংখ্যক অণু থাকে। পানির অণুর সংখ্যা = = = মোল সংখ্যা \\ \\times \\times \\ \\times অ্যাভোগাড্রো সংখ্যা পানির অণুর সংখ্যা =4.996 mol\\ \\times 6.022\\ \\times 1023 =4.996 \\mathrm{~mol} \\times 6.022 \\times 10^{23} =4.996 mol\\ \\times 6.022\\ \\times 1023 अभ/ মোল পানির অণুর সংখ্যা ≈30.086\\ \\times 1023 \\approx 30.086 \\times 10^{23} ≈30.086\\ \\times 1023 অণু পানির অণুর সংখ্যা ≈3.0086\\ \\times 1024 \\approx 3.0086 \\times 10^{24} ≈3.0086\\ \\times 1024 অণু সুতরাং, 4∘C 4^{\\circ} \\mathrm{C} 4∘C তাপমাত্রায় 90 mL বিশুদ্ধ পানিতে প্রায় 3.0086\\ \\times 1024 3.0086 \\times 10^{24} 3.0086\\ \\times 1024 টি অণু আছে।$"
   },
   {
     "id": 28,
@@ -549,7 +549,7 @@
       "d": "12.04 × 1023"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{CO}_{2} CO2 তে O পরমানু 2 মোল \\therefore 0.5 \\mathrm{CO}_{2} CO2 তে O পরমানু \\times 10^{23} =6.023টি",
+    "explanation": "1 mole CO2 \\mathrm{CO}_{2} CO2 তে O পরমানু 2 মোল ∴0.5 \\therefore 0.5 ∴0.5 mole CO2 \\mathrm{CO}_{2} CO2 তে O পরমানু 1 mole =6.023×1023 =6.023 \\times 10^{23} =6.023×1023 টি",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "0.5 mol CO2 গ্যাসের অক্সিজেন পরমানুর সংখ্যা কত?",
-    "explanationLatex": "\\mathrm{CO}_{2} CO2 তে O পরমানু 2 মোল \\therefore 0.5 \\mathrm{CO}_{2} CO2 তে O পরমানু \\times 1023 =6.023 \\times 10^{23} =6.023\\ \\times 1023 টি"
+    "explanationLatex": "$1 mole CO2 \\mathrm{CO}_{2} CO2 তে O পরমানু 2 মোল ∴0.5 \\therefore 0.5 ∴0.5 mole CO2 \\mathrm{CO}_{2} CO2 তে O পরমানু 1 mole =6.023\\ \\times 1023 =6.023 \\times 10^{23} =6.023\\ \\times 1023 টি$"
   },
   {
     "id": 29,
@@ -569,7 +569,7 @@
       "d": "16.46 L"
     },
     "correctAnswer": "d",
-    "explanation": "মোলার ভর: পটাশিয়াম ক্লোরেটের মোল সংখ্যা =\\frac{60}{122.5}122.560 = 0.49mol অক্সিজেনের পরিমাণ, মোল O2 \\begin{array}{l}0.489 \\text { mole } \\mathrm{KClO}_{3} \\times \\frac{3 \\text { mole } \\mathrm{O}_{2}}{2 \\text { mole } \\mathrm{KClO}_{3}}= \\ 0.7335 \\text { মোল } O_{2}\\end{array} 0.489 mole KClO3মোল O2 সুতরাং, মোল অক্সিজেনের আয়তন হবে, \\begin{array}{l}0.7335 \\text { mole } \\times 22.4 \\text { L/mole } \\approx \\ 16.44 \\text { L }\\end{array} 0.7335 mole",
+    "explanation": "মোলার ভর: KClO3_33=122.5g/mol পটাশিয়াম ক্লোরেটের মোল সংখ্যা =60122.5\\frac{60}{122.5}122.560 = 0.49mol অক্সিজেনের পরিমাণ, 0.489 mole KClO3×3 mole O22 mole KClO3= 0.7335 মোল O2 \\begin{array}{l}0.489 \\text { mole } \\mathrm{KClO}_{3} \\times \\frac{3 \\text { mole } \\mathrm{O}_{2}}{2 \\text { mole } \\mathrm{KClO}_{3}}= \\ 0.7335 \\text { মোল } O_{2}\\end{array} 0.489 mole KClO3×2 mole KClO33 mole O2= 0.7335 মোল O2 সুতরাং, 0.7335 মোল অক্সিজেনের আয়তন হবে, 0.7335 mole ×22.4 L/mole ≈ 16.44 L \\begin{array}{l}0.7335 \\text { mole } \\times 22.4 \\text { L/mole } \\approx \\ 16.44 \\text { L }\\end{array} 0.7335 mole ×22.4 L/mole ≈ 16.44 L",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -577,7 +577,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "60g পটাশিয়াম ক্লোরেটকে উত্তপ্ত করলে প্রাপ্ত অক্সিজেনের আয়তন NTP তে হবে -",
-    "explanationLatex": "মোলার ভর: \\frac{122.5g}{mol} পটাশিয়াম ক্লোরেটের মোল সংখ্যা =\\frac{60}{122.5}122.560 = 0.49mol অক্সিজেনের পরিমাণ, \\times 3 mole O22 mole KClO3= 0.7335 মোল O2 \\begin{array}{l}0.489 \\text { mole } \\mathrm{KClO}_{3} \\times \\frac{3 \\text { mole } \\mathrm{O}_{2}}{2 \\text { mole } \\mathrm{KClO}_{3}}= \\ 0.7335 \\text { মোল } O_{2}\\end{array} 0.489 mole KClO3\\ \\times 2 mole KClO33 mole O2= 0.7335 মোল O2 সুতরাং, মোল অক্সিজেনের আয়তন হবে, \\times 22.4 \\frac{L}{mole} \\begin{array}{l}0.7335 \\text { mole } \\times 22.4 \\text { \\frac{L}{mole} } \\approx \\ 16.44 \\text { L }\\end{array} 0.7335 mole \\ \\times 22.4 \\frac{L}{mole}"
+    "explanationLatex": "$মোলার ভর: KClO3_33=\\frac{122.5g}{mol} পটাশিয়াম ক্লোরেটের মোল সংখ্যা =60122.5\\frac{60}{122.5}122.560 = 0.49mol অক্সিজেনের পরিমাণ, 0.489 mole KClO3\\ \\times 3 mole O22 mole KClO3= 0.7335 মোল O2 \\begin{array}{l}0.489 \\text { mole } \\mathrm{KClO}_{3} \\times \\frac{3 \\text { mole } \\mathrm{O}_{2}}{2 \\text { mole } \\mathrm{KClO}_{3}}= \\ 0.7335 \\text { মোল } O_{2}\\end{array} 0.489 mole KClO3\\ \\times 2 mole KClO33 mole O2= 0.7335 মোল O2 সুতরাং, 0.7335 মোল অক্সিজেনের আয়তন হবে, 0.7335 mole \\ \\times 22.4 \\frac{L}{mole} ≈ 16.44 L \\begin{array}{l}0.7335 \\text { mole } \\times 22.4 \\text { \\frac{L}{mole} } \\approx \\ 16.44 \\text { L }\\end{array} 0.7335 mole \\ \\times 22.4 \\frac{L}{mole} ≈ 16.44 L$"
   },
   {
     "id": 30,
@@ -589,7 +589,7 @@
       "d": "None of them"
     },
     "correctAnswer": "d",
-    "explanation": "\\mathrm{~g}=2 36 g=2 mole ∴ \\therefore ∴ অণুর সংখ্যা =2\\times 6.023 \\times 10^{23} =2",
+    "explanation": "36 g=2 36 \\mathrm{~g}=2 36 g=2 mole ∴ \\therefore ∴ অণুর সংখ্যা =2×6.023×1023 =2 \\times 6.023 \\times 10^{23} =2×6.023×1023",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "36g পানিতে কয়টি পানির অণু আছে ?",
-    "explanationLatex": "\\mathrm{~g}=2 36 g=2 mole ∴ \\therefore ∴ অণুর সংখ্যা =2\\ \\times 6.023\\ \\times 1023 =2 \\times 6.023 \\times 10^{23} =2\\ \\times 6.023\\ \\times 1023"
+    "explanationLatex": "$36 g=2 36 \\mathrm{~g}=2 36 g=2 mole ∴ \\therefore ∴ অণুর সংখ্যা =2\\ \\times 6.023\\ \\times 1023 =2 \\times 6.023 \\times 10^{23} =2\\ \\times 6.023\\ \\times 1023$"
   },
   {
     "id": 31,
@@ -629,7 +629,7 @@
       "d": "None of these"
     },
     "correctAnswer": "a",
-    "explanation": "এখানে, এর \\mathrm{CuO}}+\\mathrm{H}_{2} \\rightarrow \\mathrm{Cu}+\\mathrm{H}_{2} \\mathrm{O} CuO+H2\\text {cuo }}=n_{H_{2}} ncuo =nH2 \\begin{array}{l}\\Rightarrow\\left(\\frac{W}{M}\\right)_{\\text {cuO }}=\\left(\\frac{V}{22.4}\\right)_{H_{2}} \\\\ \\Rightarrow V_{H_{2}}=\\frac{80 \\times 22.4}{79.5} \\\\ \\therefore V_{H_{2}}=22.54 \\mathrm{~L}\\end{array}",
+    "explanation": "এখানে, W = 80g CuO এর M = (63.5+16) = 79.5 CuO+H2→Cu+H2O{\\mathrm{CuO}}+\\mathrm{H}_{2} \\rightarrow \\mathrm{Cu}+\\mathrm{H}_{2} \\mathrm{O} CuO+H2→Cu+H2O ncuo =nH2 n_{\\text {cuo }}=n_{H_{2}} ncuo =nH2 ⇒(WM)cuO =(V22.4)H2⇒VH2=80×22.479.5∴VH2=22.54 L \\begin{array}{l}\\Rightarrow\\left(\\frac{W}{M}\\right)_{\\text {cuO }}=\\left(\\frac{V}{22.4}\\right)_{H_{2}} \\\\ \\Rightarrow V_{H_{2}}=\\frac{80 \\times 22.4}{79.5} \\\\ \\therefore V_{H_{2}}=22.54 \\mathrm{~L}\\end{array} ⇒(MW)cuO =(22.4V)H2⇒VH2=79.580×22.4∴VH2=22.54 L",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "80g কিউপ্রিক অক্সাইডকে বিজারিত করতে STP তে কত লিটার বিশুদ্ধ হাইড্রোজেন প্রয়োজন হবে?",
-    "explanationLatex": "এখানে, এর \\mathrm{CuO}}+\\mathrm{H}_{2} \\rightarrow \\mathrm{Cu}+\\mathrm{H}_{2} \\mathrm{O} CuO+H2\\text {cuo }}=n_{H_{2}} ncuo =nH2 \\times 22.479.5\\begin{array}{l}\\Rightarrow\\left(\\frac{W}{M}\\right)_{\\text {cuO }}=\\left(\\frac{V}{22.4}\\right)_{H_{2}} \\\\ \\Rightarrow V_{H_{2}}=\\frac{80 \\times 22.4}{79.5} \\\\ \\therefore V_{H_{2}}=22.54 \\mathrm{~L}\\end{array} \\times 22.4"
+    "explanationLatex": "$এখানে, W = 80g CuO এর M = (63.5+16) = 79.5 CuO+H2→Cu+H2O{\\mathrm{CuO}}+\\mathrm{H}_{2} \\rightarrow \\mathrm{Cu}+\\mathrm{H}_{2} \\mathrm{O} CuO+H2→Cu+H2O ncuo =nH2 n_{\\text {cuo }}=n_{H_{2}} ncuo =nH2 ⇒(WM)cuO =(V22.4)H2⇒VH2=80\\ \\times 22.479.5∴VH2=22.54 L \\begin{array}{l}\\Rightarrow\\left(\\frac{W}{M}\\right)_{\\text {cuO }}=\\left(\\frac{V}{22.4}\\right)_{H_{2}} \\\\ \\Rightarrow V_{H_{2}}=\\frac{80 \\times 22.4}{79.5} \\\\ \\therefore V_{H_{2}}=22.54 \\mathrm{~L}\\end{array} ⇒(MW)cuO =(22.4V)H2⇒VH2=79.580\\ \\times 22.4∴VH2=22.54 L$"
   },
   {
     "id": 33,
@@ -689,7 +689,7 @@
       "d": "11.45%"
     },
     "correctAnswer": "c",
-    "explanation": "গাণিতিক ব্যাখাঃ এ 0.14 \\mathrm{gm} \\mathrm{CO}_{2} এ 0.14gmCO2এ আছে, 0.14\\frac{0.14 \\times 12}{44}=\\frac{21}{550} \\mathrm{gm} 440.14এ \\therefore 0.34 \\mathrm{gm} এ এ আছে \\frac{21}{550} \\mathrm{gm} \\mathrm{C} \\therefore \\% \\mathrm{C}=11.23 \\% 55021gmC",
+    "explanation": "গাণিতিক ব্যাখাঃ 0.14gmCO2এ 0.14 \\mathrm{gm} \\mathrm{CO}_{2} এ 0.14gmCO2এ আছে, 0.14×1244=21550gm \\frac{0.14 \\times 12}{44}=\\frac{21}{550} \\mathrm{gm} 440.14×12=55021gm ∴0.34gmএ \\therefore 0.34 \\mathrm{gm} এ ∴0.34gmএ আছে 21550gmC∴%C=11.23% \\frac{21}{550} \\mathrm{gm} \\mathrm{C} \\therefore \\% \\mathrm{C}=11.23 \\% 55021gmC∴%C=11.23%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -697,7 +697,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "0.34 gm এর কোন যৌগকে পুড়িয়ে 0.14 gm CO2 পাওয়া গেলে, ঐ যৌগে C এর শতকরা সংযুক্তি কত হবে?",
-    "explanationLatex": "গাণিতিক ব্যাখাঃ এ 0.14 \\mathrm{gm} \\mathrm{CO}_{2} এ 0.14gmCO2এ আছে, 0.14\\ \\times 1244=21550gm \\frac{0.14 \\times 12}{44}=\\frac{21}{550} \\mathrm{gm} 440.14\\ \\times 12=55021gm এ \\therefore 0.34 \\mathrm{gm} এ এ আছে \\frac{21}{550} \\mathrm{gm} \\mathrm{C} \\therefore \\% \\mathrm{C}=11.23 \\% 55021gmC"
+    "explanationLatex": "$গাণিতিক ব্যাখাঃ 0.14gmCO2এ 0.14 \\mathrm{gm} \\mathrm{CO}_{2} এ 0.14gmCO2এ আছে, 0.14\\ \\times 1244=21550gm \\frac{0.14 \\times 12}{44}=\\frac{21}{550} \\mathrm{gm} 440.14\\ \\times 12=55021gm ∴0.34gmএ \\therefore 0.34 \\mathrm{gm} এ ∴0.34gmএ আছে 21550gmC∴%C=11.23% \\frac{21}{550} \\mathrm{gm} \\mathrm{C} \\therefore \\% \\mathrm{C}=11.23 \\% 55021gmC∴%C=11.23%$"
   },
   {
     "id": 36,
@@ -709,7 +709,7 @@
       "d": "4.6 g"
     },
     "correctAnswer": "d",
-    "explanation": "1000\\frac{1000 \\times 0.1 \\times 23 \\times 2}{1000}=4.6 \\mathrm{~g} 10001000প্রতিটি \\mathrm{Na}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3} Na2 S2O3 এ 2 টি Na+ \\mathrm{Na}^{+} Na+থাকে বলে 2 দ্বারা গুণ করা হয়েছে]",
+    "explanation": "1000×0.1×23×21000=4.6 g \\frac{1000 \\times 0.1 \\times 23 \\times 2}{1000}=4.6 \\mathrm{~g} 10001000×0.1×23×2=4.6 g [প্রতিটি Na2 S2O3 \\mathrm{Na}_{2} \\mathrm{~S}_{2} \\mathrm{O}_{3} Na2 S2O3 এ 2 টি Na+ \\mathrm{Na}^{+} Na+থাকে বলে 2 দ্বারা গুণ করা হয়েছে]",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -729,7 +729,7 @@
       "d": "0 , 3 g 0,3 g"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{Cu} Cu and Zn \\mathrm{Zn} Zn respectively in alloy, ∴ \\therefore \\quad \\mathrm{Cu}=\\frac{m_{1}}{8.9} \\mathrm{cc} Cu=8.9m1cc and Volume of Zn=m27.1cc \\mathrm{Zn}=\\frac{m_{2}}{7.1} \\mathrm{cc} Zn=7.1m2cc ∴ \\therefore \\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\mathrm{cc} =[8.9m1+7.1m2]cc Now, loss of wt. in water = = = thrust due to water \\Rightarrow \\quad(16.8-14.7) g=\\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\times 1 g \\Rightarrow \\quad 2.1=\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1} \\mathrm{~g} m1+m2=16.8 g Solving Eqs. (i) and (ii), we get m1=9.345 g m_{1}=9.345 \\mathrm{~g} m1=9.345 g m2=7.455 g m_{2}=7.455 \\mathrm{~g} m2=7.455 g",
+    "explanation": "Solve:Let m1g m_{1} g m1g and m2g m_{2} g m2g be the mass of Cu \\mathrm{Cu} Cu and Zn \\mathrm{Zn} Zn respectively in alloy, ∴ \\therefore \\quad ∴ Volume of Cu=m18.9cc \\mathrm{Cu}=\\frac{m_{1}}{8.9} \\mathrm{cc} Cu=8.9m1cc and Volume of Zn=m27.1cc \\mathrm{Zn}=\\frac{m_{2}}{7.1} \\mathrm{cc} Zn=7.1m2cc ∴ \\therefore ∴ Total volume of alloy =[m18.9+m27.1]cc =\\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\mathrm{cc} =[8.9m1+7.1m2]cc Now, loss of wt. in water = = = thrust due to water ⇒(16.8−14.7)g=[m18.9+m27.1]×1g \\Rightarrow \\quad(16.8-14.7) g=\\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\times 1 g ⇒(16.8−14.7)g=[8.9m1+7.1m2]×1g ⇒2.1=m18.9+m27.1 \\Rightarrow \\quad 2.1=\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1} ⇒2.1=8.9m1+7.1m2 Also, the total mass of alloy m1+m2=16.8 g m_{1}+m_{2}=16.8 \\mathrm{~g} m1+m2=16.8 g Solving Eqs. (i) and (ii), we get m1=9.345 g m_{1}=9.345 \\mathrm{~g} m1=9.345 g m2=7.455 g m_{2}=7.455 \\mathrm{~g} m2=7.455 g",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -737,7 +737,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "Zn\\mathrm{Zn} Zn এবং Cu\\mathrm{Cu} Cu এর একটি মিশ্রণের ওজন বায়ুতে 16.8 g16.8 \\mathrm{~g} 16.8 g এবং পানিতে 14.7 g14.7 \\mathrm{~g} 14.7 g । যদি Cu\\mathrm{Cu} Cu এবং Zn\\mathrm{Zn} Zn এর আপেক্ষিক ঘনত্ব যথাক্রমে 8.9 এবং 7.1 হয়, তবে মিশ্রণে Cu\\mathrm{Cu} Cu এবং Zn\\mathrm{Zn} Zn এর পরিমাণ যথাক্রমে কত ?",
-    "explanationLatex": "\\mathrm{Cu} Cu and Zn \\mathrm{Zn} Zn respectively in alloy, ∴ \\therefore \\quad \\mathrm{Cu}=\\frac{m_{1}}{8.9} \\mathrm{cc} Cu=8.9m1cc and Volume of Zn=m27.1cc \\mathrm{Zn}=\\frac{m_{2}}{7.1} \\mathrm{cc} Zn=7.1m2cc ∴ \\therefore \\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\mathrm{cc} =[8.9m1+7.1m2]cc Now, loss of wt. in water = = = thrust due to water \\times 1g \\Rightarrow \\quad(16.8-14.7) g=\\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\times 1 g \\times 1g \\Rightarrow \\quad 2.1=\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1} \\mathrm{~g} m1+m2=16.8 g Solving Eqs. (i) and (ii), we get m1=9.345 g m_{1}=9.345 \\mathrm{~g} m1=9.345 g m2=7.455 g m_{2}=7.455 \\mathrm{~g} m2=7.455 g"
+    "explanationLatex": "$Solve:Let m1g m_{1} g m1g and m2g m_{2} g m2g be the mass of Cu \\mathrm{Cu} Cu and Zn \\mathrm{Zn} Zn respectively in alloy, ∴ \\therefore \\quad ∴ Volume of Cu=m18.9cc \\mathrm{Cu}=\\frac{m_{1}}{8.9} \\mathrm{cc} Cu=8.9m1cc and Volume of Zn=m27.1cc \\mathrm{Zn}=\\frac{m_{2}}{7.1} \\mathrm{cc} Zn=7.1m2cc ∴ \\therefore ∴ Total volume of alloy =[m18.9+m27.1]cc =\\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\mathrm{cc} =[8.9m1+7.1m2]cc Now, loss of wt. in water = = = thrust due to water ⇒(16.8−14.7)g=[m18.9+m27.1]\\ \\times 1g \\Rightarrow \\quad(16.8-14.7) g=\\left[\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1}\\right] \\times 1 g ⇒(16.8−14.7)g=[8.9m1+7.1m2]\\ \\times 1g ⇒2.1=m18.9+m27.1 \\Rightarrow \\quad 2.1=\\frac{m_{1}}{8.9}+\\frac{m_{2}}{7.1} ⇒2.1=8.9m1+7.1m2 Also, the total mass of alloy m1+m2=16.8 g m_{1}+m_{2}=16.8 \\mathrm{~g} m1+m2=16.8 g Solving Eqs. (i) and (ii), we get m1=9.345 g m_{1}=9.345 \\mathrm{~g} m1=9.345 g m2=7.455 g m_{2}=7.455 \\mathrm{~g} m2=7.455 g$"
   },
   {
     "id": 38,
@@ -749,7 +749,7 @@
       "d": "11.2 L 11.2 L"
     },
     "correctAnswer": "b",
-    "explanation": "CaCO3\\begin{array}{cc}\\mathrm{CaCO}_{3} & \\rightarrow \\mathrm{CaO}+\\mathrm{CO}_{2} \\\\ 100 \\mathrm{~g} & 44 \\mathrm{~g}\\end{array} CaCO3100 g\\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv 44 \\mathrm{~g} \\mathrm{CO}_{2} \\equiv 1 \\mathrm{~mol} \\mathrm{CO}_{2} \\equiv 22.4 \\mathrm{~L} \\mathrm{CO}_{2} \\therefore 2.5 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv \\frac{22.4 \\times 2.5}{100}=0.56\\mathrm{~L} \\mathrm{CO}_{2} 100 gCaCO3≡44 gCO2≡1 molCO2≡22.4 LCO2\\mathrm{CaCO}_{3} \\rightarrow \\mathrm{CaO} + \\mathrm{CO}_{2} CaCO3মোলের লেভেলে, ১ মোল \\mathrm{CaCO}_{3} CaCO3 থেকে ১ মোল CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হয়। হিসাব: ক্যালসিয়াম কার্বনেটের গাঠনিক ভর হল: টি O) \\mathrm{Ca} = 40,\\, \\mathrm{C} = 12,\\, \\mathrm{O} = 16 \\, \\text{(3 টি O)} Ca=40,C=12,O=16(3 টি O) এ ছাড়া: CaCO3গ্রাম/মোলCaCO3গ্রাম/মোল সুতরাং, 100 গ্রাম \\mathrm{CaCO}_{3} CaCO3 থেকে ২২.৪ লিটার CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হবে NTP তে। তাহলে, ২.৫ গ্রাম \\mathrm{CaCO}_{3} CaCO3 থেকে উৎপন্ন CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হল: 22.4 লিটারগ্রাম100 গ্রাম=0.56 লিটার \\frac{22.4 \\, \\text{লিটার} \\times 2.5 \\, \\text{গ্রাম}}{100 \\, \\text{গ্রাম}} = 0.56 \\, \\text{লিটার} 100গ্রাম22.4লিটারগ্রাম=0.56লিটার সুতরাং CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হবে \\mathrm{~L} 0.56 L।",
+    "explanation": "CaCO3→CaO+CO2100 g44 g \\begin{array}{cc}\\mathrm{CaCO}_{3} & \\rightarrow \\mathrm{CaO}+\\mathrm{CO}_{2} \\\\ 100 \\mathrm{~g} & 44 \\mathrm{~g}\\end{array} CaCO3100 g→CaO+CO244 g 100 gCaCO3≡44 gCO2≡1 molCO2≡22.4 LCO2∴2.5 gCaCO3≡22.4×2.5100=0.56 LCO2 100 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv 44 \\mathrm{~g} \\mathrm{CO}_{2} \\equiv 1 \\mathrm{~mol} \\mathrm{CO}_{2} \\equiv 22.4 \\mathrm{~L} \\mathrm{CO}_{2} \\therefore 2.5 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv \\frac{22.4 \\times 2.5}{100}=0.56\\mathrm{~L} \\mathrm{CO}_{2} 100 gCaCO3≡44 gCO2≡1 molCO2≡22.4 LCO2∴2.5 gCaCO3≡10022.4×2.5=0.56 LCO2 CaCO3→CaO+CO2 \\mathrm{CaCO}_{3} \\rightarrow \\mathrm{CaO} + \\mathrm{CO}_{2} CaCO3→CaO+CO2 মোলের লেভেলে, ১ মোল CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে ১ মোল CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হয়। হিসাব: ক্যালসিয়াম কার্বনেটের গাঠনিক ভর হল: Ca=40, C=12, O=16 (3 টি O) \\mathrm{Ca} = 40,\\, \\mathrm{C} = 12,\\, \\mathrm{O} = 16 \\, \\text{(3 টি O)} Ca=40,C=12,O=16(3 টি O) এ ছাড়া: CaCO3→40+12+(16×3)=100গ্রাম/মোলCaCO3→40+12+(16×3)=100গ্রাম/মোল সুতরাং, 100 গ্রাম CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে ২২.৪ লিটার CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হবে NTP তে। তাহলে, ২.৫ গ্রাম CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে উৎপন্ন CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হল: 22.4 লিটার×2.5 গ্রাম100 গ্রাম=0.56 লিটার \\frac{22.4 \\, \\text{লিটার} \\times 2.5 \\, \\text{গ্রাম}}{100 \\, \\text{গ্রাম}} = 0.56 \\, \\text{লিটার} 100গ্রাম22.4লিটার×2.5গ্রাম=0.56লিটার সুতরাং CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হবে 0.56 L 0.56 \\mathrm{~L} 0.56 L।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -757,7 +757,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "2.5 গ্রাম CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে NTP-তে কী পরিমাণ CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হবে?",
-    "explanationLatex": "CaCO3\\begin{array}{cc}\\mathrm{CaCO}_{3} & \\rightarrow \\mathrm{CaO}+\\mathrm{CO}_{2} \\\\ 100 \\mathrm{~g} & 44 \\mathrm{~g}\\end{array} CaCO3100 g\\times 2.5100=0.56 LCO2 100 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv 44 \\mathrm{~g} \\mathrm{CO}_{2} \\equiv 1 \\mathrm{~mol} \\mathrm{CO}_{2} \\equiv 22.4 \\mathrm{~L} \\mathrm{CO}_{2} \\therefore 2.5 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv \\frac{22.4 \\times 2.5}{100}=0.56\\mathrm{~L} \\mathrm{CO}_{2} 100 gCaCO3≡44 gCO2≡1 molCO2≡22.4 LCO2\\times 2.5=0.56 LCO2 CaCO3\\mathrm{CaCO}_{3} \\rightarrow \\mathrm{CaO} + \\mathrm{CO}_{2} CaCO3মোলের লেভেলে, ১ মোল \\mathrm{CaCO}_{3} CaCO3 থেকে ১ মোল CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হয়। হিসাব: ক্যালসিয়াম কার্বনেটের গাঠনিক ভর হল: টি O) \\mathrm{Ca} = 40,\\, \\mathrm{C} = 12,\\, \\mathrm{O} = 16 \\, \\text{(3 টি O)} Ca=40,C=12,O=16(3 টি O) এ ছাড়া: CaCO3\\times 3)=100গ্রাম/মোলCaCO3\\times 3)=100গ্রাম/মোল সুতরাং, 100 গ্রাম \\mathrm{CaCO}_{3} CaCO3 থেকে ২২.৪ লিটার CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হবে NTP তে। তাহলে, ২.৫ গ্রাম \\mathrm{CaCO}_{3} CaCO3 থেকে উৎপন্ন CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হল: 22.4 লিটার\\ \\times 2.5 গ্রাম100 গ্রাম=0.56 লিটার \\frac{22.4 \\, \\text{লিটার} \\times 2.5 \\, \\text{গ্রাম}}{100 \\, \\text{গ্রাম}} = 0.56 \\, \\text{লিটার} 100গ্রাম22.4লিটার\\ \\times 2.5গ্রাম=0.56লিটার সুতরাং CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হবে \\mathrm{~L} 0.56 L।"
+    "explanationLatex": "$CaCO3→CaO+CO2100 g44 g \\begin{array}{cc}\\mathrm{CaCO}_{3} & \\rightarrow \\mathrm{CaO}+\\mathrm{CO}_{2} \\\\ 100 \\mathrm{~g} & 44 \\mathrm{~g}\\end{array} CaCO3100 g→CaO+CO244 g 100 gCaCO3≡44 gCO2≡1 molCO2≡22.4 LCO2∴2.5 gCaCO3≡22.4\\ \\times 2.5100=0.56 LCO2 100 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv 44 \\mathrm{~g} \\mathrm{CO}_{2} \\equiv 1 \\mathrm{~mol} \\mathrm{CO}_{2} \\equiv 22.4 \\mathrm{~L} \\mathrm{CO}_{2} \\therefore 2.5 \\mathrm{~g} \\mathrm{CaCO}_{3} \\equiv \\frac{22.4 \\times 2.5}{100}=0.56\\mathrm{~L} \\mathrm{CO}_{2} 100 gCaCO3≡44 gCO2≡1 molCO2≡22.4 LCO2∴2.5 gCaCO3≡10022.4\\ \\times 2.5=0.56 LCO2 CaCO3→CaO+CO2 \\mathrm{CaCO}_{3} \\rightarrow \\mathrm{CaO} + \\mathrm{CO}_{2} CaCO3→CaO+CO2 মোলের লেভেলে, ১ মোল CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে ১ মোল CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হয়। হিসাব: ক্যালসিয়াম কার্বনেটের গাঠনিক ভর হল: Ca=40, C=12, O=16 (3 টি O) \\mathrm{Ca} = 40,\\, \\mathrm{C} = 12,\\, \\mathrm{O} = 16 \\, \\text{(3 টি O)} Ca=40,C=12,O=16(3 টি O) এ ছাড়া: CaCO3→40+12+(16\\ \\times 3)=100গ্রাম/মোলCaCO3→40+12+(16\\ \\times 3)=100গ্রাম/মোল সুতরাং, 100 গ্রাম CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে ২২.৪ লিটার CO2 \\mathrm{CO}_{2} CO2 উৎপন্ন হবে NTP তে। তাহলে, ২.৫ গ্রাম CaCO3 \\mathrm{CaCO}_{3} CaCO3 থেকে উৎপন্ন CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হল: 22.4 লিটার\\ \\times 2.5 গ্রাম100 গ্রাম=0.56 লিটার \\frac{22.4 \\, \\text{লিটার} \\times 2.5 \\, \\text{গ্রাম}}{100 \\, \\text{গ্রাম}} = 0.56 \\, \\text{লিটার} 100গ্রাম22.4লিটার\\ \\times 2.5গ্রাম=0.56লিটার সুতরাং CO2 \\mathrm{CO}_{2} CO2 এর পরিমাণ হবে 0.56 L 0.56 \\mathrm{~L} 0.56 L।$"
   },
   {
     "id": 39,
@@ -789,7 +789,7 @@
       "d": "1.44gm"
     },
     "correctAnswer": "d",
-    "explanation": "\\mathrm{M}_{\\mathrm{Fe}_{2}\\left(\\mathrm{SO}_{4}\\right)_{3}}=399.7 MFe2(SO4)3=399.7 399.7gm 399.7 \\mathrm{gm} 399.7gm এর মধ্যে সালফার আছে 32\\times 3 \\mathrm{gm} \\therefore 6 \\mathrm{gm} 32এর মধ্যে আছে =32\\frac{32 \\times 3 \\times 6}{399.7} \\mathrm{gm}=1.44 \\mathrm{gm} =399.732",
+    "explanation": "MFe2(SO4)3=399.7 \\mathrm{M}_{\\mathrm{Fe}_{2}\\left(\\mathrm{SO}_{4}\\right)_{3}}=399.7 MFe2(SO4)3=399.7 399.7gm 399.7 \\mathrm{gm} 399.7gm এর মধ্যে সালফার আছে 32×3gm∴6gm 32 \\times 3 \\mathrm{gm} \\therefore 6 \\mathrm{gm} 32×3gm∴6gm এর মধ্যে আছে =32×3×6399.7gm=1.44gm =\\frac{32 \\times 3 \\times 6}{399.7} \\mathrm{gm}=1.44 \\mathrm{gm} =399.732×3×6gm=1.44gm",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -797,7 +797,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "6.00 gm Fe2(SO4)3 এ কতগ্রাম sulfur আছে?",
-    "explanationLatex": "\\mathrm{M}_{\\mathrm{Fe}_{2}\\left(\\mathrm{SO}_{4}\\right)_{3}}=399.7 MFe2(SO4)3=399.7 399.7gm 399.7 \\mathrm{gm} 399.7gm এর মধ্যে সালফার আছে 32\\ \\times 3gm\\times 3 \\mathrm{gm} \\therefore 6 \\mathrm{gm} 32\\ \\times 3gmএর মধ্যে আছে =32\\ \\times 3\\ \\times 6399.7gm=1.44gm =\\frac{32 \\times 3 \\times 6}{399.7} \\mathrm{gm}=1.44 \\mathrm{gm} =399.732\\ \\times 3\\ \\times 6gm=1.44gm"
+    "explanationLatex": "$MFe2(SO4)3=399.7 \\mathrm{M}_{\\mathrm{Fe}_{2}\\left(\\mathrm{SO}_{4}\\right)_{3}}=399.7 MFe2(SO4)3=399.7 399.7gm 399.7 \\mathrm{gm} 399.7gm এর মধ্যে সালফার আছে 32\\ \\times 3gm∴6gm 32 \\times 3 \\mathrm{gm} \\therefore 6 \\mathrm{gm} 32\\ \\times 3gm∴6gm এর মধ্যে আছে =32\\ \\times 3\\ \\times 6399.7gm=1.44gm =\\frac{32 \\times 3 \\times 6}{399.7} \\mathrm{gm}=1.44 \\mathrm{gm} =399.732\\ \\times 3\\ \\times 6gm=1.44gm$"
   },
   {
     "id": 41,
@@ -809,7 +809,7 @@
       "d": "3.0 mol NH3"
     },
     "correctAnswer": "b",
-    "explanation": "W= M\\times nW= Mমোল সংখ্যা ও আনবিক ভর দুটিই যার বেশি তার ভর বেশি হবে।",
+    "explanation": "W= M×nW=\\ M\\times nW= M×n মোল সংখ্যা ও আনবিক ভর দুটিই যার বেশি তার ভর বেশি হবে।",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -849,7 +849,7 @@
       "d": "শতকরা 53.2"
     },
     "correctAnswer": "c",
-    "explanation": "শতকরা পরিমাণ=Na2O এর আঃ ভর এর আঃ ভর\\frac{Na_2O\\ এর\\ আঃ\\ ভর\\ \\ }{NA_2CO_3\\ এর\\ আঃ\\ ভর}\\times100\\%NA2CO3 এর আঃ ভরNa2O এর আঃ ভর",
+    "explanation": "শতকরা পরিমাণ=Na2O এর আঃ ভর NA2CO3 এর আঃ ভর×100%\\frac{Na_2O\\ এর\\ আঃ\\ ভর\\ \\ }{NA_2CO_3\\ এর\\ আঃ\\ ভর}\\times100\\%NA2CO3 এর আঃ ভরNa2O এর আঃ ভর ×100%",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -889,7 +889,7 @@
       "d": "0.10gm"
     },
     "correctAnswer": "a",
-    "explanation": "[(\\left[\\left(\\mathrm{NH}_{4}\\right)_{2} \\mathrm{C}_{2} \\mathrm{O}_{4} \\cdot \\mathrm{H}_{2} \\mathrm{O}\\right] [(NH4)2C2O4⋅H2O] এর আণবিক ভর \\mathrm{N} N এর ভর =28142\\frac{28}{142} \\times 5.25=1.035 \\mathrm{gm} =14228",
+    "explanation": "[(NH4)2C2O4⋅H2O] \\left[\\left(\\mathrm{NH}_{4}\\right)_{2} \\mathrm{C}_{2} \\mathrm{O}_{4} \\cdot \\mathrm{H}_{2} \\mathrm{O}\\right] [(NH4)2C2O4⋅H2O] এর আণবিক ভর 142 N \\mathrm{N} N এর ভর =28142×5.25=1.035gm =\\frac{28}{142} \\times 5.25=1.035 \\mathrm{gm} =14228×5.25=1.035gm",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -909,7 +909,7 @@
       "d": "480.25g"
     },
     "correctAnswer": "b",
-    "explanation": "এ লবন \\mathrm{~mol} 0.65 mol 1000 ml এ লবন 6.5 mol ω=nMNaCl=6.5\\begin{aligned} \\omega & =n M_{\\mathrm{NaCl}} \\\\ & =6.5 \\times(23+35.5) \\\\ & =380.25 \\mathrm{~g} \\end{aligned} ω=nMNaCl=6.5",
+    "explanation": "100 ml এ লবন 0.65 mol 0.65 \\mathrm{~mol} 0.65 mol 1000 ml এ লবন 6.5 mol ω=nMNaCl=6.5×(23+35.5)=380.25 g \\begin{aligned} \\omega & =n M_{\\mathrm{NaCl}} \\\\ & =6.5 \\times(23+35.5) \\\\ & =380.25 \\mathrm{~g} \\end{aligned} ω=nMNaCl=6.5×(23+35.5)=380.25 g",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -929,7 +929,7 @@
       "d": "4"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{CnH}_{8} \\mathrm{O}+\\left(\\frac{2 \\mathrm{n}+3}{2}\\right) \\mathrm{O}_{2}=\\mathrm{nCO}_{2}+4 \\mathrm{H}_{2} \\mathrm{O} CnH8O+(22n+3)O2=nCO2+4H2O (2n+32) \\left(\\frac{2 \\mathrm{n}+3}{2}\\right) (22n+3) mole O2≡1 \\mathrm{O}_{2} \\equiv 1 O2≡1 mole O2;\\mathrm{O}_{2} ; \\therefore 20\\left(\\frac{2 \\mathrm{n}+3}{2}\\right)=90 O2;বা, বা, 2n=6;\\therefore n=3 2n=6;",
+    "explanation": "CnH8O+(2n+32)O2=nCO2+4H2O \\mathrm{CnH}_{8} \\mathrm{O}+\\left(\\frac{2 \\mathrm{n}+3}{2}\\right) \\mathrm{O}_{2}=\\mathrm{nCO}_{2}+4 \\mathrm{H}_{2} \\mathrm{O} CnH8O+(22n+3)O2=nCO2+4H2O (2n+32) \\left(\\frac{2 \\mathrm{n}+3}{2}\\right) (22n+3) mole O2≡1 \\mathrm{O}_{2} \\equiv 1 O2≡1 mole O2;∴20(2n+32)=90 \\mathrm{O}_{2} ; \\therefore 20\\left(\\frac{2 \\mathrm{n}+3}{2}\\right)=90 O2;∴20(22n+3)=90 বা, 2n+3=9; 2 n+3=9 ; 2n+3=9; বা, 2n=6;∴n=3 2 n=6 ; \\therefore n=3 2n=6;∴n=3",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -937,7 +937,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নির্দিষ্ট তাপমাত্রা ও চাপে 20 mL CnH8O আণবিক সংকেতের গ্যাসীয়। জৈব যৌগ সম্পূর্ণরূপে দহন করতে 90 mL O2 প্রয়ােজন হলে n এর মান কত?",
-    "explanationLatex": "\\mathrm{CnH}_{8} \\mathrm{O}+\\left(\\frac{2 \\mathrm{n}+3}{2}\\right) \\mathrm{O}_{2}=\\mathrm{nCO}_{2}+4 \\mathrm{H}_{2} \\mathrm{O} CnH8O+(22n+3)O2=nCO2+4H2O (2n+32) \\left(\\frac{2 \\mathrm{n}+3}{2}\\right) (22n+3) mole O2≡1 \\mathrm{O}_{2} \\equiv 1 O2≡1 mole O2;\\mathrm{O}_{2} ; \\therefore 20\\left(\\frac{2 \\mathrm{n}+3}{2}\\right)=90 O2;বা, বা, 2n=6;\\therefore n=3 2n=6;"
+    "explanationLatex": "$CnH8O+(2n+32)O2=nCO2+4H2O \\mathrm{CnH}_{8} \\mathrm{O}+\\left(\\frac{2 \\mathrm{n}+3}{2}\\right) \\mathrm{O}_{2}=\\mathrm{nCO}_{2}+4 \\mathrm{H}_{2} \\mathrm{O} CnH8O+(22n+3)O2=nCO2+4H2O (2n+32) \\left(\\frac{2 \\mathrm{n}+3}{2}\\right) (22n+3) mole O2≡1 \\mathrm{O}_{2} \\equiv 1 O2≡1 mole O2;∴20(2n+32)=90 \\mathrm{O}_{2} ; \\therefore 20\\left(\\frac{2 \\mathrm{n}+3}{2}\\right)=90 O2;∴20(22n+3)=90 বা, 2n+3=9; 2 n+3=9 ; 2n+3=9; বা, 2n=6;∴n=3 2 n=6 ; \\therefore n=3 2n=6;∴n=3$"
   },
   {
     "id": 48,
@@ -949,7 +949,7 @@
       "d": "5.4869x10-4gm"
     },
     "correctAnswer": "c",
-    "explanation": "সোডিয়াম পরমাণুতে ইলেকট্রনের সংখ্যা 6.023\\times 10^{23} \\times 11 6.023\\therefore 6.023 \\times 10^{23} টি ইলেকট্রনের ভর =(6.023\\left(6.023 \\times 10^{23} \\times 9.11 \\times 10^{-28} \\times 11\\right) \\mathrm{gm}=6.0356 \\times 10^{-3} \\mathrm{gm} =(6.023",
+    "explanation": "1 mole সোডিয়াম পরমাণুতে ইলেকট্রনের সংখ্যা 6.023×1023×11 6.023 \\times 10^{23} \\times 11 6.023×1023×11 ∴6.023×1023 \\therefore 6.023 \\times 10^{23} ∴6.023×1023 টি ইলেকট্রনের ভর =(6.023×1023×9.11×10−28×11)gm=6.0356×10−3gm =\\left(6.023 \\times 10^{23} \\times 9.11 \\times 10^{-28} \\times 11\\right) \\mathrm{gm}=6.0356 \\times 10^{-3} \\mathrm{gm} =(6.023×1023×9.11×10−28×11)gm=6.0356×10−3gm",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -957,7 +957,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সোডিয়মের পারমাণবিক সংখ্যা 11 এক মোল সোডিয়াম পরমাণুতে কত গ্রাম ইলেক্ট্রন থাকবে?",
-    "explanationLatex": "সোডিয়াম পরমাণুতে ইলেকট্রনের সংখ্যা \\times 1023\\ \\times 11 6.023 \\times 10^{23} \\times 11 6.023\\ \\times 1023\\ \\times 11 \\times 1023 \\therefore 6.023 \\times 10^{23} \\times 1023 টি ইলেকট্রনের ভর =(\\times 1023\\ \\times 9.11\\ \\times 10−28\\ \\times 11)gm=6.0356\\ \\times 10−3gm =\\left(6.023 \\times 10^{23} \\times 9.11 \\times 10^{-28} \\times 11\\right) \\mathrm{gm}=6.0356 \\times 10^{-3} \\mathrm{gm} =(6.023\\ \\times 1023\\ \\times 9.11\\ \\times 10−28\\ \\times 11)gm=6.0356\\ \\times 10−3gm"
+    "explanationLatex": "$1 mole সোডিয়াম পরমাণুতে ইলেকট্রনের সংখ্যা 6.023\\ \\times 1023\\ \\times 11 6.023 \\times 10^{23} \\times 11 6.023\\ \\times 1023\\ \\times 11 ∴6.023\\ \\times 1023 \\therefore 6.023 \\times 10^{23} ∴6.023\\ \\times 1023 টি ইলেকট্রনের ভর =(6.023\\ \\times 1023\\ \\times 9.11\\ \\times 10−28\\ \\times 11)gm=6.0356\\ \\times 10−3gm =\\left(6.023 \\times 10^{23} \\times 9.11 \\times 10^{-28} \\times 11\\right) \\mathrm{gm}=6.0356 \\times 10^{-3} \\mathrm{gm} =(6.023\\ \\times 1023\\ \\times 9.11\\ \\times 10−28\\ \\times 11)gm=6.0356\\ \\times 10−3gm$"
   },
   {
     "id": 49,
@@ -969,7 +969,7 @@
       "d": "738"
     },
     "correctAnswer": "c",
-    "explanation": "গ্লুকোজ +ফুক্টোজ গ্লুকোজ (ফ্রুক্টোজ (মোট গ্লুকোজ এবং ফ্রুক্টোজ =(\\begin{array}{l}\\quad \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}+\\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\underset{\\text { গ্লুকোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}}+\\underset{\\text { ফুক্টোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}} \\\\ 684 \\mathrm{~g} \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}=\\frac{684}{342} \\text { mole }=2 \\text { mole } \\\\ 2 \\text { mole গ্লুকোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ 2 \\text { mole ফ্রুক্টোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ \\therefore \\text { মোট গ্লুকোজ এবং ফ্রুক্টোজ }=(360+360) \\mathrm{g}=720 \\mathrm{~g}\\end{array} C12H22O11+H2O→ গ্লুকোজ ফুক্টোজ গ্লুকোজ (ফ্রুক্টোজ (মোট গ্লুকোজ এবং ফ্রুক্টোজ =(",
+    "explanation": "C12H22O11+H2O→C6H12O6 গ্লুকোজ +C6H12O6 ফুক্টোজ 684 gC12H22O11=684342 mole =2 mole 2 mole গ্লুকোজ (C6H12O6)=2×180=360 g2 mole ফ্রুক্টোজ (C6H12O6)=2×180=360 g∴ মোট গ্লুকোজ এবং ফ্রুক্টোজ =(360+360)g=720 g \\begin{array}{l}\\quad \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}+\\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\underset{\\text { গ্লুকোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}}+\\underset{\\text { ফুক্টোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}} \\\\ 684 \\mathrm{~g} \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}=\\frac{684}{342} \\text { mole }=2 \\text { mole } \\\\ 2 \\text { mole গ্লুকোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ 2 \\text { mole ফ্রুক্টোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ \\therefore \\text { মোট গ্লুকোজ এবং ফ্রুক্টোজ }=(360+360) \\mathrm{g}=720 \\mathrm{~g}\\end{array} C12H22O11+H2O→ গ্লুকোজ C6H12O6+ ফুক্টোজ C6H12O6684 gC12H22O11=342684 mole =2 mole 2 mole গ্লুকোজ (C6H12O6)=2×180=360 g2 mole ফ্রুক্টোজ (C6H12O6)=2×180=360 g∴ মোট গ্লুকোজ এবং ফ্রুক্টোজ =(360+360)g=720 g",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -977,7 +977,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$আর্দ্র বিশ্লেষণে 684 গ্রাম সুক্রোজ(M=342) মোট কত গ্রাম গ্লুকোজ ও ফ্রুক্টোজ উৎপন্ন করে?$",
-    "explanationLatex": "গ্লুকোজ +ফুক্টোজ গ্লুকোজ (\\times 180=360 g2 mole ফ্রুক্টোজ (\\times 180=360 g∴ মোট গ্লুকোজ এবং ফ্রুক্টোজ =(\\begin{array}{l}\\quad \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}+\\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\underset{\\text { গ্লুকোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}}+\\underset{\\text { ফুক্টোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}} \\\\ 684 \\mathrm{~g} \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}=\\frac{684}{342} \\text { mole }=2 \\text { mole } \\\\ 2 \\text { mole গ্লুকোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ 2 \\text { mole ফ্রুক্টোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ \\therefore \\text { মোট গ্লুকোজ এবং ফ্রুক্টোজ }=(360+360) \\mathrm{g}=720 \\mathrm{~g}\\end{array} C12H22O11+H2O→ গ্লুকোজ ফুক্টোজ গ্লুকোজ (\\times 180=360 g2 mole ফ্রুক্টোজ (\\times 180=360 g∴ মোট গ্লুকোজ এবং ফ্রুক্টোজ =("
+    "explanationLatex": "$C12H22O11+H2O→C6H12O6 গ্লুকোজ +C6H12O6 ফুক্টোজ 684 gC12H22O11=684342 mole =2 mole 2 mole গ্লুকোজ (C6H12O6)=2\\ \\times 180=360 g2 mole ফ্রুক্টোজ (C6H12O6)=2\\ \\times 180=360 g∴ মোট গ্লুকোজ এবং ফ্রুক্টোজ =(360+360)g=720 g \\begin{array}{l}\\quad \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}+\\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\underset{\\text { গ্লুকোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}}+\\underset{\\text { ফুক্টোজ }}{\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}} \\\\ 684 \\mathrm{~g} \\mathrm{C}_{12} \\mathrm{H}_{22} \\mathrm{O}_{11}=\\frac{684}{342} \\text { mole }=2 \\text { mole } \\\\ 2 \\text { mole গ্লুকোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ 2 \\text { mole ফ্রুক্টোজ }\\left(\\mathrm{C}_{6} \\mathrm{H}_{12} \\mathrm{O}_{6}\\right)=2 \\times 180=360 \\mathrm{~g} \\\\ \\therefore \\text { মোট গ্লুকোজ এবং ফ্রুক্টোজ }=(360+360) \\mathrm{g}=720 \\mathrm{~g}\\end{array} C12H22O11+H2O→ গ্লুকোজ C6H12O6+ ফুক্টোজ C6H12O6684 gC12H22O11=342684 mole =2 mole 2 mole গ্লুকোজ (C6H12O6)=2\\ \\times 180=360 g2 mole ফ্রুক্টোজ (C6H12O6)=2\\ \\times 180=360 g∴ মোট গ্লুকোজ এবং ফ্রুক্টোজ =(360+360)g=720 g$"
   },
   {
     "id": 50,
@@ -989,7 +989,7 @@
       "d": "0.24 L"
     },
     "correctAnswer": "a",
-    "explanation": "CaCO3\\begin{array}{c}\\mathrm{CaCO}_{3} \\\\ \\mathrm{}\\end{array} \\xrightarrow{\\Delta} \\mathrm{CO}_{2}^{(1)+\\mathrm{CaO}} CaCO3ΔCO2(1)+CaO 100 g ~~~~~~~~~~~~~~~~~ 44g 100g CaCO₃ থেকে co₂ উৎপন্ন হয় ₃ থেকে co₂ উৎপন্ন হয় 44\\begin{array}{l}\\frac{44 \\times 10}{100} \\mathrm{~g} =4.4 \\mathrm{~g} \\\\\\end{array} 10044কক্ষ্য তাপমাত্রা, চাপ ₂ গ্যাসের আনবিক ভর, 44 g এখানে R এর মান = আমরা জানি, \\begin{aligned} P V & =n R T \\\\ \\Rightarrow P V & =\\frac{W}{M} R T \\\\ \\Rightarrow \\quad V & =\\frac{W R T}{M P} \\\\ \\Rightarrow V & =\\frac{4.4 \\times 0.0821 \\times 298}{44 \\times 1} \\\\ & =2.44658 \\mathrm{~L} \\\\ & =2446.58 \\mathrm{~mL}\\end{aligned} PV",
+    "explanation": "CaCO3→ΔCO2(1)+CaO \\begin{array}{c}\\mathrm{CaCO}_{3} \\\\ \\mathrm{}\\end{array} \\xrightarrow{\\Delta} \\mathrm{CO}_{2}^{(1)+\\mathrm{CaO}} CaCO3ΔCO2(1)+CaO 100 g ~~~~~~~~~~~~~~~~~ 44g 100g CaCO₃ থেকে co₂ উৎপন্ন হয় 44g 10g CaCO₃ থেকে co₂ উৎপন্ন হয় 44×10100 g=4.4 g \\begin{array}{l}\\frac{44 \\times 10}{100} \\mathrm{~g} =4.4 \\mathrm{~g} \\\\\\end{array} 10044×10 g=4.4 g কক্ষ্য তাপমাত্রা, T= 25°C = 25+273 = 298K চাপ P= 1 atm co₂ গ্যাসের আনবিক ভর, 44 g এখানে R এর মান = 0.0821 L atm/mol k আমরা জানি, PV=nRT⇒PV=WMRT⇒V=WRTMP⇒V=4.4×0.0821×29844×1=2.44658 L=2446.58 mL \\begin{aligned} P V & =n R T \\\\ \\Rightarrow P V & =\\frac{W}{M} R T \\\\ \\Rightarrow \\quad V & =\\frac{W R T}{M P} \\\\ \\Rightarrow V & =\\frac{4.4 \\times 0.0821 \\times 298}{44 \\times 1} \\\\ & =2.44658 \\mathrm{~L} \\\\ & =2446.58 \\mathrm{~mL}\\end{aligned} PV⇒PV⇒V⇒V=nRT=MWRT=MPWRT=44×14.4×0.0821×298=2.44658 L=2446.58 mL",
     "subject": "Chemistry",
     "hasDiagram": false,
     "questionImage": null,
@@ -997,6 +997,6 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$CaCO3CaCO_3CaCO3 যৌগটির মোলার ভর 100 g mol−1100\\ g\\ mol^{-1}100 g mol−1। 10 g CaCO310\\ g\\ CaCO_310 g CaCO3তাপ প্রয়োগ করে বিয়োজিত করা হলে যে পরিমান গ্যাস উৎপন্ন হয়, কক্ষ তাপমাত্রায় ও 111 বায়ুমন্ডল চাপে তার আয়তন-$",
-    "explanationLatex": "CaCO3→\\\\Delta CO2(1)+CaO \\begin{array}{c}\\mathrm{CaCO}_{3} \\\\ \\mathrm{}\\end{array} \\xrightarrow{\\Delta} \\mathrm{CO}_{2}^{(1)+\\mathrm{CaO}} CaCO3\\\\Delta CO2(1)+CaO 100 g ~~~~~~~~~~~~~~~~~ 44g 100g CaCO₃ থেকে co₂ উৎপন্ন হয় ₃ থেকে co₂ উৎপন্ন হয় 44\\ \\times 10100 g=4.4 g \\begin{array}{l}\\frac{44 \\times 10}{100} \\mathrm{~g} =4.4 \\mathrm{~g} \\\\\\end{array} 10044\\ \\times 10 g=4.4 g কক্ষ্য তাপমাত্রা, \\circ}C = 25+273 = 298K চাপ P= 1 atm co₂ গ্যাসের আনবিক ভর, 44 g এখানে R এর মান = \\frac{atm}{mol} k আমরা জানি, \\times 0.0821\\ \\times 29844\\ \\times 1=2.44658 L=2446.58 mL \\begin{aligned} P V & =n R T \\\\ \\Rightarrow P V & =\\frac{W}{M} R T \\\\ \\Rightarrow \\quad V & =\\frac{W R T}{M P} \\\\ \\Rightarrow V & =\\frac{4.4 \\times 0.0821 \\times 298}{44 \\times 1} \\\\ & =2.44658 \\mathrm{~L} \\\\ & =2446.58 \\mathrm{~mL}\\end{aligned} PV\\times 14.4\\ \\times 0.0821\\ \\times 298=2.44658 L=2446.58 mL"
+    "explanationLatex": "$CaCO3→\\\\Delta CO2(1)+CaO \\begin{array}{c}\\mathrm{CaCO}_{3} \\\\ \\mathrm{}\\end{array} \\xrightarrow{\\Delta} \\mathrm{CO}_{2}^{(1)+\\mathrm{CaO}} CaCO3\\\\Delta CO2(1)+CaO 100 g ~~~~~~~~~~~~~~~~~ 44g 100g CaCO₃ থেকে co₂ উৎপন্ন হয় 44g 10g CaCO₃ থেকে co₂ উৎপন্ন হয় 44\\ \\times 10100 g=4.4 g \\begin{array}{l}\\frac{44 \\times 10}{100} \\mathrm{~g} =4.4 \\mathrm{~g} \\\\\\end{array} 10044\\ \\times 10 g=4.4 g কক্ষ্য তাপমাত্রা, T= 25^{\\\\circ}C = 25+273 = 298K চাপ P= 1 atm co₂ গ্যাসের আনবিক ভর, 44 g এখানে R এর মান = 0.0821 L \\frac{atm}{mol} k আমরা জানি, PV=nRT⇒PV=WMRT⇒V=WRTMP⇒V=4.4\\ \\times 0.0821\\ \\times 29844\\ \\times 1=2.44658 L=2446.58 mL \\begin{aligned} P V & =n R T \\\\ \\Rightarrow P V & =\\frac{W}{M} R T \\\\ \\Rightarrow \\quad V & =\\frac{W R T}{M P} \\\\ \\Rightarrow V & =\\frac{4.4 \\times 0.0821 \\times 298}{44 \\times 1} \\\\ & =2.44658 \\mathrm{~L} \\\\ & =2446.58 \\mathrm{~mL}\\end{aligned} PV⇒PV⇒V⇒V=nRT=MWRT=MPWRT=44\\ \\times 14.4\\ \\times 0.0821\\ \\times 298=2.44658 L=2446.58 mL$"
   }
 ]

@@ -29,7 +29,7 @@
       "d": "63"
     },
     "correctAnswer": "a",
-    "explanation": "(\\begin{array}{l}(101001)_{2}= 1 \\times 2^{5}+0 \\times 2^{4}+1 \\times 2^{3}+ \\\\ 0 \\times 2^{2}+0 \\times 2^{1}+1 \\times 2^{0} \\\\ =32+0+8+0+0+1=(41)_{10}\\end{array} (101001)2=1",
+    "explanation": "(101001)2=1×25+0×24+1×23+0×22+0×21+1×20=32+0+8+0+0+1=(41)10 \\begin{array}{l}(101001)_{2}= 1 \\times 2^{5}+0 \\times 2^{4}+1 \\times 2^{3}+ \\\\ 0 \\times 2^{2}+0 \\times 2^{1}+1 \\times 2^{0} \\\\ =32+0+8+0+0+1=(41)_{10}\\end{array} (101001)2=1×25+0×24+1×23+0×22+0×21+1×20=32+0+8+0+0+1=(41)10",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -309,7 +309,7 @@
       "d": "15.33Ω"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{R}=\\frac{\\Delta \\mathrm{V}}{\\Delta \\mathrm{I}}=\\frac{0.7-0.3}{12 \\times 10^{-3}}=33 \\Omega R=ΔIΔV=12",
+    "explanation": "R=ΔVΔI=0.7−0.312×10−3=33Ω \\mathrm{R}=\\frac{\\Delta \\mathrm{V}}{\\Delta \\mathrm{I}}=\\frac{0.7-0.3}{12 \\times 10^{-3}}=33 \\Omega R=ΔIΔV=12×10−30.7−0.3=33Ω",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -529,7 +529,7 @@
       "d": "0.75 A"
     },
     "correctAnswer": "d",
-    "explanation": "4Ω 4 \\Omega 4Ω ও 12Ω 12 \\Omega 12Ω রোধের তুল্যরোধ =4\\frac{4 \\times 12}{4+12}=3 \\Omega =4+124\\Omega 3Ω ও 1Ω 1 \\Omega 1Ω এর তুল্যরোধ =(\\Omega =(3+1)=4Ω \\therefore I=\\frac{4}{4}=1 \\mathrm{amp} \\Omega 4Ω এর মধ্য দিয়ে \\mathrm{I}_{1}=\\frac{12}{12+4} \\times 1=0.75 \\mathrm{amp} I1=12+412ও \\Omega 12Ω এর মধ্য দিয়ে, \\mathrm{I}_{2}=1-0.75=0.25 \\mathrm{amp} I2=1−0.75=0.25amp",
+    "explanation": "4Ω 4 \\Omega 4Ω ও 12Ω 12 \\Omega 12Ω রোধের তুল্যরোধ =4×124+12=3Ω =\\frac{4 \\times 12}{4+12}=3 \\Omega =4+124×12=3Ω 3Ω 3 \\Omega 3Ω ও 1Ω 1 \\Omega 1Ω এর তুল্যরোধ =(3+1)=4Ω =(3+1)=4 \\Omega =(3+1)=4Ω ∴I=44=1amp \\therefore I=\\frac{4}{4}=1 \\mathrm{amp} ∴I=44=1amp 4Ω 4 \\Omega 4Ω এর মধ্য দিয়ে I1=1212+4×1=0.75amp \\mathrm{I}_{1}=\\frac{12}{12+4} \\times 1=0.75 \\mathrm{amp} I1=12+412×1=0.75amp ও 12Ω 12 \\Omega 12Ω এর মধ্য দিয়ে, I2=1−0.75=0.25amp \\mathrm{I}_{2}=1-0.75=0.25 \\mathrm{amp} I2=1−0.75=0.25amp",
     "subject": "Physics",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243874/gst-question-images/physics_________________________________-_varsity_arc_q29.png",
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$4\\\\Omega 4 \\Omega 4\\\\Omega এবং 12\\\\Omega 12 \\Omega 12\\\\Omega রোধ বিশিষ্ট দুটি তারকে সমানরাল করে 4 V 4 \\mathrm{~V} 4 V তড়িচ্চালক শক্তি বিশিষ্ট একটি ব্যাটারির সাথে যুক্ত করা হলো। বাটারির অভ্যন্তরীণ রোধ 1\\\\Omega 1 \\Omega 1\\\\Omega হলে 4\\\\Omega 4 \\Omega 4\\\\Omega তারের মধ্য দিয়ে কি পরিমাণ তড়িৎ প্রবাহিত হবে তা নির্ণয় কর।$",
-    "explanationLatex": "4\\\\Omega 4 \\Omega 4\\\\Omega ও 12\\\\Omega 12 \\Omega 12\\\\Omega রোধের তুল্যরোধ =4\\ \\times 124+12=3\\\\Omega =\\frac{4 \\times 12}{4+12}=3 \\Omega =4+124\\ \\times 12=3\\\\Omega 3\\\\Omega 3 \\Omega 3\\\\Omega ও 1\\\\Omega 1 \\Omega 1\\\\Omega এর তুল্যরোধ =(\\Omega =(3+1)=4 \\Omega =(3+1)=4\\\\Omega \\therefore I=\\frac{4}{4}=1 \\mathrm{amp} \\Omega 4 \\Omega 4\\\\Omega এর মধ্য দিয়ে \\times 1=0.75amp \\mathrm{I}_{1}=\\frac{12}{12+4} \\times 1=0.75 \\mathrm{amp} I1=12+412\\ \\times 1=0.75amp ও 12\\\\Omega 12 \\Omega 12\\\\Omega এর মধ্য দিয়ে, \\mathrm{I}_{2}=1-0.75=0.25 \\mathrm{amp} I2=1−0.75=0.25amp"
+    "explanationLatex": "$4\\\\Omega 4 \\Omega 4\\\\Omega ও 12\\\\Omega 12 \\Omega 12\\\\Omega রোধের তুল্যরোধ =4\\ \\times 124+12=3\\\\Omega =\\frac{4 \\times 12}{4+12}=3 \\Omega =4+124\\ \\times 12=3\\\\Omega 3\\\\Omega 3 \\Omega 3\\\\Omega ও 1\\\\Omega 1 \\Omega 1\\\\Omega এর তুল্যরোধ =(3+1)=4\\\\Omega =(3+1)=4 \\Omega =(3+1)=4\\\\Omega ∴I=44=1amp \\therefore I=\\frac{4}{4}=1 \\mathrm{amp} ∴I=44=1amp 4\\\\Omega 4 \\Omega 4\\\\Omega এর মধ্য দিয়ে I1=1212+4\\ \\times 1=0.75amp \\mathrm{I}_{1}=\\frac{12}{12+4} \\times 1=0.75 \\mathrm{amp} I1=12+412\\ \\times 1=0.75amp ও 12\\\\Omega 12 \\Omega 12\\\\Omega এর মধ্য দিয়ে, I2=1−0.75=0.25amp \\mathrm{I}_{2}=1-0.75=0.25 \\mathrm{amp} I2=1−0.75=0.25amp$"
   },
   {
     "id": 28,
@@ -609,7 +609,7 @@
       "d": "বিপরীত বায়াসে পারবে না"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{aligned} E & =h c / \\lambda \\\\ \\Rightarrow \\frac{h c}{\\lambda} & =1.8 \\times 1.6 \\times 10^{-19} \\\\ \\Rightarrow \\lambda & =\\frac{6.626 \\times 10^{-34} \\times 3 \\times 10^{8}}{1.8 \\times 1.6 \\times 10^{-19}} \\\\ \\Rightarrow \\lambda & =0.0000006 \\\\ \\Rightarrow \\lambda & =6000 \\mathrm{~nm}\\end{aligned} Eশক্তি ব্যবধান সম্পন্ন একটি অর্ধপরিবাহী দিয়ে একটি p-n ডায়োড তৈরি করা হলে, এটি তরঙ্গ দৈর্ঘ্য সনাক্ত করতে পারবে।",
+    "explanation": "E=hc/λ⇒hcλ=1.8×1.6×10−19⇒λ=6.626×10−34×3×1081.8×1.6×10−19⇒λ=0.0000006⇒λ=6000 nm \\begin{aligned} E & =h c / \\lambda \\\\ \\Rightarrow \\frac{h c}{\\lambda} & =1.8 \\times 1.6 \\times 10^{-19} \\\\ \\Rightarrow \\lambda & =\\frac{6.626 \\times 10^{-34} \\times 3 \\times 10^{8}}{1.8 \\times 1.6 \\times 10^{-19}} \\\\ \\Rightarrow \\lambda & =0.0000006 \\\\ \\Rightarrow \\lambda & =6000 \\mathrm{~nm}\\end{aligned} E⇒λhc⇒λ⇒λ⇒λ=hc/λ=1.8×1.6×10−19=1.8×1.6×10−196.626×10−34×3×108=0.0000006=6000 nm 1.8eV শক্তি ব্যবধান সম্পন্ন একটি অর্ধপরিবাহী দিয়ে একটি p-n ডায়োড তৈরি করা হলে, এটি 6000 nm তরঙ্গ দৈর্ঘ্য সনাক্ত করতে পারবে।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "1.8eV 1.8 \\mathrm{eV} 1.8eV শক্তি ব্যবধান সম্পন্ন একটি অর্ধপরিবাহী দিয়ে একটি p-n ডায়োড তৈরি করা হলে, এটি কি 6000 nm 6000 \\mathrm{~nm} 6000 nm তরঙ্গ দৈর্ঘ্য সনাক্ত করতে পারবে?",
-    "explanationLatex": "\\times 1.6\\ \\times 10−19\\times 10−34\\ \\times 3\\ \\times 1081.8\\ \\times 1.6\\ \\times 10−19\\begin{aligned} E & =h c / \\lambda \\\\ \\Rightarrow \\frac{h c}{\\lambda} & =1.8 \\times 1.6 \\times 10^{-19} \\\\ \\Rightarrow \\lambda & =\\frac{6.626 \\times 10^{-34} \\times 3 \\times 10^{8}}{1.8 \\times 1.6 \\times 10^{-19}} \\\\ \\Rightarrow \\lambda & =0.0000006 \\\\ \\Rightarrow \\lambda & =6000 \\mathrm{~nm}\\end{aligned} E\\times 1.6\\ \\times 10−19=1.8\\ \\times 1.6\\ \\times 10−196.626\\ \\times 10−34\\ \\times 3\\ \\times 108=0.0000006=6000 nm 1.8eV শক্তি ব্যবধান সম্পন্ন একটি অর্ধপরিবাহী দিয়ে একটি p-n ডায়োড তৈরি করা হলে, এটি তরঙ্গ দৈর্ঘ্য সনাক্ত করতে পারবে।"
+    "explanationLatex": "$E=hc/λ⇒hcλ=1.8\\ \\times 1.6\\ \\times 10−19⇒λ=6.626\\ \\times 10−34\\ \\times 3\\ \\times 1081.8\\ \\times 1.6\\ \\times 10−19⇒λ=0.0000006⇒λ=6000 nm \\begin{aligned} E & =h c / \\lambda \\\\ \\Rightarrow \\frac{h c}{\\lambda} & =1.8 \\times 1.6 \\times 10^{-19} \\\\ \\Rightarrow \\lambda & =\\frac{6.626 \\times 10^{-34} \\times 3 \\times 10^{8}}{1.8 \\times 1.6 \\times 10^{-19}} \\\\ \\Rightarrow \\lambda & =0.0000006 \\\\ \\Rightarrow \\lambda & =6000 \\mathrm{~nm}\\end{aligned} E⇒λhc⇒λ⇒λ⇒λ=hc/λ=1.8\\ \\times 1.6\\ \\times 10−19=1.8\\ \\times 1.6\\ \\times 10−196.626\\ \\times 10−34\\ \\times 3\\ \\times 108=0.0000006=6000 nm 1.8eV শক্তি ব্যবধান সম্পন্ন একটি অর্ধপরিবাহী দিয়ে একটি p-n ডায়োড তৈরি করা হলে, এটি 6000 nm তরঙ্গ দৈর্ঘ্য সনাক্ত করতে পারবে।$"
   },
   {
     "id": 32,
@@ -689,7 +689,7 @@
       "d": "0.35 Ω 0.35Ω"
     },
     "correctAnswer": "b",
-    "explanation": "\\frac{\\Delta V}{\\Delta I}=\\frac{0.1}{400\\times10^{-3}}=0.25\\OmegaR=ΔIΔV=400",
+    "explanation": "R=ΔVΔI=0.1400×10−3=0.25ΩR=\\frac{\\Delta V}{\\Delta I}=\\frac{0.1}{400\\times10^{-3}}=0.25\\OmegaR=ΔIΔV=400×10−30.1=0.25Ω",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -809,7 +809,7 @@
       "d": "১ থেকে ছোট"
     },
     "correctAnswer": "a",
-    "explanation": "পরিবাহীতে \\alpha = +{ve}α=+ve অর্ধ-পরিবাহীতে \\alpha = –{ve}α=–ve যে সকল পদার্থের রোধের উষ্ণতা সহগ α ঋণাত্মক, উষ্ণতা বৃদ্ধিতে সেসকল পদার্থের রোধ হ্রাস পায়। যেমন কার্বন, থার্মিস্টর ইত্যাদি। সম্প্রতি অর্ধপরিবাহীর (রোধ পরিবর্তনের দ্বারা তাপমাত্রা পরিবর্তন পরিমাপের উপায় উদ্ভাবিত হয়েছে। একে বলে থার্মিস্টর।",
+    "explanation": "পরিবাহীতে → α=+ve\\alpha = +{ve}α=+ve অর্ধ-পরিবাহীতে → α=–ve\\alpha = –{ve}α=–ve যে সকল পদার্থের রোধের উষ্ণতা সহগ α ঋণাত্মক, উষ্ণতা বৃদ্ধিতে সেসকল পদার্থের রোধ হ্রাস পায়। যেমন কার্বন, থার্মিস্টর ইত্যাদি। সম্প্রতি অর্ধপরিবাহীর (Semiconductor) রোধ পরিবর্তনের দ্বারা তাপমাত্রা পরিবর্তন পরিমাপের উপায় উদ্ভাবিত হয়েছে। একে বলে থার্মিস্টর।",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "যে সকল পদার্থের উষ্ণতা বৃদ্ধিতে রোধ বৃদ্ধি পায় তাদের উষ্ণতা সহগ α\\alphaα এর মান-",
-    "explanationLatex": "পরিবাহীতে \\alpha = +{ve}α=+ve অর্ধ-পরিবাহীতে \\alpha = –{ve}α=–ve যে সকল পদার্থের রোধের উষ্ণতা সহগ α ঋণাত্মক, উষ্ণতা বৃদ্ধিতে সেসকল পদার্থের রোধ হ্রাস পায়। যেমন কার্বন, থার্মিস্টর ইত্যাদি। সম্প্রতি অর্ধপরিবাহীর (রোধ পরিবর্তনের দ্বারা তাপমাত্রা পরিবর্তন পরিমাপের উপায় উদ্ভাবিত হয়েছে। একে বলে থার্মিস্টর।"
+    "explanationLatex": "$পরিবাহীতে → α=+ve\\alpha = +{ve}α=+ve অর্ধ-পরিবাহীতে → α=–ve\\alpha = –{ve}α=–ve যে সকল পদার্থের রোধের উষ্ণতা সহগ α ঋণাত্মক, উষ্ণতা বৃদ্ধিতে সেসকল পদার্থের রোধ হ্রাস পায়। যেমন কার্বন, থার্মিস্টর ইত্যাদি। সম্প্রতি অর্ধপরিবাহীর (Semiconductor) রোধ পরিবর্তনের দ্বারা তাপমাত্রা পরিবর্তন পরিমাপের উপায় উদ্ভাবিত হয়েছে। একে বলে থার্মিস্টর।$"
   },
   {
     "id": 42,
@@ -857,7 +857,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "পরিবাহীর আপেক্ষিক রোধ কত ক্রমের?",
-    "explanationLatex": "অন্তরক \\Omega m10^{12} \\\\Omega m1012\\\\Omega m পরিবাহী \\Omega m10^{-8} \\\\Omega m10−8\\\\Omega m অপরিবাহী\\Omega m10^{-4} \\\\Omega m10−4\\\\Omega m"
+    "explanationLatex": "$অন্তরক → 1012\\\\Omega m10^{12} \\\\Omega m1012\\\\Omega m পরিবাহী → 10−8\\\\Omega m10^{-8} \\\\Omega m10−8\\\\Omega m অপরিবাহী→ 10−4\\\\Omega m10^{-4} \\\\Omega m10−4\\\\Omega m$"
   },
   {
     "id": 44,
@@ -869,7 +869,7 @@
       "d": "𝑋 = 𝐴 . 𝐵 ‾ X= A.B"
     },
     "correctAnswer": "a",
-    "explanation": "A+B\\begin{array}{l} A+B \\rightarrow O R \\\\ A B \\rightarrow A N D \\\\ \\bar{A} \\rightarrow \\text { NOT } \\\\ \\overline{A+B} \\rightarrow \\text { NOR } \\\\ \\overline{A B} \\rightarrow \\text { NAND } \\\\ A \\oplus B=\\bar{A} B+A \\bar{B} \\rightarrow X-O R \\\\ \\overline{A \\oplus B}=\\bar{A} \\bar{B}+A B \\rightarrow X-N O R\\end{array} A+B",
+    "explanation": "A+B→ORAB→ANDAˉ→ NOT A+B‾→ NOR AB‾→ NAND A⊕B=AˉB+ABˉ→X−ORA⊕B‾=AˉBˉ+AB→X−NOR \\begin{array}{l} A+B \\rightarrow O R \\\\ A B \\rightarrow A N D \\\\ \\bar{A} \\rightarrow \\text { NOT } \\\\ \\overline{A+B} \\rightarrow \\text { NOR } \\\\ \\overline{A B} \\rightarrow \\text { NAND } \\\\ A \\oplus B=\\bar{A} B+A \\bar{B} \\rightarrow X-O R \\\\ \\overline{A \\oplus B}=\\bar{A} \\bar{B}+A B \\rightarrow X-N O R\\end{array} A+B→ORAB→ANDAˉ→ NOT A+B→ NOR AB→ NAND A⊕B=AˉB+ABˉ→X−ORA⊕B=AˉBˉ+AB→X−NOR",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -877,7 +877,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "OR গেটের বুলিয়ান সমীকরণ -",
-    "explanationLatex": "A+B\\begin{array}{l} A+B \\rightarrow O R \\\\ A B \\rightarrow A N D \\\\ \\bar{A} \\rightarrow \\text { NOT } \\\\ \\overline{A+B} \\rightarrow \\text { NOR } \\\\ \\overline{A B} \\rightarrow \\text { NAND } \\\\ A \\oplus B=\\bar{A} B+A \\bar{B} \\rightarrow X-O R \\\\ \\overline{A \\oplus B}=\\bar{A} \\bar{B}+A B \\rightarrow X-N O R\\end{array} A+B"
+    "explanationLatex": "$A+B→ORAB→ANDAˉ→ NOT A+B‾→ NOR AB‾→ NAND A⊕B=AˉB+ABˉ→X−ORA⊕B‾=AˉBˉ+AB→X−NOR \\begin{array}{l} A+B \\rightarrow O R \\\\ A B \\rightarrow A N D \\\\ \\bar{A} \\rightarrow \\text { NOT } \\\\ \\overline{A+B} \\rightarrow \\text { NOR } \\\\ \\overline{A B} \\rightarrow \\text { NAND } \\\\ A \\oplus B=\\bar{A} B+A \\bar{B} \\rightarrow X-O R \\\\ \\overline{A \\oplus B}=\\bar{A} \\bar{B}+A B \\rightarrow X-N O R\\end{array} A+B→ORAB→ANDAˉ→ NOT A+B→ NOR AB→ NAND A⊕B=AˉB+ABˉ→X−ORA⊕B=AˉBˉ+AB→X−NOR$"
   },
   {
     "id": 45,

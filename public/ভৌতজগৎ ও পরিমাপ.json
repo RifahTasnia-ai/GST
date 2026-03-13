@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "এক এ্যাস্ট্রোনোমিক্যাল ইউনিট সমান কত মিটার?",
-    "explanationLatex": "সঠিক উত্তর: (a) 1.552\\ \\times 107।"
+    "explanationLatex": "$সঠিক উত্তর: (a) 1.552\\ \\times 107।$"
   },
   {
     "id": 12,
@@ -277,7 +277,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ন্যানাে বুঝায় কোনটি?",
-    "explanationLatex": "সঠিক উত্তর: (a) 10^{-6}।"
+    "explanationLatex": "$সঠিক উত্তর: (a) 10^{-6}।$"
   },
   {
     "id": 15,
@@ -297,7 +297,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিম্নের কোনটি বিদ্যুৎ চুম্বকীয় এর একক?",
-    "explanationLatex": "সঠিক উত্তর: (a) 3 \\ \\times 1010 esu।"
+    "explanationLatex": "$সঠিক উত্তর: (a) 3 \\ \\times 1010 esu।$"
   },
   {
     "id": 16,
@@ -357,7 +357,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "C.G.S এককে বোলজম্যান ধ্রুবকের মান S.I. এককের মান অপেক্ষা কতগুণ বেশি ?",
-    "explanationLatex": "সঠিক উত্তর: (a) 10^{-7}।"
+    "explanationLatex": "$সঠিক উত্তর: (a) 10^{-7}।$"
   },
   {
     "id": 19,
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "বল ও শক্তির মাত্রা যথাক্রমেঃ",
-    "explanationLatex": "সঠিক উত্তর: (a) LT^{-2} ও MLT^{-2}।"
+    "explanationLatex": "$সঠিক উত্তর: (a) LT^{-2} ও MLT^{-2}।$"
   },
   {
     "id": 31,
@@ -657,7 +657,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কোনটি সঠিক নয়?",
-    "explanationLatex": "সঠিক উত্তর: (a) পীড়ন=[ML-1L-2]।"
+    "explanationLatex": "$সঠিক উত্তর: (a) পীড়ন=[ML-1L-2]।$"
   },
   {
     "id": 34,
@@ -677,7 +677,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "এক গাউস সমান-",
-    "explanationLatex": "সঠিক উত্তর: (a) 10^{-6}T (Tesla)।"
+    "explanationLatex": "$সঠিক উত্তর: (a) 10^{-6}T (Tesla)।$"
   },
   {
     "id": 35,

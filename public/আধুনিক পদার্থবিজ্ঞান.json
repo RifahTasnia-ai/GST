@@ -9,7 +9,7 @@
       "d": "3 2 𝑐 2 3 c"
     },
     "correctAnswer": "d",
-    "explanation": "\\left(m-m_o\\right)c^2Ek=(m−mo)c2 প্রশ্নমতে, (\\left(m-m_o\\right)c^2=m_oc^2(m−mo)c2=moc2 \\Rightarrow m=2m_o\\Rightarrow\\frac{m_o}{\\sqrt{1-\\frac{v^2}{c^2}}}=2m_o\\Rightarrow\\sqrt{1-\\frac{v^2}{c^2}}=\\frac{1}{2}\\Rightarrow1-\\frac{v^2}{c^2}=\\frac{1}{4}\\Rightarrow\\frac{v^2}{c^2}=\\frac{3}{4}\\Rightarrow v=\\frac{\\sqrt{3}}{2}c",
+    "explanation": "Ek=(m−mo)c2E_k=\\left(m-m_o\\right)c^2Ek=(m−mo)c2 প্রশ্নমতে, (m−mo)c2=moc2\\left(m-m_o\\right)c^2=m_oc^2(m−mo)c2=moc2 ⇒m=2mo⇒mo1−v2c2=2mo⇒1−v2c2=12⇒1−v2c2=14⇒v2c2=34⇒v=32c\\Rightarrow m=2m_o\\Rightarrow\\frac{m_o}{\\sqrt{1-\\frac{v^2}{c^2}}}=2m_o\\Rightarrow\\sqrt{1-\\frac{v^2}{c^2}}=\\frac{1}{2}\\Rightarrow1-\\frac{v^2}{c^2}=\\frac{1}{4}\\Rightarrow\\frac{v^2}{c^2}=\\frac{3}{4}\\Rightarrow v=\\frac{\\sqrt{3}}{2}c⇒m=2mo⇒1−c2v2mo=2mo⇒1−c2v2=21⇒1−c2v2=41⇒c2v2=43⇒v=23c",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -17,7 +17,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$কত গতিতে চললে কোন বস্তুর গতিশক্তিকে এর স্থির ভর শক্তির সমান হবে ? [c= আলোর গতি]$",
-    "explanationLatex": "\\left(m-m_o\\right)c^2Ek=(m−mo)c2 প্রশ্নমতে, (\\left(m-m_o\\right)c^2=m_oc^2(m−mo)c2=moc2 \\Rightarrow m=2m_o\\Rightarrow\\frac{m_o}{\\sqrt{1-\\frac{v^2}{c^2}}}=2m_o\\Rightarrow\\sqrt{1-\\frac{v^2}{c^2}}=\\frac{1}{2}\\Rightarrow1-\\frac{v^2}{c^2}=\\frac{1}{4}\\Rightarrow\\frac{v^2}{c^2}=\\frac{3}{4}\\Rightarrow v=\\frac{\\sqrt{3}}{2}c"
+    "explanationLatex": "$Ek=(m−mo)c2E_k=\\left(m-m_o\\right)c^2Ek=(m−mo)c2 প্রশ্নমতে, (m−mo)c2=moc2\\left(m-m_o\\right)c^2=m_oc^2(m−mo)c2=moc2 ⇒m=2mo⇒mo1−v2c2=2mo⇒1−v2c2=12⇒1−v2c2=14⇒v2c2=34⇒v=32c\\Rightarrow m=2m_o\\Rightarrow\\frac{m_o}{\\sqrt{1-\\frac{v^2}{c^2}}}=2m_o\\Rightarrow\\sqrt{1-\\frac{v^2}{c^2}}=\\frac{1}{2}\\Rightarrow1-\\frac{v^2}{c^2}=\\frac{1}{4}\\Rightarrow\\frac{v^2}{c^2}=\\frac{3}{4}\\Rightarrow v=\\frac{\\sqrt{3}}{2}c⇒m=2mo⇒1−c2v2mo=2mo⇒1−c2v2=21⇒1−c2v2=41⇒c2v2=43⇒v=23c$"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "d": "maximum"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{aligned} & h f=h f_{0}+K_{\\max } \\\\ \\Rightarrow & h f_{0}=h f_{0}+K_{\\max }\\left[f=f_{0}\\right] \\\\ \\Rightarrow & K_{\\text {max }}=0 \\\\ \\Rightarrow & V_{\\text {max }}=0 \\mathrm{~ms}^{-1}\\end{aligned}",
+    "explanation": "hf=hf0+Kmax⁡⇒hf0=hf0+Kmax⁡[f=f0]⇒Kmax =0⇒Vmax =0 ms−1 \\begin{aligned} & h f=h f_{0}+K_{\\max } \\\\ \\Rightarrow & h f_{0}=h f_{0}+K_{\\max }\\left[f=f_{0}\\right] \\\\ \\Rightarrow & K_{\\text {max }}=0 \\\\ \\Rightarrow & V_{\\text {max }}=0 \\mathrm{~ms}^{-1}\\end{aligned} ⇒⇒⇒hf=hf0+Kmaxhf0=hf0+Kmax[f=f0]Kmax =0Vmax =0 ms−1",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সূচন কম্পঙ্কের আলোর জন্য ধাতু থেকে নির্গত ইলেকট্রনের বেগ হচ্ছে-",
-    "explanationLatex": "\\begin{aligned} & h f=h f_{0}+K_{\\max } \\\\ \\Rightarrow & h f_{0}=h f_{0}+K_{\\max }\\left[f=f_{0}\\right] \\\\ \\Rightarrow & K_{\\text {max }}=0 \\\\ \\Rightarrow & V_{\\text {max }}=0 \\mathrm{~ms}^{-1}\\end{aligned}"
+    "explanationLatex": "$hf=hf0+Kmax⁡⇒hf0=hf0+Kmax⁡[f=f0]⇒Kmax =0⇒Vmax =0 ms−1 \\begin{aligned} & h f=h f_{0}+K_{\\max } \\\\ \\Rightarrow & h f_{0}=h f_{0}+K_{\\max }\\left[f=f_{0}\\right] \\\\ \\Rightarrow & K_{\\text {max }}=0 \\\\ \\Rightarrow & V_{\\text {max }}=0 \\mathrm{~ms}^{-1}\\end{aligned} ⇒⇒⇒hf=hf0+Kmaxhf0=hf0+Kmax[f=f0]Kmax =0Vmax =0 ms−1$"
   },
   {
     "id": 3,
@@ -89,7 +89,7 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "a",
-    "explanation": "\\sqrt{1-\\frac{v^2}{c^2}}\\Rightarrow L=L_0\\sqrt{1-\\left\\{\\frac{\\left(\\frac{\\sqrt{3}}{2}C\\right)^2}{c^2}\\right\\}}L=L01−c2v2\\Rightarrow L=L_0\\sqrt{1-\\frac{3c^2}{4c^2}}\\Rightarrow L=L_0\\sqrt{\\frac{4-3}{4}}\\Rightarrow L=L_0\\sqrt{\\frac{1}{4}}\\ \\therefore L=\\frac{L_0}{2}",
+    "explanation": "L=L01−v2c2⇒L=L01−{(32C)2c2}L=L_0\\sqrt{1-\\frac{v^2}{c^2}}\\Rightarrow L=L_0\\sqrt{1-\\left\\{\\frac{\\left(\\frac{\\sqrt{3}}{2}C\\right)^2}{c^2}\\right\\}}L=L01−c2v2⇒L=L01−{c2(23C)2} ⇒L=L01−3c24c2⇒L=L04−34\\Rightarrow L=L_0\\sqrt{1-\\frac{3c^2}{4c^2}}\\Rightarrow L=L_0\\sqrt{\\frac{4-3}{4}}⇒L=L01−4c23c2⇒L=L044−3 ⇒L=L014 ∴L=L02\\Rightarrow L=L_0\\sqrt{\\frac{1}{4}}\\ \\therefore L=\\frac{L_0}{2}⇒L=L041 ∴L=2L0",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি মহাকাশ যানের গতি \\\\sqrt{}\\frac{3}{2} C। তোমার কাছে মহাকাশ যানের দৈর্ঘ্য তার প্রকৃত দৈর্ঘ্যের-$",
-    "explanationLatex": "\\sqrt{1-\\frac{v^2}{c^2}}\\Rightarrow L=L_0\\sqrt{1-\\left\\{\\frac{\\left(\\frac{\\sqrt{3}}{2}C\\right)^2}{c^2}\\right\\}}L=L01−c2v2\\Rightarrow L=L_0\\sqrt{1-\\frac{3c^2}{4c^2}}\\Rightarrow L=L_0\\sqrt{\\frac{4-3}{4}}\\Rightarrow L=L_0\\sqrt{\\frac{1}{4}}\\ \\therefore L=\\frac{L_0}{2}"
+    "explanationLatex": "$L=L01−v2c2⇒L=L01−{(32C)2c2}L=L_0\\sqrt{1-\\frac{v^2}{c^2}}\\Rightarrow L=L_0\\sqrt{1-\\left\\{\\frac{\\left(\\frac{\\sqrt{3}}{2}C\\right)^2}{c^2}\\right\\}}L=L01−c2v2⇒L=L01−{c2(23C)2} ⇒L=L01−3c24c2⇒L=L04−34\\Rightarrow L=L_0\\sqrt{1-\\frac{3c^2}{4c^2}}\\Rightarrow L=L_0\\sqrt{\\frac{4-3}{4}}⇒L=L01−4c23c2⇒L=L044−3 ⇒L=L014 ∴L=L02\\Rightarrow L=L_0\\sqrt{\\frac{1}{4}}\\ \\therefore L=\\frac{L_0}{2}⇒L=L041 ∴L=2L0$"
   },
   {
     "id": 6,
@@ -109,7 +109,7 @@
       "d": "2.4 × 10 − 10 𝐽 2.4×10 −10 J"
     },
     "correctAnswer": "b",
-    "explanation": "\\frac{hc}{\\lambda}=\\frac{6.63\\times{10}^{-34}\\times3\\times{10}^8}{585\\times{10}^{-9}}=3.4\\times{10}^{-19}JE=λhc=585",
+    "explanation": "E=hcλ=6.63×10−34×3×108585×10−9=3.4×10−19JE=\\frac{hc}{\\lambda}=\\frac{6.63\\times{10}^{-34}\\times3\\times{10}^8}{585\\times{10}^{-9}}=3.4\\times{10}^{-19}JE=λhc=585×10−96.63×10−34×3×108=3.4×10−19J",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -137,7 +137,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কত বেগে একটি কণা গতিশীল হলে এর ভর দ্বিগুণ হবে ?",
-    "explanationLatex": "একটি কণার ভর দ্বিগুণ করার জন্য, তার বেগ আলোর বেগের \\\\sqrt{}\\frac{3}{2} গুণ হতে হবে। ব্যাখ্যা: আইনস্টাইনের বিশেষ আপেক্ষিকতার তত্ত্ব অনুসারে, একটি কণার ভর (m) এবং বেগ (v) এর মধ্যে সম্পর্ক নির্ণয়ের জন্য নিম্নলিখিত সূত্র ব্যবহার করা হয়: m = m\\sqrt{}(1 - vযেখানে: mকণার স্থির ভর v = কণার বেগ c = শূন্য মাধ্যমে আলোর বেগ সমাধান: ধরা যাক, কণার ভর দ্বিগুণ হয়েছে। তাহলে, ₀ উপরের সূত্রে মান বসালে, 2m\\sqrt{}(1 - v\\sqrt{}(-3cকিন্তু, বেগ একটি বাস্তব সংখ্যা। -3c² একটি ঋণাত্মক সংখ্যা। ঋণাত্মক সংখ্যার বর্গমূল একটি অবাস্তব সংখ্যা। অতএব, কণার বেগ বাস্তব সংখ্যা হলে কণার ভর দ্বিগুণ করা সম্ভব নয়।"
+    "explanationLatex": "$একটি কণার ভর দ্বিগুণ করার জন্য, তার বেগ আলোর বেগের \\\\sqrt{}\\frac{3}{2} গুণ হতে হবে। ব্যাখ্যা: আইনস্টাইনের বিশেষ আপেক্ষিকতার তত্ত্ব অনুসারে, একটি কণার ভর (m) এবং বেগ (v) এর মধ্যে সম্পর্ক নির্ণয়ের জন্য নিম্নলিখিত সূত্র ব্যবহার করা হয়: m = m₀ / \\\\sqrt{}(1 - v²/c²) যেখানে: m₀ = কণার স্থির ভর v = কণার বেগ c = শূন্য মাধ্যমে আলোর বেগ সমাধান: ধরা যাক, কণার ভর দ্বিগুণ হয়েছে। তাহলে, m = 2m₀ উপরের সূত্রে মান বসালে, 2m₀ = m₀ / \\\\sqrt{}(1 - v²/c²) 4 = 1 - v²/c² v²/c² = 1 - 4 v²/c² = -3 v² = -3c² v = \\\\sqrt{}(-3c²) কিন্তু, বেগ একটি বাস্তব সংখ্যা। -3c² একটি ঋণাত্মক সংখ্যা। ঋণাত্মক সংখ্যার বর্গমূল একটি অবাস্তব সংখ্যা। অতএব, কণার বেগ বাস্তব সংখ্যা হলে কণার ভর দ্বিগুণ করা সম্ভব নয়।$"
   },
   {
     "id": 8,
@@ -149,7 +149,7 @@
       "d": "6.315 x 10-34 m"
     },
     "correctAnswer": "a",
-    "explanation": "\\mathrm{mv}=\\frac{\\mathrm{h}}{\\lambda} mv=λh \\Rightarrow \\lambda=\\frac{\\mathrm{h}}{\\mathrm{mv}}=\\frac{6.63 \\times 10^{-34}}{1 \\times 10^{-3} \\times 2000}=3.315 \\times 10^{-34} \\mathrm{~m}",
+    "explanation": "mv=hλ \\mathrm{mv}=\\frac{\\mathrm{h}}{\\lambda} mv=λh ⇒λ=hmv=6.63×10−341×10−3×2000=3.315×10−34 m \\Rightarrow \\lambda=\\frac{\\mathrm{h}}{\\mathrm{mv}}=\\frac{6.63 \\times 10^{-34}}{1 \\times 10^{-3} \\times 2000}=3.315 \\times 10^{-34} \\mathrm{~m} ⇒λ=mvh=1×10−3×20006.63×10−34=3.315×10−34 m",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$1g ভরের একটি কণা 2000 ms^{-1} বেগে গতিশীল। কণাটির সাথে সংশ্লিষ্ট তরঙ্গের তরঙ্গদৈর্ঘ্য কত?$",
-    "explanationLatex": "\\mathrm{mv}=\\frac{\\mathrm{h}}{\\lambda} mv=λh \\times 10−341\\ \\times 10−3\\ \\times 2000=3.315\\ \\times 10−34 m \\Rightarrow \\lambda=\\frac{\\mathrm{h}}{\\mathrm{mv}}=\\frac{6.63 \\times 10^{-34}}{1 \\times 10^{-3} \\times 2000}=3.315 \\times 10^{-34} \\mathrm{~m} \\times 10−3\\ \\times 20006.63\\ \\times 10−34=3.315\\ \\times 10−34 m"
+    "explanationLatex": "$mv=hλ \\mathrm{mv}=\\frac{\\mathrm{h}}{\\lambda} mv=λh ⇒λ=hmv=6.63\\ \\times 10−341\\ \\times 10−3\\ \\times 2000=3.315\\ \\times 10−34 m \\Rightarrow \\lambda=\\frac{\\mathrm{h}}{\\mathrm{mv}}=\\frac{6.63 \\times 10^{-34}}{1 \\times 10^{-3} \\times 2000}=3.315 \\times 10^{-34} \\mathrm{~m} ⇒λ=mvh=1\\ \\times 10−3\\ \\times 20006.63\\ \\times 10−34=3.315\\ \\times 10−34 m$"
   },
   {
     "id": 9,
@@ -221,7 +221,7 @@
   },
   {
     "id": 12,
-    "question": "2\\times{10}^{-23}J2গতিশক্তি বিশিষ্ট কোনো নিউট্রনকে থামাতে কত ভোল্ট প্রয়োগ করতে হবে?",
+    "question": "2×10−23J2\\times{10}^{-23}J2×10−23J গতিশক্তি বিশিষ্ট কোনো নিউট্রনকে থামাতে কত ভোল্ট প্রয়োগ করতে হবে?",
     "options": {
       "a": "1.25 × 10 − 4 𝑉 1.25×10 −4 V",
       "b": "2.25 × 10 − 4 𝑉 2.25×10 −4 V",
@@ -329,7 +329,7 @@
       "d": "𝑐 2 2 c"
     },
     "correctAnswer": "a",
-    "explanation": "একটি ফোটনের সাপেক্ষে অপর ফোটনটির বেগ-আলোর বেগের থেকে বেশি কখনো হতে পারেনা। \\frac{v_1 - v_2}{1-\\frac{v_1 v_2}{c²}} = \\frac{c + c}{1+\\frac{c \\times c}{c²}} = c vr=1−c2v1v2v1−v2=1+c2c",
+    "explanation": "একটি ফোটনের সাপেক্ষে অপর ফোটনটির বেগ-আলোর বেগের থেকে বেশি কখনো হতে পারেনা। vr=v1−v21−v1v2c2=c+c1+c×cc2=cv_r = \\frac{v_1 - v_2}{1-\\frac{v_1 v_2}{c²}} = \\frac{c + c}{1+\\frac{c \\times c}{c²}} = c vr=1−c2v1v2v1−v2=1+c2c×cc+c=c",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -337,7 +337,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "আলোর বেগ শূন্য মাধ্যমে ccc। শূন্য মাধ্যমে দুটি ফোটন কণা বিপরীত দিক থেকে ccc বেগে ধাবমান হলে, একটি ফোটনের সাপেক্ষে অপর ফোটনটির বেগ-",
-    "explanationLatex": "একটি ফোটনের সাপেক্ষে অপর ফোটনটির বেগ-আলোর বেগের থেকে বেশি কখনো হতে পারেনা। \\times cc2=cv_r = \\frac{v_1 - v_2}{1-\\frac{v_1 v_2}{c²}} = \\frac{c + c}{1+\\frac{c \\times c}{c²}} = c vr=1−c2v1v2v1−v2=1+c2c\\ \\times cc+c=c"
+    "explanationLatex": "$একটি ফোটনের সাপেক্ষে অপর ফোটনটির বেগ-আলোর বেগের থেকে বেশি কখনো হতে পারেনা। vr=v1−v21−v1v2c2=c+c1+c\\ \\times cc2=cv_r = \\frac{v_1 - v_2}{1-\\frac{v_1 v_2}{c²}} = \\frac{c + c}{1+\\frac{c \\times c}{c²}} = c vr=1−c2v1v2v1−v2=1+c2c\\ \\times cc+c=c$"
   },
   {
     "id": 18,
@@ -369,7 +369,7 @@
       "d": "কমবে"
     },
     "correctAnswer": "a",
-    "explanation": "আইনস্টাইনের আপেক্ষিক তত্ত্ব অনুসারে বেগ বাড়লে ভর বাড়বে। বেগ বাড়লে শক্তির পরিমাণ বাড়ে এবং শক্তি ও ভর সমতুল্য হওয়ায়, ভরও বাড়ে। বেগ যখন শূন্য হয়, তখন ভর স্থির থাকে। বেগ যখন আলোর বেগের কাছাকাছি হয়, তখন ভর অসীম হয়ে যায়। \\frac{m_0}{\\sqrt{1-\\frac{v²}{c²}}} m=1−c2v2m0",
+    "explanation": "আইনস্টাইনের আপেক্ষিক তত্ত্ব অনুসারে বেগ বাড়লে ভর বাড়বে। বেগ বাড়লে শক্তির পরিমাণ বাড়ে এবং শক্তি ও ভর সমতুল্য হওয়ায়, ভরও বাড়ে। বেগ যখন শূন্য হয়, তখন ভর স্থির থাকে। বেগ যখন আলোর বেগের কাছাকাছি হয়, তখন ভর অসীম হয়ে যায়। m=m01−v2c2 m = \\frac{m_0}{\\sqrt{1-\\frac{v²}{c²}}} m=1−c2v2m0",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -377,7 +377,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "আইনস্টাইনের আপেক্ষিক তত্ত্ব অনুসারে বস্তুর বেগ বাড়লে এর ভরের কি হবে?",
-    "explanationLatex": "আইনস্টাইনের আপেক্ষিক তত্ত্ব অনুসারে বেগ বাড়লে ভর বাড়বে। বেগ বাড়লে শক্তির পরিমাণ বাড়ে এবং শক্তি ও ভর সমতুল্য হওয়ায়, ভরও বাড়ে। বেগ যখন শূন্য হয়, তখন ভর স্থির থাকে। বেগ যখন আলোর বেগের কাছাকাছি হয়, তখন ভর অসীম হয়ে যায়। \\frac{m_0}{\\sqrt{1-\\frac{v²}{c²}}} m=1−c2v2m0"
+    "explanationLatex": "$আইনস্টাইনের আপেক্ষিক তত্ত্ব অনুসারে বেগ বাড়লে ভর বাড়বে। বেগ বাড়লে শক্তির পরিমাণ বাড়ে এবং শক্তি ও ভর সমতুল্য হওয়ায়, ভরও বাড়ে। বেগ যখন শূন্য হয়, তখন ভর স্থির থাকে। বেগ যখন আলোর বেগের কাছাকাছি হয়, তখন ভর অসীম হয়ে যায়। m=m01−v2c2 m = \\frac{m_0}{\\sqrt{1-\\frac{v²}{c²}}} m=1−c2v2m0$"
   },
   {
     "id": 20,
@@ -396,7 +396,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "E=mc2E=mc^2E=mc2সূত্রটি কার?",
+    "questionLatex": "$E=mc2E=mc^2E=mc2সূত্রটি কার?$",
     "explanationLatex": "$বিজ্ঞানী আইনস্টাইন 1905 খ্রিস্টাব্দের তার বিখ্যাত আপেক্ষিকতাবাদ তত্ত্বে বলেন যে ভর ও শক্তির পরস্পরের তুল্য অর্থাৎ ভরকে শক্তিতে ও শক্তিকে ভরে রূপান্তরিত করা যায় । m পরিমাণ ভর শক্তিতে রূপান্তরিত হলে E=mc2E=mc^2E=mc2 পরিমাণ শক্তি পাওয়া যায়।$"
   },
   {
@@ -429,7 +429,7 @@
       "d": "6.45×10-19J"
     },
     "correctAnswer": "c",
-    "explanation": "\\mathrm{E}=\\mathrm{h} \\frac{\\mathrm{c}}{\\lambda}=7.96 \\times 10^{-19} \\mathrm{~J} E=hλc=7.96",
+    "explanation": "E=hcλ=7.96×10−19 J \\mathrm{E}=\\mathrm{h} \\frac{\\mathrm{c}}{\\lambda}=7.96 \\times 10^{-19} \\mathrm{~J} E=hλc=7.96×10−19 J",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -449,7 +449,7 @@
       "d": "0.6 𝑐 0.6c"
     },
     "correctAnswer": "d",
-    "explanation": "\\begin{array}{l}L=L_{0} \\sqrt{1-v / c^{2}} \\\\ \\Rightarrow L^{2}=L_{0}^{2}\\left(1-v / c^{2}\\right) \\\\ \\Rightarrow 1-\\frac{v^{2}}{c^{2}}=\\frac{L^{2}}{L_{0}^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=1-\\frac{L^{2}}{L_{0}^{2}}=1-\\frac{80^{2}}{100^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=\\frac{9}{25} \\\\ \\Rightarrow \\frac{v}{c}=\\frac{3}{5} \\Rightarrow v=\\frac{3}{5} C=0.6 c\\end{array} L=L01−v/c2",
+    "explanation": "L=L01−v/c2⇒L2=L02(1−v/c2)⇒1−v2c2=L2L02⇒v2c2=1−L2L02=1−8021002⇒v2c2=925⇒vc=35⇒v=35C=0.6c \\begin{array}{l}L=L_{0} \\sqrt{1-v / c^{2}} \\\\ \\Rightarrow L^{2}=L_{0}^{2}\\left(1-v / c^{2}\\right) \\\\ \\Rightarrow 1-\\frac{v^{2}}{c^{2}}=\\frac{L^{2}}{L_{0}^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=1-\\frac{L^{2}}{L_{0}^{2}}=1-\\frac{80^{2}}{100^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=\\frac{9}{25} \\\\ \\Rightarrow \\frac{v}{c}=\\frac{3}{5} \\Rightarrow v=\\frac{3}{5} C=0.6 c\\end{array} L=L01−v/c2⇒L2=L02(1−v/c2)⇒1−c2v2=L02L2⇒c2v2=1−L02L2=1−1002802⇒c2v2=259⇒cv=53⇒v=53C=0.6c",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি ট্রেনের স্থির অবস্থায় দৈর্ঘ্য হলো 100 m। এটি অতি উচ্চ বেগে 80m দৈর্ঘ্যের একটি সুড়ঙ্গের মধ্য দিয়ে যায়। সুড়ঙ্গের দুই প্রান্তে অবস্থিত পর্যবেক্ষকরা লক্ষ করেন যে, একটি মুহূর্তে ট্রেনটির দৈর্ঘ্য ঠিক সুড়ঙ্গের দৈর্ঘ্যের সমান হয়। c এর এককে ট্রেন এর বেগ কত? (A train has a rest length of 100 m. Traveling at a very high velocity, it goes through a tunnel of length 80 m. Observers located at both ends of the tunnel note that at one instant the train appears to exactly fit within the tunnel. What is the velocity of the train expressed in units of c?)",
-    "explanationLatex": "\\frac{v}{c2}\\frac{v}{c2})\\begin{array}{l}L=L_{0} \\sqrt{1-\\frac{v}{c}^{2}} \\\\ \\Rightarrow L^{2}=L_{0}^{2}\\left(1-\\frac{v}{c}^{2}\\right) \\\\ \\Rightarrow 1-\\frac{v^{2}}{c^{2}}=\\frac{L^{2}}{L_{0}^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=1-\\frac{L^{2}}{L_{0}^{2}}=1-\\frac{80^{2}}{100^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=\\frac{9}{25} \\\\ \\Rightarrow \\frac{v}{c}=\\frac{3}{5} \\Rightarrow v=\\frac{3}{5} C=0.6 c\\end{array} L=L01−\\frac{v}{c2}\\frac{v}{c2})"
+    "explanationLatex": "$L=L01−\\frac{v}{c2}⇒L2=L02(1−\\frac{v}{c2})⇒1−v2c2=L2L02⇒v2c2=1−L2L02=1−8021002⇒v2c2=925⇒vc=35⇒v=35C=0.6c \\begin{array}{l}L=L_{0} \\sqrt{1-\\frac{v}{c}^{2}} \\\\ \\Rightarrow L^{2}=L_{0}^{2}\\left(1-\\frac{v}{c}^{2}\\right) \\\\ \\Rightarrow 1-\\frac{v^{2}}{c^{2}}=\\frac{L^{2}}{L_{0}^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=1-\\frac{L^{2}}{L_{0}^{2}}=1-\\frac{80^{2}}{100^{2}} \\\\ \\Rightarrow \\frac{v^{2}}{c^{2}}=\\frac{9}{25} \\\\ \\Rightarrow \\frac{v}{c}=\\frac{3}{5} \\Rightarrow v=\\frac{3}{5} C=0.6 c\\end{array} L=L01−\\frac{v}{c2}⇒L2=L02(1−\\frac{v}{c2})⇒1−c2v2=L02L2⇒c2v2=1−L02L2=1−1002802⇒c2v2=259⇒cv=53⇒v=53C=0.6c$"
   },
   {
     "id": 24,
@@ -469,7 +469,7 @@
       "d": "2.7 × 10 13 𝐻 𝑧 2.7×10 13 Hz"
     },
     "correctAnswer": "b",
-    "explanation": "φ=\\begin{array}{l}\\varphi=h f_{0} \\\\ 6.63 \\times 1.6 \\times 10^{-19}=h f_{0} \\\\ f_{0}=1.6 \\times 10^{15} \\mathrm{~Hz}\\end{array} φ=hf06.63",
+    "explanation": "φ=hf06.63×1.6×10−19=hf0f0=1.6×1015 Hz \\begin{array}{l}\\varphi=h f_{0} \\\\ 6.63 \\times 1.6 \\times 10^{-19}=h f_{0} \\\\ f_{0}=1.6 \\times 10^{15} \\mathrm{~Hz}\\end{array} φ=hf06.63×1.6×10−19=hf0f0=1.6×1015 Hz",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -489,7 +489,7 @@
       "d": "1.31 × 10 8 𝑚 𝑠 − 1 1.31×10 8 ms −1"
     },
     "correctAnswer": "d",
-    "explanation": "\\begin{aligned} v & =c \\sqrt{1-\\left(\\frac{m_{0}}{m}\\right)^{2}} \\\\ & =3 \\times 10^{8} \\sqrt{1-\\left(\\frac{90}{100}^{}\\right)^{2}} \\\\ & =1.31 \\times 10^{8} \\mathrm{~ms}^{-1}\\end{aligned} v=c1−(mm0)2=3",
+    "explanation": "v=c1−(m0m)2=3×1081−(90100)2=1.31×108 ms−1 \\begin{aligned} v & =c \\sqrt{1-\\left(\\frac{m_{0}}{m}\\right)^{2}} \\\\ & =3 \\times 10^{8} \\sqrt{1-\\left(\\frac{90}{100}^{}\\right)^{2}} \\\\ & =1.31 \\times 10^{8} \\mathrm{~ms}^{-1}\\end{aligned} v=c1−(mm0)2=3×1081−(10090)2=1.31×108 ms−1",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -509,7 +509,7 @@
       "d": "3 𝑐 ( 2 2 ) (2 2 ) 3c"
     },
     "correctAnswer": "c",
-    "explanation": "\\begin{aligned} & 3 m_{0} c^{2}=m c^{2} \\\\ \\Rightarrow & 3=\\frac{1}{\\sqrt{1-\\frac{v^{2}}{c^{2}}}} \\\\ \\Rightarrow & 1-\\left(\\frac{v}{c}\\right)^{2}=\\frac{1}{9} \\\\ \\Rightarrow & \\frac{v}{c}=\\frac{2 \\sqrt{2}}{3} \\\\ \\Rightarrow & v=\\frac{2 \\sqrt{2}}{3} c\\end{aligned}",
+    "explanation": "3m0c2=mc2⇒3=11−v2c2⇒1−(vc)2=19⇒vc=223⇒v=223c \\begin{aligned} & 3 m_{0} c^{2}=m c^{2} \\\\ \\Rightarrow & 3=\\frac{1}{\\sqrt{1-\\frac{v^{2}}{c^{2}}}} \\\\ \\Rightarrow & 1-\\left(\\frac{v}{c}\\right)^{2}=\\frac{1}{9} \\\\ \\Rightarrow & \\frac{v}{c}=\\frac{2 \\sqrt{2}}{3} \\\\ \\Rightarrow & v=\\frac{2 \\sqrt{2}}{3} c\\end{aligned} ⇒⇒⇒⇒3m0c2=mc23=1−c2v211−(cv)2=91cv=322v=322c",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -517,7 +517,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বস্তু কণার মোট শক্তি পরিমাপ করে স্থির অবস্থার তিন গুণ পাওয়া গেল। বস্তুটির দ্রুতি কত?",
-    "explanationLatex": "\\begin{aligned} & 3 m_{0} c^{2}=m c^{2} \\\\ \\Rightarrow & 3=\\frac{1}{\\sqrt{1-\\frac{v^{2}}{c^{2}}}} \\\\ \\Rightarrow & 1-\\left(\\frac{v}{c}\\right)^{2}=\\frac{1}{9} \\\\ \\Rightarrow & \\frac{v}{c}=\\frac{2 \\sqrt{2}}{3} \\\\ \\Rightarrow & v=\\frac{2 \\sqrt{2}}{3} c\\end{aligned}"
+    "explanationLatex": "$3m0c2=mc2⇒3=11−v2c2⇒1−(vc)2=19⇒vc=223⇒v=223c \\begin{aligned} & 3 m_{0} c^{2}=m c^{2} \\\\ \\Rightarrow & 3=\\frac{1}{\\sqrt{1-\\frac{v^{2}}{c^{2}}}} \\\\ \\Rightarrow & 1-\\left(\\frac{v}{c}\\right)^{2}=\\frac{1}{9} \\\\ \\Rightarrow & \\frac{v}{c}=\\frac{2 \\sqrt{2}}{3} \\\\ \\Rightarrow & v=\\frac{2 \\sqrt{2}}{3} c\\end{aligned} ⇒⇒⇒⇒3m0c2=mc23=1−c2v211−(cv)2=91cv=322v=322c$"
   },
   {
     "id": 27,
@@ -609,7 +609,7 @@
       "d": "10 5 𝐻 𝑧 10 5 Hz"
     },
     "correctAnswer": "a",
-    "explanation": "\\frac{c}{\\lambda}=\\left(\\frac{3\\times10^8}{3000\\times10^{-10}}\\right)Hzf=λc=(3000",
+    "explanation": "f=cλ=(3×1083000×10−10)Hzf=\\frac{c}{\\lambda}=\\left(\\frac{3\\times10^8}{3000\\times10^{-10}}\\right)Hzf=λc=(3000×10−103×108)Hz",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -649,7 +649,7 @@
       "d": "None"
     },
     "correctAnswer": "a",
-    "explanation": "হাইজেনবার্গের অনিশ্চয়তা নীতি: ΔxΔpযখন \\begin{array}{l} \\Delta \\mathrm{x} \\Delta \\mathrm{p} \\geq \\frac{\\hbar}{2} \\quad\\left[\\text { যখন } \\mathrm{h}=\\frac{\\mathrm{h}}{2 \\pi}\\right] \\\\ \\Delta \\mathrm{E} \\Delta \\mathrm{t} \\geq \\frac{\\hbar}{2} \\end{array} ΔxΔpযখন",
+    "explanation": "হাইজেনবার্গের অনিশ্চয়তা নীতি: ΔxΔp≥ℏ2[ যখন h=h2π]ΔEΔt≥ℏ2 \\begin{array}{l} \\Delta \\mathrm{x} \\Delta \\mathrm{p} \\geq \\frac{\\hbar}{2} \\quad\\left[\\text { যখন } \\mathrm{h}=\\frac{\\mathrm{h}}{2 \\pi}\\right] \\\\ \\Delta \\mathrm{E} \\Delta \\mathrm{t} \\geq \\frac{\\hbar}{2} \\end{array} ΔxΔp≥2ℏ[ যখন h=2πh]ΔEΔt≥2ℏ",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -669,7 +669,7 @@
       "d": "0.96 c"
     },
     "correctAnswer": "b",
-    "explanation": "\\prime=\\frac{v_1+v_2}{1+\\ \\frac{v_1v_2}{c^2}}=\\frac{0.4c+0.6c}{1+\\ \\frac{0.4c\\times0.6c}{c^2}}=0.8cv′=1+ c2v1v2v1+v2=1+ c20.4c",
+    "explanation": "v′=v1+v21+ v1v2c2=0.4c+0.6c1+ 0.4c×0.6cc2=0.8cv^\\prime=\\frac{v_1+v_2}{1+\\ \\frac{v_1v_2}{c^2}}=\\frac{0.4c+0.6c}{1+\\ \\frac{0.4c\\times0.6c}{c^2}}=0.8cv′=1+ c2v1v2v1+v2=1+ c20.4c×0.6c0.4c+0.6c=0.8c",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -681,7 +681,7 @@
   },
   {
     "id": 35,
-    "question": "1.6\\times10^61.6বা গতি শক্তি সম্পন্ন এর ভর কত?",
+    "question": "1.6×1061.6\\times10^61.6×106 বা গতি শক্তি সম্পন্ন e−e^-e−এর ভর কত?",
     "options": {
       "a": "32.4 × 10 − 10 𝑘 𝑔 32.4×10 −10 kg",
       "b": "1.4544X10^-24 kg",
@@ -689,7 +689,7 @@
       "d": "1.77 X 10^-11 kg"
     },
     "correctAnswer": "d",
-    "explanation": "E=mc2\\begin{array}{l}E=m c^{2} \\\\ \\begin{aligned} \\Rightarrow m=\\frac{E}{c^{2}} & =\\frac{1.6 \\times 10^{6}}{\\left(3 \\times 10^{8}\\right)^{2}} \\\\ & =1.77 \\times 10^{-11} \\mathrm{~kg}\\end{aligned}\\end{array} E=mc2",
+    "explanation": "E=mc2⇒m=Ec2=1.6×106(3×108)2=1.77×10−11 kg \\begin{array}{l}E=m c^{2} \\\\ \\begin{aligned} \\Rightarrow m=\\frac{E}{c^{2}} & =\\frac{1.6 \\times 10^{6}}{\\left(3 \\times 10^{8}\\right)^{2}} \\\\ & =1.77 \\times 10^{-11} \\mathrm{~kg}\\end{aligned}\\end{array} E=mc2⇒m=c2E=(3×108)21.6×106=1.77×10−11 kg",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -697,7 +697,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$1.6\\ \\times 1061.6 \\times 10^{61}.6\\ \\times 106 বা গতি শক্তি সম্পন্ন e−e^-e−এর ভর কত?$",
-    "explanationLatex": "E=mc2\\times 106(3\\ \\times 108)2=1.77\\ \\times 10−11 kg \\begin{array}{l}E=m c^{2} \\\\ \\begin{aligned} \\Rightarrow m=\\frac{E}{c^{2}} & =\\frac{1.6 \\times 10^{6}}{\\left(3 \\times 10^{8}\\right)^{2}} \\\\ & =1.77 \\times 10^{-11} \\mathrm{~kg}\\end{aligned}\\end{array} E=mc2\\times 108)21.6\\ \\times 106=1.77\\ \\times 10−11 kg"
+    "explanationLatex": "$E=mc2⇒m=Ec2=1.6\\ \\times 106(3\\ \\times 108)2=1.77\\ \\times 10−11 kg \\begin{array}{l}E=m c^{2} \\\\ \\begin{aligned} \\Rightarrow m=\\frac{E}{c^{2}} & =\\frac{1.6 \\times 10^{6}}{\\left(3 \\times 10^{8}\\right)^{2}} \\\\ & =1.77 \\times 10^{-11} \\mathrm{~kg}\\end{aligned}\\end{array} E=mc2⇒m=c2E=(3\\ \\times 108)21.6\\ \\times 106=1.77\\ \\times 10−11 kg$"
   },
   {
     "id": 36,
@@ -741,7 +741,7 @@
   },
   {
     "id": 38,
-    "question": "পরিমাণ তাপশক্তি 1 kg পরিমাণ পানি শোষণ করলে ও 1 K তাপমাত্রার বৃদ্ধি ঘটলে, পানির ভর কি পরিমাণ বৃদ্ধি পাবে? [আলোর গতিবেগ=3\\times10^8ms^{-1}=3",
+    "question": "4200 J পরিমাণ তাপশক্তি 1 kg পরিমাণ পানি শোষণ করলে ও 1 K তাপমাত্রার বৃদ্ধি ঘটলে, পানির ভর কি পরিমাণ বৃদ্ধি পাবে? [আলোর গতিবেগ=3×108ms−1=3\\times10^8ms^{-1}=3×108ms−1]",
     "options": {
       "a": "5.7 × 10 − 7 𝑘 𝑔 5.7×10 −7 kg",
       "b": "4.7 × 10 − 10 𝑘 𝑔 4.7×10 −10 kg",
@@ -749,7 +749,7 @@
       "d": "5.7 × 10 − 16 𝑘 𝑔 5.7×10 −16 kg"
     },
     "correctAnswer": "c",
-    "explanation": "\\Delta mc^2E=Δmc2\\Rightarrow\\Delta m=\\frac{E}{c^2}=\\frac{4200}{(3\\times10^8)^2}=4.7\\times10^{-14}\\ kg",
+    "explanation": "E=Δmc2E=\\Delta mc^2E=Δmc2⇒Δm=Ec2=4200(3×108)2=4.7×10−14 kg\\Rightarrow\\Delta m=\\frac{E}{c^2}=\\frac{4200}{(3\\times10^8)^2}=4.7\\times10^{-14}\\ kg⇒Δm=c2E=(3×108)24200=4.7×10−14 kg",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -849,7 +849,7 @@
       "d": "106Hz"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{aligned} f=\\frac{c}{\\lambda} & =\\frac{3 \\times 10^{8}}{3000 \\times 10^{-10}} \\\\ & =10^{15} \\mathrm{~Hz}\\end{aligned} f=λc=3000",
+    "explanation": "f=cλ=3×1083000×10−10=1015 Hz \\begin{aligned} f=\\frac{c}{\\lambda} & =\\frac{3 \\times 10^{8}}{3000 \\times 10^{-10}} \\\\ & =10^{15} \\mathrm{~Hz}\\end{aligned} f=λc=3000×10−103×108=1015 Hz",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -881,7 +881,7 @@
   },
   {
     "id": 45,
-    "question": "একটি টিউব কত ভোল্টেজ প্রয়োগ করলে 10A তরঙ্গদৈর্ঘ্যর পাওয়া যাবে ?(e=1.6\\left(e=1.6\\times10^{-19}C,\\ h=6.63\\times10^{-34}\\ Js\\right)(e=1.6",
+    "question": "একটি X-ray টিউব কত ভোল্টেজ প্রয়োগ করলে 10A তরঙ্গদৈর্ঘ্যর X-ray পাওয়া যাবে ?(e=1.6×10−19C, h=6.63×10−34 Js)\\left(e=1.6\\times10^{-19}C,\\ h=6.63\\times10^{-34}\\ Js\\right)(e=1.6×10−19C, h=6.63×10−34 Js)",
     "options": {
       "a": "1.25 kV",
       "b": "1.78 kV",
@@ -889,7 +889,7 @@
       "d": "6.63 kV"
     },
     "correctAnswer": "a",
-    "explanation": "সমাধান: এখানে, এখানে,\\ \\ \\frac{hc}{\\lambda}=eV\\ \\ \\ \\therefore\\ \\frac{hc}{e\\lambda}=\\frac{hc}{e\\times10\\times10^{-10}}=1.24\\ kVএখানে, λ",
+    "explanation": "সমাধান: এখানে, hcλ=eV ∴ hceλ=hce×10×10−10=1.24 kVএখানে,\\ \\ \\frac{hc}{\\lambda}=eV\\ \\ \\ \\therefore\\ \\frac{hc}{e\\lambda}=\\frac{hc}{e\\times10\\times10^{-10}}=1.24\\ kVএখানে, λhc=eV ∴ eλhc=e×10×10−10hc=1.24 kV",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -897,7 +897,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি X-ray টিউব কত ভোল্টেজ প্রয়োগ করলে 10A তরঙ্গদৈর্ঘ্যর X-ray পাওয়া যাবে ?(e=1.6\\ \\times 10−19C, h=6.63\\ \\times 10−34 Js)\\left(e=1.6 \\times 10^{-19}C,\\ h=6.63 \\times 10^{-34}\\ Js\\right)(e=1.6\\ \\times 10−19C, h=6.63\\ \\times 10−34 Js)$",
-    "explanationLatex": "সমাধান: এখানে, \\times 10\\ \\times 10−10=1.24 kVএখানে,\\ \\ \\frac{hc}{\\lambda}=eV\\ \\ \\ \\therefore\\ \\frac{hc}{e\\lambda}=\\frac{hc}{e \\times 10 \\times 10^{-10}}=1.24\\ kVএখানে, λ\\times 10\\ \\times 10−10hc=1.24 kV"
+    "explanationLatex": "$সমাধান: এখানে, hcλ=eV ∴ hceλ=hce\\ \\times 10\\ \\times 10−10=1.24 kVএখানে,\\ \\ \\frac{hc}{\\lambda}=eV\\ \\ \\ \\therefore\\ \\frac{hc}{e\\lambda}=\\frac{hc}{e \\times 10 \\times 10^{-10}}=1.24\\ kVএখানে, λhc=eV ∴ eλhc=e\\ \\times 10\\ \\times 10−10hc=1.24 kV$"
   },
   {
     "id": 46,
@@ -909,7 +909,7 @@
       "d": "5.7 × 10 − 7 𝑘 𝑔 5.7×10 −7 kg"
     },
     "correctAnswer": "a",
-    "explanation": "E=mc2\\Rightarrow mc^2=4200 \\Rightarrow m=\\frac{4200}{(3\\times 10^8)^2}=4.7\\times 10^{-14}kg E=mc2",
+    "explanation": "E=mc2⇒mc2=4200⇒m=4200(3×108)2=4.7×10−14kgE=mc^2\\Rightarrow mc^2=4200 \\Rightarrow m=\\frac{4200}{(3\\times 10^8)^2}=4.7\\times 10^{-14}kg E=mc2⇒mc2=4200⇒m=(3×108)24200=4.7×10−14kg",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "4200J পরিমাণ শক্তি পাওয়ার জন্য কী পরিমাণ ভরের বস্তুকে শক্তিতে রূপান্তরিত করতে হবে?",
-    "explanationLatex": "E=mc2\\times 108)2=4.7\\ \\times 10−14kgE=mc^2\\Rightarrow mc^2=4200 \\Rightarrow m=\\frac{4200}{(3 \\times 10^{8})^2}=4.7 \\times 10^{-14}kg E=mc2\\times 108)24200=4.7\\ \\times 10−14kg"
+    "explanationLatex": "$E=mc2⇒mc2=4200⇒m=4200(3\\ \\times 108)2=4.7\\ \\times 10−14kgE=mc^2\\Rightarrow mc^2=4200 \\Rightarrow m=\\frac{4200}{(3 \\times 10^{8})^2}=4.7 \\times 10^{-14}kg E=mc2⇒mc2=4200⇒m=(3\\ \\times 108)24200=4.7\\ \\times 10−14kg$"
   },
   {
     "id": 47,
@@ -929,7 +929,7 @@
       "d": "45°"
     },
     "correctAnswer": "c",
-    "explanation": "Δλ=\\begin{aligned} \\Delta \\lambda & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ \\frac{h}{m_{0} c} & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ 1-\\cos \\phi & =1 \\\\ \\cos \\varphi & =0 \\\\ \\phi & =\\cos ^{-1}\\left(0^{\\circ}\\right) \\\\ \\phi & =90^{\\circ}\\end{aligned} Δλm0ch1−cosϕcosφϕϕ=m⋅ch(1−cosϕ)=m⋅ch(1−cosϕ)=1=0=cos−1(0∘)=90∘ [এখানে, Δλ=λC=hmc\\Delta \\lambda = \\lambda _C = \\frac{h}{mc}Δλ=λC=mch]",
+    "explanation": "Δλ=hm⋅c(1−cos⁡ϕ)hm0c=hm⋅c(1−cos⁡ϕ)1−cos⁡ϕ=1cos⁡φ=0ϕ=cos⁡−1(0∘)ϕ=90∘ \\begin{aligned} \\Delta \\lambda & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ \\frac{h}{m_{0} c} & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ 1-\\cos \\phi & =1 \\\\ \\cos \\varphi & =0 \\\\ \\phi & =\\cos ^{-1}\\left(0^{\\circ}\\right) \\\\ \\phi & =90^{\\circ}\\end{aligned} Δλm0ch1−cosϕcosφϕϕ=m⋅ch(1−cosϕ)=m⋅ch(1−cosϕ)=1=0=cos−1(0∘)=90∘ [এখানে, Δλ=λC=hmc\\Delta \\lambda = \\lambda _C = \\frac{h}{mc}Δλ=λC=mch]",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -937,7 +937,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি ফোটন একটি স্থির e−e^- e− কে আঘাত করার পর এর তরঙ্গদৈর্ঘ্য λc\\lambda_c λc পরিমাণ বৃদ্ধি পেলে ফোটনটি কত কোণে বিক্ষিপ্ত হয়েছিল? [λc=[\\lambda_c= [λc= কম্পটন তরঙ্গদৈর্ঘ্য]$",
-    "explanationLatex": "\\\\Delta λ=hm⋅c(1−cos\\begin{aligned} \\Delta \\lambda & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ \\frac{h}{m_{0} c} & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ 1-\\cos \\phi & =1 \\\\ \\cos \\varphi & =0 \\\\ \\phi & =\\cos ^{-1}\\left(0^{\\circ}\\right) \\\\ \\phi & =90^{\\circ}\\end{aligned} \\\\Delta λm0ch1−cosϕcosφϕϕ=m⋅ch(1−cosϕ)=m⋅ch(1−cosϕ)=1=0=cos−1(0∘)=90∘ [এখানে, \\\\Delta λ=λC=hmc\\Delta \\lambda = \\lambda _C = \\frac{h}{mc}\\\\Delta λ=λC=mch]"
+    "explanationLatex": "$\\\\Delta λ=hm⋅c(1−cos⁡ϕ)hm0c=hm⋅c(1−cos⁡ϕ)1−cos⁡ϕ=1cos⁡φ=0ϕ=cos⁡−1(0∘)ϕ=90∘ \\begin{aligned} \\Delta \\lambda & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ \\frac{h}{m_{0} c} & =\\frac{h}{m \\cdot c}(1-\\cos \\phi) \\\\ 1-\\cos \\phi & =1 \\\\ \\cos \\varphi & =0 \\\\ \\phi & =\\cos ^{-1}\\left(0^{\\circ}\\right) \\\\ \\phi & =90^{\\circ}\\end{aligned} \\\\Delta λm0ch1−cosϕcosφϕϕ=m⋅ch(1−cosϕ)=m⋅ch(1−cosϕ)=1=0=cos−1(0∘)=90∘ [এখানে, \\\\Delta λ=λC=hmc\\Delta \\lambda = \\lambda _C = \\frac{h}{mc}\\\\Delta λ=λC=mch]$"
   },
   {
     "id": 48,
@@ -969,7 +969,7 @@
       "d": "None"
     },
     "correctAnswer": "c",
-    "explanation": "\\times 10^{-12}E=mc2=9",
+    "explanation": "E=mc2=9×10−12E =mc^2 = 9 \\times 10^{-12}E=mc2=9×10−12",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,

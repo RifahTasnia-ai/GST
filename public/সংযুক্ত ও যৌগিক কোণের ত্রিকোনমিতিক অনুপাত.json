@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "tan\\frac{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} - 1}{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} + 1} = ? tan2(α+4π)+1tan2(α+4π)−1=?",
+    "question": "tan⁡2(α+π4)−1tan⁡2(α+π4)+1=? \\frac{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} - 1}{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} + 1} = ? tan2(α+4π)+1tan2(α+4π)−1=?",
     "options": {
       "a": "sin2ɑ",
       "b": "sinɑ",
@@ -9,19 +9,19 @@
       "d": "1"
     },
     "correctAnswer": "a",
-    "explanation": "−1−tan\\frac{1-\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}{1+\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}=-\\cos \\left(\\frac{\\pi}{2}+2 \\alpha\\right)=\\sin 2 \\alpha −1+tan2(α+4π)1−tan2(α+4π)=−cos(2π+2α)=sin2α",
+    "explanation": "−1−tan⁡2(α+π4)1+tan⁡2(α+π4)=−cos⁡(π2+2α)=sin⁡2α -\\frac{1-\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}{1+\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}=-\\cos \\left(\\frac{\\pi}{2}+2 \\alpha\\right)=\\sin 2 \\alpha −1+tan2(α+4π)1−tan2(α+4π)=−cos(2π+2α)=sin2α",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\pi 4)−1tan\\pi 4)+1=? \\frac{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} - 1}{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} + 1} = ? tan2(α+4\\\\pi )+1tan2(α+4\\\\pi )−1=?",
-    "explanationLatex": "−1−tan\\pi 4)1+tan\\pi 4)=−cos\\pi 2+2α)=sin\\frac{1-\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}{1+\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}=-\\cos \\left(\\frac{\\pi}{2}+2 \\alpha\\right)=\\sin 2 \\alpha −1+tan2(α+4\\\\pi )1−tan2(α+4\\\\pi )=−cos(2\\\\pi +2α)=sin2α"
+    "questionLatex": "$tan⁡2(α+\\\\pi 4)−1tan⁡2(α+\\\\pi 4)+1=? \\frac{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} - 1}{\\tan^{2}{\\left ( \\alpha + \\frac{\\pi}{4} \\right )} + 1} = ? tan2(α+4\\\\pi )+1tan2(α+4\\\\pi )−1=?$",
+    "explanationLatex": "$−1−tan⁡2(α+\\\\pi 4)1+tan⁡2(α+\\\\pi 4)=−cos⁡(\\\\pi 2+2α)=sin⁡2α -\\frac{1-\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}{1+\\tan ^{2}\\left(\\alpha+\\frac{\\pi}{4}\\right)}=-\\cos \\left(\\frac{\\pi}{2}+2 \\alpha\\right)=\\sin 2 \\alpha −1+tan2(α+4\\\\pi )1−tan2(α+4\\\\pi )=−cos(2\\\\pi +2α)=sin2α$"
   },
   {
     "id": 2,
-    "question": "cos\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24}=?cos224π+cos22419π+cos22431π+cos22437π=?",
+    "question": "cos⁡2π24+cos⁡219π24+cos⁡231π24+cos⁡237π24=?\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24}=?cos224π+cos22419π+cos22431π+cos22437π=?",
     "options": {
       "a": "1.5 1.5",
       "b": "2 2",
@@ -29,19 +29,19 @@
       "d": "1 1"
     },
     "correctAnswer": "b",
-    "explanation": "\\begin{array}{l} \\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24} \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2}\\left(\\frac{\\pi^{\\circ}}{2}+\\frac{19 \\pi}{24}\\right) \\\\ \\quad+\\cos ^{2}\\left(3 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{24}\\right) \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\sin ^{2} \\frac{\\pi}{24}+\\sin ^{2} \\frac{19 \\pi}{24} \\\\ =\\left(\\sin ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{\\pi}{24}\\right)+ \\\\ \\left(\\sin ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}\\right) \\\\ =1+1=2 \\text { Ans. } \\end{array} cos224π+cos22419π+cos22431π+cos22437π=cos224π+cos22419π+cos2(2π∘+2419π)+cos2(3⋅2π+24π)=cos224π+cos22419π+sin224π+sin22419π=(sin224π+cos224π)+(sin22419π+cos22419π)=1+1=2 Ans.",
+    "explanation": "Solve:cos⁡2π24+cos⁡219π24+cos⁡231π24+cos⁡237π24=cos⁡2π24+cos⁡219π24+cos⁡2(π∘2+19π24)+cos⁡2(3⋅π2+π24)=cos⁡2π24+cos⁡219π24+sin⁡2π24+sin⁡219π24=(sin⁡2π24+cos⁡2π24)+(sin⁡219π24+cos⁡219π24)=1+1=2 Ans. \\begin{array}{l} \\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24} \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2}\\left(\\frac{\\pi^{\\circ}}{2}+\\frac{19 \\pi}{24}\\right) \\\\ \\quad+\\cos ^{2}\\left(3 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{24}\\right) \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\sin ^{2} \\frac{\\pi}{24}+\\sin ^{2} \\frac{19 \\pi}{24} \\\\ =\\left(\\sin ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{\\pi}{24}\\right)+ \\\\ \\left(\\sin ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}\\right) \\\\ =1+1=2 \\text { Ans. } \\end{array} cos224π+cos22419π+cos22431π+cos22437π=cos224π+cos22419π+cos2(2π∘+2419π)+cos2(3⋅2π+24π)=cos224π+cos22419π+sin224π+sin22419π=(sin224π+cos224π)+(sin22419π+cos22419π)=1+1=2 Ans.",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\pi 24+cos\\pi 24+cos\\pi 24+cos\\pi 24=?\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24}=?cos224\\\\pi +cos22419\\\\pi +cos22431\\\\pi +cos22437\\\\pi =?",
-    "explanationLatex": "\\pi 24+cos\\pi 24+cos\\pi 24+cos\\pi 24=cos\\pi 24+cos\\pi 24+cos\\pi ∘2+19\\\\pi 24)+cos\\pi 2+\\\\pi 24)=cos\\pi 24+cos\\pi 24+sin\\pi 24+sin\\pi 24=(sin\\pi 24+cos\\pi 24)+(sin\\pi 24+cos\\pi 24)=1+1=2 Ans. \\begin{array}{l} \\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24} \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2}\\left(\\frac{\\pi^{\\circ}}{2}+\\frac{19 \\pi}{24}\\right) \\\\ \\quad+\\cos ^{2}\\left(3 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{24}\\right) \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\sin ^{2} \\frac{\\pi}{24}+\\sin ^{2} \\frac{19 \\pi}{24} \\\\ =\\left(\\sin ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{\\pi}{24}\\right)+ \\\\ \\left(\\sin ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}\\right) \\\\ =1+1=2 \\text { Ans. } \\end{array} cos224\\\\pi +cos22419\\\\pi +cos22431\\\\pi +cos22437\\\\pi =cos224\\\\pi +cos22419\\\\pi +cos2(2\\\\pi ∘+2419\\\\pi )+cos2(3⋅2\\\\pi +24\\\\pi )=cos224\\\\pi +cos22419\\\\pi +sin224\\\\pi +sin22419\\\\pi =(sin224\\\\pi +cos224\\\\pi )+(sin22419\\\\pi +cos22419\\\\pi )=1+1=2 Ans."
+    "questionLatex": "$cos⁡2\\\\pi 24+cos⁡219\\\\pi 24+cos⁡231\\\\pi 24+cos⁡237\\\\pi 24=?\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24}=?cos224\\\\pi +cos22419\\\\pi +cos22431\\\\pi +cos22437\\\\pi =?$",
+    "explanationLatex": "$Solve:cos⁡2\\\\pi 24+cos⁡219\\\\pi 24+cos⁡231\\\\pi 24+cos⁡237\\\\pi 24=cos⁡2\\\\pi 24+cos⁡219\\\\pi 24+cos⁡2(\\\\pi ∘2+19\\\\pi 24)+cos⁡2(3⋅\\\\pi 2+\\\\pi 24)=cos⁡2\\\\pi 24+cos⁡219\\\\pi 24+sin⁡2\\\\pi 24+sin⁡219\\\\pi 24=(sin⁡2\\\\pi 24+cos⁡2\\\\pi 24)+(sin⁡219\\\\pi 24+cos⁡219\\\\pi 24)=1+1=2 Ans. \\begin{array}{l} \\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{31 \\pi}{24}+\\cos ^{2} \\frac{37 \\pi}{24} \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\cos ^{2}\\left(\\frac{\\pi^{\\circ}}{2}+\\frac{19 \\pi}{24}\\right) \\\\ \\quad+\\cos ^{2}\\left(3 \\cdot \\frac{\\pi}{2}+\\frac{\\pi}{24}\\right) \\\\ =\\cos ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}+\\sin ^{2} \\frac{\\pi}{24}+\\sin ^{2} \\frac{19 \\pi}{24} \\\\ =\\left(\\sin ^{2} \\frac{\\pi}{24}+\\cos ^{2} \\frac{\\pi}{24}\\right)+ \\\\ \\left(\\sin ^{2} \\frac{19 \\pi}{24}+\\cos ^{2} \\frac{19 \\pi}{24}\\right) \\\\ =1+1=2 \\text { Ans. } \\end{array} cos224\\\\pi +cos22419\\\\pi +cos22431\\\\pi +cos22437\\\\pi =cos224\\\\pi +cos22419\\\\pi +cos2(2\\\\pi ∘+2419\\\\pi )+cos2(3⋅2\\\\pi +24\\\\pi )=cos224\\\\pi +cos22419\\\\pi +sin224\\\\pi +sin22419\\\\pi =(sin224\\\\pi +cos224\\\\pi )+(sin22419\\\\pi +cos22419\\\\pi )=1+1=2 Ans.$"
   },
   {
     "id": 3,
-    "question": "tan\\tan \\beta=\\frac{1}{3} tanβ=31 হলে; sin\\sin 2 \\beta sin2β এর মান নির্ণয় কর।",
+    "question": "tan⁡β=13 \\tan \\beta=\\frac{1}{3} tanβ=31 হলে; sin⁡2β \\sin 2 \\beta sin2β এর মান নির্ণয় কর।",
     "options": {
       "a": "− 3 2 − 2 3",
       "b": "3 4 4 3",
@@ -49,15 +49,15 @@
       "d": "1 2 2 1"
     },
     "correctAnswer": "c",
-    "explanation": "\\sin 2 \\beta=\\frac{2 \\tan \\beta}{1+\\tan ^{2} \\beta}=\\frac{2}{1+\\frac{1}{9}}=\\frac{2}{3} \\times \\frac{9}{10}=\\frac{3}{5} sin2β=1+tan2β2tanβ=1+912=32",
+    "explanation": "Solve: sin⁡2β=2tan⁡β1+tan⁡2β=21+19=23×910=35 \\sin 2 \\beta=\\frac{2 \\tan \\beta}{1+\\tan ^{2} \\beta}=\\frac{2}{1+\\frac{1}{9}}=\\frac{2}{3} \\times \\frac{9}{10}=\\frac{3}{5} sin2β=1+tan2β2tanβ=1+912=32×109=53",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan \\beta=\\frac{1}{3} tanβ=31 হলে; sin\\sin 2 \\beta sin2β এর মান নির্ণয় কর।",
-    "explanationLatex": "\\times 910=35 \\sin 2 \\beta=\\frac{2 \\tan \\beta}{1+\\tan ^{2} \\beta}=\\frac{2}{1+\\frac{1}{9}}=\\frac{2}{3} \\times \\frac{9}{10}=\\frac{3}{5} sin2β=1+tan2β2tanβ=1+912=32\\\\times 109=53"
+    "questionLatex": "$tan⁡β=13 \\tan \\beta=\\frac{1}{3} tanβ=31 হলে; sin⁡2β \\sin 2 \\beta sin2β এর মান নির্ণয় কর।$",
+    "explanationLatex": "$Solve: sin⁡2β=2tan⁡β1+tan⁡2β=21+19=23\\\\times 910=35 \\sin 2 \\beta=\\frac{2 \\tan \\beta}{1+\\tan ^{2} \\beta}=\\frac{2}{1+\\frac{1}{9}}=\\frac{2}{3} \\times \\frac{9}{10}=\\frac{3}{5} sin2β=1+tan2β2tanβ=1+912=32\\\\times 109=53$"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
       "d": "−√3"
     },
     "correctAnswer": "a",
-    "explanation": "tan\\begin{aligned} & \\tan 40^{\\circ} \\tan 50^{\\circ} \\tan 60^{\\circ} \\\\ = & \\tan 40^{\\circ} \\cdot \\cot 40^{\\circ} \\tan 60^{\\circ} \\\\ = & 1 \\times \\tan 60^{\\circ} \\\\ = & \\sqrt{3}\\end{aligned} ===tan40∘tan50∘tan60∘tan40∘⋅cot40∘tan60∘1",
+    "explanation": "tan⁡40∘tan⁡50∘tan⁡60∘=tan⁡40∘⋅cot⁡40∘tan⁡60∘=1×tan⁡60∘=3 \\begin{aligned} & \\tan 40^{\\circ} \\tan 50^{\\circ} \\tan 60^{\\circ} \\\\ = & \\tan 40^{\\circ} \\cdot \\cot 40^{\\circ} \\tan 60^{\\circ} \\\\ = & 1 \\times \\tan 60^{\\circ} \\\\ = & \\sqrt{3}\\end{aligned} ===tan40∘tan50∘tan60∘tan40∘⋅cot40∘tan60∘1×tan60∘3",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -77,11 +77,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$tan40^{\\\\circ}tan50^{\\\\circ}tan60^{\\\\circ} এর মান-$",
-    "explanationLatex": "tan\\times tan\\begin{aligned} & \\tan 40^{\\circ} \\tan 50^{\\circ} \\tan 60^{\\circ} \\\\ = & \\tan 40^{\\circ} \\cdot \\cot 40^{\\circ} \\tan 60^{\\circ} \\\\ = & 1 \\times \\tan 60^{\\circ} \\\\ = & \\sqrt{3}\\end{aligned} ===tan40∘tan50∘tan60∘tan40∘⋅cot40∘tan60∘1\\\\times tan60∘3"
+    "explanationLatex": "$tan⁡40∘tan⁡50∘tan⁡60∘=tan⁡40∘⋅cot⁡40∘tan⁡60∘=1\\\\times tan⁡60∘=3 \\begin{aligned} & \\tan 40^{\\circ} \\tan 50^{\\circ} \\tan 60^{\\circ} \\\\ = & \\tan 40^{\\circ} \\cdot \\cot 40^{\\circ} \\tan 60^{\\circ} \\\\ = & 1 \\times \\tan 60^{\\circ} \\\\ = & \\sqrt{3}\\end{aligned} ===tan40∘tan50∘tan60∘tan40∘⋅cot40∘tan60∘1\\\\times tan60∘3$"
   },
   {
     "id": 5,
-    "question": "sec\\sec \\theta=-2 secθ=−2 এবং π2<θ<π \\frac{\\pi}{2}<\\theta<\\pi 2π<θ<π হলে θ= \\theta= θ= ?",
+    "question": "sec⁡θ=−2 \\sec \\theta=-2 secθ=−2 এবং π2<θ<π \\frac{\\pi}{2}<\\theta<\\pi 2π<θ<π হলে θ= \\theta= θ= ?",
     "options": {
       "a": "𝜋 3 3 π",
       "b": "𝜋 6 6 π",
@@ -89,7 +89,7 @@
       "d": "2 𝜋 3 3 2π"
     },
     "correctAnswer": "d",
-    "explanation": "sec\\sec\\theta\\ =\\ -2\\ \\Rightarrow\\ \\theta\\ =\\ \\sec^{-1}-\\left(2\\right)\\ \\therefore\\theta\\ =\\ \\frac{2\\pi}{3}secθ = −2",
+    "explanation": "sec⁡θ = −2 ⇒ θ = sec⁡−1−(2) ∴θ = 2π3\\sec\\theta\\ =\\ -2\\ \\Rightarrow\\ \\theta\\ =\\ \\sec^{-1}-\\left(2\\right)\\ \\therefore\\theta\\ =\\ \\frac{2\\pi}{3}secθ = −2 ⇒ θ = sec−1−(2) ∴θ = 32π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$sec⁡\\\\theta =−2 \\sec \\theta=-2 sec\\\\theta =−2 এবং \\\\pi 2<\\\\theta <\\\\pi  \\frac{\\pi}{2}<\\theta<\\pi 2\\\\pi <\\\\theta <\\\\pi  হলে \\\\theta = \\theta= \\\\theta = ?$",
-    "explanationLatex": "sec⁡\\\\theta = −2 \\theta = sec\\theta = 2\\\\pi 3\\sec\\theta\\ =\\ -2\\ \\Rightarrow\\ \\theta\\ =\\ \\sec^{-1}-\\left(2\\right)\\ \\therefore\\theta\\ =\\ \\frac{2\\pi}{3}sec\\\\theta = −2 \\theta = sec−1−(2) ∴\\\\theta = 32\\\\pi"
+    "explanationLatex": "$sec⁡\\\\theta  = −2 ⇒ \\\\theta  = sec⁡−1−(2) ∴\\\\theta  = 2\\\\pi 3\\sec\\theta\\ =\\ -2\\ \\Rightarrow\\ \\theta\\ =\\ \\sec^{-1}-\\left(2\\right)\\ \\therefore\\theta\\ =\\ \\frac{2\\pi}{3}sec\\\\theta  = −2 ⇒ \\\\theta  = sec−1−(2) ∴\\\\theta  = 32\\\\pi $"
   },
   {
     "id": 6,
@@ -109,19 +109,19 @@
       "d": "3 𝑠 𝑖 𝑛 𝐴 + 4 𝑠 𝑖 𝑛 3 ⁡ 𝐴 3 sinA+4 sin 3 ⁡A"
     },
     "correctAnswer": "c",
-    "explanation": "\\sin (A+B)=\\sin A \\cos B+\\cos A \\sin B sin(A+B)=sinAcosB+cosAsinB Replacing B B B by 2 A 2 \\mathrm{~A} 2 A, ⟹sin\\begin{array}{l} \\Longrightarrow \\sin 3 A=\\sin A \\cos 2 A+\\cos A \\sin 2 A \\\\ \\Longrightarrow \\sin 3 A=\\sin A\\left(1-2 \\sin ^{2} A\\right)+\\cos A(2 \\sin A \\cos A) \\\\ {\\left[\\because \\cos 2 A=1-\\sin ^{2} A \\& \\sin 2 A=2 \\sin A \\cos A\\right]} \\\\ \\Longrightarrow \\sin 3 A=\\sin A-2 \\sin ^{3} A+2 \\sin A\\left(\\sin ^{2} A\\right) \\\\ \\Longrightarrow \\sin 3 A=3 \\sin A-4 \\sin ^{3} A \\end{array} ⟹sin3A=sinAcos2A+cosAsin2A⟹sin3A=sinA(1−2sin2A)+cosA(2sinAcosA)[\\sin 3 A=3 \\sin A-4 \\sin ^{3} A sin3A=3sinA−4sin3A",
+    "explanation": "We have, sin⁡(A+B)=sin⁡Acos⁡B+cos⁡Asin⁡B \\sin (A+B)=\\sin A \\cos B+\\cos A \\sin B sin(A+B)=sinAcosB+cosAsinB Replacing B B B by 2 A 2 \\mathrm{~A} 2 A, ⟹sin⁡3A=sin⁡Acos⁡2A+cos⁡Asin⁡2A⟹sin⁡3A=sin⁡A(1−2sin⁡2A)+cos⁡A(2sin⁡Acos⁡A)[∵cos⁡2A=1−sin⁡2A&sin⁡2A=2sin⁡Acos⁡A]⟹sin⁡3A=sin⁡A−2sin⁡3A+2sin⁡A(sin⁡2A)⟹sin⁡3A=3sin⁡A−4sin⁡3A \\begin{array}{l} \\Longrightarrow \\sin 3 A=\\sin A \\cos 2 A+\\cos A \\sin 2 A \\\\ \\Longrightarrow \\sin 3 A=\\sin A\\left(1-2 \\sin ^{2} A\\right)+\\cos A(2 \\sin A \\cos A) \\\\ {\\left[\\because \\cos 2 A=1-\\sin ^{2} A \\& \\sin 2 A=2 \\sin A \\cos A\\right]} \\\\ \\Longrightarrow \\sin 3 A=\\sin A-2 \\sin ^{3} A+2 \\sin A\\left(\\sin ^{2} A\\right) \\\\ \\Longrightarrow \\sin 3 A=3 \\sin A-4 \\sin ^{3} A \\end{array} ⟹sin3A=sinAcos2A+cosAsin2A⟹sin3A=sinA(1−2sin2A)+cosA(2sinAcosA)[∵cos2A=1−sin2A&sin2A=2sinAcosA]⟹sin3A=sinA−2sin3A+2sinA(sin2A)⟹sin3A=3sinA−4sin3A Hence, sin⁡3A=3sin⁡A−4sin⁡3A \\sin 3 A=3 \\sin A-4 \\sin ^{3} A sin3A=3sinA−4sin3A",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin ⁡3A=?sin\\ ⁡3A=?sin ⁡3A=?",
-    "explanationLatex": "\\sin (A+B)=\\sin A \\cos B+\\cos A \\sin B sin(A+B)=sinAcosB+cosAsinB Replacing B B B by 2 A 2 \\mathrm{~A} 2 A, ⟹sin\\begin{array}{l} \\Longrightarrow \\sin 3 A=\\sin A \\cos 2 A+\\cos A \\sin 2 A \\\\ \\Longrightarrow \\sin 3 A=\\sin A\\left(1-2 \\sin ^{2} A\\right)+\\cos A(2 \\sin A \\cos A) \\\\ {\\left[\\because \\cos 2 A=1-\\sin ^{2} A \\& \\sin 2 A=2 \\sin A \\cos A\\right]} \\\\ \\Longrightarrow \\sin 3 A=\\sin A-2 \\sin ^{3} A+2 \\sin A\\left(\\sin ^{2} A\\right) \\\\ \\Longrightarrow \\sin 3 A=3 \\sin A-4 \\sin ^{3} A \\end{array} ⟹sin3A=sinAcos2A+cosAsin2A⟹sin3A=sinA(1−2sin2A)+cosA(2sinAcosA)[\\sin 3 A=3 \\sin A-4 \\sin ^{3} A sin3A=3sinA−4sin3A"
+    "questionLatex": "$sin ⁡3A=?sin\\ ⁡3A=?sin ⁡3A=?$",
+    "explanationLatex": "$We have, sin⁡(A+B)=sin⁡Acos⁡B+cos⁡Asin⁡B \\sin (A+B)=\\sin A \\cos B+\\cos A \\sin B sin(A+B)=sinAcosB+cosAsinB Replacing B B B by 2 A 2 \\mathrm{~A} 2 A, ⟹sin⁡3A=sin⁡Acos⁡2A+cos⁡Asin⁡2A⟹sin⁡3A=sin⁡A(1−2sin⁡2A)+cos⁡A(2sin⁡Acos⁡A)[∵cos⁡2A=1−sin⁡2A&sin⁡2A=2sin⁡Acos⁡A]⟹sin⁡3A=sin⁡A−2sin⁡3A+2sin⁡A(sin⁡2A)⟹sin⁡3A=3sin⁡A−4sin⁡3A \\begin{array}{l} \\Longrightarrow \\sin 3 A=\\sin A \\cos 2 A+\\cos A \\sin 2 A \\\\ \\Longrightarrow \\sin 3 A=\\sin A\\left(1-2 \\sin ^{2} A\\right)+\\cos A(2 \\sin A \\cos A) \\\\ {\\left[\\because \\cos 2 A=1-\\sin ^{2} A \\& \\sin 2 A=2 \\sin A \\cos A\\right]} \\\\ \\Longrightarrow \\sin 3 A=\\sin A-2 \\sin ^{3} A+2 \\sin A\\left(\\sin ^{2} A\\right) \\\\ \\Longrightarrow \\sin 3 A=3 \\sin A-4 \\sin ^{3} A \\end{array} ⟹sin3A=sinAcos2A+cosAsin2A⟹sin3A=sinA(1−2sin2A)+cosA(2sinAcosA)[∵cos2A=1−sin2A&sin2A=2sinAcosA]⟹sin3A=sinA−2sin3A+2sinA(sin2A)⟹sin3A=3sinA−4sin3A Hence, sin⁡3A=3sin⁡A−4sin⁡3A \\sin 3 A=3 \\sin A-4 \\sin ^{3} A sin3A=3sinA−4sin3A$"
   },
   {
     "id": 7,
-    "question": "1sin\\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}}= ? sin10∘1−cos10∘3=?",
+    "question": "1sin⁡10∘−3cos⁡10∘=? \\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}}= ? sin10∘1−cos10∘3=?",
     "options": {
       "a": "4 4",
       "b": "2 2",
@@ -129,15 +129,15 @@
       "d": "0 0"
     },
     "correctAnswer": "a",
-    "explanation": "\\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}} sin10∘1−cos10∘3 =cos\\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\frac{1}{2} \\cos 10^{\\circ}-\\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{\\frac{1}{2} \\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\cos 60^{\\circ} \\cos 10^{\\circ}-\\sin 60^{\\circ} \\sin 10^{\\circ}}{\\frac{1}{4} \\sin 20^{\\circ}} \\\\ =\\frac{4 \\cos \\left(60^{\\circ}+10^{\\circ}\\right)}{\\sin \\left(90^{\\circ}-70^{\\circ}\\right)}=\\frac{4 \\cos 70^{\\circ}}{\\cos 70^{\\circ}} \\\\ =4 \\end{array} =sin10∘cos10∘cos10∘−3sin10∘=21sin10∘cos10∘21cos10∘−23sin10∘=41sin20∘cos60∘cos10∘−sin60∘sin10∘=sin(90∘−70∘)4cos(60∘+10∘)=cos70∘4cos70∘=4",
+    "explanation": "Solve:1sin⁡10∘−3cos⁡10∘ \\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}} sin10∘1−cos10∘3 =cos⁡10∘−3sin⁡10∘sin⁡10∘cos⁡10∘=12cos⁡10∘−32sin⁡10∘12sin⁡10∘cos⁡10∘=cos⁡60∘cos⁡10∘−sin⁡60∘sin⁡10∘14sin⁡20∘=4cos⁡(60∘+10∘)sin⁡(90∘−70∘)=4cos⁡70∘cos⁡70∘=4 \\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\frac{1}{2} \\cos 10^{\\circ}-\\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{\\frac{1}{2} \\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\cos 60^{\\circ} \\cos 10^{\\circ}-\\sin 60^{\\circ} \\sin 10^{\\circ}}{\\frac{1}{4} \\sin 20^{\\circ}} \\\\ =\\frac{4 \\cos \\left(60^{\\circ}+10^{\\circ}\\right)}{\\sin \\left(90^{\\circ}-70^{\\circ}\\right)}=\\frac{4 \\cos 70^{\\circ}}{\\cos 70^{\\circ}} \\\\ =4 \\end{array} =sin10∘cos10∘cos10∘−3sin10∘=21sin10∘cos10∘21cos10∘−23sin10∘=41sin20∘cos60∘cos10∘−sin60∘sin10∘=sin(90∘−70∘)4cos(60∘+10∘)=cos70∘4cos70∘=4",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "1sin\\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}}= ? sin10∘1−cos10∘3=?",
-    "explanationLatex": "\\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}} sin10∘1−cos10∘3 =cos\\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\frac{1}{2} \\cos 10^{\\circ}-\\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{\\frac{1}{2} \\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\cos 60^{\\circ} \\cos 10^{\\circ}-\\sin 60^{\\circ} \\sin 10^{\\circ}}{\\frac{1}{4} \\sin 20^{\\circ}} \\\\ =\\frac{4 \\cos \\left(60^{\\circ}+10^{\\circ}\\right)}{\\sin \\left(90^{\\circ}-70^{\\circ}\\right)}=\\frac{4 \\cos 70^{\\circ}}{\\cos 70^{\\circ}} \\\\ =4 \\end{array} =sin10∘cos10∘cos10∘−3sin10∘=21sin10∘cos10∘21cos10∘−23sin10∘=41sin20∘cos60∘cos10∘−sin60∘sin10∘=sin(90∘−70∘)4cos(60∘+10∘)=cos70∘4cos70∘=4"
+    "questionLatex": "$1sin⁡10∘−3cos⁡10∘=? \\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}}= ? sin10∘1−cos10∘3=?$",
+    "explanationLatex": "$Solve:1sin⁡10∘−3cos⁡10∘ \\frac{1}{\\sin 10^{\\circ}}-\\frac{\\sqrt{3}}{\\cos 10^{\\circ}} sin10∘1−cos10∘3 =cos⁡10∘−3sin⁡10∘sin⁡10∘cos⁡10∘=12cos⁡10∘−32sin⁡10∘12sin⁡10∘cos⁡10∘=cos⁡60∘cos⁡10∘−sin⁡60∘sin⁡10∘14sin⁡20∘=4cos⁡(60∘+10∘)sin⁡(90∘−70∘)=4cos⁡70∘cos⁡70∘=4 \\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sqrt{3} \\sin 10^{\\circ}}{\\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\frac{1}{2} \\cos 10^{\\circ}-\\frac{\\sqrt{3}}{2} \\sin 10^{\\circ}}{\\frac{1}{2} \\sin 10^{\\circ} \\cos 10^{\\circ}} \\\\ =\\frac{\\cos 60^{\\circ} \\cos 10^{\\circ}-\\sin 60^{\\circ} \\sin 10^{\\circ}}{\\frac{1}{4} \\sin 20^{\\circ}} \\\\ =\\frac{4 \\cos \\left(60^{\\circ}+10^{\\circ}\\right)}{\\sin \\left(90^{\\circ}-70^{\\circ}\\right)}=\\frac{4 \\cos 70^{\\circ}}{\\cos 70^{\\circ}} \\\\ =4 \\end{array} =sin10∘cos10∘cos10∘−3sin10∘=21sin10∘cos10∘21cos10∘−23sin10∘=41sin20∘cos60∘cos10∘−sin60∘sin10∘=sin(90∘−70∘)4cos(60∘+10∘)=cos70∘4cos70∘=4$"
   },
   {
     "id": 8,
@@ -149,7 +149,7 @@
       "d": "135.2°"
     },
     "correctAnswer": "a",
-    "explanation": "asin\\begin{array}{l} \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C} \\\\ \\Rightarrow \\frac{5.2}{\\sin 35^{\\circ}}=\\frac{b}{\\sin B}=\\frac{3.8}{\\sin C} \\Rightarrow \\sin C=\\frac{3.8 \\sin 35^{\\circ}}{5.2} \\\\ \\Rightarrow C=\\sin ^{-1}\\left(\\frac{3.8 \\sin 35^{\\circ}}{5.2}\\right)=24^{\\circ} 46^{\\prime} \\\\ \\therefore A+B+C=180^{\\circ} \\\\ \\Rightarrow 35^{\\circ}+B+24^{\\circ} 46^{\\prime}=180^{\\circ} \\\\ \\Rightarrow B=180^{\\circ}-35^{\\circ}-24^{\\circ} 46^{\\prime}=120.2^{\\circ} \\end{array} sinAa=sinBb=sinCc",
+    "explanation": "asin⁡A=bsin⁡B=csin⁡C⇒5.2sin⁡35∘=bsin⁡B=3.8sin⁡C⇒sin⁡C=3.8sin⁡35∘5.2⇒C=sin⁡−1(3.8sin⁡35∘5.2)=24∘46′∴A+B+C=180∘⇒35∘+B+24∘46′=180∘⇒B=180∘−35∘−24∘46′=120.2∘ \\begin{array}{l} \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C} \\\\ \\Rightarrow \\frac{5.2}{\\sin 35^{\\circ}}=\\frac{b}{\\sin B}=\\frac{3.8}{\\sin C} \\Rightarrow \\sin C=\\frac{3.8 \\sin 35^{\\circ}}{5.2} \\\\ \\Rightarrow C=\\sin ^{-1}\\left(\\frac{3.8 \\sin 35^{\\circ}}{5.2}\\right)=24^{\\circ} 46^{\\prime} \\\\ \\therefore A+B+C=180^{\\circ} \\\\ \\Rightarrow 35^{\\circ}+B+24^{\\circ} 46^{\\prime}=180^{\\circ} \\\\ \\Rightarrow B=180^{\\circ}-35^{\\circ}-24^{\\circ} 46^{\\prime}=120.2^{\\circ} \\end{array} sinAa=sinBb=sinCc⇒sin35∘5.2=sinBb=sinC3.8⇒sinC=5.23.8sin35∘⇒C=sin−1(5.23.8sin35∘)=24∘46′∴A+B+C=180∘⇒35∘+B+24∘46′=180∘⇒B=180∘−35∘−24∘46′=120.2∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$ABC ত্রিভুজ c = 3.8 সে. মি. a = 5.2 সে. মি. এবং কোণ A = 35^{\\\\circ} হলে B কোণের মান কত হবে?$",
-    "explanationLatex": "asin\\begin{array}{l} \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C} \\\\ \\Rightarrow \\frac{5.2}{\\sin 35^{\\circ}}=\\frac{b}{\\sin B}=\\frac{3.8}{\\sin C} \\Rightarrow \\sin C=\\frac{3.8 \\sin 35^{\\circ}}{5.2} \\\\ \\Rightarrow C=\\sin ^{-1}\\left(\\frac{3.8 \\sin 35^{\\circ}}{5.2}\\right)=24^{\\circ} 46^{\\prime} \\\\ \\therefore A+B+C=180^{\\circ} \\\\ \\Rightarrow 35^{\\circ}+B+24^{\\circ} 46^{\\prime}=180^{\\circ} \\\\ \\Rightarrow B=180^{\\circ}-35^{\\circ}-24^{\\circ} 46^{\\prime}=120.2^{\\circ} \\end{array} sinAa=sinBb=sinCc"
+    "explanationLatex": "$asin⁡A=bsin⁡B=csin⁡C⇒5.2sin⁡35∘=bsin⁡B=3.8sin⁡C⇒sin⁡C=3.8sin⁡35∘5.2⇒C=sin⁡−1(3.8sin⁡35∘5.2)=24∘46′∴A+B+C=180∘⇒35∘+B+24∘46′=180∘⇒B=180∘−35∘−24∘46′=120.2∘ \\begin{array}{l} \\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C} \\\\ \\Rightarrow \\frac{5.2}{\\sin 35^{\\circ}}=\\frac{b}{\\sin B}=\\frac{3.8}{\\sin C} \\Rightarrow \\sin C=\\frac{3.8 \\sin 35^{\\circ}}{5.2} \\\\ \\Rightarrow C=\\sin ^{-1}\\left(\\frac{3.8 \\sin 35^{\\circ}}{5.2}\\right)=24^{\\circ} 46^{\\prime} \\\\ \\therefore A+B+C=180^{\\circ} \\\\ \\Rightarrow 35^{\\circ}+B+24^{\\circ} 46^{\\prime}=180^{\\circ} \\\\ \\Rightarrow B=180^{\\circ}-35^{\\circ}-24^{\\circ} 46^{\\prime}=120.2^{\\circ} \\end{array} sinAa=sinBb=sinCc⇒sin35∘5.2=sinBb=sinC3.8⇒sinC=5.23.8sin35∘⇒C=sin−1(5.23.8sin35∘)=24∘46′∴A+B+C=180∘⇒35∘+B+24∘46′=180∘⇒B=180∘−35∘−24∘46′=120.2∘$"
   },
   {
     "id": 9,
@@ -169,7 +169,7 @@
       "d": "a+b+c"
     },
     "correctAnswer": "b",
-    "explanation": "\\cos C+c \\cos B a=bcosC+ccosB b=ccos\\cos A+a \\cos C </span></p><p class=\"text-base tracking-wide font-medium leading-relaxed\">c=a \\cos B+b \\cos A b=ccosA+acosC</span></p><pclass=\"text−basetracking−widefont−mediumleading−relaxed\">c=acosB+bcosA.",
+    "explanation": "Formula a=bcos⁡C+ccos⁡B a=b \\cos C+c \\cos B a=bcosC+ccosB b=ccos⁡A+acos⁡C</span></p><pclass=\"text−basetracking−widefont−mediumleading−relaxed\">c=acos⁡B+bcos⁡A b=c \\cos A+a \\cos C </span></p><p class=\"text-base tracking-wide font-medium leading-relaxed\">c=a \\cos B+b \\cos A b=ccosA+acosC</span></p><pclass=\"text−basetracking−widefont−mediumleading−relaxed\">c=acosB+bcosA.",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -177,11 +177,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "\\\\Delta ABC তে c cosA+a cosC এর সমান কোনটি?",
-    "explanationLatex": "\\cos C+c \\cos B a=bcosC+ccosB b=ccos\\cos A+a \\cos C </span></p><p class=\"text-base tracking-wide font-medium leading-relaxed\">c=a \\cos B+b \\cos A b=ccosA+acosC</span></p><pclass=\"text−basetracking−widefont−mediumleading−relaxed\">c=acosB+bcosA."
+    "explanationLatex": "$Formula a=bcos⁡C+ccos⁡B a=b \\cos C+c \\cos B a=bcosC+ccosB b=ccos⁡A+acos⁡C</span></p><pclass=\"text−basetracking−widefont−mediumleading−relaxed\">c=acos⁡B+bcos⁡A b=c \\cos A+a \\cos C </span></p><p class=\"text-base tracking-wide font-medium leading-relaxed\">c=a \\cos B+b \\cos A b=ccosA+acosC</span></p><pclass=\"text−basetracking−widefont−mediumleading−relaxed\">c=acosB+bcosA.$"
   },
   {
     "id": 10,
-    "question": "ABC \\mathrm{ABC} ABC ত্রিভুজে cos\\cos \\mathrm{A}+\\cos \\mathrm{C}=\\sin \\mathrm{B} cosA+cosC=sinB হলে ∠A \\angle A ∠A সমান-",
+    "question": "ABC \\mathrm{ABC} ABC ত্রিভুজে cos⁡A+cos⁡C=sin⁡B \\cos \\mathrm{A}+\\cos \\mathrm{C}=\\sin \\mathrm{B} cosA+cosC=sinB হলে ∠A \\angle A ∠A সমান-",
     "options": {
       "a": "30°",
       "b": "60°",
@@ -189,15 +189,15 @@
       "d": "45°"
     },
     "correctAnswer": "c",
-    "explanation": "প্রদত্ত সমস্যাটি সমাধান করতে আমরা নিস্নলিখিত ধাপগুলি অনুসরণ করব: 1. প্রদত্ত তথ্য বিশ্লেষণঃ △ABC \\triangle A B C △ABC ত্রিষুজে cos\\cos A+\\cos C=\\sin B cosA+cosC=sinB আমাদের ∠A \\angle A ∠A এর মান নির্ণয় করতে হবে। 2. ত্রিভুডের কোণের সম্পর্ক ব্যবহার: যেকোনো ত্রিভুজে কোণের সমষ্টি \\circ} A+B+C=180∘ সুতরাং, \\circ}-A-B C=180∘−A−B 3. cos\\cos C cosC কে cos\\cos \\left(180^{\\circ}-A-B\\right) cos(180∘−A−B) शिजেবে প্রকাশ: cos\\cos \\left(180^{\\circ}-A-B\\right)=-\\cos (A+B) cos(180∘−A−B)=−cos(A+B) সুতরাং, cos\\cos C=-\\cos (A+B) cosC=−cos(A+B) 4. প্রদত্ত সমীকরণে মান বসানো: cos\\cos A+\\cos C=\\sin B cosA+cosC=sinB cos\\cos A-\\cos (A+B)=\\sin B cosA−cos(A+B)=sinB 5. cos\\cos (A+B) cos(A+B) কে প্রসারণ: cos\\cos (A+B)=\\cos A \\cos B-\\sin A \\sin B cos(A+B)=cosAcosB−sinAsinB সুতরাং, cos\\cos A-(\\cos A \\cos B-\\sin A \\sin B)=\\sin B cosA−(cosAcosB−sinAsinB)=sinB সরলীকরণ করলে পাই: cos\\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB 6. সমীকরণটি সমাধান: cos\\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB cos\\cos A(1-\\cos B)=\\sin B(1-\\sin A) cosA(1−cosB)=sinB(1−sinA) 7. ∠A \\angle A ∠A এবং ∠B \\angle B ∠B এর সম্পর্ক নির্ণয়: এই সমীকরণটি সমাধান করে আমরা পাই ∠\\angle A=90^{\\circ} ∠A=90∘",
+    "explanation": "প্রদত্ত সমস্যাটি সমাধান করতে আমরা নিস্নলিখিত ধাপগুলি অনুসরণ করব: 1. প্রদত্ত তথ্য বিশ্লেষণঃ △ABC \\triangle A B C △ABC ত্রিষুজে cos⁡A+cos⁡C=sin⁡B \\cos A+\\cos C=\\sin B cosA+cosC=sinB আমাদের ∠A \\angle A ∠A এর মান নির্ণয় করতে হবে। 2. ত্রিভুডের কোণের সম্পর্ক ব্যবহার: যেকোনো ত্রিভুজে কোণের সমষ্টি A+B+C=180∘ A+B+C=180^{\\circ} A+B+C=180∘ সুতরাং, C=180∘−A−B C=180^{\\circ}-A-B C=180∘−A−B 3. cos⁡C \\cos C cosC কে cos⁡(180∘−A−B) \\cos \\left(180^{\\circ}-A-B\\right) cos(180∘−A−B) शिजেবে প্রকাশ: cos⁡(180∘−A−B)=−cos⁡(A+B) \\cos \\left(180^{\\circ}-A-B\\right)=-\\cos (A+B) cos(180∘−A−B)=−cos(A+B) সুতরাং, cos⁡C=−cos⁡(A+B) \\cos C=-\\cos (A+B) cosC=−cos(A+B) 4. প্রদত্ত সমীকরণে মান বসানো: cos⁡A+cos⁡C=sin⁡B \\cos A+\\cos C=\\sin B cosA+cosC=sinB cos⁡A−cos⁡(A+B)=sin⁡B \\cos A-\\cos (A+B)=\\sin B cosA−cos(A+B)=sinB 5. cos⁡(A+B) \\cos (A+B) cos(A+B) কে প্রসারণ: cos⁡(A+B)=cos⁡Acos⁡B−sin⁡Asin⁡B \\cos (A+B)=\\cos A \\cos B-\\sin A \\sin B cos(A+B)=cosAcosB−sinAsinB সুতরাং, cos⁡A−(cos⁡Acos⁡B−sin⁡Asin⁡B)=sin⁡B \\cos A-(\\cos A \\cos B-\\sin A \\sin B)=\\sin B cosA−(cosAcosB−sinAsinB)=sinB সরলীকরণ করলে পাই: cos⁡A(1−cos⁡B)+sin⁡Asin⁡B=sin⁡B \\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB 6. সমীকরণটি সমাধান: cos⁡A(1−cos⁡B)+sin⁡Asin⁡B=sin⁡B \\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB cos⁡A(1−cos⁡B)=sin⁡B(1−sin⁡A) \\cos A(1-\\cos B)=\\sin B(1-\\sin A) cosA(1−cosB)=sinB(1−sinA) 7. ∠A \\angle A ∠A এবং ∠B \\angle B ∠B এর সম্পর্ক নির্ণয়: এই সমীকরণটি সমাধান করে আমরা পাই ∠A=90∘ \\angle A=90^{\\circ} ∠A=90∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "ABC \\mathrm{ABC} ABC ত্রিভুজে cos\\cos \\mathrm{A}+\\cos \\mathrm{C}=\\sin \\mathrm{B} cosA+cosC=sinB হলে ∠A \\angle A ∠A সমান-",
-    "explanationLatex": "প্রদত্ত সমস্যাটি সমাধান করতে আমরা নিস্নলিখিত ধাপগুলি অনুসরণ করব: 1. প্রদত্ত তথ্য বিশ্লেষণঃ △ABC \\triangle A B C △ABC ত্রিষুজে cos\\cos A+\\cos C=\\sin B cosA+cosC=sinB আমাদের ∠A \\angle A ∠A এর মান নির্ণয় করতে হবে। 2. ত্রিভুডের কোণের সম্পর্ক ব্যবহার: যেকোনো ত্রিভুজে কোণের সমষ্টি \\circ} A+B+C=180∘ সুতরাং, \\circ}-A-B C=180∘−A−B 3. cos\\cos C cosC কে cos\\cos \\left(180^{\\circ}-A-B\\right) cos(180∘−A−B) शिजেবে প্রকাশ: cos\\cos \\left(180^{\\circ}-A-B\\right)=-\\cos (A+B) cos(180∘−A−B)=−cos(A+B) সুতরাং, cos\\cos C=-\\cos (A+B) cosC=−cos(A+B) 4. প্রদত্ত সমীকরণে মান বসানো: cos\\cos A+\\cos C=\\sin B cosA+cosC=sinB cos\\cos A-\\cos (A+B)=\\sin B cosA−cos(A+B)=sinB 5. cos\\cos (A+B) cos(A+B) কে প্রসারণ: cos\\cos (A+B)=\\cos A \\cos B-\\sin A \\sin B cos(A+B)=cosAcosB−sinAsinB সুতরাং, cos\\cos A-(\\cos A \\cos B-\\sin A \\sin B)=\\sin B cosA−(cosAcosB−sinAsinB)=sinB সরলীকরণ করলে পাই: cos\\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB 6. সমীকরণটি সমাধান: cos\\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB cos\\cos A(1-\\cos B)=\\sin B(1-\\sin A) cosA(1−cosB)=sinB(1−sinA) 7. ∠A \\angle A ∠A এবং ∠B \\angle B ∠B এর সম্পর্ক নির্ণয়: এই সমীকরণটি সমাধান করে আমরা পাই ∠\\angle A=90^{\\circ} ∠A=90∘"
+    "questionLatex": "$ABC \\mathrm{ABC} ABC ত্রিভুজে cos⁡A+cos⁡C=sin⁡B \\cos \\mathrm{A}+\\cos \\mathrm{C}=\\sin \\mathrm{B} cosA+cosC=sinB হলে ∠A \\angle A ∠A সমান-$",
+    "explanationLatex": "$প্রদত্ত সমস্যাটি সমাধান করতে আমরা নিস্নলিখিত ধাপগুলি অনুসরণ করব: 1. প্রদত্ত তথ্য বিশ্লেষণঃ △ABC \\triangle A B C △ABC ত্রিষুজে cos⁡A+cos⁡C=sin⁡B \\cos A+\\cos C=\\sin B cosA+cosC=sinB আমাদের ∠A \\angle A ∠A এর মান নির্ণয় করতে হবে। 2. ত্রিভুডের কোণের সম্পর্ক ব্যবহার: যেকোনো ত্রিভুজে কোণের সমষ্টি A+B+C=180∘ A+B+C=180^{\\circ} A+B+C=180∘ সুতরাং, C=180∘−A−B C=180^{\\circ}-A-B C=180∘−A−B 3. cos⁡C \\cos C cosC কে cos⁡(180∘−A−B) \\cos \\left(180^{\\circ}-A-B\\right) cos(180∘−A−B) शिजেবে প্রকাশ: cos⁡(180∘−A−B)=−cos⁡(A+B) \\cos \\left(180^{\\circ}-A-B\\right)=-\\cos (A+B) cos(180∘−A−B)=−cos(A+B) সুতরাং, cos⁡C=−cos⁡(A+B) \\cos C=-\\cos (A+B) cosC=−cos(A+B) 4. প্রদত্ত সমীকরণে মান বসানো: cos⁡A+cos⁡C=sin⁡B \\cos A+\\cos C=\\sin B cosA+cosC=sinB cos⁡A−cos⁡(A+B)=sin⁡B \\cos A-\\cos (A+B)=\\sin B cosA−cos(A+B)=sinB 5. cos⁡(A+B) \\cos (A+B) cos(A+B) কে প্রসারণ: cos⁡(A+B)=cos⁡Acos⁡B−sin⁡Asin⁡B \\cos (A+B)=\\cos A \\cos B-\\sin A \\sin B cos(A+B)=cosAcosB−sinAsinB সুতরাং, cos⁡A−(cos⁡Acos⁡B−sin⁡Asin⁡B)=sin⁡B \\cos A-(\\cos A \\cos B-\\sin A \\sin B)=\\sin B cosA−(cosAcosB−sinAsinB)=sinB সরলীকরণ করলে পাই: cos⁡A(1−cos⁡B)+sin⁡Asin⁡B=sin⁡B \\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB 6. সমীকরণটি সমাধান: cos⁡A(1−cos⁡B)+sin⁡Asin⁡B=sin⁡B \\cos A(1-\\cos B)+\\sin A \\sin B=\\sin B cosA(1−cosB)+sinAsinB=sinB cos⁡A(1−cos⁡B)=sin⁡B(1−sin⁡A) \\cos A(1-\\cos B)=\\sin B(1-\\sin A) cosA(1−cosB)=sinB(1−sinA) 7. ∠A \\angle A ∠A এবং ∠B \\angle B ∠B এর সম্পর্ক নির্ণয়: এই সমীকরণটি সমাধান করে আমরা পাই ∠A=90∘ \\angle A=90^{\\circ} ∠A=90∘$"
   },
   {
     "id": 11,
@@ -209,7 +209,7 @@
       "d": "45 𝑜 45 o"
     },
     "correctAnswer": "b",
-    "explanation": "(\\begin{array}{l}(a+b+c)(b+c-a)=3 b c \\\\ \\Rightarrow\\{(b+c)+a\\}(b+c-a)=3 b{c} \\\\ \\Rightarrow(b+c)^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+2 b c+c^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+c^{2}-a^{2}=b c \\\\ \\therefore \\frac{b^{2}+c^{2}-a^{2}}{b c}=1 \\\\ \\Rightarrow \\quad \\frac{b^{2}+c^{2}-a^{2}}{2 b c}=\\frac{1}{2} \\\\ \\therefore cosA =\\frac{1}{2} \\\\ \\therefore A=cos^{-1} \\frac{1}{2}=\\frac{\\pi}{3}=60\\end{array} (a+b+c)(b+c−a)=3bc",
+    "explanation": "(a+b+c)(b+c−a)=3bc⇒{(b+c)+a}(b+c−a)=3bc⇒(b+c)2−a2=3bc⇒b2+2bc+c2−a2=3bc⇒b2+c2−a2=bc∴b2+c2−a2bc=1⇒b2+c2−a22bc=12∴cosA=12∴A=cos−112=π3=60 \\begin{array}{l}(a+b+c)(b+c-a)=3 b c \\\\ \\Rightarrow\\{(b+c)+a\\}(b+c-a)=3 b{c} \\\\ \\Rightarrow(b+c)^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+2 b c+c^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+c^{2}-a^{2}=b c \\\\ \\therefore \\frac{b^{2}+c^{2}-a^{2}}{b c}=1 \\\\ \\Rightarrow \\quad \\frac{b^{2}+c^{2}-a^{2}}{2 b c}=\\frac{1}{2} \\\\ \\therefore cosA =\\frac{1}{2} \\\\ \\therefore A=cos^{-1} \\frac{1}{2}=\\frac{\\pi}{3}=60\\end{array} (a+b+c)(b+c−a)=3bc⇒{(b+c)+a}(b+c−a)=3bc⇒(b+c)2−a2=3bc⇒b2+2bc+c2−a2=3bc⇒b2+c2−a2=bc∴bcb2+c2−a2=1⇒2bcb2+c2−a2=21∴cosA=21∴A=cos−121=3π=60",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -217,11 +217,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$(a+b+c)(b+c−a)=3bc\\left(a+b+c\\right)\\left(b+c-a\\right)=3bc(a+b+c)(b+c−a)=3bc হলে, A=?A=?A=?$",
-    "explanationLatex": "(\\pi 3=60 \\begin{array}{l}(a+b+c)(b+c-a)=3 b c \\\\ \\Rightarrow\\{(b+c)+a\\}(b+c-a)=3 b{c} \\\\ \\Rightarrow(b+c)^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+2 b c+c^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+c^{2}-a^{2}=b c \\\\ \\therefore \\frac{b^{2}+c^{2}-a^{2}}{b c}=1 \\\\ \\Rightarrow \\quad \\frac{b^{2}+c^{2}-a^{2}}{2 b c}=\\frac{1}{2} \\\\ \\therefore cosA =\\frac{1}{2} \\\\ \\therefore A=cos^{-1} \\frac{1}{2}=\\frac{\\pi}{3}=60\\end{array} (a+b+c)(b+c−a)=3bc\\pi =60"
+    "explanationLatex": "$(a+b+c)(b+c−a)=3bc⇒{(b+c)+a}(b+c−a)=3bc⇒(b+c)2−a2=3bc⇒b2+2bc+c2−a2=3bc⇒b2+c2−a2=bc∴b2+c2−a2bc=1⇒b2+c2−a22bc=12∴cosA=12∴A=cos−112=\\\\pi 3=60 \\begin{array}{l}(a+b+c)(b+c-a)=3 b c \\\\ \\Rightarrow\\{(b+c)+a\\}(b+c-a)=3 b{c} \\\\ \\Rightarrow(b+c)^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+2 b c+c^{2}-a^{2}=3 b c \\\\ \\Rightarrow b^{2}+c^{2}-a^{2}=b c \\\\ \\therefore \\frac{b^{2}+c^{2}-a^{2}}{b c}=1 \\\\ \\Rightarrow \\quad \\frac{b^{2}+c^{2}-a^{2}}{2 b c}=\\frac{1}{2} \\\\ \\therefore cosA =\\frac{1}{2} \\\\ \\therefore A=cos^{-1} \\frac{1}{2}=\\frac{\\pi}{3}=60\\end{array} (a+b+c)(b+c−a)=3bc⇒{(b+c)+a}(b+c−a)=3bc⇒(b+c)2−a2=3bc⇒b2+2bc+c2−a2=3bc⇒b2+c2−a2=bc∴bcb2+c2−a2=1⇒2bcb2+c2−a2=21∴cosA=21∴A=cos−121=3\\\\pi =60$"
   },
   {
     "id": 12,
-    "question": "tan\\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right)tan105∘=tan(60∘+45∘) এর মান কত?",
+    "question": "tan⁡105∘=tan⁡(60∘+45∘)\\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right)tan105∘=tan(60∘+45∘) এর মান কত?",
     "options": {
       "a": "− ( 3 − 2 ) −( 3 −2)",
       "b": "− ( 3 + 1 ) −( 3 +1)",
@@ -229,15 +229,15 @@
       "d": "( 3 + 2 ) ( 3 +2)"
     },
     "correctAnswer": "c",
-    "explanation": "\\begin{array}{l} \\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right) \\\\ =\\frac{\\tan 60^{\\circ}+\\tan 45^{\\circ}}{1-\\tan 60^{\\circ} \\tan 45^{\\circ}}=\\frac{\\sqrt{3}+1}{1-\\sqrt{3} .1} \\\\ =\\frac{(1+\\sqrt{3})^{2}}{(1-\\sqrt{3})(1+\\sqrt{3})}=\\frac{1+2 \\sqrt{3}+3}{1-3} \\\\ =\\frac{2(\\sqrt{3}+2)}{-2}=-(\\sqrt{3}+2) \\\\ \\end{array} tan105∘=tan(60∘+45∘)=1−tan60∘tan45∘tan60∘+tan45∘=1−3.13+1=(1−3)(1+3)(1+3)2=1−31+23+3=−22(3+2)=−(3+2)",
+    "explanation": "Solve:tan⁡105∘=tan⁡(60∘+45∘)=tan⁡60∘+tan⁡45∘1−tan⁡60∘tan⁡45∘=3+11−3.1=(1+3)2(1−3)(1+3)=1+23+31−3=2(3+2)−2=−(3+2) \\begin{array}{l} \\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right) \\\\ =\\frac{\\tan 60^{\\circ}+\\tan 45^{\\circ}}{1-\\tan 60^{\\circ} \\tan 45^{\\circ}}=\\frac{\\sqrt{3}+1}{1-\\sqrt{3} .1} \\\\ =\\frac{(1+\\sqrt{3})^{2}}{(1-\\sqrt{3})(1+\\sqrt{3})}=\\frac{1+2 \\sqrt{3}+3}{1-3} \\\\ =\\frac{2(\\sqrt{3}+2)}{-2}=-(\\sqrt{3}+2) \\\\ \\end{array} tan105∘=tan(60∘+45∘)=1−tan60∘tan45∘tan60∘+tan45∘=1−3.13+1=(1−3)(1+3)(1+3)2=1−31+23+3=−22(3+2)=−(3+2)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right)tan105∘=tan(60∘+45∘) এর মান কত?",
-    "explanationLatex": "\\begin{array}{l} \\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right) \\\\ =\\frac{\\tan 60^{\\circ}+\\tan 45^{\\circ}}{1-\\tan 60^{\\circ} \\tan 45^{\\circ}}=\\frac{\\sqrt{3}+1}{1-\\sqrt{3} .1} \\\\ =\\frac{(1+\\sqrt{3})^{2}}{(1-\\sqrt{3})(1+\\sqrt{3})}=\\frac{1+2 \\sqrt{3}+3}{1-3} \\\\ =\\frac{2(\\sqrt{3}+2)}{-2}=-(\\sqrt{3}+2) \\\\ \\end{array} tan105∘=tan(60∘+45∘)=1−tan60∘tan45∘tan60∘+tan45∘=1−3.13+1=(1−3)(1+3)(1+3)2=1−31+23+3=−22(3+2)=−(3+2)"
+    "questionLatex": "$tan⁡105∘=tan⁡(60∘+45∘)\\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right)tan105∘=tan(60∘+45∘) এর মান কত?$",
+    "explanationLatex": "$Solve:tan⁡105∘=tan⁡(60∘+45∘)=tan⁡60∘+tan⁡45∘1−tan⁡60∘tan⁡45∘=3+11−3.1=(1+3)2(1−3)(1+3)=1+23+31−3=2(3+2)−2=−(3+2) \\begin{array}{l} \\tan 105^{\\circ}=\\tan \\left(60^{\\circ}+45^{\\circ}\\right) \\\\ =\\frac{\\tan 60^{\\circ}+\\tan 45^{\\circ}}{1-\\tan 60^{\\circ} \\tan 45^{\\circ}}=\\frac{\\sqrt{3}+1}{1-\\sqrt{3} .1} \\\\ =\\frac{(1+\\sqrt{3})^{2}}{(1-\\sqrt{3})(1+\\sqrt{3})}=\\frac{1+2 \\sqrt{3}+3}{1-3} \\\\ =\\frac{2(\\sqrt{3}+2)}{-2}=-(\\sqrt{3}+2) \\\\ \\end{array} tan105∘=tan(60∘+45∘)=1−tan60∘tan45∘tan60∘+tan45∘=1−3.13+1=(1−3)(1+3)(1+3)2=1−31+23+3=−22(3+2)=−(3+2)$"
   },
   {
     "id": 13,
@@ -249,7 +249,7 @@
       "d": "None of these"
     },
     "correctAnswer": "a",
-    "explanation": "\\angle \\mathrm{A}>\\angle \\mathrm{B}>\\angle \\mathrm{C} ∠A>∠B>∠C Angle are in A.P. Therefore, ∠C=θ−d,∠B=θ \\angle \\mathrm{C}=\\theta-\\mathrm{d}, \\angle \\mathrm{B}=\\theta ∠C=θ−d,∠B=θ and ∠A=θ+d \\angle A=\\theta+d ∠A=θ+d As ∠A+∠B+∠C=180∘ \\angle \\mathrm{A}+\\angle \\mathrm{B}+\\angle \\mathrm{C}=180^{\\circ} ∠A+∠B+∠C=180∘ \\Rightarrow \\theta+\\mathrm{d}+\\theta+\\theta-\\mathrm{d}=180^{\\circ} \\Rightarrow 3 \\theta=180^{\\circ} \\Rightarrow \\theta=60^{\\circ} \\triangle \\mathrm{ABC} △ABC, we have cos\\begin{array}{l} \\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c} \\\\ \\cos 60^{\\circ}=\\frac{(10)^{2}+x^{2}-9^{2}}{2 \\times 10 \\times x} \\\\ \\Rightarrow \\frac{1}{2}=\\frac{100+x^{2}-9^{2}}{20 x} \\\\ \\Rightarrow x^{2}-10 x+19=0 \\\\ \\Rightarrow x=\\frac{10 \\pm \\sqrt{100-76}}{2} \\\\ =\\frac{10 \\pm \\sqrt{24}}{2}=5 \\pm \\sqrt{6} \\end{array} cosB=2aca2+c2−b2cos60∘=2",
+    "explanation": "Let in the figure, ∠A>∠B>∠C \\angle \\mathrm{A}>\\angle \\mathrm{B}>\\angle \\mathrm{C} ∠A>∠B>∠C Angle are in A.P. Therefore, ∠C=θ−d,∠B=θ \\angle \\mathrm{C}=\\theta-\\mathrm{d}, \\angle \\mathrm{B}=\\theta ∠C=θ−d,∠B=θ and ∠A=θ+d \\angle A=\\theta+d ∠A=θ+d As ∠A+∠B+∠C=180∘ \\angle \\mathrm{A}+\\angle \\mathrm{B}+\\angle \\mathrm{C}=180^{\\circ} ∠A+∠B+∠C=180∘ ⇒θ+d+θ+θ−d=180∘ \\Rightarrow \\theta+\\mathrm{d}+\\theta+\\theta-\\mathrm{d}=180^{\\circ} ⇒θ+d+θ+θ−d=180∘ ⇒3θ=180∘ \\Rightarrow 3 \\theta=180^{\\circ} ⇒3θ=180∘ ⇒θ=60∘ \\Rightarrow \\theta=60^{\\circ} ⇒θ=60∘ Now in △ABC \\triangle \\mathrm{ABC} △ABC, we have cos⁡B=a2+c2−b22accos⁡60∘=(10)2+x2−922×10×x⇒12=100+x2−9220x⇒x2−10x+19=0⇒x=10±100−762=10±242=5±6 \\begin{array}{l} \\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c} \\\\ \\cos 60^{\\circ}=\\frac{(10)^{2}+x^{2}-9^{2}}{2 \\times 10 \\times x} \\\\ \\Rightarrow \\frac{1}{2}=\\frac{100+x^{2}-9^{2}}{20 x} \\\\ \\Rightarrow x^{2}-10 x+19=0 \\\\ \\Rightarrow x=\\frac{10 \\pm \\sqrt{100-76}}{2} \\\\ =\\frac{10 \\pm \\sqrt{24}}{2}=5 \\pm \\sqrt{6} \\end{array} cosB=2aca2+c2−b2cos60∘=2×10×x(10)2+x2−92⇒21=20x100+x2−92⇒x2−10x+19=0⇒x=210±100−76=210±24=5±6",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243659/gst-question-images/Math____________________________________________-Varsity-ARC_q14.png",
@@ -257,11 +257,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি ত্রিভুজের বড় দুটি পার্শ্বের দৈর্ঘ্য যথাক্রমে 10 এবং 9। যদি কোণ গুলো A.P তে থাকে তবে ৩য় পার্শ্বের দৈর্ঘ্য কত?",
-    "explanationLatex": "\\angle \\mathrm{A}>\\angle \\mathrm{B}>\\angle \\mathrm{C} ∠A>∠B>∠C Angle are in A.P. Therefore, ∠C=\\\\theta −d,∠B=\\\\theta \\angle \\mathrm{C}=\\theta-\\mathrm{d}, \\angle \\mathrm{B}=\\theta ∠C=\\\\theta −d,∠B=\\\\theta and ∠A=\\\\theta +d \\angle A=\\theta+d ∠A=\\\\theta +d As ∠A+∠B+∠C=180∘ \\angle \\mathrm{A}+\\angle \\mathrm{B}+\\angle \\mathrm{C}=180^{\\circ} ∠A+∠B+∠C=180∘ ⇒\\\\theta +d+\\\\theta +\\\\theta −d=180∘ \\Rightarrow \\theta+\\mathrm{d}+\\theta+\\theta-\\mathrm{d}=180^{\\circ} ⇒\\\\theta +d+\\\\theta +\\\\theta −d=180∘ \\theta =180∘ \\Rightarrow 3 \\theta=180^{\\circ} \\theta =180∘ ⇒\\\\theta =60∘ \\Rightarrow \\theta=60^{\\circ} ⇒\\\\theta =60∘ Now in △ABC \\triangle \\mathrm{ABC} △ABC, we have cos\\times 10\\\\times x\\pm 100−762=10\\\\pm 242=5\\\\pm 6 \\begin{array}{l} \\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c} \\\\ \\cos 60^{\\circ}=\\frac{(10)^{2}+x^{2}-9^{2}}{2 \\times 10 \\times x} \\\\ \\Rightarrow \\frac{1}{2}=\\frac{100+x^{2}-9^{2}}{20 x} \\\\ \\Rightarrow x^{2}-10 x+19=0 \\\\ \\Rightarrow x=\\frac{10 \\pm \\sqrt{100-76}}{2} \\\\ =\\frac{10 \\pm \\sqrt{24}}{2}=5 \\pm \\sqrt{6} \\end{array} cosB=2aca2+c2−b2cos60∘=2\\\\times 10\\\\times x(10)2+x2−92\\pm 100−76=210\\\\pm 24=5\\\\pm 6"
+    "explanationLatex": "$Let in the figure, ∠A>∠B>∠C \\angle \\mathrm{A}>\\angle \\mathrm{B}>\\angle \\mathrm{C} ∠A>∠B>∠C Angle are in A.P. Therefore, ∠C=\\\\theta −d,∠B=\\\\theta  \\angle \\mathrm{C}=\\theta-\\mathrm{d}, \\angle \\mathrm{B}=\\theta ∠C=\\\\theta −d,∠B=\\\\theta  and ∠A=\\\\theta +d \\angle A=\\theta+d ∠A=\\\\theta +d As ∠A+∠B+∠C=180∘ \\angle \\mathrm{A}+\\angle \\mathrm{B}+\\angle \\mathrm{C}=180^{\\circ} ∠A+∠B+∠C=180∘ ⇒\\\\theta +d+\\\\theta +\\\\theta −d=180∘ \\Rightarrow \\theta+\\mathrm{d}+\\theta+\\theta-\\mathrm{d}=180^{\\circ} ⇒\\\\theta +d+\\\\theta +\\\\theta −d=180∘ ⇒3\\\\theta =180∘ \\Rightarrow 3 \\theta=180^{\\circ} ⇒3\\\\theta =180∘ ⇒\\\\theta =60∘ \\Rightarrow \\theta=60^{\\circ} ⇒\\\\theta =60∘ Now in △ABC \\triangle \\mathrm{ABC} △ABC, we have cos⁡B=a2+c2−b22accos⁡60∘=(10)2+x2−922\\\\times 10\\\\times x⇒12=100+x2−9220x⇒x2−10x+19=0⇒x=10\\\\pm 100−762=10\\\\pm 242=5\\\\pm 6 \\begin{array}{l} \\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c} \\\\ \\cos 60^{\\circ}=\\frac{(10)^{2}+x^{2}-9^{2}}{2 \\times 10 \\times x} \\\\ \\Rightarrow \\frac{1}{2}=\\frac{100+x^{2}-9^{2}}{20 x} \\\\ \\Rightarrow x^{2}-10 x+19=0 \\\\ \\Rightarrow x=\\frac{10 \\pm \\sqrt{100-76}}{2} \\\\ =\\frac{10 \\pm \\sqrt{24}}{2}=5 \\pm \\sqrt{6} \\end{array} cosB=2aca2+c2−b2cos60∘=2\\\\times 10\\\\times x(10)2+x2−92⇒21=20x100+x2−92⇒x2−10x+19=0⇒x=210\\\\pm 100−76=210\\\\pm 24=5\\\\pm 6$"
   },
   {
     "id": 14,
-    "question": "tan\\tan 50^{\\circ}= ?tan50∘=?",
+    "question": "tan⁡50∘=? \\tan 50^{\\circ}= ?tan50∘=?",
     "options": {
       "a": "tan ⁡ 30 ∘ + 2 tan ⁡ 10 ∘ tan30 ∘ +2tan10 ∘",
       "b": "tan ⁡ 40 ∘ − 2 tan ⁡ 10 ∘ tan40 ∘ −2tan10 ∘",
@@ -269,15 +269,15 @@
       "d": "tan ⁡ 40 ∘ ± 2 tan ⁡ 10 ∘ tan40 ∘ ±2tan10 ∘"
     },
     "correctAnswer": "c",
-    "explanation": "\\tan 50^{\\circ}=\\tan \\left(40^{\\circ}+10^{\\circ}\\right) tan50∘=tan(40∘+10∘) \\begin{array}{l} \\Rightarrow \\tan 50^{\\circ}=\\frac{\\tan 40^{\\circ}+\\tan 10^{\\circ}}{1-\\tan 40^{\\circ} \\tan 10^{\\circ}} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 50^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\end{array} \\begin{array}{l}\\Rightarrow \\tan 50^{\\circ}-\\tan \\left(90^{\\circ}-40^{\\circ}\\right) \\cdot \\tan 40^{\\circ} \\\\ \\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\cot 40^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\therefore \\tan 50^{\\circ}=\\tan 40^{\\circ}+2 \\tan 10^{\\circ} \\\\ \\end{array}",
+    "explanation": "Solve: tan⁡50∘=tan⁡(40∘+10∘) \\tan 50^{\\circ}=\\tan \\left(40^{\\circ}+10^{\\circ}\\right) tan50∘=tan(40∘+10∘) ⇒tan⁡50∘=tan⁡40∘+tan⁡10∘1−tan⁡40∘tan⁡10∘⇒tan⁡50∘−tan⁡50∘tan⁡40∘tan⁡10∘=tan⁡40∘+tan⁡10∘ \\begin{array}{l} \\Rightarrow \\tan 50^{\\circ}=\\frac{\\tan 40^{\\circ}+\\tan 10^{\\circ}}{1-\\tan 40^{\\circ} \\tan 10^{\\circ}} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 50^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\end{array} ⇒tan50∘=1−tan40∘tan10∘tan40∘+tan10∘⇒tan50∘−tan50∘tan40∘tan10∘=tan40∘+tan10∘ ⇒tan⁡50∘−tan⁡(90∘−40∘)⋅tan⁡40∘tan⁡10∘=tan⁡40∘+tan⁡10∘⇒tan⁡50∘−cot⁡40∘tan⁡40∘tan⁡10∘=tan⁡40∘+tan⁡10∘⇒tan⁡50∘−tan⁡10∘=tan⁡40∘+tan⁡10∘∴tan⁡50∘=tan⁡40∘+2tan⁡10∘ \\begin{array}{l}\\Rightarrow \\tan 50^{\\circ}-\\tan \\left(90^{\\circ}-40^{\\circ}\\right) \\cdot \\tan 40^{\\circ} \\\\ \\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\cot 40^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\therefore \\tan 50^{\\circ}=\\tan 40^{\\circ}+2 \\tan 10^{\\circ} \\\\ \\end{array} ⇒tan50∘−tan(90∘−40∘)⋅tan40∘tan10∘=tan40∘+tan10∘⇒tan50∘−cot40∘tan40∘tan10∘=tan40∘+tan10∘⇒tan50∘−tan10∘=tan40∘+tan10∘∴tan50∘=tan40∘+2tan10∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan\\tan 50^{\\circ}= ?tan50∘=?",
-    "explanationLatex": "\\tan 50^{\\circ}=\\tan \\left(40^{\\circ}+10^{\\circ}\\right) tan50∘=tan(40∘+10∘) \\begin{array}{l} \\Rightarrow \\tan 50^{\\circ}=\\frac{\\tan 40^{\\circ}+\\tan 10^{\\circ}}{1-\\tan 40^{\\circ} \\tan 10^{\\circ}} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 50^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\end{array} \\begin{array}{l}\\Rightarrow \\tan 50^{\\circ}-\\tan \\left(90^{\\circ}-40^{\\circ}\\right) \\cdot \\tan 40^{\\circ} \\\\ \\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\cot 40^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\therefore \\tan 50^{\\circ}=\\tan 40^{\\circ}+2 \\tan 10^{\\circ} \\\\ \\end{array}"
+    "questionLatex": "$tan⁡50∘=? \\tan 50^{\\circ}= ?tan50∘=?$",
+    "explanationLatex": "$Solve: tan⁡50∘=tan⁡(40∘+10∘) \\tan 50^{\\circ}=\\tan \\left(40^{\\circ}+10^{\\circ}\\right) tan50∘=tan(40∘+10∘) ⇒tan⁡50∘=tan⁡40∘+tan⁡10∘1−tan⁡40∘tan⁡10∘⇒tan⁡50∘−tan⁡50∘tan⁡40∘tan⁡10∘=tan⁡40∘+tan⁡10∘ \\begin{array}{l} \\Rightarrow \\tan 50^{\\circ}=\\frac{\\tan 40^{\\circ}+\\tan 10^{\\circ}}{1-\\tan 40^{\\circ} \\tan 10^{\\circ}} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 50^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\end{array} ⇒tan50∘=1−tan40∘tan10∘tan40∘+tan10∘⇒tan50∘−tan50∘tan40∘tan10∘=tan40∘+tan10∘ ⇒tan⁡50∘−tan⁡(90∘−40∘)⋅tan⁡40∘tan⁡10∘=tan⁡40∘+tan⁡10∘⇒tan⁡50∘−cot⁡40∘tan⁡40∘tan⁡10∘=tan⁡40∘+tan⁡10∘⇒tan⁡50∘−tan⁡10∘=tan⁡40∘+tan⁡10∘∴tan⁡50∘=tan⁡40∘+2tan⁡10∘ \\begin{array}{l}\\Rightarrow \\tan 50^{\\circ}-\\tan \\left(90^{\\circ}-40^{\\circ}\\right) \\cdot \\tan 40^{\\circ} \\\\ \\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\cot 40^{\\circ} \\tan 40^{\\circ} \\tan 10^{\\circ} \\\\ =\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\Rightarrow \\tan 50^{\\circ}-\\tan 10^{\\circ}=\\tan 40^{\\circ}+\\tan 10^{\\circ} \\\\ \\therefore \\tan 50^{\\circ}=\\tan 40^{\\circ}+2 \\tan 10^{\\circ} \\\\ \\end{array} ⇒tan50∘−tan(90∘−40∘)⋅tan40∘tan10∘=tan40∘+tan10∘⇒tan50∘−cot40∘tan40∘tan10∘=tan40∘+tan10∘⇒tan50∘−tan10∘=tan40∘+tan10∘∴tan50∘=tan40∘+2tan10∘$"
   },
   {
     "id": 15,
@@ -289,7 +289,7 @@
       "d": "90o"
     },
     "correctAnswer": "c",
-    "explanation": "আমরা জানি, △\\begin{aligned} \\triangle A B C , \\cos C & =\\frac{a^{2}+b^{2}-c^{2}}{2 a b} \\\\ & =\\frac{a b}{2 a b} \\\\ & =\\frac{1}{2} \\\\ \\therefore C & =60^{\\circ} \\end{aligned} △ABC,cosC",
+    "explanation": "আমরা জানি, △ABC,cos⁡C=a2+b2−c22ab=ab2ab=12∴C=60∘ \\begin{aligned} \\triangle A B C , \\cos C & =\\frac{a^{2}+b^{2}-c^{2}}{2 a b} \\\\ & =\\frac{a b}{2 a b} \\\\ & =\\frac{1}{2} \\\\ \\therefore C & =60^{\\circ} \\end{aligned} △ABC,cosC∴C=2aba2+b2−c2=2abab=21=60∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -297,11 +297,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$ABC ত্রিভুজে a2+b2-c2=ab হলে C কোণের মান কত?$",
-    "explanationLatex": "আমরা জানি, △\\begin{aligned} \\triangle A B C , \\cos C & =\\frac{a^{2}+b^{2}-c^{2}}{2 a b} \\\\ & =\\frac{a b}{2 a b} \\\\ & =\\frac{1}{2} \\\\ \\therefore C & =60^{\\circ} \\end{aligned} △ABC,cosC"
+    "explanationLatex": "$আমরা জানি, △ABC,cos⁡C=a2+b2−c22ab=ab2ab=12∴C=60∘ \\begin{aligned} \\triangle A B C , \\cos C & =\\frac{a^{2}+b^{2}-c^{2}}{2 a b} \\\\ & =\\frac{a b}{2 a b} \\\\ & =\\frac{1}{2} \\\\ \\therefore C & =60^{\\circ} \\end{aligned} △ABC,cosC∴C=2aba2+b2−c2=2abab=21=60∘$"
   },
   {
     "id": 16,
-    "question": "sin\\sin 15^{\\circ}+\\cos 15^{\\circ} sin15∘+cos15∘ এর মান কোনটি?",
+    "question": "sin⁡15∘+cos⁡15∘ \\sin 15^{\\circ}+\\cos 15^{\\circ} sin15∘+cos15∘ এর মান কোনটি?",
     "options": {
       "a": "3 2 2 3",
       "b": "3 2 2 3",
@@ -309,19 +309,19 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "sin\\begin{aligned} & \\sin 15^{\\circ}+\\cos 15^{\\circ} \\\\ = & \\sin 15^{\\circ}+\\sin 75^{\\circ} \\\\ = & 2 \\sin 45^{\\circ} \\cos 30^{\\circ} \\\\ = & 2 \\times \\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{\\frac{3}{2}}\\end{aligned} ====sin15∘+cos15∘sin15∘+sin75∘2sin45∘cos30∘2",
+    "explanation": "sin⁡15∘+cos⁡15∘=sin⁡15∘+sin⁡75∘=2sin⁡45∘cos⁡30∘=2×12×32=32 \\begin{aligned} & \\sin 15^{\\circ}+\\cos 15^{\\circ} \\\\ = & \\sin 15^{\\circ}+\\sin 75^{\\circ} \\\\ = & 2 \\sin 45^{\\circ} \\cos 30^{\\circ} \\\\ = & 2 \\times \\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{\\frac{3}{2}}\\end{aligned} ====sin15∘+cos15∘sin15∘+sin75∘2sin45∘cos30∘2×21×2323",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin 15^{\\circ}+\\cos 15^{\\circ} sin15∘+cos15∘ এর মান কোনটি?",
-    "explanationLatex": "sin\\times 12\\\\times 32=32 \\begin{aligned} & \\sin 15^{\\circ}+\\cos 15^{\\circ} \\\\ = & \\sin 15^{\\circ}+\\sin 75^{\\circ} \\\\ = & 2 \\sin 45^{\\circ} \\cos 30^{\\circ} \\\\ = & 2 \\times \\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{\\frac{3}{2}}\\end{aligned} ====sin15∘+cos15∘sin15∘+sin75∘2sin45∘cos30∘2\\\\times 21\\\\times 2323"
+    "questionLatex": "$sin⁡15∘+cos⁡15∘ \\sin 15^{\\circ}+\\cos 15^{\\circ} sin15∘+cos15∘ এর মান কোনটি?$",
+    "explanationLatex": "$sin⁡15∘+cos⁡15∘=sin⁡15∘+sin⁡75∘=2sin⁡45∘cos⁡30∘=2\\\\times 12\\\\times 32=32 \\begin{aligned} & \\sin 15^{\\circ}+\\cos 15^{\\circ} \\\\ = & \\sin 15^{\\circ}+\\sin 75^{\\circ} \\\\ = & 2 \\sin 45^{\\circ} \\cos 30^{\\circ} \\\\ = & 2 \\times \\frac{1}{\\sqrt{2}} \\times \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{\\frac{3}{2}}\\end{aligned} ====sin15∘+cos15∘sin15∘+sin75∘2sin45∘cos30∘2\\\\times 21\\\\times 2323$"
   },
   {
     "id": 17,
-    "question": "\\underset{i = 1}{\\overset{3}{\\sum}} \\left ( \\sin^{2}{\\theta}_{i} + \\cos^{2}{\\theta}_{i} \\right ) = ? i=1",
+    "question": "∑3i=1(sin⁡2θi+cos⁡2θi)=? \\underset{i = 1}{\\overset{3}{\\sum}} \\left ( \\sin^{2}{\\theta}_{i} + \\cos^{2}{\\theta}_{i} \\right ) = ? i=1∑3(sin2θi+cos2θi)=?",
     "options": {
       "a": "1",
       "b": "3",
@@ -336,7 +336,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "\\theta i+cos\\theta i)=? \\underset{i = 1}{\\overset{3}{\\sum}} \\left ( \\sin^{2}{\\theta}_{i} + \\cos^{2}{\\theta}_{i} \\right ) = ? i=1\\theta i+cos2\\\\theta i)=?",
+    "questionLatex": "$∑3i=1(sin⁡2\\\\theta i+cos⁡2\\\\theta i)=? \\underset{i = 1}{\\overset{3}{\\sum}} \\left ( \\sin^{2}{\\theta}_{i} + \\cos^{2}{\\theta}_{i} \\right ) = ? i=1∑3(sin2\\\\theta i+cos2\\\\theta i)=?$",
     "explanationLatex": "সঠিক উত্তর: (b) 3।"
   },
   {
@@ -349,7 +349,7 @@
       "d": "3 2 2 3"
     },
     "correctAnswer": "d",
-    "explanation": "sin\\begin{aligned} &\\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(x+120^{\\circ}\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(90^{\\circ}+30^{\\circ}+x\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\cos \\left(x+30^{\\circ}\\right) \\\\ = & \\cos \\left\\{\\left(x+30^{\\circ}\\right)-x\\right\\} \\\\ = & \\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}\\end{aligned} ====sinxsin(x+30∘)+cosxsin(x+120∘)sinxsin(x+30∘)+cosxsin(90∘+30∘+x)sinxsin(x+30∘)+cosxcos(x+30∘)cos{(x+30∘)−x}cos30∘=23",
+    "explanation": "sin⁡xsin⁡(x+30∘)+cos⁡xsin⁡(x+120∘)=sin⁡xsin⁡(x+30∘)+cos⁡xsin⁡(90∘+30∘+x)=sin⁡xsin⁡(x+30∘)+cos⁡xcos⁡(x+30∘)=cos⁡{(x+30∘)−x}=cos⁡30∘=32 \\begin{aligned} &\\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(x+120^{\\circ}\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(90^{\\circ}+30^{\\circ}+x\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\cos \\left(x+30^{\\circ}\\right) \\\\ = & \\cos \\left\\{\\left(x+30^{\\circ}\\right)-x\\right\\} \\\\ = & \\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}\\end{aligned} ====sinxsin(x+30∘)+cosxsin(x+120∘)sinxsin(x+30∘)+cosxsin(90∘+30∘+x)sinxsin(x+30∘)+cosxcos(x+30∘)cos{(x+30∘)−x}cos30∘=23",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -357,11 +357,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$sinx sin(x+30^{\\\\circ}) + cosx sin(x+120^{\\\\circ}) এর মান কত?$",
-    "explanationLatex": "sin\\begin{aligned} &\\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(x+120^{\\circ}\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(90^{\\circ}+30^{\\circ}+x\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\cos \\left(x+30^{\\circ}\\right) \\\\ = & \\cos \\left\\{\\left(x+30^{\\circ}\\right)-x\\right\\} \\\\ = & \\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}\\end{aligned} ====sinxsin(x+30∘)+cosxsin(x+120∘)sinxsin(x+30∘)+cosxsin(90∘+30∘+x)sinxsin(x+30∘)+cosxcos(x+30∘)cos{(x+30∘)−x}cos30∘=23"
+    "explanationLatex": "$sin⁡xsin⁡(x+30∘)+cos⁡xsin⁡(x+120∘)=sin⁡xsin⁡(x+30∘)+cos⁡xsin⁡(90∘+30∘+x)=sin⁡xsin⁡(x+30∘)+cos⁡xcos⁡(x+30∘)=cos⁡{(x+30∘)−x}=cos⁡30∘=32 \\begin{aligned} &\\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(x+120^{\\circ}\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\sin \\left(90^{\\circ}+30^{\\circ}+x\\right) \\\\ = & \\sin x \\sin \\left(x+30^{\\circ}\\right)+\\cos x \\cos \\left(x+30^{\\circ}\\right) \\\\ = & \\cos \\left\\{\\left(x+30^{\\circ}\\right)-x\\right\\} \\\\ = & \\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}\\end{aligned} ====sinxsin(x+30∘)+cosxsin(x+120∘)sinxsin(x+30∘)+cosxsin(90∘+30∘+x)sinxsin(x+30∘)+cosxcos(x+30∘)cos{(x+30∘)−x}cos30∘=23$"
   },
   {
     "id": 19,
-    "question": "sin\\sin x=\\mathrm{k} \\sin y sinx=ksiny হলে tan\\tan \\frac{x-y}{2}= tan2x−y=",
+    "question": "sin⁡x=ksin⁡y \\sin x=\\mathrm{k} \\sin y sinx=ksiny হলে tan⁡x−y2= \\tan \\frac{x-y}{2}= tan2x−y=",
     "options": {
       "a": "𝑘 − 1 𝑘 + 1 tan ⁡ 𝑥 + 𝑦 2 k+1 k−1 tan 2 x+y",
       "b": "𝑘 − 1 𝑘 + 1 tan ⁡ 𝑥 − 𝑦 2 k+1 k−1 tan 2 x−y",
@@ -369,19 +369,19 @@
       "d": "𝑘 − 1 𝑘 + 1 tan ⁡ 𝑥 + 𝑦 4 k+1 k−1 tan 4 x+y"
     },
     "correctAnswer": "a",
-    "explanation": "দেওয়া আছে, sin\\sin x=\\mathrm{k} \\sin y sinx=ksiny \\begin{array}{l} \\Rightarrow \\frac{\\sin x}{\\sin y}=\\frac{k}{1} \\Rightarrow \\frac{\\sin x+\\sin y}{\\sin x-\\sin y}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{2 \\sin \\frac{x+y}{2} \\cos \\frac{x-y}{2}}{2 \\sin \\frac{x-y}{2} \\cos \\frac{x+y}{2}}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{\\tan \\frac{x+y}{2}}{\\tan \\frac{x-y}{2}}=\\frac{k+1}{k-1} . \\\\ \\therefore \\tan \\frac{x-y}{2}=\\frac{k-1}{k+1} \\tan \\frac{x+y}{2} \\end{array}",
+    "explanation": "Solve: দেওয়া আছে, sin⁡x=ksin⁡y \\sin x=\\mathrm{k} \\sin y sinx=ksiny ⇒sin⁡xsin⁡y=k1⇒sin⁡x+sin⁡ysin⁡x−sin⁡y=k+1k−1⇒2sin⁡x+y2cos⁡x−y22sin⁡x−y2cos⁡x+y2=k+1k−1⇒tan⁡x+y2tan⁡x−y2=k+1k−1.∴tan⁡x−y2=k−1k+1tan⁡x+y2 \\begin{array}{l} \\Rightarrow \\frac{\\sin x}{\\sin y}=\\frac{k}{1} \\Rightarrow \\frac{\\sin x+\\sin y}{\\sin x-\\sin y}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{2 \\sin \\frac{x+y}{2} \\cos \\frac{x-y}{2}}{2 \\sin \\frac{x-y}{2} \\cos \\frac{x+y}{2}}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{\\tan \\frac{x+y}{2}}{\\tan \\frac{x-y}{2}}=\\frac{k+1}{k-1} . \\\\ \\therefore \\tan \\frac{x-y}{2}=\\frac{k-1}{k+1} \\tan \\frac{x+y}{2} \\end{array} ⇒sinysinx=1k⇒sinx−sinysinx+siny=k−1k+1⇒2sin2x−ycos2x+y2sin2x+ycos2x−y=k−1k+1⇒tan2x−ytan2x+y=k−1k+1.∴tan2x−y=k+1k−1tan2x+y",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin x=\\mathrm{k} \\sin y sinx=ksiny হলে tan\\tan \\frac{x-y}{2}= tan2x−y=",
-    "explanationLatex": "দেওয়া আছে, sin\\sin x=\\mathrm{k} \\sin y sinx=ksiny \\begin{array}{l} \\Rightarrow \\frac{\\sin x}{\\sin y}=\\frac{k}{1} \\Rightarrow \\frac{\\sin x+\\sin y}{\\sin x-\\sin y}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{2 \\sin \\frac{x+y}{2} \\cos \\frac{x-y}{2}}{2 \\sin \\frac{x-y}{2} \\cos \\frac{x+y}{2}}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{\\tan \\frac{x+y}{2}}{\\tan \\frac{x-y}{2}}=\\frac{k+1}{k-1} . \\\\ \\therefore \\tan \\frac{x-y}{2}=\\frac{k-1}{k+1} \\tan \\frac{x+y}{2} \\end{array}"
+    "questionLatex": "$sin⁡x=ksin⁡y \\sin x=\\mathrm{k} \\sin y sinx=ksiny হলে tan⁡x−y2= \\tan \\frac{x-y}{2}= tan2x−y=$",
+    "explanationLatex": "$Solve: দেওয়া আছে, sin⁡x=ksin⁡y \\sin x=\\mathrm{k} \\sin y sinx=ksiny ⇒sin⁡xsin⁡y=k1⇒sin⁡x+sin⁡ysin⁡x−sin⁡y=k+1k−1⇒2sin⁡x+y2cos⁡x−y22sin⁡x−y2cos⁡x+y2=k+1k−1⇒tan⁡x+y2tan⁡x−y2=k+1k−1.∴tan⁡x−y2=k−1k+1tan⁡x+y2 \\begin{array}{l} \\Rightarrow \\frac{\\sin x}{\\sin y}=\\frac{k}{1} \\Rightarrow \\frac{\\sin x+\\sin y}{\\sin x-\\sin y}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{2 \\sin \\frac{x+y}{2} \\cos \\frac{x-y}{2}}{2 \\sin \\frac{x-y}{2} \\cos \\frac{x+y}{2}}=\\frac{k+1}{k-1} \\\\ \\Rightarrow \\frac{\\tan \\frac{x+y}{2}}{\\tan \\frac{x-y}{2}}=\\frac{k+1}{k-1} . \\\\ \\therefore \\tan \\frac{x-y}{2}=\\frac{k-1}{k+1} \\tan \\frac{x+y}{2} \\end{array} ⇒sinysinx=1k⇒sinx−sinysinx+siny=k−1k+1⇒2sin2x−ycos2x+y2sin2x+ycos2x−y=k−1k+1⇒tan2x−ytan2x+y=k−1k+1.∴tan2x−y=k+1k−1tan2x+y$"
   },
   {
     "id": 20,
-    "question": "tan\\tanθ=\\frac{y}{x}tanθ=xy হলে, xcos\\cos2θ+y\\sin2θxcos2θ+ysin2θ এর মান-",
+    "question": "tan⁡θ=yx\\tanθ=\\frac{y}{x}tanθ=xy হলে, xcos⁡2θ+ysin⁡2θx\\cos2θ+y\\sin2θxcos2θ+ysin2θ এর মান-",
     "options": {
       "a": "x",
       "b": "y",
@@ -389,19 +389,19 @@
       "d": "1/y"
     },
     "correctAnswer": "a",
-    "explanation": "xcos\\begin{aligned} & x \\cos 2 \\theta+y \\sin 2 \\theta \\\\ = & x \\cdot \\frac{1-\\tan ^{2} \\theta}{1+\\tan ^{2} \\theta}+y \\cdot \\frac{2\\tan \\theta}{1+\\tan ^{2} \\theta} \\\\ = & x \\cdot \\frac{1-\\frac{y^{2}}{x^{2}}}{1+\\frac{y^{2}}{x^{2}}}+y \\cdot \\frac{2 \\frac{y}{x}}{1+\\frac{y^{2}}{x^{2}}}\\end{aligned} ==xcos2θ+ysin2θx⋅1+tan2θ1−tan2θ+y⋅1+tan2θ2tanθx⋅1+x2y21−x2y2+y⋅1+x2y22xy =x⋅(x2−y2x2\\cdot\\left(\\frac{x^{2}-y^{2}}{x^{2}} \\times \\frac{x^{2}}{x^{2}+y^{2}}\\right)+y\\left(\\frac{2 y}{x} \\times \\frac{x^{2}}{x^{2}+y^{2}}\\right) =x⋅(x2x2−y2\\cdot \\frac{x^{2}-y^{2}}{x^{2}+y^{2}}+y \\cdot \\frac{2 x y}{x^{2}+y^{2}} =x⋅x2+y2x2−y2+y⋅x2+y22xy =x3−xy2x2+y2+2xy2x2+yz =\\frac{x^{3}-x y^{2}}{x^{2}+y^{2}}+\\frac{2 x y^{2}}{x^{2}+y z} =x2+y2x3−xy2+x2+yz2xy2 =x3−xy2+2xy2x2+y2=x3+xy2x2+y2=x(x2+y2)x2+y2=x \\begin{aligned}=\\frac{x^{3}-x y^{2}+2 x y^{2}}{x^{2}+y^{2}} & =\\frac{x^{3}+x y^{2}}{x^{2}+y^{2}} =\\frac{x\\left(x^{2}+y^{2}\\right)}{x^{2}+y^{2}}=x\\end{aligned} =x2+y2x3−xy2+2xy2=x2+y2x3+xy2=x2+y2x(x2+y2)=x",
+    "explanation": "xcos⁡2θ+ysin⁡2θ=x⋅1−tan⁡2θ1+tan⁡2θ+y⋅2tan⁡θ1+tan⁡2θ=x⋅1−y2x21+y2x2+y⋅2yx1+y2x2 \\begin{aligned} & x \\cos 2 \\theta+y \\sin 2 \\theta \\\\ = & x \\cdot \\frac{1-\\tan ^{2} \\theta}{1+\\tan ^{2} \\theta}+y \\cdot \\frac{2\\tan \\theta}{1+\\tan ^{2} \\theta} \\\\ = & x \\cdot \\frac{1-\\frac{y^{2}}{x^{2}}}{1+\\frac{y^{2}}{x^{2}}}+y \\cdot \\frac{2 \\frac{y}{x}}{1+\\frac{y^{2}}{x^{2}}}\\end{aligned} ==xcos2θ+ysin2θx⋅1+tan2θ1−tan2θ+y⋅1+tan2θ2tanθx⋅1+x2y21−x2y2+y⋅1+x2y22xy =x⋅(x2−y2x2×x2x2+y2)+y(2yx×x2x2+y2) =x \\cdot\\left(\\frac{x^{2}-y^{2}}{x^{2}} \\times \\frac{x^{2}}{x^{2}+y^{2}}\\right)+y\\left(\\frac{2 y}{x} \\times \\frac{x^{2}}{x^{2}+y^{2}}\\right) =x⋅(x2x2−y2×x2+y2x2)+y(x2y×x2+y2x2) =x⋅x2−y2x2+y2+y⋅2xyx2+y2 =x \\cdot \\frac{x^{2}-y^{2}}{x^{2}+y^{2}}+y \\cdot \\frac{2 x y}{x^{2}+y^{2}} =x⋅x2+y2x2−y2+y⋅x2+y22xy =x3−xy2x2+y2+2xy2x2+yz =\\frac{x^{3}-x y^{2}}{x^{2}+y^{2}}+\\frac{2 x y^{2}}{x^{2}+y z} =x2+y2x3−xy2+x2+yz2xy2 =x3−xy2+2xy2x2+y2=x3+xy2x2+y2=x(x2+y2)x2+y2=x \\begin{aligned}=\\frac{x^{3}-x y^{2}+2 x y^{2}}{x^{2}+y^{2}} & =\\frac{x^{3}+x y^{2}}{x^{2}+y^{2}} =\\frac{x\\left(x^{2}+y^{2}\\right)}{x^{2}+y^{2}}=x\\end{aligned} =x2+y2x3−xy2+2xy2=x2+y2x3+xy2=x2+y2x(x2+y2)=x",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "tan⁡\\\\theta =yx\\tan\\\\theta =\\frac{y}{x}tan\\\\theta =xy হলে, xcos\\theta +ysin\\theta x\\cos2\\\\theta +y\\sin2\\\\theta xcos2\\\\theta +ysin2\\\\theta এর মান-",
+    "questionLatex": "$tan⁡\\\\theta =yx\\tan\\\\theta =\\frac{y}{x}tan\\\\theta =xy হলে, xcos⁡2\\\\theta +ysin⁡2\\\\theta x\\cos2\\\\theta +y\\sin2\\\\theta xcos2\\\\theta +ysin2\\\\theta  এর মান-$",
     "explanationLatex": "$xcos⁡2\\\\theta +ysin⁡2\\\\theta =x⋅1−tan⁡2\\\\theta 1+tan⁡2\\\\theta +y⋅2tan⁡\\\\theta 1+tan⁡2\\\\theta =x⋅1−y2x21+y2x2+y⋅2yx1+y2x2 \\begin{aligned} & x \\cos 2 \\theta+y \\sin 2 \\theta \\\\ = & x \\cdot \\frac{1-\\tan ^{2} \\theta}{1+\\tan ^{2} \\theta}+y \\cdot \\frac{2\\tan \\theta}{1+\\tan ^{2} \\theta} \\\\ = & x \\cdot \\frac{1-\\frac{y^{2}}{x^{2}}}{1+\\frac{y^{2}}{x^{2}}}+y \\cdot \\frac{2 \\frac{y}{x}}{1+\\frac{y^{2}}{x^{2}}}\\end{aligned} ==xcos2\\\\theta +ysin2\\\\theta x⋅1+tan2\\\\theta 1−tan2\\\\theta +y⋅1+tan2\\\\theta 2tan\\\\theta x⋅1+x2y21−x2y2+y⋅1+x2y22xy =x⋅(x2−y2x2\\\\times x2x2+y2)+y(2yx\\\\times x2x2+y2) =x \\cdot\\left(\\frac{x^{2}-y^{2}}{x^{2}} \\times \\frac{x^{2}}{x^{2}+y^{2}}\\right)+y\\left(\\frac{2 y}{x} \\times \\frac{x^{2}}{x^{2}+y^{2}}\\right) =x⋅(x2x2−y2\\\\times x2+y2x2)+y(x2y\\\\times x2+y2x2) =x⋅x2−y2x2+y2+y⋅2xyx2+y2 =x \\cdot \\frac{x^{2}-y^{2}}{x^{2}+y^{2}}+y \\cdot \\frac{2 x y}{x^{2}+y^{2}} =x⋅x2+y2x2−y2+y⋅x2+y22xy =x3−xy2x2+y2+2xy2x2+yz =\\frac{x^{3}-x y^{2}}{x^{2}+y^{2}}+\\frac{2 x y^{2}}{x^{2}+y z} =x2+y2x3−xy2+x2+yz2xy2 =x3−xy2+2xy2x2+y2=x3+xy2x2+y2=x(x2+y2)x2+y2=x \\begin{aligned}=\\frac{x^{3}-x y^{2}+2 x y^{2}}{x^{2}+y^{2}} & =\\frac{x^{3}+x y^{2}}{x^{2}+y^{2}} =\\frac{x\\left(x^{2}+y^{2}\\right)}{x^{2}+y^{2}}=x\\end{aligned} =x2+y2x3−xy2+2xy2=x2+y2x3+xy2=x2+y2x(x2+y2)=x$"
   },
   {
     "id": 21,
-    "question": "cot\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta \\cot 19 \\theta cotθcot3θcot5θcot7θcot9θcot11θcot13θcot15θcot17θcot19θ এবং θ=π20\\theta = \\frac{\\pi}{20}θ=20π",
+    "question": "cot⁡θcot⁡3θcot⁡5θcot⁡7θcot⁡9θcot⁡11θcot⁡13θcot⁡15θcot⁡17θcot⁡19θ\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta \\cot 19 \\theta cotθcot3θcot5θcot7θcot9θcot11θcot13θcot15θcot17θcot19θ এবং θ=π20\\theta = \\frac{\\pi}{20}θ=20π",
     "options": {
       "a": "− 2 −2",
       "b": "1 2 2 1",
@@ -409,19 +409,19 @@
       "d": "1 1"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, θ=π20\\theta=\\frac{\\pi}{20} \\Rightarrow \\frac{\\pi}{2}=10 \\theta θ=20π\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta cotθcot3θcot5θcot7θ cot\\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta cot9θcot11θcot13θcot15θcot17θ cot\\cot 19 \\theta cot19θ =cot\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cotθcot3θcot5θcot7θcot9θ cot\\cot (10 \\theta+\\theta) \\cot (10 \\theta+3 \\theta) cot(10θ+θ)cot(10θ+3θ) cot\\cot (10 \\theta+5 \\theta) \\cot (10 \\theta+7 \\theta) cot(10θ+5θ)cot(10θ+7θ) cot\\cot (10 \\theta+9 \\dot{\\theta}) cot(10θ+9θ˙) =cot\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cotθcot3θcot5θcot7θcot9θ cot\\cot \\left(\\frac{\\pi}{2}+\\theta\\right) \\cot \\left(\\frac{\\pi}{2}+3 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+5 \\theta\\right) cot(2π+θ)cot(2π+3θ)cot(2π+5θ) cot\\cot \\left(\\frac{\\pi}{2}+7 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+9 \\theta\\right) cot(2π+7θ)cot(2π+9θ) =1tan\\frac{1}{\\tan \\theta \\tan 3 \\theta \\tan 5 \\theta \\tan 7 \\theta \\tan 9 \\theta}(-\\tan \\theta) =tanθtan3θtan5θtan7θtan9θ1(−tanθ) (−tan\\tan 3 \\theta)(-\\tan 5 \\theta)(-\\tan 7 \\theta)(-\\tan 9 \\theta) (−tan3θ)(−tan5θ)(−tan7θ)(−tan9θ) =−1 =-1 =−1",
+    "explanation": "Solve: দেওয়া আছে, θ=π20⇒π2=10θ \\theta=\\frac{\\pi}{20} \\Rightarrow \\frac{\\pi}{2}=10 \\theta θ=20π⇒2π=10θcot⁡θcot⁡3θcot⁡5θcot⁡7θ \\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta cotθcot3θcot5θcot7θ cot⁡9θcot⁡11θcot⁡13θcot⁡15θcot⁡17θ \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta cot9θcot11θcot13θcot15θcot17θ cot⁡19θ \\cot 19 \\theta cot19θ =cot⁡θcot⁡3θcot⁡5θcot⁡7θcot⁡9θ =\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cotθcot3θcot5θcot7θcot9θ cot⁡(10θ+θ)cot⁡(10θ+3θ) \\cot (10 \\theta+\\theta) \\cot (10 \\theta+3 \\theta) cot(10θ+θ)cot(10θ+3θ) cot⁡(10θ+5θ)cot⁡(10θ+7θ) \\cot (10 \\theta+5 \\theta) \\cot (10 \\theta+7 \\theta) cot(10θ+5θ)cot(10θ+7θ) cot⁡(10θ+9θ˙) \\cot (10 \\theta+9 \\dot{\\theta}) cot(10θ+9θ˙) =cot⁡θcot⁡3θcot⁡5θcot⁡7θcot⁡9θ =\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cotθcot3θcot5θcot7θcot9θ cot⁡(π2+θ)cot⁡(π2+3θ)cot⁡(π2+5θ) \\cot \\left(\\frac{\\pi}{2}+\\theta\\right) \\cot \\left(\\frac{\\pi}{2}+3 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+5 \\theta\\right) cot(2π+θ)cot(2π+3θ)cot(2π+5θ) cot⁡(π2+7θ)cot⁡(π2+9θ) \\cot \\left(\\frac{\\pi}{2}+7 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+9 \\theta\\right) cot(2π+7θ)cot(2π+9θ) =1tan⁡θtan⁡3θtan⁡5θtan⁡7θtan⁡9θ(−tan⁡θ) =\\frac{1}{\\tan \\theta \\tan 3 \\theta \\tan 5 \\theta \\tan 7 \\theta \\tan 9 \\theta}(-\\tan \\theta) =tanθtan3θtan5θtan7θtan9θ1(−tanθ) (−tan⁡3θ)(−tan⁡5θ)(−tan⁡7θ)(−tan⁡9θ) (-\\tan 3 \\theta)(-\\tan 5 \\theta)(-\\tan 7 \\theta)(-\\tan 9 \\theta) (−tan3θ)(−tan5θ)(−tan7θ)(−tan9θ) =−1 =-1 =−1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cot⁡\\\\theta cot\\theta cot\\theta cot\\theta cot\\theta cot\\theta cot\\theta cot\\theta cot\\theta cot\\theta \\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta \\cot 19 \\theta cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot9\\\\theta cot11\\\\theta cot13\\\\theta cot15\\\\theta cot17\\\\theta cot19\\\\theta এবং \\\\theta =\\\\pi 20\\theta = \\frac{\\pi}{20}\\\\theta =20\\\\pi",
-    "explanationLatex": "দেওয়া আছে, \\\\theta =\\\\pi 20⇒\\\\pi 2=10\\\\theta \\theta=\\frac{\\pi}{20} \\Rightarrow \\frac{\\pi}{2}=10 \\theta \\\\theta =20\\\\pi \\pi =10\\\\theta cot⁡\\\\theta cot\\theta cot\\theta cot\\theta \\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot\\theta cot\\theta cot\\theta cot\\theta cot\\theta \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta cot9\\\\theta cot11\\\\theta cot13\\\\theta cot15\\\\theta cot17\\\\theta cot\\theta \\cot 19 \\theta cot19\\\\theta =cot⁡\\\\theta cot\\theta cot\\theta cot\\theta cot\\theta =\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot9\\\\theta cot\\theta +\\\\theta )cot\\theta +3\\\\theta ) \\cot (10 \\theta+\\theta) \\cot (10 \\theta+3 \\theta) cot(10\\\\theta +\\\\theta )cot(10\\\\theta +3\\\\theta ) cot\\theta +5\\\\theta )cot\\theta +7\\\\theta ) \\cot (10 \\theta+5 \\theta) \\cot (10 \\theta+7 \\theta) cot(10\\\\theta +5\\\\theta )cot(10\\\\theta +7\\\\theta ) cot\\theta +9\\\\theta ˙) \\cot (10 \\theta+9 \\dot{\\theta}) cot(10\\\\theta +9\\\\theta ˙) =cot⁡\\\\theta cot\\theta cot\\theta cot\\theta cot\\theta =\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot9\\\\theta cot\\pi 2+\\\\theta )cot\\pi 2+3\\\\theta )cot\\pi 2+5\\\\theta ) \\cot \\left(\\frac{\\pi}{2}+\\theta\\right) \\cot \\left(\\frac{\\pi}{2}+3 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+5 \\theta\\right) cot(2\\\\pi +\\\\theta )cot(2\\\\pi +3\\\\theta )cot(2\\\\pi +5\\\\theta ) cot\\pi 2+7\\\\theta )cot\\pi 2+9\\\\theta ) \\cot \\left(\\frac{\\pi}{2}+7 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+9 \\theta\\right) cot(2\\\\pi +7\\\\theta )cot(2\\\\pi +9\\\\theta ) =1tan⁡\\\\theta tan\\theta tan\\theta tan\\theta tan\\theta (−tan⁡\\\\theta ) =\\frac{1}{\\tan \\theta \\tan 3 \\theta \\tan 5 \\theta \\tan 7 \\theta \\tan 9 \\theta}(-\\tan \\theta) =tan\\\\theta tan3\\\\theta tan5\\\\theta tan7\\\\theta tan9\\\\theta 1(−tan\\\\theta ) (−tan\\theta )(−tan\\theta )(−tan\\theta )(−tan\\theta ) (-\\tan 3 \\theta)(-\\tan 5 \\theta)(-\\tan 7 \\theta)(-\\tan 9 \\theta) (−tan3\\\\theta )(−tan5\\\\theta )(−tan7\\\\theta )(−tan9\\\\theta ) =−1 =-1 =−1"
+    "questionLatex": "$cot⁡\\\\theta cot⁡3\\\\theta cot⁡5\\\\theta cot⁡7\\\\theta cot⁡9\\\\theta cot⁡11\\\\theta cot⁡13\\\\theta cot⁡15\\\\theta cot⁡17\\\\theta cot⁡19\\\\theta \\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta \\cot 19 \\theta cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot9\\\\theta cot11\\\\theta cot13\\\\theta cot15\\\\theta cot17\\\\theta cot19\\\\theta  এবং \\\\theta =\\\\pi 20\\theta = \\frac{\\pi}{20}\\\\theta =20\\\\pi $",
+    "explanationLatex": "$Solve: দেওয়া আছে, \\\\theta =\\\\pi 20⇒\\\\pi 2=10\\\\theta  \\theta=\\frac{\\pi}{20} \\Rightarrow \\frac{\\pi}{2}=10 \\theta \\\\theta =20\\\\pi ⇒2\\\\pi =10\\\\theta cot⁡\\\\theta cot⁡3\\\\theta cot⁡5\\\\theta cot⁡7\\\\theta  \\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta  cot⁡9\\\\theta cot⁡11\\\\theta cot⁡13\\\\theta cot⁡15\\\\theta cot⁡17\\\\theta  \\cot 9 \\theta \\cot 11 \\theta \\cot 13 \\theta \\cot 15 \\theta \\cot 17 \\theta cot9\\\\theta cot11\\\\theta cot13\\\\theta cot15\\\\theta cot17\\\\theta  cot⁡19\\\\theta  \\cot 19 \\theta cot19\\\\theta  =cot⁡\\\\theta cot⁡3\\\\theta cot⁡5\\\\theta cot⁡7\\\\theta cot⁡9\\\\theta  =\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot9\\\\theta  cot⁡(10\\\\theta +\\\\theta )cot⁡(10\\\\theta +3\\\\theta ) \\cot (10 \\theta+\\theta) \\cot (10 \\theta+3 \\theta) cot(10\\\\theta +\\\\theta )cot(10\\\\theta +3\\\\theta ) cot⁡(10\\\\theta +5\\\\theta )cot⁡(10\\\\theta +7\\\\theta ) \\cot (10 \\theta+5 \\theta) \\cot (10 \\theta+7 \\theta) cot(10\\\\theta +5\\\\theta )cot(10\\\\theta +7\\\\theta ) cot⁡(10\\\\theta +9\\\\theta ˙) \\cot (10 \\theta+9 \\dot{\\theta}) cot(10\\\\theta +9\\\\theta ˙) =cot⁡\\\\theta cot⁡3\\\\theta cot⁡5\\\\theta cot⁡7\\\\theta cot⁡9\\\\theta  =\\cot \\theta \\cot 3 \\theta \\cot 5 \\theta \\cot 7 \\theta \\cot 9 \\theta =cot\\\\theta cot3\\\\theta cot5\\\\theta cot7\\\\theta cot9\\\\theta  cot⁡(\\\\pi 2+\\\\theta )cot⁡(\\\\pi 2+3\\\\theta )cot⁡(\\\\pi 2+5\\\\theta ) \\cot \\left(\\frac{\\pi}{2}+\\theta\\right) \\cot \\left(\\frac{\\pi}{2}+3 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+5 \\theta\\right) cot(2\\\\pi +\\\\theta )cot(2\\\\pi +3\\\\theta )cot(2\\\\pi +5\\\\theta ) cot⁡(\\\\pi 2+7\\\\theta )cot⁡(\\\\pi 2+9\\\\theta ) \\cot \\left(\\frac{\\pi}{2}+7 \\theta\\right) \\cot \\left(\\frac{\\pi}{2}+9 \\theta\\right) cot(2\\\\pi +7\\\\theta )cot(2\\\\pi +9\\\\theta ) =1tan⁡\\\\theta tan⁡3\\\\theta tan⁡5\\\\theta tan⁡7\\\\theta tan⁡9\\\\theta (−tan⁡\\\\theta ) =\\frac{1}{\\tan \\theta \\tan 3 \\theta \\tan 5 \\theta \\tan 7 \\theta \\tan 9 \\theta}(-\\tan \\theta) =tan\\\\theta tan3\\\\theta tan5\\\\theta tan7\\\\theta tan9\\\\theta 1(−tan\\\\theta ) (−tan⁡3\\\\theta )(−tan⁡5\\\\theta )(−tan⁡7\\\\theta )(−tan⁡9\\\\theta ) (-\\tan 3 \\theta)(-\\tan 5 \\theta)(-\\tan 7 \\theta)(-\\tan 9 \\theta) (−tan3\\\\theta )(−tan5\\\\theta )(−tan7\\\\theta )(−tan9\\\\theta ) =−1 =-1 =−1$"
   },
   {
     "id": 22,
-    "question": "cos\\cos\\pi/6.\\sin\\pi/6cosπ/6.sinπ/6 এর মান কত?",
+    "question": "cos⁡π/6.sin⁡π/6\\cos\\pi/6.\\sin\\pi/6cosπ/6.sinπ/6 এর মান কত?",
     "options": {
       "a": "√3",
       "b": "√3/4",
@@ -429,14 +429,14 @@
       "d": "1/4"
     },
     "correctAnswer": "b",
-    "explanation": "cos\\cos \\frac{\\pi}{6} \\sin \\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{2}=\\frac{\\sqrt{3}}{4} cos6πsin6π=23⋅21=43",
+    "explanation": "cos⁡π6sin⁡π6=32⋅12=34 \\cos \\frac{\\pi}{6} \\sin \\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{2}=\\frac{\\sqrt{3}}{4} cos6πsin6π=23⋅21=43",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\frac{pi}{6.sin}\\frac{pi}{6}\\cos\\\\frac{pi}{6}.\\sin\\\\frac{pi}{6cos}\\\\\\frac{pi}{6.sin}\\\\\\frac{pi}{6} এর মান কত?",
+    "questionLatex": "$cos⁡\\\\\\frac{pi}{6.sin}⁡\\\\\\frac{pi}{6}\\cos\\\\frac{pi}{6}.\\sin\\\\frac{pi}{6cos}\\\\\\frac{pi}{6.sin}\\\\\\frac{pi}{6} এর মান কত?$",
     "explanationLatex": "$cos⁡\\\\pi 6sin⁡\\\\pi 6=32⋅12=34 \\cos \\frac{\\pi}{6} \\sin \\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{2}=\\frac{\\sqrt{3}}{4} cos6\\\\pi sin6\\\\pi =23⋅21=43$"
   },
   {
@@ -449,19 +449,19 @@
       "d": "3 2 sin ⁡ 40 ° 2 3 sin40°"
     },
     "correctAnswer": "c",
-    "explanation": "sin\\begin{aligned} \\sin 65^{\\circ}+\\cos 65^{\\circ} & =\\sin 65^{\\circ}+\\cos \\left(90^{\\circ}-25^{\\circ}\\right) \\\\ & =\\sin 65^{\\circ}+\\sin 25^{\\circ} \\\\ & =2 \\sin \\frac{65^{\\circ}+25^{\\circ}}{2} \\cos \\frac{65^{\\circ}-25^{\\circ}}{2} \\\\ & =2 \\sin 45^{\\circ} \\cos 20^{\\circ} \\\\ & =\\sqrt{2} \\cos 20^{\\circ}\\end{aligned} sin65∘+cos65∘=sin65∘+cos(90∘−25∘)=sin65∘+sin25∘=2sin265∘+25∘cos265∘−25∘=2sin45∘cos20∘=2cos20∘",
+    "explanation": "sin⁡65∘+cos⁡65∘=sin⁡65∘+cos⁡(90∘−25∘)=sin⁡65∘+sin⁡25∘=2sin⁡65∘+25∘2cos⁡65∘−25∘2=2sin⁡45∘cos⁡20∘=2cos⁡20∘ \\begin{aligned} \\sin 65^{\\circ}+\\cos 65^{\\circ} & =\\sin 65^{\\circ}+\\cos \\left(90^{\\circ}-25^{\\circ}\\right) \\\\ & =\\sin 65^{\\circ}+\\sin 25^{\\circ} \\\\ & =2 \\sin \\frac{65^{\\circ}+25^{\\circ}}{2} \\cos \\frac{65^{\\circ}-25^{\\circ}}{2} \\\\ & =2 \\sin 45^{\\circ} \\cos 20^{\\circ} \\\\ & =\\sqrt{2} \\cos 20^{\\circ}\\end{aligned} sin65∘+cos65∘=sin65∘+cos(90∘−25∘)=sin65∘+sin25∘=2sin265∘+25∘cos265∘−25∘=2sin45∘cos20∘=2cos20∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin65^{\\\\circ}+cos65^{\\\\circ} সমান-",
-    "explanationLatex": "sin\\begin{aligned} \\sin 65^{\\circ}+\\cos 65^{\\circ} & =\\sin 65^{\\circ}+\\cos \\left(90^{\\circ}-25^{\\circ}\\right) \\\\ & =\\sin 65^{\\circ}+\\sin 25^{\\circ} \\\\ & =2 \\sin \\frac{65^{\\circ}+25^{\\circ}}{2} \\cos \\frac{65^{\\circ}-25^{\\circ}}{2} \\\\ & =2 \\sin 45^{\\circ} \\cos 20^{\\circ} \\\\ & =\\sqrt{2} \\cos 20^{\\circ}\\end{aligned} sin65∘+cos65∘=sin65∘+cos(90∘−25∘)=sin65∘+sin25∘=2sin265∘+25∘cos265∘−25∘=2sin45∘cos20∘=2cos20∘"
+    "questionLatex": "$sin65^{\\\\circ}+cos65^{\\\\circ} সমান-$",
+    "explanationLatex": "$sin⁡65∘+cos⁡65∘=sin⁡65∘+cos⁡(90∘−25∘)=sin⁡65∘+sin⁡25∘=2sin⁡65∘+25∘2cos⁡65∘−25∘2=2sin⁡45∘cos⁡20∘=2cos⁡20∘ \\begin{aligned} \\sin 65^{\\circ}+\\cos 65^{\\circ} & =\\sin 65^{\\circ}+\\cos \\left(90^{\\circ}-25^{\\circ}\\right) \\\\ & =\\sin 65^{\\circ}+\\sin 25^{\\circ} \\\\ & =2 \\sin \\frac{65^{\\circ}+25^{\\circ}}{2} \\cos \\frac{65^{\\circ}-25^{\\circ}}{2} \\\\ & =2 \\sin 45^{\\circ} \\cos 20^{\\circ} \\\\ & =\\sqrt{2} \\cos 20^{\\circ}\\end{aligned} sin65∘+cos65∘=sin65∘+cos(90∘−25∘)=sin65∘+sin25∘=2sin265∘+25∘cos265∘−25∘=2sin45∘cos20∘=2cos20∘$"
   },
   {
     "id": 24,
-    "question": "sin\\sin(780°)\\cos(390°)-\\sin(330°)\\cos(-300°)sin(780°)cos(390°)−sin(330°)cos(−300°) এর মান -",
+    "question": "sin⁡(780°)cos⁡(390°)−sin⁡(330°)cos⁡(−300°)\\sin(780°)\\cos(390°)-\\sin(330°)\\cos(-300°)sin(780°)cos(390°)−sin(330°)cos(−300°) এর মান -",
     "options": {
       "a": "0",
       "b": "- 1",
@@ -469,19 +469,19 @@
       "d": "1/2"
     },
     "correctAnswer": "c",
-    "explanation": "sin\\begin{array}{l}\\sin \\left(780^{\\circ}\\right) \\cos \\left(390^{\\circ}\\right)-\\sin \\left(330^{\\circ}\\right) \\cos \\left(-300^{\\circ}\\right) \\\\ =\\sin \\left(60^{\\circ}\\right) \\cos 30^{\\circ}+\\sin \\left(30^{\\circ}\\right) \\cos 60^{\\circ}=\\sin 90^{\\circ}=1\\end{array} sin(780∘)cos(390∘)−sin(330∘)cos(−300∘)=sin(60∘)cos30∘+sin(30∘)cos60∘=sin90∘=1",
+    "explanation": "sin⁡(780∘)cos⁡(390∘)−sin⁡(330∘)cos⁡(−300∘)=sin⁡(60∘)cos⁡30∘+sin⁡(30∘)cos⁡60∘=sin⁡90∘=1 \\begin{array}{l}\\sin \\left(780^{\\circ}\\right) \\cos \\left(390^{\\circ}\\right)-\\sin \\left(330^{\\circ}\\right) \\cos \\left(-300^{\\circ}\\right) \\\\ =\\sin \\left(60^{\\circ}\\right) \\cos 30^{\\circ}+\\sin \\left(30^{\\circ}\\right) \\cos 60^{\\circ}=\\sin 90^{\\circ}=1\\end{array} sin(780∘)cos(390∘)−sin(330∘)cos(−300∘)=sin(60∘)cos30∘+sin(30∘)cos60∘=sin90∘=1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\circ})cos\\circ})−sin\\circ})cos\\circ})\\sin(780^{\\\\circ})\\cos(390^{\\\\circ})-\\sin(330^{\\\\circ})\\cos(-300^{\\\\circ})sin(780^{\\\\circ})cos(390^{\\\\circ})−sin(330^{\\\\circ})cos(−300^{\\\\circ}) এর মান -",
-    "explanationLatex": "sin\\begin{array}{l}\\sin \\left(780^{\\circ}\\right) \\cos \\left(390^{\\circ}\\right)-\\sin \\left(330^{\\circ}\\right) \\cos \\left(-300^{\\circ}\\right) \\\\ =\\sin \\left(60^{\\circ}\\right) \\cos 30^{\\circ}+\\sin \\left(30^{\\circ}\\right) \\cos 60^{\\circ}=\\sin 90^{\\circ}=1\\end{array} sin(780∘)cos(390∘)−sin(330∘)cos(−300∘)=sin(60∘)cos30∘+sin(30∘)cos60∘=sin90∘=1"
+    "questionLatex": "$sin⁡(780^{\\\\circ})cos⁡(390^{\\\\circ})−sin⁡(330^{\\\\circ})cos⁡(−300^{\\\\circ})\\sin(780^{\\\\circ})\\cos(390^{\\\\circ})-\\sin(330^{\\\\circ})\\cos(-300^{\\\\circ})sin(780^{\\\\circ})cos(390^{\\\\circ})−sin(330^{\\\\circ})cos(−300^{\\\\circ}) এর মান -$",
+    "explanationLatex": "$sin⁡(780∘)cos⁡(390∘)−sin⁡(330∘)cos⁡(−300∘)=sin⁡(60∘)cos⁡30∘+sin⁡(30∘)cos⁡60∘=sin⁡90∘=1 \\begin{array}{l}\\sin \\left(780^{\\circ}\\right) \\cos \\left(390^{\\circ}\\right)-\\sin \\left(330^{\\circ}\\right) \\cos \\left(-300^{\\circ}\\right) \\\\ =\\sin \\left(60^{\\circ}\\right) \\cos 30^{\\circ}+\\sin \\left(30^{\\circ}\\right) \\cos 60^{\\circ}=\\sin 90^{\\circ}=1\\end{array} sin(780∘)cos(390∘)−sin(330∘)cos(−300∘)=sin(60∘)cos30∘+sin(30∘)cos60∘=sin90∘=1$"
   },
   {
     "id": 25,
-    "question": "sin\\sin \\mathrm{A}+\\cos \\mathrm{A}=\\sin \\mathrm{B}+\\cos B, A+B= sinA+cosA=sinB+cosB,A+B= ?",
+    "question": "sin⁡A+cos⁡A=sin⁡B+cos⁡B,A+B= \\sin \\mathrm{A}+\\cos \\mathrm{A}=\\sin \\mathrm{B}+\\cos B, A+B= sinA+cosA=sinB+cosB,A+B= ?",
     "options": {
       "a": "𝜋 4 4 π",
       "b": "𝜋 2 2 π",
@@ -489,19 +489,19 @@
       "d": "3 𝜋 4 4 3π"
     },
     "correctAnswer": "b",
-    "explanation": "Sol. সমাধান: (\\sin A+\\cos A=\\sin B+\\cos B \\Rightarrow \\sin A-\\sin B=\\cos B-\\cos A \\Rightarrow 2 \\sin \\frac{A-B}{2} \\cos \\frac{A+B}{2} sinA+cosA=sinB+cosB\\sin \\frac{A+B}{2} \\sin \\frac{A-B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\sin \\frac{A+B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\cos \\left(\\frac{\\pi}{2}-\\frac{A+B}{2}\\right) \\Rightarrow \\frac{A+B}{2}=\\frac{\\pi}{2}-\\frac{A+B}{2} \\Rightarrow A+B=\\frac{\\pi}{2} =2sin2A+Bsin2A−B",
+    "explanation": "Sol. সমাধান: (b); sin⁡A+cos⁡A=sin⁡B+cos⁡B⇒sin⁡A−sin⁡B=cos⁡B−cos⁡A⇒2sin⁡A−B2cos⁡A+B2 \\sin A+\\cos A=\\sin B+\\cos B \\Rightarrow \\sin A-\\sin B=\\cos B-\\cos A \\Rightarrow 2 \\sin \\frac{A-B}{2} \\cos \\frac{A+B}{2} sinA+cosA=sinB+cosB⇒sinA−sinB=cosB−cosA⇒2sin2A−Bcos2A+B =2sin⁡A+B2sin⁡A−B2⇒cos⁡A+B2=sin⁡A+B2⇒cos⁡A+B2=cos⁡(π2−A+B2)⇒A+B2=π2−A+B2⇒A+B=π2 =2 \\sin \\frac{A+B}{2} \\sin \\frac{A-B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\sin \\frac{A+B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\cos \\left(\\frac{\\pi}{2}-\\frac{A+B}{2}\\right) \\Rightarrow \\frac{A+B}{2}=\\frac{\\pi}{2}-\\frac{A+B}{2} \\Rightarrow A+B=\\frac{\\pi}{2} =2sin2A+Bsin2A−B⇒cos2A+B=sin2A+B⇒cos2A+B=cos(2π−2A+B)⇒2A+B=2π−2A+B⇒A+B=2π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin \\mathrm{A}+\\cos \\mathrm{A}=\\sin \\mathrm{B}+\\cos B, A+B= sinA+cosA=sinB+cosB,A+B= ?",
-    "explanationLatex": "Sol. সমাধান: (\\sin A+\\cos A=\\sin B+\\cos B \\Rightarrow \\sin A-\\sin B=\\cos B-\\cos A \\Rightarrow 2 \\sin \\frac{A-B}{2} \\cos \\frac{A+B}{2} sinA+cosA=sinB+cosB\\pi 2−A+B2)\\pi 2−A+B2\\pi 2 =2 \\sin \\frac{A+B}{2} \\sin \\frac{A-B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\sin \\frac{A+B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\cos \\left(\\frac{\\pi}{2}-\\frac{A+B}{2}\\right) \\Rightarrow \\frac{A+B}{2}=\\frac{\\pi}{2}-\\frac{A+B}{2} \\Rightarrow A+B=\\frac{\\pi}{2} =2sin2A+Bsin2A−B\\pi −2A+B)\\pi −2A+B\\pi"
+    "questionLatex": "$sin⁡A+cos⁡A=sin⁡B+cos⁡B,A+B= \\sin \\mathrm{A}+\\cos \\mathrm{A}=\\sin \\mathrm{B}+\\cos B, A+B= sinA+cosA=sinB+cosB,A+B= ?$",
+    "explanationLatex": "$Sol. সমাধান: (b); sin⁡A+cos⁡A=sin⁡B+cos⁡B⇒sin⁡A−sin⁡B=cos⁡B−cos⁡A⇒2sin⁡A−B2cos⁡A+B2 \\sin A+\\cos A=\\sin B+\\cos B \\Rightarrow \\sin A-\\sin B=\\cos B-\\cos A \\Rightarrow 2 \\sin \\frac{A-B}{2} \\cos \\frac{A+B}{2} sinA+cosA=sinB+cosB⇒sinA−sinB=cosB−cosA⇒2sin2A−Bcos2A+B =2sin⁡A+B2sin⁡A−B2⇒cos⁡A+B2=sin⁡A+B2⇒cos⁡A+B2=cos⁡(\\\\pi 2−A+B2)⇒A+B2=\\\\pi 2−A+B2⇒A+B=\\\\pi 2 =2 \\sin \\frac{A+B}{2} \\sin \\frac{A-B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\sin \\frac{A+B}{2} \\Rightarrow \\cos \\frac{A+B}{2}=\\cos \\left(\\frac{\\pi}{2}-\\frac{A+B}{2}\\right) \\Rightarrow \\frac{A+B}{2}=\\frac{\\pi}{2}-\\frac{A+B}{2} \\Rightarrow A+B=\\frac{\\pi}{2} =2sin2A+Bsin2A−B⇒cos2A+B=sin2A+B⇒cos2A+B=cos(2\\\\pi −2A+B)⇒2A+B=2\\\\pi −2A+B⇒A+B=2\\\\pi $"
   },
   {
     "id": 26,
-    "question": "cos\\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}= cos70∘−cos10∘+sin40∘= ?",
+    "question": "cos⁡70∘−cos⁡10∘+sin⁡40∘= \\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}= cos70∘−cos10∘+sin40∘= ?",
     "options": {
       "a": "2",
       "b": "-1",
@@ -509,15 +509,15 @@
       "d": "0"
     },
     "correctAnswer": "d",
-    "explanation": "Sol. সমাধান: (\\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}=\\sin 20^{\\circ}+\\sin 40^{\\circ}-\\cos 10^{\\circ} cos70∘−cos10∘+sin40∘=sin20∘+sin40∘−cos10∘",
+    "explanation": "Sol. সমাধান: (d); cos⁡70∘−cos⁡10∘+sin⁡40∘=sin⁡20∘+sin⁡40∘−cos⁡10∘ \\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}=\\sin 20^{\\circ}+\\sin 40^{\\circ}-\\cos 10^{\\circ} cos70∘−cos10∘+sin40∘=sin20∘+sin40∘−cos10∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}= cos70∘−cos10∘+sin40∘= ?",
-    "explanationLatex": "Sol. সমাধান: (\\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}=\\sin 20^{\\circ}+\\sin 40^{\\circ}-\\cos 10^{\\circ} cos70∘−cos10∘+sin40∘=sin20∘+sin40∘−cos10∘"
+    "questionLatex": "$cos⁡70∘−cos⁡10∘+sin⁡40∘= \\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}= cos70∘−cos10∘+sin40∘= ?$",
+    "explanationLatex": "$Sol. সমাধান: (d); cos⁡70∘−cos⁡10∘+sin⁡40∘=sin⁡20∘+sin⁡40∘−cos⁡10∘ \\cos 70^{\\circ}-\\cos 10^{\\circ}+\\sin 40^{\\circ}=\\sin 20^{\\circ}+\\sin 40^{\\circ}-\\cos 10^{\\circ} cos70∘−cos10∘+sin40∘=sin20∘+sin40∘−cos10∘$"
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "-2 tan72°"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, tan\\tan (A-B) tan(A−B) এর সূত্র: tan\\tan (A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A \\tan B} tan(A−B)=1+tanAtanBtanA−tanB এখানে \\circ} A=54∘ এবং B=36∘ B=36^{\\circ} B=36∘, A−B=18∘ A-B=18^{\\circ} A−B=18∘ : tan\\begin{array}{c} \\tan \\left(54^{\\circ}-36^{\\circ}\\right)=\\tan 18^{\\circ} \\\\ \\tan 18^{\\circ}=\\frac{\\tan 54^{\\circ}-\\tan 36^{\\circ}}{1+\\tan 54^{\\circ} \\tan 36^{\\circ}} \\end{array} tan(54∘−36∘)=tan18∘tan18∘=1+tan54∘tan36∘tan54∘−tan36∘ তাহলে: tan\\tan 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times\\left(1+\\tan 54^{\\circ} \\tan 36^{\\circ}\\right) tan54∘−tan36∘=tan18∘\\circ} 54∘ এবং 36∘ 36^{\\circ} 36∘ এর কোপগুলির মধ্যে সम्পর্ক থাকার কারণে আমরা পাই: tan\\tan 54^{\\circ} \\tan 36^{\\circ}=1 tan54∘tan36∘=1 তাহলে: \\text { tan } 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times(1+1)=2 \\tan 18^{\\circ} tan 54∘−tan36∘=tan18∘",
+    "explanation": "আমরা জানি, tan⁡(A−B) \\tan (A-B) tan(A−B) এর সূত্র: tan⁡(A−B)=tan⁡A−tan⁡B1+tan⁡Atan⁡B \\tan (A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A \\tan B} tan(A−B)=1+tanAtanBtanA−tanB এখানে A=54∘ A=54^{\\circ} A=54∘ এবং B=36∘ B=36^{\\circ} B=36∘, A−B=18∘ A-B=18^{\\circ} A−B=18∘ : tan⁡(54∘−36∘)=tan⁡18∘tan⁡18∘=tan⁡54∘−tan⁡36∘1+tan⁡54∘tan⁡36∘ \\begin{array}{c} \\tan \\left(54^{\\circ}-36^{\\circ}\\right)=\\tan 18^{\\circ} \\\\ \\tan 18^{\\circ}=\\frac{\\tan 54^{\\circ}-\\tan 36^{\\circ}}{1+\\tan 54^{\\circ} \\tan 36^{\\circ}} \\end{array} tan(54∘−36∘)=tan18∘tan18∘=1+tan54∘tan36∘tan54∘−tan36∘ তাহলে: tan⁡54∘−tan⁡36∘=tan⁡18∘×(1+tan⁡54∘tan⁡36∘) \\tan 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times\\left(1+\\tan 54^{\\circ} \\tan 36^{\\circ}\\right) tan54∘−tan36∘=tan18∘×(1+tan54∘tan36∘) 54∘ 54^{\\circ} 54∘ এবং 36∘ 36^{\\circ} 36∘ এর কোপগুলির মধ্যে সम्পর্ক থাকার কারণে আমরা পাই: tan⁡54∘tan⁡36∘=1 \\tan 54^{\\circ} \\tan 36^{\\circ}=1 tan54∘tan36∘=1 তাহলে: tan 54∘−tan⁡36∘=tan⁡18∘×(1+1)=2tan⁡18∘ \\text { tan } 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times(1+1)=2 \\tan 18^{\\circ} tan 54∘−tan36∘=tan18∘×(1+1)=2tan18∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,11 +537,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$tan54^{\\\\circ} - tan36^{\\\\circ} এর মান-$",
-    "explanationLatex": "আমরা জানি, tan\\tan (A-B) tan(A−B) এর সূত্র: tan\\tan (A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A \\tan B} tan(A−B)=1+tanAtanBtanA−tanB এখানে \\circ} A=54∘ এবং B=36∘ B=36^{\\circ} B=36∘, A−B=18∘ A-B=18^{\\circ} A−B=18∘ : tan\\begin{array}{c} \\tan \\left(54^{\\circ}-36^{\\circ}\\right)=\\tan 18^{\\circ} \\\\ \\tan 18^{\\circ}=\\frac{\\tan 54^{\\circ}-\\tan 36^{\\circ}}{1+\\tan 54^{\\circ} \\tan 36^{\\circ}} \\end{array} tan(54∘−36∘)=tan18∘tan18∘=1+tan54∘tan36∘tan54∘−tan36∘ তাহলে: tan\\times (1+tan\\tan 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times\\left(1+\\tan 54^{\\circ} \\tan 36^{\\circ}\\right) tan54∘−tan36∘=tan18∘\\\\times (1+tan54∘tan36∘) 54∘ 54^{\\circ} 54∘ এবং 36∘ 36^{\\circ} 36∘ এর কোপগুলির মধ্যে সम्পর্ক থাকার কারণে আমরা পাই: tan\\tan 54^{\\circ} \\tan 36^{\\circ}=1 tan54∘tan36∘=1 তাহলে: \\times (1+1)=2tan\\text { tan } 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times(1+1)=2 \\tan 18^{\\circ} tan 54∘−tan36∘=tan18∘\\\\times (1+1)=2tan18∘"
+    "explanationLatex": "$আমরা জানি, tan⁡(A−B) \\tan (A-B) tan(A−B) এর সূত্র: tan⁡(A−B)=tan⁡A−tan⁡B1+tan⁡Atan⁡B \\tan (A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A \\tan B} tan(A−B)=1+tanAtanBtanA−tanB এখানে A=54∘ A=54^{\\circ} A=54∘ এবং B=36∘ B=36^{\\circ} B=36∘, A−B=18∘ A-B=18^{\\circ} A−B=18∘ : tan⁡(54∘−36∘)=tan⁡18∘tan⁡18∘=tan⁡54∘−tan⁡36∘1+tan⁡54∘tan⁡36∘ \\begin{array}{c} \\tan \\left(54^{\\circ}-36^{\\circ}\\right)=\\tan 18^{\\circ} \\\\ \\tan 18^{\\circ}=\\frac{\\tan 54^{\\circ}-\\tan 36^{\\circ}}{1+\\tan 54^{\\circ} \\tan 36^{\\circ}} \\end{array} tan(54∘−36∘)=tan18∘tan18∘=1+tan54∘tan36∘tan54∘−tan36∘ তাহলে: tan⁡54∘−tan⁡36∘=tan⁡18∘\\\\times (1+tan⁡54∘tan⁡36∘) \\tan 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times\\left(1+\\tan 54^{\\circ} \\tan 36^{\\circ}\\right) tan54∘−tan36∘=tan18∘\\\\times (1+tan54∘tan36∘) 54∘ 54^{\\circ} 54∘ এবং 36∘ 36^{\\circ} 36∘ এর কোপগুলির মধ্যে সम्পর্ক থাকার কারণে আমরা পাই: tan⁡54∘tan⁡36∘=1 \\tan 54^{\\circ} \\tan 36^{\\circ}=1 tan54∘tan36∘=1 তাহলে: tan 54∘−tan⁡36∘=tan⁡18∘\\\\times (1+1)=2tan⁡18∘ \\text { tan } 54^{\\circ}-\\tan 36^{\\circ}=\\tan 18^{\\circ} \\times(1+1)=2 \\tan 18^{\\circ} tan 54∘−tan36∘=tan18∘\\\\times (1+1)=2tan18∘$"
   },
   {
     "id": 28,
-    "question": "sin\\sin \\mathrm{x}+\\cos \\mathrm{y}=1 sinx+cosy=1 এবং cos\\cos \\mathrm{x}+\\cos \\mathrm{y}=0 cosx+cosy=0 হলে Solve কর যে, x+y=? x+y= ? x+y=?",
+    "question": "sin⁡x+cos⁡y=1 \\sin \\mathrm{x}+\\cos \\mathrm{y}=1 sinx+cosy=1 এবং cos⁡x+cos⁡y=0 \\cos \\mathrm{x}+\\cos \\mathrm{y}=0 cosx+cosy=0 হলে Solve কর যে, x+y=? x+y= ? x+y=?",
     "options": {
       "a": "𝜋 π",
       "b": "1 1",
@@ -549,15 +549,15 @@
       "d": "0 0"
     },
     "correctAnswer": "a",
-    "explanation": "\\sin x+\\cos y=1 sinx+cosy=1\\Rightarrow 2 \\sin \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=1 \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 \\cdots \\cdots \\div \\Rightarrow \\cot \\frac{1}{2}(x+y)=0=\\cot \\frac{\\pi}{2} \\Rightarrow \\frac{1}{2}(x+y)=\\frac{\\pi}{2} \\Rightarrow x+y=\\pi \\text { (Proved) }",
+    "explanation": "Solve: sin⁡x+cos⁡y=1 \\sin x+\\cos y=1 sinx+cosy=1⇒2sin⁡12(x+y)cos⁡12(x−y)=1 \\Rightarrow 2 \\sin \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=1 ⇒2sin21(x+y)cos21(x−y)=1 ⇒2cos⁡12(x+y)cos⁡12(x−y)=0 \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 ⇒2cos21(x+y)cos21(x−y)=0 y=0 y=0 y=0 ⇒2cos⁡12(x+y)cos⁡12(x−y)=0⋯⋯ \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 \\cdots \\cdots ⇒2cos21(x+y)cos21(x−y)=0⋯⋯ (ii) ÷ \\div ÷ (i) ⇒cot⁡12(x+y)=0=cot⁡π2 \\Rightarrow \\cot \\frac{1}{2}(x+y)=0=\\cot \\frac{\\pi}{2} ⇒cot21(x+y)=0=cot2π. ⇒12(x+y)=π2⇒x+y=π (Proved) \\Rightarrow \\frac{1}{2}(x+y)=\\frac{\\pi}{2} \\Rightarrow x+y=\\pi \\text { (Proved) } ⇒21(x+y)=2π⇒x+y=π (Proved)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\sin \\mathrm{x}+\\cos \\mathrm{y}=1 sinx+cosy=1 এবং cos\\cos \\mathrm{x}+\\cos \\mathrm{y}=0 cosx+cosy=0 হলে Solve কর যে, x+y=? x+y= ? x+y=?",
-    "explanationLatex": "\\sin x+\\cos y=1 sinx+cosy=1\\Rightarrow 2 \\sin \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=1 \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 \\cdots \\cdots \\div \\div \\\\div (i) \\pi 2 \\Rightarrow \\cot \\frac{1}{2}(x+y)=0=\\cot \\frac{\\pi}{2} \\pi . \\pi 2\\pi (Proved) \\Rightarrow \\frac{1}{2}(x+y)=\\frac{\\pi}{2} \\Rightarrow x+y=\\pi \\text { (Proved) } \\pi \\pi (Proved)"
+    "questionLatex": "$sin⁡x+cos⁡y=1 \\sin \\mathrm{x}+\\cos \\mathrm{y}=1 sinx+cosy=1 এবং cos⁡x+cos⁡y=0 \\cos \\mathrm{x}+\\cos \\mathrm{y}=0 cosx+cosy=0 হলে Solve কর যে, x+y=? x+y= ? x+y=?$",
+    "explanationLatex": "$Solve: sin⁡x+cos⁡y=1 \\sin x+\\cos y=1 sinx+cosy=1⇒2sin⁡12(x+y)cos⁡12(x−y)=1 \\Rightarrow 2 \\sin \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=1 ⇒2sin21(x+y)cos21(x−y)=1 ⇒2cos⁡12(x+y)cos⁡12(x−y)=0 \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 ⇒2cos21(x+y)cos21(x−y)=0 y=0 y=0 y=0 ⇒2cos⁡12(x+y)cos⁡12(x−y)=0⋯⋯ \\Rightarrow 2 \\cos \\frac{1}{2}(x+y) \\cos \\frac{1}{2}(x-y)=0 \\cdots \\cdots ⇒2cos21(x+y)cos21(x−y)=0⋯⋯ (ii) \\\\div  \\div \\\\div  (i) ⇒cot⁡12(x+y)=0=cot⁡\\\\pi 2 \\Rightarrow \\cot \\frac{1}{2}(x+y)=0=\\cot \\frac{\\pi}{2} ⇒cot21(x+y)=0=cot2\\\\pi . ⇒12(x+y)=\\\\pi 2⇒x+y=\\\\pi  (Proved) \\Rightarrow \\frac{1}{2}(x+y)=\\frac{\\pi}{2} \\Rightarrow x+y=\\pi \\text { (Proved) } ⇒21(x+y)=2\\\\pi ⇒x+y=\\\\pi  (Proved)$"
   },
   {
     "id": 29,
@@ -577,11 +577,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$f(x) =x + sinx ; f(x) =0 হলে , x এর মান কত?$",
-    "explanationLatex": "সঠিক উত্তর: (c) 𝜋 \\\\pi ।"
+    "explanationLatex": "$সঠিক উত্তর: (c) 𝜋 \\\\pi ।$"
   },
   {
     "id": 30,
-    "question": "cos\\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}}=?cos10∘+sin10∘cos10∘−sin10∘=?",
+    "question": "cos⁡10∘−sin⁡10∘cos⁡10∘+sin⁡10∘=? \\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}}=?cos10∘+sin10∘cos10∘−sin10∘=?",
     "options": {
       "a": "sin ⁡ 35 ∘ sin35 ∘",
       "b": "tan ⁡ 35 ∘ tan35 ∘",
@@ -589,19 +589,19 @@
       "d": "cot ⁡ 35 ∘ cot35 ∘"
     },
     "correctAnswer": "b",
-    "explanation": "\\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}} \\\\ =\\frac{\\cos 10^{\\circ}\\left(1-\\tan 10^{\\circ}\\right)}{\\cos 10^{\\circ}\\left(1+\\tan 10^{\\circ}\\right)}=\\frac{\\tan 45^{\\circ}-\\tan 10^{\\circ}}{1+\\tan 45^{\\circ} \\tan 10^{\\circ}} \\\\ =\\tan \\left(45^{\\circ}-10^{\\circ}\\right)=\\tan 35^{\\circ} \\\\ \\end{array} =cos10∘+sin10∘cos10∘−sin10∘=cos10∘(1+tan10∘)cos10∘(1−tan10∘)=1+tan45∘tan10∘tan45∘−tan10∘=tan(45∘−10∘)=tan35∘",
+    "explanation": "Solve: =cos⁡10∘−sin⁡10∘cos⁡10∘+sin⁡10∘=cos⁡10∘(1−tan⁡10∘)cos⁡10∘(1+tan⁡10∘)=tan⁡45∘−tan⁡10∘1+tan⁡45∘tan⁡10∘=tan⁡(45∘−10∘)=tan⁡35∘ \\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}} \\\\ =\\frac{\\cos 10^{\\circ}\\left(1-\\tan 10^{\\circ}\\right)}{\\cos 10^{\\circ}\\left(1+\\tan 10^{\\circ}\\right)}=\\frac{\\tan 45^{\\circ}-\\tan 10^{\\circ}}{1+\\tan 45^{\\circ} \\tan 10^{\\circ}} \\\\ =\\tan \\left(45^{\\circ}-10^{\\circ}\\right)=\\tan 35^{\\circ} \\\\ \\end{array} =cos10∘+sin10∘cos10∘−sin10∘=cos10∘(1+tan10∘)cos10∘(1−tan10∘)=1+tan45∘tan10∘tan45∘−tan10∘=tan(45∘−10∘)=tan35∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos\\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}}=?cos10∘+sin10∘cos10∘−sin10∘=?",
-    "explanationLatex": "\\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}} \\\\ =\\frac{\\cos 10^{\\circ}\\left(1-\\tan 10^{\\circ}\\right)}{\\cos 10^{\\circ}\\left(1+\\tan 10^{\\circ}\\right)}=\\frac{\\tan 45^{\\circ}-\\tan 10^{\\circ}}{1+\\tan 45^{\\circ} \\tan 10^{\\circ}} \\\\ =\\tan \\left(45^{\\circ}-10^{\\circ}\\right)=\\tan 35^{\\circ} \\\\ \\end{array} =cos10∘+sin10∘cos10∘−sin10∘=cos10∘(1+tan10∘)cos10∘(1−tan10∘)=1+tan45∘tan10∘tan45∘−tan10∘=tan(45∘−10∘)=tan35∘"
+    "questionLatex": "$cos⁡10∘−sin⁡10∘cos⁡10∘+sin⁡10∘=? \\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}}=?cos10∘+sin10∘cos10∘−sin10∘=?$",
+    "explanationLatex": "$Solve: =cos⁡10∘−sin⁡10∘cos⁡10∘+sin⁡10∘=cos⁡10∘(1−tan⁡10∘)cos⁡10∘(1+tan⁡10∘)=tan⁡45∘−tan⁡10∘1+tan⁡45∘tan⁡10∘=tan⁡(45∘−10∘)=tan⁡35∘ \\begin{array}{l} =\\frac{\\cos 10^{\\circ}-\\sin 10^{\\circ}}{\\cos 10^{\\circ}+\\sin 10^{\\circ}} \\\\ =\\frac{\\cos 10^{\\circ}\\left(1-\\tan 10^{\\circ}\\right)}{\\cos 10^{\\circ}\\left(1+\\tan 10^{\\circ}\\right)}=\\frac{\\tan 45^{\\circ}-\\tan 10^{\\circ}}{1+\\tan 45^{\\circ} \\tan 10^{\\circ}} \\\\ =\\tan \\left(45^{\\circ}-10^{\\circ}\\right)=\\tan 35^{\\circ} \\\\ \\end{array} =cos10∘+sin10∘cos10∘−sin10∘=cos10∘(1+tan10∘)cos10∘(1−tan10∘)=1+tan45∘tan10∘tan45∘−tan10∘=tan(45∘−10∘)=tan35∘$"
   },
   {
     "id": 31,
-    "question": "tan\\tan \\theta=\\frac{5}{12} tanθ=125 এবং cos\\cos \\theta(-) cosθ(−) ve হলে sin\\frac{\\sin \\theta+(\\cos (-\\theta))}{\\sec (-\\theta)+\\tan \\theta}= sec(−θ)+tanθsinθ+(cos(−θ))= ?",
+    "question": "tan⁡θ=512 \\tan \\theta=\\frac{5}{12} tanθ=125 এবং cos⁡θ(−) \\cos \\theta(-) cosθ(−) ve হলে sin⁡θ+(cos⁡(−θ))sec⁡(−θ)+tan⁡θ= \\frac{\\sin \\theta+(\\cos (-\\theta))}{\\sec (-\\theta)+\\tan \\theta}= sec(−θ)+tanθsinθ+(cos(−θ))= ?",
     "options": {
       "a": "2",
       "b": "1",
@@ -609,7 +609,7 @@
       "d": "26 51 51 26"
     },
     "correctAnswer": "c",
-    "explanation": "Sol. সমাধান: (c); এখানে, tan\\tan \\theta(+) tanθ(+) ve কিন্তু cos\\cos \\theta(-) cosθ(−) ve \\quad \\therefore 3^{\\text {rd }}",
+    "explanation": "Sol. সমাধান: (c); এখানে, tan⁡θ(+) \\tan \\theta(+) tanθ(+) ve কিন্তু cos⁡θ(−) \\cos \\theta(-) cosθ(−) ve ∴3rd \\quad \\therefore 3^{\\text {rd }} ∴3rd quadrant",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$tan⁡\\\\theta =512 \\tan \\theta=\\frac{5}{12} tan\\\\theta =125 এবং cos⁡\\\\theta (−) \\cos \\theta(-) cos\\\\theta (−) ve হলে sin⁡\\\\theta +(cos⁡(−\\\\theta ))sec⁡(−\\\\theta )+tan⁡\\\\theta = \\frac{\\sin \\theta+(\\cos (-\\theta))}{\\sec (-\\theta)+\\tan \\theta}= sec(−\\\\theta )+tan\\\\theta sin\\\\theta +(cos(−\\\\theta ))= ?$",
-    "explanationLatex": "Sol. সমাধান: (c); এখানে, tan⁡\\\\theta (+) \\tan \\theta(+) tan\\\\theta (+) ve কিন্তু cos⁡\\\\theta (−) \\cos \\theta(-) cos\\\\theta (−) ve \\quad \\therefore 3^{\\text {rd }}"
+    "explanationLatex": "$Sol. সমাধান: (c); এখানে, tan⁡\\\\theta (+) \\tan \\theta(+) tan\\\\theta (+) ve কিন্তু cos⁡\\\\theta (−) \\cos \\theta(-) cos\\\\theta (−) ve ∴3rd \\quad \\therefore 3^{\\text {rd }} ∴3rd quadrant$"
   },
   {
     "id": 32,
@@ -629,7 +629,7 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "sin\\sin{A} = \\frac{4}{5} , \\cos{B} = \\frac{12}{13} sinA=54,cosB=1312 এবং A ও B উভয় কোণই একই চতুর্ভাগে অবস্থিত হয় তবে এর মান কত? sin\\sin A=\\frac{4}{5}, \\cos A=\\frac{3}{5} sinA=54,cosA=53 \\begin{aligned} \\therefore \\sin 2 A & =2 \\sin A \\cdot \\cos A \\\\ & =2 \\cdot \\frac{4}{5} \\cdot \\frac{3}{5} \\\\ & =\\frac{24}{25} \\end{aligned}",
+    "explanation": "sin⁡A=45,cos⁡B=1213 \\sin{A} = \\frac{4}{5} , \\cos{B} = \\frac{12}{13} sinA=54,cosB=1312 এবং A ও B উভয় কোণই একই চতুর্ভাগে অবস্থিত হয় তবে sin 2A এর মান কত? sin⁡A=45,cos⁡A=35 \\sin A=\\frac{4}{5}, \\cos A=\\frac{3}{5} sinA=54,cosA=53 ∴sin⁡2A=2sin⁡A⋅cos⁡A=2⋅45⋅35=2425 \\begin{aligned} \\therefore \\sin 2 A & =2 \\sin A \\cdot \\cos A \\\\ & =2 \\cdot \\frac{4}{5} \\cdot \\frac{3}{5} \\\\ & =\\frac{24}{25} \\end{aligned} ∴sin2A=2sinA⋅cosA=2⋅54⋅53=2524",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "যদি",
-    "explanationLatex": "sin\\sin{A} = \\frac{4}{5} , \\cos{B} = \\frac{12}{13} sinA=54,cosB=1312 এবং A ও B উভয় কোণই একই চতুর্ভাগে অবস্থিত হয় তবে এর মান কত? sin\\sin A=\\frac{4}{5}, \\cos A=\\frac{3}{5} sinA=54,cosA=53 \\begin{aligned} \\therefore \\sin 2 A & =2 \\sin A \\cdot \\cos A \\\\ & =2 \\cdot \\frac{4}{5} \\cdot \\frac{3}{5} \\\\ & =\\frac{24}{25} \\end{aligned}"
+    "explanationLatex": "$sin⁡A=45,cos⁡B=1213 \\sin{A} = \\frac{4}{5} , \\cos{B} = \\frac{12}{13} sinA=54,cosB=1312 এবং A ও B উভয় কোণই একই চতুর্ভাগে অবস্থিত হয় তবে sin 2A এর মান কত? sin⁡A=45,cos⁡A=35 \\sin A=\\frac{4}{5}, \\cos A=\\frac{3}{5} sinA=54,cosA=53 ∴sin⁡2A=2sin⁡A⋅cos⁡A=2⋅45⋅35=2425 \\begin{aligned} \\therefore \\sin 2 A & =2 \\sin A \\cdot \\cos A \\\\ & =2 \\cdot \\frac{4}{5} \\cdot \\frac{3}{5} \\\\ & =\\frac{24}{25} \\end{aligned} ∴sin2A=2sinA⋅cosA=2⋅54⋅53=2524$"
   },
   {
     "id": 33,
@@ -649,19 +649,19 @@
       "d": "2 + 3 2+ 3"
     },
     "correctAnswer": "b",
-    "explanation": "cos\\begin{array}{l} \\cos 15^{\\circ}=\\frac{1}{\\sqrt{2}} \\cdot \\sqrt{2 \\cos ^{2} 15^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos \\left(2 \\times 15^{\\circ}\\right)} \\\\ =\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos 30^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\frac{\\sqrt{3}}{2}}=\\frac{1}{2} \\sqrt{2+\\sqrt{3}}\\end{array} cos15∘=21⋅2cos215∘=211+cos(2",
+    "explanation": "cos⁡15∘=12⋅2cos⁡215∘=121+cos⁡(2×15∘)=121+cos⁡30∘=121+32=122+3 \\begin{array}{l} \\cos 15^{\\circ}=\\frac{1}{\\sqrt{2}} \\cdot \\sqrt{2 \\cos ^{2} 15^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos \\left(2 \\times 15^{\\circ}\\right)} \\\\ =\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos 30^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\frac{\\sqrt{3}}{2}}=\\frac{1}{2} \\sqrt{2+\\sqrt{3}}\\end{array} cos15∘=21⋅2cos215∘=211+cos(2×15∘)=211+cos30∘=211+23=212+3",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cos15^{\\\\circ} এর মান-",
-    "explanationLatex": "cos\\times 15∘)=121+cos\\begin{array}{l} \\cos 15^{\\circ}=\\frac{1}{\\sqrt{2}} \\cdot \\sqrt{2 \\cos ^{2} 15^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos \\left(2 \\times 15^{\\circ}\\right)} \\\\ =\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos 30^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\frac{\\sqrt{3}}{2}}=\\frac{1}{2} \\sqrt{2+\\sqrt{3}}\\end{array} cos15∘=21⋅2cos215∘=211+cos(2\\\\times 15∘)=211+cos30∘=211+23=212+3"
+    "questionLatex": "$cos15^{\\\\circ} এর মান-$",
+    "explanationLatex": "$cos⁡15∘=12⋅2cos⁡215∘=121+cos⁡(2\\\\times 15∘)=121+cos⁡30∘=121+32=122+3 \\begin{array}{l} \\cos 15^{\\circ}=\\frac{1}{\\sqrt{2}} \\cdot \\sqrt{2 \\cos ^{2} 15^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos \\left(2 \\times 15^{\\circ}\\right)} \\\\ =\\frac{1}{\\sqrt{2}} \\sqrt{1+\\cos 30^{\\circ}}=\\frac{1}{\\sqrt{2}} \\sqrt{1+\\frac{\\sqrt{3}}{2}}=\\frac{1}{2} \\sqrt{2+\\sqrt{3}}\\end{array} cos15∘=21⋅2cos215∘=211+cos(2\\\\times 15∘)=211+cos30∘=211+23=212+3$"
   },
   {
     "id": 34,
-    "question": "sin\\sin \\theta=\\frac{3}{5} sinθ=53 হলে, sin\\sin 2 \\theta= sin2θ= ?",
+    "question": "sin⁡θ=35 \\sin \\theta=\\frac{3}{5} sinθ=53 হলে, sin⁡2θ= \\sin 2 \\theta= sin2θ= ?",
     "options": {
       "a": "24 25 25 24",
       "b": "7 25 25 7",
@@ -669,7 +669,7 @@
       "d": "None"
     },
     "correctAnswer": "a",
-    "explanation": "Sol. সমাধান: (\\sin \\theta=\\frac{3}{5} \\quad 3 sinθ=533",
+    "explanation": "Sol. সমাধান: (a); sin⁡θ=353 \\sin \\theta=\\frac{3}{5} \\quad 3 sinθ=533",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -677,11 +677,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$sin⁡\\\\theta =35 \\sin \\theta=\\frac{3}{5} sin\\\\theta =53 হলে, sin⁡2\\\\theta = \\sin 2 \\theta= sin2\\\\theta = ?$",
-    "explanationLatex": "Sol. সমাধান: (⁡\\\\theta =353 \\sin \\theta=\\frac{3}{5} \\quad 3 sin\\\\theta =533"
+    "explanationLatex": "$Sol. সমাধান: (a); sin⁡\\\\theta =353 \\sin \\theta=\\frac{3}{5} \\quad 3 sin\\\\theta =533$"
   },
   {
     "id": 35,
-    "question": "একটি সমকোণী ত্রিভুজ হলে,cos\\cos^2A+\\cos^2B+\\cos^2C=?cos2A+cos2B+cos2C=?",
+    "question": "ABCABCABCএকটি সমকোণী ত্রিভুজ হলে,cos⁡2A+cos⁡2B+cos⁡2C=?\\cos^2A+\\cos^2B+\\cos^2C=?cos2A+cos2B+cos2C=?",
     "options": {
       "a": "1 2 2 1",
       "b": "1 1",
@@ -689,15 +689,15 @@
       "d": "− 1 −1"
     },
     "correctAnswer": "b",
-    "explanation": "cos\\cos^290°+\\cos^230°+\\cos^260°cos290°+cos230°+cos260° =0+32+14=44=1=0+\\frac{3}{2}+\\frac{1}{4}=\\frac{4}{4}=1=0+23+41=44=1",
+    "explanation": "cos⁡290°+cos⁡230°+cos⁡260°\\cos^290°+\\cos^230°+\\cos^260°cos290°+cos230°+cos260° =0+32+14=44=1=0+\\frac{3}{2}+\\frac{1}{4}=\\frac{4}{4}=1=0+23+41=44=1",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243661/gst-question-images/Math____________________________________________-Varsity-ARC_q37.jpg",
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "একটি সমকোণী ত্রিভুজ হলে,cos\\cos^2A+\\cos^2B+\\cos^2C=?cos2A+cos2B+cos2C=?",
-    "explanationLatex": "cos\\circ}+cos\\circ}+cos\\circ}\\cos^290^{\\\\circ}+\\cos^230^{\\\\circ}+\\cos^260^{\\\\circ}cos290^{\\\\circ}+cos230^{\\\\circ}+cos260^{\\\\circ} =0+32+14=44=1=0+\\frac{3}{2}+\\frac{1}{4}=\\frac{4}{4}=1=0+23+41=44=1"
+    "questionLatex": "$ABCABCABCএকটি সমকোণী ত্রিভুজ হলে,cos⁡2A+cos⁡2B+cos⁡2C=?\\cos^2A+\\cos^2B+\\cos^2C=?cos2A+cos2B+cos2C=?$",
+    "explanationLatex": "$cos⁡290^{\\\\circ}+cos⁡230^{\\\\circ}+cos⁡260^{\\\\circ}\\cos^290^{\\\\circ}+\\cos^230^{\\\\circ}+\\cos^260^{\\\\circ}cos290^{\\\\circ}+cos230^{\\\\circ}+cos260^{\\\\circ} =0+32+14=44=1=0+\\frac{3}{2}+\\frac{1}{4}=\\frac{4}{4}=1=0+23+41=44=1$"
   },
   {
     "id": 36,
@@ -709,7 +709,7 @@
       "d": "2 𝑛 𝜋 ± 𝜋 6 2nπ± 6 π"
     },
     "correctAnswer": "a",
-    "explanation": "3tan\\tan ^{2} \\theta=1 \\Rightarrow \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan \\frac{\\pi}{6} \\Rightarrow \\theta=\\mathrm{n} \\pi+\\frac{\\pi}{6} 3tan2θ=1",
+    "explanation": "3tan⁡2θ=1⇒tan⁡θ=13=tan⁡π6⇒θ=nπ+π6 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan \\frac{\\pi}{6} \\Rightarrow \\theta=\\mathrm{n} \\pi+\\frac{\\pi}{6} 3tan2θ=1⇒tanθ=31=tan6π⇒θ=nπ+6π",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -717,11 +717,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$3tan2\\\\theta  =1 সমিকরণটি সমাধান করলে \\\\theta  এর সবচেয়ে ভাল সম্ভ্যাব্য মান নীচের কোনটি?$",
-    "explanationLatex": "3tan\\theta =1\\theta =13=tan⁡\\\\pi 6⇒\\\\theta =n\\\\pi +\\\\pi 6 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan \\frac{\\pi}{6} \\Rightarrow \\theta=\\mathrm{n} \\pi+\\frac{\\pi}{6} 3tan2\\\\theta =1\\theta =31=tan6\\\\pi ⇒\\\\theta =n\\\\pi +6\\\\pi"
+    "explanationLatex": "$3tan⁡2\\\\theta =1⇒tan⁡\\\\theta =13=tan⁡\\\\pi 6⇒\\\\theta =n\\\\pi +\\\\pi 6 3 \\tan ^{2} \\theta=1 \\Rightarrow \\tan \\theta=\\frac{1}{\\sqrt{3}}=\\tan \\frac{\\pi}{6} \\Rightarrow \\theta=\\mathrm{n} \\pi+\\frac{\\pi}{6} 3tan2\\\\theta =1⇒tan\\\\theta =31=tan6\\\\pi ⇒\\\\theta =n\\\\pi +6\\\\pi $"
   },
   {
     "id": 37,
-    "question": "0\\frac{\\pi}{2} 0এবং",
+    "question": "0≤θ≤π2 0 ≤ θ ≤ \\frac{\\pi}{2} 0≤θ≤2π এবং",
     "options": {
       "a": "− 3 2 − 2 3",
       "b": "− 1 2 − 2 1",
@@ -729,7 +729,7 @@
       "d": "3 2 2 3"
     },
     "correctAnswer": "c",
-    "explanation": "sin\\sin{\\theta} = \\frac{1}{2} sinθ=21 হলে, cos2θ এর প্রকৃত মান কত? sin\\begin{aligned} \\sin \\theta & =\\frac{1}{2} \\\\ \\sin \\theta & =\\sin 30^{\\circ} \\\\ \\theta & =30^{\\circ} \\\\ \\cos 2 \\theta & =\\cos 60^{\\circ} \\\\ \\quad & =\\frac{1}{2}\\end{aligned} sinθsinθθcos2θ=21=sin30∘=30∘=cos60∘=21",
+    "explanation": "sin⁡θ=12 \\sin{\\theta} = \\frac{1}{2} sinθ=21 হলে, cos2θ এর প্রকৃত মান কত? sin⁡θ=12sin⁡θ=sin⁡30∘θ=30∘cos⁡2θ=cos⁡60∘=12 \\begin{aligned} \\sin \\theta & =\\frac{1}{2} \\\\ \\sin \\theta & =\\sin 30^{\\circ} \\\\ \\theta & =30^{\\circ} \\\\ \\cos 2 \\theta & =\\cos 60^{\\circ} \\\\ \\quad & =\\frac{1}{2}\\end{aligned} sinθsinθθcos2θ=21=sin30∘=30∘=cos60∘=21",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -761,7 +761,7 @@
   },
   {
     "id": 39,
-    "question": "sinএবংcosহলে, \\sin{A} = \\frac{1}{2} এ ব ং \\cos{B} = \\frac{1}{\\sqrt{2}} হ ল ে , sinA=21এবংcosB=21হলে, cos(A+B) এর মান কত হবে ?",
+    "question": "sin⁡A=12এবংcos⁡B=12হলে, \\sin{A} = \\frac{1}{2} এ ব ং \\cos{B} = \\frac{1}{\\sqrt{2}} হ ল ে , sinA=21এবংcosB=21হলে, cos(A+B) এর মান কত হবে ?",
     "options": {
       "a": "6 + 1 4 4 6 +1",
       "b": "3 − 1 2 2 2 2 3 −1",
@@ -769,19 +769,19 @@
       "d": "6 + 1 2 2 6 +1"
     },
     "correctAnswer": "b",
-    "explanation": "sin\\begin{array}{ll} \\sin A=\\frac{1}{2}, & \\cos B=\\frac{1}{\\sqrt{2}} \\\\ \\therefore A=30^{\\circ} & \\therefore B=45^{\\circ} \\end{array} sinA=21,\\begin{aligned} \\cos (A+B) & =\\cos A \\cdot \\cos B-\\sin A \\cdot \\sin B \\\\ & =\\cos 30^{\\circ} \\cdot \\cos 45^{\\circ}-\\sin 30^{\\circ} \\cdot \\sin 45^{\\circ} \\\\ & =\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}-\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} \\\\ & =\\frac{\\sqrt{3}-1}{2 \\sqrt{2}} \\end{aligned} cos(A+B)=cosA⋅cosB−sinA⋅sinB=cos30∘⋅cos45∘−sin30∘⋅sin45∘=23⋅21−21⋅21=223−1",
+    "explanation": "sin⁡A=12,cos⁡B=12∴A=30∘∴B=45∘ \\begin{array}{ll} \\sin A=\\frac{1}{2}, & \\cos B=\\frac{1}{\\sqrt{2}} \\\\ \\therefore A=30^{\\circ} & \\therefore B=45^{\\circ} \\end{array} sinA=21,∴A=30∘cosB=21∴B=45∘ cos⁡(A+B)=cos⁡A⋅cos⁡B−sin⁡A⋅sin⁡B=cos⁡30∘⋅cos⁡45∘−sin⁡30∘⋅sin⁡45∘=32⋅12−12⋅12=3−122 \\begin{aligned} \\cos (A+B) & =\\cos A \\cdot \\cos B-\\sin A \\cdot \\sin B \\\\ & =\\cos 30^{\\circ} \\cdot \\cos 45^{\\circ}-\\sin 30^{\\circ} \\cdot \\sin 45^{\\circ} \\\\ & =\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}-\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} \\\\ & =\\frac{\\sqrt{3}-1}{2 \\sqrt{2}} \\end{aligned} cos(A+B)=cosA⋅cosB−sinA⋅sinB=cos30∘⋅cos45∘−sin30∘⋅sin45∘=23⋅21−21⋅21=223−1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sinএবংcosহলে, \\sin{A} = \\frac{1}{2} এ ব ং \\cos{B} = \\frac{1}{\\sqrt{2}} হ ল ে , sinA=21এবংcosB=21হলে, cos(A+B) এর মান কত হবে ?",
-    "explanationLatex": "sin\\begin{array}{ll} \\sin A=\\frac{1}{2}, & \\cos B=\\frac{1}{\\sqrt{2}} \\\\ \\therefore A=30^{\\circ} & \\therefore B=45^{\\circ} \\end{array} sinA=21,\\begin{aligned} \\cos (A+B) & =\\cos A \\cdot \\cos B-\\sin A \\cdot \\sin B \\\\ & =\\cos 30^{\\circ} \\cdot \\cos 45^{\\circ}-\\sin 30^{\\circ} \\cdot \\sin 45^{\\circ} \\\\ & =\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}-\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} \\\\ & =\\frac{\\sqrt{3}-1}{2 \\sqrt{2}} \\end{aligned} cos(A+B)=cosA⋅cosB−sinA⋅sinB=cos30∘⋅cos45∘−sin30∘⋅sin45∘=23⋅21−21⋅21=223−1"
+    "questionLatex": "$sin⁡A=12এবংcos⁡B=12হলে, \\sin{A} = \\frac{1}{2} এ ব ং \\cos{B} = \\frac{1}{\\sqrt{2}} হ ল ে , sinA=21এবংcosB=21হলে, cos(A+B) এর মান কত হবে ?$",
+    "explanationLatex": "$sin⁡A=12,cos⁡B=12∴A=30∘∴B=45∘ \\begin{array}{ll} \\sin A=\\frac{1}{2}, & \\cos B=\\frac{1}{\\sqrt{2}} \\\\ \\therefore A=30^{\\circ} & \\therefore B=45^{\\circ} \\end{array} sinA=21,∴A=30∘cosB=21∴B=45∘ cos⁡(A+B)=cos⁡A⋅cos⁡B−sin⁡A⋅sin⁡B=cos⁡30∘⋅cos⁡45∘−sin⁡30∘⋅sin⁡45∘=32⋅12−12⋅12=3−122 \\begin{aligned} \\cos (A+B) & =\\cos A \\cdot \\cos B-\\sin A \\cdot \\sin B \\\\ & =\\cos 30^{\\circ} \\cdot \\cos 45^{\\circ}-\\sin 30^{\\circ} \\cdot \\sin 45^{\\circ} \\\\ & =\\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}-\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} \\\\ & =\\frac{\\sqrt{3}-1}{2 \\sqrt{2}} \\end{aligned} cos(A+B)=cosA⋅cosB−sinA⋅sinB=cos30∘⋅cos45∘−sin30∘⋅sin45∘=23⋅21−21⋅21=223−1$"
   },
   {
     "id": 40,
-    "question": "cot\\cot \\alpha+\\cot \\beta=a, \\tan \\alpha+\\tan \\beta=b cotα+cotβ=a,tanα+tanβ=b এবং α+β=θ \\alpha+\\beta=\\theta α+β=θ হলে, cot\\cot \\theta cotθ মান কোনটি?",
+    "question": "cot⁡α+cot⁡β=a,tan⁡α+tan⁡β=b \\cot \\alpha+\\cot \\beta=a, \\tan \\alpha+\\tan \\beta=b cotα+cotβ=a,tanα+tanβ=b এবং α+β=θ \\alpha+\\beta=\\theta α+β=θ হলে, cot⁡θ \\cot \\theta cotθ মান কোনটি?",
     "options": {
       "a": "1 b − 1 a b 1 − a 1",
       "b": "1 a − 1 b a 1 − b 1",
@@ -789,19 +789,19 @@
       "d": "− 1 a − 1 b − a 1 − b 1"
     },
     "correctAnswer": "a",
-    "explanation": "cot\\begin{array}{l}\\cot (\\alpha+\\beta)=\\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha+\\cot \\beta} \\\\ \\Rightarrow \\cot \\alpha \\cot \\beta-1=\\cot (\\alpha+\\beta)(\\cot \\alpha+\\cot \\beta)\\end{array} cot(α+β)=cotα+cotβcotαcotβ−1\\cot \\theta \\cdot a=a \\cot \\theta =cotθ⋅a=acotθ \\begin{array}{c}\\Rightarrow \\cot \\alpha \\cot \\beta=\\operatorname{cot \\theta} + 1 \\\\ \\tan (\\alpha+\\beta)=\\frac{\\tan \\alpha+\\tan \\beta}{1-\\tan \\alpha \\tan \\beta}\\end{array} \\begin{array}{l}\\Rightarrow \\tan \\theta=\\frac{b}{1-\\frac{1}{\\cot \\alpha} \\frac{1}{\\cot \\beta}} \\\\ \\Rightarrow \\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha \\cot \\beta}=\\frac{b}{\\tan \\theta} \\\\ \\Rightarrow \\frac{a \\cot \\theta}{a \\cot \\theta+1}=\\frac{b}{1 / \\cot \\theta}\\end{array} \\begin{array}{l}\\Rightarrow \\frac{a}{a \\cot \\theta+1}=b \\\\ \\Rightarrow \\quad a \\operatorname{cot} \\theta +1 =\\frac{a}{b} \\\\ \\Rightarrow \\operatorname{acot} \\theta=\\frac{a}{b}-1 \\\\ \\Rightarrow \\cot \\theta=\\frac{\\frac{a}{b}-1}{a}=\\frac{1}{b}-\\frac{1}{a} .\\end{array}",
+    "explanation": "cot⁡(α+β)=cot⁡αcot⁡β−1cot⁡α+cot⁡β⇒cot⁡αcot⁡β−1=cot⁡(α+β)(cot⁡α+cot⁡β) \\begin{array}{l}\\cot (\\alpha+\\beta)=\\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha+\\cot \\beta} \\\\ \\Rightarrow \\cot \\alpha \\cot \\beta-1=\\cot (\\alpha+\\beta)(\\cot \\alpha+\\cot \\beta)\\end{array} cot(α+β)=cotα+cotβcotαcotβ−1⇒cotαcotβ−1=cot(α+β)(cotα+cotβ) =cot⁡θ⋅a=acot⁡θ =\\cot \\theta \\cdot a=a \\cot \\theta =cotθ⋅a=acotθ ⇒cot⁡αcot⁡β=cotθ⁡+1tan⁡(α+β)=tan⁡α+tan⁡β1−tan⁡αtan⁡β \\begin{array}{c}\\Rightarrow \\cot \\alpha \\cot \\beta=\\operatorname{cot \\theta} + 1 \\\\ \\tan (\\alpha+\\beta)=\\frac{\\tan \\alpha+\\tan \\beta}{1-\\tan \\alpha \\tan \\beta}\\end{array} ⇒cotαcotβ=cotθ+1tan(α+β)=1−tanαtanβtanα+tanβ ⇒tan⁡θ=b1−1cot⁡α1cot⁡β⇒cot⁡αcot⁡β−1cot⁡αcot⁡β=btan⁡θ⇒acot⁡θacot⁡θ+1=b1/cot⁡θ \\begin{array}{l}\\Rightarrow \\tan \\theta=\\frac{b}{1-\\frac{1}{\\cot \\alpha} \\frac{1}{\\cot \\beta}} \\\\ \\Rightarrow \\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha \\cot \\beta}=\\frac{b}{\\tan \\theta} \\\\ \\Rightarrow \\frac{a \\cot \\theta}{a \\cot \\theta+1}=\\frac{b}{1 / \\cot \\theta}\\end{array} ⇒tanθ=1−cotα1cotβ1b⇒cotαcotβcotαcotβ−1=tanθb⇒acotθ+1acotθ=1/cotθb ⇒aacot⁡θ+1=b⇒acot⁡θ+1=ab⇒acot⁡θ=ab−1⇒cot⁡θ=ab−1a=1b−1a. \\begin{array}{l}\\Rightarrow \\frac{a}{a \\cot \\theta+1}=b \\\\ \\Rightarrow \\quad a \\operatorname{cot} \\theta +1 =\\frac{a}{b} \\\\ \\Rightarrow \\operatorname{acot} \\theta=\\frac{a}{b}-1 \\\\ \\Rightarrow \\cot \\theta=\\frac{\\frac{a}{b}-1}{a}=\\frac{1}{b}-\\frac{1}{a} .\\end{array} ⇒acotθ+1a=b⇒acotθ+1=ba⇒acotθ=ba−1⇒cotθ=aba−1=b1−a1.",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cot\\cot \\alpha+\\cot \\beta=a, \\tan \\alpha+\\tan \\beta=b cotα+cotβ=a,tanα+tanβ=b এবং α+β=\\\\theta \\alpha+\\beta=\\theta α+β=\\\\theta হলে, cot⁡\\\\theta \\cot \\theta cot\\\\theta মান কোনটি?",
-    "explanationLatex": "cot\\begin{array}{l}\\cot (\\alpha+\\beta)=\\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha+\\cot \\beta} \\\\ \\Rightarrow \\cot \\alpha \\cot \\beta-1=\\cot (\\alpha+\\beta)(\\cot \\alpha+\\cot \\beta)\\end{array} cot(α+β)=cotα+cotβcotαcotβ−1\\theta ⋅a=acot⁡\\\\theta =\\cot \\theta \\cdot a=a \\cot \\theta =cot\\\\theta ⋅a=acot\\\\theta \\theta \\begin{array}{c}\\Rightarrow \\cot \\alpha \\cot \\beta=\\operatorname{cot \\theta} + 1 \\\\ \\tan (\\alpha+\\beta)=\\frac{\\tan \\alpha+\\tan \\beta}{1-\\tan \\alpha \\tan \\beta}\\end{array} \\theta +1tan(α+β)=1−tanαtanβtanα+tanβ \\theta =b1−1cot\\theta \\theta acot⁡\\\\theta +1=\\frac{b1}{cot}⁡\\\\theta \\begin{array}{l}\\Rightarrow \\tan \\theta=\\frac{b}{1-\\frac{1}{\\cot \\alpha} \\frac{1}{\\cot \\beta}} \\\\ \\Rightarrow \\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha \\cot \\beta}=\\frac{b}{\\tan \\theta} \\\\ \\Rightarrow \\frac{a \\cot \\theta}{a \\cot \\theta+1}=\\frac{b}{1 / \\cot \\theta}\\end{array} \\theta =1−cotα1cotβ1b\\theta b\\theta +1acot\\\\theta =\\frac{1}{cot}\\\\theta b \\theta +1=b\\theta +1=ab\\theta =ab−1\\theta =ab−1a=1b−1a. \\begin{array}{l}\\Rightarrow \\frac{a}{a \\cot \\theta+1}=b \\\\ \\Rightarrow \\quad a \\operatorname{cot} \\theta +1 =\\frac{a}{b} \\\\ \\Rightarrow \\operatorname{acot} \\theta=\\frac{a}{b}-1 \\\\ \\Rightarrow \\cot \\theta=\\frac{\\frac{a}{b}-1}{a}=\\frac{1}{b}-\\frac{1}{a} .\\end{array} \\theta +1a=b\\theta +1=ba\\theta =ba−1\\theta =aba−1=b1−a1."
+    "questionLatex": "$cot⁡α+cot⁡β=a,tan⁡α+tan⁡β=b \\cot \\alpha+\\cot \\beta=a, \\tan \\alpha+\\tan \\beta=b cotα+cotβ=a,tanα+tanβ=b এবং α+β=\\\\theta  \\alpha+\\beta=\\theta α+β=\\\\theta  হলে, cot⁡\\\\theta  \\cot \\theta cot\\\\theta  মান কোনটি?$",
+    "explanationLatex": "$cot⁡(α+β)=cot⁡αcot⁡β−1cot⁡α+cot⁡β⇒cot⁡αcot⁡β−1=cot⁡(α+β)(cot⁡α+cot⁡β) \\begin{array}{l}\\cot (\\alpha+\\beta)=\\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha+\\cot \\beta} \\\\ \\Rightarrow \\cot \\alpha \\cot \\beta-1=\\cot (\\alpha+\\beta)(\\cot \\alpha+\\cot \\beta)\\end{array} cot(α+β)=cotα+cotβcotαcotβ−1⇒cotαcotβ−1=cot(α+β)(cotα+cotβ) =cot⁡\\\\theta ⋅a=acot⁡\\\\theta  =\\cot \\theta \\cdot a=a \\cot \\theta =cot\\\\theta ⋅a=acot\\\\theta  ⇒cot⁡αcot⁡β=cot\\\\theta ⁡+1tan⁡(α+β)=tan⁡α+tan⁡β1−tan⁡αtan⁡β \\begin{array}{c}\\Rightarrow \\cot \\alpha \\cot \\beta=\\operatorname{cot \\theta} + 1 \\\\ \\tan (\\alpha+\\beta)=\\frac{\\tan \\alpha+\\tan \\beta}{1-\\tan \\alpha \\tan \\beta}\\end{array} ⇒cotαcotβ=cot\\\\theta +1tan(α+β)=1−tanαtanβtanα+tanβ ⇒tan⁡\\\\theta =b1−1cot⁡α1cot⁡β⇒cot⁡αcot⁡β−1cot⁡αcot⁡β=btan⁡\\\\theta ⇒acot⁡\\\\theta acot⁡\\\\theta +1=\\frac{b1}{cot}⁡\\\\theta  \\begin{array}{l}\\Rightarrow \\tan \\theta=\\frac{b}{1-\\frac{1}{\\cot \\alpha} \\frac{1}{\\cot \\beta}} \\\\ \\Rightarrow \\frac{\\cot \\alpha \\cot \\beta-1}{\\cot \\alpha \\cot \\beta}=\\frac{b}{\\tan \\theta} \\\\ \\Rightarrow \\frac{a \\cot \\theta}{a \\cot \\theta+1}=\\frac{b}{1 / \\cot \\theta}\\end{array} ⇒tan\\\\theta =1−cotα1cotβ1b⇒cotαcotβcotαcotβ−1=tan\\\\theta b⇒acot\\\\theta +1acot\\\\theta =\\frac{1}{cot}\\\\theta b ⇒aacot⁡\\\\theta +1=b⇒acot⁡\\\\theta +1=ab⇒acot⁡\\\\theta =ab−1⇒cot⁡\\\\theta =ab−1a=1b−1a. \\begin{array}{l}\\Rightarrow \\frac{a}{a \\cot \\theta+1}=b \\\\ \\Rightarrow \\quad a \\operatorname{cot} \\theta +1 =\\frac{a}{b} \\\\ \\Rightarrow \\operatorname{acot} \\theta=\\frac{a}{b}-1 \\\\ \\Rightarrow \\cot \\theta=\\frac{\\frac{a}{b}-1}{a}=\\frac{1}{b}-\\frac{1}{a} .\\end{array} ⇒acot\\\\theta +1a=b⇒acot\\\\theta +1=ba⇒acot\\\\theta =ba−1⇒cot\\\\theta =aba−1=b1−a1.$"
   },
   {
     "id": 41,
-    "question": "cosec\\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}= cosec2 A−cot2 A= ?",
+    "question": "cosec⁡2 A−cot⁡2 A= \\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}= cosec2 A−cot2 A= ?",
     "options": {
       "a": "tan ⁡ A tanA",
       "b": "tan ⁡ 2 A tan2 A",
@@ -809,15 +809,15 @@
       "d": "cot ⁡ 2 A cot2 A"
     },
     "correctAnswer": "a",
-    "explanation": "Sol. সমাধান: (\\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}=\\frac{1-\\cos 2 \\mathrm{~A}}{\\sin 2 \\mathrm{~A}}=\\tan A cosec2 A−cot2 A=sin2 A1−cos2 A=tanA",
+    "explanation": "Sol. সমাধান: (a); cosec⁡2 A−cot⁡2 A=1−cos⁡2 Asin⁡2 A=tan⁡A \\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}=\\frac{1-\\cos 2 \\mathrm{~A}}{\\sin 2 \\mathrm{~A}}=\\tan A cosec2 A−cot2 A=sin2 A1−cos2 A=tanA",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "cosec\\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}= cosec2 A−cot2 A= ?",
-    "explanationLatex": "Sol. সমাধান: (\\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}=\\frac{1-\\cos 2 \\mathrm{~A}}{\\sin 2 \\mathrm{~A}}=\\tan A cosec2 A−cot2 A=sin2 A1−cos2 A=tanA"
+    "questionLatex": "$cosec⁡2 A−cot⁡2 A= \\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}= cosec2 A−cot2 A= ?$",
+    "explanationLatex": "$Sol. সমাধান: (a); cosec⁡2 A−cot⁡2 A=1−cos⁡2 Asin⁡2 A=tan⁡A \\operatorname{cosec} 2 \\mathrm{~A}-\\cot 2 \\mathrm{~A}=\\frac{1-\\cos 2 \\mathrm{~A}}{\\sin 2 \\mathrm{~A}}=\\tan A cosec2 A−cot2 A=sin2 A1−cos2 A=tanA$"
   },
   {
     "id": 42,
@@ -841,7 +841,7 @@
   },
   {
     "id": 43,
-    "question": "acos\\cos \\theta+b \\sin \\theta=\\mathrm{c} acosθ+bsinθ=c সমীকরণটি θ \\theta θ এর দুইটি ভিন্ন মান α,β \\alpha, \\beta α,β দ্বারা সিদ্ধ হলে , sin\\sin (\\alpha+\\beta)=? sin(α+β)=?",
+    "question": "acos⁡θ+bsin⁡θ=c a \\cos \\theta+b \\sin \\theta=\\mathrm{c} acosθ+bsinθ=c সমীকরণটি θ \\theta θ এর দুইটি ভিন্ন মান α,β \\alpha, \\beta α,β দ্বারা সিদ্ধ হলে , sin⁡(α+β)=? \\sin (\\alpha+\\beta)=? sin(α+β)=?",
     "options": {
       "a": "2 𝑎 𝑏 𝑎 2 + 𝑏 2 a 2 +b 2 2ab",
       "b": "𝑎 𝑏 𝑎 2 + 𝑏 2 a 2 +b 2 ab",
@@ -849,19 +849,19 @@
       "d": "− 2 𝑎 𝑏 𝑎 2 + 𝑏 2 a 2 +b 2 −2ab"
     },
     "correctAnswer": "a",
-    "explanation": "\\cos \\theta+\\mathrm{b} \\sin \\theta=\\mathrm{c} cosθ+bsinθ=c সমীকরণটি θ \\theta θ এর দুইটি ভিন্ন মান α≪β \\alpha \\ll \\beta α≪β দ্বারা সিদ্ধ বলে, acos\\cos \\alpha+b \\sin \\alpha=c acosα+bsinα=cএবং acos\\cos \\beta+b \\sin \\beta=c acosβ+bsinβ=c \\begin{array}{l} \\therefore \\quad a \\cos \\alpha+b \\sin \\alpha=a \\cos \\beta+b \\sin \\beta \\\\ \\Rightarrow \\quad a(\\cos \\alpha-\\cos \\beta)=b(\\sin \\beta-\\sin \\alpha) \\\\ \\Rightarrow a \\cdot 2 \\sin \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ =b \\cdot 2 \\cos \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ \\alpha \\neq \\beta \\text { } \\sin \\frac{1}{2}(\\beta-\\alpha) \\neq 0 \\\\ \\therefore a \\sin \\frac{1}{2}(\\alpha+\\beta)=b \\cos \\frac{1}{2}(\\alpha+\\beta) \\\\ \\Rightarrow \\tan \\frac{1}{2}(\\alpha+\\beta)=\\frac{b}{a} \\end{array} এখন, sin\\sin (\\alpha+\\beta)=\\sin 2 \\cdot \\frac{1}{2}(\\alpha+\\beta) sin(α+β)=sin2⋅21(α+β) =2tan\\begin{array}{l} =\\frac{2 \\tan \\frac{1}{2}(\\alpha+\\beta)}{1+\\tan ^{2} \\frac{1}{2}(\\alpha+\\beta)}=-\\frac{2 \\frac{b}{a}}{1+\\left(\\frac{b}{a}\\right)^{2}} \\\\ =\\frac{2 b}{a} \\times \\frac{a^{2}}{a^{2}+b^{2}}=\\frac{2 a b}{a^{2}+b^{2}} \\end{array} =1+tan221(α+β)2tan21(α+β)=−1+(ab)22ab=a2b",
+    "explanation": "Solve: cos⁡θ+bsin⁡θ=c \\cos \\theta+\\mathrm{b} \\sin \\theta=\\mathrm{c} cosθ+bsinθ=c সমীকরণটি θ \\theta θ এর দুইটি ভিন্ন মান α≪β \\alpha \\ll \\beta α≪β দ্বারা সিদ্ধ বলে, acos⁡α+bsin⁡α=c a \\cos \\alpha+b \\sin \\alpha=c acosα+bsinα=cএবং acos⁡β+bsin⁡β=c a \\cos \\beta+b \\sin \\beta=c acosβ+bsinβ=c ∴acos⁡α+bsin⁡α=acos⁡β+bsin⁡β⇒a(cos⁡α−cos⁡β)=b(sin⁡β−sin⁡α)⇒a⋅2sin⁡12(α+β)sin⁡12(β−α)=b⋅2cos⁡12(α+β)sin⁡12(β−α)α≠β sin⁡12(β−α)≠0∴asin⁡12(α+β)=bcos⁡12(α+β)⇒tan⁡12(α+β)=ba \\begin{array}{l} \\therefore \\quad a \\cos \\alpha+b \\sin \\alpha=a \\cos \\beta+b \\sin \\beta \\\\ \\Rightarrow \\quad a(\\cos \\alpha-\\cos \\beta)=b(\\sin \\beta-\\sin \\alpha) \\\\ \\Rightarrow a \\cdot 2 \\sin \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ =b \\cdot 2 \\cos \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ \\alpha \\neq \\beta \\text { } \\sin \\frac{1}{2}(\\beta-\\alpha) \\neq 0 \\\\ \\therefore a \\sin \\frac{1}{2}(\\alpha+\\beta)=b \\cos \\frac{1}{2}(\\alpha+\\beta) \\\\ \\Rightarrow \\tan \\frac{1}{2}(\\alpha+\\beta)=\\frac{b}{a} \\end{array} ∴acosα+bsinα=acosβ+bsinβ⇒a(cosα−cosβ)=b(sinβ−sinα)⇒a⋅2sin21(α+β)sin21(β−α)=b⋅2cos21(α+β)sin21(β−α)α=β sin21(β−α)=0∴asin21(α+β)=bcos21(α+β)⇒tan21(α+β)=ab এখন, sin⁡(α+β)=sin⁡2⋅12(α+β) \\sin (\\alpha+\\beta)=\\sin 2 \\cdot \\frac{1}{2}(\\alpha+\\beta) sin(α+β)=sin2⋅21(α+β) =2tan⁡12(α+β)1+tan⁡212(α+β)=−2ba1+(ba)2=2ba×a2a2+b2=2aba2+b2 \\begin{array}{l} =\\frac{2 \\tan \\frac{1}{2}(\\alpha+\\beta)}{1+\\tan ^{2} \\frac{1}{2}(\\alpha+\\beta)}=-\\frac{2 \\frac{b}{a}}{1+\\left(\\frac{b}{a}\\right)^{2}} \\\\ =\\frac{2 b}{a} \\times \\frac{a^{2}}{a^{2}+b^{2}}=\\frac{2 a b}{a^{2}+b^{2}} \\end{array} =1+tan221(α+β)2tan21(α+β)=−1+(ab)22ab=a2b×a2+b2a2=a2+b22ab",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "acos⁡\\\\theta +bsin⁡\\\\theta =c a \\cos \\theta+b \\sin \\theta=\\mathrm{c} acos\\\\theta +bsin\\\\theta =c সমীকরণটি \\\\theta \\theta \\\\theta এর দুইটি ভিন্ন মান α,β \\alpha, \\beta α,β দ্বারা সিদ্ধ হলে , sin\\sin (\\alpha+\\beta)=? sin(α+β)=?",
-    "explanationLatex": "⁡\\\\theta +bsin⁡\\\\theta =c \\cos \\theta+\\mathrm{b} \\sin \\theta=\\mathrm{c} cos\\\\theta +bsin\\\\theta =c সমীকরণটি \\\\theta \\theta \\\\theta এর দুইটি ভিন্ন মান α≪β \\alpha \\ll \\beta α≪β দ্বারা সিদ্ধ বলে, acos\\cos \\alpha+b \\sin \\alpha=c acosα+bsinα=cএবং acos\\cos \\beta+b \\sin \\beta=c acosβ+bsinβ=c \\neq β sin\\neq 0\\begin{array}{l} \\therefore \\quad a \\cos \\alpha+b \\sin \\alpha=a \\cos \\beta+b \\sin \\beta \\\\ \\Rightarrow \\quad a(\\cos \\alpha-\\cos \\beta)=b(\\sin \\beta-\\sin \\alpha) \\\\ \\Rightarrow a \\cdot 2 \\sin \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ =b \\cdot 2 \\cos \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ \\alpha \\neq \\beta \\text { } \\sin \\frac{1}{2}(\\beta-\\alpha) \\neq 0 \\\\ \\therefore a \\sin \\frac{1}{2}(\\alpha+\\beta)=b \\cos \\frac{1}{2}(\\alpha+\\beta) \\\\ \\Rightarrow \\tan \\frac{1}{2}(\\alpha+\\beta)=\\frac{b}{a} \\end{array} এখন, sin\\sin (\\alpha+\\beta)=\\sin 2 \\cdot \\frac{1}{2}(\\alpha+\\beta) sin(α+β)=sin2⋅21(α+β) =2tan\\times a2a2+b2=2aba2+b2 \\begin{array}{l} =\\frac{2 \\tan \\frac{1}{2}(\\alpha+\\beta)}{1+\\tan ^{2} \\frac{1}{2}(\\alpha+\\beta)}=-\\frac{2 \\frac{b}{a}}{1+\\left(\\frac{b}{a}\\right)^{2}} \\\\ =\\frac{2 b}{a} \\times \\frac{a^{2}}{a^{2}+b^{2}}=\\frac{2 a b}{a^{2}+b^{2}} \\end{array} =1+tan221(α+β)2tan21(α+β)=−1+(ab)22ab=a2b\\\\times a2+b2a2=a2+b22ab"
+    "questionLatex": "$acos⁡\\\\theta +bsin⁡\\\\theta =c a \\cos \\theta+b \\sin \\theta=\\mathrm{c} acos\\\\theta +bsin\\\\theta =c সমীকরণটি \\\\theta  \\theta \\\\theta  এর দুইটি ভিন্ন মান α,β \\alpha, \\beta α,β দ্বারা সিদ্ধ হলে , sin⁡(α+β)=? \\sin (\\alpha+\\beta)=? sin(α+β)=?$",
+    "explanationLatex": "$Solve: cos⁡\\\\theta +bsin⁡\\\\theta =c \\cos \\theta+\\mathrm{b} \\sin \\theta=\\mathrm{c} cos\\\\theta +bsin\\\\theta =c সমীকরণটি \\\\theta  \\theta \\\\theta  এর দুইটি ভিন্ন মান α≪β \\alpha \\ll \\beta α≪β দ্বারা সিদ্ধ বলে, acos⁡α+bsin⁡α=c a \\cos \\alpha+b \\sin \\alpha=c acosα+bsinα=cএবং acos⁡β+bsin⁡β=c a \\cos \\beta+b \\sin \\beta=c acosβ+bsinβ=c ∴acos⁡α+bsin⁡α=acos⁡β+bsin⁡β⇒a(cos⁡α−cos⁡β)=b(sin⁡β−sin⁡α)⇒a⋅2sin⁡12(α+β)sin⁡12(β−α)=b⋅2cos⁡12(α+β)sin⁡12(β−α)α\\\\neq β sin⁡12(β−α)\\\\neq 0∴asin⁡12(α+β)=bcos⁡12(α+β)⇒tan⁡12(α+β)=ba \\begin{array}{l} \\therefore \\quad a \\cos \\alpha+b \\sin \\alpha=a \\cos \\beta+b \\sin \\beta \\\\ \\Rightarrow \\quad a(\\cos \\alpha-\\cos \\beta)=b(\\sin \\beta-\\sin \\alpha) \\\\ \\Rightarrow a \\cdot 2 \\sin \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ =b \\cdot 2 \\cos \\frac{1}{2}(\\alpha+\\beta) \\sin \\frac{1}{2}(\\beta-\\alpha) \\\\ \\alpha \\neq \\beta \\text { } \\sin \\frac{1}{2}(\\beta-\\alpha) \\neq 0 \\\\ \\therefore a \\sin \\frac{1}{2}(\\alpha+\\beta)=b \\cos \\frac{1}{2}(\\alpha+\\beta) \\\\ \\Rightarrow \\tan \\frac{1}{2}(\\alpha+\\beta)=\\frac{b}{a} \\end{array} ∴acosα+bsinα=acosβ+bsinβ⇒a(cosα−cosβ)=b(sinβ−sinα)⇒a⋅2sin21(α+β)sin21(β−α)=b⋅2cos21(α+β)sin21(β−α)α=β sin21(β−α)=0∴asin21(α+β)=bcos21(α+β)⇒tan21(α+β)=ab এখন, sin⁡(α+β)=sin⁡2⋅12(α+β) \\sin (\\alpha+\\beta)=\\sin 2 \\cdot \\frac{1}{2}(\\alpha+\\beta) sin(α+β)=sin2⋅21(α+β) =2tan⁡12(α+β)1+tan⁡212(α+β)=−2ba1+(ba)2=2ba\\\\times a2a2+b2=2aba2+b2 \\begin{array}{l} =\\frac{2 \\tan \\frac{1}{2}(\\alpha+\\beta)}{1+\\tan ^{2} \\frac{1}{2}(\\alpha+\\beta)}=-\\frac{2 \\frac{b}{a}}{1+\\left(\\frac{b}{a}\\right)^{2}} \\\\ =\\frac{2 b}{a} \\times \\frac{a^{2}}{a^{2}+b^{2}}=\\frac{2 a b}{a^{2}+b^{2}} \\end{array} =1+tan221(α+β)2tan21(α+β)=−1+(ab)22ab=a2b\\\\times a2+b2a2=a2+b22ab$"
   },
   {
     "id": 44,
-    "question": "\\frac{2}{\\sqrt{2-\\sqrt{2+2 \\cos 4 x}}}= 2−2+2cos4x2= ?",
+    "question": "22−2+2cos⁡4x= \\frac{2}{\\sqrt{2-\\sqrt{2+2 \\cos 4 x}}}= 2−2+2cos4x2= ?",
     "options": {
       "a": "sec ⁡ 𝑥 secx",
       "b": "cosec ⁡ 𝑥 cosecx",
@@ -876,7 +876,7 @@
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "\\frac{2}{\\sqrt{2-\\sqrt{2+2 \\cos 4 x}}}= 2−2+2cos4x2= ?",
+    "questionLatex": "$22−2+2cos⁡4x= \\frac{2}{\\sqrt{2-\\sqrt{2+2 \\cos 4 x}}}= 2−2+2cos4x2= ?$",
     "explanationLatex": "সঠিক উত্তর: (b) cosec ⁡ 𝑥 cosecx।"
   },
   {
@@ -889,7 +889,7 @@
       "d": "কোনটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "12sin\\begin{array}{c}\\frac{1}{2} \\sin \\theta+\\cos \\theta \\frac{1}{\\sqrt{2}}=1 \\\\ \\sin (45+\\theta)=\\sin 90^{\\circ} \\\\ \\theta=45^{\\circ}\\end{array} 21sinθ+cosθ21=1sin(45+θ)=sin90∘θ=45∘",
+    "explanation": "12sin⁡θ+cos⁡θ12=1sin⁡(45+θ)=sin⁡90∘θ=45∘ \\begin{array}{c}\\frac{1}{2} \\sin \\theta+\\cos \\theta \\frac{1}{\\sqrt{2}}=1 \\\\ \\sin (45+\\theta)=\\sin 90^{\\circ} \\\\ \\theta=45^{\\circ}\\end{array} 21sinθ+cosθ21=1sin(45+θ)=sin90∘θ=45∘",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,11 +917,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$cos(150^{\\\\circ} - \\\\theta ) = - \\frac{1}{2} হলে \\\\theta  এর মান কত?$",
-    "explanationLatex": "সঠিক উত্তর: (c) 30 ^{\\\\circ}।"
+    "explanationLatex": "$সঠিক উত্তর: (c) 30 ^{\\\\circ}।$"
   },
   {
     "id": 47,
-    "question": "sin\\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{ \\pi}{6}\\right) sin(α−6π)+sin(α+6π) এর মান কত?",
+    "question": "sin⁡(α−π6)+sin⁡(α+π6) \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{ \\pi}{6}\\right) sin(α−6π)+sin(α+6π) এর মান কত?",
     "options": {
       "a": "-1",
       "b": "0",
@@ -929,19 +929,19 @@
       "d": "3 sin ⁡ 𝛼 3 sinα"
     },
     "correctAnswer": "d",
-    "explanation": "sin\\begin{aligned} & \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{\\pi}{6}\\right) \\\\ \\Rightarrow \\quad & 2 \\sin \\frac{2 \\alpha}{2} \\cdot \\cos \\frac{\\alpha-\\frac{\\pi}{6}-\\alpha-\\frac{\\pi}{6}}{2} \\\\ = & 2 \\sin \\alpha \\cdot \\cos \\frac{\\pi}{6} \\\\ = & 2 \\sin \\alpha \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{3} \\sin \\alpha\\end{aligned}",
+    "explanation": "sin⁡(α−π6)+sin⁡(α+π6)⇒2sin⁡2α2⋅cos⁡α−π6−α−π62=2sin⁡α⋅cos⁡π6=2sin⁡α32=3sin⁡α \\begin{aligned} & \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{\\pi}{6}\\right) \\\\ \\Rightarrow \\quad & 2 \\sin \\frac{2 \\alpha}{2} \\cdot \\cos \\frac{\\alpha-\\frac{\\pi}{6}-\\alpha-\\frac{\\pi}{6}}{2} \\\\ = & 2 \\sin \\alpha \\cdot \\cos \\frac{\\pi}{6} \\\\ = & 2 \\sin \\alpha \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{3} \\sin \\alpha\\end{aligned} ⇒===sin(α−6π)+sin(α+6π)2sin22α⋅cos2α−6π−α−6π2sinα⋅cos6π2sinα233sinα",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "sin\\pi 6)+sin\\pi 6) \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{ \\pi}{6}\\right) sin(α−6\\\\pi )+sin(α+6\\\\pi ) এর মান কত?",
-    "explanationLatex": "sin\\pi 6)+sin\\pi 6)\\pi 6−α−\\\\pi 62=2sin\\pi 6=2sin\\begin{aligned} & \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{\\pi}{6}\\right) \\\\ \\Rightarrow \\quad & 2 \\sin \\frac{2 \\alpha}{2} \\cdot \\cos \\frac{\\alpha-\\frac{\\pi}{6}-\\alpha-\\frac{\\pi}{6}}{2} \\\\ = & 2 \\sin \\alpha \\cdot \\cos \\frac{\\pi}{6} \\\\ = & 2 \\sin \\alpha \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{3} \\sin \\alpha\\end{aligned} \\pi )+sin(α+6\\\\pi )2sin22α⋅cos2α−6\\\\pi −α−6\\\\pi 2sinα⋅cos6\\\\pi 2sinα233sinα"
+    "questionLatex": "$sin⁡(α−\\\\pi 6)+sin⁡(α+\\\\pi 6) \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{ \\pi}{6}\\right) sin(α−6\\\\pi )+sin(α+6\\\\pi ) এর মান কত?$",
+    "explanationLatex": "$sin⁡(α−\\\\pi 6)+sin⁡(α+\\\\pi 6)⇒2sin⁡2α2⋅cos⁡α−\\\\pi 6−α−\\\\pi 62=2sin⁡α⋅cos⁡\\\\pi 6=2sin⁡α32=3sin⁡α \\begin{aligned} & \\sin \\left(\\alpha-\\frac{\\pi}{6}\\right)+\\sin \\left(\\alpha+\\frac{\\pi}{6}\\right) \\\\ \\Rightarrow \\quad & 2 \\sin \\frac{2 \\alpha}{2} \\cdot \\cos \\frac{\\alpha-\\frac{\\pi}{6}-\\alpha-\\frac{\\pi}{6}}{2} \\\\ = & 2 \\sin \\alpha \\cdot \\cos \\frac{\\pi}{6} \\\\ = & 2 \\sin \\alpha \\frac{\\sqrt{3}}{2} \\\\ = & \\sqrt{3} \\sin \\alpha\\end{aligned} ⇒===sin(α−6\\\\pi )+sin(α+6\\\\pi )2sin22α⋅cos2α−6\\\\pi −α−6\\\\pi 2sinα⋅cos6\\\\pi 2sinα233sinα$"
   },
   {
     "id": 48,
-    "question": "\\alpha+2 \\beta+2 \\gamma=\\pi 2α+2β+2γ=π হলে, cosec\\operatorname{cosec}(\\alpha+\\gamma) cosec(α+γ) এর মান কত? [CB'19]",
+    "question": "2α+2β+2γ=π 2 \\alpha+2 \\beta+2 \\gamma=\\pi 2α+2β+2γ=π হলে, cosec⁡(α+γ) \\operatorname{cosec}(\\alpha+\\gamma) cosec(α+γ) এর মান কত? [CB'19]",
     "options": {
       "a": "− cosec ⁡ 𝛽 −cosecβ",
       "b": "cosec ⁡ 𝛽 cosecβ",
@@ -949,14 +949,14 @@
       "d": "sec ⁡ 𝛽 secβ"
     },
     "correctAnswer": "d",
-    "explanation": "সমাধান: (\\alpha+\\gamma=\\frac{\\pi}{2}-\\beta ; \\operatorname{cosec}(\\alpha+\\gamma) α+γ=2π−β;cosec(α+γ) =cosec\\operatorname{cosec}\\left(\\frac{\\pi}{2}-\\beta\\right)=\\sec \\beta =cosec(2π−β)=secβ",
+    "explanation": "সমাধান: (d); α+γ=π2−β;cosec⁡(α+γ) \\alpha+\\gamma=\\frac{\\pi}{2}-\\beta ; \\operatorname{cosec}(\\alpha+\\gamma) α+γ=2π−β;cosec(α+γ) =cosec⁡(π2−β)=sec⁡β =\\operatorname{cosec}\\left(\\frac{\\pi}{2}-\\beta\\right)=\\sec \\beta =cosec(2π−β)=secβ",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
     "topic": "",
-    "questionLatex": "\\pi 2 \\alpha+2 \\beta+2 \\gamma=\\pi 2α+2β+2γ=\\\\pi হলে, cosec\\operatorname{cosec}(\\alpha+\\gamma) cosec(α+γ) এর মান কত? [CB'19]",
-    "explanationLatex": "সমাধান: (\\pi 2−β;cosec\\alpha+\\gamma=\\frac{\\pi}{2}-\\beta ; \\operatorname{cosec}(\\alpha+\\gamma) α+γ=2\\\\pi −β;cosec(α+γ) =cosec\\pi 2−β)=sec\\operatorname{cosec}\\left(\\frac{\\pi}{2}-\\beta\\right)=\\sec \\beta =cosec(2\\\\pi −β)=secβ"
+    "questionLatex": "$2α+2β+2γ=\\\\pi  2 \\alpha+2 \\beta+2 \\gamma=\\pi 2α+2β+2γ=\\\\pi  হলে, cosec⁡(α+γ) \\operatorname{cosec}(\\alpha+\\gamma) cosec(α+γ) এর মান কত? [CB'19]$",
+    "explanationLatex": "$সমাধান: (d); α+γ=\\\\pi 2−β;cosec⁡(α+γ) \\alpha+\\gamma=\\frac{\\pi}{2}-\\beta ; \\operatorname{cosec}(\\alpha+\\gamma) α+γ=2\\\\pi −β;cosec(α+γ) =cosec⁡(\\\\pi 2−β)=sec⁡β =\\operatorname{cosec}\\left(\\frac{\\pi}{2}-\\beta\\right)=\\sec \\beta =cosec(2\\\\pi −β)=secβ$"
   }
 ]

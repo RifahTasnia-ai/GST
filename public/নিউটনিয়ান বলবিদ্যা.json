@@ -9,7 +9,7 @@
       "d": "10 m"
     },
     "correctAnswer": "b",
-    "explanation": "\\theta=\\frac{v^2}{rg}\\Rightarrow r=\\frac{{20}^2}{1\\times10}=40\\ mtanθ=rgv2",
+    "explanation": "tanθ=v2rg⇒r=2021×10=40 mtan\\theta=\\frac{v^2}{rg}\\Rightarrow r=\\frac{{20}^2}{1\\times10}=40\\ mtanθ=rgv2⇒r=1×10202=40 m",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -17,7 +17,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$20 ms−120\\ ms^{-1}20 ms−1 বেগে চলমান সাইকেল আরোহী কত ব্যাসার্ধের বৃত্তাকার পথে ঘুরলে উলম্বের সাথে 45^{\\\\circ}45^{\\\\circ}45^{\\\\circ} কোণে আনত থাকবে? [g=10 ms−2] [g=10\\ ms^{-2}][g=10 ms−2]$",
-    "explanationLatex": "tan\\\\theta =v2rg\\times 10=40 mtan\\theta=\\frac{v^2}{rg}\\Rightarrow r=\\frac{{20}^2}{1 \\times 10}=40\\ mtan\\\\theta =rgv2\\times 10202=40 m"
+    "explanationLatex": "$tan\\\\theta =v2rg⇒r=2021\\ \\times 10=40 mtan\\theta=\\frac{v^2}{rg}\\Rightarrow r=\\frac{{20}^2}{1 \\times 10}=40\\ mtan\\\\theta =rgv2⇒r=1\\ \\times 10202=40 m$"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "d": "1 1"
     },
     "correctAnswer": "a",
-    "explanation": "মহাকর্ষ বল : 1, দুর্বল নিউক্লিয় বল : তাড়িতচৌম্বক বল : সবল নিউক্লিয় বল : \\therefore\\frac{10^{41}}{10^{39}}=10^2",
+    "explanation": "মহাকর্ষ বল : 1, দুর্বল নিউক্লিয় বল : 103010^{30}1030, তাড়িতচৌম্বক বল : 103910^{39}1039, সবল নিউক্লিয় বল : 104110^{41}1041। ∴10411039=102\\therefore\\frac{10^{41}}{10^{39}}=10^2∴10391041=102",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "সবল নিউক্লিয় বল ও তড়িৎ চুম্বকীয় বলের সবলতার অনুপাত কত?",
-    "explanationLatex": "মহাকর্ষ বল : 1, দুর্বল নিউক্লিয় বল : তাড়িতচৌম্বক বল : সবল নিউক্লিয় বল : \\therefore\\frac{10^{41}}{10^{39}}=10^{2}"
+    "explanationLatex": "$মহাকর্ষ বল : 1, দুর্বল নিউক্লিয় বল : 103010^{30}1030, তাড়িতচৌম্বক বল : 103910^{39}1039, সবল নিউক্লিয় বল : 104110^{41}1041। ∴10411039=102\\therefore\\frac{10^{41}}{10^{39}}=10^{2}∴10391041=102$"
   },
   {
     "id": 3,
@@ -49,7 +49,7 @@
       "d": "অর্ধেক"
     },
     "correctAnswer": "b",
-    "explanation": "\\frac{1}{2}I\\omega^2Ek=21Iω2 2Ek=I [\\left[\\because\\omega=1\\right]2Ek=I [",
+    "explanation": "Ek=12Iω2E_k=\\frac{1}{2}I\\omega^2Ek=21Iω2 2Ek=I [∵ω=1]2E_k=I\\ \\left[\\because\\omega=1\\right]2Ek=I [∵ω=1]",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -57,7 +57,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একক কৌণিক বেগে ঘূর্ণনরত বস্তুর জড়তার ভ্রামক গতিশক্তির -",
-    "explanationLatex": "\\frac{1}{2}I\\omega^2Ek=21Iω2 2Ek=I [\\left[\\because\\omega=1\\right]2Ek=I ["
+    "explanationLatex": "$Ek=12Iω2E_k=\\frac{1}{2}I\\omega^2Ek=21Iω2 2Ek=I [∵ω=1]2E_k=I\\ \\left[\\because\\omega=1\\right]2Ek=I [∵ω=1]$"
   },
   {
     "id": 4,
@@ -77,7 +77,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "বস্তুর উপর ক্রিয়ারত মোট বল শূন্য হলে বস্তুটির -",
-    "explanationLatex": "বল F=ma; F =0 হলে ত্বরণ a=0"
+    "explanationLatex": "$বল F=ma; F =0 হলে ত্বরণ a=0$"
   },
   {
     "id": 5,
@@ -89,7 +89,7 @@
       "d": "𝑀 𝑎 2 12 12 Ma 2"
     },
     "correctAnswer": "d",
-    "explanation": "(i) K চক্রগতির ব্যাসার্ধ হলে জড়তার ভ্রামক, ভারকেন্দ্রগামী ও তলের লষ্ষ বরাবর অক্ষ সাপেক্ষে আয়তাকার পাতের জড়তার ভ্রামক, \\mathrm{I}=\\frac{\\mathrm{M}}{12}\\left(\\ell^{2}+\\mathrm{b}^{2}\\right) I=12M(ℓ2+b2) (iii) ভারকেন্দ্রগামী ও দৈর্ঘ্যের সমান্তরাল অক্ষ সাপেক্ষে জড়তার ভ্রামক, \\mathrm{I}=\\frac{\\mathrm{Mb}^{2}}{12} I=12Mb2 (iv) ভারকেন্দ্রগামী ও প্রস্থের সমান্তরাল অক্ষ সাপেক্ষ জায়তাকার পাতের জড়চার অ্রামক, \\mathrm{I}=\\frac{\\mathrm{M} \\ell^{2}}{12} I=12Mℓ2 ∴ \\therefore ভর এবং \"a\" প্রাস্ত বিশিষ্ট একটি সুষম বর্গাকৃতির চাকতির একটি কর্ণের সাপেক্ষে এর জড়তার ভ্রামক, \\frac{\\mathrm{Ma}^{2}}{12} I=12Ma2",
+    "explanation": "(i) K চক্রগতির ব্যাসার্ধ হলে জড়তার ভ্রামক, I = MK' (ii) ভারকেন্দ্রগামী ও তলের লষ্ষ বরাবর অক্ষ সাপেক্ষে আয়তাকার পাতের জড়তার ভ্রামক, I=M12(ℓ2+b2) \\mathrm{I}=\\frac{\\mathrm{M}}{12}\\left(\\ell^{2}+\\mathrm{b}^{2}\\right) I=12M(ℓ2+b2) (iii) ভারকেন্দ্রগামী ও দৈর্ঘ্যের সমান্তরাল অক্ষ সাপেক্ষে জড়তার ভ্রামক, I=Mb212 \\mathrm{I}=\\frac{\\mathrm{Mb}^{2}}{12} I=12Mb2 (iv) ভারকেন্দ্রগামী ও প্রস্থের সমান্তরাল অক্ষ সাপেক্ষ জায়তাকার পাতের জড়চার অ্রামক, I=Mℓ212 \\mathrm{I}=\\frac{\\mathrm{M} \\ell^{2}}{12} I=12Mℓ2 ∴ \\therefore ∴ 'M' ভর এবং \"a\" প্রাস্ত বিশিষ্ট একটি সুষম বর্গাকৃতির চাকতির একটি কর্ণের সাপেক্ষে এর জড়তার ভ্রামক, I=Ma212 I=\\frac{\\mathrm{Ma}^{2}}{12} I=12Ma2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -97,7 +97,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "'M' ভর এবং \"a\" প্রান্ত বিশিষ্ট একটি সুষম বর্গাকৃতির চাকতির একটি কর্ণের সাপেক্ষে এর জড়তার ভ্রামকঃ",
-    "explanationLatex": "(i) K চক্রগতির ব্যাসার্ধ হলে জড়তার ভ্রামক, ভারকেন্দ্রগামী ও তলের লষ্ষ বরাবর অক্ষ সাপেক্ষে আয়তাকার পাতের জড়তার ভ্রামক, \\mathrm{I}=\\frac{\\mathrm{M}}{12}\\left(\\ell^{2}+\\mathrm{b}^{2}\\right) I=12M(ℓ2+b2) (iii) ভারকেন্দ্রগামী ও দৈর্ঘ্যের সমান্তরাল অক্ষ সাপেক্ষে জড়তার ভ্রামক, \\mathrm{I}=\\frac{\\mathrm{Mb}^{2}}{12} I=12Mb2 (iv) ভারকেন্দ্রগামী ও প্রস্থের সমান্তরাল অক্ষ সাপেক্ষ জায়তাকার পাতের জড়চার অ্রামক, \\mathrm{I}=\\frac{\\mathrm{M} \\ell^{2}}{12} I=12Mℓ2 ∴ \\therefore ভর এবং \"a\" প্রাস্ত বিশিষ্ট একটি সুষম বর্গাকৃতির চাকতির একটি কর্ণের সাপেক্ষে এর জড়তার ভ্রামক, \\frac{\\mathrm{Ma}^{2}}{12} I=12Ma2"
+    "explanationLatex": "$(i) K চক্রগতির ব্যাসার্ধ হলে জড়তার ভ্রামক, I = MK' (ii) ভারকেন্দ্রগামী ও তলের লষ্ষ বরাবর অক্ষ সাপেক্ষে আয়তাকার পাতের জড়তার ভ্রামক, I=M12(ℓ2+b2) \\mathrm{I}=\\frac{\\mathrm{M}}{12}\\left(\\ell^{2}+\\mathrm{b}^{2}\\right) I=12M(ℓ2+b2) (iii) ভারকেন্দ্রগামী ও দৈর্ঘ্যের সমান্তরাল অক্ষ সাপেক্ষে জড়তার ভ্রামক, I=Mb212 \\mathrm{I}=\\frac{\\mathrm{Mb}^{2}}{12} I=12Mb2 (iv) ভারকেন্দ্রগামী ও প্রস্থের সমান্তরাল অক্ষ সাপেক্ষ জায়তাকার পাতের জড়চার অ্রামক, I=Mℓ212 \\mathrm{I}=\\frac{\\mathrm{M} \\ell^{2}}{12} I=12Mℓ2 ∴ \\therefore ∴ 'M' ভর এবং \"a\" প্রাস্ত বিশিষ্ট একটি সুষম বর্গাকৃতির চাকতির একটি কর্ণের সাপেক্ষে এর জড়তার ভ্রামক, I=Ma212 I=\\frac{\\mathrm{Ma}^{2}}{12} I=12Ma2$"
   },
   {
     "id": 6,
@@ -109,7 +109,7 @@
       "d": "𝜋 / 1800 𝑟 𝑎 𝑑 / 𝑠 π/1800rad/s"
     },
     "correctAnswer": "d",
-    "explanation": "w=কৌণিক বেগ n=ঘূর্ণন সংখ্যা ω=\\omega=\\frac{2\\pi n}{t}=\\frac{2\\pi}{T}=\\frac{2\\pi}{60\\times60}=\\frac{\\pi}{1800}rad/sω=t2πn=T2π=60",
+    "explanation": "w=কৌণিক বেগ n=ঘূর্ণন সংখ্যা ω=2πnt=2πT=2π60×60=π1800rad/s\\omega=\\frac{2\\pi n}{t}=\\frac{2\\pi}{T}=\\frac{2\\pi}{60\\times60}=\\frac{\\pi}{1800}rad/sω=t2πn=T2π=60×602π=1800πrad/s",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -169,7 +169,7 @@
       "d": "8 𝑁 8 N"
     },
     "correctAnswer": "c",
-    "explanation": "পীথাগোরাসের উপপাদ্য অনুসারে, (\\therefore P=2\\sqrt{61}N(12)2+(10)2=P2",
+    "explanation": "পীথাগোরাসের উপপাদ্য অনুসারে, (12)2+(10)2=P2∴P=261N{(12)}^2+{(10)}^2=P^2 \\\\ \\therefore P=2\\sqrt{61}N(12)2+(10)2=P2∴P=261N",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -177,7 +177,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "দুইটি বলের লব্ধির মান 12N। বল দুইটির মধ্যে ছোট বলটির মান 10N এবং এটি লব্ধি বলের লম্ব বরাবর ক্রিয়া করে। বড় বলটির মান কত?",
-    "explanationLatex": "পীথাগোরাসের উপপাদ্য অনুসারে, (\\therefore P=2\\sqrt{61}N(12)2+(10)2=P2"
+    "explanationLatex": "$পীথাগোরাসের উপপাদ্য অনুসারে, (12)2+(10)2=P2∴P=261N{(12)}^2+{(10)}^2=P^2 \\\\ \\therefore P=2\\sqrt{61}N(12)2+(10)2=P2∴P=261N$"
   },
   {
     "id": 10,
@@ -189,7 +189,7 @@
       "d": "2200 𝑁 2200 N"
     },
     "correctAnswer": "b",
-    "explanation": "\\times\\frac{u^2-v^2}{2s}=900\\times\\frac{\\left(\\frac{50}{3}\\right)^2-0}{2\\times50}=2500\\ N\\therefore F_{brake}=2500-200=2300\\ NF=ma=m",
+    "explanation": "F=ma=m×u2−v22s=900×(503)2−02×50=2500 N∴Fbrake=2500−200=2300 NF=ma=m\\times\\frac{u^2-v^2}{2s}=900\\times\\frac{\\left(\\frac{50}{3}\\right)^2-0}{2\\times50}=2500\\ N\\therefore F_{brake}=2500-200=2300\\ NF=ma=m×2su2−v2=900×2×50(350)2−0=2500 N∴Fbrake=2500−200=2300 N",
     "subject": "Physics",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243762/gst-question-images/physics____________________-_varsity_arc_q10.jpg",
@@ -197,11 +197,11 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "900 kg ভরের একটি ট্রাক ঘন্টায় 60 km বেগে চলছে। হঠাৎ ব্রেক চেপে ট্রাকটি 50 মিটার দূরে থামানো হল। যদি মাটির ঘর্ষণ জনিত বল 200 N হয় তবে ব্রেকজনিত বলের মান কত?",
-    "explanationLatex": "\\times u2−v22s=900\\ \\times (503)2−02\\ \\times 50=2500 N\\times \\frac{u^2-v^2}{2s}=900 \\times \\frac{\\left(\\frac{50}{3}\\right)^2-0}{2 \\times 50}=2500\\ N\\therefore F_{brake}=2500-200=2300\\ NF=ma=m\\ \\times 2su2−v2=900\\ \\times 2\\ \\times 50(350)2−0=2500 N"
+    "explanationLatex": "$F=ma=m\\ \\times u2−v22s=900\\ \\times (503)2−02\\ \\times 50=2500 N∴Fbrake=2500−200=2300 NF=ma=m \\times \\frac{u^2-v^2}{2s}=900 \\times \\frac{\\left(\\frac{50}{3}\\right)^2-0}{2 \\times 50}=2500\\ N\\therefore F_{brake}=2500-200=2300\\ NF=ma=m\\ \\times 2su2−v2=900\\ \\times 2\\ \\times 50(350)2−0=2500 N∴Fbrake=2500−200=2300 N$"
   },
   {
     "id": 11,
-    "question": "কোনো গ্রহের ব্যাস 6\\times{10}^6\\ km6নিজ অক্ষের সাপেক্ষে কৌণিক বেগ ω\\omegaω হলে এবং ভর অপরিবর্তিত রেখে ব্যাস 2\\times{10}^6km2করা হলে নতুন কৌণিক বেগ হবে-",
+    "question": "কোনো গ্রহের ব্যাস 6×106 km6\\times{10}^6\\ km6×106 km নিজ অক্ষের সাপেক্ষে কৌণিক বেগ ω\\omegaω হলে এবং ভর অপরিবর্তিত রেখে ব্যাস 2×106km2\\times{10}^6km2×106km করা হলে নতুন কৌণিক বেগ হবে-",
     "options": {
       "a": "3 𝜔 3ω",
       "b": "1 3 𝜔 3 1 ω",
@@ -209,7 +209,7 @@
       "d": "9 𝜔 9ω"
     },
     "correctAnswer": "d",
-    "explanation": "\\omega=constant\\ \\ or,\\ \\omega\\propto\\frac{1}{r^2}\\ \\ \\therefore\\omega_2=9\\omega L=Iω=constant or, ω∝r21",
+    "explanation": "L=Iω=constant or, ω∝1r2 ∴ω2=9ωL=I\\omega=constant\\ \\ or,\\ \\omega\\propto\\frac{1}{r^2}\\ \\ \\therefore\\omega_2=9\\omega L=Iω=constant or, ω∝r21 ∴ω2=9ω",
     "subject": "Physics",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243763/gst-question-images/physics____________________-_varsity_arc_q11.jpg",
@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$কোনো গ্রহের ব্যাস 6\\ \\times 106 km6 \\times {10}^6\\ km6\\ \\times 106 km নিজ অক্ষের সাপেক্ষে কৌণিক বেগ ω\\omegaω হলে এবং ভর অপরিবর্তিত রেখে ব্যাস 2\\ \\times 106km2 \\times {10}^6km2\\ \\times 106km করা হলে নতুন কৌণিক বেগ হবে-$",
-    "explanationLatex": "\\propto 1r2 \\omega=constant\\ \\ or,\\ \\omega\\propto\\frac{1}{r^2}\\ \\ \\therefore\\omega_2=9\\omega L=Iω=constant or, ω\\\\propto r21"
+    "explanationLatex": "$L=Iω=constant or, ω\\\\propto 1r2 ∴ω2=9ωL=I\\omega=constant\\ \\ or,\\ \\omega\\propto\\frac{1}{r^2}\\ \\ \\therefore\\omega_2=9\\omega L=Iω=constant or, ω\\\\propto r21 ∴ω2=9ω$"
   },
   {
     "id": 12,
@@ -249,7 +249,7 @@
       "d": "1.5"
     },
     "correctAnswer": "a",
-    "explanation": "\\theta=\\frac{v^2}{rg}=\\frac{{20}^2}{25\\times10}=1.6 tanθ=rgv2=25",
+    "explanation": "tanθ=v2rg=20225×10=1.6tan\\theta=\\frac{v^2}{rg}=\\frac{{20}^2}{25\\times10}=1.6 tanθ=rgv2=25×10202=1.6",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -269,7 +269,7 @@
       "d": "− 2 𝑚 𝑠 − 1 −2 ms −1"
     },
     "correctAnswer": "c",
-    "explanation": "0.02\\times300+6\\times v=00.02\\therefore v=-1\\ ms^{-1}পশ্চাৎ বেগ",
+    "explanation": "0.02×300+6×v=00.02\\times300+6\\times v=00.02×300+6×v=0 ∴v=−1 ms−1\\therefore v=-1\\ ms^{-1}∴v=−1 ms−1 [পশ্চাৎ বেগ 1 ms−1]1\\ ms^{-1}]1 ms−1]",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -277,7 +277,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$20gm ভরের একটি বুলেট 6kg ভরের বন্দুক হতে 300 ms−1300\\ ms^{-1}300 ms−1 বেগে নিক্ষিপ্ত হলে বন্দুকের পশ্চাৎ বেগ কত?$",
-    "explanationLatex": "\\times 300+6\\ \\times v=00.02 \\times 300+6 \\times v=00.02\\ \\times 300+6\\ \\times v=0 \\therefore v=-1\\ ms^{-1}পশ্চাৎ বেগ"
+    "explanationLatex": "$0.02\\ \\times 300+6\\ \\times v=00.02 \\times 300+6 \\times v=00.02\\ \\times 300+6\\ \\times v=0 ∴v=−1 ms−1\\therefore v=-1\\ ms^{-1}∴v=−1 ms−1 [পশ্চাৎ বেগ 1 ms−1]1\\ ms^{-1}]1 ms−1]$"
   },
   {
     "id": 15,
@@ -329,7 +329,7 @@
       "d": "Zero"
     },
     "correctAnswer": "a",
-    "explanation": "\\begin{aligned} O A & =200 \\cos \\left(60^{\\circ}\\right) =100\\end{aligned} OA=200cos(60∘)=100",
+    "explanation": "OA=200cos⁡(60∘)=100 \\begin{aligned} O A & =200 \\cos \\left(60^{\\circ}\\right) =100\\end{aligned} OA=200cos(60∘)=100",
     "subject": "Physics",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243764/gst-question-images/physics____________________-_varsity_arc_q17.png",
@@ -337,7 +337,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি কাঠের খন্ডকে অনুভূমিকের সাথে 60^{\\\\circ} কোণে 200N বল দ্বারা টানা হচ্ছে। বস্তুটির উপর আনুভূমিকের দিকে কার্যকরী বল কত?$",
-    "explanationLatex": "\\begin{aligned} O A & =200 \\cos \\left(60^{\\circ}\\right) =100\\end{aligned} OA=200cos(60∘)=100"
+    "explanationLatex": "$OA=200cos⁡(60∘)=100 \\begin{aligned} O A & =200 \\cos \\left(60^{\\circ}\\right) =100\\end{aligned} OA=200cos(60∘)=100$"
   },
   {
     "id": 18,
@@ -409,7 +409,7 @@
       "d": "100 kg ms-1"
     },
     "correctAnswer": "b",
-    "explanation": "ভরবেগের পরিবর্তন =Ft=30\\begin{aligned} \\text { ভরবেগের পরিবর্তন }=\\mathrm{Ft} & =30 \\times 10 =300 \\mathrm{kgms}^{-1}\\end{aligned} ভরবেগের পরিবর্তন =Ft=30",
+    "explanation": "ভরবেগের পরিবর্তন =Ft=30×10=300kgms−1 \\begin{aligned} \\text { ভরবেগের পরিবর্তন }=\\mathrm{Ft} & =30 \\times 10 =300 \\mathrm{kgms}^{-1}\\end{aligned} ভরবেগের পরিবর্তন =Ft=30×10=300kgms−1",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -449,7 +449,7 @@
       "d": "27N"
     },
     "correctAnswer": "b",
-    "explanation": "\\begin{aligned} F=m \\omega^{2} r & =m \\times(2 \\pi N)^{2} \\times r \\\\ & =0.2 \\times(2 \\times 3.14 \\times 2.5)^{2} \\times 0.6 \\\\ & =29.6 \\mathrm{~N} \\end{aligned} F=mω2r=m",
+    "explanation": "F=mω2r=m×(2πN)2×r=0.2×(2×3.14×2.5)2×0.6=29.6 N \\begin{aligned} F=m \\omega^{2} r & =m \\times(2 \\pi N)^{2} \\times r \\\\ & =0.2 \\times(2 \\times 3.14 \\times 2.5)^{2} \\times 0.6 \\\\ & =29.6 \\mathrm{~N} \\end{aligned} F=mω2r=m×(2πN)2×r=0.2×(2×3.14×2.5)2×0.6=29.6 N",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -489,7 +489,7 @@
       "d": "10%"
     },
     "correctAnswer": "b",
-    "explanation": "ω∴বৃদ্ধিপাবে,=(\\begin{array}{l} \\omega_{2} =1.1 \\omega_{1} \\\\ E_{1} =\\frac{1}{2} m \\omega_{1}^{2} \\\\ E_{2} =\\frac{1}{2} m \\omega_{2}^{2} \\\\ \\frac{E_{2}}{E_{1}} =\\left(\\frac{\\omega_{2}}{\\omega_{1}}\\right)^{2} \\\\ =1.21 . \\\\ \\therefore বৃদ্ধি পাবে,=(\\times 100 \\%\\\\ =21\\%\\end{array} ω2=1.1ω1E1=21mω12E2=21mω22E1E2=(ω1ω2)2=1.21.∴বৃদ্ধিপাবে,=(",
+    "explanation": "ω2=1.1ω1E1=12mω12E2=12mω22E2E1=(ω2ω1)2=1.21.∴বৃদ্ধিপাবে,=(1.21−1)×100%=21% \\begin{array}{l} \\omega_{2} =1.1 \\omega_{1} \\\\ E_{1} =\\frac{1}{2} m \\omega_{1}^{2} \\\\ E_{2} =\\frac{1}{2} m \\omega_{2}^{2} \\\\ \\frac{E_{2}}{E_{1}} =\\left(\\frac{\\omega_{2}}{\\omega_{1}}\\right)^{2} \\\\ =1.21 . \\\\ \\therefore বৃদ্ধি পাবে,=(1.21-1) \\times 100 \\%\\\\ =21\\%\\end{array} ω2=1.1ω1E1=21mω12E2=21mω22E1E2=(ω1ω2)2=1.21.∴বৃদ্ধিপাবে,=(1.21−1)×100%=21%",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -497,7 +497,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "কৌণিক দ্রুতি 10% বৃদ্ধি করলে গতিশক্তি বৃদ্ধি পাবে -",
-    "explanationLatex": "ω∴বৃদ্ধিপাবে,=(\\times 100%=21% \\begin{array}{l} \\omega_{2} =1.1 \\omega_{1} \\\\ E_{1} =\\frac{1}{2} m \\omega_{1}^{2} \\\\ E_{2} =\\frac{1}{2} m \\omega_{2}^{2} \\\\ \\frac{E_{2}}{E_{1}} =\\left(\\frac{\\omega_{2}}{\\omega_{1}}\\right)^{2} \\\\ =1.21 . \\\\ \\therefore বৃদ্ধি পাবে,=(\\times 100 \\%\\\\ =21\\%\\end{array} ω2=1.1ω1E1=21mω12E2=21mω22E1E2=(ω1ω2)2=1.21.∴বৃদ্ধিপাবে,=(\\times 100%=21%"
+    "explanationLatex": "$ω2=1.1ω1E1=12mω12E2=12mω22E2E1=(ω2ω1)2=1.21.∴বৃদ্ধিপাবে,=(1.21−1)\\ \\times 100%=21% \\begin{array}{l} \\omega_{2} =1.1 \\omega_{1} \\\\ E_{1} =\\frac{1}{2} m \\omega_{1}^{2} \\\\ E_{2} =\\frac{1}{2} m \\omega_{2}^{2} \\\\ \\frac{E_{2}}{E_{1}} =\\left(\\frac{\\omega_{2}}{\\omega_{1}}\\right)^{2} \\\\ =1.21 . \\\\ \\therefore বৃদ্ধি পাবে,=(1.21-1) \\times 100 \\%\\\\ =21\\%\\end{array} ω2=1.1ω1E1=21mω12E2=21mω22E1E2=(ω1ω2)2=1.21.∴বৃদ্ধিপাবে,=(1.21−1)\\ \\times 100%=21%$"
   },
   {
     "id": 26,
@@ -529,7 +529,7 @@
       "d": "15টি"
     },
     "correctAnswer": "c",
-    "explanation": "\\begin{aligned} E_{k_{1}} & =\\frac{1}{2} m v_{1}^{2} \\\\ E_{k_{2}} & =\\frac{1}{2} m v_{2}^{2} \\\\ v_{2} & =5 v_{1} \\\\ \\therefore E_{k_{2}} & =\\frac{1}{2} m\\left(5 v_{1}^{2}\\right)^{2} \\\\ & =\\frac{1}{2} m v_{1}^{2} \\times 25 \\\\ & =25 \\times E_{k_{1}} .\\end{aligned} Ek1Ek2v2",
+    "explanation": "Ek1=12mv12Ek2=12mv22v2=5v1∴Ek2=12m(5v12)2=12mv12×25=25×Ek1. \\begin{aligned} E_{k_{1}} & =\\frac{1}{2} m v_{1}^{2} \\\\ E_{k_{2}} & =\\frac{1}{2} m v_{2}^{2} \\\\ v_{2} & =5 v_{1} \\\\ \\therefore E_{k_{2}} & =\\frac{1}{2} m\\left(5 v_{1}^{2}\\right)^{2} \\\\ & =\\frac{1}{2} m v_{1}^{2} \\times 25 \\\\ & =25 \\times E_{k_{1}} .\\end{aligned} Ek1Ek2v2∴Ek2=21mv12=21mv22=5v1=21m(5v12)2=21mv12×25=25×Ek1.",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি রাইফেলের গুলি একটি তক্তা ভেদ করতে পারে। যদি গুলির বেগ পাঁচ গুণ করা হয়। তবে কয়টি তক্তা ভেদ করতে পারবে?",
-    "explanationLatex": "\\times 25=25\\ \\times Ek1. \\begin{aligned} E_{k_{1}} & =\\frac{1}{2} m v_{1}^{2} \\\\ E_{k_{2}} & =\\frac{1}{2} m v_{2}^{2} \\\\ v_{2} & =5 v_{1} \\\\ \\therefore E_{k_{2}} & =\\frac{1}{2} m\\left(5 v_{1}^{2}\\right)^{2} \\\\ & =\\frac{1}{2} m v_{1}^{2} \\times 25 \\\\ & =25 \\times E_{k_{1}} .\\end{aligned} Ek1Ek2v2\\times 25=25\\ \\times Ek1."
+    "explanationLatex": "$Ek1=12mv12Ek2=12mv22v2=5v1∴Ek2=12m(5v12)2=12mv12\\ \\times 25=25\\ \\times Ek1. \\begin{aligned} E_{k_{1}} & =\\frac{1}{2} m v_{1}^{2} \\\\ E_{k_{2}} & =\\frac{1}{2} m v_{2}^{2} \\\\ v_{2} & =5 v_{1} \\\\ \\therefore E_{k_{2}} & =\\frac{1}{2} m\\left(5 v_{1}^{2}\\right)^{2} \\\\ & =\\frac{1}{2} m v_{1}^{2} \\times 25 \\\\ & =25 \\times E_{k_{1}} .\\end{aligned} Ek1Ek2v2∴Ek2=21mv12=21mv22=5v1=21m(5v12)2=21mv12\\ \\times 25=25\\ \\times Ek1.$"
   },
   {
     "id": 28,
@@ -609,7 +609,7 @@
       "d": "10000N"
     },
     "correctAnswer": "c",
-    "explanation": "W=mg\\rightarrow} m = \\frac{980}{9.8} = 100 k g{;} \\therefore F = m a \\rightarrow 100 \\times 10 = 1000 N W=mg",
+    "explanation": "W=mg→m=9809.8=100kg;∴F=ma→100×10=1000N W = m g{\\rightarrow} m = \\frac{980}{9.8} = 100 k g{;} \\therefore F = m a \\rightarrow 100 \\times 10 = 1000 N W=mg→m=9.8980=100kg;∴F=ma→100×10=1000N",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -617,7 +617,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$980N ওজনের একটি বস্তুকে 10 ms^{-2} ত্বরণ দিতে কত বল প্রয়োগ করতে হবে?$",
-    "explanationLatex": "W=mg\\times 10=1000N W = m g{\\rightarrow} m = \\frac{980}{9.8} = 100 k g{;} \\therefore F = m a \\rightarrow 100 \\times 10 = 1000 N W=mg\\times 10=1000N"
+    "explanationLatex": "$W=mg→m=9809.8=100kg;∴F=ma→100\\ \\times 10=1000N W = m g{\\rightarrow} m = \\frac{980}{9.8} = 100 k g{;} \\therefore F = m a \\rightarrow 100 \\times 10 = 1000 N W=mg→m=9.8980=100kg;∴F=ma→100\\ \\times 10=1000N$"
   },
   {
     "id": 32,
@@ -689,7 +689,7 @@
       "d": "60 ° 60°"
     },
     "correctAnswer": "d",
-    "explanation": "θ=tan\\theta=\\tan^{-1}(\\frac{v^2}{rg})=\\tan^{-1}(\\frac{10^2}{10\\sqrt{3}\\times10})=30^o;θ=tan−1(rgv2)=tan−1(103আনুভূমিকের সাথে উৎপন্ন কোণ =(",
+    "explanation": "θ=tan⁡−1(v2rg)=tan⁡−1(102103×10)=30o;\\theta=\\tan^{-1}(\\frac{v^2}{rg})=\\tan^{-1}(\\frac{10^2}{10\\sqrt{3}\\times10})=30^o;θ=tan−1(rgv2)=tan−1(103×10102)=30o; আনুভূমিকের সাথে উৎপন্ন কোণ =(90°−30°)=60°=(90°-30°)=60°=(90°−30°)=60°",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -697,7 +697,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$কোন সাইকেল আরোহীকে 10ms−110ms^{-1}10ms−1 বেগে 103m10\\sqrt{3}m103m ব্যাসার্ধের বৃত্তাকার পথে বাঁক নিতে হলে তাকে আনুভূমিকের সাথে কত কোণে হেলতে হবে? [g=10ms−2][g=10ms^{-2}][g=10ms−2]$",
-    "explanationLatex": "\\\\theta =tan\\times 10)=30o;\\theta=\\tan^{-1}(\\frac{v^2}{rg})=\\tan^{-1}(\\frac{10^{2}}{10\\sqrt{3} \\times 10})=30^o;\\\\theta =tan−1(rgv2)=tan−1(103\\ \\times 10102)=30o; আনুভূমিকের সাথে উৎপন্ন কোণ =(90^{\\\\circ}−30^{\\\\circ})=60^{\\\\circ}=(90^{\\\\circ}-30^{\\\\circ})=60^{\\\\circ}=(90^{\\\\circ}−30^{\\\\circ})=60^{\\\\circ}"
+    "explanationLatex": "$\\\\theta =tan⁡−1(v2rg)=tan⁡−1(102103\\ \\times 10)=30o;\\theta=\\tan^{-1}(\\frac{v^2}{rg})=\\tan^{-1}(\\frac{10^{2}}{10\\sqrt{3} \\times 10})=30^o;\\\\theta =tan−1(rgv2)=tan−1(103\\ \\times 10102)=30o; আনুভূমিকের সাথে উৎপন্ন কোণ =(90^{\\\\circ}−30^{\\\\circ})=60^{\\\\circ}=(90^{\\\\circ}-30^{\\\\circ})=60^{\\\\circ}=(90^{\\\\circ}−30^{\\\\circ})=60^{\\\\circ}$"
   },
   {
     "id": 36,
@@ -789,7 +789,7 @@
       "d": "91.61"
     },
     "correctAnswer": "d",
-    "explanation": "V=2πr\\begin{aligned} V & =\\frac{2 \\pi r \\times N}{t} \\\\ & =\\frac{2 \\times \\pi \\times 0.45 \\times 9}{1} \\\\ & =25.4469 \\mathrm{~m} / \\mathrm{s} \\\\ & =91.61 \\mathrm{~km} / \\mathrm{h}\\end{aligned} V=t2πr",
+    "explanation": "V=2πr×Nt=2×π×0.45×91=25.4469 m/s=91.61 km/h \\begin{aligned} V & =\\frac{2 \\pi r \\times N}{t} \\\\ & =\\frac{2 \\times \\pi \\times 0.45 \\times 9}{1} \\\\ & =25.4469 \\mathrm{~m} / \\mathrm{s} \\\\ & =91.61 \\mathrm{~km} / \\mathrm{h}\\end{aligned} V=t2πr×N=12×π×0.45×9=25.4469 m/s=91.61 km/h",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -809,7 +809,7 @@
       "d": "2700 Kgms-1"
     },
     "correctAnswer": "b",
-    "explanation": "\\begin{aligned} P & =m v \\\\ & =50 \\times 30 \\\\ & =1500\\end{aligned} P=mv=50",
+    "explanation": "P=mv=50×30=1500 \\begin{aligned} P & =m v \\\\ & =50 \\times 30 \\\\ & =1500\\end{aligned} P=mv=50×30=1500",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -837,7 +837,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "জড়তার ভ্রামকের একক কোনটি?",
-    "explanationLatex": "জড়তার ভ্রামক = ভর \\ \\times (দূরত্ব)পদ্ধতিতে জড়তার ভ্রামকের একক =kgm²"
+    "explanationLatex": "$জড়তার ভ্রামক = ভর \\ \\times (দূরত্ব)² =kgm² SI পদ্ধতিতে জড়তার ভ্রামকের একক =kgm²$"
   },
   {
     "id": 43,
@@ -909,7 +909,7 @@
       "d": "𝐾 . 𝐸 = 1 2 𝐼 𝜔 2 K.E= 2 1 Iω 2"
     },
     "correctAnswer": "c",
-    "explanation": "সঠিক সমীকরণ কিন্তু tan\\tan\\theta=\\frac{v^2}{rg}tanθ=rgv2",
+    "explanation": "A, B, D সঠিক সমীকরণ কিন্তু tan⁡θ=v2rg\\tan\\theta=\\frac{v^2}{rg}tanθ=rgv2",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "নিচের কোন সমীকরণটি সঠিক নয়?",
-    "explanationLatex": "সঠিক সমীকরণ কিন্তু tan⁡\\\\theta =v2rg\\tan\\theta=\\frac{v^2}{rg}tan\\\\theta =rgv2"
+    "explanationLatex": "$A, B, D সঠিক সমীকরণ কিন্তু tan⁡\\\\theta =v2rg\\tan\\theta=\\frac{v^2}{rg}tan\\\\theta =rgv2$"
   },
   {
     "id": 47,
@@ -949,7 +949,7 @@
       "d": "60N"
     },
     "correctAnswer": "a",
-    "explanation": "\\mathrm{F}=\\mathrm{ma}=\\mathrm{m} \\frac{\\mathrm{v}-\\mathrm{u}}{\\mathrm{t}}=40 \\times \\frac{18}{6}=120 \\mathrm{~N} F=ma=mtv−u=40",
+    "explanation": "F=ma=mv−ut=40×186=120 N \\mathrm{F}=\\mathrm{ma}=\\mathrm{m} \\frac{\\mathrm{v}-\\mathrm{u}}{\\mathrm{t}}=40 \\times \\frac{18}{6}=120 \\mathrm{~N} F=ma=mtv−u=40×618=120 N",
     "subject": "Physics",
     "hasDiagram": false,
     "questionImage": null,
@@ -977,6 +977,6 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "SI পদ্ধতিতে জড়তার ভ্রামকের একক -",
-    "explanationLatex": "জড়তার ভ্রামক = ভর \\ \\times (দূরত্ব)পদ্ধতিতে জড়তার ভ্রামকের একক kgm2"
+    "explanationLatex": "$জড়তার ভ্রামক = ভর \\ \\times (দূরত্ব)² = kgm2 SI পদ্ধতিতে জড়তার ভ্রামকের একক kgm2$"
   }
 ]

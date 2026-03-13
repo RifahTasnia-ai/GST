@@ -9,7 +9,7 @@
       "d": "𝑔 ℎ h g"
     },
     "correctAnswer": "b",
-    "explanation": "দেওয়া আছে, আদিবেগ,উচ্চতা=h অভিকর্ষজ ত্বরণ=+g তাহলে, \\frac{1}{2} g t^{2} \\Rightarrow t=\\sqrt{\\frac{2 h}{g}} h=0+21gt2",
+    "explanation": "দেওয়া আছে, আদিবেগ,u=0 m/s উচ্চতা=h অভিকর্ষজ ত্বরণ=+g তাহলে, h=0+12gt2⇒t=2hg h=0+\\frac{1}{2} g t^{2} \\Rightarrow t=\\sqrt{\\frac{2 h}{g}} h=0+21gt2⇒t=g2h",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -17,7 +17,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "স্থিরাবস্থা হতে খাড়া নিম্নমুখী গমনের ক্ষেত্রে পতনকাল কত?",
-    "explanationLatex": "দেওয়া আছে, আদিবেগ,u=0 \\frac{m}{s} উচ্চতা=h অভিকর্ষজ ত্বরণ=+g তাহলে, \\frac{1}{2} g t^{2} \\Rightarrow t=\\sqrt{\\frac{2 h}{g}} h=0+21gt2"
+    "explanationLatex": "$দেওয়া আছে, আদিবেগ,u=0 \\frac{m}{s} উচ্চতা=h অভিকর্ষজ ত্বরণ=+g তাহলে, h=0+12gt2⇒t=2hg h=0+\\frac{1}{2} g t^{2} \\Rightarrow t=\\sqrt{\\frac{2 h}{g}} h=0+21gt2⇒t=g2h$"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "d": "50 m/sec"
     },
     "correctAnswer": "a",
-    "explanation": "এখানে, সর্বোচ্চ অনুভূমিক পাল্লা, অভিকর্ষজ ত্বরণ,আমরা জানি, Rmax\\max }=\\frac{u^{2}}{g} \\Rightarrow u\\max} \\Rightarrow u=\\sqrt{90 \\times 10}=30 \\mathrm{~m} / \\mathrm{s} Rmax=gu2",
+    "explanation": "এখানে, সর্বোচ্চ অনুভূমিক পাল্লা, Rmax\\ R _{max} Rmax=90 m অভিকর্ষজ ত্বরণ,g =10 m/sec আমরা জানি, Rmax⁡=u2g⇒u2=Rmax⁡×g⇒u=90×10=30 m/s R_{\\max }=\\frac{u^{2}}{g} \\Rightarrow u² = R_{\\max} ×g \\Rightarrow u=\\sqrt{90 \\times 10}=30 \\mathrm{~m} / \\mathrm{s} Rmax=gu2⇒u2=Rmax×g⇒u=90×10=30 m/s",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -37,7 +37,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি প্রক্ষেপককে কত আদিবেগে নিক্ষেপ করা হলে সর্বাধিক অনুভূমিক পাল্লা 90 মিটার হবে , যেখানে g = \\frac{10m}{sec2}$",
-    "explanationLatex": "এখানে, সর্বোচ্চ অনুভূমিক পাল্লা, অভিকর্ষজ ত্বরণ,\\frac{m}{sec} আমরা জানি, Rmax\\times g\\times 10=30 \\frac{m}{s} R_{\\max }=\\frac{u^{2}}{g} \\Rightarrow u\\max} \\\\times g \\Rightarrow u=\\sqrt{90 \\times 10}=30 \\mathrm{~m} / \\mathrm{s} Rmax=gu2\\times g\\times 10=30 \\frac{m}{s}"
+    "explanationLatex": "$এখানে, সর্বোচ্চ অনুভূমিক পাল্লা, Rmax\\ R _{max} Rmax=90 m অভিকর্ষজ ত্বরণ,g =10 \\frac{m}{sec} আমরা জানি, Rmax⁡=u2g⇒u2=Rmax⁡\\\\times g⇒u=90\\\\times 10=30 \\frac{m}{s} R_{\\max }=\\frac{u^{2}}{g} \\Rightarrow u² = R_{\\max} \\\\times g \\Rightarrow u=\\sqrt{90 \\times 10}=30 \\mathrm{~m} / \\mathrm{s} Rmax=gu2⇒u2=Rmax\\\\times g⇒u=90\\\\times 10=30 \\frac{m}{s}$"
   },
   {
     "id": 3,
@@ -49,7 +49,7 @@
       "d": "40 m"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, আদিবেগ,সময়,অভিকর্ষজ ত্বরণ,² আনরা জানি, \\mathrm{h}=-\\mathrm{ut}+\\frac{1}{2} \\mathrm{gt}^{2}=-19.5 \\times 5+\\frac{1}{2} \\times 9.8 \\times 5^{2}=25 \\mathrm{~m} h=−ut+21gt2=−19.5",
+    "explanation": "দেওয়া আছে, আদিবেগ,u=19.5 m/s সময়,t=5 s অভিকর্ষজ ত্বরণ,g=9.8 m/s ² আনরা জানি, h=−ut+12gt2=−19.5×5+12×9.8×52=25 m \\mathrm{h}=-\\mathrm{ut}+\\frac{1}{2} \\mathrm{gt}^{2}=-19.5 \\times 5+\\frac{1}{2} \\times 9.8 \\times 5^{2}=25 \\mathrm{~m} h=−ut+21gt2=−19.5×5+21×9.8×52=25 m",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -57,7 +57,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি মিনারের শীর্ষ থেকে 19.5 \\frac{m}{sec}. বেগে খাড়া উপরের দিকে নিক্ষিপ্ত একখণ্ড পাথর 5 sec. সময়ে ভূমিতে পতিত হল। মিনারের উচ্চতা কত?$",
-    "explanationLatex": "দেওয়া আছে, আদিবেগ,\\frac{m}{s} সময়,t=5 s অভিকর্ষজ ত্বরণ,\\frac{m}{s} ² আনরা জানি, \\times 5+12\\\\times 9.8\\\\times 52=25 m \\mathrm{h}=-\\mathrm{ut}+\\frac{1}{2} \\mathrm{gt}^{2}=-19.5 \\times 5+\\frac{1}{2} \\times 9.8 \\times 5^{2}=25 \\mathrm{~m} h=−ut+21gt2=−19.5\\\\times 5+21\\\\times 9.8\\\\times 52=25 m"
+    "explanationLatex": "$দেওয়া আছে, আদিবেগ,u=19.5 \\frac{m}{s} সময়,t=5 s অভিকর্ষজ ত্বরণ,g=9.8 \\frac{m}{s} ² আনরা জানি, h=−ut+12gt2=−19.5\\\\times 5+12\\\\times 9.8\\\\times 52=25 m \\mathrm{h}=-\\mathrm{ut}+\\frac{1}{2} \\mathrm{gt}^{2}=-19.5 \\times 5+\\frac{1}{2} \\times 9.8 \\times 5^{2}=25 \\mathrm{~m} h=−ut+21gt2=−19.5\\\\times 5+21\\\\times 9.8\\\\times 52=25 m$"
   },
   {
     "id": 4,
@@ -69,7 +69,7 @@
       "d": "2 𝑔 2 g"
     },
     "correctAnswer": "a",
-    "explanation": "tan\\tan{\\frac{\\pi}{3}}=\\frac{a}{g}\\Rightarrow a=\\sqrt3 gtan3π=ga",
+    "explanation": "tan⁡π3=ag⇒a=3g\\tan{\\frac{\\pi}{3}}=\\frac{a}{g}\\Rightarrow a=\\sqrt3 gtan3π=ga⇒a=3g",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -77,7 +77,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$সমত্বরণে চলমান গাড়ির মধ্যে থাকা সরল দোলক উলম্বের সাথে \\\\pi 3\\frac{\\pi}{3}3\\\\pi  কোণ উৎপন্ন করে। গাড়ির ত্বরণ কত?$",
-    "explanationLatex": "tan⁡\\\\pi 3=ag\\tan{\\frac{\\pi}{3}}=\\frac{a}{g}\\Rightarrow a=\\sqrt3 gtan3\\\\pi =ga"
+    "explanationLatex": "$tan⁡\\\\pi 3=ag⇒a=3g\\tan{\\frac{\\pi}{3}}=\\frac{a}{g}\\Rightarrow a=\\sqrt3 gtan3\\\\pi =ga⇒a=3g$"
   },
   {
     "id": 5,
@@ -109,7 +109,7 @@
       "d": "2 𝑚 𝑠 − 2 2ms −2"
     },
     "correctAnswer": "a",
-    "explanation": "\\frac{v^2-u^2}{2 s}=\\frac{4^2-0^2}{2×2} ms^{-2}=4 ms^{-2}a=2sv2−u2=2",
+    "explanation": "a=v2−u22s=42−022×2ms−2=4ms−2a=\\frac{v^2-u^2}{2 s}=\\frac{4^2-0^2}{2×2} ms^{-2}=4 ms^{-2}a=2sv2−u2=2×242−02ms−2=4ms−2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -129,7 +129,7 @@
       "d": "9.8 মি."
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, প্রক্ষেপণ বেগ,অভিকর্ষজ ত্বরণ,আমরা জানি, সর্বাধিক উচ্চতা,সর্বাধিক\\ উচ্চতা,H= \\frac {u^2}{2g}=\\frac {19.6×19.6}{2×9.8} সর্বাধিক উচ্চতা,মি. =মি.",
+    "explanation": "দেওয়া আছে, প্রক্ষেপণ বেগ,u=19.6 m/s অভিকর্ষজ ত্বরণ,a=9.8 ms−2\\ m s ^{-2} ms−2 আমরা জানি, সর্বাধিক উচ্চতা,H=u22g=19.6×19.62×9.8সর্বাধিক\\ উচ্চতা,H= \\frac {u^2}{2g}=\\frac {19.6×19.6}{2×9.8} সর্বাধিক উচ্চতা,H=2gu2=2×9.819.6×19.6 মি. =19.6=19.6=19.6 মি.",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -149,7 +149,7 @@
       "d": "2s"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, প্রক্ষিপ্ত কোণ,α\\alphaα=30° আদিবেগ,অভিকর্ষজ ত্বরণ,² নিক্ষেপের দিকে লম্বভাবে থাকার সময়,\\frac{u}{g sin\\alpha} \\\\ = \\frac{2g}{g sin30°} \\\\ = 4sgsinαu=gsin30°2g=4s",
+    "explanation": "দেওয়া আছে, প্রক্ষিপ্ত কোণ,α\\alphaα=30° আদিবেগ,u=2g m/s অভিকর্ষজ ত্বরণ,g=9.8 m/s ² নিক্ষেপের দিকে লম্বভাবে থাকার সময়,t=ugsinα=2ggsin30°=4s\\frac{u}{g sin\\alpha} \\\\ = \\frac{2g}{g sin30°} \\\\ = 4sgsinαu=gsin30°2g=4s",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -157,7 +157,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বস্তু 2g বেগে ভূমির সাথে 30o30^o30o কোণে নিক্ষিপ্ত হলে কত সময় পর বস্তুটি নিক্ষেপের দিকের সাথে লম্বভাবে থাকবে?",
-    "explanationLatex": "দেওয়া আছে, প্রক্ষিপ্ত কোণ,α\\alphaα=30^{\\\\circ} আদিবেগ,u=2g \\frac{m}{s} অভিকর্ষজ ত্বরণ,\\frac{m}{s} ² নিক্ষেপের দিকে লম্বভাবে থাকার সময়,\\circ}=4s\\frac{u}{g sin\\alpha} \\\\ = \\frac{2g}{g sin30^{\\\\circ}} \\\\ = 4sgsinαu=gsin30^{\\\\circ}2g=4s"
+    "explanationLatex": "$দেওয়া আছে, প্রক্ষিপ্ত কোণ,α\\alphaα=30^{\\\\circ} আদিবেগ,u=2g \\frac{m}{s} অভিকর্ষজ ত্বরণ,g=9.8 \\frac{m}{s} ² নিক্ষেপের দিকে লম্বভাবে থাকার সময়,t=ugsinα=2ggsin30^{\\\\circ}=4s\\frac{u}{g sin\\alpha} \\\\ = \\frac{2g}{g sin30^{\\\\circ}} \\\\ = 4sgsinαu=gsin30^{\\\\circ}2g=4s$"
   },
   {
     "id": 9,
@@ -169,7 +169,7 @@
       "d": "3 2 2 3 একক"
     },
     "correctAnswer": "b",
-    "explanation": "\\begin{aligned} R_{x} & =1 \\cos 0^{\\circ}+2 \\cos 120^{\\circ}+3 \\cos \\left(-120^{\\circ}\\right) \\\\ & =1+(-1)+(-3 / 2) \\\\ \\therefore R_{x} & =-3 / 2 \\\\ R_{y} & =1 \\sin 0^{\\circ}+2 \\sin \\left(120^{\\circ}\\right)+3 \\sin \\left(-120^{\\circ}\\right) \\\\ & =0+\\sqrt{3}-\\frac{3 \\sqrt{3}}{2} \\\\ \\therefore R_{y} & =-\\sqrt{3} / 2 \\end{aligned} Rxলব্ধি, \\sqrt{R x^{2}+R y^{2}} R=Rx2+Ry2 =(−3/2)2+(−3/2)2একক \\begin{aligned} & =\\sqrt{(-3 / 2)^{2}+(-\\sqrt{3} / 2)^{2}} \\\\ \\therefore R & =\\sqrt{3} \\text { একক} \\end{aligned} একক",
+    "explanation": "Rx=1cos⁡0∘+2cos⁡120∘+3cos⁡(−120∘)=1+(−1)+(−3/2)∴Rx=−3/2Ry=1sin⁡0∘+2sin⁡(120∘)+3sin⁡(−120∘)=0+3−332∴Ry=−3/2 \\begin{aligned} R_{x} & =1 \\cos 0^{\\circ}+2 \\cos 120^{\\circ}+3 \\cos \\left(-120^{\\circ}\\right) \\\\ & =1+(-1)+(-3 / 2) \\\\ \\therefore R_{x} & =-3 / 2 \\\\ R_{y} & =1 \\sin 0^{\\circ}+2 \\sin \\left(120^{\\circ}\\right)+3 \\sin \\left(-120^{\\circ}\\right) \\\\ & =0+\\sqrt{3}-\\frac{3 \\sqrt{3}}{2} \\\\ \\therefore R_{y} & =-\\sqrt{3} / 2 \\end{aligned} Rx∴RxRy∴Ry=1cos0∘+2cos120∘+3cos(−120∘)=1+(−1)+(−3/2)=−3/2=1sin0∘+2sin(120∘)+3sin(−120∘)=0+3−233=−3/2 লব্ধি, R=Rx2+Ry2 R=\\sqrt{R x^{2}+R y^{2}} R=Rx2+Ry2 =(−3/2)2+(−3/2)2∴R=3 একক \\begin{aligned} & =\\sqrt{(-3 / 2)^{2}+(-\\sqrt{3} / 2)^{2}} \\\\ \\therefore R & =\\sqrt{3} \\text { একক} \\end{aligned} ∴R=(−3/2)2+(−3/2)2=3 একক",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243681/gst-question-images/Math_______________________-Varsity-arc_q9.png",
@@ -177,7 +177,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি সমবাহু ত্রিভুজের বাহুগুলির সমান্তরাল এবং একই ক্রমানুসারে ক্রিয়ারত 1, 2, 3 একক বেগের লব্ধির মান কত?",
-    "explanationLatex": "\\frac{3}{2})\\frac{3}{2Ry}=1sin\\frac{3}{2} \\begin{aligned} R_{x} & =1 \\cos 0^{\\circ}+2 \\cos 120^{\\circ}+3 \\cos \\left(-120^{\\circ}\\right) \\\\ & =1+(-1)+(-\\frac{3}{2}) \\\\ \\therefore R_{x} & =-\\frac{3}{2} \\\\ R_{y} & =1 \\sin 0^{\\circ}+2 \\sin \\left(120^{\\circ}\\right)+3 \\sin \\left(-120^{\\circ}\\right) \\\\ & =0+\\sqrt{3}-\\frac{3 \\sqrt{3}}{2} \\\\ \\therefore R_{y} & =-\\sqrt{3} / 2 \\end{aligned} Rx\\frac{3}{2})=−\\frac{3}{2}=1sin0∘+2sin(120∘)+3sin(−120∘)=0+3−233=−\\frac{3}{2} লব্ধি, \\sqrt{R x^{2}+R y^{2}} R=Rx2+Ry2 =(−\\frac{3}{2})2+(−\\frac{3}{2})2একক \\begin{aligned} & =\\sqrt{(-\\frac{3}{2})^{2}+(-\\sqrt{3} / 2)^{2}} \\\\ \\therefore R & =\\sqrt{3} \\text { একক} \\end{aligned} \\frac{3}{2})2+(−\\frac{3}{2})2=3 একক"
+    "explanationLatex": "$Rx=1cos⁡0∘+2cos⁡120∘+3cos⁡(−120∘)=1+(−1)+(−\\frac{3}{2})∴Rx=−\\frac{3}{2Ry}=1sin⁡0∘+2sin⁡(120∘)+3sin⁡(−120∘)=0+3−332∴Ry=−\\frac{3}{2} \\begin{aligned} R_{x} & =1 \\cos 0^{\\circ}+2 \\cos 120^{\\circ}+3 \\cos \\left(-120^{\\circ}\\right) \\\\ & =1+(-1)+(-\\frac{3}{2}) \\\\ \\therefore R_{x} & =-\\frac{3}{2} \\\\ R_{y} & =1 \\sin 0^{\\circ}+2 \\sin \\left(120^{\\circ}\\right)+3 \\sin \\left(-120^{\\circ}\\right) \\\\ & =0+\\sqrt{3}-\\frac{3 \\sqrt{3}}{2} \\\\ \\therefore R_{y} & =-\\sqrt{3} / 2 \\end{aligned} Rx∴RxRy∴Ry=1cos0∘+2cos120∘+3cos(−120∘)=1+(−1)+(−\\frac{3}{2})=−\\frac{3}{2}=1sin0∘+2sin(120∘)+3sin(−120∘)=0+3−233=−\\frac{3}{2} লব্ধি, R=Rx2+Ry2 R=\\sqrt{R x^{2}+R y^{2}} R=Rx2+Ry2 =(−\\frac{3}{2})2+(−\\frac{3}{2})2∴R=3 একক \\begin{aligned} & =\\sqrt{(-\\frac{3}{2})^{2}+(-\\sqrt{3} / 2)^{2}} \\\\ \\therefore R & =\\sqrt{3} \\text { একক} \\end{aligned} ∴R=(−\\frac{3}{2})2+(−\\frac{3}{2})2=3 একক$"
   },
   {
     "id": 10,
@@ -189,7 +189,7 @@
       "d": "2 𝑢 𝑔 g 2u"
     },
     "correctAnswer": "a",
-    "explanation": "ধরি, আদিবেগ=u সর্বোচ্চ উচ্চতা =h শে্যবেগ=v সর্বাধিক উচ্চতায় - এখানে, \\quad \\Rightarrow h=\\frac{u^{2}}{2 g} v2=u2−2gh",
+    "explanation": "ধরি, আদিবেগ=u সর্বোচ্চ উচ্চতা =h শে্যবেগ=v সর্বাধিক উচ্চতায় - v=0 v=0 v=0 এখানে, v2=u2−2gh⇒h=u22g v^{2}=u^{2}-2 g h \\quad \\Rightarrow h=\\frac{u^{2}}{2 g} v2=u2−2gh⇒h=2gu2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -197,7 +197,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একখণ্ড পাথর ভূমি থেকে u বেগে খাড়া উপরে নিক্ষেপ করলে সর্বোচ্চ উচ্চতা-",
-    "explanationLatex": "ধরি, আদিবেগ=u সর্বোচ্চ উচ্চতা =h শে্যবেগ=v সর্বাধিক উচ্চতায় - এখানে, \\quad \\Rightarrow h=\\frac{u^{2}}{2 g} v2=u2−2gh"
+    "explanationLatex": "$ধরি, আদিবেগ=u সর্বোচ্চ উচ্চতা =h শে্যবেগ=v সর্বাধিক উচ্চতায় - v=0 v=0 v=0 এখানে, v2=u2−2gh⇒h=u22g v^{2}=u^{2}-2 g h \\quad \\Rightarrow h=\\frac{u^{2}}{2 g} v2=u2−2gh⇒h=2gu2$"
   },
   {
     "id": 11,
@@ -209,7 +209,7 @@
       "d": "42 m/sec"
     },
     "correctAnswer": "c",
-    "explanation": "\\begin{array}{l} v^{4}=u^{r}+2 a d_{1}=u^{r}+20 d_{1} \\\\ \\Rightarrow d_{1}=\\frac{v^{r}}{20} \\quad(\\text { \\% r }) \\end{array} v4=ur+2ad1=ur+20d1আবার মন্দন) \\begin{array}{l} u^{2}=v^{4}-2 \\times 5 d_{2} \\\\ \\Rightarrow d_{2}=\\frac{v^{r}}{10} \\quad \\text { (মন্দন) } \\\\ d_{1}+d_{2}=240 \\\\ \\Rightarrow \\frac{v^{2}}{20}+\\frac{v^{2}}{10}=240 \\\\ \\Rightarrow v=40 \\mathrm{~m} / \\mathrm{s} \\end{array} u2=v4−2মন্দন)",
+    "explanation": "v4=ur+2ad1=ur+20d1⇒d1=vr20( % r ) \\begin{array}{l} v^{4}=u^{r}+2 a d_{1}=u^{r}+20 d_{1} \\\\ \\Rightarrow d_{1}=\\frac{v^{r}}{20} \\quad(\\text { \\% r }) \\end{array} v4=ur+2ad1=ur+20d1⇒d1=20vr( % r ) আবার u2=v4−2×5d2⇒d2=vr10 (মন্দন) d1+d2=240⇒v220+v210=240⇒v=40 m/s \\begin{array}{l} u^{2}=v^{4}-2 \\times 5 d_{2} \\\\ \\Rightarrow d_{2}=\\frac{v^{r}}{10} \\quad \\text { (মন্দন) } \\\\ d_{1}+d_{2}=240 \\\\ \\Rightarrow \\frac{v^{2}}{20}+\\frac{v^{2}}{10}=240 \\\\ \\Rightarrow v=40 \\mathrm{~m} / \\mathrm{s} \\end{array} u2=v4−2×5d2⇒d2=10vr (মন্দন) d1+d2=240⇒20v2+10v2=240⇒v=40 m/s",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243670/gst-question-images/Math_______________________-Varsity-arc_q11.png",
@@ -217,7 +217,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি বাস স্থিরাবস্থা হতে যাত্রা করে সরল পথে চলে 240 m যায়। যাত্রাপথের ১ম অংশ 10 \\frac{m}{sec2} সমত্বরণে এবং শেষ অংশ 5 \\frac{m}{sec2} সমমন্দনে চলে কোনাে রকমে সম্পূর্ণ পথ অতিক্রম করল। যাত্রাপথে বাসটির সর্বোচ্চ গতিবেগ কত?$",
-    "explanationLatex": "\\begin{array}{l} v^{4}=u^{r}+2 a d_{1}=u^{r}+20 d_{1} \\\\ \\Rightarrow d_{1}=\\frac{v^{r}}{20} \\quad(\\text { \\% r }) \\end{array} v4=ur+2ad1=ur+20d1আবার \\times 5d2মন্দন) \\frac{m}{s} \\begin{array}{l} u^{2}=v^{4}-2 \\times 5 d_{2} \\\\ \\Rightarrow d_{2}=\\frac{v^{r}}{10} \\quad \\text { (মন্দন) } \\\\ d_{1}+d_{2}=240 \\\\ \\Rightarrow \\frac{v^{2}}{20}+\\frac{v^{2}}{10}=240 \\\\ \\Rightarrow v=40 \\mathrm{~m} / \\mathrm{s} \\end{array} u2=v4−2\\\\times 5d2মন্দন) \\frac{m}{s}"
+    "explanationLatex": "$v4=ur+2ad1=ur+20d1⇒d1=vr20( % r ) \\begin{array}{l} v^{4}=u^{r}+2 a d_{1}=u^{r}+20 d_{1} \\\\ \\Rightarrow d_{1}=\\frac{v^{r}}{20} \\quad(\\text { \\% r }) \\end{array} v4=ur+2ad1=ur+20d1⇒d1=20vr( % r ) আবার u2=v4−2\\\\times 5d2⇒d2=vr10 (মন্দন) d1+d2=240⇒v220+v210=240⇒v=40 \\frac{m}{s} \\begin{array}{l} u^{2}=v^{4}-2 \\times 5 d_{2} \\\\ \\Rightarrow d_{2}=\\frac{v^{r}}{10} \\quad \\text { (মন্দন) } \\\\ d_{1}+d_{2}=240 \\\\ \\Rightarrow \\frac{v^{2}}{20}+\\frac{v^{2}}{10}=240 \\\\ \\Rightarrow v=40 \\mathrm{~m} / \\mathrm{s} \\end{array} u2=v4−2\\\\times 5d2⇒d2=10vr (মন্দন) d1+d2=240⇒20v2+10v2=240⇒v=40 \\frac{m}{s}$"
   },
   {
     "id": 12,
@@ -229,7 +229,7 @@
       "d": "𝜋 𝑢 4 𝑔 2 g 2 πu 4"
     },
     "correctAnswer": "d",
-    "explanation": "কণাগুলি u গতিবেগ নিয়ে ভূমির সাথে θ \\theta θ ডিগ্রি কোণে ছুটে গেলে এরা অনুভূমিক ভাবে \\left(u^{2} \\sin 2 \\theta\\right) / g (u2sin2θ)/g দূরত্ব অতিক্রম করবে। এখানে R সর্বোচ্চ হবে যদি θ=45∘ \\theta=45^{\\circ} θ=45∘ হয়। এক্ষেত্রে হয় (যেহেতু sin\\left.\\sin 90^{\\circ}=1\\right) sin90∘=1) । অতএব,কণাগুলি যে বৃত্তাকার অংশ জুড়ে ছড়িয়ে পড়বে তার ব্যাসার্ধ হবে \\mathbf{R}=u^{2} / g R=u2/g. এবার ছড়িয়ে পড়া অংশের ক্ষেত্রফল A হলে, \\begin{array}{l} A=\\pi R^{2} \\\\ =\\pi\\left(u^{2} / g\\right)^{2} \\\\ =\\pi u^{4} / g^{2} \\end{array} A=πR2=π(u2/g)2=πu4/g2 অতএব, কণাগুলি π\\pi u^{4} / g^{2} πu4/g2 বর্গ একক ক্ষেত্রফল জুড়ে ছড়িয়ে পড়বে।",
+    "explanation": "কণাগুলি u গতিবেগ নিয়ে ভূমির সাথে θ \\theta θ ডিগ্রি কোণে ছুটে গেলে এরা অনুভূমিক ভাবে R= (u2sin⁡2θ)/g \\left(u^{2} \\sin 2 \\theta\\right) / g (u2sin2θ)/g দূরত্ব অতিক্রম করবে। এখানে R সর্বোচ্চ হবে যদি θ=45∘ \\theta=45^{\\circ} θ=45∘ হয়। এক্ষেত্রে R= u2/g u^{2} / g u2/g হয় (যেহেতু sin⁡90∘=1) \\left.\\sin 90^{\\circ}=1\\right) sin90∘=1) । অতএব,কণাগুলি যে বৃত্তাকার অংশ জুড়ে ছড়িয়ে পড়বে তার ব্যাসার্ধ হবে R=u2/g \\mathbf{R}=u^{2} / g R=u2/g. এবার ছড়িয়ে পড়া অংশের ক্ষেত্রফল A হলে, A=πR2=π(u2/g)2=πu4/g2 \\begin{array}{l} A=\\pi R^{2} \\\\ =\\pi\\left(u^{2} / g\\right)^{2} \\\\ =\\pi u^{4} / g^{2} \\end{array} A=πR2=π(u2/g)2=πu4/g2 অতএব, কণাগুলি πu4/g2 \\pi u^{4} / g^{2} πu4/g2 বর্গ একক ক্ষেত্রফল জুড়ে ছড়িয়ে পড়বে।",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243671/gst-question-images/Math_______________________-Varsity-arc_q12.png",
@@ -249,7 +249,7 @@
       "d": "2u/g"
     },
     "correctAnswer": "d",
-    "explanation": "উলম্বভাবে নিক্ষিপ্ত বস্তুর মোট বিচরণকাল =\\frac{2 \\mathrm{u} sin\\alpha}{\\mathrm{g}} =\\frac{2u}{g} [\\therefore \\alpha = 45°]=g2usinα=g2u[",
+    "explanation": "উলম্বভাবে নিক্ষিপ্ত বস্তুর মোট বিচরণকাল =2usinαg=2ug[∴α=45°] =\\frac{2 \\mathrm{u} sin\\alpha}{\\mathrm{g}} =\\frac{2u}{g} [\\therefore \\alpha = 45°]=g2usinα=g2u[∴α=45°]",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -257,7 +257,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "উলম্বভাবে নিক্ষিপ্ত বস্তুর মোট বিচরণকাল কোনটি?",
-    "explanationLatex": "উলম্বভাবে নিক্ষিপ্ত বস্তুর মোট বিচরণকাল =\\circ}] =\\frac{2 \\mathrm{u} sin\\alpha}{\\mathrm{g}} =\\frac{2u}{g} [\\therefore \\alpha = 45^{\\\\circ}]=g2usinα=g2u[\\circ}]"
+    "explanationLatex": "$উলম্বভাবে নিক্ষিপ্ত বস্তুর মোট বিচরণকাল =2usinαg=2ug[∴α=45^{\\\\circ}] =\\frac{2 \\mathrm{u} sin\\alpha}{\\mathrm{g}} =\\frac{2u}{g} [\\therefore \\alpha = 45^{\\\\circ}]=g2usinα=g2u[∴α=45^{\\\\circ}]$"
   },
   {
     "id": 14,
@@ -269,7 +269,7 @@
       "d": "উপবৃত্ত"
     },
     "correctAnswer": "c",
-    "explanation": "\\tan \\alpha-\\frac{g x^{2}}{2 u^{2} \\cos \\alpha} y=xtanα−2u2cosαgx2 হলো প্রাসের সমীকরণ যা সমীকরণের অনুরূপ অর্থাৎ প্রাসের বিচরণ কাল পরাবৃত্তাকার।",
+    "explanation": "y=xtan⁡α−gx22u2cos⁡α y=x \\tan \\alpha-\\frac{g x^{2}}{2 u^{2} \\cos \\alpha} y=xtanα−2u2cosαgx2 হলো প্রাসের সমীকরণ যা y=bx+cx2 y=b x+c x^{2} y=bx+cx2 সমীকরণের অনুরূপ অর্থাৎ প্রাসের বিচরণ কাল পরাবৃত্তাকার।",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -277,7 +277,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "প্রাসের বিচরণ পথ একটি-",
-    "explanationLatex": "\\tan \\alpha-\\frac{g x^{2}}{2 u^{2} \\cos \\alpha} y=xtanα−2u2cosαgx2 হলো প্রাসের সমীকরণ যা সমীকরণের অনুরূপ অর্থাৎ প্রাসের বিচরণ কাল পরাবৃত্তাকার।"
+    "explanationLatex": "$y=xtan⁡α−gx22u2cos⁡α y=x \\tan \\alpha-\\frac{g x^{2}}{2 u^{2} \\cos \\alpha} y=xtanα−2u2cosαgx2 হলো প্রাসের সমীকরণ যা y=bx+cx2 y=b x+c x^{2} y=bx+cx2 সমীকরণের অনুরূপ অর্থাৎ প্রাসের বিচরণ কাল পরাবৃত্তাকার।$"
   },
   {
     "id": 15,
@@ -289,7 +289,7 @@
       "d": "60° কোণে নিক্ষিপ্ত বল"
     },
     "correctAnswer": "a",
-    "explanation": "বিচরণকাল \\frac{2 u \\sin \\alpha}{g} T=g2usinα যার sin α \\alpha α হয়, তার বিচরণ কাল বেশি sin\\begin{array}{l}\\sin 20^{\\circ}=0.342 \\\\ \\sin 30^{\\circ}=0.5 \\\\ \\sin 40^{\\circ}=0.643 \\\\ \\sin 60^{\\circ}=0.866\\end{array} sin20∘=0.342sin30∘=0.5sin40∘=0.643sin60∘=0.866 যেহেতু sin\\sin 20 sin20 এর ছোট। তাই এর বিচরণকাল কম। \\therefore 20^{\\circ} কোণে নিক্ষিত বল আগে ভূমিতে ফিরবে",
+    "explanation": "বিচরণকাল T=2usin⁡αg T=\\frac{2 u \\sin \\alpha}{g} T=g2usinα যার sin α \\alpha α হয়, তার বিচরণ কাল বেশি sin⁡20∘=0.342sin⁡30∘=0.5sin⁡40∘=0.643sin⁡60∘=0.866 \\begin{array}{l}\\sin 20^{\\circ}=0.342 \\\\ \\sin 30^{\\circ}=0.5 \\\\ \\sin 40^{\\circ}=0.643 \\\\ \\sin 60^{\\circ}=0.866\\end{array} sin20∘=0.342sin30∘=0.5sin40∘=0.643sin60∘=0.866 যেহেতু sin⁡20 \\sin 20 sin20 এর ছোট। তাই এর বিচরণকাল কম। ∴20∘ \\therefore 20^{\\circ} ∴20∘ কোণে নিক্ষিত বল আগে ভূমিতে ফিরবে",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -297,7 +297,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$চারটি বল একই বেগে ভূমি থেকে একই সাথে 20^{\\\\circ} , 30^{\\\\circ} , 40^{\\\\circ} ,60^{\\\\circ} বিভিন্ন নিক্ষেপণ কোণে নিক্ষেপ করা হলো। কোন বলটি সবার আগে ভূমিতে ফিরে আসবে?$",
-    "explanationLatex": "বিচরণকাল \\frac{2 u \\sin \\alpha}{g} T=g2usinα যার sin α \\alpha α হয়, তার বিচরণ কাল বেশি sin\\begin{array}{l}\\sin 20^{\\circ}=0.342 \\\\ \\sin 30^{\\circ}=0.5 \\\\ \\sin 40^{\\circ}=0.643 \\\\ \\sin 60^{\\circ}=0.866\\end{array} sin20∘=0.342sin30∘=0.5sin40∘=0.643sin60∘=0.866 যেহেতু sin\\sin 20 sin20 এর ছোট। তাই এর বিচরণকাল কম। \\therefore 20^{\\circ} কোণে নিক্ষিত বল আগে ভূমিতে ফিরবে"
+    "explanationLatex": "$বিচরণকাল T=2usin⁡αg T=\\frac{2 u \\sin \\alpha}{g} T=g2usinα যার sin α \\alpha α হয়, তার বিচরণ কাল বেশি sin⁡20∘=0.342sin⁡30∘=0.5sin⁡40∘=0.643sin⁡60∘=0.866 \\begin{array}{l}\\sin 20^{\\circ}=0.342 \\\\ \\sin 30^{\\circ}=0.5 \\\\ \\sin 40^{\\circ}=0.643 \\\\ \\sin 60^{\\circ}=0.866\\end{array} sin20∘=0.342sin30∘=0.5sin40∘=0.643sin60∘=0.866 যেহেতু sin⁡20 \\sin 20 sin20 এর ছোট। তাই এর বিচরণকাল কম। ∴20∘ \\therefore 20^{\\circ} ∴20∘ কোণে নিক্ষিত বল আগে ভূমিতে ফিরবে$"
   },
   {
     "id": 16,
@@ -309,7 +309,7 @@
       "d": "চারগুণ"
     },
     "correctAnswer": "d",
-    "explanation": "\\Rightarrow 0=v_{0}^{2}-2 a s_{1} v2=v02−2as1\\therefore \\mathrm{s}_{1}=\\frac{\\mathrm{v}_{0}^{2}}{2 \\mathrm{a}} আবার, \\left(2 v_{0}\\right)^{2}-2 a s_{2} \\Rightarrow 0=4 v_{0}^{2}-2 a s_{2} v2=(2v0)2−2as2\\therefore \\mathrm{s}_{2}=\\frac{4 \\mathrm{v}_{0}^{2}}{2 \\mathrm{a}}=4 \\mathrm{~s}_{1} \\text {. } সুতরাং, একটি গাড়ির গতি দ্বিগুণ হলে ব্রেক চেপে থামানোর দূরত্ব 4 গুণ হতে হবে।",
+    "explanation": "v2=v02−2as1⇒0=v02−2as1 v^{2}=v_{0}^{2}-2 a s_{1} \\Rightarrow 0=v_{0}^{2}-2 a s_{1} v2=v02−2as1⇒0=v02−2as1 ∴s1=v022a \\therefore \\mathrm{s}_{1}=\\frac{\\mathrm{v}_{0}^{2}}{2 \\mathrm{a}} ∴s1=2av02 আবার, v2=(2v0)2−2as2⇒0=4v02−2as2 v^{2}=\\left(2 v_{0}\\right)^{2}-2 a s_{2} \\Rightarrow 0=4 v_{0}^{2}-2 a s_{2} v2=(2v0)2−2as2⇒0=4v02−2as2 ∴s2=4v022a=4 s1. \\therefore \\mathrm{s}_{2}=\\frac{4 \\mathrm{v}_{0}^{2}}{2 \\mathrm{a}}=4 \\mathrm{~s}_{1} \\text {. } ∴s2=2a4v02=4 s1. সুতরাং, একটি গাড়ির গতি দ্বিগুণ হলে ব্রেক চেপে থামানোর দূরত্ব 4 গুণ হতে হবে।",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -317,7 +317,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি গাড়ির গতি দ্বিগুণ হলে ব্রেক চেপে থামানোর দূরত্ব কতগুণ হতে হবে?",
-    "explanationLatex": "\\Rightarrow 0=v_{0}^{2}-2 a s_{1} v2=v02−2as1\\therefore \\mathrm{s}_{1}=\\frac{\\mathrm{v}_{0}^{2}}{2 \\mathrm{a}} আবার, \\left(2 v_{0}\\right)^{2}-2 a s_{2} \\Rightarrow 0=4 v_{0}^{2}-2 a s_{2} v2=(2v0)2−2as2\\therefore \\mathrm{s}_{2}=\\frac{4 \\mathrm{v}_{0}^{2}}{2 \\mathrm{a}}=4 \\mathrm{~s}_{1} \\text {. } সুতরাং, একটি গাড়ির গতি দ্বিগুণ হলে ব্রেক চেপে থামানোর দূরত্ব 4 গুণ হতে হবে।"
+    "explanationLatex": "$v2=v02−2as1⇒0=v02−2as1 v^{2}=v_{0}^{2}-2 a s_{1} \\Rightarrow 0=v_{0}^{2}-2 a s_{1} v2=v02−2as1⇒0=v02−2as1 ∴s1=v022a \\therefore \\mathrm{s}_{1}=\\frac{\\mathrm{v}_{0}^{2}}{2 \\mathrm{a}} ∴s1=2av02 আবার, v2=(2v0)2−2as2⇒0=4v02−2as2 v^{2}=\\left(2 v_{0}\\right)^{2}-2 a s_{2} \\Rightarrow 0=4 v_{0}^{2}-2 a s_{2} v2=(2v0)2−2as2⇒0=4v02−2as2 ∴s2=4v022a=4 s1. \\therefore \\mathrm{s}_{2}=\\frac{4 \\mathrm{v}_{0}^{2}}{2 \\mathrm{a}}=4 \\mathrm{~s}_{1} \\text {. } ∴s2=2a4v02=4 s1. সুতরাং, একটি গাড়ির গতি দ্বিগুণ হলে ব্রেক চেপে থামানোর দূরত্ব 4 গুণ হতে হবে।$"
   },
   {
     "id": 17,
@@ -329,7 +329,7 @@
       "d": "128"
     },
     "correctAnswer": "a",
-    "explanation": "দেওয়া আছে, আদিবেগ,u=0 সময়,পরতে সময় লাগে 5 s. তাহলে শেষ 3sec এ অতিক্রান্ত দূরত্ব =5sec\\sec =5sec এ মোট দূরত্ব- প্রথম 2sec এ অতিক্রান্ত দূরত্ব =12\\begin{array}{l}=\\frac{1}{2} \\times \\mathrm{g} \\times 5^{2}-\\frac{1}{2} \\times \\mathrm{g} \\times 2^{2}=\\frac{1}{2} \\times 32 \\times(25-4) \\\\{\\left[\\mathrm{g}=32 \\mathrm{ft} / \\mathrm{sec}^{2}\\right]=336 \\mathrm{ft}}\\end{array}=21",
+    "explanation": "দেওয়া আছে, আদিবেগ,u=0 সময়,t=5 s পরতে সময় লাগে 5 s. তাহলে শেষ 3sec এ অতিক্রান্ত দূরত্ব =5sec⁡ =5 \\sec =5sec এ মোট দূরত্ব- প্রথম 2sec এ অতিক্রান্ত দূরত্ব =12×g×52−12×g×22=12×32×(25−4)[g=32ft/sec2]=336ft\\begin{array}{l}=\\frac{1}{2} \\times \\mathrm{g} \\times 5^{2}-\\frac{1}{2} \\times \\mathrm{g} \\times 2^{2}=\\frac{1}{2} \\times 32 \\times(25-4) \\\\{\\left[\\mathrm{g}=32 \\mathrm{ft} / \\mathrm{sec}^{2}\\right]=336 \\mathrm{ft}}\\end{array}=21×g×52−21×g×22=21×32×(25−4)[g=32ft/sec2]=336ft",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -349,7 +349,7 @@
       "d": "92 m"
     },
     "correctAnswer": "b",
-    "explanation": "ক্যাচ না হলে বলটি কত দূরে ভূমিতে পড়বে? u= আদিবেগ হলে, \\begin{aligned} R & =\\frac{u^{2} \\sin 2 \\alpha}{g} \\\\ & =\\frac{(29.4)^{2} \\sin 2 \\times 45^{\\circ}}{9.8} \\\\ & =88.2 \\mathrm{~m}\\end{aligned} R=gu2sin2α=9.8(29.4)2sin2",
+    "explanation": "ক্যাচ না হলে বলটি কত দূরে ভূমিতে পড়বে? u= আদিবেগ হলে, R=u2sin⁡2αg=(29.4)2sin⁡2×45∘9.8=88.2 m \\begin{aligned} R & =\\frac{u^{2} \\sin 2 \\alpha}{g} \\\\ & =\\frac{(29.4)^{2} \\sin 2 \\times 45^{\\circ}}{9.8} \\\\ & =88.2 \\mathrm{~m}\\end{aligned} R=gu2sin2α=9.8(29.4)2sin2×45∘=88.2 m",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -357,7 +357,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$মুশফিক তার ব্যাট দিয়ে একটি বলকে 29.4 \\frac{m}{s} বেগে ও ভূমির সাথে 45^{\\\\circ} কোণে আঘাত করল ।$",
-    "explanationLatex": "ক্যাচ না হলে বলটি কত দূরে ভূমিতে পড়বে? u= আদিবেগ হলে, \\times 45∘9.8=88.2 m \\begin{aligned} R & =\\frac{u^{2} \\sin 2 \\alpha}{g} \\\\ & =\\frac{(29.4)^{2} \\sin 2 \\times 45^{\\circ}}{9.8} \\\\ & =88.2 \\mathrm{~m}\\end{aligned} R=gu2sin2α=9.8(29.4)2sin2\\\\times 45∘=88.2 m"
+    "explanationLatex": "$ক্যাচ না হলে বলটি কত দূরে ভূমিতে পড়বে? u= আদিবেগ হলে, R=u2sin⁡2αg=(29.4)2sin⁡2\\\\times 45∘9.8=88.2 m \\begin{aligned} R & =\\frac{u^{2} \\sin 2 \\alpha}{g} \\\\ & =\\frac{(29.4)^{2} \\sin 2 \\times 45^{\\circ}}{9.8} \\\\ & =88.2 \\mathrm{~m}\\end{aligned} R=gu2sin2α=9.8(29.4)2sin2\\\\times 45∘=88.2 m$"
   },
   {
     "id": 19,
@@ -369,7 +369,7 @@
       "d": "20 m/m"
     },
     "correctAnswer": "b",
-    "explanation": "\\mathrm{vt}=\\mathrm{v} \\times 4 100=vt=vমি/মি \\Rightarrow \\mathrm{v}=\\frac{100}{4}=25 \\text { মি/মি } মি/মি লোকটির বেগ ω=\\omega=\\frac{100}{5}=20 ω=5100=20 মি/মি. ∴ স্রোত থাকলে সময় =(\\therefore \\text { স্রোত থাকলে সময় }=(4+1)=5 ∴ স্রোত থাকলে সময় =(এখন, স্রোতের বেগ =u =\\mathrm{u} =u হলে, v=u2+ω2 \\mathrm{v}=\\sqrt{\\mathrm{u}^{2}+\\omega^{2}} v=u2+ω2 মি/মি \\begin{array}{l} \\Rightarrow v=\\sqrt{u^{2}+20^{2}} \\Rightarrow u^{2}=v^{2}-20^{2} \\\\ \\Rightarrow u=\\sqrt{v^{2}-20^{2}}=\\sqrt{25^{2}-20^{2}}=\\sqrt{225}=15 \\text { মি/মি } \\end{array} মি/মি",
+    "explanation": "100=vt=v×4 100=\\mathrm{vt}=\\mathrm{v} \\times 4 100=vt=v×4 ⇒v=1004=25 মি/মি \\Rightarrow \\mathrm{v}=\\frac{100}{4}=25 \\text { মি/মি } ⇒v=4100=25 মি/মি লোকটির বেগ ω=1005=20 \\omega=\\frac{100}{5}=20 ω=5100=20 মি/মি. ∴ স্রোত থাকলে সময় =(4+1)=5 \\therefore \\text { স্রোত থাকলে সময় }=(4+1)=5 ∴ স্রোত থাকলে সময় =(4+1)=5 এখন, স্রোতের বেগ =u =\\mathrm{u} =u হলে, v=u2+ω2 \\mathrm{v}=\\sqrt{\\mathrm{u}^{2}+\\omega^{2}} v=u2+ω2 ⇒v=u2+202⇒u2=v2−202⇒u=v2−202=252−202=225=15 মি/মি \\begin{array}{l} \\Rightarrow v=\\sqrt{u^{2}+20^{2}} \\Rightarrow u^{2}=v^{2}-20^{2} \\\\ \\Rightarrow u=\\sqrt{v^{2}-20^{2}}=\\sqrt{25^{2}-20^{2}}=\\sqrt{225}=15 \\text { মি/মি } \\end{array} ⇒v=u2+202⇒u2=v2−202⇒u=v2−202=252−202=225=15 মি/মি",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243672/gst-question-images/Math_______________________-Varsity-arc_q19.png",
@@ -377,7 +377,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "স্রোত না থাকলে এক ব্যক্তি 100 m চওড়া নদী সাঁতার দিয়ে 4 মিনিটে পার হয় এবং স্রোত থাকলে সােজাসুজি নদীপার হতে তার এক মিনিট সময় বেশি লাগে। স্রোতের বেগ কত?",
-    "explanationLatex": "\\times 4 100=\\mathrm{vt}=\\mathrm{v} \\times 4 100=vt=v\\\\times 4 মি/মি \\Rightarrow \\mathrm{v}=\\frac{100}{4}=25 \\text { মি/মি } মি/মি লোকটির বেগ ω=\\omega=\\frac{100}{5}=20 ω=5100=20 মি/মি. ∴ স্রোত থাকলে সময় =(\\therefore \\text { স্রোত থাকলে সময় }=(4+1)=5 ∴ স্রোত থাকলে সময় =(এখন, স্রোতের বেগ =u =\\mathrm{u} =u হলে, v=u2+ω2 \\mathrm{v}=\\sqrt{\\mathrm{u}^{2}+\\omega^{2}} v=u2+ω2 মি/মি \\begin{array}{l} \\Rightarrow v=\\sqrt{u^{2}+20^{2}} \\Rightarrow u^{2}=v^{2}-20^{2} \\\\ \\Rightarrow u=\\sqrt{v^{2}-20^{2}}=\\sqrt{25^{2}-20^{2}}=\\sqrt{225}=15 \\text { মি/মি } \\end{array} মি/মি"
+    "explanationLatex": "$100=vt=v\\\\times 4 100=\\mathrm{vt}=\\mathrm{v} \\times 4 100=vt=v\\\\times 4 ⇒v=1004=25 মি/মি \\Rightarrow \\mathrm{v}=\\frac{100}{4}=25 \\text { মি/মি } ⇒v=4100=25 মি/মি লোকটির বেগ ω=1005=20 \\omega=\\frac{100}{5}=20 ω=5100=20 মি/মি. ∴ স্রোত থাকলে সময় =(4+1)=5 \\therefore \\text { স্রোত থাকলে সময় }=(4+1)=5 ∴ স্রোত থাকলে সময় =(4+1)=5 এখন, স্রোতের বেগ =u =\\mathrm{u} =u হলে, v=u2+ω2 \\mathrm{v}=\\sqrt{\\mathrm{u}^{2}+\\omega^{2}} v=u2+ω2 ⇒v=u2+202⇒u2=v2−202⇒u=v2−202=252−202=225=15 মি/মি \\begin{array}{l} \\Rightarrow v=\\sqrt{u^{2}+20^{2}} \\Rightarrow u^{2}=v^{2}-20^{2} \\\\ \\Rightarrow u=\\sqrt{v^{2}-20^{2}}=\\sqrt{25^{2}-20^{2}}=\\sqrt{225}=15 \\text { মি/মি } \\end{array} ⇒v=u2+202⇒u2=v2−202⇒u=v2−202=252−202=225=15 মি/মি$"
   },
   {
     "id": 20,
@@ -389,7 +389,7 @@
       "d": "32 3 𝑓 𝑡 32 3 ft"
     },
     "correctAnswer": "a",
-    "explanation": "জানা আছে, পদ্ধতিতে, \\sec^{-2}g=32ftsec−2 এখন, ইহার আনুভুমিক পাল্লা, \\frac{u^2\\sin\\ 2 \\alpha}{g}R=gu2sin 2α বা, R= 322\\frac{32^2×sin(2×15)}{32}R= 32322\\therefore",
+    "explanation": "জানা আছে, F.P.S পদ্ধতিতে, g=32ftsec⁡−2g=32ft\\sec^{-2}g=32ftsec−2 এখন, ইহার আনুভুমিক পাল্লা, R=u2sin⁡ 2αgR=\\frac{u^2\\sin\\ 2 \\alpha}{g}R=gu2sin 2α বা, R= 322×sin(2×15)32R=\\ \\frac{32^2×sin(2×15)}{32}R= 32322×sin(2×15) ∴\\therefore∴R=16 mR=16\\ mR=16 m",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -397,7 +397,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$32 \\frac{ft}{sec} আদিবেগ এবং ভূমির সাথে 15^{\\\\circ} কোণে একটি বস্তু নিক্ষপ করা হলাে। ইহার আনুভূমিক পাল্লা কত হবে?$",
-    "explanationLatex": "জানা আছে, পদ্ধতিতে, \\sec^{-2}g=32ftsec−2 এখন, ইহার আনুভুমিক পাল্লা, \\frac{u^2\\sin\\ 2 \\alpha}{g}R=gu2sin 2α বা, R= 322\\\\times sin(2\\\\times 15)32R=\\ \\frac{32^2\\\\times sin(2\\\\times 15)}{32}R= 32322\\\\times sin(2\\\\times 15) ∴\\therefore"
+    "explanationLatex": "$জানা আছে, F.P.S পদ্ধতিতে, g=32ftsec⁡−2g=32ft\\sec^{-2}g=32ftsec−2 এখন, ইহার আনুভুমিক পাল্লা, R=u2sin⁡ 2αgR=\\frac{u^2\\sin\\ 2 \\alpha}{g}R=gu2sin 2α বা, R= 322\\\\times sin(2\\\\times 15)32R=\\ \\frac{32^2\\\\times sin(2\\\\times 15)}{32}R= 32322\\\\times sin(2\\\\times 15) ∴\\therefore∴R=16 mR=16\\ mR=16 m$"
   },
   {
     "id": 21,
@@ -409,7 +409,7 @@
       "d": "2 3 3 2"
     },
     "correctAnswer": "b",
-    "explanation": "মনে করি,বুলেটটি u বেগে দেয়ালে আঘাত করল। প্রশ্ন মতে, ডুকার পর বুলেটির বেগ u/2 হয় এবং মন্দন f হলে আমরা পাই, (\\left(\\frac{u}{2}\\right)^{2}=u^{2}-2 f \\times 3 (2u)2=u2−2fবা, \\frac{u^{2}}{4}=u^{2}-6 f 4u2=u2−6f বা, 6f=3u24 6 f=\\frac{3 u^{2}}{4} 6f=43u2 \\therefore \\mathrm{f}=\\frac{ \\mathrm{u}^{2}}{ 8} ধরি,বুলেট টির বেগ শূন্য হওয়ার আগ পর্যন্ত s দূরত্ব আরো অতিক্রম করে। \\therefore \\quad 0^{2}=\\left(\\frac{\\mathrm{u}}{2}\\right)^{2}-2 \\mathrm{fs} বা, \\mathrm{fs}=\\frac{\\mathrm{u}^{2}}{4} 2fs=4u2 বা, 2\\times \\frac{1}{8} \\mathrm{u}^{2} \\times \\mathrm{s}=\\frac{\\mathrm{u}^{2}}{4} 2\\therefore \\quad s= 1 inch",
+    "explanation": "মনে করি,বুলেটটি u বেগে দেয়ালে আঘাত করল। প্রশ্ন মতে, 3 inch ডুকার পর বুলেটির বেগ u/2 হয় এবং মন্দন f হলে আমরা পাই, (u2)2=u2−2f×3 \\left(\\frac{u}{2}\\right)^{2}=u^{2}-2 f \\times 3 (2u)2=u2−2f×3 বা, u24=u2−6f \\frac{u^{2}}{4}=u^{2}-6 f 4u2=u2−6f বা, 6f=3u24 6 f=\\frac{3 u^{2}}{4} 6f=43u2 ∴f=u28 \\therefore \\mathrm{f}=\\frac{ \\mathrm{u}^{2}}{ 8} ∴f=8u2 ধরি,বুলেট টির বেগ শূন্য হওয়ার আগ পর্যন্ত s দূরত্ব আরো অতিক্রম করে। ∴02=(u2)2−2fs \\therefore \\quad 0^{2}=\\left(\\frac{\\mathrm{u}}{2}\\right)^{2}-2 \\mathrm{fs} ∴02=(2u)2−2fs বা, 2fs=u24 2 \\mathrm{fs}=\\frac{\\mathrm{u}^{2}}{4} 2fs=4u2 বা, 2×18u2×s=u24 2 \\times \\frac{1}{8} \\mathrm{u}^{2} \\times \\mathrm{s}=\\frac{\\mathrm{u}^{2}}{4} 2×81u2×s=4u2 ∴s=1inch \\therefore \\quad s= 1 inch∴s=1inch",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -417,7 +417,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি তীর একটি মাটির দেয়ালের ভিতর 3 ইঞ্চি ঢুকবার পর তার অর্ধেক বেগ হারায়। তীরটির বেগ শূন্য হওয়ার পূর্বে দেয়ালের ভিতর আর কত ইঞ্চি ঢুকবে?",
-    "explanationLatex": "মনে করি,বুলেটটি u বেগে দেয়ালে আঘাত করল। প্রশ্ন মতে, ডুকার পর বুলেটির বেগ \\frac{u}{2} হয় এবং মন্দন f হলে আমরা পাই, (\\times 3 \\left(\\frac{u}{2}\\right)^{2}=u^{2}-2 f \\times 3 (2u)2=u2−2f\\\\times 3 বা, u24=u2−6f \\frac{u^{2}}{4}=u^{2}-6 f 4u2=u2−6f বা, 6f=3u24 6 f=\\frac{3 u^{2}}{4} 6f=43u2 \\therefore \\mathrm{f}=\\frac{ \\mathrm{u}^{2}}{ 8} ধরি,বুলেট টির বেগ শূন্য হওয়ার আগ পর্যন্ত s দূরত্ব আরো অতিক্রম করে। \\therefore \\quad 0^{2}=\\left(\\frac{\\mathrm{u}}{2}\\right)^{2}-2 \\mathrm{fs} বা, \\mathrm{fs}=\\frac{\\mathrm{u}^{2}}{4} 2fs=4u2 বা, 2\\\\times 18u2\\\\times s=u24 2 \\times \\frac{1}{8} \\mathrm{u}^{2} \\times \\mathrm{s}=\\frac{\\mathrm{u}^{2}}{4} 2\\\\times 81u2\\\\times s=4u2 \\therefore \\quad s= 1 inch"
+    "explanationLatex": "$মনে করি,বুলেটটি u বেগে দেয়ালে আঘাত করল। প্রশ্ন মতে, 3 inch ডুকার পর বুলেটির বেগ \\frac{u}{2} হয় এবং মন্দন f হলে আমরা পাই, (u2)2=u2−2f\\\\times 3 \\left(\\frac{u}{2}\\right)^{2}=u^{2}-2 f \\times 3 (2u)2=u2−2f\\\\times 3 বা, u24=u2−6f \\frac{u^{2}}{4}=u^{2}-6 f 4u2=u2−6f বা, 6f=3u24 6 f=\\frac{3 u^{2}}{4} 6f=43u2 ∴f=u28 \\therefore \\mathrm{f}=\\frac{ \\mathrm{u}^{2}}{ 8} ∴f=8u2 ধরি,বুলেট টির বেগ শূন্য হওয়ার আগ পর্যন্ত s দূরত্ব আরো অতিক্রম করে। ∴02=(u2)2−2fs \\therefore \\quad 0^{2}=\\left(\\frac{\\mathrm{u}}{2}\\right)^{2}-2 \\mathrm{fs} ∴02=(2u)2−2fs বা, 2fs=u24 2 \\mathrm{fs}=\\frac{\\mathrm{u}^{2}}{4} 2fs=4u2 বা, 2\\\\times 18u2\\\\times s=u24 2 \\times \\frac{1}{8} \\mathrm{u}^{2} \\times \\mathrm{s}=\\frac{\\mathrm{u}^{2}}{4} 2\\\\times 81u2\\\\times s=4u2 ∴s=1inch \\therefore \\quad s= 1 inch∴s=1inch$"
   },
   {
     "id": 22,
@@ -429,7 +429,7 @@
       "d": "300 g g 300 মি."
     },
     "correctAnswer": "c",
-    "explanation": "সর্বোচ্চ উচ্চতা =u2sin\\frac{u^{2} \\sin ^{2} \\theta}{2 \\mathrm{~g}}=\\frac{20^{2} \\times\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}}{2 \\mathrm{~g}} =2 gu2sin2θ=2 g202\\frac{400 \\times \\frac{3}{4}}{2 \\mathrm{~g}}=\\frac{150}{\\mathrm{~g}} =2 g400",
+    "explanation": "Solve: (c); সর্বোচ্চ উচ্চতা =u2sin⁡2θ2 g=202×(32)22 g =\\frac{u^{2} \\sin ^{2} \\theta}{2 \\mathrm{~g}}=\\frac{20^{2} \\times\\left(\\frac{\\sqrt{3}}{2}\\right)^{2}}{2 \\mathrm{~g}} =2 gu2sin2θ=2 g202×(23)2 =400×342 g=150 g =\\frac{400 \\times \\frac{3}{4}}{2 \\mathrm{~g}}=\\frac{150}{\\mathrm{~g}} =2 g400×43= g150",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -457,7 +457,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি গাড়ি স্থিরাবস্থা থেকে সমত্বরণে চলা শুরু করে 5 s এ 80 \\frac{m}{s} গতিপ্রাপ্ত হলো। গাড়িটির ত্বরণ-$",
-    "explanationLatex": "সঠিক উত্তর: (c) 16 \\frac{m}{s2}।"
+    "explanationLatex": "$সঠিক উত্তর: (c) 16 \\frac{m}{s2}।$"
   },
   {
     "id": 24,
@@ -469,7 +469,7 @@
       "d": "2 𝑦 𝑔 g 2y"
     },
     "correctAnswer": "b",
-    "explanation": "ভূমি হতে u আদিবেগে একটি বস্তু লম্বভাবে উপরের দিকে নিক্ষেপ করলে, বস্তুটি সর্বাধিক উচ্চতায় উঠবে যখন তার গতি শূন্য হয়ে যাবে। ∴\\therefore∴ চূড়ান্ত বেগ v = 0আমরা জানি, ⇒\\Rightarrow\\begin{array}{l}0=u^{2}-2 g h \\\\ 2 g h=u^{2} \\\\ h=\\frac{u^{2}}{2 g}\\end{array} 0=u2−2gh2gh=u2h=2gu2",
+    "explanation": "ভূমি হতে u আদিবেগে একটি বস্তু লম্বভাবে উপরের দিকে নিক্ষেপ করলে, বস্তুটি সর্বাধিক উচ্চতায় উঠবে যখন তার গতি শূন্য হয়ে যাবে। ∴\\therefore∴ চূড়ান্ত বেগ v = 0আমরা জানি, v2=u2−2gh v^{2}=u^{2}-2 g h v2=u2−2gh ⇒\\Rightarrow⇒0=u2−2gh2gh=u2h=u22g \\begin{array}{l}0=u^{2}-2 g h \\\\ 2 g h=u^{2} \\\\ h=\\frac{u^{2}}{2 g}\\end{array} 0=u2−2gh2gh=u2h=2gu2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -477,7 +477,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "ভূমি হতে u আদিবেগে একটি বস্তু উলম্বভাবে উপরের দিকে নিক্ষেপ করলে বস্তুটি সর্বাধিক কত উপরে উঠবে?",
-    "explanationLatex": "ভূমি হতে u আদিবেগে একটি বস্তু লম্বভাবে উপরের দিকে নিক্ষেপ করলে, বস্তুটি সর্বাধিক উচ্চতায় উঠবে যখন তার গতি শূন্য হয়ে যাবে। ∴\\therefore∴ চূড়ান্ত বেগ v = 0আমরা জানি, ⇒\\Rightarrow\\begin{array}{l}0=u^{2}-2 g h \\\\ 2 g h=u^{2} \\\\ h=\\frac{u^{2}}{2 g}\\end{array} 0=u2−2gh2gh=u2h=2gu2"
+    "explanationLatex": "$ভূমি হতে u আদিবেগে একটি বস্তু লম্বভাবে উপরের দিকে নিক্ষেপ করলে, বস্তুটি সর্বাধিক উচ্চতায় উঠবে যখন তার গতি শূন্য হয়ে যাবে। ∴\\therefore∴ চূড়ান্ত বেগ v = 0আমরা জানি, v2=u2−2gh v^{2}=u^{2}-2 g h v2=u2−2gh ⇒\\Rightarrow⇒0=u2−2gh2gh=u2h=u22g \\begin{array}{l}0=u^{2}-2 g h \\\\ 2 g h=u^{2} \\\\ h=\\frac{u^{2}}{2 g}\\end{array} 0=u2−2gh2gh=u2h=2gu2$"
   },
   {
     "id": 25,
@@ -489,7 +489,7 @@
       "d": "4.52"
     },
     "correctAnswer": "d",
-    "explanation": "h=উচ্চতা g=অভিকর্ষজ ত্বরণ \\begin{aligned} h=100 \\mathrm{~m} & \\\\ h=0 t+1 / 2 g t^{2} \\Rightarrow t^{2}=\\frac{2 h}{g} \\Rightarrow t & =\\sqrt{\\frac{2 h}{g}}=\\sqrt{\\frac{2 \\times 100}{9.8}} \\\\ & =4.52 \\mathrm{~s}\\end{aligned} h=100 mh=0t+1/2gt2",
+    "explanation": "h=উচ্চতা g=অভিকর্ষজ ত্বরণ h=100 mh=0t+1/2gt2⇒t2=2hg⇒t=2hg=2×1009.8=4.52 s \\begin{aligned} h=100 \\mathrm{~m} & \\\\ h=0 t+1 / 2 g t^{2} \\Rightarrow t^{2}=\\frac{2 h}{g} \\Rightarrow t & =\\sqrt{\\frac{2 h}{g}}=\\sqrt{\\frac{2 \\times 100}{9.8}} \\\\ & =4.52 \\mathrm{~s}\\end{aligned} h=100 mh=0t+1/2gt2⇒t2=g2h⇒t=g2h=9.82×100=4.52 s",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -497,7 +497,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "100 মিটার উঁচু পাহাড় থেকে একটি পাথর ছেড়ে দিলে ভূমিতে পড়তে কত সময় লাগবে?",
-    "explanationLatex": "h=উচ্চতা g=অভিকর্ষজ ত্বরণ \\frac{1}{2gt2}\\times 1009.8=4.52 s \\begin{aligned} h=100 \\mathrm{~m} & \\\\ h=0 t+\\frac{1}{2} g t^{2} \\Rightarrow t^{2}=\\frac{2 h}{g} \\Rightarrow t & =\\sqrt{\\frac{2 h}{g}}=\\sqrt{\\frac{2 \\times 100}{9.8}} \\\\ & =4.52 \\mathrm{~s}\\end{aligned} h=100 mh=0t+\\frac{1}{2gt2}\\times 100=4.52 s"
+    "explanationLatex": "$h=উচ্চতা g=অভিকর্ষজ ত্বরণ h=100 mh=0t+\\frac{1}{2gt2}⇒t2=2hg⇒t=2hg=2\\\\times 1009.8=4.52 s \\begin{aligned} h=100 \\mathrm{~m} & \\\\ h=0 t+\\frac{1}{2} g t^{2} \\Rightarrow t^{2}=\\frac{2 h}{g} \\Rightarrow t & =\\sqrt{\\frac{2 h}{g}}=\\sqrt{\\frac{2 \\times 100}{9.8}} \\\\ & =4.52 \\mathrm{~s}\\end{aligned} h=100 mh=0t+\\frac{1}{2gt2}⇒t2=g2h⇒t=g2h=9.82\\\\times 100=4.52 s$"
   },
   {
     "id": 26,
@@ -509,7 +509,7 @@
       "d": "100 m 100 m"
     },
     "correctAnswer": "a",
-    "explanation": "দেওয়া আছে, আদিবেগ,কারণ স্থিরাবস্থা থেকে বস্তু কণা যাত্রা শুরু করে। ত্বরণ,সময়,আমরা জানি, \\mathrm{S}_{\\mathrm{t}^{\\mathrm{th}}}=\\mathrm{u}+\\frac{1}{2} \\mathrm{a}(2 \\mathrm{t}-1) Stth=u+21a(2t−1) \\therefore \\mathrm{S}^{\\text {th }}=0+\\frac{1}{2} \\times 4(2 \\times 5-1)\\\\ = 2\\mathrm{~m}",
+    "explanation": "দেওয়া আছে, আদিবেগ,u=0 m/s ;কারণ স্থিরাবস্থা থেকে বস্তু কণা যাত্রা শুরু করে। ত্বরণ,a=4 ms−2\\ m s^{-2} ms−2 সময়,t= 5th\\ 5 ^{th} 5th আমরা জানি, Stth=u+12a(2t−1) \\mathrm{S}_{\\mathrm{t}^{\\mathrm{th}}}=\\mathrm{u}+\\frac{1}{2} \\mathrm{a}(2 \\mathrm{t}-1) Stth=u+21a(2t−1) ∴Sth =0+12×4(2×5−1)=2×(10−1)=2×9=18 m\\therefore \\mathrm{S}^{\\text {th }}=0+\\frac{1}{2} \\times 4(2 \\times 5-1)\\\\ = 2×(10-1) = 2×9 =18 \\mathrm{~m}∴Sth =0+21×4(2×5−1)=2×(10−1)=2×9=18 m",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -517,7 +517,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$কোনো বস্তু কণা স্থির অবস্থা হতে 4ms−2 \\ 4 m s ^{-2} 4ms−2 সমত্বরণে যাত্রা করলে পঞ্চম সেকেন্ডে অতিক্রান্ত দূরত্ব- [DB'19]$",
-    "explanationLatex": "দেওয়া আছে, আদিবেগ,u=0 \\frac{m}{s} ;কারণ স্থিরাবস্থা থেকে বস্তু কণা যাত্রা শুরু করে। ত্বরণ,সময়,আমরা জানি, \\mathrm{S}_{\\mathrm{t}^{\\mathrm{th}}}=\\mathrm{u}+\\frac{1}{2} \\mathrm{a}(2 \\mathrm{t}-1) Stth=u+21a(2t−1) \\times 4(2\\\\times 5−1)=2\\\\times (10−1)=2\\\\times 9=18 m\\therefore \\mathrm{S}^{\\text {th }}=0+\\frac{1}{2} \\times 4(2 \\times 5-1)\\\\ = 2\\\\times (10-1) = 2\\\\times 9 =18 \\mathrm{~m}\\times 4(2\\\\times 5−1)=2\\\\times (10−1)=2\\\\times 9=18 m"
+    "explanationLatex": "$দেওয়া আছে, আদিবেগ,u=0 \\frac{m}{s} ;কারণ স্থিরাবস্থা থেকে বস্তু কণা যাত্রা শুরু করে। ত্বরণ,a=4 ms−2\\ m s^{-2} ms−2 সময়,t= 5th\\ 5 ^{th} 5th আমরা জানি, Stth=u+12a(2t−1) \\mathrm{S}_{\\mathrm{t}^{\\mathrm{th}}}=\\mathrm{u}+\\frac{1}{2} \\mathrm{a}(2 \\mathrm{t}-1) Stth=u+21a(2t−1) ∴Sth =0+12\\\\times 4(2\\\\times 5−1)=2\\\\times (10−1)=2\\\\times 9=18 m\\therefore \\mathrm{S}^{\\text {th }}=0+\\frac{1}{2} \\times 4(2 \\times 5-1)\\\\ = 2\\\\times (10-1) = 2\\\\times 9 =18 \\mathrm{~m}∴Sth =0+21\\\\times 4(2\\\\times 5−1)=2\\\\times (10−1)=2\\\\times 9=18 m$"
   },
   {
     "id": 27,
@@ -529,7 +529,7 @@
       "d": "192 ft"
     },
     "correctAnswer": "a",
-    "explanation": "ধাপ ১: মুক্তভাবে পড়ন্ত বস্তুর সূত্র মুক্তণাবে পড়ন্ত বস্তুর জন্য সরণ (এবং সময় র মধ্যে সম্পর্ক হলো: \\frac{1}{2} g t^{2} s=21gt2 যেখানে হলো অভিকর্ষজ ত্বরণ (প্রায় 32 ফুট/সেকেন্ডধাপ ২: মোট সরণ বের করা বস্তুটি 4 সেকেন্ডে মাটিতে পৌঁঁছায়, তাই মোট সরণ \\text {total }} stotal হলো: stotal =12ফুট s_{\\text {total }}=\\frac{1}{2} \\times 32 \\times(4)^{2}=16 \\times 16=256 \\text { ফুট } stotal =21ফুট ধাপ ৩: শেষের 2 সেকেন্ডে সরণ সমস্যায় বলা হয়েছে যে, বস্তুটি শেষের 2 সেকেন্ডে মোট সরণের অর্ধেক পড়ে। অর্থাৎ শেষের 2 সেকেন্ডে সরণ হলো: ফুট s_{\\text {last } 2 \\mathrm{sec}}=\\frac{1}{2} \\times s_{\\text {total }}=\\frac{1}{2} \\times 256=128 \\text { ফুট } slast 2sec=21ফুট",
+    "explanation": "ধাপ ১: মুক্তভাবে পড়ন্ত বস্তুর সূত্র মুক্তণাবে পড়ন্ত বস্তুর জন্য সরণ (displacement) s s s এবং সময় t t t जর মধ্যে সম্পর্ক হলো: s=12gt2 s=\\frac{1}{2} g t^{2} s=21gt2 যেখানে g g g হলো অভিকর্ষজ ত্বরণ (প্রায় 32 ফুট/সেকেন্ড²)। ধাপ ২: মোট সরণ বের করা বস্তুটি 4 সেকেন্ডে মাটিতে পৌঁঁছায়, তাই মোট সরণ stotal s_{\\text {total }} stotal হলো: stotal =12×32×(4)2=16×16=256 ফুট s_{\\text {total }}=\\frac{1}{2} \\times 32 \\times(4)^{2}=16 \\times 16=256 \\text { ফুট } stotal =21×32×(4)2=16×16=256 ফুট ধাপ ৩: শেষের 2 সেকেন্ডে সরণ সমস্যায় বলা হয়েছে যে, বস্তুটি শেষের 2 সেকেন্ডে মোট সরণের অর্ধেক পড়ে। অর্থাৎ শেষের 2 সেকেন্ডে সরণ হলো: slast 2sec=12×stotal =12×256=128 ফুট s_{\\text {last } 2 \\mathrm{sec}}=\\frac{1}{2} \\times s_{\\text {total }}=\\frac{1}{2} \\times 256=128 \\text { ফুট } slast 2sec=21×stotal =21×256=128 ফুট",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -537,7 +537,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বস্তু উপর থেকে মুক্তভাবে 4সেকেন্ডে পড়ল। বস্তুটি শেষের 2 সেকেন্ডে মোট সরণের অর্ধেক পড়ল। বস্তুটি শেষের 2 সেকেন্ডে কত ফুট পড়েছিল?",
-    "explanationLatex": "ধাপ ১: মুক্তভাবে পড়ন্ত বস্তুর সূত্র মুক্তণাবে পড়ন্ত বস্তুর জন্য সরণ (এবং সময় র মধ্যে সম্পর্ক হলো: \\frac{1}{2} g t^{2} s=21gt2 যেখানে হলো অভিকর্ষজ ত্বরণ (প্রায় 32 ফুট/সেকেন্ডধাপ ২: মোট সরণ বের করা বস্তুটি 4 সেকেন্ডে মাটিতে পৌঁঁছায়, তাই মোট সরণ \\text {total }} stotal হলো: stotal =12\\\\times 32\\\\times (4)2=16\\\\times 16=256 ফুট s_{\\text {total }}=\\frac{1}{2} \\times 32 \\times(4)^{2}=16 \\times 16=256 \\text { ফুট } stotal =21\\\\times 32\\\\times (4)2=16\\\\times 16=256 ফুট ধাপ ৩: শেষের 2 সেকেন্ডে সরণ সমস্যায় বলা হয়েছে যে, বস্তুটি শেষের 2 সেকেন্ডে মোট সরণের অর্ধেক পড়ে। অর্থাৎ শেষের 2 সেকেন্ডে সরণ হলো: \\times stotal =12\\\\times 256=128 ফুট s_{\\text {last } 2 \\mathrm{sec}}=\\frac{1}{2} \\times s_{\\text {total }}=\\frac{1}{2} \\times 256=128 \\text { ফুট } slast 2sec=21\\\\times stotal =21\\\\times 256=128 ফুট"
+    "explanationLatex": "$ধাপ ১: মুক্তভাবে পড়ন্ত বস্তুর সূত্র মুক্তণাবে পড়ন্ত বস্তুর জন্য সরণ (displacement) s s s এবং সময় t t t जর মধ্যে সম্পর্ক হলো: s=12gt2 s=\\frac{1}{2} g t^{2} s=21gt2 যেখানে g g g হলো অভিকর্ষজ ত্বরণ (প্রায় 32 ফুট/সেকেন্ড²)। ধাপ ২: মোট সরণ বের করা বস্তুটি 4 সেকেন্ডে মাটিতে পৌঁঁছায়, তাই মোট সরণ stotal s_{\\text {total }} stotal হলো: stotal =12\\\\times 32\\\\times (4)2=16\\\\times 16=256 ফুট s_{\\text {total }}=\\frac{1}{2} \\times 32 \\times(4)^{2}=16 \\times 16=256 \\text { ফুট } stotal =21\\\\times 32\\\\times (4)2=16\\\\times 16=256 ফুট ধাপ ৩: শেষের 2 সেকেন্ডে সরণ সমস্যায় বলা হয়েছে যে, বস্তুটি শেষের 2 সেকেন্ডে মোট সরণের অর্ধেক পড়ে। অর্থাৎ শেষের 2 সেকেন্ডে সরণ হলো: slast 2sec=12\\\\times stotal =12\\\\times 256=128 ফুট s_{\\text {last } 2 \\mathrm{sec}}=\\frac{1}{2} \\times s_{\\text {total }}=\\frac{1}{2} \\times 256=128 \\text { ফুট } slast 2sec=21\\\\times stotal =21\\\\times 256=128 ফুট$"
   },
   {
     "id": 28,
@@ -549,7 +549,7 @@
       "d": "R = 4H"
     },
     "correctAnswer": "d",
-    "explanation": "আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আদিবেগ= u \\\\প্রক্ষেপণ কোণ, \\alpha=45^{\\circ} আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আমারা জানি, আনুভূমিকপাল্লা,আনুভূমিক পাল্লা, R=\\frac{u^{2} \\sin (2 \\times 45°)}{g}=\\frac{u^{2}}{g} আনুভূমিকপাল্লা,সর্বোচ্চ উচ্চতা \\frac{u^{2} \\sin ^{2} \\alpha}{2 g}=\\frac{u^{2} \\times(\\sin 45)^{2}}{2 g} H=2gu2sin2α=2gu2\\begin{array}{l} =\\frac{u^{2} \\times \\frac{1}{2}}{2 g} \\\\ =\\frac{u^{2}}{g} \\times \\frac{1}{4} . \\\\ =R \\times \\frac{1}{4} . \\end{array} =2gu2\\therefore R=4 H",
+    "explanation": "আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আদিবেগ= u \\\\প্রক্ষেপণ কোণ, \\alpha=45^{\\circ} আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আমারা জানি, আনুভূমিকপাল্লা,R=u2sin⁡(2×45°)g=u2g আনুভূমিক পাল্লা, R=\\frac{u^{2} \\sin (2 \\times 45°)}{g}=\\frac{u^{2}}{g} আনুভূমিকপাল্লা,R=gu2sin(2×45°)=gu2 সর্বোচ্চ উচ্চতা H=u2sin⁡2α2g=u2×(sin⁡45)22g H=\\frac{u^{2} \\sin ^{2} \\alpha}{2 g}=\\frac{u^{2} \\times(\\sin 45)^{2}}{2 g} H=2gu2sin2α=2gu2×(sin45)2 =u2×122g=u2g×14.=R×14. \\begin{array}{l} =\\frac{u^{2} \\times \\frac{1}{2}}{2 g} \\\\ =\\frac{u^{2}}{g} \\times \\frac{1}{4} . \\\\ =R \\times \\frac{1}{4} . \\end{array} =2gu2×21=gu2×41.=R×41. ∴R=4H \\therefore R=4 H ∴R=4H",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -557,7 +557,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একই বেগে এবং 45^{\\\\circ} কোণে নিক্ষিপ্ত বস্তুর পাল্লা R ও সর্বাধিক উচ্চতা H হলে , এদের মধ্যে সম্পর্ক কোনটি?$",
-    "explanationLatex": "আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আদিবেগ= u \\\\প্রক্ষেপণ কোণ, \\alpha=45^{\\circ} আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আমারা জানি, আনুভূমিকপাল্লা,\\times 45^{\\\\circ})g=u2g আনুভূমিক পাল্লা, R=\\frac{u^{2} \\sin (2 \\times 45^{\\\\circ})}{g}=\\frac{u^{2}}{g} আনুভূমিকপাল্লা,\\times 45^{\\\\circ})=gu2 সর্বোচ্চ উচ্চতা \\times (sin\\frac{u^{2} \\sin ^{2} \\alpha}{2 g}=\\frac{u^{2} \\times(\\sin 45)^{2}}{2 g} H=2gu2sin2α=2gu2\\\\times (sin45)2 =u2\\\\times 122g=u2g\\\\times 14.=R\\\\times 14. \\begin{array}{l} =\\frac{u^{2} \\times \\frac{1}{2}}{2 g} \\\\ =\\frac{u^{2}}{g} \\times \\frac{1}{4} . \\\\ =R \\times \\frac{1}{4} . \\end{array} =2gu2\\\\times 21=gu2\\\\times 41.=R\\\\times 41. \\therefore R=4 H"
+    "explanationLatex": "$আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আদিবেগ= u \\\\প্রক্ষেপণ কোণ, \\alpha=45^{\\circ} আদিবেগ=uপ্রক্ষেপণকোণ,α=45∘ আমারা জানি, আনুভূমিকপাল্লা,R=u2sin⁡(2\\\\times 45^{\\\\circ})g=u2g আনুভূমিক পাল্লা, R=\\frac{u^{2} \\sin (2 \\times 45^{\\\\circ})}{g}=\\frac{u^{2}}{g} আনুভূমিকপাল্লা,R=gu2sin(2\\\\times 45^{\\\\circ})=gu2 সর্বোচ্চ উচ্চতা H=u2sin⁡2α2g=u2\\\\times (sin⁡45)22g H=\\frac{u^{2} \\sin ^{2} \\alpha}{2 g}=\\frac{u^{2} \\times(\\sin 45)^{2}}{2 g} H=2gu2sin2α=2gu2\\\\times (sin45)2 =u2\\\\times 122g=u2g\\\\times 14.=R\\\\times 14. \\begin{array}{l} =\\frac{u^{2} \\times \\frac{1}{2}}{2 g} \\\\ =\\frac{u^{2}}{g} \\times \\frac{1}{4} . \\\\ =R \\times \\frac{1}{4} . \\end{array} =2gu2\\\\times 21=gu2\\\\times 41.=R\\\\times 41. ∴R=4H \\therefore R=4 H ∴R=4H$"
   },
   {
     "id": 29,
@@ -569,7 +569,7 @@
       "d": "192 ft"
     },
     "correctAnswer": "d",
-    "explanation": "বস্তুটি 4sec\\sec 4sec এ পড়ে s4=ut+12gt2=(0\\begin{aligned} s_{4} & =u t+\\frac{1}{2} g t^{2} \\\\ & = (0 \\times 4)+\\frac{1}{2} \\times 32 \\times 4^{2} \\\\ & =256 \\mathrm{ft} \\end{aligned} s4=ut+21gt2=(0এপড়েs2=(0\\begin{array}{l} 2 \\sec এ পড়ে \\\\ s_{2}=(0 \\times 2)+\\frac{1}{2} \\times 32 \\times 2^{2} \\\\ =64 \\mathrm{ft} \\\\ \\quad\\left[g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}=32 \\mathrm{ft} / \\mathrm{s}\\right]\\end{array} 2secএপড়েs2=(0অতএব , শেষ ২ sec এ পড়ে (",
+    "explanation": "বস্তুটি 4sec⁡ 4 \\sec 4sec এ পড়ে s4=ut+12gt2=(0×4)+12×32×42=256ft \\begin{aligned} s_{4} & =u t+\\frac{1}{2} g t^{2} \\\\ & = (0 \\times 4)+\\frac{1}{2} \\times 32 \\times 4^{2} \\\\ & =256 \\mathrm{ft} \\end{aligned} s4=ut+21gt2=(0×4)+21×32×42=256ft 2sec⁡এপড়েs2=(0×2)+12×32×22=64ft[g=9.8 m/s2=32ft/s] \\begin{array}{l} 2 \\sec এ পড়ে \\\\ s_{2}=(0 \\times 2)+\\frac{1}{2} \\times 32 \\times 2^{2} \\\\ =64 \\mathrm{ft} \\\\ \\quad\\left[g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}=32 \\mathrm{ft} / \\mathrm{s}\\right]\\end{array} 2secএপড়েs2=(0×2)+21×32×22=64ft[g=9.8 m/s2=32ft/s] অতএব , শেষ ২ sec এ পড়ে (256-64)=192ft (Ans)",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -577,7 +577,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি বস্তু উপর থেকে মুক্তভাবে 4 সেকেন্ড পড়ল। বস্তুটির শেষের 2 সেকেন্ডে কত ফুট পড়েছিল?",
-    "explanationLatex": "বস্তুটি 4sec\\sec 4sec এ পড়ে s4=ut+12gt2=(0\\\\times 4)+12\\\\times 32\\\\times 42=256ft \\begin{aligned} s_{4} & =u t+\\frac{1}{2} g t^{2} \\\\ & = (0 \\times 4)+\\frac{1}{2} \\times 32 \\times 4^{2} \\\\ & =256 \\mathrm{ft} \\end{aligned} s4=ut+21gt2=(0\\\\times 4)+21\\\\times 32\\\\times 42=256ft 2sec⁡এপড়ে\\times 2)+12\\\\times 32\\\\times 22=64ft[g=9.8 \\frac{m}{s2}=\\frac{32ft}{s}] \\begin{array}{l} 2 \\sec এ পড়ে \\\\ s_{2}=(0 \\times 2)+\\frac{1}{2} \\times 32 \\times 2^{2} \\\\ =64 \\mathrm{ft} \\\\ \\quad\\left[g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}=32 \\mathrm{ft} / \\mathrm{s}\\right]\\end{array} 2secএপড়ে\\times 2)+21\\\\times 32\\\\times 22=64ft[g=9.8 \\frac{m}{s2}=\\frac{32ft}{s}] অতএব , শেষ ২ sec এ পড়ে ("
+    "explanationLatex": "$বস্তুটি 4sec⁡ 4 \\sec 4sec এ পড়ে s4=ut+12gt2=(0\\\\times 4)+12\\\\times 32\\\\times 42=256ft \\begin{aligned} s_{4} & =u t+\\frac{1}{2} g t^{2} \\\\ & = (0 \\times 4)+\\frac{1}{2} \\times 32 \\times 4^{2} \\\\ & =256 \\mathrm{ft} \\end{aligned} s4=ut+21gt2=(0\\\\times 4)+21\\\\times 32\\\\times 42=256ft 2sec⁡এপড়েs2=(0\\\\times 2)+12\\\\times 32\\\\times 22=64ft[g=9.8 \\frac{m}{s2}=\\frac{32ft}{s}] \\begin{array}{l} 2 \\sec এ পড়ে \\\\ s_{2}=(0 \\times 2)+\\frac{1}{2} \\times 32 \\times 2^{2} \\\\ =64 \\mathrm{ft} \\\\ \\quad\\left[g=9.8 \\mathrm{~m} / \\mathrm{s}^{2}=32 \\mathrm{ft} / \\mathrm{s}\\right]\\end{array} 2secএপড়েs2=(0\\\\times 2)+21\\\\times 32\\\\times 22=64ft[g=9.8 \\frac{m}{s2}=\\frac{32ft}{s}] অতএব , শেষ ২ sec এ পড়ে (256-64)=192ft (Ans)$"
   },
   {
     "id": 30,
@@ -589,7 +589,7 @@
       "d": "- 2 m/s2"
     },
     "correctAnswer": "d",
-    "explanation": "∴ ত্বরন−\\begin{array}{l}S=6+4 t-t^{2} \\\\ v=\\frac{d s}{d t}=0+4-2 t =4-2t\\\\ a=\\frac{d v}{d t}=0-2 =-2\\\\ \\therefore \\text { ত্বরন}-2 \\mathrm{~m} / \\mathrm{s}^{2} \\\\\\end{array} S=6+4t−t2v=dtds=0+4−2t=4−2ta=dtdv=0−2=−2∴ ত্বরন−",
+    "explanation": "S=6+4t−t2v=dsdt=0+4−2t=4−2ta=dvdt=0−2=−2∴ ত্বরন−2 m/s2 \\begin{array}{l}S=6+4 t-t^{2} \\\\ v=\\frac{d s}{d t}=0+4-2 t =4-2t\\\\ a=\\frac{d v}{d t}=0-2 =-2\\\\ \\therefore \\text { ত্বরন}-2 \\mathrm{~m} / \\mathrm{s}^{2} \\\\\\end{array} S=6+4t−t2v=dtds=0+4−2t=4−2ta=dtdv=0−2=−2∴ ত্বরন−2 m/s2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -597,7 +597,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$s = 6 + 4t - t2 হলে 2s পর এর ত্বরণ কত হবে?$",
-    "explanationLatex": "∴ ত্বরন−2 \\frac{m}{s2} \\begin{array}{l}S=6+4 t-t^{2} \\\\ v=\\frac{d s}{d t}=0+4-2 t =4-2t\\\\ a=\\frac{d v}{d t}=0-2 =-2\\\\ \\therefore \\text { ত্বরন}-2 \\mathrm{~m} / \\mathrm{s}^{2} \\\\\\end{array} S=6+4t−t2v=dtds=0+4−2t=4−2ta=dtdv=0−2=−2∴ ত্বরন−2 \\frac{m}{s2}"
+    "explanationLatex": "$S=6+4t−t2v=dsdt=0+4−2t=4−2ta=dvdt=0−2=−2∴ ত্বরন−2 \\frac{m}{s2} \\begin{array}{l}S=6+4 t-t^{2} \\\\ v=\\frac{d s}{d t}=0+4-2 t =4-2t\\\\ a=\\frac{d v}{d t}=0-2 =-2\\\\ \\therefore \\text { ত্বরন}-2 \\mathrm{~m} / \\mathrm{s}^{2} \\\\\\end{array} S=6+4t−t2v=dtds=0+4−2t=4−2ta=dtdv=0−2=−2∴ ত্বরন−2 \\frac{m}{s2}$"
   },
   {
     "id": 31,
@@ -609,7 +609,7 @@
       "d": "2 N"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, বেগ বৃদ্ধি,Δআবার সময়ের পরিবর্তনΔবেগ\\ বৃদ্ধি,\\Delta \\mathrm{V}=15 \\mathrm{~km} / \\mathrm{hr}=\\frac{15 \\times 10^{3}}{3600} \\frac{\\mathrm{m}}{\\mathrm{s}}=4.1667 \\mathrm{~m} / \\mathrm{s} \\\\ আবার\\ সময়ের\\ পরিবর্তন \\Delta \\mathrm{t}=60 \\mathrm{sec} বেগ বৃদ্ধি,Δআবার সময়ের পরিবর্তনΔআমরা জানি, \\mathrm{F}=\\mathrm{ma}=\\mathrm{m} \\frac{\\Delta \\mathrm{v}}{\\Delta \\mathrm{t}}=\\frac{36 \\times 4.1667}{60}=2.5 \\mathrm{~N} F=ma=mΔtΔv=6036",
+    "explanation": "দেওয়া আছে, বেগ বৃদ্ধি,ΔV=15 km/hr=15×1033600ms=4.1667 m/sআবার সময়ের পরিবর্তনΔt=60sec বেগ\\ বৃদ্ধি,\\Delta \\mathrm{V}=15 \\mathrm{~km} / \\mathrm{hr}=\\frac{15 \\times 10^{3}}{3600} \\frac{\\mathrm{m}}{\\mathrm{s}}=4.1667 \\mathrm{~m} / \\mathrm{s} \\\\ আবার\\ সময়ের\\ পরিবর্তন \\Delta \\mathrm{t}=60 \\mathrm{sec} বেগ বৃদ্ধি,ΔV=15 km/hr=360015×103sm=4.1667 m/sআবার সময়ের পরিবর্তনΔt=60sec আমরা জানি, F=ma=mΔvΔt=36×4.166760=2.5 N \\mathrm{F}=\\mathrm{ma}=\\mathrm{m} \\frac{\\Delta \\mathrm{v}}{\\Delta \\mathrm{t}}=\\frac{36 \\times 4.1667}{60}=2.5 \\mathrm{~N} F=ma=mΔtΔv=6036×4.1667=2.5 N",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -629,7 +629,7 @@
       "d": "20 ms-1"
     },
     "correctAnswer": "b",
-    "explanation": "F=ma\\begin{aligned} F & =m a \\\\ \\Rightarrow F & =m \\frac{v-u}{t} \\\\ \\Rightarrow F & =m \\frac{\\Delta v}{t} \\\\ \\therefore \\Delta v & =\\frac{F t}{m} \\\\ & =\\frac{16 \\times 2}{4} \\\\ & =8 \\mathrm{~ms}^{-1}\\end{aligned} F",
+    "explanation": "F=ma⇒F=mv−ut⇒F=mΔvt∴Δv=Ftm=16×24=8 ms−1 \\begin{aligned} F & =m a \\\\ \\Rightarrow F & =m \\frac{v-u}{t} \\\\ \\Rightarrow F & =m \\frac{\\Delta v}{t} \\\\ \\therefore \\Delta v & =\\frac{F t}{m} \\\\ & =\\frac{16 \\times 2}{4} \\\\ & =8 \\mathrm{~ms}^{-1}\\end{aligned} F⇒F⇒F∴Δv=ma=mtv−u=mtΔv=mFt=416×2=8 ms−1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -637,7 +637,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "16N এর একটি বল 4kg ভরের উপর 2s ক্রিয়া করে। বস্তুটির বেগের পরিবর্তন হবে-",
-    "explanationLatex": "F=ma\\Delta vt∴\\\\Delta v=Ftm=16\\\\times 24=8 ms−1 \\begin{aligned} F & =m a \\\\ \\Rightarrow F & =m \\frac{v-u}{t} \\\\ \\Rightarrow F & =m \\frac{\\Delta v}{t} \\\\ \\therefore \\Delta v & =\\frac{F t}{m} \\\\ & =\\frac{16 \\times 2}{4} \\\\ & =8 \\mathrm{~ms}^{-1}\\end{aligned} F\\Delta v=ma=mtv−u=mt\\\\Delta v=mFt=416\\\\times 2=8 ms−1"
+    "explanationLatex": "$F=ma⇒F=mv−ut⇒F=m\\\\Delta vt∴\\\\Delta v=Ftm=16\\\\times 24=8 ms−1 \\begin{aligned} F & =m a \\\\ \\Rightarrow F & =m \\frac{v-u}{t} \\\\ \\Rightarrow F & =m \\frac{\\Delta v}{t} \\\\ \\therefore \\Delta v & =\\frac{F t}{m} \\\\ & =\\frac{16 \\times 2}{4} \\\\ & =8 \\mathrm{~ms}^{-1}\\end{aligned} F⇒F⇒F∴\\\\Delta v=ma=mtv−u=mt\\\\Delta v=mFt=416\\\\times 2=8 ms−1$"
   },
   {
     "id": 33,
@@ -649,7 +649,7 @@
       "d": "120°"
     },
     "correctAnswer": "b",
-    "explanation": "ন্যূনতম সময়ে নদী পাড়ি দেওয়ার জন্য তীরের সাথে কত ডিগ্রি কোণে সাঁতার কাটতে হবে ? \\text {min }}=\\frac{d}{v \\sin \\alpha} tmin =vsinαd এখানে vsin\\sin \\alpha \\uparrow vsinα↑ হলে t↓ t \\downarrow t↓ vsin\\sin \\alpha vsinα (maximum) হলেt t t (minimum) vsin\\sin \\alpha \\rightarrow vsinα\\rightarrow \\sin \\alpha \\rightarrow \\sin \\alpha sinα এর maximum মান =1=sin\\sin 90^{\\circ} =1=sin90∘ \\therefore \\alpha=90^{\\circ}",
+    "explanation": "ন্যূনতম সময়ে নদী পাড়ি দেওয়ার জন্য তীরের সাথে কত ডিগ্রি কোণে সাঁতার কাটতে হবে ? tmin =dvsin⁡α t_{\\text {min }}=\\frac{d}{v \\sin \\alpha} tmin =vsinαd এখানে vsin⁡α↑ v \\sin \\alpha \\uparrow vsinα↑ হলে t↓ t \\downarrow t↓ vsin⁡α v \\sin \\alpha vsinα (maximum) হলেt t t (minimum) vsin⁡α→ v \\sin \\alpha \\rightarrow vsinα→ maximum →sin⁡α→ \\rightarrow \\sin \\alpha \\rightarrow →sinα→ maximum . sin⁡α \\sin \\alpha sinα এর maximum মান =1=sin⁡90∘ =1=\\sin 90^{\\circ} =1=sin90∘ ∴α=90∘ \\therefore \\alpha=90^{\\circ} ∴α=90∘",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243675/gst-question-images/Math_______________________-Varsity-arc_q34.png",
@@ -657,7 +657,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$1.5 km প্রশস্ত একটি নদী 5 \\frac{km}{h} বেগে প্রবাহিত হচ্ছে। একজন সাঁতারু \\frac{6km}{h} বেগে সাঁতার কেটে ন্যূনতম সময় নদী পাড়ি দিতে চায়।$",
-    "explanationLatex": "ন্যূনতম সময়ে নদী পাড়ি দেওয়ার জন্য তীরের সাথে কত ডিগ্রি কোণে সাঁতার কাটতে হবে ? \\text {min }}=\\frac{d}{v \\sin \\alpha} tmin =vsinαd এখানে vsin\\sin \\alpha \\uparrow vsinα↑ হলে t↓ t \\downarrow t↓ vsin\\sin \\alpha vsinα (maximum) হলেt t t (minimum) vsin\\sin \\alpha \\rightarrow vsinα\\rightarrow \\sin \\alpha \\rightarrow \\sin \\alpha sinα এর maximum মান =1=sin\\sin 90^{\\circ} =1=sin90∘ \\therefore \\alpha=90^{\\circ}"
+    "explanationLatex": "$ন্যূনতম সময়ে নদী পাড়ি দেওয়ার জন্য তীরের সাথে কত ডিগ্রি কোণে সাঁতার কাটতে হবে ? tmin =dvsin⁡α t_{\\text {min }}=\\frac{d}{v \\sin \\alpha} tmin =vsinαd এখানে vsin⁡α↑ v \\sin \\alpha \\uparrow vsinα↑ হলে t↓ t \\downarrow t↓ vsin⁡α v \\sin \\alpha vsinα (maximum) হলেt t t (minimum) vsin⁡α→ v \\sin \\alpha \\rightarrow vsinα→ maximum →sin⁡α→ \\rightarrow \\sin \\alpha \\rightarrow →sinα→ maximum . sin⁡α \\sin \\alpha sinα এর maximum মান =1=sin⁡90∘ =1=\\sin 90^{\\circ} =1=sin90∘ ∴α=90∘ \\therefore \\alpha=90^{\\circ} ∴α=90∘$"
   },
   {
     "id": 34,
@@ -669,7 +669,7 @@
       "d": "( 𝑢 2 sin ⁡ 2 𝛼 ) / 2 𝑔 (u 2 sin2α)/2g"
     },
     "correctAnswer": "b",
-    "explanation": "কোনো বস্তুকে u আদিবেগে অনুভূমিকের সাথে ɑ কোণে নিক্ষেপ করলে এবং যদি বস্তুটির উপর অভিকর্ষের বাধা ছাড়া অন্য কোনো বাধা ক্রিয়া না করে তবে, অনুভূমিক পাল্লা, \\mathrm{R}=\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} R=gu2sin2α",
+    "explanation": "কোনো বস্তুকে u আদিবেগে অনুভূমিকের সাথে ɑ কোণে নিক্ষেপ করলে এবং যদি বস্তুটির উপর অভিকর্ষের বাধা ছাড়া অন্য কোনো বাধা ক্রিয়া না করে তবে, অনুভূমিক পাল্লা, R=u2sin⁡2αg \\mathrm{R}=\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} R=gu2sin2α",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -677,7 +677,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "u \\mathrm{u} u গতিবেগে ও অনুভূমিকের সাথে α \\alpha α কোণে প্রক্ষিথ্ত বস্তুর অনুভূমিক পাল্লা-",
-    "explanationLatex": "কোনো বস্তুকে u আদিবেগে অনুভূমিকের সাথে ɑ কোণে নিক্ষেপ করলে এবং যদি বস্তুটির উপর অভিকর্ষের বাধা ছাড়া অন্য কোনো বাধা ক্রিয়া না করে তবে, অনুভূমিক পাল্লা, \\mathrm{R}=\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} R=gu2sin2α"
+    "explanationLatex": "$কোনো বস্তুকে u আদিবেগে অনুভূমিকের সাথে ɑ কোণে নিক্ষেপ করলে এবং যদি বস্তুটির উপর অভিকর্ষের বাধা ছাড়া অন্য কোনো বাধা ক্রিয়া না করে তবে, অনুভূমিক পাল্লা, R=u2sin⁡2αg \\mathrm{R}=\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} R=gu2sin2α$"
   },
   {
     "id": 35,
@@ -697,7 +697,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "যদি একটি কণা V বেগে নিক্ষিপ্ত হয় এবং এর আনুভূমিক পাল্লা সর্বোচ্চ উচ্চতার 4 গুণ হয়, মান কত?",
-    "explanationLatex": "সঠিক উত্তর: (b) 45^{\\\\circ}।"
+    "explanationLatex": "$সঠিক উত্তর: (b) 45^{\\\\circ}।$"
   },
   {
     "id": 36,
@@ -709,7 +709,7 @@
       "d": "120°"
     },
     "correctAnswer": "d",
-    "explanation": "\\cos \\alpha \\Rightarrow \\cos \\alpha=-\\frac{1}{2} \\Rightarrow \\alpha=120^{\\circ} u+2ucosα",
+    "explanation": "u+2ucos⁡α⇒cos⁡α=−12⇒α=120∘ u+2 u \\cos \\alpha \\Rightarrow \\cos \\alpha=-\\frac{1}{2} \\Rightarrow \\alpha=120^{\\circ} u+2ucosα⇒cosα=−21⇒α=120∘",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243677/gst-question-images/Math_______________________-Varsity-arc_q38.png",
@@ -717,7 +717,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "স্রোতের বেগের দ্বিগুণ বেগে স্রোতের সাথে কত ডিগ্রী কোণে সাঁতার কাটলে প্রবাহমান একটি নদী সোজা পথে পাড়ি দেওয়া যাবে ?",
-    "explanationLatex": "\\cos \\alpha \\Rightarrow \\cos \\alpha=-\\frac{1}{2} \\Rightarrow \\alpha=120^{\\circ} u+2ucosα"
+    "explanationLatex": "$u+2ucos⁡α⇒cos⁡α=−12⇒α=120∘ u+2 u \\cos \\alpha \\Rightarrow \\cos \\alpha=-\\frac{1}{2} \\Rightarrow \\alpha=120^{\\circ} u+2ucosα⇒cosα=−21⇒α=120∘$"
   },
   {
     "id": 37,
@@ -769,7 +769,7 @@
       "d": "3 cm"
     },
     "correctAnswer": "a",
-    "explanation": "আরো ভেদ করবে =3\\frac{3 \\times(n-1)^{2}}{2 n-1}=\\frac{3 \\times(2-1)^{2}}{2 \\times 2-1}=1 \\mathrm{~cm} =2n−13",
+    "explanation": "আরো ভেদ করবে =3×(n−1)22n−1=3×(2−1)22×2−1=1 cm =\\frac{3 \\times(n-1)^{2}}{2 n-1}=\\frac{3 \\times(2-1)^{2}}{2 \\times 2-1}=1 \\mathrm{~cm} =2n−13×(n−1)2=2×2−13×(2−1)2=1 cm",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -789,7 +789,7 @@
       "d": "None"
     },
     "correctAnswer": "c",
-    "explanation": "মনে করি, বিন্দুতে রেলগাড়িটির বেগ যথাক্রমে কিলোমিটার/ঘন্টা \\frac{50}{60×60} = \\frac{1}{72} h60দূরত্বের ক্ষেত্রে, 1/72 ঘন্টায় ½ কিলোমিটার পথ অতিক্রম করে \\therefore \\frac{u_1+u_2}{2}=\\frac{\\frac{1}{2}}{\\frac{1}{72}} বা,\\mathrm{বা,}_{1} u_{1}+u_{2}=72 \\cdots \\cdots (i) বা,1u1+u2=72⋯⋯(i) BC দূরত্বের ক্ষেত্রে, 1/72 ঘণ্টায় ¾ কিলোমিটার পথ অতিক্রম করে বা,\\begin{array}{l} \\frac{u_2+u_{3}}{2}-\\frac{\\frac{3}{4}}{\\frac{1}{72}} \\\\ বা, u_{2}+u_{3}=108 \\ldots \\ldots \\text { (iii) } \\end{array} 2u2+u3−72143বা,u2+u3=108…… (iii) AC দূরত্বের ক্ষেত্রে \\frac{u_{1}+u_{3}}{2}=\\frac{\\frac{1}{2}+\\frac{3}{4}}{\\frac{1}{72}+\\frac{1}{72}} 2u1+u3=721+72121+43 বা, u1+u32=54বা, \\begin{array}{l} \\text { বা, } \\frac{u_{1}+u_{3}}{2}=\\frac{5}{4} \\times 16 \\\\ \\text { বা, } u_{1}+u_{3}=90 \\cdots \\cdots (iii)\\end{array} বা, 2u1+u3=45বা, বা, বা,বা, বা, \\begin{array}{l} \\text { (i) }+ \\text { (ii) }+ \\text { (iii) } \\Rightarrow \\\\ 2\\left(u_{1}+u_{2}+u_{1}\\right)=72+108+90 \\\\ \\text { বা, } 2\\left(u_{1}+u_{2}+u_{3}\\right)=270 \\\\ বা, u_{1}+u_{2}+u_{3}=135 \\cdots \\cdots (iv) \\\\ \\text { (iv) }- \\text { (ii) } \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{2}-u_{3}=135-108 \\\\ \\text { বা, } u_{1}=27 \\\\ (n)-(i) \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{1}-u_{2}=135-72 \\\\ \\text { বা, } u_{3}=63 \\\\ \\end{array} (i) + (ii) + (iii) বা, বা,বা, বা, বিন্দুতে গাড়ির বেগ 27 কিলোমিটার/ঘন্টা এবং বিন্দুতে গাড়ির বেগ 63 কিলোমিটার/ঘন্টা।",
+    "explanation": "মনে করি, A, B, C বিন্দুতে রেলগাড়িটির বেগ যথাক্রমে u1,u2,u3\\ u_1, u_2, u_3 u1,u2,u3কিলোমিটার/ঘন্টা 50s=5060×60=172h\\frac{50}{60×60} = \\frac{1}{72} h60×6050=721h AB দূরত্বের ক্ষেত্রে, 1/72 ঘন্টায় ½ কিলোমিটার পথ অতিক্রম করে ∴u1+u22=12172 \\therefore \\frac{u_1+u_2}{2}=\\frac{\\frac{1}{2}}{\\frac{1}{72}} ∴2u1+u2=72121 বা,1u1+u2=72⋯⋯(i) \\mathrm{বা,}_{1} u_{1}+u_{2}=72 \\cdots \\cdots (i) বা,1u1+u2=72⋯⋯(i) BC দূরত্বের ক্ষেত্রে, 1/72 ঘণ্টায় ¾ কিলোমিটার পথ অতিক্রম করে u2+u32−34172বা,u2+u3=108…… (iii) \\begin{array}{l} \\frac{u_2+u_{3}}{2}-\\frac{\\frac{3}{4}}{\\frac{1}{72}} \\\\ বা, u_{2}+u_{3}=108 \\ldots \\ldots \\text { (iii) } \\end{array} 2u2+u3−72143বা,u2+u3=108…… (iii) AC দূরত্বের ক্ষেত্রে u1+u32=12+34172+172 \\frac{u_{1}+u_{3}}{2}=\\frac{\\frac{1}{2}+\\frac{3}{4}}{\\frac{1}{72}+\\frac{1}{72}} 2u1+u3=721+72121+43 বা, u1+u32=54×16 বা, u1+u3=90⋯⋯(iii) \\begin{array}{l} \\text { বা, } \\frac{u_{1}+u_{3}}{2}=\\frac{5}{4} \\times 16 \\\\ \\text { বা, } u_{1}+u_{3}=90 \\cdots \\cdots (iii)\\end{array} বা, 2u1+u3=45×16 বা, u1+u3=90⋯⋯(iii) (i) + (ii) + (iii) ⇒2(u1+u2+u1)=72+108+90 বা, 2(u1+u2+u3)=270বা,u1+u2+u3=135⋯⋯(iv) (iv) − (ii) ⇒u1+u2+u3−u2−u3=135−108 বা, u1=27(n)−(i)⇒u1+u2+u3−u1−u2=135−72 বা, u3=63 \\begin{array}{l} \\text { (i) }+ \\text { (ii) }+ \\text { (iii) } \\Rightarrow \\\\ 2\\left(u_{1}+u_{2}+u_{1}\\right)=72+108+90 \\\\ \\text { বা, } 2\\left(u_{1}+u_{2}+u_{3}\\right)=270 \\\\ বা, u_{1}+u_{2}+u_{3}=135 \\cdots \\cdots (iv) \\\\ \\text { (iv) }- \\text { (ii) } \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{2}-u_{3}=135-108 \\\\ \\text { বা, } u_{1}=27 \\\\ (n)-(i) \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{1}-u_{2}=135-72 \\\\ \\text { বা, } u_{3}=63 \\\\ \\end{array} (i) + (ii) + (iii) ⇒2(u1+u2+u1)=72+108+90 বা, 2(u1+u2+u3)=270বা,u1+u2+u3=135⋯⋯(iv) (iv) − (ii) ⇒u1+u2+u3−u2−u3=135−108 বা, u1=27(n)−(i)⇒u1+u2+u3−u1−u2=135−72 বা, u3=63 A বিন্দুতে গাড়ির বেগ 27 কিলোমিটার/ঘন্টা এবং বিন্দুতে গাড়ির বেগ 63 কিলোমিটার/ঘন্টা।",
     "subject": "Math",
     "hasDiagram": true,
     "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243679/gst-question-images/Math_______________________-Varsity-arc_q42.png",
@@ -797,7 +797,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি রেলগাড়ী A হতে B পর্যন্ত 12 \\frac{1}{2} 21 কি.মি. পথ 50 সেকেন্ডে এবং B হতে C পর্যন্ত 34 \\frac{3}{4} 43 কি.মি. পথ একই সময়ে অতিক্রম করে। ত্বরণ সুষম হলে, A ও C বিন্দুতে গাড়ীর গতিবেগ কত কি.মি./ঘ?$",
-    "explanationLatex": "মনে করি, বিন্দুতে রেলগাড়িটির বেগ যথাক্রমে কিলোমিটার/ঘন্টা \\times 60=172h\\frac{50}{60\\\\times 60} = \\frac{1}{72} h60\\\\times 6050=721h AB দূরত্বের ক্ষেত্রে, \\frac{1}{72} ঘন্টায় ½ কিলোমিটার পথ অতিক্রম করে \\therefore \\frac{u_1+u_2}{2}=\\frac{\\frac{1}{2}}{\\frac{1}{72}} বা,\\mathrm{বা,}_{1} u_{1}+u_{2}=72 \\cdots \\cdots (i) বা,1u1+u2=72⋯⋯(i) BC দূরত্বের ক্ষেত্রে, \\frac{1}{72} ঘণ্টায় ¾ কিলোমিটার পথ অতিক্রম করে বা,\\begin{array}{l} \\frac{u_2+u_{3}}{2}-\\frac{\\frac{3}{4}}{\\frac{1}{72}} \\\\ বা, u_{2}+u_{3}=108 \\ldots \\ldots \\text { (iii) } \\end{array} 2u2+u3−72143বা,u2+u3=108…… (iii) AC দূরত্বের ক্ষেত্রে \\frac{u_{1}+u_{3}}{2}=\\frac{\\frac{1}{2}+\\frac{3}{4}}{\\frac{1}{72}+\\frac{1}{72}} 2u1+u3=721+72121+43 বা, u1+u32=54\\\\times 16 বা, u1+u3=90⋯⋯(iii) \\begin{array}{l} \\text { বা, } \\frac{u_{1}+u_{3}}{2}=\\frac{5}{4} \\times 16 \\\\ \\text { বা, } u_{1}+u_{3}=90 \\cdots \\cdots (iii)\\end{array} বা, 2u1+u3=45\\\\times 16 বা, u1+u3=90⋯⋯(iii) (i) + (ii) + (iii) বা, বা,বা, বা, \\begin{array}{l} \\text { (i) }+ \\text { (ii) }+ \\text { (iii) } \\Rightarrow \\\\ 2\\left(u_{1}+u_{2}+u_{1}\\right)=72+108+90 \\\\ \\text { বা, } 2\\left(u_{1}+u_{2}+u_{3}\\right)=270 \\\\ বা, u_{1}+u_{2}+u_{3}=135 \\cdots \\cdots (iv) \\\\ \\text { (iv) }- \\text { (ii) } \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{2}-u_{3}=135-108 \\\\ \\text { বা, } u_{1}=27 \\\\ (n)-(i) \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{1}-u_{2}=135-72 \\\\ \\text { বা, } u_{3}=63 \\\\ \\end{array} (i) + (ii) + (iii) বা, বা,বা, বা, বিন্দুতে গাড়ির বেগ 27 কিলোমিটার/ঘন্টা এবং বিন্দুতে গাড়ির বেগ 63 কিলোমিটার/ঘন্টা।"
+    "explanationLatex": "$মনে করি, A, B, C বিন্দুতে রেলগাড়িটির বেগ যথাক্রমে u1,u2,u3\\ u_1, u_2, u_3 u1,u2,u3কিলোমিটার/ঘন্টা 50s=5060\\\\times 60=172h\\frac{50}{60\\\\times 60} = \\frac{1}{72} h60\\\\times 6050=721h AB দূরত্বের ক্ষেত্রে, \\frac{1}{72} ঘন্টায় ½ কিলোমিটার পথ অতিক্রম করে ∴u1+u22=12172 \\therefore \\frac{u_1+u_2}{2}=\\frac{\\frac{1}{2}}{\\frac{1}{72}} ∴2u1+u2=72121 বা,1u1+u2=72⋯⋯(i) \\mathrm{বা,}_{1} u_{1}+u_{2}=72 \\cdots \\cdots (i) বা,1u1+u2=72⋯⋯(i) BC দূরত্বের ক্ষেত্রে, \\frac{1}{72} ঘণ্টায় ¾ কিলোমিটার পথ অতিক্রম করে u2+u32−34172বা,u2+u3=108…… (iii) \\begin{array}{l} \\frac{u_2+u_{3}}{2}-\\frac{\\frac{3}{4}}{\\frac{1}{72}} \\\\ বা, u_{2}+u_{3}=108 \\ldots \\ldots \\text { (iii) } \\end{array} 2u2+u3−72143বা,u2+u3=108…… (iii) AC দূরত্বের ক্ষেত্রে u1+u32=12+34172+172 \\frac{u_{1}+u_{3}}{2}=\\frac{\\frac{1}{2}+\\frac{3}{4}}{\\frac{1}{72}+\\frac{1}{72}} 2u1+u3=721+72121+43 বা, u1+u32=54\\\\times 16 বা, u1+u3=90⋯⋯(iii) \\begin{array}{l} \\text { বা, } \\frac{u_{1}+u_{3}}{2}=\\frac{5}{4} \\times 16 \\\\ \\text { বা, } u_{1}+u_{3}=90 \\cdots \\cdots (iii)\\end{array} বা, 2u1+u3=45\\\\times 16 বা, u1+u3=90⋯⋯(iii) (i) + (ii) + (iii) ⇒2(u1+u2+u1)=72+108+90 বা, 2(u1+u2+u3)=270বা,u1+u2+u3=135⋯⋯(iv) (iv) − (ii) ⇒u1+u2+u3−u2−u3=135−108 বা, u1=27(n)−(i)⇒u1+u2+u3−u1−u2=135−72 বা, u3=63 \\begin{array}{l} \\text { (i) }+ \\text { (ii) }+ \\text { (iii) } \\Rightarrow \\\\ 2\\left(u_{1}+u_{2}+u_{1}\\right)=72+108+90 \\\\ \\text { বা, } 2\\left(u_{1}+u_{2}+u_{3}\\right)=270 \\\\ বা, u_{1}+u_{2}+u_{3}=135 \\cdots \\cdots (iv) \\\\ \\text { (iv) }- \\text { (ii) } \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{2}-u_{3}=135-108 \\\\ \\text { বা, } u_{1}=27 \\\\ (n)-(i) \\Rightarrow \\\\ u_{1}+u_{2}+u_{3}-u_{1}-u_{2}=135-72 \\\\ \\text { বা, } u_{3}=63 \\\\ \\end{array} (i) + (ii) + (iii) ⇒2(u1+u2+u1)=72+108+90 বা, 2(u1+u2+u3)=270বা,u1+u2+u3=135⋯⋯(iv) (iv) − (ii) ⇒u1+u2+u3−u2−u3=135−108 বা, u1=27(n)−(i)⇒u1+u2+u3−u1−u2=135−72 বা, u3=63 A বিন্দুতে গাড়ির বেগ 27 কিলোমিটার/ঘন্টা এবং বিন্দুতে গাড়ির বেগ 63 কিলোমিটার/ঘন্টা।$"
   },
   {
     "id": 41,
@@ -809,7 +809,7 @@
       "d": "𝑅 = 3 2 𝐻 R=3 2 H"
     },
     "correctAnswer": "c",
-    "explanation": "\\begin{array}{l} tan\\theta = \\frac{4H}{R} \\\\ tan 30 ^{\\circ} = \\frac{4H}{R}[\\because R = 4\\sqrt{3}H]\\\\ \\boxed{\\frac{1}{\\sqrt{3}} = \\frac{4H}{R}}\\end{array}tanθ=R4Htan30∘=R4H[",
+    "explanation": "tanθ=4HRtan30∘=4HR[∵R=43H]13=4HR\\begin{array}{l} tan\\theta = \\frac{4H}{R} \\\\ tan 30 ^{\\circ} = \\frac{4H}{R}[\\because R = 4\\sqrt{3}H]\\\\ \\boxed{\\frac{1}{\\sqrt{3}} = \\frac{4H}{R}}\\end{array}tanθ=R4Htan30∘=R4H[∵R=43H]31=R4H",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -817,7 +817,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$যদি H সর্বোচ্চ উচ্চতা এবং R আনুভূমিক পাল্লা হয়, তবে একটি বস্তুকে ভূমির সাথে 30^{\\\\circ} কোণে নিক্ষেপ করা হলে নিচের কোনটি সঠিক? (If HHH is the maximum height and RRR is the horizontal range, which one of the following is true if an object is thrown at an angle 30∘30^{\\circ}30∘ with the ground?)$",
-    "explanationLatex": "tan\\\\theta =4HRtan30∘=4HR[\\begin{array}{l} tan\\theta = \\frac{4H}{R} \\\\ tan 30 ^{\\circ} = \\frac{4H}{R}[\\because R = 4\\sqrt{3}H]\\\\ \\boxed{\\frac{1}{\\sqrt{3}} = \\frac{4H}{R}}\\end{array}tan\\\\theta =R4Htan30∘=R4H["
+    "explanationLatex": "$tan\\\\theta =4HRtan30∘=4HR[∵R=43H]13=4HR\\begin{array}{l} tan\\theta = \\frac{4H}{R} \\\\ tan 30 ^{\\circ} = \\frac{4H}{R}[\\because R = 4\\sqrt{3}H]\\\\ \\boxed{\\frac{1}{\\sqrt{3}} = \\frac{4H}{R}}\\end{array}tan\\\\theta =R4Htan30∘=R4H[∵R=43H]31=R4H$"
   },
   {
     "id": 42,
@@ -849,7 +849,7 @@
       "d": "600"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, আনুভূমিক পাল্লা,\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} =gu2sin2α বেগ ও অভিকর্ষজ ত্বরণ ধ্রুব হলে, \\therefore \\mathrm{R} \\propto \\sin 2 \\alpha অর্থাৎ \\alpha 2α এর মান যত বড় হবে পাল্লা এর মান তত বড় হবে। আবার,sin এর মান +১ থেকে -১ এর মধ্যে হয়ে থাকে। sin এর সর্বোচ্চ মান হলো+\\alpha)=1 sin(2α)=1 বা, sin(2α)=sin90°\\ sin(2\\alpha) =sin90° sin(2α)=sin90° বা, 2α=90°\\ 2\\alpha=90° 2α=90° বা α=45° \\alpha=45° α=45°হলে R \\mathrm{R} R এর মান সর্বোচ্চ হবে।",
+    "explanation": "আমরা জানি, আনুভূমিক পাল্লা,R =u2sin⁡2αg =\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} =gu2sin2α বেগ ও অভিকর্ষজ ত্বরণ ধ্রুব হলে, ∴R∝sin⁡2α \\therefore \\mathrm{R} \\propto \\sin 2 \\alpha ∴R∝sin2α অর্থাৎ sin 2α\\ 2 \\alpha 2α এর মান যত বড় হবে পাল্লা এর মান তত বড় হবে। আবার,sin এর মান +১ থেকে -১ এর মধ্যে হয়ে থাকে। sin এর সর্বোচ্চ মান হলো+1। sin(2α)=1\\ sin(2\\alpha)=1 sin(2α)=1 বা, sin(2α)=sin90°\\ sin(2\\alpha) =sin90° sin(2α)=sin90° বা, 2α=90°\\ 2\\alpha=90° 2α=90° বা α=45° \\alpha=45° α=45°হলে R \\mathrm{R} R এর মান সর্বোচ্চ হবে।",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -857,7 +857,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "আনুভূমিকের সাথে কত কোণে নিক্ষেপ করলে একটি নিক্ষিপ্ত বস্তু সর্বাধিক অনুভূমিক দূরত্ব অতিক্রম করবে?",
-    "explanationLatex": "আমরা জানি, আনুভূমিক পাল্লা,\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} =gu2sin2α বেগ ও অভিকর্ষজ ত্বরণ ধ্রুব হলে, \\propto sin\\therefore \\mathrm{R} \\propto \\sin 2 \\alpha \\propto sin2α অর্থাৎ \\alpha 2α এর মান যত বড় হবে পাল্লা এর মান তত বড় হবে। আবার,sin এর মান +১ থেকে -১ এর মধ্যে হয়ে থাকে। sin এর সর্বোচ্চ মান হলো+\\alpha)=1 sin(2α)=1 বা, sin(2α)=sin90^{\\\\circ}\\ sin(2\\alpha) =sin90^{\\\\circ} sin(2α)=sin90^{\\\\circ} বা, 2α=90^{\\\\circ}\\ 2\\alpha=90^{\\\\circ} 2α=90^{\\\\circ} বা α=45^{\\\\circ} \\alpha=45^{\\\\circ} α=45^{\\\\circ}হলে R \\mathrm{R} R এর মান সর্বোচ্চ হবে।"
+    "explanationLatex": "$আমরা জানি, আনুভূমিক পাল্লা,R =u2sin⁡2αg =\\frac{\\mathrm{u}^{2} \\sin 2 \\alpha}{\\mathrm{g}} =gu2sin2α বেগ ও অভিকর্ষজ ত্বরণ ধ্রুব হলে, ∴R\\\\propto sin⁡2α \\therefore \\mathrm{R} \\propto \\sin 2 \\alpha ∴R\\\\propto sin2α অর্থাৎ sin 2α\\ 2 \\alpha 2α এর মান যত বড় হবে পাল্লা এর মান তত বড় হবে। আবার,sin এর মান +১ থেকে -১ এর মধ্যে হয়ে থাকে। sin এর সর্বোচ্চ মান হলো+1। sin(2α)=1\\ sin(2\\alpha)=1 sin(2α)=1 বা, sin(2α)=sin90^{\\\\circ}\\ sin(2\\alpha) =sin90^{\\\\circ} sin(2α)=sin90^{\\\\circ} বা, 2α=90^{\\\\circ}\\ 2\\alpha=90^{\\\\circ} 2α=90^{\\\\circ} বা α=45^{\\\\circ} \\alpha=45^{\\\\circ} α=45^{\\\\circ}হলে R \\mathrm{R} R এর মান সর্বোচ্চ হবে।$"
   },
   {
     "id": 44,
@@ -869,7 +869,7 @@
       "d": "4 𝑣 2 5 𝑔 5g 4v 2"
     },
     "correctAnswer": "d",
-    "explanation": "দেওয়া আছে, নিক্ষিপ্ত বেগ=v আনুভূমিক পাল্লা= R বৃহত্তম উচ্চতা=H প্রশ্নমতে, R=2H আমরানজানি, tan\\tan\\alpha=\\frac{4H}{R}=\\frac{4H}{2H}=2\\\\ \\therefore\\tan\\alpha=2\\ ;\\sin2\\alpha=\\frac{2\\tan\\alpha}{1+\\tan^2\\alpha} \\\\ =\\frac{2×2}{1+2 ²}=\\frac{4}{5}\\therefore R=\\frac{v^2\\sin\\left(2\\alpha\\right)}{g}=\\frac{4v^2}{5g}tanα=R4H=2H4H=2সুতরাং আনুভূমিক পাল্লা = 4v25g\\frac{4 v ²}{5g}5g4v2",
+    "explanation": "দেওয়া আছে, নিক্ষিপ্ত বেগ=v আনুভূমিক পাল্লা= R বৃহত্তম উচ্চতা=H প্রশ্নমতে, R=2H আমরানজানি, tan⁡α=4HR=4H2H=2∴tan⁡α=2 ;sin⁡2α=2tan⁡α1+tan⁡2α=2×21+22=45∴R=v2sin⁡(2α)g=4v25g\\tan\\alpha=\\frac{4H}{R}=\\frac{4H}{2H}=2\\\\ \\therefore\\tan\\alpha=2\\ ;\\sin2\\alpha=\\frac{2\\tan\\alpha}{1+\\tan^2\\alpha} \\\\ =\\frac{2×2}{1+2 ²}=\\frac{4}{5}\\therefore R=\\frac{v^2\\sin\\left(2\\alpha\\right)}{g}=\\frac{4v^2}{5g}tanα=R4H=2H4H=2∴tanα=2 ;sin2α=1+tan2α2tanα=1+222×2=54∴R=gv2sin(2α)=5g4v2 সুতরাং আনুভূমিক পাল্লা = 4v25g\\frac{4 v ²}{5g}5g4v2",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -877,7 +877,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি কণা v বেগে নিক্ষিপ্ত হলে যদি তার আনুভূমিক পাল্লা বৃহত্তম উচ্চতার দ্বিগুণ হয়, তবে তার আনুভূমিক পাল্লা-",
-    "explanationLatex": "দেওয়া আছে, নিক্ষিপ্ত বেগ=v আনুভূমিক পাল্লা= R বৃহত্তম উচ্চতা=H প্রশ্নমতে, R=2H আমরানজানি, tan\\times 21+22=45\\tan\\alpha=\\frac{4H}{R}=\\frac{4H}{2H}=2\\\\ \\therefore\\tan\\alpha=2\\ ;\\sin2\\alpha=\\frac{2\\tan\\alpha}{1+\\tan^2\\alpha} \\\\ =\\frac{2\\\\times 2}{1+2 ²}=\\frac{4}{5}\\therefore R=\\frac{v^2\\sin\\left(2\\alpha\\right)}{g}=\\frac{4v^2}{5g}tanα=R4H=2H4H=2\\times 2=54সুতরাং আনুভূমিক পাল্লা = 4v25g\\frac{4 v ²}{5g}5g4v2"
+    "explanationLatex": "$দেওয়া আছে, নিক্ষিপ্ত বেগ=v আনুভূমিক পাল্লা= R বৃহত্তম উচ্চতা=H প্রশ্নমতে, R=2H আমরানজানি, tan⁡α=4HR=4H2H=2∴tan⁡α=2 ;sin⁡2α=2tan⁡α1+tan⁡2α=2\\\\times 21+22=45∴R=v2sin⁡(2α)g=4v25g\\tan\\alpha=\\frac{4H}{R}=\\frac{4H}{2H}=2\\\\ \\therefore\\tan\\alpha=2\\ ;\\sin2\\alpha=\\frac{2\\tan\\alpha}{1+\\tan^2\\alpha} \\\\ =\\frac{2\\\\times 2}{1+2 ²}=\\frac{4}{5}\\therefore R=\\frac{v^2\\sin\\left(2\\alpha\\right)}{g}=\\frac{4v^2}{5g}tanα=R4H=2H4H=2∴tanα=2 ;sin2α=1+tan2α2tanα=1+222\\\\times 2=54∴R=gv2sin(2α)=5g4v2 সুতরাং আনুভূমিক পাল্লা = 4v25g\\frac{4 v ²}{5g}5g4v2$"
   },
   {
     "id": 45,
@@ -897,7 +897,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$15 kg ভরের একটি গােলা 6.56 ft দীর্ঘ একটি কামানের নলের মুখ থেকে 4 \\frac{m}{s} বেগে নির্গত হয়. গোলকটির উপর প্রযুক্ত বলের মান কত N?$",
-    "explanationLatex": "দেওয়া আছে, ভর,আদিবেগ,u=0 শেষবেগ,v=4 \\frac{m}{s} সরণ,s=6.56 ft=2 m আমরা জানি, v বা,(4) \\times a\\\\times 2 বা,16=4a সুতরাং a=4 \\frac{m}{s} ² আবার, \\times 4)=60 N"
+    "explanationLatex": "$দেওয়া আছে, ভর,m=15 kg আদিবেগ,u=0 শেষবেগ,v=4 \\frac{m}{s} সরণ,s=6.56 ft=2 m আমরা জানি, v ²= u ²+2 a s বা,(4) ²=2\\\\times  a\\\\times 2 বা,16=4a সুতরাং a=4 \\frac{m}{s} ² আবার, F=ma=(15\\\\times 4)=60 N$"
   },
   {
     "id": 46,
@@ -909,7 +909,7 @@
       "d": "2.5 ms-2"
     },
     "correctAnswer": "c",
-    "explanation": "V\\frac{v^2-u^2}{2s}2sv2−u2 =(252−52)2⋅100=3=\\frac{\\left(25^2-5^2\\right)}{2\\cdot100}=3=2⋅100(252−52)=3 m/s²",
+    "explanation": "V²=u²+2as =>a=v2−u22s\\frac{v^2-u^2}{2s}2sv2−u2 =(252−52)2⋅100=3=\\frac{\\left(25^2-5^2\\right)}{2\\cdot100}=3=2⋅100(252−52)=3 m/s²",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -917,7 +917,7 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "একটি গাড়ি 5 ms-1 বেগে সুষম ত্বরণে সোজা পথে চলে 100 m. দূরত্ব অতিক্রম করার পর বেগ 25 ms-1 হলে গাড়িটির ত্বরণ কত ?",
-    "explanationLatex": "V\\frac{v^2-u^2}{2s}2sv2−u2 =(252−52)2⋅100=3=\\frac{\\left(25^2-5^2\\right)}{2\\cdot100}=3=2⋅100(252−52)=3 m/s²"
+    "explanationLatex": "$V²=u²+2as =>a=v2−u22s\\frac{v^2-u^2}{2s}2sv2−u2 =(252−52)2⋅100=3=\\frac{\\left(25^2-5^2\\right)}{2\\cdot100}=3=2⋅100(252−52)=3 m/s²$"
   },
   {
     "id": 47,
@@ -929,7 +929,7 @@
       "d": "0.48 ms-1"
     },
     "correctAnswer": "c",
-    "explanation": "২ সেকেন্ড এ বস্তুর বেগ৫ সেকেন্ডে বস্তুর বেগ ২ \\ সেকেন্ড \\ এ \\ বস্তুর \\ বেগ \\times 2² \\\\ ৫ \\ সেকেন্ ডে \\ বস্তুর \\ বেগ \\ \\times 5²\\\\ \\therefore \\Delta \\mathrm{V}=0.02 \\times\\left(5^{2}-2^{2}\\right)=0.42 \\mathrm{~ms}^{-1} ২ সেকেন্ড এ বস্তুর বেগ৫ সেকেন্ডে বস্তুর বেগ",
+    "explanation": "২ সেকেন্ড এ বস্তুর বেগv2=0.1+0.02×22৫ সেকেন্ডে বস্তুর বেগ v5=0.1+0.02×52∴ΔV=0.02×(52−22)=0.42 ms−1 ২ \\ সেকেন্ড \\ এ \\ বস্তুর \\ বেগ v_2= 0.1+0.02\\times 2² \\\\ ৫ \\ সেকেন্ ডে \\ বস্তুর \\ বেগ \\ v_5 = 0.1 +0.02\\times 5²\\\\ \\therefore \\Delta \\mathrm{V}=0.02 \\times\\left(5^{2}-2^{2}\\right)=0.42 \\mathrm{~ms}^{-1} ২ সেকেন্ড এ বস্তুর বেগv2=0.1+0.02×22৫ সেকেন্ডে বস্তুর বেগ v5=0.1+0.02×52∴ΔV=0.02×(52−22)=0.42 ms−1",
     "subject": "Math",
     "hasDiagram": false,
     "questionImage": null,
@@ -937,6 +937,6 @@
     "svg_code": "",
     "topic": "",
     "questionLatex": "$একটি বস্তুর বেগকে vx= 0.10 ms-1+ (0.02 ms-3)t2 দ্বারা প্রকাশ করা যায়। 2 সেকেন্ড ও 5 সেকেন্ডের মধ্যে বস্তুর বেগের পার্থক্য কত হবে?$",
-    "explanationLatex": "২ সেকেন্ড এ বস্তুর বেগ\\times 22৫ সেকেন্ডে বস্তুর বেগ \\times 52∴\\\\Delta V=0.02\\\\times (52−22)=0.42 ms−1 ২ \\ সেকেন্ড \\ এ \\ বস্তুর \\ বেগ \\times 2² \\\\ ৫ \\ সেকেন্ ডে \\ বস্তুর \\ বেগ \\ \\times 5²\\\\ \\therefore \\Delta \\mathrm{V}=0.02 \\times\\left(5^{2}-2^{2}\\right)=0.42 \\mathrm{~ms}^{-1} ২ সেকেন্ড এ বস্তুর বেগ\\times 22৫ সেকেন্ডে বস্তুর বেগ \\times 52∴\\\\Delta V=0.02\\\\times (52−22)=0.42 ms−1"
+    "explanationLatex": "$২ সেকেন্ড এ বস্তুর বেগv2=0.1+0.02\\\\times 22৫ সেকেন্ডে বস্তুর বেগ v5=0.1+0.02\\\\times 52∴\\\\Delta V=0.02\\\\times (52−22)=0.42 ms−1 ২ \\ সেকেন্ড \\ এ \\ বস্তুর \\ বেগ v_2= 0.1+0.02\\times 2² \\\\ ৫ \\ সেকেন্ ডে \\ বস্তুর \\ বেগ \\ v_5 = 0.1 +0.02\\times 5²\\\\ \\therefore \\Delta \\mathrm{V}=0.02 \\times\\left(5^{2}-2^{2}\\right)=0.42 \\mathrm{~ms}^{-1} ২ সেকেন্ড এ বস্তুর বেগv2=0.1+0.02\\\\times 22৫ সেকেন্ডে বস্তুর বেগ v5=0.1+0.02\\\\times 52∴\\\\Delta V=0.02\\\\times (52−22)=0.42 ms−1$"
   }
 ]
