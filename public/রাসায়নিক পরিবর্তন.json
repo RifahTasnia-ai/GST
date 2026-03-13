@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "question": "একটি উভমুখী বিক্রিয়ার সাম্যাবস্থা কোন নিয়ামকের উপর নির্ভরশীল নয়?",
+    "options": {
+      "a": "উপাদানের ঘনমাত্রা",
+      "b": "তাপমাত্রা",
+      "c": "চাপ",
+      "d": "pH"
+    },
+    "correctAnswer": "d",
+    "explanation": "pH দ্বারা উভমুখী বিক্রিয়ার সাম্যাবস্থা নির্ভরশীল নয়। লা শাতে লিয়ারের নীতি অনুযায়ী তাপ, চাপ ও ঘনমাত্রা হচ্ছে সাম্যবস্থার নিয়ামক।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি উভমুখী বিক্রিয়ার সাম্যাবস্থা কোন নিয়ামকের উপর নির্ভরশীল নয়?",
+    "explanationLatex": "pH দ্বারা উভমুখী বিক্রিয়ার সাম্যাবস্থা নির্ভরশীল নয়। লা শাতে লিয়ারের নীতি অনুযায়ী তাপ, চাপ ও ঘনমাত্রা হচ্ছে সাম্যবস্থার নিয়ামক।"
+  },
+  {
+    "id": 2,
+    "question": "তাপোৎপাদী বিক্রিয়ার ক্ষেত্রে কোনটি সত্য?",
+    "options": {
+      "a": "বিক্রিয়কের অভ্যন্তরীণ শক্তি > উৎপাদের অভ্যন্তরীণ শক্তি",
+      "b": "বিক্রিয়কের অভ্যন্তরীণ শক্তি < উৎপাদের অভ্যন্তরীণ শক্তি",
+      "c": "বিক্রিয়কের অভ্যন্তরীণ শক্তি = উৎপাদের অভ্যন্তরীণ শক্তি",
+      "d": "বিক্রিয়কের অভ্যন্তরীণ শক্তি ≤ উৎপাদের অভ্যন্তরীণ শক্তি"
+    },
+    "correctAnswer": "a",
+    "explanation": "রাসায়নিক পরিবর্তন দুধরনের হতে পারে - তাপোৎপাদী এবং তাপহারী। তাপোৎপাদী বিক্রিয়ায় প্রাপ্ত উৎপাদের অভ্যন্তরীণ শক্তি বিক্রিয়া স্থাপনকারী উপাদানের অভ্যন্তরীণ শক্তির চেয়ে কম। তাপহারী বিক্রিয়ায়, এটি উল্টো।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "তাপোৎপাদী বিক্রিয়ার ক্ষেত্রে কোনটি সত্য?",
+    "explanationLatex": "রাসায়নিক পরিবর্তন দুধরনের হতে পারে - তাপোৎপাদী এবং তাপহারী। তাপোৎপাদী বিক্রিয়ায় প্রাপ্ত উৎপাদের অভ্যন্তরীণ শক্তি বিক্রিয়া স্থাপনকারী উপাদানের অভ্যন্তরীণ শক্তির চেয়ে কম। তাপহারী বিক্রিয়ায়, এটি উল্টো।"
+  },
+  {
+    "id": 3,
+    "question": "কয়লার দহনের ফলে এর মধ্যে উপস্থিত কোন যৌগ বাষ্পরূপে বায়ুতে ছড়িয়ে পড়ে?",
+    "options": {
+      "a": "CO₂",
+      "b": "O2",
+      "c": "Pb",
+      "d": "H2"
+    },
+    "correctAnswer": "a",
+    "explanation": "কয়লা প্ল্যান্টগুলি হল কার্বন ডাই অক্সাইড নির্গমনের দেশের প্রধান উৎস, বিশ্ব উষ্ণায়ণের প্রাথমিক কারণ। কয়লা পোড়ালে সালফার ডাই অক্সাইড গ্যাস নির্গত হয়। এটি একটি অত্যন্ত ক্ষয়কারী এবং শ্বাসরোধকারী গ্যাস। উপরন্তু, গ্যাসোলিন ইঞ্জিন নাইট্রোজেন অক্সাইড গ্যাস নির্গত করে। সালফার এবং নাইট্রোজেন অক্সাইড বৃষ্টির জলে দ্রবীভূত হয় এবং অ্যাসিড গঠনে বিক্রিয়া করে। এই ধরণের বৃষ্টি অ্যাসিড বৃষ্টি নামে পরিচিত।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কয়লার দহনের ফলে এর মধ্যে উপস্থিত কোন যৌগ বাষ্পরূপে বায়ুতে ছড়িয়ে পড়ে?",
+    "explanationLatex": "কয়লা প্ল্যান্টগুলি হল কার্বন ডাই অক্সাইড নির্গমনের দেশের প্রধান উৎস, বিশ্ব উষ্ণায়ণের প্রাথমিক কারণ। কয়লা পোড়ালে সালফার ডাই অক্সাইড গ্যাস নির্গত হয়। এটি একটি অত্যন্ত ক্ষয়কারী এবং শ্বাসরোধকারী গ্যাস। উপরন্তু, গ্যাসোলিন ইঞ্জিন নাইট্রোজেন অক্সাইড গ্যাস নির্গত করে। সালফার এবং নাইট্রোজেন অক্সাইড বৃষ্টির জলে দ্রবীভূত হয় এবং অ্যাসিড গঠনে বিক্রিয়া করে। এই ধরণের বৃষ্টি অ্যাসিড বৃষ্টি নামে পরিচিত।"
+  },
+  {
+    "id": 4,
+    "question": "অধিকাংশ রাসায়নিক বিক্রিয়া একটি-",
+    "options": {
+      "a": "একমুখি বিক্রিয়া",
+      "b": "উভমুখী বিক্রিয়া",
+      "c": "নিউক্লিয়ার বিক্রিয়া",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "অধিকাংশ রাসায়নিক বিক্রিয়া একটি উভমুখী (reversible) বিক্রিয়া। অর্থাৎ, বিক্রিয়াটি একটি নির্দিষ্ট শর্তে সামনে এবং পিছনে উভয় দিকেই চলতে পারে।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "অধিকাংশ রাসায়নিক বিক্রিয়া একটি-",
+    "explanationLatex": "অধিকাংশ রাসায়নিক বিক্রিয়া একটি উভমুখী (reversible) বিক্রিয়া। অর্থাৎ, বিক্রিয়াটি একটি নির্দিষ্ট শর্তে সামনে এবং পিছনে উভয় দিকেই চলতে পারে।"
+  },
+  {
+    "id": 5,
+    "question": "গ্রিন কেমেস্ট্রির বারটি নীতির মধ্যে নিচের কোনটি সঠিক নয়?",
+    "options": {
+      "a": "প্রাকৃতিক কেমিক্যাল পরিকল্পনা",
+      "b": "নিরাপদ দ্রাবক ব্যবহার",
+      "c": "যথাসময়ে দূষণ নিয়ন্ত্রণ",
+      "d": "ন্যূনতম ঝুঁকির পদ্ধতির ব্যবহার"
+    },
+    "correctAnswer": "a",
+    "explanation": "গ্রিন ক‍্যামিস্ট্রির ১২ টি নীতি হলো- ১) বর্জ‍্য পদার্থ রোধকরন ২) সর্বোচ্চ এটম ইকোনমি ৩) নূন‍্যতম ঝুঁকির পদ্ধতি ব‍্যবহার ৪) নিরাপদ ক‍্যামিক‍্যাল পরিকল্পনা ৫) নিরাপদ দ্রাবক ব‍্যবহার ৬) বিক্রিয়ার শক্তি দক্ষতা পরিকল্পনা ৭) নবায়নযোগ‍্য কাঁচামাল ব‍্যবহার ৮) নূন‍্যতম উপজাতক ৯) প্রভাবন প্রয়োগ ১০) প্রাকৃতিক রুপান্তর পরিকল্পনা ১১) যথাসময়ে দূষন নিয়ন্ত্রণ ১২) দূর্ঘটনা প্রতিরোধ।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গ্রিন কেমেস্ট্রির বারটি নীতির মধ্যে নিচের কোনটি সঠিক নয়?",
+    "explanationLatex": "গ্রিন ক‍্যামিস্ট্রির ১২ টি নীতি হলো- ১) বর্জ‍্য পদার্থ রোধকরন ২) সর্বোচ্চ এটম ইকোনমি ৩) নূন‍্যতম ঝুঁকির পদ্ধতি ব‍্যবহার ৪) নিরাপদ ক‍্যামিক‍্যাল পরিকল্পনা ৫) নিরাপদ দ্রাবক ব‍্যবহার ৬) বিক্রিয়ার শক্তি দক্ষতা পরিকল্পনা ৭) নবায়নযোগ‍্য কাঁচামাল ব‍্যবহার ৮) নূন‍্যতম উপজাতক ৯) প্রভাবন প্রয়োগ ১০) প্রাকৃতিক রুপান্তর পরিকল্পনা ১১) যথাসময়ে দূষন নিয়ন্ত্রণ ১২) দূর্ঘটনা প্রতিরোধ।"
+  },
+  {
+    "id": 6,
+    "question": "CaCO3 = CaO + CO2; এই বিক্রিয়ায় নিম্নের কত ডিগ্রি সেন্টিগ্রেড তাপমাত্রা প্রয়োজন হয়?",
+    "options": {
+      "a": "450",
+      "b": "650",
+      "c": "550",
+      "d": "350"
+    },
+    "correctAnswer": "c",
+    "explanation": "বিক্রিয়াটির জন্য প্রয়োজ়নীয় তাপমাত্রা হল 550∘C 550^{\\circ} \\mathrm{C} 550∘C । বিক্রিয়াটি হলো,CaCO3( s)⇄550∘CCaO(s)+CO2( g) \\mathrm{CaCO}_{3}(\\mathrm{~s}) \\stackrel{550^{\\circ} \\mathrm{C}}{\\rightleftarrows} \\mathrm{CaO}(\\mathrm{s})+\\mathrm{CO}_{2}(\\mathrm{~g}) CaCO3( s)⇄550∘CCaO(s)+CO2( g)",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$CaCO3 = CaO + CO2; এই বিক্রিয়ায় নিম্নের কত ডিগ্রি সেন্টিগ্রেড তাপমাত্রা প্রয়োজন হয়?$",
+    "explanationLatex": "$বিক্রিয়াটির জন্য প্রয়োজ়নীয় তাপমাত্রা হল 550∘C 550^{\\circ} \\mathrm{C} 550∘C । বিক্রিয়াটি হলো,CaCO3( s)⇄550∘CCaO(s)+CO2( g) \\mathrm{CaCO}_{3}(\\mathrm{~s}) \\stackrel{550^{\\circ} \\mathrm{C}}{\\rightleftarrows} \\mathrm{CaO}(\\mathrm{s})+\\mathrm{CO}_{2}(\\mathrm{~g}) CaCO3( s)⇄550∘CCaO(s)+CO2( g)$"
+  },
+  {
+    "id": 7,
+    "question": "C2F4Cl2 যৌগটির নাম কী?",
+    "options": {
+      "a": "ফ্রিয়ন-14",
+      "b": "ফ্রিয়ন-114",
+      "c": "ফ্রিয়ন-21",
+      "d": "ফ্রিয়ন-11"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244205/gst-question-images/__________________q7.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "C2F4Cl2 যৌগটির নাম কী?",
+    "explanationLatex": ""
+  },
+  {
+    "id": 8,
+    "question": "কোনটি রাসায়নিক পরিবর্তন নয়?",
+    "options": {
+      "a": "বরফ গলা",
+      "b": "লোহায় মরিচা ধরা",
+      "c": "মোমবাতি জ্বাল",
+      "d": "পেট্রোল পোড়া"
+    },
+    "correctAnswer": "a",
+    "explanation": "রাসায়নিক পরিবর্তন: যে পরিবর্তনে পদার্থের রাসায়নিক গঠনের পরিবর্তন হয় তাকে রাসায়নিক পরিবর্তন বলে। যেমন: লোহায় মরিচা পড়া, পেট্রোল পোড়, মোমবাতি জ্বলা । ভৌত পরিবর্তন: যে পরিবর্তনে পদার্থের ভৌত গঠনের পরিবন হয় তাকে ভৌত পরিবর্তন বলে । যেমন: বরফ গলা।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি রাসায়নিক পরিবর্তন নয়?",
+    "explanationLatex": "রাসায়নিক পরিবর্তন: যে পরিবর্তনে পদার্থের রাসায়নিক গঠনের পরিবর্তন হয় তাকে রাসায়নিক পরিবর্তন বলে। যেমন: লোহায় মরিচা পড়া, পেট্রোল পোড়, মোমবাতি জ্বলা । ভৌত পরিবর্তন: যে পরিবর্তনে পদার্থের ভৌত গঠনের পরিবন হয় তাকে ভৌত পরিবর্তন বলে । যেমন: বরফ গলা।"
+  },
+  {
+    "id": 9,
+    "question": "রাসায়নিক বিক্রিয়ায় বিক্রিয়ক ও উৎপাদের মধ্যে মুল পরিবর্তন ঘটে কোনটি?",
+    "options": {
+      "a": "অভ্যন্তরীন শক্তি",
+      "b": "স্থিতি শক্তি",
+      "c": "গতি শক্তি",
+      "d": "বন্ধন শক্তি"
+    },
+    "correctAnswer": "a",
+    "explanation": "রাসায়নিক বিক্রিয়ায় বিক্রিয়ক ও উৎপাদের স্থিতি শক্তি,গতিশক্তি ইত্যাদি অপরিবর্তিত থাকে । শুধু অভ্যন্তরীন শক্তির মধ্যে মুল পরিবর্তন ঘটে ।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "রাসায়নিক বিক্রিয়ায় বিক্রিয়ক ও উৎপাদের মধ্যে মুল পরিবর্তন ঘটে কোনটি?",
+    "explanationLatex": "রাসায়নিক বিক্রিয়ায় বিক্রিয়ক ও উৎপাদের স্থিতি শক্তি,গতিশক্তি ইত্যাদি অপরিবর্তিত থাকে । শুধু অভ্যন্তরীন শক্তির মধ্যে মুল পরিবর্তন ঘটে ।"
+  },
+  {
+    "id": 10,
+    "question": "একটি বিক্রিয়ার Qc=0.5Q_c=0.5 Qc=0.5 এবং Kc=0.35K_c=0.35 Kc=0.35 হলে বিক্রিয়াটি-",
+    "options": {
+      "a": "সাম্যাবস্থায়",
+      "b": "একমুখী",
+      "c": "পশ্চাৎমুখী",
+      "d": "সম্মুখমুখী"
+    },
+    "correctAnswer": "c",
+    "explanation": "Qc>KcQ_c>K_cQc>Kc বলে বিক্রিয়াটি পশ্চাৎমুখী। Qc=KcQ_c=K_cQc=Kc হলে বিক্রিয়াটি সাম্যাবস্থাতে৷ Qc<KcQ_c<K_cQc<Kc হলে বিক্রিয়াটি সম্মুখমুখী।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$একটি বিক্রিয়ার Qc=0.5Q_c=0.5 Qc=0.5 এবং Kc=0.35K_c=0.35 Kc=0.35 হলে বিক্রিয়াটি-$",
+    "explanationLatex": "$Qc>KcQ_c>K_cQc>Kc বলে বিক্রিয়াটি পশ্চাৎমুখী। Qc=KcQ_c=K_cQc=Kc হলে বিক্রিয়াটি সাম্যাবস্থাতে৷ Qc<KcQ_c<K_cQc<Kc হলে বিক্রিয়াটি সম্মুখমুখী।$"
+  },
+  {
+    "id": 11,
+    "question": "আলোর প্রভাবে যে বিক্রিয়াটি সংঘটিত হয়?",
+    "options": {
+      "a": "H2 + Cl2 = 2HCl",
+      "b": "H2 + I2 = 2HI",
+      "c": "H2 + F2 = 2HF",
+      "d": "H2 + Br2 = 2HBr"
+    },
+    "correctAnswer": "a",
+    "explanation": "H2 + Cl2 = 2HCl উক্ত বিক্রিয়ায় প্রভাবক হিসেবে আলো ব্যবহৃত হয়",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244183/gst-question-images/__________________q11.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "আলোর প্রভাবে যে বিক্রিয়াটি সংঘটিত হয়?",
+    "explanationLatex": "$H2 + Cl2 = 2HCl উক্ত বিক্রিয়ায় প্রভাবক হিসেবে আলো ব্যবহৃত হয়$"
+  },
+  {
+    "id": 12,
+    "question": "PCl5(g)⇌PCl3(g)+Cl2(g);PCl_5\\left(g\\right)\\rightleftharpoons PCl_3(g)+Cl_2(g);PCl5(g)⇌PCl3(g)+Cl2(g); সাম্যাবস্থায় বিক্রিয়াটিতে চাপ বৃদ্ধি করলে-",
+    "options": {
+      "a": "𝑃 𝐶 𝑙 3 PCl 3 ও 𝐶 𝑙 2 Cl 2 এর পরিমাণ হ্রাস পাবে",
+      "b": "𝑃 𝐶 𝑙 5 PCl 5 এর পরিমাণ হ্রাস পাবে",
+      "c": "𝑃 𝐶 𝑙 5 PCl 5 এর পরিমাণ অপরিবর্তিত থাকে",
+      "d": "𝑃 𝐶 𝑙 3 PCl 3 ও 𝑃 𝐶 𝑙 5 PCl 5 উভয়ই বৃদ্ধি পায়"
+    },
+    "correctAnswer": "a",
+    "explanation": "সাম্যবস্থায় চাপ বৃদ্ধি করলে: PCl5( g)⇌PCl3( g)+Cl2( g) \\mathrm{PCl}_{5}(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_{3}(\\mathrm{~g})+\\mathrm{Cl}_{2}(\\mathrm{~g}) PCl5( g)⇌PCl3( g)+Cl2( g) চাপ দিলে বেশি থেকে কম মৌল এর দিকে যাবে। অর্থাৎ, বিক্রিয়াটি পিছনে যাবে। PCl₃ ও Cl2_22 এর পরিমাণ হ্রাস পাবে।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "PCl5(g)⇌PCl3(g)+Cl2(g);PCl_5\\left(g\\right)\\rightleftharpoons PCl_3(g)+Cl_2(g);PCl5(g)⇌PCl3(g)+Cl2(g); সাম্যাবস্থায় বিক্রিয়াটিতে চাপ বৃদ্ধি করলে-",
+    "explanationLatex": "সাম্যবস্থায় চাপ বৃদ্ধি করলে: PCl5( g)⇌PCl3( g)+Cl2( g) \\mathrm{PCl}_{5}(\\mathrm{~g}) \\rightleftharpoons \\mathrm{PCl}_{3}(\\mathrm{~g})+\\mathrm{Cl}_{2}(\\mathrm{~g}) PCl5( g)⇌PCl3( g)+Cl2( g) চাপ দিলে বেশি থেকে কম মৌল এর দিকে যাবে। অর্থাৎ, বিক্রিয়াটি পিছনে যাবে। PCl₃ ও Cl2_22 এর পরিমাণ হ্রাস পাবে।"
+  },
+  {
+    "id": 13,
+    "question": "আন্তর্জাতিকভাবে রসায়নবিদদের দ্বারা অনুমোদিত গ্রিন কেমিস্ট্রি এর নীতি কয়টি?",
+    "options": {
+      "a": "7",
+      "b": "10",
+      "c": "12",
+      "d": "13"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244185/gst-question-images/__________________q13.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "আন্তর্জাতিকভাবে রসায়নবিদদের দ্বারা অনুমোদিত গ্রিন কেমিস্ট্রি এর নীতি কয়টি?",
+    "explanationLatex": ""
+  },
+  {
+    "id": 14,
+    "question": "কোনটি একমুখী বিক্রিয়া?",
+    "options": {
+      "a": "কার্বনের দহন",
+      "b": "এস্টারিফিকেশন",
+      "c": "হাইড্রোজেন আয়োডাইড সংশ্লেষণ",
+      "d": "ফসফরাস পেন্টাক্লোরোইডের বিয়োজন"
+    },
+    "correctAnswer": "a",
+    "explanation": "কার্বনের দহন =C(s)+O2( g)→CO2( g) =C_{(s)}+\\mathrm{O}_{2(\\mathrm{~g})} \\rightarrow \\mathrm{CO}_{2(\\mathrm{~g})} =C(s)+O2( g)→CO2( g) এস্টারিফিকেশন =RCOOH+ROH⇌RCOOR+H2O= \\mathrm{RCOOH}+\\mathrm{ROH} \\rightleftharpoons \\mathrm{RCOOR}+\\mathrm{H}_{2} \\mathrm{O} =RCOOH+ROH⇌RCOOR+H2O হাইড্রোজেন আয়োডাইড সংশ্লেষণ =H2(g)+I2(g)⇌2HI(g) =H_{2(g)}+I_{2(g) }\\rightleftharpoons 2 H I_{(g)} =H2(g)+I2(g)⇌2HI(g) ফসফরাস পেন্টাক্লোরোইডের =PCl5+H2O⇌H3PO4+HCl =\\mathrm{PCl}_{5}+\\mathrm{H}_{2} \\mathrm{O} \\rightleftharpoons \\mathrm{H}_{3} \\mathrm{PO}_{4}+\\mathrm{HCl} =PCl5+H2O⇌H3PO4+HCl",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি একমুখী বিক্রিয়া?",
+    "explanationLatex": "$কার্বনের দহন =C(s)+O2( g)→CO2( g) =C_{(s)}+\\mathrm{O}_{2(\\mathrm{~g})} \\rightarrow \\mathrm{CO}_{2(\\mathrm{~g})} =C(s)+O2( g)→CO2( g) এস্টারিফিকেশন =RCOOH+ROH⇌RCOOR+H2O= \\mathrm{RCOOH}+\\mathrm{ROH} \\rightleftharpoons \\mathrm{RCOOR}+\\mathrm{H}_{2} \\mathrm{O} =RCOOH+ROH⇌RCOOR+H2O হাইড্রোজেন আয়োডাইড সংশ্লেষণ =H2(g)+I2(g)⇌2HI(g) =H_{2(g)}+I_{2(g) }\\rightleftharpoons 2 H I_{(g)} =H2(g)+I2(g)⇌2HI(g) ফসফরাস পেন্টাক্লোরোইডের =PCl5+H2O⇌H3PO4+HCl =\\mathrm{PCl}_{5}+\\mathrm{H}_{2} \\mathrm{O} \\rightleftharpoons \\mathrm{H}_{3} \\mathrm{PO}_{4}+\\mathrm{HCl} =PCl5+H2O⇌H3PO4+HCl$"
+  },
+  {
+    "id": 15,
+    "question": "নিম্নে চারটি বিক্রিয়ার পরীক্ষালব্ধ বেগ সমীকরণ দেয়া হল। কোন বিক্রিয়াটি মৌলিক বিক্রিয়া হতে পারে-",
+    "options": {
+      "a": "𝐴 + 𝐵 → 𝑃 , 𝑣 = 𝑘 [ 𝐴 ] 2 A+B→P,v=k[A] 2",
+      "b": "𝐶 + 𝐷 → 𝑃 , 𝑣 = 𝑘 [ 𝐶 ] [ 𝐷 ] 2 C+D→P,v=k[C] [D] 2",
+      "c": "𝑂 + 𝑂 2 + 𝑁 2 → 𝑂 3 + 𝑁 2 , 𝑣 = 𝑘 [ 𝑂 ] [ 𝑂 2 ] [ 𝑁 2 ] O+O 2 +N 2 →O 3 +N 2 ,v=k[O][O 2 ][N 2 ]",
+      "d": "( 𝐶 𝐻 3 ) 3 𝐶 𝐶 𝑙 + 𝑂 𝐻 − → ( 𝐶 𝐻 3 ) 3 𝐶 − 𝑂 𝐻 + 𝑂 𝐻 − , 𝑣 = 𝑘 [ ( 𝐶 𝐻 3 ) 3 𝐶 𝐶 𝑙 ] (CH 3 ) 3 CCl+OH − →(CH 3 ) 3 C−OH+OH − ,v=k[(CH 3 ) 3 CCl]"
+    },
+    "correctAnswer": "c",
+    "explanation": "O+ O2 + N2 → O3 + N2,v = k[O][O2][N2] বিক্রিয়াটি একটি মৌলিক বিক্রিয়া।বিক্রিয়ার গতির সমীকরণে সবগুলো বিক্রিয়ক একক ঘাতে থাকলে সেটি মৌলিক বিক্রিয়া হতে পারে।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিম্নে চারটি বিক্রিয়ার পরীক্ষালব্ধ বেগ সমীকরণ দেয়া হল। কোন বিক্রিয়াটি মৌলিক বিক্রিয়া হতে পারে-",
+    "explanationLatex": "$O+ O2 + N2 → O3 + N2,v = k[O][O2][N2] বিক্রিয়াটি একটি মৌলিক বিক্রিয়া।বিক্রিয়ার গতির সমীকরণে সবগুলো বিক্রিয়ক একক ঘাতে থাকলে সেটি মৌলিক বিক্রিয়া হতে পারে।$"
+  },
+  {
+    "id": 16,
+    "question": "The rate of reaction A+ B→ product is K [A] [B]. What is the unit of the rate constant?",
+    "options": {
+      "a": "mol2dm-6s-1",
+      "b": "mol-2dm-6s-1",
+      "c": "mol-1dm3s-1",
+      "d": "mol2dm-6s-1"
+    },
+    "correctAnswer": "c",
+    "explanation": "−dcdt=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1 -\\frac{\\mathrm{dc}}{\\mathrm{dt}}=\\mathrm{k}[\\mathrm{A}][\\mathrm{B}] \\Rightarrow \\mathrm{k}=\\mathrm{mol}^{-1} \\mathrm{Ls}^{-1}=\\mathrm{mol}^{-1} \\mathrm{dm}^{3} \\mathrm{~s}^{-1} −dtdc=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "The rate of reaction A+ B→ product is K [A] [B]. What is the unit of the rate constant?",
+    "explanationLatex": "$−dcdt=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1 -\\frac{\\mathrm{dc}}{\\mathrm{dt}}=\\mathrm{k}[\\mathrm{A}][\\mathrm{B}] \\Rightarrow \\mathrm{k}=\\mathrm{mol}^{-1} \\mathrm{Ls}^{-1}=\\mathrm{mol}^{-1} \\mathrm{dm}^{3} \\mathrm{~s}^{-1} −dtdc=k[A][B]⇒k=mol−1Ls−1=mol−1dm3 s−1$"
+  },
+  {
+    "id": 17,
+    "question": "কোনটি সঠিক নয়?",
+    "options": {
+      "a": "এটম ইকোনমি = (উৎপাদের ভর/বিক্রিয়ক ভর)%",
+      "b": "ই-ফ্যাক্টর = বর্জ্যের মোট ভর/উৎপাদকের মোট ভর",
+      "c": "এটম ইকোনমির মান যত উচ্চ একটি উৎপাদন প্রক্রিয়া তত সবুজ",
+      "d": "ই-ফ্যাক্টর যত বেশি তা তত পরিবেশ বান্ধব"
+    },
+    "correctAnswer": "d",
+    "explanation": "ক: এটম ইকোনমি = (উৎপাদের ভর/বিক্রিয়ক ভর)%, এটি সঠিক। খ: ই-ফ্যাক্টর = বর্জ্যের মোট ভর/উৎপাদকের মোট ভর, এটি সঠিক। গ: এটম ইকোনমির মান যত উচ্চ, একটি উৎপাদন প্রক্রিয়া তত সবুজ বা পরিবেশবান্ধব, এটি সঠিক। ঘ: ই-ফ্যাক্টর যত বেশি, তা তত পরিবেশ বান্ধব নয় বরং তত বেশি পরিবেশের জন্য ক্ষতিকর। অতএব, এটি সঠিক নয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি সঠিক নয়?",
+    "explanationLatex": "$ক: এটম ইকোনমি = (উৎপাদের ভর/বিক্রিয়ক ভর)%, এটি সঠিক। খ: ই-ফ্যাক্টর = বর্জ্যের মোট ভর/উৎপাদকের মোট ভর, এটি সঠিক। গ: এটম ইকোনমির মান যত উচ্চ, একটি উৎপাদন প্রক্রিয়া তত সবুজ বা পরিবেশবান্ধব, এটি সঠিক। ঘ: ই-ফ্যাক্টর যত বেশি, তা তত পরিবেশ বান্ধব নয় বরং তত বেশি পরিবেশের জন্য ক্ষতিকর। অতএব, এটি সঠিক নয়।$"
+  },
+  {
+    "id": 18,
+    "question": "একটি দ্বিতীয় ক্রম বিক্রিয়ার অর্ধায়ুকাল (t1/2) এবং বিক্রিয়কের ঘনমাত্রা (C) এর মধ্যকার সম্পর্কটি হল-",
+    "options": {
+      "a": "t1/2 = ধ্রবক",
+      "b": "t1/2 ∞ C2",
+      "c": "t1/2 = 1/C2",
+      "d": "t1/2 ∞ 1/C"
+    },
+    "correctAnswer": "d",
+    "explanation": "দ্বিতীয় ক্রম বিক্রিয়া্র অর্ধায়ু বিক্রিয়ায় প্রারম্ভিক ঘনমাত্রার ব্যাস্তানুপাতিক।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$একটি দ্বিতীয় ক্রম বিক্রিয়ার অর্ধায়ুকাল (\\frac{t1}{2}) এবং বিক্রিয়কের ঘনমাত্রা (C) এর মধ্যকার সম্পর্কটি হল-$",
+    "explanationLatex": "দ্বিতীয় ক্রম বিক্রিয়া্র অর্ধায়ু বিক্রিয়ায় প্রারম্ভিক ঘনমাত্রার ব্যাস্তানুপাতিক।"
+  },
+  {
+    "id": 19,
+    "question": "ফ্রিয়নের বৈশিষ্ট্য নিচের কোনটি?",
+    "options": {
+      "a": "দাহ্য",
+      "b": "পানিতে দ্রবণীয়",
+      "c": "অবিষাক্ত",
+      "d": "সুস্থিত নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "ফ্রিয়ন (Freon) হচ্ছে বিভিন্ন ধরনের ক্লোরোফ্লুরোকার্বন (CFC) যৌগের একটি সাধারণ নাম। ফ্রিয়ন মূলত রেফ্রিজারেন্ট এবং এয়ার কন্ডিশনারের মধ্যে ব্যবহৃত হয়। ফ্রিয়ন অত্যন্ত রসায়নিকভাবে স্থিতিশীল, অর্থাৎ এটি সহজে অন্যান্য রাসায়নিকের সাথে বিক্রিয়া করে না। স্বাভাবিক অবস্থায় ফ্রিয়ন সাধারণত অ-বিষাক্ত। তবে, উচ্চ ঘনত্বে এটি শ্বাসপ্রশ্বাসের সমস্যার কারণ হতে পারে।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ফ্রিয়নের বৈশিষ্ট্য নিচের কোনটি?",
+    "explanationLatex": "ফ্রিয়ন (Freon) হচ্ছে বিভিন্ন ধরনের ক্লোরোফ্লুরোকার্বন (CFC) যৌগের একটি সাধারণ নাম। ফ্রিয়ন মূলত রেফ্রিজারেন্ট এবং এয়ার কন্ডিশনারের মধ্যে ব্যবহৃত হয়। ফ্রিয়ন অত্যন্ত রসায়নিকভাবে স্থিতিশীল, অর্থাৎ এটি সহজে অন্যান্য রাসায়নিকের সাথে বিক্রিয়া করে না। স্বাভাবিক অবস্থায় ফ্রিয়ন সাধারণত অ-বিষাক্ত। তবে, উচ্চ ঘনত্বে এটি শ্বাসপ্রশ্বাসের সমস্যার কারণ হতে পারে।"
+  },
+  {
+    "id": 20,
+    "question": "কোনো বিক্রিয়া সম্মুখদিকে অগ্রসর হবে যখন-",
+    "options": {
+      "a": "𝑄 𝑐 ≤ 𝐾 𝑐 Q c ≤Kc",
+      "b": "none",
+      "c": "Q c ≥ K c Q c ≥K c",
+      "d": "Q c = K c Q c =K c"
+    },
+    "correctAnswer": "b",
+    "explanation": "KC_CC হলো সাম্যবস্থায় বিক্রিয়া অনুপাত। আর QCQ_CQC যেকোনো অবস্থায় বিক্রিয়া অনুপাত। যখন QCQ_CQC < KC_CC তখন [বিক্রিয়ক] > [উৎপাদক] তাই বিক্রিয়াটি সম্মুখমুখী হয়।",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244189/gst-question-images/__________________q21.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনো বিক্রিয়া সম্মুখদিকে অগ্রসর হবে যখন-",
+    "explanationLatex": "KC_CC হলো সাম্যবস্থায় বিক্রিয়া অনুপাত। আর QCQ_CQC যেকোনো অবস্থায় বিক্রিয়া অনুপাত। যখন QCQ_CQC < KC_CC তখন [বিক্রিয়ক] > [উৎপাদক] তাই বিক্রিয়াটি সম্মুখমুখী হয়।"
+  },
+  {
+    "id": 21,
+    "question": "কোন যৌগ CFC এর অন্তর্ভুক্ত নয়?",
+    "options": {
+      "a": "CFCl3",
+      "b": "CF2Cl2",
+      "c": "CClF2CClF2",
+      "d": "CF3CF3"
+    },
+    "correctAnswer": "d",
+    "explanation": "CFC একধরণের ক্ষতিকারক রাসায়নিক পদার্থ,,, যা ওজোন স্তরকে ক্ষতিগ্রস্ত করে। এটি ক্লোরিন, ফ্লোরিন, কার্বন দ্বারা গঠিত। →ক,খ,গ অপশনের মৌলত্রয়ে ক্লোরিন, ফ্লোরিন, কার্বন রয়েছে। →কিন্তু CF3CF3, এ ক্লোরিন পরমানু না থাকায় এটি CFC গ্যাস হতে পারবে না",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন যৌগ CFC এর অন্তর্ভুক্ত নয়?",
+    "explanationLatex": "CFC একধরণের ক্ষতিকারক রাসায়নিক পদার্থ,,, যা ওজোন স্তরকে ক্ষতিগ্রস্ত করে। এটি ক্লোরিন, ফ্লোরিন, কার্বন দ্বারা গঠিত। →ক,খ,গ অপশনের মৌলত্রয়ে ক্লোরিন, ফ্লোরিন, কার্বন রয়েছে। →কিন্তু CF3CF3, এ ক্লোরিন পরমানু না থাকায় এটি CFC গ্যাস হতে পারবে না"
+  },
+  {
+    "id": 22,
+    "question": "নিচের কোন বিক্রিয়াটি সঠিক?",
+    "options": {
+      "a": "𝐴 𝑔 ( 𝑠 ) + 𝐼 2 ( 𝑔 ) →△ 𝐴 𝑔 𝐼 Ag(s)+I 2 (g) → △ AgI",
+      "b": "𝑃 𝑡 ( 𝑠 ) + 𝐼 2 ( 𝑔 ) →△ 𝑃 𝑡 𝐼 2 Pt(s)+I 2 (g) → △ PtI 2",
+      "c": "𝑍 𝑛 ( 𝑠 ) + 𝐼 2 ( 𝑔 ) →△ 𝑍 𝑛 𝐼 2 Zn(s)+I 2 (g) → △ ZnI 2",
+      "d": "𝐴 𝑢 ( 𝑠 ) + 𝐼 2 ( 𝑔 ) →△ 𝐴 𝑢 𝐼 Au(s)+I 2 (g) → △ AuI"
+    },
+    "correctAnswer": "c",
+    "explanation": "গ) Zn(s) + I₂(g) →△ ZnI₂ (Zn) একটি মোটামুটি সক্রিয় ধাতু। এটি আয়োডিন থেকে ইলেকট্রন গ্রহণ করে Zn²⁺ আয়ন তৈরি করতে পারে। আয়োডিন (I₂) একটি হ্যালোজেন এবং এটি ইলেকট্রন গ্রহণ করে I⁻ আয়ন তৈরি করতে পারে। ড (ZnI₂) একটি স্থিতিশীল যৌগ: Zn এবং আয়োডিনের মধ্যে আয়নিক বন্ধন তৈরি হয় এবং একটি স্থিতিশীল যৌগ ZnI₂ তৈরি হয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোন বিক্রিয়াটি সঠিক?",
+    "explanationLatex": "গ) Zn(s) + I₂(g) →△ ZnI₂ (Zn) একটি মোটামুটি সক্রিয় ধাতু। এটি আয়োডিন থেকে ইলেকট্রন গ্রহণ করে Zn²⁺ আয়ন তৈরি করতে পারে। আয়োডিন (I₂) একটি হ্যালোজেন এবং এটি ইলেকট্রন গ্রহণ করে I⁻ আয়ন তৈরি করতে পারে। ড (ZnI₂) একটি স্থিতিশীল যৌগ: Zn এবং আয়োডিনের মধ্যে আয়নিক বন্ধন তৈরি হয় এবং একটি স্থিতিশীল যৌগ ZnI₂ তৈরি হয়।"
+  },
+  {
+    "id": 23,
+    "question": "সোডা অ্যাশ শিল্পক্ষেত্রে কোন পদ্ধতিতে তৈরি করা হয়?",
+    "options": {
+      "a": "Bessemer process",
+      "b": "Chamber process",
+      "c": "Solvay process",
+      "d": "Haber process"
+    },
+    "correctAnswer": "c",
+    "explanation": "সোডা অ্যাশ (সোডিয়াম কার্বোনেট) শিল্পক্ষেত্রে Solvay process দ্বারা তৈরি করা হয়। তবে, অন্যান্য পদ্ধতিগুলির সাথে সম্পর্ক: - Bessemer process: ইস্পাত তৈরির জন্য ব্যবহৃত হয়। - Chamber process: সালফিউরিক অ্যাসিড তৈরির জন্য ব্যবহৃত হয়। - Haber process: অ্যামোনিয়া তৈরির জন্য ব্যবহৃত হয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "সোডা অ্যাশ শিল্পক্ষেত্রে কোন পদ্ধতিতে তৈরি করা হয়?",
+    "explanationLatex": "সোডা অ্যাশ (সোডিয়াম কার্বোনেট) শিল্পক্ষেত্রে Solvay process দ্বারা তৈরি করা হয়। তবে, অন্যান্য পদ্ধতিগুলির সাথে সম্পর্ক: - Bessemer process: ইস্পাত তৈরির জন্য ব্যবহৃত হয়। - Chamber process: সালফিউরিক অ্যাসিড তৈরির জন্য ব্যবহৃত হয়। - Haber process: অ্যামোনিয়া তৈরির জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 24,
+    "question": "উভমুখী বিক্রিয়ার উৎপাদের ঘনমাত্রা দ্বিগুণ করলে সাম্যধ্রুবক কত হবে?",
+    "options": {
+      "a": "1 4 4 1 গুণ",
+      "b": "1 2 2 1 গুণ",
+      "c": "2 গুণ",
+      "d": "পূর্বের মত"
+    },
+    "correctAnswer": "d",
+    "explanation": "# হার ধ্রুবক/ সাম‍্যধ্রুবক*",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244190/gst-question-images/__________________q25.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "উভমুখী বিক্রিয়ার উৎপাদের ঘনমাত্রা দ্বিগুণ করলে সাম্যধ্রুবক কত হবে?",
+    "explanationLatex": "# হার ধ্রুবক/ সাম‍্যধ্রুবক*"
+  },
+  {
+    "id": 25,
+    "question": "35°C তাপমাত্রায় নাইট্রোজেন পেন্টাঅক্সাইডের বিয়োজনের অর্ধায়ু 4000min। বিক্রিয়ার 99% সম্পন্ন হতে কত সময় প্রয়োজন হবে?",
+    "options": {
+      "a": "2.26×104 min",
+      "b": "2.65×105 min",
+      "c": "2.96×104 min",
+      "d": "2.66×104 min"
+    },
+    "correctAnswer": "d",
+    "explanation": "k=0.6934000min⁡−1⇒t=1kln⁡aa−x=40000.693ln⁡100l=2.66×104 min \\mathrm{k}=\\frac{0.693}{4000} \\min ^{-1} \\Rightarrow \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\frac{\\mathrm{a}}{\\mathrm{a}-\\mathrm{x}}=\\frac{4000}{0.693} \\ln \\frac{100}{\\mathrm{l}}=2.66 \\times 10^{4} \\mathrm{~min} k=40000.693min−1⇒t=k1lna−xa=0.6934000lnl100=2.66×104 min.",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$35^{\\\\circ}C তাপমাত্রায় নাইট্রোজেন পেন্টাঅক্সাইডের বিয়োজনের অর্ধায়ু 4000min। বিক্রিয়ার 99% সম্পন্ন হতে কত সময় প্রয়োজন হবে?$",
+    "explanationLatex": "$k=0.6934000min⁡−1⇒t=1kln⁡aa−x=40000.693ln⁡100l=2.66\\ \\times 104 min \\mathrm{k}=\\frac{0.693}{4000} \\min ^{-1} \\Rightarrow \\mathrm{t}=\\frac{1}{\\mathrm{k}} \\ln \\frac{\\mathrm{a}}{\\mathrm{a}-\\mathrm{x}}=\\frac{4000}{0.693} \\ln \\frac{100}{\\mathrm{l}}=2.66 \\times 10^{4} \\mathrm{~min} k=40000.693min−1⇒t=k1lna−xa=0.6934000lnl100=2.66\\ \\times 104 min.$"
+  },
+  {
+    "id": 26,
+    "question": "সবুজ রসায়নের নীতি নয় কোনটি?",
+    "options": {
+      "a": "বর্জ্য পদার্থ রোধকরণ",
+      "b": "সর্বনিম্ন এটম ইকনমি",
+      "c": "নূন্যতম উপজাতক",
+      "d": "যথাসময়ে দূষণ নিয়ন্ত্রণ"
+    },
+    "correctAnswer": "b",
+    "explanation": "সর্বনিম্ন এটম ইকনমি সবুজ রসায়নের কোন নীতি নয় ।",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244192/gst-question-images/__________________q27.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "সবুজ রসায়নের নীতি নয় কোনটি?",
+    "explanationLatex": "সর্বনিম্ন এটম ইকনমি সবুজ রসায়নের কোন নীতি নয় ।"
+  },
+  {
+    "id": 27,
+    "question": "জিংক সালফাইটের দ্রবণে কোনটি যোগ করলে কঠিন জিংক পাওয়া যাবে?",
+    "options": {
+      "a": "Al(s)",
+      "b": "Cu(s)",
+      "c": "Fe(s)",
+      "d": "Sn(s)"
+    },
+    "correctAnswer": "a",
+    "explanation": "জিঙ্ক সালফাইটের (ZnSO₄) দ্রবণে কোনো ধাতব যৌগ যোগ করলে কঠিন জিঙ্ক (Zn) পাওয়া যায়। ধাতুগুলোর সক্রিয়তার ক্রম (reactivity series) অনুযায়ী, অধিক সক্রিয় ধাতু জিঙ্ককে এর লবণ (ZnSO₄) থেকে প্রতিস্থাপিত করে মুক্ত ধাতু হিসেবে পৃথক করতে পারে। যেমন: সোডিয়াম (Na), পটাশিয়াম (K), ক্যালসিয়াম (Ca), অ্যালুমিনিয়াম (Al) তবে সাধারণত লৌহ বা অ্যালুমিনিয়াম (Al) ব্যবহার করা হয় কারণ এগুলো সহজলভ্য এবং কার্যকর।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "জিংক সালফাইটের দ্রবণে কোনটি যোগ করলে কঠিন জিংক পাওয়া যাবে?",
+    "explanationLatex": "জিঙ্ক সালফাইটের (ZnSO₄) দ্রবণে কোনো ধাতব যৌগ যোগ করলে কঠিন জিঙ্ক (Zn) পাওয়া যায়। ধাতুগুলোর সক্রিয়তার ক্রম (reactivity series) অনুযায়ী, অধিক সক্রিয় ধাতু জিঙ্ককে এর লবণ (ZnSO₄) থেকে প্রতিস্থাপিত করে মুক্ত ধাতু হিসেবে পৃথক করতে পারে। যেমন: সোডিয়াম (Na), পটাশিয়াম (K), ক্যালসিয়াম (Ca), অ্যালুমিনিয়াম (Al) তবে সাধারণত লৌহ বা অ্যালুমিনিয়াম (Al) ব্যবহার করা হয় কারণ এগুলো সহজলভ্য এবং কার্যকর।"
+  },
+  {
+    "id": 28,
+    "question": "সালফেট দ্রবনে লেড এসিটেট যোগে প্রাপ্ত অধঃক্ষেপ কিসে অদ্রবনীয়?",
+    "options": {
+      "a": "গাঢ় HNO3(Cons. NHO3)",
+      "b": "লঘু HNO3(Dil NHO3)",
+      "c": "গাঢ় H2SO4(Cons. H2SO4)",
+      "d": "লঘু H2SO4(Dil H2SO4)"
+    },
+    "correctAnswer": "b",
+    "explanation": "সালফেট দ্রবনে লেড এসিটেট যোগে প্রাপ্ত অধঃক্ষেপ লঘু HNO3(Dil NHO3) এ অদ্রবনীয়। লেড এসিটেট (Pb(C₂H₃O₂)₂) সালফেট দ্রবণে যোগ করার পরে: Pb2(aq)+SO42(aq)→PbSO4(s) এটি লেড সালফেট (PbSO₄) হিসাবে নির্গত হয়, যা অদ্রবণীয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "সালফেট দ্রবনে লেড এসিটেট যোগে প্রাপ্ত অধঃক্ষেপ কিসে অদ্রবনীয়?",
+    "explanationLatex": "সালফেট দ্রবনে লেড এসিটেট যোগে প্রাপ্ত অধঃক্ষেপ লঘু HNO3(Dil NHO3) এ অদ্রবনীয়। লেড এসিটেট (Pb(C₂H₃O₂)₂) সালফেট দ্রবণে যোগ করার পরে: Pb2(aq)+SO42(aq)→PbSO4(s) এটি লেড সালফেট (PbSO₄) হিসাবে নির্গত হয়, যা অদ্রবণীয়।"
+  },
+  {
+    "id": 29,
+    "question": "নিচের কোনটি রাসায়নিক পরিবর্তন?",
+    "options": {
+      "a": "বরফ গলে পানি হওয়া",
+      "b": "তাপ যারা মোম গলানো",
+      "c": "লোহায় মরিচা ধরা",
+      "d": "চিনি পানিতে দ্রবীভূত হওয়া"
+    },
+    "correctAnswer": "c",
+    "explanation": "লোহায় মরিচা ধরা একটি রিডক্স বিক্রিয়া ।",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244193/gst-question-images/__________________q30.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোনটি রাসায়নিক পরিবর্তন?",
+    "explanationLatex": "লোহায় মরিচা ধরা একটি রিডক্স বিক্রিয়া ।"
+  },
+  {
+    "id": 30,
+    "question": "Which a statement about exothermic and endothermic reactions is correct?",
+    "options": {
+      "a": "In an endothermic reactions, energy is used to break bonds but no energy is released when bonds form.",
+      "b": "In an endothermic reactions, energy is released when bound from but more energy is used to break bonds.",
+      "c": "In an exothermic reactions, energy is released both by breaking and by forming bonds.",
+      "d": "In an exothermic reactions, energy is released when bonds form but no energy is needed to break bonds."
+    },
+    "correctAnswer": "b",
+    "explanation": "Endothermic reactions are chemical reactions in which the reactants absorb heat energy from the surroundings to form products. An exothermic reaction is a reaction in which energy is released in the form of light or heat. The energy is absorbed from the surrounding into the reaction.",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "Which a statement about exothermic and endothermic reactions is correct?",
+    "explanationLatex": "Endothermic reactions are chemical reactions in which the reactants absorb heat energy from the surroundings to form products. An exothermic reaction is a reaction in which energy is released in the form of light or heat. The energy is absorbed from the surrounding into the reaction."
+  },
+  {
+    "id": 31,
+    "question": "শিল্পে স্টিম-অ্যালকেন রিফরমিং পদ্ধতিতে কোনটি সংশ্লেষ করা হয়?",
+    "options": {
+      "a": "H2",
+      "b": "Ni",
+      "c": "NH3",
+      "d": "HNO3"
+    },
+    "correctAnswer": "a",
+    "explanation": "C - হেবার পদ্ধতিতে সংশ্লেষ করা হয়। D - অসওয়াল্ড পদ্ধতিতে সংশ্লেষ করা হয়। শিল্পে স্টিম-অ্যালকেন রিফরমিং পদ্ধতিতে H2 উৎপাদন করা হয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "শিল্পে স্টিম-অ্যালকেন রিফরমিং পদ্ধতিতে কোনটি সংশ্লেষ করা হয়?",
+    "explanationLatex": "C - হেবার পদ্ধতিতে সংশ্লেষ করা হয়। D - অসওয়াল্ড পদ্ধতিতে সংশ্লেষ করা হয়। শিল্পে স্টিম-অ্যালকেন রিফরমিং পদ্ধতিতে H2 উৎপাদন করা হয়।"
+  },
+  {
+    "id": 32,
+    "question": "কত তাপমাত্রায় CO2 একটি Supercritical fluid?",
+    "options": {
+      "a": "72.9o C",
+      "b": "30.5o C",
+      "c": "31.25o C",
+      "d": "55.5o C"
+    },
+    "correctAnswer": "c",
+    "explanation": "31.25o C তাপমাত্রায় ও 72.9 atm চাপে CO2 একটি Supercritical fluid.",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কত তাপমাত্রায় CO2 একটি Supercritical fluid?",
+    "explanationLatex": "31.25o C তাপমাত্রায় ও 72.9 atm চাপে CO2 একটি Supercritical fluid."
+  },
+  {
+    "id": 33,
+    "question": "কোন বিক্রিয়ার ঘনমাত্রা-সময় লেখচিত্র অন্যগুলো থেকে আলাদা?",
+    "options": {
+      "a": "First order",
+      "b": "Zero order",
+      "c": "Second order",
+      "d": "Fractional order"
+    },
+    "correctAnswer": "b",
+    "explanation": "শূন্যতর (Zero Order) বিক্রিয়ার ঘনমাত্রা-সময় লেখচিত্র অন্যগুলোর থেকে আলাদা। ব্যাখ্যা: - শূন্যতর বিক্রিয়া (Zero Order): ঘনমাত্রা (concentration) এবং সময়ের মধ্যে সরল রৈখিক সম্পর্ক থাকে। বিক্রিয়ার হার ঘনমাত্রার উপর নির্ভর করে না। ঘনমাত্রা-সময় লেখচিত্র একটি সরল ঢালু রেখা, যা নিচের দিকে ধাবিত হয়। [A]=[A]0−kt[A] = [A]_0 - kt[A]=[A]0−kt লেখচিত্র: সোজা রেখা (রৈখিক) - প্রথমতর বিক্রিয়া (First Order): ঘনমাত্রার লগারিদমিক হ্রাস দেখা যায়। লেখচিত্রটি আংশিক বক্র হয়। [A]=[A]0e−kt[A] = [A]_0 e^{-kt}[A]=[A]0e−kt লেখচিত্র: বক্ররেখা (exponential decay) - দ্বিতীয়তর বিক্রিয়া (Second Order): ঘনমাত্রা সময়ের সাথে আরও দ্রুত হ্রাস পায় এবং লেখচিত্রটি আরও বেশি বক্র হয়। 1[A]=1[A]0+kt\\frac{1}{[A]} = \\frac{1}{[A]_0} + kt[A]1=[A]01+kt লেখচিত্র: দ্রুত বক্ররেখা - আংশিক বা ভগ্নাংশীয় অর্ডার বিক্রিয়া (Fractional Order): ঘনমাত্রা-সময় সম্পর্ক অন্যান্যগুলোর চেয়ে আরও জটিল বক্ররেখা দেয়। সুতরাং, শূন্যতর (Zero Order) বিক্রিয়ার লেখচিত্র সরল রৈখিক হওয়ার কারণে অন্যান্য বিক্রিয়াগুলোর থেকে আলাদা।",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244195/gst-question-images/__________________q34.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন বিক্রিয়ার ঘনমাত্রা-সময় লেখচিত্র অন্যগুলো থেকে আলাদা?",
+    "explanationLatex": "$শূন্যতর (Zero Order) বিক্রিয়ার ঘনমাত্রা-সময় লেখচিত্র অন্যগুলোর থেকে আলাদা। ব্যাখ্যা: - শূন্যতর বিক্রিয়া (Zero Order): ঘনমাত্রা (concentration) এবং সময়ের মধ্যে সরল রৈখিক সম্পর্ক থাকে। বিক্রিয়ার হার ঘনমাত্রার উপর নির্ভর করে না। ঘনমাত্রা-সময় লেখচিত্র একটি সরল ঢালু রেখা, যা নিচের দিকে ধাবিত হয়। [A]=[A]0−kt[A] = [A]_0 - kt[A]=[A]0−kt লেখচিত্র: সোজা রেখা (রৈখিক) - প্রথমতর বিক্রিয়া (First Order): ঘনমাত্রার লগারিদমিক হ্রাস দেখা যায়। লেখচিত্রটি আংশিক বক্র হয়। [A]=[A]0e−kt[A] = [A]_0 e^{-kt}[A]=[A]0e−kt লেখচিত্র: বক্ররেখা (exponential decay) - দ্বিতীয়তর বিক্রিয়া (Second Order): ঘনমাত্রা সময়ের সাথে আরও দ্রুত হ্রাস পায় এবং লেখচিত্রটি আরও বেশি বক্র হয়। 1[A]=1[A]0+kt\\frac{1}{[A]} = \\frac{1}{[A]_0} + kt[A]1=[A]01+kt লেখচিত্র: দ্রুত বক্ররেখা - আংশিক বা ভগ্নাংশীয় অর্ডার বিক্রিয়া (Fractional Order): ঘনমাত্রা-সময় সম্পর্ক অন্যান্যগুলোর চেয়ে আরও জটিল বক্ররেখা দেয়। সুতরাং, শূন্যতর (Zero Order) বিক্রিয়ার লেখচিত্র সরল রৈখিক হওয়ার কারণে অন্যান্য বিক্রিয়াগুলোর থেকে আলাদা।$"
+  },
+  {
+    "id": 34,
+    "question": "15 mol H215\\ mol\\ H_215 mol H2এবং5.2 mol I25.2\\ mol\\ I_25.2 mol I2 এর মিশ্রণ উত্তপ্ত করলে10.0 mol HI10.0\\ mol\\ HI10.0 mol HI উৎপন্ন হয়। বিক্রিয়াটির সাম্যাংক কত?",
+    "options": {
+      "a": "40",
+      "b": "45",
+      "c": "50",
+      "d": "55"
+    },
+    "correctAnswer": "c",
+    "explanation": "H2+I2→2HI \\mathrm{H}_{2}+\\mathrm{I}_{2} \\rightarrow 2 \\mathrm{HI} H2+I2→2HI a−αb−α2α a-\\alpha \\quad b-\\alpha \\quad 2 \\alpha a−αb−α2α α=102=5 \\begin{aligned} \\alpha & =\\frac{10}{2} =5\\end{aligned} α=210=5 [H2]=a−α=15−5=10 \\begin{aligned} {[H_2] =a-\\alpha } & =15-5 =10\\end{aligned} [H2]=a−α=15−5=10 [I2]=b−α=5⋅2.5=0.2 \\begin{aligned} {\\left[I_{2}\\right]=b-\\alpha } & =5 \\cdot 2.5 =0.2\\end{aligned} [I2]=b−α=5⋅2.5=0.2 Kc=[HI]2[I2][H2]=10210×0.2=100×1010×0.2=50 \\begin{aligned} K_{c} & =\\frac{[H I]^{2}}{\\left[I_{2}\\right]\\left[H_{2}\\right]} \\\\ & =\\frac{10^{2}}{10 \\times 0.2} \\\\ & =\\frac{100 \\times 10}{10 \\times 0.2} \\\\ & =50\\end{aligned} Kc=[I2][H2][HI]2=10×0.2102=10×0.2100×10=50",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "15 mol H215\\ mol\\ H_215 mol H2এবং5.2 mol I25.2\\ mol\\ I_25.2 mol I2 এর মিশ্রণ উত্তপ্ত করলে10.0 mol HI10.0\\ mol\\ HI10.0 mol HI উৎপন্ন হয়। বিক্রিয়াটির সাম্যাংক কত?",
+    "explanationLatex": "$H2+I2→2HI \\mathrm{H}_{2}+\\mathrm{I}_{2} \\rightarrow 2 \\mathrm{HI} H2+I2→2HI a−αb−α2α a-\\alpha \\quad b-\\alpha \\quad 2 \\alpha a−αb−α2α α=102=5 \\begin{aligned} \\alpha & =\\frac{10}{2} =5\\end{aligned} α=210=5 [H2]=a−α=15−5=10 \\begin{aligned} {[H_2] =a-\\alpha } & =15-5 =10\\end{aligned} [H2]=a−α=15−5=10 [I2]=b−α=5⋅2.5=0.2 \\begin{aligned} {\\left[I_{2}\\right]=b-\\alpha } & =5 \\cdot 2.5 =0.2\\end{aligned} [I2]=b−α=5⋅2.5=0.2 Kc=[HI]2[I2][H2]=10210\\ \\times 0.2=100\\ \\times 1010\\ \\times 0.2=50 \\begin{aligned} K_{c} & =\\frac{[H I]^{2}}{\\left[I_{2}\\right]\\left[H_{2}\\right]} \\\\ & =\\frac{10^{2}}{10 \\times 0.2} \\\\ & =\\frac{100 \\times 10}{10 \\times 0.2} \\\\ & =50\\end{aligned} Kc=[I2][H2][HI]2=10\\ \\times 0.2102=10\\ \\times 0.2100\\ \\times 10=50$"
+  },
+  {
+    "id": 35,
+    "question": "অটোমোবাইল ক্যাটালাইটিক কনভার্টারে বায়ুদূষণ প্রতিরোধী যোদ্ধারুপে থাকে কোনটি?",
+    "options": {
+      "a": "Cd",
+      "b": "Ni",
+      "c": "Pt",
+      "d": "Hg"
+    },
+    "correctAnswer": "c",
+    "explanation": "",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244196/gst-question-images/__________________q36.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "অটোমোবাইল ক্যাটালাইটিক কনভার্টারে বায়ুদূষণ প্রতিরোধী যোদ্ধারুপে থাকে কোনটি?",
+    "explanationLatex": ""
+  },
+  {
+    "id": 36,
+    "question": "উভমুখী বিক্রিয়ার বৈশিষ্ট্য নিচের কোনটি?",
+    "options": {
+      "a": "সাম্যাবস্থায় আসার প্রবণতা নেই",
+      "b": "বিক্রিয়াগুলো অসম্পূর্ণ",
+      "c": "শুধু নির্দিষ্ট দিক হতে শুরু হয়",
+      "d": "সমীকরণ লিখতে সমান চিহ্ন ব্যবহৃত হয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "উভমুখী বিক্রিয়া গুলো কখনো সম্পূর্ণ হয় না ।",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244198/gst-question-images/__________________q37.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "উভমুখী বিক্রিয়ার বৈশিষ্ট্য নিচের কোনটি?",
+    "explanationLatex": "উভমুখী বিক্রিয়া গুলো কখনো সম্পূর্ণ হয় না ।"
+  },
+  {
+    "id": 37,
+    "question": "ফেরিক অক্সাইড এর সাথে অ্যালুমিনিয়াম মিশিয়ে লোহিত তাপে উত্তপ্ত করলে কি ঘটে?",
+    "options": {
+      "a": "Fe3Al2O3",
+      "b": "FeAl(OH)3SO2",
+      "c": "FeSAl(OH)",
+      "d": "Fe2O2Al3O3SO3"
+    },
+    "correctAnswer": "a",
+    "explanation": "Fe2O3+2Al→ তাপলোহিত Fe3Al2O3 \\mathrm{Fe}_{2} \\mathrm{O}_{3}+2 \\mathrm{Al} \\xrightarrow[\\text { তাপ}]{\\text {লোহিত }} \\mathrm{Fe}_{3} \\mathrm{Al}_{2} \\mathrm{O}_{3} Fe2O3+2Alলোহিত তাপFe3Al2O3",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ফেরিক অক্সাইড এর সাথে অ্যালুমিনিয়াম মিশিয়ে লোহিত তাপে উত্তপ্ত করলে কি ঘটে?",
+    "explanationLatex": "Fe2O3+2Al→ তাপলোহিত Fe3Al2O3 \\mathrm{Fe}_{2} \\mathrm{O}_{3}+2 \\mathrm{Al} \\xrightarrow[\\text { তাপ}]{\\text {লোহিত }} \\mathrm{Fe}_{3} \\mathrm{Al}_{2} \\mathrm{O}_{3} Fe2O3+2Alলোহিত তাপFe3Al2O3"
+  },
+  {
+    "id": 38,
+    "question": "কোনটি অনুঘটক বিষ নয়?",
+    "options": {
+      "a": "ধূলাবালি",
+      "b": "সালফার চূর্ন",
+      "c": "As2O3",
+      "d": "V2O5"
+    },
+    "correctAnswer": "d",
+    "explanation": "প্রভাবক বিষ প্রভাবকের প্রভাবন ক্ষমতা কমিয়ে দেয়। যেমন : ধুলাবালি, As2O3,As_2O_3,As2O3, সালফার চূর্ণ ইত্যাদি ।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি অনুঘটক বিষ নয়?",
+    "explanationLatex": "প্রভাবক বিষ প্রভাবকের প্রভাবন ক্ষমতা কমিয়ে দেয়। যেমন : ধুলাবালি, As2O3,As_2O_3,As2O3, সালফার চূর্ণ ইত্যাদি ।"
+  },
+  {
+    "id": 39,
+    "question": "উভমুখী বিক্রিয়ার বৈশিষ্ট্য নয়-",
+    "options": {
+      "a": "উভয় দিক থেকে শুরু করা যায়",
+      "b": "উভয় মুখী বিক্রিয়াগুলো সম্পূর্ণ হয়",
+      "c": "সাম্যাবস্থায় আসার প্রবণতা থাকে",
+      "d": "সাম্যাবস্থায় সম্মুখ ও পশ্চাৎ বিক্রিয়ার হার সমান"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244200/gst-question-images/__________________q40.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "উভমুখী বিক্রিয়ার বৈশিষ্ট্য নয়-",
+    "explanationLatex": ""
+  },
+  {
+    "id": 40,
+    "question": "তাপোৎপাদী বিক্রিয়ায় তাপমাত্রা বৃদ্ধি করলে কী ঘটবে?",
+    "options": {
+      "a": "উৎপাদের পরিমাণ বৃদ্ধি পাবে",
+      "b": "সাম্যধ্রুবক ( K c ) (K c ) এর মান বৃদ্ধি পাবে",
+      "c": "বিক্রিয়া পশ্চাৎমুখী হবে",
+      "d": "বিক্রিয়া সম্মুখমুখী হবে"
+    },
+    "correctAnswer": "c",
+    "explanation": "লা শাতেলিয়ার নীতি হতে পাই , তাপ উৎপাদী বিক্রিয়ার তাপমাত্রা বাড়ালে বিক্রিয়া পশ্চাৎ মুখী হয়।তাপমাত্রা কমালে বিক্রিয়া সম্মুখ-মুখী হয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "তাপোৎপাদী বিক্রিয়ায় তাপমাত্রা বৃদ্ধি করলে কী ঘটবে?",
+    "explanationLatex": "লা শাতেলিয়ার নীতি হতে পাই , তাপ উৎপাদী বিক্রিয়ার তাপমাত্রা বাড়ালে বিক্রিয়া পশ্চাৎ মুখী হয়।তাপমাত্রা কমালে বিক্রিয়া সম্মুখ-মুখী হয়।"
+  },
+  {
+    "id": 41,
+    "question": "CaCO3(s) ⇌ CaO(s) + CO2(g); বিক্রিয়াটির বৈশিষ্ট্য নয় কোনটি?",
+    "options": {
+      "a": "বদ্ধপাত্রে সংঘটিত হয়",
+      "b": "উভয় দিক থেকে শুরু করা যায়",
+      "c": "সাম্যাবস্থায় আসার প্রবণতা আছে",
+      "d": "বিক্রিয়াটি সম্পূর্ণ"
+    },
+    "correctAnswer": "d",
+    "explanation": "উভমুখী বিক্রিয়া সম্পূর্ণ হয় না।যখন কোনো রাসায়নিক বিক্রিয়া একসাথে সম্মুখ ও পশ্চাৎ দিক থেকে সংঘটিত হয় তাকে উভমুখী বিক্রিয়া বলে।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "CaCO3(s) ⇌ CaO(s) + CO2(g); বিক্রিয়াটির বৈশিষ্ট্য নয় কোনটি?",
+    "explanationLatex": "উভমুখী বিক্রিয়া সম্পূর্ণ হয় না।যখন কোনো রাসায়নিক বিক্রিয়া একসাথে সম্মুখ ও পশ্চাৎ দিক থেকে সংঘটিত হয় তাকে উভমুখী বিক্রিয়া বলে।"
+  },
+  {
+    "id": 42,
+    "question": "কোনটি উভমুখী বিক্রিয়ার উদাহরণ নয়?",
+    "options": {
+      "a": "C u S O 4 5 H 2 O ( s ) ⇌Δ C u S O 4 ( s ) + 5 H 2 O ( g ) CuSO 4 5H 2 O(s) ⇌ Δ CuSO 4 ( s)+5H 2 O(g)",
+      "b": "C H 3 C O O C 2 H 5 ( 𝑙 ) + H 2 O ⇌Δ C 2 H 5 O H ( 𝑙 ) + C H 3 C O O H ( 𝑙 ) CH 3 COOC 2 H 5 (l)+H 2 O ⇌ Δ C 2 H 5 OH(l)+CH 3 COOH(l)",
+      "c": "N H 4 C l ( s ) ⇌Δ N H 3 ( g ) + H C l ( g ) NH 4 Cl(s) ⇌ Δ NH 3 ( g)+HCl(g)",
+      "d": "2 K C l O 3 ( s ) ⇌Δ 2 K C l ( s ) + 30 2 ( g ) 2KClO 3 ( s) ⇌ Δ 2KCl(s)+30 2 ( g)"
+    },
+    "correctAnswer": "d",
+    "explanation": "অপশন 'D' এর বিক্রিয়াটি উভমূখী বিক্রিয়ার উদাহরণ নয়; এটি একটি একমুখী বিক্রিয়া। কারন O2 গ্যাস হিসেবে অপসারিত হয়।ফলে পুনরায় বিক্রিয়া হয় না।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি উভমুখী বিক্রিয়ার উদাহরণ নয়?",
+    "explanationLatex": "অপশন 'D' এর বিক্রিয়াটি উভমূখী বিক্রিয়ার উদাহরণ নয়; এটি একটি একমুখী বিক্রিয়া। কারন O2 গ্যাস হিসেবে অপসারিত হয়।ফলে পুনরায় বিক্রিয়া হয় না।"
+  },
+  {
+    "id": 43,
+    "question": "কক্ষ তাপমাত্রায় পানি কোনগুলোর সাথে বিক্রিয়া করে-",
+    "options": {
+      "a": "ক্যালসিয়াম/অ্যালুমিনিয়াম/কার্বন",
+      "b": "অ্যালুমিনিয়াম/সোডিয়াম/পটাসিয়াম",
+      "c": "জিংক, সোডিয়াম, কার্বন",
+      "d": "সোডিয়াম, পটাসিয়াম, ক্যালসিয়াম"
+    },
+    "correctAnswer": "d",
+    "explanation": "(i) সোডিয়াম: 2Na+2H2O→2NaOH+H2 2 \\mathrm{Na}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{NaOH}+\\mathrm{H}_{2} 2Na+2H2O→2NaOH+H2 (ii) পটাসিয়াম: 2 K+2H2O→2KOH+H2 2 \\mathrm{~K}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{KOH}+\\mathrm{H}_{2} 2 K+2H2O→2KOH+H2 (iii) ক্যালসিয়াস: Ca+2H2O→Ca(OH)2+H2 \\mathrm{Ca}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{H}_{2} Ca+2H2O→Ca(OH)2+H2",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কক্ষ তাপমাত্রায় পানি কোনগুলোর সাথে বিক্রিয়া করে-",
+    "explanationLatex": "(i) সোডিয়াম: 2Na+2H2O→2NaOH+H2 2 \\mathrm{Na}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{NaOH}+\\mathrm{H}_{2} 2Na+2H2O→2NaOH+H2 (ii) পটাসিয়াম: 2 K+2H2O→2KOH+H2 2 \\mathrm{~K}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow 2 \\mathrm{KOH}+\\mathrm{H}_{2} 2 K+2H2O→2KOH+H2 (iii) ক্যালসিয়াস: Ca+2H2O→Ca(OH)2+H2 \\mathrm{Ca}+2 \\mathrm{H}_{2} \\mathrm{O} \\rightarrow \\mathrm{Ca}(\\mathrm{OH})_{2}+\\mathrm{H}_{2} Ca+2H2O→Ca(OH)2+H2"
+  },
+  {
+    "id": 44,
+    "question": "Fe2O3+6HCI=2FeCI3+3H2O Fe_{2}O_{3}+6HCI=2FeCI_{3}+3H_{2}O Fe2O3+6HCI=2FeCI3+3H2O",
+    "options": {
+      "a": "𝑃 𝑏 𝑂 2 + 2 𝐶 𝐻 3 − 𝐶 𝑂 𝑂 𝐻 = ( 𝐶 𝐻 3 𝐶 𝑂 𝑂 ( ) ) 2 𝑃 𝑏 + 𝐻 2 𝑂 PbO 2 +2CH 3 −COOH=(CH 3 COO()) 2 Pb+H 2 O",
+      "b": "𝐹 𝑒 2 𝑂 3 + 6 𝐻 𝐶 𝐼 = 2 𝐹 𝑒 𝐶 𝐼 3 + 3 𝐻 2 𝑂 Fe 2 O 3 +6HCI=2FeCI 3 +3H 2 O",
+      "c": "𝐶 𝑎 ( 𝑂 𝐻 ( ) ) 2 + 𝐶 𝐼 2 = 𝐶 𝑎 ( 𝑂 𝐶 𝐼 ) 𝐶 𝐼 + 𝐻 2 𝑂 Ca(OH()) 2 +CI 2 =Ca(OCI)CI+H 2 O",
+      "d": "𝐶 𝑎 ( 𝑂 𝐻 ( ) ) 2 + 2 𝑁 𝐻 4 𝐶 𝐼 = 𝐶 𝑎 𝐶 𝐼 2 + 2 𝑁 𝐻 3 + 𝐻 2 𝑂 Ca(OH()) 2 +2NH 4 CI=CaCI 2 +2NH 3 +H 2 O"
+    },
+    "correctAnswer": "b",
+    "explanation": "এই বিক্রিয়াটির মৌলগুলোর সঠিক জারণ মান এবং পুরো বিক্রিয়াটিতে সমতা রয়েছে। অর্থাৎ বিক্রিয়কে মৌলগুলো যত সংখ্যক রয়েছে উৎপাদেও তত সংংখ্যক বিদ্যমান। তাই এটি সঠিক বিক্রিয়া।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$Fe2O3+6HCI=2FeCI3+3H2O Fe_{2}O_{3}+6HCI=2FeCI_{3}+3H_{2}O Fe2O3+6HCI=2FeCI3+3H2O$",
+    "explanationLatex": "এই বিক্রিয়াটির মৌলগুলোর সঠিক জারণ মান এবং পুরো বিক্রিয়াটিতে সমতা রয়েছে। অর্থাৎ বিক্রিয়কে মৌলগুলো যত সংখ্যক রয়েছে উৎপাদেও তত সংংখ্যক বিদ্যমান। তাই এটি সঠিক বিক্রিয়া।"
+  },
+  {
+    "id": 45,
+    "question": "ম্যালেয়িক অ্যানহাইড্রাইড উৎপাদনের গ্রিনার পদ্ধতি কোনটি?",
+    "options": {
+      "a": "বেনজিনের জারণ পদ্ধতি",
+      "b": "বিউটেনের জারণ পদ্ধতি",
+      "c": "ইথানলের জারণ পদ্ধতি",
+      "d": "বিউটেনের বিজারণ পদ্ধতি"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244201/gst-question-images/__________________q47.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ম্যালেয়িক অ্যানহাইড্রাইড উৎপাদনের গ্রিনার পদ্ধতি কোনটি?",
+    "explanationLatex": ""
+  },
+  {
+    "id": 46,
+    "question": "হাইড্রোজেন আয়োডাইড এর রং নিচের কোনটি?",
+    "options": {
+      "a": "হালকা বেগুনি",
+      "b": "হালকা লাল",
+      "c": "বর্ণহীন",
+      "d": "হালকা হলুদ"
+    },
+    "correctAnswer": "c",
+    "explanation": "HI একটি বর্ণহীন গ্যাস। যা অক্সিজেনের সাথে বিক্রিয়া করে পানি ও আয়োডিন দেয়।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "হাইড্রোজেন আয়োডাইড এর রং নিচের কোনটি?",
+    "explanationLatex": "HI একটি বর্ণহীন গ্যাস। যা অক্সিজেনের সাথে বিক্রিয়া করে পানি ও আয়োডিন দেয়।"
+  },
+  {
+    "id": 47,
+    "question": "বিশ্বের সবচেয়ে বেশি কার্বন ডাই অক্সাইড নির্গমনকারী দেশ কোনটি?",
+    "options": {
+      "a": "যুক্তরাষ্ট্র",
+      "b": "জাপান",
+      "c": "রাশিয়া",
+      "d": "চীন"
+    },
+    "correctAnswer": "d",
+    "explanation": "বিশ্বের সবচেয়ে বেশি কার্বন ডাই অক্সাইড নির্গমনকারী দেশ হলো চীন। শিল্পায়ন এবং বৃহৎ জনসংখ্যার কারণে চীন বিশ্বব্যাপী মোট কার্বন নির্গমনের প্রায় এক-তৃতীয়াংশের জন্য দায়ী।",
+    "subject": "Chemistry",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বিশ্বের সবচেয়ে বেশি কার্বন ডাই অক্সাইড নির্গমনকারী দেশ কোনটি?",
+    "explanationLatex": "বিশ্বের সবচেয়ে বেশি কার্বন ডাই অক্সাইড নির্গমনকারী দেশ হলো চীন। শিল্পায়ন এবং বৃহৎ জনসংখ্যার কারণে চীন বিশ্বব্যাপী মোট কার্বন নির্গমনের প্রায় এক-তৃতীয়াংশের জন্য দায়ী।"
+  },
+  {
+    "id": 48,
+    "question": "তাপমাত্রা বৃদ্ধি করলে নিচের বিক্রিয়ার সাম্যবস্থায় কোনটি যথাযথ?",
+    "options": {
+      "a": "K p K p এর মান অপরিবর্তিত থাকবে",
+      "b": "K p K p এর মান বৃদ্ধি পাবে",
+      "c": "K p K p এর মান হ্রাস পাবে",
+      "d": "K p K p ও K c K c এর মান সমান হবে"
+    },
+    "correctAnswer": "c",
+    "explanation": "N2(g)+3H2(g)⇌2NH3(g); ΔH=−96 kJmol−1\\mathrm{N_2\\left(g\\right)+3H_2\\left(g\\right)\\rightleftharpoons 2NH_3\\left(g\\right);\\ \\Delta H=-96\\ kJmol^{-1}}N2(g)+3H2(g)⇌2NH3(g); ΔH=−96 kJmol−1 বিক্রিয়াটি তাপ উৎপাদী কারণ বিক্রিয়া তাপ ঋণাত্মক। তাই Kp\\mathrm{K_p }Kp হ্রাস পাবে।",
+    "subject": "Chemistry",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244203/gst-question-images/__________________q50.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "তাপমাত্রা বৃদ্ধি করলে নিচের বিক্রিয়ার সাম্যবস্থায় কোনটি যথাযথ?",
+    "explanationLatex": "$N2(g)+3H2(g)⇌2NH3(g); \\\\Delta H=−96 kJmol−1\\mathrm{N_2\\left(g\\right)+3H_2\\left(g\\right)\\rightleftharpoons 2NH_3\\left(g\\right);\\ \\Delta H=-96\\ kJmol^{-1}}N2(g)+3H2(g)⇌2NH3(g); \\\\Delta H=−96 kJmol−1 বিক্রিয়াটি তাপ উৎপাদী কারণ বিক্রিয়া তাপ ঋণাত্মক। তাই Kp\\mathrm{K_p }Kp হ্রাস পাবে।$"
+  }
+]

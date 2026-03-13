@@ -315,24 +315,29 @@ table.data-table {
 }
 
 .adm-stat {
-  text-align: center;
-  padding: 10px 4px;
-  border-radius: 10px;
-  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  border-radius: 8px;
+  background: #fff;
   border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
 
 .adm-stat-num {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 800;
   display: block;
+  line-height: 1.2;
 }
 
 .adm-stat-label {
   font-size: 0.65rem;
-  color: var(--slate-500);
+  color: #64748b;
   font-weight: 600;
-  text-transform: uppercase;
+  margin-top: 2px;
 }
 
 .adm-stat.correct .adm-stat-num {
@@ -463,10 +468,9 @@ table.data-table {
 
 .adm-answer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
-  /* Better responsiveness */
-  gap: 6px;
-  margin-bottom: 12px;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+  margin-bottom: 10px;
 }
 
 .adm-grid-tile {
@@ -475,11 +479,11 @@ table.data-table {
   align-items: center;
   justify-content: center;
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  border: 1.5px solid transparent;
+  border: 2px solid transparent;
   cursor: pointer;
-  transition: all 0.12s;
+  transition: all 0.15s;
   padding: 0;
   min-height: unset;
   min-width: unset;
@@ -505,13 +509,13 @@ table.data-table {
 
 .adm-grid-tile.active {
   border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
   transform: scale(1.1);
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #6366f1;
   z-index: 5;
 }
 
 .adm-grid-tile:active {
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 .adm-grid-legend {

@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "question": "নিম্নের কোন বস্তুর কণাগুলোর শুধুমাত্র কম্পন-গতি রয়েছে?",
+    "options": {
+      "a": "𝑁 𝑎 𝐶 𝑙 ( 𝑠 ) NaCl(s)",
+      "b": "𝐻 2 𝑂 ( 𝑙 ) H 2 O(l)",
+      "c": "𝐻 2 𝑂 ( 𝑔 ) H 2 O(g)",
+      "d": "𝐻 2 ( 𝑔 ) H 2 (g)"
+    },
+    "correctAnswer": "a",
+    "explanation": "NaClNaClNaCl কঠিন পদার্থ হওয়ায় এর অণুসমূহের মধ্যে শুধুমাত্র কম্পন গতি আছে।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিম্নের কোন বস্তুর কণাগুলোর শুধুমাত্র কম্পন-গতি রয়েছে?",
+    "explanationLatex": "NaClNaClNaCl কঠিন পদার্থ হওয়ায় এর অণুসমূহের মধ্যে শুধুমাত্র কম্পন গতি আছে।"
+  },
+  {
+    "id": 2,
+    "question": "আদর্শ গ্যাসের বৈশিষ্ট্য নয় কোনটি?",
+    "options": {
+      "a": "PV = nRT সমীকরন মেনে চলে",
+      "b": "(du / dV)T = 0",
+      "c": "আদর্শ গ্যাসের অনুসমূহের মোট আয়তন গ্যাস দ্বারা দখলকৃত আয়তনের অর্ধেক",
+      "d": "আদর্শ গ্যাসের অনুসমূহের মধ্যে আকর্ষন বা বিকর্ষন বল নেই"
+    },
+    "correctAnswer": "c",
+    "explanation": "অণুসমূহের আয়তন: আদর্শ গ্যাস: অণুসমূহের মোট আয়তন গ্যাস দ্বারা দখলকৃত আয়তনের তূলনায় নগণ্য; তাই হিসাবে গণ্য করা হয় না।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "আদর্শ গ্যাসের বৈশিষ্ট্য নয় কোনটি?",
+    "explanationLatex": "অণুসমূহের আয়তন: আদর্শ গ্যাস: অণুসমূহের মোট আয়তন গ্যাস দ্বারা দখলকৃত আয়তনের তূলনায় নগণ্য; তাই হিসাবে গণ্য করা হয় না।"
+  },
+  {
+    "id": 3,
+    "question": "গ্যাসকে প্রসারিত হতে দিলে-",
+    "options": {
+      "a": "গতিশক্তি বৃদ্ধি পায়",
+      "b": "বিভব শক্তি কমে যায়",
+      "c": "অন্তঃশক্তি বৃদ্ধি পায়",
+      "d": "অন্তঃস্থ শক্তি হ্রাস পায়"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) অন্তঃস্থ শক্তি হ্রাস পায়।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243736/gst-question-images/physics_________________________-_varsity_arc_q3.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গ্যাসকে প্রসারিত হতে দিলে-",
+    "explanationLatex": "সঠিক উত্তর: (d) অন্তঃস্থ শক্তি হ্রাস পায়।"
+  },
+  {
+    "id": 4,
+    "question": "শিশিরাঙ্ক ও আপেক্ষিক আর্দ্রতার মধ্যে সম্পর্ক কোনটি?",
+    "options": {
+      "a": "R = f F × 100 % R= F f ×100%",
+      "b": "R = F f × 100 % R= f F ×100%",
+      "c": "f = F R × 100 % f= R F ×100%",
+      "d": "R = F f R= f F"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) R = f F × 100 % R= F f ×100%।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243740/gst-question-images/physics_________________________-_varsity_arc_q4.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "শিশিরাঙ্ক ও আপেক্ষিক আর্দ্রতার মধ্যে সম্পর্ক কোনটি?",
+    "explanationLatex": "$সঠিক উত্তর: (a) R = f F \\ \\times 100 % R= F f \\ \\times 100%।$"
+  },
+  {
+    "id": 5,
+    "question": "PV=13mN C2‾PV=\\frac{1}{3}mN\\ \\overline{C^2}PV=31mN C2সমীকরণে C2‾\\ \\overline{C^2} C2-",
+    "options": {
+      "a": "গড় বেগ",
+      "b": "গড় বৰ্গবেগ",
+      "c": "মূল গড় বৰ্গবেগ",
+      "d": "আলোর বেগের বর্গ"
+    },
+    "correctAnswer": "b",
+    "explanation": "গ্যাসের গতীয় তত্ত্বের সূত্রানুসারে, সমীকরণ PV=13mNC2‾ PV = \\frac{1}{3}mN \\overline{C^2} PV=31mNC2 এ C2‾ \\overline{C^2} C2 হলো গড় বৰ্গবেগ (mean square velocity)। এটি কণার বেগের বর্গের গড়কে নির্দেশ করে। অতএব, সঠিক উত্তর হলো: গড় বৰ্গবেগ",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$PV=13mN C2‾PV=\\frac{1}{3}mN\\ \\overline{C^2}PV=31mN C2সমীকরণে C2‾\\ \\overline{C^2} C2-$",
+    "explanationLatex": "$গ্যাসের গতীয় তত্ত্বের সূত্রানুসারে, সমীকরণ PV=13mNC2‾ PV = \\frac{1}{3}mN \\overline{C^2} PV=31mNC2 এ C2‾ \\overline{C^2} C2 হলো গড় বৰ্গবেগ (mean square velocity)। এটি কণার বেগের বর্গের গড়কে নির্দেশ করে। অতএব, সঠিক উত্তর হলো: গড় বৰ্গবেগ$"
+  },
+  {
+    "id": 6,
+    "question": "একটি সিলিন্ডারে গ্যাসের আয়তন 25L । কিন্তু চাপ বাড়িয়ে আয়তন 19L করলে চাপের পরিবর্তন হবে? [পূর্বের চাপ = 3.2atm, তাপমাত্রা স্থির]",
+    "options": {
+      "a": "72.43 % 72.43%",
+      "b": "52.52 % 52.52%",
+      "c": "68.42 % 68.42%",
+      "d": "31.58 % 31.58%"
+    },
+    "correctAnswer": "d",
+    "explanation": "P2=2519×3.2=4.21 atm%0ΔP=4.21−3.23.2×100%=31.5.8% \\begin{aligned} P_{2} & =\\frac{25}{19} \\times 3.2 \\\\ & =4.21 \\mathrm{~atm} \\\\ \\%_{0} \\Delta P & =\\frac{4.21-3.2}{3.2} \\times 100 \\% \\\\ & =31.5 .8 \\%\\end{aligned} P2%0ΔP=1925×3.2=4.21 atm=3.24.21−3.2×100%=31.5.8%",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$একটি সিলিন্ডারে গ্যাসের আয়তন 25L । কিন্তু চাপ বাড়িয়ে আয়তন 19L করলে চাপের পরিবর্তন হবে? [পূর্বের চাপ = 3.2atm, তাপমাত্রা স্থির]$",
+    "explanationLatex": "$P2=2519\\ \\times 3.2=4.21 atm%0\\\\Delta P=4.21−3.23.2\\ \\times 100%=31.5.8% \\begin{aligned} P_{2} & =\\frac{25}{19} \\times 3.2 \\\\ & =4.21 \\mathrm{~atm} \\\\ \\%_{0} \\Delta P & =\\frac{4.21-3.2}{3.2} \\times 100 \\% \\\\ & =31.5 .8 \\%\\end{aligned} P2%0\\\\Delta P=1925\\ \\times 3.2=4.21 atm=3.24.21−3.2\\ \\times 100%=31.5.8%$"
+  },
+  {
+    "id": 7,
+    "question": "0.64 m0.64\\ m0.64 m পারদস্তম্ভ চাপে এবং 35oC35^oC35oC তাপমাত্রায় কোনো গ্যাসের আয়তন 6×10−4m36\\times{10}^{-4}m^36×10−4m3 । প্রমাণ চাপ ও তাপমাত্রায় গ্যাসের আয়তন কত?",
+    "options": {
+      "a": "5.05 × 10 − 4 𝑚 3 5.05×10 −4 m 3",
+      "b": "6.32 × 10 − 4 𝑚 3 6.32×10 −4 m 3",
+      "c": "7.2 × 10 − 4 𝑚 3 7.2×10 −4 m 3",
+      "d": "4.5 × 10 − 4 𝑚 3 4.5×10 −4 m 3"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) 4.5 × 10 − 4 𝑚 3 4.5×10 −4 m 3।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243749/gst-question-images/physics_________________________-_varsity_arc_q7.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$0.64 m0.64\\ m0.64 m পারদস্তম্ভ চাপে এবং 35oC35^oC35oC তাপমাত্রায় কোনো গ্যাসের আয়তন 6\\ \\times 10−4m36 \\times {10}^{-4}m^36\\ \\times 10−4m3 । প্রমাণ চাপ ও তাপমাত্রায় গ্যাসের আয়তন কত?$",
+    "explanationLatex": "$সঠিক উত্তর: (d) 4.5 \\ \\times 10 − 4 𝑚 3 4.5\\ \\times 10 −4 m 3।$"
+  },
+  {
+    "id": 8,
+    "question": "S.I. এককে মোলার গ্যাস R এর মান-",
+    "options": {
+      "a": "8.314 Jmol-1K-1",
+      "b": "8.314 atm.Sk",
+      "c": "8.32 x 107 Jmol-1K-1",
+      "d": "8.32 x 107 erg.mol-1k-1"
+    },
+    "correctAnswer": "a",
+    "explanation": "S. I এককে R এর মান = 8.314 J mol-1k-1 R=PVnT=101325×22.4×10−3273=8.31Jk−1 mol−1 \\begin{aligned} R & =\\frac{P V}{n T} \\\\ & =\\frac{101325 \\times 22.4 \\times 10^{-3}}{273} \\\\ & =8.31 \\mathrm{Jk}^{-1} \\mathrm{~mol}^{-1}\\end{aligned} R=nTPV=273101325×22.4×10−3=8.31Jk−1 mol−1",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "S.I. এককে মোলার গ্যাস R এর মান-",
+    "explanationLatex": "$S. I এককে R এর মান = 8.314 J mol-1k-1 R=PVnT=101325\\ \\times 22.4\\ \\times 10−3273=8.31Jk−1 mol−1 \\begin{aligned} R & =\\frac{P V}{n T} \\\\ & =\\frac{101325 \\times 22.4 \\times 10^{-3}}{273} \\\\ & =8.31 \\mathrm{Jk}^{-1} \\mathrm{~mol}^{-1}\\end{aligned} R=nTPV=273101325\\ \\times 22.4\\ \\times 10−3=8.31Jk−1 mol−1$"
+  },
+  {
+    "id": 9,
+    "question": "PV=K সমকরনটি সাধানভাবে কোন সূত্রের প্রকাশ?",
+    "options": {
+      "a": "বয়েলের",
+      "b": "চাপের সূত্র",
+      "c": "চার্লসের সুত্র",
+      "d": "আর্দশ গ্যাস সমীকরন"
+    },
+    "correctAnswer": "a",
+    "explanation": "বয়েলের সূত্র PV=K⇒V=KP⇒P1 V1=P2 V2=K \\mathrm{PV}=\\mathrm{K} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{K}}{\\mathrm{P}} \\Rightarrow \\mathrm{P}_{1} \\mathrm{~V}_{1}=\\mathrm{P}_{2} \\mathrm{~V}_{2}=\\mathrm{K} PV=K⇒V=PK⇒P1 V1=P2 V2=K চার্লসের সূত্র: V∝T⇒V=KT⇒V1T1=V2T2=K,Vt=VO(1+t273) V \\propto T \\Rightarrow V=K T \\Rightarrow \\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}=K, V_{t}=V_{O}\\left(1+\\frac{t}{273}\\right) V∝T⇒V=KT⇒T1V1=T2V2=K,Vt=VO(1+273t) চাপের সূত্র : P=KT⇒P1T1=P2T2=K P=K T \\Rightarrow \\frac{P_{1}}{T_{1}}=\\frac{P_{2}}{T_{2}}=K P=KT⇒T1P1=T2P2=K আদর্শগ্যাস সমীকরণ : PV=nRT,n=PVRT⇒WM=PVRT⇒d=PMRT P V=n R T, n=\\frac{P V}{R T} \\Rightarrow \\frac{W}{M}=\\frac{P V}{R T} \\Rightarrow d=\\frac{P M}{R T} PV=nRT,n=RTPV⇒MW=RTPV⇒d=RTPM",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$PV=K সমকরনটি সাধানভাবে কোন সূত্রের প্রকাশ?$",
+    "explanationLatex": "$বয়েলের সূত্র PV=K⇒V=KP⇒P1 V1=P2 V2=K \\mathrm{PV}=\\mathrm{K} \\Rightarrow \\mathrm{V}=\\frac{\\mathrm{K}}{\\mathrm{P}} \\Rightarrow \\mathrm{P}_{1} \\mathrm{~V}_{1}=\\mathrm{P}_{2} \\mathrm{~V}_{2}=\\mathrm{K} PV=K⇒V=PK⇒P1 V1=P2 V2=K চার্লসের সূত্র: V\\\\propto T⇒V=KT⇒V1T1=V2T2=K,Vt=VO(1+t273) V \\propto T \\Rightarrow V=K T \\Rightarrow \\frac{V_{1}}{T_{1}}=\\frac{V_{2}}{T_{2}}=K, V_{t}=V_{O}\\left(1+\\frac{t}{273}\\right) V\\\\propto T⇒V=KT⇒T1V1=T2V2=K,Vt=VO(1+273t) চাপের সূত্র : P=KT⇒P1T1=P2T2=K P=K T \\Rightarrow \\frac{P_{1}}{T_{1}}=\\frac{P_{2}}{T_{2}}=K P=KT⇒T1P1=T2P2=K আদর্শগ্যাস সমীকরণ : PV=nRT,n=PVRT⇒WM=PVRT⇒d=PMRT P V=n R T, n=\\frac{P V}{R T} \\Rightarrow \\frac{W}{M}=\\frac{P V}{R T} \\Rightarrow d=\\frac{P M}{R T} PV=nRT,n=RTPV⇒MW=RTPV⇒d=RTPM$"
+  },
+  {
+    "id": 10,
+    "question": "গ্যাসের গতিবেগ এর ক্ষেত্রে কোন ক্রমটি সঠিক?[",
+    "options": {
+      "a": "RMS বেগ < গড় গতিবেগ",
+      "b": "সম্ভ্যাব্যতম বেগ > গড় গতিবেগ",
+      "c": "RMS বেগ > সম্ভ্যাব্যতম বেগ",
+      "d": "RMS বেগ > গড় গতিবেগ"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) RMS বেগ > গড় গতিবেগ।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243721/gst-question-images/physics_________________________-_varsity_arc_q10.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গ্যাসের গতিবেগ এর ক্ষেত্রে কোন ক্রমটি সঠিক?[",
+    "explanationLatex": "সঠিক উত্তর: (d) RMS বেগ > গড় গতিবেগ।"
+  },
+  {
+    "id": 11,
+    "question": "কোনটির ফলে শৈত্যের সৃষ্টি হয়?",
+    "options": {
+      "a": "স্যালন",
+      "b": "বাষ্পায়ন",
+      "c": "স্ফুটন",
+      "d": "উর্ধ্বপাতন"
+    },
+    "correctAnswer": "b",
+    "explanation": "বাষ্পায়নে বাতাসের আর্দ্রতা কমে ফলে শৈত্যের সৃষ্টি হয়।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটির ফলে শৈত্যের সৃষ্টি হয়?",
+    "explanationLatex": "বাষ্পায়নে বাতাসের আর্দ্রতা কমে ফলে শৈত্যের সৃষ্টি হয়।"
+  },
+  {
+    "id": 12,
+    "question": "কোন উক্তিটি সঠিক নয়?",
+    "options": {
+      "a": "নির্দিষ্ট তাপমাত্রায় বিভিন্ন গ্যাসের মিশ্রণ যে চাপ প্রয়োগ করে তা ঐ মিশ্রণের মধ্যে গ্যাসগুলোর চাপের সমষ্টির সমান",
+      "b": "স্ফুটনাঙ্কে তরলের সম্পৃক্ত বাষ্প চাপ তরল পৃষ্ঠের উপরস্থ চাপের চেয়ে অধিক",
+      "c": "তাপমাত্রা হ্রাসের সাথে অসম্পৃক্ত বাষ্প চাপ হ্রাস পায়",
+      "d": "সম্পৃক্ত বাষ্প বয়েলের সূত্র মেনে চলে"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) সম্পৃক্ত বাষ্প বয়েলের সূত্র মেনে চলে।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243723/gst-question-images/physics_________________________-_varsity_arc_q12.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন উক্তিটি সঠিক নয়?",
+    "explanationLatex": "সঠিক উত্তর: (d) সম্পৃক্ত বাষ্প বয়েলের সূত্র মেনে চলে।"
+  },
+  {
+    "id": 13,
+    "question": "কোনটি বাষ্পায়নের ক্ষেত্রে প্রযোজ্য নয়?",
+    "options": {
+      "a": "তরল পদার্থের তাপমাত্রা যত বেশি হবে বাষ্পায়নও তত দ্রুত হবে",
+      "b": "পারিপার্শ্বিক বাতাসের তাপমাত্রা যত বেশি হবে, তরলের বাষ্পায়ন তত দ্রুত ঘটবে",
+      "c": "বাষ্পায়নের শৈত্যের সৃষ্টি হয়",
+      "d": "বায়ুর চাপ বৃদ্ধি পেলে আনুপাতিক হারে বাষ্পায়ন বৃদ্ধি পাবে"
+    },
+    "correctAnswer": "d",
+    "explanation": "বায়ুর চাপ বৃদ্ধ পেলে আনুপাতিক হারে বাস্পায়ন বৃদ্ধি পাবে।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি বাষ্পায়নের ক্ষেত্রে প্রযোজ্য নয়?",
+    "explanationLatex": "বায়ুর চাপ বৃদ্ধ পেলে আনুপাতিক হারে বাস্পায়ন বৃদ্ধি পাবে।"
+  },
+  {
+    "id": 14,
+    "question": "কোনটি গ্যাসীয় মাধ্যমে শব্দের বেগ সংক্রান্ত ল্যাপলাসের সূত্র?",
+    "options": {
+      "a": "𝑣 = 𝐾 𝜌 v= ρ K",
+      "b": "𝑣 = 𝑃 𝜌 v= ρ P",
+      "c": "𝑣 = 𝑌 𝜌 v= ρ Y",
+      "d": "𝑣 = ɤ 𝑃 𝜌 v= ρ ɤP"
+    },
+    "correctAnswer": "d",
+    "explanation": "শব্দের বেগ সংক্রান্ত- - নিউটনের সূত্র : v=Eρ v=\\sqrt{\\frac{E}{\\rho}} v=ρE - ল্যাপলাসের সূত্র : v=γPρ v=\\sqrt{\\frac{\\gamma P}{\\rho}} v=ργP",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি গ্যাসীয় মাধ্যমে শব্দের বেগ সংক্রান্ত ল্যাপলাসের সূত্র?",
+    "explanationLatex": "$শব্দের বেগ সংক্রান্ত- - নিউটনের সূত্র : v=Eρ v=\\sqrt{\\frac{E}{\\rho}} v=ρE - ল্যাপলাসের সূত্র : v=γPρ v=\\sqrt{\\frac{\\gamma P}{\\rho}} v=ργP$"
+  },
+  {
+    "id": 15,
+    "question": "গ্যাসের বেলায় কোন উক্তিটি সঠিক নহে?",
+    "options": {
+      "a": "চাপে আয়তনের পরিবর্তন ঘটে",
+      "b": "মুক্ততল নেই",
+      "c": "প্যাসকেলের সূত্র প্রযোজ্য নহে",
+      "d": "আন্তঃআণবিক বল কম"
+    },
+    "correctAnswer": "c",
+    "explanation": "চাপে আয়তনের পরিবর্তন ঘটে মুক্ততল নেই আন্তঃআণবিক বল কম গ্যাসের বেলায় এই উক্তিগুলো সঠিক।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গ্যাসের বেলায় কোন উক্তিটি সঠিক নহে?",
+    "explanationLatex": "চাপে আয়তনের পরিবর্তন ঘটে মুক্ততল নেই আন্তঃআণবিক বল কম গ্যাসের বেলায় এই উক্তিগুলো সঠিক।"
+  },
+  {
+    "id": 16,
+    "question": "যদি আর্দ্র ও শুস্ক বাল্ব থার্মোমিটার একই তাপমাত্রা নির্দেশ করে তবে আর্দ্রতা হবে-",
+    "options": {
+      "a": "খুব বেশি",
+      "b": "খুব কম",
+      "c": "কম",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) খুব বেশি।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243725/gst-question-images/physics_________________________-_varsity_arc_q16.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "যদি আর্দ্র ও শুস্ক বাল্ব থার্মোমিটার একই তাপমাত্রা নির্দেশ করে তবে আর্দ্রতা হবে-",
+    "explanationLatex": "সঠিক উত্তর: (a) খুব বেশি।"
+  },
+  {
+    "id": 17,
+    "question": "নির্দিষ্ট তাপমাত্রায় কোন আবদ্ধ স্থান সর্বাধিক যে পরিমাণ বাষ্প ধারণ করতে পারে, তা অপেক্ষা কম বাষ্প থাকলে তাকে বলে-",
+    "options": {
+      "a": "অসম্পৃক্ত বাষ্প",
+      "b": "সম্পৃক্ত বাষ্পচাপ",
+      "c": "সম্পৃক্ত বাষ্প",
+      "d": "অসম্পৃক্ত বাষ্পচাপ"
+    },
+    "correctAnswer": "a",
+    "explanation": "অসম্পৃক্ত অর্থ হলো - সর্বোচ্চ ধারণ ক্ষমতা পূরণ না হওয়া।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243726/gst-question-images/physics_________________________-_varsity_arc_q17.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নির্দিষ্ট তাপমাত্রায় কোন আবদ্ধ স্থান সর্বাধিক যে পরিমাণ বাষ্প ধারণ করতে পারে, তা অপেক্ষা কম বাষ্প থাকলে তাকে বলে-",
+    "explanationLatex": "অসম্পৃক্ত অর্থ হলো - সর্বোচ্চ ধারণ ক্ষমতা পূরণ না হওয়া।"
+  },
+  {
+    "id": 18,
+    "question": "1.01325 kPa1.01325\\ kPa1.01325 kPa চাপে ও 27°C27°C27°C তাপমাত্রায় N2N_2N2 গ্যাসের CrmsC_{rms}Crms কত?",
+    "options": {
+      "a": "16 𝑚 / 𝑠 16m/s",
+      "b": "516.95 𝑚 / 𝑠 516.95m/s",
+      "c": "51.37 𝑚 / 𝑠 51.37m/s",
+      "d": "478.1 𝑚 / 𝑠 478.1m/s"
+    },
+    "correctAnswer": "b",
+    "explanation": "Crms=3RTM=3×8.31×30028×10−3=516.95 ms−1 \\begin{array}{l}C_{r m{s}}=\\sqrt{\\frac{3 R T}{M}} \\\\ =\\sqrt{\\frac{3 \\times 8.31 \\times 300}{28 \\times 10^{-3}}} \\\\ =516.95 \\mathrm{~ms}^{-1}\\end{array} Crms=M3RT=28×10−33×8.31×300=516.95 ms−1",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$1.01325 kPa1.01325\\ kPa1.01325 kPa চাপে ও 27^{\\\\circ}C27^{\\\\circ}C27^{\\\\circ}C তাপমাত্রায় N2N_2N2 গ্যাসের CrmsC_{rms}Crms কত?$",
+    "explanationLatex": "$Crms=3RTM=3\\ \\times 8.31\\ \\times 30028\\ \\times 10−3=516.95 ms−1 \\begin{array}{l}C_{r m{s}}=\\sqrt{\\frac{3 R T}{M}} \\\\ =\\sqrt{\\frac{3 \\times 8.31 \\times 300}{28 \\times 10^{-3}}} \\\\ =516.95 \\mathrm{~ms}^{-1}\\end{array} Crms=M3RT=28\\ \\times 10−33\\ \\times 8.31\\ \\times 300=516.95 ms−1$"
+  },
+  {
+    "id": 19,
+    "question": "জলীয় বাষ্পের ঘনত্বের সাথে বায়ুচাপের সম্পর্ক -",
+    "options": {
+      "a": "𝑝 ∝ 𝜌 2 p∝ρ 2",
+      "b": "𝜌 ∝ √ 𝑝 ρ∝√p",
+      "c": "𝜌 ∝ 𝑝 ρ∝p",
+      "d": "𝜌 ∝ 1 𝑝 ρ∝ p 1"
+    },
+    "correctAnswer": "c",
+    "explanation": "সঠিক উত্তর: (c) 𝜌 ∝ 𝑝 ρ∝p।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243727/gst-question-images/physics_________________________-_varsity_arc_q19.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "জলীয় বাষ্পের ঘনত্বের সাথে বায়ুচাপের সম্পর্ক -",
+    "explanationLatex": "$সঠিক উত্তর: (c) 𝜌 \\\\propto 𝑝 ρ\\\\propto p।$"
+  },
+  {
+    "id": 20,
+    "question": "গড় মুক্ত পথ একক আয়তনের অণুর সংখ্যার -",
+    "options": {
+      "a": "সমানুপাতিক",
+      "b": "ব্যস্তানুপাতিক",
+      "c": "বর্গের সমানুপাতিক",
+      "d": "বর্গমূলের ব্যস্তানুপাতিক"
+    },
+    "correctAnswer": "b",
+    "explanation": "ক্লসিয়াস এর মতে, গড় মুক্তপথ, λ=1nπσ2\\ \\lambda = \\frac {1}{ n \\pi \\sigma ^{2}} λ=nπσ21 এখানে; n=একক আয়তনে গ্যাসের অনুর সংখ্যা π\\ \\pi π=3.1416 σ\\ \\sigma σ = অনুর ব্যাস λ=1nπσ2⇒λ∝1nগড়মুক্তপথ∝1অনুর সংখ্যা\\ \\lambda = \\frac {1}{ n \\pi \\sigma ^{2}} \\\\ \\Rightarrow \\lambda \\propto \\frac {1}{n} \\\\ গড় মুক্তপথ \\propto \\frac {1} {অনুর ~সংখ্যা} λ=nπσ21⇒λ∝n1গড়মুক্তপথ∝অনুর সংখ্যা1",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গড় মুক্ত পথ একক আয়তনের অণুর সংখ্যার -",
+    "explanationLatex": "$ক্লসিয়াস এর মতে, গড় মুক্তপথ, λ=1n\\\\pi σ2\\ \\lambda = \\frac {1}{ n \\pi \\sigma ^{2}} λ=n\\\\pi σ21 এখানে; n=একক আয়তনে গ্যাসের অনুর সংখ্যা \\\\pi \\ \\pi \\\\pi =3.1416 σ\\ \\sigma σ = অনুর ব্যাস λ=1n\\\\pi σ2⇒λ\\\\propto 1nগড়মুক্তপথ\\\\propto 1অনুর সংখ্যা\\ \\lambda = \\frac {1}{ n \\pi \\sigma ^{2}} \\\\ \\Rightarrow \\lambda \\propto \\frac {1}{n} \\\\ গড় মুক্তপথ \\propto \\frac {1} {অনুর ~সংখ্যা} λ=n\\\\pi σ21⇒λ\\\\propto n1গড়মুক্তপথ\\\\propto অনুর সংখ্যা1$"
+  },
+  {
+    "id": 21,
+    "question": "বয়েলের সূত্রের ক্ষেত্রে কোনটি সত্য?",
+    "options": {
+      "a": "V constant",
+      "b": "T constant",
+      "c": "P constant",
+      "d": "P and T constant"
+    },
+    "correctAnswer": "b",
+    "explanation": "বয়েলের সূত্র (Boyle's Law) গ্যাসের চাপ এবং আয়তনের মধ্যে সম্পর্ক বর্ণনা করে। এটি বলে যে, স্থির তাপমাত্রায়, নির্দিষ্ট ভরের কোনো গ্যাসের চাপ এবং আয়তন ব্যস্তানুপাতিক।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243728/gst-question-images/physics_________________________-_varsity_arc_q21.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বয়েলের সূত্রের ক্ষেত্রে কোনটি সত্য?",
+    "explanationLatex": "বয়েলের সূত্র (Boyle's Law) গ্যাসের চাপ এবং আয়তনের মধ্যে সম্পর্ক বর্ণনা করে। এটি বলে যে, স্থির তাপমাত্রায়, নির্দিষ্ট ভরের কোনো গ্যাসের চাপ এবং আয়তন ব্যস্তানুপাতিক।"
+  },
+  {
+    "id": 22,
+    "question": "নিচের কোনটি পরমশূন্য তাপমাত্রা?",
+    "options": {
+      "a": "0 ∘ C 0 ∘ C",
+      "b": "− 273.15 K −273.15 K",
+      "c": "− 459.67 ∘ F −459.67 ∘ F",
+      "d": "495.4 ∘ R 495.4 ∘ R"
+    },
+    "correctAnswer": "c",
+    "explanation": "পরম শূন্য তাপমাত্রা যেখানে তাপগতির সব গতিশক্তি শূন্য হয়ে যায় এবং কোনো পদার্থের কণাগুলির গতিও থেমে যায়। সেলসিয়াস (°C): -273.15°C কেলভিন (K): 0 K ফারেনহাইট (°F): -459.67°F",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোনটি পরমশূন্য তাপমাত্রা?",
+    "explanationLatex": "$পরম শূন্য তাপমাত্রা যেখানে তাপগতির সব গতিশক্তি শূন্য হয়ে যায় এবং কোনো পদার্থের কণাগুলির গতিও থেমে যায়। সেলসিয়াস (^{\\\\circ}C): -273.15^{\\\\circ}C কেলভিন (K): 0 K ফারেনহাইট (^{\\\\circ}F): -459.67^{\\\\circ}F$"
+  },
+  {
+    "id": 23,
+    "question": "একটি কণার স্বাধীনতার মাত্রার সংখ্যা 5 হলে শক্তির সমবিভাজন নীতি অনুযায়ী কণাটির মোট শক্তি কত?",
+    "options": {
+      "a": "𝐾 𝑇 / 2 KT/2",
+      "b": "𝐾 𝑇 KT",
+      "c": "3 𝐾 𝑇 / 2 3KT/2",
+      "d": "5 𝐾 𝑇 / 2 5KT/2"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) 5 𝐾 𝑇 / 2 5KT/2।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243730/gst-question-images/physics_________________________-_varsity_arc_q23.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি কণার স্বাধীনতার মাত্রার সংখ্যা 5 হলে শক্তির সমবিভাজন নীতি অনুযায়ী কণাটির মোট শক্তি কত?",
+    "explanationLatex": "$সঠিক উত্তর: (d) 5 𝐾 𝑇 / 2 \\frac{5KT}{2}।$"
+  },
+  {
+    "id": 24,
+    "question": "আদর্শ গ্যাসের গতীয় সমীকরণ নিচের কোনটি?",
+    "options": {
+      "a": "PV = nRT",
+      "b": "PV = 1/3 m NC2",
+      "c": "PV = RT",
+      "d": "PV = mNC2"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) PV = 1/3 m NC2।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243731/gst-question-images/physics_________________________-_varsity_arc_q24.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "আদর্শ গ্যাসের গতীয় সমীকরণ নিচের কোনটি?",
+    "explanationLatex": "$সঠিক উত্তর: (b) PV = \\frac{1}{3} m NC2।$"
+  },
+  {
+    "id": 25,
+    "question": "একটি 300m3 আয়তনের কক্ষের বাতাসের তাপমাত্রা 27oC । এয়ারকুলার ব্যবহার করার জন্য বাতাসের তাপমাত্রা কমে 17oC হল।যদি ঘরে বায়ুচাপ সমান থাকে , তবে শতকতা কতভাগ বাতাস ঘরের মধ্যে আসবে বা বাহির হয়ে যাবে?",
+    "options": {
+      "a": "None of them",
+      "b": "10%",
+      "c": "30%",
+      "d": "3.44%"
+    },
+    "correctAnswer": "d",
+    "explanation": "PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m2m1=T2T1⇒Δmm1=(T1−T2T2)×100%=3.448%PV\\ =n_1RT_1,\\ PV=n_2RT_2\\ \\Rightarrow n_1T_1=n_2T_2\\Rightarrow m_1T_1=m_2T_2\\Rightarrow\\frac{m_2}{m_1}=\\frac{T_2}{T_1}\\Rightarrow\\frac{\\Delta m}{m_1}=\\left(\\frac{T_1-T_2}{T_2}\\right)\\times100\\%=3.448\\%PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m1m2=T1T2⇒m1Δm=(T2T1−T2)×100%=3.448%",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি 300m3 আয়তনের কক্ষের বাতাসের তাপমাত্রা 27oC । এয়ারকুলার ব্যবহার করার জন্য বাতাসের তাপমাত্রা কমে 17oC হল।যদি ঘরে বায়ুচাপ সমান থাকে , তবে শতকতা কতভাগ বাতাস ঘরের মধ্যে আসবে বা বাহির হয়ে যাবে?",
+    "explanationLatex": "$PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m2m1=T2T1⇒\\\\Delta mm1=(T1−T2T2)\\ \\times 100%=3.448%PV\\ =n_1RT_1,\\ PV=n_2RT_2\\ \\Rightarrow n_1T_1=n_2T_2\\Rightarrow m_1T_1=m_2T_2\\Rightarrow\\frac{m_2}{m_1}=\\frac{T_2}{T_1}\\Rightarrow\\frac{\\Delta m}{m_1}=\\left(\\frac{T_1-T_2}{T_2}\\right) \\times 100\\%=3.448\\%PV =n1RT1, PV=n2RT2 ⇒n1T1=n2T2⇒m1T1=m2T2⇒m1m2=T1T2⇒m1\\\\Delta m=(T2T1−T2)\\ \\times 100%=3.448%$"
+  },
+  {
+    "id": 26,
+    "question": "নিচের কোন সমীকরণটি সঠিক?",
+    "options": {
+      "a": "𝑐 ‾ = 3 𝑅 𝑇 𝑀 c = M 3RT",
+      "b": "𝐶 = 8 𝑅 𝑇 𝜋 𝑀 C= πM 8RT",
+      "c": "𝛼 = 2 𝑅 𝑇 𝑀 α= M 2RT",
+      "d": "𝐸 𝑘 = 3 𝑅 𝑇 𝑁 𝐴 E k = N A 3RT"
+    },
+    "correctAnswer": "c",
+    "explanation": "সম্ভাব্যতম বেগ, α=2RTM\\alpha=\\sqrt{\\frac{2 R T}{M}}α=M2RT গড় বেগ, c‾=8RTπM\\overline{c}=\\sqrt{\\frac{8 R T}{\\pi M}}c=πM8RT RMS বেগ, c=3RTMc=\\sqrt{\\frac{3 R T}{M}}c=M3RT",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোন সমীকরণটি সঠিক?",
+    "explanationLatex": "$সম্ভাব্যতম বেগ, α=2RTM\\alpha=\\sqrt{\\frac{2 R T}{M}}α=M2RT গড় বেগ, c‾=8RT\\\\pi M\\overline{c}=\\sqrt{\\frac{8 R T}{\\pi M}}c=\\\\pi M8RT RMS বেগ, c=3RTMc=\\sqrt{\\frac{3 R T}{M}}c=M3RT$"
+  },
+  {
+    "id": 27,
+    "question": "T তাপমাত্রার এক লিটার বায়ুকে উত্তপ্ত করা হলো যতক্ষণ না বায়ুর চাপ ও আয়তন উভয়ই দ্বিগুন হয়। চূড়ান্ত তাপমাত্রা কত ?",
+    "options": {
+      "a": "2 T",
+      "b": "4 T",
+      "c": "𝑇 2 2 T",
+      "d": "𝑇 4 4 T"
+    },
+    "correctAnswer": "b",
+    "explanation": "PVT=const ∴ PVT=P′V′T′⇒PVT=2P.2VT′=4T\\frac{PV}{T}=const\\ \\ \\therefore\\ \\frac{PV}{T}=\\frac{P'V'}{T'}\\Rightarrow\\frac{PV}{T}=\\frac{2P.2V}{T'}=4TTPV=const ∴ TPV=T′P′V′⇒TPV=T′2P.2V=4T",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "T তাপমাত্রার এক লিটার বায়ুকে উত্তপ্ত করা হলো যতক্ষণ না বায়ুর চাপ ও আয়তন উভয়ই দ্বিগুন হয়। চূড়ান্ত তাপমাত্রা কত ?",
+    "explanationLatex": "$PVT=const ∴ PVT=P′V′T′⇒PVT=2P.2VT′=4T\\frac{PV}{T}=const\\ \\ \\therefore\\ \\frac{PV}{T}=\\frac{P'V'}{T'}\\Rightarrow\\frac{PV}{T}=\\frac{2P.2V}{T'}=4TTPV=const ∴ TPV=T′P′V′⇒TPV=T′2P.2V=4T$"
+  },
+  {
+    "id": 28,
+    "question": "আন্তঃআণবিক গতিশক্তি কোনটির উপর নির্ভরশীল?",
+    "options": {
+      "a": "ঘর্ষণ",
+      "b": "তাপমাত্রা",
+      "c": "অন্তঃস্থ শক্তি",
+      "d": "তাপ"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) তাপমাত্রা।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243735/gst-question-images/physics_________________________-_varsity_arc_q29.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "আন্তঃআণবিক গতিশক্তি কোনটির উপর নির্ভরশীল?",
+    "explanationLatex": "সঠিক উত্তর: (b) তাপমাত্রা।"
+  },
+  {
+    "id": 29,
+    "question": "গ্যাসের চাপ একক আয়তনের গতিশক্তির কত অংশ?",
+    "options": {
+      "a": "1 3 3 1",
+      "b": "2 3 3 2",
+      "c": "3 2 2 3",
+      "d": "3 3"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) 2 3 3 2।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243737/gst-question-images/physics_________________________-_varsity_arc_q30.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গ্যাসের চাপ একক আয়তনের গতিশক্তির কত অংশ?",
+    "explanationLatex": "সঠিক উত্তর: (b) 2 3 3 2।"
+  },
+  {
+    "id": 30,
+    "question": "বোল্টজম্যান ধ্রুবকের একক হলো-",
+    "options": {
+      "a": "J/molecule",
+      "b": "J.s",
+      "c": "J/K",
+      "d": "g/cc"
+    },
+    "correctAnswer": "c",
+    "explanation": "বোল্টজম্যান ধ্রুবক = অনুপ্রতি গ্যাস ধ্রুবক=RNA\\frac{R}{N_A}NAR লিটার বায়ুচাপ এককে,k=RNA=L atm K−1mol−1molecule mol−1=L atm K−1k=\\frac{R}{N_A}=\\frac{L\\ atm\\ K^{-1}mol^{-1}}{molecule\\ mol^{-1}}=L\\ atm\\ K^{-1}k=NAR=molecule mol−1L atm K−1mol−1=L atm K−1 জুল বাSISISIএককে,k=RNA=JK−1mol−1molecule mol−1=JK−1k=\\frac{R}{N_A}=\\frac{JK^{-1}mol^{-1}}{molecule\\ mol^{-1}}=JK^{-1}k=NAR=molecule mol−1JK−1mol−1=JK−1",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বোল্টজম্যান ধ্রুবকের একক হলো-",
+    "explanationLatex": "$বোল্টজম্যান ধ্রুবক = অনুপ্রতি গ্যাস ধ্রুবক=RNA\\frac{R}{N_A}NAR লিটার বায়ুচাপ এককে,k=RNA=L atm K−1mol−1molecule mol−1=L atm K−1k=\\frac{R}{N_A}=\\frac{L\\ atm\\ K^{-1}mol^{-1}}{molecule\\ mol^{-1}}=L\\ atm\\ K^{-1}k=NAR=molecule mol−1L atm K−1mol−1=L atm K−1 জুল বাSISISIএককে,k=RNA=JK−1mol−1molecule mol−1=JK−1k=\\frac{R}{N_A}=\\frac{JK^{-1}mol^{-1}}{molecule\\ mol^{-1}}=JK^{-1}k=NAR=molecule mol−1JK−1mol−1=JK−1$"
+  },
+  {
+    "id": 31,
+    "question": "স্থির চাপে 27°C তাপমাত্রায় 2Litre বাতাসের আয়তন 4L করতে হলে উত্তপ্ত করে যে তাপমাত্রায় নিতে হবে।",
+    "options": {
+      "a": "54°C",
+      "b": "237°C",
+      "c": "300°C",
+      "d": "327°C"
+    },
+    "correctAnswer": "d",
+    "explanation": "T2300=42∴T2=600 K=(600−273)∘C=327∘C \\begin{array}{c}\\frac{\\mathrm{T}_{2}}{300}=\\frac{4}{2} \\\\ \\therefore \\mathrm{T}_{2}=600 \\mathrm{~K}=(600-273)^{\\circ} \\mathrm{C}=327^{\\circ} \\mathrm{C}\\end{array} 300T2=24∴T2=600 K=(600−273)∘C=327∘C",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$স্থির চাপে 27^{\\\\circ}C তাপমাত্রায় 2Litre বাতাসের আয়তন 4L করতে হলে উত্তপ্ত করে যে তাপমাত্রায় নিতে হবে।$",
+    "explanationLatex": "$T2300=42∴T2=600 K=(600−273)∘C=327∘C \\begin{array}{c}\\frac{\\mathrm{T}_{2}}{300}=\\frac{4}{2} \\\\ \\therefore \\mathrm{T}_{2}=600 \\mathrm{~K}=(600-273)^{\\circ} \\mathrm{C}=327^{\\circ} \\mathrm{C}\\end{array} 300T2=24∴T2=600 K=(600−273)∘C=327∘C$"
+  },
+  {
+    "id": 32,
+    "question": "সমচাপে ও 17° C তাপমাত্রায় 2 লিটার বায়ুকে 3 লিটার আয়তন করার জন্য তাপমাত্রা কত হতে হবে ?",
+    "options": {
+      "a": "100° C",
+      "b": "152° C",
+      "c": "162° C",
+      "d": "262° C"
+    },
+    "correctAnswer": "c",
+    "explanation": "V1T1=V2T2 ⇒217+273=3T2 ∴T2=435 K=162°C\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\ \\Rightarrow\\frac{2}{17+273}=\\frac{3}{T_2}\\ \\ \\ \\therefore T_2=435\\ K=162°CT1V1=T2V2 ⇒17+2732=T23 ∴T2=435 K=162°C",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$সমচাপে ও 17^{\\\\circ} C তাপমাত্রায় 2 লিটার বায়ুকে 3 লিটার আয়তন করার জন্য তাপমাত্রা কত হতে হবে ?$",
+    "explanationLatex": "$V1T1=V2T2 ⇒217+273=3T2 ∴T2=435 K=162^{\\\\circ}C\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\ \\Rightarrow\\frac{2}{17+273}=\\frac{3}{T_2}\\ \\ \\ \\therefore T_2=435\\ K=162^{\\\\circ}CT1V1=T2V2 ⇒17+2732=T23 ∴T2=435 K=162^{\\\\circ}C$"
+  },
+  {
+    "id": 33,
+    "question": "CO2 এর তাপমাত্রা সর্বোচ্চ কত ডিগ্রি সেলসিয়াস থাকলে শুধুমাত্র চাপ প্রয়োগ একে তরলে পারিণত করা সম্ভব?",
+    "options": {
+      "a": "41.1 ° 41.1°",
+      "b": "36.1 ° 36.1°",
+      "c": "33.1 ° 33.1°",
+      "d": "31.1 ° 31.1°"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) 31.1 ° 31.1°।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243739/gst-question-images/physics_________________________-_varsity_arc_q34.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "CO2 এর তাপমাত্রা সর্বোচ্চ কত ডিগ্রি সেলসিয়াস থাকলে শুধুমাত্র চাপ প্রয়োগ একে তরলে পারিণত করা সম্ভব?",
+    "explanationLatex": "$সঠিক উত্তর: (d) 31.1 ^{\\\\circ} 31.1^{\\\\circ}।$"
+  },
+  {
+    "id": 34,
+    "question": "কোন তাপমাত্রায় গ্যাসের গতিশক্তি সম্পূর্ণরূপে‌ লোপ পায়?",
+    "options": {
+      "a": "0°C",
+      "b": "0K",
+      "c": "273K",
+      "d": "-173°C"
+    },
+    "correctAnswer": "b",
+    "explanation": "Ek=32nRT=32×n×R×O(T=0 K)=0 \\begin{aligned} E_{k} & =\\frac{3}{2} n R T \\\\ & =\\frac{3}{2} \\times n \\times R \\times O(T=0 \\mathrm{~K}) \\\\ & =0\\end{aligned} Ek=23nRT=23×n×R×O(T=0 K)=0",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন তাপমাত্রায় গ্যাসের গতিশক্তি সম্পূর্ণরূপে‌ লোপ পায়?",
+    "explanationLatex": "$Ek=32nRT=32\\ \\times n\\ \\times R\\ \\times O(T=0 K)=0 \\begin{aligned} E_{k} & =\\frac{3}{2} n R T \\\\ & =\\frac{3}{2} \\times n \\times R \\times O(T=0 \\mathrm{~K}) \\\\ & =0\\end{aligned} Ek=23nRT=23\\ \\times n\\ \\times R\\ \\times O(T=0 K)=0$"
+  },
+  {
+    "id": 35,
+    "question": "‘Thermodynamic Standard State’ রূপে তাপমাত্রা কত ধরা হয়?",
+    "options": {
+      "a": "0°C",
+      "b": "25°C",
+      "c": "300 K",
+      "d": "373 K"
+    },
+    "correctAnswer": "b",
+    "explanation": "298.15 K, 25°C, 77°F=Standard temperature",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "‘Thermodynamic Standard State’ রূপে তাপমাত্রা কত ধরা হয়?",
+    "explanationLatex": "$298.15 K, 25^{\\\\circ}C, 77^{\\\\circ}F=Standard temperature$"
+  },
+  {
+    "id": 36,
+    "question": "বায়ু বুদবুদের পৃষ্ঠের আয়তন চারগুণ বৃদ্ধি পায়, যখন এটি জলের ট্যাঙ্কের নীচে থেকে উপরে ওঠে যেখানে তাপমাত্রা অভিন্ন থাকে। যদি বায়ুমণ্ডলীয় চাপ 10 m10 \\mathrm{~m} 10 m হয়, তাহলে ট্যাঙ্কের পানির গভীরতা কত?",
+    "options": {
+      "a": "30 m 30 m",
+      "b": "40 m 40 m",
+      "c": "70 m 70 m",
+      "d": "80 m 80 m"
+    },
+    "correctAnswer": "a",
+    "explanation": "V2=4V1 V_{2}=4 V_{1} V2=4V1 P1V1=P2V2P1V1=P2×4V1P1=4P2 \\begin{array}{c} P_{1} V_{1}=P_{2} V_{2} \\\\ P_{1} V_{1}=P_{2} \\times 4 V_{1} \\\\ P_{1}=4 P_{2} \\end{array} P1V1=P2V2P1V1=P2×4V1P1=4P2 P1=4P2 P_{1}=4 P_{2} P1=4P2, Patm +ρgh=4Patm100000+1000×9.8×h=4×100000100000+9800h=4000009800h=300000h=3000009800h≈30.61 m \\begin{array}{c} P_{\\text {atm }}+\\rho g h=4 P_{\\mathrm{atm}} \\\\ 100000+1000 \\times 9.8 \\times h=4 \\times 100000 \\\\ 100000+9800 h=400000 \\\\ 9800 h=300000 \\\\ h=\\frac{300000}{9800} \\\\ h \\approx 30.61 \\mathrm{~m} \\end{array} Patm +ρgh=4Patm100000+1000×9.8×h=4×100000100000+9800h=4000009800h=300000h=9800300000h≈30.61 m",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বায়ু বুদবুদের পৃষ্ঠের আয়তন চারগুণ বৃদ্ধি পায়, যখন এটি জলের ট্যাঙ্কের নীচে থেকে উপরে ওঠে যেখানে তাপমাত্রা অভিন্ন থাকে। যদি বায়ুমণ্ডলীয় চাপ 10 m10 \\mathrm{~m} 10 m হয়, তাহলে ট্যাঙ্কের পানির গভীরতা কত?",
+    "explanationLatex": "$V2=4V1 V_{2}=4 V_{1} V2=4V1 P1V1=P2V2P1V1=P2\\ \\times 4V1P1=4P2 \\begin{array}{c} P_{1} V_{1}=P_{2} V_{2} \\\\ P_{1} V_{1}=P_{2} \\times 4 V_{1} \\\\ P_{1}=4 P_{2} \\end{array} P1V1=P2V2P1V1=P2\\ \\times 4V1P1=4P2 P1=4P2 P_{1}=4 P_{2} P1=4P2, Patm +ρgh=4Patm100000+1000\\ \\times 9.8\\ \\times h=4\\ \\times 100000100000+9800h=4000009800h=300000h=3000009800h≈30.61 m \\begin{array}{c} P_{\\text {atm }}+\\rho g h=4 P_{\\mathrm{atm}} \\\\ 100000+1000 \\times 9.8 \\times h=4 \\times 100000 \\\\ 100000+9800 h=400000 \\\\ 9800 h=300000 \\\\ h=\\frac{300000}{9800} \\\\ h \\approx 30.61 \\mathrm{~m} \\end{array} Patm +ρgh=4Patm100000+1000\\ \\times 9.8\\ \\times h=4\\ \\times 100000100000+9800h=4000009800h=300000h=9800300000h≈30.61 m$"
+  },
+  {
+    "id": 37,
+    "question": "বয়েলের সূত্র নিচের কোন প্রক্রিয়া মেনে চলে?",
+    "options": {
+      "a": "সমচাপ",
+      "b": "সমোঞ্চ",
+      "c": "রুদ্ধতাপীয়",
+      "d": "সমআয়তন"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমোঞ্চ প্রক্রিয়া বয়েলের সূত্র মেনে চলে।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বয়েলের সূত্র নিচের কোন প্রক্রিয়া মেনে চলে?",
+    "explanationLatex": "সমোঞ্চ প্রক্রিয়া বয়েলের সূত্র মেনে চলে।"
+  },
+  {
+    "id": 38,
+    "question": "8gm হিলিয়াম গ্যাসের জন্য আদর্শ গ্যাস সমীকরণ কোনটি?",
+    "options": {
+      "a": "2PV=RT",
+      "b": "PV=RT",
+      "c": "PV=2RT",
+      "d": "PV=nRT"
+    },
+    "correctAnswer": "c",
+    "explanation": "n=wm=84=2 mol∴PV=nRT=2RT \\begin{array}{l}n=\\frac{w}{m}=\\frac{8}{4}=2 \\mathrm{~mol} \\\\ \\therefore P V=n R T =2 R T\\end{array} n=mw=48=2 mol∴PV=nRT=2RT n=mol W=mass M=Atomic mass P=Pressure V=Volume",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "8gm হিলিয়াম গ্যাসের জন্য আদর্শ গ্যাস সমীকরণ কোনটি?",
+    "explanationLatex": "$n=wm=84=2 mol∴PV=nRT=2RT \\begin{array}{l}n=\\frac{w}{m}=\\frac{8}{4}=2 \\mathrm{~mol} \\\\ \\therefore P V=n R T =2 R T\\end{array} n=mw=48=2 mol∴PV=nRT=2RT n=mol W=mass M=Atomic mass P=Pressure V=Volume$"
+  },
+  {
+    "id": 39,
+    "question": "একটি বাস্তব গ্যাসের, আদর্শ গ্যাসের মত আচরণ করার শর্ত?",
+    "options": {
+      "a": "নিম্নচাপ ও উচ্চ তাপমাত্রা",
+      "b": "নিম্নচাপও নিম্ন তাপমাত্রা",
+      "c": "উচ্চ চাপ ও উচ্চ তাপমাত্রা",
+      "d": "উচ্চ চাপ ও নিম্ন তাপমাত্রা"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) নিম্নচাপ ও উচ্চ তাপমাত্রা।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243741/gst-question-images/physics_________________________-_varsity_arc_q40.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি বাস্তব গ্যাসের, আদর্শ গ্যাসের মত আচরণ করার শর্ত?",
+    "explanationLatex": "সঠিক উত্তর: (a) নিম্নচাপ ও উচ্চ তাপমাত্রা।"
+  },
+  {
+    "id": 40,
+    "question": "নাইট্রোজেন গ্যাসের ক্ষেত্রে γ \\gamma γ এর মান কত?",
+    "options": {
+      "a": "1.67",
+      "b": "1.4",
+      "c": "1.33",
+      "d": "1.28"
+    },
+    "correctAnswer": "b",
+    "explanation": "N2 গ্যাস একটি দ্বিপারমাণবিক গ্যাস।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243743/gst-question-images/physics_________________________-_varsity_arc_q41.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নাইট্রোজেন গ্যাসের ক্ষেত্রে γ \\gamma γ এর মান কত?",
+    "explanationLatex": "N2 গ্যাস একটি দ্বিপারমাণবিক গ্যাস।"
+  },
+  {
+    "id": 41,
+    "question": "স্থির তাপমাত্রায় একক আয়তনের গ্যাসের চাপ দ্বিগুণ করলে আয়তন কত হবে?",
+    "options": {
+      "a": "1/2 times",
+      "b": "1/3 times",
+      "c": "1/8 times",
+      "d": "1/4 times"
+    },
+    "correctAnswer": "a",
+    "explanation": "গ্যাসের প্রাথমিক চাপ, P1=PP_1=PP1=P পরিবর্তিত চাপ, P2=2PP_2=2PP2=2P গ্যাসের প্রাথমিক আয়তন, V1=VV_1=VV1=V পরিবর্তিত আয়তন, V2=?V_2=?V2=? আমরা জানি, P1V1=P2V2⇒V2=P1V1P2 ∴V2=12 VP_1V_1=P_2V_2 \\Rightarrow V_2=\\frac{P_1V_1}{P_2}\\ \\therefore V_2=\\frac{1}{2}\\ VP1V1=P2V2⇒V2=P2P1V1 ∴V2=21 V ∴ আয়তন 12\\frac{1}{2}21 হয়ে যাবে।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "স্থির তাপমাত্রায় একক আয়তনের গ্যাসের চাপ দ্বিগুণ করলে আয়তন কত হবে?",
+    "explanationLatex": "$গ্যাসের প্রাথমিক চাপ, P1=PP_1=PP1=P পরিবর্তিত চাপ, P2=2PP_2=2PP2=2P গ্যাসের প্রাথমিক আয়তন, V1=VV_1=VV1=V পরিবর্তিত আয়তন, V2=?V_2=?V2=? আমরা জানি, P1V1=P2V2⇒V2=P1V1P2 ∴V2=12 VP_1V_1=P_2V_2 \\Rightarrow V_2=\\frac{P_1V_1}{P_2}\\ \\therefore V_2=\\frac{1}{2}\\ VP1V1=P2V2⇒V2=P2P1V1 ∴V2=21 V ∴ আয়তন 12\\frac{1}{2}21 হয়ে যাবে।$"
+  },
+  {
+    "id": 42,
+    "question": "SI এককে R এর মান কত JK-1mol-1 ?",
+    "options": {
+      "a": "0.082",
+      "b": "8.32",
+      "c": "8.314",
+      "d": "1.987"
+    },
+    "correctAnswer": "c",
+    "explanation": "সঠিক উত্তর: (c) 8.314।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243744/gst-question-images/physics_________________________-_varsity_arc_q43.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "SI এককে R এর মান কত JK-1mol-1 ?",
+    "explanationLatex": "সঠিক উত্তর: (c) 8.314।"
+  },
+  {
+    "id": 43,
+    "question": "বাস্তব গ্যাস কোন শর্তে গ্যাসের‌ সূত্রসমূহ মেনে চলে ?",
+    "options": {
+      "a": "নিম্নচাপ ও উচ্চতাপমাত্রা",
+      "b": "নিম্নচাপ ও নিম্নতাপমাত্রা",
+      "c": "উচ্চচাপ ও নিম্নতাপমাত্রা",
+      "d": "উচ্চচাপ ও উচ্চতাপমাত্রা"
+    },
+    "correctAnswer": "a",
+    "explanation": "বাস্তব গ্যাস সমূহ উচ্চ তাপমাত্রা ও নিম্ন চাপে আদর্শ গ্যাসের ন্যায় আচারণ করে। এই শর্তে, গ্যাসের অণুগুলির মধ্যে আকর্ষণ বলগুলি অপেক্ষাকবাস্তবদুর্বল হয়ে যায়, এবং গ্যাসের আয়তন পাত্রের আয়তনের তুলনায় নগণ্য হয়ে যায়। ফলে, গ্যাসের আচরণ আদর্শ গ্যাস সূত্রের সাথে সামঞ্জস্যপূর্ণ হয়।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বাস্তব গ্যাস কোন শর্তে গ্যাসের‌ সূত্রসমূহ মেনে চলে ?",
+    "explanationLatex": "বাস্তব গ্যাস সমূহ উচ্চ তাপমাত্রা ও নিম্ন চাপে আদর্শ গ্যাসের ন্যায় আচারণ করে। এই শর্তে, গ্যাসের অণুগুলির মধ্যে আকর্ষণ বলগুলি অপেক্ষাকবাস্তবদুর্বল হয়ে যায়, এবং গ্যাসের আয়তন পাত্রের আয়তনের তুলনায় নগণ্য হয়ে যায়। ফলে, গ্যাসের আচরণ আদর্শ গ্যাস সূত্রের সাথে সামঞ্জস্যপূর্ণ হয়।"
+  },
+  {
+    "id": 44,
+    "question": "ডায়াগ্রামে A,BA, B A,B এবং CC C তিনটি সাবান বুদবুদ দেখানো হয়েছে । S,S1,S2S, S_{1}, S_{2} S,S1,S2 এবং S3S_{3} S3 স্টপ কর্ক কৈশিক নালিতে লাগানো হয়েছে । SS S স্টপ কর্ক বন্ধ এবং S1,S2S_{1}, S_{2} S1,S2 এবং S3S_{3} S3 স্টপ কর্ক খোলা হলে নিচের কোনটি হবে ?",
+    "options": {
+      "a": "এবং C এর আয়তন বাড়ার সাথে B কমতে শুরু করবে",
+      "b": "এবং B এর আয়তন বাড়ার সাথে C কমতে শুরু করবে",
+      "c": "A,B,C এর আয়তন ভারসাম্য সমান হয়ে যাবে",
+      "d": "এর আয়তন বাড়ার সাথে A ,C কমতে শুরু করবে"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) এবং B এর আয়তন বাড়ার সাথে C কমতে শুরু করবে।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243746/gst-question-images/physics_________________________-_varsity_arc_q45.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ডায়াগ্রামে A,BA, B A,B এবং CC C তিনটি সাবান বুদবুদ দেখানো হয়েছে । S,S1,S2S, S_{1}, S_{2} S,S1,S2 এবং S3S_{3} S3 স্টপ কর্ক কৈশিক নালিতে লাগানো হয়েছে । SS S স্টপ কর্ক বন্ধ এবং S1,S2S_{1}, S_{2} S1,S2 এবং S3S_{3} S3 স্টপ কর্ক খোলা হলে নিচের কোনটি হবে ?",
+    "explanationLatex": "সঠিক উত্তর: (b) এবং B এর আয়তন বাড়ার সাথে C কমতে শুরু করবে।"
+  },
+  {
+    "id": 45,
+    "question": "20°C তাপমাত্রায় একটি গ্যাসের চাপ স্থির রেখে এর আয়তন দ্বিগুণ করা হলো।",
+    "options": {
+      "a": "– 273°C",
+      "b": "300°C",
+      "c": "313°C",
+      "d": "586°C"
+    },
+    "correctAnswer": "c",
+    "explanation": "গ্যাসটির চুড়ান্ত তাপমাত্রা কত? v1T1=v2T2⇒v1293=2v1T2+19.M⇒T2=586 K⇒=313∘c \\begin{aligned} \\frac{v_{1}}{T_{1}} & =\\frac{v_{2}}{T_{2}} \\\\ \\Rightarrow \\frac{v_{1}}{293} & =\\frac{2 v_{1}}{T_{2}}+19 . \\mathrm{M} \\\\ \\Rightarrow T_{2} & =586 \\mathrm{~K} \\\\ \\Rightarrow & =313^{\\circ} \\mathrm{c}\\end{aligned} T1v1⇒293v1⇒T2⇒=T2v2=T22v1+19.M=586 K=313∘c",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$20^{\\\\circ}C তাপমাত্রায় একটি গ্যাসের চাপ স্থির রেখে এর আয়তন দ্বিগুণ করা হলো।$",
+    "explanationLatex": "$গ্যাসটির চুড়ান্ত তাপমাত্রা কত? v1T1=v2T2⇒v1293=2v1T2+19.M⇒T2=586 K⇒=313∘c \\begin{aligned} \\frac{v_{1}}{T_{1}} & =\\frac{v_{2}}{T_{2}} \\\\ \\Rightarrow \\frac{v_{1}}{293} & =\\frac{2 v_{1}}{T_{2}}+19 . \\mathrm{M} \\\\ \\Rightarrow T_{2} & =586 \\mathrm{~K} \\\\ \\Rightarrow & =313^{\\circ} \\mathrm{c}\\end{aligned} T1v1⇒293v1⇒T2⇒=T2v2=T22v1+19.M=586 K=313∘c$"
+  },
+  {
+    "id": 46,
+    "question": "গ্যাসের অণুর মৌলিক স্বীকার্য নয় কোনটি?",
+    "options": {
+      "a": "পারমাণবিক ঘনত্ব স্থির",
+      "b": "ধাক্কাগুলো তাৎক্ষণিক",
+      "c": "গ্যাসের শক্তি গতিশক্তি",
+      "d": "আবদ্ধ পাত্রে দেয়ালে বল প্রয়োগ করে না"
+    },
+    "correctAnswer": "a",
+    "explanation": "গ্যাসের অণুর মৌলিক স্বীকার্যসমূহ: ১। সকল গ্যাস অণুর সমন্বয়ে গঠিত। একটি গ্যাসের সকল অণু সদৃশ এবং একটি গ্যাসের অণু অন্য গ্যাসের অণু থেকে ভিন্ন। ২। গ্যাসের অণুগুলোর আকার অণুগুলোর মধ্যবর্তী দূরত্বের তুলনায় নগণ্য। ৩। গ্যাসের অণুগুলো কঠিন স্থিতিস্থাপক সদৃশ গোলক বিশেষ এবং অণুগুলোর নিজেদের মধ্যে কোনো আকর্ষণ বা বিকর্ষণ বল নেই। এদের শক্তি সম্পূর্ণটাই গতিশক্তি। ৪। গ্যাসের অণুগুলো অক্রম বা এলোমেলো (random) গতিতে গতিশীল এবং এগুলো নিউটনের গতিসূত্রসমূহ মেনে চলে। অণুগুলো সকল দিকে গতিশীল এবং এদের বেগের মান বিভিন্ন। ৫। অণুগুলো নিরবচ্ছিন্নভাবে একে অপরের সাথে এবং আধারের দেয়ালের সাথে সংঘর্ষে লিপ্ত হচ্ছে। দুটি সংঘর্ষের মধ্যবর্তী সময়ে একটি অণু সরলরেখায় চলে। দুটি সংঘর্ষের মধ্যবর্তী সময়ে একটি অণু যে দূরত্ব অতিক্রম করে তাকে মুক্ত পথ বলে। ৬। একটি সংঘর্ষে যে সময় ব্যয় হয় তা দুটি সংঘর্ষের মধ্যবর্তী সময়ের তুলনায় নগণ্য। ৭। সংঘর্ষগুলো সম্পূর্ণ স্থিতিস্থাপক।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "গ্যাসের অণুর মৌলিক স্বীকার্য নয় কোনটি?",
+    "explanationLatex": "গ্যাসের অণুর মৌলিক স্বীকার্যসমূহ: ১। সকল গ্যাস অণুর সমন্বয়ে গঠিত। একটি গ্যাসের সকল অণু সদৃশ এবং একটি গ্যাসের অণু অন্য গ্যাসের অণু থেকে ভিন্ন। ২। গ্যাসের অণুগুলোর আকার অণুগুলোর মধ্যবর্তী দূরত্বের তুলনায় নগণ্য। ৩। গ্যাসের অণুগুলো কঠিন স্থিতিস্থাপক সদৃশ গোলক বিশেষ এবং অণুগুলোর নিজেদের মধ্যে কোনো আকর্ষণ বা বিকর্ষণ বল নেই। এদের শক্তি সম্পূর্ণটাই গতিশক্তি। ৪। গ্যাসের অণুগুলো অক্রম বা এলোমেলো (random) গতিতে গতিশীল এবং এগুলো নিউটনের গতিসূত্রসমূহ মেনে চলে। অণুগুলো সকল দিকে গতিশীল এবং এদের বেগের মান বিভিন্ন। ৫। অণুগুলো নিরবচ্ছিন্নভাবে একে অপরের সাথে এবং আধারের দেয়ালের সাথে সংঘর্ষে লিপ্ত হচ্ছে। দুটি সংঘর্ষের মধ্যবর্তী সময়ে একটি অণু সরলরেখায় চলে। দুটি সংঘর্ষের মধ্যবর্তী সময়ে একটি অণু যে দূরত্ব অতিক্রম করে তাকে মুক্ত পথ বলে। ৬। একটি সংঘর্ষে যে সময় ব্যয় হয় তা দুটি সংঘর্ষের মধ্যবর্তী সময়ের তুলনায় নগণ্য। ৭। সংঘর্ষগুলো সম্পূর্ণ স্থিতিস্থাপক।"
+  },
+  {
+    "id": 47,
+    "question": "ব্রাউনীয় গতির ব্যাখ্যা দেন -",
+    "options": {
+      "a": "ব্রাউন",
+      "b": "নিউটন",
+      "c": "ম্যাক্সওয়েল",
+      "d": "আইনস্টাইন"
+    },
+    "correctAnswer": "d",
+    "explanation": "ব্রাউনীয় গতির ব্যাখ্যা দেন -আইনস্টাইন",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ব্রাউনীয় গতির ব্যাখ্যা দেন -",
+    "explanationLatex": "ব্রাউনীয় গতির ব্যাখ্যা দেন -আইনস্টাইন"
+  },
+  {
+    "id": 48,
+    "question": "27 0C তাপমাত্রায় বায়ুর আপেক্ষিক আদ্রর্তা 70% এবং শিশিরাঙ্কে সম্পৃক্ত জলীয়বাষ্প চাপ 14 × \\times × 10-3mHg হলে ঐ তাপমাত্রায় সম্পৃক্ত জলীয়বাষ্পচাপ কত?",
+    "options": {
+      "a": "12 × × 10-3",
+      "b": "16 × × 10-3",
+      "c": "20 × × 10-3",
+      "d": "22 × × 10-3"
+    },
+    "correctAnswer": "c",
+    "explanation": "সঠিক উত্তর: (c) 20 × × 10-3।",
+    "subject": "Physics",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243747/gst-question-images/physics_________________________-_varsity_arc_q49.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$27 0C তাপমাত্রায় বায়ুর আপেক্ষিক আদ্রর্তা 70% এবং শিশিরাঙ্কে সম্পৃক্ত জলীয়বাষ্প চাপ 14 \\ \\times \\times \\ \\times 10^{-3}mHg হলে ঐ তাপমাত্রায় সম্পৃক্ত জলীয়বাষ্পচাপ কত?$",
+    "explanationLatex": "$সঠিক উত্তর: (c) 20 \\ \\times \\ \\times 10^{-3}।$"
+  }
+]

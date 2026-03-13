@@ -7,3 +7,6 @@ dist
 main.py
 public/html_dump.txt
 public/extracted_html.txt
+porikkhok-extension/
+public/images/
+.env

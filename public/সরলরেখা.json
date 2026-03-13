@@ -1,0 +1,982 @@
+[
+  {
+    "id": 1,
+    "question": "a1x+b1y+c1=0 a_{1} x+b_{1} y+c_{1}=0 a1x+b1y+c1=0 এবং a2x+b2y+c2=0 a_{2} x+b_{2} y+c_{2}=0 a2x+b2y+c2=0 রেখাদ্দয়ের মধ্যবর্তী সূক্ষকোণের সমদ্বিখণ্ডক ‘+' চিহ্ধারী হবে যদি-",
+    "options": {
+      "a": "𝑎 1 𝑎 2 + 𝑏 1 𝑏 2 > 0 a 1 a 2 +b 1 b 2 >0",
+      "b": "𝑎 1 𝑎 2 + 𝑏 1 𝑏 2 < 0 a 1 a 2 +b 1 b 2 <0",
+      "c": "𝑎 1 𝑎 2 + 𝑏 1 𝑏 2 = 0 a 1 a 2 +b 1 b 2 =0",
+      "d": "None"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) 𝑎 1 𝑎 2 + 𝑏 1 𝑏 2 < 0 a 1 a 2 +b 1 b 2 <0।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243566/gst-question-images/Math_1st__________-varsity-arc_q1.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$a1x+b1y+c1=0 a_{1} x+b_{1} y+c_{1}=0 a1x+b1y+c1=0 এবং a2x+b2y+c2=0 a_{2} x+b_{2} y+c_{2}=0 a2x+b2y+c2=0 রেখাদ্দয়ের মধ্যবর্তী সূক্ষকোণের সমদ্বিখণ্ডক ‘+' চিহ্ধারী হবে যদি-$",
+    "explanationLatex": "সঠিক উত্তর: (b) 𝑎 1 𝑎 2 + 𝑏 1 𝑏 2 < 0 a 1 a 2 +b 1 b 2 <0।"
+  },
+  {
+    "id": 2,
+    "question": "y+x=0 সরলরেখাটি x-অক্ষের সাথে কত ডিগ্রী কোণ উৎপন্ন করে?",
+    "options": {
+      "a": "45°",
+      "b": "60°",
+      "c": "90°",
+      "d": "135°"
+    },
+    "correctAnswer": "d",
+    "explanation": "y+x=0 বা), y=−x∴tan⁡θ=−1 বা θ=135∘ \\begin{array}{l} y+x=0 \\\\ \\text { বা), } y=-x \\\\ \\therefore \\tan \\theta=-1 \\\\ \\text { বা } \\theta=135^{\\circ}\\end{array} y+x=0 বা), y=−x∴tanθ=−1 বা θ=135∘",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$y+x=0 সরলরেখাটি x-অক্ষের সাথে কত ডিগ্রী কোণ উৎপন্ন করে?$",
+    "explanationLatex": "$y+x=0 বা), y=−x∴tan⁡\\\\theta =−1 বা \\\\theta =135∘ \\begin{array}{l} y+x=0 \\\\ \\text { বা), } y=-x \\\\ \\therefore \\tan \\theta=-1 \\\\ \\text { বা } \\theta=135^{\\circ}\\end{array} y+x=0 বা), y=−x∴tan\\\\theta =−1 বা \\\\theta =135∘$"
+  },
+  {
+    "id": 3,
+    "question": "ABC \\mathrm{ABC} ABC ত্রিভুজের অন্তঃকেন্দ্র 0,AB 0, A B 0,AB ও A0 A 0 A0 এর সমীকরণ যথাক্রমে x−7y+5=0 x-7 y+5=0 x−7y+5=0 ও x+3y− x+3 y- x+3y− 2=0 2=0 2=0 হলে AC A C AC বাহুর সমীকরণ নির্ণয় কর।",
+    "options": {
+      "a": "5 x+5 y=3",
+      "b": "6 x+6 y=5",
+      "c": "4 x-4 y=6",
+      "d": "3 x+3 y=9"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: :ABC \\mathrm{ABC} ABC ত্রিভুজের অন্তঃকেন্দ্র O। ∴∠BAC \\therefore \\quad \\angle B A C ∴∠BAC এর সমদ্বিখন্ডক AO A O AO. ধরি, AC A C AC বাহুর ঢাল m2 m_{2} m2, AO≡x+3y−2=0⋯(1) এর m=−13 এবং AB≡x−7y+5=0⋯ \\begin{array}{l} \\mathrm{AO} \\equiv x+3 y-2=0 \\cdots(1) \\text { এর } \\\\ \\mathrm{m}=-\\frac{1}{3} \\text { এবং } \\mathrm{AB} \\equiv x-7 y+5=0 \\cdots \\end{array} AO≡x+3y−2=0⋯(1) এর m=−31 এবং AB≡x−7y+5=0⋯ বাহুর ঢাল, m1=17 \\mathrm{m}_{1}=\\frac{1}{7} m1=71 : (2) ও (1) এর অন্তর্ভুক্ত কোণ tan⁡−1m1−m1+m1m \\tan ^{-1} \\frac{m_{1}-m}{1+m_{1} m} tan−11+m1mm1−m এবং (1) ও AC \\mathrm{AC} AC এর অন্তর্ভুক্ত কোণ, tan⁡−1m−m21+mm2 পরস্পর সমান ।∴m1−m1+m1 m=m−m21+mm2⇒17+131+17(−13)=−13−m21+(−13)m2⇒1021−1=−1−3m23−m2⇒12=−1−3m23−m2⇒3−m2=−2−6m2⇒5m2=−5⇒m2=−1 \\begin{aligned} & \\tan ^{-1} \\frac{\\mathrm{m}-\\mathrm{m}_{2}}{1+\\mathrm{mm}_{2}} \\text { পরস্পর সমান ।} \\\\ \\therefore & \\frac{\\mathrm{m}_{1}-\\mathrm{m}}{1+\\mathrm{m}_{1} \\mathrm{~m}}=\\frac{\\mathrm{m}-\\mathrm{m}_{2}}{1+\\mathrm{mm}_{2}} \\\\ \\Rightarrow & \\frac{\\frac{1}{7}+\\frac{1}{3}}{1+\\frac{1}{7}\\left(-\\frac{1}{3}\\right)}=\\frac{-\\frac{1}{3}-\\mathrm{m}_{2}}{1+\\left(-\\frac{1}{3}\\right) m_{2}} \\\\ \\Rightarrow & \\frac{10}{21-1}=\\frac{-1-3 m_{2}}{3-m_{2}} \\Rightarrow \\frac{1}{2}=\\frac{-1-3 m_{2}}{3-m_{2}} \\\\ \\Rightarrow & 3-m_{2}=-2-6 m_{2} \\Rightarrow 5 m_{2}=-5 \\\\ \\Rightarrow & m_{2}=-1 \\end{aligned} ∴⇒⇒⇒⇒tan−11+mm2m−m2 পরস্পর সমান ।1+m1 mm1−m=1+mm2m−m21+71(−31)71+31=1+(−31)m2−31−m221−110=3−m2−1−3m2⇒21=3−m2−1−3m23−m2=−2−6m2⇒5m2=−5m2=−1 এখন, (1)−(2)⇒10y−7=0⇒y=710 (1)-(2) \\Rightarrow 10 y-7=0 \\Rightarrow y=\\frac{7}{10} (1)−(2)⇒10y−7=0⇒y=107 (1) হতে, x=7⋅710−5=49−5010=−110 x=7 \\cdot \\frac{7}{10}-5=\\frac{49-50}{10}=-\\frac{1}{10} x=7⋅107−5=1049−50=−101 A A A শীর্ষের স্থানাঙ্ক (−110,710) \\left(-\\frac{1}{10}, \\frac{7}{10}\\right) (−101,107) ∴A(−110,710) \\therefore \\mathrm{A}\\left(-\\frac{1}{10}, \\frac{7}{10}\\right) ∴A(−101,107) বিন্দুগামী এবং -1 ঢালবিশিষ্ট AC \\mathrm{AC} AC বাহু সমীকরণ, y−710=−1(x+110) y-\\frac{7}{10}=-1\\left(x+\\frac{1}{10}\\right) y−107=−1(x+101) ⇒10y−7=−10x−1⇒10x+10y=6∴5x+5y=3 (Ans.) \\begin{array}{l} \\Rightarrow 10 y-7=-10 x-1 \\Rightarrow 10 x+10 y=6 \\\\ \\therefore 5 x+5 y=3 \\text { (Ans.) } \\end{array} ⇒10y−7=−10x−1⇒10x+10y=6∴5x+5y=3 (Ans.)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ABC \\mathrm{ABC} ABC ত্রিভুজের অন্তঃকেন্দ্র 0,AB 0, A B 0,AB ও A0 A 0 A0 এর সমীকরণ যথাক্রমে x−7y+5=0 x-7 y+5=0 x−7y+5=0 ও x+3y− x+3 y- x+3y− 2=0 2=0 2=0 হলে AC A C AC বাহুর সমীকরণ নির্ণয় কর।$",
+    "explanationLatex": "$সমাধান: :ABC \\mathrm{ABC} ABC ত্রিভুজের অন্তঃকেন্দ্র O। ∴∠BAC \\therefore \\quad \\angle B A C ∴∠BAC এর সমদ্বিখন্ডক AO A O AO. ধরি, AC A C AC বাহুর ঢাল m2 m_{2} m2, AO≡x+3y−2=0⋯(1) এর m=−13 এবং AB≡x−7y+5=0⋯ \\begin{array}{l} \\mathrm{AO} \\equiv x+3 y-2=0 \\cdots(1) \\text { এর } \\\\ \\mathrm{m}=-\\frac{1}{3} \\text { এবং } \\mathrm{AB} \\equiv x-7 y+5=0 \\cdots \\end{array} AO≡x+3y−2=0⋯(1) এর m=−31 এবং AB≡x−7y+5=0⋯ বাহুর ঢাল, m1=17 \\mathrm{m}_{1}=\\frac{1}{7} m1=71 : (2) ও (1) এর অন্তর্ভুক্ত কোণ tan⁡−1m1−m1+m1m \\tan ^{-1} \\frac{m_{1}-m}{1+m_{1} m} tan−11+m1mm1−m এবং (1) ও AC \\mathrm{AC} AC এর অন্তর্ভুক্ত কোণ, tan⁡−1m−m21+mm2 পরস্পর সমান ।∴m1−m1+m1 m=m−m21+mm2⇒17+131+17(−13)=−13−m21+(−13)m2⇒1021−1=−1−3m23−m2⇒12=−1−3m23−m2⇒3−m2=−2−6m2⇒5m2=−5⇒m2=−1 \\begin{aligned} & \\tan ^{-1} \\frac{\\mathrm{m}-\\mathrm{m}_{2}}{1+\\mathrm{mm}_{2}} \\text { পরস্পর সমান ।} \\\\ \\therefore & \\frac{\\mathrm{m}_{1}-\\mathrm{m}}{1+\\mathrm{m}_{1} \\mathrm{~m}}=\\frac{\\mathrm{m}-\\mathrm{m}_{2}}{1+\\mathrm{mm}_{2}} \\\\ \\Rightarrow & \\frac{\\frac{1}{7}+\\frac{1}{3}}{1+\\frac{1}{7}\\left(-\\frac{1}{3}\\right)}=\\frac{-\\frac{1}{3}-\\mathrm{m}_{2}}{1+\\left(-\\frac{1}{3}\\right) m_{2}} \\\\ \\Rightarrow & \\frac{10}{21-1}=\\frac{-1-3 m_{2}}{3-m_{2}} \\Rightarrow \\frac{1}{2}=\\frac{-1-3 m_{2}}{3-m_{2}} \\\\ \\Rightarrow & 3-m_{2}=-2-6 m_{2} \\Rightarrow 5 m_{2}=-5 \\\\ \\Rightarrow & m_{2}=-1 \\end{aligned} ∴⇒⇒⇒⇒tan−11+mm2m−m2 পরস্পর সমান ।1+m1 mm1−m=1+mm2m−m21+71(−31)71+31=1+(−31)m2−31−m221−110=3−m2−1−3m2⇒21=3−m2−1−3m23−m2=−2−6m2⇒5m2=−5m2=−1 এখন, (1)−(2)⇒10y−7=0⇒y=710 (1)-(2) \\Rightarrow 10 y-7=0 \\Rightarrow y=\\frac{7}{10} (1)−(2)⇒10y−7=0⇒y=107 (1) হতে, x=7⋅710−5=49−5010=−110 x=7 \\cdot \\frac{7}{10}-5=\\frac{49-50}{10}=-\\frac{1}{10} x=7⋅107−5=1049−50=−101 A A A শীর্ষের স্থানাঙ্ক (−110,710) \\left(-\\frac{1}{10}, \\frac{7}{10}\\right) (−101,107) ∴A(−110,710) \\therefore \\mathrm{A}\\left(-\\frac{1}{10}, \\frac{7}{10}\\right) ∴A(−101,107) বিন্দুগামী এবং -1 ঢালবিশিষ্ট AC \\mathrm{AC} AC বাহু সমীকরণ, y−710=−1(x+110) y-\\frac{7}{10}=-1\\left(x+\\frac{1}{10}\\right) y−107=−1(x+101) ⇒10y−7=−10x−1⇒10x+10y=6∴5x+5y=3 (Ans.) \\begin{array}{l} \\Rightarrow 10 y-7=-10 x-1 \\Rightarrow 10 x+10 y=6 \\\\ \\therefore 5 x+5 y=3 \\text { (Ans.) } \\end{array} ⇒10y−7=−10x−1⇒10x+10y=6∴5x+5y=3 (Ans.)$"
+  },
+  {
+    "id": 4,
+    "question": "3x+5y−2=0,2x+3y=0,ax+by 3 x+5 y-2=0,2 x+3 y=0, a x+b y 3x+5y−2=0,2x+3y=0,ax+by +1=0 +1=0 +1=0 রেখাত্রয় সমবিন্দু হল, a a a ও b b b এর মধ্যে সম্পর্ক নির্ণয় কর।",
+    "options": {
+      "a": "6 𝑎 − 4 𝑏 = 1 6a−4b=1",
+      "b": "6 𝑎 + 4 𝑏 = 1 6a+4b=1",
+      "c": "4 𝑎 − 6 𝑏 = 1 4a−6b=1",
+      "d": "4 𝑎 + 6 𝑏 = 1 4a+6b=1"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: : প্রদত্ত রেখাত্রয় সমবিন্দু হলে, ∣35−2230∣=0⇒−2(2b−3a)+1(9−10)=0⇒−4b+6a−1=0⇒6a−4b=1 \\begin{aligned} & \\left|\\begin{array}{ccc} 3 & 5 & -2 \\\\ 2 & 3 & 0 \\\\ \\end{array}\\right|=0 \\\\ \\Rightarrow & -2(2 b-3 a)+1(9-10)=0 \\\\ \\Rightarrow & -4 b+6 a-1=0 \\Rightarrow 6 a-4 b=1 \\end{aligned} ⇒⇒3253−20=0−2(2b−3a)+1(9−10)=0−4b+6a−1=0⇒6a−4b=1",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$3x+5y−2=0,2x+3y=0,ax+by 3 x+5 y-2=0,2 x+3 y=0, a x+b y 3x+5y−2=0,2x+3y=0,ax+by +1=0 +1=0 +1=0 রেখাত্রয় সমবিন্দু হল, a a a ও b b b এর মধ্যে সম্পর্ক নির্ণয় কর।$",
+    "explanationLatex": "$সমাধান: : প্রদত্ত রেখাত্রয় সমবিন্দু হলে, ∣35−2230∣=0⇒−2(2b−3a)+1(9−10)=0⇒−4b+6a−1=0⇒6a−4b=1 \\begin{aligned} & \\left|\\begin{array}{ccc} 3 & 5 & -2 \\\\ 2 & 3 & 0 \\\\ \\end{array}\\right|=0 \\\\ \\Rightarrow & -2(2 b-3 a)+1(9-10)=0 \\\\ \\Rightarrow & -4 b+6 a-1=0 \\Rightarrow 6 a-4 b=1 \\end{aligned} ⇒⇒3253−20=0−2(2b−3a)+1(9−10)=0−4b+6a−1=0⇒6a−4b=1$"
+  },
+  {
+    "id": 5,
+    "question": "(a,0),(0,b),(1,1) বিন্দুত্রয় সমরেখ হবে কোন শর্তে?",
+    "options": {
+      "a": "a+b=1",
+      "b": "1/a+1/b=2",
+      "c": "a+b=a/b",
+      "d": "a+b=ab"
+    },
+    "correctAnswer": "d",
+    "explanation": "সমরেখ হলে এদের দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল=0=0=0 ∴Δ=0\\therefore\\Delta=0∴Δ=0 ⇒1/2{(a−0)(b−1)−(0−b)(0−1)}=0⇒1/2\\left\\{(a-0)(b-1)-(0-b)(0-1)\\right\\}=0⇒1/2{(a−0)(b−1)−(0−b)(0−1)}=0 ⇒ab−a−b=0 ∴a+b=ab⇒ab-a-b=0\\ \\ \\therefore a+b=ab⇒ab−a−b=0 ∴a+b=ab",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(a,0),(0,b),(1,1) বিন্দুত্রয় সমরেখ হবে কোন শর্তে?",
+    "explanationLatex": "$সমরেখ হলে এদের দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল=0=0=0 ∴\\\\Delta =0\\therefore\\Delta=0∴\\\\Delta =0 ⇒\\frac{1}{2}{(a−0)(b−1)−(0−b)(0−1)}=0⇒\\frac{1}{2}\\left\\{(a-0)(b-1)-(0-b)(0-1)\\right\\}=0⇒\\frac{1}{2}{(a−0)(b−1)−(0−b)(0−1)}=0 ⇒ab−a−b=0 ∴a+b=ab⇒ab-a-b=0\\ \\ \\therefore a+b=ab⇒ab−a−b=0 ∴a+b=ab$"
+  },
+  {
+    "id": 6,
+    "question": "4x−3y=84x-3y=84x−3y=8 রেখার সমান্তরাল এবং তা থেকে 2 একক দূরে অবস্থিত রেখার সমীকরণ-",
+    "options": {
+      "a": "4 𝑥 − 3 𝑦 = 6 4x−3y=6",
+      "b": "4 𝑥 − 3 𝑦 + 18 = 0 4x−3y+18=0",
+      "c": "4 𝑥 − 3 𝑦 + 2 = 0 4x−3y+2=0",
+      "d": "4 𝑥 − 3 𝑦 = 10 4x−3y=10"
+    },
+    "correctAnswer": "c",
+    "explanation": "ধরি,সমীকরন হবে 4x−3y+k=04x-3y+k=04x−3y+k=0 প্রশ্নমতে,∣ −8−k16+9 ∣ =2|\\ \\ \\frac{-8-k}{\\sqrt{16+9}}\\ |\\ =2∣ 16+9−8−k ∣ =2 ⇒k = 2,−18\\Rightarrow k\\ =\\ 2,-18⇒k = 2,−18 k = 2 হলে,সমীকরনটি 4x-3y+ 2=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$4x−3y=84x-3y=84x−3y=8 রেখার সমান্তরাল এবং তা থেকে 2 একক দূরে অবস্থিত রেখার সমীকরণ-$",
+    "explanationLatex": "$ধরি,সমীকরন হবে 4x−3y+k=04x-3y+k=04x−3y+k=0 প্রশ্নমতে,∣ −8−k16+9 ∣ =2|\\ \\ \\frac{-8-k}{\\sqrt{16+9}}\\ |\\ =2∣ 16+9−8−k ∣ =2 ⇒k = 2,−18\\Rightarrow k\\ =\\ 2,-18⇒k = 2,−18 k = 2 হলে,সমীকরনটি 4x-3y+ 2=0$"
+  },
+  {
+    "id": 7,
+    "question": "y অক্ষ A(2,−4) B(−3, 6)A\\left(2,-4\\right)\\ B(-3,\\ 6)A(2,−4) B(−3, 6) রেখাংশকে কত অনুপাতে বিভক্ত করে?",
+    "options": {
+      "a": "3 : 1 3:1",
+      "b": "1 : 2 1:2",
+      "c": "1 : 3 1:3",
+      "d": "2 : 3 2:3"
+    },
+    "correctAnswer": "d",
+    "explanation": "A(x1,y1)B(x2,y2)⋅AB A\\left(x_{1}, y_{1}\\right) B\\left(x_{2}, y_{2}\\right) \\cdot A B A(x1,y1)B(x2,y2)⋅AB রেখাকে y অক্ষ বিভক্ত করলে অনুপাত হবে =∣x1x2∣ \\left|\\frac{x_{1}}{x_{2}}\\right| x2x1 ∴A(2,−4)⋅B(−3,6) \\therefore A(2,-4) \\cdot B(-3,6) ∴A(2,−4)⋅B(−3,6) হলে, y অক্ষ দ্বারা খন্ডিত অনুপাত =∣2−3∣=2:3 =\\left|\\frac{2}{-3}\\right|=2: 3 =−32=2:3",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "y অক্ষ A(2,−4) B(−3, 6)A\\left(2,-4\\right)\\ B(-3,\\ 6)A(2,−4) B(−3, 6) রেখাংশকে কত অনুপাতে বিভক্ত করে?",
+    "explanationLatex": "$A(x1,y1)B(x2,y2)⋅AB A\\left(x_{1}, y_{1}\\right) B\\left(x_{2}, y_{2}\\right) \\cdot A B A(x1,y1)B(x2,y2)⋅AB রেখাকে y অক্ষ বিভক্ত করলে অনুপাত হবে =∣x1x2∣ \\left|\\frac{x_{1}}{x_{2}}\\right| x2x1 ∴A(2,−4)⋅B(−3,6) \\therefore A(2,-4) \\cdot B(-3,6) ∴A(2,−4)⋅B(−3,6) হলে, y অক্ষ দ্বারা খন্ডিত অনুপাত =∣2−3∣=2:3 =\\left|\\frac{2}{-3}\\right|=2: 3 =−32=2:3$"
+  },
+  {
+    "id": 8,
+    "question": "(1,2)\\left(1,2\\right)(1,2) ও (13,−18)\\left(13,-18\\right)(13,−18) এর সংযোজক রেখার সমচতুর্খন্ডক বিন্দুগুলোর একটি হল-",
+    "options": {
+      "a": "( 7 , − 6 ) (7,−6)",
+      "b": "( 4 , − 2 ) (4,−2)",
+      "c": "( 10 , − 13 ) (10,−13)",
+      "d": "( 10 , − 9 ) (10,−9)"
+    },
+    "correctAnswer": "c",
+    "explanation": "সঠিক উত্তর: (c) ( 10 , − 13 ) (10,−13)।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243589/gst-question-images/Math_1st__________-varsity-arc_q8.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(1,2)\\left(1,2\\right)(1,2) ও (13,−18)\\left(13,-18\\right)(13,−18) এর সংযোজক রেখার সমচতুর্খন্ডক বিন্দুগুলোর একটি হল-",
+    "explanationLatex": "সঠিক উত্তর: (c) ( 10 , − 13 ) (10,−13)।"
+  },
+  {
+    "id": 9,
+    "question": "(4,−3)(4,-3)(4,−3) বিন্দু দিয়ে যায় এবং 2x+11y−2=02x+11y-2=02x+11y−2=0 রেখার ওপর লম্ব রেখার সমীকরণ-",
+    "options": {
+      "a": "11 𝑥 − 2 𝑦 + 50 = 0 11x−2y+50=0",
+      "b": "11 𝑥 − 2 𝑦 − 50 = 0 11x−2y−50=0",
+      "c": "11 𝑥 + 2 𝑦 − 48 = 0 11x+2y−48=0",
+      "d": "11 𝑥 + 2 𝑦 − 50 = 0 11x+2y−50=0"
+    },
+    "correctAnswer": "b",
+    "explanation": "লম্বরেখার সমীকরণ 11x−2y=11(4)−2(−3)11x-2y=11\\left(4\\right)-2\\left(-3\\right)11x−2y=11(4)−2(−3) ∴11x−2y−50=0\\therefore11x-2y-50=0∴11x−2y−50=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$(4,−3)(4,-3)(4,−3) বিন্দু দিয়ে যায় এবং 2x+11y−2=02x+11y-2=02x+11y−2=0 রেখার ওপর লম্ব রেখার সমীকরণ-$",
+    "explanationLatex": "$লম্বরেখার সমীকরণ 11x−2y=11(4)−2(−3)11x-2y=11\\left(4\\right)-2\\left(-3\\right)11x−2y=11(4)−2(−3) ∴11x−2y−50=0\\therefore11x-2y-50=0∴11x−2y−50=0$"
+  },
+  {
+    "id": 10,
+    "question": "P(3, 4)P\\left(3,\\ 4\\right)P(3, 4) ও Q(5, 9)Q\\left(5,\\ 9\\right)Q(5, 9) বিন্দুদ্বয়ের সংযোগ রেখাংশকে 2:32:3 2:3 অনুপাতে বহির্বিভক্তকারী বিন্দুর স্থানাঙ্ক-",
+    "options": {
+      "a": "( 9 , 19 ) (9, 19)",
+      "b": "( 9 , − 6 ) (9,−6)",
+      "c": "( 1 , 6 ) (1, 6)",
+      "d": "( − 1 , − 6 ) (−1,−6)"
+    },
+    "correctAnswer": "d",
+    "explanation": "(2×5−3×32−3 ,2×9−3×42−3)≡(−1,−6)\\left(\\frac{2\\times5-3\\times3}{2-3}\\ ,\\frac{2\\times9-3\\times4}{2-3}\\right)\\equiv\\left(-1,-6\\right)(2−32×5−3×3 ,2−32×9−3×4)≡(−1,−6)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "P(3, 4)P\\left(3,\\ 4\\right)P(3, 4) ও Q(5, 9)Q\\left(5,\\ 9\\right)Q(5, 9) বিন্দুদ্বয়ের সংযোগ রেখাংশকে 2:32:3 2:3 অনুপাতে বহির্বিভক্তকারী বিন্দুর স্থানাঙ্ক-",
+    "explanationLatex": "$(2\\\\times 5−3\\\\times 32−3 ,2\\\\times 9−3\\\\times 42−3)≡(−1,−6)\\left(\\frac{2\\times5-3\\times3}{2-3}\\ ,\\frac{2\\times9-3\\times4}{2-3}\\right)\\equiv\\left(-1,-6\\right)(2−32\\\\times 5−3\\\\times 3 ,2−32\\\\times 9−3\\\\times 4)≡(−1,−6)$"
+  },
+  {
+    "id": 11,
+    "question": "ত্রিভুজের তিনটি শীর্ষ বিন্দুর স্থানাংক (3,5), (-3, 3) এবং (–1, -1) হলে ত্রিভুজটির ক্ষেত্রফল কত বর্গ একক ?",
+    "options": {
+      "a": "20",
+      "b": "14",
+      "c": "18",
+      "d": "16"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) 14।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243568/gst-question-images/Math_1st__________-varsity-arc_q11.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ত্রিভুজের তিনটি শীর্ষ বিন্দুর স্থানাংক (3,5), (-3, 3) এবং (–1, -1) হলে ত্রিভুজটির ক্ষেত্রফল কত বর্গ একক ?",
+    "explanationLatex": "সঠিক উত্তর: (b) 14।"
+  },
+  {
+    "id": 12,
+    "question": "x =a, y=b এবং y=mx রেখাত্রয় দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল:",
+    "options": {
+      "a": "1 2 𝑚 ( 𝑏 − 𝑚 𝑎 ) 2 2m 1 (b−ma) 2",
+      "b": "1 2 𝑚 ( 𝑚 𝑎 + 𝑏 ) 2 2m 1 (ma+b) 2",
+      "c": "1 𝑚 ( 𝑚 𝑎 + 𝑏 ) m 1 (ma+b)",
+      "d": "𝑚 2 ( 𝑏 − 𝑚 𝑎 ) 2 2 m (b−ma) 2"
+    },
+    "correctAnswer": "a",
+    "explanation": "Area =12∣abmaabbmab∣=12∣(ab+ab+ab−a2m−ab−b2m)∣=12m(m2a2−2abm+b2)=12m(b−ma)2 \\begin{array}{l}\\text { Area }=\\frac{1}{2}\\left|\\begin{array}{cccc}a & \\frac{b}{m} & a & a \\\\ b & b & m a & b\\end{array}\\right| \\\\ =\\frac{1}{2}\\left|\\left(a b+a b+a b-a^{2} m-a b-\\frac{b^{2}}{m}\\right)\\right| \\\\ =\\frac{1}{2 m}\\left(m^{2} a^{2}-2 a b m+b^{2}\\right) \\\\ =\\frac{1}{2 m}(b-m a)^{2}\\end{array} Area =21abmbbamaab=21(ab+ab+ab−a2m−ab−mb2)=2m1(m2a2−2abm+b2)=2m1(b−ma)2",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243569/gst-question-images/Math_1st__________-varsity-arc_q12.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x =a, y=b এবং y=mx রেখাত্রয় দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল:$",
+    "explanationLatex": "$Area =12∣abmaabbmab∣=12∣(ab+ab+ab−a2m−ab−b2m)∣=12m(m2a2−2abm+b2)=12m(b−ma)2 \\begin{array}{l}\\text { Area }=\\frac{1}{2}\\left|\\begin{array}{cccc}a & \\frac{b}{m} & a & a \\\\ b & b & m a & b\\end{array}\\right| \\\\ =\\frac{1}{2}\\left|\\left(a b+a b+a b-a^{2} m-a b-\\frac{b^{2}}{m}\\right)\\right| \\\\ =\\frac{1}{2 m}\\left(m^{2} a^{2}-2 a b m+b^{2}\\right) \\\\ =\\frac{1}{2 m}(b-m a)^{2}\\end{array} Area =21abmbbamaab=21(ab+ab+ab−a2m−ab−mb2)=2m1(m2a2−2abm+b2)=2m1(b−ma)2$"
+  },
+  {
+    "id": 13,
+    "question": "মূলবিন্দু হতে কোন সরলরেখার উপর অংকিত লম্বের দৈর্ঘ্য 5 একক এবং লম্বটি x x x-অক্ষের ধনাত্মক দিকের সাথে 120∘ 120^{\\circ} 120∘ কোণ উৎপন্ন করে; রেখাটির সমীকরণ নির্ণয় কর।",
+    "options": {
+      "a": "𝑥 − 3 𝑦 + 10 = 0 x− 3 y+10=0",
+      "b": "𝑥 + 3 𝑦 + 10 = 0 x+ 3 y+10=0",
+      "c": "𝑥 − 3 𝑦 − 10 = 0 x−3y−10=0",
+      "d": "𝑥 − 3 𝑦 + 10 = 0 x−3y+10=0"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: নির্ণেয় রেখার সমীকরণ, xcos⁡120∘+ysin⁡120∘=5⇒x(−12)+y⋅32=5⇒−x+3y=10∴x−3y+10=0 (Ans.) \\begin{aligned} & x \\cos 120^{\\circ}+y \\sin 120^{\\circ}=5 \\\\ \\Rightarrow & x\\left(-\\frac{1}{2}\\right)+y \\cdot \\frac{\\sqrt{3}}{2}=5 \\Rightarrow-x+\\sqrt{3} y=10 \\\\ \\therefore & x-\\sqrt{3} y+10=0 \\text { (Ans.) } \\end{aligned} ⇒∴xcos120∘+ysin120∘=5x(−21)+y⋅23=5⇒−x+3y=10x−3y+10=0 (Ans.)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$মূলবিন্দু হতে কোন সরলরেখার উপর অংকিত লম্বের দৈর্ঘ্য 5 একক এবং লম্বটি x x x-অক্ষের ধনাত্মক দিকের সাথে 120∘ 120^{\\circ} 120∘ কোণ উৎপন্ন করে; রেখাটির সমীকরণ নির্ণয় কর।$",
+    "explanationLatex": "$সমাধান: নির্ণেয় রেখার সমীকরণ, xcos⁡120∘+ysin⁡120∘=5⇒x(−12)+y⋅32=5⇒−x+3y=10∴x−3y+10=0 (Ans.) \\begin{aligned} & x \\cos 120^{\\circ}+y \\sin 120^{\\circ}=5 \\\\ \\Rightarrow & x\\left(-\\frac{1}{2}\\right)+y \\cdot \\frac{\\sqrt{3}}{2}=5 \\Rightarrow-x+\\sqrt{3} y=10 \\\\ \\therefore & x-\\sqrt{3} y+10=0 \\text { (Ans.) } \\end{aligned} ⇒∴xcos120∘+ysin120∘=5x(−21)+y⋅23=5⇒−x+3y=10x−3y+10=0 (Ans.)$"
+  },
+  {
+    "id": 14,
+    "question": "x অক্ষের এবং সমান্তরাল x - 3y+2=0 ও x + y=0 রেখাদ্বয়ের ছেদবিন্দু দিয়ে যায় এরূপ সরলরেখার সমীকরণ‌ -",
+    "options": {
+      "a": "x-3y+2=0",
+      "b": "2 𝑦 − 1 = 0 2y−1=0",
+      "c": "x+y+2=0",
+      "d": "y=2-x"
+    },
+    "correctAnswer": "b",
+    "explanation": "x−3y+2=0..(1)x+y=0…(2) \\begin{array}{l} x-3 y+2=0 ..(1)\\\\ x+y=0 …(2)\\end{array} x−3y+2=0..(1)x+y=0…(2) (1) - (2) হতে পাই, x−3y+2=0x+y+0=0——————————−4y+2=0⇒y=12∴x+12=0⇒x=−12 \\begin{array}{l} x-3 y+2=0 \\\\ x+y+0=0 \\\\ —————————— \\\\ -4 y+2=0 \\\\ \\Rightarrow y=\\frac{1}{2} \\\\ \\therefore \\quad x+\\frac{1}{2}=0 \\\\ \\Rightarrow x=-\\frac{1}{2} \\\\ \\end{array} x−3y+2=0x+y+0=0——————————−4y+2=0⇒y=21∴x+21=0⇒x=−21 যেহেতু রেখাটি x x x অক্ষের সমান্তরাল ∴ \\therefore ∴ সমীকরণ: y=12 y=\\frac{1}{2} y=21 ⇒2y−1=0 \\Rightarrow 2 y-1=0 ⇒2y−1=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x অক্ষের এবং সমান্তরাল x - 3y+2=0 ও x + y=0 রেখাদ্বয়ের ছেদবিন্দু দিয়ে যায় এরূপ সরলরেখার সমীকরণ‌ -$",
+    "explanationLatex": "$x−3y+2=0..(1)x+y=0…(2) \\begin{array}{l} x-3 y+2=0 ..(1)\\\\ x+y=0 …(2)\\end{array} x−3y+2=0..(1)x+y=0…(2) (1) - (2) হতে পাই, x−3y+2=0x+y+0=0——————————−4y+2=0⇒y=12∴x+12=0⇒x=−12 \\begin{array}{l} x-3 y+2=0 \\\\ x+y+0=0 \\\\ —————————— \\\\ -4 y+2=0 \\\\ \\Rightarrow y=\\frac{1}{2} \\\\ \\therefore \\quad x+\\frac{1}{2}=0 \\\\ \\Rightarrow x=-\\frac{1}{2} \\\\ \\end{array} x−3y+2=0x+y+0=0——————————−4y+2=0⇒y=21∴x+21=0⇒x=−21 যেহেতু রেখাটি x x x অক্ষের সমান্তরাল ∴ \\therefore ∴ সমীকরণ: y=12 y=\\frac{1}{2} y=21 ⇒2y−1=0 \\Rightarrow 2 y-1=0 ⇒2y−1=0$"
+  },
+  {
+    "id": 15,
+    "question": "নিচের কোনটি (3,2) (3,2) (3,2) এবং (6,8) (6,8) (6,8) বিন্দু দুইটির সংযোজক রেখার একটি সমত্রিখন্ডক বিন্দুর স্থানাঙ্ক?",
+    "options": {
+      "a": "( 6 , 5 ) (6,5)",
+      "b": "( 4 , 4 ) (4,4)",
+      "c": "( − 5 , 6 ) (−5,6)",
+      "d": "( 5 9 , 6 ) ( 9 5 ,6)"
+    },
+    "correctAnswer": "b",
+    "explanation": "C≡(3×1+6×23,2×1+8×23)≡(5,6),D≡(3×2+6×13,2×2+8×13)≡(4,4) \\mathrm{C} \\equiv\\left(\\frac{3 \\times 1+6 \\times 2}{3}, \\frac{2 \\times 1+8 \\times 2}{3}\\right) \\equiv(5,6), \\mathrm{D} \\equiv\\left(\\frac{3 \\times 2+6 \\times 1}{3}, \\frac{2 \\times 2+8 \\times 1}{3}\\right) \\equiv(4,4) C≡(33×1+6×2,32×1+8×2)≡(5,6),D≡(33×2+6×1,32×2+8×1)≡(4,4)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোনটি (3,2) (3,2) (3,2) এবং (6,8) (6,8) (6,8) বিন্দু দুইটির সংযোজক রেখার একটি সমত্রিখন্ডক বিন্দুর স্থানাঙ্ক?",
+    "explanationLatex": "$C≡(3\\\\times 1+6\\\\times 23,2\\\\times 1+8\\\\times 23)≡(5,6),D≡(3\\\\times 2+6\\\\times 13,2\\\\times 2+8\\\\times 13)≡(4,4) \\mathrm{C} \\equiv\\left(\\frac{3 \\times 1+6 \\times 2}{3}, \\frac{2 \\times 1+8 \\times 2}{3}\\right) \\equiv(5,6), \\mathrm{D} \\equiv\\left(\\frac{3 \\times 2+6 \\times 1}{3}, \\frac{2 \\times 2+8 \\times 1}{3}\\right) \\equiv(4,4) C≡(33\\\\times 1+6\\\\times 2,32\\\\times 1+8\\\\times 2)≡(5,6),D≡(33\\\\times 2+6\\\\times 1,32\\\\times 2+8\\\\times 1)≡(4,4)$"
+  },
+  {
+    "id": 16,
+    "question": "একটি সরলরেখা (3,7) (3,7) (3,7) বিন্দু দিয়ে যায় এবং অক্ষদ্বয় হতে বিপরীত চিহ্নবিশিষ্ট সমমানের অংশ ছেদ করে তার সমীকরণ নির্ণয় কর।",
+    "options": {
+      "a": "𝑥 − 𝑦 + 5 = 0 x−y+5=0",
+      "b": "𝑥 − 𝑦 + 4 = 0 x−y+4=0",
+      "c": "𝑥 − 𝑦 − 4 = 0 x−y−4=0",
+      "d": "𝑥 + 𝑦 + 4 = 0 x+y+4=0"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান: ধরি, অক্ষদ্বয় হতে বিপরীত চিহ্নবিশিষ্ট সমমানের অংশ ছেদ করে এরূপ রেখাটির সমীকরণxa+y−a=1⇒x−y=a \\frac{x}{a}+\\frac{y}{-a}=1 \\Rightarrow x-y=a ax+−ay=1⇒x−y=a (1) রেখাটির (3,7) (3,7) (3,7) বিন্দু দিয়ে যায় ∴3−7=a⇒a=−4 \\therefore \\quad 3-7=a \\Rightarrow a=-4 ∴3−7=a⇒a=−4 ∴ \\therefore ∴ রেখাটির সমীকরণ x−y=−4⇒x−y+4=0 x-y=-4 \\Rightarrow x-y+4=0 x−y=−4⇒x−y+4=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি সরলরেখা (3,7) (3,7) (3,7) বিন্দু দিয়ে যায় এবং অক্ষদ্বয় হতে বিপরীত চিহ্নবিশিষ্ট সমমানের অংশ ছেদ করে তার সমীকরণ নির্ণয় কর।",
+    "explanationLatex": "$সমাধান: ধরি, অক্ষদ্বয় হতে বিপরীত চিহ্নবিশিষ্ট সমমানের অংশ ছেদ করে এরূপ রেখাটির সমীকরণxa+y−a=1⇒x−y=a \\frac{x}{a}+\\frac{y}{-a}=1 \\Rightarrow x-y=a ax+−ay=1⇒x−y=a (1) রেখাটির (3,7) (3,7) (3,7) বিন্দু দিয়ে যায় ∴3−7=a⇒a=−4 \\therefore \\quad 3-7=a \\Rightarrow a=-4 ∴3−7=a⇒a=−4 ∴ \\therefore ∴ রেখাটির সমীকরণ x−y=−4⇒x−y+4=0 x-y=-4 \\Rightarrow x-y+4=0 x−y=−4⇒x−y+4=0$"
+  },
+  {
+    "id": 17,
+    "question": "x+y=4x+y=4x+y=4 সরলরেখাটি অক্ষদ্বয়ের সাথে যে ত্রিভুজ টি উৎপন্ন করে তার ক্ষেত্রফল কত বর্গ একক?",
+    "options": {
+      "a": "1",
+      "b": "8",
+      "c": "4",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "explanation": "সঠিক উত্তর: (b) 8।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243570/gst-question-images/Math_1st__________-varsity-arc_q17.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x+y=4x+y=4x+y=4 সরলরেখাটি অক্ষদ্বয়ের সাথে যে ত্রিভুজ টি উৎপন্ন করে তার ক্ষেত্রফল কত বর্গ একক?$",
+    "explanationLatex": "সঠিক উত্তর: (b) 8।"
+  },
+  {
+    "id": 18,
+    "question": "x- অক্ষের সমান্তরাল ও (3,-4) বিন্দুগামী সরলরেখার সমীকরণ কোনটি?",
+    "options": {
+      "a": "x = 3",
+      "b": "y = 4",
+      "c": "y +4 = 0",
+      "d": "y = 0"
+    },
+    "correctAnswer": "c",
+    "explanation": "x অক্ষের সমান্তরাল রেখার সমীকরণ y=b y=−4∴y+4=0 \\mathrm{y}=-4 \\therefore \\mathrm{y}+4=0 y=−4∴y+4=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "x- অক্ষের সমান্তরাল ও (3,-4) বিন্দুগামী সরলরেখার সমীকরণ কোনটি?",
+    "explanationLatex": "$x অক্ষের সমান্তরাল রেখার সমীকরণ y=b y=−4∴y+4=0 \\mathrm{y}=-4 \\therefore \\mathrm{y}+4=0 y=−4∴y+4=0$"
+  },
+  {
+    "id": 19,
+    "question": "x-3y=0 সরলরেখাটি x অক্ষের যে বিন্দুতে মিলিত হয় তার স্থানাঙ্ক হলো -",
+    "options": {
+      "a": "(3,0)",
+      "b": "(-3,0)",
+      "c": "(0,0)",
+      "d": "(1,0)"
+    },
+    "correctAnswer": "c",
+    "explanation": "(0,0)। x-3y=0 সরলরেখার সমীকরণটিকে y-এর সাপেক্ষে সমাধান করলে পাওয়া যায়, y = x/3x-এর মান 0 হলে, y-এর মান হবে y = 0/3y = 0 সুতরাং, x-অক্ষের যে বিন্দুতে সরলরেখাটি মিলিত হয় তার স্থানাঙ্ক হল (0,0)।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x-3y=0 সরলরেখাটি x অক্ষের যে বিন্দুতে মিলিত হয় তার স্থানাঙ্ক হলো -$",
+    "explanationLatex": "$(0,0)। x-3y=0 সরলরেখার সমীকরণটিকে y-এর সাপেক্ষে সমাধান করলে পাওয়া যায়, y = \\frac{x}{3x}-এর মান 0 হলে, y-এর মান হবে y = \\frac{0}{3y} = 0 সুতরাং, x-অক্ষের যে বিন্দুতে সরলরেখাটি মিলিত হয় তার স্থানাঙ্ক হল (0,0)।$"
+  },
+  {
+    "id": 20,
+    "question": "AB \\mathrm{AB} AB রেখা অক্ষদ্বয় হতে সমান 2a 2 \\mathrm{a} 2a অংশ কর্তন করে। AB A B AB রেখাংস্থ P P P বিন্দু হতে অক্ষদ্বয়ের উপর অঙ্কিত লম্বদ্বয় PR ও PS । RS এর মধ্যবিন্দুর সঞ্চারপথের সমীকরণ নির্ণয় কর।",
+    "options": {
+      "a": "x+y=a",
+      "b": "x-y=a",
+      "c": "x+y=-a",
+      "d": "x+y=2a"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: AB রেখার সমীকরণ x2a+y2a=1 \\frac{x}{2 a}+\\frac{y}{2 a}=1 2ax+2ay=1⇒x+y=2a \\Rightarrow x+y=2 a ⇒x+y=2a AB A B AB রেখার উপর যেকোনো একটি বিন্দু P(α,β) P(\\alpha, \\beta) P(α,β) হলে,R≡(α,0),S≡(0,β) R \\equiv(\\alpha, 0), S \\equiv(0, \\beta) R≡(α,0),S≡(0,β) এবং α+β=2a⋯⋯(1) \\alpha+\\beta=2 \\mathrm{a} \\cdots \\cdots(1) α+β=2a⋯⋯(1) RS এর মধ্যবিন্দু: (α2,β2)=(x,y) \\left(\\frac{\\alpha}{2}, \\frac{\\beta}{2}\\right)=(x, y) (2α,2β)=(x,y) (ধরি) ∴α=2x,β=2y \\therefore \\quad \\alpha=2 x, \\beta=2 y ∴α=2x,β=2y (1) হতে, 2x+2y=2a 2 x+2 y=2 a 2x+2y=2a ∴x+y=a \\therefore \\quad x+y=a ∴x+y=a, যা নির্ণেয় সঞ্চারপথের সমীকরণ।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "AB \\mathrm{AB} AB রেখা অক্ষদ্বয় হতে সমান 2a 2 \\mathrm{a} 2a অংশ কর্তন করে। AB A B AB রেখাংস্থ P P P বিন্দু হতে অক্ষদ্বয়ের উপর অঙ্কিত লম্বদ্বয় PR ও PS । RS এর মধ্যবিন্দুর সঞ্চারপথের সমীকরণ নির্ণয় কর।",
+    "explanationLatex": "$সমাধান: AB রেখার সমীকরণ x2a+y2a=1 \\frac{x}{2 a}+\\frac{y}{2 a}=1 2ax+2ay=1⇒x+y=2a \\Rightarrow x+y=2 a ⇒x+y=2a AB A B AB রেখার উপর যেকোনো একটি বিন্দু P(α,β) P(\\alpha, \\beta) P(α,β) হলে,R≡(α,0),S≡(0,β) R \\equiv(\\alpha, 0), S \\equiv(0, \\beta) R≡(α,0),S≡(0,β) এবং α+β=2a⋯⋯(1) \\alpha+\\beta=2 \\mathrm{a} \\cdots \\cdots(1) α+β=2a⋯⋯(1) RS এর মধ্যবিন্দু: (α2,β2)=(x,y) \\left(\\frac{\\alpha}{2}, \\frac{\\beta}{2}\\right)=(x, y) (2α,2β)=(x,y) (ধরি) ∴α=2x,β=2y \\therefore \\quad \\alpha=2 x, \\beta=2 y ∴α=2x,β=2y (1) হতে, 2x+2y=2a 2 x+2 y=2 a 2x+2y=2a ∴x+y=a \\therefore \\quad x+y=a ∴x+y=a, যা নির্ণেয় সঞ্চারপথের সমীকরণ।$"
+  },
+  {
+    "id": 21,
+    "question": "X=0,x=2,y=0,y=2 দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কোনটা?",
+    "options": {
+      "a": "2 বর্গ একক",
+      "b": "5 বর্গ একক",
+      "c": "8 বর্গ একক",
+      "d": "4 বর্গ একক"
+    },
+    "correctAnswer": "d",
+    "explanation": "এখানে, ক্ষেত্রফল = (2 × 2) = 4 বর্গ একক।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243571/gst-question-images/Math_1st__________-varsity-arc_q21.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$X=0,x=2,y=0,y=2 দ্বারা আবদ্ধ ক্ষেত্রের ক্ষেত্রফল কোনটা?$",
+    "explanationLatex": "$এখানে, ক্ষেত্রফল = (2 \\\\times  2) = 4 বর্গ একক।$"
+  },
+  {
+    "id": 22,
+    "question": "y y y -অক্ষ হতে একটি বিন্দু সেটের যেকোন উপাদানের দূরত্ব মূলবিন্দু হতে তার দূরত্বের অর্ধেক। এ সেটটি দ্বারা সৃষ্ট সঞ্চারপথের সমীকরণ নির্ণয় কর।",
+    "options": {
+      "a": "𝑦 2 = 3 𝑥 2 y 2 =3x 2",
+      "b": "𝑦 2 = 3 𝑥 y 2 =3x",
+      "c": "𝑦 = 9 𝑥 2 y=9x 2",
+      "d": "𝑥 2 = 3 𝑥 2 x 2 =3x 2"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: মনে করি, P(x,y) \\mathrm{P}(x, y) P(x,y) বিন্দুটি সঞ্চার পথের উপর যেকোন একটি বিন্দু।∴y \\therefore \\quad y ∴y -অক্ষ হতে P(x,y) \\mathrm{P}(x, y) P(x,y) বিন্দুর দূরত্ব =∣x∣ =|x| =∣x∣ একক এবং মূলবিন্দু (0,0) (0,0) (0,0) হতে P(x,y) \\mathrm{P}(x, y) P(x,y) বিন্দুর দূরত্ব =x2+y2 =\\sqrt{x^{2}+y^{2}} =x2+y2 একক। প্রশ্নমতে, ∣x∣=12x2+y2 |x|=\\frac{1}{2} \\sqrt{x^{2}+y^{2}} ∣x∣=21x2+y2 ⇒4∣x∣2=x2+y2 \\Rightarrow 4|x|^{2}=x^{2}+y^{2} ⇒4∣x∣2=x2+y2 ⇒4x2=x2+y2∴y2=3x2 \\Rightarrow 4 x^{2}=x^{2}+y^{2} \\therefore y^{2}=3 x^{2} ⇒4x2=x2+y2∴y2=3x2, ইহাই সঞ্চার পথের নির্ণেয় সমীকরণ।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "y y y -অক্ষ হতে একটি বিন্দু সেটের যেকোন উপাদানের দূরত্ব মূলবিন্দু হতে তার দূরত্বের অর্ধেক। এ সেটটি দ্বারা সৃষ্ট সঞ্চারপথের সমীকরণ নির্ণয় কর।",
+    "explanationLatex": "$সমাধান: মনে করি, P(x,y) \\mathrm{P}(x, y) P(x,y) বিন্দুটি সঞ্চার পথের উপর যেকোন একটি বিন্দু।∴y \\therefore \\quad y ∴y -অক্ষ হতে P(x,y) \\mathrm{P}(x, y) P(x,y) বিন্দুর দূরত্ব =∣x∣ =|x| =∣x∣ একক এবং মূলবিন্দু (0,0) (0,0) (0,0) হতে P(x,y) \\mathrm{P}(x, y) P(x,y) বিন্দুর দূরত্ব =x2+y2 =\\sqrt{x^{2}+y^{2}} =x2+y2 একক। প্রশ্নমতে, ∣x∣=12x2+y2 |x|=\\frac{1}{2} \\sqrt{x^{2}+y^{2}} ∣x∣=21x2+y2 ⇒4∣x∣2=x2+y2 \\Rightarrow 4|x|^{2}=x^{2}+y^{2} ⇒4∣x∣2=x2+y2 ⇒4x2=x2+y2∴y2=3x2 \\Rightarrow 4 x^{2}=x^{2}+y^{2} \\therefore y^{2}=3 x^{2} ⇒4x2=x2+y2∴y2=3x2, ইহাই সঞ্চার পথের নির্ণেয় সমীকরণ।$"
+  },
+  {
+    "id": 23,
+    "question": "(3,5) (3,5) (3,5) ও (6,7) (6,7) (6,7) বিন্দুদ্বয়ের সংযোজক রেখার লম্বদ্বিখন্ডকের ঢাল নির্ণয় কর।",
+    "options": {
+      "a": "− 3 2 − 2 3",
+      "b": "− 3 4 − 4 3",
+      "c": "− 5 2 − 2 5",
+      "d": "− 2 3 − 3 2"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান:: প্রদত্ত বিন্দুদ্বয়ের সংযোগ রেখাংশের মধ্যবিন্দুর স্থানাঙ্ক (8−42,5−32)=(2,1) \\left(\\frac{8-4}{2}, \\frac{5-3}{2}\\right)=(2,1) (28−4,25−3)=(2,1) ∴(8,5) \\therefore(8,5) ∴(8,5) ও (−4,−3) (-4,-3) (−4,−3) বিন্দুদ্বয়ের সংযোগ রেখার ঢাল =5+38+4=812=23 =\\frac{5+3}{8+4}=\\frac{8}{12}=\\frac{2}{3} =8+45+3=128=32. ∴ লম্ব সমদ্বিখন্ডক রেখার ঢাল =−32 \\therefore \\quad \\text { লম্ব সমদ্বিখন্ডক রেখার ঢাল }=-\\frac{3}{2} ∴ লম্ব সমদ্বিখন্ডক রেখার ঢাল =−23",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(3,5) (3,5) (3,5) ও (6,7) (6,7) (6,7) বিন্দুদ্বয়ের সংযোজক রেখার লম্বদ্বিখন্ডকের ঢাল নির্ণয় কর।",
+    "explanationLatex": "$সমাধান:: প্রদত্ত বিন্দুদ্বয়ের সংযোগ রেখাংশের মধ্যবিন্দুর স্থানাঙ্ক (8−42,5−32)=(2,1) \\left(\\frac{8-4}{2}, \\frac{5-3}{2}\\right)=(2,1) (28−4,25−3)=(2,1) ∴(8,5) \\therefore(8,5) ∴(8,5) ও (−4,−3) (-4,-3) (−4,−3) বিন্দুদ্বয়ের সংযোগ রেখার ঢাল =5+38+4=812=23 =\\frac{5+3}{8+4}=\\frac{8}{12}=\\frac{2}{3} =8+45+3=128=32. ∴ লম্ব সমদ্বিখন্ডক রেখার ঢাল =−32 \\therefore \\quad \\text { লম্ব সমদ্বিখন্ডক রেখার ঢাল }=-\\frac{3}{2} ∴ লম্ব সমদ্বিখন্ডক রেখার ঢাল =−23$"
+  },
+  {
+    "id": 24,
+    "question": "3x−2y=1 3 x-2 y=1 3x−2y=1 এবং 6x−4y+9=0 6 x-4 y+9=0 6x−4y+9=0 সমান্তরাল রেখাদ্বয়ের মধ্যবর্তী দূরত্ব নির্ণয় কর।",
+    "options": {
+      "a": "12 2 13 2 13 12",
+      "b": "11 2 13 2 13 11",
+      "c": "11 2 3 2 3 11",
+      "d": "1 2 13 2 13 1"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান: প্রদত্ত রেখাদ্বয়, 3x−2y=1⇒3x−2y−1=0...(1)এবং6x−4y+9=0⇒3x−2y+92=0...(2) \\begin{array}{l} 3 x-2 y=1 \\Rightarrow 3 x-2 y-1=0 ...(1) এবং \\\\ 6 x-4 y+9=0 \\Rightarrow 3 x-2 y+\\frac{9}{2}=0...(2) \\end{array} 3x−2y=1⇒3x−2y−1=0...(1)এবং6x−4y+9=0⇒3x−2y+29=0...(2) ∴ \\therefore ∴ (1) ও (2) সমান্তরাল রেখাদ্বয়ের মধ্যবর্তী দৃরত্ব =∣−1−92∣9+4=∣−112∣13=11213 একক। =\\frac{\\left|-1-\\frac{9}{2}\\right|}{\\sqrt{9+4}}=\\frac{\\left|-\\frac{11}{2}\\right|}{\\sqrt{13}}=\\frac{11}{2 \\sqrt{13}} \\text { একক। } =9+4∣−1−29∣=13∣−211∣=21311 একক।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$3x−2y=1 3 x-2 y=1 3x−2y=1 এবং 6x−4y+9=0 6 x-4 y+9=0 6x−4y+9=0 সমান্তরাল রেখাদ্বয়ের মধ্যবর্তী দূরত্ব নির্ণয় কর।$",
+    "explanationLatex": "$সমাধান: প্রদত্ত রেখাদ্বয়, 3x−2y=1⇒3x−2y−1=0...(1)এবং6x−4y+9=0⇒3x−2y+92=0...(2) \\begin{array}{l} 3 x-2 y=1 \\Rightarrow 3 x-2 y-1=0 ...(1) এবং \\\\ 6 x-4 y+9=0 \\Rightarrow 3 x-2 y+\\frac{9}{2}=0...(2) \\end{array} 3x−2y=1⇒3x−2y−1=0...(1)এবং6x−4y+9=0⇒3x−2y+29=0...(2) ∴ \\therefore ∴ (1) ও (2) সমান্তরাল রেখাদ্বয়ের মধ্যবর্তী দৃরত্ব =∣−1−92∣9+4=∣−112∣13=11213 একক। =\\frac{\\left|-1-\\frac{9}{2}\\right|}{\\sqrt{9+4}}=\\frac{\\left|-\\frac{11}{2}\\right|}{\\sqrt{13}}=\\frac{11}{2 \\sqrt{13}} \\text { একক। } =9+4∣−1−29∣=13∣−211∣=21311 একক।$"
+  },
+  {
+    "id": 25,
+    "question": "x+y=3 x+y=3 x+y=3 এবং x−y=3 x-y=3 x−y=3 দুইটি রেখার সমীকরণ। রেখাদ্বয়ের মধ্যবর্তী কোণ কত? [RB'22]",
+    "options": {
+      "a": "30 ∘ 30 ∘",
+      "b": "45 ∘ 45 ∘",
+      "c": "60 ∘ 60 ∘",
+      "d": "90 ∘ 90 ∘"
+    },
+    "correctAnswer": "d",
+    "explanation": "সমাধান: (d); θ=±tan⁡−1m1−m21+m1m2 \\theta= \\pm \\tan ^{-1} \\frac{m_{1}-m_{2}}{1+m_{1} m_{2}} θ=±tan−11+m1m2m1−m2 এখানে, x+y=3⇒m1=−1 x+y=3 \\Rightarrow m_{1}=-1 x+y=3⇒m1=−1 এবং x−y=3 x-y=3 x−y=3",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$x+y=3 x+y=3 x+y=3 এবং x−y=3 x-y=3 x−y=3 দুইটি রেখার সমীকরণ। রেখাদ্বয়ের মধ্যবর্তী কোণ কত? [RB'22]$",
+    "explanationLatex": "$সমাধান: (d); \\\\theta =\\\\pm tan⁡−1m1−m21+m1m2 \\theta= \\pm \\tan ^{-1} \\frac{m_{1}-m_{2}}{1+m_{1} m_{2}} \\\\theta =\\\\pm tan−11+m1m2m1−m2 এখানে, x+y=3⇒m1=−1 x+y=3 \\Rightarrow m_{1}=-1 x+y=3⇒m1=−1 এবং x−y=3 x-y=3 x−y=3$"
+  },
+  {
+    "id": 26,
+    "question": "কোন বিন্দুর পোলার স্থানাঙ্ক 2,2π32,\\frac{2\\pi}{3}2,32πহলে ঐ বিন্দুর কার্তেসীয় স্থানাঙ্ক কোনটি?",
+    "options": {
+      "a": "( 2 3 , − 1 ) (2 3, −1)",
+      "b": "( 1 , − 2 3 ) (1,−2 3 )",
+      "c": "( − 1 , 3 ) (−1, 3 )",
+      "d": "( − 2 3 , 1 ) (−2 3, 1)"
+    },
+    "correctAnswer": "c",
+    "explanation": "x=2cos⁡2π3=−1 ; y=2sin⁡2π3=3 ∴(x,y)=(−1, 3)x=2\\cos\\frac{2\\pi}{3}=-1\\ ;\\ y=2\\sin\\frac{2\\pi}{3}=\\sqrt{3}\\ \\therefore\\left(x,y\\right)=\\left(-1,\\ \\sqrt{3}\\right)x=2cos32π=−1 ; y=2sin32π=3 ∴(x,y)=(−1, 3)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$কোন বিন্দুর পোলার স্থানাঙ্ক 2,2\\\\pi 32,\\frac{2\\pi}{3}2,32\\\\pi হলে ঐ বিন্দুর কার্তেসীয় স্থানাঙ্ক কোনটি?$",
+    "explanationLatex": "$x=2cos⁡2\\\\pi 3=−1 ; y=2sin⁡2\\\\pi 3=3 ∴(x,y)=(−1, 3)x=2\\cos\\frac{2\\pi}{3}=-1\\ ;\\ y=2\\sin\\frac{2\\pi}{3}=\\sqrt{3}\\ \\therefore\\left(x,y\\right)=\\left(-1,\\ \\sqrt{3}\\right)x=2cos32\\\\pi =−1 ; y=2sin32\\\\pi =3 ∴(x,y)=(−1, 3)$"
+  },
+  {
+    "id": 27,
+    "question": "(−2,4)(-2,4)(−2,4) এবং (8,−10) (8,-10) (8,−10) বিন্দুদ্বয়ের সংযোজক রেখাকে 2:3 2: 3 2:3 অনুপাতে বহির্বিভক্তকারী বিন্দুর স্থানাঙ্ক কোনটি? [RB'22]",
+    "options": {
+      "a": "( − 22 , 8 ) (−22,8)",
+      "b": "( 22 , − 8 ) (22,−8)",
+      "c": "( − 22 , 32 ) (−22,32)",
+      "d": "( 22 , − 32 ) (22,−32)"
+    },
+    "correctAnswer": "c",
+    "explanation": "সঠিক উত্তর: (c) ( − 22 , 32 ) (−22,32)।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243572/gst-question-images/Math_1st__________-varsity-arc_q27.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(−2,4)(-2,4)(−2,4) এবং (8,−10) (8,-10) (8,−10) বিন্দুদ্বয়ের সংযোজক রেখাকে 2:3 2: 3 2:3 অনুপাতে বহির্বিভক্তকারী বিন্দুর স্থানাঙ্ক কোনটি? [RB'22]",
+    "explanationLatex": "সঠিক উত্তর: (c) ( − 22 , 32 ) (−22,32)।"
+  },
+  {
+    "id": 28,
+    "question": "(-5,7), (3,-1) বিন্দুদ্বয়ের সংযোগকারী রেখাংশের লম্ব সমদ্বিখণ্ডক রেখার সমীকরণ কি?",
+    "options": {
+      "a": "y-3=x+1",
+      "b": "y+1=x-3",
+      "c": "y+3=x-1",
+      "d": "y-1=x-3"
+    },
+    "correctAnswer": "a",
+    "explanation": "(−5,7) (-5,7) (−5,7) ও (3,−1) (3,-1) (3,−1) বিন্দুদ্বয়ের সংযোগ সরল রেখার মধ্যবিন্দু ≡(−5+32,7−12)≡(−1,3) \\equiv\\left(\\frac{-5+3}{2}, \\frac{7-1}{2}\\right) \\equiv(-1,3) ≡(2−5+3,27−1)≡(−1,3)",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243573/gst-question-images/Math_1st__________-varsity-arc_q28.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(-5,7), (3,-1) বিন্দুদ্বয়ের সংযোগকারী রেখাংশের লম্ব সমদ্বিখণ্ডক রেখার সমীকরণ কি?",
+    "explanationLatex": "$(−5,7) (-5,7) (−5,7) ও (3,−1) (3,-1) (3,−1) বিন্দুদ্বয়ের সংযোগ সরল রেখার মধ্যবিন্দু ≡(−5+32,7−12)≡(−1,3) \\equiv\\left(\\frac{-5+3}{2}, \\frac{7-1}{2}\\right) \\equiv(-1,3) ≡(2−5+3,27−1)≡(−1,3)$"
+  },
+  {
+    "id": 29,
+    "question": "x- অক্ষ এবং (2,2) বিন্দু হতে (5,k) বিন্দুটির দূরত্ব সমান হলে k এর মান কত?",
+    "options": {
+      "a": "4 13 13 4",
+      "b": "4 7 7 4",
+      "c": "7 4 4 7",
+      "d": "13 4 4 13"
+    },
+    "correctAnswer": "d",
+    "explanation": "x x x অক্ষ হতে (5,k) (5, k) (5,k) এর দূরত্ব =∣k∣ =|k| =∣k∣ (2,2) বিন্দু হতে (5,k) এর দৃরত্ত =(5−2)2+(k−2)2=9+k2−4k+4 শর্তমতে, ∣k∣=9+k2−4k+4⇒k2=9+k2−4k+4⇒13/4=k \\begin{array}{l} (2,2) \\text { বিন্দু হতে }(5, \\mathrm{k}) \\text { এর দৃরত্ত }=\\sqrt{(5-2)^{2}+(\\mathrm{k}-2)^{2}} \\\\ =\\sqrt{9+\\mathrm{k}^{2}-4 \\mathrm{k}+4} \\\\ \\text { শর্তমতে, }|\\mathrm{k}|=\\sqrt{9+\\mathrm{k}^{2}-4 \\mathrm{k}+4} \\Rightarrow \\mathrm{k}^{2}=9+\\mathrm{k}^{2}-4 \\mathrm{k}+4 \\Rightarrow 13 / 4=\\mathrm{k} \\end{array} (2,2) বিন্দু হতে (5,k) এর দৃরত্ত =(5−2)2+(k−2)2=9+k2−4k+4 শর্তমতে, ∣k∣=9+k2−4k+4⇒k2=9+k2−4k+4⇒13/4=k",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "x- অক্ষ এবং (2,2) বিন্দু হতে (5,k) বিন্দুটির দূরত্ব সমান হলে k এর মান কত?",
+    "explanationLatex": "$x x x অক্ষ হতে (5,k) (5, k) (5,k) এর দূরত্ব =∣k∣ =|k| =∣k∣ (2,2) বিন্দু হতে (5,k) এর দৃরত্ত =(5−2)2+(k−2)2=9+k2−4k+4 শর্তমতে, ∣k∣=9+k2−4k+4⇒k2=9+k2−4k+4⇒\\frac{13}{4}=k \\begin{array}{l} (2,2) \\text { বিন্দু হতে }(5, \\mathrm{k}) \\text { এর দৃরত্ত }=\\sqrt{(5-2)^{2}+(\\mathrm{k}-2)^{2}} \\\\ =\\sqrt{9+\\mathrm{k}^{2}-4 \\mathrm{k}+4} \\\\ \\text { শর্তমতে, }|\\mathrm{k}|=\\sqrt{9+\\mathrm{k}^{2}-4 \\mathrm{k}+4} \\Rightarrow \\mathrm{k}^{2}=9+\\mathrm{k}^{2}-4 \\mathrm{k}+4 \\Rightarrow \\frac{13}{4}=\\mathrm{k} \\end{array} (2,2) বিন্দু হতে (5,k) এর দৃরত্ত =(5−2)2+(k−2)2=9+k2−4k+4 শর্তমতে, ∣k∣=9+k2−4k+4⇒k2=9+k2−4k+4⇒\\frac{13}{4}=k$"
+  },
+  {
+    "id": 30,
+    "question": "(0,7) (0,7) (0,7) ও (6,5) (6,5) (6,5) বিন্দুদ্বয়ের একটি বর্গের কর্ণের শীর্ষবিন্দু হলে অপর শীর্ষবিন্দু দুইটির স্থানাঙ্ক নির্ণয় কর।",
+    "options": {
+      "a": "( 2 , 3 ) (2,3) ও (-4, 9)",
+      "b": "( 2 , 3 ) (2,3) ও (4, 9)",
+      "c": "( 2 , 3 ) (2,3) ও (4,- 9)",
+      "d": "( − 2 , 3 ) (−2,3) ও (4, 9)"
+    },
+    "correctAnswer": "b",
+    "explanation": "সমাধান:: ধরি, ABCD \\mathrm{ABCD} ABCD বর্গের AC \\mathrm{AC} AC কর্ণের শীর্ষবিন্দু A(0,7) A(0,7) A(0,7) ও C(6,5) C(6,5) C(6,5).∴AC=36+4=210 \\therefore \\mathrm{AC}=\\sqrt{36+4}=2 \\sqrt{10} ∴AC=36+4=210 ⇒−6x+2y+6=0⇒3x−y−3=0⋯⋯(1)AC কর্ণের সমীকরণ x+3y=0+3×7⇒x+3y−21=0 \\begin{array}{c} \\Rightarrow-6 x+2 y+6=0 \\\\ \\Rightarrow 3 x-y-3=0 \\cdots \\cdots(1) \\\\ A C \\text { কর্ণের সমীকরণ } x+3 y=0+3 \\times 7 \\\\ \\Rightarrow x+3 y-21=0 \\end{array} ⇒−6x+2y+6=0⇒3x−y−3=0⋯⋯(1)AC কর্ণের সমীকরণ x+3y=0+3×7⇒x+3y−21=0 AC \\mathrm{AC} AC কর্ণের সমীকরণ x+3y=0+3×7 x+3 y=0+3 \\times 7 x+3y=0+3×7 ⇒x+3y˙−21=0 \\Rightarrow x+3 \\dot{y}-21=0 ⇒x+3y˙−21=0 AC \\mathrm{AC} AC কর্ণের সমান্তরাল 210 2 \\sqrt{10} 210 একক দূরবর্তী রেখার সমীকরণ সরলরেখার সমীকরণ, x+3y−21±1012+32=0⇒x+3y−21±10=0∴x+3y−11=0⋯⋯ (2) এবং x+3y−31=0⋯⋯ (3) \\begin{aligned} & x+3 y-21 \\pm \\sqrt{10} \\sqrt{1^{2}+3^{2}}=0 \\\\ \\Rightarrow & x+3 y-21 \\pm 10=0 \\\\ \\therefore & x+3 y-11=0 \\cdots \\cdots \\text { (2) এবং } \\\\ & x+3 y-31=0 \\cdots \\cdots \\text { (3) } \\end{aligned} ⇒∴x+3y−21±1012+32=0x+3y−21±10=0x+3y−11=0⋯⋯ (2) এবং x+3y−31=0⋯⋯ (3) (1) ও (2) এর ছেদবিন্দুর স্থানাঙ্ক (2,3) (2,3) (2,3). (1) ও (3) এর ছেদবিন্দুর স্থানাঙ্ক (4,9) (4,9) (4,9) ∴ \\therefore ∴ অপর শীর্ষবিন্দু দুইটির স্থানাঙ্ক (2,3) (2,3) (2,3) ও (4, 9)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(0,7) (0,7) (0,7) ও (6,5) (6,5) (6,5) বিন্দুদ্বয়ের একটি বর্গের কর্ণের শীর্ষবিন্দু হলে অপর শীর্ষবিন্দু দুইটির স্থানাঙ্ক নির্ণয় কর।",
+    "explanationLatex": "$সমাধান:: ধরি, ABCD \\mathrm{ABCD} ABCD বর্গের AC \\mathrm{AC} AC কর্ণের শীর্ষবিন্দু A(0,7) A(0,7) A(0,7) ও C(6,5) C(6,5) C(6,5).∴AC=36+4=210 \\therefore \\mathrm{AC}=\\sqrt{36+4}=2 \\sqrt{10} ∴AC=36+4=210 ⇒−6x+2y+6=0⇒3x−y−3=0⋯⋯(1)AC কর্ণের সমীকরণ x+3y=0+3\\\\times 7⇒x+3y−21=0 \\begin{array}{c} \\Rightarrow-6 x+2 y+6=0 \\\\ \\Rightarrow 3 x-y-3=0 \\cdots \\cdots(1) \\\\ A C \\text { কর্ণের সমীকরণ } x+3 y=0+3 \\times 7 \\\\ \\Rightarrow x+3 y-21=0 \\end{array} ⇒−6x+2y+6=0⇒3x−y−3=0⋯⋯(1)AC কর্ণের সমীকরণ x+3y=0+3\\\\times 7⇒x+3y−21=0 AC \\mathrm{AC} AC কর্ণের সমীকরণ x+3y=0+3\\\\times 7 x+3 y=0+3 \\times 7 x+3y=0+3\\\\times 7 ⇒x+3y˙−21=0 \\Rightarrow x+3 \\dot{y}-21=0 ⇒x+3y˙−21=0 AC \\mathrm{AC} AC কর্ণের সমান্তরাল 210 2 \\sqrt{10} 210 একক দূরবর্তী রেখার সমীকরণ সরলরেখার সমীকরণ, x+3y−21\\\\pm 1012+32=0⇒x+3y−21\\\\pm 10=0∴x+3y−11=0⋯⋯ (2) এবং x+3y−31=0⋯⋯ (3) \\begin{aligned} & x+3 y-21 \\pm \\sqrt{10} \\sqrt{1^{2}+3^{2}}=0 \\\\ \\Rightarrow & x+3 y-21 \\pm 10=0 \\\\ \\therefore & x+3 y-11=0 \\cdots \\cdots \\text { (2) এবং } \\\\ & x+3 y-31=0 \\cdots \\cdots \\text { (3) } \\end{aligned} ⇒∴x+3y−21\\\\pm 1012+32=0x+3y−21\\\\pm 10=0x+3y−11=0⋯⋯ (2) এবং x+3y−31=0⋯⋯ (3) (1) ও (2) এর ছেদবিন্দুর স্থানাঙ্ক (2,3) (2,3) (2,3). (1) ও (3) এর ছেদবিন্দুর স্থানাঙ্ক (4,9) (4,9) (4,9) ∴ \\therefore ∴ অপর শীর্ষবিন্দু দুইটির স্থানাঙ্ক (2,3) (2,3) (2,3) ও (4, 9)$"
+  },
+  {
+    "id": 31,
+    "question": "λ এর মান কত হলে 3x – y + 7 = 0 এবং 3x + λy – 5 = 0 রেখা দুইটি পরস্পর লম্ব হবে?",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "8",
+      "d": "9"
+    },
+    "correctAnswer": "d",
+    "explanation": "লম্ব হলে, 3×3/−λ=−1⇒λ=9 3 \\times 3/-\\lambda=-1 \\Rightarrow \\lambda=9 3×3/−λ=−1⇒λ=9",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$λ এর মান কত হলে 3x – y + 7 = 0 এবং 3x + λy – 5 = 0 রেখা দুইটি পরস্পর লম্ব হবে?$",
+    "explanationLatex": "$লম্ব হলে, 3\\\\times 3/−λ=−1⇒λ=9 3 \\times 3/-\\lambda=-1 \\Rightarrow \\lambda=9 3\\\\times 3/−λ=−1⇒λ=9$"
+  },
+  {
+    "id": 32,
+    "question": "2rSin2(θ/2)=1 এর কার্তেসীয় সমীকরণ-",
+    "options": {
+      "a": "y2=1+2x",
+      "b": "y2=4(1-x)",
+      "c": "y2=4(1+x)",
+      "d": "x2=4(1+y)"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) y2=1+2x।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243581/gst-question-images/Math_1st__________-varsity-arc_q32.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$2rSin2(\\\\\\frac{theta}{2})=1 এর কার্তেসীয় সমীকরণ-$",
+    "explanationLatex": "$সঠিক উত্তর: (a) y2=1+2x।$"
+  },
+  {
+    "id": 33,
+    "question": "B(-1,3), C(8,-6)",
+    "options": {
+      "a": "(0,-5)",
+      "b": "(1,2)",
+      "c": "(2,1)",
+      "d": "(0,0)"
+    },
+    "correctAnswer": "a",
+    "explanation": "BC বাহুর লম্ব সমদ্বিখন্ডক y y y-অক্ষকে যে বিন্দুতে ছেদ করে তার স্থানাঙ্ক নির্ণয় কর। সমাধান:: BC এর মধ্যবিন্দু ≡(−1+82,3−62) \\equiv\\left(\\frac{-1+8}{2}, \\frac{3-6}{2}\\right) ≡(2−1+8,23−6)=(72,−32)BC এর ঢাল =3+6−1−8=−1 \\begin{array}{l} =\\left(\\frac{7}{2},-\\frac{3}{2}\\right) \\\\ \\mathrm{BC} \\text { এর ঢাল }=\\frac{3+6}{-1-8}=-1 \\end{array} =(27,−23)BC এর ঢাল =−1−83+6=−1 ∴BC \\therefore \\quad \\mathrm{BC} ∴BC এর লম্বরেখার ঢাল =1 =1 =1 BC \\mathrm{BC} BC বাহর লম্ব সমদ্বিখন্ডকের সমীকরণ, y−(−32)=1(x−72)⇒2y+3=2x−7⇒2x−2y=10⇒x5+y−5=1, যা y-অক্ষকে \\begin{aligned} & y-\\left(-\\frac{3}{2}\\right)=1\\left(x-\\frac{7}{2}\\right) \\Rightarrow 2 y+3=2 x-7 \\\\ \\Rightarrow & 2 x-2 y=10 \\Rightarrow \\frac{x}{5}+\\frac{y}{-5}=1, \\text { যা } y \\text {-অক্ষকে } \\end{aligned} ⇒y−(−23)=1(x−27)⇒2y+3=2x−72x−2y=10⇒5x+−5y=1, যা y-অক্ষকে (0,−5) (0,-5) (0,−5) বিন্দুতে ছেদ করে।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "B(-1,3), C(8,-6)",
+    "explanationLatex": "$BC বাহুর লম্ব সমদ্বিখন্ডক y y y-অক্ষকে যে বিন্দুতে ছেদ করে তার স্থানাঙ্ক নির্ণয় কর। সমাধান:: BC এর মধ্যবিন্দু ≡(−1+82,3−62) \\equiv\\left(\\frac{-1+8}{2}, \\frac{3-6}{2}\\right) ≡(2−1+8,23−6)=(72,−32)BC এর ঢাল =3+6−1−8=−1 \\begin{array}{l} =\\left(\\frac{7}{2},-\\frac{3}{2}\\right) \\\\ \\mathrm{BC} \\text { এর ঢাল }=\\frac{3+6}{-1-8}=-1 \\end{array} =(27,−23)BC এর ঢাল =−1−83+6=−1 ∴BC \\therefore \\quad \\mathrm{BC} ∴BC এর লম্বরেখার ঢাল =1 =1 =1 BC \\mathrm{BC} BC বাহর লম্ব সমদ্বিখন্ডকের সমীকরণ, y−(−32)=1(x−72)⇒2y+3=2x−7⇒2x−2y=10⇒x5+y−5=1, যা y-অক্ষকে \\begin{aligned} & y-\\left(-\\frac{3}{2}\\right)=1\\left(x-\\frac{7}{2}\\right) \\Rightarrow 2 y+3=2 x-7 \\\\ \\Rightarrow & 2 x-2 y=10 \\Rightarrow \\frac{x}{5}+\\frac{y}{-5}=1, \\text { যা } y \\text {-অক্ষকে } \\end{aligned} ⇒y−(−23)=1(x−27)⇒2y+3=2x−72x−2y=10⇒5x+−5y=1, যা y-অক্ষকে (0,−5) (0,-5) (0,−5) বিন্দুতে ছেদ করে।$"
+  },
+  {
+    "id": 34,
+    "question": "yyy-অক্ষের সমান্তরাল এবং2x−7y+11=02x-7y+11=02x−7y+11=0ওx+3y=8x+3y=8x+3y=8রেখাদ্বয়ের ছেদবিন্দু দিয়ে অতিক্রমকারী সরলরেখার সমীকরণ-",
+    "options": {
+      "a": "13 𝑥 − 23 = 0 13x−23=0",
+      "b": "3 𝑥 − 7 = 0 3x−7=0",
+      "c": "7 𝑥 − 3 = 0 7x−3=0",
+      "d": "23 𝑥 − 13 = 0 23x−13=0"
+    },
+    "correctAnswer": "a",
+    "explanation": "2x−7y+11=0 ⇒6x−21y+33=02x-7y+11=0\\ ⇒6x-21y+33=02x−7y+11=0 ⇒6x−21y+33=0 x+3y−8=0 ⇒7x+21y−56=0x+3y-8=0\\ ⇒7x+21y-56=0x+3y−8=0 ⇒7x+21y−56=0 যোগ করে,13x−23=013x-23=013x−23=0∴\\therefore∴নির্ণেয় সমীকরণ,13x−23=013x-23=013x−23=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$yyy-অক্ষের সমান্তরাল এবং2x−7y+11=02x-7y+11=02x−7y+11=0ওx+3y=8x+3y=8x+3y=8রেখাদ্বয়ের ছেদবিন্দু দিয়ে অতিক্রমকারী সরলরেখার সমীকরণ-$",
+    "explanationLatex": "$2x−7y+11=0 ⇒6x−21y+33=02x-7y+11=0\\ ⇒6x-21y+33=02x−7y+11=0 ⇒6x−21y+33=0 x+3y−8=0 ⇒7x+21y−56=0x+3y-8=0\\ ⇒7x+21y-56=0x+3y−8=0 ⇒7x+21y−56=0 যোগ করে,13x−23=013x-23=013x−23=0∴\\therefore∴নির্ণেয় সমীকরণ,13x−23=013x-23=013x−23=0$"
+  },
+  {
+    "id": 35,
+    "question": "একটি ত্রিভুজের বাহুগুলো 5, 12 এবং13 cm হলে ত্রিভুজটি-",
+    "options": {
+      "a": "স্থুলকোণী",
+      "b": "সূক্ষ্মকোণী",
+      "c": "সমকোণী",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "c",
+    "explanation": "যেহেতু, 52+122=132∴ 5^{2}+12^{2}=13^{2} \\therefore 52+122=132∴ ত্রিভুজটি সমকোণী ।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি ত্রিভুজের বাহুগুলো 5, 12 এবং13 cm হলে ত্রিভুজটি-",
+    "explanationLatex": "$যেহেতু, 52+122=132∴ 5^{2}+12^{2}=13^{2} \\therefore 52+122=132∴ ত্রিভুজটি সমকোণী ।$"
+  },
+  {
+    "id": 36,
+    "question": "(1,0),(2,1),ও (4,5) বিন্দুগুলো দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল কত বর্গএকক?",
+    "options": {
+      "a": "14",
+      "b": "12",
+      "c": "10",
+      "d": "1"
+    },
+    "correctAnswer": "d",
+    "explanation": "(1,0), (2, 1) ও (4,5) বিন্দুগুলো দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল =12∣101211451∣ =\\frac{1}{2}\\left|\\begin{array}{lll}1 & 0 & 1 \\\\ 2 & 1 & 1 \\\\ 4 & 5 & 1\\end{array}\\right| =21124015111 =12[1(1−5)−0(2−4)+1(10−4)]=12[−4−0+6]=12×2=1 বর্গ একক। \\begin{array}{l}=\\frac{1}{2}[1(1-5)-0(2-4)+1(10-4)] \\\\ =\\frac{1}{2}[-4-0+6] \\\\ =\\frac{1}{2} \\times 2=1 \\text { বর্গ একক। } \\end{array} =21[1(1−5)−0(2−4)+1(10−4)]=21[−4−0+6]=21×2=1 বর্গ একক।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "(1,0),(2,1),ও (4,5) বিন্দুগুলো দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল কত বর্গএকক?",
+    "explanationLatex": "$(1,0), (2, 1) ও (4,5) বিন্দুগুলো দ্বারা গঠিত ত্রিভুজের ক্ষেত্রফল =12∣101211451∣ =\\frac{1}{2}\\left|\\begin{array}{lll}1 & 0 & 1 \\\\ 2 & 1 & 1 \\\\ 4 & 5 & 1\\end{array}\\right| =21124015111 =12[1(1−5)−0(2−4)+1(10−4)]=12[−4−0+6]=12\\\\times 2=1 বর্গ একক। \\begin{array}{l}=\\frac{1}{2}[1(1-5)-0(2-4)+1(10-4)] \\\\ =\\frac{1}{2}[-4-0+6] \\\\ =\\frac{1}{2} \\times 2=1 \\text { বর্গ একক। } \\end{array} =21[1(1−5)−0(2−4)+1(10−4)]=21[−4−0+6]=21\\\\times 2=1 বর্গ একক।$"
+  },
+  {
+    "id": 37,
+    "question": "(4,6) বিন্দু হতে y=x এর লম্ব দূরত্ব কত?",
+    "options": {
+      "a": "2",
+      "b": "4 4",
+      "c": "1 ± 21 1±21",
+      "d": "2 2"
+    },
+    "correctAnswer": "d",
+    "explanation": "y=x\\ বা,\\ y-x=0\\দূরত্ব= ∣6−4∣12+12=2দূরত্ব=\\ \\frac{\\begin{vmatrix}6-4\\end{vmatrix}}{\\sqrt{1^2+1^2}}=\\sqrt{2}দূরত্ব= 12+12∣6−4∣=2",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$(4,6) বিন্দু হতে y=x এর লম্ব দূরত্ব কত?$",
+    "explanationLatex": "$y=x\\ বা,\\ y-x=0\\দূরত্ব= ∣6−4∣12+12=2দূরত্ব=\\ \\frac{\\begin{vmatrix}6-4\\end{vmatrix}}{\\sqrt{1^2+1^2}}=\\sqrt{2}দূরত্ব= 12+12∣6−4∣=2$"
+  },
+  {
+    "id": 38,
+    "question": "কোন বিন্দুর পোলার স্থানাঙ্ক (3,90°) হলে, বিন্দুটির কার্তেসীয় স্থানাঙ্ক কত হবে?",
+    "options": {
+      "a": "(-3,0)",
+      "b": "(0,-3)",
+      "c": "(0,3)",
+      "d": "(3,0)"
+    },
+    "correctAnswer": "c",
+    "explanation": "x=rcos⁡θ=3cos⁡90∘=0 x=r \\cos \\theta=3 \\cos 90^{\\circ}=0 x=rcosθ=3cos90∘=0 y=xsin⁡θ=3sin⁡90∘=3 \\mathrm{y}=\\mathrm{x} \\sin \\theta=3 \\sin 90^{\\circ}=3 y=xsinθ=3sin90∘=3 ∴ \\therefore ∴ পোলার স্থানাংক, (x,y)=(0,3) (\\mathrm{x}, \\mathrm{y})=(0,3) (x,y)=(0,3)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$কোন বিন্দুর পোলার স্থানাঙ্ক (3,90^{\\\\circ}) হলে, বিন্দুটির কার্তেসীয় স্থানাঙ্ক কত হবে?$",
+    "explanationLatex": "$x=rcos⁡\\\\theta =3cos⁡90∘=0 x=r \\cos \\theta=3 \\cos 90^{\\circ}=0 x=rcos\\\\theta =3cos90∘=0 y=xsin⁡\\\\theta =3sin⁡90∘=3 \\mathrm{y}=\\mathrm{x} \\sin \\theta=3 \\sin 90^{\\circ}=3 y=xsin\\\\theta =3sin90∘=3 ∴ \\therefore ∴ পোলার স্থানাংক, (x,y)=(0,3) (\\mathrm{x}, \\mathrm{y})=(0,3) (x,y)=(0,3)$"
+  },
+  {
+    "id": 39,
+    "question": "দুটি সরলরেখার সমীকরণ ax+by=c এবং bx-ay=c, যেখানে a,b,c এর মান শূণ্য নয়। সরলরেখা দুটির লেখচিত্র পরস্পর -",
+    "options": {
+      "a": "লম্ব",
+      "b": "একটি বিন্দুতে ছেদ করে কিন্তু লম্ব নয়",
+      "c": "দুটি বিন্দুতে ছেদ করে",
+      "d": "সমান্তরাল"
+    },
+    "correctAnswer": "a",
+    "explanation": "a1x+b1y+c1=0 a_{1} x+b_{1} y+c_{1}=0 a1x+b1y+c1=0 এবং a2x+b2y+c2=0 a_{2} x+b_{2} y+c_{2}=0 a2x+b2y+c2=0 রেখাদ্বয় (i) সমান্তরাল হলে, a1a2=b1b2 \\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}} a2a1=b2b1 বা, m1=m2 m_{1}=m_{2} m1=m2 (ii) লম্ব হলে, a1a2+b1 b2=0 \\mathrm{a}_{1} \\mathrm{a}_{2}+\\mathrm{b}_{1} \\mathrm{~b}_{2}=0 a1a2+b1 b2=0 বা, m1 m2=−1 \\mathrm{m}_{1} \\mathrm{~m}_{2}=-1 m1 m2=−1",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$দুটি সরলরেখার সমীকরণ ax+by=c এবং bx-ay=c, যেখানে a,b,c এর মান শূণ্য নয়। সরলরেখা দুটির লেখচিত্র পরস্পর -$",
+    "explanationLatex": "$a1x+b1y+c1=0 a_{1} x+b_{1} y+c_{1}=0 a1x+b1y+c1=0 এবং a2x+b2y+c2=0 a_{2} x+b_{2} y+c_{2}=0 a2x+b2y+c2=0 রেখাদ্বয় (i) সমান্তরাল হলে, a1a2=b1b2 \\frac{a_{1}}{a_{2}}=\\frac{b_{1}}{b_{2}} a2a1=b2b1 বা, m1=m2 m_{1}=m_{2} m1=m2 (ii) লম্ব হলে, a1a2+b1 b2=0 \\mathrm{a}_{1} \\mathrm{a}_{2}+\\mathrm{b}_{1} \\mathrm{~b}_{2}=0 a1a2+b1 b2=0 বা, m1 m2=−1 \\mathrm{m}_{1} \\mathrm{~m}_{2}=-1 m1 m2=−1$"
+  },
+  {
+    "id": 40,
+    "question": "α এর কোন মানের জন্য (α-1)x+(α+1)y-7=0 রেখাটি 3x+5y+7=0 রেখার সমান্তরাল হবে ?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "correctAnswer": "b",
+    "explanation": "(b);−α−1α+1=−35 ∴α=4-\\frac{α-1}{α+1}=-\\frac{3}{5}\\ \\ \\thereforeα=4−α+1α−1=−53 ∴α=4",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$α এর কোন মানের জন্য (α-1)x+(α+1)y-7=0 রেখাটি 3x+5y+7=0 রেখার সমান্তরাল হবে ?$",
+    "explanationLatex": "$(b);−α−1α+1=−35 ∴α=4-\\frac{α-1}{α+1}=-\\frac{3}{5}\\ \\ \\thereforeα=4−α+1α−1=−53 ∴α=4$"
+  },
+  {
+    "id": 41,
+    "question": "কোনো ত্রিভুজের শীর্ষবিন্দুগামী বৃত্তের কেন্দ্রকে ঐ ত্রিভুজের বলে?",
+    "options": {
+      "a": "পরিকেন্দ্র",
+      "b": "উপকেন্দ্র",
+      "c": "পরাকেন্দ্র",
+      "d": "অধিকেন্দ্র"
+    },
+    "correctAnswer": "a",
+    "explanation": "নিচের বিশেষ কয়েকটি বিন্দুকে প্রায়ই ত্রিভুজের কেন্দ্র হিসেবে আলোচনা করা হয়ে থাকে। তবে ত্রিভুজের কেন্দ্রের সংখ্যা আদতে এত বেশি যে এটা নিয়ে বিশালাকার গ্রন্থ রচনা করা যাবে। কোন সমবাহু ত্রিভুজের ক্ষেত্রে পরিকেন্দ্র, ভরকেন্দ্র, অন্তঃকেন্দ্র, লম্বকেন্দ্র এবং নয়-বিন্দুর কেন্দ্র একই যা ত্রিভুজটির প্রতিসাম্য-অক্ষত্রয়ের ছেদবিন্দুতে অবস্থিত। এক্ষেত্রে বিন্দুটি ত্রিভুজের শীর্ষ থেকে ভূমির দিকে দুই-তৃতীয়াংশ লম্ব দূরত্বে অবস্থান করে।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনো ত্রিভুজের শীর্ষবিন্দুগামী বৃত্তের কেন্দ্রকে ঐ ত্রিভুজের বলে?",
+    "explanationLatex": "নিচের বিশেষ কয়েকটি বিন্দুকে প্রায়ই ত্রিভুজের কেন্দ্র হিসেবে আলোচনা করা হয়ে থাকে। তবে ত্রিভুজের কেন্দ্রের সংখ্যা আদতে এত বেশি যে এটা নিয়ে বিশালাকার গ্রন্থ রচনা করা যাবে। কোন সমবাহু ত্রিভুজের ক্ষেত্রে পরিকেন্দ্র, ভরকেন্দ্র, অন্তঃকেন্দ্র, লম্বকেন্দ্র এবং নয়-বিন্দুর কেন্দ্র একই যা ত্রিভুজটির প্রতিসাম্য-অক্ষত্রয়ের ছেদবিন্দুতে অবস্থিত। এক্ষেত্রে বিন্দুটি ত্রিভুজের শীর্ষ থেকে ভূমির দিকে দুই-তৃতীয়াংশ লম্ব দূরত্বে অবস্থান করে।"
+  },
+  {
+    "id": 42,
+    "question": "পোলার স্থানাঙ্ক পদ্ধতিতে পোল এর স্থানাংক কত ?",
+    "options": {
+      "a": "( 0 , 0 ) (0, 0)",
+      "b": "( 0 , 𝜋 ) (0, π)",
+      "c": "( 0 , − 𝜋 ) (0, −π)",
+      "d": "( 0 , 2 𝜋 ) (0, 2π)"
+    },
+    "correctAnswer": "a",
+    "explanation": "পোলার স্থানাঙ্ক ব্যবস্থায় কোন বিন্দুর অবস্থানকে (r,θr,\\thetar,θ) দ্বারা প্রকাশ করা হয় । এখানে r পোল থেকে কোন বিন্দুর দূরত্ব প্রকাশ করে এবং θ\\thetaθ দ্বারা বিন্দুটি আদিরেখার সাথে কত টুকু কোণ উৎপন্ন করে সেটি প্রকাশ করে । এখানে পোল আদিরেখার ওপরে অবস্থিত হওয়ায় সেটি আদিরেখার থেকে ০ একক দুরত্বে অবস্থিত এবং ইহা আদিরেখার সাথে ০ রেডিয়ান কোণ উৎপন্ন করে। অতএব , পোলার স্থানাঙ্ক ব্যবস্থায় পোল এর স্থানাঙ্ক (০,০)",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243586/gst-question-images/Math_1st__________-varsity-arc_q42.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পোলার স্থানাঙ্ক পদ্ধতিতে পোল এর স্থানাংক কত ?",
+    "explanationLatex": "$পোলার স্থানাঙ্ক ব্যবস্থায় কোন বিন্দুর অবস্থানকে (r,\\\\theta r,\\thetar,\\\\theta ) দ্বারা প্রকাশ করা হয় । এখানে r পোল থেকে কোন বিন্দুর দূরত্ব প্রকাশ করে এবং \\\\theta \\theta\\\\theta  দ্বারা বিন্দুটি আদিরেখার সাথে কত টুকু কোণ উৎপন্ন করে সেটি প্রকাশ করে । এখানে পোল আদিরেখার ওপরে অবস্থিত হওয়ায় সেটি আদিরেখার থেকে ০ একক দুরত্বে অবস্থিত এবং ইহা আদিরেখার সাথে ০ রেডিয়ান কোণ উৎপন্ন করে। অতএব , পোলার স্থানাঙ্ক ব্যবস্থায় পোল এর স্থানাঙ্ক (০,০)$"
+  },
+  {
+    "id": 43,
+    "question": "y=3x+7y=3x+7y=3x+7 এবং 3y−x=83y-x=83y−x=8 সরলরেখাদ্বয়ের মধ্যে অন্তর্ভুক্ত সূক্ষ্মকোণের মান কত?",
+    "options": {
+      "a": "tan-1(1)",
+      "b": "tan-1(3/4)",
+      "c": "tan-1(4/3)",
+      "d": "tan-1(1/2)"
+    },
+    "correctAnswer": "c",
+    "explanation": "y=3x+7 এর ঢাল, m1=33y−x=8 এর ঢাল, m2=−(−1)3=13 \\begin{array}{l} y=3 x+7 \\text { এর ঢাল, } m_{1}=3 \\\\ 3 y-x=8 \\text { এর ঢাল, } m_{2}=\\frac{-(-1)}{3}=\\frac{1}{3} \\end{array} y=3x+7 এর ঢাল, m1=33y−x=8 এর ঢাল, m2=3−(−1)=31 রেখা দ্বয়ের অর্ন্তগত কোণ θ\\thetaθ হলে, tan⁡θ=m1−m21+m1m2=3−131+3⋅13=8/32=86=43∴θ=tan⁡−1(43) \\begin{aligned} \\tan \\theta & =\\frac{m_{1}-m_{2}}{1+m_{1} m_{2}} \\\\ & =\\frac{3-\\frac{1}{3}}{1+3 \\cdot \\frac{1}{3}} \\\\ & =\\frac{8 / 3}{2} \\\\ & =\\frac{8}{6} \\\\ & =\\frac{4}{3} \\\\ \\therefore \\theta & =\\tan ^{-1}\\left(\\frac{4}{3}\\right) \\end{aligned} tanθ∴θ=1+m1m2m1−m2=1+3⋅313−31=28/3=68=34=tan−1(34)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$y=3x+7y=3x+7y=3x+7 এবং 3y−x=83y-x=83y−x=8 সরলরেখাদ্বয়ের মধ্যে অন্তর্ভুক্ত সূক্ষ্মকোণের মান কত?$",
+    "explanationLatex": "$y=3x+7 এর ঢাল, m1=33y−x=8 এর ঢাল, m2=−(−1)3=13 \\begin{array}{l} y=3 x+7 \\text { এর ঢাল, } m_{1}=3 \\\\ 3 y-x=8 \\text { এর ঢাল, } m_{2}=\\frac{-(-1)}{3}=\\frac{1}{3} \\end{array} y=3x+7 এর ঢাল, m1=33y−x=8 এর ঢাল, m2=3−(−1)=31 রেখা দ্বয়ের অর্ন্তগত কোণ \\\\theta \\theta\\\\theta  হলে, tan⁡\\\\theta =m1−m21+m1m2=3−131+3⋅13=\\frac{8}{32}=86=43∴\\\\theta =tan⁡−1(43) \\begin{aligned} \\tan \\theta & =\\frac{m_{1}-m_{2}}{1+m_{1} m_{2}} \\\\ & =\\frac{3-\\frac{1}{3}}{1+3 \\cdot \\frac{1}{3}} \\\\ & =\\frac{\\frac{8}{3}}{2} \\\\ & =\\frac{8}{6} \\\\ & =\\frac{4}{3} \\\\ \\therefore \\theta & =\\tan ^{-1}\\left(\\frac{4}{3}\\right) \\end{aligned} tan\\\\theta ∴\\\\theta =1+m1m2m1−m2=1+3⋅313−31=\\frac{28}{3}=68=34=tan−1(34)$"
+  },
+  {
+    "id": 44,
+    "question": "(4, -2) বিন্দু থেকে 5x + 12y = 3 রেখার উপর অঙ্কিত লম্বের দৈর্ঘ্য-",
+    "options": {
+      "a": "8",
+      "b": "8/9",
+      "c": "3/7",
+      "d": "7/13"
+    },
+    "correctAnswer": "d",
+    "explanation": "(4,−2) (4,-2) (4,−2) বিন্দু থেকে 5x+12y=3 5 x+12 y=3 5x+12y=3 রেখার উপর অংঙ্কিত লম্বের দৈর্ঘ্য =∣5.4+12.(−2)−352+122∣=∣20−24−313∣=713 = \\left|\\frac{5.4+12.(-2)-3}{\\sqrt{5²+12²}}\\right| = \\left|\\frac{20-24-3}{13}\\right|=\\frac{7}{13} =52+1225.4+12.(−2)−3=1320−24−3=137",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$(4, -2) বিন্দু থেকে 5x + 12y = 3 রেখার উপর অঙ্কিত লম্বের দৈর্ঘ্য-$",
+    "explanationLatex": "$(4,−2) (4,-2) (4,−2) বিন্দু থেকে 5x+12y=3 5 x+12 y=3 5x+12y=3 রেখার উপর অংঙ্কিত লম্বের দৈর্ঘ্য =∣5.4+12.(−2)−352+122∣=∣20−24−313∣=713 = \\left|\\frac{5.4+12.(-2)-3}{\\sqrt{5²+12²}}\\right| = \\left|\\frac{20-24-3}{13}\\right|=\\frac{7}{13} =52+1225.4+12.(−2)−3=1320−24−3=137$"
+  },
+  {
+    "id": 45,
+    "question": "' a a a ' এর মান কত হলে , (a,2−2a),(1−a (a, 2-2 a),(1-a (a,2−2a),(1−a, 2a 2 a 2a ) এবং (−4−a,6−2a) (-4-a, 6-2 a) (−4−a,6−2a) বিন্দুত্রয় সমরেখ হবে।",
+    "options": {
+      "a": "-1,1/2",
+      "b": "1,2",
+      "c": "-2,2/3",
+      "d": "-2,4"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: প্রদত্ত বিন্দুত্রয় সমরেখ। ∴(a−1+a)(2a−6+2a)−(2−2a−2a)(1−a+4+a)=0⇒(2a−1)(4a−6)−(2−4a)(5)=0⇒(2a−1)(2a−3)−5(1−2a)=0⇒4a2−8a+3−5+10a=0⇒4a2+2a−2=0⇒2a2+a−1=0⇒2a2+2a−a−1=0⇒2a(a+1)−1(a+1)=0⇒(a+1)⋅(2a−1)=0∴a=−1,12 (Ans.) \\begin{aligned} \\therefore & (a-1+a)(2 a-6+2 a)- \\\\ & (2-2 a-2 a)(1-a+4+a)=0 \\\\ \\Rightarrow & (2 a-1)(4 a-6)-(2-4 a)(5)=0 \\\\ \\Rightarrow & (2 a-1)(2 a-3)-5(1-2 a)=0 \\\\ \\Rightarrow & 4 a^{2}-8 a+3-5+10 a=0 \\\\ \\Rightarrow & 4 a^{2}+2 a-2=0 \\Rightarrow 2 a^{2}+a-1=0 \\\\ \\Rightarrow & 2 a^{2}+2 a-a-1=0 \\\\ \\Rightarrow & 2 a(a+1)-1(a+1)=0 \\\\ \\Rightarrow & (a+1) \\cdot(2 a-1)=0 \\\\ \\therefore & a=-1, \\frac{1}{2} \\text { (Ans.) } \\end{aligned} ∴⇒⇒⇒⇒⇒⇒⇒∴(a−1+a)(2a−6+2a)−(2−2a−2a)(1−a+4+a)=0(2a−1)(4a−6)−(2−4a)(5)=0(2a−1)(2a−3)−5(1−2a)=04a2−8a+3−5+10a=04a2+2a−2=0⇒2a2+a−1=02a2+2a−a−1=02a(a+1)−1(a+1)=0(a+1)⋅(2a−1)=0a=−1,21 (Ans.)",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "' a a a ' এর মান কত হলে , (a,2−2a),(1−a (a, 2-2 a),(1-a (a,2−2a),(1−a, 2a 2 a 2a ) এবং (−4−a,6−2a) (-4-a, 6-2 a) (−4−a,6−2a) বিন্দুত্রয় সমরেখ হবে।",
+    "explanationLatex": "$সমাধান: প্রদত্ত বিন্দুত্রয় সমরেখ। ∴(a−1+a)(2a−6+2a)−(2−2a−2a)(1−a+4+a)=0⇒(2a−1)(4a−6)−(2−4a)(5)=0⇒(2a−1)(2a−3)−5(1−2a)=0⇒4a2−8a+3−5+10a=0⇒4a2+2a−2=0⇒2a2+a−1=0⇒2a2+2a−a−1=0⇒2a(a+1)−1(a+1)=0⇒(a+1)⋅(2a−1)=0∴a=−1,12 (Ans.) \\begin{aligned} \\therefore & (a-1+a)(2 a-6+2 a)- \\\\ & (2-2 a-2 a)(1-a+4+a)=0 \\\\ \\Rightarrow & (2 a-1)(4 a-6)-(2-4 a)(5)=0 \\\\ \\Rightarrow & (2 a-1)(2 a-3)-5(1-2 a)=0 \\\\ \\Rightarrow & 4 a^{2}-8 a+3-5+10 a=0 \\\\ \\Rightarrow & 4 a^{2}+2 a-2=0 \\Rightarrow 2 a^{2}+a-1=0 \\\\ \\Rightarrow & 2 a^{2}+2 a-a-1=0 \\\\ \\Rightarrow & 2 a(a+1)-1(a+1)=0 \\\\ \\Rightarrow & (a+1) \\cdot(2 a-1)=0 \\\\ \\therefore & a=-1, \\frac{1}{2} \\text { (Ans.) } \\end{aligned} ∴⇒⇒⇒⇒⇒⇒⇒∴(a−1+a)(2a−6+2a)−(2−2a−2a)(1−a+4+a)=0(2a−1)(4a−6)−(2−4a)(5)=0(2a−1)(2a−3)−5(1−2a)=04a2−8a+3−5+10a=04a2+2a−2=0⇒2a2+a−1=02a2+2a−a−1=02a(a+1)−1(a+1)=0(a+1)⋅(2a−1)=0a=−1,21 (Ans.)$"
+  },
+  {
+    "id": 46,
+    "question": "কোন সামান্তরিকের কর্ণদ্বয় x+3y=4 x+3 y=4 x+3y=4 এবং 6x−2y=−7 6 x-2 y=-7 6x−2y=−7 হলে, সামান্তরিকটি-",
+    "options": {
+      "a": "রম্বস",
+      "b": "সামান্তরিক",
+      "c": "আয়ত",
+      "d": "a ও ও c"
+    },
+    "correctAnswer": "a",
+    "explanation": "Sol. x+3y=4 x+3 y=4 x+3y=4 এর ঢাল -1/3 6x−2y=−7 6 x-2 y=-7 6x−2y=−7 এর ঢাল 6/2=3 ঢাল: m1 m2=(−13)(62)=−1:∴ \\mathrm{m}_{1} \\mathrm{~m}_{2}=\\left(-\\frac{1}{3}\\right)\\left(\\frac{6}{2}\\right)=-1: \\therefore m1 m2=(−31)(26)=−1:∴ লম্ব। সুতরাং এটি একটি রম্বস।",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$কোন সামান্তরিকের কর্ণদ্বয় x+3y=4 x+3 y=4 x+3y=4 এবং 6x−2y=−7 6 x-2 y=-7 6x−2y=−7 হলে, সামান্তরিকটি-$",
+    "explanationLatex": "$Sol. x+3y=4 x+3 y=4 x+3y=4 এর ঢাল -\\frac{1}{3} 6x−2y=−7 6 x-2 y=-7 6x−2y=−7 এর ঢাল \\frac{6}{2}=3 ঢাল: m1 m2=(−13)(62)=−1:∴ \\mathrm{m}_{1} \\mathrm{~m}_{2}=\\left(-\\frac{1}{3}\\right)\\left(\\frac{6}{2}\\right)=-1: \\therefore m1 m2=(−31)(26)=−1:∴ লম্ব। সুতরাং এটি একটি রম্বস।$"
+  },
+  {
+    "id": 47,
+    "question": "যদি a1x+b1y+c1=0,a2x+b2y+c2=0 a_{1} x+b_{1} y+c_{1}=0, a_{2} x+b_{2} y+c_{2}=0 a1x+b1y+c1=0,a2x+b2y+c2=0 এবং a3x+b3y+c3=0 a_{3} x+b_{3} y+c_{3}=0 a3x+b3y+c3=0 রেখাত্রয় সমবিন্দু হয় হবে-",
+    "options": {
+      "a": "∣ 𝑎 1 𝑎 2 𝑎 3 𝑏 1 𝑏 2 𝑏 3 𝑐 1 𝑐 2 𝑐 3 ∣ = 0 a 1 b 1 c 1 a 2 b 2 c 2 a 3 b 3 c 3 =0",
+      "b": "∣ 𝑎 1 b 1 c 1 a 2 b 2 c 2 a 3 b 3 c 3 ∣ = 0 a 1 a 2 a 3 b 1 b 2 b 3 c 1 c 2 c 3 =0",
+      "c": "a 1 + k a 2 a 3 = b 1 + k b 2 b 3 = c 1 + k c 2 c 3 a 3 a 1 +ka 2 = b 3 b 1 +kb 2 = c 3 c 1 +kc 2",
+      "d": "all"
+    },
+    "correctAnswer": "d",
+    "explanation": "সঠিক উত্তর: (d) all।",
+    "subject": "Math",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243587/gst-question-images/Math_1st__________-varsity-arc_q47.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$যদি a1x+b1y+c1=0,a2x+b2y+c2=0 a_{1} x+b_{1} y+c_{1}=0, a_{2} x+b_{2} y+c_{2}=0 a1x+b1y+c1=0,a2x+b2y+c2=0 এবং a3x+b3y+c3=0 a_{3} x+b_{3} y+c_{3}=0 a3x+b3y+c3=0 রেখাত্রয় সমবিন্দু হয় হবে-$",
+    "explanationLatex": "সঠিক উত্তর: (d) all।"
+  },
+  {
+    "id": 48,
+    "question": "(1,0) (1,0) (1,0) বিন্দুগামী 2x+5y−27=0 2 \\mathrm{x}+5 \\mathrm{y}-27=0 2x+5y−27=0 রেখার সমান্তরাল রেখার সমীকরণ কোনটি?",
+    "options": {
+      "a": "2 𝑥 + 5 𝑦 − 2 = 0 2x+5y−2=0",
+      "b": "2 𝑥 + 5 𝑦 + 2 = 0 2x+5y+2=0",
+      "c": "5 x − 2 y − 5 = 0 5x−2y−5=0",
+      "d": "5 x − 2 y + 5 = 0 5x−2y+5=0"
+    },
+    "correctAnswer": "a",
+    "explanation": "সমাধান: (a); নির্ণেয় রেখাটি 2x+5y=2.1+5.0 2 x+5 y=2.1+5.0 2x+5y=2.1+5.0 ⇒2x+5y−2=0 \\Rightarrow 2 \\mathrm{x}+5 \\mathrm{y}-2=0 ⇒2x+5y−2=0",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$(1,0) (1,0) (1,0) বিন্দুগামী 2x+5y−27=0 2 \\mathrm{x}+5 \\mathrm{y}-27=0 2x+5y−27=0 রেখার সমান্তরাল রেখার সমীকরণ কোনটি?$",
+    "explanationLatex": "$সমাধান: (a); নির্ণেয় রেখাটি 2x+5y=2.1+5.0 2 x+5 y=2.1+5.0 2x+5y=2.1+5.0 ⇒2x+5y−2=0 \\Rightarrow 2 \\mathrm{x}+5 \\mathrm{y}-2=0 ⇒2x+5y−2=0$"
+  },
+  {
+    "id": 49,
+    "question": "একটি ত্রিভুজের তিনটি শীর্ষ বিন্দু যথাক্রমে A(-2,0),B(5,0) ও C(1,4)। ত্রিভুজটি কি ধরনের?",
+    "options": {
+      "a": "সমকোণী",
+      "b": "বিষমবাহু",
+      "c": "বিষমবাহু",
+      "d": "সমবাহু"
+    },
+    "correctAnswer": "b",
+    "explanation": "AB=(−2−5)2+(0−0)2=7,BC=(5−1)2+(0−4)2=42CA=(−2−1)2+(0−4)2=5∴AB≠BC≠CA \\begin{aligned} \\text { } A B=\\sqrt{(-2-5)^{2}+(0-0)^{2}}=7, \\\\ B C=\\sqrt{(5-1)^{2}+(0-4)^{2}}=4 \\sqrt{2} \\\\ \\quad C A=\\sqrt{(-2-1)^{2}+(0-4)^{2}}=5 \\\\ \\therefore A B \\neq B C \\neq C A \\end{aligned} AB=(−2−5)2+(0−0)2=7,BC=(5−1)2+(0−4)2=42CA=(−2−1)2+(0−4)2=5∴AB=BC=CA",
+    "subject": "Math",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি ত্রিভুজের তিনটি শীর্ষ বিন্দু যথাক্রমে A(-2,0),B(5,0) ও C(1,4)। ত্রিভুজটি কি ধরনের?",
+    "explanationLatex": "$AB=(−2−5)2+(0−0)2=7,BC=(5−1)2+(0−4)2=42CA=(−2−1)2+(0−4)2=5∴AB\\\\neq BC\\\\neq CA \\begin{aligned} \\text { } A B=\\sqrt{(-2-5)^{2}+(0-0)^{2}}=7, \\\\ B C=\\sqrt{(5-1)^{2}+(0-4)^{2}}=4 \\sqrt{2} \\\\ \\quad C A=\\sqrt{(-2-1)^{2}+(0-4)^{2}}=5 \\\\ \\therefore A B \\neq B C \\neq C A \\end{aligned} AB=(−2−5)2+(0−0)2=7,BC=(5−1)2+(0−4)2=42CA=(−2−1)2+(0−4)2=5∴AB=BC=CA$"
+  }
+]

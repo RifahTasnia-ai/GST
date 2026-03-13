@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { listQuestionFilesFromDb } from '../lib/runtimeStore.js'
 
 function toDisplayName(fileName) {
   const nameWithoutExt = fileName.replace('.json', '')
@@ -30,16 +31,35 @@ export default async function handler(req, res) {
 
   try {
     const publicDir = path.join(process.cwd(), 'public')
-    const files = fs.readdirSync(publicDir).map((name) => {
-      const fullPath = path.join(publicDir, name)
-      const stats = fs.statSync(fullPath)
-      return {
-        name,
-        type: stats.isFile() ? 'file' : 'dir',
-        size: stats.size,
-        lastModified: stats.mtime.toISOString(),
+    let localFiles = []
+    try {
+      localFiles = fs.readdirSync(publicDir).map((name) => {
+        const fullPath = path.join(publicDir, name)
+        const stats = fs.statSync(fullPath)
+        return {
+          name,
+          type: stats.isFile() ? 'file' : 'dir',
+          size: stats.size,
+          lastModified: stats.mtime.toISOString(),
+        }
+      })
+    } catch(e) {
+      console.warn('Could not read public dir:', e.message)
+    }
+
+    const dbFiles = await listQuestionFilesFromDb().catch(() => [])
+    
+    const mergedFiles = [...localFiles]
+    for (const dbFile of dbFiles) {
+      const existing = mergedFiles.find(f => f.name === dbFile.name)
+      if (!existing) {
+        mergedFiles.push(dbFile)
+      } else if (new Date(dbFile.lastModified) > new Date(existing.lastModified)) {
+        existing.lastModified = dbFile.lastModified
       }
-    })
+    }
+
+    const files = mergedFiles
 
     const excludeFiles = new Set([
       'manifest.json',

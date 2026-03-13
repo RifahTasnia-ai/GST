@@ -1,6 +1,6 @@
 import fs from 'fs/promises'
 import path from 'path'
-import { getExamConfig, setExamConfig } from '../lib/runtimeStore.js'
+import { getExamConfig, setExamConfig, loadQuestionFile } from '../lib/runtimeStore.js'
 
 function buildStudentNotice(fileName) {
   const now = new Date().toISOString()
@@ -31,11 +31,11 @@ function appendQuestionSetHistory(history, fileName, activatedAt) {
 }
 
 async function validateQuestionFile(fileName) {
-  const filePath = path.join(process.cwd(), 'public', fileName)
-  const content = await fs.readFile(filePath, 'utf-8')
-  const questions = JSON.parse(content)
-  if (!Array.isArray(questions)) throw new Error('Invalid format')
-  if (questions.length === 0) throw new Error('File empty')
+  const fileData = await loadQuestionFile(fileName)
+  if (!fileData) throw new Error('File not found')
+  const questionsList = Array.isArray(fileData) ? fileData : fileData?.questions
+  if (!Array.isArray(questionsList)) throw new Error('Invalid format')
+  if (questionsList.length === 0) throw new Error('File empty')
 }
 
 export default async function handler(req, res) {

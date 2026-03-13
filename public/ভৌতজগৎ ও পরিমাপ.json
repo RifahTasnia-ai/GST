@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "question": "বিনা প্রমাণে কোনো কিছু মেনে নেয়াকে কি বলে?",
+    "options": {
+      "a": "তত্ত্ব",
+      "b": "স্বীকার্য",
+      "c": "নীতি",
+      "d": "ধারণা"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) তত্ত্ব।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বিনা প্রমাণে কোনো কিছু মেনে নেয়াকে কি বলে?",
+    "explanationLatex": "সঠিক উত্তর: (a) তত্ত্ব।"
+  },
+  {
+    "id": 2,
+    "question": "কোনটি এসআই (SI) একক নয়?",
+    "options": {
+      "a": "কিলোগ্রাম",
+      "b": "কেলভিন",
+      "c": "মিটার",
+      "d": "সেন্টিমিটার"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) কিলোগ্রাম।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি এসআই (SI) একক নয়?",
+    "explanationLatex": "সঠিক উত্তর: (a) কিলোগ্রাম।"
+  },
+  {
+    "id": 3,
+    "question": "পদার্থবিজ্ঞানের ভিত্তির সাধারণ সুত্রগুলোকে কি বলা হয়?",
+    "options": {
+      "a": "নীতি",
+      "b": "ধারণা",
+      "c": "অনুমিতি",
+      "d": "স্বীকার্য"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) নীতি।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পদার্থবিজ্ঞানের ভিত্তির সাধারণ সুত্রগুলোকে কি বলা হয়?",
+    "explanationLatex": "সঠিক উত্তর: (a) নীতি।"
+  },
+  {
+    "id": 4,
+    "question": "Philosophize Naturalis Principia Mathematics গ্রন্থটি প্রকাশিত হয়-",
+    "options": {
+      "a": "১৭৮৭",
+      "b": "১৬৮৭",
+      "c": "১৬৬৫",
+      "d": "১৭৫৭"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) ১৭৮৭।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "Philosophize Naturalis Principia Mathematics গ্রন্থটি প্রকাশিত হয়-",
+    "explanationLatex": "সঠিক উত্তর: (a) ১৭৮৭।"
+  },
+  {
+    "id": 5,
+    "question": "নিচের কোনটি সবচেয়ে বড় একক?",
+    "options": {
+      "a": "km",
+      "b": "আলোকবর্ষ",
+      "c": "AU",
+      "d": "পারসেক"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) km।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোনটি সবচেয়ে বড় একক?",
+    "explanationLatex": "সঠিক উত্তর: (a) km।"
+  },
+  {
+    "id": 6,
+    "question": "নিক্তির সাহায্যে ভর পরিমাপে কোন ত্রুটি পরিহার করা হয়?",
+    "options": {
+      "a": "পিছট ত্রুটি",
+      "b": "লেভেল ত্রুটি",
+      "c": "শূন্য ত্রুটি",
+      "d": "পর্যবেক্ষণমূলক ত্রুটি"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) পিছট ত্রুটি।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিক্তির সাহায্যে ভর পরিমাপে কোন ত্রুটি পরিহার করা হয়?",
+    "explanationLatex": "সঠিক উত্তর: (a) পিছট ত্রুটি।"
+  },
+  {
+    "id": 7,
+    "question": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন কে?",
+    "options": {
+      "a": "রবার্ট হুক",
+      "b": "রজার বেকন",
+      "c": "লিওনার্দো দ্য ভিঞ্চি",
+      "d": "আইজ্যাক নিউটন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) রবার্ট হুক।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন কে?",
+    "explanationLatex": "সঠিক উত্তর: (a) রবার্ট হুক।"
+  },
+  {
+    "id": 8,
+    "question": "১(এক) কিউসেক পানির ঘনফল কত লিটার?",
+    "options": {
+      "a": "28.517",
+      "b": "28.717",
+      "c": "28.917",
+      "d": "28.317"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 28.517।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "১(এক) কিউসেক পানির ঘনফল কত লিটার?",
+    "explanationLatex": "সঠিক উত্তর: (a) 28.517।"
+  },
+  {
+    "id": 9,
+    "question": "ভূমিকম্প পরিমাপক যন্ত্রের নাম কী?",
+    "options": {
+      "a": "ব্যারোমিটার",
+      "b": "ম্যানোমিটার",
+      "c": "সিসমোমিটার",
+      "d": "সিসমোগ্রাফ"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) ব্যারোমিটার।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ভূমিকম্প পরিমাপক যন্ত্রের নাম কী?",
+    "explanationLatex": "সঠিক উত্তর: (a) ব্যারোমিটার।"
+  },
+  {
+    "id": 10,
+    "question": "মহাকর্ষীয় ধ্রুবকের মাত্রা হল-",
+    "options": {
+      "a": "M − 1 L 3 T − 2 M −1 L 3 T −2",
+      "b": "M − 1 L − 3 T − 1 M −1 L −3 T −1",
+      "c": "M − 1 L − 2 T 3 M −1 L −2 T 3",
+      "d": "M − 1 L − 3 T − 2 M −1 L −3 T −2"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) M − 1 L 3 T − 2 M −1 L 3 T −2।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "মহাকর্ষীয় ধ্রুবকের মাত্রা হল-",
+    "explanationLatex": "সঠিক উত্তর: (a) M − 1 L 3 T − 2 M −1 L 3 T −2।"
+  },
+  {
+    "id": 11,
+    "question": "এক এ্যাস্ট্রোনোমিক্যাল ইউনিট সমান কত মিটার?",
+    "options": {
+      "a": "1.552×107",
+      "b": "1.495×1011",
+      "c": "1.453×109",
+      "d": "1.425×1010"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 1.552×107।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "এক এ্যাস্ট্রোনোমিক্যাল ইউনিট সমান কত মিটার?",
+    "explanationLatex": "$সঠিক উত্তর: (a) 1.552\\ \\times 107।$"
+  },
+  {
+    "id": 12,
+    "question": "প্লাংকের ধ্রুবকের একক নিচের কোন রাশির এককের সমান?",
+    "options": {
+      "a": "ভরবেগ",
+      "b": "শক্তি",
+      "c": "কৌণিক ভরবেগ",
+      "d": "কম্পাংক"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) ভরবেগ।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "প্লাংকের ধ্রুবকের একক নিচের কোন রাশির এককের সমান?",
+    "explanationLatex": "সঠিক উত্তর: (a) ভরবেগ।"
+  },
+  {
+    "id": 13,
+    "question": "কোনটি মৌলিক এককের পরিমাপ নয় ?",
+    "options": {
+      "a": "সময়",
+      "b": "ভর",
+      "c": "ভরবেগ",
+      "d": "তাপমাত্রা"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) সময়।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি মৌলিক এককের পরিমাপ নয় ?",
+    "explanationLatex": "সঠিক উত্তর: (a) সময়।"
+  },
+  {
+    "id": 14,
+    "question": "ন্যানাে বুঝায় কোনটি?",
+    "options": {
+      "a": "10-6",
+      "b": "10-9",
+      "c": "10-15",
+      "d": "10-12"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 10-6।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ন্যানাে বুঝায় কোনটি?",
+    "explanationLatex": "$সঠিক উত্তর: (a) 10^{-6}।$"
+  },
+  {
+    "id": 15,
+    "question": "নিম্নের কোনটি বিদ্যুৎ চুম্বকীয় এর একক?",
+    "options": {
+      "a": "3 × 1010 esu",
+      "b": "109 AMP",
+      "c": "3 × 1011 esu",
+      "d": "3 × 108 esu"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 3 × 1010 esu।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিম্নের কোনটি বিদ্যুৎ চুম্বকীয় এর একক?",
+    "explanationLatex": "$সঠিক উত্তর: (a) 3 \\ \\times 1010 esu।$"
+  },
+  {
+    "id": 16,
+    "question": "কোন কণা 'ঈশ্বর কণা' নামে পরিচিত?",
+    "options": {
+      "a": "লেপটন কণা",
+      "b": "বোসন কণা",
+      "c": "হিগস বোসন কণা",
+      "d": "মেসন কণা"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) লেপটন কণা।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন কণা 'ঈশ্বর কণা' নামে পরিচিত?",
+    "explanationLatex": "সঠিক উত্তর: (a) লেপটন কণা।"
+  },
+  {
+    "id": 17,
+    "question": "বলের ঘাতের একক নিচের কোন রাশিটির এককের সমান ?",
+    "options": {
+      "a": "রৈখিক ভরবেগ",
+      "b": "কৌণিক ভরবেগ",
+      "c": "জড়তার ভ্রামক",
+      "d": "শক্তি"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) রৈখিক ভরবেগ।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বলের ঘাতের একক নিচের কোন রাশিটির এককের সমান ?",
+    "explanationLatex": "সঠিক উত্তর: (a) রৈখিক ভরবেগ।"
+  },
+  {
+    "id": 18,
+    "question": "C.G.S এককে বোলজম্যান ধ্রুবকের মান S.I. এককের মান অপেক্ষা কতগুণ বেশি ?",
+    "options": {
+      "a": "10-7",
+      "b": "107",
+      "c": "10-5",
+      "d": "10-5"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 10-7।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "C.G.S এককে বোলজম্যান ধ্রুবকের মান S.I. এককের মান অপেক্ষা কতগুণ বেশি ?",
+    "explanationLatex": "$সঠিক উত্তর: (a) 10^{-7}।$"
+  },
+  {
+    "id": 19,
+    "question": "কোন রাশিসমূহের মাত্রা এক নয়?",
+    "options": {
+      "a": "চাপ, ইয়ং এর গুণাঙ্ক, পীড়ন",
+      "b": "তড়িচ্চালক শক্তি, বিভব পার্থক্য, তড়িৎ বিভব",
+      "c": "তাপ, কাজ, শক্তি",
+      "d": "দ্বিপোল ভ্রামক, তড়িৎ ফ্লাক্স, তড়িৎক্ষেত্র"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) চাপ, ইয়ং এর গুণাঙ্ক, পীড়ন।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন রাশিসমূহের মাত্রা এক নয়?",
+    "explanationLatex": "সঠিক উত্তর: (a) চাপ, ইয়ং এর গুণাঙ্ক, পীড়ন।"
+  },
+  {
+    "id": 20,
+    "question": "একটি দণ্ডের পরিমাপকৃত দৈর্ঘ্য 10cm ও প্রকৃতমান 10.4cm হলে, পরিমাপে ক্রটি কত?",
+    "options": {
+      "a": "4%",
+      "b": "3.80%",
+      "c": "3.85%",
+      "d": "0.40%"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 4%।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি দণ্ডের পরিমাপকৃত দৈর্ঘ্য 10cm ও প্রকৃতমান 10.4cm হলে, পরিমাপে ক্রটি কত?",
+    "explanationLatex": "সঠিক উত্তর: (a) 4%।"
+  },
+  {
+    "id": 21,
+    "question": "নিম্নের কোনটি 1 GHz ও 1 MHz এর অনুপাতের সমান?",
+    "options": {
+      "a": "10 9 10 9",
+      "b": "10 6 10 6",
+      "c": "10 3 10 3",
+      "d": "10 − 3 10 −3"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 10 9 10 9।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিম্নের কোনটি 1 GHz ও 1 MHz এর অনুপাতের সমান?",
+    "explanationLatex": "সঠিক উত্তর: (a) 10 9 10 9।"
+  },
+  {
+    "id": 22,
+    "question": "একটি স্ফেরোমিটার দ্বারা একটি কাঁচ পাতের পুরুত্ব পরিমাপকালে রৈখিক স্কেলের পাঠ 2 mm, বৃত্তাকার স্কেলের পাঠ 25 এবং পীচ 0.5 mm.",
+    "options": {
+      "a": "50",
+      "b": "100",
+      "c": "150",
+      "d": "200"
+    },
+    "correctAnswer": "a",
+    "explanation": "স্ফেরোমিটারের বৃত্তাকার স্কেলের দাগ সংখ্যা কত হবে?",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি স্ফেরোমিটার দ্বারা একটি কাঁচ পাতের পুরুত্ব পরিমাপকালে রৈখিক স্কেলের পাঠ 2 mm, বৃত্তাকার স্কেলের পাঠ 25 এবং পীচ 0.5 mm.",
+    "explanationLatex": "স্ফেরোমিটারের বৃত্তাকার স্কেলের দাগ সংখ্যা কত হবে?"
+  },
+  {
+    "id": 23,
+    "question": "নীলস বোর তার পরমাণু মডেলের জন্য নোবেল পুরস্কার পান-",
+    "options": {
+      "a": "1920",
+      "b": "1925",
+      "c": "1922",
+      "d": "1915"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 1920।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নীলস বোর তার পরমাণু মডেলের জন্য নোবেল পুরস্কার পান-",
+    "explanationLatex": "সঠিক উত্তর: (a) 1920।"
+  },
+  {
+    "id": 24,
+    "question": "কত আর্গে 10 জুল?",
+    "options": {
+      "a": "106",
+      "b": "107",
+      "c": "108",
+      "d": "109"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 106।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কত আর্গে 10 জুল?",
+    "explanationLatex": "সঠিক উত্তর: (a) 106।"
+  },
+  {
+    "id": 25,
+    "question": "পরীক্ষা দ্বারা প্রমাণিত অনুকল্পকে বলে—",
+    "options": {
+      "a": "নীতি",
+      "b": "সূত্র",
+      "c": "সূত্র",
+      "d": "তত্ত্ব"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) নীতি।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পরীক্ষা দ্বারা প্রমাণিত অনুকল্পকে বলে—",
+    "explanationLatex": "সঠিক উত্তর: (a) নীতি।"
+  },
+  {
+    "id": 26,
+    "question": "ব্যবহারিক একক নয় -",
+    "options": {
+      "a": "কিলোমিটার",
+      "b": "মাইক্রন",
+      "c": "ডেকামিটার",
+      "d": "টন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) কিলোমিটার।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "ব্যবহারিক একক নয় -",
+    "explanationLatex": "সঠিক উত্তর: (a) কিলোমিটার।"
+  },
+  {
+    "id": 27,
+    "question": "বিজ্ঞানী কেকুল এর অবদান কোনটি?",
+    "options": {
+      "a": "প্রাণশক্তি মতবাদ",
+      "b": "রাসায়নিক বন্ধনে ইলেকট্রনীয় তত্ত্ব",
+      "c": "বেনজিনের কাঠামো তত্ত্ব",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) প্রাণশক্তি মতবাদ।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বিজ্ঞানী কেকুল এর অবদান কোনটি?",
+    "explanationLatex": "সঠিক উত্তর: (a) প্রাণশক্তি মতবাদ।"
+  },
+  {
+    "id": 28,
+    "question": "যদি চাপ P,বেগ V এবং সময় t কে মৌলিক রাশি হিসেবে নেওয়া হয়,তাহলে বলের মাএা কত?",
+    "options": {
+      "a": "𝑃 𝑉 2 𝑇 − 2 PV 2 T −2",
+      "b": "𝑃 𝑉 2 𝑇 2 PV 2 T 2",
+      "c": "𝑃 2 𝑉 𝑇 P 2 VT",
+      "d": "𝑃 𝑉 𝑇 2 PVT 2"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 𝑃 𝑉 2 𝑇 − 2 PV 2 T −2।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "যদি চাপ P,বেগ V এবং সময় t কে মৌলিক রাশি হিসেবে নেওয়া হয়,তাহলে বলের মাএা কত?",
+    "explanationLatex": "সঠিক উত্তর: (a) 𝑃 𝑉 2 𝑇 − 2 PV 2 T −2।"
+  },
+  {
+    "id": 29,
+    "question": "কোয়ান্টাম তত্ত্ব আবিষ্কার করেন কোন বিজ্ঞানী?",
+    "options": {
+      "a": "টমাস ইয়াং",
+      "b": "আর্নেস্ট রাদারফোর্ড",
+      "c": "ম্যাক্স প্ল্যাঙ্ক",
+      "d": "আলবার্ট আইনস্টাইন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) টমাস ইয়াং।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোয়ান্টাম তত্ত্ব আবিষ্কার করেন কোন বিজ্ঞানী?",
+    "explanationLatex": "সঠিক উত্তর: (a) টমাস ইয়াং।"
+  },
+  {
+    "id": 30,
+    "question": "বল ও শক্তির মাত্রা যথাক্রমেঃ",
+    "options": {
+      "a": "LT-2 ও MLT-2",
+      "b": "MLT-2 ও ML²T-2",
+      "c": "LT-2 ও ML2T-2",
+      "d": "MLT-2 ও ML-2T-3"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) LT-2 ও MLT-2।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "বল ও শক্তির মাত্রা যথাক্রমেঃ",
+    "explanationLatex": "$সঠিক উত্তর: (a) LT^{-2} ও MLT^{-2}।$"
+  },
+  {
+    "id": 31,
+    "question": "যদি v= দ্রুতি, r= ব্যাসার্ধ এবং g= অভিকর্ষজ ত্বরণ হয়, তবে নিম্নের কোন রাশিটি মাত্রাহীন?",
+    "options": {
+      "a": "𝑣 2 𝑟 𝑔 g v 2 r",
+      "b": "𝑣 2 𝑔 𝑟 r v 2 g",
+      "c": "v2rg",
+      "d": "𝑣 2 𝑟 𝑔 rg v 2"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 𝑣 2 𝑟 𝑔 g v 2 r ।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$যদি v= দ্রুতি, r= ব্যাসার্ধ এবং g= অভিকর্ষজ ত্বরণ হয়, তবে নিম্নের কোন রাশিটি মাত্রাহীন?$",
+    "explanationLatex": "সঠিক উত্তর: (a) 𝑣 2 𝑟 𝑔 g v 2 r ।"
+  },
+  {
+    "id": 32,
+    "question": "কাজের মাত্রা কোনটি?",
+    "options": {
+      "a": "[M2L2T2]",
+      "b": "[ML2T-2]",
+      "c": "[ML-1T-2]",
+      "d": "[M2LT2]"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) [M2L2T2]।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কাজের মাত্রা কোনটি?",
+    "explanationLatex": "সঠিক উত্তর: (a) [M2L2T2]।"
+  },
+  {
+    "id": 33,
+    "question": "কোনটি সঠিক নয়?",
+    "options": {
+      "a": "পীড়ন=[ML-1L-2]",
+      "b": "সান্দ্রতাংক=[ML-1T-1]",
+      "c": "স্থিতিস্থাপক গুণাংক=[ML-1T-2]",
+      "d": "বলের ভ্রামক=[ML-1T-2]"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) পীড়ন=[ML-1L-2]।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনটি সঠিক নয়?",
+    "explanationLatex": "$সঠিক উত্তর: (a) পীড়ন=[ML-1L-2]।$"
+  },
+  {
+    "id": 34,
+    "question": "এক গাউস সমান-",
+    "options": {
+      "a": "10-6T (Tesla)",
+      "b": "10-4 T (Tesla)",
+      "c": "10-3T (Tesla)",
+      "d": "10-2T (Tesla)"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 10-6T (Tesla)।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "এক গাউস সমান-",
+    "explanationLatex": "$সঠিক উত্তর: (a) 10^{-6}T (Tesla)।$"
+  },
+  {
+    "id": 35,
+    "question": "একটি আদর্শ বা যুক্তিপূর্ণ আচরণ ভিত্তি যার সাপেক্ষে অন্যান্য বিষয় তুলনা, বিচার বিশ্লেষণ ও পরিমাপ করা হয় তাকে কি বলে?",
+    "options": {
+      "a": "সূত্র",
+      "b": "নীতি",
+      "c": "অনুকল্প",
+      "d": "স্বীকার্য"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) সূত্র।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "একটি আদর্শ বা যুক্তিপূর্ণ আচরণ ভিত্তি যার সাপেক্ষে অন্যান্য বিষয় তুলনা, বিচার বিশ্লেষণ ও পরিমাপ করা হয় তাকে কি বলে?",
+    "explanationLatex": "সঠিক উত্তর: (a) সূত্র।"
+  },
+  {
+    "id": 36,
+    "question": "পর্যবেক্ষণ ও পরীক্ষার মাধ্যমেই পদার্থবিজ্ঞানের সব সত্য যাচাই করা যায়- মতবাদটি কোন বিজ্ঞানীর?",
+    "options": {
+      "a": "থেলিস",
+      "b": "রজার বেকন",
+      "c": "গ্যালিলিও",
+      "d": "নিউটন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) থেলিস।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পর্যবেক্ষণ ও পরীক্ষার মাধ্যমেই পদার্থবিজ্ঞানের সব সত্য যাচাই করা যায়- মতবাদটি কোন বিজ্ঞানীর?",
+    "explanationLatex": "সঠিক উত্তর: (a) থেলিস।"
+  },
+  {
+    "id": 37,
+    "question": "তড়িৎ চৌম্বকীয় তত্ত্ব কে আবিষ্কার করেন?",
+    "options": {
+      "a": "নিউটন",
+      "b": "ডব্লিউ পাউলি",
+      "c": "জেমস ওয়াট",
+      "d": "জেমস সি ম্যাক্সওয়েল"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) নিউটন।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "তড়িৎ চৌম্বকীয় তত্ত্ব কে আবিষ্কার করেন?",
+    "explanationLatex": "সঠিক উত্তর: (a) নিউটন।"
+  },
+  {
+    "id": 38,
+    "question": "নীচের কোনটি স্কেলার রাশি?",
+    "options": {
+      "a": "সরণ",
+      "b": "বল",
+      "c": "ত্বরণ",
+      "d": "ঘনত্ব"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) সরণ।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নীচের কোনটি স্কেলার রাশি?",
+    "explanationLatex": "সঠিক উত্তর: (a) সরণ।"
+  },
+  {
+    "id": 39,
+    "question": "এসআই পদ্ধতিতে দীপন তীব্রতার একক কি?",
+    "options": {
+      "a": "লুমেন",
+      "b": "লাক্স",
+      "c": "ওয়াট",
+      "d": "ক্যান্ডেলা"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) লুমেন।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "এসআই পদ্ধতিতে দীপন তীব্রতার একক কি?",
+    "explanationLatex": "সঠিক উত্তর: (a) লুমেন।"
+  },
+  {
+    "id": 40,
+    "question": "একজন ছাত্রকে 1.3 × 10-3 m মাপের একটি ঘনক দেওয়া হলো। ওই ঘনকের আয়তন হবে -",
+    "options": {
+      "a": "2.215 × 10-9 m3",
+      "b": "2.197 × 10-9 m3",
+      "c": "2.917 × 10-9 m3",
+      "d": "2.125 × 10-9 m3"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 2.215 × 10-9 m3।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$একজন ছাত্রকে 1.3 \\ \\times 10^{-3} m মাপের একটি ঘনক দেওয়া হলো। ওই ঘনকের আয়তন হবে -$",
+    "explanationLatex": "$সঠিক উত্তর: (a) 2.215 \\ \\times 10^{-9} m3।$"
+  },
+  {
+    "id": 41,
+    "question": "এককের সঠিক ক্রম কোনটি?",
+    "options": {
+      "a": "পারসেক>এ্যাংস্ট্রম>মেগামিটার>আলোক বছর",
+      "b": "পারসেক>আলোক বছর>মেগামিটার>এ্যাংস্ট্রম",
+      "c": "আলোক বছর>এ্যাংস্ট্রম>মেগামিটার>পারসেক",
+      "d": "এ্যাংস্ট্রম>পারসেক>আলোক বছর>মেগামিটার"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) পারসেক>এ্যাংস্ট্রম>মেগামিটার>আলোক বছর।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "এককের সঠিক ক্রম কোনটি?",
+    "explanationLatex": "সঠিক উত্তর: (a) পারসেক>এ্যাংস্ট্রম>মেগামিটার>আলোক বছর।"
+  },
+  {
+    "id": 42,
+    "question": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন কে?",
+    "options": {
+      "a": "রবার্ট হুক",
+      "b": "রজার বেকন",
+      "c": "লিওনার্দো দ্যা ভিঞ্চি",
+      "d": "আইজ্যাক নিউটন"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) রবার্ট হুক।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "পাখির উড়া পর্যবেক্ষণ করে উড়োজাহাজের মডেল তৈরি করেন কে?",
+    "explanationLatex": "সঠিক উত্তর: (a) রবার্ট হুক।"
+  },
+  {
+    "id": 43,
+    "question": "ধরা যাক, π = 3.14159265 কে কর্তিত করে 3.14159 ধরা হয়। এতে ভুলের শতকরা হার নির্ণয় কর।",
+    "options": {
+      "a": "8.435 × 10-5",
+      "b": "8.435 × 10-7",
+      "c": "8.411 × 10-5",
+      "d": "8.440 × 10-8"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 8.435 × 10-5।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "$ধরা যাক, \\\\pi = 3.14159265 কে কর্তিত করে 3.14159 ধরা হয়। এতে ভুলের শতকরা হার নির্ণয় কর।$",
+    "explanationLatex": "$সঠিক উত্তর: (a) 8.435 \\ \\times 10^{-5}।$"
+  },
+  {
+    "id": 44,
+    "question": "কোন বৈজ্ঞানিক সর্বপ্রথম সূর্যকেন্দ্রিক বিশ্বের ধারণা প্রদান করে?",
+    "options": {
+      "a": "কেপলার",
+      "b": "টলেমি",
+      "c": "ডেমোক্রিটাস",
+      "d": "কোপার্নিকাস"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) কেপলার।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোন বৈজ্ঞানিক সর্বপ্রথম সূর্যকেন্দ্রিক বিশ্বের ধারণা প্রদান করে?",
+    "explanationLatex": "সঠিক উত্তর: (a) কেপলার।"
+  },
+  {
+    "id": 45,
+    "question": "নিচের একক গুলির মধ্যে কোনটি ওয়াট এর সমতুল্য নয়?",
+    "options": {
+      "a": "Joul sec − 1 −1",
+      "b": "amp Volt",
+      "c": "(amp) Ω Ω",
+      "d": "( amp ) 2 (amp) 2 Ω Ω"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) Joul sec − 1 −1।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের একক গুলির মধ্যে কোনটি ওয়াট এর সমতুল্য নয়?",
+    "explanationLatex": "সঠিক উত্তর: (a) Joul sec − 1 −1।"
+  },
+  {
+    "id": 46,
+    "question": "কোনো গোলীয় তলের বক্রতার ব্যাসার্ধ নির্ণয়ের জন্য কোন সমীকরণটি ব্যবহার করা হয়?",
+    "options": {
+      "a": "𝑅 = 𝑑 ℎ + ℎ 2 R= h d + 2 h",
+      "b": "𝑅 = 𝑑 2 2 + ℎ 2 R= 2 d 2 + 2 h",
+      "c": "𝑅 = 𝑑 2 6 ℎ + ℎ 2 R= 6h d 2 + 2 h",
+      "d": "𝑅 = 𝑑 2 12 + 4 𝑑 R= 12 d 2 + d 4"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 𝑅 = 𝑑 ℎ + ℎ 2 R= h d + 2 h ।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "কোনো গোলীয় তলের বক্রতার ব্যাসার্ধ নির্ণয়ের জন্য কোন সমীকরণটি ব্যবহার করা হয়?",
+    "explanationLatex": "$সঠিক উত্তর: (a) 𝑅 = 𝑑 ℎ + ℎ 2 R= h d + 2 h ।$"
+  },
+  {
+    "id": 47,
+    "question": "মিটার স্কেল দিয়ে সর্বনিম্ন কতটুকু পরিমাপ করা সম্ভব?",
+    "options": {
+      "a": "0.01 cm",
+      "b": "0.001 cm",
+      "c": "1 cm",
+      "d": "0.1 cm"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) 0.01 cm।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "মিটার স্কেল দিয়ে সর্বনিম্ন কতটুকু পরিমাপ করা সম্ভব?",
+    "explanationLatex": "সঠিক উত্তর: (a) 0.01 cm।"
+  },
+  {
+    "id": 48,
+    "question": "নিচের কোনটি মহাবৈশ্বিক দুরত্ব পরিমাপের একক নয়?",
+    "options": {
+      "a": "পারসেক",
+      "b": "এস্ট্রোনমিক্যাল ইউনিট",
+      "c": "আলোকবর্ষ",
+      "d": "নভো"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) পারসেক।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিচের কোনটি মহাবৈশ্বিক দুরত্ব পরিমাপের একক নয়?",
+    "explanationLatex": "সঠিক উত্তর: (a) পারসেক।"
+  },
+  {
+    "id": 49,
+    "question": "নিম্নের কোনটি মহাকর্ষীয় ধ্রুবকের মাত্রা ?",
+    "options": {
+      "a": "[ 𝑀 𝐿 2 𝑇 − 2 ] [ML 2 T −2 ]",
+      "b": "[ 𝑀 − 1 𝐿 3 𝑇 − 2 ] [M −1 L 3 T −2 ]",
+      "c": "[ 𝑀 𝐿 𝑇 − 2 ] [MLT −2 ]",
+      "d": "[ 𝑀 𝐿 𝑇 − 1 ] [MLT −1 ]"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) [ 𝑀 𝐿 2 𝑇 − 2 ] [ML 2 T −2 ]।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "নিম্নের কোনটি মহাকর্ষীয় ধ্রুবকের মাত্রা ?",
+    "explanationLatex": "সঠিক উত্তর: (a) [ 𝑀 𝐿 2 𝑇 − 2 ] [ML 2 T −2 ]।"
+  },
+  {
+    "id": 50,
+    "question": "আলোকবর্ষ কিসের একক?",
+    "options": {
+      "a": "সময়",
+      "b": "দূরত্ব",
+      "c": "ত্বরণ",
+      "d": "বেগ"
+    },
+    "correctAnswer": "a",
+    "explanation": "সঠিক উত্তর: (a) সময়।",
+    "subject": "Physics",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": "",
+    "questionLatex": "আলোকবর্ষ কিসের একক?",
+    "explanationLatex": "সঠিক উত্তর: (a) সময়।"
+  }
+]

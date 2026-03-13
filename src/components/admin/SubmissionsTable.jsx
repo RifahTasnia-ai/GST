@@ -20,14 +20,14 @@ function SubmissionsTable({
   const [questions, setQuestions] = useState([])
   const [spectateQuestions, setSpectateQuestions] = useState([])
   const [modalFilter, setModalFilter] = useState('all')
-  const [activeQuestionId, setActiveQuestionId] = useState(null)
+  const [viewingQuestion, setViewingQuestion] = useState(null)
   const questionRefs = useRef({})
 
   useEffect(() => {
     if (selectedSubmission) {
       loadQuestions()
       setModalFilter('all')
-      setActiveQuestionId(null)
+      setViewingQuestion(null)
     }
   }, [selectedSubmission])
 
@@ -59,7 +59,7 @@ function SubmissionsTable({
   async function loadQuestions() {
     try {
       const questionFile = selectedSubmission?.questionFile || 'questions.json'
-      const res = await fetch(`/${questionFile}`, { cache: 'no-store' })
+      const res = await fetch(`/api/get-questions?file=${encodeURIComponent(questionFile)}`, { cache: 'no-store' })
       if (!res.ok) throw new Error('Failed to load questions')
       const data = await res.json()
       setQuestions(data)
@@ -71,7 +71,7 @@ function SubmissionsTable({
   async function loadSpectateQuestions() {
     try {
       const questionFile = spectatingStudent?.questionFile || 'questions.json'
-      const res = await fetch(`/${questionFile}`, { cache: 'no-store' })
+      const res = await fetch(`/api/get-questions?file=${encodeURIComponent(questionFile)}`, { cache: 'no-store' })
       if (!res.ok) {
         setSpectateQuestions([])
         return
@@ -130,11 +130,17 @@ function SubmissionsTable({
     })
   }
 
-  function scrollToQuestion(qId) {
-    setActiveQuestionId(qId)
-    const el = questionRefs.current[qId]
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  function openQuestion(qId) {
+    const q = questions.find(q => q.id === qId || q.id.toString() === qId.toString())
+    if (q) setViewingQuestion(q)
+  }
+
+  function navigateQuestion(direction) {
+    if (!viewingQuestion) return
+    const idx = questions.findIndex(q => q.id === viewingQuestion.id)
+    const nextIdx = idx + direction
+    if (nextIdx >= 0 && nextIdx < questions.length) {
+      setViewingQuestion(questions[nextIdx])
     }
   }
 
@@ -519,8 +525,8 @@ function SubmissionsTable({
                     return (
                       <button
                         key={q.id}
-                        className={`adm-grid-tile ${cls} ${activeQuestionId === q.id ? 'active' : ''}`}
-                        onClick={() => scrollToQuestion(q.id)}
+                        className={`adm-grid-tile ${cls} ${viewingQuestion?.id === q.id ? 'active' : ''}`}
+                        onClick={() => openQuestion(q.id)}
                       >
                         {q.id}
                       </button>
@@ -552,70 +558,97 @@ function SubmissionsTable({
                 ))}
               </div>
 
-              {/* ===== QUESTION DETAILS LIST ===== */}
-              <div className="adm-questions-list">
-                {filteredModalQuestions.map(q => {
-                  const qid = q.id.toString()
-                  const ans = (selectedSubmission.answers || {})[qid]
-                  const isAnswered = ans !== undefined && ans !== null
-                  const isCorrect = isAnswered && q.correctAnswer === ans
-                  const statusCls = isCorrect ? 'correct' : isAnswered ? 'wrong' : 'unanswered'
-                  const options = [
-                    { key: 'a', text: q.options?.a },
-                    { key: 'b', text: q.options?.b },
-                    { key: 'c', text: q.options?.c },
-                    { key: 'd', text: q.options?.d },
-                  ]
+              {/* ===== SINGLE QUESTION POPUP ===== */}
+              {viewingQuestion && (() => {
+                const qid = viewingQuestion.id.toString()
+                const ans = (selectedSubmission.answers || {})[qid]
+                const isAnswered = ans !== undefined && ans !== null
+                const isCorrect = isAnswered && viewingQuestion.correctAnswer === ans
+                const statusCls = isCorrect ? 'correct' : isAnswered ? 'wrong' : 'unanswered'
+                const options = [
+                  { key: 'a', text: viewingQuestion.options?.a },
+                  { key: 'b', text: viewingQuestion.options?.b },
+                  { key: 'c', text: viewingQuestion.options?.c },
+                  { key: 'd', text: viewingQuestion.options?.d },
+                ]
 
-                  return (
-                    <div
-                      key={q.id}
-                      className={`adm-q-card ${statusCls}`}
-                      ref={el => questionRefs.current[q.id] = el}
-                    >
-                      <div className="adm-q-header">
-                        <span className="adm-q-num bengali">প্রশ্ন {q.id}</span>
-                        <span className={`adm-q-badge ${statusCls}`}>
-                          {isCorrect ? '✓ সঠিক' : isAnswered ? '✗ ভুল' : '— বাদ'}
+                return (
+                  <div className="rs-popup-overlay" onClick={() => setViewingQuestion(null)}>
+                    <div className="rs-popup" onClick={(e) => e.stopPropagation()}>
+                      {/* Popup navigation */}
+                      <div className="rs-popup-nav">
+                        <button
+                          className="rs-popup-nav-btn bengali"
+                          onClick={() => navigateQuestion(-1)}
+                          disabled={questions.findIndex(q => q.id === viewingQuestion.id) === 0}
+                        >
+                          ← আগের
+                        </button>
+                        <span className="rs-popup-counter bengali">
+                          {viewingQuestion.id} / {questions.length}
                         </span>
+                        <button
+                          className="rs-popup-nav-btn bengali"
+                          onClick={() => navigateQuestion(1)}
+                          disabled={questions.findIndex(q => q.id === viewingQuestion.id) === questions.length - 1}
+                        >
+                          পরের →
+                        </button>
+                        <button className="rs-popup-close" onClick={() => setViewingQuestion(null)}>✕</button>
                       </div>
-                      <div className="adm-q-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(q.question) }} />
-                      <div className="adm-options">
-                        {options.map(opt => {
-                          let optCls = ''
-                          if (opt.key === q.correctAnswer) optCls = 'correct-opt'
-                          if (isAnswered && opt.key === ans && !isCorrect) optCls += ' wrong-opt'
-                          if (isAnswered && opt.key === ans && isCorrect) optCls = 'correct-opt selected'
-                          return (
-                            <div key={opt.key} className={`adm-option ${optCls}`}>
-                              <span className="adm-opt-letter">{opt.key.toUpperCase()}</span>
-                              <span className="adm-opt-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(opt.text || '') }} />
-                              {opt.key === q.correctAnswer && <span className="adm-opt-icon correct">✓</span>}
-                              {isAnswered && opt.key === ans && !isCorrect && <span className="adm-opt-icon wrong">✗</span>}
-                            </div>
-                          )
-                        })}
-                      </div>
-                      {q.explanation && (
-                        <div className="adm-explanation">
-                          <div className="adm-explanation-header bengali">💡 ব্যাখ্যা</div>
-                          <div className="adm-explanation-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(q.explanation) }} />
-                          {q.explanationImage && (
-                            <div className="adm-explanation-image">
-                              <img
-                                src={q.explanationImage}
-                                alt={`Explanation diagram for question ${q.id}`}
-                                style={{ maxWidth: '100%', borderRadius: '8px', marginTop: '8px' }}
-                                loading="lazy"
-                              />
-                            </div>
-                          )}
+
+                      {/* Question content */}
+                      <div className={`rs-popup-body ${statusCls}`}>
+                        <div className="rs-q-header">
+                          <span className="rs-q-num bengali">প্রশ্ন {viewingQuestion.id}</span>
+                          <span className={`rs-q-badge ${statusCls}`}>
+                            {isCorrect ? '✓ সঠিক' : isAnswered ? '✗ ভুল' : '— বাদ'}
+                          </span>
                         </div>
-                      )}
+                        <div className="rs-q-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(viewingQuestion.question) }} />
+                        
+                        <div className="rs-options">
+                          {options.map(opt => {
+                            let optCls = ''
+                            if (opt.key === viewingQuestion.correctAnswer) optCls = 'correct-option'
+                            if (isAnswered && opt.key === ans && !isCorrect) optCls += ' wrong-option'
+                            if (isAnswered && opt.key === ans && isCorrect) optCls = 'correct-option selected'
+                            return (
+                              <div key={opt.key} className={`rs-option ${optCls}`}>
+                                <span className="rs-opt-letter">{opt.key.toUpperCase()}</span>
+                                <span className="rs-opt-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(opt.text || '') }} />
+                                {opt.key === viewingQuestion.correctAnswer && <span className="rs-opt-check">✓</span>}
+                                {isAnswered && opt.key === ans && !isCorrect && <span className="rs-opt-cross">✗</span>}
+                              </div>
+                            )
+                          })}
+                        </div>
+
+                        {viewingQuestion.explanation && (
+                          <div className="rs-explanation">
+                            <div className="rs-explanation-header bengali">💡 ব্যাখ্যা</div>
+                            <div className="rs-explanation-text bengali" dangerouslySetInnerHTML={{ __html: renderLatex(viewingQuestion.explanation) }} />
+                            {viewingQuestion.explanationImage && (
+                              <div className="rs-explanation-image">
+                                <img
+                                  src={viewingQuestion.explanationImage}
+                                  alt={`Explanation diagram for question ${viewingQuestion.id}`}
+                                  style={{ maxWidth: '100%', borderRadius: '8px', marginTop: '8px' }}
+                                  loading="lazy"
+                                />
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  )
-                })}
-              </div>
+                  </div>
+                )
+              })()}
+
+              {/* ===== FULL QUESTION LIST (for PDF / filter view) ===== */}
+              {/* Keeping full list hidden by default for now, but can be added back if needed */}
+              {/* <div className="adm-questions-list">...</div> */}
             </div>
           </div>
         </div>

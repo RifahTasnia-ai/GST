@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "question": "নিচের কোনটি গাজরে আছে?",
+    "options": {
+      "a": "ক্লোরোপ্লাস্ট",
+      "b": "অ্যামাইলোপ্লাস্ট",
+      "c": "লিউকোপ্লাস্ট",
+      "d": "ক্রোমোপ্লাস্ট"
+    },
+    "correctAnswer": "d",
+    "explanation": "উদ্ভিদের যেসব অঙ্গ বর্ণময় সেসব অঙ্গে ক্রোমোপ্লাস্ট থাকে। যেমন- ফুলের পাপড়ি, রঙিন ফল ও বীজ, গাজরের মূল ইত্যাদি।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 2,
+    "question": "কোষের ডাইজেস্টিভ ব্যাগ বলা হয় কোন অঙ্গানুকে?",
+    "options": {
+      "a": "রাইবোজোম",
+      "b": "লাইসোজোম",
+      "c": "সেন্ট্রিওল",
+      "d": "গলগি বস্তু"
+    },
+    "correctAnswer": "b",
+    "explanation": "লাইসোজোমকে কোষের ডাইজেস্টিভ ব্যাগ বলা হয় ।লাইসোসোম ফ্যাগোসাইটিসিস প্রক্রিয়া জীবনু ধ্বংস করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 3,
+    "question": "এডেনিন থাইমিনের সঙ্গে যুক্ত হয়-",
+    "options": {
+      "a": "তিনটি হাইড্রোজেন বন্ডের মাধ্যমে",
+      "b": "সুগারের সাহায্যে",
+      "c": "দুইটি হাইড্রোজেন বন্ডের মাধ্যমে",
+      "d": "ফসফেট বন্ডের সাহায্যে"
+    },
+    "correctAnswer": "c",
+    "explanation": "এডিনিন থাইমিনের সাথে দুটি হাইড্রোজেন বন্ড দ্বারাযুক্ত থাকে অর্থাৎ A = T. অপরদিকে সাইটোসিন গুয়ানিনের সাথে তিনটি হাইড্রোজেন বন্ড দ্বারা যুক্ত থাকে অর্থাৎ C = G বা G = C.",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 4,
+    "question": "লাইসোজাইম নিচের কোনটি ধ্বংস করে?",
+    "options": {
+      "a": "Streptococcus",
+      "b": "Bacillus",
+      "c": "Staphylococcus",
+      "d": "সবগুলোই"
+    },
+    "correctAnswer": "d",
+    "explanation": "লাইসোজাইম ল্যাকরিমাল গ্রন্থি থেকে নিঃসৃত হয় এবং ব্যাকটেরিয়া থেকে চোখকে রক্ষা করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 5,
+    "question": "কোনটি উদ্ভিদে রঞ্জক হিসেবে কাজ করে না?",
+    "options": {
+      "a": "chlorophyll",
+      "b": "anthrosayanin",
+      "c": "phycobilin",
+      "d": "charotine"
+    },
+    "correctAnswer": "c",
+    "explanation": "উদ্ভিদে যে রঞ্জকগুলো পাওয়া যায়, সেগুলোর মধ্যে— Chlorophyll → উদ্ভিদের প্রধান রঞ্জক, যা ফটোসিন্থেসিসে সাহায্য করে। Anthocyanin → ফুল, ফল এবং পাতায় লাল, নীল বা বেগুনি রঙ সৃষ্টি করে।Carotene (Carotenoid) → গাজর, পাতার হলুদ-কমলা রঙের জন্য দায়ী। Phycobilin → এটি শৈবাল (cyanobacteria এবং red algae)-এ পাওয়া যায়, তবে সাধারণ স্থলজ উদ্ভিদে (higher plants) পাওয়া যায় না।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 6,
+    "question": "কোন কোষে নিউক্লিয়াস অনুপস্থিত?",
+    "options": {
+      "a": "সঙ্গীকোষ",
+      "b": "রক্ষীকোষ",
+      "c": "সীভনল",
+      "d": "প্যারেনকাইমা"
+    },
+    "correctAnswer": "c",
+    "explanation": "পরিণত সিভনল বা সিভকোষে নিউক্লিয়াস থাকে না। সঙ্গীকোষ, রক্ষীকোষ এবং প্যারেনকাইমা কোষে নিউক্লিয়াস থাকে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 7,
+    "question": "নিম্নের কোথায় ডাইসেন্ট্রিক ক্রোমোজোম দেখা যায়?",
+    "options": {
+      "a": "গম",
+      "b": "কলা",
+      "c": "ভুট্টা",
+      "d": "যব"
+    },
+    "correctAnswer": "a",
+    "explanation": "পলিসেন্ট্রিক ক্রোমোজোম কলা গাছে দেখা যায়। অর্থাৎ এদের সেন্ট্রোমিয়ার একাধিক",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 8,
+    "question": "একটি প্রকৃত কোষের শক্তি উৎপাদন কেন্দ্র কোনটি?",
+    "options": {
+      "a": "গলগি বডি",
+      "b": "নিউক্লিয়াস",
+      "c": "রাইবোসোম",
+      "d": "মাইটোকন্ড্রিয়া"
+    },
+    "correctAnswer": "d",
+    "explanation": "অঙ্গাণু কাজ মাইটোকন্ড্রিয়া কোষের শক্তি উৎপাদন কেন্দ্র (পাওয়ার হাউস) ক্লোরোপ্লাস্ট কোষের রান্না ঘর রাইবোসোম কোষের প্রোটিন ফ্যাক্টরি",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 9,
+    "question": "একটি মনোনিউক্লিওটাইড এর দৈর্ঘ্য কত এংস্ট্রম",
+    "options": {
+      "a": "৩৪ Å",
+      "b": "১০ Å",
+      "c": "৩.৪ Å",
+      "d": "০.৩৪ Å"
+    },
+    "correctAnswer": "c",
+    "explanation": "DNA অনুর সূত্র দুটির প্রতিটি প্যাচ বা ঘূর্ণনের দৈর্ঘ্য ৩৪A°. প্রতিটি প্যাচে নাইট্রোজেনাস বেস জোড়ের 10 টি ধাপ সমদূরত্বে অবস্থান করে। ফলে এক ধাপ থেকে আরেক ধাপের দূরত্ব 3.4A° হয়",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 10,
+    "question": "রেপ্লিকেশনে পৃথকীকৃত ডাবল হেলিক্স পুনঃসংযুক্তিতে বাধা দেয় কোনটি?",
+    "options": {
+      "a": "টপোআইসোমারেজ",
+      "b": "সিঙ্গেল স্ট্র্যান্ড বাইন্ডিং প্রোটিন",
+      "c": "হেলিকেজ",
+      "d": "প্রাইমেজ"
+    },
+    "correctAnswer": "b",
+    "explanation": "• রেপ্লিকেশনে পৃথকীকৃত ডাবল হেলিক্স পুনঃসংযুক্তিতে বাধা দেয় সিঙ্গেল স্ট্র্যান্ড বাইন্ডিং প্রোটিন। • প্রাইমেজ RNA প্রাইমারকে শিকলের প্রান্তে যুক্ত করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 11,
+    "question": "হলুদ বর্ণের প্লাস্টিডকে কী বলা হয়?",
+    "options": {
+      "a": "ক্যারোটিনোপ্লাস্ট",
+      "b": "জ্যান্থোপ্লাস্ট",
+      "c": "ক্লোরোপ্লাস্ট",
+      "d": "ফিয়োপ্লাস্ট"
+    },
+    "correctAnswer": "b",
+    "explanation": "•জ্যান্থোপ্লাস্ট→ হলুদ। • ক্যারোটিনোপ্লাস্ট কমলা→লাল। • জ্যান্থোপ্লাস্ট পাকা ফলের ত্বকের কোষে পাওয়া যায়। • ক্যারোটিনোপ্লাস্ট গাজরের কোষে পাওয়া যায়। • বাদামি শৈবাল এবং Diatom জাতীয় শৈবালে ফিয়োপ্লাস্ট পাওয়া যায়।.",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 12,
+    "question": "নিচের কোনটি সঠিক-",
+    "options": {
+      "a": "মাইটোকন্ড্রিয়ার ৯০% চর্বি",
+      "b": "প্রোটিন সঞ্চয় করে ইলায়োপ্ল্যাস্ট",
+      "c": "শর্করা সঞ্চয় করে অ্যামাইলোপ্লাস্ট",
+      "d": "সবগুলো সঠিক"
+    },
+    "correctAnswer": "c",
+    "explanation": "ইলাইওপ্লাস্ট: তেল ও  চর্বি জাতীয় খাদ্য সঞ্চয়কারী লিউকোপ্লাস্ট আলিউরোপ্লাস্ট: প্রোটিন সঞ্চয়কারী লিউকোপ্লাস্ট Amyloplast: স্টার্চ বা শ্বেতসার জাতীয় খাদ্য সঞ্চয়কারী লিউকোপ্লাস্ট",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 13,
+    "question": "কোনটি মাস্টার মলিকিউল নামে পরিচিত ?",
+    "options": {
+      "a": "DNA",
+      "b": "RNA",
+      "c": "প্রোটিন",
+      "d": "কার্বোহাইড্রেট"
+    },
+    "correctAnswer": "a",
+    "explanation": "DNA অণু জীবকোষের সকল রাসায়নিক বিক্রিয়া নিয়ন্ত্রিত করে, এটি যাবতীয় জৈবিক কাজের নিয়ন্ত্রক ও বংশগত বৈশিষ্ট্যের ধারক ও বাহক। তাই DNA-ই হলো 'মাস্টার মলিকিউল'(master molecule)",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 14,
+    "question": "কোনটি প্রি -mRNA পরির্মাজনা প্রক্রিয়ার অংশ নয়?",
+    "options": {
+      "a": "টেইলিং",
+      "b": "স্প্যানিং",
+      "c": "স্প্লাইসিং",
+      "d": "ক্যাপিং"
+    },
+    "correctAnswer": "b",
+    "explanation": "চূড়ান্ত mRNA-র নিউক্লিয়াস ত্যাগ : 'ক্যাপিং, টেইলিং এবং স্প্রাইসিং—এই তিনটি প্রক্রিয়া শেষে প্রি-mRNA, চূড়ান্ত mRNA-তে পরিণত হয়। চূড়ান্ত mRNA সাইটোপ্লাজমীয় পরিবেশের জন্য উপযুক্ত, তাই নিউক্লিয়াসের ছিদ্রপথে সাইটোপ্লাজমে চলে আসে এবং রাইবোসোমে বসে ট্রান্সলেট হয়ে প্রোটিন তৈরি করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 15,
+    "question": "নিউক্লিওসাইড এর পেন্টোজ শুগ্যার এর কয় নং কার্বনে নাইট্রোজেন যুক্ত থাকে?",
+    "options": {
+      "a": "১",
+      "b": "২",
+      "c": "৩",
+      "d": "৫"
+    },
+    "correctAnswer": "a",
+    "explanation": "নিউক্লিওসাইড (Nucleoside) গঠন : এক অণু নাইট্রোজেনঘটিত ক্ষারক ও এক অণু পেন্টোজ ভাগার যুক্ত হয়ে গঠিত গ্লাইকোসাইড যৌগকে বলা হয় নিউক্লিওসাইড। ক্ষারক পাইরিমিডিন হলে তাকে বলা হয় পাইরিমিডিন নিউক্লিওসাইড, আর ক্ষারক পিউরিন হলে তাকে বলা হয় পিউরিন নিউক্লিওসাইড। পাইরিমিডিন নিউক্লিওসাইডে ক্ষারকের (T/C/U) ১নং নাইট্রোজেন, পেন্টোজ শ্যুগারের ১নং কার্বনের হাইড্রক্সিল মূলকের সাথে গ্লাইকোসাইডিক বন্ধনে যুক্ত থাকে। কিন্তু পিউরিন নিউক্লিওসাইডে ক্ষারকের (A/G) ৯নং নাইট্রোজেন (১নং নয়) পেন্টোজ শ্যুগারের ১নং কার্বনের হাইড্রক্সিল মূলকের সাথে গ্লাইকোসাইডিক বন্ধনে যুক্ত থাকে । যেমন- অ্যাডিনোসিন একটি নিউক্লিওসাইড। নিউক্লিওটাইড তৈরি করাই এর কাজ । ২ নং কার্বনে: RNA তে: রাইবোজ শুগারের ২ নং কার্বনে একটি হাইড্রক্সিল গ্রুপ (–OH) থাকে। DNA তে: ডিঅক্সিরাইবোজ শুগারের ২ নং কার্বনে একটি হাইড্রোজেন (–H) থাকে (এজন্য এটিকে \"ডিঅক্সি\" বলা হয়)।",
+    "subject": "Biology",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244060/gst-question-images/_____________q15.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 16,
+    "question": "কার্যগত দিক থেকে RNA কত প্রকার?",
+    "options": {
+      "a": "2",
+      "b": "3",
+      "c": "5",
+      "d": "4"
+    },
+    "correctAnswer": "c",
+    "explanation": "কার্যগত দিক থেকে আরএনএ 5 প্রকার; tRNA(ট্রান্সফার আরএনএ), rRNA(রাইবোজোমাল আরএনএ), mRNA(মেসেঞ্জার আরএনএ), gRNA(জেনেটিক আরএনএ), মাইনর RNA বা miRNA.",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 17,
+    "question": "উদ্ভিদ কোষের সাইটোপ্লাজমে সর্ববৃহৎ অঙ্গাণুটির নাম কী?",
+    "options": {
+      "a": "Ribosome",
+      "b": "Mitochondria",
+      "c": "Lysosome",
+      "d": "Plastid"
+    },
+    "correctAnswer": "d",
+    "explanation": "স্ট্রোমা ও গ্রানা সমৃদ্ধ এবং লিপো-প্রোটিন ঝিল্লি দ্বারা সীমিত সাইটোপ্লাজমস্থ সর্ববৃহৎ ক্ষুদ্রাঙ্গের নাম প্লাস্টিড। ১৮৮৩ সালে শিম্পার (W. Schimper, 1856-1901) সর্বপ্রথম উদ্ভিদ কোষে সবুজ বর্ণের প্লাস্টিড লক্ষ্য করেন এবং এর নামকরণ করেন ক্লোরোপ্লাস্ট। পরবর্তীতে অন্যান্য প্লাস্টিড আবিষ্কৃত হয়েছে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 18,
+    "question": "ট্রান্সলেশন প্রক্রিয়ায় ইনিশিয়েটর tRNA কোন অ্যামিনো এসিডকে সংযুক্ত করে?",
+    "options": {
+      "a": "লাইসিন",
+      "b": "মেথিওনিন",
+      "c": "ভ্যালিন",
+      "d": "অ্যালানিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "ইনিশিয়েটর tRNA, মেথিওনিন অ্যামিনো অ্যাসিড সংযুক্ত করে রাইবোসোমকে ছোট ছোট খন্ডের সাথে একটি যৌগ গঠন করে",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 19,
+    "question": "নিউক্লিওসাইডে কোনটি অনুপস্থিত?",
+    "options": {
+      "a": "ডি-অক্সিরাইবোজ সুগার",
+      "b": "সাইটোসিন",
+      "c": "অ্যাডিনিন",
+      "d": "অজৈব ফসফেট"
+    },
+    "correctAnswer": "d",
+    "explanation": "• একটি সুগারের সাথে বেস যুক্ত হলে নিউক্লিওসাইড গঠিত হয়। • নিউক্লিওসাইডের সাথে ফসফেট গ্রুপ যুক্ত হলে নিউক্লিওটাইড গঠিত হয়।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 20,
+    "question": "রহিমের দেহের সকল কোষে এমন একটি উপাদান আছে যা বংশগতির আণবিক ভিত্তি হিসেবে কাজ করে এবং জীবের বৈশিষ্ট্যসমূহ বংশপরম্পরায়  স্থানান্তর করে।",
+    "options": {
+      "a": "A = T G ≡ C",
+      "b": "A = T C – G",
+      "c": "A = G C – T",
+      "d": "C = T A = G"
+    },
+    "correctAnswer": "a",
+    "explanation": "উদ্দীপকের উপাদানটিতে নাইট্রোজিনাস বেসগুলো কীভাবে সজ্জিত থাকে? এডিনিন থাইমিন ডাবল হাইড্রোজেন বন্ধন। A = T গুয়ানিন সাইটোসিন ত্রিপল বন্ধন এ বদ্ধ থাকে। G ≡ C",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 21,
+    "question": "কোন বৈশিষ্ট্যটি আদিকোষে অনুপস্থিত?",
+    "options": {
+      "a": "অপেরন",
+      "b": "70S রাইবোসোম",
+      "c": "অবাত শ্বসন",
+      "d": "ইন্ট্রন"
+    },
+    "correctAnswer": "d",
+    "explanation": "আদি কোষের বৈশিষ্ট্য: • নিউক্লিয়াস সুগঠিত নয় অর্থাৎ, এতে কোনো আবরণী ঝিল্লি, নিউক্লিয়োপ্লাজম ও নিউক্লিয়োলাস থাকে না। • রাইবোসোম 70S ধরনের। • অপেরন থাকে। • ইন্ট্রনস নেই। • অবাত শ্বসন ঘটে",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 22,
+    "question": "কোষ বিভাজনের সময় ক্রোমোসোমের বিপরীত মেরুতে চলতে সাহায্য করে কোনটি?",
+    "options": {
+      "a": "এন্ডোপ্লাজমিক রেটিক্যুলাম",
+      "b": "রাইবোসোম",
+      "c": "গলজি বস্তু",
+      "d": "মাইক্রোটিউব্যুলস"
+    },
+    "correctAnswer": "d",
+    "explanation": "মাইক্রোটিউব্যুলস হলো সাইটোসকেলেটনের একটি অংশ, যা স্পিন্ডল ফাইবার তৈরি করে। স্পিন্ডল ফাইবার ক্রোমোসোমের কেন্দ্রকীয় অঞ্চল (centromere)-তে লেগে থাকে এবং ক্রোমোসোমকে দুই মেরুর দিকে টানে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 23,
+    "question": "প্রথম রিকম্বিন্যান্ট DNA অণু সৃষ্টি করেন-",
+    "options": {
+      "a": "মার্শাল নিরেনবার্গ",
+      "b": "রেইনার্ট",
+      "c": "পলবার্গ",
+      "d": "কোয়েনবার্গ"
+    },
+    "correctAnswer": "c",
+    "explanation": "১৯৭২ সালে Paul Berg বানরের ভাইরাস SV40 ও lambda virus-এর ডিএনএর সংযোগ ঘটিয়ে বিশ্বের প্রথম রিকম্বিনেন্ট ডিএনএ অণু তৈরি করেন। এ জন্য Paul Berg-কে জেনেটিক ইঞ্জিনিয়ারিংয়ের জনক বলা হয়।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 24,
+    "question": "অক্সিসোম কোন অঙ্গাণুর অংশ?",
+    "options": {
+      "a": "রাইবোজোম",
+      "b": "প্লাস্টিড",
+      "c": "মাইটোকন্ড্রিয়া",
+      "d": "গলজি বডি"
+    },
+    "correctAnswer": "c",
+    "explanation": "অক্সিসোম (Oxisome): মাইটোকন্ড্রিয়ার অন্তঃআবরণীর অন্তর্গাত্রে অতি সূক্ষ্ম অসংখ্য দানা লেগে থাকে। এদের\tঅক্সিসোম বলে। অক্সিসোম বৃস্তক বা অবৃন্তক হতে পারে। বৃত্তক অক্সিসোম মস্তক, বোঁটা ও ভূমি নিয়ে গঠিত হয়ে থাকে",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 25,
+    "question": "কোন অঙ্গাণু তে নিজস্ব ডিএনএ পাওয়া যায়না ?",
+    "options": {
+      "a": "নিউক্লিয়াস",
+      "b": "মাইটোকনড্রিয়া",
+      "c": "গলগী বডি",
+      "d": "রাইবোজম"
+    },
+    "correctAnswer": "c",
+    "explanation": "নিউক্লিয়াস : এতে কোষের প্রধান DNA বা নিউক্লিয়ার DNA থাকে। মাইটোকনড্রিয়া : একে সাধারণত \"কোষের পাওয়ার হাউস\" বলা হয়। এতে নিজস্ব বৃত্তাকার DNA থাকে। রাইবোজম : এটি rRNA (রাইবোসোমাল RNA) এবং প্রোটিন দিয়ে গঠিত, তবে এতে নিজস্ব DNA থাকে না। গলগী বডি : এটি প্রধানত সিস্টার্নি, ভেসিকল ও ভ্যাকুওল নিয়ে গঠিত এবং এতে কোনো নিজস্ব DNA বা RNA থাকে না। এটির প্রোটিন প্রক্রিয়াকরণ ও প্যাকেজিং-এর কাজ নিউক্লিয়াসের DNA দ্বারা নিয়ন্ত্রিত হয়।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 26,
+    "question": "উদ্ভিদের জীবন্ত এক কোষের সাথে অন্য কোষের প্রোটপ্লাজমিক সংযোগকে কি বলা হয়?",
+    "options": {
+      "a": "প্রোটনেমা",
+      "b": "ওয়ালপোর",
+      "c": "প্লাজমোডেসমাটা",
+      "d": "রেটিকুলেট"
+    },
+    "correctAnswer": "c",
+    "explanation": "দুটি পাশাপাশি কোষের কূপও একটি অপরটির উল্টোদিকে মুখোমুখি অবস্থিত এবং কূপ দুটির মাঝখানে কেবল মধ্যপর্দা থাকে। মধ্যপর্দাকে পিট মেমব্রেন বলে। মুখোমুখি দুটি কূপকে পিট পেয়ার (pit pair) বলে। আসলে কূপ অঞ্চলে প্রাথমিক প্রাচীর গঠিত হয় না। সেকেন্ডারি প্রাচীর তৈরি হলে কূপ পাড়হীন অথবা পাড়যুক্ত (bordered pit) হতে পারে। দুটি পাশাপাশি কোষের প্রাচীরের সূক্ষ্ম ছিদ্র পথে নলাকার সাইটোপ্লাজমিক সংযোগ স্থাপিত হয়। একে প্লাজমোডেসমাটা (একবচন: প্লাজমোডেসমা) বলে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 27,
+    "question": "কোষরসের pH ক্ষারীয় প্রকৃতির হলে ফুলের রং হবে-",
+    "options": {
+      "a": "Red",
+      "b": "White",
+      "c": "Blue",
+      "d": "Purple"
+    },
+    "correctAnswer": "c",
+    "explanation": "উদ্ভিদকোষের কোষ গহ্বরে থাকা কোষরস কোষের pH নিয়ন্ত্রণ করে। কোষরসের pH এর উপর ফুলের রং নির্ভর করে। কোষরসের pH অম্লীয় হলে ফুল লাল হবে, কোষরসের pH ক্ষারীয় হলে ফুল নীল হবে এবং কোষরসের pH নিরপেক্ষ হলে ফুল কালচে বেগুনি হয়ে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 28,
+    "question": "নিচের কোন অঙ্গাণুটি কোষে \"Translation\" প্রক্রিয়ার সাথে জড়িত?",
+    "options": {
+      "a": "Mitochondria",
+      "b": "Lysosome",
+      "c": "Endoplasmic reticulum",
+      "d": "Ribosome"
+    },
+    "correctAnswer": "d",
+    "explanation": "mRNA থেকে। প্রোটিন তৈরি প্রক্রিয়া হলো ট্রান্সলেশন। ট্রান্সলেশন হলো DNA-এর ভাষাকে mRNA-এর মাধ্যমে প্রোটিনের ভাষায় অনুবাদ বা রূপান্তর করা। DNA থেকে তথ্য বা নির্দেশ 'কপি' করে থাকে mRNA (transcription)। DNA এর ভাষাকে RNA এর মাধ্যমে প্রোটিনের ভাষায় রূপান্তরিত করাকে বলা হয় ট্রান্সলেশন (translation)। ট্রান্সলেশন রাইবোসোমে সংঘটিত হয়। শৃঙ্খলিত পলিপেপটাইডই হলো প্রোটিন।.",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 29,
+    "question": "DNA অনুর একক হেলিক্স-",
+    "options": {
+      "a": "Hexanucliotyde",
+      "b": "Trinucliotyde",
+      "c": "Polynucliotyde",
+      "d": "Mononucliotyde"
+    },
+    "correctAnswer": "c",
+    "explanation": "পলিনিউক্লিওটাইড মূলত অনেক নিউক্লিওটাইডের ফসফো-ডাইএস্টার বন্ধন দ্বারা গঠিত একটি দীর্ঘ শৃঙ্খলা। এই শৃঙ্খলাটি একটি চেইনের মত আকার ধারণ করে যেখানে এক দিকে ফসফেট অনু পেন্টোজ স্যুগারের ৫নং কার্বন এবং অন্য দিকে পাশের পেন্টোজ স্যুগারের ৩নং কার্বন সংযুক্ত থাকে। এই পলিনিউক্লিওটাইড চেইনই ডিএনএর একক হেলিক্স গঠন করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 30,
+    "question": "কোন ক্ষারটি শুধু DNA অণুতে পাওয়া যায়?",
+    "options": {
+      "a": "অ্যাডেনিন",
+      "b": "গুয়ানিন",
+      "c": "থাইমিন",
+      "d": "সাইটোসিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "ডিএনএ চার ধরনের নাইট্রোজেন বেস নিয়ে গঠিত -অ্যাডেনিন,গুয়ানিন,সাইটোসিন এবং থাইমিন,তাই থাইমিন নামক নাইট্রোজেন বেস পাওয়া যায় ডিএনএ তে, আরএনএ তে থাইমিনের পরিবর্তে ইউরাসিল থাকে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 31,
+    "question": "নিচের কোনটি আবৃতবীজী উদ্ভিদ কোষে থাকে না?",
+    "options": {
+      "a": "প্লাস্টিড",
+      "b": "সঞ্চিত খাদ্য শ্বেতসার",
+      "c": "কোষ প্রাচীর",
+      "d": "সেন্ট্রিওল"
+    },
+    "correctAnswer": "d",
+    "explanation": "আবৃতবীজী উদ্ভিদের কোষে সেন্ট্রিওল থাকে না। সেন্ট্রিওল হল দুটি একক ঝিল্লি-ঘেরা, নলাকার অঙ্গাণু যা কোষ বিভাজনে গুরুত্বপূর্ণ ভূমিকা পালন করে। সেন্ট্রিওলগুলি কোষের মাইটোটিক স্পিন্ডল গঠন করতে সাহায্য করে, যা কোষের ক্রোমোজোমগুলিকে বিভাজিত করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 32,
+    "question": "হিস্টোন প্রোটিনের সাথে সংযুক্ত DNA -কে কী বলে?",
+    "options": {
+      "a": "ক্রোমাটিন",
+      "b": "লিংকার",
+      "c": "নিউক্লিয়োজোম",
+      "d": "ক্রোমোনেমা"
+    },
+    "correctAnswer": "c",
+    "explanation": "হিস্টোন প্রোটিনের সাথে সংযুক্ত DNA- কে বলা হয় নিউক্লিয়োজোম।বেশিরভাগ ক্রোমোজমে নিম্ন আণবিক গুরুত্ব সম্পন্ন প্রোটিন হিসেবে হিস্টোন থাকে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 33,
+    "question": "DNA হেলিকেজ-এর কাজ কোনটি?",
+    "options": {
+      "a": "প্রুফ রিডিং করা",
+      "b": "DNA ডাবল হেলিক্স প্যাঁচ খোলা",
+      "c": "DNA প্রতিলিপি সৃষ্টি",
+      "d": "শিকল থেকে প্রাইমার অপসারণ করা"
+    },
+    "correctAnswer": "b",
+    "explanation": "DNA ডাবল হেলিক্স প্যাঁচ খুলতে হেলিকেজ এনজাইম সহায়তা করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 34,
+    "question": "ফ্লুইড মোজাইক মডেল অনুযায়ী ফসফোলিপিড কয়টি স্তরে বিন্যস্ত থাকে ?",
+    "options": {
+      "a": "৩ টি",
+      "b": "৫টি",
+      "c": "৪টি",
+      "d": "২ টি"
+    },
+    "correctAnswer": "d",
+    "explanation": "ফসফোলিপিড বাইলেয়ার হলো পানিগ্রাহি বা amphipathic, বাই মানে দুই,তাই দুই স্তর",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 35,
+    "question": "কোষের ভেতর pH রক্ষা করে-",
+    "options": {
+      "a": "সাইটোপ্লাজম",
+      "b": "কোষগহ্বর",
+      "c": "গ্লাইঅক্সিজোম",
+      "d": "নিউক্লিওপ্লাজম"
+    },
+    "correctAnswer": "b",
+    "explanation": "কোষ গহ্বরের কাজ হলো: (i) কোষরস ধারণ করা। (ii) প্রয়োজনীয় বর্জ্য পদার্থ ধারণ করা। (iii) এরা কোষের অভ্যন্তরের pH রক্ষা করে। (iv) এরা কোষের ভেতরের পানির চাপ রক্ষা করে ।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 36,
+    "question": "মাইসেলি নামক সূত্রের প্রস্থছেদের কতটি সেলুলোজ চেইন থাকে ?",
+    "options": {
+      "a": "১০০",
+      "b": "২০০",
+      "c": "৫০০",
+      "d": "১০০০"
+    },
+    "correctAnswer": "a",
+    "explanation": "কোষ প্রাচীরের প্রধান উপাদান হলো সেলুলোজ। সেলুলোজ হলো একটি পলিস্যাকারাইড যা ৬-কার্বনবিশিষ্ট B-D গ্লুকোজের অসংখ্য অণু নিয়ে গঠিত। ১ হাজার থেকে ৩ হাজার সেলুলোজ অণু নিয়ে একটি সেলুলোজ চেইন গঠিত হয়। প্রায় ১০০ সেলুলোজ চেইন মিলিতভাবে একটি ক্রিস্টালাইন মাইসেলি (micelle) গঠন করে। মাইসেলিকে কোষ প্রাচীরের ক্ষুদ্রতম গাঠনিক একক ধরা হয়। প্রায় ২০টি মাইসেলি মিলে একটি মাইক্রোফাইব্রিল (microfibril) গঠন করে এবং ২৫০টি মাইক্রোফাইব্রিল মিলিতভাবে একটি ম্যাক্রোফাইব্রিল। (macrofibril) গঠন করে। অনেকগুলো ম্যাক্রোফাইব্রিল মিলিতভাবে একটি তন্তু (ফাইবার) গঠন করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 37,
+    "question": "Flip-flop movement দেখা যায় কোনটিতে?",
+    "options": {
+      "a": "রাইবোজোম",
+      "b": "কোষঝিল্লি",
+      "c": "কোষপ্রাচীর",
+      "d": "মাইটোকন্ড্রিয়া"
+    },
+    "correctAnswer": "b",
+    "explanation": "সাম্প্রতিক গবেষণায় দেখা গিয়েছে কোষঝিল্লিটি অনেকটা তরল পদার্থের ন্যায় আচরণ করে। লিপিড অণু তরল পদার্থের ন্যায় ঝিল্লির একই স্তরে স্থান পরিবর্তন করে, পাশে ব্যান্ড (diffuse) হয় এবং অক্ষের (long axis) বরাবর ঘুরতে (rotate) পারে। একে flip-flop movement বলে। এ তথ্যগুলো ফ্লুইড-মোজাইক মডেলকে বিশেষভাবে সমর্থন করে",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 38,
+    "question": "বংশগতির ধারক ও বাহক নিচের কোনটি?",
+    "options": {
+      "a": "ক্রোমোমিয়ার",
+      "b": "ক্রোমাটিড",
+      "c": "ক্রোমোজোম",
+      "d": "টেলোমিয়ার"
+    },
+    "correctAnswer": "c",
+    "explanation": "জিন রাসায়নিকভাবে ডিএনএ দ্বারা গঠিত। এই ডিএনএ জীবের বিভিন্ন বৈশিষ্ট্য যেমন—এদের রং, আকার, স্বভাব, পরিব্যাপ্তি ইত্যাদি ধারণ করে, যা বংশানুক্রমে মাতা-পিতা থেকে সন্তান-সন্ততিতে স্থানান্তরিত হয়। এ কারণে ক্রোমোজোমকে বংশগতির ধারক ও বাহক বলা হয়। Sutton ও Boveri (1902) ক্রোমোসোমকে বংশগতীয় বৈশিষ্ট্যের বাহক ও ধারক হিসেবে বর্ণনা করেন।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 39,
+    "question": "শুক্রাণুর লেজ তৈরী করা কোনটির কাজ?",
+    "options": {
+      "a": "গ্লাইঅক্সিসোম",
+      "b": "মাক্রোফিলামেন্ট",
+      "c": "গলগি বডি",
+      "d": "সেন্ট্রিওল"
+    },
+    "correctAnswer": "d",
+    "explanation": "সেন্ট্রিওল কাজ : (i) কোষ বিভাজনের সময় মাকুতন্ত্র গঠন করা। (i) কোষ বিভাজনে সাহায্য করা। (ii) সিলিয়া ও \"ফ্ল্যাজেলাযুক্ত কোষে সিলিয়া ও ফ্ল্যাজেলা সৃষ্টি করা ((iv) শুক্রাণুর লেজ গঠন করা ।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 40,
+    "question": "Golgi complex কোনটি সংশ্লেষ (synthesis) করে না?",
+    "options": {
+      "a": "Sperm",
+      "b": "Ribosome",
+      "c": "Lysosome",
+      "d": "Enzyme"
+    },
+    "correctAnswer": "b",
+    "explanation": "",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 41,
+    "question": "DNA  অণুতে  গ্রথিত  রাসায়নিক  তথ্যগুলোকে mRNA  অনুতে  কপি করার প্রক্রিয়াকে কি বলা হয়?",
+    "options": {
+      "a": "ট্রান্সলেশন",
+      "b": "ট্রান্সক্রিপশন",
+      "c": "রেপ্লিকেশন",
+      "d": "ডুপ্লিকেশন"
+    },
+    "correctAnswer": "b",
+    "explanation": "DNA থেকে RNA উৎপাদনের প্রক্রিয়ার নাম ট্রান্সক্রিপশন • mRNA থেকে প্রোটিন তৈরির প্রক্রিয়া ট্রান্সলেশন ।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 42,
+    "question": "কোষ জীবের গঠনগত মৌলিক একক মতবাদটি কে প্রদান করেন?",
+    "options": {
+      "a": "Jean Brachet",
+      "b": "C. P. Hickman",
+      "c": "Loewy and Siekevitz",
+      "d": "De Roberties"
+    },
+    "correctAnswer": "a",
+    "explanation": "Jean Brachet (1961) এর মতে- 'কোষ হলো জীবের গঠনগত মৌলিক একক।'",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 43,
+    "question": "DNA অনুলিপন নিয়ন্ত্রণ করে কোনটি?",
+    "options": {
+      "a": "মিউটন",
+      "b": "রেকন",
+      "c": "রেপ্লিকন",
+      "d": "সিসট্রন"
+    },
+    "correctAnswer": "c",
+    "explanation": "১। রেকন (Recon) : এটি জিন রিকম্বিনেশন এর একক, DNA অণুর যে ক্ষুদ্রতম একক জেনেটিক রিকম্বিনেশনে অংশ গ্রহণ করে তাকে রেকন বলে। রেকন এক অথবা দুই জোড়া নিউক্লিওটাইড দিয়ে গঠিত। ২। মিউটন (Muton) : একে জিন মিউটেশনের একক বলা হয়। DNA অণুর যে ক্ষুদ্রতম অংশে মিউটেশন সংঘটিত হয়, তাকে মিউটন বলে। এক বা একাধিক নিউক্লিওটাইড যুগল নিয়ে মিউটন গঠিত হয়ে থাকে। ৩। রেপ্লিকন (Replicon) : DNA-এর যে অংশ DNA--এর অনুলিপন নিয়ন্ত্রণ করে তাকে রেপ্লিকন বলে অর্থাৎ এটি রেপ্লিকেশন এর একক। 8.সিসট্রন(Cistron) : জিন কার্যের একক। DNA অণুর যে খণ্ডাংশ কোষীয় বস্তুর কার্যকলাপ নিয়ন্ত্রণ করে তাকে সিসট্রন বলে। Escherichia coli ব্যাকটেরিয়ার একটি সিসট্রনে প্রায় ১৫০০টি নিউক্লিওটাইড যুগল থাকে। প্রতিটি সিসট্রনে অনেক রেকন ও মিউটন থাকে। তাই রেকন ও মিউটন অপেক্ষা সিট্রনের দৈর্ঘ্য অনেক বেশি। অধিকাংশ ক্ষেত্রে জিন ও সিসট্রন প্রায় সমতুল্য (equivalent) অর্থ বহন করে। এজন্য DNA এর কার্যকরী একককে বলা হয় সিসট্রন।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 44,
+    "question": "ধানের ফুলের পুংরেণুতে ক্রোমোজোম সংখ্যা কত?",
+    "options": {
+      "a": "2n",
+      "b": "3n",
+      "c": "4n",
+      "d": "n"
+    },
+    "correctAnswer": "d",
+    "explanation": "ধানের ফুলের পুংরেণুতে ক্রোমোজোম সংখ্যাক n.",
+    "subject": "Biology",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244062/gst-question-images/_____________q44.png",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 45,
+    "question": "ছত্রাকের কোষ প্রাচীরের মুখ্য উপ্যদান কাইটিন হলো এক প্রকার-",
+    "options": {
+      "a": "সরল মনোস্যাকারাইড",
+      "b": "জটিল পলিস্যাকারাইড",
+      "c": "প্রটোপ্লাস্ট",
+      "d": "জটিল ডাইস্যাকারাইড"
+    },
+    "correctAnswer": "b",
+    "explanation": "কাইটিন হলো -জটিল পলিস্যাকারাইড সমন্বিত একটি তন্তুযুক্ত পদার্থ এবং আর্থ্রোপডের এবং ছত্রাকের কোষের প্রাচীরগুলোর প্রধান উপাদান।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 46,
+    "question": "RNA এর শতকরা কতভাগ নিউক্লিয়াসে থাকে?",
+    "options": {
+      "a": "১০%",
+      "b": "২৫%",
+      "c": "১৫%",
+      "d": "৯০%"
+    },
+    "correctAnswer": "a",
+    "explanation": "RNA এর শতকরা ৯০ ভাগ সাইটোপ্লাজমে এবং বাকি ১০ ভাগ নিউক্লিয়াসে থাকে।",
+    "subject": "Biology",
+    "hasDiagram": true,
+    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244063/gst-question-images/_____________q46.jpg",
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 47,
+    "question": "আলুগাছের ক্রোমোসোম সংখ্যা -",
+    "options": {
+      "a": "১৮",
+      "b": "৩৬",
+      "c": "২৪",
+      "d": "৪৮"
+    },
+    "correctAnswer": "d",
+    "explanation": "বাঁধাকপি (Brassica oleracea) এর ক্রোমোসোম সংখ্যা 18, চীনাবাদাম (Arachis hypogaea) এর ক্রোমোসোম সংখ্যা 40, গরু ও ছাগলের (Boss indica ও Capra hircus) ক্রোমোসোেম সংখ্যা 60 এবং গোল আলুর (Solanum tuberosum) ক্রোমোসোেম সংখ্যা 48 ।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 48,
+    "question": "কোনটি জীবের বংশগতি পদার্থ?",
+    "options": {
+      "a": "সেন্ট্রোজোম",
+      "b": "রাইবোজোম",
+      "c": "DNA",
+      "d": "RNA"
+    },
+    "correctAnswer": "c",
+    "explanation": "মাতা-পিতার চারিত্রিক বৈশিষ্ট্য বংশানুক্রমে তাদের সন্তান-সন্তুতিতে স্থানান্তরিত হওয়াকে বলে বংশগতি। বংশগতির ভিত্তি হলো বংশগতি বস্তু অর্থাৎ ক্রোমোসোম, DNA ,RNA ইত্যাদি। কাজেই বংশগতি নির্ণয়ে এদের ভূমিকা সরাসরি।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "question": "কোনটি গ্লাইকোলাইসিস এর ক্ষেত্রে সঠিক নয়.?",
+    "options": {
+      "a": "কোষের সাইটোপ্লাজমে ঘটে",
+      "b": "সূর্য লোকের প্রয়োজন হয় না।",
+      "c": "একে EMP পথ বলে।",
+      "d": "ক্লোরোপ্লাস্টের গ্রানাম অঞ্চলে সম্পন্ন হয়"
+    },
+    "correctAnswer": "d",
+    "explanation": "থাইলাকয়েডের স্তুপকে গ্রানাম বলে। থাইলাকয়েডে আলোক পর্যায়ের বিক্রিয়া সংঘটিত হয়।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "question": "কোন মেমব্রেন দ্বারা উদ্ভিদ কোষের গহ্বর আবৃত থাকে?",
+    "options": {
+      "a": "টনোপ্লাস্ট",
+      "b": "অ্যালিউরোপ্লাস্ট",
+      "c": "ক্লোরোপ্লাস্ট",
+      "d": "অ্যামাইনোপ্লাস্ট"
+    },
+    "correctAnswer": "a",
+    "explanation": "উদ্ভিদ কোষের গহ্বর 'টোনোপ্লাস্ট' নামক একটি একক মেমব্রেন দ্বারা আবৃত থাকে। টোনোপ্লাস্ট কোষের অন্যান্য অঙ্গাণু থেকে গহ্বরকে পৃথক রাখে এবং কোষের মধ্যে জল, পুষ্টি উপাদান, বর্জ্য পদার্থ এবং অন্যান্য বিভিন্ন পদার্থ পরিবহনে গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+    "subject": "Biology",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  }
+]

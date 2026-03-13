@@ -80,8 +80,8 @@ function ExamPage() {
 
       setQuestionFile(file)
 
-      const cacheBuster = `?t=${Date.now()}`
-      const fileUrl = `/${file}${cacheBuster}`
+      const cacheBuster = `t=${Date.now()}`
+      const fileUrl = `/api/get-questions?file=${encodeURIComponent(file)}&${cacheBuster}`
 
       const res = await fetch(fileUrl, {
         cache: 'no-store',
@@ -94,16 +94,17 @@ function ExamPage() {
 
       const contentType = res.headers.get('content-type')
       if (!contentType || !contentType.includes('application/json')) {
-        throw new Error(`File ${file} is not a JSON file. Got content-type: ${contentType}`)
+        // Just in case it returns something weird - -
       }
 
       const data = await res.json()
+      const questionList = Array.isArray(data) ? data : data?.questions
 
-      if (!Array.isArray(data) || data.length === 0) {
+      if (!Array.isArray(questionList) || questionList.length === 0) {
         throw new Error('No questions found in file')
       }
 
-      const transformed = data.map(q => ({
+      const transformed = questionList.map(q => ({
         id: q.id,
         question: q.question,
         options: Object.entries(q.options).map(([id, text]) => ({ id, text })),
