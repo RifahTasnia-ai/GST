@@ -1,27 +1,23 @@
 [
   {
     "id": 1,
-    "question": "x2+y2−2x−4y−4=0 x^{2}+y^{2}-2 x-4 y-4=0 x2+y2−2x−4y−4=0 বৃত্তে অঙ্কিত স্পর্শক 3x−4y−1=0 3 x-4 y-1=0 3x−4y−1=0 রেখার সমান্তরাল। স্পর্শকের সমীকরণ নির্ণয় কর।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-2x-4y-4=0$ বৃত্তে অঙ্কিত স্পর্শক $3x-4y-1=0$ রেখার সমান্তরাল। স্পর্শকের সমীকরণ নির্ণয় কর।",
     "options": {
-      "a": "3 𝑥 − 4 𝑦 − 20 = 0 3x−4y−20=0",
-      "b": "3 𝑥 + 4 𝑦 − 10 = 0 3x+4y−10=0",
-      "c": "3 𝑥 − 4 𝑦 + 10 = 0 3x−4y+10=0",
-      "d": "3 𝑥 − 4 𝑦 − 10 = 0 3x−4y−10=0"
+      "a": "$3x-4y-20=0$",
+      "b": "$3x+4y-10=0$",
+      "c": "$3x-4y+10=0$",
+      "d": "$3x-4y-10=0$"
     },
     "correctAnswer": "d",
-    "explanation": "Solve: x2+y2−2x−4y−4=0 x^{2}+y^{2}-2 x-4 y-4=0 x2+y2−2x−4y−4=0 বৃত্তের কেন্দ্র (1,2) (1,2) (1,2) এবং ব্যাসার্ধ =12+22+4=3 =\\sqrt{1^{2}+2^{2}+4}=3 =12+22+4=3 ধরি, 3x−4y−1=0 3 x-4 y-1=0 3x−4y−1=0 রেখার সমান্তরাল স্পর্শের সমীকরণ 3x−4y+k=0 3 x-4 y+\\mathrm{k}=0 3x−4y+k=0 (1) রেখাটি প্রদত্ত বৃত্তকে স্পর্শ করলে কেন্দ্র (1,2) (1,2) (1,2) থেকে এর দূরত্ব ব্যাসার্ধের সমান হবে। ∴∣3.1−4.2+k∣9+16=3⇒∣3−8+k∣=15 \\therefore \\frac{|3.1-4.2+k|}{\\sqrt{9+16}}=3 \\Rightarrow|3-8+\\mathrm{k}|=15 ∴9+16∣3.1−4.2+k∣=3⇒∣3−8+k∣=15 ⇒k−5=±15∴k=20,−10 \\Rightarrow \\mathrm{k}-5= \\pm 15 \\therefore \\mathrm{k}=20,-10 ⇒k−5=±15∴k=20,−10 ∴ \\therefore ∴ নির্ণেয় স্পর্শকের সমীকরণ, 3x−4y+20=0 3 x-4 y+20=0 3x−4y+20=0, 3x−4y−10=0 3 x-4 y-10=0 3x−4y−10=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2−2x−4y−4=0 x^{2}+y^{2}-2 x-4 y-4=0 x2+y2−2x−4y−4=0 বৃত্তে অঙ্কিত স্পর্শক 3x−4y−1=0 3 x-4 y-1=0 3x−4y−1=0 রেখার সমান্তরাল। স্পর্শকের সমীকরণ নির্ণয় কর।$",
-    "explanationLatex": "$Solve: x2+y2−2x−4y−4=0 x^{2}+y^{2}-2 x-4 y-4=0 x2+y2−2x−4y−4=0 বৃত্তের কেন্দ্র (1,2) (1,2) (1,2) এবং ব্যাসার্ধ =12+22+4=3 =\\sqrt{1^{2}+2^{2}+4}=3 =12+22+4=3 ধরি, 3x−4y−1=0 3 x-4 y-1=0 3x−4y−1=0 রেখার সমান্তরাল স্পর্শের সমীকরণ 3x−4y+k=0 3 x-4 y+\\mathrm{k}=0 3x−4y+k=0 (1) রেখাটি প্রদত্ত বৃত্তকে স্পর্শ করলে কেন্দ্র (1,2) (1,2) (1,2) থেকে এর দূরত্ব ব্যাসার্ধের সমান হবে। ∴∣3.1−4.2+k∣9+16=3⇒∣3−8+k∣=15 \\therefore \\frac{|3.1-4.2+k|}{\\sqrt{9+16}}=3 \\Rightarrow|3-8+\\mathrm{k}|=15 ∴9+16∣3.1−4.2+k∣=3⇒∣3−8+k∣=15 ⇒k−5=\\\\pm 15∴k=20,−10 \\Rightarrow \\mathrm{k}-5= \\pm 15 \\therefore \\mathrm{k}=20,-10 ⇒k−5=\\\\pm 15∴k=20,−10 ∴ \\therefore ∴ নির্ণেয় স্পর্শকের সমীকরণ, 3x−4y+20=0 3 x-4 y+20=0 3x−4y+20=0, 3x−4y−10=0 3 x-4 y-10=0 3x−4y−10=0$"
+    "explanation": "no need"
   },
   {
     "id": 2,
-    "question": "(x-4)2+(y- 3)2=r2 বৃত্তটি মূলবিন্দুগামী হলে এর ব্যাস নিচের কোনটি?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$(x-4)^{2}+(y-3)^{2}=r^{2}$ বৃত্তটি মূলবিন্দুগামী হলে এর ব্যাস নিচের কোনটি?",
     "options": {
       "a": "5",
       "b": "14",
@@ -29,19 +25,13 @@
       "d": "25"
     },
     "correctAnswer": "c",
-    "explanation": "r=42+32=5∴ r=\\sqrt{4^{2}+3^{2}}=5 \\therefore r=42+32=5∴ ব্যাস =10 =10 =10",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$(x-4)2+(y- 3)2=r2 বৃত্তটি মূলবিন্দুগামী হলে এর ব্যাস নিচের কোনটি?$",
-    "explanationLatex": "$r=42+32=5∴ r=\\sqrt{4^{2}+3^{2}}=5 \\therefore r=42+32=5∴ ব্যাস =10 =10 =10$"
+    "explanation": "no need"
   },
   {
     "id": 3,
-    "question": "x2+y2-4x-6y+c=0 বৃত্তটি x অক্ষকে স্পর্শ করে। c এর মান কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-4x-6y+c=0$ বৃত্তটি x অক্ষকে স্পর্শ করে। c এর মান কত?",
     "options": {
       "a": "7",
       "b": "4",
@@ -49,19 +39,13 @@
       "d": "11"
     },
     "correctAnswer": "b",
-    "explanation": "Formula: x2+y2+2gx+2fy+c=0 x^{2}+y^{2}+2 g x+2 f y+c=0 x2+y2+2gx+2fy+c=0 সমীকরণটি x \\mathrm{x} x অক্ষকে স্পর্শ করনে, c=g2 \\mathrm{c}=\\mathrm{g}^{2} c=g2 ∴ \\therefore ∴ প্রদত্ত বৃত্তের ক্ষেত্রে, c=22=4 \\mathrm{c}=2^{2}=4 c=22=4",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2-4x-6y+c=0 বৃত্তটি x অক্ষকে স্পর্শ করে। c এর মান কত?$",
-    "explanationLatex": "$Formula: x2+y2+2gx+2fy+c=0 x^{2}+y^{2}+2 g x+2 f y+c=0 x2+y2+2gx+2fy+c=0 সমীকরণটি x \\mathrm{x} x অক্ষকে স্পর্শ করনে, c=g2 \\mathrm{c}=\\mathrm{g}^{2} c=g2 ∴ \\therefore ∴ প্রদত্ত বৃত্তের ক্ষেত্রে, c=22=4 \\mathrm{c}=2^{2}=4 c=22=4$"
+    "explanation": "no need"
   },
   {
     "id": 4,
-    "question": "x2 + y2 - 8x - 10y - 11 = 0 বৃত্ত দ্বারা y অক্ষের খণ্ডিত অংশের দৈর্ঘ্য কোনটি?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-8x-10y-11=0$ বৃত্ত দ্বারা y অক্ষের খণ্ডিত অংশের দৈর্ঘ্য কোনটি?",
     "options": {
       "a": "10",
       "b": "12",
@@ -69,19 +53,13 @@
       "d": "5"
     },
     "correctAnswer": "b",
-    "explanation": "y অক্ষের খন্ডিতাংশ =225+11= 122\\sqrt{25+11}=\\ 12225+11= 12",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2 + y2 - 8x - 10y - 11 = 0 বৃত্ত দ্বারা y অক্ষের খণ্ডিত অংশের দৈর্ঘ্য কোনটি?$",
-    "explanationLatex": "$y অক্ষের খন্ডিতাংশ =225+11= 122\\sqrt{25+11}=\\ 12225+11= 12$"
+    "explanation": "no need"
   },
   {
     "id": 5,
-    "question": "4x2+4y2-4x-24y+17=0 বৃত্তের ক্ষেত্রফল কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$4x^{2}+4y^{2}-4x-24y+17=0$ বৃত্তের ক্ষেত্রফল কত?",
     "options": {
       "a": "15.7",
       "b": "7.02",
@@ -89,59 +67,41 @@
       "d": "6.28"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: 4x2+4y2−4x−24y+17=0⇒x2+y2−x−6y+174=0⇒x2+y2+2(−12)x+2(−3)y+174=0g=−12,f=−3 এবং c=174∴ ব্যাসার্ধ, r=(−12)2+(−3)2−174=2.24∴ Area=π(2.24)2=15.76 \\begin{array}{l}\\text { Solve: } 4 x^{2}+4 y^{2}-4 x-24 y+17=0 \\Rightarrow x^{2}+y^{2}-x-6 y+\\frac{17}{4}=0 \\\\ \\begin{array}{l}\\Rightarrow x^{2}+y^{2}+2\\left(-\\frac{1}{2}\\right) x+2(-3) y+\\frac{17}{4}=0 \\\\ g=-\\frac{1}{2}, f=-3 \\text { এবং } c=\\frac{17}{4} \\\\ \\therefore \\text { ব্যাসার্ধ, } r=\\sqrt{\\left(-\\frac{1}{2}\\right)^{2}+(-3)^{2}-\\frac{17}{4}}=2.24 \\\\ \\therefore \\text { Area}=\\pi(2.24)^{2}=15.76\\end{array}\\end{array} Solve: 4x2+4y2−4x−24y+17=0⇒x2+y2−x−6y+417=0⇒x2+y2+2(−21)x+2(−3)y+417=0g=−21,f=−3 এবং c=417∴ ব্যাসার্ধ, r=(−21)2+(−3)2−417=2.24∴ Area=π(2.24)2=15.76",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$4x2+4y2-4x-24y+17=0 বৃত্তের ক্ষেত্রফল কত?$",
-    "explanationLatex": "$Solve: 4x2+4y2−4x−24y+17=0⇒x2+y2−x−6y+174=0⇒x2+y2+2(−12)x+2(−3)y+174=0g=−12,f=−3 এবং c=174∴ ব্যাসার্ধ, r=(−12)2+(−3)2−174=2.24∴ Area=\\\\pi (2.24)2=15.76 \\begin{array}{l}\\text { Solve: } 4 x^{2}+4 y^{2}-4 x-24 y+17=0 \\Rightarrow x^{2}+y^{2}-x-6 y+\\frac{17}{4}=0 \\\\ \\begin{array}{l}\\Rightarrow x^{2}+y^{2}+2\\left(-\\frac{1}{2}\\right) x+2(-3) y+\\frac{17}{4}=0 \\\\ g=-\\frac{1}{2}, f=-3 \\text { এবং } c=\\frac{17}{4} \\\\ \\therefore \\text { ব্যাসার্ধ, } r=\\sqrt{\\left(-\\frac{1}{2}\\right)^{2}+(-3)^{2}-\\frac{17}{4}}=2.24 \\\\ \\therefore \\text { Area}=\\pi(2.24)^{2}=15.76\\end{array}\\end{array} Solve: 4x2+4y2−4x−24y+17=0⇒x2+y2−x−6y+417=0⇒x2+y2+2(−21)x+2(−3)y+417=0g=−21,f=−3 এবং c=417∴ ব্যাসার্ধ, r=(−21)2+(−3)2−417=2.24∴ Area=\\\\pi (2.24)2=15.76$"
+    "explanation": "no need"
   },
   {
     "id": 6,
-    "question": "3x + 2y – 1 = 0 রেখাটি x2 + y2 + 2y + c = 0 বৃত্তকে স্পর্শ করলে c এর মান?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$3x+2y-1=0$ রেখাটি $x^{2}+y^{2}+2y+c=0$ বৃত্তকে স্পর্শ করলে c এর মান?",
     "options": {
-      "a": "2 , 1 6 2, 6 1",
-      "b": "− 2 , 1 6 −2, 6 1",
+      "a": "1/6",
+      "b": "-2, 1/6",
       "c": "4/13",
-      "d": "− 2 , − 1 6 −2,− 6 1"
+      "d": "-2, -1/6"
     },
     "correctAnswer": "c",
-    "explanation": "কেন্দ্র (0,−1) ব্যাসার্ধ্য=(−1)2−c \\begin{array}{l}\\text {কেন্দ্র }(0,-1) \\\\ \\text { ব্যাসার্ধ্য}=\\sqrt{(-1)^{2}-c}\\end{array} কেন্দ্র (0,−1) ব্যাসার্ধ্য=(−1)2−c ∣−2−1∣9+4=1−c⇒913=1−c⇒c=413 \\begin{aligned} & \\frac{|-2-1|}{\\sqrt{9+4}}=\\sqrt{1-c} \\\\ \\Rightarrow & \\frac{9}{13}=1-c \\\\ \\Rightarrow c & =\\frac{4}{13}\\end{aligned} ⇒⇒c9+4∣−2−1∣=1−c139=1−c=134",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$3x + 2y – 1 = 0 রেখাটি x2 + y2 + 2y + c = 0 বৃত্তকে স্পর্শ করলে c এর মান?$",
-    "explanationLatex": "$কেন্দ্র (0,−1) ব্যাসার্ধ্য=(−1)2−c \\begin{array}{l}\\text {কেন্দ্র }(0,-1) \\\\ \\text { ব্যাসার্ধ্য}=\\sqrt{(-1)^{2}-c}\\end{array} কেন্দ্র (0,−1) ব্যাসার্ধ্য=(−1)2−c ∣−2−1∣9+4=1−c⇒913=1−c⇒c=413 \\begin{aligned} & \\frac{|-2-1|}{\\sqrt{9+4}}=\\sqrt{1-c} \\\\ \\Rightarrow & \\frac{9}{13}=1-c \\\\ \\Rightarrow c & =\\frac{4}{13}\\end{aligned} ⇒⇒c9+4∣−2−1∣=1−c139=1−c=134$"
+    "explanation": "no need"
   },
   {
     "id": 7,
-    "question": "2x2+2y2+8x+4y+2=0 2 x^{2}+2 y^{2}+8 x+4 y+2=0 2x2+2y2+8x+4y+2=0 বৃত্তটি দ্বারা y y y -অক্ষের ছেদক অংশ নির্ণয় কর।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$2x^{2}+2y^{2}+8x+4y+2=0$ বৃত্তটি দ্বারা y-অক্ষের ছেদক অংশ নির্ণয় কর।",
     "options": {
-      "a": "3 3 একক",
-      "b": "2 2 একক",
-      "c": "1 1 একক",
-      "d": "0 0 একক"
+      "a": "3 একক",
+      "b": "2 একক",
+      "c": "1 একক",
+      "d": "0 একক"
     },
     "correctAnswer": "d",
-    "explanation": "2x2+2y2+8x+4y+2=0 2 x^{2}+2 y^{2}+8 x+4 y+2=0 2x2+2y2+8x+4y+2=0 অর্থাৎx2+y2+4x+2y+1=0 x^{2}+y^{2}+4 x+2 y+1=0 x2+y2+4x+2y+1=0 এর সাথে তুলना করে পাই, g=2,f=1,c=1 g=2, f=1, c=1 g=2,f=1,c=1. ∴y \\therefore \\mathrm{y} ∴y- অক্ষের খন্ডিতাংশ =2f2−c =2 \\sqrt{\\mathrm{f}^{2}-\\mathrm{c}} =2f2−c =212−1=0 =2 \\sqrt{1^{2}-1}=0 =212−1=0 একক।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$2x2+2y2+8x+4y+2=0 2 x^{2}+2 y^{2}+8 x+4 y+2=0 2x2+2y2+8x+4y+2=0 বৃত্তটি দ্বারা y y y -অক্ষের ছেদক অংশ নির্ণয় কর।$",
-    "explanationLatex": "$2x2+2y2+8x+4y+2=0 2 x^{2}+2 y^{2}+8 x+4 y+2=0 2x2+2y2+8x+4y+2=0 অর্থাৎx2+y2+4x+2y+1=0 x^{2}+y^{2}+4 x+2 y+1=0 x2+y2+4x+2y+1=0 এর সাথে তুলना করে পাই, g=2,f=1,c=1 g=2, f=1, c=1 g=2,f=1,c=1. ∴y \\therefore \\mathrm{y} ∴y- অক্ষের খন্ডিতাংশ =2f2−c =2 \\sqrt{\\mathrm{f}^{2}-\\mathrm{c}} =2f2−c =212−1=0 =2 \\sqrt{1^{2}-1}=0 =212−1=0 একক।$"
+    "explanation": "no need"
   },
   {
     "id": 8,
-    "question": "কোন বৃত্তের কেন্দ্র (2, 3) এবং যে কোন একটি জ্যা এর সমীকরণ ও দৈর্ঘ্য যথাক্রমে 3x+4y+7=03x+4y+7=03x+4y+7=0 ও 24 একক হলে বৃত্তটির ব্যাসার্ধ কত একক ?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "কোন বৃত্তের কেন্দ্র (2, 3) এবং যে কোন একটি জ্যা এর সমীকরণ ও দৈর্ঘ্য যথাক্রমে $3x+4y+7=0$ 24 একক হলে বৃত্তটির ব্যাসার্ধ কত একক?",
     "options": {
       "a": "13",
       "b": "8",
@@ -149,219 +109,153 @@
       "d": "14"
     },
     "correctAnswer": "a",
-    "explanation": "AB জ্যা, O বৃত্তের কেন্দ্র এবং C জ্যা এর মধ্য বিন্দু OC=∣3(2)+4(3)+732+42∣=5OC=\\left|\\frac{3\\left(2\\right)+4\\left(3\\right)+7}{\\sqrt{3^2+4^2}}\\right|=5OC=32+423(2)+4(3)+7=5 OA=OC2+AC2=52+(242)2 ∴OA=13OA=\\sqrt{OC^2+AC^2}=\\sqrt{5^2+\\left(\\frac{24}{2}\\right)^2}\\ \\ \\therefore OA=13OA=OC2+AC2=52+(224)2 ∴OA=13",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$কোন বৃত্তের কেন্দ্র (2, 3) এবং যে কোন একটি জ্যা এর সমীকরণ ও দৈর্ঘ্য যথাক্রমে 3x+4y+7=03x+4y+7=03x+4y+7=0 ও 24 একক হলে বৃত্তটির ব্যাসার্ধ কত একক ?$",
-    "explanationLatex": "$AB জ্যা, O বৃত্তের কেন্দ্র এবং C জ্যা এর মধ্য বিন্দু OC=∣3(2)+4(3)+732+42∣=5OC=\\left|\\frac{3\\left(2\\right)+4\\left(3\\right)+7}{\\sqrt{3^2+4^2}}\\right|=5OC=32+423(2)+4(3)+7=5 OA=OC2+AC2=52+(242)2 ∴OA=13OA=\\sqrt{OC^2+AC^2}=\\sqrt{5^2+\\left(\\frac{24}{2}\\right)^2}\\ \\ \\therefore OA=13OA=OC2+AC2=52+(224)2 ∴OA=13$"
+    "explanation": "no need"
   },
   {
     "id": 9,
-    "question": "নিচের কোনটি বৃত্তের সমীকরণের বৈশিষ্ট্য?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "নিচের কোনটি বৃত্তের সমীকরণের বৈশিষ্ট্য?",
     "options": {
       "a": "y এর সহগ অশূন্য হবে",
       "b": "x এর সহগ শূন্য হবে",
-      "c": "x² ও y² এর সহগদ্বয় সমান হবে",
+      "c": "$x^{2}$ ও $y^{2}$ এর সহগদ্বয় সমান হবে",
       "d": "xy এর সহগ 1 হবে"
     },
     "correctAnswer": "c",
-    "explanation": "একটি আদর্শ বৃত্তের সমীকরন হলো - x2+y2+2gx+2fy+c=0x^2+y^2+2gx+2fy+c=0x2+y2+2gx+2fy+c=0 এখানে x2 ও y2x^2\\ ও\\ y^2x2 ও y2 এর সহগ অবশ্যঈ সমান হতে হবে।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "নিচের কোনটি বৃত্তের সমীকরণের বৈশিষ্ট্য?",
-    "explanationLatex": "$একটি আদর্শ বৃত্তের সমীকরন হলো - x2+y2+2gx+2fy+c=0x^2+y^2+2gx+2fy+c=0x2+y2+2gx+2fy+c=0 এখানে x2 ও y2x^2\\ ও\\ y^2x2 ও y2 এর সহগ অবশ্যঈ সমান হতে হবে।$"
+    "explanation": "no need"
   },
   {
     "id": 10,
+    "subject": "Math",
+    "topic": "বৃত্ত",
     "question": "বিন্দু বৃত্তের সমীকরণ-",
     "options": {
-      "a": "𝑥 2 + 𝑦 2 + 6 𝑥 + 8 𝑦 + 25 = 0 x 2 +y 2 +6x+8y+25=0",
-      "b": "𝑥 2 + 𝑦 2 + 3 𝑥 + 4 𝑦 + 1 = 0 x 2 +y 2 +3x+4y+1=0",
-      "c": "𝑥 2 + 𝑦 2 + 3 𝑥 + 4 𝑦 − 1 = 0 x 2 +y 2 +3x+4y−1=0",
-      "d": "𝑥 2 + 𝑦 2 − 6 𝑥 − 8 𝑦 − 25 = 0 x 2 +y 2 −6x−8y−25=0"
+      "a": "$x^{2}+y^{2}+6x+8y+25=0$",
+      "b": "$x^{2}+y^{2}+3x+4y+1=0$",
+      "c": "$x^{2}+y^{2}+3x+4y-1=0$",
+      "d": "$x^{2}+y^{2}-6x-8y-25=0$"
     },
     "correctAnswer": "a",
-    "explanation": "∴ ব্যাসার্ধ ,r=9+16−25=0∴ বিন্দু বৃত্তের ব্যাসার্ধ শূণ্য । \\begin{array}{l}\\therefore \\text { ব্যাসার্ধ }, r=\\sqrt{9+16-25} \\\\ =0 \\\\ \\therefore \\text { বিন্দু বৃত্তের ব্যাসার্ধ শূণ্য ।}\\end{array} ∴ ব্যাসার্ধ ,r=9+16−25=0∴ বিন্দু বৃত্তের ব্যাসার্ধ শূণ্য ।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "বিন্দু বৃত্তের সমীকরণ-",
-    "explanationLatex": "$∴ ব্যাসার্ধ ,r=9+16−25=0∴ বিন্দু বৃত্তের ব্যাসার্ধ শূণ্য । \\begin{array}{l}\\therefore \\text { ব্যাসার্ধ }, r=\\sqrt{9+16-25} \\\\ =0 \\\\ \\therefore \\text { বিন্দু বৃত্তের ব্যাসার্ধ শূণ্য ।}\\end{array} ∴ ব্যাসার্ধ ,r=9+16−25=0∴ বিন্দু বৃত্তের ব্যাসার্ধ শূণ্য ।$"
+    "explanation": "no need"
   },
   {
     "id": 11,
-    "question": "x2+y2−6x−8y−7=0x^2+y^2-6x-8y-7=0x2+y2−6x−8y−7=0 বৃত্তের সাপেক্ষে (1, 2)\\left(1,\\ 2\\right)(1, 2) বিন্দুর অবস্থান-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-6x-8y-7=0$ বৃত্তের সাপেক্ষে (1, 2) বিন্দুর অবস্থান-",
     "options": {
       "a": "ভিতরে",
       "b": "বাইরে",
       "c": "উপরে",
-      "d": "কোনোটিই নয়"
+      "d": "কোনোটিই নয়"
     },
     "correctAnswer": "a",
-    "explanation": "12+22−6(1)−8(2)−7=−24<01^2+2^2-6\\left(1\\right)-8\\left(2\\right)-7=-24<012+22−6(1)−8(2)−7=−24<0 ∴\\therefore∴ বৃত্তের ভিতরে অবস্থিত।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2−6x−8y−7=0x^2+y^2-6x-8y-7=0x2+y2−6x−8y−7=0 বৃত্তের সাপেক্ষে (1, 2)\\left(1,\\ 2\\right)(1, 2) বিন্দুর অবস্থান-$",
-    "explanationLatex": "$12+22−6(1)−8(2)−7=−24<01^2+2^2-6\\left(1\\right)-8\\left(2\\right)-7=-24<012+22−6(1)−8(2)−7=−24<0 ∴\\therefore∴ বৃত্তের ভিতরে অবস্থিত।$"
+    "explanation": "no need"
   },
   {
     "id": 12,
-    "question": "x=1−t21+t2x=\\frac{1-t^2}{1+t^2}x=1+t21−t2 এবং y =2t1+t2y^\\ =\\frac{2t}{1+t^2}y =1+t22t দ্বারা বৃত্ত নির্দেশিত হলে এর কেন্দ্র কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x=\\frac{1-t^{2}}{1+t^{2}}$ এবং $y=\\frac{2t}{1+t^{2}}$ দ্বারা বৃত্ত নির্দেশিত হলে এর কেন্দ্র কত?",
     "options": {
-      "a": "( 1 , 1 ) (1, 1)",
-      "b": "( 0 , 0 ) (0, 0)",
-      "c": "( 1 , 0 ) (1, 0)",
-      "d": "( 0 , 1 ) (0, 1)"
+      "a": "(1, 1)",
+      "b": "(0,0)",
+      "c": "(1, 0)",
+      "d": "(0, 1)"
     },
     "correctAnswer": "b",
-    "explanation": "t2=1−x1+x;y2=4t2(1+t2)2⇒y2=4(1−x1+x)(1+1−x1+x)2⇒x2+y2=1 ∴t^2=\\frac{1-x}{1+x};y^2=\\frac{4t^2}{\\left(1+t^2\\right)^2}\\Rightarrow y^2=\\frac{4\\left(\\frac{1-x}{1+x}\\right)}{\\left(1+\\frac{1-x}{1+x}\\right)^2}\\Rightarrow x^2+y^2=1\\ \\thereforet2=1+x1−x;y2=(1+t2)24t2⇒y2=(1+1+x1−x)24(1+x1−x)⇒x2+y2=1 ∴ কেন্দ্র (0, 0)(0,\\ 0)(0, 0)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x=1−t21+t2x=\\frac{1-t^2}{1+t^2}x=1+t21−t2 এবং y =2t1+t2y^\\ =\\frac{2t}{1+t^2}y =1+t22t দ্বারা বৃত্ত নির্দেশিত হলে এর কেন্দ্র কত?$",
-    "explanationLatex": "$t2=1−x1+x;y2=4t2(1+t2)2⇒y2=4(1−x1+x)(1+1−x1+x)2⇒x2+y2=1 ∴t^2=\\frac{1-x}{1+x};y^2=\\frac{4t^2}{\\left(1+t^2\\right)^2}\\Rightarrow y^2=\\frac{4\\left(\\frac{1-x}{1+x}\\right)}{\\left(1+\\frac{1-x}{1+x}\\right)^2}\\Rightarrow x^2+y^2=1\\ \\thereforet2=1+x1−x;y2=(1+t2)24t2⇒y2=(1+1+x1−x)24(1+x1−x)⇒x2+y2=1 ∴ কেন্দ্র (0, 0)(0,\\ 0)(0, 0)$"
+    "explanation": "no need"
   },
   {
     "id": 13,
+    "subject": "Math",
+    "topic": "বৃত্ত",
     "question": "(1, 1) কেন্দ্রবিশিষ্ট একটি বৃত্ত মূলবিন্দু দিয়ে অতিক্রম করে। মূলবিন্দুতে বৃত্তটির স্পর্শকের সমীকরণ কি হবে?",
     "options": {
-      "a": "x + y = 0",
-      "b": "x - y = 0",
-      "c": "x + y = 1",
-      "d": "x - y =1"
+      "a": "$x+y=0$",
+      "b": "$x-y=0$",
+      "c": "$x+y=1$",
+      "d": "$x-y=1$"
     },
     "correctAnswer": "a",
-    "explanation": "x2+y2+2gx+2fy=0,y=mx \\begin{array}{c}x^{2}+y^{2}+2 g x+2f y=0, \\\\ y=m x\\end{array} x2+y2+2gx+2fy=0,y=mx ∴ \\therefore ∴ বৃত্তটি =x2+y2−2x−2y=0 =x^{2}+y^{2}-2 x-2 y=0 =x2+y2−2x−2y=0 কেন্দ্র,(1,1)=(−g,−f)∴(g,f)=(−1,−1) \\begin{array}{l}(1,1)=(-g,-f) \\therefore(g, f)=(-1,-1)\\end{array} (1,1)=(−g,−f)∴(g,f)=(−1,−1) স্পর্শকের সমীকরণ, =∣mx−ym2+1∣=2⇒m−1m2+1=±2 \\begin{array}{l}=\\left|\\frac{m x-y}{\\sqrt{m^{2}+1}}\\right|=\\sqrt{2} \\\\ \\Rightarrow \\frac{m-1}{\\sqrt{m^{2}+1}}= \\pm \\sqrt{2}\\end{array} =m2+1mx−y=2⇒m2+1m−1=±2 ⇒(m−1)2=2m2+2⇒m2−2m+1=2m2+2∴m=−1 \\begin{array}{c}\\Rightarrow(m-1)^{2}=2 m^{2}+2 \\\\ \\Rightarrow m^{2}-2 m+1=2 m^{2}+2 \\\\ \\therefore m=-1\\end{array} ⇒(m−1)2=2m2+2⇒m2−2m+1=2m2+2∴m=−1 ∴\\therefore∴ নির্ণেয় সমীকরণ, y=−x∴x+y=0 \\begin{array}{c}y=-x \\\\ \\therefore x+y=0\\end{array} y=−x∴x+y=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "(1, 1) কেন্দ্রবিশিষ্ট একটি বৃত্ত মূলবিন্দু দিয়ে অতিক্রম করে। মূলবিন্দুতে বৃত্তটির স্পর্শকের সমীকরণ কি হবে?",
-    "explanationLatex": "$x2+y2+2gx+2fy=0,y=mx \\begin{array}{c}x^{2}+y^{2}+2 g x+2f y=0, \\\\ y=m x\\end{array} x2+y2+2gx+2fy=0,y=mx ∴ \\therefore ∴ বৃত্তটি =x2+y2−2x−2y=0 =x^{2}+y^{2}-2 x-2 y=0 =x2+y2−2x−2y=0 কেন্দ্র,(1,1)=(−g,−f)∴(g,f)=(−1,−1) \\begin{array}{l}(1,1)=(-g,-f) \\therefore(g, f)=(-1,-1)\\end{array} (1,1)=(−g,−f)∴(g,f)=(−1,−1) স্পর্শকের সমীকরণ, =∣mx−ym2+1∣=2⇒m−1m2+1=\\\\pm 2 \\begin{array}{l}=\\left|\\frac{m x-y}{\\sqrt{m^{2}+1}}\\right|=\\sqrt{2} \\\\ \\Rightarrow \\frac{m-1}{\\sqrt{m^{2}+1}}= \\pm \\sqrt{2}\\end{array} =m2+1mx−y=2⇒m2+1m−1=\\\\pm 2 ⇒(m−1)2=2m2+2⇒m2−2m+1=2m2+2∴m=−1 \\begin{array}{c}\\Rightarrow(m-1)^{2}=2 m^{2}+2 \\\\ \\Rightarrow m^{2}-2 m+1=2 m^{2}+2 \\\\ \\therefore m=-1\\end{array} ⇒(m−1)2=2m2+2⇒m2−2m+1=2m2+2∴m=−1 ∴\\therefore∴ নির্ণেয় সমীকরণ, y=−x∴x+y=0 \\begin{array}{c}y=-x \\\\ \\therefore x+y=0\\end{array} y=−x∴x+y=0$"
+    "explanation": "no need"
   },
   {
     "id": 14,
-    "question": "4 একক দৈর্ঘ্যের বাহুবিশিষ্ট বর্গের চারটি শীর্ষ দিয়ে অঙ্কিত বৃত্তের ক্ষেত্রফল কত বর্গ একক?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "4 একক দৈর্ঘ্যের বাহুবিশিষ্ট বর্গের চারটি শীর্ষ দিয়ে অঙ্কিত বৃত্তের ক্ষেত্রফল কত বর্গ একক?",
     "options": {
-      "a": "12 𝜋 12π",
-      "b": "4 𝜋 4π",
-      "c": "8 𝜋 8π",
-      "d": "16 𝜋 16π"
+      "a": "$12\\pi$",
+      "b": "$4\\pi$",
+      "c": "$8\\pi$",
+      "d": "$16\\pi$"
     },
     "correctAnswer": "c",
-    "explanation": "Solution: ব্যাস =AC=AB2+BC2=42+42=42=AC=\\sqrt{AB^2+BC^2}=\\sqrt{4^2+4^2} =4\\sqrt2=AC=AB2+BC2=42+42=42 একক ∴\\therefore∴ ক্ষেত্রফল =π(422)2=8π=\\pi\\left(\\frac{4\\sqrt2}{2}\\right)^2=8\\pi=π(242)2=8π বর্গ একক।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "4 একক দৈর্ঘ্যের বাহুবিশিষ্ট বর্গের চারটি শীর্ষ দিয়ে অঙ্কিত বৃত্তের ক্ষেত্রফল কত বর্গ একক?",
-    "explanationLatex": "$Solution: ব্যাস =AC=AB2+BC2=42+42=42=AC=\\sqrt{AB^2+BC^2}=\\sqrt{4^2+4^2} =4\\sqrt2=AC=AB2+BC2=42+42=42 একক ∴\\therefore∴ ক্ষেত্রফল =\\\\pi (422)2=8\\\\pi =\\pi\\left(\\frac{4\\sqrt2}{2}\\right)^2=8\\pi=\\\\pi (242)2=8\\\\pi  বর্গ একক।$"
+    "explanation": "no need"
   },
   {
     "id": 15,
+    "subject": "Math",
+    "topic": "বৃত্ত",
     "question": "(-1,0) কেন্দ্র বিশিষ্ট যে বৃত্তটি (2,3) বিন্দুগামী তার সমীকরণ নিচের কোনটি?",
     "options": {
-      "a": "𝑥 2 + 𝑦 2 + 2 𝑥 − 10 = 0 x 2 +y 2 +2x−10=0",
-      "b": "𝑥 2 + 𝑦 2 + 2 𝑥 − 17 = 0 x 2 +y 2 +2x−17=0",
-      "c": "𝑥 2 + 𝑦 2 + 2 𝑥 + 17 = 0 x 2 +y 2 +2x+17=0",
-      "d": "𝑥 2 + 𝑦 2 + 2 𝑥 − 1 = 0 x 2 +y 2 +2x−1=0"
+      "a": "$x^{2}+y^{2}+2x-10=0$",
+      "b": "$x^{2}+y^{2}+2x-17=0$",
+      "c": "$x^{2}+y^{2}+2x+17=0$",
+      "d": "$x^{2}+y^{2}+2x-1=0$"
     },
     "correctAnswer": "b",
-    "explanation": "নির্ণেয় বৃত্তের সমীকরণ , (x+1)2+(y−0)2=(2+1)2+(3−0)2 (x+1)^{2}+(y-0)^{2}=(2+1)^{2}+(3-0)^{2} (x+1)2+(y−0)2=(2+1)2+(3−0)2 ⇒x2+y2+2x−17=0 \\Rightarrow x^{2}+y^{2}+2 x-17=0 ⇒x2+y2+2x−17=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "(-1,0) কেন্দ্র বিশিষ্ট যে বৃত্তটি (2,3) বিন্দুগামী তার সমীকরণ নিচের কোনটি?",
-    "explanationLatex": "$নির্ণেয় বৃত্তের সমীকরণ , (x+1)2+(y−0)2=(2+1)2+(3−0)2 (x+1)^{2}+(y-0)^{2}=(2+1)^{2}+(3-0)^{2} (x+1)2+(y−0)2=(2+1)2+(3−0)2 ⇒x2+y2+2x−17=0 \\Rightarrow x^{2}+y^{2}+2 x-17=0 ⇒x2+y2+2x−17=0$"
+    "explanation": "no need"
   },
   {
     "id": 16,
-    "question": "3x+ky−1=03x+ky-1=03x+ky−1=0রেখাটিx2+y2−8x−2y+4=0x^2+y^2-8x-2y+4=0x2+y2−8x−2y+4=0বৃত্তকে স্পর্শ করে,kkkএর মান নির্ণয় কর-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$3x + ky - 1 = 0$ রেখাটি $x^{2} + y^{2} - 8x - 2y + 4 = 0$ বৃত্তকে স্পর্শ করে, k এর মান নির্ণয় কর-",
     "options": {
-      "a": "2 , 1 / 6 2,1/6",
-      "b": "− 2 , 1 / 6 −2,1/6",
-      "c": "2 , − 1 / 6 2,−1/6",
-      "d": "− 2 , − 1 / 6 −2,−1/6"
+      "a": "2, 1/6",
+      "b": "-2, 1/6",
+      "c": "2, -1/6",
+      "d": "-2, -1/6"
     },
     "correctAnswer": "c",
-    "explanation": "এখানে, x2+y2−8x−2y+4=0x^2+y^2-8x-2y+4=0x2+y2−8x−2y+4=0 বৃত্তের কেন্দ্র=(4,1)=(4,1)=(4,1)এবং ব্যাসার্ধ,r=13r=\\sqrt{13}r=13 শর্তমতে,r=∣(3×4)+(k×1)−19+k2∣⇒13=∣11+k9+k2∣r=\\begin{vmatrix}\\frac{(3\\times4)+(k\\times1)-1}{\\sqrt{9+k^2}}\\end{vmatrix}\\Rightarrow\\sqrt{13}=\\begin{vmatrix}\\frac{11+k}{\\sqrt{9+k^2}}\\end{vmatrix}r=9+k2(3×4)+(k×1)−1⇒13=9+k211+k ⇒117+13k2=121+22k+k2⇒117+13k^2=121+22k+k^2⇒117+13k2=121+22k+k2 ⇒6k2−11k−2=0 ∴k=2,−16⇒6k^2-11k-2=0\\ \\ \\ \\ \\therefore k=2,-\\frac{1}{6}⇒6k2−11k−2=0 ∴k=2,−61",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243529/gst-question-images/Math_-_______-varsity-arc_q16.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$3x+ky−1=03x+ky-1=03x+ky−1=0রেখাটিx2+y2−8x−2y+4=0x^2+y^2-8x-2y+4=0x2+y2−8x−2y+4=0বৃত্তকে স্পর্শ করে,kkkএর মান নির্ণয় কর-$",
-    "explanationLatex": "$এখানে, x2+y2−8x−2y+4=0x^2+y^2-8x-2y+4=0x2+y2−8x−2y+4=0 বৃত্তের কেন্দ্র=(4,1)=(4,1)=(4,1)এবং ব্যাসার্ধ,r=13r=\\sqrt{13}r=13 শর্তমতে,r=∣(3\\\\times 4)+(k\\\\times 1)−19+k2∣⇒13=∣11+k9+k2∣r=\\begin{vmatrix}\\frac{(3\\times4)+(k\\times1)-1}{\\sqrt{9+k^2}}\\end{vmatrix}\\Rightarrow\\sqrt{13}=\\begin{vmatrix}\\frac{11+k}{\\sqrt{9+k^2}}\\end{vmatrix}r=9+k2(3\\\\times 4)+(k\\\\times 1)−1⇒13=9+k211+k ⇒117+13k2=121+22k+k2⇒117+13k^2=121+22k+k^2⇒117+13k2=121+22k+k2 ⇒6k2−11k−2=0 ∴k=2,−16⇒6k^2-11k-2=0\\ \\ \\ \\ \\therefore k=2,-\\frac{1}{6}⇒6k2−11k−2=0 ∴k=2,−61$"
+    "explanation": "no need"
   },
   {
     "id": 17,
-    "question": "সমীকরণ y = 0 বৃত্তের একটি ব্যাস এবং কেন্দ্র থেকে y - 2 = 0 স্পর্শকের দূরত্ব 2 হলে বৃত্তটির সমীকরণ কী?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "সমীকরণ $y=0$ বৃত্তের একটি ব্যাস এবং কেন্দ্র থেকে $y-2=0$ স্পর্শকের দূরত্ব 2 হলে বৃত্তটির সমীকরণ কী?",
     "options": {
-      "a": "x2 + y2 - 4 = 0",
-      "b": "x2 + y2 + 4 = 0",
-      "c": "x2 + y2 – 1 = 0",
-      "d": "x2 + y2 – 2 = 0"
+      "a": "$x^{2}+y^{2}-4=0$",
+      "b": "$x^{2}+y^{2}+4=0$",
+      "c": "$x^{2}+y^{2}-1=0$",
+      "d": "$x^{2}+y^{2}-2=0$"
     },
     "correctAnswer": "a",
-    "explanation": "কেন্দ্র (0,0) (0,0) (0,0) ব্যাসার্ধ 2 একক। বৃত্তের সমীকরণ: x2+y2=22⇒x2+y2−4=0 x^{2}+y^{2}=2^{2} \\Rightarrow \\mathrm{x}^{2}+\\mathrm{y}^{2}-4=0 x2+y2=22⇒x2+y2−4=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$সমীকরণ y = 0 বৃত্তের একটি ব্যাস এবং কেন্দ্র থেকে y - 2 = 0 স্পর্শকের দূরত্ব 2 হলে বৃত্তটির সমীকরণ কী?$",
-    "explanationLatex": "$কেন্দ্র (0,0) (0,0) (0,0) ব্যাসার্ধ 2 একক। বৃত্তের সমীকরণ: x2+y2=22⇒x2+y2−4=0 x^{2}+y^{2}=2^{2} \\Rightarrow \\mathrm{x}^{2}+\\mathrm{y}^{2}-4=0 x2+y2=22⇒x2+y2−4=0$"
+    "explanation": "no need"
   },
   {
     "id": 18,
-    "question": "একটি বৃত্ত (2,1), (-6,5) ও (-3,-4) বিন্দুত্রয় দিয়ে অতিক্রম করে। বৃত্তটির সমীকরণ কোনটি?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "একটি বৃত্ত (2,1), (-6,5) ও (-3,-4) বিন্দুত্রয় দিয়ে অতিক্রম করে। বৃত্তটির সমীকরণ কোনটি?",
     "options": {
-      "a": "x2+y2+6x-2y-15=0",
-      "b": "x2-y2-6x+2y-15=0",
-      "c": "x2+y2+6x-2y+15=0",
-      "d": "x2+y2-6x+2y-15=0"
+      "a": "$x^{2}+y^{2}+6x-2y-15=0$",
+      "b": "$x^{2}-y^{2}-6x+2y-15=0$",
+      "c": "$x^{2}+y^{2}+6x-2y+15=0$",
+      "d": "$x^{2}+y^{2}-6x+2y-15=0$"
     },
     "correctAnswer": "a",
-    "explanation": "( 2, 1 ), (- 6,5 ) ও ( 3,4) বিন্দুদ্বয় দিয়ে অতিক্রম করে এরূপ বৃত্তের সমীকরণ, (x−2)(x+6)+(y−1)(y−5)(x−2)(1−5)−(y−1)(2+6)=(−3−2)(→3+6)+(−4−1)(−4−5)(−3−2)(1−5)−(4−1)(2+6)\\frac{(x-2)(x+6)+(y−1)(y−5)}{(x-2)(1-5)-(y−1)(2+6)}=\\frac{(-3-2)(→3+6)+(−4−1)(−4-5)}{(-3-2)(1-5)-(4-1)(2+6)}(x−2)(1−5)−(y−1)(2+6)(x−2)(x+6)+(y−1)(y−5)=(−3−2)(1−5)−(4−1)(2+6)(−3−2)(→3+6)+(−4−1)(−4−5) ⇒x2+6x−2x−12+y2−6y+5−4x+8−8y+8=12\\Rightarrow\\frac{x^2+6x-2x-12+y^2-6y+5}{-4x+8-8y+8}=\\frac{1}{2}⇒−4x+8−8y+8x2+6x−2x−12+y2−6y+5=21 ⇒x2+4x−12+y2−6y+5=−2x+4−4y+4\\Rightarrow x^2+4x-12+y^2-6y+5=-2x+4−4y+4⇒x2+4x−12+y2−6y+5=−2x+4−4y+4 ⇒x2+y2+4x−6y−7+2x−4+4y−4=0\\Rightarrow x^2+y^2+4x-6y-7+2x-4+4y-4=0⇒x2+y2+4x−6y−7+2x−4+4y−4=0 ⇒x2+y2+6x−2y−15=0\\Rightarrow x^2+y^2+6x-2y-15=0⇒x2+y2+6x−2y−15=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "একটি বৃত্ত (2,1), (-6,5) ও (-3,-4) বিন্দুত্রয় দিয়ে অতিক্রম করে। বৃত্তটির সমীকরণ কোনটি?",
-    "explanationLatex": "$( 2, 1 ), (- 6,5 ) ও ( 3,4) বিন্দুদ্বয় দিয়ে অতিক্রম করে এরূপ বৃত্তের সমীকরণ, (x−2)(x+6)+(y−1)(y−5)(x−2)(1−5)−(y−1)(2+6)=(−3−2)(→3+6)+(−4−1)(−4−5)(−3−2)(1−5)−(4−1)(2+6)\\frac{(x-2)(x+6)+(y−1)(y−5)}{(x-2)(1-5)-(y−1)(2+6)}=\\frac{(-3-2)(→3+6)+(−4−1)(−4-5)}{(-3-2)(1-5)-(4-1)(2+6)}(x−2)(1−5)−(y−1)(2+6)(x−2)(x+6)+(y−1)(y−5)=(−3−2)(1−5)−(4−1)(2+6)(−3−2)(→3+6)+(−4−1)(−4−5) ⇒x2+6x−2x−12+y2−6y+5−4x+8−8y+8=12\\Rightarrow\\frac{x^2+6x-2x-12+y^2-6y+5}{-4x+8-8y+8}=\\frac{1}{2}⇒−4x+8−8y+8x2+6x−2x−12+y2−6y+5=21 ⇒x2+4x−12+y2−6y+5=−2x+4−4y+4\\Rightarrow x^2+4x-12+y^2-6y+5=-2x+4−4y+4⇒x2+4x−12+y2−6y+5=−2x+4−4y+4 ⇒x2+y2+4x−6y−7+2x−4+4y−4=0\\Rightarrow x^2+y^2+4x-6y-7+2x-4+4y-4=0⇒x2+y2+4x−6y−7+2x−4+4y−4=0 ⇒x2+y2+6x−2y−15=0\\Rightarrow x^2+y^2+6x-2y-15=0⇒x2+y2+6x−2y−15=0$"
+    "explanation": "no need"
   },
   {
     "id": 19,
-    "question": "বৃত্তদ্বয়ের কয়টি সাধারণ স্পর্শক হতে পারে?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "পরস্পরচ্ছেদী বৃত্তদ্বয়ের কয়টি সাধারণ স্পর্শক হতে পারে?",
     "options": {
       "a": "2",
       "b": "3",
@@ -369,19 +263,13 @@
       "d": "1"
     },
     "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) 2।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243531/gst-question-images/Math_-_______-varsity-arc_q19.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "বৃত্তদ্বয়ের কয়টি সাধারণ স্পর্শক হতে পারে?",
-    "explanationLatex": "সঠিক উত্তর: (a) 2।"
+    "explanation": "no need"
   },
   {
     "id": 20,
-    "question": "(4,-8) কেন্দ্রবিশিষ্ট বৃত্তটি y-অক্ষকে স্পর্শ করে। বৃত্তের ব্যাসার্ধ কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$(4,-8)$ কেন্দ্রবিশিষ্ট বৃত্তটি y-অক্ষকে স্পর্শ করে। বৃত্তের ব্যাসার্ধ কত?",
     "options": {
       "a": "2",
       "b": "3",
@@ -389,59 +277,41 @@
       "d": "8"
     },
     "correctAnswer": "c",
-    "explanation": "x2+y2+2⋅(4)x+2⋅(−8)y+c=0 x^{2}+y^{2}+2 \\cdot(4) x+2 \\cdot(-8) y+c=0 x2+y2+2⋅(4)x+2⋅(−8)y+c=0 ⇒x2+y2−8x−16y+c=0 \\Rightarrow x^{2}+y^{2}-8 x-16 y+c=0 ⇒x2+y2−8x−16y+c=0 y অক্ষকে স্পর্শ করে x2+y2−8x−16y+64=0 ব্যাসার্ধ 42+82−64=4 \\begin{array}{l}x^{2}+y^{2}-8 x-16 y+64=0 \\\\ \\text { ব্যাসার্ধ } \\sqrt{4^{2}+8^{2}-64}=4 \\\\\\end{array} x2+y2−8x−16y+64=0 ব্যাসার্ধ 42+82−64=4",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "(4,-8) কেন্দ্রবিশিষ্ট বৃত্তটি y-অক্ষকে স্পর্শ করে। বৃত্তের ব্যাসার্ধ কত?",
-    "explanationLatex": "$x2+y2+2⋅(4)x+2⋅(−8)y+c=0 x^{2}+y^{2}+2 \\cdot(4) x+2 \\cdot(-8) y+c=0 x2+y2+2⋅(4)x+2⋅(−8)y+c=0 ⇒x2+y2−8x−16y+c=0 \\Rightarrow x^{2}+y^{2}-8 x-16 y+c=0 ⇒x2+y2−8x−16y+c=0 y অক্ষকে স্পর্শ করে x2+y2−8x−16y+64=0 ব্যাসার্ধ 42+82−64=4 \\begin{array}{l}x^{2}+y^{2}-8 x-16 y+64=0 \\\\ \\text { ব্যাসার্ধ } \\sqrt{4^{2}+8^{2}-64}=4 \\\\\\end{array} x2+y2−8x−16y+64=0 ব্যাসার্ধ 42+82−64=4$"
+    "explanation": "no need"
   },
   {
     "id": 21,
-    "question": "x2+y2+2x-4y+4=0 বৃত্তের একটি স্পর্শক-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}+2x-4y+4=0$ বৃত্তের একটি স্পর্শক-",
     "options": {
-      "a": "x=0",
-      "b": "x=2",
-      "c": "y=2",
-      "d": "y=4"
+      "a": "$x=0$",
+      "b": "$x=2$",
+      "c": "$y=2$",
+      "d": "$y=4$"
     },
     "correctAnswer": "a",
-    "explanation": "বৃত্ত হতে পাই, g=1,f=−2 g=1, f=-2 g=1,f=−2 এবং c=4 c=4 c=4 এখানে, f2=(−2)2=4=c \\mathrm{f}^{2}=(-2)^{2}=4=\\mathrm{c} f2=(−2)2=4=c ∴ \\therefore ∴ বৃত্তটি, y \\mathrm{y} y অক্ষ বা x=0 \\mathrm{x}=0 x=0 রেখাকে স্পর্শ করে ∴x=0 \\therefore \\mathrm{x}=0 ∴x=0 বৃত্তের একটি স্পর্শক।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2+2x-4y+4=0 বৃত্তের একটি স্পর্শক-$",
-    "explanationLatex": "$বৃত্ত হতে পাই, g=1,f=−2 g=1, f=-2 g=1,f=−2 এবং c=4 c=4 c=4 এখানে, f2=(−2)2=4=c \\mathrm{f}^{2}=(-2)^{2}=4=\\mathrm{c} f2=(−2)2=4=c ∴ \\therefore ∴ বৃত্তটি, y \\mathrm{y} y অক্ষ বা x=0 \\mathrm{x}=0 x=0 রেখাকে স্পর্শ করে ∴x=0 \\therefore \\mathrm{x}=0 ∴x=0 বৃত্তের একটি স্পর্শক।$"
+    "explanation": "no need"
   },
   {
     "id": 22,
-    "question": "মূলবিন্দুগামী একটি বৃত্ত ধনাত্মক x-অক্ষ হতে 4 একক এবং ধনাত্মক y- অক্ষ হতে 2 একক অংশ কর্তন করলে, এর সমীকরণ হবে-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "মূলবিন্দুগামী একটি বৃত্ত ধনাত্মক x-অক্ষ হতে 4 একক এবং ধনাত্মক y-অক্ষ হতে 2 একক অংশ কর্তন করলে, এর সমীকরণ হবে-",
     "options": {
-      "a": "x2 + y2 - 4x - 2y = 0",
-      "b": "x2 + y2 + 4x + 2y = 0",
-      "c": "x2 + y2 + 2x + 4y = 0",
-      "d": "x2 + y2 – 2x - 4y = 0"
+      "a": "$x^{2}+y^{2}-4x-2y=0$",
+      "b": "$x^{2}+y^{2}+4x+2y=0$",
+      "c": "$x^{2}+y^{2}+2x+4y=0$",
+      "d": "$x^{2}+y^{2}-2x-4y=0$"
     },
     "correctAnswer": "a",
-    "explanation": "ধরি, A(4,0);B(0,2) \\mathrm{A}(4,0) ; \\mathrm{B}(0,2) A(4,0);B(0,2) ∴AB \\therefore \\mathrm{AB} ∴AB বৃত্তের ব্যাস ∴ \\therefore ∴ বৃত্তের সমীকরণ (x−4)(x−0)+(y0)(y−2)=0⇒x2−4x+y2−2y=0⇒x2+y2−4x−2y=0 \\begin{array}{l} (x-4)(x-0)+\\left(\\begin{array}{ll} y & 0 \\end{array}\\right)(y-2)=0 \\\\ \\Rightarrow x^{2}-4 x+y^{2}-2 y=0 \\\\ \\Rightarrow x^{2}+y^{2}-4 x-2 y=0 \\end{array} (x−4)(x−0)+(y0)(y−2)=0⇒x2−4x+y2−2y=0⇒x2+y2−4x−2y=0",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243532/gst-question-images/Math_-_______-varsity-arc_q22.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "মূলবিন্দুগামী একটি বৃত্ত ধনাত্মক x-অক্ষ হতে 4 একক এবং ধনাত্মক y- অক্ষ হতে 2 একক অংশ কর্তন করলে, এর সমীকরণ হবে-",
-    "explanationLatex": "$ধরি, A(4,0);B(0,2) \\mathrm{A}(4,0) ; \\mathrm{B}(0,2) A(4,0);B(0,2) ∴AB \\therefore \\mathrm{AB} ∴AB বৃত্তের ব্যাস ∴ \\therefore ∴ বৃত্তের সমীকরণ (x−4)(x−0)+(y0)(y−2)=0⇒x2−4x+y2−2y=0⇒x2+y2−4x−2y=0 \\begin{array}{l} (x-4)(x-0)+\\left(\\begin{array}{ll} y & 0 \\end{array}\\right)(y-2)=0 \\\\ \\Rightarrow x^{2}-4 x+y^{2}-2 y=0 \\\\ \\Rightarrow x^{2}+y^{2}-4 x-2 y=0 \\end{array} (x−4)(x−0)+(y0)(y−2)=0⇒x2−4x+y2−2y=0⇒x2+y2−4x−2y=0$"
+    "explanation": "no need"
   },
   {
     "id": 23,
-    "question": "2x=acosθ+1, y=sin⁡θ2x=a cos{\\theta+1,\\ y=\\sin{\\theta}}2x=acosθ+1, y=sinθ বৃত্তের সমীকরণ হলে a=?a=?a=?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$2x=a\\cos\\theta+1$, $y=\\sin\\theta$ বৃত্তের সমীকরণ হলে $a=?$",
     "options": {
       "a": "4",
       "b": "1",
@@ -449,219 +319,153 @@
       "d": "2"
     },
     "correctAnswer": "d",
-    "explanation": "Solution: y=sinθy=sin\\thetay=sinθ 2x=acosθ+12x=acos\\theta+1 2x=acosθ+1 ⇒2x−1=acosθ⇒2x−1a=cosθ\\Rightarrow 2x-1=acos\\theta \\Rightarrow \\frac{2x-1}{a}=cos\\theta⇒2x−1=acosθ⇒a2x−1=cosθ Now, (2x−1a)2+y2=1;Now,\\ \\ \\left(\\frac{2x-1}{a}\\right)^2+y^2=1 ;Now, (a2x−1)2+y2=1; যেহেতু x2x^2x2 এবং y2y^2 y2 এর সহগ সমান, 4a2=1⇒a=2\\frac{4}{a^2}=1\\Rightarrow a=2a24=1⇒a=2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$2x=acos\\\\theta +1, y=sin⁡\\\\theta 2x=a cos{\\theta+1,\\ y=\\sin{\\theta}}2x=acos\\\\theta +1, y=sin\\\\theta  বৃত্তের সমীকরণ হলে a=?a=?a=?$",
-    "explanationLatex": "$Solution: y=sin\\\\theta y=sin\\thetay=sin\\\\theta  2x=acos\\\\theta +12x=acos\\theta+1 2x=acos\\\\theta +1 ⇒2x−1=acos\\\\theta ⇒2x−1a=cos\\\\theta \\Rightarrow 2x-1=acos\\theta \\Rightarrow \\frac{2x-1}{a}=cos\\theta⇒2x−1=acos\\\\theta ⇒a2x−1=cos\\\\theta  Now, (2x−1a)2+y2=1;Now,\\ \\ \\left(\\frac{2x-1}{a}\\right)^2+y^2=1 ;Now, (a2x−1)2+y2=1; যেহেতু x2x^2x2 এবং y2y^2 y2 এর সহগ সমান, 4a2=1⇒a=2\\frac{4}{a^2}=1\\Rightarrow a=2a24=1⇒a=2$"
+    "explanation": "no need"
   },
   {
     "id": 24,
-    "question": "x=a(cos⁡θ−1) x=a(\\cos \\theta-1) x=a(cosθ−1) এবং y=a(sin⁡θ+1) y=a(\\sin \\theta+1) y=a(sinθ+1) হলে, বৃত্তের কেন্দ্রের স্থানাঙ্ক নির্ণয় কর।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x=a(\\cos\\theta-1)$ এবং $y=a(\\sin\\theta+1)$ হলে, বৃত্তের কেন্দ্রের স্থানাঙ্ক নির্ণয় কর।",
     "options": {
-      "a": "( − 𝑎 , 𝑎 ) (−a,a)",
-      "b": "( − 𝑎 , − 𝑎 ) (−a,−a)",
-      "c": "( 𝑎 , 𝑎 ) (a,a)",
-      "d": "( 𝑎 , − 𝑎 ) (a,−a)"
+      "a": "(-a, a)",
+      "b": "(-a, -a)",
+      "c": "(a, a)",
+      "d": "(a, -a)"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: x=a(cos⁡θ−1)=acos⁡θ−a x=a(\\cos \\theta-1)=\\mathrm{a} \\cos \\theta-\\mathrm{a} x=a(cosθ−1)=acosθ−a⇒acos⁡θ=x+a \\Rightarrow \\mathrm{a} \\cos \\theta=\\mathrm{x}+\\mathrm{a} ⇒acosθ=x+a আবার, y=a(sin⁡θ+1)=asin⁡θ+a y=a(\\sin \\theta+1)=a \\sin \\theta+a y=a(sinθ+1)=asinθ+a ⇒asin⁡θ=y−a \\Rightarrow a \\sin \\theta=\\mathrm{y}-\\mathrm{a} ⇒asinθ=y−a এখন, a2cos⁡2θ+a2sin⁡2θ=(x+a)2+(y−a)2 a^{2} \\cos ^{2} \\theta+a^{2} \\sin ^{2} \\theta=(x+a)^{2}+(y-a)^{2} a2cos2θ+a2sin2θ=(x+a)2+(y−a)2 ∴(x+a)2+(y−a)2=a2 \\therefore \\quad(x+a)^{2}+(y-a)^{2}=a^{2} ∴(x+a)2+(y−a)2=a2, যা বৃত্তটির কার্তেসীয় সমীকরণ । বৃত্তটির ব্যাসার্ধ a a a এবং কেন্দ্র (−a,a) (-a,a) (−a,a).",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x=a(cos⁡\\\\theta −1) x=a(\\cos \\theta-1) x=a(cos\\\\theta −1) এবং y=a(sin⁡\\\\theta +1) y=a(\\sin \\theta+1) y=a(sin\\\\theta +1) হলে, বৃত্তের কেন্দ্রের স্থানাঙ্ক নির্ণয় কর।$",
-    "explanationLatex": "$Solve: x=a(cos⁡\\\\theta −1)=acos⁡\\\\theta −a x=a(\\cos \\theta-1)=\\mathrm{a} \\cos \\theta-\\mathrm{a} x=a(cos\\\\theta −1)=acos\\\\theta −a⇒acos⁡\\\\theta =x+a \\Rightarrow \\mathrm{a} \\cos \\theta=\\mathrm{x}+\\mathrm{a} ⇒acos\\\\theta =x+a আবার, y=a(sin⁡\\\\theta +1)=asin⁡\\\\theta +a y=a(\\sin \\theta+1)=a \\sin \\theta+a y=a(sin\\\\theta +1)=asin\\\\theta +a ⇒asin⁡\\\\theta =y−a \\Rightarrow a \\sin \\theta=\\mathrm{y}-\\mathrm{a} ⇒asin\\\\theta =y−a এখন, a2cos⁡2\\\\theta +a2sin⁡2\\\\theta =(x+a)2+(y−a)2 a^{2} \\cos ^{2} \\theta+a^{2} \\sin ^{2} \\theta=(x+a)^{2}+(y-a)^{2} a2cos2\\\\theta +a2sin2\\\\theta =(x+a)2+(y−a)2 ∴(x+a)2+(y−a)2=a2 \\therefore \\quad(x+a)^{2}+(y-a)^{2}=a^{2} ∴(x+a)2+(y−a)2=a2, যা বৃত্তটির কার্তেসীয় সমীকরণ । বৃত্তটির ব্যাসার্ধ a a a এবং কেন্দ্র (−a,a) (-a,a) (−a,a).$"
+    "explanation": "no need"
   },
   {
     "id": 25,
-    "question": "x2+y2-4x+6y-12=0 বৃত্তের ক্ষেত্রফল",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-4x+6y-12=0$ বৃত্তের ক্ষেত্রফল কত?",
     "options": {
-      "a": "4π",
-      "b": "6π",
-      "c": "8π",
-      "d": "25π"
+      "a": "4",
+      "b": "$6\\pi$",
+      "c": "8",
+      "d": "$25\\pi$"
     },
     "correctAnswer": "d",
-    "explanation": "r=g2+f2−e=22+32+12=5∴ (3) ক্ষেত্রফল =πR2=25π \\begin{array}{l}r=\\sqrt{g^{2}+f^{2}-e}=\\sqrt{2^{2}+3^{2}+12}=5 \\\\ \\therefore \\text { (3) ক্ষেত্রফল }=\\pi R^{2}=25 \\pi\\end{array} r=g2+f2−e=22+32+12=5∴ (3) ক্ষেত্রফল =πR2=25π",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2-4x+6y-12=0 বৃত্তের ক্ষেত্রফল$",
-    "explanationLatex": "$r=g2+f2−e=22+32+12=5∴ (3) ক্ষেত্রফল =\\\\pi R2=25\\\\pi  \\begin{array}{l}r=\\sqrt{g^{2}+f^{2}-e}=\\sqrt{2^{2}+3^{2}+12}=5 \\\\ \\therefore \\text { (3) ক্ষেত্রফল }=\\pi R^{2}=25 \\pi\\end{array} r=g2+f2−e=22+32+12=5∴ (3) ক্ষেত্রফল =\\\\pi R2=25\\\\pi $"
+    "explanation": "no need"
   },
   {
     "id": 26,
-    "question": "(1,−1)(1,-1)(1,−1) হতে 2x2+2y2−x+3y+1=02x^2+2y^2-x+3y+1=02x2+2y2−x+3y+1=0 বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত একক?",
-    "options": {
-      "a": "1 2 2 1",
-      "b": "1 2 2 1",
-      "c": "1-Jan",
-      "d": "3-Jan"
-    },
-    "correctAnswer": "a",
-    "explanation": "2x2+2y2−x+3y+1=0⇒x2+y2−x2+3y2+12=0 (…i) \\begin{array}{l}2 x^{2}+2 y^{2}-x+3 y+1=0 \\\\ \\Rightarrow x^{2}+y^{2}-\\frac{x}{2}+\\frac{3 y}{2}+\\frac{1}{2}=0\\text { (…i) }\\end{array} 2x2+2y2−x+3y+1=0⇒x2+y2−2x+23y+21=0 (…i) (1, - 1) হতে (i) নং বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য =12+(−1)2−12−32+1/2=12 \\begin{array}{l}=\\sqrt{1^{2}+(-1)^{2}-\\frac{1}{2}-\\frac{3}{2}+1 / 2} \\\\ =\\frac{1}{\\sqrt{2}}\\end{array} =12+(−1)2−21−23+1/2=21",
     "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$(1,−1)(1,-1)(1,−1) হতে 2x2+2y2−x+3y+1=02x^2+2y^2-x+3y+1=02x2+2y2−x+3y+1=0 বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত একক?$",
-    "explanationLatex": "$2x2+2y2−x+3y+1=0⇒x2+y2−x2+3y2+12=0 (…i) \\begin{array}{l}2 x^{2}+2 y^{2}-x+3 y+1=0 \\\\ \\Rightarrow x^{2}+y^{2}-\\frac{x}{2}+\\frac{3 y}{2}+\\frac{1}{2}=0\\text { (…i) }\\end{array} 2x2+2y2−x+3y+1=0⇒x2+y2−2x+23y+21=0 (…i) (1, - 1) হতে (i) নং বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য =12+(−1)2−12−32+\\frac{1}{2}=12 \\begin{array}{l}=\\sqrt{1^{2}+(-1)^{2}-\\frac{1}{2}-\\frac{3}{2}+\\frac{1}{2}} \\\\ =\\frac{1}{\\sqrt{2}}\\end{array} =12+(−1)2−21−23+\\frac{1}{2}=21$"
+    "topic": "বৃত্ত",
+    "question": "(1,-1) হতে $2x^{2}+2y^{2}-x+3y+1=0$ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত একক?",
+    "options": {
+      "a": "1/2",
+      "b": "$1/\\sqrt{2}$",
+      "c": "1",
+      "d": "3"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
   },
   {
     "id": 27,
-    "question": "যদি (x−3)2+(y−2)2=25 (x-3)^{2} + (y-2)^{2} = 25 (x−3)2+(y−2)2=25 হয়, তবে এই বৃত্তের জ্যার দৈর্ঘ্য কত একক যদি কেন্দ্র থেকে π2 \\frac{\\pi}{2} 2π কোণ তৈরি হয়?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "যদি $(x-3)^{2}+(y-2)^{2}=25$ হয়, তবে এই বৃত্তের জ্যার দৈর্ঘ্য কত একক যদি কেন্দ্র থেকে কোণ $\\pi/2$ তৈরি হয়?",
     "options": {
-      "a": "5 3 5 3",
-      "b": "5 3 2 2 5 3",
-      "c": "5 2 5 2",
-      "d": "7 3 7 3"
+      "a": "$5\\sqrt{3}$",
+      "b": "$\\frac{5\\sqrt{3}}{2}$",
+      "c": "$5\\sqrt{2}$",
+      "d": "$7\\sqrt{3}$"
     },
     "correctAnswer": "c",
-    "explanation": "বৃত্তটির ব্যাসার্ধ r=5 r=5 r=5 ∴ জ্যা এর দৈর্ঘ্য =52+52=52 \\begin{aligned} \\therefore \\text { জ্যা এর দৈর্ঘ্য } & =\\sqrt{5^{2}+5^{2}} \\\\ & =5 \\sqrt{2} \\end{aligned} ∴ জ্যা এর দৈর্ঘ্য =52+52=52",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243533/gst-question-images/Math_-_______-varsity-arc_q27.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি (x−3)2+(y−2)2=25 (x-3)^{2} + (y-2)^{2} = 25 (x−3)2+(y−2)2=25 হয়, তবে এই বৃত্তের জ্যার দৈর্ঘ্য কত একক যদি কেন্দ্র থেকে \\\\pi 2 \\frac{\\pi}{2} 2\\\\pi  কোণ তৈরি হয়?$",
-    "explanationLatex": "$বৃত্তটির ব্যাসার্ধ r=5 r=5 r=5 ∴ জ্যা এর দৈর্ঘ্য =52+52=52 \\begin{aligned} \\therefore \\text { জ্যা এর দৈর্ঘ্য } & =\\sqrt{5^{2}+5^{2}} \\\\ & =5 \\sqrt{2} \\end{aligned} ∴ জ্যা এর দৈর্ঘ্য =52+52=52$"
+    "explanation": "no need"
   },
   {
     "id": 28,
-    "question": "একটি বৃত্ত x=0, y=0, x=a এবং y=a সমীকরণগুলোকে স্পর্শ করে। বৃত্তটির সমীকরণ —",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "একটি বৃত্ত $x=0$, $y=0$, $x=a$ এবং $y=a$ সমীকরণগুলোকে স্পর্শ করে। বৃত্তটির সমীকরণ -",
     "options": {
-      "a": "x2 + y2 – ax – ay = 0",
-      "b": "x2 + y2 = a2",
-      "c": "4(x2 + y2) = a2",
-      "d": "4(x2 + y2) – 4a(x + y) + a2 = 0"
+      "a": "$x^{2}+y^{2}-ax-ay=0$",
+      "b": "$x^{2}+y^{2}=a^{2}$",
+      "c": "$4(x^{2}+y^{2})=a^{2}$",
+      "d": "$4(x^{2}+y^{2})-4a(x+y)+a^{2}=0$"
     },
     "correctAnswer": "d",
-    "explanation": "কেন্দ্র a/2, a/2 ও ব্যাসার্ধ a/2 সমী- ∴(x−a2)2+(y−a2)2=(a2)2⇒4x2−4ax+a2+4y2−4ay+a2=a24(x2+y2)−4a(x+y)+a2=0 \\begin{array}{l}\\therefore\\left(x-\\frac{a}{2}\\right)^{2}+\\left(y-\\frac{a}{2}\\right)^{2}=\\left(\\frac{a}{2}\\right)^{2} \\\\ \\Rightarrow 4 x^{2}-4 a x+a^{2} \\\\ +4 y^{2}-4 a y+a^{2}=a^{2} \\\\ 4\\left(x^{2}+y^{2}\\right)-4 a(x+y)+a^{2}=0\\end{array} ∴(x−2a)2+(y−2a)2=(2a)2⇒4x2−4ax+a2+4y2−4ay+a2=a24(x2+y2)−4a(x+y)+a2=0",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243534/gst-question-images/Math_-_______-varsity-arc_q28.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$একটি বৃত্ত x=0, y=0, x=a এবং y=a সমীকরণগুলোকে স্পর্শ করে। বৃত্তটির সমীকরণ —$",
-    "explanationLatex": "$কেন্দ্র \\frac{a}{2}, \\frac{a}{2} ও ব্যাসার্ধ \\frac{a}{2} সমী- ∴(x−a2)2+(y−a2)2=(a2)2⇒4x2−4ax+a2+4y2−4ay+a2=a24(x2+y2)−4a(x+y)+a2=0 \\begin{array}{l}\\therefore\\left(x-\\frac{a}{2}\\right)^{2}+\\left(y-\\frac{a}{2}\\right)^{2}=\\left(\\frac{a}{2}\\right)^{2} \\\\ \\Rightarrow 4 x^{2}-4 a x+a^{2} \\\\ +4 y^{2}-4 a y+a^{2}=a^{2} \\\\ 4\\left(x^{2}+y^{2}\\right)-4 a(x+y)+a^{2}=0\\end{array} ∴(x−2a)2+(y−2a)2=(2a)2⇒4x2−4ax+a2+4y2−4ay+a2=a24(x2+y2)−4a(x+y)+a2=0$"
+    "explanation": "no need"
   },
   {
     "id": 29,
-    "question": "x2+y2+2x−7y+5=0x^2+y^2+2x-7y+5=0x2+y2+2x−7y+5=0 বৃত্তটি-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}+2x-7y+5=0$ বৃত্তটি-",
     "options": {
       "a": "x অক্ষকে ছেদ করে না",
       "b": "y অক্ষকে ছেদ করে",
       "c": "Both a & b",
       "d": "None"
     },
-    "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) x অক্ষকে ছেদ করে না।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243535/gst-question-images/Math_-_______-varsity-arc_q29.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2+2x−7y+5=0x^2+y^2+2x-7y+5=0x2+y2+2x−7y+5=0 বৃত্তটি-$",
-    "explanationLatex": "সঠিক উত্তর: (a) x অক্ষকে ছেদ করে না।"
+    "correctAnswer": "c",
+    "explanation": "no need"
   },
   {
     "id": 30,
-    "question": "3x2 + 3y2 – 5x - 6y + 4 = 0 বৃত্তটির কেন্দ্র-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$3x^{2}+3y^{2}-5x-6y+4=0$ বৃত্তটির কেন্দ্র-",
     "options": {
-      "a": "(1,2/3)",
-      "b": "(5/6,1)",
-      "c": "(5/3,1)",
-      "d": "(2/3,-1)"
+      "a": "(1, 2/3)",
+      "b": "(5/6, 1)",
+      "c": "(5/3, 1)",
+      "d": "(2/3, -1)"
     },
     "correctAnswer": "b",
-    "explanation": "3x2+3y2-5x-6y+4=0 ⇒x2+y2-53x-2y+43=0 ⇒x2+y2+2.(-56)x+2(-1)y+43=0 ∴বৃত্তের কেন্দ্র(56,1)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$3x2 + 3y2 – 5x - 6y + 4 = 0 বৃত্তটির কেন্দ্র-$",
-    "explanationLatex": "$3x2+3y2-5x-6y+4=0 ⇒x2+y2-53x-2y+43=0 ⇒x2+y2+2.(-56)x+2(-1)y+43=0 ∴বৃত্তের কেন্দ্র(56,1)$"
+    "explanation": "no need"
   },
   {
     "id": 31,
-    "question": "x2 + y2 - 8x - 10y - 8 = 0 বৃত্তে অঙ্কিত স্পর্শক 3x - 4y + 11 = 0 রেখার সমান্তরাল। স্পর্শকের সমীকরণ কি হবে?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-8x-10y-8=0$ বৃত্তে অঙ্কিত স্পর্শক $3x-4y+11=0$ রেখার সমান্তরাল। স্পর্শকের সমীকরণ কি হবে?",
     "options": {
-      "a": "3x - 4y - 27 = 0; 3x - 4y + 43 = 0",
-      "b": "4x - 3y - 27 = 0; 4x - y - 18 = 0",
-      "c": "3x - y - 10 = 0; 3x - y + 12 = 0",
-      "d": "3x - 10y - 11 = 0; 3x - 10y + 11 = 0"
+      "a": "$3x-4y-27=0$; $3x-4y+43=0$",
+      "b": "$4x-3y-27=0$; $4x-y-18=0$",
+      "c": "$3x-y-10=0$; $3x-y+12=0$",
+      "d": "$3x-10y-11=0$; $3x-10y+11=0$"
     },
     "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) 3x - 4y - 27 = 0; 3x - 4y + 43 = 0।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243537/gst-question-images/Math_-_______-varsity-arc_q31.jpg",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2 + y2 - 8x - 10y - 8 = 0 বৃত্তে অঙ্কিত স্পর্শক 3x - 4y + 11 = 0 রেখার সমান্তরাল। স্পর্শকের সমীকরণ কি হবে?$",
-    "explanationLatex": "$সঠিক উত্তর: (a) 3x - 4y - 27 = 0; 3x - 4y + 43 = 0।$"
+    "explanation": "no need"
   },
   {
     "id": 32,
-    "question": "x2+4x+(y-3)2=0 বৃত্তের মধ্য দিয়ে A(0,3) বিন্দু হতে একটি জ্যা AB, M বিন্দু দিয়ে যায় । M বিন্দুর সঞ্চারপথ কী?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+4x+(y-3)^{2}=0$ বৃত্তের মধ্য দিয়ে $A(0,3)$ বিন্দু হতে একটি জ্যা AB, M বিন্দু দিয়ে যায়। M বিন্দুর সঞ্চারপথ কী?",
     "options": {
       "a": "সরলরেখা",
       "b": "বৃত্ত",
-      "c": "পরাবৃত",
-      "d": "কোনোটিই নয়"
+      "c": "পরাবৃত্ত",
+      "d": "কোনোটিই নয়"
     },
     "correctAnswer": "b",
-    "explanation": "x2+4x+(y−3)2=0x^2 + 4x + (y - 3)^2 = 0x2+4x+(y−3)2=0 ⇒\\Rightarrow⇒ (x+2)2−4+(y−3)2=0(x + 2)^2 - 4 + (y - 3)^2 = 0(x+2)2−4+(y−3)2=0 ⇒\\Rightarrow⇒ (x+2)2+(y−3)2=4(x + 2)^2 + (y - 3)^2 = 4(x+2)2+(y−3)2=4 এখানে, বৃত্তের কেন্দ্র (-2, 3) এবং ব্যাসার্ধ , r = √4 = 2 প্রশ্নমতে, M বিন্দু দিয়ে জ্যা AB যায়। ∵\\because∵ M বিন্দু এবং A(0,3) বৃত্তের উপর আছে। ∴\\therefore∴M বিন্দুর সঞ্চারপথ হবে বৃত্তের মধ্যে দিয়ে যাওয়ার সাপেক্ষে। অর্থাৎ, M বিন্দুর সঞ্চারপথ হবে বৃত্তের উপর দিয়ে।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+4x+(y-3)2=0 বৃত্তের মধ্য দিয়ে A(0,3) বিন্দু হতে একটি জ্যা AB, M বিন্দু দিয়ে যায় । M বিন্দুর সঞ্চারপথ কী?$",
-    "explanationLatex": "$x2+4x+(y−3)2=0x^2 + 4x + (y - 3)^2 = 0x2+4x+(y−3)2=0 ⇒\\Rightarrow⇒ (x+2)2−4+(y−3)2=0(x + 2)^2 - 4 + (y - 3)^2 = 0(x+2)2−4+(y−3)2=0 ⇒\\Rightarrow⇒ (x+2)2+(y−3)2=4(x + 2)^2 + (y - 3)^2 = 4(x+2)2+(y−3)2=4 এখানে, বৃত্তের কেন্দ্র (-2, 3) এবং ব্যাসার্ধ , r = \\\\sqrt{}4 = 2 প্রশ্নমতে, M বিন্দু দিয়ে জ্যা AB যায়। ∵\\because∵ M বিন্দু এবং A(0,3) বৃত্তের উপর আছে। ∴\\therefore∴M বিন্দুর সঞ্চারপথ হবে বৃত্তের মধ্যে দিয়ে যাওয়ার সাপেক্ষে। অর্থাৎ, M বিন্দুর সঞ্চারপথ হবে বৃত্তের উপর দিয়ে।$"
+    "explanation": "no need"
   },
   {
     "id": 33,
-    "question": "lx + my = 1 রেখাটি x2 + y2 –2px = 0 বৃত্তকে স্পর্শ করলে p2m2 + 2pl = কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$lx+my=1$ রেখাটি $x^{2}+y^{2}-2px=0$ বৃত্তকে স্পর্শ করলে $p^{2}m^{2}+2pl=?$",
     "options": {
-      "a": "p2",
-      "b": "lm",
-      "c": "l2m2",
+      "a": "$p^{2}$",
+      "b": "$lm$",
+      "c": "$l^{2}m^{2}$",
       "d": "1"
     },
     "correctAnswer": "d",
-    "explanation": "সঠিক উত্তর: (d) 1।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243540/gst-question-images/Math_-_______-varsity-arc_q33.jpg",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lx + my = 1 রেখাটি x2 + y2 –2px = 0 বৃত্তকে স্পর্শ করলে p2m2 + 2pl = কত?$",
-    "explanationLatex": "সঠিক উত্তর: (d) 1।"
+    "explanation": "no need"
   },
   {
     "id": 34,
-    "question": "3x + by - 1 =0 ; x2 + y2 - 8y - 2y + 4 =0 বৃত্তকে স্পর্শ করে। b এর মান কত ?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$3x+by-1=0$ রেখাটি $x^{2}+y^{2}-8x-2y+4=0$ বৃত্তকে স্পর্শ করে। b এর মান কত?",
     "options": {
       "a": "2, -1/6",
       "b": "12, -1",
@@ -669,99 +473,69 @@
       "d": "1/2, -1/6"
     },
     "correctAnswer": "a",
-    "explanation": "প্রদত্ত বৃত্তের কেন্দ্র (4,1) (4,1) (4,1) ও ব্যাসার্ধ 13 \\sqrt{13} 13 ∴∣3.4+b⋅1−19+b2∣=13⇒13(9+b2)=b2+22b+121⇒12b2−22b−4=0∴k=2,−16 \\begin{array}{l} \\therefore\\left|\\frac{3.4+b \\cdot 1-1}{\\sqrt{9+b^{2}}}\\right|=\\sqrt{13} \\Rightarrow 13\\left(9+b^{2}\\right)=b^{2}+22 b+121 \\\\ \\Rightarrow 12 b^{2}-22 b-4=0 \\therefore k=2,-\\frac{1}{6} \\end{array} ∴9+b23.4+b⋅1−1=13⇒13(9+b2)=b2+22b+121⇒12b2−22b−4=0∴k=2,−61",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$3x + by - 1 =0 ; x2 + y2 - 8y - 2y + 4 =0 বৃত্তকে স্পর্শ করে। b এর মান কত ?$",
-    "explanationLatex": "$প্রদত্ত বৃত্তের কেন্দ্র (4,1) (4,1) (4,1) ও ব্যাসার্ধ 13 \\sqrt{13} 13 ∴∣3.4+b⋅1−19+b2∣=13⇒13(9+b2)=b2+22b+121⇒12b2−22b−4=0∴k=2,−16 \\begin{array}{l} \\therefore\\left|\\frac{3.4+b \\cdot 1-1}{\\sqrt{9+b^{2}}}\\right|=\\sqrt{13} \\Rightarrow 13\\left(9+b^{2}\\right)=b^{2}+22 b+121 \\\\ \\Rightarrow 12 b^{2}-22 b-4=0 \\therefore k=2,-\\frac{1}{6} \\end{array} ∴9+b23.4+b⋅1−1=13⇒13(9+b2)=b2+22b+121⇒12b2−22b−4=0∴k=2,−61$"
+    "explanation": "no need"
   },
   {
     "id": 35,
-    "question": "ax2+2hxy+by2+2gx+2fy+c=0ax^2+2hxy+by^2+2gx+2fy+c=0ax2+2hxy+by2+2gx+2fy+c=0 একটি বৃত্ত নির্দেশ করবে, যখন-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$ax^{2}+2hxy+by^{2}+2gx+2fy+c=0$ একটি বৃত্ত নির্দেশ করবে, যখন-",
     "options": {
-      "a": "ℎ 2 > 𝑎 𝑏 h 2 >ab",
-      "b": "\\(h^2",
-      "c": "𝑎 = 𝑏 a=b",
-      "d": "𝑎 = 𝑏 a=b এবং ℎ = 0 h=0"
+      "a": "$h^{2}>ab$",
+      "b": "$h^{2}=ab$",
+      "c": "$a=b$",
+      "d": "$a=b$ এবং $h=0$"
     },
     "correctAnswer": "d",
-    "explanation": "বৃত্তের সমীকরণে xy সম্বলিত কোন পদ থাকবে না। আর x² ও y² এর সহগ সমান হবে। তাই a=b এবং h=0.",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$ax2+2hxy+by2+2gx+2fy+c=0ax^2+2hxy+by^2+2gx+2fy+c=0ax2+2hxy+by2+2gx+2fy+c=0 একটি বৃত্ত নির্দেশ করবে, যখন-$",
-    "explanationLatex": "$বৃত্তের সমীকরণে xy সম্বলিত কোন পদ থাকবে না। আর x² ও y² এর সহগ সমান হবে। তাই a=b এবং h=0.$"
+    "explanation": "no need"
   },
   {
     "id": 36,
-    "question": "(1,-1) বিন্দু থেকে 2x2+2y2−x+3y+1=0 2 x^{2} + 2 y^{2} - x + 3 y + 1 = 0 2x2+2y2−x+3y+1=0 বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "(1,-1) বিন্দু থেকে $2x^{2}+2y^{2}-x+3y+1=0$ বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত?",
     "options": {
       "a": "1",
       "b": "2",
-      "c": "√2",
-      "d": "1/√2"
+      "c": "$\\sqrt{2}$",
+      "d": "$1/\\sqrt{2}$"
     },
     "correctAnswer": "d",
-    "explanation": "2x2+2y2−x+3y+1=02x^2+2y^2-x+3y+1=02x2+2y2−x+3y+1=0 =x2+y2−x2+32y+12=0=x^2+y^2-\\frac{x}{2}+\\frac{3}{2}y+\\frac{1}{2}=0=x2+y2−2x+23y+21=0 ∴(1,−1)\\therefore\\left(1,-1\\right)∴(1,−1)বিন্দু থেকে অংকিত স্পর্শক এর দৈর্ঘ্য = (1+1−12−32+12) = 12\\sqrt{\\left(1+1-\\frac{1}{2}-\\frac{3}{2}+\\frac{1}{2}\\right)}\\ =\\ \\frac{1}{\\sqrt{2}}(1+1−21−23+21) = 21",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$(1,-1) বিন্দু থেকে 2x2+2y2−x+3y+1=0 2 x^{2} + 2 y^{2} - x + 3 y + 1 = 0 2x2+2y2−x+3y+1=0 বৃত্তে অঙ্কিত স্পর্শকের দৈর্ঘ্য কত?$",
-    "explanationLatex": "$2x2+2y2−x+3y+1=02x^2+2y^2-x+3y+1=02x2+2y2−x+3y+1=0 =x2+y2−x2+32y+12=0=x^2+y^2-\\frac{x}{2}+\\frac{3}{2}y+\\frac{1}{2}=0=x2+y2−2x+23y+21=0 ∴(1,−1)\\therefore\\left(1,-1\\right)∴(1,−1)বিন্দু থেকে অংকিত স্পর্শক এর দৈর্ঘ্য = (1+1−12−32+12) = 12\\sqrt{\\left(1+1-\\frac{1}{2}-\\frac{3}{2}+\\frac{1}{2}\\right)}\\ =\\ \\frac{1}{\\sqrt{2}}(1+1−21−23+21) = 21$"
+    "explanation": "no need"
   },
   {
     "id": 37,
-    "question": "মূল বিন্দু থেকে (1,2) কেন্দ্রবিশিষ্ট একটি বৃত্তের উপর অঙ্কিত স্পর্শকের দৈর্ঘ্য ২ একক।বৃত্তটির সমীকরণ নির্ণয় কর।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "মূল বিন্দু থেকে (1,2) কেন্দ্রবিশিষ্ট একটি বৃত্তের উপর অঙ্কিত স্পর্শকের দৈর্ঘ্য ২ একক। বৃত্তটির সমীকরণ নির্ণয় কর।",
     "options": {
-      "a": "x2+y2+x+2y+3=0",
-      "b": "2x2+y2-x-y+5=0",
-      "c": "x2+y2-2x-4y+5=0",
-      "d": "3x2+2y2+5x+3y+3=0"
+      "a": "$x^{2}+y^{2}+x+2y+3=0$",
+      "b": "$2x^{2}+y^{2}-x-y+5=0$",
+      "c": "$x^{2}+y^{2}-2x-4y+5=0$",
+      "d": "$3x^{2}+2y^{2}+5x+3y+3=0$"
     },
     "correctAnswer": "c",
-    "explanation": "অপশন থেকে যে বৃত্তের কেন্দ্র (1,2) (1,2) (1,2) হবে সেটিই উত্তর। অপশন (C) তে, x2+y2−2x−4y+4=0g=−1,f=−2∴C≡(−g;−f)≡(1,2) \\begin{array}{l} x^{2}+y^{2}-2 x-4 y+4=0 \\\\ g=-1, f=-2 \\\\ \\therefore C \\equiv(-g ;-f) \\equiv(1,2) \\end{array} x2+y2−2x−4y+4=0g=−1,f=−2∴C≡(−g;−f)≡(1,2)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "মূল বিন্দু থেকে (1,2) কেন্দ্রবিশিষ্ট একটি বৃত্তের উপর অঙ্কিত স্পর্শকের দৈর্ঘ্য ২ একক।বৃত্তটির সমীকরণ নির্ণয় কর।",
-    "explanationLatex": "$অপশন থেকে যে বৃত্তের কেন্দ্র (1,2) (1,2) (1,2) হবে সেটিই উত্তর। অপশন (C) তে, x2+y2−2x−4y+4=0g=−1,f=−2∴C≡(−g;−f)≡(1,2) \\begin{array}{l} x^{2}+y^{2}-2 x-4 y+4=0 \\\\ g=-1, f=-2 \\\\ \\therefore C \\equiv(-g ;-f) \\equiv(1,2) \\end{array} x2+y2−2x−4y+4=0g=−1,f=−2∴C≡(−g;−f)≡(1,2)$"
+    "explanation": "no need"
   },
   {
     "id": 38,
-    "question": "( 3, 4) কেন্দ্র বিশিষ্ট বৃত্ত x2+y2+6x+8y=0 বৃত্তকে বহিস্থভাবে স্পর্শ করলে বৃত্তটির সমীকরণ-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "(3, 4) কেন্দ্র বিশিষ্ট বৃত্ত $x^{2}+y^{2}+6x+8y=0$ বৃত্তকে বহিস্থভাবে স্পর্শ করলে বৃত্তটির সমীকরণ-",
     "options": {
-      "a": "(x-3)2+(y-4)2 =5²",
-      "b": "(x-3)2+(y-4)2 =10",
-      "c": "(x-3)2+(y-4)2 =13",
-      "d": "(x-3)2+(y-4)2 =100"
+      "a": "$(x-3)^{2}+(y-4)^{2}=5^{2}$",
+      "b": "$(x-3)^{2}+(y-4)^{2}=10$",
+      "c": "$(x-3)^{2}+(y-4)^{2}=13$",
+      "d": "$(x-3)^{2}+(y-4)^{2}=100$"
     },
     "correctAnswer": "a",
-    "explanation": "x2+y2+6x+8y=0 x^{2}+y^{2}+6 x+8 y=0 x2+y2+6x+8y=0 কেন্দ্র, (-3,-4); ব্যসার্ধ r1=9+16=5\\ r_{1}= \\sqrt{ 9 + 16 }=5 r1=9+16=5 C₂(3,4) কেন্দ্রবিশিষ্ট বৃত্তের ব্যসার্ধ r2r_{2} r2 হলে, r1+r2=c1c2⇒5+r2=(3+3)2+(4+4)2∴r2=5 \\begin{aligned} r_{1}+r_{2} & =c_{1} c_{2} \\\\ \\Rightarrow 5+r_{2} & =\\sqrt{(3+3)^{2}+(4+4)^{2}} \\\\ \\therefore r_{2} & =5 \\end{aligned} r1+r2⇒5+r2∴r2=c1c2=(3+3)2+(4+4)2=5 ∴ \\therefore ∴ বৃত্তটির সমীকরণ: (x−3)2+(y−4)2=52 (x-3)^{2}+(y-4)^{2}=5^{2} (x−3)2+(y−4)2=52",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$( 3, 4) কেন্দ্র বিশিষ্ট বৃত্ত x2+y2+6x+8y=0 বৃত্তকে বহিস্থভাবে স্পর্শ করলে বৃত্তটির সমীকরণ-$",
-    "explanationLatex": "$x2+y2+6x+8y=0 x^{2}+y^{2}+6 x+8 y=0 x2+y2+6x+8y=0 কেন্দ্র, (-3,-4); ব্যসার্ধ r1=9+16=5\\ r_{1}= \\sqrt{ 9 + 16 }=5 r1=9+16=5 C₂(3,4) কেন্দ্রবিশিষ্ট বৃত্তের ব্যসার্ধ r2r_{2} r2 হলে, r1+r2=c1c2⇒5+r2=(3+3)2+(4+4)2∴r2=5 \\begin{aligned} r_{1}+r_{2} & =c_{1} c_{2} \\\\ \\Rightarrow 5+r_{2} & =\\sqrt{(3+3)^{2}+(4+4)^{2}} \\\\ \\therefore r_{2} & =5 \\end{aligned} r1+r2⇒5+r2∴r2=c1c2=(3+3)2+(4+4)2=5 ∴ \\therefore ∴ বৃত্তটির সমীকরণ: (x−3)2+(y−4)2=52 (x-3)^{2}+(y-4)^{2}=5^{2} (x−3)2+(y−4)2=52$"
+    "explanation": "no need"
   },
   {
     "id": 39,
-    "question": "x=cos⁡θ+1,y=3−sin⁡θ \\mathrm{x}=\\cos \\theta+1, \\mathrm{y}=3-\\sin \\theta x=cosθ+1,y=3−sinθ এটি কীসের সমীকরণ?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x=\\cos\\theta+1$, $y=3-\\sin\\theta$ এটি কীসের সমীকরণ?",
     "options": {
       "a": "বৃত্ত",
       "b": "পরাবৃত্ত",
@@ -769,19 +543,13 @@
       "d": "অধিবৃত্ত"
     },
     "correctAnswer": "a",
-    "explanation": "Sol. সমাধান: (a); x=cos⁡θ+1⇒x−1=cos⁡θ x=\\cos \\theta+1 \\Rightarrow x-1=\\cos \\theta x=cosθ+1⇒x−1=cosθ y=3−sin⁡θ⇒y−3=sin⁡θ∴(x−1)2+(y−3)2=1∴ \\mathrm{y}=3-\\sin \\theta \\Rightarrow \\mathrm{y}-3=\\sin \\theta \\therefore(\\mathrm{x}-1)^{2}+(\\mathrm{y}-3)^{2}=1 \\therefore y=3−sinθ⇒y−3=sinθ∴(x−1)2+(y−3)2=1∴ বৃত্তের সমীকরণ।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x=cos⁡\\\\theta +1,y=3−sin⁡\\\\theta  \\mathrm{x}=\\cos \\theta+1, \\mathrm{y}=3-\\sin \\theta x=cos\\\\theta +1,y=3−sin\\\\theta  এটি কীসের সমীকরণ?$",
-    "explanationLatex": "$Sol. সমাধান: (a); x=cos⁡\\\\theta +1⇒x−1=cos⁡\\\\theta  x=\\cos \\theta+1 \\Rightarrow x-1=\\cos \\theta x=cos\\\\theta +1⇒x−1=cos\\\\theta  y=3−sin⁡\\\\theta ⇒y−3=sin⁡\\\\theta ∴(x−1)2+(y−3)2=1∴ \\mathrm{y}=3-\\sin \\theta \\Rightarrow \\mathrm{y}-3=\\sin \\theta \\therefore(\\mathrm{x}-1)^{2}+(\\mathrm{y}-3)^{2}=1 \\therefore y=3−sin\\\\theta ⇒y−3=sin\\\\theta ∴(x−1)2+(y−3)2=1∴ বৃত্তের সমীকরণ।$"
+    "explanation": "no need"
   },
   {
     "id": 40,
-    "question": "x2 + y2 - 5x - 6y + 8= 0 বৃত্ত দ্বারা Y অক্ষের খন্ডিতাংশ কত?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-5x-6y+8=0$ বৃত্ত দ্বারা Y অক্ষের খন্ডিতাংশ কত?",
     "options": {
       "a": "1",
       "b": "2",
@@ -789,19 +557,13 @@
       "d": "4"
     },
     "correctAnswer": "b",
-    "explanation": "Y অক্ষের খন্ডিতাংশ = 2f2−c\\sqrt{f²-c}f2−c = 29−8\\sqrt{9-8}9−8 = 2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2 + y2 - 5x - 6y + 8= 0 বৃত্ত দ্বারা Y অক্ষের খন্ডিতাংশ কত?$",
-    "explanationLatex": "$Y অক্ষের খন্ডিতাংশ = 2f2−c\\sqrt{f²-c}f2−c = 29−8\\sqrt{9-8}9−8 = 2$"
+    "explanation": "no need"
   },
   {
     "id": 41,
-    "question": "x2+y2-4x-6y+c=0 বৃত্তটি x অক্ষকে স্পর্শ করলে c এর মান এবং স্পর্শ বিন্দুুর স্থানাঙ্ক নির্ণয় কর।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-4x-6y+c=0$ বৃত্তটি x অক্ষকে স্পর্শ করলে c এর মান এবং স্পর্শ বিন্দুর স্থানাঙ্ক নির্ণয় কর।",
     "options": {
       "a": "4, (2,0)",
       "b": "4, (6,0)",
@@ -809,179 +571,125 @@
       "d": "5, (6,9)"
     },
     "correctAnswer": "a",
-    "explanation": "x অক্ষকে স্পর্শ করলে, g2=c=4 g^{2}=c=4 g2=c=4 x অক্ষকে স্পর্শ করলে কোটি = 0 ∴x2−4x+4=0∴x=2∴(2,0) \\begin{array}{c}\\therefore x^{2}-4 x+4=0 \\\\ \\therefore x=2 \\\\ \\therefore(2,0)\\end{array} ∴x2−4x+4=0∴x=2∴(2,0)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2-4x-6y+c=0 বৃত্তটি x অক্ষকে স্পর্শ করলে c এর মান এবং স্পর্শ বিন্দুুর স্থানাঙ্ক নির্ণয় কর।$",
-    "explanationLatex": "$x অক্ষকে স্পর্শ করলে, g2=c=4 g^{2}=c=4 g2=c=4 x অক্ষকে স্পর্শ করলে কোটি = 0 ∴x2−4x+4=0∴x=2∴(2,0) \\begin{array}{c}\\therefore x^{2}-4 x+4=0 \\\\ \\therefore x=2 \\\\ \\therefore(2,0)\\end{array} ∴x2−4x+4=0∴x=2∴(2,0)$"
+    "explanation": "no need"
   },
   {
     "id": 42,
-    "question": "x2+y2=32x^2+y^2=3^2x2+y2=32 বৃত্তের একটি জ্যা এর মধ্যবিন্দুর স্থানাঙ্ক (2, 2) হলে উক্ত জ্যা-এর সমীকরণ নিচের কোনটি?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}=3^{2}$ বৃত্তের একটি জ্যা এর মধ্যবিন্দুর স্থানাঙ্ক (2, 2) হলে উক্ত জ্যা-এর সমীকরণ নিচের কোনটি?",
     "options": {
-      "a": "𝑥 + 𝑦 = 4 x+y=4",
-      "b": "2 𝑥 + 3 𝑦 = 9 2x+3y=9",
-      "c": "𝑦 = 2 𝑥 − 2 y=2x−2",
-      "d": "𝑥 + 𝑦 = 2 x+y=2"
+      "a": "$x+y=4$",
+      "b": "$2x+3y=9$",
+      "c": "$y=2x-2$",
+      "d": "$x+y=2$"
     },
     "correctAnswer": "a",
-    "explanation": "Solution: OC এর ঢাল =2−02−0=1=\\frac{2-0}{2-0}=1=2−02−0=1 ∴\\therefore∴ AB এর ঢাল =−1=-1=−1 AB এর সমীকরণ, y−2=−1(x−2)y-2=-1\\left(x-2\\right)y−2=−1(x−2) ⇒y−2=−x+2∴x+y=4\\Rightarrow y-2=-x+2\\therefore x+y=4⇒y−2=−x+2∴x+y=4",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2=32x^2+y^2=3^2x2+y2=32 বৃত্তের একটি জ্যা এর মধ্যবিন্দুর স্থানাঙ্ক (2, 2) হলে উক্ত জ্যা-এর সমীকরণ নিচের কোনটি?$",
-    "explanationLatex": "$Solution: OC এর ঢাল =2−02−0=1=\\frac{2-0}{2-0}=1=2−02−0=1 ∴\\therefore∴ AB এর ঢাল =−1=-1=−1 AB এর সমীকরণ, y−2=−1(x−2)y-2=-1\\left(x-2\\right)y−2=−1(x−2) ⇒y−2=−x+2∴x+y=4\\Rightarrow y-2=-x+2\\therefore x+y=4⇒y−2=−x+2∴x+y=4$"
+    "explanation": "no need"
   },
   {
     "id": 43,
-    "question": "এরূপ বৃত্তের সমীকরণ নির্ণয় কর যা উভয় অক্ষকে স্পর্শ করে এবং (1,8) (1,8) (1,8) বিন্দু দিয়ে অতিক্রম করে।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "এরূপ বৃত্তের সমীকরণ নির্ণয় কর যা উভয় অক্ষকে স্পর্শ করে এবং (1,8) বিন্দু দিয়ে অতিক্রম করে।",
     "options": {
-      "a": "𝑥 2 + 𝑦 2 − 26 𝑥 − 26 𝑦 − 169 = 0 x 2 +y 2 −26x−26y−169=0",
-      "b": "𝑥 2 + 𝑦 2 − 26 𝑥 + 26 𝑦 + 169 = 0 x 2 +y 2 −26x+26y+169=0",
-      "c": "𝑥 2 + 𝑦 2 − 26 𝑥 − 26 𝑦 + 169 = 0 x 2 +y 2 −26x−26y+169=0",
-      "d": "𝑥 2 + 𝑦 2 + 26 𝑥 − 26 𝑦 + 169 = 0 x 2 +y 2 +26x−26y+169=0"
+      "a": "$x^{2}+y^{2}-26x-26y-169=0$",
+      "b": "$x^{2}+y^{2}-26x+26y+169=0$",
+      "c": "$x^{2}+y^{2}-26x-26y+169=0$",
+      "d": "$x^{2}+y^{2}+26x-26y+169=0$"
     },
     "correctAnswer": "c",
-    "explanation": "ধরি, বৃত্তটির সমীকরণ(x−h)2+(y−k)2=r2 (\\mathrm{x}-\\mathrm{h})^{2}+(\\mathrm{y}-\\mathrm{k})^{2}=\\mathrm{r}^{2} (x−h)2+(y−k)2=r2 (1) বৃত্তটি উভয় অক্ষকে স্পর্শ করে। ∴k=h and r=∣h∣ \\therefore \\mathrm{k}=\\mathrm{h} \\text { and } \\mathrm{r}=|\\mathrm{h}| ∴k=h and r=∣h∣ ∴ \\therefore ∴ (1) হতে পাই, (x−h)2+(y−h)2=∣h∣2⇒x2−2hx+h2+y2−2hy+h2=h2⇒x2+y2−2hx−2hy+h2=0⋯(2) \\begin{aligned} & (x-h)^{2}+(y-h)^{2}=|h|^{2} \\\\ \\Rightarrow & x^{2}-2 h x+h^{2}+y^{2}-2 h y+h^{2}=h^{2} \\\\ \\Rightarrow & x^{2}+y^{2}-2 h x-2 h y+h^{2}=0 \\cdots(2) \\end{aligned} ⇒⇒(x−h)2+(y−h)2=∣h∣2x2−2hx+h2+y2−2hy+h2=h2x2+y2−2hx−2hy+h2=0⋯(2) যা (1,8) (1,8) (1,8) বিন্দু দিয়ে অতিক্রম করে। ∴1+64−2h−16h+h2=0⇒h2−18h+65=0⇒(h−5)(h−13)=0∴h=5,13 \\begin{array}{l} \\therefore 1+64-2 h-16 h+h^{2}=0 \\\\ \\Rightarrow h^{2}-18 h+65=0 \\\\ \\Rightarrow(h-5)(h-13)=0 \\quad \\therefore h=5,13 \\end{array} ∴1+64−2h−16h+h2=0⇒h2−18h+65=0⇒(h−5)(h−13)=0∴h=5,13 ∴ \\therefore ∴ নির্নেয় বৃত্তের সমীকরণ, x2+y2−10x−10y+25=0 and x2+y2−26x−26y+169=0 \\begin{array}{l} x^{2}+y^{2}-10 x-10 y+25=0 \\text { and } \\\\ x^{2}+y^{2}-26 x-26 y+169=0 \\end{array} x2+y2−10x−10y+25=0 and x2+y2−26x−26y+169=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "এরূপ বৃত্তের সমীকরণ নির্ণয় কর যা উভয় অক্ষকে স্পর্শ করে এবং (1,8) (1,8) (1,8) বিন্দু দিয়ে অতিক্রম করে।",
-    "explanationLatex": "$ধরি, বৃত্তটির সমীকরণ(x−h)2+(y−k)2=r2 (\\mathrm{x}-\\mathrm{h})^{2}+(\\mathrm{y}-\\mathrm{k})^{2}=\\mathrm{r}^{2} (x−h)2+(y−k)2=r2 (1) বৃত্তটি উভয় অক্ষকে স্পর্শ করে। ∴k=h and r=∣h∣ \\therefore \\mathrm{k}=\\mathrm{h} \\text { and } \\mathrm{r}=|\\mathrm{h}| ∴k=h and r=∣h∣ ∴ \\therefore ∴ (1) হতে পাই, (x−h)2+(y−h)2=∣h∣2⇒x2−2hx+h2+y2−2hy+h2=h2⇒x2+y2−2hx−2hy+h2=0⋯(2) \\begin{aligned} & (x-h)^{2}+(y-h)^{2}=|h|^{2} \\\\ \\Rightarrow & x^{2}-2 h x+h^{2}+y^{2}-2 h y+h^{2}=h^{2} \\\\ \\Rightarrow & x^{2}+y^{2}-2 h x-2 h y+h^{2}=0 \\cdots(2) \\end{aligned} ⇒⇒(x−h)2+(y−h)2=∣h∣2x2−2hx+h2+y2−2hy+h2=h2x2+y2−2hx−2hy+h2=0⋯(2) যা (1,8) (1,8) (1,8) বিন্দু দিয়ে অতিক্রম করে। ∴1+64−2h−16h+h2=0⇒h2−18h+65=0⇒(h−5)(h−13)=0∴h=5,13 \\begin{array}{l} \\therefore 1+64-2 h-16 h+h^{2}=0 \\\\ \\Rightarrow h^{2}-18 h+65=0 \\\\ \\Rightarrow(h-5)(h-13)=0 \\quad \\therefore h=5,13 \\end{array} ∴1+64−2h−16h+h2=0⇒h2−18h+65=0⇒(h−5)(h−13)=0∴h=5,13 ∴ \\therefore ∴ নির্নেয় বৃত্তের সমীকরণ, x2+y2−10x−10y+25=0 and x2+y2−26x−26y+169=0 \\begin{array}{l} x^{2}+y^{2}-10 x-10 y+25=0 \\text { and } \\\\ x^{2}+y^{2}-26 x-26 y+169=0 \\end{array} x2+y2−10x−10y+25=0 and x2+y2−26x−26y+169=0$"
+    "explanation": "no need"
   },
   {
     "id": 44,
-    "question": "এরূপ বৃত্তেরর সমীকরণ নির্ণয় কর যা x x x –অক্ষকে (2,0) (2,0) (2,0) বিন্দুতে স্পর্শ করে এবং (−1,9) (-1,9) (−1,9) বিন্দু দিয়ে অতিক্রম করে।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "এরূপ বৃত্তের সমীকরণ নির্ণয় কর যা x-অক্ষকে (2,0) বিন্দুতে স্পর্শ করে এবং (-1,9) বিন্দু দিয়ে অতিক্রম করে।",
     "options": {
-      "a": "𝑥 2 + 𝑦 2 − 4 𝑥 − 10 𝑦 − 4 = 0 x 2 +y 2 −4x−10y−4=0",
-      "b": "𝑥 2 + 𝑦 2 − 4 𝑥 − 10 𝑦 + 4 = 0 x 2 +y 2 −4x−10y+4=0",
-      "c": "𝑥 2 + 𝑦 2 − 4 𝑥 + 10 𝑦 + 4 = 0 x 2 +y 2 −4x+10y+4=0",
-      "d": "𝑥 2 + 𝑦 2 + 4 𝑥 − 10 𝑦 + 4 = 0 x 2 +y 2 +4x−10y+4=0"
+      "a": "$x^{2}+y^{2}-4x-10y-4=0$",
+      "b": "$x^{2}+y^{2}-4x-10y+4=0$",
+      "c": "$x^{2}+y^{2}-4x+10y+4=0$",
+      "d": "$x^{2}+y^{2}+4x-10y+4=0$"
     },
     "correctAnswer": "b",
-    "explanation": "ধরি, বৃত্তের সমীকরণx2+y2+2gx+2fy+c=0 x^{2}+y^{2}+2 g x+2 f y+c=0 x2+y2+2gx+2fy+c=0 (1) বৃত্তটি x x x –অক্ষকে (2,0) (2,0) (2,0) বিন্দুতে স্পর্শ করে। ∴g2=c \\therefore g^{2}=c ∴g2=c এবং −g=2⇒g=−2 -\\mathrm{g}=2 \\Rightarrow \\mathrm{g}=-2 −g=2⇒g=−2 ∴c=(2)2=4 \\therefore \\quad c=(2)^{2}=4 ∴c=(2)2=4 আবার, (1) বৃত্তটি (−1,9) (-1,9) (−1,9) বিন্দু দিয়ে অতিক্রম করে। ∴1+81−2g+18f+c=0 \\therefore 1+81-2 g+18 f+c=0 ∴1+81−2g+18f+c=0 ⇒82+4+18f+4=0 \\Rightarrow 82+4+18 f+4=0 ⇒82+4+18f+4=0 [c ও g এর মান বসিয়ে।] ⇒18f=−90⇒f=−5 \\Rightarrow 18 f=-90 \\Rightarrow f=-5 ⇒18f=−90⇒f=−5 ∴ \\therefore ∴ নির্ণেয় বৃত্তের সমীকরণ, x2+y2−4x−10y+4=0 x^{2}+y^{2}-4 x-10 y+4=0 x2+y2−4x−10y+4=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "এরূপ বৃত্তেরর সমীকরণ নির্ণয় কর যা x x x –অক্ষকে (2,0) (2,0) (2,0) বিন্দুতে স্পর্শ করে এবং (−1,9) (-1,9) (−1,9) বিন্দু দিয়ে অতিক্রম করে।",
-    "explanationLatex": "$ধরি, বৃত্তের সমীকরণx2+y2+2gx+2fy+c=0 x^{2}+y^{2}+2 g x+2 f y+c=0 x2+y2+2gx+2fy+c=0 (1) বৃত্তটি x x x –অক্ষকে (2,0) (2,0) (2,0) বিন্দুতে স্পর্শ করে। ∴g2=c \\therefore g^{2}=c ∴g2=c এবং −g=2⇒g=−2 -\\mathrm{g}=2 \\Rightarrow \\mathrm{g}=-2 −g=2⇒g=−2 ∴c=(2)2=4 \\therefore \\quad c=(2)^{2}=4 ∴c=(2)2=4 আবার, (1) বৃত্তটি (−1,9) (-1,9) (−1,9) বিন্দু দিয়ে অতিক্রম করে। ∴1+81−2g+18f+c=0 \\therefore 1+81-2 g+18 f+c=0 ∴1+81−2g+18f+c=0 ⇒82+4+18f+4=0 \\Rightarrow 82+4+18 f+4=0 ⇒82+4+18f+4=0 [c ও g এর মান বসিয়ে।] ⇒18f=−90⇒f=−5 \\Rightarrow 18 f=-90 \\Rightarrow f=-5 ⇒18f=−90⇒f=−5 ∴ \\therefore ∴ নির্ণেয় বৃত্তের সমীকরণ, x2+y2−4x−10y+4=0 x^{2}+y^{2}-4 x-10 y+4=0 x2+y2−4x−10y+4=0$"
+    "explanation": "no need"
   },
   {
     "id": 45,
-    "question": "x2+y2−8x−6y+16=0 x^{2}+y^{2}-8 x-6 y+16=0 x2+y2−8x−6y+16=0 ও x2+y2=4 x^{2}+y^{2}=4 x2+y2=4 বৃত্তদ্বয়ের সাধারণ জ্যা অক্ষদ্বয়ের সাথে যে ত্রিভূজ তৈরি করে তার ক্ষেত্রফল নির্ণয় কর।",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "বৃত্তদ্বয়ের সাধারণ জ্যা অক্ষদ্বয়ের সাথে যে ত্রিভুজ $x^{2}+y^{2}-8x-6y+16=0 \\circ x^{2}+y^{2}=4$ তৈরি করে তার ক্ষেত্রফল নির্ণয় কর।",
     "options": {
-      "a": "25 8 8 25 বর্গ একক",
-      "b": "25 4 4 25 বর্গ একক",
-      "c": "25 6 6 25 বর্গ একক",
-      "d": "25 7 7 25 বর্গ একক"
+      "a": "$\\frac{25}{8}$ একক",
+      "b": "$\\frac{25}{4}$ বর্গ একক",
+      "c": "$\\frac{25}{6}$ বর্গ একক",
+      "d": "$\\frac{25}{7}$ বর্গ একক"
     },
     "correctAnswer": "c",
-    "explanation": "Solve: x2+y2−8x−6y+16=0 x^{2}+y^{2}-8 x-6 y+16=0 x2+y2−8x−6y+16=0 x2+y2−4=0 x^{2}+y^{2}-4=0 x2+y2−4=0 বৃত্তদ্বয়ের সাধারণ জ্যা এর সমীকরণ x2+y2−8x−6y+16− x^{2}+y^{2}-8 x-6 y+16- x2+y2−8x−6y+16−⇒x2+y2−4)=0⇒x2+y2−8x−6y+16−x2−y2+4=0⇒−8x−6y+20=0⇒4x+3y=10⇒x10/4+y10/3=1 \\begin{array}{l} \\left.\\Rightarrow x^{2}+y^{2}-4\\right)=0 \\\\ \\Rightarrow x^{2}+y^{2}-8 x-6 y+16-x^{2}-y^{2}+4=0 \\\\ \\Rightarrow-8 x-6 y+20=0 \\\\ \\Rightarrow 4 x+3 y=10 \\Rightarrow \\frac{x}{10 / 4}+\\frac{y}{10 / 3}=1 \\end{array} ⇒x2+y2−4)=0⇒x2+y2−8x−6y+16−x2−y2+4=0⇒−8x−6y+20=0⇒4x+3y=10⇒10/4x+10/3y=1 রেখা অক্ষদ্বয়ের সাথে যে ত্রিভুজ গঠন করে তার ক্ষেত্রফল =12(104×103)=256 =\\frac{1}{2}\\left(\\frac{10}{4} \\times \\frac{10}{3}\\right)=\\frac{25}{6} =21(410×310)=625 বর্গ একক।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2−8x−6y+16=0 x^{2}+y^{2}-8 x-6 y+16=0 x2+y2−8x−6y+16=0 ও x2+y2=4 x^{2}+y^{2}=4 x2+y2=4 বৃত্তদ্বয়ের সাধারণ জ্যা অক্ষদ্বয়ের সাথে যে ত্রিভূজ তৈরি করে তার ক্ষেত্রফল নির্ণয় কর।$",
-    "explanationLatex": "$Solve: x2+y2−8x−6y+16=0 x^{2}+y^{2}-8 x-6 y+16=0 x2+y2−8x−6y+16=0 x2+y2−4=0 x^{2}+y^{2}-4=0 x2+y2−4=0 বৃত্তদ্বয়ের সাধারণ জ্যা এর সমীকরণ x2+y2−8x−6y+16− x^{2}+y^{2}-8 x-6 y+16- x2+y2−8x−6y+16−⇒x2+y2−4)=0⇒x2+y2−8x−6y+16−x2−y2+4=0⇒−8x−6y+20=0⇒4x+3y=10⇒\\frac{x10}{4}+\\frac{y10}{3}=1 \\begin{array}{l} \\left.\\Rightarrow x^{2}+y^{2}-4\\right)=0 \\\\ \\Rightarrow x^{2}+y^{2}-8 x-6 y+16-x^{2}-y^{2}+4=0 \\\\ \\Rightarrow-8 x-6 y+20=0 \\\\ \\Rightarrow 4 x+3 y=10 \\Rightarrow \\frac{x}{\\frac{10}{4}}+\\frac{y}{\\frac{10}{3}}=1 \\end{array} ⇒x2+y2−4)=0⇒x2+y2−8x−6y+16−x2−y2+4=0⇒−8x−6y+20=0⇒4x+3y=10⇒\\frac{10}{4x}+\\frac{10}{3y}=1 রেখা অক্ষদ্বয়ের সাথে যে ত্রিভুজ গঠন করে তার ক্ষেত্রফল =12(104\\\\times 103)=256 =\\frac{1}{2}\\left(\\frac{10}{4} \\times \\frac{10}{3}\\right)=\\frac{25}{6} =21(410\\\\times 310)=625 বর্গ একক।$"
+    "explanation": "no need"
   },
   {
     "id": 46,
-    "question": "(-9,9) এবং (5,5) বিন্দুদ্বয়ের সংযোগ রেখাংশকে ব্যাস ধরে অঙ্কিত বৃত্তের সমীকরণ-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "(-9,9) এবং (5,5) বিন্দুদ্বয়ের সংযোগ রেখাংশকে ব্যাস ধরে অঙ্কিত বৃত্তের সমীকরণ-",
     "options": {
-      "a": "x2 + y2 - 4x + 14y = 0",
-      "b": "x2 + y2 - 4x -14y = 0",
-      "c": "x2 + y2 + 4x + 14y = 0",
-      "d": "x2 + y2 + 4x - 14y = 0"
+      "a": "$x^{2}+y^{2}-4x+14y=0$",
+      "b": "$x^{2}+y^{2}-4x-14y=0$",
+      "c": "$x^{2}+y^{2}+4x+14y=0$",
+      "d": "$x^{2}+y^{2}+4x-14y=0$"
     },
     "correctAnswer": "d",
-    "explanation": "(−9,9) (-9,9) (−9,9) এবং (5,5) (5,5) (5,5) বিন্দুদ্বয়ের সংযোগ রেখাকে ব্যাস ধরে অংকিত বৃত্তের সমীকরণ: (x+9)(x−5)+(y−9)(y−5)=0⇒x2+4x−45+y2−14y+45=0⇒x2+y2+4x−14y=0 \\begin{aligned} & (x+9)(x-5)+(y-9)(y-5)=0 \\\\ \\Rightarrow & x^{2}+4 x-45+y^{2}-14 y+45=0 \\\\ \\Rightarrow & x^{2}+y^{2}+4 x-14 y=0 \\end{aligned} ⇒⇒(x+9)(x−5)+(y−9)(y−5)=0x2+4x−45+y2−14y+45=0x2+y2+4x−14y=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "(-9,9) এবং (5,5) বিন্দুদ্বয়ের সংযোগ রেখাংশকে ব্যাস ধরে অঙ্কিত বৃত্তের সমীকরণ-",
-    "explanationLatex": "$(−9,9) (-9,9) (−9,9) এবং (5,5) (5,5) (5,5) বিন্দুদ্বয়ের সংযোগ রেখাকে ব্যাস ধরে অংকিত বৃত্তের সমীকরণ: (x+9)(x−5)+(y−9)(y−5)=0⇒x2+4x−45+y2−14y+45=0⇒x2+y2+4x−14y=0 \\begin{aligned} & (x+9)(x-5)+(y-9)(y-5)=0 \\\\ \\Rightarrow & x^{2}+4 x-45+y^{2}-14 y+45=0 \\\\ \\Rightarrow & x^{2}+y^{2}+4 x-14 y=0 \\end{aligned} ⇒⇒(x+9)(x−5)+(y−9)(y−5)=0x2+4x−45+y2−14y+45=0x2+y2+4x−14y=0$"
+    "explanation": "no need"
   },
   {
     "id": 47,
-    "question": "x2+y2-2ax=0, এই কার্তেসীয় সমীকরণের পোলার সমীকরণ কোনটি?",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-2ax=0$ এই কার্তেসীয় সমীকরণের পোলার সমীকরণ কোনটি?",
     "options": {
-      "a": "r=2asinθ",
-      "b": "r=2acosθ",
-      "c": "r=2acosθ sinθ",
-      "d": "r=a cosθ"
+      "a": "$r=2a\\sin\\theta$",
+      "b": "$r=2a\\cos\\theta$",
+      "c": "$r=2a\\cos\\theta \\sin\\theta$",
+      "d": "$r=a\\cos\\theta$"
     },
     "correctAnswer": "b",
-    "explanation": "x2+y2−2ax=0 x^{2}+y^{2}-2 a x=0 x2+y2−2ax=0 ⇒r2−2arcos⁡θ=0[∵x2+y2=r2]⇒r=2acos⁡θ \\Rightarrow r^{2}-2 \\operatorname{arcos} \\theta=0\\left[\\because x^{2}+y^{2}=r^{2}\\right] \\Rightarrow r=2 a \\cos \\theta ⇒r2−2arcosθ=0[∵x2+y2=r2]⇒r=2acosθ",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2-2ax=0, এই কার্তেসীয় সমীকরণের পোলার সমীকরণ কোনটি?$",
-    "explanationLatex": "$x2+y2−2ax=0 x^{2}+y^{2}-2 a x=0 x2+y2−2ax=0 ⇒r2−2arcos⁡\\\\theta =0[∵x2+y2=r2]⇒r=2acos⁡\\\\theta  \\Rightarrow r^{2}-2 \\operatorname{arcos} \\theta=0\\left[\\because x^{2}+y^{2}=r^{2}\\right] \\Rightarrow r=2 a \\cos \\theta ⇒r2−2arcos\\\\theta =0[∵x2+y2=r2]⇒r=2acos\\\\theta $"
+    "explanation": "no need"
   },
   {
     "id": 48,
-    "question": "(3,-1) বিন্দুগামী এবং x2+y2-6x+8y=0 বৃত্তের সাথে এককেন্দ্রিক বৃত্তের সমীকরণ-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "(3,-1) বিন্দুগামী এবং $x^{2}+y^{2}-6x+8y=0$ বৃত্তের সাথে এককেন্দ্রিক বৃত্তের সমীকরণ-",
     "options": {
-      "a": "x2+y2+6x-8y+16=0",
-      "b": "x2+y2-6x-8y-16=0",
-      "c": "x2+y2-6x+8y+16=0",
-      "d": "x2+y2-6x-8y+16=0"
+      "a": "$x^{2}+y^{2}+6x-8y+16=0$",
+      "b": "$x^{2}+y^{2}-6x-8y-16=0$",
+      "c": "$x^{2}+y^{2}-6x+8y+16=0$",
+      "d": "$x^{2}+y^{2}-6x-8y+16=0$"
     },
     "correctAnswer": "c",
-    "explanation": "x2+y2-6x+8x=0বৃত্তের কেন্দ্র(3,-4) বৃত্তের ব্যাসার্ধ=(3-3)2+(-4+1)2=3 ∴বৃত্তের সমীকরণ,(x-3)2+(y+4)2=32 ⇒x2+y2-6x+8y+16=0 Shortcut: বৃত্তের সমীকরণ,x2+y2-6x+8y+c=0 (3,-1)বিন্দুগামী হলে,c=16 ∴x2+y2-6x+8y+16=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$(3,-1) বিন্দুগামী এবং x2+y2-6x+8y=0 বৃত্তের সাথে এককেন্দ্রিক বৃত্তের সমীকরণ-$",
-    "explanationLatex": "$x2+y2-6x+8x=0বৃত্তের কেন্দ্র(3,-4) বৃত্তের ব্যাসার্ধ=(3-3)2+(-4+1)2=3 ∴বৃত্তের সমীকরণ,(x-3)2+(y+4)2=32 ⇒x2+y2-6x+8y+16=0 Shortcut: বৃত্তের সমীকরণ,x2+y2-6x+8y+c=0 (3,-1)বিন্দুগামী হলে,c=16 ∴x2+y2-6x+8y+16=0$"
+    "explanation": "no need"
   },
   {
     "id": 49,
-    "question": "x2 + y2 - 5x =0 ও x2 + y2 + 3x =0 বৃত্তদ্বয়ের কেন্দ্রের দূরত্ব --",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-5x=0$ ও $x^{2}+y^{2}+3x=0$ বৃত্তদ্বয়ের কেন্দ্রের দূরত্ব কত?",
     "options": {
       "a": "4 units",
       "b": "1 units",
-      "c": "3 4 3 4 units",
+      "c": "$\\sqrt{34}$ units",
       "d": "2 units"
     },
     "correctAnswer": "a",
-    "explanation": "১ম বৃত্তের কেন্দ্র ≡(52,0) ২য় বৃত্তের কেন্দ্র =(−32,0)∴ কেন্দ্রের দূরত্ব =(52+32)2=82=4 \\begin{array}{c}\\text { ১ম বৃত্তের কেন্দ্র } \\equiv\\left(\\frac{5}{2}, 0\\right) \\\\ \\text { ২য় বৃত্তের কেন্দ্র }=\\left(-\\frac{3}{2}, 0\\right) \\\\ \\therefore \\text { কেন্দ্রের দূরত্ব }=\\sqrt{\\left(\\frac{5}{2}+\\frac{3}{2}\\right)^{2}}=\\frac{8}{2}=4\\end{array} ১ম বৃত্তের কেন্দ্র ≡(25,0) ২য় বৃত্তের কেন্দ্র =(−23,0)∴ কেন্দ্রের দূরত্ব =(25+23)2=28=4",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2 + y2 - 5x =0 ও x2 + y2 + 3x =0 বৃত্তদ্বয়ের কেন্দ্রের দূরত্ব --$",
-    "explanationLatex": "$১ম বৃত্তের কেন্দ্র ≡(52,0) ২য় বৃত্তের কেন্দ্র =(−32,0)∴ কেন্দ্রের দূরত্ব =(52+32)2=82=4 \\begin{array}{c}\\text { ১ম বৃত্তের কেন্দ্র } \\equiv\\left(\\frac{5}{2}, 0\\right) \\\\ \\text { ২য় বৃত্তের কেন্দ্র }=\\left(-\\frac{3}{2}, 0\\right) \\\\ \\therefore \\text { কেন্দ্রের দূরত্ব }=\\sqrt{\\left(\\frac{5}{2}+\\frac{3}{2}\\right)^{2}}=\\frac{8}{2}=4\\end{array} ১ম বৃত্তের কেন্দ্র ≡(25,0) ২য় বৃত্তের কেন্দ্র =(−23,0)∴ কেন্দ্রের দূরত্ব =(25+23)2=28=4$"
+    "explanation": "no need"
   },
   {
     "id": 50,
-    "question": "একটি বৃত্ত (1,1) (1,1) (1,1) বিন্দুগামী। বৃত্তটির 2 টি ব্যাসের সমীকরণ: x+y=3,x−y=1 x+y=3, x-y=1 x+y=3,x−y=1 বৃত্তটির ব্যাসার্ধ-",
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "একটি বৃত্ত (1, 1) বিন্দুগামী। বৃত্তটির 2 টি ব্যাসের সমীকরণ: $x+y=3$, $x-y=1$ বৃত্তটির ব্যাসার্ধ-",
     "options": {
       "a": "1",
       "b": "2",
@@ -989,14 +697,6 @@
       "d": "4"
     },
     "correctAnswer": "a",
-    "explanation": "Sol. সমাধান: (a); বৃত্তের কেন্দ্র (2,1)[x+y=3 (2,1)[x+y=3 (2,1)[x+y=3 এবং x−y=1 x-y=1 x−y=1 এর ছেদ বিন্দু] ∴ \\therefore ∴ ব্যাসার্ধ =(2−1)2+(1−1)2=1 =\\sqrt{(2-1)^{2}+(1-1)^{2}}=1 =(2−1)2+(1−1)2=1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$একটি বৃত্ত (1,1) (1,1) (1,1) বিন্দুগামী। বৃত্তটির 2 টি ব্যাসের সমীকরণ: x+y=3,x−y=1 x+y=3, x-y=1 x+y=3,x−y=1 বৃত্তটির ব্যাসার্ধ-$",
-    "explanationLatex": "$Sol. সমাধান: (a); বৃত্তের কেন্দ্র (2,1)[x+y=3 (2,1)[x+y=3 (2,1)[x+y=3 এবং x−y=1 x-y=1 x−y=1 এর ছেদ বিন্দু] ∴ \\therefore ∴ ব্যাসার্ধ =(2−1)2+(1−1)2=1 =\\sqrt{(2-1)^{2}+(1-1)^{2}}=1 =(2−1)2+(1−1)2=1$"
+    "explanation": "no need"
   }
 ]

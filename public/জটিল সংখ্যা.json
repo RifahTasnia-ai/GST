@@ -1,187 +1,135 @@
 [
   {
     "id": 1,
-    "question": "8+45i8+4\\sqrt{5}i8+45iএর বর্গমূল হবে-",
-    "options": {
-      "a": "± ( 3 − 2 𝑖 ) ±(3−2i)",
-      "b": "± ( 10 − 2 𝑖 ) ±( 10 − 2i )",
-      "c": "± ( 10 − 2 𝑖 ) ±( 10 − 2i )",
-      "d": "± ( 3 + 2 𝑖 ) ±(3+2i)"
-    },
-    "correctAnswer": "b",
-    "explanation": "8+45i=10+220i−28+4\\sqrt{5}i=10+2\\sqrt{20}i-28+45i=10+220i−2 =(10)2+2.10.2i+(2i)2=(10+2i)2=(\\sqrt{10})^2+2.\\sqrt{10}.\\sqrt{2i}+(\\sqrt{2i})^2=(\\sqrt{10}+\\sqrt{2i})^2=(10)2+2.10.2i+(2i)2=(10+2i)2 ∴(8+45i)=±(10+2i)\\therefore\\sqrt{\\left(8+4\\sqrt{5}i\\right)}=\\pm\\left(\\sqrt{10}+\\sqrt{2}i\\right)∴(8+45i)=±(10+2i)",
     "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$8+45i8+4\\sqrt{5}i8+45iএর বর্গমূল হবে-$",
-    "explanationLatex": "$8+45i=10+220i−28+4\\sqrt{5}i=10+2\\sqrt{20}i-28+45i=10+220i−2 =(10)2+2.10.2i+(2i)2=(10+2i)2=(\\sqrt{10})^2+2.\\sqrt{10}.\\sqrt{2i}+(\\sqrt{2i})^2=(\\sqrt{10}+\\sqrt{2i})^2=(10)2+2.10.2i+(2i)2=(10+2i)2 ∴(8+45i)=\\\\pm (10+2i)\\therefore\\sqrt{\\left(8+4\\sqrt{5}i\\right)}=\\pm\\left(\\sqrt{10}+\\sqrt{2}i\\right)∴(8+45i)=\\\\pm (10+2i)$"
+    "topic": "জটিল সংখ্যা",
+    "question": "$8+4\\sqrt{5}i$ এর বর্গমূল হবে-",
+    "options": {
+      "a": "$\\pm(3-2i)$",
+      "b": "$\\pm(\\sqrt{10}-\\sqrt{2}i)$",
+      "c": "$\\pm(\\sqrt{10}+\\sqrt{2}i)$",
+      "d": "$\\pm(3+2i)$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
   },
   {
     "id": 2,
-    "question": "−644=? \\sqrt[4]{- 64} = ? 4−64=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\sqrt[4]{-64}=?$",
     "options": {
-      "a": "± 2 ( 1 ± 𝑖 ) ±2(1±i)",
-      "b": "± 2 ( 1 + 2 𝑖 ) ±2(1+2i)",
-      "c": "± ( 1 ± 𝑖 ) ±(1±i)",
-      "d": "± 2 ( 2 ± 𝑖 ) ±2(2±i)"
+      "a": "$\\pm2(1\\pm i)$",
+      "b": "$\\pm2(1+2i)$",
+      "c": "$\\pm(1\\pm i)$",
+      "d": "$\\pm2(2\\pm i)$"
     },
     "correctAnswer": "a",
-    "explanation": "টেকনিক : −a24=±a2(1±i) \\sqrt[4]{-a^{2}}= \\pm \\sqrt{\\frac{a}{2}}(1 \\pm i) 4−a2=±2a(1±i) ∴−644=±82(1±i)=±2(1±i) \\therefore \\sqrt[4]{-64}= \\pm \\sqrt{\\frac{8}{2}}(1 \\pm i)= \\pm 2(1 \\pm i) ∴4−64=±28(1±i)=±2(1±i)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$−644=? \\sqrt[4]{- 64} = ? 4−64=?$",
-    "explanationLatex": "$টেকনিক : −a24=\\\\pm a2(1\\\\pm i) \\sqrt[4]{-a^{2}}= \\pm \\sqrt{\\frac{a}{2}}(1 \\pm i) 4−a2=\\\\pm 2a(1\\\\pm i) ∴−644=\\\\pm 82(1\\\\pm i)=\\\\pm 2(1\\\\pm i) \\therefore \\sqrt[4]{-64}= \\pm \\sqrt{\\frac{8}{2}}(1 \\pm i)= \\pm 2(1 \\pm i) ∴4−64=\\\\pm 28(1\\\\pm i)=\\\\pm 2(1\\\\pm i)$"
+    "explanation": "no need"
   },
   {
     "id": 3,
-    "question": "z=reiθz=re^{i\\theta }z=reiθ এর সাথে নীচের কোনটি গুণ করলে গুণফল বাস্তব হবে?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z=re^{i\\theta}$ এর সাথে নীচের কোনটি গুণ করলে গুণফল বাস্তব হবে?",
     "options": {
-      "a": "− 𝑟 𝑒 𝑖 𝜃 −re iθ",
-      "b": "𝑟 𝑒 − 𝑖 𝜃 re −iθ",
-      "c": "− 𝑟 𝑒 − 𝑖 𝜃 −re −iθ",
+      "a": "$-re^{i\\theta}$",
+      "b": "$re^{-i\\theta}$",
+      "c": "$-re^{-i\\theta}$",
       "d": "খ এবং গ"
     },
     "correctAnswer": "d",
-    "explanation": "কোনো জটিল সংখ্যার সাথে তার অনুবন্ধী রাশি গুন করলেই শুধুমাত্র গুনফল বাস্তব হয়। (খ) ও (গ) হচ্ছে z এর অনুবন্ধী রাশি।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$z=rei\\\\theta z=re^{i\\theta }z=rei\\\\theta  এর সাথে নীচের কোনটি গুণ করলে গুণফল বাস্তব হবে?$",
-    "explanationLatex": "কোনো জটিল সংখ্যার সাথে তার অনুবন্ধী রাশি গুন করলেই শুধুমাত্র গুনফল বাস্তব হয়। (খ) ও (গ) হচ্ছে z এর অনুবন্ধী রাশি।"
+    "explanation": "no need"
   },
   {
     "id": 4,
-    "question": "i−1i^{-1}i−1 এর আর্গুমেন্ট কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i^{-1}$ এর আর্গুমেন্ট কত?",
     "options": {
-      "a": "𝑒 𝜋 2 e 2 π",
-      "b": "𝜋 2 2 π",
-      "c": "− 𝜋 2 − 2 π",
+      "a": "$\\pi$",
+      "b": "$\\frac{\\pi}{2}$",
+      "c": "$-\\frac{\\pi}{2}$",
       "d": "None"
     },
     "correctAnswer": "c",
-    "explanation": "=i−1i=1i×ii=i2i2=i−1=−i=0−i∴θ=−tan⁡−1(10)=−π2 \\begin{array}{l}=\\frac{i^{-1}}{i} \\\\ =\\frac{1}{i} \\times \\frac{i}{i} \\\\ =\\frac{i^{2}}{i^{2}} \\\\ =\\frac{i}{-1} \\\\ =-i=0-i \\\\ \\therefore \\theta=-\\tan ^{-1}\\left(\\frac{1}{0}\\right) \\\\ =-\\frac{\\pi}{2}\\end{array} =ii−1=i1×ii=i2i2=−1i=−i=0−i∴θ=−tan−1(01)=−2π",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i−1i^{-1}i−1 এর আর্গুমেন্ট কত?$",
-    "explanationLatex": "$=i−1i=1i\\\\times ii=i2i2=i−1=−i=0−i∴\\\\theta =−tan⁡−1(10)=−\\\\pi 2 \\begin{array}{l}=\\frac{i^{-1}}{i} \\\\ =\\frac{1}{i} \\times \\frac{i}{i} \\\\ =\\frac{i^{2}}{i^{2}} \\\\ =\\frac{i}{-1} \\\\ =-i=0-i \\\\ \\therefore \\theta=-\\tan ^{-1}\\left(\\frac{1}{0}\\right) \\\\ =-\\frac{\\pi}{2}\\end{array} =ii−1=i1\\\\times ii=i2i2=−1i=−i=0−i∴\\\\theta =−tan−1(01)=−2\\\\pi $"
+    "explanation": "no need"
   },
   {
     "id": 5,
-    "question": "i2=−1i^2=-1 i2=−1 হলে i+i2+i3+.....+i23=?i+i^2+i^3+.....+i^{23}=?i+i2+i3+.....+i23=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i^{2}=-1$ হলে $i+i^{2}+i^{3}+......+i^{23}=?$",
     "options": {
-      "a": "− 𝑖 −i",
-      "b": "𝑖 i",
+      "a": "1",
+      "b": "i",
       "c": "0",
-      "d": "− 1 −1"
+      "d": "-1"
     },
     "correctAnswer": "d",
-    "explanation": "∑14in=0∴∑123in=5∑14in+∑13in=5×0+i+i2+i3=−1\\sum_{1}^{4}i^n=0 \\therefore\\sum_{1}^{23}i^n=5\\sum_{1}^{4}i^n+\\sum_{1}^{3}i^n =5\\times0+i+i^2+i^3=-1∑14in=0∴∑123in=5∑14in+∑13in=5×0+i+i2+i3=−1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i2=−1i^2=-1 i2=−1 হলে i+i2+i3+.....+i23=?i+i^2+i^3+.....+i^{23}=?i+i2+i3+.....+i23=?$",
-    "explanationLatex": "$∑14in=0∴∑123in=5∑14in+∑13in=5\\\\times 0+i+i2+i3=−1\\sum_{1}^{4}i^n=0 \\therefore\\sum_{1}^{23}i^n=5\\sum_{1}^{4}i^n+\\sum_{1}^{3}i^n =5\\times0+i+i^2+i^3=-1∑14in=0∴∑123in=5∑14in+∑13in=5\\\\times 0+i+i2+i3=−1$"
+    "explanation": "no need"
   },
   {
     "id": 6,
-    "question": "আর্গন্ড চিত্রে −3+i-\\sqrt3+i−3+i ও 1+3i1+\\sqrt3i1+3i এর মধ্যে কৌণিক ব্যবধান-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "আর্গন্ড চিত্রে $-\\sqrt{3}+i$ ও $1+\\sqrt{3}i$ এর মধ্যে কৌণিক ব্যবধান-",
     "options": {
-      "a": "𝜋 2 2 π",
-      "b": "𝜋 3 3 π",
-      "c": "𝜋 4 4 π",
-      "d": "𝜋 6 6 π"
+      "a": "$\\frac{\\pi}{2}$",
+      "b": "$\\frac{\\pi}{3}$",
+      "c": "$\\frac{\\pi}{4}$",
+      "d": "$\\frac{\\pi}{6}$"
     },
     "correctAnswer": "a",
-    "explanation": "θ1=tan⁡−1(1−3)=π−π6=5π6θ2=tan⁡−1(31)=π3\\theta_1 =\\tan^{-1}{\\left(\\frac{1}{-\\sqrt3}\\right)}= \\pi -\\frac{\\pi}{6}=\\frac{5\\pi}{6}\\\\ \\theta_2=\\tan^{-1}{\\left(\\frac{\\sqrt3}{1}\\right)}=\\frac{\\pi}{3}θ1=tan−1(−31)=π−6π=65πθ2=tan−1(13)=3π ∴\\therefore∴ কৌণিক ব্যবধান =5π6−π3=π2=\\frac{5\\pi}{6}-\\frac{\\pi}{3}=\\frac{\\pi}{2}=65π−3π=2π",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$আর্গন্ড চিত্রে −3+i-\\sqrt3+i−3+i ও 1+3i1+\\sqrt3i1+3i এর মধ্যে কৌণিক ব্যবধান-$",
-    "explanationLatex": "$\\\\theta 1=tan⁡−1(1−3)=\\\\pi −\\\\pi 6=5\\\\pi 6\\\\theta 2=tan⁡−1(31)=\\\\pi 3\\theta_1 =\\tan^{-1}{\\left(\\frac{1}{-\\sqrt3}\\right)}= \\pi -\\frac{\\pi}{6}=\\frac{5\\pi}{6}\\\\ \\theta_2=\\tan^{-1}{\\left(\\frac{\\sqrt3}{1}\\right)}=\\frac{\\pi}{3}\\\\theta 1=tan−1(−31)=\\\\pi −6\\\\pi =65\\\\pi \\\\theta 2=tan−1(13)=3\\\\pi  ∴\\therefore∴ কৌণিক ব্যবধান =5\\\\pi 6−\\\\pi 3=\\\\pi 2=\\frac{5\\pi}{6}-\\frac{\\pi}{3}=\\frac{\\pi}{2}=65\\\\pi −3\\\\pi =2\\\\pi $"
+    "explanation": "no need"
   },
   {
     "id": 7,
-    "question": "ω1+3+5+7+…+47=?\\omega^{1+3+5+7+\\ldots+47}=? ω1+3+5+7+…+47=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\omega^{1+3+5+7+...+47}=?$",
     "options": {
       "a": "0",
-      "b": "𝜔 ω",
-      "c": "𝜔 2 ω 2",
+      "b": "$\\omega$",
+      "c": "$\\omega^{2}$",
       "d": "1"
     },
     "correctAnswer": "d",
-    "explanation": "1+3+5+7+…+47=242{2+(24−1)×2}=24×24=5761+3+5+7+\\ldots+47=\\frac{24}{2}\\left\\{2+(24-1)\\times2\\right\\}=24\\times24=5761+3+5+7+…+47=224{2+(24−1)×2}=24×24=576 ∴ 576, 3\\therefore\\ 576,\\ \\ 3∴ 576, 3 দ্বারা বিভাজ্য।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$ω1+3+5+7+…+47=?\\omega^{1+3+5+7+\\ldots+47}=? ω1+3+5+7+…+47=?$",
-    "explanationLatex": "$1+3+5+7+…+47=242{2+(24−1)\\\\times 2}=24\\\\times 24=5761+3+5+7+\\ldots+47=\\frac{24}{2}\\left\\{2+(24-1)\\times2\\right\\}=24\\times24=5761+3+5+7+…+47=224{2+(24−1)\\\\times 2}=24\\\\times 24=576 ∴ 576, 3\\therefore\\ 576,\\ \\ 3∴ 576, 3 দ্বারা বিভাজ্য।$"
+    "explanation": "no need"
   },
   {
     "id": 8,
-    "question": "a+2aia+2aia+2ai জটিল সংখ্যার মডুলাস 555\\sqrt555 হলে a=?a=?a=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z=a+2ai$ জটিল সংখ্যার মডুলাস $5\\sqrt{5}$ হলে $a=?$",
     "options": {
-      "a": "± 5 ±5",
-      "b": "± 5 ± 5",
-      "c": "± 2 ±2",
-      "d": "± 1 ±1"
+      "a": "$\\pm5$",
+      "b": "$\\pm\\sqrt{5}$",
+      "c": "2",
+      "d": "$\\pm1$"
     },
     "correctAnswer": "a",
-    "explanation": "z=a+2ai∴∣z∣=a2+(2a)2=55 \\begin{aligned} z & =a+2 a i \\\\ \\therefore|z| & =\\sqrt{a^{2}+(2 a)^{2}}=5 \\sqrt{5}\\end{aligned} z∴∣z∣=a+2ai=a2+(2a)2=55 ⇒a2+4a2=(55)2⇒5a2=125⇒a2=25∴a=±5 (Ans.) \\begin{array}{l}\\Rightarrow a^{2}+4 a^{2}=(5 \\sqrt{5})^{2} \\\\ \\Rightarrow 5 a^{2}=125 \\\\ \\Rightarrow a^{2}=25 \\\\ \\therefore a= \\pm 5 \\text { (Ans.) }\\end{array} ⇒a2+4a2=(55)2⇒5a2=125⇒a2=25∴a=±5 (Ans.)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$a+2aia+2aia+2ai জটিল সংখ্যার মডুলাস 555\\sqrt555 হলে a=?a=?a=?$",
-    "explanationLatex": "$z=a+2ai∴∣z∣=a2+(2a)2=55 \\begin{aligned} z & =a+2 a i \\\\ \\therefore|z| & =\\sqrt{a^{2}+(2 a)^{2}}=5 \\sqrt{5}\\end{aligned} z∴∣z∣=a+2ai=a2+(2a)2=55 ⇒a2+4a2=(55)2⇒5a2=125⇒a2=25∴a=\\\\pm 5 (Ans.) \\begin{array}{l}\\Rightarrow a^{2}+4 a^{2}=(5 \\sqrt{5})^{2} \\\\ \\Rightarrow 5 a^{2}=125 \\\\ \\Rightarrow a^{2}=25 \\\\ \\therefore a= \\pm 5 \\text { (Ans.) }\\end{array} ⇒a2+4a2=(55)2⇒5a2=125⇒a2=25∴a=\\\\pm 5 (Ans.)$"
+    "explanation": "no need"
   },
   {
     "id": 9,
-    "question": "যদি (z1, z2)\\left(z_1,\\ z_2\\right)(z1, z2) ও (z3, z4)\\left(z_3,\\ z_4\\right)(z3, z4) দুইজোড়া অনুবন্ধী জটিল সংখ্যা হয়, তবে Arg z3z2=?Arg\\ {\\frac{z_3}{z_2}}=?Arg z2z3=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "যদি $(z_1, z_2)$ ও $(z_3, z_4)$ দুইজোড়া অনুবন্ধী জটিল সংখ্যা হয়, তবে $Arg\\frac{z_3}{z_2}=?$",
     "options": {
-      "a": "𝐴 𝑟 𝑔 𝑧 2 𝑧 4 Arg z 4 z 2",
-      "b": "𝐴 𝑟 𝑔 𝑧 1 𝑧 4 Arg z 4 z 1",
-      "c": "𝐴 𝑟 𝑔 𝑧 1 𝑧 3 Arg z 3 z 1",
-      "d": "𝐴 𝑟 𝑔 𝑧 4 𝑧 1 Arg z 1 z 4"
+      "a": "$Arg\\frac{z_2}{z_4}$",
+      "b": "$Arg\\frac{z_1}{z_4}$",
+      "c": "$Arg\\frac{z_1}{z_3}$",
+      "d": "$Arg\\frac{z_4}{z_1}$"
     },
     "correctAnswer": "b",
-    "explanation": "Arg z3−Arg z2=(Argz4+Argz3)−(Argz2+Argz1)+Argz1−Argz4=0−0+Argz1−Argz4=Argz1z4Arg\\ {z_3}-Arg\\,{z_2}=\\left(Arg{z_4}+Arg{z_3}\\right)-\\left(Arg{z_2}+Arg{z_1}\\right)+Arg{z_1}-Arg{z_4}\\\\=0-0+Arg{z_1}-Arg{z_4}=Arg{\\frac{z_1}{z_4}} Arg z3−Argz2=(Argz4+Argz3)−(Argz2+Argz1)+Argz1−Argz4=0−0+Argz1−Argz4=Argz4z1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি (z1, z2)\\left(z_1,\\ z_2\\right)(z1, z2) ও (z3, z4)\\left(z_3,\\ z_4\\right)(z3, z4) দুইজোড়া অনুবন্ধী জটিল সংখ্যা হয়, তবে Arg z3z2=?Arg\\ {\\frac{z_3}{z_2}}=?Arg z2z3=?$",
-    "explanationLatex": "$Arg z3−Arg z2=(Argz4+Argz3)−(Argz2+Argz1)+Argz1−Argz4=0−0+Argz1−Argz4=Argz1z4Arg\\ {z_3}-Arg\\,{z_2}=\\left(Arg{z_4}+Arg{z_3}\\right)-\\left(Arg{z_2}+Arg{z_1}\\right)+Arg{z_1}-Arg{z_4}\\\\=0-0+Arg{z_1}-Arg{z_4}=Arg{\\frac{z_1}{z_4}} Arg z3−Argz2=(Argz4+Argz3)−(Argz2+Argz1)+Argz1−Argz4=0−0+Argz1−Argz4=Argz4z1$"
+    "explanation": "no need"
   },
   {
     "id": 10,
-    "question": "(1+ω−ω2)(ω+ω2−1)(ω2+1−ω) \\left ( 1 + \\omega - \\omega^{2} \\right ) \\left ( \\omega + \\omega^{2} - 1 \\right ) \\left ( \\omega^{2} + 1 - \\omega \\right ) (1+ω−ω2)(ω+ω2−1)(ω2+1−ω) এর মান-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$(1+\\omega-\\omega^{2})(\\omega+\\omega^{2}-1)(\\omega^{2}+1-\\omega)$ এর মান-",
     "options": {
       "a": "0",
       "b": "-4",
@@ -189,19 +137,13 @@
       "d": "-12"
     },
     "correctAnswer": "c",
-    "explanation": "(1+ω−ω2)(ω+ω2−1)(ω2+1−ω)=(−ω2−ω2)(−1−1)(−ω−ω)=(−2ω2)(−2)(−2ω)=−8ω3=−8 \\begin{array}{l} \\left(1+\\omega-\\omega^{2}\\right)\\left(\\omega+\\omega^{2}-1\\right)\\left(\\omega^{2}+1-\\omega\\right) \\\\ =\\left(-\\omega^{2}-\\omega^{2}\\right)(-1-1)(-\\omega-\\omega) \\\\ =\\left(-2 \\omega^{2}\\right)(-2)(-2 \\omega)=-8 \\omega^{3}=-8 \\end{array} (1+ω−ω2)(ω+ω2−1)(ω2+1−ω)=(−ω2−ω2)(−1−1)(−ω−ω)=(−2ω2)(−2)(−2ω)=−8ω3=−8",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$(1+ω−ω2)(ω+ω2−1)(ω2+1−ω) \\left ( 1 + \\omega - \\omega^{2} \\right ) \\left ( \\omega + \\omega^{2} - 1 \\right ) \\left ( \\omega^{2} + 1 - \\omega \\right ) (1+ω−ω2)(ω+ω2−1)(ω2+1−ω) এর মান-$",
-    "explanationLatex": "$(1+ω−ω2)(ω+ω2−1)(ω2+1−ω)=(−ω2−ω2)(−1−1)(−ω−ω)=(−2ω2)(−2)(−2ω)=−8ω3=−8 \\begin{array}{l} \\left(1+\\omega-\\omega^{2}\\right)\\left(\\omega+\\omega^{2}-1\\right)\\left(\\omega^{2}+1-\\omega\\right) \\\\ =\\left(-\\omega^{2}-\\omega^{2}\\right)(-1-1)(-\\omega-\\omega) \\\\ =\\left(-2 \\omega^{2}\\right)(-2)(-2 \\omega)=-8 \\omega^{3}=-8 \\end{array} (1+ω−ω2)(ω+ω2−1)(ω2+1−ω)=(−ω2−ω2)(−1−1)(−ω−ω)=(−2ω2)(−2)(−2ω)=−8ω3=−8$"
+    "explanation": "no need"
   },
   {
     "id": 11,
-    "question": "z = x + iy হলে |2z – 1| = |z – 2| কী নির্দেশ করে?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z = x + iy$ হলে $|2z-1|=|z-2|$ কী নির্দেশ করে?",
     "options": {
       "a": "বৃত্ত",
       "b": "উপবৃত্ত",
@@ -209,179 +151,125 @@
       "d": "সরলরেখা"
     },
     "correctAnswer": "a",
-    "explanation": "∣2z−1∣=∣z−2∣∣2(x+iy)−1∣=∣x+iy−2∣ \\begin{array}{l} |2 z-1|=|z-2| \\\\ |2(x+i y)-1|=|x+i y-2| \\end{array} ∣2z−1∣=∣z−2∣∣2(x+iy)−1∣=∣x+iy−2∣ বা, (2x−1)2+(2y)2=(x−2)2+y2 (2 x-1)^{2}+(2 y)^{2}=(x-2)^{2}+y^{2} (2x−1)2+(2y)2=(x−2)2+y2 বা, 4x2−4x+1+4y2=x2−4x+4+y2 4 x^{2}-4 x+1+4 y^{2}=x^{2}-4 x+4+y^{2} 4x2−4x+1+4y2=x2−4x+4+y2 বা, 3x2+3y2=3 3 x^{2}+3 y^{2}=3 3x2+3y2=3 ∴x2+y2=1→ \\therefore x^{2}+y^{2}=1 \\rightarrow ∴x2+y2=1→ বৃত্তের সমীকরণ।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$z = x + iy হলে |2z – 1| = |z – 2| কী নির্দেশ করে?$",
-    "explanationLatex": "$∣2z−1∣=∣z−2∣∣2(x+iy)−1∣=∣x+iy−2∣ \\begin{array}{l} |2 z-1|=|z-2| \\\\ |2(x+i y)-1|=|x+i y-2| \\end{array} ∣2z−1∣=∣z−2∣∣2(x+iy)−1∣=∣x+iy−2∣ বা, (2x−1)2+(2y)2=(x−2)2+y2 (2 x-1)^{2}+(2 y)^{2}=(x-2)^{2}+y^{2} (2x−1)2+(2y)2=(x−2)2+y2 বা, 4x2−4x+1+4y2=x2−4x+4+y2 4 x^{2}-4 x+1+4 y^{2}=x^{2}-4 x+4+y^{2} 4x2−4x+1+4y2=x2−4x+4+y2 বা, 3x2+3y2=3 3 x^{2}+3 y^{2}=3 3x2+3y2=3 ∴x2+y2=1→ \\therefore x^{2}+y^{2}=1 \\rightarrow ∴x2+y2=1→ বৃত্তের সমীকরণ।$"
+    "explanation": "no need"
   },
   {
     "id": 12,
-    "question": "3−i\\sqrt{3}−i3−i এর মডুলাস কত ?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\sqrt{3}-i$ এর মডুলাস কত?",
     "options": {
-      "a": "2 2",
+      "a": "$\\sqrt{2}$",
       "b": "2",
       "c": "1",
       "d": "4"
     },
     "correctAnswer": "b",
-    "explanation": "মডুলাস =x2+y2 =\\sqrt{\\mathrm{x}^{2}+\\mathrm{y}^{2}} =x2+y2 ∴3−i এর মডুলাস =(3)2+(−1)2=4=2 \\therefore \\sqrt{3}-\\mathrm{i} \\text { এর মডুলাস }=\\sqrt{(\\sqrt{3})^{2}+(-1)^{2}}=\\sqrt{4}=2 ∴3−i এর মডুলাস =(3)2+(−1)2=4=2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$3−i\\sqrt{3}−i3−i এর মডুলাস কত ?$",
-    "explanationLatex": "$মডুলাস =x2+y2 =\\sqrt{\\mathrm{x}^{2}+\\mathrm{y}^{2}} =x2+y2 ∴3−i এর মডুলাস =(3)2+(−1)2=4=2 \\therefore \\sqrt{3}-\\mathrm{i} \\text { এর মডুলাস }=\\sqrt{(\\sqrt{3})^{2}+(-1)^{2}}=\\sqrt{4}=2 ∴3−i এর মডুলাস =(3)2+(−1)2=4=2$"
+    "explanation": "no need"
   },
   {
     "id": 13,
-    "question": "(5+3i)(5+3i)(5+3i) মূল বিশিষ্ট দ্বিঘাত সমীকরণ-টি হবে-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$(5+3i)$ মূল বিশিষ্ট দ্বিঘাত সমীকরণ-টি হবে-",
     "options": {
-      "a": "𝑥 2 − 10 𝑥 + 34 = 0 x 2 −10x+34=0",
-      "b": "𝑥 2 − 5 𝑥 − 34 x 2 −5x−34",
-      "c": "𝑥 2 + 5 𝑥 − 34 x 2 +5x−34",
-      "d": "𝑥 2 + 5 𝑥 + 34 x 2 +5x+34"
+      "a": "$x^{2}-10x+34=0$",
+      "b": "$x^{2}-5x-34=0$",
+      "c": "$x^{2}+5x-34=0$",
+      "d": "$x^{2}+5x+34=0$"
     },
     "correctAnswer": "a",
-    "explanation": "সমীকরণ, x2−(5+3i+5−3i)x+(5+3i)(5−3i)=0⇒x2−10x+25+9=0⇒x2−10x+34=0 \\begin{array}{l} \\text { সমীকরণ, } x^{2}-(5+3 i+5-3 i) x+(5+3 i)(5-3 i)=0 \\\\ \\Rightarrow x^{2}-10 x+25+9=0 \\Rightarrow x^{2}-10 x+34=0 \\end{array} সমীকরণ, x2−(5+3i+5−3i)x+(5+3i)(5−3i)=0⇒x2−10x+25+9=0⇒x2−10x+34=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "(5+3i)(5+3i)(5+3i) মূল বিশিষ্ট দ্বিঘাত সমীকরণ-টি হবে-",
-    "explanationLatex": "$সমীকরণ, x2−(5+3i+5−3i)x+(5+3i)(5−3i)=0⇒x2−10x+25+9=0⇒x2−10x+34=0 \\begin{array}{l} \\text { সমীকরণ, } x^{2}-(5+3 i+5-3 i) x+(5+3 i)(5-3 i)=0 \\\\ \\Rightarrow x^{2}-10 x+25+9=0 \\Rightarrow x^{2}-10 x+34=0 \\end{array} সমীকরণ, x2−(5+3i+5−3i)x+(5+3i)(5−3i)=0⇒x2−10x+25+9=0⇒x2−10x+34=0$"
+    "explanation": "no need"
   },
   {
     "id": 14,
-    "question": "x = ∛1 সমীকরণের মূল তিনটির গুণফল কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$x=\\sqrt[3]{1}$ সমীকরণের মূল তিনটির গুণফল কত?",
     "options": {
       "a": "-1",
       "b": "0",
       "c": "1",
-      "d": "কোনটিই নয়"
+      "d": "কোনটিই নয়"
     },
     "correctAnswer": "c",
-    "explanation": "একের জটিল ঘনমূল দুইটির গুণফল 1 অর্থাৎ একটি অপরটির বিপরীত । ω=12(−1+−3) \\omega=\\frac{1}{2}(-1+\\sqrt{-3}) ω=21(−1+−3) এবং ω2=12(−1−−3) \\omega^{2}=\\frac{1}{2}(-1-\\sqrt{-3}) ω2=21(−1−−3) হলে, ω⋅ω2=12(−1+−3)12(−1−−3)=14{(−1)2−(−3)2}=14(1+3)=1 \\omega \\cdot \\omega^{2}=\\frac{1}{2}(-1+\\sqrt{-3}) \\frac{1}{2}(-1-\\sqrt{-3})=\\frac{1}{4}\\left\\{(-1)^{2}-(\\sqrt{-3})^{2}\\right\\}=\\frac{1}{4}(1+3)=1 ω⋅ω2=21(−1+−3)21(−1−−3)=41{(−1)2−(−3)2}=41(1+3)=1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x = ∛1 সমীকরণের মূল তিনটির গুণফল কত?$",
-    "explanationLatex": "$একের জটিল ঘনমূল দুইটির গুণফল 1 অর্থাৎ একটি অপরটির বিপরীত । ω=12(−1+−3) \\omega=\\frac{1}{2}(-1+\\sqrt{-3}) ω=21(−1+−3) এবং ω2=12(−1−−3) \\omega^{2}=\\frac{1}{2}(-1-\\sqrt{-3}) ω2=21(−1−−3) হলে, ω⋅ω2=12(−1+−3)12(−1−−3)=14{(−1)2−(−3)2}=14(1+3)=1 \\omega \\cdot \\omega^{2}=\\frac{1}{2}(-1+\\sqrt{-3}) \\frac{1}{2}(-1-\\sqrt{-3})=\\frac{1}{4}\\left\\{(-1)^{2}-(\\sqrt{-3})^{2}\\right\\}=\\frac{1}{4}(1+3)=1 ω⋅ω2=21(−1+−3)21(−1−−3)=41{(−1)2−(−3)2}=41(1+3)=1$"
+    "explanation": "no need"
   },
   {
     "id": 15,
-    "question": "যদি z=3+4i z=3+4 i z=3+4i হয়, তবে z z z এবং zˉ \\bar{z} zˉ এর মধ্যবর্তী দূরত্ব কত একক?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "যদি $z=3+4i$ হয়, তবে $z$ এবং $\\bar{z}$ এর মধ্যবর্তী দূরত্ব কত একক?",
     "options": {
       "a": "8",
-      "b": "2 2 2 2",
-      "c": "4 2 4 2",
+      "b": "$2\\sqrt{2}$",
+      "c": "$4\\sqrt{2}$",
       "d": "2"
     },
     "correctAnswer": "a",
-    "explanation": "z=3+4izˉ=3−4i \\begin{array}{l}z=3+4 i \\\\ \\bar{z}=3-4 i\\end{array} z=3+4izˉ=3−4i বিন্দুদ্ধয় (3,4), (3,-4) দূরত্ব ঃ =(3−3)2+(4−(−4))2=(8)2=8 একক \\begin{array}{l}=\\sqrt{(3-3)^{2}+(4-(-4))^{2}} \\\\ =\\sqrt{(8)^{2}} \\\\ =8 \\text { একক }\\end{array} =(3−3)2+(4−(−4))2=(8)2=8 একক",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243607/gst-question-images/Math______________-Varsity-arc_q15.png",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি z=3+4i z=3+4 i z=3+4i হয়, তবে z z z এবং zˉ \\bar{z} zˉ এর মধ্যবর্তী দূরত্ব কত একক?$",
-    "explanationLatex": "$z=3+4izˉ=3−4i \\begin{array}{l}z=3+4 i \\\\ \\bar{z}=3-4 i\\end{array} z=3+4izˉ=3−4i বিন্দুদ্ধয় (3,4), (3,-4) দূরত্ব ঃ =(3−3)2+(4−(−4))2=(8)2=8 একক \\begin{array}{l}=\\sqrt{(3-3)^{2}+(4-(-4))^{2}} \\\\ =\\sqrt{(8)^{2}} \\\\ =8 \\text { একক }\\end{array} =(3−3)2+(4−(−4))2=(8)2=8 একক$"
+    "explanation": "no need"
   },
   {
     "id": 16,
-    "question": "অসমান x ও y এর যে কোন একটির বর্গ অপরটির সমান হলে সম্পর্কটি-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "অসমান $x$ ও $y$ এর যে কোন একটির বর্গ অপরটির সমান হলে সম্পর্কটি-",
     "options": {
-      "a": "x=y-1",
-      "b": "x=y+2",
-      "c": "x=-y+2",
-      "d": "x=-y-1"
+      "a": "$x=y-1$",
+      "b": "$x=y+2$",
+      "c": "$x=-y+2$",
+      "d": "$x=-y-1$"
     },
     "correctAnswer": "d",
-    "explanation": "আমরা জানি, এককের জটিল ঘনমূলদ্বয় হনো ω \\omega ω ও ω2 \\omega^{2} ω2 । অর্থাৎ, একে অপরের বর্গ, তাই x ও y মূলত ω \\omega ω ও ω2 \\omega^{2} ω2 কেই নির্দেশ করে। আমরা জানি, ω+ω2+1=0⇒x+y+1=0∴x=−y−1 \\omega+\\omega^{2}+1=0 \\Rightarrow x+y+1=0 \\therefore x=-y-1 ω+ω2+1=0⇒x+y+1=0∴x=−y−1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "অসমান x ও y এর যে কোন একটির বর্গ অপরটির সমান হলে সম্পর্কটি-",
-    "explanationLatex": "$আমরা জানি, এককের জটিল ঘনমূলদ্বয় হনো ω \\omega ω ও ω2 \\omega^{2} ω2 । অর্থাৎ, একে অপরের বর্গ, তাই x ও y মূলত ω \\omega ω ও ω2 \\omega^{2} ω2 কেই নির্দেশ করে। আমরা জানি, ω+ω2+1=0⇒x+y+1=0∴x=−y−1 \\omega+\\omega^{2}+1=0 \\Rightarrow x+y+1=0 \\therefore x=-y-1 ω+ω2+1=0⇒x+y+1=0∴x=−y−1$"
+    "explanation": "no need"
   },
   {
     "id": 17,
-    "question": "By Euler Formulae, eix=cos⁡x+isin⁡x \\mathrm{e}^{\\mathrm{ix}}=\\cos \\mathrm{x}+\\mathrm{i} \\sin \\mathrm{x} eix=cosx+isinx",
-    "options": {
-      "a": "ক. cosx+isina",
-      "b": "খ. cos x+ i sin x",
-      "c": "গ. cos x-i sina",
-      "d": "ঘ. cosx -sin x"
-    },
-    "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর: (b) খ. cos x+ i sin x।",
     "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$By Euler Formulae, eix=cos⁡x+isin⁡x \\mathrm{e}^{\\mathrm{ix}}=\\cos \\mathrm{x}+\\mathrm{i} \\sin \\mathrm{x} eix=cosx+isinx$",
-    "explanationLatex": "সঠিক উত্তর: (b) খ. cos x+ i sin x।"
+    "topic": "জটিল সংখ্যা",
+    "question": "$e^{ix}$ এর মান নিচের কোনটি?",
+    "options": {
+      "a": "$\\cos x+i\\sin x$",
+      "b": "$\\cos x-i\\sin x$",
+      "c": "$\\sin x+i\\cos x$",
+      "d": "$\\cos x-\\sin x$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
   },
   {
     "id": 18,
-    "question": "এককের একটি কাল্পনিক ঘনমুল ω হলে",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "এককের একটি কাল্পনিক ঘনমুল $\\omega$ হলে $\\{i(1-\\omega)\\}^{2}$ এর মান কত?",
     "options": {
-      "a": "3ω",
-      "b": "3ω2",
-      "c": "2ω",
+      "a": "$3\\omega$",
+      "b": "$3\\omega^{2}$",
+      "c": "$2\\omega$",
       "d": "1"
     },
     "correctAnswer": "a",
-    "explanation": "{i(1-ω)}2 এর মান কত? i2(1+ω2−2ω)=−(−3ω)=3ω i^{2}\\left(1+\\omega^{2}-2 \\omega\\right)=-(-3 \\omega)=3 \\omega i2(1+ω2−2ω)=−(−3ω)=3ω",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "এককের একটি কাল্পনিক ঘনমুল ω হলে",
-    "explanationLatex": "${i(1-ω)}2 এর মান কত? i2(1+ω2−2ω)=−(−3ω)=3ω i^{2}\\left(1+\\omega^{2}-2 \\omega\\right)=-(-3 \\omega)=3 \\omega i2(1+ω2−2ω)=−(−3ω)=3ω$"
+    "explanation": "no need"
   },
   {
     "id": 19,
-    "question": "1-i মূলবিশিষ্ট দ্বিঘাত সমীকরন কোনটি?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$1-i$ মূলবিশিষ্ট দ্বিঘাত সমীকরন কোনটি?",
     "options": {
-      "a": "x2-2x+2=0",
-      "b": "x2-2x-2=0",
-      "c": "x2+2x+2=0",
-      "d": "x2+2x+2=0"
+      "a": "$x^{2}-2x+2=0$",
+      "b": "$x^{2}-2x-2=0$",
+      "c": "$x^{2}+2x-2=0$",
+      "d": "$x^{2}+2x+2=0$"
     },
     "correctAnswer": "a",
-    "explanation": "∴ \\therefore ∴ একটি মূল 1−i 1-\\mathrm{i} 1−i, তবে অপর মূল =1+i =1+\\mathrm{i} =1+i ∴ \\therefore ∴ নির্ণেয় দ্বিঘাত সমীকরণ, x2−(1+i+1−i)x+(1−i)(1+i)=0⇒x2−2x+(12+1)=0⇒x2−2x+2=0 \\begin{aligned} & x^{2}-(1+i+1-i) x+(1-i)(1+i)=0 \\\\ \\Rightarrow & x^{2}-2 x+\\left(1^{2}+1\\right)=0 \\Rightarrow x^{2}-2 x+2=0 \\end{aligned} ⇒x2−(1+i+1−i)x+(1−i)(1+i)=0x2−2x+(12+1)=0⇒x2−2x+2=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "1-i মূলবিশিষ্ট দ্বিঘাত সমীকরন কোনটি?",
-    "explanationLatex": "$∴ \\therefore ∴ একটি মূল 1−i 1-\\mathrm{i} 1−i, তবে অপর মূল =1+i =1+\\mathrm{i} =1+i ∴ \\therefore ∴ নির্ণেয় দ্বিঘাত সমীকরণ, x2−(1+i+1−i)x+(1−i)(1+i)=0⇒x2−2x+(12+1)=0⇒x2−2x+2=0 \\begin{aligned} & x^{2}-(1+i+1-i) x+(1-i)(1+i)=0 \\\\ \\Rightarrow & x^{2}-2 x+\\left(1^{2}+1\\right)=0 \\Rightarrow x^{2}-2 x+2=0 \\end{aligned} ⇒x2−(1+i+1−i)x+(1−i)(1+i)=0x2−2x+(12+1)=0⇒x2−2x+2=0$"
+    "explanation": "no need"
   },
   {
     "id": 20,
-    "question": "i=√−1 i = √ - 1 i=√−1 হলে, i999 i^{999} i999 এর সমান কোনটি?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i=\\sqrt{-1}$ হলে, $i^{999}$ এর সমান কোনটি?",
     "options": {
       "a": "-i",
       "b": "i",
@@ -389,19 +277,13 @@
       "d": "-1"
     },
     "correctAnswer": "a",
-    "explanation": "আমরা জানি, i4n+p=ipi999=i3i3=i2i=−i \\begin{array}{l} i^{ 4 n+p}=i p \\\\ i^{999}=i^{3} \\\\ i^{3}=i^{2} i \\\\ =-i \\end{array} i4n+p=ipi999=i3i3=i2i=−i",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i=\\\\sqrt{}−1 i = \\\\sqrt{} - 1 i=\\\\sqrt{}−1 হলে, i999 i^{999} i999 এর সমান কোনটি?$",
-    "explanationLatex": "$আমরা জানি, i4n+p=ipi999=i3i3=i2i=−i \\begin{array}{l} i^{ 4 n+p}=i p \\\\ i^{999}=i^{3} \\\\ i^{3}=i^{2} i \\\\ =-i \\end{array} i4n+p=ipi999=i3i3=i2i=−i$"
+    "explanation": "no need"
   },
   {
     "id": 21,
-    "question": "z1= 1+i এবং z2= 1- i হলে, z1z2 এর মান কেমন হবে?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z_{1}=1+i$ এবং $z_{2}=1-i$ হলে, $z_{1}z_{2}$ এর মান কেমন হবে?",
     "options": {
       "a": "বাস্তব সংখ্যা",
       "b": "জটিল সংখ্যা",
@@ -409,19 +291,13 @@
       "d": "কাল্পনিক সংখ্যা"
     },
     "correctAnswer": "a",
-    "explanation": "z1z2=(1+i)(1−i)=1−i2=1+1=2∈R z_{1} z_{2}=(1+i)(1-i)=1-i^{2}=1+1=2 \\in R z1z2=(1+i)(1−i)=1−i2=1+1=2∈R",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$z1= 1+i এবং z2= 1- i হলে, z1z2 এর মান কেমন হবে?$",
-    "explanationLatex": "$z1z2=(1+i)(1−i)=1−i2=1+1=2∈R z_{1} z_{2}=(1+i)(1-i)=1-i^{2}=1+1=2 \\in R z1z2=(1+i)(1−i)=1−i2=1+1=2∈R$"
+    "explanation": "no need"
   },
   {
     "id": 22,
-    "question": "X=−1+i√2হলে, X = - 1 + i √ 2 হ ল ে , X=−1+i√2হলে, x^4 + 4x^3 + 6x^2 + 4x + 9 এর মান কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$x=-1+i\\sqrt{2}$ হলে $x^4+4x^3+6x^2+4x+9$ এর মান কত?",
     "options": {
       "a": "9",
       "b": "0",
@@ -429,19 +305,13 @@
       "d": "10"
     },
     "correctAnswer": "c",
-    "explanation": "x=−1+2ix+1=2i⇒(x+1)2=(2i)2⇒x2+2x+1=−2⇒x2+2x+3=0x4+4x3+6x2+4x+9)=x2(x2+2x+3)+2x(x2+2x+3)−(x2+2x+3)+12=12 \\begin{array}{l} x=-1+\\sqrt{2} i \\\\ x+1=\\sqrt{2} i \\Rightarrow(x+1)^{2}=(\\sqrt{2} i)^{2} \\\\ \\Rightarrow x^{2}+2 x+1=-2 \\\\ \\Rightarrow x^{2}+2 x+3=0 \\\\ \\left.x^{4}+4 x^{3}+6 x^{2}+4 x+9\\right)= \\\\ x^{2}\\left(x^{2}+2 x+3\\right)+ \\\\ 2 x\\left(x^{2}+2 x+3\\right) \\\\ -\\left(x^{2}+2 x+3\\right)+12 \\\\ = 12\\end{array} x=−1+2ix+1=2i⇒(x+1)2=(2i)2⇒x2+2x+1=−2⇒x2+2x+3=0x4+4x3+6x2+4x+9)=x2(x2+2x+3)+2x(x2+2x+3)−(x2+2x+3)+12=12",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$X=−1+i\\\\sqrt{}2হলে, X = - 1 + i \\\\sqrt{} 2 হ ল ে , X=−1+i\\\\sqrt{}2হলে, x^4 + 4x^3 + 6x^2 + 4x + 9 এর মান কত?$",
-    "explanationLatex": "$x=−1+2ix+1=2i⇒(x+1)2=(2i)2⇒x2+2x+1=−2⇒x2+2x+3=0x4+4x3+6x2+4x+9)=x2(x2+2x+3)+2x(x2+2x+3)−(x2+2x+3)+12=12 \\begin{array}{l} x=-1+\\sqrt{2} i \\\\ x+1=\\sqrt{2} i \\Rightarrow(x+1)^{2}=(\\sqrt{2} i)^{2} \\\\ \\Rightarrow x^{2}+2 x+1=-2 \\\\ \\Rightarrow x^{2}+2 x+3=0 \\\\ \\left.x^{4}+4 x^{3}+6 x^{2}+4 x+9\\right)= \\\\ x^{2}\\left(x^{2}+2 x+3\\right)+ \\\\ 2 x\\left(x^{2}+2 x+3\\right) \\\\ -\\left(x^{2}+2 x+3\\right)+12 \\\\ = 12\\end{array} x=−1+2ix+1=2i⇒(x+1)2=(2i)2⇒x2+2x+1=−2⇒x2+2x+3=0x4+4x3+6x2+4x+9)=x2(x2+2x+3)+2x(x2+2x+3)−(x2+2x+3)+12=12$"
+    "explanation": "no need"
   },
   {
     "id": 23,
-    "question": "এককের একটি কাল্পনিক ঘনমূলω\\omegaωহলে,(1−ω)(1−ω2)(1−ω4)(1−ω8)(1-\\omega)(1-\\omega^2)(1-\\omega^4)(1-\\omega^8)(1−ω)(1−ω2)(1−ω4)(1−ω8)এর মান কত ?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "এককের একটি কাল্পনিক ঘনমূল $\\omega$ হলে, $(1-\\omega)(1-\\omega^{2})(1-\\omega^{4})(1-\\omega^{8})$ এর মান কত?",
     "options": {
       "a": "18",
       "b": "6",
@@ -449,79 +319,55 @@
       "d": "1"
     },
     "correctAnswer": "c",
-    "explanation": "(1−ω)(1−ω2)(1−ω4)(1−ω8)(1-\\omega)(1-\\omega^2)(1-\\omega^4)(1-\\omega^8)(1−ω)(1−ω2)(1−ω4)(1−ω8) =(1−ω)(1−ω2)(1−ω)(1−ω2) =(1-\\omega)(1-\\omega^2)(1-\\omega)(1−\\omega^2)\\ =(1−ω)(1−ω2)(1−ω)(1−ω2) ={(1−ω)(1−ω2)}2={1−ω−ω2+ω3}2=\\left\\{(1−\\omega)(1−\\omega^2)\\right\\}^2=\\left\\{1-\\omega-\\omega^2+\\omega^3\\right\\}^2={(1−ω)(1−ω2)}2={1−ω−ω2+ω3}2 ={1−(1+ω+ω2)+2}2=9=\\left\\{1-\\left(1+\\omega+\\omega^2\\right)+2\\right\\}^2=9={1−(1+ω+ω2)+2}2=9",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "এককের একটি কাল্পনিক ঘনমূলω\\omegaωহলে,(1−ω)(1−ω2)(1−ω4)(1−ω8)(1-\\omega)(1-\\omega^2)(1-\\omega^4)(1-\\omega^8)(1−ω)(1−ω2)(1−ω4)(1−ω8)এর মান কত ?",
-    "explanationLatex": "$(1−ω)(1−ω2)(1−ω4)(1−ω8)(1-\\omega)(1-\\omega^2)(1-\\omega^4)(1-\\omega^8)(1−ω)(1−ω2)(1−ω4)(1−ω8) =(1−ω)(1−ω2)(1−ω)(1−ω2) =(1-\\omega)(1-\\omega^2)(1-\\omega)(1−\\omega^2)\\ =(1−ω)(1−ω2)(1−ω)(1−ω2) ={(1−ω)(1−ω2)}2={1−ω−ω2+ω3}2=\\left\\{(1−\\omega)(1−\\omega^2)\\right\\}^2=\\left\\{1-\\omega-\\omega^2+\\omega^3\\right\\}^2={(1−ω)(1−ω2)}2={1−ω−ω2+ω3}2 ={1−(1+ω+ω2)+2}2=9=\\left\\{1-\\left(1+\\omega+\\omega^2\\right)+2\\right\\}^2=9={1−(1+ω+ω2)+2}2=9$"
+    "explanation": "no need"
   },
   {
     "id": 24,
-    "question": "1+x2c2=0 হলে c এর মান কত?1+x^2c^2=0\\ হলে\\ c\\ এর\\ মান\\ কত?1+x2c2=0 হলে c এর মান কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$1+x^{2}c^{2}=0$ হলে $c$ এর মান কত?",
     "options": {
-      "a": "𝑖 𝑥 , 𝑖 𝑥 ix, x i",
-      "b": "± 1 𝑥 ± x 1",
-      "c": "± 𝑖 𝑥 ± x i",
-      "d": "± 𝑖 𝑥 ±ix"
+      "a": "$ix, \\frac{i}{x}$",
+      "b": "$\\pm\\frac{1}{x}$",
+      "c": "$\\pm\\frac{i}{x}$",
+      "d": "$\\pm ix$"
     },
     "correctAnswer": "c",
-    "explanation": "1+x2e2=0⇒x2e2=−1⇒c2=−1x2⇒c=±−1x2=±1x⋅−1=±ix \\begin{aligned} 1+x^{2} e^{2} & =0 \\\\ \\Rightarrow x^{2} e^{2} & =-1 \\\\ \\Rightarrow c^{2} & =-\\frac{1}{x^{2}} \\\\ \\Rightarrow c & = \\pm \\sqrt{-\\frac{1}{x^{2}}} \\\\ & = \\pm \\frac{1}{x} \\cdot \\sqrt{-1} \\\\ & = \\pm \\frac{i}{x} \\end{aligned} 1+x2e2⇒x2e2⇒c2⇒c=0=−1=−x21=±−x21=±x1⋅−1=±xi",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$1+x2c2=0 হলে c এর মান কত?1+x^2c^2=0\\ হলে\\ c\\ এর\\ মান\\ কত?1+x2c2=0 হলে c এর মান কত?$",
-    "explanationLatex": "$1+x2e2=0⇒x2e2=−1⇒c2=−1x2⇒c=\\\\pm −1x2=\\\\pm 1x⋅−1=\\\\pm ix \\begin{aligned} 1+x^{2} e^{2} & =0 \\\\ \\Rightarrow x^{2} e^{2} & =-1 \\\\ \\Rightarrow c^{2} & =-\\frac{1}{x^{2}} \\\\ \\Rightarrow c & = \\pm \\sqrt{-\\frac{1}{x^{2}}} \\\\ & = \\pm \\frac{1}{x} \\cdot \\sqrt{-1} \\\\ & = \\pm \\frac{i}{x} \\end{aligned} 1+x2e2⇒x2e2⇒c2⇒c=0=−1=−x21=\\\\pm −x21=\\\\pm x1⋅−1=\\\\pm xi$"
+    "explanation": "no need"
   },
   {
     "id": 25,
-    "question": "Z1=2+i Z_{1}=2+i Z1=2+i এবং Z2=3+i Z_{2}=3+i Z2=3+i হলে, Z1(Z‾)2 Z_{1}\\left(\\overline{Z}\\right)_{2} Z1(Z)2 এর মডুলাস কত ?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z_{1}=2+i$ এবং $z_{2}=3+i$ হলে, $z_{1}\\bar{z}_{2}$ এর মডুলাস কত?",
     "options": {
       "a": "6",
       "b": "7",
-      "c": "5 2 5 2",
-      "d": "5 3 5 3"
+      "c": "$5\\sqrt{2}$",
+      "d": "$5\\sqrt{3}$"
     },
     "correctAnswer": "c",
-    "explanation": "zˉ2=3−iz1⋅zˉ2=(2+i)(3−i)=7+i∴ মডুলাস; π=72+12=52 \\begin{array}{l} \\bar{z}_{2}=3-i \\\\ z_{1} \\cdot \\bar{z}_{2}=(2+i)(3-i) \\\\ =7+i \\\\ \\therefore \\text { মডুলাস; } \\pi=\\sqrt{7^{2}+1^{2}} \\\\ =5 \\sqrt{2}\\end{array} zˉ2=3−iz1⋅zˉ2=(2+i)(3−i)=7+i∴ মডুলাস; π=72+12=52",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$Z1=2+i Z_{1}=2+i Z1=2+i এবং Z2=3+i Z_{2}=3+i Z2=3+i হলে, Z1(Z‾)2 Z_{1}\\left(\\overline{Z}\\right)_{2} Z1(Z)2 এর মডুলাস কত ?$",
-    "explanationLatex": "$zˉ2=3−iz1⋅zˉ2=(2+i)(3−i)=7+i∴ মডুলাস; \\\\pi =72+12=52 \\begin{array}{l} \\bar{z}_{2}=3-i \\\\ z_{1} \\cdot \\bar{z}_{2}=(2+i)(3-i) \\\\ =7+i \\\\ \\therefore \\text { মডুলাস; } \\pi=\\sqrt{7^{2}+1^{2}} \\\\ =5 \\sqrt{2}\\end{array} zˉ2=3−iz1⋅zˉ2=(2+i)(3−i)=7+i∴ মডুলাস; \\\\pi =72+12=52$"
+    "explanation": "no need"
   },
   {
     "id": 26,
-    "question": "কোনটি x3 = 8 এর সমাধান নয়?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "কোনটি $x^{3}=8$ এর সমাধান নয়?",
     "options": {
       "a": "2",
-      "b": "-1 + i√3",
-      "c": "-1 - i√3",
-      "d": "√2 (1 + i)"
+      "b": "$-1+i\\sqrt{3}$",
+      "c": "$-1-i\\sqrt{3}$",
+      "d": "$\\sqrt{2}(1+i)$"
     },
     "correctAnswer": "d",
-    "explanation": "x3=8⇒x=2,2ω,2ω2=2,(−1+3i),(−1−3i) x^{3}=8 \\Rightarrow x=2,2 \\omega, 2 \\omega^{2}=2,(-1+\\sqrt{3} i),(-1-\\sqrt{3} i) x3=8⇒x=2,2ω,2ω2=2,(−1+3i),(−1−3i)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$কোনটি x3 = 8 এর সমাধান নয়?$",
-    "explanationLatex": "$x3=8⇒x=2,2ω,2ω2=2,(−1+3i),(−1−3i) x^{3}=8 \\Rightarrow x=2,2 \\omega, 2 \\omega^{2}=2,(-1+\\sqrt{3} i),(-1-\\sqrt{3} i) x3=8⇒x=2,2ω,2ω2=2,(−1+3i),(−1−3i)$"
+    "explanation": "no need"
   },
   {
     "id": 27,
-    "question": "x = 3+2i এবং y = 3-2i হলে x2+xy+y2=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$x=3+2i$ এবং $y=3-2i$ হলে $x^{2}+xy+y^{2}=?$",
     "options": {
       "a": "20",
       "b": "23",
@@ -529,179 +375,125 @@
       "d": "29"
     },
     "correctAnswer": "b",
-    "explanation": "x=3+2iy=2−2ix2+xy+y2=(3+2i)2+(3+2i)(3−2i)+(3−2i)2=9+12i+4i2+9−4i2+9−12i+4i2=27−4=23 \\begin{array}{l} x= 3+2 i \\quad y=2-2 i \\\\ x^{2}+x y+y^{2}=(3+2 i)^{2}+(3+2 i)(3-2 i) +(3-2 i)^{2} \\\\ =9+12 i+4 i^{2}+9-4 i^{2}+ 9 - 12i + 4i^{2} \\\\ =27 - 4= 23 \\end{array} x=3+2iy=2−2ix2+xy+y2=(3+2i)2+(3+2i)(3−2i)+(3−2i)2=9+12i+4i2+9−4i2+9−12i+4i2=27−4=23",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x = 3+2i এবং y = 3-2i হলে x2+xy+y2=?$",
-    "explanationLatex": "$x=3+2iy=2−2ix2+xy+y2=(3+2i)2+(3+2i)(3−2i)+(3−2i)2=9+12i+4i2+9−4i2+9−12i+4i2=27−4=23 \\begin{array}{l} x= 3+2 i \\quad y=2-2 i \\\\ x^{2}+x y+y^{2}=(3+2 i)^{2}+(3+2 i)(3-2 i) +(3-2 i)^{2} \\\\ =9+12 i+4 i^{2}+9-4 i^{2}+ 9 - 12i + 4i^{2} \\\\ =27 - 4= 23 \\end{array} x=3+2iy=2−2ix2+xy+y2=(3+2i)2+(3+2i)(3−2i)+(3−2i)2=9+12i+4i2+9−4i2+9−12i+4i2=27−4=23$"
+    "explanation": "no need"
   },
   {
     "id": 28,
-    "question": "−16×−1 =?\\sqrt{-16}\\times\\sqrt{-1}\\ =?−16×−1 =?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\sqrt{-16}\\times\\sqrt{-1}=?$",
     "options": {
-      "a": "4 4",
-      "b": "− 4 −4",
-      "c": "± 4 ±4",
-      "d": "4 𝑖 4i"
+      "a": "4",
+      "b": "-4",
+      "c": "$\\pm 4$",
+      "d": "4i"
     },
     "correctAnswer": "b",
-    "explanation": "−16×−1=4i×i=−4\\sqrt{-16}\\times\\sqrt{-1}=4i\\times i=-4−16×−1=4i×i=−4",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$−16\\\\times −1 =?\\sqrt{-16}\\times\\sqrt{-1}\\ =?−16\\\\times −1 =?$",
-    "explanationLatex": "$−16\\\\times −1=4i\\\\times i=−4\\sqrt{-16}\\times\\sqrt{-1}=4i\\times i=-4−16\\\\times −1=4i\\\\times i=−4$"
+    "explanation": "no need"
   },
   {
     "id": 29,
-    "question": "−3+i -\\sqrt{3}+i \\quad −3+iএর মডুলাস ও আর্গুমেন্ট নিচের কোনটি ?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$-\\sqrt{3}+i$ এর মডুলাস ও আর্গুমেন্ট নিচের কোনটি?",
     "options": {
-      "a": "2 & 4 𝜋 / 6 4π/6",
-      "b": "2 & 5 𝜋 / 3 5π/3",
-      "c": "2 & 5 𝜋 / 6 5π/6",
-      "d": "2 & 5 / 6 5/6"
+      "a": "2 ও $\\frac{4\\pi}{6}$",
+      "b": "2 ও $\\frac{5\\pi}{3}$",
+      "c": "2 ও $\\frac{5\\pi}{6}$",
+      "d": "$\\frac{5}{6}$"
     },
     "correctAnswer": "c",
-    "explanation": "দেওয়া আছে, −3+i -\\sqrt{3}+i \\quad −3+i মনে করি ; rcos⁡θ=−3 r \\cos \\theta=-\\sqrt{3} rcosθ=−3 এবং rsin⁡θ=1 r \\sin \\theta=1 rsinθ=1 ∴ Modulas r=(−3)2+12[∵r=x2+y2]=3+1=4=2 \\begin{aligned} \\therefore \\quad \\text { Modulas } \\mathrm{r} & =\\sqrt{(-\\sqrt{3})^{2}+1^{2}}\\left[\\because \\mathrm{r}=\\sqrt{x^{2}+y^{2}}\\right] \\\\ & =\\sqrt{3+1}=\\sqrt{4}=2 \\end{aligned} ∴ Modulas r=(−3)2+12[∵r=x2+y2]=3+1=4=2 Argument θ=tan⁡−11−3,[∵θ=tan⁡−1yx]=π−tan⁡−113[∵tan⁡−1y−x=π−tan⁡−1yx]=π−π6=5π6∴−3+i=rcos⁡θ+irsin⁡θ=2(cos⁡5π6+isin⁡5π6) \\begin{array}{l} \\text { Argument } \\theta=\\tan ^{-1} \\frac{1}{-\\sqrt{3}},\\left[\\because \\theta=\\tan ^{-1} \\frac{y}{x}\\right] \\\\ =\\pi-\\tan ^{-1} \\frac{1}{\\sqrt{3}}\\left[\\because \\tan ^{-1} \\frac{y}{-x}=\\pi-\\tan ^{-1} \\frac{y}{x}\\right] \\\\ =\\pi-\\frac{\\pi}{6}=\\frac{5 \\pi}{6} \\\\ \\therefore-\\sqrt{3}+i=\\mathrm{r} \\cos \\theta+i \\mathrm{r} \\sin \\theta \\\\ =2\\left(\\cos \\frac{5 \\pi}{6}+i \\sin \\frac{5 \\pi}{6}\\right) \\\\ \\end{array} Argument θ=tan−1−31,[∵θ=tan−1xy]=π−tan−131[∵tan−1−xy=π−tan−1xy]=π−6π=65π∴−3+i=rcosθ+irsinθ=2(cos65π+isin65π) Answer:গ",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$−3+i -\\sqrt{3}+i \\quad −3+iএর মডুলাস ও আর্গুমেন্ট নিচের কোনটি ?$",
-    "explanationLatex": "$দেওয়া আছে, −3+i -\\sqrt{3}+i \\quad −3+i মনে করি ; rcos⁡\\\\theta =−3 r \\cos \\theta=-\\sqrt{3} rcos\\\\theta =−3 এবং rsin⁡\\\\theta =1 r \\sin \\theta=1 rsin\\\\theta =1 ∴ Modulas r=(−3)2+12[∵r=x2+y2]=3+1=4=2 \\begin{aligned} \\therefore \\quad \\text { Modulas } \\mathrm{r} & =\\sqrt{(-\\sqrt{3})^{2}+1^{2}}\\left[\\because \\mathrm{r}=\\sqrt{x^{2}+y^{2}}\\right] \\\\ & =\\sqrt{3+1}=\\sqrt{4}=2 \\end{aligned} ∴ Modulas r=(−3)2+12[∵r=x2+y2]=3+1=4=2 Argument \\\\theta =tan⁡−11−3,[∵\\\\theta =tan⁡−1yx]=\\\\pi −tan⁡−113[∵tan⁡−1y−x=\\\\pi −tan⁡−1yx]=\\\\pi −\\\\pi 6=5\\\\pi 6∴−3+i=rcos⁡\\\\theta +irsin⁡\\\\theta =2(cos⁡5\\\\pi 6+isin⁡5\\\\pi 6) \\begin{array}{l} \\text { Argument } \\theta=\\tan ^{-1} \\frac{1}{-\\sqrt{3}},\\left[\\because \\theta=\\tan ^{-1} \\frac{y}{x}\\right] \\\\ =\\pi-\\tan ^{-1} \\frac{1}{\\sqrt{3}}\\left[\\because \\tan ^{-1} \\frac{y}{-x}=\\pi-\\tan ^{-1} \\frac{y}{x}\\right] \\\\ =\\pi-\\frac{\\pi}{6}=\\frac{5 \\pi}{6} \\\\ \\therefore-\\sqrt{3}+i=\\mathrm{r} \\cos \\theta+i \\mathrm{r} \\sin \\theta \\\\ =2\\left(\\cos \\frac{5 \\pi}{6}+i \\sin \\frac{5 \\pi}{6}\\right) \\\\ \\end{array} Argument \\\\theta =tan−1−31,[∵\\\\theta =tan−1xy]=\\\\pi −tan−131[∵tan−1−xy=\\\\pi −tan−1xy]=\\\\pi −6\\\\pi =65\\\\pi ∴−3+i=rcos\\\\theta +irsin\\\\theta =2(cos65\\\\pi +isin65\\\\pi ) Answer:গ$"
+    "explanation": "no need"
   },
   {
     "id": 30,
-    "question": "2+85i=? \\sqrt{2 + 8 \\sqrt{5} i} = ? 2+85i=?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\sqrt{2+8\\sqrt{5}i}=?$",
     "options": {
-      "a": "± ( 10 + 8 𝑖 ) ±( 10 + 8 i)",
-      "b": "± ( 8 + 10 𝑖 ) ±( 8 + 10 i)",
-      "c": "± ( 10 + 2 𝑖 ) ±( 10 + 2 i)",
-      "d": "± ( 10 + 4 𝑖 ) ±( 10 + 4 i)"
+      "a": "$\\pm(\\sqrt{10}+\\sqrt{8}i)$",
+      "b": "$\\pm(\\sqrt{8}+\\sqrt{10}i)$",
+      "c": "$\\pm(\\sqrt{10}+\\sqrt{2}i)$",
+      "d": "$\\pm(\\sqrt{10}+\\sqrt{4}i)$"
     },
     "correctAnswer": "a",
-    "explanation": "বর্গ করে অপশন চ্যাক করা বেটার কাজ।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$2+85i=? \\sqrt{2 + 8 \\sqrt{5} i} = ? 2+85i=?$",
-    "explanationLatex": "বর্গ করে অপশন চ্যাক করা বেটার কাজ।"
+    "explanation": "no need"
   },
   {
     "id": 31,
-    "question": "যদি z1=(1−i) z_{1} = \\left ( 1 - i \\right ) z1=(1−i) z2=(√3+i) z_{2} = \\left ( √ 3 + i \\right ) z2=(√3+i) হয় তবে z2z1 \\frac{z_{2}}{z_{1}} z1z2 এর নতি",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "যদি $z_{1}=1-i$, $z_{2}=\\sqrt{3}+i$ হয় তবে $Arg(\\frac{z_{2}}{z_{1}})$ এর মান-",
     "options": {
-      "a": "5 𝜋 12 12 5π",
-      "b": "𝜋 6 6 π",
-      "c": "𝜋 4 4 π",
-      "d": "− 5 𝜋 12 12 −5π"
+      "a": "$\\frac{5\\pi}{12}$",
+      "b": "$\\frac{\\pi}{6}$",
+      "c": "$\\frac{\\pi}{4}$",
+      "d": "$-\\frac{5\\pi}{12}$"
     },
     "correctAnswer": "a",
-    "explanation": "z2=3+iArg⁡(z2)=tan⁡−1(13)=π6z1=1−iArg⁡(z1)=−tan⁡−1∣−11∣=−π/4 \\begin{array}{l} z_{2}=\\sqrt{3}+i \\\\ \\operatorname{Arg}\\left(z_{2}\\right)=\\tan ^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{\\pi}{6} \\\\ z_{1}=1-i \\\\ \\operatorname{Arg}\\left(z_{1}\\right)=-\\tan ^{-1}\\left|\\frac{-1}{1}\\right|=-\\pi / 4 \\end{array} z2=3+iArg(z2)=tan−1(31)=6πz1=1−iArg(z1)=−tan−11−1=−π/4 ∴Arg⁡(z2z1)=Arg⁡(z2)−Agr⁡(z1)=π/6+π/4=5π12 \\begin{array}{l} \\therefore \\operatorname{Arg}\\left(\\frac{z_{2}}{z_{1}}\\right) \\\\ =\\operatorname{Arg}\\left(z_{2}\\right)-\\operatorname{Agr}\\left(z_{1}\\right) \\\\ = \\pi / 6+\\pi / 4 \\\\ = \\frac{5 \\pi}{12} \\end{array} ∴Arg(z1z2)=Arg(z2)−Agr(z1)=π/6+π/4=125π",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি z1=(1−i) z_{1} = \\left ( 1 - i \\right ) z1=(1−i) z2=(\\\\sqrt{}3+i) z_{2} = \\left ( \\\\sqrt{} 3 + i \\right ) z2=(\\\\sqrt{}3+i) হয় তবে z2z1 \\frac{z_{2}}{z_{1}} z1z2 এর নতি$",
-    "explanationLatex": "$z2=3+iArg⁡(z2)=tan⁡−1(13)=\\\\pi 6z1=1−iArg⁡(z1)=−tan⁡−1∣−11∣=−\\\\\\frac{pi}{4} \\begin{array}{l} z_{2}=\\sqrt{3}+i \\\\ \\operatorname{Arg}\\left(z_{2}\\right)=\\tan ^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{\\pi}{6} \\\\ z_{1}=1-i \\\\ \\operatorname{Arg}\\left(z_{1}\\right)=-\\tan ^{-1}\\left|\\frac{-1}{1}\\right|=-\\\\frac{pi}{4} \\end{array} z2=3+iArg(z2)=tan−1(31)=6\\\\pi z1=1−iArg(z1)=−tan−11−1=−\\\\\\frac{pi}{4} ∴Arg⁡(z2z1)=Arg⁡(z2)−Agr⁡(z1)=\\\\\\frac{pi}{6}+\\\\\\frac{pi}{4}=5\\\\pi 12 \\begin{array}{l} \\therefore \\operatorname{Arg}\\left(\\frac{z_{2}}{z_{1}}\\right) \\\\ =\\operatorname{Arg}\\left(z_{2}\\right)-\\operatorname{Agr}\\left(z_{1}\\right) \\\\ = \\\\frac{pi}{6}+\\\\frac{pi}{4} \\\\ = \\frac{5 \\pi}{12} \\end{array} ∴Arg(z1z2)=Arg(z2)−Agr(z1)=\\\\\\frac{pi}{6}+\\\\\\frac{pi}{4}=125\\\\pi $"
+    "explanation": "no need"
   },
   {
     "id": 32,
-    "question": "যদি z=x+iy হয়, তবে |z-2|=|z-4| দ্বারা বর্ণিত সঞ্চারপথ হবে-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "যদি $z=x+iy$ হয়, তবে $|z-2|=|z-4|$ দ্বারা বর্ণিত সঞ্চারপথ হবে-",
     "options": {
-      "a": "ইলিপস",
-      "b": "প্যারাবোলা",
+      "a": "উপবৃত্ত",
+      "b": "পরাবৃত্ত",
       "c": "বৃত্ত",
       "d": "সরলরেখা"
     },
     "correctAnswer": "d",
-    "explanation": "(i) ∣z−a∣=∣z−b∣ |z-a|=|z-b| ∣z−a∣=∣z−b∣ অথবা ∣z+a∣=∣z+b∣ |z+a|=|z+b| ∣z+a∣=∣z+b∣ অথবা ∣z+a∣=∣zˉ+b∣ |z+a|=|\\bar{z}+b| ∣z+a∣=∣zˉ+b∣ সরলরেখা নির্দেশ করে।",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি z=x+iy হয়, তবে |z-2|=|z-4| দ্বারা বর্ণিত সঞ্চারপথ হবে-$",
-    "explanationLatex": "$(i) ∣z−a∣=∣z−b∣ |z-a|=|z-b| ∣z−a∣=∣z−b∣ অথবা ∣z+a∣=∣z+b∣ |z+a|=|z+b| ∣z+a∣=∣z+b∣ অথবা ∣z+a∣=∣zˉ+b∣ |z+a|=|\\bar{z}+b| ∣z+a∣=∣zˉ+b∣ সরলরেখা নির্দেশ করে।$"
+    "explanation": "no need"
   },
   {
     "id": 33,
-    "question": "যদি x2=1 তাহলে নীচের কোন উক্তিটি সত্য?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "যদি $x^{2}=1$ তাহলে নীচের কোন উক্তিটি সত্য?",
     "options": {
-      "a": "Only one root; x=1",
+      "a": "Only one root; $x=1$",
       "b": "Two different roots",
       "c": "Three different roots",
       "d": "Solution not possible"
     },
     "correctAnswer": "b",
-    "explanation": "x2=1⇒x=±1 x^{2}=1 \\Rightarrow x= \\pm 1 x2=1⇒x=±1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি x2=1 তাহলে নীচের কোন উক্তিটি সত্য?$",
-    "explanationLatex": "$x2=1⇒x=\\\\pm 1 x^{2}=1 \\Rightarrow x= \\pm 1 x2=1⇒x=\\\\pm 1$"
+    "explanation": "no need"
   },
   {
     "id": 34,
-    "question": "1a+i=ia−i \\frac{1}{a + i} = \\frac{i}{a - i} a+i1=a−ii",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\frac{1}{a+i}=\\frac{i}{a-i}$ হলে, $a$ এর মান -",
     "options": {
       "a": "1",
-      "b": "i/2",
+      "b": "$i/2$",
       "c": "-1",
-      "d": "-i/2"
+      "d": "$-i/2$"
     },
     "correctAnswer": "c",
-    "explanation": "হলে, a এর মান - 1a+1=ia−i⇒a−i=ai+i2⇒a−ai=i+i2⇒a(1−i)=i−1⇒a=i−11−i⇒a=−(1−i)(1−i)∴a=−1 \\begin{array}{rl} & \\frac{1}{a+1}=\\frac{i}{a-i} \\\\ \\Rightarrow & a-i=a i+i^{2} \\\\ \\Rightarrow & a-a i=i+i^{2} \\\\ \\Rightarrow & a(1-i)=i-1 \\\\ \\Rightarrow & a=\\frac{i-1}{1-i} \\\\ \\Rightarrow & a=\\frac{-(1-i)}{(1-i)} \\\\ \\therefore a & =-1\\end{array} ⇒⇒⇒⇒⇒∴aa+11=a−iia−i=ai+i2a−ai=i+i2a(1−i)=i−1a=1−ii−1a=(1−i)−(1−i)=−1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$1a+i=ia−i \\frac{1}{a + i} = \\frac{i}{a - i} a+i1=a−ii$",
-    "explanationLatex": "$হলে, a এর মান - 1a+1=ia−i⇒a−i=ai+i2⇒a−ai=i+i2⇒a(1−i)=i−1⇒a=i−11−i⇒a=−(1−i)(1−i)∴a=−1 \\begin{array}{rl} & \\frac{1}{a+1}=\\frac{i}{a-i} \\\\ \\Rightarrow & a-i=a i+i^{2} \\\\ \\Rightarrow & a-a i=i+i^{2} \\\\ \\Rightarrow & a(1-i)=i-1 \\\\ \\Rightarrow & a=\\frac{i-1}{1-i} \\\\ \\Rightarrow & a=\\frac{-(1-i)}{(1-i)} \\\\ \\therefore a & =-1\\end{array} ⇒⇒⇒⇒⇒∴aa+11=a−iia−i=ai+i2a−ai=i+i2a(1−i)=i−1a=1−ii−1a=(1−i)−(1−i)=−1$"
+    "explanation": "no need"
   },
   {
     "id": 35,
-    "question": "-8-6i এর বর্গমূল কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$-8-6i$ এর বর্গমূল কত?",
     "options": {
-      "a": "± ( 1 + 3 𝑖 ) ±(1+3i)",
-      "b": "± ( 1 − 3 𝑖 ) ±(1−3i)",
-      "c": "± ( 1 + 2 𝑖 ) ±(1+2i)",
-      "d": "± ( 1 − 2 𝑖 ) ±(1−2i)"
+      "a": "$\\pm(1+3i)$",
+      "b": "$\\pm(1-3i)$",
+      "c": "$\\pm(1+2i)$",
+      "d": "$\\pm(1-2i)$"
     },
     "correctAnswer": "b",
-    "explanation": "Shortcut: z=x±iy হলে z এর z=x \\pm i y \\text { হলে } z ~~এর z=x±iy হলে z এর বর্গমুল, z=±12{r+x±ir−x}r=(−8)2+(−6)2=10 \\begin{aligned} \\sqrt{z} & = \\pm \\frac{1}{\\sqrt{2}}\\{\\sqrt{r+x} \\pm i \\sqrt{r-x}\\} \\\\ r & =\\sqrt{(-8)^{2}+(-6)^{2}} \\\\ & =10 \\end{aligned} zr=±21{r+x±ir−x}=(−8)2+(−6)2=10 z=±12{10−8−10+8i}=±12{2−32i}=±(1−3i) \\begin{aligned} \\sqrt{z} & = \\pm \\frac{1}{\\sqrt{2}}\\{\\sqrt{10-8}-\\sqrt{10+8 i}\\} \\\\ & = \\pm \\frac{1}{\\sqrt{2}}\\{\\sqrt{2}-3 \\sqrt{2} i\\} \\\\ & = \\pm(1-3 i) \\end{aligned} z=±21{10−8−10+8i}=±21{2−32i}=±(1−3i)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "-8-6i এর বর্গমূল কত?",
-    "explanationLatex": "$Shortcut: z=x\\\\pm iy হলে z এর z=x \\pm i y \\text { হলে } z ~~এর z=x\\\\pm iy হলে z এর বর্গমুল, z=\\\\pm 12{r+x\\\\pm ir−x}r=(−8)2+(−6)2=10 \\begin{aligned} \\sqrt{z} & = \\pm \\frac{1}{\\sqrt{2}}\\{\\sqrt{r+x} \\pm i \\sqrt{r-x}\\} \\\\ r & =\\sqrt{(-8)^{2}+(-6)^{2}} \\\\ & =10 \\end{aligned} zr=\\\\pm 21{r+x\\\\pm ir−x}=(−8)2+(−6)2=10 z=\\\\pm 12{10−8−10+8i}=\\\\pm 12{2−32i}=\\\\pm (1−3i) \\begin{aligned} \\sqrt{z} & = \\pm \\frac{1}{\\sqrt{2}}\\{\\sqrt{10-8}-\\sqrt{10+8 i}\\} \\\\ & = \\pm \\frac{1}{\\sqrt{2}}\\{\\sqrt{2}-3 \\sqrt{2} i\\} \\\\ & = \\pm(1-3 i) \\end{aligned} z=\\\\pm 21{10−8−10+8i}=\\\\pm 21{2−32i}=\\\\pm (1−3i)$"
+    "explanation": "no need"
   },
   {
     "id": 36,
-    "question": "i2=−1i^2 = -1 i2=−1 হলে, i−i−1i+2i−1\\frac{i -i^{-1}}{i+2i^{-1}}i+2i−1i−i−1 এর মান কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i^{2}=-1$ হলে, $\\frac{i-i^{-1}}{i+2i^{-1}}$ এর মান কত?",
     "options": {
       "a": "-2",
       "b": "2",
@@ -709,139 +501,97 @@
       "d": "-1"
     },
     "correctAnswer": "a",
-    "explanation": "আবার,1i=ii2=i−1=−i\\frac{1}{i}=\\frac{i}{i ²}=\\frac{i}{-1}=-ii1=i2i=−1i=−i প্রদত্ত রাশি=i−i−1i+2i−1=i−1ii+2i=i+ii−2i=2i−i=−2 \\frac{i-i^{-1}}{i+2 i^{-1}}=\\frac{i-\\frac{1}{i}}{i+\\frac{2}{i}}=\\frac{i+i}{i-2 i}=\\frac{2 i}{-i}=-2 i+2i−1i−i−1=i+i2i−i1=i−2ii+i=−i2i=−2 Ans : A.",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i2=−1i^2 = -1 i2=−1 হলে, i−i−1i+2i−1\\frac{i -i^{-1}}{i+2i^{-1}}i+2i−1i−i−1 এর মান কত?$",
-    "explanationLatex": "$আবার,1i=ii2=i−1=−i\\frac{1}{i}=\\frac{i}{i ²}=\\frac{i}{-1}=-ii1=i2i=−1i=−i প্রদত্ত রাশি=i−i−1i+2i−1=i−1ii+2i=i+ii−2i=2i−i=−2 \\frac{i-i^{-1}}{i+2 i^{-1}}=\\frac{i-\\frac{1}{i}}{i+\\frac{2}{i}}=\\frac{i+i}{i-2 i}=\\frac{2 i}{-i}=-2 i+2i−1i−i−1=i+i2i−i1=i−2ii+i=−i2i=−2 Ans : A.$"
+    "explanation": "no need"
   },
   {
     "id": 37,
-    "question": "eix এর জন্য কোনটি সত্য?e^ix\\ এর\\ জন্য\\ কোনটি\\ সত্য?eix এর জন্য কোনটি সত্য?",
-    "options": {
-      "a": "cosx+isina",
-      "b": "cos x+ i sin x",
-      "c": "cos x-i sina",
-      "d": "cosx -sin x"
-    },
-    "correctAnswer": "b",
-    "explanation": "y=cos⁡x+isin⁡xdy=(−sin⁡x+icos⁡x)dx.=iydx⇒dyy=idx⇒∫dyy=∫idx \\begin{aligned} y & =\\cos x+i \\sin x \\\\ d y & =(-\\sin x+i \\cos x) d x . \\\\ & =i y d x \\\\ \\Rightarrow \\frac{d y}{y} & =i d x \\\\ \\Rightarrow \\int \\frac{d y}{y} & =\\int i d x\\end{aligned} ydy⇒ydy⇒∫ydy=cosx+isinx=(−sinx+icosx)dx.=iydx=idx=∫idx ln⁡y=ix+c, এখনx=0,y=1 তখন,e=0ln⁡y=ixy=eix∴eix=cos⁡x+isin⁡x \\begin{aligned} \\ln y & =i x+c \\text {, এখন} x=0, y=1 \\text { তখন}, e=0 \\\\ \\ln y & =i x \\\\ y & =e^{i x} \\quad \\therefore e^{i x}=\\cos x+i \\sin x\\end{aligned} lnylnyy=ix+c, এখনx=0,y=1 তখন,e=0=ix=eix∴eix=cosx+isinx",
     "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "eix এর জন্য কোনটি সত্য?e^ix\\ এর\\ জন্য\\ কোনটি\\ সত্য?eix এর জন্য কোনটি সত্য?",
-    "explanationLatex": "$y=cos⁡x+isin⁡xdy=(−sin⁡x+icos⁡x)dx.=iydx⇒dyy=idx⇒∫dyy=∫idx \\begin{aligned} y & =\\cos x+i \\sin x \\\\ d y & =(-\\sin x+i \\cos x) d x . \\\\ & =i y d x \\\\ \\Rightarrow \\frac{d y}{y} & =i d x \\\\ \\Rightarrow \\int \\frac{d y}{y} & =\\int i d x\\end{aligned} ydy⇒ydy⇒∫ydy=cosx+isinx=(−sinx+icosx)dx.=iydx=idx=∫idx ln⁡y=ix+c, এখনx=0,y=1 তখন,e=0ln⁡y=ixy=eix∴eix=cos⁡x+isin⁡x \\begin{aligned} \\ln y & =i x+c \\text {, এখন} x=0, y=1 \\text { তখন}, e=0 \\\\ \\ln y & =i x \\\\ y & =e^{i x} \\quad \\therefore e^{i x}=\\cos x+i \\sin x\\end{aligned} lnylnyy=ix+c, এখনx=0,y=1 তখন,e=0=ix=eix∴eix=cosx+isinx$"
+    "topic": "জটিল সংখ্যা",
+    "question": "$e^{ix}$ এর জন্য কোনটি সত্য?",
+    "options": {
+      "a": "$\\cos x+i\\sin x$",
+      "b": "$\\cos x-i\\sin x$",
+      "c": "$\\sin x+i\\cos x$",
+      "d": "$\\cos x-\\sin x$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
   },
   {
     "id": 38,
-    "question": "i–70 + 1 এর মান কোনটি?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i^{-70}+1$ এর মান কোনটি?",
     "options": {
       "a": "0",
       "b": "2",
-      "c": "1 – i",
-      "d": "1 + i"
+      "c": "$1-i$",
+      "d": "$1+i$"
     },
     "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) 0।",
-    "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243609/gst-question-images/Math______________-Varsity-arc_q38.jpg",
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "i–70 + 1 এর মান কোনটি?",
-    "explanationLatex": "সঠিক উত্তর: (a) 0।"
+    "explanation": "no need"
   },
   {
     "id": 39,
-    "question": "√i + √-i =?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\sqrt{i}+\\sqrt{-i}=?$",
     "options": {
       "a": "0",
       "b": "2",
       "c": "2i",
-      "d": "√2"
+      "d": "$\\sqrt{2}$"
     },
     "correctAnswer": "d",
-    "explanation": "i=12×2i=12(1+2i−1)=12(1+2×1×i+i2)=12(1+i2)∴i=±12(1+i)−i=12×−2i=12(1−2i−1)=12(1−2×1×i+i2)=12(1−i2)∴−i=±12(1−i)i+−i=±12(1+i+1−i)=±12×2=±2 \\begin{array}{l}i=\\frac{1}{2} \\times 2 i=\\frac{1}{2}(1+2 i-1)=\\frac{1}{2}\\left(1+2 \\times 1 \\times i+i^{2}\\right)=\\frac{1}{2}\\left(1+i^{2}\\right) \\\\ \\therefore \\sqrt{i}= \\pm \\frac{1}{\\sqrt{2}}(1+i) \\\\ -i=\\frac{1}{2} \\times-2 i=\\frac{1}{2}(1-2 i-1)=\\frac{1}{2}\\left(1-2 \\times 1 \\times i+i^{2}\\right)=\\frac{1}{2}\\left(1-i^{2}\\right) \\\\ \\therefore \\sqrt{-i}= \\pm \\frac{1}{\\sqrt{2}}(1-i) \\\\ \\sqrt{i}+\\sqrt{-i}= \\pm \\frac{1}{\\sqrt{2}}(1+i+1-i) \\\\ = \\pm \\frac{1}{\\sqrt{2}} \\times 2 \\\\ = \\pm \\sqrt{2} \\\\\\end{array} i=21×2i=21(1+2i−1)=21(1+2×1×i+i2)=21(1+i2)∴i=±21(1+i)−i=21×−2i=21(1−2i−1)=21(1−2×1×i+i2)=21(1−i2)∴−i=±21(1−i)i+−i=±21(1+i+1−i)=±21×2=±2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$\\\\sqrt{}i + \\\\sqrt{}-i =?$",
-    "explanationLatex": "$i=12\\\\times 2i=12(1+2i−1)=12(1+2\\\\times 1\\\\times i+i2)=12(1+i2)∴i=\\\\pm 12(1+i)−i=12\\\\times −2i=12(1−2i−1)=12(1−2\\\\times 1\\\\times i+i2)=12(1−i2)∴−i=\\\\pm 12(1−i)i+−i=\\\\pm 12(1+i+1−i)=\\\\pm 12\\\\times 2=\\\\pm 2 \\begin{array}{l}i=\\frac{1}{2} \\times 2 i=\\frac{1}{2}(1+2 i-1)=\\frac{1}{2}\\left(1+2 \\times 1 \\times i+i^{2}\\right)=\\frac{1}{2}\\left(1+i^{2}\\right) \\\\ \\therefore \\sqrt{i}= \\pm \\frac{1}{\\sqrt{2}}(1+i) \\\\ -i=\\frac{1}{2} \\times-2 i=\\frac{1}{2}(1-2 i-1)=\\frac{1}{2}\\left(1-2 \\times 1 \\times i+i^{2}\\right)=\\frac{1}{2}\\left(1-i^{2}\\right) \\\\ \\therefore \\sqrt{-i}= \\pm \\frac{1}{\\sqrt{2}}(1-i) \\\\ \\sqrt{i}+\\sqrt{-i}= \\pm \\frac{1}{\\sqrt{2}}(1+i+1-i) \\\\ = \\pm \\frac{1}{\\sqrt{2}} \\times 2 \\\\ = \\pm \\sqrt{2} \\\\\\end{array} i=21\\\\times 2i=21(1+2i−1)=21(1+2\\\\times 1\\\\times i+i2)=21(1+i2)∴i=\\\\pm 21(1+i)−i=21\\\\times −2i=21(1−2i−1)=21(1−2\\\\times 1\\\\times i+i2)=21(1−i2)∴−i=\\\\pm 21(1−i)i+−i=\\\\pm 21(1+i+1−i)=\\\\pm 21\\\\times 2=\\\\pm 2$"
+    "explanation": "no need"
   },
   {
     "id": 40,
-    "question": "(-1+√3i) এর মডুলাস কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$-1+\\sqrt{3}i$ এর মডুলাস কত?",
     "options": {
       "a": "4",
       "b": "2",
-      "c": "√3",
+      "c": "$\\sqrt{3}$",
       "d": "-1"
     },
     "correctAnswer": "b",
-    "explanation": "−1+3i-1+\\sqrt{3i}−1+3iএর মডুলাস (−1)2++(3)2=1+3=4=2\\sqrt{(−1)^2++(\\sqrt{3})^2}=\\sqrt{1+3}=\\sqrt{4}=2(−1)2++(3)2=1+3=4=2",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$(-1+\\\\sqrt{}3i) এর মডুলাস কত?$",
-    "explanationLatex": "$−1+3i-1+\\sqrt{3i}−1+3iএর মডুলাস (−1)2++(3)2=1+3=4=2\\sqrt{(−1)^2++(\\sqrt{3})^2}=\\sqrt{1+3}=\\sqrt{4}=2(−1)2++(3)2=1+3=4=2$"
+    "explanation": "no need"
   },
   {
     "id": 41,
-    "question": "5i5 \\mathrm{i}5i এর বর্গমূল?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$5i$ এর বর্গমূল?",
     "options": {
-      "a": "5 2 ( 1 + i ) 2 5 (1+i)",
-      "b": "± 5 2 ( 1 + i ) ± 2 5 (1+i)",
-      "c": "± 5 2 ( 1 − i ) ± 2 5 (1−i)",
-      "d": "± 5 2 ( 1 + i ) ± 2 5 (1+i)"
+      "a": "$\\frac{5}{2}(1+i)$",
+      "b": "$\\pm\\frac{5}{2}(1+i)$",
+      "c": "$\\pm\\frac{5}{\\sqrt{2}}(1-i)$",
+      "d": "$\\pm\\frac{\\sqrt{5}}{\\sqrt{2}}(1+i)$"
     },
     "correctAnswer": "d",
-    "explanation": "5i=52×2i=52×(1+2i−1)=52×(1+2⋅1⋅i+i2)=52×(1+i)2∴5i=±52(1+i) \\begin{array}{l} 5 i=\\frac{5}{2} \\times 2 i=\\frac{5}{2} \\times(1+2 i-1)=\\frac{5}{2} \\times\\left(1+2 \\cdot 1 \\cdot i+i^{2}\\right) =\\frac{5}{2} \\times(1+i)^{2} \\\\ \\therefore \\sqrt{5 i}= \\pm \\frac{\\sqrt{5}}{\\sqrt{2}}(1+i) \\end{array} 5i=25×2i=25×(1+2i−1)=25×(1+2⋅1⋅i+i2)=25×(1+i)2∴5i=±25(1+i)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "5i5 \\mathrm{i}5i এর বর্গমূল?",
-    "explanationLatex": "$5i=52\\\\times 2i=52\\\\times (1+2i−1)=52\\\\times (1+2⋅1⋅i+i2)=52\\\\times (1+i)2∴5i=\\\\pm 52(1+i) \\begin{array}{l} 5 i=\\frac{5}{2} \\times 2 i=\\frac{5}{2} \\times(1+2 i-1)=\\frac{5}{2} \\times\\left(1+2 \\cdot 1 \\cdot i+i^{2}\\right) =\\frac{5}{2} \\times(1+i)^{2} \\\\ \\therefore \\sqrt{5 i}= \\pm \\frac{\\sqrt{5}}{\\sqrt{2}}(1+i) \\end{array} 5i=25\\\\times 2i=25\\\\times (1+2i−1)=25\\\\times (1+2⋅1⋅i+i2)=25\\\\times (1+i)2∴5i=\\\\pm 25(1+i)$"
+    "explanation": "no need"
   },
   {
     "id": 42,
-    "question": "i= −1 \\sqrt{- 1} −1 হলে, 2i এর বর্গমূল কোনটি?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i=\\sqrt{-1}$ হলে, $2i$ এর বর্গমূল কোনটি?",
     "options": {
-      "a": "±(1+i)",
-      "b": "±(1-i)",
-      "c": "1±i",
+      "a": "$\\pm(1+i)$",
+      "b": "$\\pm(1-i)$",
+      "c": "$1\\pm i$",
       "d": "-2i"
     },
     "correctAnswer": "a",
-    "explanation": "ধরি, 2i=xবা,x=1+2i−1=1+2i+i2=(1+i)2∴x=±(1+i) \\begin{array}{l}\\text { ধরি,} \\\\ \\text { } 2 i=x \\\\বা, x=1 + 2i -1 \\\\ =1+2 i+i^{2} \\\\ =(1+i)^{2} \\\\ \\therefore \\sqrt{x}= \\pm(1+i) \\\\\\end{array} ধরি, 2i=xবা,x=1+2i−1=1+2i+i2=(1+i)2∴x=±(1+i)",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i= −1 \\sqrt{- 1} −1 হলে, 2i এর বর্গমূল কোনটি?$",
-    "explanationLatex": "$ধরি, 2i=xবা,x=1+2i−1=1+2i+i2=(1+i)2∴x=\\\\pm (1+i) \\begin{array}{l}\\text { ধরি,} \\\\ \\text { } 2 i=x \\\\বা, x=1 + 2i -1 \\\\ =1+2 i+i^{2} \\\\ =(1+i)^{2} \\\\ \\therefore \\sqrt{x}= \\pm(1+i) \\\\\\end{array} ধরি, 2i=xবা,x=1+2i−1=1+2i+i2=(1+i)2∴x=\\\\pm (1+i)$"
+    "explanation": "no need"
   },
   {
     "id": 43,
-    "question": "i2 = -1 হলে, (i-1)10 = কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i^{2}=-1$ হলে, $(i-1)^{10} =$ কত?",
     "options": {
       "a": "32",
       "b": "32(-1+i)",
@@ -849,99 +599,69 @@
       "d": "-32i"
     },
     "correctAnswer": "d",
-    "explanation": "i2=−1(i−1)10⇒{(i−1)2}5⇒(−2i)5=−32i \\begin{aligned} & i^{2}=-1 \\\\ & (i-1)^{10} \\\\ \\Rightarrow & \\left\\{(i-1)^{2}\\right\\} ^{5}\\\\ \\Rightarrow & (-2 i)^{5} \\\\ = & -32 i\\end{aligned} ⇒⇒=i2=−1(i−1)10{(i−1)2}5(−2i)5−32i",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i2 = -1 হলে, (i-1)10 = কত?$",
-    "explanationLatex": "$i2=−1(i−1)10⇒{(i−1)2}5⇒(−2i)5=−32i \\begin{aligned} & i^{2}=-1 \\\\ & (i-1)^{10} \\\\ \\Rightarrow & \\left\\{(i-1)^{2}\\right\\} ^{5}\\\\ \\Rightarrow & (-2 i)^{5} \\\\ = & -32 i\\end{aligned} ⇒⇒=i2=−1(i−1)10{(i−1)2}5(−2i)5−32i$"
+    "explanation": "no need"
   },
   {
     "id": 44,
-    "question": "Z1=2+iZ_1=2+iZ1=2+iএবংZ2=3+iZ_2=3+iZ2=3+iহলে,Z1Z‾2Z_1\\overline{Z}_2Z1Z2এর মডুলাস-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z_{1}=2+i$ এবং $z_{2}=3+i$ হলে, $z_{1}\\bar{z}_{2}$ এর মডুলাস-",
     "options": {
-      "a": "6 6",
-      "b": "5 2 5 2",
-      "c": "7 7",
-      "d": "5 3 5 3"
+      "a": "6",
+      "b": "$5\\sqrt{2}$",
+      "c": "7",
+      "d": "$5\\sqrt{3}$"
     },
     "correctAnswer": "b",
-    "explanation": "∣z1z‾2∣=∣z∣∣z‾2∣=4+19+1=52|z_1\\overline{z}_2|=|z||\\overline{z}_2|=\\sqrt{4+1}\\sqrt{9+1}=5\\sqrt{2}∣z1z2∣=∣z∣∣z2∣=4+19+1=52",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$Z1=2+iZ_1=2+iZ1=2+iএবংZ2=3+iZ_2=3+iZ2=3+iহলে,Z1Z‾2Z_1\\overline{Z}_2Z1Z2এর মডুলাস-$",
-    "explanationLatex": "$∣z1z‾2∣=∣z∣∣z‾2∣=4+19+1=52|z_1\\overline{z}_2|=|z||\\overline{z}_2|=\\sqrt{4+1}\\sqrt{9+1}=5\\sqrt{2}∣z1z2∣=∣z∣∣z2∣=4+19+1=52$"
+    "explanation": "no need"
   },
   {
     "id": 45,
-    "question": "If 1a+i=ia−i;then the value of a is If\\ \\frac{1}{a+i}=\\frac{i}{a-i};then\\ the\\ value\\ of\\ a\\ is\\ If a+i1=a−ii;then the value of a is",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "If $\\frac{1}{a+i}=\\frac{i}{a-i}$ then the value of a is",
     "options": {
       "a": "1",
-      "b": "1 2 2 1",
+      "b": "i",
       "c": "-1",
-      "d": "− 1 2 − 2 1"
+      "d": "$-1/2$"
     },
     "correctAnswer": "c",
-    "explanation": "1a+i=ia−i⇒a−i=ia+i2=a−i=−1+ai বাস্তব অংশের সহগ সমীকৃত করে, a=−1\\frac{1}{a+i}=\\frac{i}{a-i}\\Rightarrow a-i=ia+i^2=a-i=-1+ai\\ বাস্তব\\ অংশের\\ সহগ\\ সমীকৃত\\ করে,\\ a=-1a+i1=a−ii⇒a−i=ia+i2=a−i=−1+ai বাস্তব অংশের সহগ সমীকৃত করে, a=−1",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$If 1a+i=ia−i;then the value of a is If\\ \\frac{1}{a+i}=\\frac{i}{a-i};then\\ the\\ value\\ of\\ a\\ is\\ If a+i1=a−ii;then the value of a is$",
-    "explanationLatex": "$1a+i=ia−i⇒a−i=ia+i2=a−i=−1+ai বাস্তব অংশের সহগ সমীকৃত করে, a=−1\\frac{1}{a+i}=\\frac{i}{a-i}\\Rightarrow a-i=ia+i^2=a-i=-1+ai\\ বাস্তব\\ অংশের\\ সহগ\\ সমীকৃত\\ করে,\\ a=-1a+i1=a−ii⇒a−i=ia+i2=a−i=−1+ai বাস্তব অংশের সহগ সমীকৃত করে, a=−1$"
+    "explanation": "no need"
   },
   {
     "id": 46,
-    "question": "z1=2+i এবং z2 = 3 + i হলে z1z2 এর মডুলাস কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z_{1}=2+i$ এবং $z_{2}=3+i$ হলে $|z_{1}z_{2}|$ এর মডুলাস কত?",
     "options": {
       "a": "6",
-      "b": "5√2",
+      "b": "$5\\sqrt{2}$",
       "c": "7",
-      "d": "5√3"
+      "d": "$5\\sqrt{3}$"
     },
     "correctAnswer": "b",
-    "explanation": "∣z1z2∣=∣(2+i)(3+i)∣=∣6+2i+3i+i2∣=∣5+5i∣=52+52=52 \\left|z_{1} z_{2}\\right|\\\\=|(2+i)(3+i)|\\\\= |6+2i+3i+i^2|\\\\=|5+5 i|\\\\=\\sqrt{5^{2}+5^{2}}\\\\=5 \\sqrt{2} ∣z1z2∣=∣(2+i)(3+i)∣=∣6+2i+3i+i2∣=∣5+5i∣=52+52=52 Ans : B.",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$z1=2+i এবং z2 = 3 + i হলে z1z2 এর মডুলাস কত?$",
-    "explanationLatex": "$∣z1z2∣=∣(2+i)(3+i)∣=∣6+2i+3i+i2∣=∣5+5i∣=52+52=52 \\left|z_{1} z_{2}\\right|\\\\=|(2+i)(3+i)|\\\\= |6+2i+3i+i^2|\\\\=|5+5 i|\\\\=\\sqrt{5^{2}+5^{2}}\\\\=5 \\sqrt{2} ∣z1z2∣=∣(2+i)(3+i)∣=∣6+2i+3i+i2∣=∣5+5i∣=52+52=52 Ans : B.$"
+    "explanation": "no need"
   },
   {
     "id": 47,
-    "question": "x+iy=p+iqr+is x+i y=\\sqrt{\\frac{p+i q}{r+i s}} x+iy=r+isp+iq হলে, (x2+y2)2= \\left(x^{2}+y^{2}\\right)^{2}= (x2+y2)2= কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$x+iy=\\sqrt{\\frac{p+iq}{r+is}}$ হলে, $(x^{2}+y^{2})^{2} =?$",
     "options": {
-      "a": "p 2 − q 2 r 2 + s 2 r 2 +s 2 p 2 −q 2",
-      "b": "𝑝 2 + 𝑞 2 𝑟 2 − 𝑠 2 r 2 −s 2 p 2 +q 2",
-      "c": "𝑝 2 + 𝑞 2 𝑟 2 + 𝑠 2 r 2 +s 2 p 2 +q 2",
-      "d": "𝑝 2 − 𝑞 2 𝑟 2 − 𝑠 2 r 2 −s 2 p 2 −q 2"
+      "a": "$\\frac{p^{2}-q^{2}}{r^{2}+s^{2}}$",
+      "b": "$\\frac{p^{2}+q^{2}}{r^{2}-s^{2}}$",
+      "c": "$\\frac{p^{2}+q^{2}}{r^{2}+s^{2}}$",
+      "d": "$\\frac{p^{2}-q^{2}}{r^{2}-s^{2}}$"
     },
     "correctAnswer": "c",
-    "explanation": "x+iy=p+iqr+is⇒(x+iy)(x−iy)=(p+iq)(p−iq)(r+is)(r−is) [অনুবন্ধী দ্বারা উভয়পাশে গুণ করে] \\begin{array}{l}x+i y=\\sqrt{\\frac{p+i q}{r+i s}} \\\\ \\Rightarrow(x+i y)(x-i y)=\\sqrt{\\frac{(p+i q)(p-i q)}{(r+i s)(r-i s)}}~[অনুবন্ধী ~দ্বারা ~উভয়পাশে~ গুণ~ করে] \\end{array} x+iy=r+isp+iq⇒(x+iy)(x−iy)=(r+is)(r−is)(p+iq)(p−iq) [অনুবন্ধী দ্বারা উভয়পাশে গুণ করে] ⇒x2−(iy)2=p2−(iq)2r2−(is)2⇒x2+y2=p2+q2r2+s2[i2=−1)⇒(x2+y2)2=p2+q2r2+s2( বর্গ করে ) \\begin{array}{l}\\Rightarrow x^{2}-(i y)^{2}=\\sqrt{\\frac{p^{2}-(i q)^{2}}{r^{2}-(i s)^{2}}} \\\\ \\Rightarrow x^{2}+y^{2}=\\sqrt{\\frac{p^{2}+q^{2}}{r^{2}+s^{2}}} \\quad\\left[i^{2}=-1\\right) \\\\ \\Rightarrow\\left(x^{2}+y^{2}\\right)^{2}=\\frac{p^{2}+q^{2}}{r^{2}+s^{2}} \\quad( \\text { বর্গ করে })\\end{array} ⇒x2−(iy)2=r2−(is)2p2−(iq)2⇒x2+y2=r2+s2p2+q2[i2=−1)⇒(x2+y2)2=r2+s2p2+q2( বর্গ করে )",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x+iy=p+iqr+is x+i y=\\sqrt{\\frac{p+i q}{r+i s}} x+iy=r+isp+iq হলে, (x2+y2)2= \\left(x^{2}+y^{2}\\right)^{2}= (x2+y2)2= কত?$",
-    "explanationLatex": "$x+iy=p+iqr+is⇒(x+iy)(x−iy)=(p+iq)(p−iq)(r+is)(r−is) [অনুবন্ধী দ্বারা উভয়পাশে গুণ করে] \\begin{array}{l}x+i y=\\sqrt{\\frac{p+i q}{r+i s}} \\\\ \\Rightarrow(x+i y)(x-i y)=\\sqrt{\\frac{(p+i q)(p-i q)}{(r+i s)(r-i s)}}~[অনুবন্ধী ~দ্বারা ~উভয়পাশে~ গুণ~ করে] \\end{array} x+iy=r+isp+iq⇒(x+iy)(x−iy)=(r+is)(r−is)(p+iq)(p−iq) [অনুবন্ধী দ্বারা উভয়পাশে গুণ করে] ⇒x2−(iy)2=p2−(iq)2r2−(is)2⇒x2+y2=p2+q2r2+s2[i2=−1)⇒(x2+y2)2=p2+q2r2+s2( বর্গ করে ) \\begin{array}{l}\\Rightarrow x^{2}-(i y)^{2}=\\sqrt{\\frac{p^{2}-(i q)^{2}}{r^{2}-(i s)^{2}}} \\\\ \\Rightarrow x^{2}+y^{2}=\\sqrt{\\frac{p^{2}+q^{2}}{r^{2}+s^{2}}} \\quad\\left[i^{2}=-1\\right) \\\\ \\Rightarrow\\left(x^{2}+y^{2}\\right)^{2}=\\frac{p^{2}+q^{2}}{r^{2}+s^{2}} \\quad( \\text { বর্গ করে })\\end{array} ⇒x2−(iy)2=r2−(is)2p2−(iq)2⇒x2+y2=r2+s2p2+q2[i2=−1)⇒(x2+y2)2=r2+s2p2+q2( বর্গ করে )$"
+    "explanation": "no need"
   },
   {
     "id": 48,
-    "question": "3+2i3−i=a+ib \\frac{3 + 2 i}{3 - i} = a + i b 3−i3+2i=a+ib হলে, b = কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$\\frac{3+2i}{3-i}=a+ib$ হলে b = কত?",
     "options": {
       "a": "8/5",
       "b": "9/10",
@@ -949,19 +669,13 @@
       "d": "-9/10"
     },
     "correctAnswer": "b",
-    "explanation": "3+2i3−i=(3+2i)(3+i)(2−i)(3+i)=9+3i+6i+2i232−i2=7+9i10=710+910i=b=910 \\begin{array}{l}\\frac{3+2 i}{3-i} \\\\ =\\frac{(3+2 i)(3+i)}{(2-i)(3+i)} \\\\ =\\frac{9+3 i+6 i+2 i^{2}}{3^{2}-i^{2}} \\\\ =\\frac{7+9 i}{10} \\\\ =\\frac{7}{10}+\\frac{9}{10} i \\\\ =b=\\frac{9}{10}\\end{array} 3−i3+2i=(2−i)(3+i)(3+2i)(3+i)=32−i29+3i+6i+2i2=107+9i=107+109i=b=109",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$3+2i3−i=a+ib \\frac{3 + 2 i}{3 - i} = a + i b 3−i3+2i=a+ib হলে, b = কত?$",
-    "explanationLatex": "$3+2i3−i=(3+2i)(3+i)(2−i)(3+i)=9+3i+6i+2i232−i2=7+9i10=710+910i=b=910 \\begin{array}{l}\\frac{3+2 i}{3-i} \\\\ =\\frac{(3+2 i)(3+i)}{(2-i)(3+i)} \\\\ =\\frac{9+3 i+6 i+2 i^{2}}{3^{2}-i^{2}} \\\\ =\\frac{7+9 i}{10} \\\\ =\\frac{7}{10}+\\frac{9}{10} i \\\\ =b=\\frac{9}{10}\\end{array} 3−i3+2i=(2−i)(3+i)(3+2i)(3+i)=32−i29+3i+6i+2i2=107+9i=107+109i=b=109$"
+    "explanation": "no need"
   },
   {
     "id": 49,
-    "question": "i=−1i=\\sqrt{-}1i=−1 হলে 1+i+i2+i31+i+i²+i^31+i+i2+i3 এর মান কত?",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$i=\\sqrt{-1}$ হলে $1+i+i^{2}+i^{3}$ এর মান কত?",
     "options": {
       "a": "1",
       "b": "-1",
@@ -969,19 +683,13 @@
       "d": "i"
     },
     "correctAnswer": "c",
-    "explanation": "i i i এর মান: i=−1 i=\\sqrt{-1} i=−1 2. i2,i3 i^{2}, i^{3} i2,i3 এর মান নির্ণয়: i2=−1i3=i2⋅i=−1⋅i=−i \\begin{aligned} i^{2} & =-1 \\\\ i^{3}=i^{2} \\cdot i & =-1 \\cdot i=-i \\end{aligned} i2i3=i2⋅i=−1=−1⋅i=−i প্রদত্ত রাশিতে মান বসানো: 1+i+i2+i3=1+i+(−1)+(−i) 1+i+i^{2}+i^{3}=1+i+(-1)+(-i) 1+i+i2+i3=1+i+(−1)+(−i) সরলীকরণ: 1+i−1−i=(1−1)+(i−i)=0+0=0 1+i-1-i=(1-1)+(i-i)=0+0=0 1+i−1−i=(1−1)+(i−i)=0+0=0",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$i=−1i=\\sqrt{-}1i=−1 হলে 1+i+i2+i31+i+i²+i^31+i+i2+i3 এর মান কত?$",
-    "explanationLatex": "$i i i এর মান: i=−1 i=\\sqrt{-1} i=−1 2. i2,i3 i^{2}, i^{3} i2,i3 এর মান নির্ণয়: i2=−1i3=i2⋅i=−1⋅i=−i \\begin{aligned} i^{2} & =-1 \\\\ i^{3}=i^{2} \\cdot i & =-1 \\cdot i=-i \\end{aligned} i2i3=i2⋅i=−1=−1⋅i=−i প্রদত্ত রাশিতে মান বসানো: 1+i+i2+i3=1+i+(−1)+(−i) 1+i+i^{2}+i^{3}=1+i+(-1)+(-i) 1+i+i2+i3=1+i+(−1)+(−i) সরলীকরণ: 1+i−1−i=(1−1)+(i−i)=0+0=0 1+i-1-i=(1-1)+(i-i)=0+0=0 1+i−1−i=(1−1)+(i−i)=0+0=0$"
+    "explanation": "no need"
   },
   {
     "id": 50,
-    "question": "z = (-4 + 3i)/i এর কাল্পনিক অংশ-",
+    "subject": "Math",
+    "topic": "জটিল সংখ্যা",
+    "question": "$z=(-4+3i)/i$ এর কাল্পনিক অংশ-",
     "options": {
       "a": "3",
       "b": "4",
@@ -989,14 +697,6 @@
       "d": "-3"
     },
     "correctAnswer": "b",
-    "explanation": "z=−4+3ii=i24+3ii=i4+3 z=\\frac{-4+3 i}{i}=\\frac{i^{2} 4+3 i}{i}=i 4+3 z=i−4+3i=ii24+3i=i4+3 ∴ \\therefore ∴ কাল্পনিক অংশ =4 =4 =4",
-    "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
-    "explanationImage": null,
-    "svg_code": "",
-    "topic": "",
-    "questionLatex": "$z = (-4 + 3i)/i এর কাল্পনিক অংশ-$",
-    "explanationLatex": "$z=−4+3ii=i24+3ii=i4+3 z=\\frac{-4+3 i}{i}=\\frac{i^{2} 4+3 i}{i}=i 4+3 z=i−4+3i=ii24+3i=i4+3 ∴ \\therefore ∴ কাল্পনিক অংশ =4 =4 =4$"
+    "explanation": "no need"
   }
 ]

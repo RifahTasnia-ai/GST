@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cos(150^{\\circ}-\\theta)=-1/2$ হলে $\\theta$ এর মান কত?",
+        "options": {
+            "a": "$75^{\\circ}$",
+            "b": "$50^{\\circ}$",
+            "c": "$30^{\\circ}$",
+            "d": "$90^{\\circ}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 2,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "ABC ত্রিভুজে $cos~A+cos~C=sin~B$ হলে $\\angle A$ সমান-",
+        "options": {
+            "a": "$30^{\\circ}$",
+            "b": "$60^{\\circ}$",
+            "c": "$90^{\\circ}$",
+            "d": "$45^{\\circ}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 3,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cos~70^{\\circ}-cos~10^{\\circ}+sin~40^{\\circ}=?$",
+        "options": {
+            "a": "2",
+            "b": "-1",
+            "c": "1",
+            "d": "0"
+        },
+        "correctAnswer": "d",
+        "explanation": "no need"
+    },
+    {
+        "id": 4,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$2\\alpha+2\\beta+2\\gamma=\\pi$ হলে, $cosec(\\alpha+\\gamma)$ এর মান কত?",
+        "options": {
+            "a": "$-cosec~\\beta$",
+            "b": "$cosec~\\beta$",
+            "c": "$-sec~\\beta$",
+            "d": "$sec~\\beta$"
+        },
+        "correctAnswer": "d",
+        "explanation": "no need"
+    },
+    {
+        "id": 5,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$\\frac{1}{sin~10^{\\circ}}-\\frac{\\sqrt{3}}{cos~10^{\\circ}}=?$",
+        "options": {
+            "a": "4",
+            "b": "2",
+            "c": "1",
+            "d": "0"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 6,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$(b-c)sin~A+(c-a)sin~B+(a-b)sin~C=?$",
+        "options": {
+            "a": "-1",
+            "b": "0",
+            "c": "1",
+            "d": "4"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 7,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cosec~2A-cot~2A=?$",
+        "options": {
+            "a": "tan A",
+            "b": "tan 2A",
+            "c": "cot A",
+            "d": "cot 2A"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 8,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$(a+b+c)(b+c-a)=3bc$ হলে, $A=?$",
+        "options": {
+            "a": "$120^{\\circ}$",
+            "b": "$60^{\\circ}$",
+            "c": "$30^{\\circ}$",
+            "d": "$45^{\\circ}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 9,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "নিচের কোনটি cosA বা sinA এর বহুপদী রূপে cos3A কে প্রকাশ করে?",
+        "options": {
+            "a": "$4~cos^{3}A-3~cos~A$",
+            "b": "$4~sin^{3}A-3~sin~A$",
+            "c": "$3~cos~A-4~cos^{3}A$",
+            "d": "$3~sin~A-4~sin^{3}A$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 10,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~105^{\\circ}=tan(60^{\\circ}+45^{\\circ})$ এর মান কত?",
+        "options": {
+            "a": "$m-(\\sqrt{3}-2)$",
+            "b": "$-(\\sqrt{3}+1)$",
+            "c": "$-(\\sqrt{3}+2)$",
+            "d": "$(\\sqrt{3}+2)$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 11,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~A+cos~A=sin~B+cos~B$ হলে $A+B=?$",
+        "options": {
+            "a": "$\\frac{\\pi}{4}$",
+            "b": "$\\frac{\\pi}{2}$",
+            "c": "$\\pi$",
+            "d": "$\\frac{3\\pi}{4}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 12,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin(\\alpha-\\frac{\\pi}{6})+sin(\\alpha+\\frac{\\pi}{6})$ এর মান কত?",
+        "options": {
+            "a": "-1",
+            "b": "0",
+            "c": "$-cos~\\alpha$",
+            "d": "$\\sqrt{3}sin~\\alpha$"
+        },
+        "correctAnswer": "d",
+        "explanation": "no need"
+    },
+    {
+        "id": 13,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cos~\\pi/6.sin~\\pi/6$ এর মান কত?",
+        "options": {
+            "a": "$\\sqrt{3}$",
+            "b": "$\\sqrt{3}/4$",
+            "c": "$\\sqrt{3}/2$",
+            "d": "$1/4$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 14,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~\\theta+cos~\\theta=\\sqrt{2}$ হলে $\\theta$ এর মান কত?",
+        "options": {
+            "a": "$30^{\\circ}$",
+            "b": "$45^{\\circ}$",
+            "c": "$60^{\\circ}$",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 15,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$\\frac{cos~10^{\\circ}-sin~10^{\\circ}}{cos~10^{\\circ}+sin~10^{\\circ}}=?$",
+        "options": {
+            "a": "$sin~35^{\\circ}$",
+            "b": "$tan~35^{\\circ}$",
+            "c": "$cos~35^{\\circ}$",
+            "d": "$cot~35^{\\circ}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 16,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "যদি $sin~A=\\frac{4}{5}$, $cos~B=\\frac{12}{13}$ এবং A ও B উভয় কোণই একই চতুর্ভাগে অবস্থিত হয় তবে sin 2A এর মান কত?",
+        "options": {
+            "a": "$-\\frac{24}{25}$",
+            "b": "$\\frac{24}{25}$",
+            "c": "$-\\frac{8}{5}$",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 17,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~\\beta=\\frac{1}{3}$ হলে $sin~2\\beta$ এর মান নির্ণয় কর।",
+        "options": {
+            "a": "$-\\frac{3}{2}$",
+            "b": "$\\frac{3}{4}$",
+            "c": "$\\frac{3}{5}$",
+            "d": "$\\frac{1}{2}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 18,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "ABC একটি সমকোণী ত্রিভুজ হলে, $cos^{2}A+cos^{2}B+cos^{2}C=?$",
+        "options": {
+            "a": "$\\frac{1}{2}$",
+            "b": "1",
+            "c": "0",
+            "d": "-1"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 19,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sec~\\theta=-2$ এবং $\\frac{\\pi}{2}<\\theta<\\pi$ হলে $\\theta=$ ?",
+        "options": {
+            "a": "$\\frac{\\pi}{3}$",
+            "b": "$\\frac{\\pi}{6}$",
+            "c": "$\\frac{5\\pi}{6}$",
+            "d": "$\\frac{2\\pi}{3}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "no need"
+    },
+    {
+        "id": 20,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~x=k~sin~y$ হলে $tan\\frac{x-y}{2}=$",
+        "options": {
+            "a": "$\\frac{k-1}{k+1}tan\\frac{x+y}{2}$",
+            "b": "$\\frac{k-1}{k+1}tan\\frac{x-y}{2}$",
+            "c": "$\\frac{k+1}{k-1}tan\\frac{x+y}{2}$",
+            "d": "$\\frac{k-1}{k+1}tan\\frac{x+y}{4}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 21,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$0\\le\\theta\\le\\frac{\\pi}{2}$ এবং $sin~\\theta=\\frac{1}{2}$ হলে cos2θ এর প্রকৃত মান কত?",
+        "options": {
+            "a": "$-\\frac{\\sqrt{3}}{2}$",
+            "b": "$-\\frac{1}{2}$",
+            "c": "$\\frac{1}{2}$",
+            "d": "$\\frac{3}{2}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 22,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin(780^{\\circ})cos(390^{\\circ})-sin(330^{\\circ})cos(-300^{\\circ})$ এর মান কত?",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "-1",
+            "d": "1/2"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 23,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~\\theta=\\frac{y}{x}$ হলে, $x~cos~2\\theta+y~sin~2\\theta$ এর মান কত?",
+        "options": {
+            "a": "x",
+            "b": "y",
+            "c": "1/x",
+            "d": "1/y"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 24,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~x+cos~y=1$ এবং $cos~x+cos~y=0$ হলে $x+y=?$",
+        "options": {
+            "a": "$\\pi$",
+            "b": "1",
+            "c": "2",
+            "d": "0"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 25,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~\\theta=\\frac{3}{5}$ হলে, sin 2θ = ?",
+        "options": {
+            "a": "$\\frac{24}{25}$",
+            "b": "$\\frac{7}{25}$",
+            "c": "$\\frac{9}{25}$",
+            "d": "None"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 26,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~x+cosec~x=2$ হলে, $sin^{n}x+cosec^{n}x$ এর মান কত?",
+        "options": {
+            "a": "-2",
+            "b": "-1",
+            "c": "1",
+            "d": "2"
+        },
+        "correctAnswer": "d",
+        "explanation": "no need"
+    },
+    {
+        "id": 27,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~40^{\\circ}tan~50^{\\circ}tan~60^{\\circ}$ এর মান-",
+        "options": {
+            "a": "$\\sqrt{3}$",
+            "b": "$tan~10^{\\circ}$",
+            "c": "$1/\\sqrt{3}$",
+            "d": "$-\\sqrt{3}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 28,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$a~cos~\\theta+b~sin~\\theta=c$ সমীকরণটি $\\theta$ এর দুইটি ভিন্ন মান $\\alpha, \\beta$ দ্বারা সিদ্ধ হলে, $sin(\\alpha+\\beta)=?$",
+        "options": {
+            "a": "$\\frac{2ab}{a^{2}+b^{2}}$",
+            "b": "$\\frac{ab}{a^{2}+b^{2}}$",
+            "c": "$\\frac{2ab}{a^{2}-b^{2}}$",
+            "d": "$\\frac{-2ab}{a^{2}+b^{2}}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 29,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~15^{\\circ}+cos~15^{\\circ}$ এর মান কোনটি?",
+        "options": {
+            "a": "$\\frac{\\sqrt{3}}{2}$",
+            "b": "$\\sqrt{\\frac{3}{2}}$",
+            "c": "$\\sqrt{\\frac{2}{3}}$",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 30,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~A=\\frac{1}{2}$ এবং $cos~B=\\frac{1}{\\sqrt{2}}$ হলে, $cos(A+B)$ এর মান কত হবে?",
+        "options": {
+            "a": "$\\frac{\\sqrt{6}+1}{4}$",
+            "b": "$\\frac{\\sqrt{3}-1}{2\\sqrt{2}}$",
+            "c": "$\\frac{2\\sqrt{6}-1}{2}$",
+            "d": "$\\frac{\\sqrt{6}+1}{2}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 31,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~3A=?$",
+        "options": {
+            "a": "$3~sin^{3}A-4~sinA$",
+            "b": "$4~sin^{3}A-3~sinA$",
+            "c": "$3~sinA-4~sin^{3}A$",
+            "d": "$sinA+4~sin^{3}A$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 32,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~50^{\\circ}=?$",
+        "options": {
+            "a": "$tan~30^{\\circ}+2~tan~10^{\\circ}$",
+            "b": "$tan~40^{\\circ}-2~tan~10^{\\circ}$",
+            "c": "$tan~40^{\\circ}+2~tan~10^{\\circ}$",
+            "d": "$tan~40^{\\circ}\\pm2~tan~10^{\\circ}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 33,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "ABC ত্রিভুজ $c=3.8$ সে. মি. $a=5.2$ সে. মি. এবং কোণ $A=35^{\\circ}$ হলে B কোণের মান কত হবে?",
+        "options": {
+            "a": "$120.2^{\\circ}$",
+            "b": "$130.2^{\\circ}$",
+            "c": "$125.2^{\\circ}$",
+            "d": "$135.2^{\\circ}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 34,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~\\theta=\\frac{5}{12}$ এবং $cos~\\theta$ ঋণাত্মক হলে $\\frac{sin~\\theta+cos(-\\theta)}{sec(-\\theta)+tan~\\theta}=?$",
+        "options": {
+            "a": "2",
+            "b": "1",
+            "c": "$\\frac{51}{26}$",
+            "d": "$\\frac{26}{51}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 35,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cot~\\alpha+cot~\\beta=a$, $tan~\\alpha+tan~\\beta=b$ এবং $\\alpha+\\beta=\\theta$ হলে, $cot~\\theta$ এর মান কোনটি?",
+        "options": {
+            "a": "$\\frac{1}{b}-\\frac{1}{a}$",
+            "b": "$\\frac{1}{a}-\\frac{1}{b}$",
+            "c": "$\\frac{1}{a}+\\frac{1}{b}$",
+            "d": "$-\\frac{1}{a}-\\frac{1}{b}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 36,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin^{2}10^{\\circ}+sin^{2}20^{\\circ}+...+sin^{2}80^{\\circ}+sin^{2}90^{\\circ}$ এর মান -",
+        "options": {
+            "a": "5",
+            "b": "6",
+            "c": "4",
+            "d": "3"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 37,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "একটি ত্রিভুজের বড় দুটি পার্শ্বের দৈর্ঘ্য যথাক্রমে 10 এবং 9। যদি কোণ গুলো A.P তে থাকে তবে ৩য় পার্শ্বের দৈর্ঘ্য কত?",
+        "options": {
+            "a": "$5+\\sqrt{6}$",
+            "b": "$3\\sqrt{3}$",
+            "c": "5",
+            "d": "None of these"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 38,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cos~15^{\\circ}$ এর মান-",
+        "options": {
+            "a": "$\\frac{1}{2}\\sqrt{2-\\sqrt{3}}$",
+            "b": "$\\frac{1}{2}\\sqrt{2+\\sqrt{3}}$",
+            "c": "$\\sqrt{2-\\sqrt{3}}$",
+            "d": "$\\sqrt{2+\\sqrt{3}}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 39,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$3~tan^{2}\\theta=1$ সমিকরণটি সমাধান করলে এর সবচেয়ে ভাল সম্ভ্যাব্য মান নীচের কোনটি?",
+        "options": {
+            "a": "$n\\pi\\pm\\frac{\\pi}{6}$",
+            "b": "$2n\\pi\\pm\\frac{\\pi}{3}$",
+            "c": "$n\\pi+(-1)^{n}\\frac{\\pi}{3}$",
+            "d": "$2n\\pi\\pm\\frac{\\pi}{6}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 40,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~x~sin(x+30^{\\circ})+cos~x~sin(x+120^{\\circ})$ এর মান কত?",
+        "options": {
+            "a": "$\\frac{1}{2}$",
+            "b": "$\\frac{1}{\\sqrt{3}}$",
+            "c": "$\\frac{1}{\\sqrt{2}}$",
+            "d": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "no need"
+    },
+    {
+        "id": 41,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$\\sum_{i=1}^{3}(sin^{2}\\theta_{i}+cos^{2}\\theta_{i})=?$",
+        "options": {
+            "a": "1",
+            "b": "3",
+            "c": "6",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 42,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$tan~54^{\\circ}-tan~36^{\\circ}$ এর মান-",
+        "options": {
+            "a": "$2~tan~18^{\\circ}$",
+            "b": "$2~cot~27^{\\circ}$",
+            "c": "$-2~tan~81^{\\circ}$",
+            "d": "$-2~tan~72^{\\circ}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    },
+    {
+        "id": 43,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$\\Delta ABC$ তে $c~cosA+a~cosC$ এর সমান কোনটি?",
+        "options": {
+            "a": "a",
+            "b": "b",
+            "c": "c",
+            "d": "$a+b+c$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 44,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$sin~65^{\\circ}+cos~65^{\\circ}$ সমান-",
+        "options": {
+            "a": "$\\frac{\\sqrt{3}}{2}cos~40^{\\circ}$",
+            "b": "$\\frac{1}{2}sin~20^{\\circ}$",
+            "c": "$\\sqrt{2}cos~20^{\\circ}$",
+            "d": "$\\frac{\\sqrt{3}}{2}sin~40^{\\circ}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 45,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cos^{2}\\frac{\\pi}{24}+cos^{2}\\frac{19\\pi}{24}+cos^{2}\\frac{31\\pi}{24}+cos^{2}\\frac{37\\pi}{24}=?$",
+        "options": {
+            "a": "1.5",
+            "b": "2",
+            "c": "2.5",
+            "d": "1"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 46,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$cot~\\theta~cot~3\\theta~cot~5\\theta~cot~7\\theta~cot~9\\theta~cot~11\\theta~cot~13\\theta~cot~15\\theta~cot~17\\theta~cot~19\\theta$ যেখানে $\\theta=\\frac{\\pi}{20}$",
+        "options": {
+            "a": "-2",
+            "b": "$\\frac{1}{2}$",
+            "c": "-1",
+            "d": "1"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 47,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$\\frac{2}{\\sqrt{2-\\sqrt{2+2~cos~4x}}}=?$",
+        "options": {
+            "a": "sec x",
+            "b": "cosec x",
+            "c": "sin x",
+            "d": "cos x"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 48,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$f(x)=x+sin~x$; $f(x)=0$ হলে, x এর মান কত?",
+        "options": {
+            "a": "$\\frac{\\pi}{2}$",
+            "b": "$-\\frac{\\pi}{2}$",
+            "c": "$\\pi$",
+            "d": "$-\\pi$"
+        },
+        "correctAnswer": "b",
+        "explanation": "no need"
+    },
+    {
+        "id": 49,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "ABC ত্রিভুজে $a^{2}+b^{2}-c^{2}=ab$ হলে C কোণের মান কত?",
+        "options": {
+            "a": "$30^{\\circ}$",
+            "b": "$45^{\\circ}$",
+            "c": "$60^{\\circ}$",
+            "d": "$90^{\\circ}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "no need"
+    },
+    {
+        "id": 50,
+        "subject": "Math",
+        "topic": "ত্রিকোণমিতি",
+        "question": "$\\frac{tan^{2}(\\alpha+\\frac{\\pi}{4})-1}{tan^{2}(\\alpha+\\frac{\\pi}{4})+1}=?$",
+        "options": {
+            "a": "sin2$\\alpha$",
+            "b": "sin$\\alpha$",
+            "c": "$tan(\\pi/4)$",
+            "d": "1"
+        },
+        "correctAnswer": "a",
+        "explanation": "no need"
+    }
+]
