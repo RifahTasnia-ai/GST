@@ -120,8 +120,8 @@
     "explanation": "",
     "subject": "Biology",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244215/gst-question-images/____________________q7.jpg",
-    "explanationImage": null,
+    "questionImage": null,
+    "explanationImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244215/gst-question-images/____________________q7.jpg",
     "svg_code": "",
     "topic": ""
   },
@@ -228,8 +228,8 @@
     "explanation": "ফুসফুসের গঠনগত ও কার্যকরী একক হলো অ্যালভিওলাস। এটি আঙ্গুরের থোকার মত গুচ্ছাবদ্ধ,বুদবুদ সদৃশ বায়ুথলি এবং গ্যাস বিনিময়ের তল গঠন করে। ফুসফুসের অ্যালভিওলাইয়ে ব্যাপন প্রক্রিয়ায় শ্বসন গ্যাস অক্সিজেন ও কার্বন-ডাই-অক্সাইডের বিনিময়ে ঘটে।এর প্রাচীরের টাইপ ২ কোষ  সারফেকট্যান্ট ক্ষরণ করে গ্যাসীয় বিনিময় সহজ করে।",
     "subject": "Biology",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244206/gst-question-images/____________________q13.png",
-    "explanationImage": null,
+    "questionImage": null,
+    "explanationImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244206/gst-question-images/____________________q13.png",
     "svg_code": "",
     "topic": ""
   },
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "question": "",
+    "question": "উদ্দীপকের A চিহ্নিত স্থানে বিদ্যমান তরলের নাম কী?",
     "options": {
       "a": "প্লাজমা ফ্লুইড",
       "b": "পেরিকার্ডিয়াল ফ্লুইড",
@@ -336,8 +336,8 @@
     "explanation": "ডায়াফ্রাম বা মধ্যচ্ছদা বক্ষগহবর ও উদরগহবরের মাঝখানে আড়াআড়িভাবে বিদ্যমান একটি মাংসল পর্দা বিশেষ। এটি ঐচ্ছিক পেশী নির্মিত। এর পৃষ্ঠদেশ কিছুটা উত্তলাকার। এটি প্রধান শ্বাসপেশি হিসেবে কাজ করে।এটি বক্ষগহবর ও উদরগহবরকে পৃথক করে রাখে।",
     "subject": "Biology",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244209/gst-question-images/____________________q19.png",
-    "explanationImage": null,
+    "questionImage": null,
+    "explanationImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244209/gst-question-images/____________________q19.png",
     "svg_code": "",
     "topic": ""
   },
@@ -505,7 +505,7 @@
   },
   {
     "id": 29,
-    "question": "",
+    "question": "উদ্দীপকে 'A' চিহ্নিত অংশটির নাম কি?",
     "options": {
       "a": "প্লাজমা",
       "b": "ট্রাকিয়া",
@@ -588,8 +588,8 @@
     "explanation": "স্বরযন্ত্রের ঠিক পেছনের অংশই শ্বাসনালি বা ট্রাকিয়া। এর প্রাচীর C আকৃতির 15-20 টি হায়ালিন তরণাস্থি নির্মিত ট্রাকিয়াল রিং বা বলয় নিয়ে গঠিত। তন্তুময় টিস্যু দিয়ে বলয়গুলো পরস্পর সংযুক্ত থাকে বলে শ্বাসনালি চুপসে যায় না। এর অন্তঃপ্রাচীরের সিলিয়া অবাঞ্ছিত বস্তুর প্রবেশ রোধ করে।",
     "subject": "Biology",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244212/gst-question-images/____________________q33.png",
-    "explanationImage": null,
+    "questionImage": null,
+    "explanationImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244212/gst-question-images/____________________q33.png",
     "svg_code": "",
     "topic": ""
   },
@@ -678,8 +678,8 @@
     "explanation": "মধ্যচ্ছদা উদর-গহবর থেকে প্লুরাল এবং পেরিকোর্ডিয়াল গহবরকে আলাদা থাকে",
     "subject": "Biology",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244213/gst-question-images/____________________q38.png",
-    "explanationImage": null,
+    "questionImage": null,
+    "explanationImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773244213/gst-question-images/____________________q38.png",
     "svg_code": "",
     "topic": ""
   },
