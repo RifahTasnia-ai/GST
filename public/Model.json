@@ -1,0 +1,1248 @@
+[
+  {
+    "id": 1,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "$|\\begin{matrix} 0 & 3 & 2x+7 \\\\ 2 & 7x & 9+5x \\\\ 0 & 0 & 2x+5 \\end{matrix}| = 0$ হলে, x এর মান-",
+    "options": {
+      "a": "$-\\frac{9}{5}$",
+      "b": "$-\\frac{7}{2}$",
+      "c": "$-\\frac{5}{2}$",
+      "d": "0"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 2,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "$A=[\\begin{matrix}1&i\\\\ -i&1\\end{matrix}]$, $B=[\\begin{matrix}i&-1\\\\ -1&-i\\end{matrix}]$ এবং $i=\\sqrt{-1}$ হলে AB এর মান কত?",
+    "options": {
+      "a": "$[\\begin{matrix}1&0\\\\ 0&1\\end{matrix}]$",
+      "b": "$[\\begin{matrix}0&0\\\\ 0&0\\end{matrix}]$",
+      "c": "$[\\begin{matrix}i&0\\\\ 0&i\\end{matrix}]$",
+      "d": "$[\\begin{matrix}i&1\\\\ 1&i\\end{matrix}]$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 3,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "$|\\begin{matrix}a&1&b+c\\\\ b&1&c+a\\\\ c&1&a+b\\end{matrix}|$ এর মান কত?",
+    "options": {
+      "a": "0",
+      "b": "$abc(a+b)(b+c)(c+a)$",
+      "c": "abc",
+      "d": "$(a+b)(b+c)(c+a)$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 4,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "যদি $A = (\\begin{matrix}3/2&-1/2\\end{matrix})$ হয় তবে $A^{-1}$ সমান-",
+    "options": {
+      "a": "$(\\begin{matrix}1&3\\\\ 2&4\\end{matrix})$",
+      "b": "$(\\begin{matrix}1&0\\\\ 0&1\\end{matrix})$",
+      "c": "$(\\begin{matrix}3&4\\\\ 1&2\\end{matrix})$",
+      "d": "$(\\begin{matrix}1&2\\\\ 3&4\\end{matrix})$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 5,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "নির্ণায়ক $|\\begin{matrix}1&bc&bc(b+c)\\\\ 1&ca&ca(c+a)\\\\ 1&ab&ab(a+b)\\end{matrix}|$ এর মান কত?",
+    "options": {
+      "a": "-2",
+      "b": "-1",
+      "c": "1",
+      "d": "0"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 6,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "যদি $A=[\\begin{matrix}4&2\\\\ 3&5\\end{matrix}]$; $B=[\\begin{matrix}6\\\\ 1\\end{matrix}]$; $X=[\\begin{matrix}x\\\\ y\\end{matrix}]$ এবং $AX=B$ হয়, তাহলে ক্রেমারের সূত্র মতে x ও y এর মান কত?",
+    "options": {
+      "a": "2, -1",
+      "b": "3, -1",
+      "c": "-1, 3",
+      "d": "-1, 1"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 7,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "A এবং B ম্যাট্রিক্স দুইটির ক্রম যথাক্রমে $4\\times5$ এবং $5\\times2$ হলে $(A^{T}+B)C$ ম্যাট্রিক্স এর ক্রম কী হবে?",
+    "options": {
+      "a": "$4\\times2$",
+      "b": "$4\\times3$",
+      "c": "$4\\times4$",
+      "d": "$4\\times5$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 8,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "A একটি $2\\times3$ ম্যাট্রিক্স এবং B একটি $3\\times2$ ম্যাট্রিক্স তাহলে BA ম্যাট্রিক্সের অর্ডার হবে-",
+    "options": {
+      "a": "$2\\times3$",
+      "b": "$2\\times2$",
+      "c": "$3\\times2$",
+      "d": "$3\\times3$"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 9,
+    "subject": "Math",
+    "topic": "ম্যাট্রিক্স ও নির্ণায়ক",
+    "question": "$A=[\\begin{matrix}2&3\\\\ 1&3\\end{matrix}]$, $B=[\\begin{matrix}1&3&5\\\\ 2&0&1\\end{matrix}]$, $C=[\\begin{matrix}1\\\\ 2\\\\ 3\\end{matrix}]$ হলে, (AB)C ম্যাট্রিক্সের ক্রম কত?",
+    "options": {
+      "a": "$2\\times3$",
+      "b": "$2\\times1$",
+      "c": "$3\\times1$",
+      "d": "$3\\times2$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 10,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "(0, -1) বিন্দুগামী $2x+3y+2=0$ রেখার সমান্তরাল রেখার সমীকরণ-",
+    "options": {
+      "a": "$2x+3y+3=0$",
+      "b": "$2x+3y-3=0$",
+      "c": "$3x-2y-2=0$",
+      "d": "$3x+2y+2=0$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 11,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "$y-x-2=0$ সরলরেখাটি\\ni. x অক্ষের সাথে $45^{\\circ}$ কোণ উৎপন্ন করে\\nii. দ্বারা অক্ষদ্বয়ের মধ্যবর্তী খণ্ডিতাংশের দৈর্ঘ্য = 4\\niii. y অক্ষকে (0,2) বিন্দুতে ছেদ করে\\nনিচের কোনটি সঠিক?",
+    "options": {
+      "a": "i ও ii",
+      "b": "i ও iii",
+      "c": "ii ও iii",
+      "d": "i, ii ও iii"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 12,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "OD = 1 হলে AB রেখার সমীকরণ-",
+    "options": {
+      "a": "$x-\\sqrt{3}y+\\sqrt{3}=0$",
+      "b": "$x+\\sqrt{3}y+\\sqrt{3}=0$",
+      "c": "$\\sqrt{3}y+\\sqrt{3}=0$",
+      "d": "$\\sqrt{3}y-y+\\sqrt{3}=0$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 13,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "$x^{\\prime}$ রেখার উপর লম্ব রেখার ঢাল-",
+    "options": {
+      "a": "$\\sqrt{3}$",
+      "b": "$-\\sqrt{3}$",
+      "c": "$\\frac{1}{\\sqrt{3}}$",
+      "d": "$-\\frac{1}{\\sqrt{3}}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 14,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "$(1,-\\sqrt{3})$ বিন্দুর পোলার স্থানাঙ্ক কত?",
+    "options": {
+      "a": "$(-2,\\frac{2\\pi}{3})$",
+      "b": "$(2,\\frac{\\pi}{3})$",
+      "c": "$(2,-\\frac{2\\pi}{3})$",
+      "d": "$(2,\\frac{5\\pi}{3})$"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 15,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "$3x-4y+1=0$ এবং $kx+3y+5=0$ রেখান্বয় পরস্পর লম্ব হলে k এর মান কত?",
+    "options": {
+      "a": "4",
+      "b": "4/3",
+      "c": "-3/4",
+      "d": "-1"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 16,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "$3x+7y=21$ এবং $2ax-3by+6=0$ সমীকরণদ্বয় একই সরলরেখা প্রকাশ করলে a এবং b এর মান কত?",
+    "options": {
+      "a": "$a=1$, $b=2$",
+      "b": "$a=\\frac{-3}{7}$, $b=\\frac{2}{3}$",
+      "c": "$a=0$, $b=1$",
+      "d": "$a=\\frac{1}{2}$, $b=4$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 17,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "একটি বিন্দুর কার্তেসীয় স্থানাঙ্ক $(1,\\sqrt{3})$ হলে বিন্দুটির পোলার স্থানাঙ্ক কত?",
+    "options": {
+      "a": "$(-2,\\frac{2\\pi}{3})$",
+      "b": "$(2,\\frac{2\\pi}{3})$",
+      "c": "$(2,-\\frac{\\pi}{3})$",
+      "d": "$(2,\\frac{\\pi}{3})$"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 18,
+    "subject": "Math",
+    "topic": "সরলরেখা",
+    "question": "(7, 7) এবং (-5, -10) বিন্দু দুইটির সংযোগ রেখাংশ y অক্ষকে কোন অনুপাতে ছেদ করে?",
+    "options": {
+      "a": "7:10",
+      "b": "10:7",
+      "c": "7:5",
+      "d": "5:7"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 19,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}-4x-6y+c=0$ বৃত্তটি x-অক্ষকে স্পর্শ করলে, c এর মান কত?",
+    "options": {
+      "a": "0",
+      "b": "4",
+      "c": "1",
+      "d": "12"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 20,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "একটি বৃত্ত x-অক্ষকে মূলবিন্দুতে স্পর্শ করে এবং (1, 3) বিন্দু দিয়ে যায়। বৃত্তটির সমীকরণ কোনটি?",
+    "options": {
+      "a": "$2x^{2}+2y^{2}-9x=0$",
+      "b": "$2x^{2}+2y^{2}+9y=0$",
+      "c": "$3x^{2}+3y^{2}-10y=0$",
+      "d": "$3x^{2}+3y^{2}+15x=0$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 21,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "k এর কোন মানের জন্য $(x-y+3)^{2}+(kx+2)(y-1)=0$ সমীকরণটি একটি বৃত্ত নির্দেশ করে?",
+    "options": {
+      "a": "2",
+      "b": "1",
+      "c": "-2",
+      "d": "-1"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 22,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$(x-2)^{2}+(y-3)^{2}=16$ এবং $(x-2)^{2}+(y-10)^{2}=9$ বৃত্তদ্বয়ের স্পর্শবিন্দুর স্থানাংক-",
+    "options": {
+      "a": "(2,3)",
+      "b": "(16,9)",
+      "c": "(2,10)",
+      "d": "(2,7)"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 23,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "নিম্নের কোন বৃত্তটি x-অক্ষকে স্পর্শ করে?",
+    "options": {
+      "a": "$x^{2}+y^{2}-2x+6y+4=0$",
+      "b": "$x^{2}+y^{2}-4x+6y+5=0$",
+      "c": "$x^{2}+y^{2}-2x+6y+1=0$",
+      "d": "$2x^{2}+2y^{2}-2x+6y+3=0$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 24,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "(3,-1) বিন্দুগামী এবং $x^{2}+y^{2}-6x+8y=0$ বৃত্তের সাথে এককেন্দ্রিক বৃত্তের সমীকরণ কোনটি?",
+    "options": {
+      "a": "$x^{2}+y^{2}+6x-8y+16=0$",
+      "b": "$x^{2}+y^{2}-6x+8y-16=0$",
+      "c": "$x^{2}+y^{2}-6x+8y+16=0$",
+      "d": "$x^{2}+y^{2}-6x-8y+16=0$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 25,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "(2, 4) কেন্দ্রবিশিষ্ট ও X অক্ষকে স্পর্শ করে এমন বৃত্তের সমীকরণ-",
+    "options": {
+      "a": "$x^{2}+y^{2}-4x-8y+16=0$",
+      "b": "$x^{2}+y^{2}-4x-8y+4=0$",
+      "c": "$x^{2}+y^{2}-8x-4y+4=0$",
+      "d": "$x^{2}+y^{2}-8x-4y+4=0$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 26,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "$x^{2}+y^{2}+8x-4y+c=0$ বৃত্তটি y অক্ষকে স্পর্শ করে c এর মান-",
+    "options": {
+      "a": "16",
+      "b": "2",
+      "c": "4",
+      "d": "16"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 27,
+    "subject": "Math",
+    "topic": "বৃত্ত",
+    "question": "একটি বৃত্ত y-অক্ষকে স্পর্শ করে এবং (3,0) ও (7,0) বিন্দু দিয়ে যায়। বৃত্তটির কেন্দ্রের স্থানাংক হবে-",
+    "options": {
+      "a": "$(4,\\pm\\sqrt{20})$",
+      "b": "$(4,\\pm5)$",
+      "c": "$(5,21)$",
+      "d": "$(5,\\pm\\sqrt{21})$"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 28,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "$2\\tan\\frac{x}{2} - 1 = 0$ হলে $\\cos x$ এর মান কত?",
+    "options": {
+      "a": "$\\frac{5}{3}$",
+      "b": "$\\frac{3}{5}$",
+      "c": "$\\frac{2}{5}$",
+      "d": "$\\frac{5}{2}$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 29,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "$f(\\theta) = \\frac{1-\\tan\\theta}{1+\\tan\\theta}$ হলে $f(\\frac{\\pi}{4}-\\theta)$ এর মান কোনটি?",
+    "options": {
+      "a": "$\\sin\\theta$",
+      "b": "$\\cos\\theta$",
+      "c": "$\\tan\\theta$",
+      "d": "$\\sec\\theta$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 30,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "$\\tan\\beta=\\frac{b}{a}$ হলে $\\cos 2\\beta$ এর মান কত?",
+    "options": {
+      "a": "$\\frac{2ab}{a^{2}+b^{2}}$",
+      "b": "$\\frac{2ab}{a^{2}-b^{2}}$",
+      "c": "$\\frac{a^{2}+b^{2}}{a^{2}-b^{2}}$",
+      "d": "$\\frac{a^{2}-b^{2}}{a^{2}+b^{2}}$"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 31,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "$\\sin 13^{\\circ} = a$ হলে, $\\sin 26^{\\circ}$ এর মান কত?",
+    "options": {
+      "a": "a",
+      "b": "$2a^{3}$",
+      "c": "$2a\\sqrt{1-a^{2}}$",
+      "d": "$2\\sqrt{1-a^{2}}$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 32,
+    "subject": "Math",
+    "topic": "অন্তরীকরণ ও লিমিট",
+    "question": "$\\lim_{x\\rightarrow0}\\frac{\\sin bx}{x}=?$",
+    "options": {
+      "a": "$\\frac{1}{b}$",
+      "b": "b",
+      "c": "0",
+      "d": "1"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 33,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "$\\tan\\theta+2\\cot 2\\theta=?$",
+    "options": {
+      "a": "$\\cot\\theta$",
+      "b": "$\\tan\\theta$",
+      "c": "$2\\cot\\theta$",
+      "d": "$2\\tan\\theta$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 34,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "$\\triangle ABC$ এ, BC = 8 সে.মি., AB = 6 সে.মি. এবং AC = 10 সে.মি. হলে-\\ni. $\\angle C=\\frac{\\pi}{2}$\\nii. পরিসীমা 24 সে.মি.\\niii. ক্ষেত্রফল 24 বর্গ সে.মি\\nনিচের কোনটি সঠিক?",
+    "options": {
+      "a": "i ও ii",
+      "b": "i ও iii",
+      "c": "ii ও iii",
+      "d": "i, ii ও iii"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 35,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "একটি ত্রিভুজের a, b, c তিনটি বাহুর দৈর্ঘ্য যথাক্রমে 3, 5, 7 হলে, $\\angle C=?$",
+    "options": {
+      "a": "$120^{\\circ}$",
+      "b": "$\\cos^{-1}(\\frac{11}{14})$",
+      "c": "$\\cos^{-1}(\\frac{13}{14})$",
+      "d": "$\\sin^{-1}(\\frac{11}{14})$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 36,
+    "subject": "Math",
+    "topic": "ত্রিকোণমিতি",
+    "question": "যদি $9\\theta = \\pi$ হয়, তবে $\\cos\\theta \\cos 2\\theta \\cos 4\\theta$ এর মান -",
+    "options": {
+      "a": "$\\frac{1}{8}$",
+      "b": "$\\frac{1}{4}$",
+      "c": "$\\frac{1}{2}$",
+      "d": "1"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 37,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "তিনটি ভেক্টর $\\vec{A}=6\\hat{i}-8\\hat{j}$, $\\vec{B}=-8\\hat{i}+3\\hat{j}$ এবং $\\vec{C}=26\\hat{i}+19\\hat{j}$ দেওয়া আছে। যদি $a\\vec{A}+b\\vec{B}+\\vec{C}=\\vec{O}$ হয় তবে a ও b এর সম্ভাব্য মানগুলো হবে-",
+    "options": {
+      "a": "a=7, b=5",
+      "b": "a=5, b=7",
+      "c": "a=5, b=8",
+      "d": "a=3, b=7"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 38,
+    "subject": "Physics",
+    "topic": "গতিবিদ্যা",
+    "question": "$x=e^{-2t}$, $y=2\\cos 3t$ এবং $z=2\\sin 2t$ দ্বারা বর্ণিত বক্রপথে একটি কণা ভ্রমণ করে। t=0 সময়ে কণাটির বেগ কত হবে?",
+    "options": {
+      "a": "$-2\\hat{i}+4\\hat{k}$",
+      "b": "$-2\\hat{i}-6\\hat{j}+4\\hat{k}$",
+      "c": "$-\\hat{i}+2\\hat{j}$",
+      "d": "$2\\hat{i}+6\\hat{j}+4\\hat{k}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 39,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "নিচের কোনটি ভেক্টর রাশি নয়?",
+    "options": {
+      "a": "বৈদ্যুতিক প্রাবল্য",
+      "b": "বৈদ্যুতিক বিভব",
+      "c": "ওজন",
+      "d": "ভরবেগ"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 40,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "একটি 3 মানের ভেক্টরকে একটি 4 মানের ভেক্টরের সাথে যোগ করলে লব্ধি ভেক্টরের মান নিচের কোনটি হবে না?",
+    "options": {
+      "a": "0",
+      "b": "1",
+      "c": "3",
+      "d": "5"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 41,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "$\\vec{P}=2\\hat{i}+2\\hat{j}-\\hat{k}$ এবং $\\vec{Q}=6\\hat{i}+3\\hat{j}-3\\hat{k}$ ভেক্টরদ্বয়ের উভয়ের ওপর লম্ব দিকে একটি একক ভেক্টর কোনটি হবে?",
+    "options": {
+      "a": "$-\\hat{i}-2\\hat{k}$",
+      "b": "$-3\\hat{i}-6\\hat{k}$",
+      "c": "$\\frac{-3(\\hat{i}+2\\hat{k})}{\\sqrt{45}}$",
+      "d": "$\\frac{-5(1-2k)}{\\sqrt{45}}$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 42,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "কোনো কণা $P(2,3,5)$ বিন্দু থেকে $Q(3,4,5)$ বিন্দুতে স্থানান্তরিত হলে এর সরণ ভেক্টর কী হবে?",
+    "options": {
+      "a": "$5\\hat{i}+7\\hat{j}+9\\hat{k}$",
+      "b": "$6\\hat{i}+12\\hat{j}+25\\hat{k}$",
+      "c": "$\\hat{i}+\\hat{j}$",
+      "d": "$\\hat{i}+\\hat{j}+\\hat{k}$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 43,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "$|\\vec{A}\\times\\vec{B}|=|\\vec{A}\\cdot\\vec{B}|$ হলে $\\vec{A}$ ও $\\vec{B}$ এর মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "$0^{o}$",
+      "b": "$30^{\\circ}$",
+      "c": "$60^{\\circ}$",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 44,
+    "subject": "Physics",
+    "topic": "ভেক্টর",
+    "question": "দুটি সমমানের ভেক্টর একটি বিন্দুতে ক্রিয়াশীল। এদের লব্ধির মান যে কোন একটি ভেক্টরের মানের সমান। ভেক্টর দু'টির মধ্যবর্তী কোণ কত?",
+    "options": {
+      "a": "$120^{\\circ}$",
+      "b": "$180^{\\circ}$",
+      "c": "$90^{\\circ}$",
+      "d": "$0^{\\circ}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 45,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "একটি কণার উপর $\\vec{F} = (10\\hat{i} + 10\\hat{j} + 10\\hat{k})$ N বল প্রয়োগ করলে কণাটির সরণ হয় $\\vec{r} = (2\\hat{i} + 2\\hat{j} + 2\\hat{k})$ m। বল কর্তৃক সম্পাদিত কাজ কত হবে?",
+    "options": {
+      "a": "30 J",
+      "b": "40 J",
+      "c": "50 J",
+      "d": "60 J"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 46,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "একটি চাকার জড়তার ভ্রামক 10 kgm²। চাকাটিতে $10~rad/s^{2}$ কৌণিক ত্বরণ সৃষ্টি করতে কত টর্ক প্রয়োগ করতে হবে?",
+    "options": {
+      "a": "10 Nm",
+      "b": "100 Nm",
+      "c": "200 Nm",
+      "d": "150 Nm"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 47,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "বৃত্তাকার পথে 72 km/h সমদ্রুতিতে চলমান কোন গাড়ীর কেন্দ্রমুখী ত্বরণ $1 m/s^{2}$ হলে, বৃত্তাকার পথের ব্যাসার্ধ কত?",
+    "options": {
+      "a": "400 m",
+      "b": "150 m",
+      "c": "300 m",
+      "d": "200 m"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 48,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "গাছ থেকে 2 kg ভরের একটি নারিকেল সোজা নিচের দিকে পড়ছে। বাতাসের বাধা 8.6 N হলে নারিকেলটির ত্বরণ কত?",
+    "options": {
+      "a": "$5.5~ms^{-2}$",
+      "b": "$4.5~ms^{-2}$",
+      "c": "$14.5~ms^{-2}$",
+      "d": "$-14.5~ms^{-2}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 49,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "একজন সাইকেল আরোহী ঘণ্টায় 24 km বেগে 30 m ব্যাসার্ধের একটি বৃত্তাকার পথে মোড় নিচ্ছে। তাকে উল্লম্বের সাথে কত কোণে হেলে থাকতে হবে?",
+    "options": {
+      "a": "$\\tan^{-1}(0.015)$",
+      "b": "$\\tan^{-1}(0.115)$",
+      "c": "$\\tan^{-1}(0.15)$",
+      "d": "$\\tan^{-1}(0.215)$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 50,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "একজন ফুটবলার 0.4 kg ভরের এবং 12 ms-1 বেগে আগত একটি ফুটবলকে কিক মারার ফলে সেটা বিপরীত দিকে 5 ms-1 বেগ প্রাপ্ত হলো। কিক মারার সময়কাল 0.02 s হলে ফুটবলার কর্তৃক বলটির উপর প্রযুক্ত বল কত N?",
+    "options": {
+      "a": "340",
+      "b": "300",
+      "c": "240",
+      "d": "140"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 51,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "সমান্তরাল সমবায়ে যুক্ত চারটি তামার তারের সাহায্যে 6 kg ভরের একটি বস্তুরে খাড়া উপরের দিকে 2 ms-1 সমবেগে টানা হলে প্রতিটি তারে কত N টান পড়বে?",
+    "options": {
+      "a": "10.7",
+      "b": "12.7",
+      "c": "14.7",
+      "d": "17.8"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 52,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "গাছ থেকে 0.5 kg ভরের একটি আম খাড়া নিচের দিকে পড়ছে। বাতাসের বাধা যদি 2.4 N হয়, তাহলে আমটির ত্বরণ কত ms-2?",
+    "options": {
+      "a": "5.0",
+      "b": "5.5",
+      "c": "6.0",
+      "d": "6.5"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 53,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "v1 বেগের একটি বুলেট শুধুমাত্র নির্দিষ্ট পুরুত্বের একটি তক্তা ভেদ করতে পারে। এরূপ নয়টি তক্তা ভেদ করতে হলে ঐ বুলেটের বেগ কত হতে হবে?",
+    "options": {
+      "a": "2v1",
+      "b": "4v1",
+      "c": "5v1",
+      "d": "3v1"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 54,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "কোন বস্তুর উপর 15 N বল 3 s ধরে ক্রিয়া করলে বস্তুটির ভরবেগের পরিবর্তন কত kgms-1?",
+    "options": {
+      "a": "25",
+      "b": "30",
+      "c": "45",
+      "d": "50"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 55,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "একটি চাকার ব্যাসার্ধ 1 m। এটি মিনিটে 15 বার ঘুরলে এর প্রান্তের রৈখিক বেগ কত ms-1?",
+    "options": {
+      "a": "$\\pi$",
+      "b": "$\\pi/2$",
+      "c": "$2\\pi$",
+      "d": "$\\pi/3$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 56,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "কেন্দ্রীয় বল F এর প্রভাবে r ব্যাসার্ধের বৃত্তাকার পথে ঘূর্ণনরত একটি কণার উপর ক্রিয়াশীল টর্কের মান-",
+    "options": {
+      "a": "rF",
+      "b": "-rF",
+      "c": "0",
+      "d": "8"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 57,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "ভূ-সমতলের সাথে $30^{\\circ}$ কোণে আনত পথে একটি 2kg ভরের বস্তুকে $3ms^{-2}$ ত্বরণে উঠাতে হলে বস্তুটির উপর কত নিউটন (N) বল প্রয়োগ করতে হবে?",
+    "options": {
+      "a": "6.8",
+      "b": "11.8",
+      "c": "12.8",
+      "d": "15.8"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 58,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "5 kg ভরের একটি বস্তু একটি দেয়ালে লম্বভাবে ধাক্কা খেয়ে $1.2~ms^{-1}$ বেগে বিপরীত দিকে ফিরে আসলে বলের ঘাত কত Ns হবে?",
+    "options": {
+      "a": "$0.8ms^{-1}$",
+      "b": "4",
+      "c": "5",
+      "d": "6"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 59,
+    "subject": "Physics",
+    "topic": "নিউটনীয় বলবিদ্যা",
+    "question": "অনুভূমিক দিকে গতিশীল 2 kg ভরের একটি লৌহ গোলক 5 ms-1 বেগে একটি দেয়ালে লম্বভাবে ধাক্কা খেয়ে $3~ms^{-1}$ বেগে বিপরীতে ফিরে গেল। বলের ঘাত কত?",
+    "options": {
+      "a": "$16kgms^{-1}$",
+      "b": "$1.6kgms^{-1}$",
+      "c": "$6.1kgms^{-1}$",
+      "d": "কোনটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 60,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "L দৈর্ঘ্য ও স্প্রিং ধ্রুবক k বিশিষ্ট একটি স্প্রিংকে কেটে সমান 4 টুকরা করলে প্রতি টুকরার স্প্রিং ধ্রুবক কত হবে?",
+    "options": {
+      "a": "k/4",
+      "b": "k/2",
+      "c": "2k",
+      "d": "4k"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 61,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "একটি 5 kg ভরের বস্তু 30 m উচ্চতা থেকে মুক্তভাবে অভিকর্ষ বলের প্রভাবে পড়লে 3s পরে তার গতিশক্তি কত হবে?",
+    "options": {
+      "a": "2190.6 J",
+      "b": "2160.9 J",
+      "c": "2169.0 J",
+      "d": "2196.0 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 62,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "কোন বস্তুর গতিশক্তি 300% বৃদ্ধি করা হলে উক্ত বস্তুর ভরবেগ বাড়বে -",
+    "options": {
+      "a": "100%",
+      "b": "150%",
+      "c": "200%",
+      "d": "400%"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 63,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "250 m উঁচু একটি ঝরনা থেকে পানি মাটিতে পড়ে অনুভূমিকভাবে নির্দিষ্ট গতিবেগে গড়িয়ে যাচ্ছে। শক্তির অপচয় অগ্রাহ্য করলে পানির বেগ কত?",
+    "options": {
+      "a": "$100~ms^{-1}$",
+      "b": "$90~ms^{-1}$",
+      "c": "$80~ms^{-1}$",
+      "d": "$70~ms^{-1}$"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 64,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "200 g ভরের একটি বস্তু 20 m ওপর থেকে পড়লে ভূমি স্পর্শ করার পূর্ব মুহূর্তে গতিশক্তি কত হবে?",
+    "options": {
+      "a": "3.92 J",
+      "b": "39.2 J",
+      "c": "9.8 J",
+      "d": "98 J"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 65,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "500 g ভরের একটি কণার উপর $(6x^{2}-4x)$ N বল ক্রিয়া করায় বস্তুটি বলের দিকে $x=0$ অবস্থান হতে $x=2$ অবস্থানে সরে গেলে বলের দ্বারা কৃত কাজের পরিমাণ কত J?",
+    "options": {
+      "a": "8",
+      "b": "6",
+      "c": "4",
+      "d": "2"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 66,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "স্থিরাবস্থা থেকে 20 kg ভরের কোনো বস্তু একটি নির্দিষ্ট বলের ক্রিয়ার ফলে 3 s পর $6~ms^{-1}$ বেগ অর্জন করলে 5s পর এর গতিশক্তি কত kJ?",
+    "options": {
+      "a": "3",
+      "b": "2",
+      "c": "1",
+      "d": "0.5"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 67,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "সংরক্ষণশীল বল দ্বারা 1 kg ভরের একটি বস্তুকে A থেকে B বিন্দুতে নেয়া হলে এবং B থেকে A বিন্দুতে ফিরিয়ে আনা হলো। বস্তুটির উপর কত কাজ করা হলো?",
+    "options": {
+      "a": "1",
+      "b": "0",
+      "c": "0.5",
+      "d": "2"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 68,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "একটি দালানের ছাদের সাথে লাগানো 10m লম্বা একটি মই ভূমির সাথে $30^{\\circ}$ কোণে আনত আছে। 68 kg ভরের এক ব্যক্তি 12 kg ভরের জিনিসসহ 19.6s এ মই বেয়ে ছাদে উঠে। ঐ ব্যক্তি কত ওয়াট (W) ক্ষমতা প্রয়োগ করেছে?",
+    "options": {
+      "a": "200",
+      "b": "300",
+      "c": "400",
+      "d": "600"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 69,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "একটি গাড়ির ইঞ্জিন 200 kN বল প্রয়োগ করে এবং গাড়িটি এক মিনিটে 21 m স্থানচ্যুতি হয়। গাড়িটির ক্ষমতা কত?",
+    "options": {
+      "a": "4200 kW",
+      "b": "70 W",
+      "c": "1200 kW",
+      "d": "70 kW"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 70,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "1g ভরের একটি বস্তুকে 0.5m ব্যাসার্ধের একটি আনুভূমিক বৃত্তাকার পথে 2m/s সমদ্রুতিতে ঘোরানো হচ্ছে। এক পূর্ণ ঘূর্ণনের জন্য প্রয়োজনীয় কাজের মান কত?",
+    "options": {
+      "a": "0 J",
+      "b": "1 J",
+      "c": "2 J",
+      "d": "4 J"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 71,
+    "subject": "Physics",
+    "topic": "কাজ, শক্তি ও ক্ষমতা",
+    "question": "কোন ব্যক্তি 30° ঢালের 5m উঁচু ঘর্ষণবিহীন তল বরাবর একটি 100N ব্লক টেনে তুলছে। ব্লকটি সমদ্রুতিতে চললে ব্যক্তি কী পরিমাণ কাজ করবে?",
+    "options": {
+      "a": "250 J",
+      "b": "500 J",
+      "c": "0",
+      "d": "100 J"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 72,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "নিম্নে কোন যুগল একে অপরের আইসোবার?",
+    "options": {
+      "a": "${}_{18}^{40}Ar,{}_{10}^{40}K$",
+      "b": "${}_{6}^{16}C,{}_{6}^{13}C$",
+      "c": "${}_{20}^{40}Ca,{}_{18}Ar$",
+      "d": "${}_{7}^{15}N,{}_{6}^{14}C$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 73,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "হাইড্রোজেন পরমাণুর একটি ইলেকট্রন ১ম শক্তিস্তর থেকে দ্বিতীয় শক্তিস্তরে গেলে কী হবে?",
+    "options": {
+      "a": "শক্তি শোষণ",
+      "b": "শক্তি বিকিরণ",
+      "c": "শক্তি শোষণ",
+      "d": "শক্তি বিকিরণ"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 74,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "$n=4$ এর জন্য অরবিটাল সংখ্যা কত?",
+    "options": {
+      "a": "4 টি",
+      "b": "8 টি",
+      "c": "16 টি",
+      "d": "3 টি"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 75,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "আর্সেনিক এর $n=3$, $l=1$ এর জন্য কতটি ইলেকট্রন আছে?",
+    "options": {
+      "a": "4",
+      "b": "10",
+      "c": "3",
+      "d": "6"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 76,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "UV রশ্মি দ্বারা জাল টাকা শণাক্তকরণে কী হয়?",
+    "options": {
+      "a": "প্রতিসরণ",
+      "b": "প্রতিফলন",
+      "c": "প্রতিপ্রভা",
+      "d": "সমবর্তন"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 77,
+    "subject": "Chemistry",
+    "topic": "দ্রাব্যতা",
+    "question": "AgCl এর $K_{sp}=1.6\\times10^{-10}$ Ag এর পারমাণবিক ভর 108 হলে 1L এ Ag এর পরিমাণ?",
+    "options": {
+      "a": "$1.5\\times10^{-4}g$",
+      "b": "$2.3\\times10^{-3}g$",
+      "c": "$1.366\\times10^{-3}g$",
+      "d": "$4.2\\times10^{-4}g$"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 78,
+    "subject": "Chemistry",
+    "topic": "দ্রাব্যতা",
+    "question": "AgCl এর দ্রবণে নিম্নের কোনটি যোগ করলে Cl এর ঘনমাত্রা বৃদ্ধি পাবে?",
+    "options": {
+      "a": "$AgNO_{3}$",
+      "b": "AgCl",
+      "c": "NH3",
+      "d": "NaCl"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 79,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "নিচের কোনটিকে তাপীয় বিকিরণ বলে?",
+    "options": {
+      "a": "IR-radiation",
+      "b": "X-radiation",
+      "c": "UV-radiation",
+      "d": "y-radiation"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 80,
+    "subject": "Chemistry",
+    "topic": "পরমাণুর গঠন",
+    "question": "কতটি হাইড্রোজেন পরমাণু পাশাপাশি সাজালে 1m হবে? [ধরে নাও, প্রতিটি হাইড্রোজেন পরমাণুর ব্যাসার্ধ 0.53 \\AA]",
+    "options": {
+      "a": "$1.8\\times10^{10}$ টি",
+      "b": "$1.787\\times10^{10}$ টি",
+      "c": "$1.8868\\times10^{10}$ টি",
+      "d": "None"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 81,
+    "subject": "Chemistry",
+    "topic": "রাসায়নিক বন্ধন",
+    "question": "কোন আয়নটি বর্ণহীন?",
+    "options": {
+      "a": "$Sc^{3+}$",
+      "b": "$Fe^{2+}$",
+      "c": "${No}^{2+}$",
+      "d": "$Fe^{3+}$"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 82,
+    "subject": "Chemistry",
+    "topic": "মৌলের পর্যায়বৃত্ত ধর্ম",
+    "question": "$pb(NO_{3})_{2}\\xrightarrow{\\Delta} A+PbO+O_{2};$ এখানে A-গ্যাসটির বর্ণ কোনটি?",
+    "options": {
+      "a": "বেগুনি",
+      "b": "বাদামি",
+      "c": "সবুজ",
+      "d": "বর্ণহীন"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 83,
+    "subject": "Chemistry",
+    "topic": "মৌলের পর্যায়বৃত্ত ধর্ম",
+    "question": "নিচের কোনটি রঙিন গ্যাস?",
+    "options": {
+      "a": "N2O",
+      "b": "$NO_{2}$",
+      "c": "NO",
+      "d": "$N_{2}O_{2}$"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 84,
+    "subject": "Chemistry",
+    "topic": "মৌলের পর্যায়বৃত্ত ধর্ম",
+    "question": "কোন ধাতু বাংলাদেশে স্বাভাবিক তাপমাত্রায় শীতকালে কঠিন কিন্তু গরমকালে তরল থাকতে পারে?",
+    "options": {
+      "a": "Cs",
+      "b": "Mg",
+      "c": "Na",
+      "d": "K"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 85,
+    "subject": "Chemistry",
+    "topic": "মৌলের পর্যায়বৃত্ত ধর্ম",
+    "question": "সাপের বিষে কোন ধাতু থাকে?",
+    "options": {
+      "a": "Pb",
+      "b": "Zn",
+      "c": "Cr",
+      "d": "Fe"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 86,
+    "subject": "Chemistry",
+    "topic": "মৌলের পর্যায়বৃত্ত ধর্ম",
+    "question": "হাইড্রোজেন পরমাণুর জন্য নিচের বিক্রিয়াগুলো দেয়া হলো-\\n(i) $H+H\\rightarrow H_{2}$\\n(ii) $HCl\\rightarrow H^{+}+Cl^{-}$\\n(iii) $H+e\\rightarrow H^{-}$\\nহাইড্রোজেন পরমাণুর উপরের কোন বিক্রিয়া/বিক্রিয়াসমূহ হ্যালোজেনের বিক্রিয়া সদৃশ?",
+    "options": {
+      "a": "i, ii",
+      "b": "i, iii",
+      "c": "ii, iii",
+      "d": "i, ii, iii"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 87,
+    "subject": "Chemistry",
+    "topic": "রাসায়নিক বন্ধন",
+    "question": "কয়েকটি ধাতব যৌগের d- অরবিটালের ইলেকট্রন বিন্যাস নিম্নরূপ। কোন যৌগটি বেশী প্যারাম্যাগনেটিক হবে?",
+    "options": {
+      "a": "2, 2, 2, 2, 1",
+      "b": "1, 1, 1, 1, 1",
+      "c": "2, 1, 1, 1, 1",
+      "d": "2, 2, 1, 1, 1"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 88,
+    "subject": "Chemistry",
+    "topic": "রাসায়নিক বন্ধন",
+    "question": "বরফের জ্যামিতিক আকৃতি কোনটি?",
+    "options": {
+      "a": "Monoclinic",
+      "b": "Cubic",
+      "c": "Rhombohedral",
+      "d": "Hexagonal"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 89,
+    "subject": "Chemistry",
+    "topic": "রাসায়নিক বন্ধন",
+    "question": "sp² সংকরণ দ্বারা একটি কার্বন কোন বন্ধন গঠন করে?",
+    "options": {
+      "a": "$4\\pi$-bonds",
+      "b": "2$\\pi$-bonds and $2\\sigma$-bonds",
+      "c": "$1\\pi$-bond and $3\\sigma$-bonds",
+      "d": "$4\\sigma$-bonds"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  }
+]
