@@ -1,0 +1,702 @@
+[
+    {
+        "id": 1,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "তিনটি ম্যাট্রিক্স A,B ও C এর order যথাক্রমে $2\\times3$, $4\\times2$, $5\\times4$ হলে, CBA ম্যাট্রিক্সটির order কত হবে?",
+        "options": {
+            "a": "$5\\times3$",
+            "b": "$5\\times4$",
+            "c": "$2\\times5$",
+            "d": "$4\\times3$"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 6, 7, 8, 9, 10, 16]"
+    },
+    {
+        "id": 2,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$.[\\begin{matrix}\\alpha+2&2\\\\ 8&\\alpha-4\\end{matrix}]$ ম্যাট্রিক্সটি ব্যাতিক্রমী হবে যদি  =",
+        "options": {
+            "a": "-4, 6",
+            "b": "-6, 4",
+            "c": "4, 6",
+            "d": "-6, -4"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 18, 19, 23, 24, 25, 27]"
+    },
+    {
+        "id": 3,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}1&-2&3\\end{matrix}]$ এবং $B=[\\begin{matrix}2\\\\ -3\\\\ -1\\end{matrix}]$ হলে AB=?",
+        "options": {
+            "a": "[5]",
+            "b": "2",
+            "c": "6",
+            "d": "-3"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 28, 29, 30, 31, 33, 36]"
+    },
+    {
+        "id": 4,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "যদি 1 এর একটি জটিল ঘনমূল হয় তবে, $|\\begin{matrix}1&\\omega&\\omega^{2}\\\\ \\omega&\\omega^{2}&1\\\\ \\omega^{2}&1&\\omega\\end{matrix}|=?$",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "s",
+            "d": "$\\omega^{2}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 37, 38, 39, 40, 45, 46, 51]"
+    },
+    {
+        "id": 5,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|\\begin{matrix}x+y&x&y\\\\ x&x+z&z\\\\ y&z&y+z\\end{matrix}|$ নির্ণায়কটির মান -",
+        "options": {
+            "a": "4xyz",
+            "b": "$x^{2}yz$",
+            "c": "$xy^{2}z$",
+            "d": "$xyz^{2}$"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 52, 53, 54, 55, 57, 70]"
+    },
+    {
+        "id": 6,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|[\\begin{matrix}1&-w&w^{2}\\\\ -w&w^{2}&1\\\\ w^{2}&1&-w\\end{matrix}]|=$ কত?",
+        "options": {
+            "a": "-4",
+            "b": "4",
+            "c": "8",
+            "d": "-8"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 73, 74, 79, 80, 81, 85]"
+    },
+    {
+        "id": 7,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "Det $\\{\\begin{matrix}-2a&a+b&c+a\\\\ b+a&-2b&b+c\\\\ c+a&c+b&-2c\\end{matrix}\\}=;$",
+        "options": {
+            "a": "$(a+b)(b+c)(c+a)$",
+            "b": "$(a-b)(b-c)(c-a)$",
+            "c": "$4(a+b)(b+c)(c+a)$",
+            "d": "$4(a-b)(b-c)(c-a)$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 86, 87, 88, 89, 90, 91, 113]"
+    },
+    {
+        "id": 8,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$.|\\begin{matrix}2&8&-4\\\\ 5&6&-3\\\\ 3&4&7\\end{matrix}|$ নির্ণায়কে ৪ এর অনুরাশি -",
+        "options": {
+            "a": "26",
+            "b": "-44",
+            "c": "44",
+            "d": "35"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 114, 115, 116, 117, 118, 119]"
+    },
+    {
+        "id": 9,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$.[\\begin{matrix}0&x-1&4\\\\ 5&0&5\\\\ 7&x&0\\end{matrix}]$ একটি অব্যতিক্রমী ম্যাট্রিক্স হবে যদি-",
+        "options": {
+            "a": "$x\\ne\\frac{-7}{11}$",
+            "b": "$x=\\frac{7}{11}$",
+            "c": "$x\\ne\\frac{7}{11}$",
+            "d": "$x=\\frac{11}{7}$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 120, 121, 122, 128, 129, 133]"
+    },
+    {
+        "id": 10,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}ln(4)&1\\\\ ln(2)&1\\end{matrix}]$ এর বিপরীত ম্যাট্রিক্স-",
+        "options": {
+            "a": "$[\\begin{matrix}\\frac{1}{ln2}&-1\\\\ 2&\\frac{-1}{ln2}\\end{matrix}]$",
+            "b": "$[\\begin{matrix}\\frac{1}{ln2}&\\frac{-1}{ln2}\\\\ -1&2\\end{matrix}]$",
+            "c": "$[\\begin{matrix}-1&2\\\\ \\frac{-1}{ln2}&\\frac{1}{ln2}\\end{matrix}]$",
+            "d": "$[\\begin{matrix}-1&2\\\\ \\frac{1}{ln2}&\\frac{-1}{ln2}\\end{matrix}]$"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 135, 136, 137, 138]"
+    },
+    {
+        "id": 11,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=(\\begin{matrix}1&2\\\\ 3&4\\end{matrix})$ এবং $AB=(\\begin{matrix}3&12\\\\ 11&24\\end{matrix})$ হলে, B =",
+        "options": {
+            "a": "$[\\begin{matrix}12&-3\\\\ 14&-1\\end{matrix}]$",
+            "b": "$[\\begin{matrix}5&-1\\\\ 0&6\\end{matrix}]$",
+            "c": "$[\\begin{matrix}5&0\\\\ -1&6\\end{matrix}]$",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 145, 147, 155, 156, 157]"
+    },
+    {
+        "id": 12,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "যদি A, B, C ম্যাট্রিক্স তিনটির আকার যথাক্রমে $4\\times5$ $5\\times4$ এবং $4\\times2$ হয়, তবে $(A^{T}+B)C$ ম্যাট্রিক্সটির আকার কী?",
+        "options": {
+            "a": "$4\\times2$",
+            "b": "$5\\times4$",
+            "c": "$5\\times2$",
+            "d": "$2\\times5$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 158, 159, 160, 161, 162, 175]"
+    },
+    {
+        "id": 13,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}0&2&1\\\\ 5&6&3\\\\ -1&0&7\\end{matrix}]$ একটি নির্ণায়ক; 3 এর অনুরাশির মান কত?",
+        "options": {
+            "a": "2",
+            "b": "42",
+            "c": "6",
+            "d": "10"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 176, 177, 178, 179, 180, 181, 182]"
+    },
+    {
+        "id": 14,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|\\begin{matrix}5&2&5\\\\ -3&1&6\\\\ 9&1&3\\end{matrix}|$ নির্ণায়কের (1,2) তম ভুক্তির সহগুনক কত?",
+        "options": {
+            "a": "-63",
+            "b": "-1",
+            "c": "1",
+            "d": "63"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 186, 188, 189, 190, 191, 194]"
+    },
+    {
+        "id": 15,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}4&3\\\\ 3&2\\end{matrix}]$ বিপরীত ম্যাট্রিক্স নিচের কোনটি?",
+        "options": {
+            "a": "$[\\begin{matrix}2&-3\\\\ -3&4\\end{matrix}]$",
+            "b": "$[\\begin{matrix}2&3\\\\ -3&-4\\end{matrix}]$",
+            "c": "$[\\begin{matrix}-2&3\\\\ 3&-4\\end{matrix}]$",
+            "d": "$[\\begin{matrix}-4&3\\\\ 3&-3\\end{matrix}]$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 209, 210, 211, 212, 213]"
+    },
+    {
+        "id": 16,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$P=[\\begin{matrix}3&-1\\\\ 2&-2\\end{matrix}]$ এবং $Q=[\\begin{matrix}2&-1\\\\ 2&-3\\end{matrix}]$ হলে, P - Q ম্যাট্রিক্সটি কোন ধরণের?",
+        "options": {
+            "a": "শূন্যঘাতি",
+            "b": "অভেদঘাতি",
+            "c": "শূন্য ম্যাট্রিক্স",
+            "d": "কোনোটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 198, 199, 200, 201, 202, 205, 207]"
+    },
+    {
+        "id": 17,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}1&2\\\\ 4&-3\\end{matrix}]^2$ এর মান কত?",
+        "options": {
+            "a": "$[\\begin{matrix}1&8\\\\ 12&17\\end{matrix}]$",
+            "b": "$[\\begin{matrix}9&-4\\\\ 0&17\\end{matrix}]$",
+            "c": "$[\\begin{matrix}9&-4\\\\ -8&17\\end{matrix}]$",
+            "d": "$[\\begin{matrix}9&0\\\\ -8&17\\end{matrix}]$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 217, 218, 220, 221, 222]"
+    },
+    {
+        "id": 18,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}1&2\\\\ 3&4\\end{matrix}]$ হলে $A^{-1}=?$",
+        "options": {
+            "a": "$\\frac{1}{2}[\\begin{matrix}4&2\\\\ -3&1\\end{matrix}]$",
+            "b": "$-\\frac{1}{2}[\\begin{matrix}4&-2\\\\ -3&1\\end{matrix}]$",
+            "c": "$\\frac{1}{2}[\\begin{matrix}4&-3\\\\ -3&-1\\end{matrix}]$",
+            "d": "A-1 অস্তিত্বশীল নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 224, 225, 226, 227, 228, 229]"
+    },
+    {
+        "id": 19,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "যদি $[\\begin{matrix}2x-y&5\\\\ 3&y\\end{matrix}]=[\\begin{matrix}6&5\\\\ 3&2\\end{matrix}]$ হয়, তবে x=?",
+        "options": {
+            "a": "0",
+            "b": "1",
+            "c": "2",
+            "d": "None"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 230, 231, 232, 237, 238, 241]"
+    },
+    {
+        "id": 20,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "যদি $A=[\\begin{matrix}7&8&9\\\\ 2&1&7\\\\ 6&5&2\\end{matrix}]$ এবং $C=A\\times I_{3\\times3}$ তাহলে $C_{32}=?$",
+        "options": {
+            "a": "7",
+            "b": "7.3",
+            "c": "8",
+            "d": "5"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 243, 245, 246, 247, 248, 249]"
+    },
+    {
+        "id": 21,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|\\begin{matrix}0&(x-y)^{3}&(x-z)^{3}\\\\ (y-x)^{3}&0&(y-z)^{3}\\\\ (z-x)^{3}&(z-y)^{3}&0\\end{matrix}|=?$",
+        "options": {
+            "a": "xyz",
+            "b": "4",
+            "c": "0",
+            "d": "$(x-y)(y-z)(z-x)$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 250, 251, 252, 253, 254]"
+    },
+    {
+        "id": 22,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "যদি A = [2 0; 0 -3] এবং B = [3 0; 5 1] হয়, তবে AB এর সমান -",
+        "options": {
+            "a": "$[\\begin{matrix}6&0\\\\ -15&-3\\end{matrix}]$",
+            "b": "$[\\begin{matrix}3&-1\\\\ 2&-5\\end{matrix}]$",
+            "c": "$[\\begin{matrix}1&0\\\\ -2&15\\end{matrix}]$",
+            "d": "$[\\begin{matrix}1&-5\\\\ 0&-2\\end{matrix}]$"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 262, 265, 266, 267, 271]"
+    },
+    {
+        "id": 23,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|\\begin{matrix}a^{-2}&0&0\\\\ 0&b^{-2}&0\\\\ 0&0&c^{-2}\\end{matrix}|=$ কত?",
+        "options": {
+            "a": "abc",
+            "b": "$a^{2}b^{2}c^{2}$",
+            "c": "0",
+            "d": "$\\frac{1}{a^{2}b^{2}c^{2}}$"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 272, 273, 275, 276, 277]"
+    },
+    {
+        "id": 24,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "নির্ণায়ক $|\\begin{matrix}1&1&1\\\\ 1&2&3\\\\ 1&4&k\\end{matrix}|$ এর মান 2, হলে k এর মান কত?",
+        "options": {
+            "a": "9",
+            "b": "8",
+            "c": "7",
+            "d": "6"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 283, 284, 285, 286, 287, 288]"
+    },
+    {
+        "id": 25,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$j^{2}=-1$ হলে $[\\begin{matrix}j&j\\\\ 2j&j\\end{matrix}]$ এর বিপরীত ম্যাট্রিক্স কোনটি?",
+        "options": {
+            "a": "$[\\begin{matrix}j&-j\\\\ 2j&-j\\end{matrix}]$",
+            "b": "$[\\begin{matrix}-j&2j\\\\ j&-j\\end{matrix}]$",
+            "c": "$[\\begin{matrix}j&2j\\\\ j&j\\end{matrix}]$",
+            "d": "$[\\begin{matrix}j&-j\\\\ -2j&j\\end{matrix}]$"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 289, 290, 291, 292, 293]"
+    },
+    {
+        "id": 26,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|\\begin{matrix}x+y&x^{3}&0\\\\ y+z&y^{3}&0\\\\ z+x&z^{3}&0\\end{matrix}|$ নির্ণয়কটির মান কত?",
+        "options": {
+            "a": "xyz",
+            "b": "4xyz",
+            "c": "0",
+            "d": "$x+y+z$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 301, 302, 303, 304, 305, 306]"
+    },
+    {
+        "id": 27,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}1&2\\\\ 3&0\\\\ \\end{matrix}][\\begin{matrix}3&1\\\\ x&1\\\\ \\end{matrix}]=[\\begin{matrix}7&3\\\\ 9&3\\\\ \\end{matrix}]$ হলে x=?",
+        "options": {
+            "a": "4",
+            "b": "1",
+            "c": "3",
+            "d": "2"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 308, 309, 310, 314, 315, 321]"
+    },
+    {
+        "id": 28,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$M=[\\begin{matrix}-2&5\\\\ 1&7\\end{matrix}]$ এবং $N=[\\begin{matrix}4&3\\\\ 2&-1\\end{matrix}]$ হলে, $3N-4M=$ কত?",
+        "options": {
+            "a": "$[\\begin{matrix}-6&2\\\\ -1&8\\end{matrix}]$",
+            "b": "$[\\begin{matrix}-22&3\\\\ -5&25\\end{matrix}]$",
+            "c": "$[\\begin{matrix}20&-11\\\\ 2&-31\\end{matrix}]$",
+            "d": "$[\\begin{matrix}4&29\\\\ 10&25\\end{matrix}]$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 322, 323, 324, 325, 326, 327]"
+    },
+    {
+        "id": 29,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}3&0&0\\\\ 0&3&0\\\\ 0&0&3\\end{matrix}]$ |A| এর মান কত?",
+        "options": {
+            "a": "0",
+            "b": "3",
+            "c": "9",
+            "d": "27"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 332, 333, 334, 335, 336, 337]"
+    },
+    {
+        "id": 30,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}9&-4&2\\\\ -2&1&0\\\\ -1&-1&1\\end{matrix}]$ ম্যাট্রিক্স এর (1,3) এবং (3,3) তম ভুক্তি দুইটির যোগফল x + 3 হলে, x এর মান কত?",
+        "options": {
+            "a": "2",
+            "b": "1",
+            "c": "3",
+            "d": "0"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 339, 357, 362, 363, 364, 365]"
+    },
+    {
+        "id": 31,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=|\\begin{matrix}1&2&3\\\\ 1&2&P\\\\ 3&4&0\\end{matrix}|$ P এর কোন মানের জন্য নির্ণয়কটির মান শূন্য হবে?",
+        "options": {
+            "a": "$\\frac{-3}{5}$",
+            "b": "$\\frac{3}{5}$",
+            "c": "-3",
+            "d": "3"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 366, 367, 368, 369, 370, 371, 376]"
+    },
+    {
+        "id": 32,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[4,5,6][\\begin{matrix}2\\\\ 3\\\\ -1\\end{matrix}]=?$",
+        "options": {
+            "a": "[8 15-16]",
+            "b": "[17]",
+            "c": "[18]",
+            "d": "[15]"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 377, 378, 379, 380, 385, 386]"
+    },
+    {
+        "id": 33,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}3&1\\\\ -4&1\\end{matrix}]$ ও $B=[\\begin{matrix}-4&2\\\\ 2&-1\\end{matrix}]$ এর মধ্যে কোনটি ব্যতিক্রমী (singular) ম্যাট্রিক্স-",
+        "options": {
+            "a": "A",
+            "b": "B",
+            "c": "A ও B উভয়ই",
+            "d": "কোনটিই নয়"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 387, 388, 389, 390, 391, 395]"
+    },
+    {
+        "id": 34,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}8&4\\\\ 3&2\\end{matrix}]$ হলে, Adj. A হবে",
+        "options": {
+            "a": "$[\\begin{matrix}2&-3\\\\ -4&8\\end{matrix}]$",
+            "b": "$[\\begin{matrix}2&-4\\\\ -3&8\\end{matrix}]$",
+            "c": "$[\\begin{matrix}2&3\\\\ 4&8\\end{matrix}]$",
+            "d": "$[\\begin{matrix}2&4\\\\ 3&8\\end{matrix}]$"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 402, 403, 404, 406]"
+    },
+    {
+        "id": 35,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "ম্যাট্রিক্সটির বিপরীত ম্যাট্রিক্স বিদ্যমান না থাকলে m = কত? $[\\begin{matrix}m-2&6\\\\ 2&m-3\\end{matrix}]$",
+        "options": {
+            "a": "-1, 6",
+            "b": "1, -6",
+            "c": "6, 1",
+            "d": "-1, -6"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 415, 416, 417, 418, 419, 423]"
+    },
+    {
+        "id": 36,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}1&0\\\\ 0&5\\end{matrix}]$ , $B=[\\begin{matrix}5&0\\\\ 2&1\\end{matrix}]$ হলে AB =?",
+        "options": {
+            "a": "$[\\begin{matrix}5&0\\\\ 2&5\\end{matrix}]$",
+            "b": "$[\\begin{matrix}5&0\\\\ 10&5\\end{matrix}]$",
+            "c": "$[\\begin{matrix}6&0\\\\ 2&6\\end{matrix}]$",
+            "d": "$[\\begin{matrix}8&1\\\\ 12&5\\end{matrix}]$"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 424, 426, 427, 428, 429]"
+    },
+    {
+        "id": 37,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "যে কোন ম্যাট্রিক্স A ও অভেদক ম্যাট্রিক্স I এর জন্য $5A^{3}-9A^{2}+2AI+I=0$ হলে $A^{-1}=?$",
+        "options": {
+            "a": "$5A^{2}-2A=9I$",
+            "b": "$5A^{2}-9A+2I$",
+            "c": "$9A-5A^{2}-2I$",
+            "d": "$5A-2A^{2}-9I$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 430, 432, 433, 434, 439, 442]"
+    },
+    {
+        "id": 38,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}x&4&4\\end{matrix}][\\begin{matrix}2&1&0\\\\ 1&0&2\\\\ 0&2&4\\end{matrix}][\\begin{matrix}x\\\\ 4\\\\ -1\\end{matrix}]$ একটি Null ম্যাট্রিক্স হলে X =",
+        "options": {
+            "a": "-2",
+            "b": "-3",
+            "c": "-4",
+            "d": "2"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 443, 444, 445, 447, 456]"
+    },
+    {
+        "id": 39,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$M=[\\begin{matrix}1&2\\\\ 3&4\\end{matrix}]$ এবং $N=[\\begin{matrix}1&0\\\\ 0&1\\end{matrix}]$ হলে $(M+N)^{-1}=$ কত?",
+        "options": {
+            "a": "$\\frac{1}{2}[\\begin{matrix}4&-3\\\\ -2&1\\end{matrix}]$",
+            "b": "$\\frac{1}{4}[\\begin{matrix}5&-2\\\\ -3&2\\end{matrix}]$",
+            "c": "$-\\frac{1}{2}[\\begin{matrix}4&-3\\\\ -2&1\\end{matrix}]$",
+            "d": "$-\\frac{1}{2}[\\begin{matrix}4&-2\\\\ -3&1\\end{matrix}]$"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 461, 464, 465, 466]"
+    },
+    {
+        "id": 40,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}3&-5&1\\\\ 1&1&4\\\\ 7&-2&1\\end{matrix}][\\begin{matrix}2\\\\ 1\\\\ -3\\end{matrix}]=[\\begin{matrix}x\\\\ y\\\\ z\\end{matrix}]$ হলে (x, y, z) নিচের কোনটি।",
+        "options": {
+            "a": "(-1,2,1)",
+            "b": "(1,2,3)",
+            "c": "(-2,-9,9)",
+            "d": "$(-1,-2,-1)$"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 475, 479, 480, 481, 482, 486]"
+    },
+    {
+        "id": 41,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "m×n ও nxp আকারের দুটি ম্যাট্রিক্স এর গুণফল ম্যাট্রিক্স এর আকার কত হবে?",
+        "options": {
+            "a": "$m\\times p$",
+            "b": "$p\\times n$",
+            "c": "$n\\times p$",
+            "d": "$p\\times m$"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 488, 490, 492, 493, 494, 501]"
+    },
+    {
+        "id": 42,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}-2&1\\\\ 3/2&-1/2\\end{matrix}]$ হলে $A^{-1}$ কত?",
+        "options": {
+            "a": "$(\\begin{matrix}1&3\\\\ 2&4\\end{matrix})$",
+            "b": "$(\\begin{matrix}1&0\\\\ 0&1\\end{matrix})$",
+            "c": "$(\\begin{matrix}3&4\\\\ 1&2\\end{matrix})$",
+            "d": "$(\\begin{matrix}1&2\\\\ 3&4\\end{matrix})$"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 502, 507, 508, 509, 510, 517]"
+    },
+    {
+        "id": 43,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}3&5&1\\\\ 4&0&2\\\\ 1&6&4\\end{matrix}]$ হলে, $A-2I=$?",
+        "options": {
+            "a": "$[\\begin{matrix}5&5&1\\\\ 4&2&2\\\\ 1&6&6\\end{matrix}]$",
+            "b": "$[\\begin{matrix}1&5&1\\\\ 4&-2&2\\\\ 1&6&2\\end{matrix}]$",
+            "c": "$[\\begin{matrix}1&3&-1\\\\ 4&0&2\\\\ -1&6&4\\end{matrix}]$",
+            "d": "$[\\begin{matrix}1&3&-1\\\\ 2&-2&0\\\\ -1&4&2\\end{matrix}]$"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 518, 519, 523, 526]"
+    },
+    {
+        "id": 44,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$A=[\\begin{matrix}1&1\\\\ -1&1\\end{matrix}]$, $B=[\\begin{matrix}1&-1\\\\ -1&-1\\end{matrix}]$ এবং $i=\\sqrt{-1}$ হলে, AB = কত?",
+        "options": {
+            "a": "$[\\begin{matrix}1&0\\\\ 0&0\\end{matrix}]$",
+            "b": "$2[\\begin{matrix}0&-1\\\\ -1&0\\end{matrix}]$",
+            "c": "$[\\begin{matrix}1&0\\\\ 0&1\\end{matrix}]$",
+            "d": "None"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 527, 530, 533, 534]"
+    },
+    {
+        "id": 45,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}x&0&0\\\\ 0&y&0\\\\ 0&0&z\\end{matrix}]$ একটি ম্যাট্রিক্স; ম্যাট্রিক্সটি অভেদক হবে যখন-",
+        "options": {
+            "a": "x=y=z=0",
+            "b": "x=y=z=1",
+            "c": "x=y+z",
+            "d": "x=y=z=2"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 538, 540, 541, 542, 543, 544, 545]"
+    },
+    {
+        "id": 46,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$[\\begin{matrix}2&x+y\\\\ x-y&3\\end{matrix}]=[\\begin{matrix}2&4\\\\ 2&3\\end{matrix}]$ হলে (x,y) কত?",
+        "options": {
+            "a": "(3,1)",
+            "b": "(2,0)",
+            "c": "(1,3)",
+            "d": "(0,2)"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 547, 548, 549, 550, 551, 552]"
+    },
+    {
+        "id": 47,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "$|\\begin{matrix}1&1&1\\\\ 1&1+x&1\\\\ 1&1&1+y\\end{matrix}|=?$",
+        "options": {
+            "a": "xy",
+            "b": "$x^{2}y^{2}$",
+            "c": "1",
+            "d": "-xy"
+        },
+        "correctAnswer": "a",
+        "explanation": "[cite: 553, 557, 558, 556, 559, 565]"
+    },
+    {
+        "id": 48,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "ব্যতিক্রমী ম্যাট্রিক্সের ক্ষেত্রে $\\beta=3,-5$ হলে, তা নিচের কোন ম্যাট্রিক্সের জন্য সত্য?",
+        "options": {
+            "a": "$[\\begin{matrix}\\beta+2&-3\\\\ 5&\\beta\\end{matrix}]$",
+            "b": "$[\\begin{matrix}\\beta+2&4\\\\ 5&\\beta\\end{matrix}]$",
+            "c": "$[\\begin{matrix}\\beta-2&3\\\\ 5&\\beta\\end{matrix}]$",
+            "d": "$[\\begin{matrix}\\beta+2&3\\\\ 5&\\beta\\end{matrix}]$"
+        },
+        "correctAnswer": "d",
+        "explanation": "[cite: 566, 567, 568, 569, 570]"
+    },
+    {
+        "id": 49,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "স্কেলার Matrix (3x3) Trace 9 হলে, $a_{11}=?$",
+        "options": {
+            "a": "9",
+            "b": "0",
+            "c": "3",
+            "d": "-3"
+        },
+        "correctAnswer": "c",
+        "explanation": "[cite: 574, 575, 576, 577, 579, 583]"
+    },
+    {
+        "id": 50,
+        "subject": "Higher Math 1st Paper",
+        "topic": "ম্যাট্রিক্স ও নির্নায়ক",
+        "question": "বক্র প্রতিসম ম্যাট্রিক্সের ক্ষেত্রে কোনটি সত্য?",
+        "options": {
+            "a": "$a_{ij}=a_{ji}$",
+            "b": "$a_{ij}=-a_{ji}$",
+            "c": "$a_{ii}=a_{jj}$",
+            "d": "$a_{ij}\\ne a_{ji}$"
+        },
+        "correctAnswer": "b",
+        "explanation": "[cite: 584, 589, 591, 592, 593, 596]"
+    }
+]

@@ -1,962 +1,902 @@
 [
   {
     "id": 1,
-    "question": "x→0lim⁡cos⁡x−1x2=?_{x\\to0}^{\\lim}\\frac{\\cos x-1}{x^2}=?x→0limx2cosx−1=?",
+    "subject": "Math",
+    "question": "$_{x\\to0}^{\\lim}\\frac{\\cos x-1}{x^2}=?$",
     "options": {
-      "a": "-1",
-      "b": "-1/2",
-      "c": "1/2",
-      "d": "1"
+      "a": "£ ¦Év",
+      "b": "£ gº¨",
+      "c": "£¤¨",
+      "d": "£¤¨À"
     },
     "correctAnswer": "b",
-    "explanation": "x→0lim⁡cos⁡x−1x2=x→0lim⁡−sin⁡x2x=x→0lim⁡−cos⁡x2=−12_{x\\to0}^{\\lim}\\frac{\\cos x-1}{x^2}=_{x\\to0}^{\\lim}\\frac{-\\sin x}{2x}=_{x\\to0}^{\\lim}\\frac{-\\cos x}{2}=-\\frac{1}{2}x→0limx2cosx−1=x→0lim2x−sinx=x→0lim2−cosx=−21[La-Hospital সূত্রানুসারে]",
-    "subject": "Math",
+    "explanation": "$_{x\\to0}^{\\lim}\\frac{\\cos x-1}{x^2}=_{x\\to0}^{\\lim}\\frac{-\\sin x}{2x}=_{x\\to0}^{\\lim}\\frac{-\\cos x}{2}=-\\frac{1}{2}$ [La-Hospital সূত্রানুসারে]",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x→0lim⁡cos⁡x−1x2=?_{x\\to0}^{\\lim}\\frac{\\cos x-1}{x^2}=?x→0limx2cosx−1=?$",
-    "explanationLatex": "$x→0lim⁡cos⁡x−1x2=x→0lim⁡−sin⁡x2x=x→0lim⁡−cos⁡x2=−12_{x\\to0}^{\\lim}\\frac{\\cos x-1}{x^2}=_{x\\to0}^{\\lim}\\frac{-\\sin x}{2x}=_{x\\to0}^{\\lim}\\frac{-\\cos x}{2}=-\\frac{1}{2}x→0limx2cosx−1=x→0lim2x−sinx=x→0lim2−cosx=−21[La-Hospital সূত্রানুসারে]$"
+    "topic": ""
   },
   {
     "id": 2,
-    "question": "y=(1−x)(1+x) y=\\sqrt{(1-x)(1+x)} y=(1−x)(1+x) হলে, (1−x2)dydx+xy= \\left(1-x^{2}\\right) \\frac{d y}{d x}+x y= (1−x2)dxdy+xy=",
+    "subject": "Math",
+    "question": "$y=\\sqrt{(1-x)(1+x)}$ হলে, $\\left(1-x^{2}\\right) \\frac{d y}{d x}+x y=$",
     "options": {
-      "a": "0",
-      "b": "1",
-      "c": "-1",
-      "d": "1/2"
+      "a": "££¨À",
+      "b": "£¤¨À",
+      "c": "£ ¦Év",
+      "d": "£¤¨"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: এখানে, y=(1−x)(1+x)=1−x2 y=\\sqrt{(1-x)(1+x)}=\\sqrt{1-x^{2}} y=(1−x)(1+x)=1−x2 উভয় পক্ষকে x x x-এর সাপেক্ষ অন্তরীকরণ করে পাই, dydx=121−x2(−2x)=−x1−x21−x2⇒(1−x2)dydx=−x1−x2=−xy∴(1−x2)dydx+xy=0 \\begin{aligned} & \\frac{d y}{d x}=\\frac{1}{2 \\sqrt{1-x^{2}}}(-2 x)=\\frac{-x \\sqrt{1-x^{2}}}{1-x^{2}} \\\\ \\Rightarrow & \\left(1-\\mathrm{x}^{2}\\right) \\frac{d y}{d x}=-\\mathrm{x} \\sqrt{1-\\mathrm{x}^{2}}=-x y \\\\ \\therefore & \\left(1-x^{2}\\right) \\frac{d y}{d x}+x y=0 \\quad \\text { } \\end{aligned} ⇒∴dxdy=21−x21(−2x)=1−x2−x1−x2(1−x2)dxdy=−x1−x2=−xy(1−x2)dxdy+xy=0",
-    "subject": "Math",
+    "explanation": "Solve: এখানে, $y=\\sqrt{(1-x)(1+x)}=\\sqrt{1-x^{2}}$ উভয় পক্ষকে $x$ -এর সাপেক্ষ অন্তরীকরণ করে পাই, $\\begin{aligned} & \\frac{d y}{d x}=\\frac{1}{2 \\sqrt{1-x^{2}}}(-2 x)=\\frac{-x \\sqrt{1-x^{2}}}{1-x^{2}} \\\\ \\Rightarrow & \\left(1-\\mathrm{x}^{2}\\right) \\frac{d y}{d x}=-\\mathrm{x} \\sqrt{1-\\mathrm{x}^{2}}=-x y \\\\ \\therefore & \\left(1-x^{2}\\right) \\frac{d y}{d x}+x y=0 \\quad \\text { } \\end{aligned}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=(1−x)(1+x) y=\\sqrt{(1-x)(1+x)} y=(1−x)(1+x) হলে, (1−x2)dydx+xy= \\left(1-x^{2}\\right) \\frac{d y}{d x}+x y= (1−x2)dxdy+xy=$",
-    "explanationLatex": "$Solve: এখানে, y=(1−x)(1+x)=1−x2 y=\\sqrt{(1-x)(1+x)}=\\sqrt{1-x^{2}} y=(1−x)(1+x)=1−x2 উভয় পক্ষকে x x x-এর সাপেক্ষ অন্তরীকরণ করে পাই, dydx=121−x2(−2x)=−x1−x21−x2⇒(1−x2)dydx=−x1−x2=−xy∴(1−x2)dydx+xy=0 \\begin{aligned} & \\frac{d y}{d x}=\\frac{1}{2 \\sqrt{1-x^{2}}}(-2 x)=\\frac{-x \\sqrt{1-x^{2}}}{1-x^{2}} \\\\ \\Rightarrow & \\left(1-\\mathrm{x}^{2}\\right) \\frac{d y}{d x}=-\\mathrm{x} \\sqrt{1-\\mathrm{x}^{2}}=-x y \\\\ \\therefore & \\left(1-x^{2}\\right) \\frac{d y}{d x}+x y=0 \\quad \\text { } \\end{aligned} ⇒∴dxdy=21−x21(−2x)=1−x2−x1−x2(1−x2)dxdy=−x1−x2=−xy(1−x2)dxdy+xy=0$"
+    "topic": ""
   },
   {
     "id": 3,
-    "question": "ddx{e7log⁡xx6}=? \\frac{d}{dx} \\left \\lbrace \\frac{e^{7 \\log{x}}}{x^{6}} \\right \\rbrace = ? dxd{x6e7logx}=?",
+    "subject": "Math",
+    "question": "$\\frac{d}{dx} \\left \\lbrace \\frac{e^{7 \\log{x}}}{x^{6}} \\right \\rbrace = ?$",
     "options": {
-      "a": "𝑒 6 log ⁡ 𝑥 𝑥 6 x 6 e 6logx",
-      "b": "1",
-      "c": "2x2",
-      "d": "− 𝑒 7 log ⁡ 𝑥 6 𝑥 5 + 𝑒 log ⁡ 𝑥 𝑥 6 − 6x 5 e 7logx + x 6 e logx"
+      "a": "dpÈÐÂºÅÏÁÑ°¢¯îäçÍÖ³ÂÈ°|ÞÜdq",
+      "b": "£¤¨À",
+      "c": "£¥ä¦ÃÎ¨quÔÔåowãª",
+      "d": "dp¬¿ª«Í°«¿Ú¬d´âÓåÈÖµÇåkfÙ½ðy°Å¬¿ª«Í°«¿ÚÑ°¢¯îäçÍÖ³ÂÈ°|ÞÜdq"
     },
     "correctAnswer": "b",
-    "explanation": "ddx{e7log⁡xx6}=ddx(elog⁡x7x6)=ddx(x)=1 \\frac{\\mathrm{d}}{\\mathrm{dx}}\\left\\{\\frac{\\mathrm{e}^{7 \\log \\mathrm{x}}}{\\mathrm{x}^{6}}\\right\\}=\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left(\\frac{\\mathrm{e}^{\\log x^{7}}}{\\mathrm{x}^{6}}\\right)=\\frac{\\mathrm{d}}{\\mathrm{dx}}(\\mathrm{x})=1 dxd{x6e7logx}=dxd(x6elogx7)=dxd(x)=1",
-    "subject": "Math",
+    "explanation": "$\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left\\{\\frac{\\mathrm{e}^{7 \\log \\mathrm{x}}}{\\mathrm{x}^{6}}\\right\\}=\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left(\\frac{\\mathrm{e}^{\\log x^{7}}}{\\mathrm{x}^{6}}\\right)=\\frac{\\mathrm{d}}{\\mathrm{dx}}(\\mathrm{x})=1$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$ddx{e7log⁡xx6}=? \\frac{d}{dx} \\left \\lbrace \\frac{e^{7 \\log{x}}}{x^{6}} \\right \\rbrace = ? dxd{x6e7logx}=?$",
-    "explanationLatex": "$ddx{e7log⁡xx6}=ddx(elog⁡x7x6)=ddx(x)=1 \\frac{\\mathrm{d}}{\\mathrm{dx}}\\left\\{\\frac{\\mathrm{e}^{7 \\log \\mathrm{x}}}{\\mathrm{x}^{6}}\\right\\}=\\frac{\\mathrm{d}}{\\mathrm{dx}}\\left(\\frac{\\mathrm{e}^{\\log x^{7}}}{\\mathrm{x}^{6}}\\right)=\\frac{\\mathrm{d}}{\\mathrm{dx}}(\\mathrm{x})=1 dxd{x6e7logx}=dxd(x6elogx7)=dxd(x)=1$"
+    "topic": ""
   },
   {
     "id": 4,
-    "question": "tan⁡y=2t1−t2,sin⁡x=2t1+t2,dydx=? \\tan{y} = \\frac{2 t}{1 - t^{2}} , \\sin{x} = \\frac{2 t}{1 + t^{2}} , \\frac{dy}{dx} = ? tany=1−t22t,sinx=1+t22t,dxdy=?",
+    "subject": "Math",
+    "question": "$\\tan{y} = \\frac{2 t}{1 - t^{2}} , \\sin{x} = \\frac{2 t}{1 + t^{2}} , \\frac{dy}{dx} = ?$",
     "options": {
-      "a": "2",
-      "b": "1",
-      "c": "0",
-      "d": "√2"
+      "a": "£¥¨À",
+      "b": "£¤¨À",
+      "c": "££¨À",
+      "d": "£⊍¦Év"
     },
     "correctAnswer": "b",
-    "explanation": "sin⁡x=2t1+t2cos⁡x=(1+t2)(2)−2t(0+2t)1+t2cos⁡x=2−2t2(1+t2)2=dydxdxdt=2(1−t2)(1+t2)×1+t2(1+t2)2−4t2dxdt=21+t2 \\begin{array}{l}\\sin x=\\frac{2 t}{1+t^{2}} \\\\ \\left.\\cos x=\\frac{\\left(1+t^{2}\\right)(2)-2 t(0+2 t)}{1+t^{2}}\\right. \\\\ \\cos x=\\frac{2-2 t^{2}}{\\left(1+t^{2}\\right)^{2}}=\\frac{d y}{d x} \\\\ \\frac{d x}{d t}=\\frac{2\\left(1-t^{2}\\right)}{\\left(1+t ^{2})\\right.} \\times \\frac{1+t^{2}}{\\sqrt{\\left(1+t^{2}\\right)^{2}-4 t^{2}}} \\\\ \\frac{d x}{d t}=\\frac{2}{1+t^{2}}\\end{array} sinx=1+t22tcosx=1+t2(1+t2)(2)−2t(0+2t)cosx=(1+t2)22−2t2=dxdydtdx=(1+t2)2(1−t2)×(1+t2)2−4t21+t2dtdx=1+t22 {tan⁡y=2t1−t2sec⁡2ydydx=2+2t2(1−t2)2dydx=21+t2…. (ii) dydx=21+t221+t=1 \\left\\{\\begin{array}{l}\\tan y=\\frac{2 t}{1-t^{2}} \\\\ \\sec ^{2} y\\frac{d y}{d x}=\\frac{2+2 t^{2}}{\\left(1-t^{2}\\right)^{2}} \\\\ \\frac{d y}{d x}=\\frac{2}{1+t^{2}}….\\text { (ii) } \\\\ \\frac{d y}{d x}=\\frac{\\frac{2}{1+t^{2}}}{\\frac{2}{1+t}}=1\\end{array}\\right. ⎩⎨⎧tany=1−t22tsec2ydxdy=(1−t2)22+2t2dxdy=1+t22…. (ii) dxdy=1+t21+t22=1",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l}\\sin x=\\frac{2 t}{1+t^{2}} \\\\ \\left.\\cos x=\\frac{\\left(1+t^{2}\\right)(2)-2 t(0+2 t)}{1+t^{2}}\\right. \\\\ \\cos x=\\frac{2-2 t^{2}}{\\left(1+t^{2}\\right)^{2}}=\\frac{d y}{d x} \\\\ \\frac{d x}{d t}=\\frac{2\\left(1-t^{2}\\right)}{\\left(1+t ^{2})\\right.} \\times \\frac{1+t^{2}}{\\sqrt{\\left(1+t^{2}\\right)^{2}-4 t^{2}}} \\\\ \\frac{d x}{d t}=\\frac{2}{1+t^{2}}\\end{array}$ $\\left\\{\\begin{array}{l}\\tan y=\\frac{2 t}{1-t^{2}} \\\\ \\sec ^{2} y\\frac{d y}{d x}=\\frac{2+2 t^{2}}{\\left(1-t^{2}\\right)^{2}} \\\\ \\frac{d y}{d x}=\\frac{2}{1+t^{2}}….\\text { (ii) } \\\\ \\frac{d y}{d x}=\\frac{\\frac{2}{1+t^{2}}}{\\frac{2}{1+t}}=1\\end{array}\\right.$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$tan⁡y=2t1−t2,sin⁡x=2t1+t2,dydx=? \\tan{y} = \\frac{2 t}{1 - t^{2}} , \\sin{x} = \\frac{2 t}{1 + t^{2}} , \\frac{dy}{dx} = ? tany=1−t22t,sinx=1+t22t,dxdy=?$",
-    "explanationLatex": "$sin⁡x=2t1+t2cos⁡x=(1+t2)(2)−2t(0+2t)1+t2cos⁡x=2−2t2(1+t2)2=dydxdxdt=2(1−t2)(1+t2)\\\\times 1+t2(1+t2)2−4t2dxdt=21+t2 \\begin{array}{l}\\sin x=\\frac{2 t}{1+t^{2}} \\\\ \\left.\\cos x=\\frac{\\left(1+t^{2}\\right)(2)-2 t(0+2 t)}{1+t^{2}}\\right. \\\\ \\cos x=\\frac{2-2 t^{2}}{\\left(1+t^{2}\\right)^{2}}=\\frac{d y}{d x} \\\\ \\frac{d x}{d t}=\\frac{2\\left(1-t^{2}\\right)}{\\left(1+t ^{2})\\right.} \\times \\frac{1+t^{2}}{\\sqrt{\\left(1+t^{2}\\right)^{2}-4 t^{2}}} \\\\ \\frac{d x}{d t}=\\frac{2}{1+t^{2}}\\end{array} sinx=1+t22tcosx=1+t2(1+t2)(2)−2t(0+2t)cosx=(1+t2)22−2t2=dxdydtdx=(1+t2)2(1−t2)\\\\times (1+t2)2−4t21+t2dtdx=1+t22 {tan⁡y=2t1−t2sec⁡2ydydx=2+2t2(1−t2)2dydx=21+t2…. (ii) dydx=21+t221+t=1 \\left\\{\\begin{array}{l}\\tan y=\\frac{2 t}{1-t^{2}} \\\\ \\sec ^{2} y\\frac{d y}{d x}=\\frac{2+2 t^{2}}{\\left(1-t^{2}\\right)^{2}} \\\\ \\frac{d y}{d x}=\\frac{2}{1+t^{2}}….\\text { (ii) } \\\\ \\frac{d y}{d x}=\\frac{\\frac{2}{1+t^{2}}}{\\frac{2}{1+t}}=1\\end{array}\\right. ⎩⎨⎧tany=1−t22tsec2ydxdy=(1−t2)22+2t2dxdy=1+t22…. (ii) dxdy=1+t21+t22=1$"
+    "topic": ""
   },
   {
     "id": 5,
-    "question": "y=cosec (3x)y=\\sqrt{cosec\\ (3x)}y=cosec (3x) হলে dydx=?\\frac{dy}{dx}=?dxdy=?",
+    "subject": "Math",
+    "question": "$y=\\sqrt{cosec\\ (3x)}$ হলে $\\frac{dy}{dx}=?$",
     "options": {
-      "a": "1 2 cos ⁡ 3 𝑥 2 cos3x 1",
-      "b": "3 2 𝑐 𝑜 𝑠 𝑒 𝑐 3 𝑥 tan ⁡ 3 𝑥 2 3 tan3x cosec 3x",
-      "c": "− 3 2 𝑐 𝑜 𝑠 𝑒 𝑐 3 𝑥 tan ⁡ ( 3 𝑥 ) − 2 3 tan(3x) cosec 3x",
-      "d": "− 3 2 cos ⁡ 3 𝑥 tan ⁡ 3 𝑥 − 2 3 cos3xtan3x"
+      "a": "$\\frac{1}{2\\sqrt{\\cos{3x}}}$",
+      "b": "$\\frac{3}{2}\\frac{\\sqrt{cosec\\ 3x}}{\\tan{3x}}$",
+      "c": "$-\\frac{3}{2}\\ \\frac{\\sqrt{cosec\\ 3x}}{\\tan{\\left(3x\\right)}}$",
+      "d": "$-\\frac{3}{2}\\cos{3x}\\tan{3x}$"
     },
     "correctAnswer": "c",
-    "explanation": "ddx(cosec(3x))=12cosec3x(−cosec 3xcot⁡3x)3\\frac{d}{dx}\\left(\\sqrt{cosec\\left(3x\\right)}\\right)=\\frac{1}{2\\sqrt{cosec3x}}(-cosec\\ 3x\\cot{3x})3dxd(cosec(3x))=2cosec3x1(−cosec 3xcot3x)3 =−32cot⁡(3x)cosec (3x)=−32 cosec 3xtan⁡(3x)=-\\frac{3}{2}\\cot{\\left(3x\\right)}\\sqrt{cosec\\ \\left(3x\\right)}=-\\frac{3}{2}\\ \\frac{\\sqrt{cosec\\ 3x}}{\\tan{\\left(3x\\right)}}=−23cot(3x)cosec (3x)=−23 tan(3x)cosec 3x",
-    "subject": "Math",
+    "explanation": "$\\frac{d}{dx}\\left(\\sqrt{cosec\\left(3x\\right)}\\right)=\\frac{1}{2\\sqrt{cosec3x}}(-cosec\\ 3x\\cot{3x})3$ $=-\\frac{3}{2}\\cot{\\left(3x\\right)}\\sqrt{cosec\\ \\left(3x\\right)}=-\\frac{3}{2}\\ \\frac{\\sqrt{cosec\\ 3x}}{\\tan{\\left(3x\\right)}}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=cosec (3x)y=\\sqrt{cosec\\ (3x)}y=cosec (3x) হলে dydx=?\\frac{dy}{dx}=?dxdy=?$",
-    "explanationLatex": "$ddx(cosec(3x))=12cosec3x(−cosec 3xcot⁡3x)3\\frac{d}{dx}\\left(\\sqrt{cosec\\left(3x\\right)}\\right)=\\frac{1}{2\\sqrt{cosec3x}}(-cosec\\ 3x\\cot{3x})3dxd(cosec(3x))=2cosec3x1(−cosec 3xcot3x)3 =−32cot⁡(3x)cosec (3x)=−32 cosec 3xtan⁡(3x)=-\\frac{3}{2}\\cot{\\left(3x\\right)}\\sqrt{cosec\\ \\left(3x\\right)}=-\\frac{3}{2}\\ \\frac{\\sqrt{cosec\\ 3x}}{\\tan{\\left(3x\\right)}}=−23cot(3x)cosec (3x)=−23 tan(3x)cosec 3x$"
+    "topic": ""
   },
   {
     "id": 6,
-    "question": "y=secxy=secxy=secx হলে নীচের কোনটি সঠিক?",
+    "subject": "Math",
+    "question": "$y=secx$ হলে নীচের কোনটি সঠিক?",
     "options": {
-      "a": "𝑦 2 = 𝑦 ( 2 𝑦 2 + 1 ) y 2 =y(2y 2 +1)",
-      "b": "𝑦 2 = 𝑦 ( 2 𝑦 2 − 1 ) y 2 =y(2y 2 −1)",
-      "c": "𝑦 1 2 = 2 𝑦 + 1 y 1 2 =2y+1",
-      "d": "কোনটিই নয়"
+      "a": "£Ïã¯uÃg¿¿ u\\¤¨À",
+      "b": "£Ïã¯uÃg¿¿¢u\\¤¨À",
+      "c": "£Ïã¯|§g¿Ñmowãª",
+      "d": "£ਈਲ਼ਨ৸৸৷৑ঢ়৵ਝ¤´q"
     },
     "correctAnswer": "b",
-    "explanation": "y=sec⁡xddx(y)=sec⁡xtan⁡x⇒y1=sec⁡xtan⁡x⇒y2=sec⁡xddx(tan⁡x)+tan⁡xddx(sec⁡x)⇒y2=sec⁡xsec⁡2x+tan⁡xsec⁡xtan⁡x⇒y2=sec⁡3x+{sec⁡x(sec⁡x−1)}⇒y2=sec⁡3x+sec⁡3x−sec⁡x⇒y2=y3+y3−y⇒y2=2y3−y⇒y2=y(2y2−1) \\begin{array}{l}y=\\sec x \\\\ \\frac{d}{d x}(y)=\\sec x \\tan x \\\\ \\Rightarrow y_{1}=\\sec x \\tan x \\\\ \\Rightarrow y_{2}=\\sec x \\frac{d}{d x}(\\tan x)+\\tan x \\frac{d}{d x}(\\sec x) \\\\ \\Rightarrow y_{2}=\\sec x \\sec ^{2} x+\\tan x \\sec x \\tan x \\\\ \\Rightarrow y_{2}=\\sec ^{3} x+\\{\\sec x(\\sec x-1)\\} \\\\ \\Rightarrow y_{2}=\\sec ^{3} x+\\sec ^{3} x-\\sec x \\\\ \\Rightarrow y_{2}=y^{3}+y^{3}-y \\\\ \\Rightarrow y_{2}=2 y^{3}-y \\\\ \\Rightarrow y_{2}=y\\left(2 y^{2}-1\\right)\\end{array} y=secxdxd(y)=secxtanx⇒y1=secxtanx⇒y2=secxdxd(tanx)+tanxdxd(secx)⇒y2=secxsec2x+tanxsecxtanx⇒y2=sec3x+{secx(secx−1)}⇒y2=sec3x+sec3x−secx⇒y2=y3+y3−y⇒y2=2y3−y⇒y2=y(2y2−1)",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l}y=\\sec x \\\\ \\frac{d}{d x}(y)=\\sec x \\tan x \\\\ \\Rightarrow y_{1}=\\sec x \\tan x \\\\ \\Rightarrow y_{2}=\\sec x \\frac{d}{d x}(\\tan x)+\\tan x \\frac{d}{d x}(\\sec x) \\\\ \\Rightarrow y_{2}=\\sec x \\sec ^{2} x+\\tan x \\sec x \\tan x \\\\ \\Rightarrow y_{2}=\\sec ^{3} x+\\{\\sec x(\\sec x-1)\\} \\\\ \\Rightarrow y_{2}=\\sec ^{3} x+\\sec ^{3} x-\\sec x \\\\ \\Rightarrow y_{2}=y^{3}+y^{3}-y \\\\ \\Rightarrow y_{2}=2 y^{3}-y \\\\ \\Rightarrow y_{2}=y\\left(2 y^{2}-1\\right)\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=secxy=secxy=secx হলে নীচের কোনটি সঠিক?$",
-    "explanationLatex": "$y=sec⁡xddx(y)=sec⁡xtan⁡x⇒y1=sec⁡xtan⁡x⇒y2=sec⁡xddx(tan⁡x)+tan⁡xddx(sec⁡x)⇒y2=sec⁡xsec⁡2x+tan⁡xsec⁡xtan⁡x⇒y2=sec⁡3x+{sec⁡x(sec⁡x−1)}⇒y2=sec⁡3x+sec⁡3x−sec⁡x⇒y2=y3+y3−y⇒y2=2y3−y⇒y2=y(2y2−1) \\begin{array}{l}y=\\sec x \\\\ \\frac{d}{d x}(y)=\\sec x \\tan x \\\\ \\Rightarrow y_{1}=\\sec x \\tan x \\\\ \\Rightarrow y_{2}=\\sec x \\frac{d}{d x}(\\tan x)+\\tan x \\frac{d}{d x}(\\sec x) \\\\ \\Rightarrow y_{2}=\\sec x \\sec ^{2} x+\\tan x \\sec x \\tan x \\\\ \\Rightarrow y_{2}=\\sec ^{3} x+\\{\\sec x(\\sec x-1)\\} \\\\ \\Rightarrow y_{2}=\\sec ^{3} x+\\sec ^{3} x-\\sec x \\\\ \\Rightarrow y_{2}=y^{3}+y^{3}-y \\\\ \\Rightarrow y_{2}=2 y^{3}-y \\\\ \\Rightarrow y_{2}=y\\left(2 y^{2}-1\\right)\\end{array} y=secxdxd(y)=secxtanx⇒y1=secxtanx⇒y2=secxdxd(tanx)+tanxdxd(secx)⇒y2=secxsec2x+tanxsecxtanx⇒y2=sec3x+{secx(secx−1)}⇒y2=sec3x+sec3x−secx⇒y2=y3+y3−y⇒y2=2y3−y⇒y2=y(2y2−1)$"
+    "topic": ""
   },
   {
     "id": 7,
-    "question": "x=cosyx=cos\\sqrt yx=cosy হলে, কোনটি সঠিক?",
+    "subject": "Math",
+    "question": "$x=cos\\sqrt y$ হলে, কোনটি সঠিক?",
     "options": {
-      "a": "𝑦 2 = 𝑦 𝑦 1 y 2 =yy 1",
-      "b": "𝑦 2 = 𝑦 y 2 =y",
-      "c": "( 1 − 𝑥 2 ) 𝑦 2 = 𝑥 𝑦 1 (1−x 2 )y 2 =xy 1",
-      "d": "( 1 − 𝑥 2 ) 𝑦 2 − 𝑥 𝑦 1 = 2 (1−x 2 )y 2 −xy 1 =2"
+      "a": "$y_2=yy_1$",
+      "b": "$y_2=y$",
+      "c": "$\\left(1-x^2\\right)y_2=xy_1$",
+      "d": "$\\left(1-x^2\\right)y_2-xy_1=2$"
     },
     "correctAnswer": "d",
-    "explanation": "y=(cos⁡−1x)2⇒y1=2cos⁡−1x.−11−x2⇒(1−x2)y12=4y⇒(1−x2)y2−xy1=2y=\\left(\\cos^{-1}{x}\\right)^2\\Rightarrow y_1=2\\cos^{-1}{x}. \\frac{-1}{\\sqrt{1-x^2}} \\\\ \\Rightarrow\\left(1-x^2\\right)y_1^2=4y\\Rightarrow\\left(1-x^2\\right)y_2-xy_1=2 y=(cos−1x)2⇒y1=2cos−1x.1−x2−1⇒(1−x2)y12=4y⇒(1−x2)y2−xy1=2",
-    "subject": "Math",
+    "explanation": "$y=\\left(\\cos^{-1}{x}\\right)^2\\Rightarrow y_1=2\\cos^{-1}{x}. \\frac{-1}{\\sqrt{1-x^2}} \\\\ \\Rightarrow\\left(1-x^2\\right)y_1^2=4y\\Rightarrow\\left(1-x^2\\right)y_2-xy_1=2$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x=cosyx=cos\\sqrt yx=cosy হলে, কোনটি সঠিক?$",
-    "explanationLatex": "$y=(cos⁡−1x)2⇒y1=2cos⁡−1x.−11−x2⇒(1−x2)y12=4y⇒(1−x2)y2−xy1=2y=\\left(\\cos^{-1}{x}\\right)^2\\Rightarrow y_1=2\\cos^{-1}{x}. \\frac{-1}{\\sqrt{1-x^2}} \\\\ \\Rightarrow\\left(1-x^2\\right)y_1^2=4y\\Rightarrow\\left(1-x^2\\right)y_2-xy_1=2 y=(cos−1x)2⇒y1=2cos−1x.1−x2−1⇒(1−x2)y12=4y⇒(1−x2)y2−xy1=2$"
+    "topic": ""
   },
   {
     "id": 8,
-    "question": "y=x2+2x−4y=x^2+2x-4y=x2+2x−4 বক্ররেখার (2, 4) বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ কোনটি?",
+    "subject": "Math",
+    "question": "$y=x^2+2x-4$ বক্ররেখার (2, 4) বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ কোনটি?",
     "options": {
-      "a": "𝑦 − 4 = 3 ( 𝑥 𝑧 ) y−4=3(xz)",
-      "b": "𝑦 + 4 = 6 ( 𝑥 + 2 ) y+4=6(x+2)",
-      "c": "𝑦 + 4 = 3 ( 𝑥 + 2 ) y+4=3(x+2)",
-      "d": "𝑦 − 4 = 6 ( 𝑥 − 2 ) y−4=6(x−2)"
+      "a": "$y-4=3(xz)$",
+      "b": "$y+4=6(x+2)$",
+      "c": "$y+4=3(x+2)$",
+      "d": "$y-4=6(x-2)$"
     },
     "correctAnswer": "d",
-    "explanation": "dydx=2x+2(dydx)(2,4)=6∴y−4=6(x−2) \\begin{array}{l}\\frac{d y}{d x}=2 x+2 \\\\ \\left(\\frac{d y}{d x}\\right)(2,4)=6 \\\\ \\therefore y-4=6(x-2)\\end{array} dxdy=2x+2(dxdy)(2,4)=6∴y−4=6(x−2)",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l}\\frac{d y}{d x}=2 x+2 \\\\ \\left(\\frac{d y}{d x}\\right)(2,4)=6 \\\\ \\therefore y-4=6(x-2)\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=x2+2x−4y=x^2+2x-4y=x2+2x−4 বক্ররেখার (2, 4) বিন্দুতে অঙ্কিত স্পর্শকের সমীকরণ কোনটি?$",
-    "explanationLatex": "$dydx=2x+2(dydx)(2,4)=6∴y−4=6(x−2) \\begin{array}{l}\\frac{d y}{d x}=2 x+2 \\\\ \\left(\\frac{d y}{d x}\\right)(2,4)=6 \\\\ \\therefore y-4=6(x-2)\\end{array} dxdy=2x+2(dxdy)(2,4)=6∴y−4=6(x−2)$"
+    "topic": ""
   },
   {
     "id": 9,
-    "question": "f(x)=x3−3xf\\left(x\\right)=x^3-3x f(x)=x3−3x এর সর্বোচ্চ ও সর্বনিম্ন মান হচ্ছে-",
+    "subject": "Math",
+    "question": "$f\\left(x\\right)=x^3-3x$ এর সর্বোচ্চ ও সর্বনিম্ন মান হচ্ছে",
     "options": {
-      "a": "2 , − 2 2, −2",
-      "b": "2 , 1 2, 1",
-      "c": "− 1 , 1 −1, 1",
-      "d": "1 , − 1 1, −1"
+      "a": "$2,\\ -2$",
+      "b": "$2,\\ 1$",
+      "c": "$-1,\\ 1$",
+      "d": "$1,\\ -1$"
     },
     "correctAnswer": "a",
-    "explanation": "f′(x)=3x2−3=0f^\\prime\\left(x\\right)=3x^2-3=0f′(x)=3x2−3=0 x=±1 , f′′(x)=6x∴f′′(1)>0x=\\pm1\\ ,\\ f^{\\prime\\prime}\\left(x\\right)=6x\\therefore f^{\\prime\\prime}\\left(1\\right)>0x=±1 , f′′(x)=6x∴f′′(1)>0 এবং f′′(−1)<0f^{\\prime\\prime}\\left(-1\\right)<0f′′(−1)<0 গুরুমান =(−1)3−3 (−1)=2=\\left(-1\\right)^3-3\\ \\left(-1\\right)=2=(−1)3−3 (−1)=2 লঘুমান =13−3(1)=−2=1^3-3\\left(1\\right)=-2=13−3(1)=−2",
-    "subject": "Math",
+    "explanation": "$f^\\prime\\left(x\\right)=3x^2-3=0$ $x=\\pm1\\ ,\\ f^{\\prime\\prime}\\left(x\\right)=6x\\therefore f^{\\prime\\prime}\\left(1\\right)>0$ এবং $f^{\\prime\\prime}\\left(-1\\right)<0$ গুরুমান $=\\left(-1\\right)^3-3\\ \\left(-1\\right)=2$ লঘুমান $=1^3-3\\left(1\\right)=-2$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$f(x)=x3−3xf\\left(x\\right)=x^3-3x f(x)=x3−3x এর সর্বোচ্চ ও সর্বনিম্ন মান হচ্ছে-$",
-    "explanationLatex": "$f′(x)=3x2−3=0f^\\prime\\left(x\\right)=3x^2-3=0f′(x)=3x2−3=0 x=\\\\pm 1 , f′′(x)=6x∴f′′(1)>0x=\\pm1\\ ,\\ f^{\\prime\\prime}\\left(x\\right)=6x\\therefore f^{\\prime\\prime}\\left(1\\right)>0x=\\\\pm 1 , f′′(x)=6x∴f′′(1)>0 এবং f′′(−1)<0f^{\\prime\\prime}\\left(-1\\right)<0f′′(−1)<0 গুরুমান =(−1)3−3 (−1)=2=\\left(-1\\right)^3-3\\ \\left(-1\\right)=2=(−1)3−3 (−1)=2 লঘুমান =13−3(1)=−2=1^3-3\\left(1\\right)=-2=13−3(1)=−2$"
+    "topic": ""
   },
   {
     "id": 10,
-    "question": "x এর কোন মানের জন্য y=x+1xy=x+\\frac{1}{x}y=x+x1 বক্ররেখাটির স্পর্শকের ঢাল শূন্য হবে?",
+    "subject": "Math",
+    "question": "x এর কোন মানের জন্য $y=x+\\frac{1}{x}$ বক্ররেখাটির স্পর্শকের ঢাল শূন্য হবে?",
     "options": {
-      "a": "± 1 ±1",
-      "b": "1 2 2 1",
-      "c": "− 1 2 − 2 1",
-      "d": "0"
+      "a": "£ÏÆÀÆijÆ^Ï³",
+      "b": "£ÏÆ¶Ë­åfÃÜòdq¯Ú",
+      "c": "£Ï¬¿ª«Í°wÞÚ§ÁS¤¨À",
+      "d": "££¨À"
     },
     "correctAnswer": "a",
-    "explanation": "y=x+1x⇒y′=1−1x2=0⇒x=±1y=x+\\frac{1}{x}\\Rightarrow y^\\prime=1-\\frac{1}{x^2}=0\\Rightarrow x=\\pm1 y=x+x1⇒y′=1−x21=0⇒x=±1",
-    "subject": "Math",
+    "explanation": "$y=x+\\frac{1}{x}\\Rightarrow y^\\prime=1-\\frac{1}{x^2}=0\\Rightarrow x=\\pm1$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x এর কোন মানের জন্য y=x+1xy=x+\\frac{1}{x}y=x+x1 বক্ররেখাটির স্পর্শকের ঢাল শূন্য হবে?$",
-    "explanationLatex": "$y=x+1x⇒y′=1−1x2=0⇒x=\\\\pm 1y=x+\\frac{1}{x}\\Rightarrow y^\\prime=1-\\frac{1}{x^2}=0\\Rightarrow x=\\pm1 y=x+x1⇒y′=1−x21=0⇒x=\\\\pm 1$"
+    "topic": ""
   },
   {
     "id": 11,
-    "question": "lim⁡x→∞x2+3x+52x2+9x−4 \\lim_{x \\to ∞} \\frac{x^{2} + 3 x + 5}{2 x^{2} + 9 x - 4} limx→∞2x2+9x−4x2+3x+5 এর মান __",
+    "subject": "Math",
+    "question": "$\\lim_{x \\to ∞} \\frac{x^{2} + 3 x + 5}{2 x^{2} + 9 x - 4}$ এর মান __",
     "options": {
-      "a": "1",
-      "b": "1/2",
-      "c": "1/4",
-      "d": "-5/4"
+      "a": "£¤¨À",
+      "b": "£¤¨",
+      "c": "£¤¨",
+      "d": "£ ¡gº¨"
     },
     "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর: (b) 1/2।",
-    "subject": "Math",
+    "explanation": "£¯Õ×·y«¼ÍrhÉÓé´¦¢ËÃÌ¾Ýc©ÉÎç§©¡ÚÏÄÀËª®ã¹kº©àßÁ¨«¨Éå«Uh¢ª¦Év",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243592/gst-question-images/Math____________-Varsity-arc_q11.jpg",
+    "questionImage": "/images/q11_img.jpg",
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→\\\\infty x2+3x+52x2+9x−4 \\lim_{x \\to \\\\infty } \\frac{x^{2} + 3 x + 5}{2 x^{2} + 9 x - 4} limx→\\\\infty 2x2+9x−4x2+3x+5 এর মান __$",
-    "explanationLatex": "$সঠিক উত্তর: (b) \\frac{1}{2}।$"
+    "topic": ""
   },
   {
     "id": 12,
-    "question": "ddx(x3sin⁡x)\\frac{d}{dx}(x^3\\sin x)dxd(x3sinx) এর মান কত?",
+    "subject": "Math",
+    "question": "$\\frac{d}{dx}(x^3\\sin x)$ এর মান কত?",
     "options": {
-      "a": "3xsinx",
-      "b": "x3cosx+3x2sinx",
-      "c": "3x2cosx+x3sinx",
-      "d": "3xcosx"
+      "a": "£¦äÝ¹Ç°ê¦d¶",
+      "b": "£ë¨ÝÅÉv}¦d¹ÖÏ³§¢»ëÈ«¿Úsxè¹£æÕØÈgº¨",
+      "c": "£¦ä¦ÃÎ¨quÔÔå·æäÈ«¿Úsyè¹£æÕØÈgº¨",
+      "d": "£¦äÍ¿Ì°j¦d¶"
     },
     "correctAnswer": "b",
-    "explanation": "ddx(x3sin⁡x)=x3cos⁡x+3x2sin⁡x \\frac{d}{d x}\\left(x^{3} \\sin x\\right)=x^{3} \\cos x+3 x^{2} \\sin x dxd(x3sinx)=x3cosx+3x2sinx",
-    "subject": "Math",
+    "explanation": "$\\frac{d}{d x}\\left(x^{3} \\sin x\\right)=x^{3} \\cos x+3 x^{2} \\sin x$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$ddx(x3sin⁡x)\\frac{d}{dx}(x^3\\sin x)dxd(x3sinx) এর মান কত?$",
-    "explanationLatex": "$ddx(x3sin⁡x)=x3cos⁡x+3x2sin⁡x \\frac{d}{d x}\\left(x^{3} \\sin x\\right)=x^{3} \\cos x+3 x^{2} \\sin x dxd(x3sinx)=x3cosx+3x2sinx$"
+    "topic": ""
   },
   {
     "id": 13,
-    "question": "lim⁡x→∞x+4x−4=? \\lim_{x → \\infty} \\frac{x + 4}{x - 4} = ? limx→∞x−4x+4=?",
+    "subject": "Math",
+    "question": "$\\lim_{x → \\infty} \\frac{x + 4}{x - 4} = ?$",
     "options": {
-      "a": "1",
-      "b": "∞ ∞",
-      "c": "0",
-      "d": "∞ / ∞ ∞/∞"
+      "a": "£¤¨À",
+      "b": "dpÈÓ¾¿¬ÃU¢",
+      "c": "££¨À",
+      "d": "dpÈÓ¾¿¬Ãdf½Èãª§ÁÆyy"
     },
     "correctAnswer": "a",
-    "explanation": "lim⁡x→∞x+4x−4 \\lim _{x \\rightarrow \\infty} \\frac{x+4}{x-4} limx→∞x−4x+4 =lim⁡x→∞1+4x1−4x =\\lim _{x \\rightarrow \\infty} \\frac{1+\\frac{4}{x}}{1-\\frac{4}{x}} =limx→∞1−x41+x4 =1+421−48=1+01−0=1 \\begin{array}{l}=\\frac{1+\\frac{4}{2}}{1-\\frac{4}{8}} \\\\ =\\frac{1+0}{1-0} \\\\ =1\\end{array} =1−841+24=1−01+0=1",
-    "subject": "Math",
+    "explanation": "$\\lim _{x \\rightarrow \\infty} \\frac{x+4}{x-4}$ $=\\lim _{x \\rightarrow \\infty} \\frac{1+\\frac{4}{x}}{1-\\frac{4}{x}}$ $\\begin{array}{l}=\\frac{1+\\frac{4}{2}}{1-\\frac{4}{8}} \\\\ =\\frac{1+0}{1-0} \\\\ =1\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→\\\\infty x+4x−4=? \\lim_{x → \\infty} \\frac{x + 4}{x - 4} = ? limx→\\\\infty x−4x+4=?$",
-    "explanationLatex": "$lim⁡x→\\\\infty x+4x−4 \\lim _{x \\rightarrow \\infty} \\frac{x+4}{x-4} limx→\\\\infty x−4x+4 =lim⁡x→\\\\infty 1+4x1−4x =\\lim _{x \\rightarrow \\infty} \\frac{1+\\frac{4}{x}}{1-\\frac{4}{x}} =limx→\\\\infty 1−x41+x4 =1+421−48=1+01−0=1 \\begin{array}{l}=\\frac{1+\\frac{4}{2}}{1-\\frac{4}{8}} \\\\ =\\frac{1+0}{1-0} \\\\ =1\\end{array} =1−841+24=1−01+0=1$"
+    "topic": ""
   },
   {
     "id": 14,
+    "subject": "Math",
     "question": "y=cos√x হলে dy/dx এর মান কত?",
     "options": {
-      "a": "− 𝑠 𝑖 𝑛 𝑥 2 − 2 sin x",
-      "b": "𝑠 𝑖 𝑛 𝑥 2 2 sin x",
-      "c": "𝑠 𝑖 𝑛 𝑥 2 𝑥 2 x sin x",
-      "d": "− 𝑠 𝑖 𝑛 𝑥 2 𝑥 − 2 x sin x"
+      "a": "$-\\frac{sin \\sqrt{x}}{2}$",
+      "b": "$\\frac{sin \\sqrt{x}}{2}$",
+      "c": "$\\frac{sin \\sqrt{x}}{2 \\sqrt{x}}$",
+      "d": "$-\\frac{sin \\sqrt{x}}{2\\sqrt{x}}$"
     },
     "correctAnswer": "d",
-    "explanation": "y=cos⁡x⇒dydx=−sin⁡x⋅12x=−sin⁡x2x y=\\cos \\sqrt{x} \\Rightarrow \\frac{d y}{d x}=-\\sin \\sqrt{x} \\cdot \\frac{1}{2 \\sqrt{x}}=-\\frac{\\sin \\sqrt{x}}{2 \\sqrt{x}} y=cosx⇒dxdy=−sinx⋅2x1=−2xsinx",
-    "subject": "Math",
+    "explanation": "$y=\\cos \\sqrt{x} \\Rightarrow \\frac{d y}{d x}=-\\sin \\sqrt{x} \\cdot \\frac{1}{2 \\sqrt{x}}=-\\frac{\\sin \\sqrt{x}}{2 \\sqrt{x}}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=cos\\\\sqrt{}x হলে \\frac{dy}{dx} এর মান কত?$",
-    "explanationLatex": "$y=cos⁡x⇒dydx=−sin⁡x⋅12x=−sin⁡x2x y=\\cos \\sqrt{x} \\Rightarrow \\frac{d y}{d x}=-\\sin \\sqrt{x} \\cdot \\frac{1}{2 \\sqrt{x}}=-\\frac{\\sin \\sqrt{x}}{2 \\sqrt{x}} y=cosx⇒dxdy=−sinx⋅2x1=−2xsinx$"
+    "topic": ""
   },
   {
     "id": 15,
+    "subject": "Math",
     "question": "y2=4x বক্ররেখাটির (2,2√2) বিন্দুতে tangent এর ঢাল কত?",
     "options": {
-      "a": "1/2",
-      "b": "1/√2",
-      "c": "1/2√2",
-      "d": "2√2"
+      "a": "£¤¨",
+      "b": "£¤⊄gº¨",
+      "c": "£¤≪tyÚs",
+      "d": "£¥⊆¨"
     },
     "correctAnswer": "b",
-    "explanation": "y=2x⇒(dydx)x=2=12 y=2 \\sqrt{x} \\Rightarrow\\left(\\frac{d y}{d x}\\right)_{x=2}=\\frac{1}{\\sqrt{2}} y=2x⇒(dxdy)x=2=21",
-    "subject": "Math",
+    "explanation": "$y=2 \\sqrt{x} \\Rightarrow\\left(\\frac{d y}{d x}\\right)_{x=2}=\\frac{1}{\\sqrt{2}}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y2=4x বক্ররেখাটির (2,2\\\\sqrt{}2) বিন্দুতে tangent এর ঢাল কত?$",
-    "explanationLatex": "$y=2x⇒(dydx)x=2=12 y=2 \\sqrt{x} \\Rightarrow\\left(\\frac{d y}{d x}\\right)_{x=2}=\\frac{1}{\\sqrt{2}} y=2x⇒(dxdy)x=2=21$"
+    "topic": ""
   },
   {
     "id": 16,
-    "question": "ddx(log⁡ax) \\frac{d}{dx} \\left ( \\log_{a}^{x}{} \\right ) dxd(logax) এর সমান কোনটি?",
+    "subject": "Math",
+    "question": "$\\frac{d}{dx} \\left ( \\log_{a}^{x}{} \\right )$ এর সমান কোনটি?",
     "options": {
-      "a": "1 𝑥 ( log ⁡ 𝑎 𝑒 ) x 1 (log a e )",
-      "b": "1 𝑥 ( log ⁡ 𝑒 𝑎 𝑒 𝑎 ) x 1 (log e a e a )",
-      "c": "1 𝑥 ln ⁡ 𝑎 x 1 lna",
-      "d": "1 𝑥 log ⁡ 𝑎 x 1 loga"
+      "a": "$\\frac{1}{x} \\left ( \\log_{a}^{e}{} \\right )$",
+      "b": "$\\frac{1}{x} \\left ( \\log_{e}^{a}{}_{e}^{a} \\right )$",
+      "c": "$\\frac{1}{x} \\ln{a}$",
+      "d": "$\\frac{1}{x} \\log{a}$"
     },
     "correctAnswer": "a",
-    "explanation": "সঠিক উত্তর: (a) 1 𝑥 ( log ⁡ 𝑎 𝑒 ) x 1 (log a e )।",
-    "subject": "Math",
+    "explanation": "£¯Õ×·y«¼ÍrhÉÓé´¦¢ËÃÌ¾Ýc©ÉÎç§©¡ÚÏÄhÚh¦·Ãf­Õ á¼ÁÃÑ©|Éå«Uh¢ª¦Év",
     "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243593/gst-question-images/Math____________-Varsity-arc_q16.jpg",
+    "questionImage": "/images/q16_img.jpg",
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$ddx(log⁡ax) \\frac{d}{dx} \\left ( \\log_{a}^{x}{} \\right ) dxd(logax) এর সমান কোনটি?$",
-    "explanationLatex": "সঠিক উত্তর: (a) 1 𝑥 ( log ⁡ 𝑎 𝑒 ) x 1 (log a e )।"
+    "topic": ""
   },
   {
     "id": 17,
+    "subject": "Math",
     "question": "x=√2হলে, d/dx(tan-1x) এর মান কত?",
     "options": {
-      "a": "1/4",
-      "b": "1/3",
-      "c": "3/4",
-      "d": "1"
+      "a": "£¤¨",
+      "b": "£¤¨",
+      "c": "£¦¨",
+      "d": "£¤¨À"
     },
     "correctAnswer": "b",
-    "explanation": "ddx[tan⁡−1x]=11+x2=11+2[x=2]=13 \\begin{array}{l}\\frac{d}{d x}\\left[\\tan ^{-1} x\\right] \\\\ =\\frac{1}{1+x^{2}} \\\\ =\\frac{1}{1+2}[x = \\sqrt{2}] \\\\ =\\frac{1}{3}\\end{array} dxd[tan−1x]=1+x21=1+21[x=2]=31",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l}\\frac{d}{d x}\\left[\\tan ^{-1} x\\right] \\\\ =\\frac{1}{1+x^{2}} \\\\ =\\frac{1}{1+2}[x = \\sqrt{2}] \\\\ =\\frac{1}{3}\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x=\\\\sqrt{}2হলে, \\frac{d}{dx}(tan-1x) এর মান কত?$",
-    "explanationLatex": "$ddx[tan⁡−1x]=11+x2=11+2[x=2]=13 \\begin{array}{l}\\frac{d}{d x}\\left[\\tan ^{-1} x\\right] \\\\ =\\frac{1}{1+x^{2}} \\\\ =\\frac{1}{1+2}[x = \\sqrt{2}] \\\\ =\\frac{1}{3}\\end{array} dxd[tan−1x]=1+x21=1+21[x=2]=31$"
+    "topic": ""
   },
   {
     "id": 18,
-    "question": "নিচের সীমার মান কোনটি? lim⁡x→ax7/2−a7/2x−a \\lim _{x \\rightarrow a} \\frac{x^{7 / 2}-a^{7 / 2}}{\\sqrt{x}-\\sqrt{a}} \\quad limx→ax−ax7/2−a7/2",
+    "subject": "Math",
+    "question": "নিচের সীমার মান কোনটি? $\\lim _{x \\rightarrow a} \\frac{x^{7 / 2}-a^{7 / 2}}{\\sqrt{x}-\\sqrt{a}} \\quad$",
     "options": {
-      "a": "7 𝑏 3 7b 3",
-      "b": "7 𝑎 3 7a 3",
-      "c": "6 𝑎 3 6a 3",
-      "d": "8 𝑎 3 8a 3"
+      "a": "$7 b^{3}$",
+      "b": "$7 a^{3}$",
+      "c": "$6 a^{3}$",
+      "d": "$8 a^{3}$"
     },
     "correctAnswer": "b",
-    "explanation": "=lim⁡x→a(x7/2−a7/2)lim⁡x→a(x1/2−a1/2)=lim⁡x→ax7/2−a7/2x−alim⁡x→ax1/2−a1/2x−a=72a72−112a12−1[∵lim⁡x→7xn−anx−a=nan−1]=(72×21)a72−1−12+1=7a72−12=7a3 (Ans.) \\begin{array}{l} =\\frac{\\lim _{x \\rightarrow a}\\left(x^{7 / 2}-a^{7 / 2}\\right)}{\\lim _{x \\rightarrow a}\\left(x^{1 / 2}-a^{1 / 2}\\right)}=\\frac{\\lim _{x \\rightarrow a} \\frac{x^{7 / 2}-a^{7 / 2}}{x-a}}{\\lim _{x \\rightarrow a} \\frac{x^{1 / 2}-a^{1 / 2}}{x-a}} \\\\ =\\frac{\\frac{7}{2} a^{\\frac{7}{2}-1}}{\\frac{1}{2} a^{\\frac{1}{2}-1}} \\quad\\left[\\because \\lim _{x \\rightarrow 7} \\frac{x^{n}-a^{n}}{x-a}=n a^{n-1}\\right] \\\\ =\\left(\\frac{7}{2} \\times \\frac{2}{1}\\right) a^{\\frac{7}{2}-1-\\frac{1}{2}+1}=7 a^{\\frac{7}{2}-\\frac{1}{2}}=7 a^{3} \\text { (Ans.) } \\end{array} =limx→a(x1/2−a1/2)limx→a(x7/2−a7/2)=limx→ax−ax1/2−a1/2limx→ax−ax7/2−a7/2=21a21−127a27−1[∵limx→7x−axn−an=nan−1]=(27×12)a27−1−21+1=7a27−21=7a3 (Ans.)",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l} =\\frac{\\lim _{x \\rightarrow a}\\left(x^{7 / 2}-a^{7 / 2}\\right)}{\\lim _{x \\rightarrow a}\\left(x^{1 / 2}-a^{1 / 2}\\right)}=\\frac{\\lim _{x \\rightarrow a} \\frac{x^{7 / 2}-a^{7 / 2}}{x-a}}{\\lim _{x \\rightarrow a} \\frac{x^{1 / 2}-a^{1 / 2}}{x-a}} \\\\ =\\frac{\\frac{7}{2} a^{\\frac{7}{2}-1}}{\\frac{1}{2} a^{\\frac{1}{2}-1}} \\quad\\left[\\because \\lim _{x \\rightarrow 7} \\frac{x^{n}-a^{n}}{x-a}=n a^{n-1}\\right] \\\\ =\\left(\\frac{7}{2} \\times \\frac{2}{1}\\right) a^{\\frac{7}{2}-1-\\frac{1}{2}+1}=7 a^{\\frac{7}{2}-\\frac{1}{2}}=7 a^{3} \\text { (Ans.) } \\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$নিচের সীমার মান কোনটি? lim⁡x→\\frac{ax7}{2}−\\frac{a7}{2x}−a \\lim _{x \\rightarrow a} \\frac{x^{\\frac{7}{2}}-a^{\\frac{7}{2}}}{\\sqrt{x}-\\sqrt{a}} \\quad limx→ax−\\frac{ax7}{2}−\\frac{a7}{2}$",
-    "explanationLatex": "$=lim⁡x→a(\\frac{x7}{2}−\\frac{a7}{2})lim⁡x→a(\\frac{x1}{2}−\\frac{a1}{2})=lim⁡x→\\frac{ax7}{2}−\\frac{a7}{2x}−alim⁡x→\\frac{ax1}{2}−\\frac{a1}{2x}−a=72a72−112a12−1[∵lim⁡x→7xn−anx−a=nan−1]=(72\\\\times 21)a72−1−12+1=7a72−12=7a3 (Ans.) \\begin{array}{l} =\\frac{\\lim _{x \\rightarrow a}\\left(x^{\\frac{7}{2}}-a^{\\frac{7}{2}}\\right)}{\\lim _{x \\rightarrow a}\\left(x^{\\frac{1}{2}}-a^{\\frac{1}{2}}\\right)}=\\frac{\\lim _{x \\rightarrow a} \\frac{x^{\\frac{7}{2}}-a^{\\frac{7}{2}}}{x-a}}{\\lim _{x \\rightarrow a} \\frac{x^{\\frac{1}{2}}-a^{\\frac{1}{2}}}{x-a}} \\\\ =\\frac{\\frac{7}{2} a^{\\frac{7}{2}-1}}{\\frac{1}{2} a^{\\frac{1}{2}-1}} \\quad\\left[\\because \\lim _{x \\rightarrow 7} \\frac{x^{n}-a^{n}}{x-a}=n a^{n-1}\\right] \\\\ =\\left(\\frac{7}{2} \\times \\frac{2}{1}\\right) a^{\\frac{7}{2}-1-\\frac{1}{2}+1}=7 a^{\\frac{7}{2}-\\frac{1}{2}}=7 a^{3} \\text { (Ans.) } \\end{array} =limx→a(\\frac{x1}{2}−\\frac{a1}{2})limx→a(\\frac{x7}{2}−\\frac{a7}{2})=limx→ax−\\frac{ax1}{2}−\\frac{a1}{2limx}→ax−\\frac{ax7}{2}−\\frac{a7}{2}=21a21−127a27−1[∵limx→7x−axn−an=nan−1]=(27\\\\times 12)a27−1−21+1=7a27−21=7a3 (Ans.)$"
+    "topic": ""
   },
   {
     "id": 19,
-    "question": "lim⁡x→0cos⁡7x−cos⁡9xcos⁡3x−cos⁡5x=? \\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}=? limx→0cos3x−cos5xcos7x−cos9x=?",
+    "subject": "Math",
+    "question": "$\\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}=?$",
     "options": {
-      "a": "1",
-      "b": "1/2",
-      "c": "2",
-      "d": "0"
+      "a": "£¤¨À",
+      "b": "£¤¨",
+      "c": "£¥¨À",
+      "d": "££¨À"
     },
     "correctAnswer": "c",
-    "explanation": "lim⁡x→0cos⁡7x−cos⁡9xcos⁡3x−cos⁡5x \\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x} limx→0cos3x−cos5xcos7x−cos9x cos⁡A−cos⁡B=−2sin⁡(A+B2)sin⁡(A−B2) \\cos A-\\cos B=-2 \\sin \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{A-B}{2}\\right) cosA−cosB=−2sin(2A+B)sin(2A−B) cos⁡7x−cos⁡9x=−2sin⁡(7x+9x2)sin⁡(7x−9x2)=−2sin⁡(16x2)sin⁡(−2x2)=−2sin⁡(8x)sin⁡(−x) \\begin{aligned} \\cos 7 x-\\cos 9 x & =-2 \\sin \\left(\\frac{7 x+9 x}{2}\\right) \\sin \\left(\\frac{7 x-9 x}{2}\\right) \\\\ = & -2 \\sin \\left(\\frac{16 x}{2}\\right) \\sin \\left(\\frac{-2 x}{2}\\right) \\\\ & =-2 \\sin (8 x) \\sin (-x) \\end{aligned} cos7x−cos9x==−2sin(27x+9x)sin(27x−9x)−2sin(216x)sin(2−2x)=−2sin(8x)sin(−x) =−2sin⁡(8x)sin⁡(−x)=2sin⁡(8x)sin⁡x \\begin{aligned} = & -2 \\sin (8 x) \\sin (-x) \\\\ & =2 \\sin (8 x) \\sin x \\end{aligned} =−2sin(8x)sin(−x)=2sin(8x)sinx cos⁡3x−cos⁡5x=−2sin⁡(3x+5x2)sin⁡(3x−5x2)=−2sin⁡(8x2)sin⁡(−2x2)=−2sin⁡(4x)sin⁡(−x)=2sin⁡(4x)sin⁡x \\begin{array}{c} \\cos 3 x-\\cos 5 x=-2 \\sin \\left(\\frac{3 x+5 x}{2}\\right) \\sin \\left(\\frac{3 x-5 x}{2}\\right) \\\\ =-2 \\sin \\left(\\frac{8 x}{2}\\right) \\sin \\left(\\frac{-2 x}{2}\\right) \\\\ =-2 \\sin (4 x) \\sin (-x) \\\\ =2 \\sin (4 x) \\sin x \\end{array} cos3x−cos5x=−2sin(23x+5x)sin(23x−5x)=−2sin(28x)sin(2−2x)=−2sin(4x)sin(−x)=2sin(4x)sinx 2sin⁡(8x)sin⁡x2sin⁡(4x)sin⁡x=sin⁡(8x)sin⁡(4x) \\begin{array}{c} \\frac{2 \\sin (8 x) \\sin x}{2 \\sin (4 x) \\sin x} \\\\ =\\frac{\\sin (8 x)}{\\sin (4 x)} \\end{array} 2sin(4x)sinx2sin(8x)sinx=sin(4x)sin(8x) lim⁡x→0sin⁡(8x)sin⁡(4x)=lim⁡x→08x4x=2 \\lim _{x \\rightarrow 0} \\frac{\\sin (8 x)}{\\sin (4 x)}=\\lim _{x \\rightarrow 0} \\frac{8 x}{4 x}=2 limx→0sin(4x)sin(8x)=limx→04x8x=2 lim⁡x→0cos⁡7x−cos⁡9xcos⁡3x−cos⁡5x=2 \\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}=2 limx→0cos3x−cos5xcos7x−cos9x=2",
-    "subject": "Math",
+    "explanation": "$\\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}$ $\\cos A-\\cos B=-2 \\sin \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{A-B}{2}\\right)$ $\\begin{aligned} \\cos 7 x-\\cos 9 x & =-2 \\sin \\left(\\frac{7 x+9 x}{2}\\right) \\sin \\left(\\frac{7 x-9 x}{2}\\right) \\\\ = & -2 \\sin \\left(\\frac{16 x}{2}\\right) \\sin \\left(\\frac{-2 x}{2}\\right) \\\\ & =-2 \\sin (8 x) \\sin (-x) \\end{aligned}$ $\\begin{aligned} = & -2 \\sin (8 x) \\sin (-x) \\\\ & =2 \\sin (8 x) \\sin x \\end{aligned}$ $\\begin{array}{c} \\cos 3 x-\\cos 5 x=-2 \\sin \\left(\\frac{3 x+5 x}{2}\\right) \\sin \\left(\\frac{3 x-5 x}{2}\\right) \\\\ =-2 \\sin \\left(\\frac{8 x}{2}\\right) \\sin \\left(\\frac{-2 x}{2}\\right) \\\\ =-2 \\sin (4 x) \\sin (-x) \\\\ =2 \\sin (4 x) \\sin x \\end{array}$ $\\begin{array}{c} \\frac{2 \\sin (8 x) \\sin x}{2 \\sin (4 x) \\sin x} \\\\ =\\frac{\\sin (8 x)}{\\sin (4 x)} \\end{array}$ $\\lim _{x \\rightarrow 0} \\frac{\\sin (8 x)}{\\sin (4 x)}=\\lim _{x \\rightarrow 0} \\frac{8 x}{4 x}=2$ $\\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}=2$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→0cos⁡7x−cos⁡9xcos⁡3x−cos⁡5x=? \\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}=? limx→0cos3x−cos5xcos7x−cos9x=?$",
-    "explanationLatex": "$lim⁡x→0cos⁡7x−cos⁡9xcos⁡3x−cos⁡5x \\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x} limx→0cos3x−cos5xcos7x−cos9x cos⁡A−cos⁡B=−2sin⁡(A+B2)sin⁡(A−B2) \\cos A-\\cos B=-2 \\sin \\left(\\frac{A+B}{2}\\right) \\sin \\left(\\frac{A-B}{2}\\right) cosA−cosB=−2sin(2A+B)sin(2A−B) cos⁡7x−cos⁡9x=−2sin⁡(7x+9x2)sin⁡(7x−9x2)=−2sin⁡(16x2)sin⁡(−2x2)=−2sin⁡(8x)sin⁡(−x) \\begin{aligned} \\cos 7 x-\\cos 9 x & =-2 \\sin \\left(\\frac{7 x+9 x}{2}\\right) \\sin \\left(\\frac{7 x-9 x}{2}\\right) \\\\ = & -2 \\sin \\left(\\frac{16 x}{2}\\right) \\sin \\left(\\frac{-2 x}{2}\\right) \\\\ & =-2 \\sin (8 x) \\sin (-x) \\end{aligned} cos7x−cos9x==−2sin(27x+9x)sin(27x−9x)−2sin(216x)sin(2−2x)=−2sin(8x)sin(−x) =−2sin⁡(8x)sin⁡(−x)=2sin⁡(8x)sin⁡x \\begin{aligned} = & -2 \\sin (8 x) \\sin (-x) \\\\ & =2 \\sin (8 x) \\sin x \\end{aligned} =−2sin(8x)sin(−x)=2sin(8x)sinx cos⁡3x−cos⁡5x=−2sin⁡(3x+5x2)sin⁡(3x−5x2)=−2sin⁡(8x2)sin⁡(−2x2)=−2sin⁡(4x)sin⁡(−x)=2sin⁡(4x)sin⁡x \\begin{array}{c} \\cos 3 x-\\cos 5 x=-2 \\sin \\left(\\frac{3 x+5 x}{2}\\right) \\sin \\left(\\frac{3 x-5 x}{2}\\right) \\\\ =-2 \\sin \\left(\\frac{8 x}{2}\\right) \\sin \\left(\\frac{-2 x}{2}\\right) \\\\ =-2 \\sin (4 x) \\sin (-x) \\\\ =2 \\sin (4 x) \\sin x \\end{array} cos3x−cos5x=−2sin(23x+5x)sin(23x−5x)=−2sin(28x)sin(2−2x)=−2sin(4x)sin(−x)=2sin(4x)sinx 2sin⁡(8x)sin⁡x2sin⁡(4x)sin⁡x=sin⁡(8x)sin⁡(4x) \\begin{array}{c} \\frac{2 \\sin (8 x) \\sin x}{2 \\sin (4 x) \\sin x} \\\\ =\\frac{\\sin (8 x)}{\\sin (4 x)} \\end{array} 2sin(4x)sinx2sin(8x)sinx=sin(4x)sin(8x) lim⁡x→0sin⁡(8x)sin⁡(4x)=lim⁡x→08x4x=2 \\lim _{x \\rightarrow 0} \\frac{\\sin (8 x)}{\\sin (4 x)}=\\lim _{x \\rightarrow 0} \\frac{8 x}{4 x}=2 limx→0sin(4x)sin(8x)=limx→04x8x=2 lim⁡x→0cos⁡7x−cos⁡9xcos⁡3x−cos⁡5x=2 \\lim _{x \\rightarrow 0} \\frac{\\cos 7 x-\\cos 9 x}{\\cos 3 x-\\cos 5 x}=2 limx→0cos3x−cos5xcos7x−cos9x=2$"
+    "topic": ""
   },
   {
     "id": 20,
-    "question": "নিচের সীমার মান কোনটি? lim⁡x→0ax−a−xx\\lim _{x \\rightarrow 0} \\frac{a^{x}-a^{-x}}{x} limx→0xax−a−x",
+    "subject": "Math",
+    "question": "নিচের সীমার মান কোনটি? $\\lim _{x \\rightarrow 0} \\frac{a^{x}-a^{-x}}{x}$",
     "options": {
-      "a": "lna",
-      "b": "0",
-      "c": "2lna",
-      "d": "loga"
+      "a": "£ßÚË¨",
+      "b": "££¨À",
+      "c": "£¥ØØ±gº¨",
+      "d": "£ßÛÑ±gº¨"
     },
     "correctAnswer": "c",
-    "explanation": "lim⁡x→0ax−a−xx=lim⁡x→01x[{1+xln⁡a+(xln⁡a)22!+(xln⁡a)33!+⋯ }−{1−xln⁡a+(xln⁡a)22!−(xln⁡a)33!+⋯ }]=lim⁡x→01x{2xln⁡a+2(xln⁡a)33!+⋯⋯ }=2lim⁡x→0{ln⁡a+x2(ln⁡a)33!+x4(ln⁡a)55!+⋯ }=2lim⁡x→0{ln⁡a+02(ln⁡a)33!+04(ln⁡a)55!+⋯ } \\begin{aligned} & \\lim _{x \\rightarrow 0} \\frac{a^{x}-a^{-x}}{x} \\\\ = & \\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\left\\{1+x \\ln a+\\frac{(x \\ln a)^{2}}{2 !}+\\frac{(x \\ln a)^{3}}{3 !}+\\cdots\\right\\}\\right. \\\\ & \\left.-\\left\\{1-x \\ln a+\\frac{(x \\ln a)^{2}}{2 !}-\\frac{(x \\ln a)^{3}}{3 !}+\\cdots\\right\\}\\right] \\\\ = & \\lim _{x \\rightarrow 0} \\frac{1}{x}\\left\\{2 x \\ln a+2 \\frac{(x \\ln a)^{3}}{3 !}+\\cdots \\cdots\\right\\} \\\\ = & 2 \\lim _{x \\rightarrow 0}\\left\\{\\ln a+\\frac{x^{2}(\\ln a)^{3}}{3 !}+\\frac{x^{4}(\\ln a)^{5}}{5 !}+\\cdots\\right\\} \\\\ = & 2 \\lim _{x \\rightarrow 0}\\left\\{\\ln a+\\frac{0^{2}(\\ln a)^{3}}{3 !}+\\frac{0^{4}(\\ln a)^{5}}{5 !}+\\cdots\\right\\} \\end{aligned} ====x→0limxax−a−xx→0limx1[{1+xlna+2!(xlna)2+3!(xlna)3+⋯}−{1−xlna+2!(xlna)2−3!(xlna)3+⋯}]x→0limx1{2xlna+23!(xlna)3+⋯⋯}2x→0lim{lna+3!x2(lna)3+5!x4(lna)5+⋯}2x→0lim{lna+3!02(lna)3+5!04(lna)5+⋯} =2ln⁡a (Ans.) =2 \\ln a \\text { (Ans.) } =2lna (Ans.)",
-    "subject": "Math",
+    "explanation": "$\\begin{aligned} & \\lim _{x \\rightarrow 0} \\frac{a^{x}-a^{-x}}{x} \\\\ = & \\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\left\\{1+x \\ln a+\\frac{(x \\ln a)^{2}}{2 !}+\\frac{(x \\ln a)^{3}}{3 !}+\\cdots\\right\\}\\right. \\\\ & \\left.-\\left\\{1-x \\ln a+\\frac{(x \\ln a)^{2}}{2 !}-\\frac{(x \\ln a)^{3}}{3 !}+\\cdots\\right\\}\\right] \\\\ = & \\lim _{x \\rightarrow 0} \\frac{1}{x}\\left\\{2 x \\ln a+2 \\frac{(x \\ln a)^{3}}{3 !}+\\cdots \\cdots\\right\\} \\\\ = & 2 \\lim _{x \\rightarrow 0}\\left\\{\\ln a+\\frac{x^{2}(\\ln a)^{3}}{3 !}+\\frac{x^{4}(\\ln a)^{5}}{5 !}+\\cdots\\right\\} \\\\ = & 2 \\lim _{x \\rightarrow 0}\\left\\{\\ln a+\\frac{0^{2}(\\ln a)^{3}}{3 !}+\\frac{0^{4}(\\ln a)^{5}}{5 !}+\\cdots\\right\\} \\end{aligned}$ $=2 \\ln a \\text { (Ans.) }$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$নিচের সীমার মান কোনটি? lim⁡x→0ax−a−xx\\lim _{x \\rightarrow 0} \\frac{a^{x}-a^{-x}}{x} limx→0xax−a−x$",
-    "explanationLatex": "$lim⁡x→0ax−a−xx=lim⁡x→01x[{1+xln⁡a+(xln⁡a)22!+(xln⁡a)33!+⋯ }−{1−xln⁡a+(xln⁡a)22!−(xln⁡a)33!+⋯ }]=lim⁡x→01x{2xln⁡a+2(xln⁡a)33!+⋯⋯ }=2lim⁡x→0{ln⁡a+x2(ln⁡a)33!+x4(ln⁡a)55!+⋯ }=2lim⁡x→0{ln⁡a+02(ln⁡a)33!+04(ln⁡a)55!+⋯ } \\begin{aligned} & \\lim _{x \\rightarrow 0} \\frac{a^{x}-a^{-x}}{x} \\\\ = & \\lim _{x \\rightarrow 0} \\frac{1}{x}\\left[\\left\\{1+x \\ln a+\\frac{(x \\ln a)^{2}}{2 !}+\\frac{(x \\ln a)^{3}}{3 !}+\\cdots\\right\\}\\right. \\\\ & \\left.-\\left\\{1-x \\ln a+\\frac{(x \\ln a)^{2}}{2 !}-\\frac{(x \\ln a)^{3}}{3 !}+\\cdots\\right\\}\\right] \\\\ = & \\lim _{x \\rightarrow 0} \\frac{1}{x}\\left\\{2 x \\ln a+2 \\frac{(x \\ln a)^{3}}{3 !}+\\cdots \\cdots\\right\\} \\\\ = & 2 \\lim _{x \\rightarrow 0}\\left\\{\\ln a+\\frac{x^{2}(\\ln a)^{3}}{3 !}+\\frac{x^{4}(\\ln a)^{5}}{5 !}+\\cdots\\right\\} \\\\ = & 2 \\lim _{x \\rightarrow 0}\\left\\{\\ln a+\\frac{0^{2}(\\ln a)^{3}}{3 !}+\\frac{0^{4}(\\ln a)^{5}}{5 !}+\\cdots\\right\\} \\end{aligned} ====x→0limxax−a−xx→0limx1[{1+xlna+2!(xlna)2+3!(xlna)3+⋯}−{1−xlna+2!(xlna)2−3!(xlna)3+⋯}]x→0limx1{2xlna+23!(xlna)3+⋯⋯}2x→0lim{lna+3!x2(lna)3+5!x4(lna)5+⋯}2x→0lim{lna+3!02(lna)3+5!04(lna)5+⋯} =2ln⁡a (Ans.) =2 \\ln a \\text { (Ans.) } =2lna (Ans.)$"
+    "topic": ""
   },
   {
     "id": 21,
-    "question": "y = x³ ln x হলে d4ydx4=? \\frac{d^{4} y}{dx^{4}} = ? dx4d4y=?",
+    "subject": "Math",
+    "question": "y = x³ ln x হলে $\\frac{d^{4} y}{dx^{4}} = ?$",
     "options": {
-      "a": "2 𝑥 x 2",
-      "b": "6 𝑥 x 6",
-      "c": "5 𝑥 x 5",
-      "d": "7 𝑥 x 7"
+      "a": "$\\frac{2}{x}$",
+      "b": "$\\frac{6}{x}$",
+      "c": "$\\frac{5}{x}$",
+      "d": "$\\frac{7}{x}$"
     },
     "correctAnswer": "b",
-    "explanation": "y=x3ln⁡x⇒dydx=x3x+3x2ln⁡x⇒dydx=x2+3x2ln⁡x⇒dydx=x2(1+3ln⁡x)⇒d2ydx2=x2⋅3x+2x(1+3ln⁡x)⇒d2ydx2=3x+2x(1+3ln⁡x)⇒d2ydx2=x(3+2+6ln⁡x)⇒d2ydx2=x(5+6ln⁡x)⇒d3ydx3=x⋅6x+1⋅(5+6ln⁡x)⇒d3ydx3=6+5+6ln⁡x⇒d4ydx4=6x \\begin{array}{l}y=x^{3} \\ln x \\\\ \\Rightarrow \\frac{d y}{d x}=\\frac{x^{3}}{x}+3 x^{2} \\ln x \\Rightarrow \\frac{d y}{d x}=x^{2}+3 x^{2} \\ln x \\\\ \\Rightarrow \\frac{d y}{d x}=x^{2}(1+3 \\ln x) \\Rightarrow \\frac{d^{2} y}{d x^{2}}=\\frac{x^{2} \\cdot 3}{x}+2 x(1+3 \\ln x) \\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}=3 x+2 x(1+3 \\ln x) \\Rightarrow \\frac{d^{2} y}{d x^{2}}=x(3+2+6 \\ln x) \\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}=x(5+6 \\ln x) \\Rightarrow \\frac{d^{3} y}{d x^{3}}=\\frac{x \\cdot 6}{x}+1 \\cdot(5+6 \\ln x) \\\\ \\Rightarrow \\frac{d^{3} y}{d x^{3}}=6+5+6 \\ln x \\Rightarrow \\frac{d^{4} y}{d x^{4}}=\\frac{6}{x}\\end{array} y=x3lnx⇒dxdy=xx3+3x2lnx⇒dxdy=x2+3x2lnx⇒dxdy=x2(1+3lnx)⇒dx2d2y=xx2⋅3+2x(1+3lnx)⇒dx2d2y=3x+2x(1+3lnx)⇒dx2d2y=x(3+2+6lnx)⇒dx2d2y=x(5+6lnx)⇒dx3d3y=xx⋅6+1⋅(5+6lnx)⇒dx3d3y=6+5+6lnx⇒dx4d4y=x6",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l}y=x^{3} \\ln x \\\\ \\Rightarrow \\frac{d y}{d x}=\\frac{x^{3}}{x}+3 x^{2} \\ln x \\Rightarrow \\frac{d y}{d x}=x^{2}+3 x^{2} \\ln x \\\\ \\Rightarrow \\frac{d y}{d x}=x^{2}(1+3 \\ln x) \\Rightarrow \\frac{d^{2} y}{d x^{2}}=\\frac{x^{2} \\cdot 3}{x}+2 x(1+3 \\ln x) \\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}=3 x+2 x(1+3 \\ln x) \\Rightarrow \\frac{d^{2} y}{d x^{2}}=x(3+2+6 \\ln x) \\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}=x(5+6 \\ln x) \\Rightarrow \\frac{d^{3} y}{d x^{3}}=\\frac{x \\cdot 6}{x}+1 \\cdot(5+6 \\ln x) \\\\ \\Rightarrow \\frac{d^{3} y}{d x^{3}}=6+5+6 \\ln x \\Rightarrow \\frac{d^{4} y}{d x^{4}}=\\frac{6}{x}\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y = x³ ln x হলে d4ydx4=? \\frac{d^{4} y}{dx^{4}} = ? dx4d4y=?$",
-    "explanationLatex": "$y=x3ln⁡x⇒dydx=x3x+3x2ln⁡x⇒dydx=x2+3x2ln⁡x⇒dydx=x2(1+3ln⁡x)⇒d2ydx2=x2⋅3x+2x(1+3ln⁡x)⇒d2ydx2=3x+2x(1+3ln⁡x)⇒d2ydx2=x(3+2+6ln⁡x)⇒d2ydx2=x(5+6ln⁡x)⇒d3ydx3=x⋅6x+1⋅(5+6ln⁡x)⇒d3ydx3=6+5+6ln⁡x⇒d4ydx4=6x \\begin{array}{l}y=x^{3} \\ln x \\\\ \\Rightarrow \\frac{d y}{d x}=\\frac{x^{3}}{x}+3 x^{2} \\ln x \\Rightarrow \\frac{d y}{d x}=x^{2}+3 x^{2} \\ln x \\\\ \\Rightarrow \\frac{d y}{d x}=x^{2}(1+3 \\ln x) \\Rightarrow \\frac{d^{2} y}{d x^{2}}=\\frac{x^{2} \\cdot 3}{x}+2 x(1+3 \\ln x) \\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}=3 x+2 x(1+3 \\ln x) \\Rightarrow \\frac{d^{2} y}{d x^{2}}=x(3+2+6 \\ln x) \\\\ \\Rightarrow \\frac{d^{2} y}{d x^{2}}=x(5+6 \\ln x) \\Rightarrow \\frac{d^{3} y}{d x^{3}}=\\frac{x \\cdot 6}{x}+1 \\cdot(5+6 \\ln x) \\\\ \\Rightarrow \\frac{d^{3} y}{d x^{3}}=6+5+6 \\ln x \\Rightarrow \\frac{d^{4} y}{d x^{4}}=\\frac{6}{x}\\end{array} y=x3lnx⇒dxdy=xx3+3x2lnx⇒dxdy=x2+3x2lnx⇒dxdy=x2(1+3lnx)⇒dx2d2y=xx2⋅3+2x(1+3lnx)⇒dx2d2y=3x+2x(1+3lnx)⇒dx2d2y=x(3+2+6lnx)⇒dx2d2y=x(5+6lnx)⇒dx3d3y=xx⋅6+1⋅(5+6lnx)⇒dx3d3y=6+5+6lnx⇒dx4d4y=x6$"
+    "topic": ""
   },
   {
     "id": 22,
+    "subject": "Math",
     "question": "x2+y2=15 বৃত্তের (3,2) বিন্দুতে অবিলম্বের সমীকরণ কোনটি?",
     "options": {
-      "a": "3x-2y=15",
-      "b": "3x+2y=15",
-      "c": "3y+2x=0",
-      "d": "3y-2x=0"
+      "a": "£¦äÒu{quÑ",
+      "b": "£¦äÒu{quÑ",
+      "c": "£¦åÑuz¦d¶",
+      "d": "£¦åÑuz¦d¶"
     },
     "correctAnswer": "d",
-    "explanation": "x2+y2=15 x^{2}+y^{2}=15 x2+y2=15 বৃত্তের (3,2) বিন্দুতে স্পর্শকের সমীকরণ, 3x+2y=15 3 \\mathrm{x}+2 \\mathrm{y}=15 3x+2y=15 ধরি, অভিলম্বের সমীকরণ, 2x−3y=k 2 x-3 y=k 2x−3y=k....... (i) (3,2) (3,2) (3,2) বিন্দুগামী হলে, 2.3−3.2=k⇒k=0 2.3-3.2=k \\Rightarrow k=0 2.3−3.2=k⇒k=0 (i) নং হতে, 2x−3y=0⇒3y−2x=0 2 \\mathrm{x}-3 \\mathrm{y}=0 \\Rightarrow 3 \\mathrm{y}-2 \\mathrm{x}=0 2x−3y=0⇒3y−2x=0",
-    "subject": "Math",
+    "explanation": "$x^{2}+y^{2}=15$ বৃত্তের (3,2) বিন্দুতে স্পর্শকের সমীকরণ, $3 \\mathrm{x}+2 \\mathrm{y}=15$ ধরি, অভিলম্বের সমীকরণ, $2 x-3 y=k$ ....... (i) $(3,2)$ বিন্দুগামী হলে, $2.3-3.2=k \\Rightarrow k=0$ (i) নং হতে, $2 \\mathrm{x}-3 \\mathrm{y}=0 \\Rightarrow 3 \\mathrm{y}-2 \\mathrm{x}=0$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x2+y2=15 বৃত্তের (3,2) বিন্দুতে অবিলম্বের সমীকরণ কোনটি?$",
-    "explanationLatex": "$x2+y2=15 x^{2}+y^{2}=15 x2+y2=15 বৃত্তের (3,2) বিন্দুতে স্পর্শকের সমীকরণ, 3x+2y=15 3 \\mathrm{x}+2 \\mathrm{y}=15 3x+2y=15 ধরি, অভিলম্বের সমীকরণ, 2x−3y=k 2 x-3 y=k 2x−3y=k....... (i) (3,2) (3,2) (3,2) বিন্দুগামী হলে, 2.3−3.2=k⇒k=0 2.3-3.2=k \\Rightarrow k=0 2.3−3.2=k⇒k=0 (i) নং হতে, 2x−3y=0⇒3y−2x=0 2 \\mathrm{x}-3 \\mathrm{y}=0 \\Rightarrow 3 \\mathrm{y}-2 \\mathrm{x}=0 2x−3y=0⇒3y−2x=0$"
+    "topic": ""
   },
   {
     "id": 23,
+    "subject": "Math",
     "question": "y = x3 – 2x2 + 3 বক্ররেখার (2, 3) বিন্দুতে অঙ্কিত স্পর্শক এর সমীকরণ নিচের কোনটি?",
     "options": {
-      "a": "y = 4x – 5",
-      "b": "y = –4x – 5",
-      "c": "y = 4x + 5",
-      "d": "4y + x = 14"
+      "a": "£ì§p°j⁽U{å",
+      "b": "£ì§p⁬lÂ⁈f¤´q",
+      "c": "£ì§p°jU{å",
+      "d": "£§å{y°j§Uw¤´q"
     },
     "correctAnswer": "a",
-    "explanation": "y=x3−2x2+3∴dydx=3x2−4x y=x^{3}-2 x^{2}+3 \\quad \\therefore \\frac{d y}{d x}=3 x^{2}-4 x y=x3−2x2+3∴dxdy=3x2−4x এখন (2,3) (2,3) (2,3) বিন্দুতে ঢাল dydx=3×22−4×2=4 \\frac{d y}{d x}=3 \\times 2^{2}-4 \\times 2=4 dxdy=3×22−4×2=4 এখন (2,3) (2,3) (2,3) বিন্দুতে স্পর্শকের সমীকরণ, y−3=m(x−2) y-3=m(x-2) y−3=m(x−2) ⇒y−3=4(x−2)⇒y−3=4x−8⇒y=4x−5 \\Rightarrow y-3=4(x-2) \\Rightarrow y-3=4 x-8 \\Rightarrow y=4 x-5 ⇒y−3=4(x−2)⇒y−3=4x−8⇒y=4x−5",
-    "subject": "Math",
+    "explanation": "$y=x^{3}-2 x^{2}+3 \\quad \\therefore \\frac{d y}{d x}=3 x^{2}-4 x$ এখন $(2,3)$ বিন্দুতে ঢাল $\\frac{d y}{d x}=3 \\times 2^{2}-4 \\times 2=4$ এখন $(2,3)$ বিন্দুতে স্পর্শকের সমীকরণ, $y-3=m(x-2)$ $\\Rightarrow y-3=4(x-2) \\Rightarrow y-3=4 x-8 \\Rightarrow y=4 x-5$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y = x3 – 2x2 + 3 বক্ররেখার (2, 3) বিন্দুতে অঙ্কিত স্পর্শক এর সমীকরণ নিচের কোনটি?$",
-    "explanationLatex": "$y=x3−2x2+3∴dydx=3x2−4x y=x^{3}-2 x^{2}+3 \\quad \\therefore \\frac{d y}{d x}=3 x^{2}-4 x y=x3−2x2+3∴dxdy=3x2−4x এখন (2,3) (2,3) (2,3) বিন্দুতে ঢাল dydx=3\\\\times 22−4\\\\times 2=4 \\frac{d y}{d x}=3 \\times 2^{2}-4 \\times 2=4 dxdy=3\\\\times 22−4\\\\times 2=4 এখন (2,3) (2,3) (2,3) বিন্দুতে স্পর্শকের সমীকরণ, y−3=m(x−2) y-3=m(x-2) y−3=m(x−2) ⇒y−3=4(x−2)⇒y−3=4x−8⇒y=4x−5 \\Rightarrow y-3=4(x-2) \\Rightarrow y-3=4 x-8 \\Rightarrow y=4 x-5 ⇒y−3=4(x−2)⇒y−3=4x−8⇒y=4x−5$"
+    "topic": ""
   },
   {
     "id": 24,
+    "subject": "Math",
     "question": "4ex + 9e-x এর ক্ষুদ্রতম মান কত?",
     "options": {
-      "a": "12",
-      "b": "-12",
-      "c": "10",
-      "d": "-10"
+      "a": "£¤¦Év",
+      "b": "£ ¨",
+      "c": "£¤¦Év",
+      "d": "£ ¨"
     },
     "correctAnswer": "a",
-    "explanation": "ধরি, y=4ex+9e−x y=4 e^{x}+9 e^{-x} y=4ex+9e−x. ∴dydx=4ex+9e−x⋅(−1)=4ex−9e−x∴d2ydx2=4ex+9e−x \\begin{array}{l} \\therefore \\frac{d y}{d x}=4 e^{x}+9 e^{-x} \\cdot(-1)=4 e^{x}-9 e^{-x} \\\\ \\therefore \\frac{d^{2} y}{d x^{2}}=4 e^{x}+9 e^{-x} \\end{array} ∴dxdy=4ex+9e−x⋅(−1)=4ex−9e−x∴dx2d2y=4ex+9e−x ক্ষুদ্রতম ও বৃহত্তম মানের জন্য, dydx=0 \\frac{d y}{d x}=0 dxdy=0 বা, 4ex−9e−x=0 4 \\mathrm{e}^{\\mathrm{x}}-9 \\mathrm{e}^{-\\mathrm{x}}=0 4ex−9e−x=0 বা, 4ex=9e−x 4 \\mathrm{e}^{\\mathrm{x}}=9 \\mathrm{e}^{-\\mathrm{x}} 4ex=9e−x বা, 4ex=9ex 4 e^{x}=\\frac{9}{e^{x}} 4ex=ex9 বা, e2x=94 e^{2 x}=\\frac{9}{4} e2x=49 বা, (ex)2=(32)2 \\left(e^{x}\\right)^{2}=\\left(\\frac{3}{2}\\right)^{2} (ex)2=(23)2 বা, ex=32∴x=ln⁡32 e^{x}=\\frac{3}{2} \\quad \\therefore x=\\ln \\frac{3}{2} ex=23∴x=ln23 x=ln⁡32 \\mathrm{x}=\\ln \\frac{3}{2} x=ln23 বিন্দুতে , d2ydx2=4eln⁡32+9⋅1eln⁡32 \\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}=4 \\mathrm{e}^{\\ln \\frac{3}{2}}+9 \\cdot \\frac{1}{\\mathrm{e}^{\\ln \\frac{3}{2}}} dx2d2y=4eln23+9⋅eln231 =4×32+9×23[∵el32=32] =4 \\times \\frac{3}{2}+9 \\times \\frac{2}{3}\\left[\\because \\mathrm{e}^{l^{\\frac{3}{2}}}=\\frac{3}{2}\\right] =4×23+9×32[∵el23=23] =6+6=12>0 =6+6=12>0 =6+6=12>0. ∴x=ln⁡32 \\therefore \\mathrm{x}=\\ln \\frac{3}{2} ∴x=ln23 বিন্দুতে y এর আপেক্ষিক ক্ষুদ্রতম বিদ্যমান। ∴ \\therefore ∴ আপেক্ষিক ক্ষুদ্রতম মান =4eln⁡32+9⋅1eln⁡32 =4 \\mathrm{e}^{\\ln \\frac{3}{2}}+9 \\cdot \\frac{1}{e^{\\ln \\frac{3}{2}}} =4eln23+9⋅eln231 =4⋅32+9⋅23=6+6=12 (দেখানো হলে ) \\begin{array}{l} =4 \\cdot \\frac{3}{2}+9 \\cdot \\frac{2}{3} \\\\ =6+6=12 \\text { (দেখানো হলে ) } \\end{array} =4⋅23+9⋅32=6+6=12 (দেখানো হলে )",
-    "subject": "Math",
+    "explanation": "ধরি, $y=4 e^{x}+9 e^{-x}$ . $\\begin{array}{l} \\therefore \\frac{d y}{d x}=4 e^{x}+9 e^{-x} \\cdot(-1)=4 e^{x}-9 e^{-x} \\\\ \\therefore \\frac{d^{2} y}{d x^{2}}=4 e^{x}+9 e^{-x} \\end{array}$ ক্ষুদ্রতম ও বৃহত্তম মানের জন্য, $\\frac{d y}{d x}=0$ বা, $4 \\mathrm{e}^{\\mathrm{x}}-9 \\mathrm{e}^{-\\mathrm{x}}=0$ বা, $4 \\mathrm{e}^{\\mathrm{x}}=9 \\mathrm{e}^{-\\mathrm{x}}$ বা, $4 e^{x}=\\frac{9}{e^{x}}$ বা, $e^{2 x}=\\frac{9}{4}$ বা, $\\left(e^{x}\\right)^{2}=\\left(\\frac{3}{2}\\right)^{2}$ বা, $e^{x}=\\frac{3}{2} \\quad \\therefore x=\\ln \\frac{3}{2}$ $\\mathrm{x}=\\ln \\frac{3}{2}$ বিন্দুতে , $\\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}=4 \\mathrm{e}^{\\ln \\frac{3}{2}}+9 \\cdot \\frac{1}{\\mathrm{e}^{\\ln \\frac{3}{2}}}$ $=4 \\times \\frac{3}{2}+9 \\times \\frac{2}{3}\\left[\\because \\mathrm{e}^{l^{\\frac{3}{2}}}=\\frac{3}{2}\\right]$ $=6+6=12>0$ . $\\therefore \\mathrm{x}=\\ln \\frac{3}{2}$ বিন্দুতে y এর আপেক্ষিক ক্ষুদ্রতম বিদ্যমান। $\\therefore$ আপেক্ষিক ক্ষুদ্রতম মান $=4 \\mathrm{e}^{\\ln \\frac{3}{2}}+9 \\cdot \\frac{1}{e^{\\ln \\frac{3}{2}}}$ $\\begin{array}{l} =4 \\cdot \\frac{3}{2}+9 \\cdot \\frac{2}{3} \\\\ =6+6=12 \\text { (দেখানো হলে ) } \\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "4ex + 9e-x এর ক্ষুদ্রতম মান কত?",
-    "explanationLatex": "$ধরি, y=4ex+9e−x y=4 e^{x}+9 e^{-x} y=4ex+9e−x. ∴dydx=4ex+9e−x⋅(−1)=4ex−9e−x∴d2ydx2=4ex+9e−x \\begin{array}{l} \\therefore \\frac{d y}{d x}=4 e^{x}+9 e^{-x} \\cdot(-1)=4 e^{x}-9 e^{-x} \\\\ \\therefore \\frac{d^{2} y}{d x^{2}}=4 e^{x}+9 e^{-x} \\end{array} ∴dxdy=4ex+9e−x⋅(−1)=4ex−9e−x∴dx2d2y=4ex+9e−x ক্ষুদ্রতম ও বৃহত্তম মানের জন্য, dydx=0 \\frac{d y}{d x}=0 dxdy=0 বা, 4ex−9e−x=0 4 \\mathrm{e}^{\\mathrm{x}}-9 \\mathrm{e}^{-\\mathrm{x}}=0 4ex−9e−x=0 বা, 4ex=9e−x 4 \\mathrm{e}^{\\mathrm{x}}=9 \\mathrm{e}^{-\\mathrm{x}} 4ex=9e−x বা, 4ex=9ex 4 e^{x}=\\frac{9}{e^{x}} 4ex=ex9 বা, e2x=94 e^{2 x}=\\frac{9}{4} e2x=49 বা, (ex)2=(32)2 \\left(e^{x}\\right)^{2}=\\left(\\frac{3}{2}\\right)^{2} (ex)2=(23)2 বা, ex=32∴x=ln⁡32 e^{x}=\\frac{3}{2} \\quad \\therefore x=\\ln \\frac{3}{2} ex=23∴x=ln23 x=ln⁡32 \\mathrm{x}=\\ln \\frac{3}{2} x=ln23 বিন্দুতে , d2ydx2=4eln⁡32+9⋅1eln⁡32 \\frac{\\mathrm{d}^{2} \\mathrm{y}}{\\mathrm{dx}^{2}}=4 \\mathrm{e}^{\\ln \\frac{3}{2}}+9 \\cdot \\frac{1}{\\mathrm{e}^{\\ln \\frac{3}{2}}} dx2d2y=4eln23+9⋅eln231 =4\\\\times 32+9\\\\times 23[∵el32=32] =4 \\times \\frac{3}{2}+9 \\times \\frac{2}{3}\\left[\\because \\mathrm{e}^{l^{\\frac{3}{2}}}=\\frac{3}{2}\\right] =4\\\\times 23+9\\\\times 32[∵el23=23] =6+6=12>0 =6+6=12>0 =6+6=12>0. ∴x=ln⁡32 \\therefore \\mathrm{x}=\\ln \\frac{3}{2} ∴x=ln23 বিন্দুতে y এর আপেক্ষিক ক্ষুদ্রতম বিদ্যমান। ∴ \\therefore ∴ আপেক্ষিক ক্ষুদ্রতম মান =4eln⁡32+9⋅1eln⁡32 =4 \\mathrm{e}^{\\ln \\frac{3}{2}}+9 \\cdot \\frac{1}{e^{\\ln \\frac{3}{2}}} =4eln23+9⋅eln231 =4⋅32+9⋅23=6+6=12 (দেখানো হলে ) \\begin{array}{l} =4 \\cdot \\frac{3}{2}+9 \\cdot \\frac{2}{3} \\\\ =6+6=12 \\text { (দেখানো হলে ) } \\end{array} =4⋅23+9⋅32=6+6=12 (দেখানো হলে )$"
+    "topic": ""
   },
   {
     "id": 25,
-    "question": "exy+1=5 e^{x y + 1} = 5 exy+1=5 হলে, dydx \\frac{dy}{dx} dxdy এর মান নিচের কোনটি ?",
-    "options": {
-      "a": "ln ⁡ 5 𝑥 𝑦 xy ln5",
-      "b": "ln ⁡ 5 − 𝑥 2 −x 2 ln5",
-      "c": "− 𝑦 𝑥 − x y",
-      "d": "ln ⁡ 5 𝑦 y ln5"
-    },
-    "correctAnswer": "c",
-    "explanation": "^{} দেওয়া আছে, exy+1=5⇒xy+1=ln⁡5 \\mathrm{e}^{x y+1}=5 \\Rightarrow \\mathrm{xy}+1=\\ln 5 exy+1=5⇒xy+1=ln5 ∴dydx=−yx \\therefore \\frac{\\mathrm{dy}}{\\mathrm{dx}}=-\\frac{\\mathrm{y}}{\\mathrm{x}} ∴dxdy=−xy [Using the formula of implicit function]",
     "subject": "Math",
+    "question": "$\\lim _{x \\rightarrow 0} \\frac{\\tan x-\\sin x}{x^{3}}$ এর মান কত?",
+    "options": {
+      "a": "£¤¨À",
+      "b": "£¤¨",
+      "c": "££¨À",
+      "d": "£¥¨À"
+    },
+    "correctAnswer": "b",
+    "explanation": "$\\begin{array}{l}\\lim _{x \\rightarrow 0} \\frac{\\tan x-\\sin x}{x^{3}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\tan x}{x} \\frac{1-\\cos x)}{x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\tan x}{x} \\frac{(1-\\cos x)(1+\\cos x)}{x^{2}(1+\\cos x)} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x} \\cdot \\frac{1}{\\cos x} \\cdot \\frac{1-\\cos ^{2} x}{x^{2}(1+\\cos x)} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x} \\cdot \\lim _{x \\rightarrow 0} \\frac{1}{\\cos x} \\cdot\\left(\\frac{\\sin x}{x}\\right)^{2} \\cdot \\lim _{x \\rightarrow 0} \\frac{1}{(1+\\cos x)} \\\\ =1.1 .\\left(\\lim _{x \\rightarrow 0} \\frac{\\sin x}{x}\\right)^{2}+\\frac{1}{2} \\\\ =\\frac{1}{2} \\\\∴ \\lim _{x \\rightarrow 0} \\frac{\\tan x-\\sin x}{x^{3}}=\\frac{1}{2} \\\\\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$exy+1=5 e^{x y + 1} = 5 exy+1=5 হলে, dydx \\frac{dy}{dx} dxdy এর মান নিচের কোনটি ?$",
-    "explanationLatex": "$^{} দেওয়া আছে, exy+1=5⇒xy+1=ln⁡5 \\mathrm{e}^{x y+1}=5 \\Rightarrow \\mathrm{xy}+1=\\ln 5 exy+1=5⇒xy+1=ln5 ∴dydx=−yx \\therefore \\frac{\\mathrm{dy}}{\\mathrm{dx}}=-\\frac{\\mathrm{y}}{\\mathrm{x}} ∴dxdy=−xy [Using the formula of implicit function]$"
+    "topic": ""
   },
   {
     "id": 26,
-    "question": "কোন ব্যবধিতে f(x)=xx2+1 f\\left(x\\right)=\\frac{x}{x^{2} + 1} f(x)=x2+1x ক্রমবর্ধমান?",
-    "options": {
-      "a": "( − ∞ , 0 ) (−∞,0)",
-      "b": "( − 1 , 1 ) (−1,1)",
-      "c": "( 0 , − ∞ ) (0,−∞)",
-      "d": "( − 1 , ∞ ) (−1,∞)"
-    },
-    "correctAnswer": "b",
-    "explanation": "f(x)=xx2+1⇒f′(x)=(x2+1)(1−x)×2x(x2+1)2=1−x2(x2+1)2 \\begin{aligned} f(x) & =\\frac{x}{x^{2}+1} \\\\ \\Rightarrow f^{\\prime}(x) & =\\frac{\\left(x^{2}+1\\right)(1-x) \\times 2 x}{\\left(x^{2}+1\\right)^{2}} \\\\ & =\\frac{1-x^{2}}{\\left(x^{2}+1\\right)^{2}}\\end{aligned} f(x)⇒f′(x)=x2+1x=(x2+1)2(x2+1)(1−x)×2x=(x2+1)21−x2 ক্রম বর্ধমান ফাংশনের জন্য, f′(x)>0 f^{\\prime}(x)>0 f′(x)>0 ⇒1−x2(x2+1)2>0⇒1−x2>0⇒x2−1<0⇒∣x∣2<1⇒∣x∣<1 \\Rightarrow \\frac{1-x^{2}}{\\left(x^{2}+1\\right)^{2}}>0 \\Rightarrow 1-x^{2}>0 \\Rightarrow x^{2}-1<0 \\\\ \\Rightarrow|x|^{2}<1 \\Rightarrow|x|<1 ⇒(x2+1)21−x2>0⇒1−x2>0⇒x2−1<0⇒∣x∣2<1⇒∣x∣<1 ∴−1<x<1 \\therefore-1<x<1∴−1<x<1 ব্যবধি, (−1,1) \\left(- 1 , 1\\right) (−1,1)",
     "subject": "Math",
+    "question": "$e^{x y + 1} = 5$ হলে, $\\frac{dy}{dx}$ এর মান নিচের কোনটি ?",
+    "options": {
+      "a": "$\\frac{\\ln{5}}{x y}$",
+      "b": "$\\frac{\\ln{5}}{- x^{2}}$",
+      "c": "$- \\frac{y}{x}$",
+      "d": "$\\frac{\\ln{5}}{y}$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$^{}$ দেওয়া আছে, $\\mathrm{e}^{x y+1}=5 \\Rightarrow \\mathrm{xy}+1=\\ln 5$ $\\therefore \\frac{\\mathrm{dy}}{\\mathrm{dx}}=-\\frac{\\mathrm{y}}{\\mathrm{x}}$ [Using the formula of implicit function]",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$কোন ব্যবধিতে f(x)=xx2+1 f\\left(x\\right)=\\frac{x}{x^{2} + 1} f(x)=x2+1x ক্রমবর্ধমান?$",
-    "explanationLatex": "$f(x)=xx2+1⇒f′(x)=(x2+1)(1−x)\\\\times 2x(x2+1)2=1−x2(x2+1)2 \\begin{aligned} f(x) & =\\frac{x}{x^{2}+1} \\\\ \\Rightarrow f^{\\prime}(x) & =\\frac{\\left(x^{2}+1\\right)(1-x) \\times 2 x}{\\left(x^{2}+1\\right)^{2}} \\\\ & =\\frac{1-x^{2}}{\\left(x^{2}+1\\right)^{2}}\\end{aligned} f(x)⇒f′(x)=x2+1x=(x2+1)2(x2+1)(1−x)\\\\times 2x=(x2+1)21−x2 ক্রম বর্ধমান ফাংশনের জন্য, f′(x)>0 f^{\\prime}(x)>0 f′(x)>0 ⇒1−x2(x2+1)2>0⇒1−x2>0⇒x2−1<0⇒∣x∣2<1⇒∣x∣<1 \\Rightarrow \\frac{1-x^{2}}{\\left(x^{2}+1\\right)^{2}}>0 \\Rightarrow 1-x^{2}>0 \\Rightarrow x^{2}-1<0 \\\\ \\Rightarrow|x|^{2}<1 \\Rightarrow|x|<1 ⇒(x2+1)21−x2>0⇒1−x2>0⇒x2−1<0⇒∣x∣2<1⇒∣x∣<1 ∴−1<x<1 \\therefore-1<x<1∴−1<x<1 ব্যবধি, (−1,1) \\left(- 1 , 1\\right) (−1,1)$"
+    "topic": ""
   },
   {
     "id": 27,
-    "question": "নিচের সীমার মান কোনটি? lim⁡x→03sin⁡x−sin⁡3xx3\\lim _{x \\rightarrow 0} \\frac{3 \\sin x-\\sin 3 x}{x^{3}} limx→0x33sinx−sin3x",
-    "options": {
-      "a": "2",
-      "b": "-1",
-      "c": "-2",
-      "d": "4"
-    },
-    "correctAnswer": "d",
-    "explanation": "lim⁡x→03sin⁡x−sin⁡3xx3=lim⁡x→04sin⁡3xx3=4⋅lim⁡x→0sin⁡3xx3=4.1=4 (Ans.) \\begin{array}{l} \\lim _{x \\rightarrow 0} \\frac{3 \\sin x-\\sin 3 x}{x^{3}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{4 \\sin ^{3} x}{x^{3}}=4 \\cdot \\lim _{x \\rightarrow 0} \\frac{\\sin ^{3} x}{x^{3}}=4.1 \\\\ =4 \\text { (Ans.) } \\end{array} limx→0x33sinx−sin3x=limx→0x34sin3x=4⋅limx→0x3sin3x=4.1=4 (Ans.)",
     "subject": "Math",
+    "question": "কোন ব্যবধিতে $f\\left(x\\right)=\\frac{x}{x^{2} + 1}$ ক্রমবর্ধমান?",
+    "options": {
+      "a": "$\\left(- ∞ , 0\\right)$",
+      "b": "$\\left(- 1 , 1\\right)$",
+      "c": "$\\left(0 , - ∞\\right)$",
+      "d": "$\\left(- 1 , ∞\\right)$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$\\begin{aligned} f(x) & =\\frac{x}{x^{2}+1} \\\\ \\Rightarrow f^{\\prime}(x) & =\\frac{\\left(x^{2}+1\\right)(1-x) \\times 2 x}{\\left(x^{2}+1\\right)^{2}} \\\\ & =\\frac{1-x^{2}}{\\left(x^{2}+1\\right)^{2}}\\end{aligned}$ ক্রম বর্ধমান ফাংশনের জন্য, $f^{\\prime}(x)>0$ $\\Rightarrow \\frac{1-x^{2}}{\\left(x^{2}+1\\right)^{2}}>0 \\Rightarrow 1-x^{2}>0 \\Rightarrow x^{2}-1<0 \\\\ \\Rightarrow|x|^{2}<1 \\Rightarrow|x|<1$ $\\therefore-1<x<1$ ব্যবধি, $\\left(- 1 , 1\\right)$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$নিচের সীমার মান কোনটি? lim⁡x→03sin⁡x−sin⁡3xx3\\lim _{x \\rightarrow 0} \\frac{3 \\sin x-\\sin 3 x}{x^{3}} limx→0x33sinx−sin3x$",
-    "explanationLatex": "$lim⁡x→03sin⁡x−sin⁡3xx3=lim⁡x→04sin⁡3xx3=4⋅lim⁡x→0sin⁡3xx3=4.1=4 (Ans.) \\begin{array}{l} \\lim _{x \\rightarrow 0} \\frac{3 \\sin x-\\sin 3 x}{x^{3}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{4 \\sin ^{3} x}{x^{3}}=4 \\cdot \\lim _{x \\rightarrow 0} \\frac{\\sin ^{3} x}{x^{3}}=4.1 \\\\ =4 \\text { (Ans.) } \\end{array} limx→0x33sinx−sin3x=limx→0x34sin3x=4⋅limx→0x3sin3x=4.1=4 (Ans.)$"
+    "topic": ""
   },
   {
     "id": 28,
-    "question": "limx→∞ \\underset{x \\rightarrow ∞}{lim} x→∞lim 2xsina2x 2^{x}sin\\frac{a}{2^{x}} 2xsin2xa এর মান কোনটি?",
+    "subject": "Math",
+    "question": "নিচের সীমার মান কোনটি? $\\lim _{x \\rightarrow 0} \\frac{3 \\sin x-\\sin 3 x}{x^{3}}$",
     "options": {
-      "a": "∞ ∞",
-      "b": "0",
-      "c": "1",
-      "d": "a"
+      "a": "£¥¨À",
+      "b": "£ ¦Év",
+      "c": "£ ¦Év",
+      "d": "£§¨À"
     },
     "correctAnswer": "d",
-    "explanation": "lim⁡x→∞2xsin⁡a2x=lim⁡x→∞sin⁡a2xa2x×a=1×a=a \\begin{aligned} & \\lim _{x \\rightarrow \\infty} 2^{x} \\sin \\frac{a}{2^{x}} \\\\ = & \\lim _{x \\rightarrow \\infty} \\frac{\\sin \\frac{a}{2^{x}}}{\\frac{a}{2^{x}}} \\times a \\\\ = & 1 \\times a=a\\end{aligned} ==x→∞lim2xsin2xax→∞lim2xasin2xa×a1×a=a",
-    "subject": "Math",
+    "explanation": "$\\begin{array}{l} \\lim _{x \\rightarrow 0} \\frac{3 \\sin x-\\sin 3 x}{x^{3}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{4 \\sin ^{3} x}{x^{3}}=4 \\cdot \\lim _{x \\rightarrow 0} \\frac{\\sin ^{3} x}{x^{3}}=4.1 \\\\ =4 \\text { (Ans.) } \\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$limx→\\\\infty  \\underset{x \\rightarrow \\\\infty }{lim} x→\\\\infty lim 2xsina2x 2^{x}sin\\frac{a}{2^{x}} 2xsin2xa এর মান কোনটি?$",
-    "explanationLatex": "$lim⁡x→\\\\infty 2xsin⁡a2x=lim⁡x→\\\\infty sin⁡a2xa2x\\\\times a=1\\\\times a=a \\begin{aligned} & \\lim _{x \\rightarrow \\infty} 2^{x} \\sin \\frac{a}{2^{x}} \\\\ = & \\lim _{x \\rightarrow \\infty} \\frac{\\sin \\frac{a}{2^{x}}}{\\frac{a}{2^{x}}} \\times a \\\\ = & 1 \\times a=a\\end{aligned} ==x→\\\\infty lim2xsin2xax→\\\\infty lim2xasin2xa\\\\times a1\\\\times a=a$"
+    "topic": ""
   },
   {
     "id": 29,
-    "question": "lim⁡x→−∞x2+2x−x \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x} limx→−∞−xx2+2x এর মান হল-",
-    "options": {
-      "a": "1",
-      "b": "∞ ∞",
-      "c": "− ∞ −∞",
-      "d": "-1"
-    },
-    "correctAnswer": "a",
-    "explanation": "lim⁡x→−∞x2+2x−x=lim⁡x→−∞x1+2x−x=lim⁡x→−∞−1+2x \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}=\\lim _{x \\rightarrow-\\infty} \\frac{x \\sqrt{1+\\frac{2}{x}}}{-x}=\\lim _{x \\rightarrow-\\infty}-\\sqrt{1+\\frac{2}{x}} limx→−∞−xx2+2x=limx→−∞−xx1+x2=limx→−∞−1+x2 Here, limiting value may seen to be -1 . But, in lim⁡x→−∞x2+2x−x,x2+2x>0 \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}, \\sqrt{x^{2}+2 x}>0 limx→−∞−xx2+2x,x2+2x>0 x→−∞⇒x<0⇒−x>0∴lim⁡x→−∞x2+2x−x=1 x \\rightarrow-\\infty \\Rightarrow x<0 \\Rightarrow-x>0 \\therefore \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}=1 x→−∞⇒x<0⇒−x>0∴limx→−∞−xx2+2x=1",
     "subject": "Math",
+    "question": "$\\underset{x \\rightarrow ∞}{lim}$ $2^{x}sin\\frac{a}{2^{x}}$ এর মান কোনটি?",
+    "options": {
+      "a": "£Ï≮ys¦d¶",
+      "b": "££¨À",
+      "c": "£¤¨À",
+      "d": "£Ô¨À"
+    },
+    "correctAnswer": "d",
+    "explanation": "$\\begin{aligned} & \\lim _{x \\rightarrow \\infty} 2^{x} \\sin \\frac{a}{2^{x}} \\\\ = & \\lim _{x \\rightarrow \\infty} \\frac{\\sin \\frac{a}{2^{x}}}{\\frac{a}{2^{x}}} \\times a \\\\ = & 1 \\times a=a\\end{aligned}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→−\\\\infty x2+2x−x \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x} limx→−\\\\infty −xx2+2x এর মান হল-$",
-    "explanationLatex": "$lim⁡x→−\\\\infty x2+2x−x=lim⁡x→−\\\\infty x1+2x−x=lim⁡x→−\\\\infty −1+2x \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}=\\lim _{x \\rightarrow-\\infty} \\frac{x \\sqrt{1+\\frac{2}{x}}}{-x}=\\lim _{x \\rightarrow-\\infty}-\\sqrt{1+\\frac{2}{x}} limx→−\\\\infty −xx2+2x=limx→−\\\\infty −xx1+x2=limx→−\\\\infty −1+x2 Here, limiting value may seen to be -1 . But, in lim⁡x→−\\\\infty x2+2x−x,x2+2x>0 \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}, \\sqrt{x^{2}+2 x}>0 limx→−\\\\infty −xx2+2x,x2+2x>0 x→−\\\\infty ⇒x<0⇒−x>0∴lim⁡x→−\\\\infty x2+2x−x=1 x \\rightarrow-\\infty \\Rightarrow x<0 \\Rightarrow-x>0 \\therefore \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}=1 x→−\\\\infty ⇒x<0⇒−x>0∴limx→−\\\\infty −xx2+2x=1$"
+    "topic": ""
   },
   {
     "id": 30,
-    "question": "x=1 x=1 x=1 বিন্দুতে f(x)=x3−3x2 f(x)=x^{3}-3 x^{2} f(x)=x3−3x2 +x +x +x ফাংশনটি ____।",
+    "subject": "Math",
+    "question": "$\\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}$ এর মান হল",
     "options": {
-      "a": "হ্রাস পায়",
-      "b": "স্থির থাকে",
-      "c": "বৃদ্ধি পায়",
-      "d": "গুনাত্মক বিপরীত হয়"
+      "a": "£¤¨À",
+      "b": "£Ï⊈¬tyÚs",
+      "c": "£Ï≼≮µa¥",
+      "d": "£ ¦Év"
     },
     "correctAnswer": "a",
-    "explanation": "Solve: দেওয়া আছে, f(x)=x3−3x2+x f(x)=x^{3}-3 x^{2}+x f(x)=x3−3x2+x∴f′(x)=3x2−6x+1∴f′(1)=3×12−6×1+1=3−6+1=−2<0 \\begin{array}{l} \\therefore \\quad f^{\\prime}(x)=3 \\mathrm{x}^{2}-6 \\mathrm{x}+1 \\\\ \\therefore f^{\\prime}(1)=3 \\times 1^{2}-6 \\times 1+1=3-6+1 \\\\ =-2<0 \\\\ \\end{array} ∴f′(x)=3x2−6x+1∴f′(1)=3×12−6×1+1=3−6+1=−2<0 ∴x=1 \\therefore \\quad x=1 ∴x=1 বিন্দুতে প্রদত্ত ফাংশনটি হ্রাস পায়।",
-    "subject": "Math",
+    "explanation": "$\\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}=\\lim _{x \\rightarrow-\\infty} \\frac{x \\sqrt{1+\\frac{2}{x}}}{-x}=\\lim _{x \\rightarrow-\\infty}-\\sqrt{1+\\frac{2}{x}}$ Here, limiting value may seen to be -1 . But, in $\\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}, \\sqrt{x^{2}+2 x}>0$ $x \\rightarrow-\\infty \\Rightarrow x<0 \\Rightarrow-x>0 \\therefore \\lim _{x \\rightarrow-\\infty} \\frac{\\sqrt{x^{2}+2 x}}{-x}=1$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x=1 x=1 x=1 বিন্দুতে f(x)=x3−3x2 f(x)=x^{3}-3 x^{2} f(x)=x3−3x2 +x +x +x ফাংশনটি ____।$",
-    "explanationLatex": "$Solve: দেওয়া আছে, f(x)=x3−3x2+x f(x)=x^{3}-3 x^{2}+x f(x)=x3−3x2+x∴f′(x)=3x2−6x+1∴f′(1)=3\\\\times 12−6\\\\times 1+1=3−6+1=−2<0 \\begin{array}{l} \\therefore \\quad f^{\\prime}(x)=3 \\mathrm{x}^{2}-6 \\mathrm{x}+1 \\\\ \\therefore f^{\\prime}(1)=3 \\times 1^{2}-6 \\times 1+1=3-6+1 \\\\ =-2<0 \\\\ \\end{array} ∴f′(x)=3x2−6x+1∴f′(1)=3\\\\times 12−6\\\\times 1+1=3−6+1=−2<0 ∴x=1 \\therefore \\quad x=1 ∴x=1 বিন্দুতে প্রদত্ত ফাংশনটি হ্রাস পায়।$"
+    "topic": ""
   },
   {
     "id": 31,
-    "question": "y=sin⁡x+cos⁡x1+sin⁡2xy=\\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin2x}}y=1+sin2xsinx+cosxহলে,dydx=?\\frac{dy}{dx}=?dxdy=?",
-    "options": {
-      "a": "2 sin ⁡ 2 𝑥 2sin2x",
-      "b": "0 0",
-      "c": "1 1",
-      "d": "cos ⁡ 2 𝑥 cos2x"
-    },
-    "correctAnswer": "b",
-    "explanation": "সঠিক উত্তর: (b) 0 0।",
     "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243596/gst-question-images/Math____________-Varsity-arc_q32.jpg",
+    "question": "$x=1$ বিন্দুতে $f(x)=x^{3}-3 x^{2}$ $+x$ ফাংশনটি ____।",
+    "options": {
+      "a": "£ਬਹਚ਎਑X৴ਨਔfå",
+      "b": "£ਫਹਏਏਉX৯ਨ৊਍¤´q",
+      "c": "£ਟਯਐਝ਀৷jਔ৳ਥå",
+      "d": "£ਊਭ਒਎৽ਅ৸৿U৲ਠਉਥ਄ৗhਬੋ¦Év"
+    },
+    "correctAnswer": "a",
+    "explanation": "Solve: দেওয়া আছে, $f(x)=x^{3}-3 x^{2}+x$ $\\begin{array}{l} \\therefore \\quad f^{\\prime}(x)=3 \\mathrm{x}^{2}-6 \\mathrm{x}+1 \\\\ \\therefore f^{\\prime}(1)=3 \\times 1^{2}-6 \\times 1+1=3-6+1 \\\\ =-2<0 \\\\ \\end{array}$ $\\therefore \\quad x=1$ বিন্দুতে প্রদত্ত ফাংশনটি হ্রাস পায়।",
+    "hasDiagram": false,
+    "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=sin⁡x+cos⁡x1+sin⁡2xy=\\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin2x}}y=1+sin2xsinx+cosxহলে,dydx=?\\frac{dy}{dx}=?dxdy=?$",
-    "explanationLatex": "সঠিক উত্তর: (b) 0 0।"
+    "topic": ""
   },
   {
     "id": 32,
-    "question": "ddx(xex)sin⁡x\\frac{d}{dx}\\left(x e^{x}\\right)^{\\sin x}dxd(xex)sinx",
-    "options": {
-      "a": "( 𝑥 𝑒 𝑥 ) sin ⁡ 𝑥 [ sin ⁡ 𝑥 ⋅ ( 1 𝑥 − 1 ) + ( ln ⁡ 𝑥 + 𝑥 ) cos ⁡ 𝑥 ] (xe x ) sinx [sinx⋅( x 1 −1)+(lnx+x)cosx]",
-      "b": "( 𝑥 𝑒 𝑥 ) sin ⁡ 𝑥 [ sin ⁡ 𝑥 ⋅ ( 1 𝑥 + 1 ) − ( ln ⁡ 𝑥 + 𝑥 ) cos ⁡ 𝑥 ] (xe x ) sinx [sinx⋅( x 1 +1)−(lnx+x)cosx]",
-      "c": "( 𝑥 𝑒 𝑥 ) sin ⁡ 𝑥 [ sin ⁡ 𝑥 ⋅ ( 1 𝑥 + 1 ) + ( ln ⁡ 𝑥 + 𝑥 ) cos ⁡ 𝑥 ] (xe x ) sinx [sinx⋅( x 1 +1)+(lnx+x)cosx]",
-      "d": "( 𝑥 𝑒 𝑥 ) sin ⁡ 𝑥 [ sin ⁡ 𝑥 ⋅ ( 1 𝑥 + 1 ) + ( ln ⁡ 𝑥 − 𝑥 ) cos ⁡ 𝑥 ] (xe x ) sinx [sinx⋅( x 1 +1)+(lnx−x)cosx]"
-    },
-    "correctAnswer": "c",
-    "explanation": "Solve:Let, y=(xex)sin⁡x∴ln⁡y=ln⁡(xex)sin⁡x=sin⁡x(ln⁡x+ln⁡ex)=sin⁡x(ln⁡x+x) \\begin{array}{l} \\text {Let, } y=\\left(x e^{x}\\right)^{\\sin x} \\\\ \\therefore \\ln y=\\ln \\left(x e^{x}\\right)^{\\sin x}=\\sin x\\left(\\ln x+\\ln e^{x}\\right) \\\\ =\\sin x(\\ln x+x) \\\\ \\end{array} Let, y=(xex)sinx∴lny=ln(xex)sinx=sinx(lnx+lnex)=sinx(lnx+x) ইহাকে X এর সাপেক্ষে অন্তরীকরণ করে পাই, 1ydydx=sin⁡x(1x+1)+(ln⁡x+x)cos⁡x⇒dydx=y[(1x+1)sin⁡x+(ln⁡x+x)cos⁡x]=(xex)sin⁡x[sin⁡x⋅(1x+1)+(ln⁡x+x)cos⁡x] \\begin{aligned} & \\frac{1}{y} \\frac{d y}{d x}=\\sin x\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x \\\\ \\Rightarrow & \\frac{d y}{d x}=y\\left[\\left(\\frac{1}{x}+1\\right) \\sin x+(\\ln x+x) \\cos x\\right] \\\\ & =\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x\\right] \\end{aligned} ⇒y1dxdy=sinx(x1+1)+(lnx+x)cosxdxdy=y[(x1+1)sinx+(lnx+x)cosx]=(xex)sinx[sinx⋅(x1+1)+(lnx+x)cosx]",
     "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
+    "question": "$y=\\frac{\\sin x+\\cos x}{\\sqrt{1+\\sin2x}}$ হলে, $\\frac{dy}{dx}=?$",
+    "options": {
+      "a": "$2\\sin2x$",
+      "b": "$0$",
+      "c": "$1$",
+      "d": "$\\cos2x$"
+    },
+    "correctAnswer": "b",
+    "explanation": "£¯Õ×·y«¼ÍrhÉÓé´¦¢ËÃÌ¾Ýc©ÉÎç§©¡ÚÏÄ¯­y³³évhÀ©¤¸Ç§É ®Éå«Uh¢ª¦Év",
+    "hasDiagram": true,
+    "questionImage": "/images/q32_img.jpg",
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$ddx(xex)sin⁡x\\frac{d}{dx}\\left(x e^{x}\\right)^{\\sin x}dxd(xex)sinx$",
-    "explanationLatex": "$Solve:Let, y=(xex)sin⁡x∴ln⁡y=ln⁡(xex)sin⁡x=sin⁡x(ln⁡x+ln⁡ex)=sin⁡x(ln⁡x+x) \\begin{array}{l} \\text {Let, } y=\\left(x e^{x}\\right)^{\\sin x} \\\\ \\therefore \\ln y=\\ln \\left(x e^{x}\\right)^{\\sin x}=\\sin x\\left(\\ln x+\\ln e^{x}\\right) \\\\ =\\sin x(\\ln x+x) \\\\ \\end{array} Let, y=(xex)sinx∴lny=ln(xex)sinx=sinx(lnx+lnex)=sinx(lnx+x) ইহাকে X এর সাপেক্ষে অন্তরীকরণ করে পাই, 1ydydx=sin⁡x(1x+1)+(ln⁡x+x)cos⁡x⇒dydx=y[(1x+1)sin⁡x+(ln⁡x+x)cos⁡x]=(xex)sin⁡x[sin⁡x⋅(1x+1)+(ln⁡x+x)cos⁡x] \\begin{aligned} & \\frac{1}{y} \\frac{d y}{d x}=\\sin x\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x \\\\ \\Rightarrow & \\frac{d y}{d x}=y\\left[\\left(\\frac{1}{x}+1\\right) \\sin x+(\\ln x+x) \\cos x\\right] \\\\ & =\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x\\right] \\end{aligned} ⇒y1dxdy=sinx(x1+1)+(lnx+x)cosxdxdy=y[(x1+1)sinx+(lnx+x)cosx]=(xex)sinx[sinx⋅(x1+1)+(lnx+x)cosx]$"
+    "topic": ""
   },
   {
     "id": 33,
-    "question": "y=lnx+cotx-x হলে dy/dx এর মান কত?",
-    "options": {
-      "a": "1 𝑥 + cos ⁡ 𝑒 𝑐 2 𝑥 − 1 x 1 +cosec 2 x−1",
-      "b": "1 𝑥 − cos ⁡ 𝑒 𝑐 2 𝑥 − 1 x 1 −cosec 2 x−1",
-      "c": "1 𝑥 + cos ⁡ 𝑒 𝑐 2 𝑥 − 1 x 1 +cosec 2 x−1",
-      "d": "কোনোটিই নয়"
-    },
-    "correctAnswer": "b",
-    "explanation": "y=ln⁡x+cot⁡x−x⇒dydx=1x−cosec⁡2x−1 y=\\ln x+\\cot x-x \\Rightarrow \\frac{d y}{d x}=\\frac{1}{x}-\\operatorname{cosec}^{2} x-1 y=lnx+cotx−x⇒dxdy=x1−cosec2x−1",
     "subject": "Math",
+    "question": "$\\frac{d}{dx}\\left(x e^{x}\\right)^{\\sin x}$",
+    "options": {
+      "a": "$\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}-1\\right)+(\\ln x+x) \\cos x\\right]$",
+      "b": "$\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}+1\\right)-(\\ln x+x) \\cos x\\right]$",
+      "c": "$\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x\\right]$",
+      "d": "$\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}+1\\right)+(\\ln x-x) \\cos x\\right]$"
+    },
+    "correctAnswer": "c",
+    "explanation": "Solve: $\\begin{array}{l} \\text {Let, } y=\\left(x e^{x}\\right)^{\\sin x} \\\\ \\therefore \\ln y=\\ln \\left(x e^{x}\\right)^{\\sin x}=\\sin x\\left(\\ln x+\\ln e^{x}\\right) \\\\ =\\sin x(\\ln x+x) \\\\ \\end{array}$ ইহাকে X এর সাপেক্ষে অন্তরীকরণ করে পাই, $\\begin{aligned} & \\frac{1}{y} \\frac{d y}{d x}=\\sin x\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x \\\\ \\Rightarrow & \\frac{d y}{d x}=y\\left[\\left(\\frac{1}{x}+1\\right) \\sin x+(\\ln x+x) \\cos x\\right] \\\\ & =\\left(x e^{x}\\right)^{\\sin x}\\left[\\sin x \\cdot\\left(\\frac{1}{x}+1\\right)+(\\ln x+x) \\cos x\\right] \\end{aligned}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=lnx+cotx-x হলে \\frac{dy}{dx} এর মান কত?$",
-    "explanationLatex": "$y=ln⁡x+cot⁡x−x⇒dydx=1x−cosec⁡2x−1 y=\\ln x+\\cot x-x \\Rightarrow \\frac{d y}{d x}=\\frac{1}{x}-\\operatorname{cosec}^{2} x-1 y=lnx+cotx−x⇒dxdy=x1−cosec2x−1$"
+    "topic": ""
   },
   {
     "id": 34,
-    "question": "y=1x y=\\frac{1}{x} y=x1 হলে, yn= y_{n}= yn= কত?",
+    "subject": "Math",
+    "question": "y=lnx+cotx-x হলে dy/dx এর মান কত?",
     "options": {
-      "a": "a ! x n + 1 x n+1 a!",
-      "b": "( − 1 ) 𝑛 𝑛 ! 𝑥 𝑛 + 1 x n+1 (−1) n n!",
-      "c": "( − 1 ) n + 1 𝑛 ! ( n + 1 ) ! (n+1)! (−1) n+1 n !",
-      "d": "( − 1 ) n + 1 n ! ( n − 1 ) ! (n−1)! (−1) n+1 n!"
+      "a": "£ēÆxy°Ü©Üò¿«Å¬¼§½åÃÂÓ¿eÅä}yijo±s£",
+      "b": "£ēÆxy°Ü©Üò¿«Å¬¼§½åÃÂÓ¿eÅä}yijo±s£",
+      "c": "£ēÆxy°Ü©Üò¿«Å¬¼§½åÃÂÓ¿eÅä}yijo±s£",
+      "d": "£ਈ਷਒ਛ৸৷৑ঢ়৵ਝÿ±s£"
     },
     "correctAnswer": "b",
-    "explanation": "y1=(−1)1x2⇒y2=(−1)(−2)1x3⇒y3=(−1)(−2)(−3)1x4=(−1)3⋅1⋅2⋅31x1+3⇒yn=(−1)n⋅n!1x1+n \\begin{array}{l}y_{1}=(-1) \\frac{1}{x^{2}} \\Rightarrow y_{2}=(-1)(-2) \\frac{1}{x^{3}} \\\\ \\Rightarrow y_{3}=(-1)(-2)(-3) \\frac{1}{x^{4}}=(-1)^{3} \\cdot 1 \\cdot 2 \\cdot 3 \\frac{1}{x^{1+3}} \\\\ \\Rightarrow y_{n}=(-1)^{n} \\cdot n!\\frac{1}{x^{1+n}}\\end{array} y1=(−1)x21⇒y2=(−1)(−2)x31⇒y3=(−1)(−2)(−3)x41=(−1)3⋅1⋅2⋅3x1+31⇒yn=(−1)n⋅n!x1+n1",
-    "subject": "Math",
+    "explanation": "$y=\\ln x+\\cot x-x \\Rightarrow \\frac{d y}{d x}=\\frac{1}{x}-\\operatorname{cosec}^{2} x-1$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=1x y=\\frac{1}{x} y=x1 হলে, yn= y_{n}= yn= কত?$",
-    "explanationLatex": "$y1=(−1)1x2⇒y2=(−1)(−2)1x3⇒y3=(−1)(−2)(−3)1x4=(−1)3⋅1⋅2⋅31x1+3⇒yn=(−1)n⋅n!1x1+n \\begin{array}{l}y_{1}=(-1) \\frac{1}{x^{2}} \\Rightarrow y_{2}=(-1)(-2) \\frac{1}{x^{3}} \\\\ \\Rightarrow y_{3}=(-1)(-2)(-3) \\frac{1}{x^{4}}=(-1)^{3} \\cdot 1 \\cdot 2 \\cdot 3 \\frac{1}{x^{1+3}} \\\\ \\Rightarrow y_{n}=(-1)^{n} \\cdot n!\\frac{1}{x^{1+n}}\\end{array} y1=(−1)x21⇒y2=(−1)(−2)x31⇒y3=(−1)(−2)(−3)x41=(−1)3⋅1⋅2⋅3x1+31⇒yn=(−1)n⋅n!x1+n1$"
+    "topic": ""
   },
   {
     "id": 35,
-    "question": "যদি y = x2 + 1 হয়, তবে কোন বিন্দুতে y এবং dy/dx এর মান সমান হবে?",
-    "options": {
-      "a": "(2, 1)",
-      "b": "(1, 1)",
-      "c": "(1, 2)",
-      "d": "(2, 2)"
-    },
-    "correctAnswer": "c",
-    "explanation": "dydx=y⇒d(x2+1)dx=x2+1 \\begin{aligned} & \\frac{d y}{d x}=y \\\\ \\Rightarrow & \\frac{d\\left(x^{2}+1\\right)}{d x}=x^{2}+1\\end{aligned} ⇒dxdy=ydxd(x2+1)=x2+1 ⇒2x=x2+1 \\Rightarrow 2 x=x^{2}+1 ⇒2x=x2+1 x2−2x+1=0⇒(x−1)2=0⇒x=1 \\begin{array}{l} x^{2}-2 x+1=0 \\\\ \\Rightarrow(x-1)^{2}=0 \\\\ \\Rightarrow x=1 \\end{array} x2−2x+1=0⇒(x−1)2=0⇒x=1 Then, y=x2+1=1+1=2 \\begin{aligned} y & =x^{2}+1 \\\\ & =1+1 \\\\ & =2 \\end{aligned} y=x2+1=1+1=2",
     "subject": "Math",
+    "question": "$y=\\frac{1}{x}$ হলে, $y_{n}=$ কত?",
+    "options": {
+      "a": "$\\frac{\\mathrm{a} !}{\\mathrm{x}^{\\mathrm{n}+1}}$",
+      "b": "$\\frac{(-1)^{n} n !}{x^{n+1}}$",
+      "c": "$\\frac{(-1)^{\\mathrm{n}+1} n \\text { ! }}{(\\mathrm{n}+1) !}$",
+      "d": "$\\frac{(-1)^{\\mathrm{n}+1} \\mathrm{n} !}{(\\mathrm{n}-1) !}$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$\\begin{array}{l}y_{1}=(-1) \\frac{1}{x^{2}} \\Rightarrow y_{2}=(-1)(-2) \\frac{1}{x^{3}} \\\\ \\Rightarrow y_{3}=(-1)(-2)(-3) \\frac{1}{x^{4}}=(-1)^{3} \\cdot 1 \\cdot 2 \\cdot 3 \\frac{1}{x^{1+3}} \\\\ \\Rightarrow y_{n}=(-1)^{n} \\cdot n!\\frac{1}{x^{1+n}}\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$যদি y = x2 + 1 হয়, তবে কোন বিন্দুতে y এবং \\frac{dy}{dx} এর মান সমান হবে?$",
-    "explanationLatex": "$dydx=y⇒d(x2+1)dx=x2+1 \\begin{aligned} & \\frac{d y}{d x}=y \\\\ \\Rightarrow & \\frac{d\\left(x^{2}+1\\right)}{d x}=x^{2}+1\\end{aligned} ⇒dxdy=ydxd(x2+1)=x2+1 ⇒2x=x2+1 \\Rightarrow 2 x=x^{2}+1 ⇒2x=x2+1 x2−2x+1=0⇒(x−1)2=0⇒x=1 \\begin{array}{l} x^{2}-2 x+1=0 \\\\ \\Rightarrow(x-1)^{2}=0 \\\\ \\Rightarrow x=1 \\end{array} x2−2x+1=0⇒(x−1)2=0⇒x=1 Then, y=x2+1=1+1=2 \\begin{aligned} y & =x^{2}+1 \\\\ & =1+1 \\\\ & =2 \\end{aligned} y=x2+1=1+1=2$"
+    "topic": ""
   },
   {
     "id": 36,
-    "question": "y=log(x+1) হলে, y7 = কত?",
-    "options": {
-      "a": "120 𝑥 + 1 7 x+1 7 120",
-      "b": "720 ( 𝑥 + 1 ) 7 (x+1) 7 720",
-      "c": "120 ( 𝑥 + 1 ) 𝑛 (x+1) n 120",
-      "d": "120 ( 𝑥 + 1 ) 6 (x+1) 6 120"
-    },
-    "correctAnswer": "b",
-    "explanation": "y=log⁡(x+1)y1=1x+1y2=−1(x+1)−2=−1(x+1)2y3=2(x+1)3y4=−6(x+1)9y5=24(x+1)5y6=−120(x+1)6y7=720(x+1)7 \\begin{aligned} y & =\\log (x+1) \\\\ y_{1} & =\\frac{1}{x+1} \\\\ y_{2} & =-1(x+1)^{-2} \\\\ & =-\\frac{1}{(x+1)^{2}} \\\\ y_{3} & =\\frac{2}{(x+1)^{3}} \\\\ y_{4} & =\\frac{-6}{(x+1)^{9}} \\\\ y_{5} & =\\frac{24}{(x+1)^{5}} \\\\ y_{6} & =\\frac{-120}{(x+1)^{6}} \\\\ y_{7} & =\\frac{720}{(x+1)^{7}}\\end{aligned} yy1y2y3y4y5y6y7=log(x+1)=x+11=−1(x+1)−2=−(x+1)21=(x+1)32=(x+1)9−6=(x+1)524=(x+1)6−120=(x+1)7720",
     "subject": "Math",
+    "question": "যদি y = x2 + 1 হয়, তবে কোন বিন্দুতে y এবং dy/dx এর মান সমান হবে?",
+    "options": {
+      "a": "£pa¥",
+      "b": "£pa¥",
+      "c": "£pa¥",
+      "d": "£pa¥"
+    },
+    "correctAnswer": "c",
+    "explanation": "$\\begin{aligned} & \\frac{d y}{d x}=y \\\\ \\Rightarrow & \\frac{d\\left(x^{2}+1\\right)}{d x}=x^{2}+1\\end{aligned}$ $\\Rightarrow 2 x=x^{2}+1$ $\\begin{array}{l} x^{2}-2 x+1=0 \\\\ \\Rightarrow(x-1)^{2}=0 \\\\ \\Rightarrow x=1 \\end{array}$ Then, $\\begin{aligned} y & =x^{2}+1 \\\\ & =1+1 \\\\ & =2 \\end{aligned}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=log(x+1) হলে, y7 = কত?$",
-    "explanationLatex": "$y=log⁡(x+1)y1=1x+1y2=−1(x+1)−2=−1(x+1)2y3=2(x+1)3y4=−6(x+1)9y5=24(x+1)5y6=−120(x+1)6y7=720(x+1)7 \\begin{aligned} y & =\\log (x+1) \\\\ y_{1} & =\\frac{1}{x+1} \\\\ y_{2} & =-1(x+1)^{-2} \\\\ & =-\\frac{1}{(x+1)^{2}} \\\\ y_{3} & =\\frac{2}{(x+1)^{3}} \\\\ y_{4} & =\\frac{-6}{(x+1)^{9}} \\\\ y_{5} & =\\frac{24}{(x+1)^{5}} \\\\ y_{6} & =\\frac{-120}{(x+1)^{6}} \\\\ y_{7} & =\\frac{720}{(x+1)^{7}}\\end{aligned} yy1y2y3y4y5y6y7=log(x+1)=x+11=−1(x+1)−2=−(x+1)21=(x+1)32=(x+1)9−6=(x+1)524=(x+1)6−120=(x+1)7720$"
+    "topic": ""
   },
   {
     "id": 37,
-    "question": "lim⁡x→∞(1+1x)x \\lim_{x \\to \\infty} \\left ( 1 + \\frac{1}{x} \\right )^{x} limx→∞(1+x1)x এর মান কত?",
-    "options": {
-      "a": "2",
-      "b": "3",
-      "c": "π",
-      "d": "e"
-    },
-    "correctAnswer": "d",
-    "explanation": "Ans: D.",
     "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243598/gst-question-images/Math____________-Varsity-arc_q38.jpg",
+    "question": "y=log(x+1) হলে, y7 = কত?",
+    "options": {
+      "a": "$\\frac{120}{ x + 1 ^{7}}$",
+      "b": "$\\frac{720}{(x+1)^{7}}$",
+      "c": "$\\frac{120}{(x+1)^{n}}$",
+      "d": "$\\frac{120}{(x+1)^{6}}$"
+    },
+    "correctAnswer": "b",
+    "explanation": "$\\begin{aligned} y & =\\log (x+1) \\\\ y_{1} & =\\frac{1}{x+1} \\\\ y_{2} & =-1(x+1)^{-2} \\\\ & =-\\frac{1}{(x+1)^{2}} \\\\ y_{3} & =\\frac{2}{(x+1)^{3}} \\\\ y_{4} & =\\frac{-6}{(x+1)^{9}} \\\\ y_{5} & =\\frac{24}{(x+1)^{5}} \\\\ y_{6} & =\\frac{-120}{(x+1)^{6}} \\\\ y_{7} & =\\frac{720}{(x+1)^{7}}\\end{aligned}$",
+    "hasDiagram": false,
+    "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→\\\\infty (1+1x)x \\lim_{x \\to \\infty} \\left ( 1 + \\frac{1}{x} \\right )^{x} limx→\\\\infty (1+x1)x এর মান কত?$",
-    "explanationLatex": "Ans: D."
+    "topic": ""
   },
   {
     "id": 38,
-    "question": "একটি গোলকের ব্যাসার্ধের বৃদ্ধিহার এবং পৃষ্ঠদেশের বৃদ্ধিহার সংখ্যাসূচক ভাবে সমান হলে, গোলকটির ব্যাসার্ধের মান-",
+    "subject": "Math",
+    "question": "$\\lim_{x \\to \\infty} \\left ( 1 + \\frac{1}{x} \\right )^{x}$ এর মান কত?",
     "options": {
-      "a": "1 4 𝜋 4π 1",
-      "b": "8π",
-      "c": "4π",
-      "d": "1 8 𝜋 8π 1"
+      "a": "£¥¨À",
+      "b": "£¦¨À",
+      "c": "£гĊ¨",
+      "d": "£Ø¨À"
     },
     "correctAnswer": "d",
-    "explanation": "গোলকের ব্যাসার্ধ বৃদ্ধির হার= drdt\\ \\frac{d r}{d t} dtdr পৃষ্ঠদেশের বৃদ্ধির হার =ddt(4πr2)=8πrdrdt \\text { } \\begin{aligned} & =\\frac{d}{d t}\\left(4 \\pi r^{2}\\right) \\\\ & =8 \\pi r \\frac{d r}{d t} \\end{aligned} =dtd(4πr2)=8πrdtdr প্রশ্নমতে, 8πrdrdt=drdt∴r=18π \\begin{array}{l} 8 \\pi r \\frac{d r}{d t}=\\frac{d r}{d t} \\\\ \\therefore \\quad r=\\frac{1}{8 \\pi} \\end{array} 8πrdtdr=dtdr∴r=8π1 (Ans)",
-    "subject": "Math",
+    "explanation": "Ans: D.",
     "hasDiagram": false,
     "questionImage": null,
-    "explanationImage": null,
+    "explanationImage": "/images/q38_expl.jpg",
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "একটি গোলকের ব্যাসার্ধের বৃদ্ধিহার এবং পৃষ্ঠদেশের বৃদ্ধিহার সংখ্যাসূচক ভাবে সমান হলে, গোলকটির ব্যাসার্ধের মান-",
-    "explanationLatex": "$গোলকের ব্যাসার্ধ বৃদ্ধির হার= drdt\\ \\frac{d r}{d t} dtdr পৃষ্ঠদেশের বৃদ্ধির হার =ddt(4\\\\pi r2)=8\\\\pi rdrdt \\text { } \\begin{aligned} & =\\frac{d}{d t}\\left(4 \\pi r^{2}\\right) \\\\ & =8 \\pi r \\frac{d r}{d t} \\end{aligned} =dtd(4\\\\pi r2)=8\\\\pi rdtdr প্রশ্নমতে, 8\\\\pi rdrdt=drdt∴r=18\\\\pi  \\begin{array}{l} 8 \\pi r \\frac{d r}{d t}=\\frac{d r}{d t} \\\\ \\therefore \\quad r=\\frac{1}{8 \\pi} \\end{array} 8\\\\pi rdtdr=dtdr∴r=8\\\\pi 1 (Ans)$"
+    "topic": ""
   },
   {
     "id": 39,
-    "question": "নিচের সীমার মান কোনটি? lim⁡x→0tan⁡axsinbx\\lim _{x \\rightarrow 0} \\frac {\\tan ax}{sin bx}limx→0sinbxtanax",
+    "subject": "Math",
+    "question": "$\\dfrac { d } { d x } \\tan ^ { - 1 } ( \\sec x + \\tan x )$ = ?",
     "options": {
-      "a": "a",
-      "b": "a/b",
-      "c": "sina",
-      "d": "tanx"
+      "a": "£Ï¬tyÚs",
+      "b": "£ÏpX|Æ^Ï³",
+      "c": "£ÏÆ³È«jâoå",
+      "d": "£æÑÍpµ`ÂÆ^Ï³"
     },
     "correctAnswer": "b",
-    "explanation": "Solve: =lim⁡x→0tan⁡axsinbx=lim⁡ax→0tan⁡axax×alim⁡bx→0sin⁡bxbx×b=1×a1×b=ab (Ans.) \\begin{array}{l} =\\lim _{x \\rightarrow 0} \\frac {\\tan ax}{sin bx}\\\\ =\\frac {\\lim _{ax \\rightarrow 0} \\frac {\\tan ax}{ax}{\\times a}}{\\lim _{bx \\rightarrow 0} \\frac {\\sin bx}{ bx}{\\times b}}\\\\ =\\frac{1 \\times a}{1 \\times b}=\\frac{a}{b} \\text { (Ans.) } \\\\ \\end{array} =limx→0sinbxtanax=limbx→0bxsinbx×blimax→0axtanax×a=1×b1×a=ba (Ans.)",
-    "subject": "Math",
+    "explanation": "$\\dfrac d{dx} \\tan ^{-1} (\\sec x+\\tan x)$ $\\implies \\dfrac 1{1+(\\sec x+\\tan x)^2}\\dfrac d{dx}(\\sec x+\\tan x)$ $\\implies \\dfrac 1{1+(\\sec x+\\tan x)^2}(\\sec x\\tan x+\\sec ^2x)$ $\\implies \\dfrac 1{1+\\sec ^2 x+\\tan ^2x +2\\sec x\\tan x}(\\sec x\\tan x+\\sec ^2x)$ $\\implies \\dfrac 1{2\\sec^2x+2\\sec x \\tan x}(\\sec x\\tan x+\\sec ^2x)$ $\\implies \\dfrac 12$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "নিচের সীমার মান কোনটি? lim⁡x→0tan⁡axsinbx\\lim _{x \\rightarrow 0} \\frac {\\tan ax}{sin bx}limx→0sinbxtanax",
-    "explanationLatex": "$Solve: =lim⁡x→0tan⁡axsinbx=lim⁡ax→0tan⁡axax\\\\times alim⁡bx→0sin⁡bxbx\\\\times b=1\\\\times a1\\\\times b=ab (Ans.) \\begin{array}{l} =\\lim _{x \\rightarrow 0} \\frac {\\tan ax}{sin bx}\\\\ =\\frac {\\lim _{ax \\rightarrow 0} \\frac {\\tan ax}{ax}{\\times a}}{\\lim _{bx \\rightarrow 0} \\frac {\\sin bx}{ bx}{\\times b}}\\\\ =\\frac{1 \\times a}{1 \\times b}=\\frac{a}{b} \\text { (Ans.) } \\\\ \\end{array} =limx→0sinbxtanax=limbx→0bxsinbx\\\\times blimax→0axtanax\\\\times a=1\\\\times b1\\\\times a=ba (Ans.)$"
+    "topic": ""
   },
   {
     "id": 40,
-    "question": "x-এর সাপেক্ষে tan⁡−13x \\tan ^{-1} 3 x tan−13x এর অন্তরজ- \\quad [Ctg.B'21]",
+    "subject": "Math",
+    "question": "একটি গোলকের ব্যাসার্ধের বৃদ্ধিহার এবং পৃষ্ঠদেশের বৃদ্ধিহার সংখ্যাসূচক ভাবে সমান হলে, গোলকটির ব্যাসার্ধের মান",
     "options": {
-      "a": "1 1 + 3 𝑥 2 1+3x 2 1",
-      "b": "3 1 + 3 𝑥 2 1+3x 2 3",
-      "c": "1 1 + 9 𝑥 2 1+9x 2 1",
-      "d": "3 1 + 9 𝑥 2 1+9x 2 3"
+      "a": "dpÈÐÂºÅ²ÁеÁShÏ",
+      "b": "£«Ь¦Év",
+      "c": "£§Ь¦Év",
+      "d": "£Ï¬¿ª«Í°wÞÚ­dϳÅÈ¨"
     },
     "correctAnswer": "d",
-    "explanation": "Solve: (d); ddx(tan⁡−13x)=11+(3x)2×3=31+9x2 \\frac{d}{d x}\\left(\\tan ^{-1} 3 \\mathrm{x}\\right)=\\frac{1}{1+(3 \\mathrm{x})^{2}} \\times 3=\\frac{3}{1+9 \\mathrm{x}^{2}} dxd(tan−13x)=1+(3x)21×3=1+9x23",
-    "subject": "Math",
+    "explanation": "গোলকের ব্যাসার্ধ বৃদ্ধির হার= $\\ \\frac{d r}{d t}$ পৃষ্ঠদেশের বৃদ্ধির হার $\\text { } \\begin{aligned} & =\\frac{d}{d t}\\left(4 \\pi r^{2}\\right) \\\\ & =8 \\pi r \\frac{d r}{d t} \\end{aligned}$ প্রশ্নমতে, $\\begin{array}{l} 8 \\pi r \\frac{d r}{d t}=\\frac{d r}{d t} \\\\ \\therefore \\quad r=\\frac{1}{8 \\pi} \\end{array}$ (Ans)",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x-এর সাপেক্ষে tan⁡−13x \\tan ^{-1} 3 x tan−13x এর অন্তরজ- \\quad [Ctg.B'21]$",
-    "explanationLatex": "$Solve: (d); ddx(tan⁡−13x)=11+(3x)2\\\\times 3=31+9x2 \\frac{d}{d x}\\left(\\tan ^{-1} 3 \\mathrm{x}\\right)=\\frac{1}{1+(3 \\mathrm{x})^{2}} \\times 3=\\frac{3}{1+9 \\mathrm{x}^{2}} dxd(tan−13x)=1+(3x)21\\\\times 3=1+9x23$"
+    "topic": ""
   },
   {
     "id": 41,
-    "question": "y=10log(sinx) হলে, dydx \\frac{dy}{dx} dxdy এর মান কোনটি?",
-    "options": {
-      "a": "10 log ⁡ ( sin ⁡ 𝑥 ) log ⁡ 𝑒 10 cot ⁡ 𝑥 10 log(sinx) log e 10cotx",
-      "b": "10 log ⁡ ( sin ⁡ 𝑥 ) log ⁡ 𝑒 10 sin ⁡ 𝑥 10 log(sinx) log e 10sinx",
-      "c": "10 log ⁡ ( sin ⁡ 𝑥 ) 𝑐 𝑜 𝑡 𝑥 10 log(sinx) cotx",
-      "d": "None"
-    },
-    "correctAnswer": "c",
-    "explanation": "y=10log⁡(sin⁡x)⇒ln⁡y=log⁡(sin⁡x)×ln⁡10=ln⁡(sin⁡x)ln⁡10×ln⁡10=ln⁡(sin⁡x) \\mathrm{y}=10^{\\log (\\sin \\mathrm{x})} \\Rightarrow \\ln \\mathrm{y}=\\log (\\sin \\mathrm{x}) \\times \\ln 10=\\frac{\\ln (\\sin \\mathrm{x})}{\\ln 10} \\times \\ln 10=\\ln (\\sin \\mathrm{x}) y=10log(sinx)⇒lny=log(sinx)×ln10=ln10ln(sinx)×ln10=ln(sinx) ⇒dydx=y⋅1sin⁡x⋅cos⁡x=10log⁡(sin⁡x)⋅cot⁡x \\Rightarrow \\frac{d y}{d x}=y \\cdot \\frac{1}{\\sin x} \\cdot \\cos x=10^{\\log (\\sin x)} \\cdot \\cot x ⇒dxdy=y⋅sinx1⋅cosx=10log(sinx)⋅cotx",
     "subject": "Math",
+    "question": "নিচের সীমার মান কোনটি? $\\lim _{x \\rightarrow 0} \\frac {\\tan ax}{sin bx}$",
+    "options": {
+      "a": "£Ô¨À",
+      "b": "£ÔÌ¨",
+      "c": "£æÕØ±gº¨",
+      "d": "£çÍØÈgº¨"
+    },
+    "correctAnswer": "b",
+    "explanation": "Solve: $\\begin{array}{l} =\\lim _{x \\rightarrow 0} \\frac {\\tan ax}{sin bx}\\\\ =\\frac {\\lim _{ax \\rightarrow 0} \\frac {\\tan ax}{ax}{\\times a}}{\\lim _{bx \\rightarrow 0} \\frac {\\sin bx}{ bx}{\\times b}}\\\\ =\\frac{1 \\times a}{1 \\times b}=\\frac{a}{b} \\text { (Ans.) } \\\\ \\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$y=10log(sinx) হলে, dydx \\frac{dy}{dx} dxdy এর মান কোনটি?$",
-    "explanationLatex": "$y=10log⁡(sin⁡x)⇒ln⁡y=log⁡(sin⁡x)\\\\times ln⁡10=ln⁡(sin⁡x)ln⁡10\\\\times ln⁡10=ln⁡(sin⁡x) \\mathrm{y}=10^{\\log (\\sin \\mathrm{x})} \\Rightarrow \\ln \\mathrm{y}=\\log (\\sin \\mathrm{x}) \\times \\ln 10=\\frac{\\ln (\\sin \\mathrm{x})}{\\ln 10} \\times \\ln 10=\\ln (\\sin \\mathrm{x}) y=10log(sinx)⇒lny=log(sinx)\\\\times ln10=ln10ln(sinx)\\\\times ln10=ln(sinx) ⇒dydx=y⋅1sin⁡x⋅cos⁡x=10log⁡(sin⁡x)⋅cot⁡x \\Rightarrow \\frac{d y}{d x}=y \\cdot \\frac{1}{\\sin x} \\cdot \\cos x=10^{\\log (\\sin x)} \\cdot \\cot x ⇒dxdy=y⋅sinx1⋅cosx=10log(sinx)⋅cotx$"
+    "topic": ""
   },
   {
     "id": 42,
-    "question": "x = a বিন্দুতে f(x) ক্রমবর্ধমন হবে যদি-",
-    "options": {
-      "a": "f'(a)=0",
-      "b": "f'(a)>0",
-      "c": "f'(a)<0",
-      "d": "f'(a)≠0"
-    },
-    "correctAnswer": "a",
-    "explanation": "f(x) একটি ফাংশন হলে এবং f′(x) f\\prime(x) f′(x) হলো x এর সাপেক্ষে f(x) এর অন্তরীকরণ। যদিf′(a) f^{\\prime}(a) f′(a)=0 হয় তবেই কেবলমাত্র x = a বিন্দুতে f(x) ক্রমবর্ধমান হবে।",
     "subject": "Math",
+    "question": "x-এর সাপেক্ষে $\\tan ^{-1} 3 x$ এর অন্তরজ- $\\quad$ [Ctg.B'21]",
+    "options": {
+      "a": "$\\frac{1}{1+3 x^{2}}$",
+      "b": "$\\frac{3}{1+3 x^{2}}$",
+      "c": "$\\frac{1}{1+9 x^{2}}$",
+      "d": "$\\frac{3}{1+9 x^{2}}$"
+    },
+    "correctAnswer": "d",
+    "explanation": "Solve: (d); $\\frac{d}{d x}\\left(\\tan ^{-1} 3 \\mathrm{x}\\right)=\\frac{1}{1+(3 \\mathrm{x})^{2}} \\times 3=\\frac{3}{1+9 \\mathrm{x}^{2}}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x = a বিন্দুতে f(x) ক্রমবর্ধমন হবে যদি-$",
-    "explanationLatex": "$f(x) একটি ফাংশন হলে এবং f′(x) f\\prime(x) f′(x) হলো x এর সাপেক্ষে f(x) এর অন্তরীকরণ। যদিf′(a) f^{\\prime}(a) f′(a)=0 হয় তবেই কেবলমাত্র x = a বিন্দুতে f(x) ক্রমবর্ধমান হবে।$"
+    "topic": ""
   },
   {
     "id": 43,
-    "question": "lim⁡x→0ln⁡(1+x)x=?\\rm{\\underset{x \\to 0}{\\lim } \\frac{\\ln(1+x)}{x}=? }x→0limxln(1+x)=?",
+    "subject": "Math",
+    "question": "y=10log(sinx) হলে, $\\frac{dy}{dx}$ এর মান কোনটি?",
     "options": {
-      "a": "0 0",
-      "b": "− 1 −1",
-      "c": "1 1",
-      "d": "∞ ∞"
+      "a": "dp®Ô¶ÙÁ½ËÚª§hÆÃÂ¦Åâ²f½ÑÞ«¼çÍy¶Ù¥ÜÄò¿dxðÆ³È¬Åâ²f»d",
+      "b": "£ÏÅÆ¡µÈÚÑ°®çpµ«³Ø°¾ÞÑ¶¯ÛàyÖµjÆ¡µÈ¾ð©°Ã¤çpµ«³Ø°¾ÞÑmowãª",
+      "c": "£ÏÅÆ¡µÈÚÑ°®çpµ«³Ø°¾ÞÑ¶¯ÛàyÖµjÍ¤ºÙÑmowãª",
+      "d": "£ÁÛØµgº¨"
     },
     "correctAnswer": "c",
-    "explanation": "lim⁡x→0ln⁡(1+x)x[00form]=lim⁡x→011+x=1\\rm {\\underset{x \\to 0}{\\lim} \\frac{\\ln{(1+x)}}{x} \\left[ \\frac{0}{0} form \\right]= \\underset{x \\to 0}{\\lim} \\frac{1}{1+x}=1}x→0limxln(1+x)[00form]=x→0lim1+x1=1",
-    "subject": "Math",
+    "explanation": "$\\mathrm{y}=10^{\\log (\\sin \\mathrm{x})} \\Rightarrow \\ln \\mathrm{y}=\\log (\\sin \\mathrm{x}) \\times \\ln 10=\\frac{\\ln (\\sin \\mathrm{x})}{\\ln 10} \\times \\ln 10=\\ln (\\sin \\mathrm{x})$ $\\Rightarrow \\frac{d y}{d x}=y \\cdot \\frac{1}{\\sin x} \\cdot \\cos x=10^{\\log (\\sin x)} \\cdot \\cot x$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→0ln⁡(1+x)x=?\\rm{\\underset{x \\to 0}{\\lim } \\frac{\\ln(1+x)}{x}=? }x→0limxln(1+x)=?$",
-    "explanationLatex": "$lim⁡x→0ln⁡(1+x)x[00form]=lim⁡x→011+x=1\\rm {\\underset{x \\to 0}{\\lim} \\frac{\\ln{(1+x)}}{x} \\left[ \\frac{0}{0} form \\right]= \\underset{x \\to 0}{\\lim} \\frac{1}{1+x}=1}x→0limxln(1+x)[00form]=x→0lim1+x1=1$"
+    "topic": ""
   },
   {
     "id": 44,
-    "question": "lim⁡x→0ax−1x \\lim_{x \\to 0} \\frac{a^{x} - 1}{x} limx→0xax−1 এর মান কত?",
-    "options": {
-      "a": "lnea",
-      "b": "ln a",
-      "c": "ln ax",
-      "d": "ln xa"
-    },
-    "correctAnswer": "b",
-    "explanation": "lim⁡x→0ax−1x[00 form ]⇒lim⁡x→0axln⁡a−01[L′ Hopital ]=a0ln⁡a=ln⁡a \\begin{array}{l}\\lim _{x \\rightarrow 0} \\frac{a^{x}-1}{x}\\left[\\frac{0}{0} \\text { form }\\right] \\\\ \\Rightarrow \\lim _{x \\rightarrow 0} \\frac{a^{x} \\ln a-0}{1}\\left[L^{\\prime} \\text { Hopital }\\right] \\\\ =a^{0} \\ln a=\\ln a\\end{array} limx→0xax−1[00 form ]⇒limx→01axlna−0[L′ Hopital ]=a0lna=lna",
     "subject": "Math",
+    "question": "x = a বিন্দুতে f(x) ক্রমবর্ধমন হবে যদি",
+    "options": {
+      "a": "£Ù±uz¦d¶",
+      "b": "£Ù±^±Þpvå",
+      "c": "£Ù±^¶Þpvå",
+      "d": "£Ù±⊘z¦d¶"
+    },
+    "correctAnswer": "a",
+    "explanation": "f(x) একটি ফাংশন হলে এবং $f\\prime(x)$ হলো x এর সাপেক্ষে f(x) এর অন্তরীকরণ। যদি $f^{\\prime}(a)$ =0 হয় তবেই কেবলমাত্র x = a বিন্দুতে f(x) ক্রমবর্ধমান হবে।",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→0ax−1x \\lim_{x \\to 0} \\frac{a^{x} - 1}{x} limx→0xax−1 এর মান কত?$",
-    "explanationLatex": "$lim⁡x→0ax−1x[00 form ]⇒lim⁡x→0axln⁡a−01[L′ Hopital ]=a0ln⁡a=ln⁡a \\begin{array}{l}\\lim _{x \\rightarrow 0} \\frac{a^{x}-1}{x}\\left[\\frac{0}{0} \\text { form }\\right] \\\\ \\Rightarrow \\lim _{x \\rightarrow 0} \\frac{a^{x} \\ln a-0}{1}\\left[L^{\\prime} \\text { Hopital }\\right] \\\\ =a^{0} \\ln a=\\ln a\\end{array} limx→0xax−1[00 form ]⇒limx→01axlna−0[L′ Hopital ]=a0lna=lna$"
+    "topic": ""
   },
   {
     "id": 45,
-    "question": "lim⁡x→0sin⁡7x4x \\lim_{x \\to 0} \\frac{\\sin{7} x}{4 x} limx→04xsin7x এর মান কোনটি?",
-    "options": {
-      "a": "1",
-      "b": "0",
-      "c": "4 7 7 4",
-      "d": "7 4 4 7"
-    },
-    "correctAnswer": "d",
-    "explanation": "সঠিক উত্তর: (d) 7 4 4 7।",
     "subject": "Math",
-    "hasDiagram": true,
-    "questionImage": "https://res.cloudinary.com/diy09ulsz/image/upload/v1773243599/gst-question-images/Math____________-Varsity-arc_q47.jpg",
+    "question": "$\\rm{\\underset{x \\to 0}{\\lim } \\frac{\\ln(1+x)}{x}=? }$",
+    "options": {
+      "a": "$0$",
+      "b": "$-1$",
+      "c": "$1$",
+      "d": "$\\infty$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$\\rm {\\underset{x \\to 0}{\\lim} \\frac{\\ln{(1+x)}}{x} \\left[ \\frac{0}{0} form \\right]= \\underset{x \\to 0}{\\lim} \\frac{1}{1+x}=1}$",
+    "hasDiagram": false,
+    "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→0sin⁡7x4x \\lim_{x \\to 0} \\frac{\\sin{7} x}{4 x} limx→04xsin7x এর মান কোনটি?$",
-    "explanationLatex": "সঠিক উত্তর: (d) 7 4 4 7।"
+    "topic": ""
   },
   {
     "id": 46,
-    "question": "lim⁡x→(π2)π2−xcot⁡x \\lim_{x \\to \\left ( \\frac{\\pi}{2} \\right )} \\frac{\\frac{\\pi}{2} - x}{\\cot{x}} limx→(2π)cotx2π−x এর মান কত ?",
-    "options": {
-      "a": "𝜋 π",
-      "b": "∞ ∞",
-      "c": "0",
-      "d": "1"
-    },
-    "correctAnswer": "d",
-    "explanation": "lim⁡x→π2π2−xcot⁡x=lim⁡x→π2−1−cosec⁡2x=−1−(1)2=1 \\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\frac{\\pi}{2}-x}{\\cot x}=\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{-1}{-\\operatorname{cosec}^{2} x}=\\frac{-1}{-(1)^{2}}=1 limx→2πcotx2π−x=limx→2π−cosec2x−1=−(1)2−1=1",
     "subject": "Math",
+    "question": "$\\lim_{x \\to 0} \\frac{a^{x} - 1}{x}$ এর মান কত?",
+    "options": {
+      "a": "£ßÚ¦ÃÎÏquÔÔ×o»èÜ¨±g½ß¥å",
+      "b": "£ßÚ±gº¨",
+      "c": "£ßÚ±«¿Ús¾è¹£¯Ú",
+      "d": "£ßÚÈ«¿Ús§è¹£¯Ú"
+    },
+    "correctAnswer": "b",
+    "explanation": "$\\begin{array}{l}\\lim _{x \\rightarrow 0} \\frac{a^{x}-1}{x}\\left[\\frac{0}{0} \\text { form }\\right] \\\\ \\Rightarrow \\lim _{x \\rightarrow 0} \\frac{a^{x} \\ln a-0}{1}\\left[L^{\\prime} \\text { Hopital }\\right] \\\\ =a^{0} \\ln a=\\ln a\\end{array}$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$lim⁡x→(\\\\pi 2)\\\\pi 2−xcot⁡x \\lim_{x \\to \\left ( \\frac{\\pi}{2} \\right )} \\frac{\\frac{\\pi}{2} - x}{\\cot{x}} limx→(2\\\\pi )cotx2\\\\pi −x এর মান কত ?$",
-    "explanationLatex": "$lim⁡x→\\\\pi 2\\\\pi 2−xcot⁡x=lim⁡x→\\\\pi 2−1−cosec⁡2x=−1−(1)2=1 \\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\frac{\\pi}{2}-x}{\\cot x}=\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{-1}{-\\operatorname{cosec}^{2} x}=\\frac{-1}{-(1)^{2}}=1 limx→2\\\\pi cotx2\\\\pi −x=limx→2\\\\pi −cosec2x−1=−(1)2−1=1$"
+    "topic": ""
   },
   {
     "id": 47,
-    "question": "Lim⁡x→0a+x2−a−x2x2 \\operatorname{Lim}_{x \\rightarrow 0} \\frac{\\sqrt{a + x ²} - \\sqrt{a - x ²}}{x^{2}} Limx→0x2a+x2−a−x2 এর মান কত?",
-    "options": {
-      "a": "1 2 𝑎 2 a 1",
-      "b": "𝑎 a",
-      "c": "1 𝑎 a 1",
-      "d": "1"
-    },
-    "correctAnswer": "c",
-    "explanation": "lim⁡x→0a+x2−a−x2x2=lim⁡x→0(a+x2−a−x2)(a+x2+a−x2)(a+x2+a−x2)x2=lim⁡x→0a+x2−a+x2(a+x2+a−x2)x2=lim⁡x→02a+x2+a−x2=2a+a=22a \\begin{array}{l} \\lim _{x \\rightarrow 0} \\frac{\\sqrt{a+x^{2}}-\\sqrt{a-x^{2}}}{x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\left(\\sqrt{a+x^{2}}-\\sqrt{a-x^{2}}\\right)\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right)}{\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right) x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{a+x^{2}-a+x^{2}}{\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right) x^{2}} \\\\ =\\lim _{x\\rightarrow 0} \\frac{2}{\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}} \\\\ =\\frac{2}{\\sqrt{a}+\\sqrt{a}}=\\frac{2}{2 \\sqrt{a}} \\end{array} limx→0x2a+x2−a−x2=limx→0(a+x2+a−x2)x2(a+x2−a−x2)(a+x2+a−x2)=limx→0(a+x2+a−x2)x2a+x2−a+x2=limx→0a+x2+a−x22=a+a2=2a2 =1a =\\frac{1}{\\sqrt{a}} =a1",
     "subject": "Math",
-    "hasDiagram": false,
-    "questionImage": null,
+    "question": "$\\lim_{x \\to 0} \\frac{\\sin{7} x}{4 x}$ এর মান কোনটি?",
+    "options": {
+      "a": "£¤¨À",
+      "b": "££¨À",
+      "c": "£Ï¬¿ª«Í°zÞÚ¬ÁS¤¨À",
+      "d": "dpÈÐÂºÅ¡²ÁÜdq"
+    },
+    "correctAnswer": "d",
+    "explanation": "£¯Õ×·y«¼ÍrhÉÓé´¦¢ËÃÌ¾Ýc©ÉÎç§©¡ÚÏÄ¾¼ÌÍâw¥¿¹°·Ñª´ v»Éå«Uh¢ª¦Év",
+    "hasDiagram": true,
+    "questionImage": "/images/q47_img.jpg",
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$Lim⁡x→0a+x2−a−x2x2 \\operatorname{Lim}_{x \\rightarrow 0} \\frac{\\sqrt{a + x ²} - \\sqrt{a - x ²}}{x^{2}} Limx→0x2a+x2−a−x2 এর মান কত?$",
-    "explanationLatex": "$lim⁡x→0a+x2−a−x2x2=lim⁡x→0(a+x2−a−x2)(a+x2+a−x2)(a+x2+a−x2)x2=lim⁡x→0a+x2−a+x2(a+x2+a−x2)x2=lim⁡x→02a+x2+a−x2=2a+a=22a \\begin{array}{l} \\lim _{x \\rightarrow 0} \\frac{\\sqrt{a+x^{2}}-\\sqrt{a-x^{2}}}{x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\left(\\sqrt{a+x^{2}}-\\sqrt{a-x^{2}}\\right)\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right)}{\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right) x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{a+x^{2}-a+x^{2}}{\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right) x^{2}} \\\\ =\\lim _{x\\rightarrow 0} \\frac{2}{\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}} \\\\ =\\frac{2}{\\sqrt{a}+\\sqrt{a}}=\\frac{2}{2 \\sqrt{a}} \\end{array} limx→0x2a+x2−a−x2=limx→0(a+x2+a−x2)x2(a+x2−a−x2)(a+x2+a−x2)=limx→0(a+x2+a−x2)x2a+x2−a+x2=limx→0a+x2+a−x22=a+a2=2a2 =1a =\\frac{1}{\\sqrt{a}} =a1$"
+    "topic": ""
   },
   {
     "id": 48,
-    "question": "x এর প্রেক্ষিতে y=tan⁡−11−x1+x y = \\tan^{- 1}\\frac{1 - x}{1 + x} y=tan−11+x1−x এর অন্তরজ কত?",
-    "options": {
-      "a": "1 1 + 𝑥 2 1+x 2 1",
-      "b": "1 1 − 𝑥 2 1−x 2 1",
-      "c": "− 1 1 + 𝑥 2 − 1+x 2 1",
-      "d": "− 1 1 + 𝑥 2 − 1+x 2 1"
-    },
-    "correctAnswer": "c",
-    "explanation": "y=tan⁡−11−x1+x⇒y=tan⁡−11−tan⁡−1x⇒dydx=ddx(tan⁡−11)−ddx(tan⁡−1x)⇒dydx=0−11+x2=−11+x2 \\begin{array}{l}y=\\tan ^{-1} \\frac{1-x}{1+x} \\Rightarrow y=\\tan ^{-1} 1-\\tan ^{-1} x \\\\ \\Rightarrow \\frac{d y}{d x}=\\frac{d}{d x}\\left(\\tan ^{-1} 1\\right)-\\frac{d}{d x}\\left(\\tan ^{-1} x\\right) \\\\\\Rightarrow \\frac{d y}{d x}=0-\\frac{1}{1+x^{2}}=-\\frac{1}{1+x^{2}}\\end{array} y=tan−11+x1−x⇒y=tan−11−tan−1x⇒dxdy=dxd(tan−11)−dxd(tan−1x)⇒dxdy=0−1+x21=−1+x21",
     "subject": "Math",
+    "question": "$\\lim_{x \\to \\left ( \\frac{\\pi}{2} \\right )} \\frac{\\frac{\\pi}{2} - x}{\\cot{x}}$ এর মান কত ?",
+    "options": {
+      "a": "dpÈÚ¹yX¦U",
+      "b": "dpÈÓ¾¿¬ÃU¢",
+      "c": "££¨À",
+      "d": "£¤¨À"
+    },
+    "correctAnswer": "d",
+    "explanation": "$\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{\\frac{\\pi}{2}-x}{\\cot x}=\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{-1}{-\\operatorname{cosec}^{2} x}=\\frac{-1}{-(1)^{2}}=1$",
     "hasDiagram": false,
     "questionImage": null,
     "explanationImage": null,
     "svg_code": "",
-    "topic": "",
-    "questionLatex": "$x এর প্রেক্ষিতে y=tan⁡−11−x1+x y = \\tan^{- 1}\\frac{1 - x}{1 + x} y=tan−11+x1−x এর অন্তরজ কত?$",
-    "explanationLatex": "$y=tan⁡−11−x1+x⇒y=tan⁡−11−tan⁡−1x⇒dydx=ddx(tan⁡−11)−ddx(tan⁡−1x)⇒dydx=0−11+x2=−11+x2 \\begin{array}{l}y=\\tan ^{-1} \\frac{1-x}{1+x} \\Rightarrow y=\\tan ^{-1} 1-\\tan ^{-1} x \\\\ \\Rightarrow \\frac{d y}{d x}=\\frac{d}{d x}\\left(\\tan ^{-1} 1\\right)-\\frac{d}{d x}\\left(\\tan ^{-1} x\\right) \\\\\\Rightarrow \\frac{d y}{d x}=0-\\frac{1}{1+x^{2}}=-\\frac{1}{1+x^{2}}\\end{array} y=tan−11+x1−x⇒y=tan−11−tan−1x⇒dxdy=dxd(tan−11)−dxd(tan−1x)⇒dxdy=0−1+x21=−1+x21$"
+    "topic": ""
+  },
+  {
+    "id": 49,
+    "subject": "Math",
+    "question": "$\\operatorname{Lim}_{x \\rightarrow 0} \\frac{\\sqrt{a + x ²} - \\sqrt{a - x ²}}{x^{2}}$ এর মান কত?",
+    "options": {
+      "a": "£ēÆxy°Ü©Üò¿ehÏßÛÂÍ³«ç²f»dS¢Ü¨",
+      "b": "dpÈÝÁË¬ÅË²f»d",
+      "c": "dpÈÐÂºÅ²Á½Òæ¶§ÃÔéçpys",
+      "d": "£¤¨À"
+    },
+    "correctAnswer": "c",
+    "explanation": "$\\begin{array}{l} \\lim _{x \\rightarrow 0} \\frac{\\sqrt{a+x^{2}}-\\sqrt{a-x^{2}}}{x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{\\left(\\sqrt{a+x^{2}}-\\sqrt{a-x^{2}}\\right)\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right)}{\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right) x^{2}} \\\\ =\\lim _{x \\rightarrow 0} \\frac{a+x^{2}-a+x^{2}}{\\left(\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}\\right) x^{2}} \\\\ =\\lim _{x\\rightarrow 0} \\frac{2}{\\sqrt{a+x^{2}}+\\sqrt{a-x^{2}}} \\\\ =\\frac{2}{\\sqrt{a}+\\sqrt{a}}=\\frac{2}{2 \\sqrt{a}} \\end{array}$ $=\\frac{1}{\\sqrt{a}}$",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
+  },
+  {
+    "id": 50,
+    "subject": "Math",
+    "question": "x এর প্রেক্ষিতে $y = \\tan^{- 1}\\frac{1 - x}{1 + x}$ এর অন্তরজ কত?",
+    "options": {
+      "a": "$\\frac{1}{1 + x^{2}}$",
+      "b": "$\\frac{1}{1 - x^{2}}$",
+      "c": "$- \\frac{1}{1 + x^{2}}$",
+      "d": "$- \\frac{1}{\\sqrt{1 + x^{2}}}$"
+    },
+    "correctAnswer": "c",
+    "explanation": "$\\begin{array}{l}y=\\tan ^{-1} \\frac{1-x}{1+x} \\Rightarrow y=\\tan ^{-1} 1-\\tan ^{-1} x \\\\ \\Rightarrow \\frac{d y}{d x}=\\frac{d}{d x}\\left(\\tan ^{-1} 1\\right)-\\frac{d}{d x}\\left(\\tan ^{-1} x\\right) \\\\\\Rightarrow \\frac{d y}{d x}=0-\\frac{1}{1+x^{2}}=-\\frac{1}{1+x^{2}}\\end{array}$",
+    "hasDiagram": false,
+    "questionImage": null,
+    "explanationImage": null,
+    "svg_code": "",
+    "topic": ""
   }
 ]
