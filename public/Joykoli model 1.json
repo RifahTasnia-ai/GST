@@ -1,0 +1,1388 @@
+[
+  {
+    "id": 1,
+    "subject": "Physics",
+    "topic": "Measurement",
+    "question": "আধুনিক এস-আই একক পদ্ধতিতে ভর, ত্বরণ ও বলের একক যথাক্রমে নিম্নভাবে প্রকাশ করা হয়?",
+    "options": {
+      "a": "গ্রাম: মি/সে: ডাইন",
+      "b": "কেজি: মি/সে²: নিউটন",
+      "c": "পাউন্ড: ফুট/সে²: পাউন্ডাল",
+      "d": "দৈর্ঘ্য: বল: ভর"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 2,
+    "subject": "Physics",
+    "topic": "Vectors",
+    "question": "যদি $\\vec{A}=2\\hat{i}+a\\hat{j}+\\hat{k}$ এবং $\\vec{B}=-2\\hat{i}+\\hat{j}-2\\hat{k}$ পরস্পর লম্ব হয় তবে a এর মান হবে-",
+    "options": {
+      "a": "-4",
+      "b": "6",
+      "c": "-6",
+      "d": "-2"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 3,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "question": "বেগ হচ্ছে-",
+    "options": {
+      "a": "ত্বরণ-সময় লেখচিত্রের ঢাল",
+      "b": "বল-সময় লেখচিত্রের নিচের ক্ষেত্রফল",
+      "c": "সরণ-সময় লেখচিত্রের ঢাল",
+      "d": "সরণ-সময় লেখচিত্রের নিচের ক্ষেত্রফল"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 4,
+    "subject": "Physics",
+    "topic": "Newtonian Mechanics",
+    "question": "10 kg ভরের একটি বস্তুর উপর 2F মানের বল প্রয়োগ করার ফলে বস্তুটির ত্বরণ 60 m/s² হয়। M ভরের একটি বস্তুর উপর 5F মানের বল প্রয়োগ করার ফলে যদি বস্তুটির ত্বরণ 50 m/s² হয়, তবে ভর M কত?",
+    "options": {
+      "a": "3.3 kg",
+      "b": "4.8 kg",
+      "c": "21 kg",
+      "d": "30 kg"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 5,
+    "subject": "Physics",
+    "topic": "Work, Energy and Power",
+    "question": "একটি কণার উপর $\\vec{F}=(10\\hat{i}+10\\hat{j}+10\\hat{k})$ N বল প্রয়োগ করলে কণাটির সরণ হয়, $\\vec{r}=(2\\hat{i}+2\\hat{j}-2\\hat{k})$ m। বল কর্তৃক সম্পাদিত কাজ কত হবে?",
+    "options": {
+      "a": "20 J",
+      "b": "30 J",
+      "c": "10 J",
+      "d": "40 J"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 6,
+    "subject": "Physics",
+    "topic": "Gravitation",
+    "question": "একটি কৃত্রিম উপগ্রহ 7000 km ব্যাসার্ধবিশিষ্ট বৃত্তাকার কক্ষপথে পৃথিবীকে প্রদক্ষিণ করছে। উপগ্রহটির পর্যায়কাল 2 h হলে কেন্দ্রমুখী ত্বরণ কত?",
+    "options": {
+      "a": "1.331 m/s²",
+      "b": "2.663 m/s²",
+      "c": "5.325 m/s²",
+      "d": "10.650 m/s²"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 7,
+    "subject": "Physics",
+    "topic": "Properties of Matter",
+    "question": "একটি তারের ইয়ং এর গুণাঙ্ক $4 \\times 10^{11} N/m^{2}$। তারটির দৈর্ঘ্য 7.5% বাড়াতে কী পরিমাণ পীড়ন প্রয়োজন হবে?",
+    "options": {
+      "a": "7.5x10¹¹ N/m²",
+      "b": "5.33x10¹⁰ N/m²",
+      "c": "3x10¹⁰ N/m²",
+      "d": "4x10¹⁰ N/m²"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 8,
+    "subject": "Physics",
+    "topic": "Periodic Motion",
+    "question": "সরল ছন্দিত গতিতে স্পন্দনরত দুটি কণার সরণ $x_{1}=A \\sin \\omega t$ এবং $x_{2}=A \\cos \\omega t$ যে কোনো সময়ে এদের মধ্যে দশা পার্থক্য কত হবে?",
+    "options": {
+      "a": "2\\pi",
+      "b": "\\pi",
+      "c": "\\frac{\\pi}{2}",
+      "d": "\\frac{\\pi}{4}"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 9,
+    "subject": "Physics",
+    "topic": "Waves",
+    "question": "একটি তারের ভিতর দিয়ে সাইনোসয়ডাল তরঙ্গ প্রবাহিত হলে তারের কণার সর্বোচ্চ দ্রুতি vs। তারের একটি কণার সরণ সর্বোচ্চ সরণের অর্ধেক হলে ঐ কণার দ্রুতি হলো-",
+    "options": {
+      "a": "vs/2",
+      "b": "\\sqrt{3}vs/2",
+      "c": "2vs",
+      "d": "3vs/4"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 10,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "একটি কণার স্বাধীনতার মাত্রার সংখ্যা 5 হলে শক্তির সমবিভাজন নীতি অনুযায়ী কণাটির মোট শক্তি কত?",
+    "options": {
+      "a": "KT",
+      "b": "KT/2",
+      "c": "3KT/2",
+      "d": "5KT/2"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 11,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "যদি 2 ক্যালরি তাপ সম্পূর্ণভাবে কাজে রূপান্তরিত হয় তবে কাজের পরিমাণ কত?",
+    "options": {
+      "a": "4.2 J",
+      "b": "4.8 J",
+      "c": "8.2 J",
+      "d": "8.4 J"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 12,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "question": "একটি কার্নো ইঞ্জিনের উৎস তাপমাত্রা 500 K। উৎস থেকে 1000 জুল তাপ গ্রহণ করে দুটি সিঙ্কে যথাক্রমে 200 জুল ও 50 জুল তাপ বর্জন করে। ইঞ্জিনটির কর্মদক্ষতা কত?",
+    "options": {
+      "a": "75%",
+      "b": "95%",
+      "c": "80%",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 13,
+    "subject": "Physics",
+    "topic": "Static Electricity",
+    "question": "একটি বিন্দুতে তড়িৎ বিভব, $v=-5x+3y+\\sqrt{15}z$ হলে ঐ বিন্দুতে তড়িৎ প্রাবল্য কত?",
+    "options": {
+      "a": "4 unit",
+      "b": "5 unit",
+      "c": "6 unit",
+      "d": "7 unit"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 14,
+    "subject": "Physics",
+    "topic": "Static Electricity",
+    "question": "এক কুলম্ব চার্জে কতগুলো ইলেকট্রনের চার্জ থাকবে?",
+    "options": {
+      "a": "একটি ইলেকট্রনের",
+      "b": "6.25x10¹⁸ ইলেকট্রনের",
+      "c": "1.6x10¹⁹ ইলেকট্রনের",
+      "d": "6.25x10⁻¹⁹ ইলেকট্রনের"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 15,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "5 A বিদ্যুৎ 30 সেকেন্ড সময় ধরে একটি ইলেক্ট্রোডে প্রবাহিত করলে প্রবাহিত বিদ্যুতের চার্জ কত?",
+    "options": {
+      "a": "60 C",
+      "b": "120 C",
+      "c": "150 C",
+      "d": "100 C"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 16,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "একটি রাবার দণ্ডের দুই প্রান্তের সাথে 10Ω রোধ যুক্ত করা হলে, তুল্য রোধ হবে-",
+    "options": {
+      "a": "0Ω",
+      "b": "10Ω",
+      "c": "1Ω",
+      "d": "5Ω"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 17,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "question": "একটি দিক পরিবর্তী তড়িৎ প্রবাহের সমীকরণের $i=\\sin 3t$ হলে তড়িৎ প্রবাহের গড় বর্গের বর্গমূল এর মান কত?",
+    "options": {
+      "a": "\\frac{3}{\\sqrt{2}}",
+      "b": "\\sqrt{2}",
+      "c": "\\frac{1}{\\sqrt{2}}",
+      "d": "1"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 18,
+    "subject": "Physics",
+    "topic": "Optics",
+    "question": "কোন রং এর বিচ্যুতি সবচেয়ে বেশি?",
+    "options": {
+      "a": "হলুদ",
+      "b": "বেগুনি",
+      "c": "লাল",
+      "d": "কমলা"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 19,
+    "subject": "Physics",
+    "topic": "Optics",
+    "question": "প্রতিফলক দূরবীক্ষণ যন্ত্র নয় কোনটি?",
+    "options": {
+      "a": "নিউটন দূরবীক্ষণ",
+      "b": "হার্সেল দূরবীক্ষণ",
+      "c": "গ্যালিলিও দূরবীক্ষণ",
+      "d": "গ্রেগরী দূরবীক্ষণ"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 20,
+    "subject": "Physics",
+    "topic": "Optics",
+    "question": "প্রিজম কোণ 60° এবং প্রতিসরাঙ্ক $\\sqrt{2}$ হলে, ন্যূনতম বিচ্যুতি কোণ কত?",
+    "options": {
+      "a": "30°",
+      "b": "40°",
+      "c": "60°",
+      "d": "90°"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 21,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "নিম্নের কোনটি বেতার তরঙ্গের উপরিভাগ নয়?",
+    "options": {
+      "a": "মাইক্রো তরঙ্গ",
+      "b": "টেলিভিশন তরঙ্গ",
+      "c": "রাডার তরঙ্গ",
+      "d": "সুর তরঙ্গ"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 22,
+    "subject": "Physics",
+    "topic": "Optics",
+    "question": "ব্যতিচার এক ধরনের-",
+    "options": {
+      "a": "প্রতিসরণ",
+      "b": "অপবর্তন",
+      "c": "সমবর্তন",
+      "d": "উপরি পাতন"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 23,
+    "subject": "Physics",
+    "topic": "Optics",
+    "question": "কোন বিজ্ঞানী আলোকের ব্যতিচার আবিষ্কার করেন?",
+    "options": {
+      "a": "টমাস ইয়ং, 1801",
+      "b": "লর্ড রাদারফোর্ড, 1911",
+      "c": "আলবার্ট আইনস্টাইন, 1920",
+      "d": "ম্যাক্স প্ল্যাঙ্ক, 1925"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 24,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "question": "খাদ্য সংরক্ষণে ব্যবহৃত হয় নিচের কোনটি?",
+    "options": {
+      "a": "আলফা বিকিরণ",
+      "b": "গামা বিকিরণ",
+      "c": "কীটনাশক",
+      "d": "ক্লোরিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 26,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "অম্ল ও ক্ষার সম্পর্কিত কোন মতবাদটিতে পানির প্রয়োজন হয়?",
+    "options": {
+      "a": "উসানোভিচ মতবাদ",
+      "b": "ব্রনস্টেড মতবাদ",
+      "c": "লুইস মতবাদ",
+      "d": "আরহেনিয়াস মতবাদ"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 27,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "question": "কোন পানির TDS (Total Dissolved Solid) এর মান কত অতিক্রম করলে, তা পানের উপযোগী থাকে না?",
+    "options": {
+      "a": "500 ppm",
+      "b": "450 ppm",
+      "c": "1000 ppm",
+      "d": "100 ppm"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 28,
+    "subject": "Chemistry",
+    "topic": "Gases",
+    "question": "কোনটি চার্লসের সূত্র?",
+    "options": {
+      "a": "P \\propto \\frac{1}{V} (at constant T)",
+      "b": "V \\propto \\frac{1}{T} (at constant P)",
+      "c": "V \\propto T (at constant P)",
+      "d": "P \\propto T (at constant V)"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 29,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "Tyrosine হচ্ছে এক প্রকার-",
+    "options": {
+      "a": "এমাইনো অ্যাসিড",
+      "b": "স্টার্চ",
+      "c": "এনজাইম",
+      "d": "সেলুলোজ"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 30,
+    "subject": "Chemistry",
+    "topic": "Biochemistry",
+    "question": "এনজাইম হলো এক প্রকার-",
+    "options": {
+      "a": "প্রোটিন",
+      "b": "কার্বোহাইড্রেট",
+      "c": "ভিটামিন",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 31,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "'বোর পরমাণু মডেল' উপস্থাপিত হয়-",
+    "options": {
+      "a": "1910 সালে",
+      "b": "1911 সালে",
+      "c": "1912 সালে",
+      "d": "1913 সালে"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 32,
+    "subject": "Chemistry",
+    "topic": "Analytical Chemistry",
+    "question": "মস্তিষ্কের টিউমার নির্ণয়ে সর্বাধিক ব্যবহৃত হয়-",
+    "options": {
+      "a": "MRI",
+      "b": "UV",
+      "c": "IR",
+      "d": "NIR"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 33,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "ব্রোমিন হলো-",
+    "options": {
+      "a": "গ্যাস",
+      "b": "কঠিন",
+      "c": "তরল",
+      "d": "অর্ধ-কঠিন"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 34,
+    "subject": "Chemistry",
+    "topic": "Chemical Compounds",
+    "question": "রুজ পাউডার হলো-",
+    "options": {
+      "a": "কপার অক্সাইড",
+      "b": "ফেরিক অক্সাইড",
+      "c": "জিঙ্ক অক্সাইড",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 35,
+    "subject": "Chemistry",
+    "topic": "Chemical Compounds",
+    "question": "চাইনিজ হোয়াইট বলা হয়-",
+    "options": {
+      "a": "কলিচুনকে",
+      "b": "চুনকে",
+      "c": "কপারকে",
+      "d": "জিঙ্ক অক্সাইডকে"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 36,
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "question": "একটি প্রথম ক্রম বিক্রিয়ার অর্ধায়ু 400s হলে, হার ধ্রুবক কত?",
+    "options": {
+      "a": "1.33 x 10⁻² s⁻¹",
+      "b": "1.73 x 10⁻³ s⁻¹",
+      "c": "1.45 x 10⁻² s⁻¹",
+      "d": "1.25 x 10⁻² s⁻¹"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 37,
+    "subject": "Chemistry",
+    "topic": "Agriculture Chemistry",
+    "question": "মাটির pH বাড়াতে কোনটি ব্যবহৃত হয়?",
+    "options": {
+      "a": "KNO3",
+      "b": "NH4NO3",
+      "c": "CaO",
+      "d": "T.S.P"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 38,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "question": "25°C তাপমাত্রায় 5.0 atm চাপে N2O4 এর 18.5% বিয়োজিত হয়। উক্ত তাপমাত্রায় Kp এর মান কত?",
+    "options": {
+      "a": "3.712 atm",
+      "b": "0.708 atm",
+      "c": "1.708 atm",
+      "d": "1.42 atm"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 39,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "নিচের কোনটি প্ল্যাঙ্ক সমীকরণ?",
+    "options": {
+      "a": "\\lambda=\\frac{h}{mv}",
+      "b": "E=mc²",
+      "c": "E=hv",
+      "d": "\\pi=CRT"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 40,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "নিচের কোনটি কোভেলেন্ট ক্রিস্টাল?",
+    "options": {
+      "a": "খনিজ লবণ",
+      "b": "আইস",
+      "c": "ড্রাই আইস",
+      "d": "কোয়ার্টজ"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 41,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "সবচেয়ে বেশি তড়িৎ ধনাত্মক মৌল কোনটি?",
+    "options": {
+      "a": "Al",
+      "b": "K",
+      "c": "Mg",
+      "d": "Ca"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 42,
+    "subject": "Chemistry",
+    "topic": "Thermodynamics",
+    "question": "হাইড্রোজেনের দহন তাপ- kJ/mole",
+    "options": {
+      "a": "-1500",
+      "b": "-242",
+      "c": "-272",
+      "d": "-57.3"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 43,
+    "subject": "Chemistry",
+    "topic": "Analytical Chemistry",
+    "question": "নিম্নের কোনটিকে সাধারণত তরল-তরল ক্রোমাটোগ্রাফি বলে?",
+    "options": {
+      "a": "গ্যাস ক্রোমাটোগ্রাফি",
+      "b": "কাগজ ক্রোমাটোগ্রাফি",
+      "c": "কলাম ক্রোমাটোগ্রাফি",
+      "d": "পাতলা স্তর ক্রোমাটোগ্রাফি"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 44,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "question": "উত্তেজিত অবস্থায় হাইড্রোজেন পরমাণুর কোয়ান্টাম সংখ্যা $n=4, l=1$ বিশিষ্ট অরবিটালটি কি?",
+    "options": {
+      "a": "s orbital",
+      "b": "p orbital",
+      "c": "d_{z²} orbital",
+      "d": "d_{x²-y²} orbital"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 45,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "question": "নিচের কোন যৌগটি চতুস্তলকীয় আকৃতির নয়?",
+    "options": {
+      "a": "CCl4",
+      "b": "NH3",
+      "c": "CH4",
+      "d": "SF4"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 46,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "question": "গ্যাসীয় অবস্থায় এক মোল পরমাণুতে এক মোল ইলেক্ট্রন যোগ করলে যে শক্তির পরিবর্তন হয় তা হলো-",
+    "options": {
+      "a": "ইলেক্ট্রোনেগেটিভিটি",
+      "b": "২য় ইলেক্ট্রনের আসক্তি",
+      "c": "১ম ইলেক্ট্রনের আসক্তি",
+      "d": "১ম আয়নীকরণ শক্তি"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 47,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "50 mL 1.0 M NaOH এবং 50 mL 0.8 M HCI এর মিশ্রণের pH কত?",
+    "options": {
+      "a": "1.0",
+      "b": "2.0",
+      "c": "13.0",
+      "d": "-12.0"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 48,
+    "subject": "Chemistry",
+    "topic": "Chemical Kinetics",
+    "question": "প্রথম ক্রমের বিক্রিয়ার হার ধ্রুবকের মান নিচের কোনটির উপর নির্ভরশীল নয়?",
+    "options": {
+      "a": "তাপমাত্রা",
+      "b": "প্রভাবক",
+      "c": "বিক্রিয়ার অর্ধায়ু",
+      "d": "বিক্রিয়কের ঘনমাত্রা"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 49,
+    "subject": "Chemistry",
+    "topic": "Acids and Bases",
+    "question": "নিচের কোন জলীয় দ্রবণটির pH সবচেয়ে বেশি?",
+    "options": {
+      "a": "0.1 M NH3",
+      "b": "0.1 M NH4Cl",
+      "c": "0.1 M NaOH",
+      "d": "0.1 M CH3COONa"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 50,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "question": "নিচের কোনটি সবচেয়ে অম্লীয়?",
+    "options": {
+      "a": "ফেনল",
+      "b": "m-ক্লোরোফেনল",
+      "c": "বেনজাইল অ্যালকোহল",
+      "d": "সাইক্লোহেক্সানল"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 51,
+    "subject": "Mathematics",
+    "topic": "Polynomials",
+    "question": "দুইটি মূলের যোগফল শূন্য হলে, $x^{3}-5x^{2}-16x+80=0$ সমীকরণটির মূলগুলো কত?",
+    "options": {
+      "a": "4, -4, 5",
+      "b": "2, -2, -5",
+      "c": "3, -3, -5",
+      "d": "-5, 6, -6"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 52,
+    "subject": "Mathematics",
+    "topic": "Calculus - Integration",
+    "question": "$\\int_{0}^{\\frac{\\pi}{2}}\\frac{\\cos x dx}{9-\\sin^{2}x}=?$",
+    "options": {
+      "a": "5 ln 2",
+      "b": "7 ln 2",
+      "c": "6 ln 2",
+      "d": "1/6 ln 2"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 53,
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "question": "$\\tan x+\\tan 3x=0$ এর সমাধান কী হবে?",
+    "options": {
+      "a": "\\frac{n\\pi}{4}",
+      "b": "n\\pi+\\frac{\\pi}{4}",
+      "c": "n\\pi-\\frac{\\pi}{4}",
+      "d": "\\frac{11\\pi}{2}"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 54,
+    "subject": "Mathematics",
+    "topic": "Probability",
+    "question": "একটি বাক্সে 3 টি লাল, 3 টি সবুজ ও 2টি নীল বল আছে। দৈবভাবে 3 টি বল তোলা হলে 2 টি বল সবুজ হবার সম্ভাবনা কত?",
+    "options": {
+      "a": "15/56",
+      "b": "3/7",
+      "c": "28/65",
+      "d": "13/22"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 55,
+    "subject": "Mathematics",
+    "topic": "Matrices",
+    "question": "যদি $A=[\\begin{matrix}2x&0\\\\ x&x\\end{matrix}]$ এবং $A^{-1}=[\\begin{matrix}1&0\\\\ -1&2\\end{matrix}]$ হয়, তাহলে x এর মান কত?",
+    "options": {
+      "a": "-1/2",
+      "b": "2",
+      "c": "1",
+      "d": "1/2"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 56,
+    "subject": "Mathematics",
+    "topic": "Conics",
+    "question": "$y=3x+1$ রেখাটি $y^{2}=ax$ পরাবৃত্তকে স্পর্শ করলে, স্পর্শবিন্দুর স্থানাঙ্ক কত?",
+    "options": {
+      "a": "(1/3, 2)",
+      "b": "(1/3, 1)",
+      "c": "(2/3, 3)",
+      "d": "(3, 2)"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 57,
+    "subject": "Mathematics",
+    "topic": "Calculus - Differentiation",
+    "question": "$e^{3ny+x}=10$ হলে $\\frac{dy}{dx} = ?$",
+    "options": {
+      "a": "x/y",
+      "b": "y/x",
+      "c": "-x/y",
+      "d": "-y/x"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 58,
+    "subject": "Mathematics",
+    "topic": "Complex Numbers",
+    "question": "$\\frac{i-2i^{-1}}{1-i^{-1}}$ এর মডুলাস ও আর্গুমেন্ট কত হবে?",
+    "options": {
+      "a": "3/\\sqrt{2}, \\pi/4",
+      "b": "3/\\sqrt{2}, -\\pi/4",
+      "c": "-3/\\sqrt{2}, -3\\pi/4",
+      "d": "3/\\sqrt{2}, 3\\pi/4"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 59,
+    "subject": "Mathematics",
+    "topic": "Calculus - Integration",
+    "question": "$\\int_{0}^{\\frac{\\pi}{2}}e^{x}(\\sin x+\\cos x)dx = ?$",
+    "options": {
+      "a": "e",
+      "b": "e^{\\pi/2}",
+      "c": "\\pi/2",
+      "d": "1"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 60,
+    "subject": "Mathematics",
+    "topic": "Conics",
+    "question": "$\\frac{x^{2}}{36}+\\frac{y^{2}}{25}=1$ উপবৃত্তের স্পর্শক $y=2x+c$ হলে c এর মান কত?",
+    "options": {
+      "a": "±13",
+      "b": "±15",
+      "c": "±12",
+      "d": "±14"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 61,
+    "subject": "Mathematics",
+    "topic": "Conics",
+    "question": "$4x^{2}-9y^{2}-16x+18y-29=0$ অধিবৃত্তটির অসীমতটদ্বয়ের ছেদবিন্দুর স্থানাঙ্ক কত?",
+    "options": {
+      "a": "(1, 2)",
+      "b": "(2, -1)",
+      "c": "(-2, 1)",
+      "d": "(2, 1)"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 62,
+    "subject": "Mathematics",
+    "topic": "Inverse Trigonometry",
+    "question": "$\\cos^{-1}x+\\cos^{-1}y=\\frac{\\pi}{2}$ হলে, $x^{2}+y^{2}$ এর মান কত?",
+    "options": {
+      "a": "1",
+      "b": "2",
+      "c": "3",
+      "d": "0"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 63,
+    "subject": "Mathematics",
+    "topic": "Matrices",
+    "question": "নিচের কোনটি সমঘাতি ম্যাট্রিক্স?",
+    "options": {
+      "a": "[\\begin{matrix}-2&1\\\\ -2&-1\\end{matrix}]",
+      "b": "[\\begin{matrix}2&1\\\\ -2&-1\\end{matrix}]",
+      "c": "[\\begin{matrix}2&1\\\\ -2&1\\end{matrix}]",
+      "d": "[\\begin{matrix}-2&-1\\\\ -2&-1\\end{matrix}]"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 64,
+    "subject": "Mathematics",
+    "topic": "Binomial Theorem",
+    "question": "$(1-x+x^{2})^{-1}$ এর বিস্তৃতিতে $x^{13}$ এর সহগ কত?",
+    "options": {
+      "a": "-1",
+      "b": "1",
+      "c": "2",
+      "d": "0"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 65,
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "question": "$\\sin 5^{\\circ} \\sin 10^{\\circ} ...$ এর মান কোনটি?",
+    "options": {
+      "a": "2p",
+      "b": "2n\\sqrt{p^{2}-1}",
+      "c": "p^{2}-1",
+      "d": "2p\\sqrt{1-p^{2}}"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 66,
+    "subject": "Mathematics",
+    "topic": "Vectors",
+    "question": "ভেক্টর নির্ণয় কর।",
+    "options": {
+      "a": "2\\sqrt{19}",
+      "b": "4\\sqrt{19}",
+      "c": "\\sqrt{19}",
+      "d": "\\sqrt{2}"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 67,
+    "subject": "Mathematics",
+    "topic": "Circles",
+    "question": "$x^{2}+y^{2}+8x+2ky+c=0$ বৃত্তটি উভয় অক্ষকে স্পর্শ করলে k এবং c এর মান কত?",
+    "options": {
+      "a": "k=8, c=4",
+      "b": "k=±4, c=16",
+      "c": "k=8, c=16",
+      "d": "k=±4, c=4"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 68,
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "question": "ABC ত্রিভুজে যদি $\\angle A=75^{\\circ}$ এবং $\\angle B=45^{\\circ}$ হয়, তবে a:b = ?",
+    "options": {
+      "a": "\\sqrt{3}:\\sqrt{2}",
+      "b": "\\sqrt{2}:\\sqrt{3}",
+      "c": "\\sqrt{5}:\\sqrt{7}",
+      "d": "\\sqrt{7}:\\sqrt{5}"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 69,
+    "subject": "Mathematics",
+    "topic": "Calculus - Integration",
+    "question": "$\\int_{0}^{1}xe^{x^{2}}dx$ এর মান কত?",
+    "options": {
+      "a": "1/2(1-e)",
+      "b": "1/2(e-1)",
+      "c": "e/2",
+      "d": "1/2(e+1)"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 70,
+    "subject": "Mathematics",
+    "topic": "Calculus - Limits",
+    "question": "$\\lim_{x\\rightarrow 0}\\frac{\\cos 7x-\\cos 9x}{\\cos 3x-\\cos 5x}=?$",
+    "options": {
+      "a": "1",
+      "b": "1/2",
+      "c": "2",
+      "d": "0"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 71,
+    "subject": "Mathematics",
+    "topic": "Inequalities",
+    "question": "$|5-\\frac{2}{3x}|<1$ অসমতাটির সমাধান সেট-",
+    "options": {
+      "a": "3<x<4",
+      "b": "1/9>x>1/10",
+      "c": "1/9<x<1/6",
+      "d": "1/3<x<1/2"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 72,
+    "subject": "Mathematics",
+    "topic": "Calculus - Integration",
+    "question": "যদি $\\int\\frac{1}{\\sqrt{4-9x^{2}}} dx = \\frac{1}{3}\\sin^{-1}(ax)+c$ হয়, তাহলে a এর মান কত?",
+    "options": {
+      "a": "2",
+      "b": "4",
+      "c": "3/2",
+      "d": "2/3"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 73,
+    "subject": "Mathematics",
+    "topic": "Statics & Dynamics",
+    "question": "একটি বস্তু 15 m/s বেগে অনুভূমিকের সাথে 30° কোণে নিক্ষিপ্ত হলে, বস্তুটির ভ্রমণকাল কত?",
+    "options": {
+      "a": "1.4 s",
+      "b": "1.53 s",
+      "c": "2.53 s",
+      "d": "2.4 s"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 74,
+    "subject": "Mathematics",
+    "topic": "Permutation & Combination",
+    "question": "যদি $^nP_5 = 60 \\times ^{n-1}P_3$ হয়, তাহলে n এর মান কত?",
+    "options": {
+      "a": "10",
+      "b": "6",
+      "c": "12",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 75,
+    "subject": "Mathematics",
+    "topic": "Statics & Dynamics",
+    "question": "কোন বিন্দুতে ক্রিয়ারত দুইটি বলের লব্ধি তাদের একটির সাথে সমকোণ উৎপন্ন করে এবং অপরটির এক তৃতীয়াংশ। বলদ্বয়ের অনুপাত কোনটি?",
+    "options": {
+      "a": "3:2\\sqrt{2}",
+      "b": "3:7",
+      "c": "1:2",
+      "d": "3\\sqrt{2}:5"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 76,
+    "subject": "Biology",
+    "topic": "Cytology",
+    "question": "কোন ধাতব আয়নটি রাইবোসোমে অনুপস্থিত?",
+    "options": {
+      "a": "Ca",
+      "b": "Fe",
+      "c": "Mg",
+      "d": "Mn"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 77,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "RNA থেকে DNA তৈরির পদ্ধতিকে বলে-",
+    "options": {
+      "a": "রেপ্লিকেশন",
+      "b": "ট্রান্সক্রিপশন",
+      "c": "ট্রান্সলেশন",
+      "d": "রিভার্স ট্রান্সক্রিপশন"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 78,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "সাইনো-অ্যাট্রিয়াল নোড হৃৎপিণ্ডের কোথায় অবস্থিত?",
+    "options": {
+      "a": "ডান অ্যাট্রিয়ামের প্রাচীরে",
+      "b": "বাম অ্যাট্রিয়ামের প্রাচীরে",
+      "c": "ডান ভেন্ট্রিকলের প্রাচীরে",
+      "d": "বাম ভেন্ট্রিকলের প্রাচীরে"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 79,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "Adam's Apple কী?",
+    "options": {
+      "a": "খণ্ডিত আপেল",
+      "b": "থাইরয়েড তরুণাস্থি",
+      "c": "থাইরয়েড রস",
+      "d": "নিউরোক্রোম"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 80,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "টম্যাটোর লাল রঙের জন্য দায়ী-",
+    "options": {
+      "a": "অ্যান্থোসায়ানিন",
+      "b": "লাইকোপিন",
+      "c": "বিটা ক্যারোটিন",
+      "d": "ফাইকোইরাইথ্রিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 81,
+    "subject": "Biology",
+    "topic": "Cell Division",
+    "question": "ক্রসিং ওভার ঘটে কোন দশায়?",
+    "options": {
+      "a": "প্যাকাইটিন",
+      "b": "লেপ্টোটিন",
+      "c": "জাইগোটিন",
+      "d": "ডিপ্লোটিন"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 82,
+    "subject": "Biology",
+    "topic": "Biochemistry",
+    "question": "যে তাপমাত্রায় এনজাইমের কার্যকারিতা নষ্ট হয়ে যায়?",
+    "options": {
+      "a": "50-60°C",
+      "b": "65-75°C",
+      "c": "80-90°C",
+      "d": "95-100°C"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 83,
+    "subject": "Biology",
+    "topic": "Medical Knowledge",
+    "question": "ডেঙ্গু জ্বর প্রতিকারে কোনটি ব্যবহার নিষেধ?",
+    "options": {
+      "a": "প্যারাসিটামল",
+      "b": "ভেজা কাপড় দিয়ে শরীর স্পঞ্জ করা",
+      "c": "প্লাটিলেট ট্রান্সফিউশন",
+      "d": "অ্যাসপিরিন"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 84,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "অ্যামাটক্সিন (Amatoxin) পাওয়া যায়-",
+    "options": {
+      "a": "ধুতরা",
+      "b": "সাপে",
+      "c": "ছত্রাকে",
+      "d": "ব্যাকটেরিয়াতে"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 85,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "কলা কোন প্রকারের যৌগিক ফল?",
+    "options": {
+      "a": "সাইজোকার্প",
+      "b": "লিগিউম",
+      "c": "বেরি",
+      "d": "ক্যাপসিউল"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 86,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "কোন প্রক্রিয়ায় প্লাজমোলাইসিস হয়?",
+    "options": {
+      "a": "অভিস্রবণ",
+      "b": "বহিঃঅভিস্রবণ",
+      "c": "অন্তঃঅভিস্রবণ",
+      "d": "ব্যাপন"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 87,
+    "subject": "Biology",
+    "topic": "Botany",
+    "question": "নিচের কোনটি উদ্ভিদের বৃদ্ধি নিয়ন্ত্রক হিসেবে কাজ করে?",
+    "options": {
+      "a": "অক্সিন",
+      "b": "ফ্লোরিজেন",
+      "c": "অক্সিটোসিন",
+      "d": "পেকটিন"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 88,
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "question": "Bt বেগুন উৎপন্ন করার জন্য কোন অণুজীবটি প্রয়োজন?",
+    "options": {
+      "a": "Bacillus subtilis",
+      "b": "Bacillus thuringiensis",
+      "c": "Bacillus denitrificans",
+      "d": "Bacillus anthracis"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 89,
+    "subject": "Biology",
+    "topic": "Ecology",
+    "question": "IUCN-এর প্রধান কার্যালয় কোথায়?",
+    "options": {
+      "a": "সুইজারল্যান্ড",
+      "b": "অস্ট্রেলিয়া",
+      "c": "কানাডা",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 90,
+    "subject": "Biology",
+    "topic": "Evolution",
+    "question": "স্তন্যপায়ীর ডিম ও নটোকর্ড আবিষ্কার করেন যে বিজ্ঞানী-",
+    "options": {
+      "a": "আঁন্দ্রে ভেসালিয়াস",
+      "b": "কার্ল আর্নস্ট বেয়ার",
+      "c": "লুই পাস্তর",
+      "d": "সালিম আলী"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 91,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "রক্তের প্লাজমায় Na+ এর মাত্রা নিয়ন্ত্রণ করে?",
+    "options": {
+      "a": "অ্যালডোস্টেরন",
+      "b": "প্রোজেস্টেরন",
+      "c": "ভ্যাসোপ্রেসিন",
+      "d": "ইস্ট্রোজেন"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 92,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "মানুষের শরীরের কোন হাড়টিতে 'ডেলটয়েড টিউবারোসিটি' অঞ্চলটি রয়েছে?",
+    "options": {
+      "a": "টিবিয়া-ফিবুলা",
+      "b": "ফিমার",
+      "c": "হিউমেরাস",
+      "d": "স্ক্যাপুলা"
+    },
+    "correctAnswer": "c",
+    "explanation": "no need"
+  },
+  {
+    "id": 93,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "কোনটি মধ্যকর্ণের অস্থি নয়?",
+    "options": {
+      "a": "ম্যালিয়াস",
+      "b": "ইনকাস",
+      "c": "স্টেপিস",
+      "d": "অ্যাটলাস"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 94,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "ভ্রূণের পরিস্ফুটনের জন্য জরায়ুর ভিতর উপযুক্ত পরিবেশ সৃষ্টি করে-",
+    "options": {
+      "a": "ল্যুটিনাইজিং হরমোন",
+      "b": "ফলিকল উদ্দীপক হরমোন",
+      "c": "ইস্ট্রোজেন",
+      "d": "প্রোজেস্টেরন"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 95,
+    "subject": "Biology",
+    "topic": "Immunology",
+    "question": "ABO ব্লাড গ্রুপিং এর অ্যান্টিবডি কোন ধরনের-",
+    "options": {
+      "a": "IgG",
+      "b": "IgM",
+      "c": "IgE",
+      "d": "IgA"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 96,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "question": "কোন জিনের কারণে মোরগ-মুরগির পালক সাদা বর্ণের হয়?",
+    "options": {
+      "a": "সেমিলিথাল জিন",
+      "b": "এপিস্ট্যাটিক জিন",
+      "c": "হাইপোস্ট্যাটিক জিন",
+      "d": "নন-অ্যালিলিক জিন"
+    },
+    "correctAnswer": "b",
+    "explanation": "no need"
+  },
+  {
+    "id": 97,
+    "subject": "Biology",
+    "topic": "Evolution",
+    "question": "পুনরাবৃত্তি মতবাদের প্রবক্তা কে?",
+    "options": {
+      "a": "Ernst Haeckel",
+      "b": "August Weismann",
+      "c": "Hugo de Vries",
+      "d": "James Watson"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 98,
+    "subject": "Biology",
+    "topic": "Zoology Classification",
+    "question": "মৌমাছি কোন পর্বের প্রাণী?",
+    "options": {
+      "a": "Protozoa",
+      "b": "Annelida",
+      "c": "Coelenterata",
+      "d": "Arthropoda"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  },
+  {
+    "id": 99,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "স্থিমিত আলোতে পিউপিল-",
+    "options": {
+      "a": "বড়ো হয়",
+      "b": "ছোটো হয়",
+      "c": "কোনো পরিবর্তন হয় না",
+      "d": "কোনোটিই নয়"
+    },
+    "correctAnswer": "a",
+    "explanation": "no need"
+  },
+  {
+    "id": 100,
+    "subject": "Biology",
+    "topic": "Zoology",
+    "question": "গবলেট কোষের প্রধান কাজ কি?",
+    "options": {
+      "a": "হাইড্রোক্লোরিক অ্যাসিড উৎপাদন",
+      "b": "ইনসুলিন উৎপাদন",
+      "c": "পানি শোষণ",
+      "d": "মিউকাস উৎপাদন"
+    },
+    "correctAnswer": "d",
+    "explanation": "no need"
+  }
+]
